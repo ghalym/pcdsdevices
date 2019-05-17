@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeColdCathode.describe\_configuration
+==========================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeColdCathode.describe_configuration

@@ -1,0 +1,78 @@
+pcdsdevices.pump.IonPumpBase
+============================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. autoclass:: IonPumpBase
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~IonPumpBase.__init__
+      ~IonPumpBase.check_value
+      ~IonPumpBase.clear_sub
+      ~IonPumpBase.configure
+      ~IonPumpBase.describe
+      ~IonPumpBase.describe_configuration
+      ~IonPumpBase.egu
+      ~IonPumpBase.get
+      ~IonPumpBase.get_device_tuple
+      ~IonPumpBase.get_instantiated_signals
+      ~IonPumpBase.info
+      ~IonPumpBase.off
+      ~IonPumpBase.on
+      ~IonPumpBase.pause
+      ~IonPumpBase.pressure
+      ~IonPumpBase.put
+      ~IonPumpBase.read
+      ~IonPumpBase.read_configuration
+      ~IonPumpBase.resume
+      ~IonPumpBase.stage
+      ~IonPumpBase.stop
+      ~IonPumpBase.subscribe
+      ~IonPumpBase.summary
+      ~IonPumpBase.trigger
+      ~IonPumpBase.unstage
+      ~IonPumpBase.unsubscribe
+      ~IonPumpBase.unsubscribe_all
+      ~IonPumpBase.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~IonPumpBase.SUB_ACQ_DONE
+      ~IonPumpBase.aomode
+      ~IonPumpBase.calfactor
+      ~IonPumpBase.component_names
+      ~IonPumpBase.configuration_attrs
+      ~IonPumpBase.connected
+      ~IonPumpBase.controllername
+      ~IonPumpBase.current
+      ~IonPumpBase.event_types
+      ~IonPumpBase.hints
+      ~IonPumpBase.hvstrapping
+      ~IonPumpBase.kind
+      ~IonPumpBase.name
+      ~IonPumpBase.parent
+      ~IonPumpBase.pumpsize
+      ~IonPumpBase.read_attrs
+      ~IonPumpBase.report
+      ~IonPumpBase.root
+      ~IonPumpBase.signal_names
+      ~IonPumpBase.state
+      ~IonPumpBase.status
+      ~IonPumpBase.status_code
+      ~IonPumpBase.supplysize
+      ~IonPumpBase.trigger_signals
+      ~IonPumpBase.voltage
+   
+   

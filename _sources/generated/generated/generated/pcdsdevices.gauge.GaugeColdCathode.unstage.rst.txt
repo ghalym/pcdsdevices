@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeColdCathode.unstage
+==========================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeColdCathode.unstage

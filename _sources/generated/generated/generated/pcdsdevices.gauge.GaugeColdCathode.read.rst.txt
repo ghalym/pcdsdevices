@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeColdCathode.read
+=======================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeColdCathode.read

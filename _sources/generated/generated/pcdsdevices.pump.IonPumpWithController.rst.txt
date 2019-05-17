@@ -1,0 +1,79 @@
+pcdsdevices.pump.IonPumpWithController
+======================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. autoclass:: IonPumpWithController
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~IonPumpWithController.__init__
+      ~IonPumpWithController.check_value
+      ~IonPumpWithController.clear_sub
+      ~IonPumpWithController.configure
+      ~IonPumpWithController.describe
+      ~IonPumpWithController.describe_configuration
+      ~IonPumpWithController.egu
+      ~IonPumpWithController.get
+      ~IonPumpWithController.get_device_tuple
+      ~IonPumpWithController.get_instantiated_signals
+      ~IonPumpWithController.info
+      ~IonPumpWithController.off
+      ~IonPumpWithController.on
+      ~IonPumpWithController.pause
+      ~IonPumpWithController.pressure
+      ~IonPumpWithController.put
+      ~IonPumpWithController.read
+      ~IonPumpWithController.read_configuration
+      ~IonPumpWithController.resume
+      ~IonPumpWithController.stage
+      ~IonPumpWithController.stop
+      ~IonPumpWithController.subscribe
+      ~IonPumpWithController.summary
+      ~IonPumpWithController.trigger
+      ~IonPumpWithController.unstage
+      ~IonPumpWithController.unsubscribe
+      ~IonPumpWithController.unsubscribe_all
+      ~IonPumpWithController.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~IonPumpWithController.SUB_ACQ_DONE
+      ~IonPumpWithController.aomode
+      ~IonPumpWithController.calfactor
+      ~IonPumpWithController.component_names
+      ~IonPumpWithController.configuration_attrs
+      ~IonPumpWithController.connected
+      ~IonPumpWithController.controller
+      ~IonPumpWithController.controllername
+      ~IonPumpWithController.current
+      ~IonPumpWithController.event_types
+      ~IonPumpWithController.hints
+      ~IonPumpWithController.hvstrapping
+      ~IonPumpWithController.kind
+      ~IonPumpWithController.name
+      ~IonPumpWithController.parent
+      ~IonPumpWithController.pumpsize
+      ~IonPumpWithController.read_attrs
+      ~IonPumpWithController.report
+      ~IonPumpWithController.root
+      ~IonPumpWithController.signal_names
+      ~IonPumpWithController.state
+      ~IonPumpWithController.status
+      ~IonPumpWithController.status_code
+      ~IonPumpWithController.supplysize
+      ~IonPumpWithController.trigger_signals
+      ~IonPumpWithController.voltage
+   
+   

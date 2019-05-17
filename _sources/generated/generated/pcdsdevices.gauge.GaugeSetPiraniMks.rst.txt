@@ -1,0 +1,67 @@
+pcdsdevices.gauge.GaugeSetPiraniMks
+===================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. autoclass:: GaugeSetPiraniMks
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~GaugeSetPiraniMks.__init__
+      ~GaugeSetPiraniMks.check_value
+      ~GaugeSetPiraniMks.clear_sub
+      ~GaugeSetPiraniMks.configure
+      ~GaugeSetPiraniMks.describe
+      ~GaugeSetPiraniMks.describe_configuration
+      ~GaugeSetPiraniMks.egu
+      ~GaugeSetPiraniMks.get
+      ~GaugeSetPiraniMks.get_device_tuple
+      ~GaugeSetPiraniMks.get_instantiated_signals
+      ~GaugeSetPiraniMks.pause
+      ~GaugeSetPiraniMks.pressure
+      ~GaugeSetPiraniMks.put
+      ~GaugeSetPiraniMks.read
+      ~GaugeSetPiraniMks.read_configuration
+      ~GaugeSetPiraniMks.resume
+      ~GaugeSetPiraniMks.stage
+      ~GaugeSetPiraniMks.stop
+      ~GaugeSetPiraniMks.subscribe
+      ~GaugeSetPiraniMks.summary
+      ~GaugeSetPiraniMks.trigger
+      ~GaugeSetPiraniMks.unstage
+      ~GaugeSetPiraniMks.unsubscribe
+      ~GaugeSetPiraniMks.unsubscribe_all
+      ~GaugeSetPiraniMks.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~GaugeSetPiraniMks.SUB_ACQ_DONE
+      ~GaugeSetPiraniMks.component_names
+      ~GaugeSetPiraniMks.configuration_attrs
+      ~GaugeSetPiraniMks.connected
+      ~GaugeSetPiraniMks.controller
+      ~GaugeSetPiraniMks.event_types
+      ~GaugeSetPiraniMks.gcc
+      ~GaugeSetPiraniMks.gpi
+      ~GaugeSetPiraniMks.hints
+      ~GaugeSetPiraniMks.kind
+      ~GaugeSetPiraniMks.name
+      ~GaugeSetPiraniMks.parent
+      ~GaugeSetPiraniMks.read_attrs
+      ~GaugeSetPiraniMks.report
+      ~GaugeSetPiraniMks.root
+      ~GaugeSetPiraniMks.signal_names
+      ~GaugeSetPiraniMks.trigger_signals
+   
+   

@@ -1,0 +1,6 @@
+pcdsdevices.pump.GammaController.get\_instantiated\_signals
+===========================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: GammaController.get_instantiated_signals

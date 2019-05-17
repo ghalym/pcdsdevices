@@ -1,0 +1,6 @@
+pcdsdevices.gauge.MKS937a.wait\_for\_connection
+===============================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: MKS937a.wait_for_connection

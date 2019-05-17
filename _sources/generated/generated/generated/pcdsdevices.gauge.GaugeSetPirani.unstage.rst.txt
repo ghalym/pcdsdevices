@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSetPirani.unstage
+========================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSetPirani.unstage

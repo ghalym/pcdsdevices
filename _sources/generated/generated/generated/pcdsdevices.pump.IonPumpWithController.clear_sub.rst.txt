@@ -1,0 +1,6 @@
+pcdsdevices.pump.IonPumpWithController.clear\_sub
+=================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: IonPumpWithController.clear_sub

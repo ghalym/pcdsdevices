@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.mv_interface.PresetPosition &mdash; PCDS Devices 1.2.0+1.g5925ccd documentation</title>
+  <title>pcdsdevices.mv_interface.PresetPosition &mdash; PCDS Devices 1.2.0+2.gbc355f2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+1.g5925ccd
+                1.2.0+2.gbc355f2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.evr.html">pcdsdevices.evr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
@@ -130,6 +131,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pump.html">pcdsdevices.pump</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.signal.html">pcdsdevices.signal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.sim.html">pcdsdevices.sim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.slits.html">pcdsdevices.slits</a></li>
@@ -211,57 +213,53 @@
 <dt id="pcdsdevices.mv_interface.PresetPosition">
 <em class="property">class </em><code class="descclassname">pcdsdevices.mv_interface.</code><code class="descname">PresetPosition</code><span class="sig-paren">(</span><em>presets</em>, <em>preset_type</em>, <em>name</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.mv_interface.PresetPosition" title="Permalink to this definition">¶</a></dt>
 <dd><p>Manager for a single preset position.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>presets</strong> (<a class="reference internal" href="pcdsdevices.mv_interface.Presets.html#pcdsdevices.mv_interface.Presets" title="pcdsdevices.mv_interface.Presets"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Presets</span></code></a>) – The main <a class="reference internal" href="pcdsdevices.mv_interface.Presets.html#pcdsdevices.mv_interface.Presets" title="pcdsdevices.mv_interface.Presets"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Presets</span></code></a> object that manages this position.</li>
-<li><strong>name</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – The name of this preset position.</li>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>presets</strong> (<a class="reference internal" href="pcdsdevices.mv_interface.Presets.html#pcdsdevices.mv_interface.Presets" title="pcdsdevices.mv_interface.Presets"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Presets</span></code></a>) – The main <a class="reference internal" href="pcdsdevices.mv_interface.Presets.html#pcdsdevices.mv_interface.Presets" title="pcdsdevices.mv_interface.Presets"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Presets</span></code></a> object that manages this position.</p></li>
+<li><p><strong>name</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – The name of this preset position.</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 <p class="rubric">Methods</p>
-<table border="1" class="longtable docutils">
+<table class="longtable docutils align-center">
 <colgroup>
-<col width="10%" />
-<col width="90%" />
+<col style="width: 10%" />
+<col style="width: 90%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.PresetPosition.__init__.html#pcdsdevices.mv_interface.PresetPosition.__init__" title="pcdsdevices.mv_interface.PresetPosition.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(presets,&nbsp;preset_type,&nbsp;name)</td>
-<td>Initialize self.</td>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mv_interface.PresetPosition.__init__.html#pcdsdevices.mv_interface.PresetPosition.__init__" title="pcdsdevices.mv_interface.PresetPosition.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(presets, preset_type, name)</p></td>
+<td><p>Initialize self.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.PresetPosition.deactivate.html#pcdsdevices.mv_interface.PresetPosition.deactivate" title="pcdsdevices.mv_interface.PresetPosition.deactivate"><code class="xref py py-obj docutils literal notranslate"><span class="pre">deactivate</span></code></a>()</td>
-<td>Deactivate a preset from a device.</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mv_interface.PresetPosition.deactivate.html#pcdsdevices.mv_interface.PresetPosition.deactivate" title="pcdsdevices.mv_interface.PresetPosition.deactivate"><code class="xref py py-obj docutils literal notranslate"><span class="pre">deactivate</span></code></a>()</p></td>
+<td><p>Deactivate a preset from a device.</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.PresetPosition.update_comment.html#pcdsdevices.mv_interface.PresetPosition.update_comment" title="pcdsdevices.mv_interface.PresetPosition.update_comment"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_comment</span></code></a>(comment)</td>
-<td>Revise the most recent comment in the preset history.</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mv_interface.PresetPosition.update_comment.html#pcdsdevices.mv_interface.PresetPosition.update_comment" title="pcdsdevices.mv_interface.PresetPosition.update_comment"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_comment</span></code></a>(comment)</p></td>
+<td><p>Revise the most recent comment in the preset history.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.PresetPosition.update_pos.html#pcdsdevices.mv_interface.PresetPosition.update_pos" title="pcdsdevices.mv_interface.PresetPosition.update_pos"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_pos</span></code></a>([pos,&nbsp;comment])</td>
-<td>Change this preset position and save it.</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mv_interface.PresetPosition.update_pos.html#pcdsdevices.mv_interface.PresetPosition.update_pos" title="pcdsdevices.mv_interface.PresetPosition.update_pos"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_pos</span></code></a>([pos, comment])</p></td>
+<td><p>Change this preset position and save it.</p></td>
 </tr>
 </tbody>
 </table>
 <p class="rubric">Attributes</p>
-<table border="1" class="longtable docutils">
+<table class="longtable docutils align-center">
 <colgroup>
-<col width="10%" />
-<col width="90%" />
+<col style="width: 10%" />
+<col style="width: 90%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">history</span></code></td>
-<td>This position history associated with this preset.</td>
+<tbody>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">history</span></code></p></td>
+<td><p>This position history associated with this preset.</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">info</span></code></td>
-<td>All information associated with this preset.</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">info</span></code></p></td>
+<td><p>All information associated with this preset.</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">path</span></code></td>
-<td>The filepath that defines this preset.</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">path</span></code></p></td>
+<td><p>The filepath that defines this preset.</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">pos</span></code></td>
-<td>The set position of this preset.</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pos</span></code></p></td>
+<td><p>The set position of this preset.</p></td>
 </tr>
 </tbody>
 </table>

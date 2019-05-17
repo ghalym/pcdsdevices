@@ -1,0 +1,6 @@
+pcdsdevices.gauge.BaseGauge.wait\_for\_connection
+=================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: BaseGauge.wait_for_connection

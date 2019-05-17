@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.pseudopos.DelayBase.move_single &mdash; PCDS Devices 1.2.0+1.g5925ccd documentation</title>
+  <title>pcdsdevices.pseudopos.DelayBase.move_single &mdash; PCDS Devices 1.2.0+2.gbc355f2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+1.g5925ccd
+                1.2.0+2.gbc355f2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.evr.html">pcdsdevices.evr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
@@ -153,6 +154,7 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pump.html">pcdsdevices.pump</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.signal.html">pcdsdevices.signal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.sim.html">pcdsdevices.sim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.slits.html">pcdsdevices.slits</a></li>
@@ -239,19 +241,15 @@
 <p>All other positioners will use their current setpoint/target value, if
 available. Failing that, their current readback value will be used (see
 <code class="xref any docutils literal notranslate"><span class="pre">PseudoSingle.sync</span></code> and <code class="xref any docutils literal notranslate"><span class="pre">PseudoSingle.target</span></code>).</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>pseudo</strong> (<em>PseudoSingle</em>) – PseudoSingle positioner to move</li>
-<li><strong>position</strong> (<em>float</em>) – Position only for the PseudoSingle</li>
-<li><strong>kwargs</strong> (<em>dict</em>) – Passed onto move</li>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pseudo</strong> (<em>PseudoSingle</em>) – PseudoSingle positioner to move</p></li>
+<li><p><strong>position</strong> (<em>float</em>) – Position only for the PseudoSingle</p></li>
+<li><p><strong>kwargs</strong> (<em>dict</em>) – Passed onto move</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 </dd></dl>
 
 </div>

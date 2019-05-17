@@ -1,0 +1,6 @@
+pcdsdevices.gauge.MKS937a.clear\_sub
+====================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: MKS937a.clear_sub

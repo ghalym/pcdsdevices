@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSetMks.put
+=================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSetMks.put

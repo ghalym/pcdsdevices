@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeColdCathode.get\_device\_tuple
+=====================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeColdCathode.get_device_tuple

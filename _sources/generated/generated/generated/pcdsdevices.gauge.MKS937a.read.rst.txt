@@ -1,0 +1,6 @@
+pcdsdevices.gauge.MKS937a.read
+==============================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: MKS937a.read

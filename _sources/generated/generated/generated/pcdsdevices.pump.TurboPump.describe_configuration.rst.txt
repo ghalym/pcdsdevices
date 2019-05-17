@@ -1,0 +1,6 @@
+pcdsdevices.pump.TurboPump.describe\_configuration
+==================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: TurboPump.describe_configuration

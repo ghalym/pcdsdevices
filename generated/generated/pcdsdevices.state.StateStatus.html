@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.state.StateStatus &mdash; PCDS Devices 1.2.0+1.g5925ccd documentation</title>
+  <title>pcdsdevices.state.StateStatus &mdash; PCDS Devices 1.2.0+2.gbc355f2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+1.g5925ccd
+                1.2.0+2.gbc355f2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.evr.html">pcdsdevices.evr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
@@ -115,6 +116,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pump.html">pcdsdevices.pump</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.signal.html">pcdsdevices.signal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.sim.html">pcdsdevices.sim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.slits.html">pcdsdevices.slits</a></li>
@@ -215,53 +217,49 @@ call the built-in method <code class="docutils literal notranslate"><span class=
 set to <code class="docutils literal notranslate"><span class="pre">device.SUB_STATE</span></code>. This will cause the <code class="docutils literal notranslate"><span class="pre">StateStatus</span></code> to
 process whenever the device changes state to avoid unnecessary polling
 of the associated EPICS variables</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>device</strong> (<a class="reference internal" href="pcdsdevices.state.StatePositioner.html#pcdsdevices.state.StatePositioner" title="pcdsdevices.state.StatePositioner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">StatePositioner</span></code></a>) – The relevant states device</li>
-<li><strong>desired_state</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – Requested state</li>
-<li><strong>timeout</strong> (<code class="docutils literal notranslate"><span class="pre">float</span></code>, optional) – The default timeout to wait to mark the request as a failure</li>
-<li><strong>settle_time</strong> (<code class="docutils literal notranslate"><span class="pre">float</span></code>, optional) – Time to wait after completion until running callbacks</li>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>device</strong> (<a class="reference internal" href="pcdsdevices.state.StatePositioner.html#pcdsdevices.state.StatePositioner" title="pcdsdevices.state.StatePositioner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">StatePositioner</span></code></a>) – The relevant states device</p></li>
+<li><p><strong>desired_state</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – Requested state</p></li>
+<li><p><strong>timeout</strong> (<code class="docutils literal notranslate"><span class="pre">float</span></code>, optional) – The default timeout to wait to mark the request as a failure</p></li>
+<li><p><strong>settle_time</strong> (<code class="docutils literal notranslate"><span class="pre">float</span></code>, optional) – Time to wait after completion until running callbacks</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 <p class="rubric">Methods</p>
-<table border="1" class="longtable docutils">
+<table class="longtable docutils align-center">
 <colgroup>
-<col width="10%" />
-<col width="90%" />
+<col style="width: 10%" />
+<col style="width: 90%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.__init__.html#pcdsdevices.state.StateStatus.__init__" title="pcdsdevices.state.StateStatus.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(device,&nbsp;desired_state[,&nbsp;timeout,&nbsp;…])</td>
-<td>Initialize self.</td>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.__init__.html#pcdsdevices.state.StateStatus.__init__" title="pcdsdevices.state.StateStatus.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(device, desired_state[, timeout, …])</p></td>
+<td><p>Initialize self.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.add_callback.html#pcdsdevices.state.StateStatus.add_callback" title="pcdsdevices.state.StateStatus.add_callback"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_callback</span></code></a>(cb)</td>
-<td></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.add_callback.html#pcdsdevices.state.StateStatus.add_callback" title="pcdsdevices.state.StateStatus.add_callback"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_callback</span></code></a>(cb)</p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.check_value.html#pcdsdevices.state.StateStatus.check_value" title="pcdsdevices.state.StateStatus.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(*args,&nbsp;**kwargs)</td>
-<td>Update the status object</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.check_value.html#pcdsdevices.state.StateStatus.check_value" title="pcdsdevices.state.StateStatus.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Update the status object</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.watch.html#pcdsdevices.state.StateStatus.watch" title="pcdsdevices.state.StateStatus.watch"><code class="xref py py-obj docutils literal notranslate"><span class="pre">watch</span></code></a>(func)</td>
-<td></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.watch.html#pcdsdevices.state.StateStatus.watch" title="pcdsdevices.state.StateStatus.watch"><code class="xref py py-obj docutils literal notranslate"><span class="pre">watch</span></code></a>(func)</p></td>
+<td><p></p></td>
 </tr>
 </tbody>
 </table>
 <p class="rubric">Attributes</p>
-<table border="1" class="longtable docutils">
+<table class="longtable docutils align-center">
 <colgroup>
-<col width="10%" />
-<col width="90%" />
+<col style="width: 10%" />
+<col style="width: 90%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">callbacks</span></code></td>
-<td>Callbacks to be run when the status is marked as finished</td>
+<tbody>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">callbacks</span></code></p></td>
+<td><p>Callbacks to be run when the status is marked as finished</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">finished_cb</span></code></td>
-<td></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">finished_cb</span></code></p></td>
+<td><p></p></td>
 </tr>
 </tbody>
 </table>

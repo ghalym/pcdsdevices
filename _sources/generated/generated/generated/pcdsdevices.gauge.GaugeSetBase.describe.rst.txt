@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSetBase.describe
+=======================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSetBase.describe

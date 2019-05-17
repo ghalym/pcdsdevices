@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSetMks.describe\_configuration
+=====================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSetMks.describe_configuration

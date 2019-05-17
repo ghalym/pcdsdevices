@@ -1,0 +1,6 @@
+pcdsdevices.pump.IonPumpWithController.describe\_configuration
+==============================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: IonPumpWithController.describe_configuration

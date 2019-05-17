@@ -1,0 +1,6 @@
+pcdsdevices.gauge.BaseGauge.trigger
+===================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: BaseGauge.trigger

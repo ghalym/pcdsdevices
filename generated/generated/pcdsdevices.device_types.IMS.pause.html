@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.IMS.pause &mdash; PCDS Devices 1.2.0+1.g5925ccd documentation</title>
+  <title>pcdsdevices.device_types.IMS.pause &mdash; PCDS Devices 1.2.0+2.gbc355f2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+1.g5925ccd
+                1.2.0+2.gbc355f2
               </div>
             
           
@@ -99,6 +99,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.EpicsMotor.html">pcdsdevices.device_types.EpicsMotor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.EventSequencer.html">pcdsdevices.device_types.EventSequencer</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.GateValve.html">pcdsdevices.device_types.GateValve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.GaugeSet.html">pcdsdevices.device_types.GaugeSet</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.device_types.IMS.html">pcdsdevices.device_types.IMS</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.__init__.html">pcdsdevices.device_types.IMS.__init__</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.auto_setup.html">pcdsdevices.device_types.IMS.auto_setup</a></li>
@@ -151,6 +152,7 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.IPM.html">pcdsdevices.device_types.IPM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.IonPump.html">pcdsdevices.device_types.IonPump</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.LODCM.html">pcdsdevices.device_types.LODCM</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Motor.html">pcdsdevices.device_types.Motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Newport.html">pcdsdevices.device_types.Newport</a></li>
@@ -255,14 +257,11 @@ safely be re-wound.  This method may: put the device in a
 ‘paused’ state and/or raise
 <code class="xref py py-obj docutils literal notranslate"><span class="pre">NoReplayAllowed</span></code> to indicate that
 the plan can not be rewound.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body"><code class="xref py py-exc docutils literal notranslate"><span class="pre">bluesky.run_engine.NoReplayAllowed</span></code></td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p><strong>bluesky.run_engine.NoReplayAllowed</strong> – </p>
+</dd>
+</dl>
 </dd></dl>
 
 </div>

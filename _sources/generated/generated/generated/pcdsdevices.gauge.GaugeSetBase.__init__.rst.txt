@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSetBase.\_\_init\_\_
+===========================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSetBase.__init__

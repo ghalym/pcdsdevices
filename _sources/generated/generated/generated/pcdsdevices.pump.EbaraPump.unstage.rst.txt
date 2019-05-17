@@ -1,0 +1,6 @@
+pcdsdevices.pump.EbaraPump.unstage
+==================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: EbaraPump.unstage

@@ -1,0 +1,6 @@
+pcdsdevices.pump.IonPumpWithController.wait\_for\_connection
+============================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: IonPumpWithController.wait_for_connection

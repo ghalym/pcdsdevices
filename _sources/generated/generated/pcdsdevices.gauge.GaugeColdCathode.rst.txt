@@ -1,0 +1,75 @@
+pcdsdevices.gauge.GaugeColdCathode
+==================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. autoclass:: GaugeColdCathode
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~GaugeColdCathode.__init__
+      ~GaugeColdCathode.check_value
+      ~GaugeColdCathode.clear_sub
+      ~GaugeColdCathode.configure
+      ~GaugeColdCathode.describe
+      ~GaugeColdCathode.describe_configuration
+      ~GaugeColdCathode.get
+      ~GaugeColdCathode.get_device_tuple
+      ~GaugeColdCathode.get_instantiated_signals
+      ~GaugeColdCathode.pause
+      ~GaugeColdCathode.put
+      ~GaugeColdCathode.read
+      ~GaugeColdCathode.read_configuration
+      ~GaugeColdCathode.resume
+      ~GaugeColdCathode.stage
+      ~GaugeColdCathode.stop
+      ~GaugeColdCathode.subscribe
+      ~GaugeColdCathode.summary
+      ~GaugeColdCathode.trigger
+      ~GaugeColdCathode.unstage
+      ~GaugeColdCathode.unsubscribe
+      ~GaugeColdCathode.unsubscribe_all
+      ~GaugeColdCathode.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~GaugeColdCathode.SUB_ACQ_DONE
+      ~GaugeColdCathode.component_names
+      ~GaugeColdCathode.configuration_attrs
+      ~GaugeColdCathode.connected
+      ~GaugeColdCathode.control_enable
+      ~GaugeColdCathode.control_setpoint
+      ~GaugeColdCathode.egu
+      ~GaugeColdCathode.enable
+      ~GaugeColdCathode.event_types
+      ~GaugeColdCathode.hints
+      ~GaugeColdCathode.kind
+      ~GaugeColdCathode.name
+      ~GaugeColdCathode.parent
+      ~GaugeColdCathode.pressure
+      ~GaugeColdCathode.pressure_status
+      ~GaugeColdCathode.pressure_status_enable
+      ~GaugeColdCathode.protection_enable
+      ~GaugeColdCathode.protection_setpoint
+      ~GaugeColdCathode.read_attrs
+      ~GaugeColdCathode.relay_enable
+      ~GaugeColdCathode.relay_setpoint
+      ~GaugeColdCathode.report
+      ~GaugeColdCathode.root
+      ~GaugeColdCathode.signal_names
+      ~GaugeColdCathode.state
+      ~GaugeColdCathode.status
+      ~GaugeColdCathode.trigger_signals
+   
+   

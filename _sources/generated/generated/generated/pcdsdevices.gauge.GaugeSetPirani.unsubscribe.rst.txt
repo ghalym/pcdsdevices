@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSetPirani.unsubscribe
+============================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSetPirani.unsubscribe

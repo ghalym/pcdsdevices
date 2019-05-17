@@ -1,0 +1,64 @@
+pcdsdevices.pump.EbaraPump
+==========================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. autoclass:: EbaraPump
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~EbaraPump.__init__
+      ~EbaraPump.check_value
+      ~EbaraPump.clear_sub
+      ~EbaraPump.configure
+      ~EbaraPump.describe
+      ~EbaraPump.describe_configuration
+      ~EbaraPump.get
+      ~EbaraPump.get_device_tuple
+      ~EbaraPump.get_instantiated_signals
+      ~EbaraPump.pause
+      ~EbaraPump.put
+      ~EbaraPump.read
+      ~EbaraPump.read_configuration
+      ~EbaraPump.resume
+      ~EbaraPump.run
+      ~EbaraPump.stage
+      ~EbaraPump.stop
+      ~EbaraPump.subscribe
+      ~EbaraPump.summary
+      ~EbaraPump.trigger
+      ~EbaraPump.unstage
+      ~EbaraPump.unsubscribe
+      ~EbaraPump.unsubscribe_all
+      ~EbaraPump.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~EbaraPump.SUB_ACQ_DONE
+      ~EbaraPump.component_names
+      ~EbaraPump.configuration_attrs
+      ~EbaraPump.connected
+      ~EbaraPump.event_types
+      ~EbaraPump.hints
+      ~EbaraPump.kind
+      ~EbaraPump.name
+      ~EbaraPump.parent
+      ~EbaraPump.read_attrs
+      ~EbaraPump.report
+      ~EbaraPump.root
+      ~EbaraPump.signal_names
+      ~EbaraPump.start
+      ~EbaraPump.trigger_signals
+   
+   

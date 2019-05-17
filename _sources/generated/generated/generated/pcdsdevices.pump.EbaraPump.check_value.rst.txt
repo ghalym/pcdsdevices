@@ -1,0 +1,6 @@
+pcdsdevices.pump.EbaraPump.check\_value
+=======================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: EbaraPump.check_value

@@ -1,0 +1,6 @@
+pcdsdevices.gauge.MKS937a.pause
+===============================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: MKS937a.pause

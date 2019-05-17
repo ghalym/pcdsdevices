@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.DelayNewport &mdash; PCDS Devices 1.2.0+1.g5925ccd documentation</title>
+  <title>pcdsdevices.device_types.DelayNewport &mdash; PCDS Devices 1.2.0+2.gbc355f2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+1.g5925ccd
+                1.2.0+2.gbc355f2
               </div>
             
           
@@ -132,8 +132,10 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.html">pcdsdevices.device_types.EpicsMotor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.EventSequencer.html">pcdsdevices.device_types.EventSequencer</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.GateValve.html">pcdsdevices.device_types.GateValve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.GaugeSet.html">pcdsdevices.device_types.GaugeSet</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.IMS.html">pcdsdevices.device_types.IMS</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.IPM.html">pcdsdevices.device_types.IPM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.IonPump.html">pcdsdevices.device_types.IonPump</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.LODCM.html">pcdsdevices.device_types.LODCM</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Motor.html">pcdsdevices.device_types.Motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Newport.html">pcdsdevices.device_types.Newport</a></li>
@@ -237,14 +239,11 @@ simple multiplier based on the speed of light.</p>
 <dt id="pcdsdevices.device_types.DelayNewport.delay">
 <code class="descname">delay</code><a class="headerlink" href="#pcdsdevices.device_types.DelayNewport.delay" title="Permalink to this definition">¶</a></dt>
 <dd><p>The fake axis. It has configurable units and number of bounces.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">PseudoSingle</span></code></td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">PseudoSingle</span></code></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="attribute">
@@ -253,243 +252,236 @@ simple multiplier based on the speed of light.</p>
 <dd><p>The real axis. This can be a number of things based on the inheriting
 class, but it must have a valid <code class="docutils literal notranslate"><span class="pre">egu</span></code> so we know how to convert to
 the time axis.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">PositionerBase</span></code></td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">PositionerBase</span></code></p>
+</dd>
+</dl>
 </dd></dl>
 
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>prefix</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – The EPICS prefix of the real motor</li>
-<li><strong>name</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>, required keyword) – A name to assign to this delay stage.</li>
-<li><strong>egu</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>, optional) – The units to use for the delay axis. The default is seconds. Any
-time unit is acceptable.</li>
-<li><strong>n_bounces</strong> (<code class="docutils literal notranslate"><span class="pre">int</span></code>, optional) – The number of times the laser bounces on the delay stage, e.g. the
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>prefix</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – The EPICS prefix of the real motor</p></li>
+<li><p><strong>name</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>, required keyword) – A name to assign to this delay stage.</p></li>
+<li><p><strong>egu</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>, optional) – The units to use for the delay axis. The default is seconds. Any
+time unit is acceptable.</p></li>
+<li><p><strong>n_bounces</strong> (<code class="docutils literal notranslate"><span class="pre">int</span></code>, optional) – The number of times the laser bounces on the delay stage, e.g. the
 number of mirrors that this stage moves. The default is 2, a delay
-branch that bounces the laser back along the axis it enters.</li>
+branch that bounces the laser back along the axis it enters.</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 <p class="rubric">Methods</p>
-<table border="1" class="longtable docutils">
+<table class="longtable docutils align-center">
 <colgroup>
-<col width="10%" />
-<col width="90%" />
+<col style="width: 10%" />
+<col style="width: 90%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.__init__.html#pcdsdevices.device_types.DelayNewport.__init__" title="pcdsdevices.device_types.DelayNewport.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(*args[,&nbsp;egu,&nbsp;n_bounces])</td>
-<td>Initialize self.</td>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.__init__.html#pcdsdevices.device_types.DelayNewport.__init__" title="pcdsdevices.device_types.DelayNewport.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(*args[, egu, n_bounces])</p></td>
+<td><p>Initialize self.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.check_single.html#pcdsdevices.device_types.DelayNewport.check_single" title="pcdsdevices.device_types.DelayNewport.check_single"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_single</span></code></a>(pseudo_single,&nbsp;single_pos)</td>
-<td>Check if a new position for a single pseudo positioner is valid</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.check_single.html#pcdsdevices.device_types.DelayNewport.check_single" title="pcdsdevices.device_types.DelayNewport.check_single"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_single</span></code></a>(pseudo_single, single_pos)</p></td>
+<td><p>Check if a new position for a single pseudo positioner is valid</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.check_value.html#pcdsdevices.device_types.DelayNewport.check_value" title="pcdsdevices.device_types.DelayNewport.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(pseudo_pos)</td>
-<td>Check if a new position for all pseudo positioners is valid</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.check_value.html#pcdsdevices.device_types.DelayNewport.check_value" title="pcdsdevices.device_types.DelayNewport.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(pseudo_pos)</p></td>
+<td><p>Check if a new position for all pseudo positioners is valid</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.clear_sub.html#pcdsdevices.device_types.DelayNewport.clear_sub" title="pcdsdevices.device_types.DelayNewport.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[,&nbsp;event_type])</td>
-<td>Remove a subscription, given the original callback function</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.clear_sub.html#pcdsdevices.device_types.DelayNewport.clear_sub" title="pcdsdevices.device_types.DelayNewport.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
+<td><p>Remove a subscription, given the original callback function</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.configure.html#pcdsdevices.device_types.DelayNewport.configure" title="pcdsdevices.device_types.DelayNewport.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d,&nbsp;Any])</td>
-<td>Configure the device for something during a run</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.configure.html#pcdsdevices.device_types.DelayNewport.configure" title="pcdsdevices.device_types.DelayNewport.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d, Any])</p></td>
+<td><p>Configure the device for something during a run</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.describe.html#pcdsdevices.device_types.DelayNewport.describe" title="pcdsdevices.device_types.DelayNewport.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</td>
-<td>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.describe.html#pcdsdevices.device_types.DelayNewport.describe" title="pcdsdevices.device_types.DelayNewport.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
+<td><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code></p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.describe_configuration.html#pcdsdevices.device_types.DelayNewport.describe_configuration" title="pcdsdevices.device_types.DelayNewport.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</td>
-<td>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.describe_configuration.html#pcdsdevices.device_types.DelayNewport.describe_configuration" title="pcdsdevices.device_types.DelayNewport.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</p></td>
+<td><p>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.forward.html#pcdsdevices.device_types.DelayNewport.forward" title="pcdsdevices.device_types.DelayNewport.forward"><code class="xref py py-obj docutils literal notranslate"><span class="pre">forward</span></code></a>(pseudo_pos)</td>
-<td>Convert delay unit to motor unit</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.forward.html#pcdsdevices.device_types.DelayNewport.forward" title="pcdsdevices.device_types.DelayNewport.forward"><code class="xref py py-obj docutils literal notranslate"><span class="pre">forward</span></code></a>(pseudo_pos)</p></td>
+<td><p>Convert delay unit to motor unit</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.get.html#pcdsdevices.device_types.DelayNewport.get" title="pcdsdevices.device_types.DelayNewport.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
-<td>Get the value of all components in the device</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.get.html#pcdsdevices.device_types.DelayNewport.get" title="pcdsdevices.device_types.DelayNewport.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
+<td><p>Get the value of all components in the device</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.get_device_tuple.html#pcdsdevices.device_types.DelayNewport.get_device_tuple" title="pcdsdevices.device_types.DelayNewport.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
-<td>The device tuple type associated with an Device class</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.get_device_tuple.html#pcdsdevices.device_types.DelayNewport.get_device_tuple" title="pcdsdevices.device_types.DelayNewport.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
+<td><p>The device tuple type associated with an Device class</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.get_instantiated_signals.html#pcdsdevices.device_types.DelayNewport.get_instantiated_signals" title="pcdsdevices.device_types.DelayNewport.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
-<td>Yields all of the instantiated signals in a device hierarchy</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.get_instantiated_signals.html#pcdsdevices.device_types.DelayNewport.get_instantiated_signals" title="pcdsdevices.device_types.DelayNewport.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
+<td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.inverse.html#pcdsdevices.device_types.DelayNewport.inverse" title="pcdsdevices.device_types.DelayNewport.inverse"><code class="xref py py-obj docutils literal notranslate"><span class="pre">inverse</span></code></a>(real_pos)</td>
-<td>Convert motor unit to delay unit</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.inverse.html#pcdsdevices.device_types.DelayNewport.inverse" title="pcdsdevices.device_types.DelayNewport.inverse"><code class="xref py py-obj docutils literal notranslate"><span class="pre">inverse</span></code></a>(real_pos)</p></td>
+<td><p>Convert motor unit to delay unit</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.move.html#pcdsdevices.device_types.DelayNewport.move" title="pcdsdevices.device_types.DelayNewport.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[,&nbsp;wait,&nbsp;timeout,&nbsp;moved_cb])</td>
-<td>Move to a specified position, optionally waiting for motion to complete.</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.move.html#pcdsdevices.device_types.DelayNewport.move" title="pcdsdevices.device_types.DelayNewport.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, wait, timeout, moved_cb])</p></td>
+<td><p>Move to a specified position, optionally waiting for motion to complete.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.move_single.html#pcdsdevices.device_types.DelayNewport.move_single" title="pcdsdevices.device_types.DelayNewport.move_single"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move_single</span></code></a>(pseudo,&nbsp;position,&nbsp;**kwargs)</td>
-<td>Move one PseudoSingle axis to a position</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.move_single.html#pcdsdevices.device_types.DelayNewport.move_single" title="pcdsdevices.device_types.DelayNewport.move_single"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move_single</span></code></a>(pseudo, position, **kwargs)</p></td>
+<td><p>Move one PseudoSingle axis to a position</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.pause.html#pcdsdevices.device_types.DelayNewport.pause" title="pcdsdevices.device_types.DelayNewport.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
-<td>Attempt to ‘pause’ the device.</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.pause.html#pcdsdevices.device_types.DelayNewport.pause" title="pcdsdevices.device_types.DelayNewport.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
+<td><p>Attempt to ‘pause’ the device.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.put.html#pcdsdevices.device_types.DelayNewport.put" title="pcdsdevices.device_types.DelayNewport.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
-<td>Put a value to all components of the device</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.put.html#pcdsdevices.device_types.DelayNewport.put" title="pcdsdevices.device_types.DelayNewport.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
+<td><p>Put a value to all components of the device</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.read.html#pcdsdevices.device_types.DelayNewport.read" title="pcdsdevices.device_types.DelayNewport.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
-<td>Read data from the device</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.read.html#pcdsdevices.device_types.DelayNewport.read" title="pcdsdevices.device_types.DelayNewport.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<td><p>Read data from the device</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.read_configuration.html#pcdsdevices.device_types.DelayNewport.read_configuration" title="pcdsdevices.device_types.DelayNewport.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
-<td>returns dictionary mapping names to (value, timestamp) pairs</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.read_configuration.html#pcdsdevices.device_types.DelayNewport.read_configuration" title="pcdsdevices.device_types.DelayNewport.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<td><p>returns dictionary mapping names to (value, timestamp) pairs</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.resume.html#pcdsdevices.device_types.DelayNewport.resume" title="pcdsdevices.device_types.DelayNewport.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
-<td>Resume a device from a ‘paused’ state</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.resume.html#pcdsdevices.device_types.DelayNewport.resume" title="pcdsdevices.device_types.DelayNewport.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
+<td><p>Resume a device from a ‘paused’ state</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.set.html#pcdsdevices.device_types.DelayNewport.set" title="pcdsdevices.device_types.DelayNewport.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position,&nbsp;**kwargs)</td>
-<td>Move to a new position asynchronously</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.set.html#pcdsdevices.device_types.DelayNewport.set" title="pcdsdevices.device_types.DelayNewport.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position, **kwargs)</p></td>
+<td><p>Move to a new position asynchronously</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.stage.html#pcdsdevices.device_types.DelayNewport.stage" title="pcdsdevices.device_types.DelayNewport.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
-<td>Stage the device for data collection.</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.stage.html#pcdsdevices.device_types.DelayNewport.stage" title="pcdsdevices.device_types.DelayNewport.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
+<td><p>Stage the device for data collection.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.stop.html#pcdsdevices.device_types.DelayNewport.stop" title="pcdsdevices.device_types.DelayNewport.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>([success])</td>
-<td>Stop the Device and all (instantiated) subdevices</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.stop.html#pcdsdevices.device_types.DelayNewport.stop" title="pcdsdevices.device_types.DelayNewport.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>([success])</p></td>
+<td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.subscribe.html#pcdsdevices.device_types.DelayNewport.subscribe" title="pcdsdevices.device_types.DelayNewport.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
-<td>Subscribe to events this event_type generates.</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.subscribe.html#pcdsdevices.device_types.DelayNewport.subscribe" title="pcdsdevices.device_types.DelayNewport.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[, event_type, run])</p></td>
+<td><p>Subscribe to events this event_type generates.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.summary.html#pcdsdevices.device_types.DelayNewport.summary" title="pcdsdevices.device_types.DelayNewport.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
-<td></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.summary.html#pcdsdevices.device_types.DelayNewport.summary" title="pcdsdevices.device_types.DelayNewport.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.to_pseudo_tuple.html#pcdsdevices.device_types.DelayNewport.to_pseudo_tuple" title="pcdsdevices.device_types.DelayNewport.to_pseudo_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_pseudo_tuple</span></code></a>(*args,&nbsp;**kwargs)</td>
-<td>Convert arguments to a PseudoPosition namedtuple and kwargs</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.to_pseudo_tuple.html#pcdsdevices.device_types.DelayNewport.to_pseudo_tuple" title="pcdsdevices.device_types.DelayNewport.to_pseudo_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_pseudo_tuple</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Convert arguments to a PseudoPosition namedtuple and kwargs</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.to_real_tuple.html#pcdsdevices.device_types.DelayNewport.to_real_tuple" title="pcdsdevices.device_types.DelayNewport.to_real_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_real_tuple</span></code></a>(*args,&nbsp;**kwargs)</td>
-<td>Convert arguments to a RealPosition namedtuple and kwargs</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.to_real_tuple.html#pcdsdevices.device_types.DelayNewport.to_real_tuple" title="pcdsdevices.device_types.DelayNewport.to_real_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_real_tuple</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Convert arguments to a RealPosition namedtuple and kwargs</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.trigger.html#pcdsdevices.device_types.DelayNewport.trigger" title="pcdsdevices.device_types.DelayNewport.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
-<td>Trigger the device and return status object</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.trigger.html#pcdsdevices.device_types.DelayNewport.trigger" title="pcdsdevices.device_types.DelayNewport.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<td><p>Trigger the device and return status object</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.unstage.html#pcdsdevices.device_types.DelayNewport.unstage" title="pcdsdevices.device_types.DelayNewport.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
-<td>Unstage the device.</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.unstage.html#pcdsdevices.device_types.DelayNewport.unstage" title="pcdsdevices.device_types.DelayNewport.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</p></td>
+<td><p>Unstage the device.</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.unsubscribe.html#pcdsdevices.device_types.DelayNewport.unsubscribe" title="pcdsdevices.device_types.DelayNewport.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
-<td>Remove a subscription</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.unsubscribe.html#pcdsdevices.device_types.DelayNewport.unsubscribe" title="pcdsdevices.device_types.DelayNewport.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</p></td>
+<td><p>Remove a subscription</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.unsubscribe_all.html#pcdsdevices.device_types.DelayNewport.unsubscribe_all" title="pcdsdevices.device_types.DelayNewport.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
-<td></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.unsubscribe_all.html#pcdsdevices.device_types.DelayNewport.unsubscribe_all" title="pcdsdevices.device_types.DelayNewport.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.wait_for_connection.html#pcdsdevices.device_types.DelayNewport.wait_for_connection" title="pcdsdevices.device_types.DelayNewport.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
-<td>Wait for signals to connect</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.wait_for_connection.html#pcdsdevices.device_types.DelayNewport.wait_for_connection" title="pcdsdevices.device_types.DelayNewport.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals, timeout])</p></td>
+<td><p>Wait for signals to connect</p></td>
 </tr>
 </tbody>
 </table>
 <p class="rubric">Attributes</p>
-<table border="1" class="longtable docutils">
+<table class="longtable docutils align-center">
 <colgroup>
-<col width="10%" />
-<col width="90%" />
+<col style="width: 10%" />
+<col style="width: 90%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_ACQ_DONE</span></code></td>
-<td></td>
+<tbody>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_ACQ_DONE</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_DONE</span></code></td>
-<td></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_DONE</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_READBACK</span></code></td>
-<td></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_READBACK</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_START</span></code></td>
-<td></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_START</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_names</span></code></td>
-<td></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_names</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">composite_egu</span></code></td>
-<td>The composite engineering units (EGU) from all PseudoSingles</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">composite_egu</span></code></p></td>
+<td><p>The composite engineering units (EGU) from all PseudoSingles</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">concurrent</span></code></td>
-<td>If concurrent is set, motors will move concurrently (in parallel)</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">concurrent</span></code></p></td>
+<td><p>If concurrent is set, motors will move concurrently (in parallel)</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_attrs</span></code></td>
-<td></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_attrs</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></td>
-<td>If the device is connected.</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></p></td>
+<td><p>If the device is connected.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="#pcdsdevices.device_types.DelayNewport.delay" title="pcdsdevices.device_types.DelayNewport.delay"><code class="xref py py-obj docutils literal notranslate"><span class="pre">delay</span></code></a></td>
-<td>FormattedComponent attribute</td>
+<tr class="row-even"><td><p><a class="reference internal" href="#pcdsdevices.device_types.DelayNewport.delay" title="pcdsdevices.device_types.DelayNewport.delay"><code class="xref py py-obj docutils literal notranslate"><span class="pre">delay</span></code></a></p></td>
+<td><p>FormattedComponent attribute</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">egu</span></code></td>
-<td>The engineering units (EGU) for positions</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">egu</span></code></p></td>
+<td><p>The engineering units (EGU) for positions</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">event_types</span></code></td>
-<td>Events that can be subscribed to via <code class="xref any docutils literal notranslate"><span class="pre">obj.subscribe</span></code></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">event_types</span></code></p></td>
+<td><p>Events that can be subscribed to via <code class="xref any docutils literal notranslate"><span class="pre">obj.subscribe</span></code></p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">high_limit</span></code></td>
-<td>All PseudoSingle high limits as a namedtuple</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">high_limit</span></code></p></td>
+<td><p>All PseudoSingle high limits as a namedtuple</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">hints</span></code></td>
-<td></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">hints</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></td>
-<td></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">limits</span></code></td>
-<td>All PseudoSingle limits as a namedtuple</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">limits</span></code></p></td>
+<td><p>All PseudoSingle limits as a namedtuple</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">low_limit</span></code></td>
-<td>All PseudoSingle low limits as a namedtuple</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">low_limit</span></code></p></td>
+<td><p>All PseudoSingle low limits as a namedtuple</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="#pcdsdevices.device_types.DelayNewport.motor" title="pcdsdevices.device_types.DelayNewport.motor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">motor</span></code></a></td>
-<td>Component attribute</td>
+<tr class="row-even"><td><p><a class="reference internal" href="#pcdsdevices.device_types.DelayNewport.motor" title="pcdsdevices.device_types.DelayNewport.motor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">motor</span></code></a></p></td>
+<td><p>Component attribute</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">moving</span></code></td>
-<td>Whether or not the motor is moving</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">moving</span></code></p></td>
+<td><p>Whether or not the motor is moving</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></td>
-<td>name of the device</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></p></td>
+<td><p>name of the device</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></td>
-<td>The parent of the ophyd object.</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></p></td>
+<td><p>The parent of the ophyd object.</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></td>
-<td>Pseudo motor position namedtuple</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></p></td>
+<td><p>Pseudo motor position namedtuple</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">pseudo_positioners</span></code></td>
-<td>Pseudo positioners instances in a namedtuple</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pseudo_positioners</span></code></p></td>
+<td><p>Pseudo positioners instances in a namedtuple</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></td>
-<td></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">real_position</span></code></td>
-<td>Real motor position namedtuple</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">real_position</span></code></p></td>
+<td><p>Real motor position namedtuple</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">real_positioners</span></code></td>
-<td>Real positioners instances in a namedtuple</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">real_positioners</span></code></p></td>
+<td><p>Real positioners instances in a namedtuple</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></td>
-<td>A report on the object.</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
+<td><p>A report on the object.</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></td>
-<td>Walk parents to find ultimate ancestor (parent’s parent…).</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></p></td>
+<td><p>Walk parents to find ultimate ancestor (parent’s parent…).</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">sequential</span></code></td>
-<td>If sequential is set, motors will move in the sequence they were defined in (i.e., in series)</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">sequential</span></code></p></td>
+<td><p>If sequential is set, motors will move in the sequence they were defined in (i.e., in series)</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></td>
-<td>Amount of time to wait after moves to report status completion</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></p></td>
+<td><p>Amount of time to wait after moves to report status completion</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></td>
-<td></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">target</span></code></td>
-<td>Last commanded target positions</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">target</span></code></p></td>
+<td><p>Last commanded target positions</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">timeout</span></code></td>
-<td>Amount of time to wait before to considering a motion as failed</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">timeout</span></code></p></td>
+<td><p>Amount of time to wait before to considering a motion as failed</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></td>
-<td></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
+<td><p></p></td>
 </tr>
 </tbody>
 </table>

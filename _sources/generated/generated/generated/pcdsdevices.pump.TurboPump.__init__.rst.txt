@@ -1,0 +1,6 @@
+pcdsdevices.pump.TurboPump.\_\_init\_\_
+=======================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: TurboPump.__init__

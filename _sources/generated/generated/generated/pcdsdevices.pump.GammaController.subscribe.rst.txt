@@ -1,0 +1,6 @@
+pcdsdevices.pump.GammaController.subscribe
+==========================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: GammaController.subscribe

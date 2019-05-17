@@ -1,0 +1,6 @@
+pcdsdevices.pump.IonPumpWithController.subscribe
+================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: IonPumpWithController.subscribe

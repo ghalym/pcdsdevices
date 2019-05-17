@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugePirani.wait\_for\_connection
+===================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugePirani.wait_for_connection

@@ -1,0 +1,6 @@
+pcdsdevices.pump.TurboPump.get\_instantiated\_signals
+=====================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: TurboPump.get_instantiated_signals

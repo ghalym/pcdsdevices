@@ -1,0 +1,6 @@
+pcdsdevices.pump.TurboPump.wait\_for\_connection
+================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: TurboPump.wait_for_connection

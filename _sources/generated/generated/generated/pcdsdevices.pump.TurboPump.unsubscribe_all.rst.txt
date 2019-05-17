@@ -1,0 +1,6 @@
+pcdsdevices.pump.TurboPump.unsubscribe\_all
+===========================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: TurboPump.unsubscribe_all

@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeColdCathode.get\_instantiated\_signals
+=============================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeColdCathode.get_instantiated_signals

@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeColdCathode.resume
+=========================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeColdCathode.resume

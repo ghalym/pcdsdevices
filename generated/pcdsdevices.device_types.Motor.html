@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.Motor &mdash; PCDS Devices 1.2.0+1.g5925ccd documentation</title>
+  <title>pcdsdevices.device_types.Motor &mdash; PCDS Devices 1.2.0+2.gbc355f2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+1.g5925ccd
+                1.2.0+2.gbc355f2
               </div>
             
           
@@ -99,8 +99,10 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.html">pcdsdevices.device_types.EpicsMotor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.EventSequencer.html">pcdsdevices.device_types.EventSequencer</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.GateValve.html">pcdsdevices.device_types.GateValve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.GaugeSet.html">pcdsdevices.device_types.GaugeSet</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.IMS.html">pcdsdevices.device_types.IMS</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.IPM.html">pcdsdevices.device_types.IPM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.IonPump.html">pcdsdevices.device_types.IonPump</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.LODCM.html">pcdsdevices.device_types.LODCM</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">pcdsdevices.device_types.Motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Newport.html">pcdsdevices.device_types.Newport</a></li>
@@ -198,47 +200,43 @@
 <dd><p>Load a PCDSMotor with the correct class based on prefix</p>
 <p>The prefix is searched for one of the component keys in the table below. If
 none of these are found, by default an <code class="docutils literal notranslate"><span class="pre">ophyd.EpicsMotor</span></code> will be used.</p>
-<table border="1" class="docutils">
+<table class="docutils align-center">
 <colgroup>
-<col width="38%" />
-<col width="63%" />
+<col style="width: 38%" />
+<col style="width: 63%" />
 </colgroup>
-<thead valign="bottom">
-<tr class="row-odd"><th class="head" rowspan="2">Component Key</th>
-<th class="head" rowspan="2">Python Class</th>
+<thead>
+<tr class="row-odd"><th class="head" rowspan="2"><p>Component Key</p></th>
+<th class="head" rowspan="2"><p>Python Class</p></th>
 </tr>
 <tr class="row-even"></tr>
 </thead>
-<tbody valign="top">
-<tr class="row-odd"><td>MMS</td>
-<td><a class="reference internal" href="pcdsdevices.device_types.IMS.html#pcdsdevices.device_types.IMS" title="pcdsdevices.device_types.IMS"><code class="xref py py-class docutils literal notranslate"><span class="pre">IMS</span></code></a></td>
+<tbody>
+<tr class="row-odd"><td><p>MMS</p></td>
+<td><p><a class="reference internal" href="pcdsdevices.device_types.IMS.html#pcdsdevices.device_types.IMS" title="pcdsdevices.device_types.IMS"><code class="xref py py-class docutils literal notranslate"><span class="pre">IMS</span></code></a></p></td>
 </tr>
-<tr class="row-even"><td>MMN</td>
-<td><a class="reference internal" href="pcdsdevices.device_types.Newport.html#pcdsdevices.device_types.Newport" title="pcdsdevices.device_types.Newport"><code class="xref py py-class docutils literal notranslate"><span class="pre">Newport</span></code></a></td>
+<tr class="row-even"><td><p>MMN</p></td>
+<td><p><a class="reference internal" href="pcdsdevices.device_types.Newport.html#pcdsdevices.device_types.Newport" title="pcdsdevices.device_types.Newport"><code class="xref py py-class docutils literal notranslate"><span class="pre">Newport</span></code></a></p></td>
 </tr>
-<tr class="row-odd"><td>MZM</td>
-<td><a class="reference internal" href="pcdsdevices.device_types.PMC100.html#pcdsdevices.device_types.PMC100" title="pcdsdevices.device_types.PMC100"><code class="xref py py-class docutils literal notranslate"><span class="pre">PMC100</span></code></a></td>
+<tr class="row-odd"><td><p>MZM</p></td>
+<td><p><a class="reference internal" href="pcdsdevices.device_types.PMC100.html#pcdsdevices.device_types.PMC100" title="pcdsdevices.device_types.PMC100"><code class="xref py py-class docutils literal notranslate"><span class="pre">PMC100</span></code></a></p></td>
 </tr>
-<tr class="row-even"><td>MMB</td>
-<td><a class="reference internal" href="pcdsdevices.device_types.BeckhoffAxis.html#pcdsdevices.device_types.BeckhoffAxis" title="pcdsdevices.device_types.BeckhoffAxis"><code class="xref py py-class docutils literal notranslate"><span class="pre">BeckhoffAxis</span></code></a></td>
+<tr class="row-even"><td><p>MMB</p></td>
+<td><p><a class="reference internal" href="pcdsdevices.device_types.BeckhoffAxis.html#pcdsdevices.device_types.BeckhoffAxis" title="pcdsdevices.device_types.BeckhoffAxis"><code class="xref py py-class docutils literal notranslate"><span class="pre">BeckhoffAxis</span></code></a></p></td>
 </tr>
-<tr class="row-odd"><td>PIC</td>
-<td><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.html#pcdsdevices.epics_motor.PCDSMotorBase" title="pcdsdevices.epics_motor.PCDSMotorBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">PCDSMotorBase</span></code></a></td>
+<tr class="row-odd"><td><p>PIC</p></td>
+<td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.html#pcdsdevices.epics_motor.PCDSMotorBase" title="pcdsdevices.epics_motor.PCDSMotorBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">PCDSMotorBase</span></code></a></p></td>
 </tr>
 </tbody>
 </table>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>prefix</strong> (<em>str</em>) – Prefix of motor</li>
-<li><strong>kwargs</strong> – Passed to class constructor</li>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>prefix</strong> (<em>str</em>) – Prefix of motor</p></li>
+<li><p><strong>kwargs</strong> – Passed to class constructor</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 </dd></dl>
 
 </div>

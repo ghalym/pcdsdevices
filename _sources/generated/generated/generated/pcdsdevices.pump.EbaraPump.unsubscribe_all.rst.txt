@@ -1,0 +1,6 @@
+pcdsdevices.pump.EbaraPump.unsubscribe\_all
+===========================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: EbaraPump.unsubscribe_all

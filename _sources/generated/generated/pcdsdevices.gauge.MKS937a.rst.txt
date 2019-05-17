@@ -1,0 +1,71 @@
+pcdsdevices.gauge.MKS937a
+=========================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. autoclass:: MKS937a
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~MKS937a.__init__
+      ~MKS937a.check_value
+      ~MKS937a.clear_sub
+      ~MKS937a.configure
+      ~MKS937a.describe
+      ~MKS937a.describe_configuration
+      ~MKS937a.get
+      ~MKS937a.get_device_tuple
+      ~MKS937a.get_instantiated_signals
+      ~MKS937a.pause
+      ~MKS937a.put
+      ~MKS937a.read
+      ~MKS937a.read_configuration
+      ~MKS937a.resume
+      ~MKS937a.stage
+      ~MKS937a.stop
+      ~MKS937a.subscribe
+      ~MKS937a.summary
+      ~MKS937a.trigger
+      ~MKS937a.unstage
+      ~MKS937a.unsubscribe
+      ~MKS937a.unsubscribe_all
+      ~MKS937a.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~MKS937a.A1_A2_slot
+      ~MKS937a.B1_B2_slot
+      ~MKS937a.SUB_ACQ_DONE
+      ~MKS937a.cc_delay
+      ~MKS937a.command
+      ~MKS937a.component_names
+      ~MKS937a.configuration_attrs
+      ~MKS937a.connected
+      ~MKS937a.event_types
+      ~MKS937a.frequence
+      ~MKS937a.frontpanel
+      ~MKS937a.hints
+      ~MKS937a.kind
+      ~MKS937a.name
+      ~MKS937a.parent
+      ~MKS937a.read_attrs
+      ~MKS937a.report
+      ~MKS937a.root
+      ~MKS937a.signal_names
+      ~MKS937a.trigger_signals
+      ~MKS937a.unit
+      ~MKS937a.user_calibration
+      ~MKS937a.version
+   
+   

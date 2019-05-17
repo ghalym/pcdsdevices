@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.mps.mps_factory &mdash; PCDS Devices 1.2.0+1.g5925ccd documentation</title>
+  <title>pcdsdevices.mps.mps_factory &mdash; PCDS Devices 1.2.0+2.gbc355f2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+1.g5925ccd
+                1.2.0+2.gbc355f2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.evr.html">pcdsdevices.evr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
@@ -123,6 +124,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pump.html">pcdsdevices.pump</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.signal.html">pcdsdevices.signal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.sim.html">pcdsdevices.sim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.slits.html">pcdsdevices.slits</a></li>
@@ -207,22 +209,18 @@
 <p>A new class identical to the provided one is created, but with additional
 attribute <code class="docutils literal notranslate"><span class="pre">mps</span></code> that relies upon the provided <code class="docutils literal notranslate"><span class="pre">mps_prefix</span></code>. All other
 information is passed through to the class constructor as args and kwargs</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>clsname</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – Name of new class to create</li>
-<li><strong>cls</strong> (<code class="docutils literal notranslate"><span class="pre">type</span></code>) – Device class to add <code class="docutils literal notranslate"><span class="pre">mps</span></code></li>
-<li><strong>mps_prefix</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – Prefix for MPS subcomponent</li>
-<li><strong>veto</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>, optional) – Whether the MPS bit is capable of veto</li>
-<li><strong>args</strong> – Passed to device constructor</li>
-<li><strong>kwargs</strong> – Passed to device constructor</li>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>clsname</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – Name of new class to create</p></li>
+<li><p><strong>cls</strong> (<code class="docutils literal notranslate"><span class="pre">type</span></code>) – Device class to add <code class="docutils literal notranslate"><span class="pre">mps</span></code></p></li>
+<li><p><strong>mps_prefix</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – Prefix for MPS subcomponent</p></li>
+<li><p><strong>veto</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>, optional) – Whether the MPS bit is capable of veto</p></li>
+<li><p><strong>args</strong> – Passed to device constructor</p></li>
+<li><p><strong>kwargs</strong> – Passed to device constructor</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 </dd></dl>
 
 </div>

@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSetBase.unstage
+======================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSetBase.unstage

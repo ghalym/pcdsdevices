@@ -1,0 +1,6 @@
+pcdsdevices.pump.EbaraPump.get\_instantiated\_signals
+=====================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: EbaraPump.get_instantiated_signals

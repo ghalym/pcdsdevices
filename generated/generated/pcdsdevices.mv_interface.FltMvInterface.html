@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.mv_interface.FltMvInterface &mdash; PCDS Devices 1.2.0+1.g5925ccd documentation</title>
+  <title>pcdsdevices.mv_interface.FltMvInterface &mdash; PCDS Devices 1.2.0+2.gbc355f2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+1.g5925ccd
+                1.2.0+2.gbc355f2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.evr.html">pcdsdevices.evr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
@@ -137,6 +138,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pump.html">pcdsdevices.pump</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.signal.html">pcdsdevices.signal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.sim.html">pcdsdevices.sim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.slits.html">pcdsdevices.slits</a></li>
@@ -223,55 +225,52 @@
 <dt id="pcdsdevices.mv_interface.FltMvInterface.presets">
 <code class="descname">presets</code><a class="headerlink" href="#pcdsdevices.mv_interface.FltMvInterface.presets" title="Permalink to this definition">¶</a></dt>
 <dd><p>Manager for preset positions.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body"><a class="reference internal" href="pcdsdevices.mv_interface.Presets.html#pcdsdevices.mv_interface.Presets" title="pcdsdevices.mv_interface.Presets"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Presets</span></code></a></td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="pcdsdevices.mv_interface.Presets.html#pcdsdevices.mv_interface.Presets" title="pcdsdevices.mv_interface.Presets"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Presets</span></code></a></p>
+</dd>
+</dl>
 </dd></dl>
 
 <p class="rubric">Methods</p>
-<table border="1" class="longtable docutils">
+<table class="longtable docutils align-center">
 <colgroup>
-<col width="10%" />
-<col width="90%" />
+<col style="width: 10%" />
+<col style="width: 90%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.__init__.html#pcdsdevices.mv_interface.FltMvInterface.__init__" title="pcdsdevices.mv_interface.FltMvInterface.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(*args,&nbsp;**kwargs)</td>
-<td>Initialize self.</td>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.__init__.html#pcdsdevices.mv_interface.FltMvInterface.__init__" title="pcdsdevices.mv_interface.FltMvInterface.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Initialize self.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.camonitor.html#pcdsdevices.mv_interface.FltMvInterface.camonitor" title="pcdsdevices.mv_interface.FltMvInterface.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</td>
-<td>Shows a live-updating motor position in the terminal.</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.camonitor.html#pcdsdevices.mv_interface.FltMvInterface.camonitor" title="pcdsdevices.mv_interface.FltMvInterface.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</p></td>
+<td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.end_monitor_thread.html#pcdsdevices.mv_interface.FltMvInterface.end_monitor_thread" title="pcdsdevices.mv_interface.FltMvInterface.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</td>
-<td>Stop a <a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.camonitor.html#pcdsdevices.mv_interface.FltMvInterface.camonitor" title="pcdsdevices.mv_interface.FltMvInterface.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.wm_update.html#pcdsdevices.mv_interface.FltMvInterface.wm_update" title="pcdsdevices.mv_interface.FltMvInterface.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.end_monitor_thread.html#pcdsdevices.mv_interface.FltMvInterface.end_monitor_thread" title="pcdsdevices.mv_interface.FltMvInterface.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
+<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.camonitor.html#pcdsdevices.mv_interface.FltMvInterface.camonitor" title="pcdsdevices.mv_interface.FltMvInterface.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.wm_update.html#pcdsdevices.mv_interface.FltMvInterface.wm_update" title="pcdsdevices.mv_interface.FltMvInterface.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.mv.html#pcdsdevices.mv_interface.FltMvInterface.mv" title="pcdsdevices.mv_interface.FltMvInterface.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
-<td>Absolute move to a position.</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.mv.html#pcdsdevices.mv_interface.FltMvInterface.mv" title="pcdsdevices.mv_interface.FltMvInterface.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[, timeout, wait])</p></td>
+<td><p>Absolute move to a position.</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.mv_ginput.html#pcdsdevices.mv_interface.FltMvInterface.mv_ginput" title="pcdsdevices.mv_interface.FltMvInterface.mv_ginput"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv_ginput</span></code></a>([timeout])</td>
-<td>Moves to a location the user clicks on.</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.mv_ginput.html#pcdsdevices.mv_interface.FltMvInterface.mv_ginput" title="pcdsdevices.mv_interface.FltMvInterface.mv_ginput"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv_ginput</span></code></a>([timeout])</p></td>
+<td><p>Moves to a location the user clicks on.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.mvr.html#pcdsdevices.mv_interface.FltMvInterface.mvr" title="pcdsdevices.mv_interface.FltMvInterface.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[,&nbsp;timeout,&nbsp;wait])</td>
-<td>Relative move from this position.</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.mvr.html#pcdsdevices.mv_interface.FltMvInterface.mvr" title="pcdsdevices.mv_interface.FltMvInterface.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[, timeout, wait])</p></td>
+<td><p>Relative move from this position.</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.tweak.html#pcdsdevices.mv_interface.FltMvInterface.tweak" title="pcdsdevices.mv_interface.FltMvInterface.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</td>
-<td>Control this motor using the arrow keys.</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.tweak.html#pcdsdevices.mv_interface.FltMvInterface.tweak" title="pcdsdevices.mv_interface.FltMvInterface.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
+<td><p>Control this motor using the arrow keys.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.umv.html#pcdsdevices.mv_interface.FltMvInterface.umv" title="pcdsdevices.mv_interface.FltMvInterface.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[,&nbsp;timeout])</td>
-<td>Move to a position, wait, and update with a progress bar.</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.umv.html#pcdsdevices.mv_interface.FltMvInterface.umv" title="pcdsdevices.mv_interface.FltMvInterface.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout])</p></td>
+<td><p>Move to a position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.umvr.html#pcdsdevices.mv_interface.FltMvInterface.umvr" title="pcdsdevices.mv_interface.FltMvInterface.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[,&nbsp;timeout])</td>
-<td>Relative move from this position, wait, and update with a progress bar.</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.umvr.html#pcdsdevices.mv_interface.FltMvInterface.umvr" title="pcdsdevices.mv_interface.FltMvInterface.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout])</p></td>
+<td><p>Relative move from this position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.wm.html#pcdsdevices.mv_interface.FltMvInterface.wm" title="pcdsdevices.mv_interface.FltMvInterface.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
-<td>Get the mover’s positon (where motor)</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.wm.html#pcdsdevices.mv_interface.FltMvInterface.wm" title="pcdsdevices.mv_interface.FltMvInterface.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<td><p>Get the mover’s positon (where motor)</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.wm_update.html#pcdsdevices.mv_interface.FltMvInterface.wm_update" title="pcdsdevices.mv_interface.FltMvInterface.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</td>
-<td>Shows a live-updating motor position in the terminal.</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mv_interface.FltMvInterface.wm_update.html#pcdsdevices.mv_interface.FltMvInterface.wm_update" title="pcdsdevices.mv_interface.FltMvInterface.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>
 </table>

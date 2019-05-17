@@ -1,0 +1,6 @@
+pcdsdevices.gauge.BaseGauge.resume
+==================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: BaseGauge.resume

@@ -1,0 +1,6 @@
+pcdsdevices.pump.IonPumpWithController.get\_device\_tuple
+=========================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: IonPumpWithController.get_device_tuple

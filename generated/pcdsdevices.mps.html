@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.mps &mdash; PCDS Devices 1.2.0+1.g5925ccd documentation</title>
+  <title>pcdsdevices.mps &mdash; PCDS Devices 1.2.0+2.gbc355f2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+1.g5925ccd
+                1.2.0+2.gbc355f2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.evr.html">pcdsdevices.evr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.inout.html">pcdsdevices.inout</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.lens.html">pcdsdevices.lens</a></li>
@@ -123,6 +124,7 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pump.html">pcdsdevices.pump</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.signal.html">pcdsdevices.signal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.sim.html">pcdsdevices.sim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.slits.html">pcdsdevices.slits</a></li>
@@ -203,38 +205,38 @@
 The results of these are published over EPICS and
 interpreted by <a class="reference internal" href="generated/pcdsdevices.mps.MPS.html#pcdsdevices.mps.MPS" title="pcdsdevices.mps.MPS"><code class="xref py py-class docutils literal notranslate"><span class="pre">MPS</span></code></a>.</p>
 <p class="rubric">Functions</p>
-<table border="1" class="longtable docutils">
+<table class="longtable docutils align-center">
 <colgroup>
-<col width="10%" />
-<col width="90%" />
+<col style="width: 10%" />
+<col style="width: 90%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mps.mps_factory.html#pcdsdevices.mps.mps_factory" title="pcdsdevices.mps.mps_factory"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mps_factory</span></code></a>(clsname,&nbsp;cls,&nbsp;*args,&nbsp;mps_prefix)</td>
-<td>Create a new object of arbitrary class capable of storing MPS information</td>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.mps_factory.html#pcdsdevices.mps.mps_factory" title="pcdsdevices.mps.mps_factory"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mps_factory</span></code></a>(clsname, cls, *args, mps_prefix)</p></td>
+<td><p>Create a new object of arbitrary class capable of storing MPS information</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mps.must_be_known.html#pcdsdevices.mps.must_be_known" title="pcdsdevices.mps.must_be_known"><code class="xref py py-obj docutils literal notranslate"><span class="pre">must_be_known</span></code></a>(in_limit,&nbsp;out_limit)</td>
-<td>Logical combinatino of limits enforcing a known state</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.must_be_known.html#pcdsdevices.mps.must_be_known" title="pcdsdevices.mps.must_be_known"><code class="xref py py-obj docutils literal notranslate"><span class="pre">must_be_known</span></code></a>(in_limit, out_limit)</p></td>
+<td><p>Logical combinatino of limits enforcing a known state</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mps.must_be_out.html#pcdsdevices.mps.must_be_out" title="pcdsdevices.mps.must_be_out"><code class="xref py py-obj docutils literal notranslate"><span class="pre">must_be_out</span></code></a>(in_limit,&nbsp;out_limit)</td>
-<td>Logical combination of limits enforcing an out state</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.must_be_out.html#pcdsdevices.mps.must_be_out" title="pcdsdevices.mps.must_be_out"><code class="xref py py-obj docutils literal notranslate"><span class="pre">must_be_out</span></code></a>(in_limit, out_limit)</p></td>
+<td><p>Logical combination of limits enforcing an out state</p></td>
 </tr>
 </tbody>
 </table>
 <p class="rubric">Classes</p>
-<table border="1" class="longtable docutils">
+<table class="longtable docutils align-center">
 <colgroup>
-<col width="10%" />
-<col width="90%" />
+<col style="width: 10%" />
+<col style="width: 90%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mps.MPS.html#pcdsdevices.mps.MPS" title="pcdsdevices.mps.MPS"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MPS</span></code></a>(*args[,&nbsp;veto])</td>
-<td>Class to interpret a single bit of MPS information</td>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.html#pcdsdevices.mps.MPS" title="pcdsdevices.mps.MPS"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MPS</span></code></a>(*args[, veto])</p></td>
+<td><p>Class to interpret a single bit of MPS information</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mps.MPSBase.html#pcdsdevices.mps.MPSBase" title="pcdsdevices.mps.MPSBase"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MPSBase</span></code></a>(*args[,&nbsp;veto])</td>
-<td>Base MPS class</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPSBase.html#pcdsdevices.mps.MPSBase" title="pcdsdevices.mps.MPSBase"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MPSBase</span></code></a>(*args[, veto])</p></td>
+<td><p>Base MPS class</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mps.MPSLimits.html#pcdsdevices.mps.MPSLimits" title="pcdsdevices.mps.MPSLimits"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MPSLimits</span></code></a>(prefix,&nbsp;logic,&nbsp;**kwargs)</td>
-<td>Logical combination of two MPS bits</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPSLimits.html#pcdsdevices.mps.MPSLimits" title="pcdsdevices.mps.MPSLimits"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MPSLimits</span></code></a>(prefix, logic, **kwargs)</p></td>
+<td><p>Logical combination of two MPS bits</p></td>
 </tr>
 </tbody>
 </table>

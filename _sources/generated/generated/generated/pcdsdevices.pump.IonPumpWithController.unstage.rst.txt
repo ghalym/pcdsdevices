@@ -1,0 +1,6 @@
+pcdsdevices.pump.IonPumpWithController.unstage
+==============================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: IonPumpWithController.unstage

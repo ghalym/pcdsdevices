@@ -1,0 +1,6 @@
+pcdsdevices.pump.TurboPump.resume
+=================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: TurboPump.resume

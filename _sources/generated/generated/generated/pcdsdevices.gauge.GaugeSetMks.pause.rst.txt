@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSetMks.pause
+===================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSetMks.pause

@@ -1,0 +1,68 @@
+pcdsdevices.gauge.BaseGauge
+===========================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. autoclass:: BaseGauge
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~BaseGauge.__init__
+      ~BaseGauge.check_value
+      ~BaseGauge.clear_sub
+      ~BaseGauge.configure
+      ~BaseGauge.describe
+      ~BaseGauge.describe_configuration
+      ~BaseGauge.get
+      ~BaseGauge.get_device_tuple
+      ~BaseGauge.get_instantiated_signals
+      ~BaseGauge.pause
+      ~BaseGauge.put
+      ~BaseGauge.read
+      ~BaseGauge.read_configuration
+      ~BaseGauge.resume
+      ~BaseGauge.stage
+      ~BaseGauge.stop
+      ~BaseGauge.subscribe
+      ~BaseGauge.summary
+      ~BaseGauge.trigger
+      ~BaseGauge.unstage
+      ~BaseGauge.unsubscribe
+      ~BaseGauge.unsubscribe_all
+      ~BaseGauge.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~BaseGauge.SUB_ACQ_DONE
+      ~BaseGauge.component_names
+      ~BaseGauge.configuration_attrs
+      ~BaseGauge.connected
+      ~BaseGauge.egu
+      ~BaseGauge.event_types
+      ~BaseGauge.hints
+      ~BaseGauge.kind
+      ~BaseGauge.name
+      ~BaseGauge.parent
+      ~BaseGauge.pressure
+      ~BaseGauge.pressure_status
+      ~BaseGauge.pressure_status_enable
+      ~BaseGauge.read_attrs
+      ~BaseGauge.report
+      ~BaseGauge.root
+      ~BaseGauge.signal_names
+      ~BaseGauge.state
+      ~BaseGauge.status
+      ~BaseGauge.trigger_signals
+   
+   

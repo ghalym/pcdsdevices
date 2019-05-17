@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.inout &mdash; PCDS Devices 1.2.0+1.g5925ccd documentation</title>
+  <title>pcdsdevices.inout &mdash; PCDS Devices 1.2.0+2.gbc355f2 documentation</title>
   
 
   
@@ -36,7 +36,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="pcdsdevices.inout.InOutPVStatePositioner" href="generated/pcdsdevices.inout.InOutPVStatePositioner.html" />
-    <link rel="prev" title="pcdsdevices.evr.Trigger.wait_for_connection" href="generated/generated/pcdsdevices.evr.Trigger.wait_for_connection.html" /> 
+    <link rel="prev" title="pcdsdevices.gauge.MKS937a.wait_for_connection" href="generated/generated/pcdsdevices.gauge.MKS937a.wait_for_connection.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+1.g5925ccd
+                1.2.0+2.gbc355f2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.evr.html">pcdsdevices.evr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">pcdsdevices.inout</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.inout.InOutPVStatePositioner.html">pcdsdevices.inout.InOutPVStatePositioner</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.inout.InOutPositioner.html">pcdsdevices.inout.InOutPositioner</a></li>
@@ -122,6 +123,7 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pump.html">pcdsdevices.pump</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.signal.html">pcdsdevices.signal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.sim.html">pcdsdevices.sim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.slits.html">pcdsdevices.slits</a></li>
@@ -202,26 +204,26 @@
 methods such as <code class="docutils literal notranslate"><span class="pre">insert</span></code> or <code class="docutils literal notranslate"><span class="pre">remove</span></code> and the ability to mark discrete
 states as in the beam or out of the beam.</p>
 <p class="rubric">Classes</p>
-<table border="1" class="longtable docutils">
+<table class="longtable docutils align-center">
 <colgroup>
-<col width="10%" />
-<col width="90%" />
+<col style="width: 10%" />
+<col style="width: 90%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.inout.InOutPVStatePositioner.html#pcdsdevices.inout.InOutPVStatePositioner" title="pcdsdevices.inout.InOutPVStatePositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">InOutPVStatePositioner</span></code></a>(*args,&nbsp;**kwargs)</td>
-<td><a class="reference internal" href="generated/pcdsdevices.inout.InOutPositioner.html#pcdsdevices.inout.InOutPositioner" title="pcdsdevices.inout.InOutPositioner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">InOutPositioner</span></code></a> on top of a <a class="reference internal" href="generated/pcdsdevices.state.PVStatePositioner.html#pcdsdevices.state.PVStatePositioner" title="pcdsdevices.state.PVStatePositioner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PVStatePositioner</span></code></a></td>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.InOutPVStatePositioner.html#pcdsdevices.inout.InOutPVStatePositioner" title="pcdsdevices.inout.InOutPVStatePositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">InOutPVStatePositioner</span></code></a>(*args, **kwargs)</p></td>
+<td><p><a class="reference internal" href="generated/pcdsdevices.inout.InOutPositioner.html#pcdsdevices.inout.InOutPositioner" title="pcdsdevices.inout.InOutPositioner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">InOutPositioner</span></code></a> on top of a <a class="reference internal" href="generated/pcdsdevices.state.PVStatePositioner.html#pcdsdevices.state.PVStatePositioner" title="pcdsdevices.state.PVStatePositioner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PVStatePositioner</span></code></a></p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.inout.InOutPositioner.html#pcdsdevices.inout.InOutPositioner" title="pcdsdevices.inout.InOutPositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">InOutPositioner</span></code></a>(prefix,&nbsp;*,&nbsp;name,&nbsp;**kwargs)</td>
-<td>Base class for a device that can be inserted and removed from the beam.</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.InOutPositioner.html#pcdsdevices.inout.InOutPositioner" title="pcdsdevices.inout.InOutPositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">InOutPositioner</span></code></a>(prefix, *, name, **kwargs)</p></td>
+<td><p>Base class for a device that can be inserted and removed from the beam.</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.inout.InOutRecordPositioner.html#pcdsdevices.inout.InOutRecordPositioner" title="pcdsdevices.inout.InOutRecordPositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">InOutRecordPositioner</span></code></a>(prefix,&nbsp;*,&nbsp;name,&nbsp;**kwargs)</td>
-<td><a class="reference internal" href="generated/pcdsdevices.inout.InOutPositioner.html#pcdsdevices.inout.InOutPositioner" title="pcdsdevices.inout.InOutPositioner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">InOutPositioner</span></code></a> for a standard states record.</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.InOutRecordPositioner.html#pcdsdevices.inout.InOutRecordPositioner" title="pcdsdevices.inout.InOutRecordPositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">InOutRecordPositioner</span></code></a>(prefix, *, name, **kwargs)</p></td>
+<td><p><a class="reference internal" href="generated/pcdsdevices.inout.InOutPositioner.html#pcdsdevices.inout.InOutPositioner" title="pcdsdevices.inout.InOutPositioner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">InOutPositioner</span></code></a> for a standard states record.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.inout.Reflaser.html#pcdsdevices.inout.Reflaser" title="pcdsdevices.inout.Reflaser"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Reflaser</span></code></a>(prefix,&nbsp;*,&nbsp;name,&nbsp;**kwargs)</td>
-<td>Simple ReferenceLaser with In/Out States</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.Reflaser.html#pcdsdevices.inout.Reflaser" title="pcdsdevices.inout.Reflaser"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Reflaser</span></code></a>(prefix, *, name, **kwargs)</p></td>
+<td><p>Simple ReferenceLaser with In/Out States</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.inout.TTReflaser.html#pcdsdevices.inout.TTReflaser" title="pcdsdevices.inout.TTReflaser"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TTReflaser</span></code></a>(prefix,&nbsp;*,&nbsp;name,&nbsp;**kwargs)</td>
-<td>Motor stack that includes both a timetool and a reflaser.</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.TTReflaser.html#pcdsdevices.inout.TTReflaser" title="pcdsdevices.inout.TTReflaser"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TTReflaser</span></code></a>(prefix, *, name, **kwargs)</p></td>
+<td><p>Motor stack that includes both a timetool and a reflaser.</p></td>
 </tr>
 </tbody>
 </table>
@@ -238,7 +240,7 @@ states as in the beam or out of the beam.</p>
         <a href="generated/pcdsdevices.inout.InOutPVStatePositioner.html" class="btn btn-neutral float-right" title="pcdsdevices.inout.InOutPVStatePositioner" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="generated/generated/pcdsdevices.evr.Trigger.wait_for_connection.html" class="btn btn-neutral float-left" title="pcdsdevices.evr.Trigger.wait_for_connection" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="generated/generated/pcdsdevices.gauge.MKS937a.wait_for_connection.html" class="btn btn-neutral float-left" title="pcdsdevices.gauge.MKS937a.wait_for_connection" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

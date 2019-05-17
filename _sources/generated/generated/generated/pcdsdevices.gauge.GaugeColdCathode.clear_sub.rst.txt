@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeColdCathode.clear\_sub
+=============================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeColdCathode.clear_sub

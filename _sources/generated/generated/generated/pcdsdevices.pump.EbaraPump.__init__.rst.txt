@@ -1,0 +1,6 @@
+pcdsdevices.pump.EbaraPump.\_\_init\_\_
+=======================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: EbaraPump.__init__

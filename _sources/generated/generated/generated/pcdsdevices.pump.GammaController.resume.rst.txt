@@ -1,0 +1,6 @@
+pcdsdevices.pump.GammaController.resume
+=======================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: GammaController.resume

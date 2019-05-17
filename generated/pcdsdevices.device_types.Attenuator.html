@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.Attenuator &mdash; PCDS Devices 1.2.0+1.g5925ccd documentation</title>
+  <title>pcdsdevices.device_types.Attenuator &mdash; PCDS Devices 1.2.0+2.gbc355f2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+1.g5925ccd
+                1.2.0+2.gbc355f2
               </div>
             
           
@@ -99,8 +99,10 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.html">pcdsdevices.device_types.EpicsMotor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.EventSequencer.html">pcdsdevices.device_types.EventSequencer</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.GateValve.html">pcdsdevices.device_types.GateValve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.GaugeSet.html">pcdsdevices.device_types.GaugeSet</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.IMS.html">pcdsdevices.device_types.IMS</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.IPM.html">pcdsdevices.device_types.IPM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.IonPump.html">pcdsdevices.device_types.IonPump</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.LODCM.html">pcdsdevices.device_types.LODCM</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Motor.html">pcdsdevices.device_types.Motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Newport.html">pcdsdevices.device_types.Newport</a></li>
@@ -200,21 +202,17 @@
 <a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.html#pcdsdevices.attenuator.AttBase3rd" title="pcdsdevices.attenuator.AttBase3rd"><code class="xref any py py-class docutils literal notranslate"><span class="pre">AttBase3rd</span></code></a> with the correct number of <a class="reference internal" href="generated/pcdsdevices.attenuator.Filter.html#pcdsdevices.attenuator.Filter" title="pcdsdevices.attenuator.Filter"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Filter</span></code></a> components.</p>
 <p>The <a class="reference internal" href="generated/pcdsdevices.attenuator.Filter.html#pcdsdevices.attenuator.Filter" title="pcdsdevices.attenuator.Filter"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Filter</span></code></a> components will be named <code class="docutils literal notranslate"><span class="pre">filter1</span></code>, <code class="docutils literal notranslate"><span class="pre">filter2</span></code>, …
 <code class="docutils literal notranslate"><span class="pre">filter10</span></code>, …</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>prefix</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – The EPICS prefix that identifies the attenuator, e.g. <code class="docutils literal notranslate"><span class="pre">XPP:ATT</span></code></li>
-<li><strong>n_filters</strong> (<code class="docutils literal notranslate"><span class="pre">int</span></code>) – The number of filters in the attenuator.</li>
-<li><strong>name</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – An identifying name for the attenuator.</li>
-<li><strong>use_3rd</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>, optional) – If <code class="docutils literal notranslate"><span class="pre">True</span></code>, we’ll use the third harmonic transmissions instead of the
-fundamntal frequency.</li>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>prefix</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – The EPICS prefix that identifies the attenuator, e.g. <code class="docutils literal notranslate"><span class="pre">XPP:ATT</span></code></p></li>
+<li><p><strong>n_filters</strong> (<code class="docutils literal notranslate"><span class="pre">int</span></code>) – The number of filters in the attenuator.</p></li>
+<li><p><strong>name</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – An identifying name for the attenuator.</p></li>
+<li><p><strong>use_3rd</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>, optional) – If <code class="docutils literal notranslate"><span class="pre">True</span></code>, we’ll use the third harmonic transmissions instead of the
+fundamntal frequency.</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 </dd></dl>
 
 </div>

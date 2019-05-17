@@ -1,0 +1,6 @@
+pcdsdevices.pump.EbaraPump.clear\_sub
+=====================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: EbaraPump.clear_sub

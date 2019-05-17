@@ -1,0 +1,65 @@
+pcdsdevices.gauge.GaugeSetBase
+==============================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. autoclass:: GaugeSetBase
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~GaugeSetBase.__init__
+      ~GaugeSetBase.check_value
+      ~GaugeSetBase.clear_sub
+      ~GaugeSetBase.configure
+      ~GaugeSetBase.describe
+      ~GaugeSetBase.describe_configuration
+      ~GaugeSetBase.egu
+      ~GaugeSetBase.get
+      ~GaugeSetBase.get_device_tuple
+      ~GaugeSetBase.get_instantiated_signals
+      ~GaugeSetBase.pause
+      ~GaugeSetBase.pressure
+      ~GaugeSetBase.put
+      ~GaugeSetBase.read
+      ~GaugeSetBase.read_configuration
+      ~GaugeSetBase.resume
+      ~GaugeSetBase.stage
+      ~GaugeSetBase.stop
+      ~GaugeSetBase.subscribe
+      ~GaugeSetBase.summary
+      ~GaugeSetBase.trigger
+      ~GaugeSetBase.unstage
+      ~GaugeSetBase.unsubscribe
+      ~GaugeSetBase.unsubscribe_all
+      ~GaugeSetBase.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~GaugeSetBase.SUB_ACQ_DONE
+      ~GaugeSetBase.component_names
+      ~GaugeSetBase.configuration_attrs
+      ~GaugeSetBase.connected
+      ~GaugeSetBase.event_types
+      ~GaugeSetBase.gcc
+      ~GaugeSetBase.hints
+      ~GaugeSetBase.kind
+      ~GaugeSetBase.name
+      ~GaugeSetBase.parent
+      ~GaugeSetBase.read_attrs
+      ~GaugeSetBase.report
+      ~GaugeSetBase.root
+      ~GaugeSetBase.signal_names
+      ~GaugeSetBase.trigger_signals
+   
+   

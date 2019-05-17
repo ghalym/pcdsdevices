@@ -1,0 +1,6 @@
+pcdsdevices.gauge.MKS937a.stage
+===============================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: MKS937a.stage

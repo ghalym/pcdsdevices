@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSetMks.stage
+===================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSetMks.stage

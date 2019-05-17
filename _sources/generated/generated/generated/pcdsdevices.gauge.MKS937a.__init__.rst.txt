@@ -1,0 +1,6 @@
+pcdsdevices.gauge.MKS937a.\_\_init\_\_
+======================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: MKS937a.__init__

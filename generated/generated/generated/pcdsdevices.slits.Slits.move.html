@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.slits.Slits.move &mdash; PCDS Devices 1.2.0+1.g5925ccd documentation</title>
+  <title>pcdsdevices.slits.Slits.move &mdash; PCDS Devices 1.2.0+2.gbc355f2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+1.g5925ccd
+                1.2.0+2.gbc355f2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.evr.html">pcdsdevices.evr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
@@ -115,6 +116,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pump.html">pcdsdevices.pump</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.signal.html">pcdsdevices.signal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.sim.html">pcdsdevices.sim</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.slits.html">pcdsdevices.slits</a><ul class="current">
@@ -238,39 +240,33 @@
 <dt id="pcdsdevices.slits.Slits.move">
 <code class="descclassname">Slits.</code><code class="descname">move</code><span class="sig-paren">(</span><em>size</em>, <em>wait=False</em>, <em>moved_cb=None</em>, <em>timeout=None</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.slits.Slits.move" title="Permalink to this definition">¶</a></dt>
 <dd><p>Set the dimensions of the width/height of the gap to width paramater.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>size</strong> (<code class="docutils literal notranslate"><span class="pre">float</span></code>, tuple) – Target size for slits in both x and y axis. Either specify as a
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>size</strong> (<code class="docutils literal notranslate"><span class="pre">float</span></code>, tuple) – Target size for slits in both x and y axis. Either specify as a
 tuple for a rectangular aperture (width, height) or set both with
-single floating point value to use set a square width</li>
-<li><strong>wait</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>) – If true, block until move is completed</li>
+single floating point value to use set a square width</p></li>
+<li><p><strong>wait</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>) – If true, block until move is completed</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
-<dl class="docutils">
-<dt>timeout: <code class="docutils literal notranslate"><span class="pre">float</span></code>, optional</dt>
-<dd>Maximum time for the motion. If None is given, the default value of
-<code class="xref any docutils literal notranslate"><span class="pre">xwidth</span></code> and <code class="xref any docutils literal notranslate"><span class="pre">ywidth</span></code> positioners is used.</dd>
-<dt>moved_cb: <code class="docutils literal notranslate"><span class="pre">callable</span></code>, optional</dt>
-<dd>Function to be run when the operation finishes. This callback
-should not expect any arguments or keywords</dd>
+</dd>
 </dl>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><strong>status</strong> – Logical combination of the request to both horizontal and vertical
-motors</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">AndStatus</span></code></td>
-</tr>
-</tbody>
-</table>
+<dl class="simple">
+<dt>timeout: <code class="docutils literal notranslate"><span class="pre">float</span></code>, optional</dt><dd><p>Maximum time for the motion. If None is given, the default value of
+<code class="xref any docutils literal notranslate"><span class="pre">xwidth</span></code> and <code class="xref any docutils literal notranslate"><span class="pre">ywidth</span></code> positioners is used.</p>
+</dd>
+<dt>moved_cb: <code class="docutils literal notranslate"><span class="pre">callable</span></code>, optional</dt><dd><p>Function to be run when the operation finishes. This callback
+should not expect any arguments or keywords</p>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p><strong>status</strong> – Logical combination of the request to both horizontal and vertical
+motors</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">AndStatus</span></code></p>
+</dd>
+</dl>
 </dd></dl>
 
 </div>

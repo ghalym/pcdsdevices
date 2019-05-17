@@ -1,0 +1,6 @@
+pcdsdevices.pump.EbaraPump.describe\_configuration
+==================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: EbaraPump.describe_configuration

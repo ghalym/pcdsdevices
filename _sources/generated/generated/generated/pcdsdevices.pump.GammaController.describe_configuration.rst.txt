@@ -1,0 +1,6 @@
+pcdsdevices.pump.GammaController.describe\_configuration
+========================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: GammaController.describe_configuration

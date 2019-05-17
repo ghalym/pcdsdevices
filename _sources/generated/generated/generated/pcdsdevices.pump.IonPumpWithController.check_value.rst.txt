@@ -1,0 +1,6 @@
+pcdsdevices.pump.IonPumpWithController.check\_value
+===================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: IonPumpWithController.check_value

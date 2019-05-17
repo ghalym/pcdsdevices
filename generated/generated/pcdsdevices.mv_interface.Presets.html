@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.mv_interface.Presets &mdash; PCDS Devices 1.2.0+1.g5925ccd documentation</title>
+  <title>pcdsdevices.mv_interface.Presets &mdash; PCDS Devices 1.2.0+2.gbc355f2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+1.g5925ccd
+                1.2.0+2.gbc355f2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.evr.html">pcdsdevices.evr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
@@ -128,6 +129,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pump.html">pcdsdevices.pump</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.signal.html">pcdsdevices.signal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.sim.html">pcdsdevices.sim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.slits.html">pcdsdevices.slits</a></li>
@@ -214,42 +216,36 @@ active, and related utilities.</p>
 <p>It will install the <code class="docutils literal notranslate"><span class="pre">mv_presetname</span></code> and <code class="docutils literal notranslate"><span class="pre">wm_presetname</span></code> methods onto
 the associated device, and the <code class="docutils literal notranslate"><span class="pre">add_preset</span></code> and <code class="docutils literal notranslate"><span class="pre">add_preset_here</span></code>
 methods onto itself.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>device</strong> (<code class="docutils literal notranslate"><span class="pre">Device</span></code>) – The device to manage saved preset positions for. It must implement the
-<a class="reference internal" href="pcdsdevices.mv_interface.FltMvInterface.html#pcdsdevices.mv_interface.FltMvInterface" title="pcdsdevices.mv_interface.FltMvInterface"><code class="xref any py py-class docutils literal notranslate"><span class="pre">FltMvInterface</span></code></a>.</td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>device</strong> (<code class="docutils literal notranslate"><span class="pre">Device</span></code>) – The device to manage saved preset positions for. It must implement the
+<a class="reference internal" href="pcdsdevices.mv_interface.FltMvInterface.html#pcdsdevices.mv_interface.FltMvInterface" title="pcdsdevices.mv_interface.FltMvInterface"><code class="xref any py py-class docutils literal notranslate"><span class="pre">FltMvInterface</span></code></a>.</p>
+</dd>
+</dl>
 <dl class="attribute">
 <dt id="pcdsdevices.mv_interface.Presets.positions">
 <code class="descname">positions</code><a class="headerlink" href="#pcdsdevices.mv_interface.Presets.positions" title="Permalink to this definition">¶</a></dt>
 <dd><p>A namespace that contains all of the active presets as <a class="reference internal" href="pcdsdevices.mv_interface.PresetPosition.html#pcdsdevices.mv_interface.PresetPosition" title="pcdsdevices.mv_interface.PresetPosition"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PresetPosition</span></code></a>
 objects.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body"><code class="docutils literal notranslate"><span class="pre">SimpleNamespace</span></code></td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">SimpleNamespace</span></code></p>
+</dd>
+</dl>
 </dd></dl>
 
 <p class="rubric">Methods</p>
-<table border="1" class="longtable docutils">
+<table class="longtable docutils align-center">
 <colgroup>
-<col width="10%" />
-<col width="90%" />
+<col style="width: 10%" />
+<col style="width: 90%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.Presets.__init__.html#pcdsdevices.mv_interface.Presets.__init__" title="pcdsdevices.mv_interface.Presets.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(device)</td>
-<td>Initialize self.</td>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mv_interface.Presets.__init__.html#pcdsdevices.mv_interface.Presets.__init__" title="pcdsdevices.mv_interface.Presets.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(device)</p></td>
+<td><p>Initialize self.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mv_interface.Presets.sync.html#pcdsdevices.mv_interface.Presets.sync" title="pcdsdevices.mv_interface.Presets.sync"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sync</span></code></a>()</td>
-<td>Synchronize the presets with the database.</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mv_interface.Presets.sync.html#pcdsdevices.mv_interface.Presets.sync" title="pcdsdevices.mv_interface.Presets.sync"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sync</span></code></a>()</p></td>
+<td><p>Synchronize the presets with the database.</p></td>
 </tr>
 </tbody>
 </table>

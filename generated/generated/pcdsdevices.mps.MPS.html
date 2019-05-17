@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.mps.MPS &mdash; PCDS Devices 1.2.0+1.g5925ccd documentation</title>
+  <title>pcdsdevices.mps.MPS &mdash; PCDS Devices 1.2.0+2.gbc355f2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+1.g5925ccd
+                1.2.0+2.gbc355f2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.evr.html">pcdsdevices.evr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
@@ -148,6 +149,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pump.html">pcdsdevices.pump</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.signal.html">pcdsdevices.signal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.sim.html">pcdsdevices.sim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.slits.html">pcdsdevices.slits</a></li>
@@ -240,163 +242,159 @@ summary of both the <code class="xref any docutils literal notranslate"><span cl
 unfortunately whether a device is considered capable of  “veto-ing” or is
 vetoed by another device is not broadcast by EPICS so this is held within
 this device and the <code class="docutils literal notranslate"><span class="pre">lighpath</span></code> module</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>prefix</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – PV prefix of MPS information</li>
-<li><strong>name</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>, required keyword) – Name of MPS bit</li>
-<li><strong>veto</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>, optional) – Whether or not the the device is capable of vetoing downstream faults</li>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>prefix</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – PV prefix of MPS information</p></li>
+<li><p><strong>name</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>, required keyword) – Name of MPS bit</p></li>
+<li><p><strong>veto</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>, optional) – Whether or not the the device is capable of vetoing downstream faults</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 <p class="rubric">Methods</p>
-<table border="1" class="longtable docutils">
+<table class="longtable docutils align-center">
 <colgroup>
-<col width="10%" />
-<col width="90%" />
+<col style="width: 10%" />
+<col style="width: 90%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mps.MPS.__init__.html#pcdsdevices.mps.MPS.__init__" title="pcdsdevices.mps.MPS.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(*args[,&nbsp;veto])</td>
-<td>Initialize self.</td>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.__init__.html#pcdsdevices.mps.MPS.__init__" title="pcdsdevices.mps.MPS.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(*args[, veto])</p></td>
+<td><p>Initialize self.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mps.MPS.check_value.html#pcdsdevices.mps.MPS.check_value" title="pcdsdevices.mps.MPS.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value,&nbsp;**kwargs)</td>
-<td>Check if the value is valid for this object</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.check_value.html#pcdsdevices.mps.MPS.check_value" title="pcdsdevices.mps.MPS.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value, **kwargs)</p></td>
+<td><p>Check if the value is valid for this object</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mps.MPS.clear_sub.html#pcdsdevices.mps.MPS.clear_sub" title="pcdsdevices.mps.MPS.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[,&nbsp;event_type])</td>
-<td>Remove a subscription, given the original callback function</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.clear_sub.html#pcdsdevices.mps.MPS.clear_sub" title="pcdsdevices.mps.MPS.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
+<td><p>Remove a subscription, given the original callback function</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mps.MPS.configure.html#pcdsdevices.mps.MPS.configure" title="pcdsdevices.mps.MPS.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d,&nbsp;Any])</td>
-<td>Configure the device for something during a run</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.configure.html#pcdsdevices.mps.MPS.configure" title="pcdsdevices.mps.MPS.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d, Any])</p></td>
+<td><p>Configure the device for something during a run</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mps.MPS.describe.html#pcdsdevices.mps.MPS.describe" title="pcdsdevices.mps.MPS.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</td>
-<td>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.describe.html#pcdsdevices.mps.MPS.describe" title="pcdsdevices.mps.MPS.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
+<td><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code></p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mps.MPS.describe_configuration.html#pcdsdevices.mps.MPS.describe_configuration" title="pcdsdevices.mps.MPS.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</td>
-<td>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.describe_configuration.html#pcdsdevices.mps.MPS.describe_configuration" title="pcdsdevices.mps.MPS.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</p></td>
+<td><p>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mps.MPS.get.html#pcdsdevices.mps.MPS.get" title="pcdsdevices.mps.MPS.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
-<td>Get the value of all components in the device</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.get.html#pcdsdevices.mps.MPS.get" title="pcdsdevices.mps.MPS.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
+<td><p>Get the value of all components in the device</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mps.MPS.get_device_tuple.html#pcdsdevices.mps.MPS.get_device_tuple" title="pcdsdevices.mps.MPS.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
-<td>The device tuple type associated with an Device class</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.get_device_tuple.html#pcdsdevices.mps.MPS.get_device_tuple" title="pcdsdevices.mps.MPS.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
+<td><p>The device tuple type associated with an Device class</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mps.MPS.get_instantiated_signals.html#pcdsdevices.mps.MPS.get_instantiated_signals" title="pcdsdevices.mps.MPS.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
-<td>Yields all of the instantiated signals in a device hierarchy</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.get_instantiated_signals.html#pcdsdevices.mps.MPS.get_instantiated_signals" title="pcdsdevices.mps.MPS.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
+<td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mps.MPS.pause.html#pcdsdevices.mps.MPS.pause" title="pcdsdevices.mps.MPS.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
-<td>Attempt to ‘pause’ the device.</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.pause.html#pcdsdevices.mps.MPS.pause" title="pcdsdevices.mps.MPS.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
+<td><p>Attempt to ‘pause’ the device.</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mps.MPS.put.html#pcdsdevices.mps.MPS.put" title="pcdsdevices.mps.MPS.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
-<td>Put a value to all components of the device</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.put.html#pcdsdevices.mps.MPS.put" title="pcdsdevices.mps.MPS.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
+<td><p>Put a value to all components of the device</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mps.MPS.read.html#pcdsdevices.mps.MPS.read" title="pcdsdevices.mps.MPS.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
-<td>Read data from the device</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.read.html#pcdsdevices.mps.MPS.read" title="pcdsdevices.mps.MPS.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<td><p>Read data from the device</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mps.MPS.read_configuration.html#pcdsdevices.mps.MPS.read_configuration" title="pcdsdevices.mps.MPS.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
-<td>returns dictionary mapping names to (value, timestamp) pairs</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.read_configuration.html#pcdsdevices.mps.MPS.read_configuration" title="pcdsdevices.mps.MPS.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<td><p>returns dictionary mapping names to (value, timestamp) pairs</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mps.MPS.resume.html#pcdsdevices.mps.MPS.resume" title="pcdsdevices.mps.MPS.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
-<td>Resume a device from a ‘paused’ state</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.resume.html#pcdsdevices.mps.MPS.resume" title="pcdsdevices.mps.MPS.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
+<td><p>Resume a device from a ‘paused’ state</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mps.MPS.stage.html#pcdsdevices.mps.MPS.stage" title="pcdsdevices.mps.MPS.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
-<td>Stage the device for data collection.</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.stage.html#pcdsdevices.mps.MPS.stage" title="pcdsdevices.mps.MPS.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
+<td><p>Stage the device for data collection.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mps.MPS.stop.html#pcdsdevices.mps.MPS.stop" title="pcdsdevices.mps.MPS.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[,&nbsp;success])</td>
-<td>Stop the Device and all (instantiated) subdevices</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.stop.html#pcdsdevices.mps.MPS.stop" title="pcdsdevices.mps.MPS.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mps.MPS.subscribe.html#pcdsdevices.mps.MPS.subscribe" title="pcdsdevices.mps.MPS.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
-<td>Subscribe to changes in the MPS</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.subscribe.html#pcdsdevices.mps.MPS.subscribe" title="pcdsdevices.mps.MPS.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[, event_type, run])</p></td>
+<td><p>Subscribe to changes in the MPS</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mps.MPS.summary.html#pcdsdevices.mps.MPS.summary" title="pcdsdevices.mps.MPS.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
-<td></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.summary.html#pcdsdevices.mps.MPS.summary" title="pcdsdevices.mps.MPS.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mps.MPS.trigger.html#pcdsdevices.mps.MPS.trigger" title="pcdsdevices.mps.MPS.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
-<td>Trigger the device and return status object</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.trigger.html#pcdsdevices.mps.MPS.trigger" title="pcdsdevices.mps.MPS.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<td><p>Trigger the device and return status object</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mps.MPS.unstage.html#pcdsdevices.mps.MPS.unstage" title="pcdsdevices.mps.MPS.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
-<td>Unstage the device.</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.unstage.html#pcdsdevices.mps.MPS.unstage" title="pcdsdevices.mps.MPS.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</p></td>
+<td><p>Unstage the device.</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mps.MPS.unsubscribe.html#pcdsdevices.mps.MPS.unsubscribe" title="pcdsdevices.mps.MPS.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
-<td>Remove a subscription</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.unsubscribe.html#pcdsdevices.mps.MPS.unsubscribe" title="pcdsdevices.mps.MPS.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</p></td>
+<td><p>Remove a subscription</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.mps.MPS.unsubscribe_all.html#pcdsdevices.mps.MPS.unsubscribe_all" title="pcdsdevices.mps.MPS.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
-<td></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.unsubscribe_all.html#pcdsdevices.mps.MPS.unsubscribe_all" title="pcdsdevices.mps.MPS.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.mps.MPS.wait_for_connection.html#pcdsdevices.mps.MPS.wait_for_connection" title="pcdsdevices.mps.MPS.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
-<td>Wait for signals to connect</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.wait_for_connection.html#pcdsdevices.mps.MPS.wait_for_connection" title="pcdsdevices.mps.MPS.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals, timeout])</p></td>
+<td><p>Wait for signals to connect</p></td>
 </tr>
 </tbody>
 </table>
 <p class="rubric">Attributes</p>
-<table border="1" class="longtable docutils">
+<table class="longtable docutils align-center">
 <colgroup>
-<col width="10%" />
-<col width="90%" />
+<col style="width: 10%" />
+<col style="width: 90%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_ACQ_DONE</span></code></td>
-<td></td>
+<tbody>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_ACQ_DONE</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_FAULT_CH</span></code></td>
-<td></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_FAULT_CH</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">bypass</span></code></td>
-<td>Component attribute</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">bypass</span></code></p></td>
+<td><p>Component attribute</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">bypassed</span></code></td>
-<td>Bypass state of the MPS bit</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">bypassed</span></code></p></td>
+<td><p>Bypass state of the MPS bit</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_names</span></code></td>
-<td></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_names</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_attrs</span></code></td>
-<td></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_attrs</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></td>
-<td>If the device is connected.</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></p></td>
+<td><p>If the device is connected.</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">event_types</span></code></td>
-<td>Events that can be subscribed to via <code class="xref any docutils literal notranslate"><span class="pre">obj.subscribe</span></code></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">event_types</span></code></p></td>
+<td><p>Events that can be subscribed to via <code class="xref any docutils literal notranslate"><span class="pre">obj.subscribe</span></code></p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">fault</span></code></td>
-<td>Component attribute</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">fault</span></code></p></td>
+<td><p>Component attribute</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">faulted</span></code></td>
-<td>Whether the MPS bit is faulted or not</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">faulted</span></code></p></td>
+<td><p>Whether the MPS bit is faulted or not</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">hints</span></code></td>
-<td></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">hints</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></td>
-<td></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></td>
-<td>name of the device</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></p></td>
+<td><p>name of the device</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></td>
-<td>The parent of the ophyd object.</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></p></td>
+<td><p>The parent of the ophyd object.</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></td>
-<td></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></td>
-<td>A report on the object.</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
+<td><p>A report on the object.</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></td>
-<td>Walk parents to find ultimate ancestor (parent’s parent…).</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></p></td>
+<td><p>Walk parents to find ultimate ancestor (parent’s parent…).</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></td>
-<td></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></td>
-<td></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">tripped</span></code></td>
-<td>Whether this will trip the MPS system</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tripped</span></code></p></td>
+<td><p>Whether this will trip the MPS system</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,0 +1,310 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>pcdsdevices.gauge.GaugeSetBase.configure &mdash; PCDS Devices 1.2.0+2.gbc355f2 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="pcdsdevices.gauge.GaugeSetBase.describe" href="pcdsdevices.gauge.GaugeSetBase.describe.html" />
+    <link rel="prev" title="pcdsdevices.gauge.GaugeSetBase.clear_sub" href="pcdsdevices.gauge.GaugeSetBase.clear_sub.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> PCDS Devices
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.2.0+2.gbc355f2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Features</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../mv.html">Shortcuts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../presets.html">Preset Positions</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Device Types</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../epics_types.html">Common EPICS Devices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../base_classes.html">Base Classes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sim_types.html">Simulated Devices</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developer Notes</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../releases.html">Release History</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../api.html">Full API</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.evr.html">pcdsdevices.evr</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.gauge.html">pcdsdevices.gauge</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.gauge.GaugeSet.html">pcdsdevices.gauge.GaugeSet</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.gauge.BaseGauge.html">pcdsdevices.gauge.BaseGauge</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.gauge.GaugeColdCathode.html">pcdsdevices.gauge.GaugeColdCathode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.gauge.GaugePirani.html">pcdsdevices.gauge.GaugePirani</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.gauge.GaugeSetBase.html">pcdsdevices.gauge.GaugeSetBase</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.__init__.html">pcdsdevices.gauge.GaugeSetBase.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.check_value.html">pcdsdevices.gauge.GaugeSetBase.check_value</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.clear_sub.html">pcdsdevices.gauge.GaugeSetBase.clear_sub</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.gauge.GaugeSetBase.configure</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.describe.html">pcdsdevices.gauge.GaugeSetBase.describe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.describe_configuration.html">pcdsdevices.gauge.GaugeSetBase.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.egu.html">pcdsdevices.gauge.GaugeSetBase.egu</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.get.html">pcdsdevices.gauge.GaugeSetBase.get</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.get_device_tuple.html">pcdsdevices.gauge.GaugeSetBase.get_device_tuple</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.get_instantiated_signals.html">pcdsdevices.gauge.GaugeSetBase.get_instantiated_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.pause.html">pcdsdevices.gauge.GaugeSetBase.pause</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.pressure.html">pcdsdevices.gauge.GaugeSetBase.pressure</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.put.html">pcdsdevices.gauge.GaugeSetBase.put</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.read.html">pcdsdevices.gauge.GaugeSetBase.read</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.read_configuration.html">pcdsdevices.gauge.GaugeSetBase.read_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.resume.html">pcdsdevices.gauge.GaugeSetBase.resume</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.stage.html">pcdsdevices.gauge.GaugeSetBase.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.stop.html">pcdsdevices.gauge.GaugeSetBase.stop</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.subscribe.html">pcdsdevices.gauge.GaugeSetBase.subscribe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.summary.html">pcdsdevices.gauge.GaugeSetBase.summary</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.trigger.html">pcdsdevices.gauge.GaugeSetBase.trigger</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.unstage.html">pcdsdevices.gauge.GaugeSetBase.unstage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.unsubscribe.html">pcdsdevices.gauge.GaugeSetBase.unsubscribe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.unsubscribe_all.html">pcdsdevices.gauge.GaugeSetBase.unsubscribe_all</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.wait_for_connection.html">pcdsdevices.gauge.GaugeSetBase.wait_for_connection</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.gauge.GaugeSetMks.html">pcdsdevices.gauge.GaugeSetMks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.gauge.GaugeSetPirani.html">pcdsdevices.gauge.GaugeSetPirani</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.gauge.GaugeSetPiraniMks.html">pcdsdevices.gauge.GaugeSetPiraniMks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.gauge.MKS937a.html">pcdsdevices.gauge.MKS937a</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.lodcm.html">pcdsdevices.lodcm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mirror.html">pcdsdevices.mirror</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.movablestand.html">pcdsdevices.movablestand</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mps.html">pcdsdevices.mps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mv_interface.html">pcdsdevices.mv_interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pump.html">pcdsdevices.pump</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.signal.html">pcdsdevices.signal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.sim.html">pcdsdevices.sim</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.slits.html">pcdsdevices.slits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.state.html">pcdsdevices.state</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.valve.html">pcdsdevices.valve</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">PCDS Devices</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../../../api.html">Full API</a> &raquo;</li>
+        
+          <li><a href="../../pcdsdevices.gauge.html">pcdsdevices.gauge</a> &raquo;</li>
+        
+          <li><a href="../pcdsdevices.gauge.GaugeSetBase.html">pcdsdevices.gauge.GaugeSetBase</a> &raquo;</li>
+        
+      <li>pcdsdevices.gauge.GaugeSetBase.configure</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../../_sources/generated/generated/generated/pcdsdevices.gauge.GaugeSetBase.configure.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="pcdsdevices-gauge-gaugesetbase-configure">
+<h1>pcdsdevices.gauge.GaugeSetBase.configure<a class="headerlink" href="#pcdsdevices-gauge-gaugesetbase-configure" title="Permalink to this headline">¶</a></h1>
+<dl class="method">
+<dt id="pcdsdevices.gauge.GaugeSetBase.configure">
+<code class="descclassname">GaugeSetBase.</code><code class="descname">configure</code><span class="sig-paren">(</span><em>d: Dict[str, Any]</em><span class="sig-paren">)</span> &#x2192; Tuple[Dict[str, Any], Dict[str, Any]]<a class="headerlink" href="#pcdsdevices.gauge.GaugeSetBase.configure" title="Permalink to this definition">¶</a></dt>
+<dd><p>Configure the device for something during a run</p>
+<p>This default implementation allows the user to change any of the
+<code class="xref any docutils literal notranslate"><span class="pre">configuration_attrs</span></code>. Subclasses might override this to perform
+additional input validation, cleanup, etc.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>d</strong> (<em>dict</em>) – The configuration dictionary. To specify the order that
+the changes should be made, use an OrderedDict.</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><ul class="simple">
+<li><p><em>(old, new) tuple of dictionaries</em></p></li>
+<li><p><em>Where old and new are pre- and post-configure configuration states.</em></p></li>
+</ul>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="pcdsdevices.gauge.GaugeSetBase.describe.html" class="btn btn-neutral float-right" title="pcdsdevices.gauge.GaugeSetBase.describe" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="pcdsdevices.gauge.GaugeSetBase.clear_sub.html" class="btn btn-neutral float-left" title="pcdsdevices.gauge.GaugeSetBase.clear_sub" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, SLAC National Accelerator Laboratory
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

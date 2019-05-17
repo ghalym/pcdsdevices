@@ -1,0 +1,6 @@
+pcdsdevices.pump.IonPumpWithController.egu
+==========================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: IonPumpWithController.egu

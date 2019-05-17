@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSetBase.pressure
+=======================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSetBase.pressure

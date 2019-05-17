@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.mv_interface.AbsProgressBar.__init__ &mdash; PCDS Devices 1.2.0+1.g5925ccd documentation</title>
+  <title>pcdsdevices.mv_interface.AbsProgressBar.__init__ &mdash; PCDS Devices 1.2.0+2.gbc355f2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+1.g5925ccd
+                1.2.0+2.gbc355f2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.evr.html">pcdsdevices.evr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
@@ -130,6 +131,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pump.html">pcdsdevices.pump</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.signal.html">pcdsdevices.signal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.sim.html">pcdsdevices.sim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.slits.html">pcdsdevices.slits</a></li>
@@ -213,20 +215,16 @@
 <dt id="pcdsdevices.mv_interface.AbsProgressBar.__init__">
 <code class="descclassname">AbsProgressBar.</code><code class="descname">__init__</code><span class="sig-paren">(</span><em>status_objs</em>, <em>delay_draw=0.2</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.mv_interface.AbsProgressBar.__init__" title="Permalink to this definition">¶</a></dt>
 <dd><p>Represent status objects with a progress bars.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>status_objs</strong> (<em>list</em>) – Status objects</li>
-<li><strong>delay_draw</strong> (<em>float</em><em>, </em><em>optional</em>) – To avoid flashing progress bars that will complete quickly after
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>status_objs</strong> (<em>list</em>) – Status objects</p></li>
+<li><p><strong>delay_draw</strong> (<em>float</em><em>, </em><em>optional</em>) – To avoid flashing progress bars that will complete quickly after
 they are displayed, delay drawing until the progress bar has been
-around for awhile. Default is 0.2 seconds.</li>
+around for awhile. Default is 0.2 seconds.</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 </dd></dl>
 
 </div>

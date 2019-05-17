@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeColdCathode.unsubscribe\_all
+===================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeColdCathode.unsubscribe_all

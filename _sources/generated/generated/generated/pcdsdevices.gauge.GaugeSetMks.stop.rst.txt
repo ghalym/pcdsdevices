@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSetMks.stop
+==================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSetMks.stop

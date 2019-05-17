@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ccm &mdash; PCDS Devices 1.2.0+1.g5925ccd documentation</title>
+  <title>pcdsdevices.ccm &mdash; PCDS Devices 1.2.0+2.gbc355f2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+1.g5925ccd
+                1.2.0+2.gbc355f2
               </div>
             
           
@@ -117,6 +117,7 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.evr.html">pcdsdevices.evr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.inout.html">pcdsdevices.inout</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.lens.html">pcdsdevices.lens</a></li>
@@ -128,6 +129,7 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pump.html">pcdsdevices.pump</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.signal.html">pcdsdevices.signal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.sim.html">pcdsdevices.sim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.slits.html">pcdsdevices.slits</a></li>
@@ -204,53 +206,53 @@
   <div class="section" id="module-pcdsdevices.ccm">
 <span id="pcdsdevices-ccm"></span><h1>pcdsdevices.ccm<a class="headerlink" href="#module-pcdsdevices.ccm" title="Permalink to this headline">¶</a></h1>
 <p class="rubric">Functions</p>
-<table border="1" class="longtable docutils">
+<table class="longtable docutils align-center">
 <colgroup>
-<col width="10%" />
-<col width="90%" />
+<col style="width: 10%" />
+<col style="width: 90%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.alio_to_theta.html#pcdsdevices.ccm.alio_to_theta" title="pcdsdevices.ccm.alio_to_theta"><code class="xref py py-obj docutils literal notranslate"><span class="pre">alio_to_theta</span></code></a>(alio,&nbsp;theta0,&nbsp;gr,&nbsp;gd)</td>
-<td>Converts alio position (mm) to theta angle (rad)</td>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.alio_to_theta.html#pcdsdevices.ccm.alio_to_theta" title="pcdsdevices.ccm.alio_to_theta"><code class="xref py py-obj docutils literal notranslate"><span class="pre">alio_to_theta</span></code></a>(alio, theta0, gr, gd)</p></td>
+<td><p>Converts alio position (mm) to theta angle (rad)</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.energy_to_wavelength.html#pcdsdevices.ccm.energy_to_wavelength" title="pcdsdevices.ccm.energy_to_wavelength"><code class="xref py py-obj docutils literal notranslate"><span class="pre">energy_to_wavelength</span></code></a>(energy)</td>
-<td>Converts photon energy (keV) to wavelength (A)</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.energy_to_wavelength.html#pcdsdevices.ccm.energy_to_wavelength" title="pcdsdevices.ccm.energy_to_wavelength"><code class="xref py py-obj docutils literal notranslate"><span class="pre">energy_to_wavelength</span></code></a>(energy)</p></td>
+<td><p>Converts photon energy (keV) to wavelength (A)</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.theta_to_alio.html#pcdsdevices.ccm.theta_to_alio" title="pcdsdevices.ccm.theta_to_alio"><code class="xref py py-obj docutils literal notranslate"><span class="pre">theta_to_alio</span></code></a>(theta,&nbsp;theta0,&nbsp;gr,&nbsp;gd)</td>
-<td>Converts theta angle (rad) to alio position (mm)</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.theta_to_alio.html#pcdsdevices.ccm.theta_to_alio" title="pcdsdevices.ccm.theta_to_alio"><code class="xref py py-obj docutils literal notranslate"><span class="pre">theta_to_alio</span></code></a>(theta, theta0, gr, gd)</p></td>
+<td><p>Converts theta angle (rad) to alio position (mm)</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.theta_to_wavelength.html#pcdsdevices.ccm.theta_to_wavelength" title="pcdsdevices.ccm.theta_to_wavelength"><code class="xref py py-obj docutils literal notranslate"><span class="pre">theta_to_wavelength</span></code></a>(theta,&nbsp;dspacing)</td>
-<td>Converts theta angle (rad) to wavelength (A)</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.theta_to_wavelength.html#pcdsdevices.ccm.theta_to_wavelength" title="pcdsdevices.ccm.theta_to_wavelength"><code class="xref py py-obj docutils literal notranslate"><span class="pre">theta_to_wavelength</span></code></a>(theta, dspacing)</p></td>
+<td><p>Converts theta angle (rad) to wavelength (A)</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.wavelength_to_energy.html#pcdsdevices.ccm.wavelength_to_energy" title="pcdsdevices.ccm.wavelength_to_energy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wavelength_to_energy</span></code></a>(wavelength)</td>
-<td>Converts wavelength (A) to photon energy (keV)</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.wavelength_to_energy.html#pcdsdevices.ccm.wavelength_to_energy" title="pcdsdevices.ccm.wavelength_to_energy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wavelength_to_energy</span></code></a>(wavelength)</p></td>
+<td><p>Converts wavelength (A) to photon energy (keV)</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.wavelength_to_theta.html#pcdsdevices.ccm.wavelength_to_theta" title="pcdsdevices.ccm.wavelength_to_theta"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wavelength_to_theta</span></code></a>(wavelength,&nbsp;dspacing)</td>
-<td>Converts wavelength (A) to theta angle (rad)</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.wavelength_to_theta.html#pcdsdevices.ccm.wavelength_to_theta" title="pcdsdevices.ccm.wavelength_to_theta"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wavelength_to_theta</span></code></a>(wavelength, dspacing)</p></td>
+<td><p>Converts wavelength (A) to theta angle (rad)</p></td>
 </tr>
 </tbody>
 </table>
 <p class="rubric">Classes</p>
-<table border="1" class="longtable docutils">
+<table class="longtable docutils align-center">
 <colgroup>
-<col width="10%" />
-<col width="90%" />
+<col style="width: 10%" />
+<col style="width: 90%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.html#pcdsdevices.ccm.CCM" title="pcdsdevices.ccm.CCM"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CCM</span></code></a>(alio_prefix,&nbsp;theta2fine_prefix,&nbsp;…)</td>
-<td>The full CCM assembly.</td>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.html#pcdsdevices.ccm.CCM" title="pcdsdevices.ccm.CCM"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CCM</span></code></a>(alio_prefix, theta2fine_prefix, …)</p></td>
+<td><p>The full CCM assembly.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCMCalc.html#pcdsdevices.ccm.CCMCalc" title="pcdsdevices.ccm.CCMCalc"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CCMCalc</span></code></a>(*args[,&nbsp;theta0,&nbsp;dspacing,&nbsp;gr,&nbsp;gd])</td>
-<td>CCM calculation motors to move in terms of physics quantities</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMCalc.html#pcdsdevices.ccm.CCMCalc" title="pcdsdevices.ccm.CCMCalc"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CCMCalc</span></code></a>(*args[, theta0, dspacing, gr, gd])</p></td>
+<td><p>CCM calculation motors to move in terms of physics quantities</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCMMotor.html#pcdsdevices.ccm.CCMMotor" title="pcdsdevices.ccm.CCMMotor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CCMMotor</span></code></a>(*args,&nbsp;**kwargs)</td>
-<td>Goofy records used in the CCM.</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMMotor.html#pcdsdevices.ccm.CCMMotor" title="pcdsdevices.ccm.CCMMotor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CCMMotor</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Goofy records used in the CCM.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCMX.html#pcdsdevices.ccm.CCMX" title="pcdsdevices.ccm.CCMX"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CCMX</span></code></a>(down_prefix,&nbsp;up_prefix,&nbsp;*args,&nbsp;**kwargs)</td>
-<td>Combined motion of the CCM X motors</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMX.html#pcdsdevices.ccm.CCMX" title="pcdsdevices.ccm.CCMX"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CCMX</span></code></a>(down_prefix, up_prefix, *args, **kwargs)</p></td>
+<td><p>Combined motion of the CCM X motors</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.html#pcdsdevices.ccm.CCMY" title="pcdsdevices.ccm.CCMY"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CCMY</span></code></a>(down_prefix,&nbsp;up_north_prefix,&nbsp;…)</td>
-<td>Combined motion of the CCM Y motors</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.html#pcdsdevices.ccm.CCMY" title="pcdsdevices.ccm.CCMY"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CCMY</span></code></a>(down_prefix, up_north_prefix, …)</p></td>
+<td><p>Combined motion of the CCM Y motors</p></td>
 </tr>
 </tbody>
 </table>

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Release History &mdash; PCDS Devices 1.2.0+1.g5925ccd documentation</title>
+  <title>Release History &mdash; PCDS Devices 1.2.0+2.gbc355f2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+1.g5925ccd
+                1.2.0+2.gbc355f2
               </div>
             
           
@@ -210,22 +210,22 @@
 <div class="section" id="features">
 <h3>Features<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li>Add all common plugins to <code class="docutils literal notranslate"><span class="pre">PCDSDetector</span></code></li>
-<li><code class="docutils literal notranslate"><span class="pre">EventSequencer</span></code> now accepts human-readable sequences</li>
+<li><p>Add all common plugins to <code class="docutils literal notranslate"><span class="pre">PCDSDetector</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">EventSequencer</span></code> now accepts human-readable sequences</p></li>
 </ul>
 </div>
 <div class="section" id="fixes">
 <h3>Fixes<a class="headerlink" href="#fixes" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li>Fix debug PV names in <code class="docutils literal notranslate"><span class="pre">BeckhoffAxis</span></code></li>
+<li><p>Fix debug PV names in <code class="docutils literal notranslate"><span class="pre">BeckhoffAxis</span></code></p></li>
 </ul>
 </div>
 <div class="section" id="misc">
 <h3>Misc<a class="headerlink" href="#misc" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li>Add a py37 build to the CI</li>
-<li>Remove outdated hotfix for <code class="docutils literal notranslate"><span class="pre">FakeEpicsSignal</span></code> in tests</li>
-<li>Fix misc testing errors</li>
+<li><p>Add a py37 build to the CI</p></li>
+<li><p>Remove outdated hotfix for <code class="docutils literal notranslate"><span class="pre">FakeEpicsSignal</span></code> in tests</p></li>
+<li><p>Fix misc testing errors</p></li>
 </ul>
 </div>
 </div>
@@ -234,21 +234,21 @@
 <div class="section" id="id1">
 <h3>Features<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li>Support for reading and writing sequences to and from the <code class="docutils literal notranslate"><span class="pre">EventSequencer</span></code></li>
-<li>Add <code class="docutils literal notranslate"><span class="pre">Motor</span></code> factory function for choosing which motor class to use based
-on the text in the <code class="docutils literal notranslate"><span class="pre">prefix</span></code>.</li>
+<li><p>Support for reading and writing sequences to and from the <code class="docutils literal notranslate"><span class="pre">EventSequencer</span></code></p></li>
+<li><p>Add <code class="docutils literal notranslate"><span class="pre">Motor</span></code> factory function for choosing which motor class to use based
+on the text in the <code class="docutils literal notranslate"><span class="pre">prefix</span></code>.</p></li>
 </ul>
 </div>
 <div class="section" id="bugfixes">
 <h3>Bugfixes<a class="headerlink" href="#bugfixes" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li><code class="docutils literal notranslate"><span class="pre">IMS</span></code> class will no longer get its <code class="docutils literal notranslate"><span class="pre">.SPG</span></code> field stuck on <code class="docutils literal notranslate"><span class="pre">paused</span></code> or
+<li><p><code class="docutils literal notranslate"><span class="pre">IMS</span></code> class will no longer get its <code class="docutils literal notranslate"><span class="pre">.SPG</span></code> field stuck on <code class="docutils literal notranslate"><span class="pre">paused</span></code> or
 <code class="docutils literal notranslate"><span class="pre">stopped</span></code> when a scan is interrupted. Scans will start even if these
-fields are blocked.</li>
-<li>Update out-of-date <code class="docutils literal notranslate"><span class="pre">requirements.txt</span></code> file for <code class="docutils literal notranslate"><span class="pre">pip</span></code></li>
-<li>Pin <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code> to <code class="docutils literal notranslate"><span class="pre">&lt;3</span></code> to avoid import incompatibility pitfalls, and
+fields are blocked.</p></li>
+<li><p>Update out-of-date <code class="docutils literal notranslate"><span class="pre">requirements.txt</span></code> file for <code class="docutils literal notranslate"><span class="pre">pip</span></code></p></li>
+<li><p>Pin <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code> to <code class="docutils literal notranslate"><span class="pre">&lt;3</span></code> to avoid import incompatibility pitfalls, and
 confine the <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code> imports to function scope instead of module scope
-to avoid having a backend be set on import.</li>
+to avoid having a backend be set on import.</p></li>
 </ul>
 </div>
 </div>
@@ -257,62 +257,62 @@ to avoid having a backend be set on import.</li>
 <div class="section" id="id2">
 <h3>Features<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li>Display current position in <code class="docutils literal notranslate"><span class="pre">umv</span></code> progress bars</li>
-<li>Added <code class="docutils literal notranslate"><span class="pre">ophyd</span></code> <code class="docutils literal notranslate"><span class="pre">Kind</span></code> specification to every device in the library</li>
-<li>Added <code class="docutils literal notranslate"><span class="pre">.DESC</span></code> field to standard motor interface</li>
-<li>Added <code class="docutils literal notranslate"><span class="pre">trigger</span></code> to event sequencer and other changes to make it more
-useful in scans</li>
-<li>Added <code class="docutils literal notranslate"><span class="pre">CCM</span></code> class</li>
-<li>Added <code class="docutils literal notranslate"><span class="pre">BeckhoffAxis</span></code> class for the Beckhoff ADS-based motor record</li>
-<li>Added evr <code class="docutils literal notranslate"><span class="pre">Trigger</span></code> class for configuring evr triggers</li>
-<li>Added <code class="docutils literal notranslate"><span class="pre">FeeAtt</span></code> class for the wonky FEE attenuator</li>
-<li>Clean up <code class="docutils literal notranslate"><span class="pre">Reflaser</span></code> classes</li>
-<li>Added <code class="docutils literal notranslate"><span class="pre">LensStack</span></code> class python2 port for the xyz focusing assembly
-(not fully complete)</li>
-<li>Added <code class="docutils literal notranslate"><span class="pre">DelayStage</span></code> class for laser delay stages</li>
-<li>Added <code class="docutils literal notranslate"><span class="pre">SyncAxes</span></code> class for synchronizing axes e.g. tables, ccm</li>
-<li>Added <code class="docutils literal notranslate"><span class="pre">keypress</span></code> utilities python2 port</li>
-<li>Added <code class="docutils literal notranslate"><span class="pre">wm_update</span></code> python2 port to <code class="docutils literal notranslate"><span class="pre">FltMvInterface</span></code>. This is essentially a
-<code class="docutils literal notranslate"><span class="pre">camonitor</span></code>.</li>
-<li>Added <code class="docutils literal notranslate"><span class="pre">mv_ginput</span></code> python2 port to <code class="docutils literal notranslate"><span class="pre">FltMvInterface</span></code></li>
-<li>Added per-class icons to be picked up by <code class="docutils literal notranslate"><span class="pre">lightpath</span></code> and other
-applications</li>
+<li><p>Display current position in <code class="docutils literal notranslate"><span class="pre">umv</span></code> progress bars</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">ophyd</span></code> <code class="docutils literal notranslate"><span class="pre">Kind</span></code> specification to every device in the library</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">.DESC</span></code> field to standard motor interface</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">trigger</span></code> to event sequencer and other changes to make it more
+useful in scans</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">CCM</span></code> class</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">BeckhoffAxis</span></code> class for the Beckhoff ADS-based motor record</p></li>
+<li><p>Added evr <code class="docutils literal notranslate"><span class="pre">Trigger</span></code> class for configuring evr triggers</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">FeeAtt</span></code> class for the wonky FEE attenuator</p></li>
+<li><p>Clean up <code class="docutils literal notranslate"><span class="pre">Reflaser</span></code> classes</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">LensStack</span></code> class python2 port for the xyz focusing assembly
+(not fully complete)</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">DelayStage</span></code> class for laser delay stages</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">SyncAxes</span></code> class for synchronizing axes e.g. tables, ccm</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">keypress</span></code> utilities python2 port</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">wm_update</span></code> python2 port to <code class="docutils literal notranslate"><span class="pre">FltMvInterface</span></code>. This is essentially a
+<code class="docutils literal notranslate"><span class="pre">camonitor</span></code>.</p></li>
+<li><p>Added <code class="docutils literal notranslate"><span class="pre">mv_ginput</span></code> python2 port to <code class="docutils literal notranslate"><span class="pre">FltMvInterface</span></code></p></li>
+<li><p>Added per-class icons to be picked up by <code class="docutils literal notranslate"><span class="pre">lightpath</span></code> and other
+applications</p></li>
 </ul>
 </div>
 <div class="section" id="id3">
 <h3>Bugfixes<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li>Use <code class="docutils literal notranslate"><span class="pre">IMAGE2</span></code> instead of <code class="docutils literal notranslate"><span class="pre">IMAGE1</span></code> as the area detector default, because
+<li><p>Use <code class="docutils literal notranslate"><span class="pre">IMAGE2</span></code> instead of <code class="docutils literal notranslate"><span class="pre">IMAGE1</span></code> as the area detector default, because
 this is the low rate or binned image. Avoid sending huge images quickly
-through python processes.</li>
-<li>Prevent issue where presets from same-named device would interfere with
-eachother.</li>
-<li>Attenuator subclasses now have sane names
-(previously <code class="docutils literal notranslate"><span class="pre">Attenuator1234567</span></code>, for example).</li>
-<li>Split the XPP and XCS lodcm foils (they are different).</li>
-<li>Warn the user about using certain classes directly when they need to be
-subclassed.</li>
-<li>Raise errors for any invalid state in a state positioner, not just the
-<code class="docutils literal notranslate"><span class="pre">Unknown</span></code> state.</li>
-<li>Add <code class="docutils literal notranslate"><span class="pre">SUB_STATE</span></code> subscription types for <code class="docutils literal notranslate"><span class="pre">OffsetMirror</span></code> and <code class="docutils literal notranslate"><span class="pre">Attenuator</span></code></li>
-<li>Valve interlock had inverted logic</li>
+through python processes.</p></li>
+<li><p>Prevent issue where presets from same-named device would interfere with
+eachother.</p></li>
+<li><p>Attenuator subclasses now have sane names
+(previously <code class="docutils literal notranslate"><span class="pre">Attenuator1234567</span></code>, for example).</p></li>
+<li><p>Split the XPP and XCS lodcm foils (they are different).</p></li>
+<li><p>Warn the user about using certain classes directly when they need to be
+subclassed.</p></li>
+<li><p>Raise errors for any invalid state in a state positioner, not just the
+<code class="docutils literal notranslate"><span class="pre">Unknown</span></code> state.</p></li>
+<li><p>Add <code class="docutils literal notranslate"><span class="pre">SUB_STATE</span></code> subscription types for <code class="docutils literal notranslate"><span class="pre">OffsetMirror</span></code> and <code class="docutils literal notranslate"><span class="pre">Attenuator</span></code></p></li>
+<li><p>Valve interlock had inverted logic</p></li>
 </ul>
 </div>
 <div class="section" id="maintenance">
 <h3>Maintenance<a class="headerlink" href="#maintenance" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li>Standardize component imports as <code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">Component</span> <span class="pre">as</span> <span class="pre">Cpt</span></code></li>
-<li>Move some interlocks into <code class="docutils literal notranslate"><span class="pre">check_value</span></code> instead of ad-hoc locations</li>
-<li>Misc travis fixes and improvements</li>
-<li>State devices are more forgiving with certain inputs</li>
-<li>Clean up the <code class="xref any docutils literal notranslate"><span class="pre">Slit</span></code> interface for <code class="docutils literal notranslate"><span class="pre">lightpath</span></code></li>
+<li><p>Standardize component imports as <code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">Component</span> <span class="pre">as</span> <span class="pre">Cpt</span></code></p></li>
+<li><p>Move some interlocks into <code class="docutils literal notranslate"><span class="pre">check_value</span></code> instead of ad-hoc locations</p></li>
+<li><p>Misc travis fixes and improvements</p></li>
+<li><p>State devices are more forgiving with certain inputs</p></li>
+<li><p>Clean up the <code class="xref any docutils literal notranslate"><span class="pre">Slit</span></code> interface for <code class="docutils literal notranslate"><span class="pre">lightpath</span></code></p></li>
 </ul>
 </div>
 <div class="section" id="api-breaks">
 <h3>API Breaks<a class="headerlink" href="#api-breaks" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li>Rework and improve various simulated hardware, removing old <code class="docutils literal notranslate"><span class="pre">sim</span></code> modules.</li>
-<li>Require some newer modules</li>
+<li><p>Rework and improve various simulated hardware, removing old <code class="docutils literal notranslate"><span class="pre">sim</span></code> modules.</p></li>
+<li><p>Require some newer modules</p></li>
 </ul>
 </div>
 </div>
@@ -321,17 +321,17 @@ subclassed.</li>
 <div class="section" id="id4">
 <h3>Features<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li>Added <a class="reference internal" href="generated/generated/pcdsdevices.signal.AvgSignal.html#pcdsdevices.signal.AvgSignal" title="pcdsdevices.signal.AvgSignal"><code class="xref any py py-class docutils literal notranslate"><span class="pre">AvgSignal</span></code></a> class. This can be used when you want to
-run a callback on a rolling average of a <code class="docutils literal notranslate"><span class="pre">Signal</span></code>. (#227)</li>
-<li>Added an average of the gas detector energy to the <a class="reference internal" href="generated/generated/pcdsdevices.beam_stats.BeamStats.html#pcdsdevices.beam_stats.BeamStats" title="pcdsdevices.beam_stats.BeamStats"><code class="xref any py py-class docutils literal notranslate"><span class="pre">BeamStats</span></code></a> class (#227)</li>
-<li>Implemented motor <code class="xref any docutils literal notranslate"><span class="pre">.SPG</span></code> field from LCLS motor record into PCDSMotorBase (#236)</li>
+<li><p>Added <a class="reference internal" href="generated/generated/pcdsdevices.signal.AvgSignal.html#pcdsdevices.signal.AvgSignal" title="pcdsdevices.signal.AvgSignal"><code class="xref any py py-class docutils literal notranslate"><span class="pre">AvgSignal</span></code></a> class. This can be used when you want to
+run a callback on a rolling average of a <code class="docutils literal notranslate"><span class="pre">Signal</span></code>. (#227)</p></li>
+<li><p>Added an average of the gas detector energy to the <a class="reference internal" href="generated/generated/pcdsdevices.beam_stats.BeamStats.html#pcdsdevices.beam_stats.BeamStats" title="pcdsdevices.beam_stats.BeamStats"><code class="xref any py py-class docutils literal notranslate"><span class="pre">BeamStats</span></code></a> class (#227)</p></li>
+<li><p>Implemented motor <code class="xref any docutils literal notranslate"><span class="pre">.SPG</span></code> field from LCLS motor record into PCDSMotorBase (#236)</p></li>
 </ul>
 </div>
 <div class="section" id="id5">
 <h3>Bugfixes<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li>Fix a bug where the <a class="reference internal" href="generated/generated/pcdsdevices.lodcm.LODCM.html#pcdsdevices.lodcm.LODCM" title="pcdsdevices.lodcm.LODCM"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LODCM</span></code></a> class had a <code class="docutils literal notranslate"><span class="pre">readback</span></code> signal with an invalid PV. (#232)</li>
-<li>Fix a bug where the tests would never pass, ever (#238)</li>
+<li><p>Fix a bug where the <a class="reference internal" href="generated/generated/pcdsdevices.lodcm.LODCM.html#pcdsdevices.lodcm.LODCM" title="pcdsdevices.lodcm.LODCM"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LODCM</span></code></a> class had a <code class="docutils literal notranslate"><span class="pre">readback</span></code> signal with an invalid PV. (#232)</p></li>
+<li><p>Fix a bug where the tests would never pass, ever (#238)</p></li>
 </ul>
 </div>
 </div>
@@ -340,19 +340,19 @@ run a callback on a rolling average of a <code class="docutils literal notransla
 <div class="section" id="id6">
 <h3>Features<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li>Revamp states handling for devices like IPM and XFLS (#205)</li>
-<li>Add a <a class="reference internal" href="generated/generated/pcdsdevices.beam_stats.BeamStats.html#pcdsdevices.beam_stats.BeamStats" title="pcdsdevices.beam_stats.BeamStats"><code class="xref any py py-class docutils literal notranslate"><span class="pre">BeamStats</span></code></a> class (#200)</li>
-<li>Add an <a class="reference internal" href="generated/pcdsdevices.device_types.EventSequencer.html#pcdsdevices.device_types.EventSequencer" title="pcdsdevices.device_types.EventSequencer"><code class="xref any py py-class docutils literal notranslate"><span class="pre">EventSequencer</span></code></a> class (#196)</li>
-<li>Add <code class="docutils literal notranslate"><span class="pre">DISP</span></code> field to <a class="reference internal" href="generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.html#pcdsdevices.epics_motor.PCDSMotorBase" title="pcdsdevices.epics_motor.PCDSMotorBase"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PCDSMotorBase</span></code></a> (#192)</li>
+<li><p>Revamp states handling for devices like IPM and XFLS (#205)</p></li>
+<li><p>Add a <a class="reference internal" href="generated/generated/pcdsdevices.beam_stats.BeamStats.html#pcdsdevices.beam_stats.BeamStats" title="pcdsdevices.beam_stats.BeamStats"><code class="xref any py py-class docutils literal notranslate"><span class="pre">BeamStats</span></code></a> class (#200)</p></li>
+<li><p>Add an <a class="reference internal" href="generated/pcdsdevices.device_types.EventSequencer.html#pcdsdevices.device_types.EventSequencer" title="pcdsdevices.device_types.EventSequencer"><code class="xref any py py-class docutils literal notranslate"><span class="pre">EventSequencer</span></code></a> class (#196)</p></li>
+<li><p>Add <code class="docutils literal notranslate"><span class="pre">DISP</span></code> field to <a class="reference internal" href="generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.html#pcdsdevices.epics_motor.PCDSMotorBase" title="pcdsdevices.epics_motor.PCDSMotorBase"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PCDSMotorBase</span></code></a> (#192)</p></li>
 </ul>
 </div>
 <div class="section" id="id7">
 <h3>Bugfixes<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li>Fix a bug where preset saving could break the session if passed bad arguments (#218)</li>
-<li>Fix a bug where malformed states could fail silently or cryptically (#216)</li>
-<li>Fix a bug where the mirror states were reversed (#215)</li>
-<li>Fix a bug where IMS velocity limits were ignored (#209)</li>
+<li><p>Fix a bug where preset saving could break the session if passed bad arguments (#218)</p></li>
+<li><p>Fix a bug where malformed states could fail silently or cryptically (#216)</p></li>
+<li><p>Fix a bug where the mirror states were reversed (#215)</p></li>
+<li><p>Fix a bug where IMS velocity limits were ignored (#209)</p></li>
 </ul>
 </div>
 </div>
@@ -361,23 +361,23 @@ run a callback on a rolling average of a <code class="docutils literal notransla
 <div class="section" id="id8">
 <h3>Features<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li>Improved documentation (#170)</li>
-<li>Recreated the presets feature from existing hutch_python deployments.
+<li><p>Improved documentation (#170)</p></li>
+<li><p>Recreated the presets feature from existing hutch_python deployments.
 This allows operators to record the positions of anything that implements
 the <a class="reference internal" href="generated/generated/pcdsdevices.mv_interface.FltMvInterface.html#pcdsdevices.mv_interface.FltMvInterface" title="pcdsdevices.mv_interface.FltMvInterface"><code class="xref any py py-class docutils literal notranslate"><span class="pre">FltMvInterface</span></code></a> to a <code class="docutils literal notranslate"><span class="pre">YAML</span></code> file. This helps keep track of various
-important experimental motor positions that are too dynamic to place in EPICS. (#187)</li>
+important experimental motor positions that are too dynamic to place in EPICS. (#187)</p></li>
 </ul>
 </div>
 <div class="section" id="id9">
 <h3>Bugfixes<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li>Fixed a rare race condition in the testing suite (#189)</li>
+<li><p>Fixed a rare race condition in the testing suite (#189)</p></li>
 </ul>
 </div>
 <div class="section" id="ci">
 <h3>CI<a class="headerlink" href="#ci" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li>Testing suite now uses the conda-forge build of ophyd instead of NSLS-II lightsource2-tag (#191)</li>
+<li><p>Testing suite now uses the conda-forge build of ophyd instead of NSLS-II lightsource2-tag (#191)</p></li>
 </ul>
 </div>
 </div>
@@ -386,13 +386,13 @@ important experimental motor positions that are too dynamic to place in EPICS. (
 <div class="section" id="api-changes">
 <h3>API Changes<a class="headerlink" href="#api-changes" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li>The <code class="xref any docutils literal notranslate"><span class="pre">pcdsdevices.EpicsMotor</span></code> has been replaced by
+<li><p>The <code class="xref any docutils literal notranslate"><span class="pre">pcdsdevices.EpicsMotor</span></code> has been replaced by
 <code class="xref any docutils literal notranslate"><span class="pre">pcdsdevices.PCDSMotorBase</span></code> and three child classes
 <a class="reference internal" href="generated/generated/pcdsdevices.epics_motor.IMS.html#pcdsdevices.epics_motor.IMS" title="pcdsdevices.epics_motor.IMS"><code class="xref any py py-class docutils literal notranslate"><span class="pre">IMS</span></code></a>, <a class="reference internal" href="generated/generated/pcdsdevices.epics_motor.Newport.html#pcdsdevices.epics_motor.Newport" title="pcdsdevices.epics_motor.Newport"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Newport</span></code></a> and <a class="reference internal" href="generated/generated/pcdsdevices.epics_motor.PMC100.html#pcdsdevices.epics_motor.PMC100" title="pcdsdevices.epics_motor.PMC100"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PMC100</span></code></a>. This is an attempt to have a reasonable MRO
 for the discrepenacies between all our different implementations
-of the EPICS Motor Record (#167)</li>
-<li>Due to the growing complication of the Daq class and related utilities,
-all related functions were moved to <a class="reference external" href="https://pcdshub.github.io/pcdsdaq">https://pcdshub.github.io/pcdsdaq</a> (#168)</li>
+of the EPICS Motor Record (#167)</p></li>
+<li><p>Due to the growing complication of the Daq class and related utilities,
+all related functions were moved to <a class="reference external" href="https://pcdshub.github.io/pcdsdaq">https://pcdshub.github.io/pcdsdaq</a> (#168)</p></li>
 </ul>
 </div>
 </div>

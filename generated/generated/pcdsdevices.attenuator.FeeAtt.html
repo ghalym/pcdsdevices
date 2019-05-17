@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.attenuator.FeeAtt &mdash; PCDS Devices 1.2.0+1.g5925ccd documentation</title>
+  <title>pcdsdevices.attenuator.FeeAtt &mdash; PCDS Devices 1.2.0+2.gbc355f2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+1.g5925ccd
+                1.2.0+2.gbc355f2
               </div>
             
           
@@ -152,6 +152,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.evr.html">pcdsdevices.evr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
@@ -163,6 +164,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pump.html">pcdsdevices.pump</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.signal.html">pcdsdevices.signal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.sim.html">pcdsdevices.sim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.slits.html">pcdsdevices.slits</a></li>
@@ -245,296 +247,296 @@
 <em class="property">class </em><code class="descclassname">pcdsdevices.attenuator.</code><code class="descname">FeeAtt</code><span class="sig-paren">(</span><em>prefix='SATT:FEE1:320'</em>, <em>*</em>, <em>name='FeeAtt'</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.attenuator.FeeAtt" title="Permalink to this definition">¶</a></dt>
 <dd><p>Old attenuator IOC in the FEE.</p>
 <p class="rubric">Methods</p>
-<table border="1" class="longtable docutils">
+<table class="longtable docutils align-center">
 <colgroup>
-<col width="10%" />
-<col width="90%" />
+<col style="width: 10%" />
+<col style="width: 90%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.__init__.html#pcdsdevices.attenuator.FeeAtt.__init__" title="pcdsdevices.attenuator.FeeAtt.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>([prefix,&nbsp;name])</td>
-<td>Initialize self.</td>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.__init__.html#pcdsdevices.attenuator.FeeAtt.__init__" title="pcdsdevices.attenuator.FeeAtt.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>([prefix, name])</p></td>
+<td><p>Initialize self.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.camonitor.html#pcdsdevices.attenuator.FeeAtt.camonitor" title="pcdsdevices.attenuator.FeeAtt.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</td>
-<td>Shows a live-updating motor position in the terminal.</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.camonitor.html#pcdsdevices.attenuator.FeeAtt.camonitor" title="pcdsdevices.attenuator.FeeAtt.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</p></td>
+<td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.check_value.html#pcdsdevices.attenuator.FeeAtt.check_value" title="pcdsdevices.attenuator.FeeAtt.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(pos)</td>
-<td>Check that the position is within the soft limits</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.check_value.html#pcdsdevices.attenuator.FeeAtt.check_value" title="pcdsdevices.attenuator.FeeAtt.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(pos)</p></td>
+<td><p>Check that the position is within the soft limits</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.clear_sub.html#pcdsdevices.attenuator.FeeAtt.clear_sub" title="pcdsdevices.attenuator.FeeAtt.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[,&nbsp;event_type])</td>
-<td>Remove a subscription, given the original callback function</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.clear_sub.html#pcdsdevices.attenuator.FeeAtt.clear_sub" title="pcdsdevices.attenuator.FeeAtt.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
+<td><p>Remove a subscription, given the original callback function</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.configure.html#pcdsdevices.attenuator.FeeAtt.configure" title="pcdsdevices.attenuator.FeeAtt.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d,&nbsp;Any])</td>
-<td>Configure the device for something during a run</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.configure.html#pcdsdevices.attenuator.FeeAtt.configure" title="pcdsdevices.attenuator.FeeAtt.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d, Any])</p></td>
+<td><p>Configure the device for something during a run</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.describe.html#pcdsdevices.attenuator.FeeAtt.describe" title="pcdsdevices.attenuator.FeeAtt.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</td>
-<td>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.describe.html#pcdsdevices.attenuator.FeeAtt.describe" title="pcdsdevices.attenuator.FeeAtt.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
+<td><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code></p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.describe_configuration.html#pcdsdevices.attenuator.FeeAtt.describe_configuration" title="pcdsdevices.attenuator.FeeAtt.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</td>
-<td>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.describe_configuration.html#pcdsdevices.attenuator.FeeAtt.describe_configuration" title="pcdsdevices.attenuator.FeeAtt.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</p></td>
+<td><p>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.end_monitor_thread.html#pcdsdevices.attenuator.FeeAtt.end_monitor_thread" title="pcdsdevices.attenuator.FeeAtt.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</td>
-<td>Stop a <a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.camonitor.html#pcdsdevices.attenuator.FeeAtt.camonitor" title="pcdsdevices.attenuator.FeeAtt.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.wm_update.html#pcdsdevices.attenuator.FeeAtt.wm_update" title="pcdsdevices.attenuator.FeeAtt.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.end_monitor_thread.html#pcdsdevices.attenuator.FeeAtt.end_monitor_thread" title="pcdsdevices.attenuator.FeeAtt.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
+<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.camonitor.html#pcdsdevices.attenuator.FeeAtt.camonitor" title="pcdsdevices.attenuator.FeeAtt.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.wm_update.html#pcdsdevices.attenuator.FeeAtt.wm_update" title="pcdsdevices.attenuator.FeeAtt.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.get.html#pcdsdevices.attenuator.FeeAtt.get" title="pcdsdevices.attenuator.FeeAtt.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</td>
-<td>Get the value of all components in the device</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.get.html#pcdsdevices.attenuator.FeeAtt.get" title="pcdsdevices.attenuator.FeeAtt.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
+<td><p>Get the value of all components in the device</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.get_device_tuple.html#pcdsdevices.attenuator.FeeAtt.get_device_tuple" title="pcdsdevices.attenuator.FeeAtt.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</td>
-<td>The device tuple type associated with an Device class</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.get_device_tuple.html#pcdsdevices.attenuator.FeeAtt.get_device_tuple" title="pcdsdevices.attenuator.FeeAtt.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
+<td><p>The device tuple type associated with an Device class</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.get_instantiated_signals.html#pcdsdevices.attenuator.FeeAtt.get_instantiated_signals" title="pcdsdevices.attenuator.FeeAtt.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[,&nbsp;attr_prefix])</td>
-<td>Yields all of the instantiated signals in a device hierarchy</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.get_instantiated_signals.html#pcdsdevices.attenuator.FeeAtt.get_instantiated_signals" title="pcdsdevices.attenuator.FeeAtt.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
+<td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.insert.html#pcdsdevices.attenuator.FeeAtt.insert" title="pcdsdevices.attenuator.FeeAtt.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([wait,&nbsp;timeout,&nbsp;moved_cb])</td>
-<td>Block the beam by setting transmission to zero</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.insert.html#pcdsdevices.attenuator.FeeAtt.insert" title="pcdsdevices.attenuator.FeeAtt.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([wait, timeout, moved_cb])</p></td>
+<td><p>Block the beam by setting transmission to zero</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.move.html#pcdsdevices.attenuator.FeeAtt.move" title="pcdsdevices.attenuator.FeeAtt.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[,&nbsp;wait,&nbsp;timeout,&nbsp;moved_cb])</td>
-<td>Move to a specified position, optionally waiting for motion to complete.</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.move.html#pcdsdevices.attenuator.FeeAtt.move" title="pcdsdevices.attenuator.FeeAtt.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, wait, timeout, moved_cb])</p></td>
+<td><p>Move to a specified position, optionally waiting for motion to complete.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.mv.html#pcdsdevices.attenuator.FeeAtt.mv" title="pcdsdevices.attenuator.FeeAtt.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[,&nbsp;timeout,&nbsp;wait])</td>
-<td>Absolute move to a position.</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.mv.html#pcdsdevices.attenuator.FeeAtt.mv" title="pcdsdevices.attenuator.FeeAtt.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[, timeout, wait])</p></td>
+<td><p>Absolute move to a position.</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.mv_ginput.html#pcdsdevices.attenuator.FeeAtt.mv_ginput" title="pcdsdevices.attenuator.FeeAtt.mv_ginput"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv_ginput</span></code></a>([timeout])</td>
-<td>Moves to a location the user clicks on.</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.mv_ginput.html#pcdsdevices.attenuator.FeeAtt.mv_ginput" title="pcdsdevices.attenuator.FeeAtt.mv_ginput"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv_ginput</span></code></a>([timeout])</p></td>
+<td><p>Moves to a location the user clicks on.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.mvr.html#pcdsdevices.attenuator.FeeAtt.mvr" title="pcdsdevices.attenuator.FeeAtt.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[,&nbsp;timeout,&nbsp;wait])</td>
-<td>Relative move from this position.</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.mvr.html#pcdsdevices.attenuator.FeeAtt.mvr" title="pcdsdevices.attenuator.FeeAtt.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[, timeout, wait])</p></td>
+<td><p>Relative move from this position.</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.pause.html#pcdsdevices.attenuator.FeeAtt.pause" title="pcdsdevices.attenuator.FeeAtt.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</td>
-<td>Attempt to ‘pause’ the device.</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.pause.html#pcdsdevices.attenuator.FeeAtt.pause" title="pcdsdevices.attenuator.FeeAtt.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
+<td><p>Attempt to ‘pause’ the device.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.put.html#pcdsdevices.attenuator.FeeAtt.put" title="pcdsdevices.attenuator.FeeAtt.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t,&nbsp;**kwargs)</td>
-<td>Put a value to all components of the device</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.put.html#pcdsdevices.attenuator.FeeAtt.put" title="pcdsdevices.attenuator.FeeAtt.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
+<td><p>Put a value to all components of the device</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.read.html#pcdsdevices.attenuator.FeeAtt.read" title="pcdsdevices.attenuator.FeeAtt.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</td>
-<td>Read data from the device</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.read.html#pcdsdevices.attenuator.FeeAtt.read" title="pcdsdevices.attenuator.FeeAtt.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<td><p>Read data from the device</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.read_configuration.html#pcdsdevices.attenuator.FeeAtt.read_configuration" title="pcdsdevices.attenuator.FeeAtt.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</td>
-<td>returns dictionary mapping names to (value, timestamp) pairs</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.read_configuration.html#pcdsdevices.attenuator.FeeAtt.read_configuration" title="pcdsdevices.attenuator.FeeAtt.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<td><p>returns dictionary mapping names to (value, timestamp) pairs</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.remove.html#pcdsdevices.attenuator.FeeAtt.remove" title="pcdsdevices.attenuator.FeeAtt.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([wait,&nbsp;timeout,&nbsp;moved_cb])</td>
-<td>Bring the attenuator fully out of the beam</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.remove.html#pcdsdevices.attenuator.FeeAtt.remove" title="pcdsdevices.attenuator.FeeAtt.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([wait, timeout, moved_cb])</p></td>
+<td><p>Bring the attenuator fully out of the beam</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.resume.html#pcdsdevices.attenuator.FeeAtt.resume" title="pcdsdevices.attenuator.FeeAtt.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</td>
-<td>Resume a device from a ‘paused’ state</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.resume.html#pcdsdevices.attenuator.FeeAtt.resume" title="pcdsdevices.attenuator.FeeAtt.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
+<td><p>Resume a device from a ‘paused’ state</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.set.html#pcdsdevices.attenuator.FeeAtt.set" title="pcdsdevices.attenuator.FeeAtt.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position,&nbsp;*,&nbsp;timeout,&nbsp;moved_cb,&nbsp;wait)</td>
-<td>Set a value and return a Status object</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.set.html#pcdsdevices.attenuator.FeeAtt.set" title="pcdsdevices.attenuator.FeeAtt.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position, *, timeout, moved_cb, wait)</p></td>
+<td><p>Set a value and return a Status object</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.set_energy.html#pcdsdevices.attenuator.FeeAtt.set_energy" title="pcdsdevices.attenuator.FeeAtt.set_energy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_energy</span></code></a>([energy])</td>
-<td>Sets the energy to use for transmission calculations.</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.set_energy.html#pcdsdevices.attenuator.FeeAtt.set_energy" title="pcdsdevices.attenuator.FeeAtt.set_energy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_energy</span></code></a>([energy])</p></td>
+<td><p>Sets the energy to use for transmission calculations.</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.stage.html#pcdsdevices.attenuator.FeeAtt.stage" title="pcdsdevices.attenuator.FeeAtt.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</td>
-<td>Store the original positions of all filter blades.</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.stage.html#pcdsdevices.attenuator.FeeAtt.stage" title="pcdsdevices.attenuator.FeeAtt.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
+<td><p>Store the original positions of all filter blades.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.stop.html#pcdsdevices.attenuator.FeeAtt.stop" title="pcdsdevices.attenuator.FeeAtt.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[,&nbsp;success])</td>
-<td>Stop the Device and all (instantiated) subdevices</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.stop.html#pcdsdevices.attenuator.FeeAtt.stop" title="pcdsdevices.attenuator.FeeAtt.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.subscribe.html#pcdsdevices.attenuator.FeeAtt.subscribe" title="pcdsdevices.attenuator.FeeAtt.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[,&nbsp;event_type,&nbsp;run])</td>
-<td>Subscribe to events this event_type generates.</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.subscribe.html#pcdsdevices.attenuator.FeeAtt.subscribe" title="pcdsdevices.attenuator.FeeAtt.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[, event_type, run])</p></td>
+<td><p>Subscribe to events this event_type generates.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.summary.html#pcdsdevices.attenuator.FeeAtt.summary" title="pcdsdevices.attenuator.FeeAtt.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</td>
-<td></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.summary.html#pcdsdevices.attenuator.FeeAtt.summary" title="pcdsdevices.attenuator.FeeAtt.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.trigger.html#pcdsdevices.attenuator.FeeAtt.trigger" title="pcdsdevices.attenuator.FeeAtt.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</td>
-<td>Trigger the device and return status object</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.trigger.html#pcdsdevices.attenuator.FeeAtt.trigger" title="pcdsdevices.attenuator.FeeAtt.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<td><p>Trigger the device and return status object</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.tweak.html#pcdsdevices.attenuator.FeeAtt.tweak" title="pcdsdevices.attenuator.FeeAtt.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</td>
-<td>Control this motor using the arrow keys.</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.tweak.html#pcdsdevices.attenuator.FeeAtt.tweak" title="pcdsdevices.attenuator.FeeAtt.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
+<td><p>Control this motor using the arrow keys.</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.umv.html#pcdsdevices.attenuator.FeeAtt.umv" title="pcdsdevices.attenuator.FeeAtt.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[,&nbsp;timeout])</td>
-<td>Move to a position, wait, and update with a progress bar.</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.umv.html#pcdsdevices.attenuator.FeeAtt.umv" title="pcdsdevices.attenuator.FeeAtt.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout])</p></td>
+<td><p>Move to a position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.umvr.html#pcdsdevices.attenuator.FeeAtt.umvr" title="pcdsdevices.attenuator.FeeAtt.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[,&nbsp;timeout])</td>
-<td>Relative move from this position, wait, and update with a progress bar.</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.umvr.html#pcdsdevices.attenuator.FeeAtt.umvr" title="pcdsdevices.attenuator.FeeAtt.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout])</p></td>
+<td><p>Relative move from this position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.unstage.html#pcdsdevices.attenuator.FeeAtt.unstage" title="pcdsdevices.attenuator.FeeAtt.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</td>
-<td>Unstage the device.</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.unstage.html#pcdsdevices.attenuator.FeeAtt.unstage" title="pcdsdevices.attenuator.FeeAtt.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</p></td>
+<td><p>Unstage the device.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.unsubscribe.html#pcdsdevices.attenuator.FeeAtt.unsubscribe" title="pcdsdevices.attenuator.FeeAtt.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</td>
-<td>Remove a subscription</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.unsubscribe.html#pcdsdevices.attenuator.FeeAtt.unsubscribe" title="pcdsdevices.attenuator.FeeAtt.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</p></td>
+<td><p>Remove a subscription</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.unsubscribe_all.html#pcdsdevices.attenuator.FeeAtt.unsubscribe_all" title="pcdsdevices.attenuator.FeeAtt.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</td>
-<td></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.unsubscribe_all.html#pcdsdevices.attenuator.FeeAtt.unsubscribe_all" title="pcdsdevices.attenuator.FeeAtt.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.wait_for_connection.html#pcdsdevices.attenuator.FeeAtt.wait_for_connection" title="pcdsdevices.attenuator.FeeAtt.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals,&nbsp;timeout])</td>
-<td>Wait for signals to connect</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.wait_for_connection.html#pcdsdevices.attenuator.FeeAtt.wait_for_connection" title="pcdsdevices.attenuator.FeeAtt.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals, timeout])</p></td>
+<td><p>Wait for signals to connect</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.wm.html#pcdsdevices.attenuator.FeeAtt.wm" title="pcdsdevices.attenuator.FeeAtt.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</td>
-<td>Get the mover’s positon (where motor)</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.wm.html#pcdsdevices.attenuator.FeeAtt.wm" title="pcdsdevices.attenuator.FeeAtt.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<td><p>Get the mover’s positon (where motor)</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.wm_update.html#pcdsdevices.attenuator.FeeAtt.wm_update" title="pcdsdevices.attenuator.FeeAtt.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</td>
-<td>Shows a live-updating motor position in the terminal.</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.wm_update.html#pcdsdevices.attenuator.FeeAtt.wm_update" title="pcdsdevices.attenuator.FeeAtt.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>
 </table>
 <p class="rubric">Attributes</p>
-<table border="1" class="longtable docutils">
+<table class="longtable docutils align-center">
 <colgroup>
-<col width="10%" />
-<col width="90%" />
+<col style="width: 10%" />
+<col style="width: 90%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_ACQ_DONE</span></code></td>
-<td></td>
+<tbody>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_ACQ_DONE</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_DONE</span></code></td>
-<td></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_DONE</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_READBACK</span></code></td>
-<td></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_READBACK</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_START</span></code></td>
-<td></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_START</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_STATE</span></code></td>
-<td></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_STATE</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">actuate</span></code></td>
-<td>Component attribute</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">actuate</span></code></p></td>
+<td><p>Component attribute</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">actuate_value</span></code></td>
-<td>Sets the value we use in the GO command.</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">actuate_value</span></code></p></td>
+<td><p>Sets the value we use in the GO command.</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">calcpend</span></code></td>
-<td>Component attribute</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">calcpend</span></code></p></td>
+<td><p>Component attribute</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_names</span></code></td>
-<td></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_names</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_attrs</span></code></td>
-<td></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_attrs</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></td>
-<td>If the device is connected.</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></p></td>
+<td><p>If the device is connected.</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">done</span></code></td>
-<td></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">done</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">done_value</span></code></td>
-<td></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">done_value</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">eget_cmd</span></code></td>
-<td>Component attribute</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">eget_cmd</span></code></p></td>
+<td><p>Component attribute</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">egu</span></code></td>
-<td></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">egu</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">energy</span></code></td>
-<td>Component attribute</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">energy</span></code></p></td>
+<td><p>Component attribute</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">event_types</span></code></td>
-<td>Events that can be subscribed to via <code class="xref any docutils literal notranslate"><span class="pre">obj.subscribe</span></code></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">event_types</span></code></p></td>
+<td><p>Events that can be subscribed to via <code class="xref any docutils literal notranslate"><span class="pre">obj.subscribe</span></code></p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter1</span></code></td>
-<td>FormattedComponent attribute</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter1</span></code></p></td>
+<td><p>FormattedComponent attribute</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter2</span></code></td>
-<td>FormattedComponent attribute</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter2</span></code></p></td>
+<td><p>FormattedComponent attribute</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter3</span></code></td>
-<td>FormattedComponent attribute</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter3</span></code></p></td>
+<td><p>FormattedComponent attribute</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter4</span></code></td>
-<td>FormattedComponent attribute</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter4</span></code></p></td>
+<td><p>FormattedComponent attribute</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter5</span></code></td>
-<td>FormattedComponent attribute</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter5</span></code></p></td>
+<td><p>FormattedComponent attribute</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter6</span></code></td>
-<td>FormattedComponent attribute</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter6</span></code></p></td>
+<td><p>FormattedComponent attribute</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter7</span></code></td>
-<td>FormattedComponent attribute</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter7</span></code></p></td>
+<td><p>FormattedComponent attribute</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter8</span></code></td>
-<td>FormattedComponent attribute</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter8</span></code></p></td>
+<td><p>FormattedComponent attribute</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter9</span></code></td>
-<td>FormattedComponent attribute</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">filter9</span></code></p></td>
+<td><p>FormattedComponent attribute</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">high_limit</span></code></td>
-<td></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">high_limit</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">hints</span></code></td>
-<td></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">hints</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">inserted</span></code></td>
-<td><code class="docutils literal notranslate"><span class="pre">True</span></code> if any blade is inserted</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">inserted</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">True</span></code> if any blade is inserted</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></td>
-<td></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">limits</span></code></td>
-<td></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">limits</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">low_limit</span></code></td>
-<td></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">low_limit</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">moving</span></code></td>
-<td>Whether or not the motor is moving</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">moving</span></code></p></td>
+<td><p>Whether or not the motor is moving</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></td>
-<td>name of the device</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></p></td>
+<td><p>name of the device</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">num_att</span></code></td>
-<td></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">num_att</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></td>
-<td>The parent of the ophyd object.</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></p></td>
+<td><p>The parent of the ophyd object.</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></td>
-<td>The current position of the motor in its engineering units</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></p></td>
+<td><p>The current position of the motor in its engineering units</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">put_complete</span></code></td>
-<td></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">put_complete</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></td>
-<td></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">readback</span></code></td>
-<td>Component attribute</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">readback</span></code></p></td>
+<td><p>Component attribute</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">removed</span></code></td>
-<td><code class="docutils literal notranslate"><span class="pre">True</span></code> if all blades are removed</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">removed</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">True</span></code> if all blades are removed</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></td>
-<td>A report on the object.</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
+<td><p>A report on the object.</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></td>
-<td>Walk parents to find ultimate ancestor (parent’s parent…).</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></p></td>
+<td><p>Walk parents to find ultimate ancestor (parent’s parent…).</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">setpoint</span></code></td>
-<td>Component attribute</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">setpoint</span></code></p></td>
+<td><p>Component attribute</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></td>
-<td>Amount of time to wait after moves to report status completion</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></p></td>
+<td><p>Amount of time to wait after moves to report status completion</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></td>
-<td></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop_signal</span></code></td>
-<td></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop_signal</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop_value</span></code></td>
-<td></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop_value</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">timeout</span></code></td>
-<td>Amount of time to wait before to considering a motion as failed</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">timeout</span></code></p></td>
+<td><p>Amount of time to wait before to considering a motion as failed</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">trans_ceil</span></code></td>
-<td>Component attribute</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trans_ceil</span></code></p></td>
+<td><p>Component attribute</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">trans_floor</span></code></td>
-<td>Component attribute</td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trans_floor</span></code></p></td>
+<td><p>Component attribute</p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">transmission</span></code></td>
-<td>Ratio of pass-through beam to incoming beam.</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">transmission</span></code></p></td>
+<td><p>Ratio of pass-through beam to incoming beam.</p></td>
 </tr>
-<tr class="row-odd"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></td>
-<td></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-even"><td><code class="xref py py-obj docutils literal notranslate"><span class="pre">user_energy</span></code></td>
-<td>Component attribute</td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">user_energy</span></code></p></td>
+<td><p>Component attribute</p></td>
 </tr>
 </tbody>
 </table>

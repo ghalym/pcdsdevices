@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.epics_motor.Newport.move &mdash; PCDS Devices 1.2.0+1.g5925ccd documentation</title>
+  <title>pcdsdevices.epics_motor.Newport.move &mdash; PCDS Devices 1.2.0+2.gbc355f2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+1.g5925ccd
+                1.2.0+2.gbc355f2
               </div>
             
           
@@ -159,6 +159,7 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.evr.html">pcdsdevices.evr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
@@ -170,6 +171,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pump.html">pcdsdevices.pump</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.signal.html">pcdsdevices.signal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.sim.html">pcdsdevices.sim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.slits.html">pcdsdevices.slits</a></li>
@@ -254,35 +256,31 @@
 <code class="descclassname">Newport.</code><code class="descname">move</code><span class="sig-paren">(</span><em>position</em>, <em>wait=True</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.epics_motor.Newport.move" title="Permalink to this definition">¶</a></dt>
 <dd><p>Move to a specified position, optionally waiting for motion to
 complete.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
-<li><strong>position</strong> – Position to move to</li>
-<li><strong>moved_cb</strong> (<em>callable</em>) – Call this callback when movement has finished. This callback must
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>position</strong> – Position to move to</p></li>
+<li><p><strong>moved_cb</strong> (<em>callable</em>) – Call this callback when movement has finished. This callback must
 accept one keyword argument: ‘obj’ which will be set to this
-positioner instance.</li>
-<li><strong>timeout</strong> (<em>float</em><em>, </em><em>optional</em>) – Maximum time to wait for the motion. If None, the default timeout
-for this positioner is used.</li>
+positioner instance.</p></li>
+<li><p><strong>timeout</strong> (<em>float</em><em>, </em><em>optional</em>) – Maximum time to wait for the motion. If None, the default timeout
+for this positioner is used.</p></li>
 </ul>
-</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><strong>status</strong></p>
-</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">MoveStatus</p>
-</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><ul class="first last simple">
-<li><code class="xref py py-exc docutils literal notranslate"><span class="pre">TimeoutError</span></code> – When motion takes longer than <code class="xref any docutils literal notranslate"><span class="pre">timeout</span></code></li>
-<li><code class="xref py py-exc docutils literal notranslate"><span class="pre">ValueError</span></code> – On invalid positions</li>
-<li><code class="xref py py-exc docutils literal notranslate"><span class="pre">RuntimeError</span></code> – If motion fails other than timing out</li>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>status</strong></p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>MoveStatus</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>TimeoutError</strong> – When motion takes longer than <code class="xref any docutils literal notranslate"><span class="pre">timeout</span></code></p></li>
+<li><p><strong>ValueError</strong> – On invalid positions</p></li>
+<li><p><strong>RuntimeError</strong> – If motion fails other than timing out</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 </dd></dl>
 
 </div>

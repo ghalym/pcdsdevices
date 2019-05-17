@@ -1,0 +1,6 @@
+pcdsdevices.pump.IonPumpWithController.unsubscribe\_all
+=======================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: IonPumpWithController.unsubscribe_all

@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeColdCathode.check\_value
+===============================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeColdCathode.check_value

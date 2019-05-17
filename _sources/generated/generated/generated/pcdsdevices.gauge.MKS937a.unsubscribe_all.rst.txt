@@ -1,0 +1,6 @@
+pcdsdevices.gauge.MKS937a.unsubscribe\_all
+==========================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: MKS937a.unsubscribe_all

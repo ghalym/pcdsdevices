@@ -1,0 +1,6 @@
+pcdsdevices.pump.TurboPump.check\_value
+=======================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: TurboPump.check_value

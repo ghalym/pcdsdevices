@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeColdCathode.pause
+========================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeColdCathode.pause

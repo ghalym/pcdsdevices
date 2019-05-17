@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.signal &mdash; PCDS Devices 1.2.0+1.g5925ccd documentation</title>
+  <title>pcdsdevices.signal &mdash; PCDS Devices 1.2.0+2.gbc355f2 documentation</title>
   
 
   
@@ -36,7 +36,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="pcdsdevices.signal.AggregateSignal" href="generated/pcdsdevices.signal.AggregateSignal.html" />
-    <link rel="prev" title="pcdsdevices.pulsepicker.PulsePickerInOut.wm_update" href="generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.wm_update.html" /> 
+    <link rel="prev" title="pcdsdevices.pump.TurboPump.wait_for_connection" href="generated/generated/pcdsdevices.pump.TurboPump.wait_for_connection.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+1.g5925ccd
+                1.2.0+2.gbc355f2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.evr.html">pcdsdevices.evr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.inout.html">pcdsdevices.inout</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.lens.html">pcdsdevices.lens</a></li>
@@ -115,6 +116,7 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pump.html">pcdsdevices.pump</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">pcdsdevices.signal</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.html">pcdsdevices.signal.AggregateSignal</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.html">pcdsdevices.signal.AvgSignal</a></li>
@@ -196,17 +198,17 @@
 <span id="pcdsdevices-signal"></span><h1>pcdsdevices.signal<a class="headerlink" href="#module-pcdsdevices.signal" title="Permalink to this headline">¶</a></h1>
 <p>Module to define ophyd Signal subclass utilities.</p>
 <p class="rubric">Classes</p>
-<table border="1" class="longtable docutils">
+<table class="longtable docutils align-center">
 <colgroup>
-<col width="10%" />
-<col width="90%" />
+<col style="width: 10%" />
+<col style="width: 90%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.html#pcdsdevices.signal.AggregateSignal" title="pcdsdevices.signal.AggregateSignal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AggregateSignal</span></code></a>(*,&nbsp;name,&nbsp;**kwargs)</td>
-<td>Signal that is composed of a number of other signals.</td>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.html#pcdsdevices.signal.AggregateSignal" title="pcdsdevices.signal.AggregateSignal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AggregateSignal</span></code></a>(*, name, **kwargs)</p></td>
+<td><p>Signal that is composed of a number of other signals.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.html#pcdsdevices.signal.AvgSignal" title="pcdsdevices.signal.AvgSignal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AvgSignal</span></code></a>(signal,&nbsp;averages,&nbsp;*,&nbsp;name[,&nbsp;parent])</td>
-<td>Signal that acts as a rolling average of another signal.</td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.html#pcdsdevices.signal.AvgSignal" title="pcdsdevices.signal.AvgSignal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AvgSignal</span></code></a>(signal, averages, *, name[, parent])</p></td>
+<td><p>Signal that acts as a rolling average of another signal.</p></td>
 </tr>
 </tbody>
 </table>
@@ -223,7 +225,7 @@
         <a href="generated/pcdsdevices.signal.AggregateSignal.html" class="btn btn-neutral float-right" title="pcdsdevices.signal.AggregateSignal" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.wm_update.html" class="btn btn-neutral float-left" title="pcdsdevices.pulsepicker.PulsePickerInOut.wm_update" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="generated/generated/pcdsdevices.pump.TurboPump.wait_for_connection.html" class="btn btn-neutral float-left" title="pcdsdevices.pump.TurboPump.wait_for_connection" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

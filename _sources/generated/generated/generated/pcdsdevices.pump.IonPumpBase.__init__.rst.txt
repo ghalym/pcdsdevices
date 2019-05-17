@@ -1,0 +1,6 @@
+pcdsdevices.pump.IonPumpBase.\_\_init\_\_
+=========================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: IonPumpBase.__init__

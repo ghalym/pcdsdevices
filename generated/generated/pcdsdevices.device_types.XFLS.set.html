@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.XFLS.set &mdash; PCDS Devices 1.2.0+1.g5925ccd documentation</title>
+  <title>pcdsdevices.device_types.XFLS.set &mdash; PCDS Devices 1.2.0+2.gbc355f2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+1.g5925ccd
+                1.2.0+2.gbc355f2
               </div>
             
           
@@ -99,8 +99,10 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.EpicsMotor.html">pcdsdevices.device_types.EpicsMotor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.EventSequencer.html">pcdsdevices.device_types.EventSequencer</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.GateValve.html">pcdsdevices.device_types.GateValve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.GaugeSet.html">pcdsdevices.device_types.GaugeSet</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.IMS.html">pcdsdevices.device_types.IMS</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.IPM.html">pcdsdevices.device_types.IPM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.IonPump.html">pcdsdevices.device_types.IonPump</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.LODCM.html">pcdsdevices.device_types.LODCM</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Motor.html">pcdsdevices.device_types.Motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Newport.html">pcdsdevices.device_types.Newport</a></li>
@@ -237,25 +239,21 @@
 callbacks, and timeouts defined. Additional functional options are
 relegated to the <a class="reference internal" href="pcdsdevices.device_types.XFLS.move.html#pcdsdevices.device_types.XFLS.move" title="pcdsdevices.device_types.XFLS.move"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">move</span></code></a> command and bells and whistles are relegated to
 a different interface.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
-<li><strong>position</strong> (<code class="docutils literal notranslate"><span class="pre">int</span></code> or <code class="docutils literal notranslate"><span class="pre">str</span></code>) – The enumerate state or the corresponding integer</li>
-<li><strong>moved_cb</strong> (<code class="docutils literal notranslate"><span class="pre">function</span></code>, optional) – moved_cb(obj=self) will be called at the end of motion</li>
-<li><strong>timeout</strong> (<code class="docutils literal notranslate"><span class="pre">int</span></code> or <code class="docutils literal notranslate"><span class="pre">float</span></code>, optional) – Move timeout in seconds</li>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>position</strong> (<code class="docutils literal notranslate"><span class="pre">int</span></code> or <code class="docutils literal notranslate"><span class="pre">str</span></code>) – The enumerate state or the corresponding integer</p></li>
+<li><p><strong>moved_cb</strong> (<code class="docutils literal notranslate"><span class="pre">function</span></code>, optional) – moved_cb(obj=self) will be called at the end of motion</p></li>
+<li><p><strong>timeout</strong> (<code class="docutils literal notranslate"><span class="pre">int</span></code> or <code class="docutils literal notranslate"><span class="pre">float</span></code>, optional) – Move timeout in seconds</p></li>
 </ul>
-</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><strong>status</strong> – <code class="docutils literal notranslate"><span class="pre">Status</span></code> object that represents the move’s progress.</p>
-</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><code class="docutils literal notranslate"><span class="pre">StateStatus</span></code></p>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>status</strong> – <code class="docutils literal notranslate"><span class="pre">Status</span></code> object that represents the move’s progress.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">StateStatus</span></code></p>
+</dd>
+</dl>
 </dd></dl>
 
 </div>

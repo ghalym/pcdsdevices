@@ -1,0 +1,6 @@
+pcdsdevices.pump.EbaraPump.pause
+================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: EbaraPump.pause

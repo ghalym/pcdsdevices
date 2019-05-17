@@ -1,0 +1,6 @@
+pcdsdevices.gauge.MKS937a.get\_instantiated\_signals
+====================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: MKS937a.get_instantiated_signals

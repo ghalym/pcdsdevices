@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSetMks.clear\_sub
+========================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSetMks.clear_sub

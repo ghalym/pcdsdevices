@@ -1,0 +1,6 @@
+pcdsdevices.pump.EbaraPump.wait\_for\_connection
+================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: EbaraPump.wait_for_connection

@@ -1,0 +1,6 @@
+pcdsdevices.pump.TurboPump.get\_device\_tuple
+=============================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: TurboPump.get_device_tuple

@@ -1,0 +1,6 @@
+pcdsdevices.gauge.MKS937a.unstage
+=================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: MKS937a.unstage

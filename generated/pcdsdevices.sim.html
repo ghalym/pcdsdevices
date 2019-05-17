@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.sim &mdash; PCDS Devices 1.2.0+1.g5925ccd documentation</title>
+  <title>pcdsdevices.sim &mdash; PCDS Devices 1.2.0+2.gbc355f2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+1.g5925ccd
+                1.2.0+2.gbc355f2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.evr.html">pcdsdevices.evr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.inout.html">pcdsdevices.inout</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.lens.html">pcdsdevices.lens</a></li>
@@ -115,6 +116,7 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pump.html">pcdsdevices.pump</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.signal.html">pcdsdevices.signal</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">pcdsdevices.sim</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.FastMotor.html">pcdsdevices.sim.FastMotor</a></li>
@@ -197,23 +199,23 @@
   <div class="section" id="module-pcdsdevices.sim">
 <span id="pcdsdevices-sim"></span><h1>pcdsdevices.sim<a class="headerlink" href="#module-pcdsdevices.sim" title="Permalink to this headline">¶</a></h1>
 <p class="rubric">Classes</p>
-<table border="1" class="longtable docutils">
+<table class="longtable docutils align-center">
 <colgroup>
-<col width="10%" />
-<col width="90%" />
+<col style="width: 10%" />
+<col style="width: 90%" />
 </colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td><a class="reference internal" href="generated/pcdsdevices.sim.FastMotor.html#pcdsdevices.sim.FastMotor" title="pcdsdevices.sim.FastMotor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FastMotor</span></code></a>(*args[,&nbsp;init_pos])</td>
-<td>Instant motor with FltMvInterface.</td>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.sim.FastMotor.html#pcdsdevices.sim.FastMotor" title="pcdsdevices.sim.FastMotor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FastMotor</span></code></a>(*args[, init_pos])</p></td>
+<td><p>Instant motor with FltMvInterface.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="pcdsdevices.sim.SimTwoAxis.html#pcdsdevices.sim.SimTwoAxis" title="pcdsdevices.sim.SimTwoAxis"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SimTwoAxis</span></code></a>([prefix,&nbsp;kind,&nbsp;read_attrs,&nbsp;…])</td>
-<td>Test assembly with two slow motors.</td>
+<tr class="row-even"><td><p><a class="reference internal" href="pcdsdevices.sim.SimTwoAxis.html#pcdsdevices.sim.SimTwoAxis" title="pcdsdevices.sim.SimTwoAxis"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SimTwoAxis</span></code></a>([prefix, kind, read_attrs, …])</p></td>
+<td><p>Test assembly with two slow motors.</p></td>
 </tr>
-<tr class="row-odd"><td><a class="reference internal" href="pcdsdevices.sim.SlowMotor.html#pcdsdevices.sim.SlowMotor" title="pcdsdevices.sim.SlowMotor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SlowMotor</span></code></a>(*args[,&nbsp;init_pos])</td>
-<td>Simulated slow-moving motor.</td>
+<tr class="row-odd"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.html#pcdsdevices.sim.SlowMotor" title="pcdsdevices.sim.SlowMotor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SlowMotor</span></code></a>(*args[, init_pos])</p></td>
+<td><p>Simulated slow-moving motor.</p></td>
 </tr>
-<tr class="row-even"><td><a class="reference internal" href="pcdsdevices.sim.SynMotor.html#pcdsdevices.sim.SynMotor" title="pcdsdevices.sim.SynMotor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SynMotor</span></code></a>(*args,&nbsp;**kwargs)</td>
-<td>SynAxis with the FltMvInterface additions.</td>
+<tr class="row-even"><td><p><a class="reference internal" href="pcdsdevices.sim.SynMotor.html#pcdsdevices.sim.SynMotor" title="pcdsdevices.sim.SynMotor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SynMotor</span></code></a>(*args, **kwargs)</p></td>
+<td><p>SynAxis with the FltMvInterface additions.</p></td>
 </tr>
 </tbody>
 </table>

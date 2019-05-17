@@ -1,0 +1,6 @@
+pcdsdevices.gauge.MKS937a.check\_value
+======================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: MKS937a.check_value

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.GateValve.mv &mdash; PCDS Devices 1.2.0+1.g5925ccd documentation</title>
+  <title>pcdsdevices.device_types.GateValve.mv &mdash; PCDS Devices 1.2.0+2.gbc355f2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+1.g5925ccd
+                1.2.0+2.gbc355f2
               </div>
             
           
@@ -136,8 +136,10 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.GateValve.wm_update.html">pcdsdevices.device_types.GateValve.wm_update</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.GaugeSet.html">pcdsdevices.device_types.GaugeSet</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.IMS.html">pcdsdevices.device_types.IMS</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.IPM.html">pcdsdevices.device_types.IPM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.IonPump.html">pcdsdevices.device_types.IonPump</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.LODCM.html">pcdsdevices.device_types.LODCM</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Motor.html">pcdsdevices.device_types.Motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Newport.html">pcdsdevices.device_types.Newport</a></li>
@@ -235,22 +237,18 @@
 <dt id="pcdsdevices.device_types.GateValve.mv">
 <code class="descclassname">GateValve.</code><code class="descname">mv</code><span class="sig-paren">(</span><em>position</em>, <em>timeout=None</em>, <em>wait=False</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.device_types.GateValve.mv" title="Permalink to this definition">¶</a></dt>
 <dd><p>Absolute move to a position.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>position</strong> – Desired end position</li>
-<li><strong>timeout</strong> (<code class="docutils literal notranslate"><span class="pre">float</span></code>, optional) – If provided, the mover will throw an error if motion takes longer
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>position</strong> – Desired end position</p></li>
+<li><p><strong>timeout</strong> (<code class="docutils literal notranslate"><span class="pre">float</span></code>, optional) – If provided, the mover will throw an error if motion takes longer
 than timeout to complete. If omitted, the mover’s default timeout
-will be use.</li>
-<li><strong>wait</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>, optional) – If <code class="docutils literal notranslate"><span class="pre">True</span></code>, wait for motion completion before returning.
-Defaults to <code class="docutils literal notranslate"><span class="pre">False</span></code>.</li>
+will be use.</p></li>
+<li><p><strong>wait</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>, optional) – If <code class="docutils literal notranslate"><span class="pre">True</span></code>, wait for motion completion before returning.
+Defaults to <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 </dd></dl>
 
 </div>

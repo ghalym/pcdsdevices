@@ -1,0 +1,6 @@
+pcdsdevices.pump.GammaController.\_\_init\_\_
+=============================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: GammaController.__init__

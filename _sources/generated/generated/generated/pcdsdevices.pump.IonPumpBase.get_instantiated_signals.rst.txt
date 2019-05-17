@@ -1,0 +1,6 @@
+pcdsdevices.pump.IonPumpBase.get\_instantiated\_signals
+=======================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: IonPumpBase.get_instantiated_signals

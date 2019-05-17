@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSetPiraniMks.get\_instantiated\_signals
+==============================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSetPiraniMks.get_instantiated_signals

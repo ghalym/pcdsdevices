@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugePirani.pause
+===================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugePirani.pause

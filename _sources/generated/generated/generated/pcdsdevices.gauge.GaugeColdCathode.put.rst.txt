@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeColdCathode.put
+======================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeColdCathode.put

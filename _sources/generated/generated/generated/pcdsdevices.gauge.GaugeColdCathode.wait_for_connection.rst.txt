@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeColdCathode.wait\_for\_connection
+========================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeColdCathode.wait_for_connection

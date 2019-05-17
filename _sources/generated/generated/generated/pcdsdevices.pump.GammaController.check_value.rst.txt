@@ -1,0 +1,6 @@
+pcdsdevices.pump.GammaController.check\_value
+=============================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: GammaController.check_value

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.attenuator.AttBase3rd.clear_sub &mdash; PCDS Devices 1.2.0+1.g5925ccd documentation</title>
+  <title>pcdsdevices.attenuator.AttBase3rd.clear_sub &mdash; PCDS Devices 1.2.0+2.gbc355f2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+1.g5925ccd
+                1.2.0+2.gbc355f2
               </div>
             
           
@@ -152,6 +152,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.evr.html">pcdsdevices.evr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
@@ -163,6 +164,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pump.html">pcdsdevices.pump</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.signal.html">pcdsdevices.signal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.sim.html">pcdsdevices.sim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.slits.html">pcdsdevices.slits</a></li>
@@ -247,19 +249,15 @@
 <code class="descclassname">AttBase3rd.</code><code class="descname">clear_sub</code><span class="sig-paren">(</span><em>cb</em>, <em>event_type=None</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.attenuator.AttBase3rd.clear_sub" title="Permalink to this definition">¶</a></dt>
 <dd><p>Remove a subscription, given the original callback function</p>
 <p>See also <a class="reference internal" href="pcdsdevices.attenuator.AttBase3rd.subscribe.html#pcdsdevices.attenuator.AttBase3rd.subscribe" title="pcdsdevices.attenuator.AttBase3rd.subscribe"><code class="xref py py-meth docutils literal notranslate"><span class="pre">subscribe()</span></code></a>, <a class="reference internal" href="pcdsdevices.attenuator.AttBase3rd.unsubscribe.html#pcdsdevices.attenuator.AttBase3rd.unsubscribe" title="pcdsdevices.attenuator.AttBase3rd.unsubscribe"><code class="xref py py-meth docutils literal notranslate"><span class="pre">unsubscribe()</span></code></a></p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>cb</strong> (<em>callable</em>) – The callback</li>
-<li><strong>event_type</strong> (<em>str</em><em>, </em><em>optional</em>) – The event to unsubscribe from (if None, removes it from all event
-types)</li>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>cb</strong> (<em>callable</em>) – The callback</p></li>
+<li><p><strong>event_type</strong> (<em>str</em><em>, </em><em>optional</em>) – The event to unsubscribe from (if None, removes it from all event
+types)</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 </dd></dl>
 
 </div>

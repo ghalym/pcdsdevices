@@ -1,0 +1,6 @@
+pcdsdevices.gauge.BaseGauge.check\_value
+========================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: BaseGauge.check_value

@@ -1,0 +1,37 @@
+pcdsdevices.gauge
+=================
+
+.. automodule:: pcdsdevices.gauge
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+      :toctree: generated
+   
+      GaugeSet
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree: generated
+   
+      BaseGauge
+      GaugeColdCathode
+      GaugePirani
+      GaugeSetBase
+      GaugeSetMks
+      GaugeSetPirani
+      GaugeSetPiraniMks
+      MKS937a
+   
+   
+
+   
+   
+   

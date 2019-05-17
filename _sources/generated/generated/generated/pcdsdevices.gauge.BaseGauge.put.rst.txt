@@ -1,0 +1,6 @@
+pcdsdevices.gauge.BaseGauge.put
+===============================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: BaseGauge.put
