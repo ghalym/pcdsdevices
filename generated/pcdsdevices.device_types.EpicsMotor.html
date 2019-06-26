@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.EpicsMotor &mdash; PCDS Devices 1.2.0+13.g444f7a1 documentation</title>
+  <title>pcdsdevices.device_types.EpicsMotor &mdash; PCDS Devices 1.2.0+15.ge6e3b41 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+13.g444f7a1
+                1.2.0+15.ge6e3b41
               </div>
             
           
@@ -225,7 +225,7 @@
 <h1>pcdsdevices.device_types.EpicsMotor<a class="headerlink" href="#pcdsdevices-device-types-epicsmotor" title="Permalink to this headline">¶</a></h1>
 <dl class="class">
 <dt id="pcdsdevices.device_types.EpicsMotor">
-<em class="property">class </em><code class="descclassname">pcdsdevices.device_types.</code><code class="descname">EpicsMotor</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.device_types.EpicsMotor" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.device_types.</code><code class="sig-name descname">EpicsMotor</code><span class="sig-paren">(</span><em class="sig-param">*args</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.device_types.EpicsMotor" title="Permalink to this definition">¶</a></dt>
 <dd><p>An EPICS motor record, wrapped in a <code class="xref py py-class docutils literal notranslate"><span class="pre">Positioner</span></code></p>
 <p>Keyword arguments are passed through to the base class, Positioner</p>
 <dl class="field-list simple">
@@ -242,7 +242,7 @@ describe() calls)</p></li>
 </dd>
 </dl>
 <p class="rubric">Methods</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -257,7 +257,7 @@ describe() calls)</p></li>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.EpicsMotor.clear_sub.html#pcdsdevices.device_types.EpicsMotor.clear_sub" title="pcdsdevices.device_types.EpicsMotor.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
 <td><p>Remove a subscription, given the original callback function</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.EpicsMotor.configure.html#pcdsdevices.device_types.EpicsMotor.configure" title="pcdsdevices.device_types.EpicsMotor.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d, Any])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.EpicsMotor.configure.html#pcdsdevices.device_types.EpicsMotor.configure" title="pcdsdevices.device_types.EpicsMotor.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
 <td><p>Configure the device for something during a run</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.EpicsMotor.describe.html#pcdsdevices.device_types.EpicsMotor.describe" title="pcdsdevices.device_types.EpicsMotor.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
@@ -296,7 +296,7 @@ describe() calls)</p></li>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.EpicsMotor.resume.html#pcdsdevices.device_types.EpicsMotor.resume" title="pcdsdevices.device_types.EpicsMotor.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.EpicsMotor.set.html#pcdsdevices.device_types.EpicsMotor.set" title="pcdsdevices.device_types.EpicsMotor.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position, *, timeout, moved_cb, wait)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.EpicsMotor.set.html#pcdsdevices.device_types.EpicsMotor.set" title="pcdsdevices.device_types.EpicsMotor.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position, *[, timeout, moved_cb, wait])</p></td>
 <td><p>Set a value and return a Status object</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.EpicsMotor.set_current_position.html#pcdsdevices.device_types.EpicsMotor.set_current_position" title="pcdsdevices.device_types.EpicsMotor.set_current_position"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_current_position</span></code></a>(pos)</p></td>
@@ -332,7 +332,7 @@ describe() calls)</p></li>
 </tbody>
 </table>
 <p class="rubric">Attributes</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />

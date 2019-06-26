@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.slits.SlitPositioner &mdash; PCDS Devices 1.2.0+13.g444f7a1 documentation</title>
+  <title>pcdsdevices.slits.SlitPositioner &mdash; PCDS Devices 1.2.0+15.ge6e3b41 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+13.g444f7a1
+                1.2.0+15.ge6e3b41
               </div>
             
           
@@ -237,7 +237,7 @@
 <h1>pcdsdevices.slits.SlitPositioner<a class="headerlink" href="#pcdsdevices-slits-slitpositioner" title="Permalink to this headline">¶</a></h1>
 <dl class="class">
 <dt id="pcdsdevices.slits.SlitPositioner">
-<em class="property">class </em><code class="descclassname">pcdsdevices.slits.</code><code class="descname">SlitPositioner</code><span class="sig-paren">(</span><em>prefix</em>, <em>*</em>, <em>slit_type=''</em>, <em>name=None</em>, <em>limits=None</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.slits.SlitPositioner" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.slits.</code><code class="sig-name descname">SlitPositioner</code><span class="sig-paren">(</span><em class="sig-param">prefix</em>, <em class="sig-param">*</em>, <em class="sig-param">slit_type=''</em>, <em class="sig-param">name=None</em>, <em class="sig-param">limits=None</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.slits.SlitPositioner" title="Permalink to this definition">¶</a></dt>
 <dd><p>Abstraction of Slit Axis</p>
 <p>Each adjustable parameter of the slit (center, width) can be modeled as a
 motor in itself, even though each controls two different actual motors in
@@ -263,7 +263,7 @@ setpoint PV are used if None is given.</p></li>
 </dl>
 </div>
 <p class="rubric">Methods</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -281,7 +281,7 @@ setpoint PV are used if None is given.</p></li>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.clear_sub.html#pcdsdevices.slits.SlitPositioner.clear_sub" title="pcdsdevices.slits.SlitPositioner.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
 <td><p>Remove a subscription, given the original callback function</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.configure.html#pcdsdevices.slits.SlitPositioner.configure" title="pcdsdevices.slits.SlitPositioner.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d, Any])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.configure.html#pcdsdevices.slits.SlitPositioner.configure" title="pcdsdevices.slits.SlitPositioner.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
 <td><p>Configure the device for something during a run</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.describe.html#pcdsdevices.slits.SlitPositioner.describe" title="pcdsdevices.slits.SlitPositioner.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
@@ -329,7 +329,7 @@ setpoint PV are used if None is given.</p></li>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.resume.html#pcdsdevices.slits.SlitPositioner.resume" title="pcdsdevices.slits.SlitPositioner.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.set.html#pcdsdevices.slits.SlitPositioner.set" title="pcdsdevices.slits.SlitPositioner.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position, *, timeout, moved_cb, wait)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.set.html#pcdsdevices.slits.SlitPositioner.set" title="pcdsdevices.slits.SlitPositioner.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position, *[, timeout, moved_cb, wait])</p></td>
 <td><p>Set a value and return a Status object</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.stage.html#pcdsdevices.slits.SlitPositioner.stage" title="pcdsdevices.slits.SlitPositioner.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
@@ -377,7 +377,7 @@ setpoint PV are used if None is given.</p></li>
 </tbody>
 </table>
 <p class="rubric">Attributes</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />

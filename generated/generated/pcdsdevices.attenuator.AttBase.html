@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.attenuator.AttBase &mdash; PCDS Devices 1.2.0+13.g444f7a1 documentation</title>
+  <title>pcdsdevices.attenuator.AttBase &mdash; PCDS Devices 1.2.0+15.ge6e3b41 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+13.g444f7a1
+                1.2.0+15.ge6e3b41
               </div>
             
           
@@ -244,7 +244,7 @@
 <h1>pcdsdevices.attenuator.AttBase<a class="headerlink" href="#pcdsdevices-attenuator-attbase" title="Permalink to this headline">¶</a></h1>
 <dl class="class">
 <dt id="pcdsdevices.attenuator.AttBase">
-<em class="property">class </em><code class="descclassname">pcdsdevices.attenuator.</code><code class="descname">AttBase</code><span class="sig-paren">(</span><em>prefix</em>, <em>*</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.attenuator.AttBase" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.attenuator.</code><code class="sig-name descname">AttBase</code><span class="sig-paren">(</span><em class="sig-param">prefix</em>, <em class="sig-param">*</em>, <em class="sig-param">name</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.attenuator.AttBase" title="Permalink to this definition">¶</a></dt>
 <dd><p>Base class for the attenuators.</p>
 <p>This is a device that puts an array of filters in or out to achieve a
 desired transmission ratio.</p>
@@ -252,7 +252,7 @@ desired transmission ratio.</p>
 vary. You should not instantiate this class directly, but instead use the
 <a class="reference internal" href="pcdsdevices.attenuator.Attenuator.html#pcdsdevices.attenuator.Attenuator" title="pcdsdevices.attenuator.Attenuator"><code class="xref any py py-func docutils literal notranslate"><span class="pre">Attenuator</span></code></a> factory function.</p>
 <p class="rubric">Methods</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -270,7 +270,7 @@ vary. You should not instantiate this class directly, but instead use the
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase.clear_sub.html#pcdsdevices.attenuator.AttBase.clear_sub" title="pcdsdevices.attenuator.AttBase.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
 <td><p>Remove a subscription, given the original callback function</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase.configure.html#pcdsdevices.attenuator.AttBase.configure" title="pcdsdevices.attenuator.AttBase.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d, Any])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase.configure.html#pcdsdevices.attenuator.AttBase.configure" title="pcdsdevices.attenuator.AttBase.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
 <td><p>Configure the device for something during a run</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase.describe.html#pcdsdevices.attenuator.AttBase.describe" title="pcdsdevices.attenuator.AttBase.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
@@ -324,7 +324,7 @@ vary. You should not instantiate this class directly, but instead use the
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase.resume.html#pcdsdevices.attenuator.AttBase.resume" title="pcdsdevices.attenuator.AttBase.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase.set.html#pcdsdevices.attenuator.AttBase.set" title="pcdsdevices.attenuator.AttBase.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position, *, timeout, moved_cb, wait)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase.set.html#pcdsdevices.attenuator.AttBase.set" title="pcdsdevices.attenuator.AttBase.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position, *[, timeout, moved_cb, wait])</p></td>
 <td><p>Set a value and return a Status object</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase.set_energy.html#pcdsdevices.attenuator.AttBase.set_energy" title="pcdsdevices.attenuator.AttBase.set_energy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_energy</span></code></a>([energy])</p></td>
@@ -375,7 +375,7 @@ vary. You should not instantiate this class directly, but instead use the
 </tbody>
 </table>
 <p class="rubric">Attributes</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />

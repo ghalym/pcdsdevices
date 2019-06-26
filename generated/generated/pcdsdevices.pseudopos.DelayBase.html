@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.pseudopos.DelayBase &mdash; PCDS Devices 1.2.0+13.g444f7a1 documentation</title>
+  <title>pcdsdevices.pseudopos.DelayBase &mdash; PCDS Devices 1.2.0+15.ge6e3b41 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+13.g444f7a1
+                1.2.0+15.ge6e3b41
               </div>
             
           
@@ -234,7 +234,7 @@
 <h1>pcdsdevices.pseudopos.DelayBase<a class="headerlink" href="#pcdsdevices-pseudopos-delaybase" title="Permalink to this headline">¶</a></h1>
 <dl class="class">
 <dt id="pcdsdevices.pseudopos.DelayBase">
-<em class="property">class </em><code class="descclassname">pcdsdevices.pseudopos.</code><code class="descname">DelayBase</code><span class="sig-paren">(</span><em>*args</em>, <em>egu='s'</em>, <em>n_bounces=2</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.pseudopos.DelayBase" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.pseudopos.</code><code class="sig-name descname">DelayBase</code><span class="sig-paren">(</span><em class="sig-param">*args</em>, <em class="sig-param">egu='s'</em>, <em class="sig-param">n_bounces=2</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.pseudopos.DelayBase" title="Permalink to this definition">¶</a></dt>
 <dd><p>Laser delay stage to rescale a physical axis to a time axis.</p>
 <p>The optical laser travels along the motor’s axis and bounces off a number
 of mirrors, then continues to the destination. In this way, the path length
@@ -242,7 +242,7 @@ of the laser changes, which introduces a variable delay. This delay is a
 simple multiplier based on the speed of light.</p>
 <dl class="attribute">
 <dt id="pcdsdevices.pseudopos.DelayBase.delay">
-<code class="descname">delay</code><a class="headerlink" href="#pcdsdevices.pseudopos.DelayBase.delay" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">delay</code><a class="headerlink" href="#pcdsdevices.pseudopos.DelayBase.delay" title="Permalink to this definition">¶</a></dt>
 <dd><p>The fake axis. It has configurable units and number of bounces.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
@@ -253,7 +253,7 @@ simple multiplier based on the speed of light.</p>
 
 <dl class="attribute">
 <dt id="pcdsdevices.pseudopos.DelayBase.motor">
-<code class="descname">motor</code><a class="headerlink" href="#pcdsdevices.pseudopos.DelayBase.motor" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">motor</code><a class="headerlink" href="#pcdsdevices.pseudopos.DelayBase.motor" title="Permalink to this definition">¶</a></dt>
 <dd><p>The real axis. This can be a number of things based on the inheriting
 class, but it must have a valid <code class="docutils literal notranslate"><span class="pre">egu</span></code> so we know how to convert to
 the time axis.</p>
@@ -278,7 +278,7 @@ branch that bounces the laser back along the axis it enters.</p></li>
 </dd>
 </dl>
 <p class="rubric">Methods</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -296,7 +296,7 @@ branch that bounces the laser back along the axis it enters.</p></li>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayBase.clear_sub.html#pcdsdevices.pseudopos.DelayBase.clear_sub" title="pcdsdevices.pseudopos.DelayBase.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
 <td><p>Remove a subscription, given the original callback function</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayBase.configure.html#pcdsdevices.pseudopos.DelayBase.configure" title="pcdsdevices.pseudopos.DelayBase.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d, Any])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayBase.configure.html#pcdsdevices.pseudopos.DelayBase.configure" title="pcdsdevices.pseudopos.DelayBase.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
 <td><p>Configure the device for something during a run</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayBase.describe.html#pcdsdevices.pseudopos.DelayBase.describe" title="pcdsdevices.pseudopos.DelayBase.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
@@ -380,7 +380,7 @@ branch that bounces the laser back along the axis it enters.</p></li>
 </tbody>
 </table>
 <p class="rubric">Attributes</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />

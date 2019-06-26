@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ccm.CCMMotor &mdash; PCDS Devices 1.2.0+13.g444f7a1 documentation</title>
+  <title>pcdsdevices.ccm.CCMMotor &mdash; PCDS Devices 1.2.0+15.ge6e3b41 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+13.g444f7a1
+                1.2.0+15.ge6e3b41
               </div>
             
           
@@ -236,12 +236,12 @@
 <h1>pcdsdevices.ccm.CCMMotor<a class="headerlink" href="#pcdsdevices-ccm-ccmmotor" title="Permalink to this headline">¶</a></h1>
 <dl class="class">
 <dt id="pcdsdevices.ccm.CCMMotor">
-<em class="property">class </em><code class="descclassname">pcdsdevices.ccm.</code><code class="descname">CCMMotor</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.ccm.CCMMotor" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.ccm.</code><code class="sig-name descname">CCMMotor</code><span class="sig-paren">(</span><em class="sig-param">*args</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.ccm.CCMMotor" title="Permalink to this definition">¶</a></dt>
 <dd><p>Goofy records used in the CCM.</p>
 <p>TODO: switch to PVPositioner subclass and override code that prevents
 loading, and make the wait for done just compare the values.</p>
 <p class="rubric">Methods</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -256,7 +256,7 @@ loading, and make the wait for done just compare the values.</p>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMMotor.clear_sub.html#pcdsdevices.ccm.CCMMotor.clear_sub" title="pcdsdevices.ccm.CCMMotor.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
 <td><p>Remove a subscription, given the original callback function</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMMotor.configure.html#pcdsdevices.ccm.CCMMotor.configure" title="pcdsdevices.ccm.CCMMotor.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d, Any])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMMotor.configure.html#pcdsdevices.ccm.CCMMotor.configure" title="pcdsdevices.ccm.CCMMotor.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
 <td><p>Configure the device for something during a run</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMMotor.describe.html#pcdsdevices.ccm.CCMMotor.describe" title="pcdsdevices.ccm.CCMMotor.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
@@ -292,7 +292,7 @@ loading, and make the wait for done just compare the values.</p>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMMotor.resume.html#pcdsdevices.ccm.CCMMotor.resume" title="pcdsdevices.ccm.CCMMotor.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMMotor.set.html#pcdsdevices.ccm.CCMMotor.set" title="pcdsdevices.ccm.CCMMotor.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position, *, timeout, moved_cb, wait)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMMotor.set.html#pcdsdevices.ccm.CCMMotor.set" title="pcdsdevices.ccm.CCMMotor.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position, *[, timeout, moved_cb, wait])</p></td>
 <td><p>Set a value and return a Status object</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMMotor.stage.html#pcdsdevices.ccm.CCMMotor.stage" title="pcdsdevices.ccm.CCMMotor.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
@@ -325,7 +325,7 @@ loading, and make the wait for done just compare the values.</p>
 </tbody>
 </table>
 <p class="rubric">Attributes</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.inout.InOutPositioner &mdash; PCDS Devices 1.2.0+13.g444f7a1 documentation</title>
+  <title>pcdsdevices.inout.InOutPositioner &mdash; PCDS Devices 1.2.0+15.ge6e3b41 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+13.g444f7a1
+                1.2.0+15.ge6e3b41
               </div>
             
           
@@ -238,7 +238,7 @@
 <h1>pcdsdevices.inout.InOutPositioner<a class="headerlink" href="#pcdsdevices-inout-inoutpositioner" title="Permalink to this headline">¶</a></h1>
 <dl class="class">
 <dt id="pcdsdevices.inout.InOutPositioner">
-<em class="property">class </em><code class="descclassname">pcdsdevices.inout.</code><code class="descname">InOutPositioner</code><span class="sig-paren">(</span><em>prefix</em>, <em>*</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.inout.InOutPositioner" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.inout.</code><code class="sig-name descname">InOutPositioner</code><span class="sig-paren">(</span><em class="sig-param">prefix</em>, <em class="sig-param">*</em>, <em class="sig-param">name</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.inout.InOutPositioner" title="Permalink to this definition">¶</a></dt>
 <dd><p>Base class for a device that can be inserted and removed from the beam.</p>
 <p>This must be subclassed and given a <code class="docutils literal notranslate"><span class="pre">state</span></code> signal to work properly. You
 should also update the <code class="docutils literal notranslate"><span class="pre">states_list</span></code>, <code class="docutils literal notranslate"><span class="pre">in_states</span></code>, and <code class="docutils literal notranslate"><span class="pre">out_states</span></code>
@@ -259,7 +259,7 @@ in-progress move as failed.</p></li>
 </dl>
 <dl class="attribute">
 <dt id="pcdsdevices.inout.InOutPositioner.in_states">
-<code class="descname">in_states</code><a class="headerlink" href="#pcdsdevices.inout.InOutPositioner.in_states" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">in_states</code><a class="headerlink" href="#pcdsdevices.inout.InOutPositioner.in_states" title="Permalink to this definition">¶</a></dt>
 <dd><p>State values that should be considered <code class="docutils literal notranslate"><span class="pre">IN</span></code>.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
@@ -270,7 +270,7 @@ in-progress move as failed.</p></li>
 
 <dl class="attribute">
 <dt id="pcdsdevices.inout.InOutPositioner.out_states">
-<code class="descname">out_states</code><a class="headerlink" href="#pcdsdevices.inout.InOutPositioner.out_states" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">out_states</code><a class="headerlink" href="#pcdsdevices.inout.InOutPositioner.out_states" title="Permalink to this definition">¶</a></dt>
 <dd><p>State values that should be considered <code class="docutils literal notranslate"><span class="pre">OUT</span></code>.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
@@ -281,7 +281,7 @@ in-progress move as failed.</p></li>
 
 <dl class="attribute">
 <dt id="pcdsdevices.inout.InOutPositioner._transmission">
-<code class="descname">_transmission</code><a class="headerlink" href="#pcdsdevices.inout.InOutPositioner._transmission" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">_transmission</code><a class="headerlink" href="#pcdsdevices.inout.InOutPositioner._transmission" title="Permalink to this definition">¶</a></dt>
 <dd><p>Mapping from each state to the transmission ratio. This should be a
 number from 0 to 1. Default values will be 1 (full transmission) for
 <code class="docutils literal notranslate"><span class="pre">out_states</span></code>, 0 (full block) for <code class="docutils literal notranslate"><span class="pre">in_states</span></code>, and nan (no idea!)
@@ -294,7 +294,7 @@ for unaccounted states.</p>
 </dd></dl>
 
 <p class="rubric">Methods</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -312,7 +312,7 @@ for unaccounted states.</p>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.InOutPositioner.clear_sub.html#pcdsdevices.inout.InOutPositioner.clear_sub" title="pcdsdevices.inout.InOutPositioner.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
 <td><p>Remove a subscription, given the original callback function</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.InOutPositioner.configure.html#pcdsdevices.inout.InOutPositioner.configure" title="pcdsdevices.inout.InOutPositioner.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d, Any])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.InOutPositioner.configure.html#pcdsdevices.inout.InOutPositioner.configure" title="pcdsdevices.inout.InOutPositioner.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
 <td><p>Configure the device for something during a run</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.InOutPositioner.describe.html#pcdsdevices.inout.InOutPositioner.describe" title="pcdsdevices.inout.InOutPositioner.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
@@ -402,7 +402,7 @@ for unaccounted states.</p>
 </tbody>
 </table>
 <p class="rubric">Attributes</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />

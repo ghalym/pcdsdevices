@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.gauge.BaseGauge &mdash; PCDS Devices 1.2.0+13.g444f7a1 documentation</title>
+  <title>pcdsdevices.gauge.BaseGauge &mdash; PCDS Devices 1.2.0+15.ge6e3b41 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+13.g444f7a1
+                1.2.0+15.ge6e3b41
               </div>
             
           
@@ -232,7 +232,7 @@
 <h1>pcdsdevices.gauge.BaseGauge<a class="headerlink" href="#pcdsdevices-gauge-basegauge" title="Permalink to this headline">¶</a></h1>
 <dl class="class">
 <dt id="pcdsdevices.gauge.BaseGauge">
-<em class="property">class </em><code class="descclassname">pcdsdevices.gauge.</code><code class="descname">BaseGauge</code><span class="sig-paren">(</span><em>prefix=''</em>, <em>*</em>, <em>name</em>, <em>kind=None</em>, <em>read_attrs=None</em>, <em>configuration_attrs=None</em>, <em>parent=None</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.gauge.BaseGauge" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.gauge.</code><code class="sig-name descname">BaseGauge</code><span class="sig-paren">(</span><em class="sig-param">prefix=''</em>, <em class="sig-param">*</em>, <em class="sig-param">name</em>, <em class="sig-param">kind=None</em>, <em class="sig-param">read_attrs=None</em>, <em class="sig-param">configuration_attrs=None</em>, <em class="sig-param">parent=None</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.gauge.BaseGauge" title="Permalink to this definition">¶</a></dt>
 <dd><p>Vacuum gauge</p>
 <p>A base class for a device with two limits switches controlled via an
 external command PV. This fully encompasses the controls <a class="reference internal" href="pcdsdevices.valve.Stopper.html#pcdsdevices.valve.Stopper" title="pcdsdevices.valve.Stopper"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Stopper</span></code></a>
@@ -246,7 +246,7 @@ installations as well as un-interlocked <code class="xref any docutils literal n
 </dd>
 </dl>
 <p class="rubric">Methods</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -261,7 +261,7 @@ installations as well as un-interlocked <code class="xref any docutils literal n
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.BaseGauge.clear_sub.html#pcdsdevices.gauge.BaseGauge.clear_sub" title="pcdsdevices.gauge.BaseGauge.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
 <td><p>Remove a subscription, given the original callback function</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.BaseGauge.configure.html#pcdsdevices.gauge.BaseGauge.configure" title="pcdsdevices.gauge.BaseGauge.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d, Any])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.BaseGauge.configure.html#pcdsdevices.gauge.BaseGauge.configure" title="pcdsdevices.gauge.BaseGauge.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
 <td><p>Configure the device for something during a run</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.BaseGauge.describe.html#pcdsdevices.gauge.BaseGauge.describe" title="pcdsdevices.gauge.BaseGauge.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
@@ -324,7 +324,7 @@ installations as well as un-interlocked <code class="xref any docutils literal n
 </tbody>
 </table>
 <p class="rubric">Attributes</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />

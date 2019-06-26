@@ -102,6 +102,7 @@ pcdsdevices.device\_types.BeckhoffAxis
       ~BeckhoffAxis.set_use_switch
       ~BeckhoffAxis.settle_time
       ~BeckhoffAxis.signal_names
+      ~BeckhoffAxis.status
       ~BeckhoffAxis.timeout
       ~BeckhoffAxis.tolerated_alarm
       ~BeckhoffAxis.trigger_signals

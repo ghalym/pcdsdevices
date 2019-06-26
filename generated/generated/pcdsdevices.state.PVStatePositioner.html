@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.state.PVStatePositioner &mdash; PCDS Devices 1.2.0+13.g444f7a1 documentation</title>
+  <title>pcdsdevices.state.PVStatePositioner &mdash; PCDS Devices 1.2.0+15.ge6e3b41 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+13.g444f7a1
+                1.2.0+15.ge6e3b41
               </div>
             
           
@@ -236,7 +236,7 @@
 <h1>pcdsdevices.state.PVStatePositioner<a class="headerlink" href="#pcdsdevices-state-pvstatepositioner" title="Permalink to this headline">¶</a></h1>
 <dl class="class">
 <dt id="pcdsdevices.state.PVStatePositioner">
-<em class="property">class </em><code class="descclassname">pcdsdevices.state.</code><code class="descname">PVStatePositioner</code><span class="sig-paren">(</span><em>prefix</em>, <em>*</em>, <em>name</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.state.PVStatePositioner" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.state.</code><code class="sig-name descname">PVStatePositioner</code><span class="sig-paren">(</span><em class="sig-param">prefix</em>, <em class="sig-param">*</em>, <em class="sig-param">name</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.state.PVStatePositioner" title="Permalink to this definition">¶</a></dt>
 <dd><p>A <a class="reference internal" href="pcdsdevices.state.StatePositioner.html#pcdsdevices.state.StatePositioner" title="pcdsdevices.state.StatePositioner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">StatePositioner</span></code></a> that combines a set of PVs into a single state.</p>
 <p>The user can provide state logic and a move method if desired.</p>
 <dl class="field-list simple">
@@ -252,7 +252,7 @@ in-progress move as failed.</p></li>
 </dl>
 <dl class="attribute">
 <dt id="pcdsdevices.state.PVStatePositioner._state_logic">
-<code class="descname">_state_logic</code><a class="headerlink" href="#pcdsdevices.state.PVStatePositioner._state_logic" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">_state_logic</code><a class="headerlink" href="#pcdsdevices.state.PVStatePositioner._state_logic" title="Permalink to this definition">¶</a></dt>
 <dd><p>Information dictionaries for each state of the following form:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
   <span class="s2">&quot;signal_name&quot;</span><span class="p">:</span> <span class="p">{</span>
@@ -278,7 +278,7 @@ requirements, replace the <a class="reference internal" href="pcdsdevices.state.
 
 <dl class="attribute">
 <dt id="pcdsdevices.state.PVStatePositioner._state_logic_mode">
-<code class="descname">_state_logic_mode</code><a class="headerlink" href="#pcdsdevices.state.PVStatePositioner._state_logic_mode" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">_state_logic_mode</code><a class="headerlink" href="#pcdsdevices.state.PVStatePositioner._state_logic_mode" title="Permalink to this definition">¶</a></dt>
 <dd><p>This should be <code class="docutils literal notranslate"><span class="pre">ALL</span></code> (default) if the pvs need to agree for a valid
 state. You can set this to ‘FIRST’ to instead use the first state
 found while traversing the state_logic tree. This means an earlier
@@ -291,7 +291,7 @@ state definition can mask a later state definition.</p>
 </dd></dl>
 
 <p class="rubric">Methods</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -309,7 +309,7 @@ state definition can mask a later state definition.</p>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.PVStatePositioner.clear_sub.html#pcdsdevices.state.PVStatePositioner.clear_sub" title="pcdsdevices.state.PVStatePositioner.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
 <td><p>Remove a subscription, given the original callback function</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.PVStatePositioner.configure.html#pcdsdevices.state.PVStatePositioner.configure" title="pcdsdevices.state.PVStatePositioner.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d, Any])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.PVStatePositioner.configure.html#pcdsdevices.state.PVStatePositioner.configure" title="pcdsdevices.state.PVStatePositioner.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
 <td><p>Configure the device for something during a run</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.PVStatePositioner.describe.html#pcdsdevices.state.PVStatePositioner.describe" title="pcdsdevices.state.PVStatePositioner.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
@@ -393,7 +393,7 @@ state definition can mask a later state definition.</p>
 </tbody>
 </table>
 <p class="rubric">Attributes</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />

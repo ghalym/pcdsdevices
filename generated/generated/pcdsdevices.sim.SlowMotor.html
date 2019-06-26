@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.sim.SlowMotor &mdash; PCDS Devices 1.2.0+13.g444f7a1 documentation</title>
+  <title>pcdsdevices.sim.SlowMotor &mdash; PCDS Devices 1.2.0+15.ge6e3b41 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+13.g444f7a1
+                1.2.0+15.ge6e3b41
               </div>
             
           
@@ -239,12 +239,12 @@
 <h1>pcdsdevices.sim.SlowMotor<a class="headerlink" href="#pcdsdevices-sim-slowmotor" title="Permalink to this headline">¶</a></h1>
 <dl class="class">
 <dt id="pcdsdevices.sim.SlowMotor">
-<em class="property">class </em><code class="descclassname">pcdsdevices.sim.</code><code class="descname">SlowMotor</code><span class="sig-paren">(</span><em>*args</em>, <em>init_pos=0</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.sim.SlowMotor" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.sim.</code><code class="sig-name descname">SlowMotor</code><span class="sig-paren">(</span><em class="sig-param">*args</em>, <em class="sig-param">init_pos=0</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.sim.SlowMotor" title="Permalink to this definition">¶</a></dt>
 <dd><p>Simulated slow-moving motor.</p>
 <p>Unlike the FastMotor, this takes some time to reach the
 destination. Use this when you need some sort of delay.</p>
 <p class="rubric">Methods</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -262,7 +262,7 @@ destination. Use this when you need some sort of delay.</p>
 <tr class="row-even"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.clear_sub.html#pcdsdevices.sim.SlowMotor.clear_sub" title="pcdsdevices.sim.SlowMotor.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
 <td><p>Remove a subscription, given the original callback function</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.configure.html#pcdsdevices.sim.SlowMotor.configure" title="pcdsdevices.sim.SlowMotor.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d, Any])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.configure.html#pcdsdevices.sim.SlowMotor.configure" title="pcdsdevices.sim.SlowMotor.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
 <td><p>Configure the device for something during a run</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.describe.html#pcdsdevices.sim.SlowMotor.describe" title="pcdsdevices.sim.SlowMotor.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
@@ -310,7 +310,7 @@ destination. Use this when you need some sort of delay.</p>
 <tr class="row-even"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.resume.html#pcdsdevices.sim.SlowMotor.resume" title="pcdsdevices.sim.SlowMotor.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.set.html#pcdsdevices.sim.SlowMotor.set" title="pcdsdevices.sim.SlowMotor.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position, *, timeout, moved_cb, wait)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.set.html#pcdsdevices.sim.SlowMotor.set" title="pcdsdevices.sim.SlowMotor.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position, *[, timeout, moved_cb, wait])</p></td>
 <td><p>Set a value and return a Status object</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.stage.html#pcdsdevices.sim.SlowMotor.stage" title="pcdsdevices.sim.SlowMotor.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
@@ -358,7 +358,7 @@ destination. Use this when you need some sort of delay.</p>
 </tbody>
 </table>
 <p class="rubric">Attributes</p>
-<table class="longtable docutils align-center">
+<table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
