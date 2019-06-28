@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.H1N.unsubscribe
+=================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: H1N.unsubscribe

@@ -71,13 +71,13 @@ pcdsdevices.device\_types.TTReflaser
       ~TTReflaser.kind
       ~TTReflaser.limits
       ~TTReflaser.low_limit
+      ~TTReflaser.motor
       ~TTReflaser.moving
       ~TTReflaser.name
       ~TTReflaser.out_states
       ~TTReflaser.parent
       ~TTReflaser.position
       ~TTReflaser.read_attrs
-      ~TTReflaser.readback
       ~TTReflaser.removed
       ~TTReflaser.report
       ~TTReflaser.root

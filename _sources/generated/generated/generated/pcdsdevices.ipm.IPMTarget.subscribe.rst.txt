@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMTarget.subscribe
+===================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMTarget.subscribe

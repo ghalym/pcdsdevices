@@ -71,13 +71,13 @@ pcdsdevices.lodcm.YagLom
       ~YagLom.kind
       ~YagLom.limits
       ~YagLom.low_limit
+      ~YagLom.motor
       ~YagLom.moving
       ~YagLom.name
       ~YagLom.out_states
       ~YagLom.parent
       ~YagLom.position
       ~YagLom.read_attrs
-      ~YagLom.readback
       ~YagLom.removed
       ~YagLom.report
       ~YagLom.root

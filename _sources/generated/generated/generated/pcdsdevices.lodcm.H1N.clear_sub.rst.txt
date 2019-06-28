@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.H1N.clear\_sub
+================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: H1N.clear_sub

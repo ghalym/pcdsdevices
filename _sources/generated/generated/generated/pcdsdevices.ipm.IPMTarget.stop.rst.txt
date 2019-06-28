@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMTarget.stop
+==============================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMTarget.stop

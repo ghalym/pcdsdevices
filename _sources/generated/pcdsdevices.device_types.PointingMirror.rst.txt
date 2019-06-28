@@ -73,6 +73,7 @@ pcdsdevices.device\_types.PointingMirror
       ~PointingMirror.kind
       ~PointingMirror.limits
       ~PointingMirror.low_limit
+      ~PointingMirror.motor
       ~PointingMirror.moving
       ~PointingMirror.name
       ~PointingMirror.out_states
@@ -80,7 +81,6 @@ pcdsdevices.device\_types.PointingMirror
       ~PointingMirror.pitch
       ~PointingMirror.position
       ~PointingMirror.read_attrs
-      ~PointingMirror.readback
       ~PointingMirror.removed
       ~PointingMirror.report
       ~PointingMirror.root

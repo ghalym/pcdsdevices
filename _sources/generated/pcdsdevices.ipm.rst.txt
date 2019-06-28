@@ -15,6 +15,7 @@ pcdsdevices.ipm
       :toctree: generated
    
       IPM
+      IPMTarget
    
    
 

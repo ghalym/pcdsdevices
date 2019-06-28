@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.lodcm.YagLom &mdash; PCDS Devices 1.2.0+15.ge6e3b41 documentation</title>
+  <title>pcdsdevices.lodcm.YagLom &mdash; PCDS Devices 1.2.0+27.g77569c3 documentation</title>
   
 
   
@@ -36,7 +36,7 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="pcdsdevices.lodcm.YagLom.__init__" href="generated/pcdsdevices.lodcm.YagLom.__init__.html" />
-    <link rel="prev" title="pcdsdevices.lodcm.LODCM.wm_update" href="generated/pcdsdevices.lodcm.LODCM.wm_update.html" /> 
+    <link rel="prev" title="pcdsdevices.lodcm.LODCM.wait_for_connection" href="generated/pcdsdevices.lodcm.LODCM.wait_for_connection.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+15.ge6e3b41
+                1.2.0+27.g77569c3
               </div>
             
           
@@ -112,6 +112,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.Dectris.html">pcdsdevices.lodcm.Dectris</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.Diode.html">pcdsdevices.lodcm.Diode</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.Foil.html">pcdsdevices.lodcm.Foil</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.H1N.html">pcdsdevices.lodcm.H1N</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.LODCM.html">pcdsdevices.lodcm.LODCM</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.lodcm.YagLom</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.YagLom.__init__.html">pcdsdevices.lodcm.YagLom.__init__</a></li>
@@ -405,26 +406,26 @@
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">low_limit</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">moving</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">motor</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">moving</span></code></p></td>
 <td><p>Whether or not the motor is moving</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></p></td>
 <td><p>name of the device</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">out_states</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">out_states</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></p></td>
 <td><p>The parent of the ophyd object.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></p></td>
 <td><p>Name of the positioner’s current state.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></p></td>
 <td><p></p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">readback</span></code></p></td>
-<td><p>FormattedComponent attribute</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">removed</span></code></p></td>
 <td><p>True if the device is removed</p></td>
@@ -473,7 +474,7 @@
         <a href="generated/pcdsdevices.lodcm.YagLom.__init__.html" class="btn btn-neutral float-right" title="pcdsdevices.lodcm.YagLom.__init__" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="generated/pcdsdevices.lodcm.LODCM.wm_update.html" class="btn btn-neutral float-left" title="pcdsdevices.lodcm.LODCM.wm_update" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="generated/pcdsdevices.lodcm.LODCM.wait_for_connection.html" class="btn btn-neutral float-left" title="pcdsdevices.lodcm.LODCM.wait_for_connection" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

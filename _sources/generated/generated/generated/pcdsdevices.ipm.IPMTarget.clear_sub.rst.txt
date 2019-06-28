@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMTarget.clear\_sub
+====================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMTarget.clear_sub

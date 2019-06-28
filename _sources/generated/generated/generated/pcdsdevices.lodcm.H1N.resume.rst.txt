@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.H1N.resume
+============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: H1N.resume

@@ -71,13 +71,13 @@ pcdsdevices.device\_types.XFLS
       ~XFLS.kind
       ~XFLS.limits
       ~XFLS.low_limit
+      ~XFLS.motor
       ~XFLS.moving
       ~XFLS.name
       ~XFLS.out_states
       ~XFLS.parent
       ~XFLS.position
       ~XFLS.read_attrs
-      ~XFLS.readback
       ~XFLS.removed
       ~XFLS.report
       ~XFLS.root

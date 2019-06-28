@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.H1N.wait\_for\_connection
+===========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: H1N.wait_for_connection

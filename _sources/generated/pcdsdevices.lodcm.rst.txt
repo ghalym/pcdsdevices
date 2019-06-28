@@ -17,6 +17,7 @@ pcdsdevices.lodcm
       Dectris
       Diode
       Foil
+      H1N
       LODCM
       YagLom
    

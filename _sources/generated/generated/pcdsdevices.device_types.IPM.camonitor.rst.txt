@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.IPM.camonitor
-=======================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: IPM.camonitor

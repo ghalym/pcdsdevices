@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.H1N.pause
+===========================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: H1N.pause

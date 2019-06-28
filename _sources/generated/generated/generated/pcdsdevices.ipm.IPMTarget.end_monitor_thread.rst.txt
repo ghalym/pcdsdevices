@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMTarget.end\_monitor\_thread
+==============================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMTarget.end_monitor_thread

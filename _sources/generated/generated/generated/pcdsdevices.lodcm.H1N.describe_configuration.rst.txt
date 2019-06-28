@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.H1N.describe\_configuration
+=============================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: H1N.describe_configuration

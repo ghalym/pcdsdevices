@@ -72,13 +72,13 @@ pcdsdevices.pim.PIM
       ~PIM.kind
       ~PIM.limits
       ~PIM.low_limit
+      ~PIM.motor
       ~PIM.moving
       ~PIM.name
       ~PIM.out_states
       ~PIM.parent
       ~PIM.position
       ~PIM.read_attrs
-      ~PIM.readback
       ~PIM.removed
       ~PIM.report
       ~PIM.root

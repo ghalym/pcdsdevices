@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.H1N.\_\_init\_\_
+==================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: H1N.__init__

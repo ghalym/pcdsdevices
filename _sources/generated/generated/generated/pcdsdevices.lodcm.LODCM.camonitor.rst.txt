@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.LODCM.camonitor
-=================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: LODCM.camonitor

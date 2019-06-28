@@ -13,20 +13,14 @@ pcdsdevices.lodcm.LODCM
       :toctree: generated
    
       ~LODCM.__init__
-      ~LODCM.camonitor
       ~LODCM.check_value
       ~LODCM.clear_sub
       ~LODCM.configure
       ~LODCM.describe
       ~LODCM.describe_configuration
-      ~LODCM.end_monitor_thread
       ~LODCM.get
       ~LODCM.get_device_tuple
       ~LODCM.get_instantiated_signals
-      ~LODCM.get_state
-      ~LODCM.insert
-      ~LODCM.move
-      ~LODCM.mv
       ~LODCM.pause
       ~LODCM.put
       ~LODCM.read
@@ -34,7 +28,6 @@ pcdsdevices.lodcm.LODCM
       ~LODCM.remove
       ~LODCM.remove_dia
       ~LODCM.resume
-      ~LODCM.set
       ~LODCM.stage
       ~LODCM.stop
       ~LODCM.subscribe
@@ -44,8 +37,6 @@ pcdsdevices.lodcm.LODCM
       ~LODCM.unsubscribe
       ~LODCM.unsubscribe_all
       ~LODCM.wait_for_connection
-      ~LODCM.wm
-      ~LODCM.wm_update
    
    
 
@@ -56,10 +47,6 @@ pcdsdevices.lodcm.LODCM
    .. autosummary::
    
       ~LODCM.SUB_ACQ_DONE
-      ~LODCM.SUB_DONE
-      ~LODCM.SUB_READBACK
-      ~LODCM.SUB_START
-      ~LODCM.SUB_STATE
       ~LODCM.branches
       ~LODCM.component_names
       ~LODCM.configuration_attrs
@@ -67,31 +54,19 @@ pcdsdevices.lodcm.LODCM
       ~LODCM.dectris
       ~LODCM.destination
       ~LODCM.diode
-      ~LODCM.egu
       ~LODCM.event_types
       ~LODCM.foil
-      ~LODCM.high_limit
+      ~LODCM.h1n
       ~LODCM.hints
-      ~LODCM.in_states
       ~LODCM.inserted
       ~LODCM.kind
-      ~LODCM.limits
-      ~LODCM.low_limit
-      ~LODCM.moving
       ~LODCM.name
-      ~LODCM.out_states
       ~LODCM.parent
-      ~LODCM.position
       ~LODCM.read_attrs
-      ~LODCM.readback
       ~LODCM.removed
       ~LODCM.report
       ~LODCM.root
-      ~LODCM.settle_time
       ~LODCM.signal_names
-      ~LODCM.state
-      ~LODCM.states_list
-      ~LODCM.timeout
       ~LODCM.transmission
       ~LODCM.trigger_signals
       ~LODCM.yag

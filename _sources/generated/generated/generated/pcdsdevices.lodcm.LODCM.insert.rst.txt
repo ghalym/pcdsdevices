@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.LODCM.insert
-==============================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: LODCM.insert

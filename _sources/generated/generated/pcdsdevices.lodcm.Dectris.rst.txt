@@ -71,13 +71,13 @@ pcdsdevices.lodcm.Dectris
       ~Dectris.kind
       ~Dectris.limits
       ~Dectris.low_limit
+      ~Dectris.motor
       ~Dectris.moving
       ~Dectris.name
       ~Dectris.out_states
       ~Dectris.parent
       ~Dectris.position
       ~Dectris.read_attrs
-      ~Dectris.readback
       ~Dectris.removed
       ~Dectris.report
       ~Dectris.root

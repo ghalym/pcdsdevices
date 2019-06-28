@@ -71,13 +71,13 @@ pcdsdevices.lodcm.Foil
       ~Foil.kind
       ~Foil.limits
       ~Foil.low_limit
+      ~Foil.motor
       ~Foil.moving
       ~Foil.name
       ~Foil.out_states
       ~Foil.parent
       ~Foil.position
       ~Foil.read_attrs
-      ~Foil.readback
       ~Foil.removed
       ~Foil.report
       ~Foil.root

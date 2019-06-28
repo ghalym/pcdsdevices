@@ -71,13 +71,13 @@ pcdsdevices.inout.InOutRecordPositioner
       ~InOutRecordPositioner.kind
       ~InOutRecordPositioner.limits
       ~InOutRecordPositioner.low_limit
+      ~InOutRecordPositioner.motor
       ~InOutRecordPositioner.moving
       ~InOutRecordPositioner.name
       ~InOutRecordPositioner.out_states
       ~InOutRecordPositioner.parent
       ~InOutRecordPositioner.position
       ~InOutRecordPositioner.read_attrs
-      ~InOutRecordPositioner.readback
       ~InOutRecordPositioner.removed
       ~InOutRecordPositioner.report
       ~InOutRecordPositioner.root

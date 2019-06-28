@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.LODCM.mv
-==========================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: LODCM.mv

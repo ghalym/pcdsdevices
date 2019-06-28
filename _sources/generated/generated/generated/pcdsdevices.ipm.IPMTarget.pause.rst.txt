@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMTarget.pause
+===============================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMTarget.pause

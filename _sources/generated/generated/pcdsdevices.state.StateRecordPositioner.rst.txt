@@ -67,12 +67,12 @@ pcdsdevices.state.StateRecordPositioner
       ~StateRecordPositioner.kind
       ~StateRecordPositioner.limits
       ~StateRecordPositioner.low_limit
+      ~StateRecordPositioner.motor
       ~StateRecordPositioner.moving
       ~StateRecordPositioner.name
       ~StateRecordPositioner.parent
       ~StateRecordPositioner.position
       ~StateRecordPositioner.read_attrs
-      ~StateRecordPositioner.readback
       ~StateRecordPositioner.report
       ~StateRecordPositioner.root
       ~StateRecordPositioner.settle_time

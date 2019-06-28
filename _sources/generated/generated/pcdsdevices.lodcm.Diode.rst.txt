@@ -71,13 +71,13 @@ pcdsdevices.lodcm.Diode
       ~Diode.kind
       ~Diode.limits
       ~Diode.low_limit
+      ~Diode.motor
       ~Diode.moving
       ~Diode.name
       ~Diode.out_states
       ~Diode.parent
       ~Diode.position
       ~Diode.read_attrs
-      ~Diode.readback
       ~Diode.removed
       ~Diode.report
       ~Diode.root

@@ -71,13 +71,13 @@ pcdsdevices.inout.Reflaser
       ~Reflaser.kind
       ~Reflaser.limits
       ~Reflaser.low_limit
+      ~Reflaser.motor
       ~Reflaser.moving
       ~Reflaser.name
       ~Reflaser.out_states
       ~Reflaser.parent
       ~Reflaser.position
       ~Reflaser.read_attrs
-      ~Reflaser.readback
       ~Reflaser.removed
       ~Reflaser.report
       ~Reflaser.root
