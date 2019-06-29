@@ -1,0 +1,6 @@
+pcdsdevices.sequencer.EventSequence.read
+========================================
+
+.. currentmodule:: pcdsdevices.sequencer
+
+.. automethod:: EventSequence.read

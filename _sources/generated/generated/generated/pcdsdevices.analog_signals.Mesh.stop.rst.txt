@@ -1,0 +1,6 @@
+pcdsdevices.analog\_signals.Mesh.stop
+=====================================
+
+.. currentmodule:: pcdsdevices.analog_signals
+
+.. automethod:: Mesh.stop

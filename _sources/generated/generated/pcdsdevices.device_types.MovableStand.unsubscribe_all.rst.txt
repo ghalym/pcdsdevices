@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.MovableStand.unsubscribe\_all
+=======================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: MovableStand.unsubscribe_all

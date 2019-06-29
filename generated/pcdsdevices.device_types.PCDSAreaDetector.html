@@ -1,0 +1,620 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>pcdsdevices.device_types.PCDSAreaDetector &mdash; PCDS Devices 1.2.0+36.g6a16611 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="pcdsdevices.device_types.PCDSAreaDetector.__init__" href="generated/pcdsdevices.device_types.PCDSAreaDetector.__init__.html" />
+    <link rel="prev" title="pcdsdevices.device_types.OffsetMirror.wait_for_connection" href="generated/pcdsdevices.device_types.OffsetMirror.wait_for_connection.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> PCDS Devices
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.2.0+36.g6a16611
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Features</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../mv.html">Shortcuts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../presets.html">Preset Positions</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Device Types</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../epics_types.html">Common EPICS Devices</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Attenuator.html">pcdsdevices.device_types.Attenuator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Acromag.html">pcdsdevices.device_types.Acromag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.BeckhoffAxis.html">pcdsdevices.device_types.BeckhoffAxis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.CCM.html">pcdsdevices.device_types.CCM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.html">pcdsdevices.device_types.DelayNewport</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.html">pcdsdevices.device_types.EpicsMotor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.EventSequencer.html">pcdsdevices.device_types.EventSequencer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.GateValve.html">pcdsdevices.device_types.GateValve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.GaugeSet.html">pcdsdevices.device_types.GaugeSet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.IMS.html">pcdsdevices.device_types.IMS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.IPM.html">pcdsdevices.device_types.IPM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.IonPump.html">pcdsdevices.device_types.IonPump</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.LODCM.html">pcdsdevices.device_types.LODCM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Motor.html">pcdsdevices.device_types.Motor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.MovableStand.html">pcdsdevices.device_types.MovableStand</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Newport.html">pcdsdevices.device_types.Newport</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.OffsetMirror.html">pcdsdevices.device_types.OffsetMirror</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">pcdsdevices.device_types.PCDSAreaDetector</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.__init__.html">pcdsdevices.device_types.PCDSAreaDetector.__init__</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.check_value.html">pcdsdevices.device_types.PCDSAreaDetector.check_value</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.clear_sub.html">pcdsdevices.device_types.PCDSAreaDetector.clear_sub</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.collect_asset_docs.html">pcdsdevices.device_types.PCDSAreaDetector.collect_asset_docs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.configure.html">pcdsdevices.device_types.PCDSAreaDetector.configure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.describe.html">pcdsdevices.device_types.PCDSAreaDetector.describe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.describe_configuration.html">pcdsdevices.device_types.PCDSAreaDetector.describe_configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.dispatch.html">pcdsdevices.device_types.PCDSAreaDetector.dispatch</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.find_signal.html">pcdsdevices.device_types.PCDSAreaDetector.find_signal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.get.html">pcdsdevices.device_types.PCDSAreaDetector.get</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.get_asyn_digraph.html">pcdsdevices.device_types.PCDSAreaDetector.get_asyn_digraph</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.get_asyn_port_dictionary.html">pcdsdevices.device_types.PCDSAreaDetector.get_asyn_port_dictionary</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.get_device_tuple.html">pcdsdevices.device_types.PCDSAreaDetector.get_device_tuple</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.get_instantiated_signals.html">pcdsdevices.device_types.PCDSAreaDetector.get_instantiated_signals</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.get_plugin_by_asyn_port.html">pcdsdevices.device_types.PCDSAreaDetector.get_plugin_by_asyn_port</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.get_plugin_graph_edges.html">pcdsdevices.device_types.PCDSAreaDetector.get_plugin_graph_edges</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.make_data_key.html">pcdsdevices.device_types.PCDSAreaDetector.make_data_key</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.missing_plugins.html">pcdsdevices.device_types.PCDSAreaDetector.missing_plugins</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.pause.html">pcdsdevices.device_types.PCDSAreaDetector.pause</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.put.html">pcdsdevices.device_types.PCDSAreaDetector.put</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.read.html">pcdsdevices.device_types.PCDSAreaDetector.read</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.read_configuration.html">pcdsdevices.device_types.PCDSAreaDetector.read_configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.resume.html">pcdsdevices.device_types.PCDSAreaDetector.resume</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.stage.html">pcdsdevices.device_types.PCDSAreaDetector.stage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.stop.html">pcdsdevices.device_types.PCDSAreaDetector.stop</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.subscribe.html">pcdsdevices.device_types.PCDSAreaDetector.subscribe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.summary.html">pcdsdevices.device_types.PCDSAreaDetector.summary</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.trigger.html">pcdsdevices.device_types.PCDSAreaDetector.trigger</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.unstage.html">pcdsdevices.device_types.PCDSAreaDetector.unstage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.unsubscribe.html">pcdsdevices.device_types.PCDSAreaDetector.unsubscribe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.unsubscribe_all.html">pcdsdevices.device_types.PCDSAreaDetector.unsubscribe_all</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.validate_asyn_ports.html">pcdsdevices.device_types.PCDSAreaDetector.validate_asyn_ports</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.visualize_asyn_digraph.html">pcdsdevices.device_types.PCDSAreaDetector.visualize_asyn_digraph</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.wait_for_connection.html">pcdsdevices.device_types.PCDSAreaDetector.wait_for_connection</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.PIM.html">pcdsdevices.device_types.PIM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.PMC100.html">pcdsdevices.device_types.PMC100</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.PointingMirror.html">pcdsdevices.device_types.PointingMirror</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.PulsePicker.html">pcdsdevices.device_types.PulsePicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Reflaser.html">pcdsdevices.device_types.Reflaser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Slits.html">pcdsdevices.device_types.Slits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Stopper.html">pcdsdevices.device_types.Stopper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Trigger.html">pcdsdevices.device_types.Trigger</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.TTReflaser.html">pcdsdevices.device_types.TTReflaser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.XFLS.html">pcdsdevices.device_types.XFLS</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../base_classes.html">Base Classes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sim_types.html">Simulated Devices</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developer Notes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../releases.html">Release History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api.html">Full API</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PCDS Devices</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../epics_types.html">Common EPICS Devices</a> &raquo;</li>
+        
+      <li>pcdsdevices.device_types.PCDSAreaDetector</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/generated/pcdsdevices.device_types.PCDSAreaDetector.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="pcdsdevices-device-types-pcdsareadetector">
+<h1>pcdsdevices.device_types.PCDSAreaDetector<a class="headerlink" href="#pcdsdevices-device-types-pcdsareadetector" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="pcdsdevices.device_types.PCDSAreaDetector">
+<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.device_types.</code><code class="sig-name descname">PCDSAreaDetector</code><span class="sig-paren">(</span><em class="sig-param">*args</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.device_types.PCDSAreaDetector" title="Permalink to this definition">¶</a></dt>
+<dd><p>Standard area detector including all (*) standard PCDS plugins.
+Notable plugins:</p>
+<blockquote>
+<div><p>IMAGE2: reduced rate image, used for camera viewer
+Stats2: reduced rate stats</p>
+</div></blockquote>
+<dl class="simple">
+<dt>(*) Currently excludes all PVAccess plugins:</dt><dd><p>IMAGE1:Pva
+IMAGE2:Pva:
+THUMBNAIL:Pva</p>
+</dd>
+</dl>
+<p>The default configuration of ports is as follows:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">CC1</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">CC2</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">HDF51</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">IMAGE1</span><span class="p">:</span><span class="n">CC</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">IMAGE1</span><span class="p">:</span><span class="n">Proc</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">IMAGE1</span><span class="p">:</span><span class="n">ROI</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">IMAGE2</span><span class="p">:</span><span class="n">CC</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">IMAGE2</span><span class="p">:</span><span class="n">Over</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">IMAGE2</span><span class="p">:</span><span class="n">Proc</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">IMAGE2</span><span class="p">:</span><span class="n">ROI</span> <span class="o">-&gt;</span> <span class="n">IMAGE2</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">JPEG1</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">NetCDF1</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">Over1</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">Proc1</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">ROI1</span> <span class="o">-&gt;</span> <span class="n">IMAGE1</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">ROI1</span> <span class="o">-&gt;</span> <span class="n">Stats1</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">ROI2</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">ROI3</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">ROI4</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">Stats2</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">Stats3</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">Stats4</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">Stats5</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">THUMBNAIL</span><span class="p">:</span><span class="n">CC</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">THUMBNAIL</span><span class="p">:</span><span class="n">Over</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">THUMBNAIL</span><span class="p">:</span><span class="n">Proc</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">THUMBNAIL</span><span class="p">:</span><span class="n">ROI</span> <span class="o">-&gt;</span> <span class="n">THUMBNAIL</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">TIFF1</span>
+<span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">Trans1</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Subclasses should replace ‘cam’ with that of the respective detector, such
+as <code class="xref any docutils literal notranslate"><span class="pre">ophyd.areadetector.cam.PilatusDetectorCam</span></code> for the Pilatus detector.</p>
+</div>
+<p class="rubric">Methods</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.__init__.html#pcdsdevices.device_types.PCDSAreaDetector.__init__" title="pcdsdevices.device_types.PCDSAreaDetector.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Initialize self.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.check_value.html#pcdsdevices.device_types.PCDSAreaDetector.check_value" title="pcdsdevices.device_types.PCDSAreaDetector.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value, **kwargs)</p></td>
+<td><p>Check if the value is valid for this object</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.clear_sub.html#pcdsdevices.device_types.PCDSAreaDetector.clear_sub" title="pcdsdevices.device_types.PCDSAreaDetector.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
+<td><p>Remove a subscription, given the original callback function</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.collect_asset_docs.html#pcdsdevices.device_types.PCDSAreaDetector.collect_asset_docs" title="pcdsdevices.device_types.PCDSAreaDetector.collect_asset_docs"><code class="xref py py-obj docutils literal notranslate"><span class="pre">collect_asset_docs</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.configure.html#pcdsdevices.device_types.PCDSAreaDetector.configure" title="pcdsdevices.device_types.PCDSAreaDetector.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
+<td><p>Configure the device for something during a run</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.describe.html#pcdsdevices.device_types.PCDSAreaDetector.describe" title="pcdsdevices.device_types.PCDSAreaDetector.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
+<td><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.describe_configuration.html#pcdsdevices.device_types.PCDSAreaDetector.describe_configuration" title="pcdsdevices.device_types.PCDSAreaDetector.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</p></td>
+<td><p>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.dispatch.html#pcdsdevices.device_types.PCDSAreaDetector.dispatch" title="pcdsdevices.device_types.PCDSAreaDetector.dispatch"><code class="xref py py-obj docutils literal notranslate"><span class="pre">dispatch</span></code></a>(key, timestamp)</p></td>
+<td><p>Notify plugins of acquisition being complete.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.find_signal.html#pcdsdevices.device_types.PCDSAreaDetector.find_signal" title="pcdsdevices.device_types.PCDSAreaDetector.find_signal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">find_signal</span></code></a>(text[, use_re, case_sensitive, …])</p></td>
+<td><p>Search through the signal docs on this detector for the string text</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.get.html#pcdsdevices.device_types.PCDSAreaDetector.get" title="pcdsdevices.device_types.PCDSAreaDetector.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
+<td><p>Get the value of all components in the device</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.get_asyn_digraph.html#pcdsdevices.device_types.PCDSAreaDetector.get_asyn_digraph" title="pcdsdevices.device_types.PCDSAreaDetector.get_asyn_digraph"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_asyn_digraph</span></code></a>()</p></td>
+<td><p>Get the directed graph of the ASYN ports</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.get_asyn_port_dictionary.html#pcdsdevices.device_types.PCDSAreaDetector.get_asyn_port_dictionary" title="pcdsdevices.device_types.PCDSAreaDetector.get_asyn_port_dictionary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_asyn_port_dictionary</span></code></a>()</p></td>
+<td><p>Return port name : component map</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.get_device_tuple.html#pcdsdevices.device_types.PCDSAreaDetector.get_device_tuple" title="pcdsdevices.device_types.PCDSAreaDetector.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
+<td><p>The device tuple type associated with an Device class</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.get_instantiated_signals.html#pcdsdevices.device_types.PCDSAreaDetector.get_instantiated_signals" title="pcdsdevices.device_types.PCDSAreaDetector.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
+<td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.get_plugin_by_asyn_port.html#pcdsdevices.device_types.PCDSAreaDetector.get_plugin_by_asyn_port" title="pcdsdevices.device_types.PCDSAreaDetector.get_plugin_by_asyn_port"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_plugin_by_asyn_port</span></code></a>(port_name)</p></td>
+<td><p>Get the plugin which has the given asyn port name</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.get_plugin_graph_edges.html#pcdsdevices.device_types.PCDSAreaDetector.get_plugin_graph_edges" title="pcdsdevices.device_types.PCDSAreaDetector.get_plugin_graph_edges"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_plugin_graph_edges</span></code></a>(*[, use_names, …])</p></td>
+<td><p>Get a list of (source, destination) ports for all plugin chains</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.make_data_key.html#pcdsdevices.device_types.PCDSAreaDetector.make_data_key" title="pcdsdevices.device_types.PCDSAreaDetector.make_data_key"><code class="xref py py-obj docutils literal notranslate"><span class="pre">make_data_key</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.missing_plugins.html#pcdsdevices.device_types.PCDSAreaDetector.missing_plugins" title="pcdsdevices.device_types.PCDSAreaDetector.missing_plugins"><code class="xref py py-obj docutils literal notranslate"><span class="pre">missing_plugins</span></code></a>()</p></td>
+<td><p>Find missing ports</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.pause.html#pcdsdevices.device_types.PCDSAreaDetector.pause" title="pcdsdevices.device_types.PCDSAreaDetector.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
+<td><p>Attempt to ‘pause’ the device.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.put.html#pcdsdevices.device_types.PCDSAreaDetector.put" title="pcdsdevices.device_types.PCDSAreaDetector.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
+<td><p>Put a value to all components of the device</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.read.html#pcdsdevices.device_types.PCDSAreaDetector.read" title="pcdsdevices.device_types.PCDSAreaDetector.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<td><p>Read data from the device</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.read_configuration.html#pcdsdevices.device_types.PCDSAreaDetector.read_configuration" title="pcdsdevices.device_types.PCDSAreaDetector.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<td><p>returns dictionary mapping names to (value, timestamp) pairs</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.resume.html#pcdsdevices.device_types.PCDSAreaDetector.resume" title="pcdsdevices.device_types.PCDSAreaDetector.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
+<td><p>Resume a device from a ‘paused’ state</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.stage.html#pcdsdevices.device_types.PCDSAreaDetector.stage" title="pcdsdevices.device_types.PCDSAreaDetector.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Stage the device for data collection.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.stop.html#pcdsdevices.device_types.PCDSAreaDetector.stop" title="pcdsdevices.device_types.PCDSAreaDetector.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<td><p>Stop the Device and all (instantiated) subdevices</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.subscribe.html#pcdsdevices.device_types.PCDSAreaDetector.subscribe" title="pcdsdevices.device_types.PCDSAreaDetector.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[, event_type, run])</p></td>
+<td><p>Subscribe to events this event_type generates.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.summary.html#pcdsdevices.device_types.PCDSAreaDetector.summary" title="pcdsdevices.device_types.PCDSAreaDetector.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.trigger.html#pcdsdevices.device_types.PCDSAreaDetector.trigger" title="pcdsdevices.device_types.PCDSAreaDetector.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<td><p>Trigger the device and return status object</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.unstage.html#pcdsdevices.device_types.PCDSAreaDetector.unstage" title="pcdsdevices.device_types.PCDSAreaDetector.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</p></td>
+<td><p>Unstage the device.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.unsubscribe.html#pcdsdevices.device_types.PCDSAreaDetector.unsubscribe" title="pcdsdevices.device_types.PCDSAreaDetector.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</p></td>
+<td><p>Remove a subscription</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.unsubscribe_all.html#pcdsdevices.device_types.PCDSAreaDetector.unsubscribe_all" title="pcdsdevices.device_types.PCDSAreaDetector.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.validate_asyn_ports.html#pcdsdevices.device_types.PCDSAreaDetector.validate_asyn_ports" title="pcdsdevices.device_types.PCDSAreaDetector.validate_asyn_ports"><code class="xref py py-obj docutils literal notranslate"><span class="pre">validate_asyn_ports</span></code></a>()</p></td>
+<td><p>Validate that all components of pipeline are known</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.visualize_asyn_digraph.html#pcdsdevices.device_types.PCDSAreaDetector.visualize_asyn_digraph" title="pcdsdevices.device_types.PCDSAreaDetector.visualize_asyn_digraph"><code class="xref py py-obj docutils literal notranslate"><span class="pre">visualize_asyn_digraph</span></code></a>([ax])</p></td>
+<td><p>This generates a figure showing the current asyn port layout.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.wait_for_connection.html#pcdsdevices.device_types.PCDSAreaDetector.wait_for_connection" title="pcdsdevices.device_types.PCDSAreaDetector.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals, timeout])</p></td>
+<td><p>Wait for signals to connect</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Attributes</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_ACQ_DONE</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">ad_root</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">cam</span></code></p></td>
+<td><p>ADComponent attribute</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">cc1</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">cc2</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_names</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_attrs</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_names</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></p></td>
+<td><p>If the device is connected.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">event_types</span></code></p></td>
+<td><p>Events that can be subscribed to via <code class="xref any docutils literal notranslate"><span class="pre">obj.subscribe</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">hdf51</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">hints</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">image</span></code></p></td>
+<td><p>Deprecated - alias for <code class="xref any docutils literal notranslate"><span class="pre">image2</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">image1</span></code></p></td>
+<td><p>Image plugin for general usage</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">image1_cc</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">image1_over</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">image1_proc</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">image1_roi</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">image2</span></code></p></td>
+<td><p>Image plugin used for the camera viewer</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">image2_cc</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">image2_over</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">image2_proc</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">image2_roi</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">jpeg1</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></p></td>
+<td><p>name of the device</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">netcdf1</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">nexus1</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">over1</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></p></td>
+<td><p>The parent of the ophyd object.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">proc1</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
+<td><p>A report on the object.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">roi1</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">roi2</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">roi3</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">roi4</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></p></td>
+<td><p>Walk parents to find ultimate ancestor (parent’s parent…).</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stats</span></code></p></td>
+<td><p>Deprecated - alias for <code class="xref any docutils literal notranslate"><span class="pre">stats2</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stats1</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stats2</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stats3</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stats4</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stats5</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">thumbnail</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">thumbnail_cc</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">thumbnail_over</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">thumbnail_proc</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">thumbnail_roi</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tiff1</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trans1</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="generated/pcdsdevices.device_types.PCDSAreaDetector.__init__.html" class="btn btn-neutral float-right" title="pcdsdevices.device_types.PCDSAreaDetector.__init__" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="generated/pcdsdevices.device_types.OffsetMirror.wait_for_connection.html" class="btn btn-neutral float-left" title="pcdsdevices.device_types.OffsetMirror.wait_for_connection" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, SLAC National Accelerator Laboratory
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

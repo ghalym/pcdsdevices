@@ -1,0 +1,6 @@
+pcdsdevices.analog\_signals.Mesh.check\_value
+=============================================
+
+.. currentmodule:: pcdsdevices.analog_signals
+
+.. automethod:: Mesh.check_value

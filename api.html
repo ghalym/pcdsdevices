@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Full API &mdash; PCDS Devices 1.2.0+27.g77569c3 documentation</title>
+  <title>Full API &mdash; PCDS Devices 1.2.0+36.g6a16611 documentation</title>
   
 
   
@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="pcdsdevices.attenuator" href="generated/pcdsdevices.attenuator.html" />
+    <link rel="next" title="pcdsdevices.analog_signals" href="generated/pcdsdevices.analog_signals.html" />
     <link rel="prev" title="Release History" href="releases.html" /> 
 </head>
 
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                1.2.0+27.g77569c3
+                1.2.0+36.g6a16611
               </div>
             
           
@@ -99,6 +99,7 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="releases.html">Release History</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Full API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.analog_signals.html">pcdsdevices.analog_signals</a></li>
 <li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
@@ -117,10 +118,12 @@
 <li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
 <li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.pump.html">pcdsdevices.pump</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.sequencer.html">pcdsdevices.sequencer</a></li>
 <li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.signal.html">pcdsdevices.signal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.sim.html">pcdsdevices.sim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.slits.html">pcdsdevices.slits</a></li>
 <li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.state.html">pcdsdevices.state</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.utils.html">pcdsdevices.utils</a></li>
 <li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.valve.html">pcdsdevices.valve</a></li>
 </ul>
 </li>
@@ -196,59 +199,65 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.html#module-pcdsdevices.attenuator" title="pcdsdevices.attenuator"><code class="xref py py-obj docutils literal notranslate"><span class="pre">attenuator</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.analog_signals.html#module-pcdsdevices.analog_signals" title="pcdsdevices.analog_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">analog_signals</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.html#module-pcdsdevices.attenuator" title="pcdsdevices.attenuator"><code class="xref py py-obj docutils literal notranslate"><span class="pre">attenuator</span></code></a></p></td>
 <td><p>Module for <a class="reference internal" href="generated/generated/pcdsdevices.attenuator.Attenuator.html#pcdsdevices.attenuator.Attenuator" title="pcdsdevices.attenuator.Attenuator"><code class="xref any py py-func docutils literal notranslate"><span class="pre">Attenuator</span></code></a> and related classes.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.beam_stats.html#module-pcdsdevices.beam_stats" title="pcdsdevices.beam_stats"><code class="xref py py-obj docutils literal notranslate"><span class="pre">beam_stats</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.beam_stats.html#module-pcdsdevices.beam_stats" title="pcdsdevices.beam_stats"><code class="xref py py-obj docutils literal notranslate"><span class="pre">beam_stats</span></code></a></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.html#module-pcdsdevices.ccm" title="pcdsdevices.ccm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ccm</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.html#module-pcdsdevices.ccm" title="pcdsdevices.ccm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ccm</span></code></a></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.html#module-pcdsdevices.epics_motor" title="pcdsdevices.epics_motor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">epics_motor</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.html#module-pcdsdevices.epics_motor" title="pcdsdevices.epics_motor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">epics_motor</span></code></a></p></td>
 <td><p>Module for LCLS’s special motor records.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.evr.html#module-pcdsdevices.evr" title="pcdsdevices.evr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">evr</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.evr.html#module-pcdsdevices.evr" title="pcdsdevices.evr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">evr</span></code></a></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.html#module-pcdsdevices.gauge" title="pcdsdevices.gauge"><code class="xref py py-obj docutils literal notranslate"><span class="pre">gauge</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.html#module-pcdsdevices.gauge" title="pcdsdevices.gauge"><code class="xref py py-obj docutils literal notranslate"><span class="pre">gauge</span></code></a></p></td>
 <td><p>Standard classes for LCLS Gauges</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.html#module-pcdsdevices.inout" title="pcdsdevices.inout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">inout</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.html#module-pcdsdevices.inout" title="pcdsdevices.inout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">inout</span></code></a></p></td>
 <td><p>Module to centralize code related to devices that can be <code class="docutils literal notranslate"><span class="pre">IN</span></code> or <code class="docutils literal notranslate"><span class="pre">OUT</span></code>.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.html#module-pcdsdevices.ipm" title="pcdsdevices.ipm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ipm</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.html#module-pcdsdevices.ipm" title="pcdsdevices.ipm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ipm</span></code></a></p></td>
 <td><p>Module for the <a class="reference internal" href="generated/generated/pcdsdevices.ipm.IPM.html#pcdsdevices.ipm.IPM" title="pcdsdevices.ipm.IPM"><code class="xref any py py-class docutils literal notranslate"><span class="pre">IPM</span></code></a> intensity position monitor class</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.html#module-pcdsdevices.lens" title="pcdsdevices.lens"><code class="xref py py-obj docutils literal notranslate"><span class="pre">lens</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.html#module-pcdsdevices.lens" title="pcdsdevices.lens"><code class="xref py py-obj docutils literal notranslate"><span class="pre">lens</span></code></a></p></td>
 <td><p>Basic Beryllium Lens XFLS</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.html#module-pcdsdevices.lodcm" title="pcdsdevices.lodcm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">lodcm</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.html#module-pcdsdevices.lodcm" title="pcdsdevices.lodcm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">lodcm</span></code></a></p></td>
 <td><p>LODCM: Large offset dual-crystal monochrometer.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.html#module-pcdsdevices.mirror" title="pcdsdevices.mirror"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mirror</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.html#module-pcdsdevices.mirror" title="pcdsdevices.mirror"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mirror</span></code></a></p></td>
 <td><p>Offset Mirror Classes</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.movablestand.html#module-pcdsdevices.movablestand" title="pcdsdevices.movablestand"><code class="xref py py-obj docutils literal notranslate"><span class="pre">movablestand</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.movablestand.html#module-pcdsdevices.movablestand" title="pcdsdevices.movablestand"><code class="xref py py-obj docutils literal notranslate"><span class="pre">movablestand</span></code></a></p></td>
 <td><p>Module for stands that can be moved</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.html#module-pcdsdevices.mps" title="pcdsdevices.mps"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mps</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.html#module-pcdsdevices.mps" title="pcdsdevices.mps"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mps</span></code></a></p></td>
 <td><p>Module for devices that are integrated with the MPS system.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mv_interface.html#module-pcdsdevices.mv_interface" title="pcdsdevices.mv_interface"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv_interface</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mv_interface.html#module-pcdsdevices.mv_interface" title="pcdsdevices.mv_interface"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv_interface</span></code></a></p></td>
 <td><p>Module for defining bell-and-whistles movement features</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.html#module-pcdsdevices.pim" title="pcdsdevices.pim"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pim</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.html#module-pcdsdevices.pim" title="pcdsdevices.pim"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pim</span></code></a></p></td>
 <td><p>Profile Intensity Monitor Classes</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.html#module-pcdsdevices.pseudopos" title="pcdsdevices.pseudopos"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pseudopos</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.html#module-pcdsdevices.pseudopos" title="pcdsdevices.pseudopos"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pseudopos</span></code></a></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.html#module-pcdsdevices.pulsepicker" title="pcdsdevices.pulsepicker"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pulsepicker</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.html#module-pcdsdevices.pulsepicker" title="pcdsdevices.pulsepicker"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pulsepicker</span></code></a></p></td>
 <td><p>Module for the LCLS1 <a class="reference internal" href="generated/generated/pcdsdevices.pulsepicker.PulsePicker.html#pcdsdevices.pulsepicker.PulsePicker" title="pcdsdevices.pulsepicker.PulsePicker"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PulsePicker</span></code></a></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.html#module-pcdsdevices.pump" title="pcdsdevices.pump"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pump</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.html#module-pcdsdevices.pump" title="pcdsdevices.pump"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pump</span></code></a></p></td>
 <td><p>Standard classes for LCLS Gauges</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.sequencer.html#module-pcdsdevices.sequencer" title="pcdsdevices.sequencer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sequencer</span></code></a></p></td>
+<td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.html#module-pcdsdevices.signal" title="pcdsdevices.signal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal</span></code></a></p></td>
 <td><p>Module to define ophyd Signal subclass utilities.</p></td>
@@ -262,7 +271,10 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.html#module-pcdsdevices.state" title="pcdsdevices.state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">state</span></code></a></p></td>
 <td><p>Module to define positioners that move between discrete named states.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.html#module-pcdsdevices.valve" title="pcdsdevices.valve"><code class="xref py py-obj docutils literal notranslate"><span class="pre">valve</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.utils.html#module-pcdsdevices.utils" title="pcdsdevices.utils"><code class="xref py py-obj docutils literal notranslate"><span class="pre">utils</span></code></a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.html#module-pcdsdevices.valve" title="pcdsdevices.valve"><code class="xref py py-obj docutils literal notranslate"><span class="pre">valve</span></code></a></p></td>
 <td><p>Standard classes for LCLS Gate Valves</p></td>
 </tr>
 </tbody>
@@ -277,7 +289,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="generated/pcdsdevices.attenuator.html" class="btn btn-neutral float-right" title="pcdsdevices.attenuator" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="generated/pcdsdevices.analog_signals.html" class="btn btn-neutral float-right" title="pcdsdevices.analog_signals" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="releases.html" class="btn btn-neutral float-left" title="Release History" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

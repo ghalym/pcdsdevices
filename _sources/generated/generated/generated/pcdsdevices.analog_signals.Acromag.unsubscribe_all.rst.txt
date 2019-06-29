@@ -1,0 +1,6 @@
+pcdsdevices.analog\_signals.Acromag.unsubscribe\_all
+====================================================
+
+.. currentmodule:: pcdsdevices.analog_signals
+
+.. automethod:: Acromag.unsubscribe_all

@@ -1,0 +1,6 @@
+pcdsdevices.analog\_signals.Mesh.wait\_for\_connection
+======================================================
+
+.. currentmodule:: pcdsdevices.analog_signals
+
+.. automethod:: Mesh.wait_for_connection

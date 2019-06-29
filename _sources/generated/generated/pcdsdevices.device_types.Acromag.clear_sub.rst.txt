@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Acromag.clear\_sub
+============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Acromag.clear_sub

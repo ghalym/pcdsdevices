@@ -1,0 +1,6 @@
+pcdsdevices.sequencer.EventSequence.get\_instantiated\_signals
+==============================================================
+
+.. currentmodule:: pcdsdevices.sequencer
+
+.. automethod:: EventSequence.get_instantiated_signals

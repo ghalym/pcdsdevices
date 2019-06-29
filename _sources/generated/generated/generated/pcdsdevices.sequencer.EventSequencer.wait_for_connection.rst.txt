@@ -1,0 +1,6 @@
+pcdsdevices.sequencer.EventSequencer.wait\_for\_connection
+==========================================================
+
+.. currentmodule:: pcdsdevices.sequencer
+
+.. automethod:: EventSequencer.wait_for_connection

@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Acromag.get\_device\_tuple
+====================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Acromag.get_device_tuple

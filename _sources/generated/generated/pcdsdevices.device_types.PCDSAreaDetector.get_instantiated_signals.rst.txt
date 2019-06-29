@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PCDSAreaDetector.get\_instantiated\_signals
+=====================================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PCDSAreaDetector.get_instantiated_signals

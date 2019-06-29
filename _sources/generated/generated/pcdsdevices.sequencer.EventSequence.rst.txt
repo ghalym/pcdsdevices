@@ -1,0 +1,69 @@
+pcdsdevices.sequencer.EventSequence
+===================================
+
+.. currentmodule:: pcdsdevices.sequencer
+
+.. autoclass:: EventSequence
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~EventSequence.__init__
+      ~EventSequence.check_value
+      ~EventSequence.clear_sub
+      ~EventSequence.configure
+      ~EventSequence.describe
+      ~EventSequence.describe_configuration
+      ~EventSequence.get
+      ~EventSequence.get_device_tuple
+      ~EventSequence.get_instantiated_signals
+      ~EventSequence.get_seq
+      ~EventSequence.pause
+      ~EventSequence.put
+      ~EventSequence.put_seq
+      ~EventSequence.read
+      ~EventSequence.read_configuration
+      ~EventSequence.resume
+      ~EventSequence.show
+      ~EventSequence.stage
+      ~EventSequence.stop
+      ~EventSequence.subscribe
+      ~EventSequence.summary
+      ~EventSequence.trigger
+      ~EventSequence.unstage
+      ~EventSequence.unsubscribe
+      ~EventSequence.unsubscribe_all
+      ~EventSequence.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~EventSequence.SUB_ACQ_DONE
+      ~EventSequence.bc_array
+      ~EventSequence.bd_array
+      ~EventSequence.component_names
+      ~EventSequence.configuration_attrs
+      ~EventSequence.connected
+      ~EventSequence.ec_array
+      ~EventSequence.event_types
+      ~EventSequence.fd_array
+      ~EventSequence.hints
+      ~EventSequence.kind
+      ~EventSequence.name
+      ~EventSequence.parent
+      ~EventSequence.read_attrs
+      ~EventSequence.report
+      ~EventSequence.root
+      ~EventSequence.signal_names
+      ~EventSequence.trigger_signals
+   
+   

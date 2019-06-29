@@ -1,0 +1,6 @@
+pcdsdevices.analog\_signals.Acromag.get\_instantiated\_signals
+==============================================================
+
+.. currentmodule:: pcdsdevices.analog_signals
+
+.. automethod:: Acromag.get_instantiated_signals

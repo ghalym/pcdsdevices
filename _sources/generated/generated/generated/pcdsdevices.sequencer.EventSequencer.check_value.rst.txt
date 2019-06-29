@@ -1,0 +1,6 @@
+pcdsdevices.sequencer.EventSequencer.check\_value
+=================================================
+
+.. currentmodule:: pcdsdevices.sequencer
+
+.. automethod:: EventSequencer.check_value

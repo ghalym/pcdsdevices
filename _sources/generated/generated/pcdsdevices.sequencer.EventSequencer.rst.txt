@@ -1,0 +1,81 @@
+pcdsdevices.sequencer.EventSequencer
+====================================
+
+.. currentmodule:: pcdsdevices.sequencer
+
+.. autoclass:: EventSequencer
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~EventSequencer.__init__
+      ~EventSequencer.check_value
+      ~EventSequencer.clear_sub
+      ~EventSequencer.collect
+      ~EventSequencer.collect_tables
+      ~EventSequencer.complete
+      ~EventSequencer.configure
+      ~EventSequencer.describe
+      ~EventSequencer.describe_collect
+      ~EventSequencer.describe_configuration
+      ~EventSequencer.get
+      ~EventSequencer.get_device_tuple
+      ~EventSequencer.get_instantiated_signals
+      ~EventSequencer.kickoff
+      ~EventSequencer.pause
+      ~EventSequencer.put
+      ~EventSequencer.read
+      ~EventSequencer.read_configuration
+      ~EventSequencer.resume
+      ~EventSequencer.stage
+      ~EventSequencer.start
+      ~EventSequencer.stop
+      ~EventSequencer.subscribe
+      ~EventSequencer.summary
+      ~EventSequencer.trigger
+      ~EventSequencer.unstage
+      ~EventSequencer.unsubscribe
+      ~EventSequencer.unsubscribe_all
+      ~EventSequencer.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~EventSequencer.SUB_ACQ_DONE
+      ~EventSequencer.component_names
+      ~EventSequencer.configuration_attrs
+      ~EventSequencer.connected
+      ~EventSequencer.current_step
+      ~EventSequencer.event_types
+      ~EventSequencer.hints
+      ~EventSequencer.kind
+      ~EventSequencer.name
+      ~EventSequencer.next_sync
+      ~EventSequencer.parent
+      ~EventSequencer.play_control
+      ~EventSequencer.play_count
+      ~EventSequencer.play_mode
+      ~EventSequencer.play_status
+      ~EventSequencer.pulse_req
+      ~EventSequencer.read_attrs
+      ~EventSequencer.rep_count
+      ~EventSequencer.report
+      ~EventSequencer.root
+      ~EventSequencer.sequence
+      ~EventSequencer.sequence_length
+      ~EventSequencer.sequence_owner
+      ~EventSequencer.signal_names
+      ~EventSequencer.sync_marker
+      ~EventSequencer.total_play_count
+      ~EventSequencer.trigger_signals
+   
+   

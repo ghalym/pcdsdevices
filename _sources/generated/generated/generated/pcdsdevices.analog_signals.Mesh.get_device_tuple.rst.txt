@@ -1,0 +1,6 @@
+pcdsdevices.analog\_signals.Mesh.get\_device\_tuple
+===================================================
+
+.. currentmodule:: pcdsdevices.analog_signals
+
+.. automethod:: Mesh.get_device_tuple

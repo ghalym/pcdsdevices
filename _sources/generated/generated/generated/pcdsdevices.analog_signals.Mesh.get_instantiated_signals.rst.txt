@@ -1,0 +1,6 @@
+pcdsdevices.analog\_signals.Mesh.get\_instantiated\_signals
+===========================================================
+
+.. currentmodule:: pcdsdevices.analog_signals
+
+.. automethod:: Mesh.get_instantiated_signals

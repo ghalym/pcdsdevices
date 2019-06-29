@@ -1,0 +1,6 @@
+pcdsdevices.sequencer.EventSequencer.pause
+==========================================
+
+.. currentmodule:: pcdsdevices.sequencer
+
+.. automethod:: EventSequencer.pause

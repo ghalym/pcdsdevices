@@ -1,0 +1,6 @@
+pcdsdevices.sequencer.EventSequence.resume
+==========================================
+
+.. currentmodule:: pcdsdevices.sequencer
+
+.. automethod:: EventSequence.resume

@@ -1,0 +1,6 @@
+pcdsdevices.analog\_signals.Mesh.subscribe
+==========================================
+
+.. currentmodule:: pcdsdevices.analog_signals
+
+.. automethod:: Mesh.subscribe

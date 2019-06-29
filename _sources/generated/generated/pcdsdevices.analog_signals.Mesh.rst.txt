@@ -1,0 +1,69 @@
+pcdsdevices.analog\_signals.Mesh
+================================
+
+.. currentmodule:: pcdsdevices.analog_signals
+
+.. autoclass:: Mesh
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~Mesh.__init__
+      ~Mesh.check_value
+      ~Mesh.clear_sub
+      ~Mesh.configure
+      ~Mesh.describe
+      ~Mesh.describe_configuration
+      ~Mesh.get
+      ~Mesh.get_device_tuple
+      ~Mesh.get_instantiated_signals
+      ~Mesh.get_mesh_voltage
+      ~Mesh.get_raw_mesh_voltage
+      ~Mesh.pause
+      ~Mesh.put
+      ~Mesh.read
+      ~Mesh.read_configuration
+      ~Mesh.resume
+      ~Mesh.set_mesh_voltage
+      ~Mesh.set_rel_mesh_voltage
+      ~Mesh.stage
+      ~Mesh.stop
+      ~Mesh.subscribe
+      ~Mesh.summary
+      ~Mesh.trigger
+      ~Mesh.tweak_mesh_voltage
+      ~Mesh.unstage
+      ~Mesh.unsubscribe
+      ~Mesh.unsubscribe_all
+      ~Mesh.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Mesh.SUB_ACQ_DONE
+      ~Mesh.component_names
+      ~Mesh.configuration_attrs
+      ~Mesh.connected
+      ~Mesh.event_types
+      ~Mesh.hints
+      ~Mesh.kind
+      ~Mesh.name
+      ~Mesh.parent
+      ~Mesh.read_attrs
+      ~Mesh.read_sig
+      ~Mesh.report
+      ~Mesh.root
+      ~Mesh.signal_names
+      ~Mesh.trigger_signals
+      ~Mesh.write_sig
+   
+   

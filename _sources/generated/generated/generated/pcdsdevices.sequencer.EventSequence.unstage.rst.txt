@@ -1,0 +1,6 @@
+pcdsdevices.sequencer.EventSequence.unstage
+===========================================
+
+.. currentmodule:: pcdsdevices.sequencer
+
+.. automethod:: EventSequence.unstage

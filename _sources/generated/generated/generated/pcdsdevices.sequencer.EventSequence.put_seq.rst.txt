@@ -1,0 +1,6 @@
+pcdsdevices.sequencer.EventSequence.put\_seq
+============================================
+
+.. currentmodule:: pcdsdevices.sequencer
+
+.. automethod:: EventSequence.put_seq

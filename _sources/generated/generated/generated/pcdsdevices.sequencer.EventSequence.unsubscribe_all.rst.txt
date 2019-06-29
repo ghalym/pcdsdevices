@@ -1,0 +1,6 @@
+pcdsdevices.sequencer.EventSequence.unsubscribe\_all
+====================================================
+
+.. currentmodule:: pcdsdevices.sequencer
+
+.. automethod:: EventSequence.unsubscribe_all

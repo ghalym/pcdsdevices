@@ -1,0 +1,6 @@
+pcdsdevices.analog\_signals.Acromag.wait\_for\_connection
+=========================================================
+
+.. currentmodule:: pcdsdevices.analog_signals
+
+.. automethod:: Acromag.wait_for_connection

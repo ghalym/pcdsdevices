@@ -1,0 +1,6 @@
+pcdsdevices.sequencer.EventSequence.get\_device\_tuple
+======================================================
+
+.. currentmodule:: pcdsdevices.sequencer
+
+.. automethod:: EventSequence.get_device_tuple

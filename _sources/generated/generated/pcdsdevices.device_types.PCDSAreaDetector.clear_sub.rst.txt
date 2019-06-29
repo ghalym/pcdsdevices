@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PCDSAreaDetector.clear\_sub
+=====================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PCDSAreaDetector.clear_sub

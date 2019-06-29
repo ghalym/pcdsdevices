@@ -1,0 +1,6 @@
+pcdsdevices.sequencer.EventSequence.\_\_init\_\_
+================================================
+
+.. currentmodule:: pcdsdevices.sequencer
+
+.. automethod:: EventSequence.__init__

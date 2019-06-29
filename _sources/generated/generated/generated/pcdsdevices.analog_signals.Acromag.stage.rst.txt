@@ -1,0 +1,6 @@
+pcdsdevices.analog\_signals.Acromag.stage
+=========================================
+
+.. currentmodule:: pcdsdevices.analog_signals
+
+.. automethod:: Acromag.stage

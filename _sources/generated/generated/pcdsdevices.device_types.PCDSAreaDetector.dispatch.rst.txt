@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PCDSAreaDetector.dispatch
+===================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PCDSAreaDetector.dispatch

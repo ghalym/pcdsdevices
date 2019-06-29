@@ -1,0 +1,6 @@
+pcdsdevices.analog\_signals.Mesh.resume
+=======================================
+
+.. currentmodule:: pcdsdevices.analog_signals
+
+.. automethod:: Mesh.resume

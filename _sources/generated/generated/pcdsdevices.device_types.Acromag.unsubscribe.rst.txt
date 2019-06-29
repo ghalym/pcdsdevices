@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Acromag.unsubscribe
+=============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Acromag.unsubscribe

@@ -1,0 +1,6 @@
+pcdsdevices.analog\_signals.Acromag.describe\_configuration
+===========================================================
+
+.. currentmodule:: pcdsdevices.analog_signals
+
+.. automethod:: Acromag.describe_configuration

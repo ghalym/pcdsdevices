@@ -1,0 +1,6 @@
+pcdsdevices.analog\_signals.Acromag.clear\_sub
+==============================================
+
+.. currentmodule:: pcdsdevices.analog_signals
+
+.. automethod:: Acromag.clear_sub

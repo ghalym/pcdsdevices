@@ -1,0 +1,6 @@
+pcdsdevices.analog\_signals.Acromag.check\_value
+================================================
+
+.. currentmodule:: pcdsdevices.analog_signals
+
+.. automethod:: Acromag.check_value
