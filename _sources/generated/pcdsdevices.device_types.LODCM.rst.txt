@@ -67,6 +67,7 @@ pcdsdevices.device\_types.LODCM
       ~LODCM.report
       ~LODCM.root
       ~LODCM.signal_names
+      ~LODCM.tab_whitelist
       ~LODCM.transmission
       ~LODCM.trigger_signals
       ~LODCM.yag

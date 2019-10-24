@@ -78,6 +78,7 @@ pcdsdevices.state.PVStatePositioner
       ~PVStatePositioner.signal_names
       ~PVStatePositioner.state
       ~PVStatePositioner.states_list
+      ~PVStatePositioner.tab_whitelist
       ~PVStatePositioner.timeout
       ~PVStatePositioner.trigger_signals
    

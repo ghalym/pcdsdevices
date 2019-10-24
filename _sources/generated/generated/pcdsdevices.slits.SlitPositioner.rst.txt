@@ -78,6 +78,7 @@ pcdsdevices.slits.SlitPositioner
       ~SlitPositioner.name
       ~SlitPositioner.parent
       ~SlitPositioner.position
+      ~SlitPositioner.presets
       ~SlitPositioner.put_complete
       ~SlitPositioner.read_attrs
       ~SlitPositioner.readback
@@ -88,6 +89,7 @@ pcdsdevices.slits.SlitPositioner
       ~SlitPositioner.signal_names
       ~SlitPositioner.stop_signal
       ~SlitPositioner.stop_value
+      ~SlitPositioner.tab_whitelist
       ~SlitPositioner.timeout
       ~SlitPositioner.trigger_signals
    

@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.PseudoSingleInterface.check\_value
+========================================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: PseudoSingleInterface.check_value

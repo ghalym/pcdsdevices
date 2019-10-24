@@ -14,12 +14,14 @@ pcdsdevices.pseudopos.SyncAxesBase
    
       ~SyncAxesBase.__init__
       ~SyncAxesBase.calc_combined
+      ~SyncAxesBase.camonitor
       ~SyncAxesBase.check_single
       ~SyncAxesBase.check_value
       ~SyncAxesBase.clear_sub
       ~SyncAxesBase.configure
       ~SyncAxesBase.describe
       ~SyncAxesBase.describe_configuration
+      ~SyncAxesBase.end_monitor_thread
       ~SyncAxesBase.forward
       ~SyncAxesBase.get
       ~SyncAxesBase.get_device_tuple
@@ -27,6 +29,9 @@ pcdsdevices.pseudopos.SyncAxesBase
       ~SyncAxesBase.inverse
       ~SyncAxesBase.move
       ~SyncAxesBase.move_single
+      ~SyncAxesBase.mv
+      ~SyncAxesBase.mv_ginput
+      ~SyncAxesBase.mvr
       ~SyncAxesBase.pause
       ~SyncAxesBase.put
       ~SyncAxesBase.read
@@ -41,10 +46,15 @@ pcdsdevices.pseudopos.SyncAxesBase
       ~SyncAxesBase.to_pseudo_tuple
       ~SyncAxesBase.to_real_tuple
       ~SyncAxesBase.trigger
+      ~SyncAxesBase.tweak
+      ~SyncAxesBase.umv
+      ~SyncAxesBase.umvr
       ~SyncAxesBase.unstage
       ~SyncAxesBase.unsubscribe
       ~SyncAxesBase.unsubscribe_all
       ~SyncAxesBase.wait_for_connection
+      ~SyncAxesBase.wm
+      ~SyncAxesBase.wm_update
    
    
 
@@ -74,6 +84,7 @@ pcdsdevices.pseudopos.SyncAxesBase
       ~SyncAxesBase.name
       ~SyncAxesBase.parent
       ~SyncAxesBase.position
+      ~SyncAxesBase.presets
       ~SyncAxesBase.pseudo
       ~SyncAxesBase.pseudo_positioners
       ~SyncAxesBase.read_attrs
@@ -84,6 +95,7 @@ pcdsdevices.pseudopos.SyncAxesBase
       ~SyncAxesBase.sequential
       ~SyncAxesBase.settle_time
       ~SyncAxesBase.signal_names
+      ~SyncAxesBase.tab_whitelist
       ~SyncAxesBase.target
       ~SyncAxesBase.timeout
       ~SyncAxesBase.trigger_signals

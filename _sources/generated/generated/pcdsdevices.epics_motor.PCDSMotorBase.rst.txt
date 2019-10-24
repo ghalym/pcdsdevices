@@ -98,12 +98,14 @@ pcdsdevices.epics\_motor.PCDSMotorBase
       ~PCDSMotorBase.parent
       ~PCDSMotorBase.position
       ~PCDSMotorBase.precision
+      ~PCDSMotorBase.presets
       ~PCDSMotorBase.read_attrs
       ~PCDSMotorBase.report
       ~PCDSMotorBase.root
       ~PCDSMotorBase.set_use_switch
       ~PCDSMotorBase.settle_time
       ~PCDSMotorBase.signal_names
+      ~PCDSMotorBase.tab_whitelist
       ~PCDSMotorBase.timeout
       ~PCDSMotorBase.tolerated_alarm
       ~PCDSMotorBase.trigger_signals

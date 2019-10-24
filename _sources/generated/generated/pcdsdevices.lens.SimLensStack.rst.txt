@@ -84,6 +84,8 @@ pcdsdevices.lens.SimLensStack
       ~SimLensStack.sequential
       ~SimLensStack.settle_time
       ~SimLensStack.signal_names
+      ~SimLensStack.tab_component_names
+      ~SimLensStack.tab_whitelist
       ~SimLensStack.target
       ~SimLensStack.timeout
       ~SimLensStack.trigger_signals

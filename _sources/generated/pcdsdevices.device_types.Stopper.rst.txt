@@ -89,6 +89,7 @@ pcdsdevices.device\_types.Stopper
       ~Stopper.signal_names
       ~Stopper.state
       ~Stopper.states_list
+      ~Stopper.tab_whitelist
       ~Stopper.timeout
       ~Stopper.transmission
       ~Stopper.trigger_signals

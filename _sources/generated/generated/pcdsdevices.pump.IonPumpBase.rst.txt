@@ -72,6 +72,8 @@ pcdsdevices.pump.IonPumpBase
       ~IonPumpBase.status
       ~IonPumpBase.status_code
       ~IonPumpBase.supplysize
+      ~IonPumpBase.tab_component_names
+      ~IonPumpBase.tab_whitelist
       ~IonPumpBase.trigger_signals
       ~IonPumpBase.voltage
    

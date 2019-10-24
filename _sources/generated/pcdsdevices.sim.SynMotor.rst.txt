@@ -68,12 +68,14 @@ pcdsdevices.sim.SynMotor
       ~SynMotor.name
       ~SynMotor.parent
       ~SynMotor.position
+      ~SynMotor.presets
       ~SynMotor.read_attrs
       ~SynMotor.readback
       ~SynMotor.report
       ~SynMotor.root
       ~SynMotor.setpoint
       ~SynMotor.signal_names
+      ~SynMotor.tab_whitelist
       ~SynMotor.trigger_signals
       ~SynMotor.unused
       ~SynMotor.velocity

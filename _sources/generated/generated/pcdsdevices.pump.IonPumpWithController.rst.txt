@@ -73,6 +73,8 @@ pcdsdevices.pump.IonPumpWithController
       ~IonPumpWithController.status
       ~IonPumpWithController.status_code
       ~IonPumpWithController.supplysize
+      ~IonPumpWithController.tab_component_names
+      ~IonPumpWithController.tab_whitelist
       ~IonPumpWithController.trigger_signals
       ~IonPumpWithController.voltage
    

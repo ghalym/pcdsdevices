@@ -88,6 +88,7 @@ pcdsdevices.mirror.Gantry
       ~Gantry.name
       ~Gantry.parent
       ~Gantry.position
+      ~Gantry.presets
       ~Gantry.put_complete
       ~Gantry.read_attrs
       ~Gantry.readback
@@ -98,6 +99,7 @@ pcdsdevices.mirror.Gantry
       ~Gantry.signal_names
       ~Gantry.stop_signal
       ~Gantry.stop_value
+      ~Gantry.tab_whitelist
       ~Gantry.timeout
       ~Gantry.trigger_signals
    

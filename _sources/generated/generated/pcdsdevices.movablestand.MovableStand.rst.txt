@@ -86,6 +86,7 @@ pcdsdevices.movablestand.MovableStand
       ~MovableStand.signal_names
       ~MovableStand.state
       ~MovableStand.states_list
+      ~MovableStand.tab_whitelist
       ~MovableStand.timeout
       ~MovableStand.transmission
       ~MovableStand.trigger_signals

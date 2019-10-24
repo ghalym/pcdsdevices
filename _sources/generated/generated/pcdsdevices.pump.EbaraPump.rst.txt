@@ -59,6 +59,7 @@ pcdsdevices.pump.EbaraPump
       ~EbaraPump.root
       ~EbaraPump.signal_names
       ~EbaraPump.start
+      ~EbaraPump.tab_whitelist
       ~EbaraPump.trigger_signals
    
    

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.pseudopos.SyncAxesBase &mdash; PCDS Devices 2.0.0+3.g4ffe803 documentation</title>
+  <title>pcdsdevices.pseudopos.SyncAxesBase &mdash; PCDS Devices 2.0.0+24.ga297f82 documentation</title>
   
 
   
@@ -36,7 +36,7 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="pcdsdevices.pseudopos.SyncAxesBase.__init__" href="generated/pcdsdevices.pseudopos.SyncAxesBase.__init__.html" />
-    <link rel="prev" title="pcdsdevices.pseudopos.SimDelayStage.wait_for_connection" href="generated/pcdsdevices.pseudopos.SimDelayStage.wait_for_connection.html" /> 
+    <link rel="prev" title="pcdsdevices.pseudopos.SimDelayStage.wm_update" href="generated/pcdsdevices.pseudopos.SimDelayStage.wm_update.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.0.0+3.g4ffe803
+                2.0.0+24.ga297f82
               </div>
             
           
@@ -88,6 +88,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../mv.html">Shortcuts</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../presets.html">Preset Positions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tab.html">IPython Tab Curation</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Device Types</span></p>
 <ul>
@@ -107,26 +108,29 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.evr.html">pcdsdevices.evr</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.interface.html">pcdsdevices.interface</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.lodcm.html">pcdsdevices.lodcm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.mirror.html">pcdsdevices.mirror</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.movablestand.html">pcdsdevices.movablestand</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.mps.html">pcdsdevices.mps</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.mv_interface.html">pcdsdevices.mv_interface</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.DelayBase.html">pcdsdevices.pseudopos.DelayBase</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.html">pcdsdevices.pseudopos.PseudoSingleInterface</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.SimDelayStage.html">pcdsdevices.pseudopos.SimDelayStage</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.pseudopos.SyncAxesBase</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.__init__.html">pcdsdevices.pseudopos.SyncAxesBase.__init__</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.calc_combined.html">pcdsdevices.pseudopos.SyncAxesBase.calc_combined</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.camonitor.html">pcdsdevices.pseudopos.SyncAxesBase.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.check_single.html">pcdsdevices.pseudopos.SyncAxesBase.check_single</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.check_value.html">pcdsdevices.pseudopos.SyncAxesBase.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.clear_sub.html">pcdsdevices.pseudopos.SyncAxesBase.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.configure.html">pcdsdevices.pseudopos.SyncAxesBase.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.describe.html">pcdsdevices.pseudopos.SyncAxesBase.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.describe_configuration.html">pcdsdevices.pseudopos.SyncAxesBase.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.end_monitor_thread.html">pcdsdevices.pseudopos.SyncAxesBase.end_monitor_thread</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.forward.html">pcdsdevices.pseudopos.SyncAxesBase.forward</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.get.html">pcdsdevices.pseudopos.SyncAxesBase.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.get_device_tuple.html">pcdsdevices.pseudopos.SyncAxesBase.get_device_tuple</a></li>
@@ -134,6 +138,9 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.inverse.html">pcdsdevices.pseudopos.SyncAxesBase.inverse</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.move.html">pcdsdevices.pseudopos.SyncAxesBase.move</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.move_single.html">pcdsdevices.pseudopos.SyncAxesBase.move_single</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.mv.html">pcdsdevices.pseudopos.SyncAxesBase.mv</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.mv_ginput.html">pcdsdevices.pseudopos.SyncAxesBase.mv_ginput</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.mvr.html">pcdsdevices.pseudopos.SyncAxesBase.mvr</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.pause.html">pcdsdevices.pseudopos.SyncAxesBase.pause</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.put.html">pcdsdevices.pseudopos.SyncAxesBase.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.read.html">pcdsdevices.pseudopos.SyncAxesBase.read</a></li>
@@ -148,10 +155,15 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.to_pseudo_tuple.html">pcdsdevices.pseudopos.SyncAxesBase.to_pseudo_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.to_real_tuple.html">pcdsdevices.pseudopos.SyncAxesBase.to_real_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.trigger.html">pcdsdevices.pseudopos.SyncAxesBase.trigger</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.tweak.html">pcdsdevices.pseudopos.SyncAxesBase.tweak</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.umv.html">pcdsdevices.pseudopos.SyncAxesBase.umv</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.umvr.html">pcdsdevices.pseudopos.SyncAxesBase.umvr</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.unstage.html">pcdsdevices.pseudopos.SyncAxesBase.unstage</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.unsubscribe.html">pcdsdevices.pseudopos.SyncAxesBase.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.unsubscribe_all.html">pcdsdevices.pseudopos.SyncAxesBase.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.wait_for_connection.html">pcdsdevices.pseudopos.SyncAxesBase.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.wm.html">pcdsdevices.pseudopos.SyncAxesBase.wm</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.wm_update.html">pcdsdevices.pseudopos.SyncAxesBase.wm_update</a></li>
 </ul>
 </li>
 </ul>
@@ -267,23 +279,29 @@ will be included in the synchronized move.</p>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.calc_combined.html#pcdsdevices.pseudopos.SyncAxesBase.calc_combined" title="pcdsdevices.pseudopos.SyncAxesBase.calc_combined"><code class="xref py py-obj docutils literal notranslate"><span class="pre">calc_combined</span></code></a>(real_position)</p></td>
 <td><p>Calculate the combined pseudo position.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.check_single.html#pcdsdevices.pseudopos.SyncAxesBase.check_single" title="pcdsdevices.pseudopos.SyncAxesBase.check_single"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_single</span></code></a>(pseudo_single, single_pos)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.camonitor.html#pcdsdevices.pseudopos.SyncAxesBase.camonitor" title="pcdsdevices.pseudopos.SyncAxesBase.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</p></td>
+<td><p>Shows a live-updating motor position in the terminal.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.check_single.html#pcdsdevices.pseudopos.SyncAxesBase.check_single" title="pcdsdevices.pseudopos.SyncAxesBase.check_single"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_single</span></code></a>(pseudo_single, single_pos)</p></td>
 <td><p>Check if a new position for a single pseudo positioner is valid</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.check_value.html#pcdsdevices.pseudopos.SyncAxesBase.check_value" title="pcdsdevices.pseudopos.SyncAxesBase.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(pseudo_pos)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.check_value.html#pcdsdevices.pseudopos.SyncAxesBase.check_value" title="pcdsdevices.pseudopos.SyncAxesBase.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(pseudo_pos)</p></td>
 <td><p>Check if a new position for all pseudo positioners is valid</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.clear_sub.html#pcdsdevices.pseudopos.SyncAxesBase.clear_sub" title="pcdsdevices.pseudopos.SyncAxesBase.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.clear_sub.html#pcdsdevices.pseudopos.SyncAxesBase.clear_sub" title="pcdsdevices.pseudopos.SyncAxesBase.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
 <td><p>Remove a subscription, given the original callback function</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.configure.html#pcdsdevices.pseudopos.SyncAxesBase.configure" title="pcdsdevices.pseudopos.SyncAxesBase.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.configure.html#pcdsdevices.pseudopos.SyncAxesBase.configure" title="pcdsdevices.pseudopos.SyncAxesBase.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
 <td><p>Configure the device for something during a run</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.describe.html#pcdsdevices.pseudopos.SyncAxesBase.describe" title="pcdsdevices.pseudopos.SyncAxesBase.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.describe.html#pcdsdevices.pseudopos.SyncAxesBase.describe" title="pcdsdevices.pseudopos.SyncAxesBase.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
 <td><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.describe_configuration.html#pcdsdevices.pseudopos.SyncAxesBase.describe_configuration" title="pcdsdevices.pseudopos.SyncAxesBase.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.describe_configuration.html#pcdsdevices.pseudopos.SyncAxesBase.describe_configuration" title="pcdsdevices.pseudopos.SyncAxesBase.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</p></td>
 <td><p>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.end_monitor_thread.html#pcdsdevices.pseudopos.SyncAxesBase.end_monitor_thread" title="pcdsdevices.pseudopos.SyncAxesBase.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
+<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.camonitor.html#pcdsdevices.pseudopos.SyncAxesBase.camonitor" title="pcdsdevices.pseudopos.SyncAxesBase.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.wm_update.html#pcdsdevices.pseudopos.SyncAxesBase.wm_update" title="pcdsdevices.pseudopos.SyncAxesBase.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.forward.html#pcdsdevices.pseudopos.SyncAxesBase.forward" title="pcdsdevices.pseudopos.SyncAxesBase.forward"><code class="xref py py-obj docutils literal notranslate"><span class="pre">forward</span></code></a>(pseudo_pos)</p></td>
 <td><p>Composite axes move to the combined axis position plus an offset</p></td>
@@ -306,47 +324,65 @@ will be included in the synchronized move.</p>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.move_single.html#pcdsdevices.pseudopos.SyncAxesBase.move_single" title="pcdsdevices.pseudopos.SyncAxesBase.move_single"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move_single</span></code></a>(pseudo, position, **kwargs)</p></td>
 <td><p>Move one PseudoSingle axis to a position</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.pause.html#pcdsdevices.pseudopos.SyncAxesBase.pause" title="pcdsdevices.pseudopos.SyncAxesBase.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.mv.html#pcdsdevices.pseudopos.SyncAxesBase.mv" title="pcdsdevices.pseudopos.SyncAxesBase.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[, timeout, wait])</p></td>
+<td><p>Absolute move to a position.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.mv_ginput.html#pcdsdevices.pseudopos.SyncAxesBase.mv_ginput" title="pcdsdevices.pseudopos.SyncAxesBase.mv_ginput"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv_ginput</span></code></a>([timeout])</p></td>
+<td><p>Moves to a location the user clicks on.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.mvr.html#pcdsdevices.pseudopos.SyncAxesBase.mvr" title="pcdsdevices.pseudopos.SyncAxesBase.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[, timeout, wait])</p></td>
+<td><p>Relative move from this position.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.pause.html#pcdsdevices.pseudopos.SyncAxesBase.pause" title="pcdsdevices.pseudopos.SyncAxesBase.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
 <td><p>Attempt to ‘pause’ the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.put.html#pcdsdevices.pseudopos.SyncAxesBase.put" title="pcdsdevices.pseudopos.SyncAxesBase.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.put.html#pcdsdevices.pseudopos.SyncAxesBase.put" title="pcdsdevices.pseudopos.SyncAxesBase.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
 <td><p>Put a value to all components of the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.read.html#pcdsdevices.pseudopos.SyncAxesBase.read" title="pcdsdevices.pseudopos.SyncAxesBase.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.read.html#pcdsdevices.pseudopos.SyncAxesBase.read" title="pcdsdevices.pseudopos.SyncAxesBase.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
 <td><p>Read data from the device</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.read_configuration.html#pcdsdevices.pseudopos.SyncAxesBase.read_configuration" title="pcdsdevices.pseudopos.SyncAxesBase.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.read_configuration.html#pcdsdevices.pseudopos.SyncAxesBase.read_configuration" title="pcdsdevices.pseudopos.SyncAxesBase.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>returns dictionary mapping names to (value, timestamp) pairs</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.resume.html#pcdsdevices.pseudopos.SyncAxesBase.resume" title="pcdsdevices.pseudopos.SyncAxesBase.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.resume.html#pcdsdevices.pseudopos.SyncAxesBase.resume" title="pcdsdevices.pseudopos.SyncAxesBase.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.save_offsets.html#pcdsdevices.pseudopos.SyncAxesBase.save_offsets" title="pcdsdevices.pseudopos.SyncAxesBase.save_offsets"><code class="xref py py-obj docutils literal notranslate"><span class="pre">save_offsets</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.save_offsets.html#pcdsdevices.pseudopos.SyncAxesBase.save_offsets" title="pcdsdevices.pseudopos.SyncAxesBase.save_offsets"><code class="xref py py-obj docutils literal notranslate"><span class="pre">save_offsets</span></code></a>()</p></td>
 <td><p>Save the current offsets for the synchronized assembly.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.set.html#pcdsdevices.pseudopos.SyncAxesBase.set" title="pcdsdevices.pseudopos.SyncAxesBase.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.set.html#pcdsdevices.pseudopos.SyncAxesBase.set" title="pcdsdevices.pseudopos.SyncAxesBase.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position, **kwargs)</p></td>
 <td><p>Move to a new position asynchronously</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.stage.html#pcdsdevices.pseudopos.SyncAxesBase.stage" title="pcdsdevices.pseudopos.SyncAxesBase.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.stage.html#pcdsdevices.pseudopos.SyncAxesBase.stage" title="pcdsdevices.pseudopos.SyncAxesBase.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
 <td><p>Stage the device for data collection.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.stop.html#pcdsdevices.pseudopos.SyncAxesBase.stop" title="pcdsdevices.pseudopos.SyncAxesBase.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>([success])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.stop.html#pcdsdevices.pseudopos.SyncAxesBase.stop" title="pcdsdevices.pseudopos.SyncAxesBase.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>([success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.subscribe.html#pcdsdevices.pseudopos.SyncAxesBase.subscribe" title="pcdsdevices.pseudopos.SyncAxesBase.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[, event_type, run])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.subscribe.html#pcdsdevices.pseudopos.SyncAxesBase.subscribe" title="pcdsdevices.pseudopos.SyncAxesBase.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[, event_type, run])</p></td>
 <td><p>Subscribe to events this event_type generates.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.summary.html#pcdsdevices.pseudopos.SyncAxesBase.summary" title="pcdsdevices.pseudopos.SyncAxesBase.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.summary.html#pcdsdevices.pseudopos.SyncAxesBase.summary" title="pcdsdevices.pseudopos.SyncAxesBase.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.to_pseudo_tuple.html#pcdsdevices.pseudopos.SyncAxesBase.to_pseudo_tuple" title="pcdsdevices.pseudopos.SyncAxesBase.to_pseudo_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_pseudo_tuple</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.to_pseudo_tuple.html#pcdsdevices.pseudopos.SyncAxesBase.to_pseudo_tuple" title="pcdsdevices.pseudopos.SyncAxesBase.to_pseudo_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_pseudo_tuple</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Convert arguments to a PseudoPosition namedtuple and kwargs</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.to_real_tuple.html#pcdsdevices.pseudopos.SyncAxesBase.to_real_tuple" title="pcdsdevices.pseudopos.SyncAxesBase.to_real_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_real_tuple</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.to_real_tuple.html#pcdsdevices.pseudopos.SyncAxesBase.to_real_tuple" title="pcdsdevices.pseudopos.SyncAxesBase.to_real_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_real_tuple</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Convert arguments to a RealPosition namedtuple and kwargs</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.trigger.html#pcdsdevices.pseudopos.SyncAxesBase.trigger" title="pcdsdevices.pseudopos.SyncAxesBase.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.trigger.html#pcdsdevices.pseudopos.SyncAxesBase.trigger" title="pcdsdevices.pseudopos.SyncAxesBase.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.tweak.html#pcdsdevices.pseudopos.SyncAxesBase.tweak" title="pcdsdevices.pseudopos.SyncAxesBase.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
+<td><p>Control this motor using the arrow keys.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.umv.html#pcdsdevices.pseudopos.SyncAxesBase.umv" title="pcdsdevices.pseudopos.SyncAxesBase.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout])</p></td>
+<td><p>Move to a position, wait, and update with a progress bar.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.umvr.html#pcdsdevices.pseudopos.SyncAxesBase.umvr" title="pcdsdevices.pseudopos.SyncAxesBase.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout])</p></td>
+<td><p>Relative move from this position, wait, and update with a progress bar.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.unstage.html#pcdsdevices.pseudopos.SyncAxesBase.unstage" title="pcdsdevices.pseudopos.SyncAxesBase.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</p></td>
 <td><p>Unstage the device.</p></td>
@@ -359,6 +395,12 @@ will be included in the synchronized move.</p>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.wait_for_connection.html#pcdsdevices.pseudopos.SyncAxesBase.wait_for_connection" title="pcdsdevices.pseudopos.SyncAxesBase.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals, timeout])</p></td>
 <td><p>Wait for signals to connect</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.wm.html#pcdsdevices.pseudopos.SyncAxesBase.wm" title="pcdsdevices.pseudopos.SyncAxesBase.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<td><p>Get the mover’s positon (where motor)</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.wm_update.html#pcdsdevices.pseudopos.SyncAxesBase.wm_update" title="pcdsdevices.pseudopos.SyncAxesBase.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>
 </table>
@@ -429,34 +471,40 @@ will be included in the synchronized move.</p>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></p></td>
 <td><p>Pseudo motor position namedtuple</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pseudo</span></code></p></td>
-<td><p>Component attribute</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pseudo_positioners</span></code></p></td>
-<td><p>Pseudo positioners instances in a namedtuple</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">presets</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">real_position</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pseudo</span></code></p></td>
+<td><p>Component attribute</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pseudo_positioners</span></code></p></td>
+<td><p>Pseudo positioners instances in a namedtuple</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">real_position</span></code></p></td>
 <td><p>Real motor position namedtuple</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">real_positioners</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">real_positioners</span></code></p></td>
 <td><p>Real positioners instances in a namedtuple</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
 <td><p>A report on the object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></p></td>
 <td><p>Walk parents to find ultimate ancestor (parent’s parent…).</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">sequential</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">sequential</span></code></p></td>
 <td><p>If sequential is set, motors will move in the sequence they were defined in (i.e., in series)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></p></td>
 <td><p>Amount of time to wait after moves to report status completion</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tab_whitelist</span></code></p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">target</span></code></p></td>
@@ -485,7 +533,7 @@ will be included in the synchronized move.</p>
         <a href="generated/pcdsdevices.pseudopos.SyncAxesBase.__init__.html" class="btn btn-neutral float-right" title="pcdsdevices.pseudopos.SyncAxesBase.__init__" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="generated/pcdsdevices.pseudopos.SimDelayStage.wait_for_connection.html" class="btn btn-neutral float-left" title="pcdsdevices.pseudopos.SimDelayStage.wait_for_connection" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="generated/pcdsdevices.pseudopos.SimDelayStage.wm_update.html" class="btn btn-neutral float-left" title="pcdsdevices.pseudopos.SimDelayStage.wm_update" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

@@ -1,6 +1,0 @@
-pcdsdevices.mv\_interface.AbsProgressBar.clear
-==============================================
-
-.. currentmodule:: pcdsdevices.mv_interface
-
-.. automethod:: AbsProgressBar.clear

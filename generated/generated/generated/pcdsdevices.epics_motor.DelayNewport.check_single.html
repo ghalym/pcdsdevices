@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.epics_motor.DelayNewport.check_single &mdash; PCDS Devices 2.0.0+3.g4ffe803 documentation</title>
+  <title>pcdsdevices.epics_motor.DelayNewport.check_single &mdash; PCDS Devices 2.0.0+24.ga297f82 documentation</title>
   
 
   
@@ -36,7 +36,7 @@
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
     <link rel="next" title="pcdsdevices.epics_motor.DelayNewport.check_value" href="pcdsdevices.epics_motor.DelayNewport.check_value.html" />
-    <link rel="prev" title="pcdsdevices.epics_motor.DelayNewport.__init__" href="pcdsdevices.epics_motor.DelayNewport.__init__.html" /> 
+    <link rel="prev" title="pcdsdevices.epics_motor.DelayNewport.camonitor" href="pcdsdevices.epics_motor.DelayNewport.camonitor.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.0.0+3.g4ffe803
+                2.0.0+24.ga297f82
               </div>
             
           
@@ -88,6 +88,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../../mv.html">Shortcuts</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../presets.html">Preset Positions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../tab.html">IPython Tab Curation</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Device Types</span></p>
 <ul>
@@ -108,12 +109,14 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.epics_motor.BeckhoffAxis.html">pcdsdevices.epics_motor.BeckhoffAxis</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.epics_motor.DelayNewport.html">pcdsdevices.epics_motor.DelayNewport</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.__init__.html">pcdsdevices.epics_motor.DelayNewport.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.camonitor.html">pcdsdevices.epics_motor.DelayNewport.camonitor</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.epics_motor.DelayNewport.check_single</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.check_value.html">pcdsdevices.epics_motor.DelayNewport.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.clear_sub.html">pcdsdevices.epics_motor.DelayNewport.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.configure.html">pcdsdevices.epics_motor.DelayNewport.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.describe.html">pcdsdevices.epics_motor.DelayNewport.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.describe_configuration.html">pcdsdevices.epics_motor.DelayNewport.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.end_monitor_thread.html">pcdsdevices.epics_motor.DelayNewport.end_monitor_thread</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.forward.html">pcdsdevices.epics_motor.DelayNewport.forward</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.get.html">pcdsdevices.epics_motor.DelayNewport.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.get_device_tuple.html">pcdsdevices.epics_motor.DelayNewport.get_device_tuple</a></li>
@@ -121,6 +124,9 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.inverse.html">pcdsdevices.epics_motor.DelayNewport.inverse</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.move.html">pcdsdevices.epics_motor.DelayNewport.move</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.move_single.html">pcdsdevices.epics_motor.DelayNewport.move_single</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.mv.html">pcdsdevices.epics_motor.DelayNewport.mv</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.mv_ginput.html">pcdsdevices.epics_motor.DelayNewport.mv_ginput</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.mvr.html">pcdsdevices.epics_motor.DelayNewport.mvr</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.pause.html">pcdsdevices.epics_motor.DelayNewport.pause</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.put.html">pcdsdevices.epics_motor.DelayNewport.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.read.html">pcdsdevices.epics_motor.DelayNewport.read</a></li>
@@ -134,10 +140,15 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.to_pseudo_tuple.html">pcdsdevices.epics_motor.DelayNewport.to_pseudo_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.to_real_tuple.html">pcdsdevices.epics_motor.DelayNewport.to_real_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.trigger.html">pcdsdevices.epics_motor.DelayNewport.trigger</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.tweak.html">pcdsdevices.epics_motor.DelayNewport.tweak</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.umv.html">pcdsdevices.epics_motor.DelayNewport.umv</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.umvr.html">pcdsdevices.epics_motor.DelayNewport.umvr</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.unstage.html">pcdsdevices.epics_motor.DelayNewport.unstage</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.unsubscribe.html">pcdsdevices.epics_motor.DelayNewport.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.unsubscribe_all.html">pcdsdevices.epics_motor.DelayNewport.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.wait_for_connection.html">pcdsdevices.epics_motor.DelayNewport.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.wm.html">pcdsdevices.epics_motor.DelayNewport.wm</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.wm_update.html">pcdsdevices.epics_motor.DelayNewport.wm_update</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.epics_motor.EpicsMotorInterface.html">pcdsdevices.epics_motor.EpicsMotorInterface</a></li>
@@ -151,13 +162,13 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.evr.html">pcdsdevices.evr</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.interface.html">pcdsdevices.interface</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.lodcm.html">pcdsdevices.lodcm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mirror.html">pcdsdevices.mirror</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.movablestand.html">pcdsdevices.movablestand</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mps.html">pcdsdevices.mps</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mv_interface.html">pcdsdevices.mv_interface</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
@@ -262,7 +273,7 @@
         <a href="pcdsdevices.epics_motor.DelayNewport.check_value.html" class="btn btn-neutral float-right" title="pcdsdevices.epics_motor.DelayNewport.check_value" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="pcdsdevices.epics_motor.DelayNewport.__init__.html" class="btn btn-neutral float-left" title="pcdsdevices.epics_motor.DelayNewport.__init__" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="pcdsdevices.epics_motor.DelayNewport.camonitor.html" class="btn btn-neutral float-left" title="pcdsdevices.epics_motor.DelayNewport.camonitor" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.pseudopos &mdash; PCDS Devices 2.0.0+3.g4ffe803 documentation</title>
+  <title>pcdsdevices.pseudopos &mdash; PCDS Devices 2.0.0+24.ga297f82 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.0.0+3.g4ffe803
+                2.0.0+24.ga297f82
               </div>
             
           
@@ -88,6 +88,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../mv.html">Shortcuts</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../presets.html">Preset Positions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tab.html">IPython Tab Curation</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Device Types</span></p>
 <ul>
@@ -107,16 +108,17 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.evr.html">pcdsdevices.evr</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.inout.html">pcdsdevices.inout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.interface.html">pcdsdevices.interface</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.lens.html">pcdsdevices.lens</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.lodcm.html">pcdsdevices.lodcm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.mirror.html">pcdsdevices.mirror</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.movablestand.html">pcdsdevices.movablestand</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.mps.html">pcdsdevices.mps</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.mv_interface.html">pcdsdevices.mv_interface</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">pcdsdevices.pseudopos</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayBase.html">pcdsdevices.pseudopos.DelayBase</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.html">pcdsdevices.pseudopos.PseudoSingleInterface</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.html">pcdsdevices.pseudopos.SimDelayStage</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.html">pcdsdevices.pseudopos.SyncAxesBase</a></li>
 </ul>
@@ -210,10 +212,13 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayBase.html#pcdsdevices.pseudopos.DelayBase" title="pcdsdevices.pseudopos.DelayBase"><code class="xref py py-obj docutils literal notranslate"><span class="pre">DelayBase</span></code></a>(*args[, egu, n_bounces])</p></td>
 <td><p>Laser delay stage to rescale a physical axis to a time axis.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.html#pcdsdevices.pseudopos.SimDelayStage" title="pcdsdevices.pseudopos.SimDelayStage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SimDelayStage</span></code></a>(*args[, egu, n_bounces])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.html#pcdsdevices.pseudopos.PseudoSingleInterface" title="pcdsdevices.pseudopos.PseudoSingleInterface"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PseudoSingleInterface</span></code></a>([prefix, limits, egu, …])</p></td>
+<td><p>PseudoSingle with FltMvInterface mixed in</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.html#pcdsdevices.pseudopos.SimDelayStage" title="pcdsdevices.pseudopos.SimDelayStage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SimDelayStage</span></code></a>(*args[, egu, n_bounces])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.html#pcdsdevices.pseudopos.SyncAxesBase" title="pcdsdevices.pseudopos.SyncAxesBase"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SyncAxesBase</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.html#pcdsdevices.pseudopos.SyncAxesBase" title="pcdsdevices.pseudopos.SyncAxesBase"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SyncAxesBase</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Synchronized Axes.</p></td>
 </tr>
 </tbody>

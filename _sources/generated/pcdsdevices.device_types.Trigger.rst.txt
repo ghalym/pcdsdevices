@@ -65,6 +65,8 @@ pcdsdevices.device\_types.Trigger
       ~Trigger.report
       ~Trigger.root
       ~Trigger.signal_names
+      ~Trigger.tab_component_names
+      ~Trigger.tab_whitelist
       ~Trigger.trigger_signals
       ~Trigger.width
    

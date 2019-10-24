@@ -63,6 +63,8 @@ pcdsdevices.beam\_stats.BeamStats
       ~BeamStats.report
       ~BeamStats.root
       ~BeamStats.signal_names
+      ~BeamStats.tab_component_names
+      ~BeamStats.tab_whitelist
       ~BeamStats.trigger_signals
    
    

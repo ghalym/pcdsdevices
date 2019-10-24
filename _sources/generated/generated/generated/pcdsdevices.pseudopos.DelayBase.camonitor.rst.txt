@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.DelayBase.camonitor
+=========================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: DelayBase.camonitor

@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.PseudoSingleInterface.wm\_update
+======================================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: PseudoSingleInterface.wm_update

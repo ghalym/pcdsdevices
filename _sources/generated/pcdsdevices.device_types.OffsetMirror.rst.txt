@@ -61,6 +61,7 @@ pcdsdevices.device\_types.OffsetMirror
       ~OffsetMirror.report
       ~OffsetMirror.root
       ~OffsetMirror.signal_names
+      ~OffsetMirror.tab_whitelist
       ~OffsetMirror.transmission
       ~OffsetMirror.trigger_signals
       ~OffsetMirror.xgantry

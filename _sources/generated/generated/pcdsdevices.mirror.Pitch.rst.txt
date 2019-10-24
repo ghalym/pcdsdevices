@@ -84,6 +84,7 @@ pcdsdevices.mirror.Pitch
       ~Pitch.parent
       ~Pitch.piezo_volts
       ~Pitch.position
+      ~Pitch.presets
       ~Pitch.put_complete
       ~Pitch.read_attrs
       ~Pitch.readback
@@ -94,6 +95,7 @@ pcdsdevices.mirror.Pitch
       ~Pitch.signal_names
       ~Pitch.stop_signal
       ~Pitch.stop_value
+      ~Pitch.tab_whitelist
       ~Pitch.timeout
       ~Pitch.trigger_signals
    

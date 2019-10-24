@@ -62,6 +62,7 @@ pcdsdevices.mps.MPSLimits
       ~MPSLimits.report
       ~MPSLimits.root
       ~MPSLimits.signal_names
+      ~MPSLimits.tab_whitelist
       ~MPSLimits.trigger_signals
       ~MPSLimits.tripped
    

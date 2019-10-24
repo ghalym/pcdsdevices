@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ccm.CCMY &mdash; PCDS Devices 2.0.0+3.g4ffe803 documentation</title>
+  <title>pcdsdevices.ccm.CCMY &mdash; PCDS Devices 2.0.0+24.ga297f82 documentation</title>
   
 
   
@@ -36,7 +36,7 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="pcdsdevices.ccm.CCMY.__init__" href="generated/pcdsdevices.ccm.CCMY.__init__.html" />
-    <link rel="prev" title="pcdsdevices.ccm.CCMX.wait_for_connection" href="generated/pcdsdevices.ccm.CCMX.wait_for_connection.html" /> 
+    <link rel="prev" title="pcdsdevices.ccm.CCMX.wm_update" href="generated/pcdsdevices.ccm.CCMX.wm_update.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.0.0+3.g4ffe803
+                2.0.0+24.ga297f82
               </div>
             
           
@@ -88,6 +88,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../mv.html">Shortcuts</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../presets.html">Preset Positions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tab.html">IPython Tab Curation</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Device Types</span></p>
 <ul>
@@ -116,12 +117,14 @@
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.ccm.CCMY</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.__init__.html">pcdsdevices.ccm.CCMY.__init__</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.calc_combined.html">pcdsdevices.ccm.CCMY.calc_combined</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.camonitor.html">pcdsdevices.ccm.CCMY.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.check_single.html">pcdsdevices.ccm.CCMY.check_single</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.check_value.html">pcdsdevices.ccm.CCMY.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.clear_sub.html">pcdsdevices.ccm.CCMY.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.configure.html">pcdsdevices.ccm.CCMY.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.describe.html">pcdsdevices.ccm.CCMY.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.describe_configuration.html">pcdsdevices.ccm.CCMY.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.end_monitor_thread.html">pcdsdevices.ccm.CCMY.end_monitor_thread</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.forward.html">pcdsdevices.ccm.CCMY.forward</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.get.html">pcdsdevices.ccm.CCMY.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.get_device_tuple.html">pcdsdevices.ccm.CCMY.get_device_tuple</a></li>
@@ -129,6 +132,9 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.inverse.html">pcdsdevices.ccm.CCMY.inverse</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.move.html">pcdsdevices.ccm.CCMY.move</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.move_single.html">pcdsdevices.ccm.CCMY.move_single</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.mv.html">pcdsdevices.ccm.CCMY.mv</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.mv_ginput.html">pcdsdevices.ccm.CCMY.mv_ginput</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.mvr.html">pcdsdevices.ccm.CCMY.mvr</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.pause.html">pcdsdevices.ccm.CCMY.pause</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.put.html">pcdsdevices.ccm.CCMY.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.read.html">pcdsdevices.ccm.CCMY.read</a></li>
@@ -143,10 +149,15 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.to_pseudo_tuple.html">pcdsdevices.ccm.CCMY.to_pseudo_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.to_real_tuple.html">pcdsdevices.ccm.CCMY.to_real_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.trigger.html">pcdsdevices.ccm.CCMY.trigger</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.tweak.html">pcdsdevices.ccm.CCMY.tweak</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.umv.html">pcdsdevices.ccm.CCMY.umv</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.umvr.html">pcdsdevices.ccm.CCMY.umvr</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.unstage.html">pcdsdevices.ccm.CCMY.unstage</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.unsubscribe.html">pcdsdevices.ccm.CCMY.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.unsubscribe_all.html">pcdsdevices.ccm.CCMY.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.wait_for_connection.html">pcdsdevices.ccm.CCMY.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.wm.html">pcdsdevices.ccm.CCMY.wm</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.wm_update.html">pcdsdevices.ccm.CCMY.wm_update</a></li>
 </ul>
 </li>
 </ul>
@@ -155,13 +166,13 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.evr.html">pcdsdevices.evr</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.interface.html">pcdsdevices.interface</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.lodcm.html">pcdsdevices.lodcm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.mirror.html">pcdsdevices.mirror</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.movablestand.html">pcdsdevices.movablestand</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.mps.html">pcdsdevices.mps</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.mv_interface.html">pcdsdevices.mv_interface</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
@@ -262,23 +273,29 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.calc_combined.html#pcdsdevices.ccm.CCMY.calc_combined" title="pcdsdevices.ccm.CCMY.calc_combined"><code class="xref py py-obj docutils literal notranslate"><span class="pre">calc_combined</span></code></a>(real_position)</p></td>
 <td><p>Calculate the combined pseudo position.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.check_single.html#pcdsdevices.ccm.CCMY.check_single" title="pcdsdevices.ccm.CCMY.check_single"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_single</span></code></a>(pseudo_single, single_pos)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.camonitor.html#pcdsdevices.ccm.CCMY.camonitor" title="pcdsdevices.ccm.CCMY.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</p></td>
+<td><p>Shows a live-updating motor position in the terminal.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.check_single.html#pcdsdevices.ccm.CCMY.check_single" title="pcdsdevices.ccm.CCMY.check_single"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_single</span></code></a>(pseudo_single, single_pos)</p></td>
 <td><p>Check if a new position for a single pseudo positioner is valid</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.check_value.html#pcdsdevices.ccm.CCMY.check_value" title="pcdsdevices.ccm.CCMY.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(pseudo_pos)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.check_value.html#pcdsdevices.ccm.CCMY.check_value" title="pcdsdevices.ccm.CCMY.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(pseudo_pos)</p></td>
 <td><p>Check if a new position for all pseudo positioners is valid</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.clear_sub.html#pcdsdevices.ccm.CCMY.clear_sub" title="pcdsdevices.ccm.CCMY.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.clear_sub.html#pcdsdevices.ccm.CCMY.clear_sub" title="pcdsdevices.ccm.CCMY.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
 <td><p>Remove a subscription, given the original callback function</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.configure.html#pcdsdevices.ccm.CCMY.configure" title="pcdsdevices.ccm.CCMY.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.configure.html#pcdsdevices.ccm.CCMY.configure" title="pcdsdevices.ccm.CCMY.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
 <td><p>Configure the device for something during a run</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.describe.html#pcdsdevices.ccm.CCMY.describe" title="pcdsdevices.ccm.CCMY.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.describe.html#pcdsdevices.ccm.CCMY.describe" title="pcdsdevices.ccm.CCMY.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
 <td><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.describe_configuration.html#pcdsdevices.ccm.CCMY.describe_configuration" title="pcdsdevices.ccm.CCMY.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.describe_configuration.html#pcdsdevices.ccm.CCMY.describe_configuration" title="pcdsdevices.ccm.CCMY.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</p></td>
 <td><p>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.end_monitor_thread.html#pcdsdevices.ccm.CCMY.end_monitor_thread" title="pcdsdevices.ccm.CCMY.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
+<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.camonitor.html#pcdsdevices.ccm.CCMY.camonitor" title="pcdsdevices.ccm.CCMY.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.wm_update.html#pcdsdevices.ccm.CCMY.wm_update" title="pcdsdevices.ccm.CCMY.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.forward.html#pcdsdevices.ccm.CCMY.forward" title="pcdsdevices.ccm.CCMY.forward"><code class="xref py py-obj docutils literal notranslate"><span class="pre">forward</span></code></a>(pseudo_pos)</p></td>
 <td><p>Composite axes move to the combined axis position plus an offset</p></td>
@@ -301,47 +318,65 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.move_single.html#pcdsdevices.ccm.CCMY.move_single" title="pcdsdevices.ccm.CCMY.move_single"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move_single</span></code></a>(pseudo, position, **kwargs)</p></td>
 <td><p>Move one PseudoSingle axis to a position</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.pause.html#pcdsdevices.ccm.CCMY.pause" title="pcdsdevices.ccm.CCMY.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.mv.html#pcdsdevices.ccm.CCMY.mv" title="pcdsdevices.ccm.CCMY.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[, timeout, wait])</p></td>
+<td><p>Absolute move to a position.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.mv_ginput.html#pcdsdevices.ccm.CCMY.mv_ginput" title="pcdsdevices.ccm.CCMY.mv_ginput"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv_ginput</span></code></a>([timeout])</p></td>
+<td><p>Moves to a location the user clicks on.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.mvr.html#pcdsdevices.ccm.CCMY.mvr" title="pcdsdevices.ccm.CCMY.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[, timeout, wait])</p></td>
+<td><p>Relative move from this position.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.pause.html#pcdsdevices.ccm.CCMY.pause" title="pcdsdevices.ccm.CCMY.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
 <td><p>Attempt to ‘pause’ the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.put.html#pcdsdevices.ccm.CCMY.put" title="pcdsdevices.ccm.CCMY.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.put.html#pcdsdevices.ccm.CCMY.put" title="pcdsdevices.ccm.CCMY.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
 <td><p>Put a value to all components of the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.read.html#pcdsdevices.ccm.CCMY.read" title="pcdsdevices.ccm.CCMY.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.read.html#pcdsdevices.ccm.CCMY.read" title="pcdsdevices.ccm.CCMY.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
 <td><p>Read data from the device</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.read_configuration.html#pcdsdevices.ccm.CCMY.read_configuration" title="pcdsdevices.ccm.CCMY.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.read_configuration.html#pcdsdevices.ccm.CCMY.read_configuration" title="pcdsdevices.ccm.CCMY.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>returns dictionary mapping names to (value, timestamp) pairs</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.resume.html#pcdsdevices.ccm.CCMY.resume" title="pcdsdevices.ccm.CCMY.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.resume.html#pcdsdevices.ccm.CCMY.resume" title="pcdsdevices.ccm.CCMY.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.save_offsets.html#pcdsdevices.ccm.CCMY.save_offsets" title="pcdsdevices.ccm.CCMY.save_offsets"><code class="xref py py-obj docutils literal notranslate"><span class="pre">save_offsets</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.save_offsets.html#pcdsdevices.ccm.CCMY.save_offsets" title="pcdsdevices.ccm.CCMY.save_offsets"><code class="xref py py-obj docutils literal notranslate"><span class="pre">save_offsets</span></code></a>()</p></td>
 <td><p>Save the current offsets for the synchronized assembly.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.set.html#pcdsdevices.ccm.CCMY.set" title="pcdsdevices.ccm.CCMY.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.set.html#pcdsdevices.ccm.CCMY.set" title="pcdsdevices.ccm.CCMY.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position, **kwargs)</p></td>
 <td><p>Move to a new position asynchronously</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.stage.html#pcdsdevices.ccm.CCMY.stage" title="pcdsdevices.ccm.CCMY.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.stage.html#pcdsdevices.ccm.CCMY.stage" title="pcdsdevices.ccm.CCMY.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
 <td><p>Stage the device for data collection.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.stop.html#pcdsdevices.ccm.CCMY.stop" title="pcdsdevices.ccm.CCMY.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>([success])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.stop.html#pcdsdevices.ccm.CCMY.stop" title="pcdsdevices.ccm.CCMY.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>([success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.subscribe.html#pcdsdevices.ccm.CCMY.subscribe" title="pcdsdevices.ccm.CCMY.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[, event_type, run])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.subscribe.html#pcdsdevices.ccm.CCMY.subscribe" title="pcdsdevices.ccm.CCMY.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[, event_type, run])</p></td>
 <td><p>Subscribe to events this event_type generates.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.summary.html#pcdsdevices.ccm.CCMY.summary" title="pcdsdevices.ccm.CCMY.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.summary.html#pcdsdevices.ccm.CCMY.summary" title="pcdsdevices.ccm.CCMY.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.to_pseudo_tuple.html#pcdsdevices.ccm.CCMY.to_pseudo_tuple" title="pcdsdevices.ccm.CCMY.to_pseudo_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_pseudo_tuple</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.to_pseudo_tuple.html#pcdsdevices.ccm.CCMY.to_pseudo_tuple" title="pcdsdevices.ccm.CCMY.to_pseudo_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_pseudo_tuple</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Convert arguments to a PseudoPosition namedtuple and kwargs</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.to_real_tuple.html#pcdsdevices.ccm.CCMY.to_real_tuple" title="pcdsdevices.ccm.CCMY.to_real_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_real_tuple</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.to_real_tuple.html#pcdsdevices.ccm.CCMY.to_real_tuple" title="pcdsdevices.ccm.CCMY.to_real_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_real_tuple</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Convert arguments to a RealPosition namedtuple and kwargs</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.trigger.html#pcdsdevices.ccm.CCMY.trigger" title="pcdsdevices.ccm.CCMY.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.trigger.html#pcdsdevices.ccm.CCMY.trigger" title="pcdsdevices.ccm.CCMY.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.tweak.html#pcdsdevices.ccm.CCMY.tweak" title="pcdsdevices.ccm.CCMY.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
+<td><p>Control this motor using the arrow keys.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.umv.html#pcdsdevices.ccm.CCMY.umv" title="pcdsdevices.ccm.CCMY.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout])</p></td>
+<td><p>Move to a position, wait, and update with a progress bar.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.umvr.html#pcdsdevices.ccm.CCMY.umvr" title="pcdsdevices.ccm.CCMY.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout])</p></td>
+<td><p>Relative move from this position, wait, and update with a progress bar.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.unstage.html#pcdsdevices.ccm.CCMY.unstage" title="pcdsdevices.ccm.CCMY.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</p></td>
 <td><p>Unstage the device.</p></td>
@@ -354,6 +389,12 @@
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.wait_for_connection.html#pcdsdevices.ccm.CCMY.wait_for_connection" title="pcdsdevices.ccm.CCMY.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals, timeout])</p></td>
 <td><p>Wait for signals to connect</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.wm.html#pcdsdevices.ccm.CCMY.wm" title="pcdsdevices.ccm.CCMY.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<td><p>Get the mover’s positon (where motor)</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.wm_update.html#pcdsdevices.ccm.CCMY.wm_update" title="pcdsdevices.ccm.CCMY.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>
 </table>
@@ -427,49 +468,58 @@
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></p></td>
 <td><p>Pseudo motor position namedtuple</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pseudo</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">presets</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pseudo</span></code></p></td>
 <td><p>Component attribute</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pseudo_positioners</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pseudo_positioners</span></code></p></td>
 <td><p>Pseudo positioners instances in a namedtuple</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">real_position</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">real_position</span></code></p></td>
 <td><p>Real motor position namedtuple</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">real_positioners</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">real_positioners</span></code></p></td>
 <td><p>Real positioners instances in a namedtuple</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
 <td><p>A report on the object.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></p></td>
 <td><p>Walk parents to find ultimate ancestor (parent’s parent…).</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">sequential</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">sequential</span></code></p></td>
 <td><p>If sequential is set, motors will move in the sequence they were defined in (i.e., in series)</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></p></td>
 <td><p>Amount of time to wait after moves to report status completion</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">target</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tab_component_names</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tab_whitelist</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">target</span></code></p></td>
 <td><p>Last commanded target positions</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">timeout</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">timeout</span></code></p></td>
 <td><p>Amount of time to wait before to considering a motion as failed</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">up_north</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">up_north</span></code></p></td>
 <td><p>FormattedComponent attribute</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">up_south</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">up_south</span></code></p></td>
 <td><p>FormattedComponent attribute</p></td>
 </tr>
 </tbody>
@@ -489,7 +539,7 @@
         <a href="generated/pcdsdevices.ccm.CCMY.__init__.html" class="btn btn-neutral float-right" title="pcdsdevices.ccm.CCMY.__init__" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="generated/pcdsdevices.ccm.CCMX.wait_for_connection.html" class="btn btn-neutral float-left" title="pcdsdevices.ccm.CCMX.wait_for_connection" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="generated/pcdsdevices.ccm.CCMX.wm_update.html" class="btn btn-neutral float-left" title="pcdsdevices.ccm.CCMX.wm_update" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

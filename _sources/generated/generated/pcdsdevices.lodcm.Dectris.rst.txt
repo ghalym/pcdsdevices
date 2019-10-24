@@ -85,6 +85,7 @@ pcdsdevices.lodcm.Dectris
       ~Dectris.signal_names
       ~Dectris.state
       ~Dectris.states_list
+      ~Dectris.tab_whitelist
       ~Dectris.timeout
       ~Dectris.transmission
       ~Dectris.trigger_signals

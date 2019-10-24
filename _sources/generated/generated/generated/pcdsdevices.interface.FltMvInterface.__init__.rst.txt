@@ -1,0 +1,6 @@
+pcdsdevices.interface.FltMvInterface.\_\_init\_\_
+=================================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: FltMvInterface.__init__

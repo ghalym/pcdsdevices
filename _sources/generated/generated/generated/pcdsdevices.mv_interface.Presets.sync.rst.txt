@@ -1,6 +1,0 @@
-pcdsdevices.mv\_interface.Presets.sync
-======================================
-
-.. currentmodule:: pcdsdevices.mv_interface
-
-.. automethod:: Presets.sync

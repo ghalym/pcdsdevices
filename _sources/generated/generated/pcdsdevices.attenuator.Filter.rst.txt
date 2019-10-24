@@ -86,6 +86,8 @@ pcdsdevices.attenuator.Filter
       ~Filter.state
       ~Filter.states_list
       ~Filter.stuck
+      ~Filter.tab_component_names
+      ~Filter.tab_whitelist
       ~Filter.thickness
       ~Filter.timeout
       ~Filter.transmission

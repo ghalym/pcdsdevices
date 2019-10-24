@@ -1,6 +1,0 @@
-pcdsdevices.mv\_interface.tweak\_base
-=====================================
-
-.. currentmodule:: pcdsdevices.mv_interface
-
-.. autofunction:: tweak_base

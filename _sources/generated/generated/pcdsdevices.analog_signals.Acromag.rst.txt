@@ -89,6 +89,8 @@ pcdsdevices.analog\_signals.Acromag
       ~Acromag.report
       ~Acromag.root
       ~Acromag.signal_names
+      ~Acromag.tab_component_names
+      ~Acromag.tab_whitelist
       ~Acromag.trigger_signals
    
    

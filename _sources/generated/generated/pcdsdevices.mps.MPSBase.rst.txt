@@ -35,6 +35,7 @@ pcdsdevices.mps.MPSBase
       ~MPSBase.parent
       ~MPSBase.report
       ~MPSBase.root
+      ~MPSBase.tab_whitelist
       ~MPSBase.tripped
    
    

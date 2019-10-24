@@ -78,6 +78,7 @@ pcdsdevices.device\_types.Slits
       ~Slits.report
       ~Slits.root
       ~Slits.signal_names
+      ~Slits.tab_whitelist
       ~Slits.trigger_signals
       ~Slits.xcenter
       ~Slits.xwidth

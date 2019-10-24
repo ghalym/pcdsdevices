@@ -63,6 +63,8 @@ pcdsdevices.gauge.BaseGauge
       ~BaseGauge.signal_names
       ~BaseGauge.state
       ~BaseGauge.status
+      ~BaseGauge.tab_component_names
+      ~BaseGauge.tab_whitelist
       ~BaseGauge.trigger_signals
    
    

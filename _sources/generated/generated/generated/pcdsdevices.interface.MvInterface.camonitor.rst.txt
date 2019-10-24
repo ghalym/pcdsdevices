@@ -1,0 +1,6 @@
+pcdsdevices.interface.MvInterface.camonitor
+===========================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: MvInterface.camonitor

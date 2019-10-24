@@ -96,6 +96,7 @@ pcdsdevices.attenuator.FeeAtt
       ~FeeAtt.num_att
       ~FeeAtt.parent
       ~FeeAtt.position
+      ~FeeAtt.presets
       ~FeeAtt.put_complete
       ~FeeAtt.read_attrs
       ~FeeAtt.readback
@@ -107,6 +108,7 @@ pcdsdevices.attenuator.FeeAtt
       ~FeeAtt.signal_names
       ~FeeAtt.stop_signal
       ~FeeAtt.stop_value
+      ~FeeAtt.tab_whitelist
       ~FeeAtt.timeout
       ~FeeAtt.trans_ceil
       ~FeeAtt.trans_floor

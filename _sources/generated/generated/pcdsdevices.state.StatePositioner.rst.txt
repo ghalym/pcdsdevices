@@ -78,6 +78,7 @@ pcdsdevices.state.StatePositioner
       ~StatePositioner.signal_names
       ~StatePositioner.state
       ~StatePositioner.states_list
+      ~StatePositioner.tab_whitelist
       ~StatePositioner.timeout
       ~StatePositioner.trigger_signals
    

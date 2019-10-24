@@ -84,6 +84,8 @@ pcdsdevices.lens.LensStack
       ~LensStack.sequential
       ~LensStack.settle_time
       ~LensStack.signal_names
+      ~LensStack.tab_component_names
+      ~LensStack.tab_whitelist
       ~LensStack.target
       ~LensStack.timeout
       ~LensStack.trigger_signals

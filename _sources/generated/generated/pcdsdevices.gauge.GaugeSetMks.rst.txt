@@ -61,6 +61,8 @@ pcdsdevices.gauge.GaugeSetMks
       ~GaugeSetMks.report
       ~GaugeSetMks.root
       ~GaugeSetMks.signal_names
+      ~GaugeSetMks.tab_component_names
+      ~GaugeSetMks.tab_whitelist
       ~GaugeSetMks.trigger_signals
    
    

@@ -85,6 +85,7 @@ pcdsdevices.lodcm.H1N
       ~H1N.signal_names
       ~H1N.state
       ~H1N.states_list
+      ~H1N.tab_whitelist
       ~H1N.timeout
       ~H1N.transmission
       ~H1N.trigger_signals

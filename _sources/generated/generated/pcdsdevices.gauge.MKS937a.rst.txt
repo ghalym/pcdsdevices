@@ -63,6 +63,8 @@ pcdsdevices.gauge.MKS937a
       ~MKS937a.report
       ~MKS937a.root
       ~MKS937a.signal_names
+      ~MKS937a.tab_component_names
+      ~MKS937a.tab_whitelist
       ~MKS937a.trigger_signals
       ~MKS937a.unit
       ~MKS937a.user_calibration

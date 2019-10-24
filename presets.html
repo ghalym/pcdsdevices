@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Preset Positions &mdash; PCDS Devices 2.0.0+3.g4ffe803 documentation</title>
+  <title>Preset Positions &mdash; PCDS Devices 2.0.0+24.ga297f82 documentation</title>
   
 
   
@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Common EPICS Devices" href="epics_types.html" />
+    <link rel="next" title="IPython Tab Curation" href="tab.html" />
     <link rel="prev" title="Shortcuts" href="mv.html" /> 
 </head>
 
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.0.0+3.g4ffe803
+                2.0.0+24.ga297f82
               </div>
             
           
@@ -94,6 +94,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#configuring-presets">Configuring Presets</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="tab.html">IPython Tab Curation</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Device Types</span></p>
 <ul>
@@ -172,7 +173,7 @@
   <div class="section" id="preset-positions">
 <h1>Preset Positions<a class="headerlink" href="#preset-positions" title="Permalink to this headline">¶</a></h1>
 <p>All <code class="docutils literal notranslate"><span class="pre">pcdsdevices</span></code> objects that involve moving positioners across a
-continuum of positions can save preset positions. See <a class="reference internal" href="generated/generated/pcdsdevices.mv_interface.Presets.html#pcdsdevices.mv_interface.Presets" title="pcdsdevices.mv_interface.Presets"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Presets</span></code></a> for a
+continuum of positions can save preset positions. See <a class="reference internal" href="generated/generated/pcdsdevices.interface.Presets.html#pcdsdevices.interface.Presets" title="pcdsdevices.interface.Presets"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Presets</span></code></a> for a
 full API description, or stay here for the user guide.</p>
 <div class="section" id="creating-a-preset">
 <h2>Creating a Preset<a class="headerlink" href="#creating-a-preset" title="Permalink to this headline">¶</a></h2>
@@ -239,7 +240,7 @@ These will be added directly to the object, not to the <code class="docutils lit
 <p>You can see all existing presets via checking <code class="docutils literal notranslate"><span class="pre">my_motor.presets.positions</span></code>.
 In <code class="xref any docutils literal notranslate"><span class="pre">IPython</span></code>, this will show you all the current presets. You can also use
 this <code class="docutils literal notranslate"><span class="pre">presets.positions</span></code> object to manage the set positions. Each attribute
-is an instance of <a class="reference internal" href="generated/generated/pcdsdevices.mv_interface.PresetPosition.html#pcdsdevices.mv_interface.PresetPosition" title="pcdsdevices.mv_interface.PresetPosition"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PresetPosition</span></code></a> that can be managed. See <a class="reference internal" href="generated/generated/pcdsdevices.mv_interface.PresetPosition.html#pcdsdevices.mv_interface.PresetPosition" title="pcdsdevices.mv_interface.PresetPosition"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PresetPosition</span></code></a>
+is an instance of <a class="reference internal" href="generated/generated/pcdsdevices.interface.PresetPosition.html#pcdsdevices.interface.PresetPosition" title="pcdsdevices.interface.PresetPosition"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PresetPosition</span></code></a> that can be managed. See <a class="reference internal" href="generated/generated/pcdsdevices.interface.PresetPosition.html#pcdsdevices.interface.PresetPosition" title="pcdsdevices.interface.PresetPosition"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PresetPosition</span></code></a>
 for the full API.</p>
 </div>
 <div class="section" id="configuring-presets">
@@ -247,7 +248,7 @@ for the full API.</p>
 <p>Presets are configured in <code class="docutils literal notranslate"><span class="pre">hutch-python</span></code> to use <code class="docutils literal notranslate"><span class="pre">add_hutch</span></code> and <code class="docutils literal notranslate"><span class="pre">add_exp</span></code>
 as the preset-adding methods, with the <code class="docutils literal notranslate"><span class="pre">add_hutch</span></code> method saving to a hutch
 directory and <code class="docutils literal notranslate"><span class="pre">add_exp</span></code> saving to an experiment directory. This can be
-changed for other applications using the <a class="reference internal" href="generated/generated/pcdsdevices.mv_interface.setup_preset_paths.html#pcdsdevices.mv_interface.setup_preset_paths" title="pcdsdevices.mv_interface.setup_preset_paths"><code class="xref any py py-func docutils literal notranslate"><span class="pre">setup_preset_paths</span></code></a> method.
+changed for other applications using the <a class="reference internal" href="generated/generated/pcdsdevices.interface.setup_preset_paths.html#pcdsdevices.interface.setup_preset_paths" title="pcdsdevices.interface.setup_preset_paths"><code class="xref any py py-func docutils literal notranslate"><span class="pre">setup_preset_paths</span></code></a> method.
 This method must be called for the presets to be saved and loaded.</p>
 </div>
 </div>
@@ -260,7 +261,7 @@ This method must be called for the presets to be saved and loaded.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="epics_types.html" class="btn btn-neutral float-right" title="Common EPICS Devices" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="tab.html" class="btn btn-neutral float-right" title="IPython Tab Curation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="mv.html" class="btn btn-neutral float-left" title="Shortcuts" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

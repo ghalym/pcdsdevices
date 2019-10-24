@@ -86,6 +86,7 @@ pcdsdevices.pim.PIM
       ~PIM.signal_names
       ~PIM.state
       ~PIM.states_list
+      ~PIM.tab_whitelist
       ~PIM.timeout
       ~PIM.transmission
       ~PIM.trigger_signals

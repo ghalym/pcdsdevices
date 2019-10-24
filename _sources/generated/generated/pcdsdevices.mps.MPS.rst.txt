@@ -62,6 +62,7 @@ pcdsdevices.mps.MPS
       ~MPS.report
       ~MPS.root
       ~MPS.signal_names
+      ~MPS.tab_whitelist
       ~MPS.trigger_signals
       ~MPS.tripped
    

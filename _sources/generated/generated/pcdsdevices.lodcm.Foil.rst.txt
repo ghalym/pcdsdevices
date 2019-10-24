@@ -85,6 +85,7 @@ pcdsdevices.lodcm.Foil
       ~Foil.signal_names
       ~Foil.state
       ~Foil.states_list
+      ~Foil.tab_whitelist
       ~Foil.timeout
       ~Foil.transmission
       ~Foil.trigger_signals

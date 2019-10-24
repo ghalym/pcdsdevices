@@ -85,6 +85,7 @@ pcdsdevices.device\_types.XFLS
       ~XFLS.signal_names
       ~XFLS.state
       ~XFLS.states_list
+      ~XFLS.tab_whitelist
       ~XFLS.timeout
       ~XFLS.transmission
       ~XFLS.trigger_signals

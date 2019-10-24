@@ -85,6 +85,8 @@ pcdsdevices.ccm.CCM
       ~CCM.signal_names
       ~CCM.state
       ~CCM.states_list
+      ~CCM.tab_component_names
+      ~CCM.tab_whitelist
       ~CCM.theta2fine
       ~CCM.timeout
       ~CCM.transmission

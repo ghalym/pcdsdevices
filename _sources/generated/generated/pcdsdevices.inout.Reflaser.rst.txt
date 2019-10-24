@@ -85,6 +85,7 @@ pcdsdevices.inout.Reflaser
       ~Reflaser.signal_names
       ~Reflaser.state
       ~Reflaser.states_list
+      ~Reflaser.tab_whitelist
       ~Reflaser.timeout
       ~Reflaser.transmission
       ~Reflaser.trigger_signals

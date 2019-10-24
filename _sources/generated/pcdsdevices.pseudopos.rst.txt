@@ -15,6 +15,7 @@ pcdsdevices.pseudopos
       :toctree: generated
    
       DelayBase
+      PseudoSingleInterface
       SimDelayStage
       SyncAxesBase
    

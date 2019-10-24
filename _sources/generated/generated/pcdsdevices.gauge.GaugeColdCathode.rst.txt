@@ -70,6 +70,8 @@ pcdsdevices.gauge.GaugeColdCathode
       ~GaugeColdCathode.signal_names
       ~GaugeColdCathode.state
       ~GaugeColdCathode.status
+      ~GaugeColdCathode.tab_component_names
+      ~GaugeColdCathode.tab_whitelist
       ~GaugeColdCathode.trigger_signals
    
    

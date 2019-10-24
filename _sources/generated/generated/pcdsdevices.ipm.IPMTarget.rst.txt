@@ -85,6 +85,7 @@ pcdsdevices.ipm.IPMTarget
       ~IPMTarget.signal_names
       ~IPMTarget.state
       ~IPMTarget.states_list
+      ~IPMTarget.tab_whitelist
       ~IPMTarget.timeout
       ~IPMTarget.transmission
       ~IPMTarget.trigger_signals

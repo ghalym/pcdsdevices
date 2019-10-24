@@ -85,6 +85,7 @@ pcdsdevices.lodcm.YagLom
       ~YagLom.signal_names
       ~YagLom.state
       ~YagLom.states_list
+      ~YagLom.tab_whitelist
       ~YagLom.timeout
       ~YagLom.transmission
       ~YagLom.trigger_signals

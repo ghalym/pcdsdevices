@@ -98,12 +98,14 @@ pcdsdevices.device\_types.Newport
       ~Newport.parent
       ~Newport.position
       ~Newport.precision
+      ~Newport.presets
       ~Newport.read_attrs
       ~Newport.report
       ~Newport.root
       ~Newport.set_use_switch
       ~Newport.settle_time
       ~Newport.signal_names
+      ~Newport.tab_whitelist
       ~Newport.timeout
       ~Newport.tolerated_alarm
       ~Newport.trigger_signals

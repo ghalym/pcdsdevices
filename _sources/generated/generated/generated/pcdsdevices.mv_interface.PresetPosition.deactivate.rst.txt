@@ -1,6 +1,0 @@
-pcdsdevices.mv\_interface.PresetPosition.deactivate
-===================================================
-
-.. currentmodule:: pcdsdevices.mv_interface
-
-.. automethod:: PresetPosition.deactivate

@@ -1,0 +1,6 @@
+pcdsdevices.interface.AbsProgressBar.\_\_init\_\_
+=================================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: AbsProgressBar.__init__

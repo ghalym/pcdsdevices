@@ -62,6 +62,8 @@ pcdsdevices.gauge.GaugeSetPiraniMks
       ~GaugeSetPiraniMks.report
       ~GaugeSetPiraniMks.root
       ~GaugeSetPiraniMks.signal_names
+      ~GaugeSetPiraniMks.tab_component_names
+      ~GaugeSetPiraniMks.tab_whitelist
       ~GaugeSetPiraniMks.trigger_signals
    
    

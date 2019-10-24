@@ -13,12 +13,14 @@ pcdsdevices.epics\_motor.DelayNewport
       :toctree: generated
    
       ~DelayNewport.__init__
+      ~DelayNewport.camonitor
       ~DelayNewport.check_single
       ~DelayNewport.check_value
       ~DelayNewport.clear_sub
       ~DelayNewport.configure
       ~DelayNewport.describe
       ~DelayNewport.describe_configuration
+      ~DelayNewport.end_monitor_thread
       ~DelayNewport.forward
       ~DelayNewport.get
       ~DelayNewport.get_device_tuple
@@ -26,6 +28,9 @@ pcdsdevices.epics\_motor.DelayNewport
       ~DelayNewport.inverse
       ~DelayNewport.move
       ~DelayNewport.move_single
+      ~DelayNewport.mv
+      ~DelayNewport.mv_ginput
+      ~DelayNewport.mvr
       ~DelayNewport.pause
       ~DelayNewport.put
       ~DelayNewport.read
@@ -39,10 +44,15 @@ pcdsdevices.epics\_motor.DelayNewport
       ~DelayNewport.to_pseudo_tuple
       ~DelayNewport.to_real_tuple
       ~DelayNewport.trigger
+      ~DelayNewport.tweak
+      ~DelayNewport.umv
+      ~DelayNewport.umvr
       ~DelayNewport.unstage
       ~DelayNewport.unsubscribe
       ~DelayNewport.unsubscribe_all
       ~DelayNewport.wait_for_connection
+      ~DelayNewport.wm
+      ~DelayNewport.wm_update
    
    
 
@@ -74,6 +84,7 @@ pcdsdevices.epics\_motor.DelayNewport
       ~DelayNewport.name
       ~DelayNewport.parent
       ~DelayNewport.position
+      ~DelayNewport.presets
       ~DelayNewport.pseudo_positioners
       ~DelayNewport.read_attrs
       ~DelayNewport.real_position
@@ -83,6 +94,7 @@ pcdsdevices.epics\_motor.DelayNewport
       ~DelayNewport.sequential
       ~DelayNewport.settle_time
       ~DelayNewport.signal_names
+      ~DelayNewport.tab_whitelist
       ~DelayNewport.target
       ~DelayNewport.timeout
       ~DelayNewport.trigger_signals

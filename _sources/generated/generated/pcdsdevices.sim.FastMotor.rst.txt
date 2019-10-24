@@ -74,11 +74,13 @@ pcdsdevices.sim.FastMotor
       ~FastMotor.name
       ~FastMotor.parent
       ~FastMotor.position
+      ~FastMotor.presets
       ~FastMotor.read_attrs
       ~FastMotor.report
       ~FastMotor.root
       ~FastMotor.settle_time
       ~FastMotor.signal_names
+      ~FastMotor.tab_whitelist
       ~FastMotor.timeout
       ~FastMotor.trigger_signals
       ~FastMotor.user_readback

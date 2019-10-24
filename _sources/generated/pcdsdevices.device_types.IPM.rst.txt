@@ -61,6 +61,7 @@ pcdsdevices.device\_types.IPM
       ~IPM.report
       ~IPM.root
       ~IPM.signal_names
+      ~IPM.tab_whitelist
       ~IPM.target
       ~IPM.transmission
       ~IPM.trigger_signals

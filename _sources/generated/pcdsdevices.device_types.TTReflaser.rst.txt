@@ -85,6 +85,7 @@ pcdsdevices.device\_types.TTReflaser
       ~TTReflaser.signal_names
       ~TTReflaser.state
       ~TTReflaser.states_list
+      ~TTReflaser.tab_whitelist
       ~TTReflaser.timeout
       ~TTReflaser.transmission
       ~TTReflaser.trigger_signals

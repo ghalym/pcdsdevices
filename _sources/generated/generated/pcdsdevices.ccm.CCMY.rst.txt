@@ -14,12 +14,14 @@ pcdsdevices.ccm.CCMY
    
       ~CCMY.__init__
       ~CCMY.calc_combined
+      ~CCMY.camonitor
       ~CCMY.check_single
       ~CCMY.check_value
       ~CCMY.clear_sub
       ~CCMY.configure
       ~CCMY.describe
       ~CCMY.describe_configuration
+      ~CCMY.end_monitor_thread
       ~CCMY.forward
       ~CCMY.get
       ~CCMY.get_device_tuple
@@ -27,6 +29,9 @@ pcdsdevices.ccm.CCMY
       ~CCMY.inverse
       ~CCMY.move
       ~CCMY.move_single
+      ~CCMY.mv
+      ~CCMY.mv_ginput
+      ~CCMY.mvr
       ~CCMY.pause
       ~CCMY.put
       ~CCMY.read
@@ -41,10 +46,15 @@ pcdsdevices.ccm.CCMY
       ~CCMY.to_pseudo_tuple
       ~CCMY.to_real_tuple
       ~CCMY.trigger
+      ~CCMY.tweak
+      ~CCMY.umv
+      ~CCMY.umvr
       ~CCMY.unstage
       ~CCMY.unsubscribe
       ~CCMY.unsubscribe_all
       ~CCMY.wait_for_connection
+      ~CCMY.wm
+      ~CCMY.wm_update
    
    
 
@@ -75,6 +85,7 @@ pcdsdevices.ccm.CCMY
       ~CCMY.name
       ~CCMY.parent
       ~CCMY.position
+      ~CCMY.presets
       ~CCMY.pseudo
       ~CCMY.pseudo_positioners
       ~CCMY.read_attrs
@@ -85,6 +96,8 @@ pcdsdevices.ccm.CCMY
       ~CCMY.sequential
       ~CCMY.settle_time
       ~CCMY.signal_names
+      ~CCMY.tab_component_names
+      ~CCMY.tab_whitelist
       ~CCMY.target
       ~CCMY.timeout
       ~CCMY.trigger_signals

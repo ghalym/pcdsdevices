@@ -1,0 +1,27 @@
+pcdsdevices.interface.BaseInterface
+===================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. autoclass:: BaseInterface
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~BaseInterface.__init__
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~BaseInterface.tab_whitelist
+   
+   

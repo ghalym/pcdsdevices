@@ -63,6 +63,8 @@ pcdsdevices.gauge.GaugePirani
       ~GaugePirani.signal_names
       ~GaugePirani.state
       ~GaugePirani.status
+      ~GaugePirani.tab_component_names
+      ~GaugePirani.tab_whitelist
       ~GaugePirani.trigger_signals
    
    

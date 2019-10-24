@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.DelayNewport.__init__ &mdash; PCDS Devices 2.0.0+3.g4ffe803 documentation</title>
+  <title>pcdsdevices.device_types.DelayNewport.__init__ &mdash; PCDS Devices 2.0.0+24.ga297f82 documentation</title>
   
 
   
@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="pcdsdevices.device_types.DelayNewport.check_single" href="pcdsdevices.device_types.DelayNewport.check_single.html" />
+    <link rel="next" title="pcdsdevices.device_types.DelayNewport.camonitor" href="pcdsdevices.device_types.DelayNewport.camonitor.html" />
     <link rel="prev" title="pcdsdevices.device_types.DelayNewport" href="../pcdsdevices.device_types.DelayNewport.html" /> 
 </head>
 
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.0.0+3.g4ffe803
+                2.0.0+24.ga297f82
               </div>
             
           
@@ -88,6 +88,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../mv.html">Shortcuts</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../presets.html">Preset Positions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tab.html">IPython Tab Curation</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Device Types</span></p>
 <ul class="current">
@@ -98,12 +99,14 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.CCM.html">pcdsdevices.device_types.CCM</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.device_types.DelayNewport.html">pcdsdevices.device_types.DelayNewport</a><ul class="current">
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.device_types.DelayNewport.__init__</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.camonitor.html">pcdsdevices.device_types.DelayNewport.camonitor</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.check_single.html">pcdsdevices.device_types.DelayNewport.check_single</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.check_value.html">pcdsdevices.device_types.DelayNewport.check_value</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.clear_sub.html">pcdsdevices.device_types.DelayNewport.clear_sub</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.configure.html">pcdsdevices.device_types.DelayNewport.configure</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.describe.html">pcdsdevices.device_types.DelayNewport.describe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.describe_configuration.html">pcdsdevices.device_types.DelayNewport.describe_configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.end_monitor_thread.html">pcdsdevices.device_types.DelayNewport.end_monitor_thread</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.forward.html">pcdsdevices.device_types.DelayNewport.forward</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.get.html">pcdsdevices.device_types.DelayNewport.get</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.get_device_tuple.html">pcdsdevices.device_types.DelayNewport.get_device_tuple</a></li>
@@ -111,6 +114,9 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.inverse.html">pcdsdevices.device_types.DelayNewport.inverse</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.move.html">pcdsdevices.device_types.DelayNewport.move</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.move_single.html">pcdsdevices.device_types.DelayNewport.move_single</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.mv.html">pcdsdevices.device_types.DelayNewport.mv</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.mv_ginput.html">pcdsdevices.device_types.DelayNewport.mv_ginput</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.mvr.html">pcdsdevices.device_types.DelayNewport.mvr</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.pause.html">pcdsdevices.device_types.DelayNewport.pause</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.put.html">pcdsdevices.device_types.DelayNewport.put</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.read.html">pcdsdevices.device_types.DelayNewport.read</a></li>
@@ -124,10 +130,15 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.to_pseudo_tuple.html">pcdsdevices.device_types.DelayNewport.to_pseudo_tuple</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.to_real_tuple.html">pcdsdevices.device_types.DelayNewport.to_real_tuple</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.trigger.html">pcdsdevices.device_types.DelayNewport.trigger</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.tweak.html">pcdsdevices.device_types.DelayNewport.tweak</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.umv.html">pcdsdevices.device_types.DelayNewport.umv</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.umvr.html">pcdsdevices.device_types.DelayNewport.umvr</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.unstage.html">pcdsdevices.device_types.DelayNewport.unstage</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.unsubscribe.html">pcdsdevices.device_types.DelayNewport.unsubscribe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.unsubscribe_all.html">pcdsdevices.device_types.DelayNewport.unsubscribe_all</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.wait_for_connection.html">pcdsdevices.device_types.DelayNewport.wait_for_connection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.wm.html">pcdsdevices.device_types.DelayNewport.wm</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.DelayNewport.wm_update.html">pcdsdevices.device_types.DelayNewport.wm_update</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.EpicsMotor.html">pcdsdevices.device_types.EpicsMotor</a></li>
@@ -248,7 +259,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.device_types.DelayNewport.check_single.html" class="btn btn-neutral float-right" title="pcdsdevices.device_types.DelayNewport.check_single" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.device_types.DelayNewport.camonitor.html" class="btn btn-neutral float-right" title="pcdsdevices.device_types.DelayNewport.camonitor" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="../pcdsdevices.device_types.DelayNewport.html" class="btn btn-neutral float-left" title="pcdsdevices.device_types.DelayNewport" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

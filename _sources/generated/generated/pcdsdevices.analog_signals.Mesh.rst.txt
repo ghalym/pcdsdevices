@@ -63,6 +63,7 @@ pcdsdevices.analog\_signals.Mesh
       ~Mesh.report
       ~Mesh.root
       ~Mesh.signal_names
+      ~Mesh.tab_whitelist
       ~Mesh.trigger_signals
       ~Mesh.write_sig
    

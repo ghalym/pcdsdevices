@@ -98,6 +98,7 @@ pcdsdevices.pulsepicker.PulsePicker
       ~PulsePicker.signal_names
       ~PulsePicker.state
       ~PulsePicker.states_list
+      ~PulsePicker.tab_whitelist
       ~PulsePicker.timeout
       ~PulsePicker.transmission
       ~PulsePicker.trigger_signals

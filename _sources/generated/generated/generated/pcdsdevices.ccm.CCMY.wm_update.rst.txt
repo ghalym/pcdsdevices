@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMY.wm\_update
+===============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMY.wm_update

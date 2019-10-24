@@ -91,6 +91,7 @@ pcdsdevices.valve.GateValve
       ~GateValve.signal_names
       ~GateValve.state
       ~GateValve.states_list
+      ~GateValve.tab_whitelist
       ~GateValve.timeout
       ~GateValve.transmission
       ~GateValve.trigger_signals

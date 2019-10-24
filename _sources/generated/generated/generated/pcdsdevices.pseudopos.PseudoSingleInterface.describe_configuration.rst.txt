@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.PseudoSingleInterface.describe\_configuration
+===================================================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: PseudoSingleInterface.describe_configuration

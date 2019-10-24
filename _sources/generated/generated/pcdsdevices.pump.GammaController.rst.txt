@@ -66,6 +66,8 @@ pcdsdevices.pump.GammaController
       ~GammaController.report
       ~GammaController.root
       ~GammaController.signal_names
+      ~GammaController.tab_component_names
+      ~GammaController.tab_whitelist
       ~GammaController.trigger_signals
       ~GammaController.unit
    

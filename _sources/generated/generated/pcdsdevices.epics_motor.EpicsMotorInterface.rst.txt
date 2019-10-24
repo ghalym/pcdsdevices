@@ -94,12 +94,14 @@ pcdsdevices.epics\_motor.EpicsMotorInterface
       ~EpicsMotorInterface.parent
       ~EpicsMotorInterface.position
       ~EpicsMotorInterface.precision
+      ~EpicsMotorInterface.presets
       ~EpicsMotorInterface.read_attrs
       ~EpicsMotorInterface.report
       ~EpicsMotorInterface.root
       ~EpicsMotorInterface.set_use_switch
       ~EpicsMotorInterface.settle_time
       ~EpicsMotorInterface.signal_names
+      ~EpicsMotorInterface.tab_whitelist
       ~EpicsMotorInterface.timeout
       ~EpicsMotorInterface.tolerated_alarm
       ~EpicsMotorInterface.trigger_signals

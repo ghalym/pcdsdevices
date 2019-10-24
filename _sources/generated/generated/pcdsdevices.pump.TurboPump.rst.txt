@@ -60,6 +60,7 @@ pcdsdevices.pump.TurboPump
       ~TurboPump.root
       ~TurboPump.signal_names
       ~TurboPump.start
+      ~TurboPump.tab_whitelist
       ~TurboPump.trigger_signals
    
    

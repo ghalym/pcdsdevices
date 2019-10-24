@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.DelayNewport.mv\_ginput
+=================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: DelayNewport.mv_ginput

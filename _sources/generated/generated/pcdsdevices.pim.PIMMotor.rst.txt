@@ -85,6 +85,7 @@ pcdsdevices.pim.PIMMotor
       ~PIMMotor.signal_names
       ~PIMMotor.state
       ~PIMMotor.states_list
+      ~PIMMotor.tab_whitelist
       ~PIMMotor.timeout
       ~PIMMotor.transmission
       ~PIMMotor.trigger_signals

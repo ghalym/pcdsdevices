@@ -84,6 +84,7 @@ pcdsdevices.valve.PPSStopper
       ~PPSStopper.signal_names
       ~PPSStopper.state
       ~PPSStopper.states_list
+      ~PPSStopper.tab_whitelist
       ~PPSStopper.timeout
       ~PPSStopper.transmission
       ~PPSStopper.trigger_signals

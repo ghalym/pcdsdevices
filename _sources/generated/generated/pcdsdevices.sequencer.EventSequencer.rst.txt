@@ -75,6 +75,8 @@ pcdsdevices.sequencer.EventSequencer
       ~EventSequencer.sequence_owner
       ~EventSequencer.signal_names
       ~EventSequencer.sync_marker
+      ~EventSequencer.tab_component_names
+      ~EventSequencer.tab_whitelist
       ~EventSequencer.total_play_count
       ~EventSequencer.trigger_signals
    

@@ -13,12 +13,14 @@ pcdsdevices.ccm.CCMCalc
       :toctree: generated
    
       ~CCMCalc.__init__
+      ~CCMCalc.camonitor
       ~CCMCalc.check_single
       ~CCMCalc.check_value
       ~CCMCalc.clear_sub
       ~CCMCalc.configure
       ~CCMCalc.describe
       ~CCMCalc.describe_configuration
+      ~CCMCalc.end_monitor_thread
       ~CCMCalc.forward
       ~CCMCalc.get
       ~CCMCalc.get_device_tuple
@@ -26,6 +28,9 @@ pcdsdevices.ccm.CCMCalc
       ~CCMCalc.inverse
       ~CCMCalc.move
       ~CCMCalc.move_single
+      ~CCMCalc.mv
+      ~CCMCalc.mv_ginput
+      ~CCMCalc.mvr
       ~CCMCalc.pause
       ~CCMCalc.put
       ~CCMCalc.read
@@ -39,10 +44,15 @@ pcdsdevices.ccm.CCMCalc
       ~CCMCalc.to_pseudo_tuple
       ~CCMCalc.to_real_tuple
       ~CCMCalc.trigger
+      ~CCMCalc.tweak
+      ~CCMCalc.umv
+      ~CCMCalc.umvr
       ~CCMCalc.unstage
       ~CCMCalc.unsubscribe
       ~CCMCalc.unsubscribe_all
       ~CCMCalc.wait_for_connection
+      ~CCMCalc.wm
+      ~CCMCalc.wm_update
    
    
 
@@ -74,6 +84,7 @@ pcdsdevices.ccm.CCMCalc
       ~CCMCalc.name
       ~CCMCalc.parent
       ~CCMCalc.position
+      ~CCMCalc.presets
       ~CCMCalc.pseudo_positioners
       ~CCMCalc.read_attrs
       ~CCMCalc.real_position
@@ -83,6 +94,8 @@ pcdsdevices.ccm.CCMCalc
       ~CCMCalc.sequential
       ~CCMCalc.settle_time
       ~CCMCalc.signal_names
+      ~CCMCalc.tab_component_names
+      ~CCMCalc.tab_whitelist
       ~CCMCalc.target
       ~CCMCalc.theta
       ~CCMCalc.timeout

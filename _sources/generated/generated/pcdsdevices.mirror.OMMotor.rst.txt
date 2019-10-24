@@ -83,6 +83,7 @@ pcdsdevices.mirror.OMMotor
       ~OMMotor.name
       ~OMMotor.parent
       ~OMMotor.position
+      ~OMMotor.presets
       ~OMMotor.put_complete
       ~OMMotor.read_attrs
       ~OMMotor.readback
@@ -93,6 +94,7 @@ pcdsdevices.mirror.OMMotor
       ~OMMotor.signal_names
       ~OMMotor.stop_signal
       ~OMMotor.stop_value
+      ~OMMotor.tab_whitelist
       ~OMMotor.timeout
       ~OMMotor.trigger_signals
    

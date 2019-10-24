@@ -84,6 +84,7 @@ pcdsdevices.attenuator.FeeFilter
       ~FeeFilter.signal_names
       ~FeeFilter.state
       ~FeeFilter.states_list
+      ~FeeFilter.tab_whitelist
       ~FeeFilter.timeout
       ~FeeFilter.transmission
       ~FeeFilter.trigger_signals

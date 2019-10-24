@@ -107,6 +107,7 @@ pcdsdevices.epics\_motor.IMS
       ~IMS.part_number
       ~IMS.position
       ~IMS.precision
+      ~IMS.presets
       ~IMS.read_attrs
       ~IMS.reinit_command
       ~IMS.report
@@ -115,6 +116,7 @@ pcdsdevices.epics\_motor.IMS
       ~IMS.set_use_switch
       ~IMS.settle_time
       ~IMS.signal_names
+      ~IMS.tab_whitelist
       ~IMS.timeout
       ~IMS.tolerated_alarm
       ~IMS.trigger_signals

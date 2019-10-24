@@ -14,12 +14,14 @@ pcdsdevices.ccm.CCMX
    
       ~CCMX.__init__
       ~CCMX.calc_combined
+      ~CCMX.camonitor
       ~CCMX.check_single
       ~CCMX.check_value
       ~CCMX.clear_sub
       ~CCMX.configure
       ~CCMX.describe
       ~CCMX.describe_configuration
+      ~CCMX.end_monitor_thread
       ~CCMX.forward
       ~CCMX.get
       ~CCMX.get_device_tuple
@@ -27,6 +29,9 @@ pcdsdevices.ccm.CCMX
       ~CCMX.inverse
       ~CCMX.move
       ~CCMX.move_single
+      ~CCMX.mv
+      ~CCMX.mv_ginput
+      ~CCMX.mvr
       ~CCMX.pause
       ~CCMX.put
       ~CCMX.read
@@ -41,10 +46,15 @@ pcdsdevices.ccm.CCMX
       ~CCMX.to_pseudo_tuple
       ~CCMX.to_real_tuple
       ~CCMX.trigger
+      ~CCMX.tweak
+      ~CCMX.umv
+      ~CCMX.umvr
       ~CCMX.unstage
       ~CCMX.unsubscribe
       ~CCMX.unsubscribe_all
       ~CCMX.wait_for_connection
+      ~CCMX.wm
+      ~CCMX.wm_update
    
    
 
@@ -75,6 +85,7 @@ pcdsdevices.ccm.CCMX
       ~CCMX.name
       ~CCMX.parent
       ~CCMX.position
+      ~CCMX.presets
       ~CCMX.pseudo
       ~CCMX.pseudo_positioners
       ~CCMX.read_attrs
@@ -85,6 +96,8 @@ pcdsdevices.ccm.CCMX
       ~CCMX.sequential
       ~CCMX.settle_time
       ~CCMX.signal_names
+      ~CCMX.tab_component_names
+      ~CCMX.tab_whitelist
       ~CCMX.target
       ~CCMX.timeout
       ~CCMX.trigger_signals

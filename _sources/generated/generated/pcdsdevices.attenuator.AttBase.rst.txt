@@ -86,6 +86,7 @@ pcdsdevices.attenuator.AttBase
       ~AttBase.name
       ~AttBase.parent
       ~AttBase.position
+      ~AttBase.presets
       ~AttBase.put_complete
       ~AttBase.read_attrs
       ~AttBase.readback
@@ -97,6 +98,7 @@ pcdsdevices.attenuator.AttBase
       ~AttBase.signal_names
       ~AttBase.stop_signal
       ~AttBase.stop_value
+      ~AttBase.tab_whitelist
       ~AttBase.timeout
       ~AttBase.trans_ceil
       ~AttBase.trans_floor

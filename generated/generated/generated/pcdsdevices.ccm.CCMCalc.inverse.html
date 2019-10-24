@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ccm.CCMCalc.inverse &mdash; PCDS Devices 2.0.0+3.g4ffe803 documentation</title>
+  <title>pcdsdevices.ccm.CCMCalc.inverse &mdash; PCDS Devices 2.0.0+24.ga297f82 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.0.0+3.g4ffe803
+                2.0.0+24.ga297f82
               </div>
             
           
@@ -88,6 +88,7 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../../mv.html">Shortcuts</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../presets.html">Preset Positions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../tab.html">IPython Tab Curation</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Device Types</span></p>
 <ul>
@@ -112,12 +113,14 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.ccm.CCM.html">pcdsdevices.ccm.CCM</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.ccm.CCMCalc.html">pcdsdevices.ccm.CCMCalc</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.__init__.html">pcdsdevices.ccm.CCMCalc.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.camonitor.html">pcdsdevices.ccm.CCMCalc.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.check_single.html">pcdsdevices.ccm.CCMCalc.check_single</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.check_value.html">pcdsdevices.ccm.CCMCalc.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.clear_sub.html">pcdsdevices.ccm.CCMCalc.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.configure.html">pcdsdevices.ccm.CCMCalc.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.describe.html">pcdsdevices.ccm.CCMCalc.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.describe_configuration.html">pcdsdevices.ccm.CCMCalc.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.end_monitor_thread.html">pcdsdevices.ccm.CCMCalc.end_monitor_thread</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.forward.html">pcdsdevices.ccm.CCMCalc.forward</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.get.html">pcdsdevices.ccm.CCMCalc.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.get_device_tuple.html">pcdsdevices.ccm.CCMCalc.get_device_tuple</a></li>
@@ -125,6 +128,9 @@
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.ccm.CCMCalc.inverse</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.move.html">pcdsdevices.ccm.CCMCalc.move</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.move_single.html">pcdsdevices.ccm.CCMCalc.move_single</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.mv.html">pcdsdevices.ccm.CCMCalc.mv</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.mv_ginput.html">pcdsdevices.ccm.CCMCalc.mv_ginput</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.mvr.html">pcdsdevices.ccm.CCMCalc.mvr</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.pause.html">pcdsdevices.ccm.CCMCalc.pause</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.put.html">pcdsdevices.ccm.CCMCalc.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.read.html">pcdsdevices.ccm.CCMCalc.read</a></li>
@@ -138,10 +144,15 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.to_pseudo_tuple.html">pcdsdevices.ccm.CCMCalc.to_pseudo_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.to_real_tuple.html">pcdsdevices.ccm.CCMCalc.to_real_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.trigger.html">pcdsdevices.ccm.CCMCalc.trigger</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.tweak.html">pcdsdevices.ccm.CCMCalc.tweak</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.umv.html">pcdsdevices.ccm.CCMCalc.umv</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.umvr.html">pcdsdevices.ccm.CCMCalc.umvr</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.unstage.html">pcdsdevices.ccm.CCMCalc.unstage</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.unsubscribe.html">pcdsdevices.ccm.CCMCalc.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.unsubscribe_all.html">pcdsdevices.ccm.CCMCalc.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.wait_for_connection.html">pcdsdevices.ccm.CCMCalc.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.wm.html">pcdsdevices.ccm.CCMCalc.wm</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.wm_update.html">pcdsdevices.ccm.CCMCalc.wm_update</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.ccm.CCMMotor.html">pcdsdevices.ccm.CCMMotor</a></li>
@@ -153,13 +164,13 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.evr.html">pcdsdevices.evr</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.interface.html">pcdsdevices.interface</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.lodcm.html">pcdsdevices.lodcm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mirror.html">pcdsdevices.mirror</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.movablestand.html">pcdsdevices.movablestand</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mps.html">pcdsdevices.mps</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mv_interface.html">pcdsdevices.mv_interface</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>

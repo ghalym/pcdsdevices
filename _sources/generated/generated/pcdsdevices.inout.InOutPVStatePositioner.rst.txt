@@ -84,6 +84,7 @@ pcdsdevices.inout.InOutPVStatePositioner
       ~InOutPVStatePositioner.signal_names
       ~InOutPVStatePositioner.state
       ~InOutPVStatePositioner.states_list
+      ~InOutPVStatePositioner.tab_whitelist
       ~InOutPVStatePositioner.timeout
       ~InOutPVStatePositioner.transmission
       ~InOutPVStatePositioner.trigger_signals

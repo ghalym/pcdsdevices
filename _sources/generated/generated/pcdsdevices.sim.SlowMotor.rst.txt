@@ -74,11 +74,13 @@ pcdsdevices.sim.SlowMotor
       ~SlowMotor.name
       ~SlowMotor.parent
       ~SlowMotor.position
+      ~SlowMotor.presets
       ~SlowMotor.read_attrs
       ~SlowMotor.report
       ~SlowMotor.root
       ~SlowMotor.settle_time
       ~SlowMotor.signal_names
+      ~SlowMotor.tab_whitelist
       ~SlowMotor.timeout
       ~SlowMotor.trigger_signals
       ~SlowMotor.user_readback

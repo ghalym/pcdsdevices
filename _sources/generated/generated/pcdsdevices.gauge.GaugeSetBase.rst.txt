@@ -60,6 +60,8 @@ pcdsdevices.gauge.GaugeSetBase
       ~GaugeSetBase.report
       ~GaugeSetBase.root
       ~GaugeSetBase.signal_names
+      ~GaugeSetBase.tab_component_names
+      ~GaugeSetBase.tab_whitelist
       ~GaugeSetBase.trigger_signals
    
    

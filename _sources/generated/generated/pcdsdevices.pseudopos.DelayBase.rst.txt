@@ -13,12 +13,14 @@ pcdsdevices.pseudopos.DelayBase
       :toctree: generated
    
       ~DelayBase.__init__
+      ~DelayBase.camonitor
       ~DelayBase.check_single
       ~DelayBase.check_value
       ~DelayBase.clear_sub
       ~DelayBase.configure
       ~DelayBase.describe
       ~DelayBase.describe_configuration
+      ~DelayBase.end_monitor_thread
       ~DelayBase.forward
       ~DelayBase.get
       ~DelayBase.get_device_tuple
@@ -26,6 +28,9 @@ pcdsdevices.pseudopos.DelayBase
       ~DelayBase.inverse
       ~DelayBase.move
       ~DelayBase.move_single
+      ~DelayBase.mv
+      ~DelayBase.mv_ginput
+      ~DelayBase.mvr
       ~DelayBase.pause
       ~DelayBase.put
       ~DelayBase.read
@@ -39,10 +44,15 @@ pcdsdevices.pseudopos.DelayBase
       ~DelayBase.to_pseudo_tuple
       ~DelayBase.to_real_tuple
       ~DelayBase.trigger
+      ~DelayBase.tweak
+      ~DelayBase.umv
+      ~DelayBase.umvr
       ~DelayBase.unstage
       ~DelayBase.unsubscribe
       ~DelayBase.unsubscribe_all
       ~DelayBase.wait_for_connection
+      ~DelayBase.wm
+      ~DelayBase.wm_update
    
    
 
@@ -74,6 +84,7 @@ pcdsdevices.pseudopos.DelayBase
       ~DelayBase.name
       ~DelayBase.parent
       ~DelayBase.position
+      ~DelayBase.presets
       ~DelayBase.pseudo_positioners
       ~DelayBase.read_attrs
       ~DelayBase.real_position
@@ -83,6 +94,7 @@ pcdsdevices.pseudopos.DelayBase
       ~DelayBase.sequential
       ~DelayBase.settle_time
       ~DelayBase.signal_names
+      ~DelayBase.tab_whitelist
       ~DelayBase.target
       ~DelayBase.timeout
       ~DelayBase.trigger_signals

@@ -98,12 +98,14 @@ pcdsdevices.device\_types.PMC100
       ~PMC100.parent
       ~PMC100.position
       ~PMC100.precision
+      ~PMC100.presets
       ~PMC100.read_attrs
       ~PMC100.report
       ~PMC100.root
       ~PMC100.set_use_switch
       ~PMC100.settle_time
       ~PMC100.signal_names
+      ~PMC100.tab_whitelist
       ~PMC100.timeout
       ~PMC100.tolerated_alarm
       ~PMC100.trigger_signals

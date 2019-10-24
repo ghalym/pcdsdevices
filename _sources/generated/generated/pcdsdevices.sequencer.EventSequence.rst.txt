@@ -64,6 +64,7 @@ pcdsdevices.sequencer.EventSequence
       ~EventSequence.report
       ~EventSequence.root
       ~EventSequence.signal_names
+      ~EventSequence.tab_whitelist
       ~EventSequence.trigger_signals
    
    

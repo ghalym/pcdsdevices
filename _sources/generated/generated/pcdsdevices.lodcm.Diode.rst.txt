@@ -85,6 +85,7 @@ pcdsdevices.lodcm.Diode
       ~Diode.signal_names
       ~Diode.state
       ~Diode.states_list
+      ~Diode.tab_whitelist
       ~Diode.timeout
       ~Diode.transmission
       ~Diode.trigger_signals
