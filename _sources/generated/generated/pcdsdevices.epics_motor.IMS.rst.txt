@@ -41,6 +41,7 @@ pcdsdevices.epics\_motor.IMS
       ~IMS.read_configuration
       ~IMS.reinitialize
       ~IMS.resume
+      ~IMS.screen
       ~IMS.set
       ~IMS.set_current_position
       ~IMS.spg_go

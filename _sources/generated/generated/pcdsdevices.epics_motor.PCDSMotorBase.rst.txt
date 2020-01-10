@@ -35,6 +35,7 @@ pcdsdevices.epics\_motor.PCDSMotorBase
       ~PCDSMotorBase.read
       ~PCDSMotorBase.read_configuration
       ~PCDSMotorBase.resume
+      ~PCDSMotorBase.screen
       ~PCDSMotorBase.set
       ~PCDSMotorBase.set_current_position
       ~PCDSMotorBase.spg_go

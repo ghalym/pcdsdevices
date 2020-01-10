@@ -35,6 +35,7 @@ pcdsdevices.epics\_motor.Newport
       ~Newport.read
       ~Newport.read_configuration
       ~Newport.resume
+      ~Newport.screen
       ~Newport.set
       ~Newport.set_current_position
       ~Newport.spg_go

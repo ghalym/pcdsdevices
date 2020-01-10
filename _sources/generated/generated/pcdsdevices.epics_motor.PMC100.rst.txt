@@ -35,6 +35,7 @@ pcdsdevices.epics\_motor.PMC100
       ~PMC100.read
       ~PMC100.read_configuration
       ~PMC100.resume
+      ~PMC100.screen
       ~PMC100.set
       ~PMC100.set_current_position
       ~PMC100.spg_go
