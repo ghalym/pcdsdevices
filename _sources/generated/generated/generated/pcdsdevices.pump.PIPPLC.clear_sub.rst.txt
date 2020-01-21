@@ -1,0 +1,6 @@
+pcdsdevices.pump.PIPPLC.clear\_sub
+==================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PIPPLC.clear_sub

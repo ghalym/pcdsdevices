@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugePLC.put
+==============================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugePLC.put

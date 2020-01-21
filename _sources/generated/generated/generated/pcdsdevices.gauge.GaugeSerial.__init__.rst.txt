@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSerial.\_\_init\_\_
+==========================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSerial.__init__

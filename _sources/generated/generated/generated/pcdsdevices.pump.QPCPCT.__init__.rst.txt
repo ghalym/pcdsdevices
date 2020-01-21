@@ -1,0 +1,6 @@
+pcdsdevices.pump.QPCPCT.\_\_init\_\_
+====================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: QPCPCT.__init__

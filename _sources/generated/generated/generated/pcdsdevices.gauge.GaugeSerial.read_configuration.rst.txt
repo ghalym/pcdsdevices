@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSerial.read\_configuration
+=================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSerial.read_configuration

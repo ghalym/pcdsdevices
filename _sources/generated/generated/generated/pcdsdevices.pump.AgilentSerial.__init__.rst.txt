@@ -1,0 +1,6 @@
+pcdsdevices.pump.AgilentSerial.\_\_init\_\_
+===========================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: AgilentSerial.__init__

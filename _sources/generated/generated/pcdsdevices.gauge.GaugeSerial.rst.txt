@@ -1,0 +1,97 @@
+pcdsdevices.gauge.GaugeSerial
+=============================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. autoclass:: GaugeSerial
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~GaugeSerial.__init__
+      ~GaugeSerial.check_value
+      ~GaugeSerial.clear_sub
+      ~GaugeSerial.configure
+      ~GaugeSerial.describe
+      ~GaugeSerial.describe_configuration
+      ~GaugeSerial.get
+      ~GaugeSerial.get_device_tuple
+      ~GaugeSerial.get_instantiated_signals
+      ~GaugeSerial.pause
+      ~GaugeSerial.put
+      ~GaugeSerial.read
+      ~GaugeSerial.read_configuration
+      ~GaugeSerial.resume
+      ~GaugeSerial.stage
+      ~GaugeSerial.stop
+      ~GaugeSerial.subscribe
+      ~GaugeSerial.summary
+      ~GaugeSerial.trigger
+      ~GaugeSerial.unstage
+      ~GaugeSerial.unsubscribe
+      ~GaugeSerial.unsubscribe_all
+      ~GaugeSerial.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~GaugeSerial.SUB_ACQ_DONE
+      ~GaugeSerial.component_names
+      ~GaugeSerial.configuration_attrs
+      ~GaugeSerial.connected
+      ~GaugeSerial.event_types
+      ~GaugeSerial.gastype
+      ~GaugeSerial.gastypedes
+      ~GaugeSerial.hints
+      ~GaugeSerial.hystsprbck_1
+      ~GaugeSerial.hystsprbck_2
+      ~GaugeSerial.kind
+      ~GaugeSerial.name
+      ~GaugeSerial.p
+      ~GaugeSerial.padel
+      ~GaugeSerial.parent
+      ~GaugeSerial.plog
+      ~GaugeSerial.pmon
+      ~GaugeSerial.pmonraw
+      ~GaugeSerial.pstat_1
+      ~GaugeSerial.pstat_2
+      ~GaugeSerial.pstat_calc
+      ~GaugeSerial.pstat_sum
+      ~GaugeSerial.pstatdirdes_1
+      ~GaugeSerial.pstatdirdes_2
+      ~GaugeSerial.pstatenable_1
+      ~GaugeSerial.pstatenable_2
+      ~GaugeSerial.pstatenades_1
+      ~GaugeSerial.pstatenades_2
+      ~GaugeSerial.pstatspdes_1
+      ~GaugeSerial.pstatspdes_2
+      ~GaugeSerial.pstatspdir_1
+      ~GaugeSerial.pstatspdir_2
+      ~GaugeSerial.pstatsprbck_1
+      ~GaugeSerial.pstatsprbck_2
+      ~GaugeSerial.read_attrs
+      ~GaugeSerial.report
+      ~GaugeSerial.root
+      ~GaugeSerial.signal_names
+      ~GaugeSerial.state
+      ~GaugeSerial.statedes
+      ~GaugeSerial.staterbck
+      ~GaugeSerial.status_rs
+      ~GaugeSerial.status_rs_calc1
+      ~GaugeSerial.status_rs_calc2
+      ~GaugeSerial.status_rscalc
+      ~GaugeSerial.status_rscalc2
+      ~GaugeSerial.status_rsmon
+      ~GaugeSerial.status_rsout
+      ~GaugeSerial.trigger_signals
+   
+   

@@ -1,0 +1,6 @@
+pcdsdevices.pump.AgilentSerial.get\_instantiated\_signals
+=========================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: AgilentSerial.get_instantiated_signals

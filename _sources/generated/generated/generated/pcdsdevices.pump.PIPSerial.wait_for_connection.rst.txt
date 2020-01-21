@@ -1,0 +1,6 @@
+pcdsdevices.pump.PIPSerial.wait\_for\_connection
+================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PIPSerial.wait_for_connection

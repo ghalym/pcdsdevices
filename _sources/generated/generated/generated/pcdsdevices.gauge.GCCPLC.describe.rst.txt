@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCCPLC.describe
+=================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCCPLC.describe

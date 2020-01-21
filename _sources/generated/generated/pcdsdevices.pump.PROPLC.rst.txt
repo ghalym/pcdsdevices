@@ -1,0 +1,68 @@
+pcdsdevices.pump.PROPLC
+=======================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. autoclass:: PROPLC
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~PROPLC.__init__
+      ~PROPLC.check_value
+      ~PROPLC.clear_sub
+      ~PROPLC.configure
+      ~PROPLC.describe
+      ~PROPLC.describe_configuration
+      ~PROPLC.get
+      ~PROPLC.get_device_tuple
+      ~PROPLC.get_instantiated_signals
+      ~PROPLC.pause
+      ~PROPLC.put
+      ~PROPLC.read
+      ~PROPLC.read_configuration
+      ~PROPLC.resume
+      ~PROPLC.stage
+      ~PROPLC.stop
+      ~PROPLC.subscribe
+      ~PROPLC.summary
+      ~PROPLC.trigger
+      ~PROPLC.unstage
+      ~PROPLC.unsubscribe
+      ~PROPLC.unsubscribe_all
+      ~PROPLC.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PROPLC.SUB_ACQ_DONE
+      ~PROPLC.component_names
+      ~PROPLC.configuration_attrs
+      ~PROPLC.connected
+      ~PROPLC.error
+      ~PROPLC.event_types
+      ~PROPLC.hints
+      ~PROPLC.interlock_ok
+      ~PROPLC.kind
+      ~PROPLC.name
+      ~PROPLC.parent
+      ~PROPLC.pump_at_speed
+      ~PROPLC.read_attrs
+      ~PROPLC.report
+      ~PROPLC.root
+      ~PROPLC.run_do
+      ~PROPLC.signal_names
+      ~PROPLC.switch_pump_on
+      ~PROPLC.trigger_signals
+      ~PROPLC.warn
+   
+   

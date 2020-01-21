@@ -1,0 +1,6 @@
+pcdsdevices.pump.PIPPLC.read
+============================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PIPPLC.read

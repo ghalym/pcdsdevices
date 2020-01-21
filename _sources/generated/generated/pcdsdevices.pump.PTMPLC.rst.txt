@@ -1,0 +1,74 @@
+pcdsdevices.pump.PTMPLC
+=======================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. autoclass:: PTMPLC
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~PTMPLC.__init__
+      ~PTMPLC.check_value
+      ~PTMPLC.clear_sub
+      ~PTMPLC.configure
+      ~PTMPLC.describe
+      ~PTMPLC.describe_configuration
+      ~PTMPLC.get
+      ~PTMPLC.get_device_tuple
+      ~PTMPLC.get_instantiated_signals
+      ~PTMPLC.pause
+      ~PTMPLC.put
+      ~PTMPLC.read
+      ~PTMPLC.read_configuration
+      ~PTMPLC.resume
+      ~PTMPLC.stage
+      ~PTMPLC.stop
+      ~PTMPLC.subscribe
+      ~PTMPLC.summary
+      ~PTMPLC.trigger
+      ~PTMPLC.unstage
+      ~PTMPLC.unsubscribe
+      ~PTMPLC.unsubscribe_all
+      ~PTMPLC.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PTMPLC.SUB_ACQ_DONE
+      ~PTMPLC.alarm
+      ~PTMPLC.bp_sp
+      ~PTMPLC.component_names
+      ~PTMPLC.configuration_attrs
+      ~PTMPLC.connected
+      ~PTMPLC.event_types
+      ~PTMPLC.fault
+      ~PTMPLC.hints
+      ~PTMPLC.interlock_status
+      ~PTMPLC.ip_sp
+      ~PTMPLC.kind
+      ~PTMPLC.name
+      ~PTMPLC.parent
+      ~PTMPLC.pump_accelerating
+      ~PTMPLC.pump_at_speed
+      ~PTMPLC.pump_speed
+      ~PTMPLC.read_attrs
+      ~PTMPLC.report
+      ~PTMPLC.reset_fault
+      ~PTMPLC.root
+      ~PTMPLC.run_do
+      ~PTMPLC.signal_names
+      ~PTMPLC.switch_pump_on
+      ~PTMPLC.trigger_signals
+      ~PTMPLC.warn
+   
+   

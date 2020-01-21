@@ -1,0 +1,6 @@
+pcdsdevices.valve.VGCLegacy.check\_value
+========================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VGCLegacy.check_value

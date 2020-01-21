@@ -1,0 +1,6 @@
+pcdsdevices.pump.AgilentSerial.wait\_for\_connection
+====================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: AgilentSerial.wait_for_connection

@@ -1,0 +1,6 @@
+pcdsdevices.pump.AgilentSerial.unsubscribe\_all
+===============================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: AgilentSerial.unsubscribe_all

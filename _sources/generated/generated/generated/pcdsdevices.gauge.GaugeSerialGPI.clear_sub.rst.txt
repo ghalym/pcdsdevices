@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSerialGPI.clear\_sub
+===========================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSerialGPI.clear_sub

@@ -1,0 +1,68 @@
+pcdsdevices.pump.PIPPLC
+=======================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. autoclass:: PIPPLC
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~PIPPLC.__init__
+      ~PIPPLC.check_value
+      ~PIPPLC.clear_sub
+      ~PIPPLC.configure
+      ~PIPPLC.describe
+      ~PIPPLC.describe_configuration
+      ~PIPPLC.get
+      ~PIPPLC.get_device_tuple
+      ~PIPPLC.get_instantiated_signals
+      ~PIPPLC.pause
+      ~PIPPLC.put
+      ~PIPPLC.read
+      ~PIPPLC.read_configuration
+      ~PIPPLC.resume
+      ~PIPPLC.stage
+      ~PIPPLC.stop
+      ~PIPPLC.subscribe
+      ~PIPPLC.summary
+      ~PIPPLC.trigger
+      ~PIPPLC.unstage
+      ~PIPPLC.unsubscribe
+      ~PIPPLC.unsubscribe_all
+      ~PIPPLC.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PIPPLC.SUB_ACQ_DONE
+      ~PIPPLC.at_vac_sp
+      ~PIPPLC.component_names
+      ~PIPPLC.configuration_attrs
+      ~PIPPLC.connected
+      ~PIPPLC.event_types
+      ~PIPPLC.high_voltage_do
+      ~PIPPLC.high_voltage_switch
+      ~PIPPLC.hints
+      ~PIPPLC.interlock_ok
+      ~PIPPLC.kind
+      ~PIPPLC.name
+      ~PIPPLC.parent
+      ~PIPPLC.pressure
+      ~PIPPLC.read_attrs
+      ~PIPPLC.report
+      ~PIPPLC.root
+      ~PIPPLC.set_point_relay
+      ~PIPPLC.signal_names
+      ~PIPPLC.trigger_signals
+   
+   

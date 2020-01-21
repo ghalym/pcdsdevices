@@ -1,0 +1,6 @@
+pcdsdevices.pump.PROPLC.check\_value
+====================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PROPLC.check_value

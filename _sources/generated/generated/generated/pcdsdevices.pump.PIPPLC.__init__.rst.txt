@@ -1,0 +1,6 @@
+pcdsdevices.pump.PIPPLC.\_\_init\_\_
+====================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PIPPLC.__init__

@@ -1,0 +1,6 @@
+pcdsdevices.valve.VGCLegacy.get\_instantiated\_signals
+======================================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VGCLegacy.get_instantiated_signals

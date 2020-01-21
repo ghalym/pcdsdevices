@@ -1,0 +1,6 @@
+pcdsdevices.pump.PIPPLC.get\_device\_tuple
+==========================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PIPPLC.get_device_tuple

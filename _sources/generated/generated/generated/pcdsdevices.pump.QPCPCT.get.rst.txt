@@ -1,0 +1,6 @@
+pcdsdevices.pump.QPCPCT.get
+===========================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: QPCPCT.get

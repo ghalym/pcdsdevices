@@ -1,0 +1,72 @@
+pcdsdevices.gauge.GCCPLC
+========================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. autoclass:: GCCPLC
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~GCCPLC.__init__
+      ~GCCPLC.check_value
+      ~GCCPLC.clear_sub
+      ~GCCPLC.configure
+      ~GCCPLC.describe
+      ~GCCPLC.describe_configuration
+      ~GCCPLC.get
+      ~GCCPLC.get_device_tuple
+      ~GCCPLC.get_instantiated_signals
+      ~GCCPLC.pause
+      ~GCCPLC.put
+      ~GCCPLC.read
+      ~GCCPLC.read_configuration
+      ~GCCPLC.resume
+      ~GCCPLC.stage
+      ~GCCPLC.stop
+      ~GCCPLC.subscribe
+      ~GCCPLC.summary
+      ~GCCPLC.trigger
+      ~GCCPLC.unstage
+      ~GCCPLC.unsubscribe
+      ~GCCPLC.unsubscribe_all
+      ~GCCPLC.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~GCCPLC.SUB_ACQ_DONE
+      ~GCCPLC.at_vac_setpoint
+      ~GCCPLC.component_names
+      ~GCCPLC.configuration_attrs
+      ~GCCPLC.connected
+      ~GCCPLC.event_types
+      ~GCCPLC.gauge_at_vac
+      ~GCCPLC.high_voltage_disable
+      ~GCCPLC.high_voltage_on
+      ~GCCPLC.hints
+      ~GCCPLC.interlock_ok
+      ~GCCPLC.kind
+      ~GCCPLC.name
+      ~GCCPLC.parent
+      ~GCCPLC.pressure
+      ~GCCPLC.pressure_ok
+      ~GCCPLC.protection_setpoint
+      ~GCCPLC.read_attrs
+      ~GCCPLC.report
+      ~GCCPLC.root
+      ~GCCPLC.setpoint_hysterisis
+      ~GCCPLC.signal_names
+      ~GCCPLC.state
+      ~GCCPLC.trigger_signals
+   
+   

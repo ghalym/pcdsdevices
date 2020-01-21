@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSerial.get\_device\_tuple
+================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSerial.get_device_tuple

@@ -1,0 +1,6 @@
+pcdsdevices.pump.PTMPLC.pause
+=============================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PTMPLC.pause

@@ -1,0 +1,6 @@
+pcdsdevices.pump.PTMPLC.unsubscribe
+===================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PTMPLC.unsubscribe

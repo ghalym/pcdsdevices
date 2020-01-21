@@ -1,0 +1,6 @@
+pcdsdevices.valve.ValveBase.wait\_for\_connection
+=================================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: ValveBase.wait_for_connection

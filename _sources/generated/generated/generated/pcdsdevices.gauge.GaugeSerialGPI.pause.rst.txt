@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSerialGPI.pause
+======================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSerialGPI.pause

@@ -1,0 +1,74 @@
+pcdsdevices.gauge.MKS937BController
+===================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. autoclass:: MKS937BController
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~MKS937BController.__init__
+      ~MKS937BController.check_value
+      ~MKS937BController.clear_sub
+      ~MKS937BController.configure
+      ~MKS937BController.describe
+      ~MKS937BController.describe_configuration
+      ~MKS937BController.get
+      ~MKS937BController.get_device_tuple
+      ~MKS937BController.get_instantiated_signals
+      ~MKS937BController.pause
+      ~MKS937BController.put
+      ~MKS937BController.read
+      ~MKS937BController.read_configuration
+      ~MKS937BController.resume
+      ~MKS937BController.stage
+      ~MKS937BController.stop
+      ~MKS937BController.subscribe
+      ~MKS937BController.summary
+      ~MKS937BController.trigger
+      ~MKS937BController.unstage
+      ~MKS937BController.unsubscribe
+      ~MKS937BController.unsubscribe_all
+      ~MKS937BController.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~MKS937BController.SUB_ACQ_DONE
+      ~MKS937BController.addr
+      ~MKS937BController.cal
+      ~MKS937BController.component_names
+      ~MKS937BController.configuration_attrs
+      ~MKS937BController.connected
+      ~MKS937BController.event_types
+      ~MKS937BController.hints
+      ~MKS937BController.kind
+      ~MKS937BController.modtype_a
+      ~MKS937BController.modtype_b
+      ~MKS937BController.modtype_c
+      ~MKS937BController.name
+      ~MKS937BController.parent
+      ~MKS937BController.pstatall
+      ~MKS937BController.pstatenall
+      ~MKS937BController.read_attrs
+      ~MKS937BController.report
+      ~MKS937BController.root
+      ~MKS937BController.signal_names
+      ~MKS937BController.slota
+      ~MKS937BController.slotb
+      ~MKS937BController.slotc
+      ~MKS937BController.trigger_signals
+      ~MKS937BController.unit
+      ~MKS937BController.version
+   
+   

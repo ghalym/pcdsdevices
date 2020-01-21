@@ -1,0 +1,6 @@
+pcdsdevices.pump.Navigator.wait\_for\_connection
+================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: Navigator.wait_for_connection

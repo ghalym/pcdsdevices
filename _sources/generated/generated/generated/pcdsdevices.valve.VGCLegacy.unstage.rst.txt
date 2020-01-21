@@ -1,0 +1,6 @@
+pcdsdevices.valve.VGCLegacy.unstage
+===================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VGCLegacy.unstage

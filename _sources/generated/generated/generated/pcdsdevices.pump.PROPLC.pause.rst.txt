@@ -1,0 +1,6 @@
+pcdsdevices.pump.PROPLC.pause
+=============================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PROPLC.pause

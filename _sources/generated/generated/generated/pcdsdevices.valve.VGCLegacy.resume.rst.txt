@@ -1,0 +1,6 @@
+pcdsdevices.valve.VGCLegacy.resume
+==================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VGCLegacy.resume

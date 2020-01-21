@@ -1,0 +1,70 @@
+pcdsdevices.pump.GammaPCT
+=========================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. autoclass:: GammaPCT
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~GammaPCT.__init__
+      ~GammaPCT.check_value
+      ~GammaPCT.clear_sub
+      ~GammaPCT.configure
+      ~GammaPCT.describe
+      ~GammaPCT.describe_configuration
+      ~GammaPCT.get
+      ~GammaPCT.get_device_tuple
+      ~GammaPCT.get_instantiated_signals
+      ~GammaPCT.pause
+      ~GammaPCT.put
+      ~GammaPCT.read
+      ~GammaPCT.read_configuration
+      ~GammaPCT.resume
+      ~GammaPCT.stage
+      ~GammaPCT.stop
+      ~GammaPCT.subscribe
+      ~GammaPCT.summary
+      ~GammaPCT.trigger
+      ~GammaPCT.unstage
+      ~GammaPCT.unsubscribe
+      ~GammaPCT.unsubscribe_all
+      ~GammaPCT.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~GammaPCT.SUB_ACQ_DONE
+      ~GammaPCT.ashve
+      ~GammaPCT.ashvedes
+      ~GammaPCT.aspower
+      ~GammaPCT.aspowerdes
+      ~GammaPCT.component_names
+      ~GammaPCT.configuration_attrs
+      ~GammaPCT.connected
+      ~GammaPCT.event_types
+      ~GammaPCT.fwversion
+      ~GammaPCT.hints
+      ~GammaPCT.kind
+      ~GammaPCT.masterreset
+      ~GammaPCT.model
+      ~GammaPCT.name
+      ~GammaPCT.parent
+      ~GammaPCT.pegudes
+      ~GammaPCT.read_attrs
+      ~GammaPCT.report
+      ~GammaPCT.root
+      ~GammaPCT.signal_names
+      ~GammaPCT.trigger_signals
+   
+   

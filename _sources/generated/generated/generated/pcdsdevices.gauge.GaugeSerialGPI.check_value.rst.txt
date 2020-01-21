@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSerialGPI.check\_value
+=============================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSerialGPI.check_value

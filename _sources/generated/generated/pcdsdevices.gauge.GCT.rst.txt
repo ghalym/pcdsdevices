@@ -1,0 +1,65 @@
+pcdsdevices.gauge.GCT
+=====================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. autoclass:: GCT
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~GCT.__init__
+      ~GCT.check_value
+      ~GCT.clear_sub
+      ~GCT.configure
+      ~GCT.describe
+      ~GCT.describe_configuration
+      ~GCT.get
+      ~GCT.get_device_tuple
+      ~GCT.get_instantiated_signals
+      ~GCT.pause
+      ~GCT.put
+      ~GCT.read
+      ~GCT.read_configuration
+      ~GCT.resume
+      ~GCT.stage
+      ~GCT.stop
+      ~GCT.subscribe
+      ~GCT.summary
+      ~GCT.trigger
+      ~GCT.unstage
+      ~GCT.unsubscribe
+      ~GCT.unsubscribe_all
+      ~GCT.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~GCT.SUB_ACQ_DONE
+      ~GCT.cal
+      ~GCT.component_names
+      ~GCT.configuration_attrs
+      ~GCT.connected
+      ~GCT.event_types
+      ~GCT.hints
+      ~GCT.kind
+      ~GCT.name
+      ~GCT.parent
+      ~GCT.read_attrs
+      ~GCT.report
+      ~GCT.root
+      ~GCT.signal_names
+      ~GCT.trigger_signals
+      ~GCT.unit
+      ~GCT.version
+   
+   

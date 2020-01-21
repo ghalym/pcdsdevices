@@ -1,0 +1,6 @@
+pcdsdevices.pump.GammaPCT.pause
+===============================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: GammaPCT.pause

@@ -1,0 +1,6 @@
+pcdsdevices.pump.QPCPCT.get\_instantiated\_signals
+==================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: QPCPCT.get_instantiated_signals

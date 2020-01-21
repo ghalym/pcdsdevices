@@ -1,0 +1,6 @@
+pcdsdevices.valve.VGCLegacy.read
+================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VGCLegacy.read

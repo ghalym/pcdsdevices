@@ -1,0 +1,6 @@
+pcdsdevices.pump.QPCPCT.unsubscribe\_all
+========================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: QPCPCT.unsubscribe_all

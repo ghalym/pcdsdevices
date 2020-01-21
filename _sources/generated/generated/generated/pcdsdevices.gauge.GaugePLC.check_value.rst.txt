@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugePLC.check\_value
+=======================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugePLC.check_value

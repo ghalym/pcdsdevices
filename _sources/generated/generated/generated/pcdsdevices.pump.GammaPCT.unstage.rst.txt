@@ -1,0 +1,6 @@
+pcdsdevices.pump.GammaPCT.unstage
+=================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: GammaPCT.unstage

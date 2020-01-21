@@ -1,0 +1,6 @@
+pcdsdevices.valve.VVC.stage
+===========================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VVC.stage

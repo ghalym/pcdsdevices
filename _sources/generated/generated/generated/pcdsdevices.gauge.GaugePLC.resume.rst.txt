@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugePLC.resume
+=================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugePLC.resume

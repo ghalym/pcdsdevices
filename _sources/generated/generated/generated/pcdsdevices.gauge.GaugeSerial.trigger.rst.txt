@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSerial.trigger
+=====================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSerial.trigger

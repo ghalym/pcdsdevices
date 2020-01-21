@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCC500PLC.unsubscribe\_all
+============================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCC500PLC.unsubscribe_all

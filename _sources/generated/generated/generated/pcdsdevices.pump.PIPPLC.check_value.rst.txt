@@ -1,0 +1,6 @@
+pcdsdevices.pump.PIPPLC.check\_value
+====================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PIPPLC.check_value

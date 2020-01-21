@@ -1,0 +1,6 @@
+pcdsdevices.valve.VGCLegacy.pause
+=================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VGCLegacy.pause

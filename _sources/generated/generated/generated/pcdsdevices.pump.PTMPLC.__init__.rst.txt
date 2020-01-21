@@ -1,0 +1,6 @@
+pcdsdevices.pump.PTMPLC.\_\_init\_\_
+====================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PTMPLC.__init__

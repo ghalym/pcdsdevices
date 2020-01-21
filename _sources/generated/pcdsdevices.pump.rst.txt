@@ -21,10 +21,18 @@ pcdsdevices.pump
    .. autosummary::
       :toctree: generated
    
+      AgilentSerial
       EbaraPump
       GammaController
+      GammaPCT
       IonPumpBase
       IonPumpWithController
+      Navigator
+      PIPPLC
+      PIPSerial
+      PROPLC
+      PTMPLC
+      QPCPCT
       TurboPump
    
    

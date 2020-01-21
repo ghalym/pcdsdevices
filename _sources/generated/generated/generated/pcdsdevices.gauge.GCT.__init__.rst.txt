@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCT.\_\_init\_\_
+==================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCT.__init__

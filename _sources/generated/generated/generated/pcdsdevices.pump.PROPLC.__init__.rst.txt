@@ -1,0 +1,6 @@
+pcdsdevices.pump.PROPLC.\_\_init\_\_
+====================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PROPLC.__init__

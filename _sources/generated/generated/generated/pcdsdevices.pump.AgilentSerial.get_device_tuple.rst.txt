@@ -1,0 +1,6 @@
+pcdsdevices.pump.AgilentSerial.get\_device\_tuple
+=================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: AgilentSerial.get_device_tuple

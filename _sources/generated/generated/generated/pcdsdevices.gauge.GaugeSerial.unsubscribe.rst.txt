@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSerial.unsubscribe
+=========================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSerial.unsubscribe

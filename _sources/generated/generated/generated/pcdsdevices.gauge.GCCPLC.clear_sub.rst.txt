@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCCPLC.clear\_sub
+===================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCCPLC.clear_sub

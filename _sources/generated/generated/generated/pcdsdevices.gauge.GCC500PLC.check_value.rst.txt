@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCC500PLC.check\_value
+========================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCC500PLC.check_value

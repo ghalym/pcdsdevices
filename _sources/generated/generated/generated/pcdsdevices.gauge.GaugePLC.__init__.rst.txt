@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugePLC.\_\_init\_\_
+=======================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugePLC.__init__

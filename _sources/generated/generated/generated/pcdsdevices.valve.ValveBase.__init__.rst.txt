@@ -1,0 +1,6 @@
+pcdsdevices.valve.ValveBase.\_\_init\_\_
+========================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: ValveBase.__init__

@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSerialGPI.subscribe
+==========================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSerialGPI.subscribe

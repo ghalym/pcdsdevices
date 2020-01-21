@@ -1,0 +1,6 @@
+pcdsdevices.valve.ValveBase.trigger
+===================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: ValveBase.trigger

@@ -1,0 +1,102 @@
+pcdsdevices.gauge.GaugeSerialGPI
+================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. autoclass:: GaugeSerialGPI
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~GaugeSerialGPI.__init__
+      ~GaugeSerialGPI.check_value
+      ~GaugeSerialGPI.clear_sub
+      ~GaugeSerialGPI.configure
+      ~GaugeSerialGPI.describe
+      ~GaugeSerialGPI.describe_configuration
+      ~GaugeSerialGPI.get
+      ~GaugeSerialGPI.get_device_tuple
+      ~GaugeSerialGPI.get_instantiated_signals
+      ~GaugeSerialGPI.pause
+      ~GaugeSerialGPI.put
+      ~GaugeSerialGPI.read
+      ~GaugeSerialGPI.read_configuration
+      ~GaugeSerialGPI.resume
+      ~GaugeSerialGPI.stage
+      ~GaugeSerialGPI.stop
+      ~GaugeSerialGPI.subscribe
+      ~GaugeSerialGPI.summary
+      ~GaugeSerialGPI.trigger
+      ~GaugeSerialGPI.unstage
+      ~GaugeSerialGPI.unsubscribe
+      ~GaugeSerialGPI.unsubscribe_all
+      ~GaugeSerialGPI.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~GaugeSerialGPI.SUB_ACQ_DONE
+      ~GaugeSerialGPI.atmcalib
+      ~GaugeSerialGPI.atmcalibdes
+      ~GaugeSerialGPI.autozero
+      ~GaugeSerialGPI.autozerodes
+      ~GaugeSerialGPI.component_names
+      ~GaugeSerialGPI.configuration_attrs
+      ~GaugeSerialGPI.connected
+      ~GaugeSerialGPI.event_types
+      ~GaugeSerialGPI.gastype
+      ~GaugeSerialGPI.gastypedes
+      ~GaugeSerialGPI.hints
+      ~GaugeSerialGPI.hystsprbck_1
+      ~GaugeSerialGPI.hystsprbck_2
+      ~GaugeSerialGPI.kind
+      ~GaugeSerialGPI.name
+      ~GaugeSerialGPI.p
+      ~GaugeSerialGPI.padel
+      ~GaugeSerialGPI.parent
+      ~GaugeSerialGPI.plog
+      ~GaugeSerialGPI.pmon
+      ~GaugeSerialGPI.pmonraw
+      ~GaugeSerialGPI.pstat_1
+      ~GaugeSerialGPI.pstat_2
+      ~GaugeSerialGPI.pstat_calc
+      ~GaugeSerialGPI.pstat_sum
+      ~GaugeSerialGPI.pstatdirdes_1
+      ~GaugeSerialGPI.pstatdirdes_2
+      ~GaugeSerialGPI.pstatenable_1
+      ~GaugeSerialGPI.pstatenable_2
+      ~GaugeSerialGPI.pstatenades_1
+      ~GaugeSerialGPI.pstatenades_2
+      ~GaugeSerialGPI.pstatspdes_1
+      ~GaugeSerialGPI.pstatspdes_2
+      ~GaugeSerialGPI.pstatspdir_1
+      ~GaugeSerialGPI.pstatspdir_2
+      ~GaugeSerialGPI.pstatsprbck_1
+      ~GaugeSerialGPI.pstatsprbck_2
+      ~GaugeSerialGPI.read_attrs
+      ~GaugeSerialGPI.report
+      ~GaugeSerialGPI.root
+      ~GaugeSerialGPI.signal_names
+      ~GaugeSerialGPI.state
+      ~GaugeSerialGPI.statedes
+      ~GaugeSerialGPI.staterbck
+      ~GaugeSerialGPI.status_rs
+      ~GaugeSerialGPI.status_rs_calc1
+      ~GaugeSerialGPI.status_rs_calc2
+      ~GaugeSerialGPI.status_rscalc
+      ~GaugeSerialGPI.status_rscalc2
+      ~GaugeSerialGPI.status_rsmon
+      ~GaugeSerialGPI.status_rsout
+      ~GaugeSerialGPI.trigger_signals
+      ~GaugeSerialGPI.zeropr
+   
+   

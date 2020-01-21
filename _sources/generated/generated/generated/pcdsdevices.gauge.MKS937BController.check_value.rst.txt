@@ -1,0 +1,6 @@
+pcdsdevices.gauge.MKS937BController.check\_value
+================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: MKS937BController.check_value

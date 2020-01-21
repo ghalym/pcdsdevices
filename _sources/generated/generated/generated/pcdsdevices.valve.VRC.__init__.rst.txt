@@ -1,0 +1,6 @@
+pcdsdevices.valve.VRC.\_\_init\_\_
+==================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VRC.__init__

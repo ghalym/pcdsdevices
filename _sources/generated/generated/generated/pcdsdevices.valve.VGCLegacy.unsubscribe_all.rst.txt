@@ -1,0 +1,6 @@
+pcdsdevices.valve.VGCLegacy.unsubscribe\_all
+============================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VGCLegacy.unsubscribe_all

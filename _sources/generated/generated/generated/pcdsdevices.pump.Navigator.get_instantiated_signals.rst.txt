@@ -1,0 +1,6 @@
+pcdsdevices.pump.Navigator.get\_instantiated\_signals
+=====================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: Navigator.get_instantiated_signals

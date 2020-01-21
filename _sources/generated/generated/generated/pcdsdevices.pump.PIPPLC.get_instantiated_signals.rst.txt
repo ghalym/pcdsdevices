@@ -1,0 +1,6 @@
+pcdsdevices.pump.PIPPLC.get\_instantiated\_signals
+==================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PIPPLC.get_instantiated_signals

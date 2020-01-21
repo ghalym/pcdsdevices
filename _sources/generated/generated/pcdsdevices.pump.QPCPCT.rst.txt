@@ -1,0 +1,71 @@
+pcdsdevices.pump.QPCPCT
+=======================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. autoclass:: QPCPCT
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~QPCPCT.__init__
+      ~QPCPCT.check_value
+      ~QPCPCT.clear_sub
+      ~QPCPCT.configure
+      ~QPCPCT.describe
+      ~QPCPCT.describe_configuration
+      ~QPCPCT.get
+      ~QPCPCT.get_device_tuple
+      ~QPCPCT.get_instantiated_signals
+      ~QPCPCT.pause
+      ~QPCPCT.put
+      ~QPCPCT.read
+      ~QPCPCT.read_configuration
+      ~QPCPCT.resume
+      ~QPCPCT.stage
+      ~QPCPCT.stop
+      ~QPCPCT.subscribe
+      ~QPCPCT.summary
+      ~QPCPCT.trigger
+      ~QPCPCT.unstage
+      ~QPCPCT.unsubscribe
+      ~QPCPCT.unsubscribe_all
+      ~QPCPCT.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~QPCPCT.SUB_ACQ_DONE
+      ~QPCPCT.ashve
+      ~QPCPCT.ashvedes
+      ~QPCPCT.aspower
+      ~QPCPCT.aspowerdes
+      ~QPCPCT.component_names
+      ~QPCPCT.configuration_attrs
+      ~QPCPCT.connected
+      ~QPCPCT.do_reset
+      ~QPCPCT.event_types
+      ~QPCPCT.fwversion
+      ~QPCPCT.hints
+      ~QPCPCT.kind
+      ~QPCPCT.masterreset
+      ~QPCPCT.model
+      ~QPCPCT.name
+      ~QPCPCT.parent
+      ~QPCPCT.pegudes
+      ~QPCPCT.read_attrs
+      ~QPCPCT.report
+      ~QPCPCT.root
+      ~QPCPCT.signal_names
+      ~QPCPCT.trigger_signals
+   
+   

@@ -1,0 +1,6 @@
+pcdsdevices.pump.QPCPCT.clear\_sub
+==================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: QPCPCT.clear_sub

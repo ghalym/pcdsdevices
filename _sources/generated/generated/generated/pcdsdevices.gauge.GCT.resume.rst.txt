@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCT.resume
+============================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCT.resume

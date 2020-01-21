@@ -18,6 +18,13 @@ pcdsdevices.valve
       GateValve
       PPSStopper
       Stopper
+      VCN
+      VGC
+      VGCLegacy
+      VRC
+      VVC
+      VVCNO
+      ValveBase
    
    
 

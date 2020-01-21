@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCT.put
+=========================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCT.put

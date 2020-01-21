@@ -1,0 +1,74 @@
+pcdsdevices.gauge.GCC500PLC
+===========================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. autoclass:: GCC500PLC
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~GCC500PLC.__init__
+      ~GCC500PLC.check_value
+      ~GCC500PLC.clear_sub
+      ~GCC500PLC.configure
+      ~GCC500PLC.describe
+      ~GCC500PLC.describe_configuration
+      ~GCC500PLC.get
+      ~GCC500PLC.get_device_tuple
+      ~GCC500PLC.get_instantiated_signals
+      ~GCC500PLC.pause
+      ~GCC500PLC.put
+      ~GCC500PLC.read
+      ~GCC500PLC.read_configuration
+      ~GCC500PLC.resume
+      ~GCC500PLC.stage
+      ~GCC500PLC.stop
+      ~GCC500PLC.subscribe
+      ~GCC500PLC.summary
+      ~GCC500PLC.trigger
+      ~GCC500PLC.unstage
+      ~GCC500PLC.unsubscribe
+      ~GCC500PLC.unsubscribe_all
+      ~GCC500PLC.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~GCC500PLC.SUB_ACQ_DONE
+      ~GCC500PLC.at_vac_setpoint
+      ~GCC500PLC.component_names
+      ~GCC500PLC.configuration_attrs
+      ~GCC500PLC.connected
+      ~GCC500PLC.disc_active
+      ~GCC500PLC.event_types
+      ~GCC500PLC.gauge_at_vac
+      ~GCC500PLC.high_voltage_disable
+      ~GCC500PLC.high_voltage_is_on
+      ~GCC500PLC.high_voltage_on
+      ~GCC500PLC.hints
+      ~GCC500PLC.interlock_ok
+      ~GCC500PLC.kind
+      ~GCC500PLC.name
+      ~GCC500PLC.parent
+      ~GCC500PLC.pressure
+      ~GCC500PLC.pressure_ok
+      ~GCC500PLC.protection_setpoint
+      ~GCC500PLC.read_attrs
+      ~GCC500PLC.report
+      ~GCC500PLC.root
+      ~GCC500PLC.setpoint_hysterisis
+      ~GCC500PLC.signal_names
+      ~GCC500PLC.state
+      ~GCC500PLC.trigger_signals
+   
+   

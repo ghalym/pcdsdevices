@@ -1,0 +1,126 @@
+pcdsdevices.gauge.GaugeSerialGCC
+================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. autoclass:: GaugeSerialGCC
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~GaugeSerialGCC.__init__
+      ~GaugeSerialGCC.check_value
+      ~GaugeSerialGCC.clear_sub
+      ~GaugeSerialGCC.configure
+      ~GaugeSerialGCC.describe
+      ~GaugeSerialGCC.describe_configuration
+      ~GaugeSerialGCC.get
+      ~GaugeSerialGCC.get_device_tuple
+      ~GaugeSerialGCC.get_instantiated_signals
+      ~GaugeSerialGCC.pause
+      ~GaugeSerialGCC.put
+      ~GaugeSerialGCC.read
+      ~GaugeSerialGCC.read_configuration
+      ~GaugeSerialGCC.resume
+      ~GaugeSerialGCC.stage
+      ~GaugeSerialGCC.stop
+      ~GaugeSerialGCC.subscribe
+      ~GaugeSerialGCC.summary
+      ~GaugeSerialGCC.trigger
+      ~GaugeSerialGCC.unstage
+      ~GaugeSerialGCC.unsubscribe
+      ~GaugeSerialGCC.unsubscribe_all
+      ~GaugeSerialGCC.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~GaugeSerialGCC.SUB_ACQ_DONE
+      ~GaugeSerialGCC.component_names
+      ~GaugeSerialGCC.configuration_attrs
+      ~GaugeSerialGCC.connected
+      ~GaugeSerialGCC.event_types
+      ~GaugeSerialGCC.gastype
+      ~GaugeSerialGCC.gastypedes
+      ~GaugeSerialGCC.hints
+      ~GaugeSerialGCC.hystsprbck_1
+      ~GaugeSerialGCC.hystsprbck_2
+      ~GaugeSerialGCC.kind
+      ~GaugeSerialGCC.name
+      ~GaugeSerialGCC.p
+      ~GaugeSerialGCC.padel
+      ~GaugeSerialGCC.parent
+      ~GaugeSerialGCC.pctrl_ch_des
+      ~GaugeSerialGCC.pctrl_ch_rbck
+      ~GaugeSerialGCC.pctrldes
+      ~GaugeSerialGCC.pctrlen
+      ~GaugeSerialGCC.pctrlencalc
+      ~GaugeSerialGCC.pctrlenrbck
+      ~GaugeSerialGCC.pctrlrbck
+      ~GaugeSerialGCC.pctrlspdes
+      ~GaugeSerialGCC.pctrlsprbck
+      ~GaugeSerialGCC.plog
+      ~GaugeSerialGCC.pmon
+      ~GaugeSerialGCC.pmonraw
+      ~GaugeSerialGCC.pprotencalc
+      ~GaugeSerialGCC.pprotenrbck
+      ~GaugeSerialGCC.pprotspdes
+      ~GaugeSerialGCC.pprotsprbck
+      ~GaugeSerialGCC.pstat_1
+      ~GaugeSerialGCC.pstat_2
+      ~GaugeSerialGCC.pstat_3
+      ~GaugeSerialGCC.pstat_4
+      ~GaugeSerialGCC.pstat_calc
+      ~GaugeSerialGCC.pstat_sum
+      ~GaugeSerialGCC.pstatdirdes_1
+      ~GaugeSerialGCC.pstatdirdes_2
+      ~GaugeSerialGCC.pstatdirdes_3
+      ~GaugeSerialGCC.pstatdirdes_4
+      ~GaugeSerialGCC.pstatenable_1
+      ~GaugeSerialGCC.pstatenable_2
+      ~GaugeSerialGCC.pstatenable_3
+      ~GaugeSerialGCC.pstatenable_4
+      ~GaugeSerialGCC.pstatenades_1
+      ~GaugeSerialGCC.pstatenades_2
+      ~GaugeSerialGCC.pstatenades_3
+      ~GaugeSerialGCC.pstatenades_4
+      ~GaugeSerialGCC.pstatspdes_1
+      ~GaugeSerialGCC.pstatspdes_2
+      ~GaugeSerialGCC.pstatspdes_3
+      ~GaugeSerialGCC.pstatspdes_4
+      ~GaugeSerialGCC.pstatspdes_fs
+      ~GaugeSerialGCC.pstatspdir_1
+      ~GaugeSerialGCC.pstatspdir_2
+      ~GaugeSerialGCC.pstatspdir_3
+      ~GaugeSerialGCC.pstatspdir_4
+      ~GaugeSerialGCC.pstatsprbck_1
+      ~GaugeSerialGCC.pstatsprbck_2
+      ~GaugeSerialGCC.pstatsprbck_3
+      ~GaugeSerialGCC.pstatsprbck_4
+      ~GaugeSerialGCC.pstatsprbck_fs
+      ~GaugeSerialGCC.read_attrs
+      ~GaugeSerialGCC.report
+      ~GaugeSerialGCC.root
+      ~GaugeSerialGCC.signal_names
+      ~GaugeSerialGCC.state
+      ~GaugeSerialGCC.statedes
+      ~GaugeSerialGCC.staterbck
+      ~GaugeSerialGCC.status_rs
+      ~GaugeSerialGCC.status_rs_calc1
+      ~GaugeSerialGCC.status_rs_calc2
+      ~GaugeSerialGCC.status_rscalc
+      ~GaugeSerialGCC.status_rscalc2
+      ~GaugeSerialGCC.status_rsmon
+      ~GaugeSerialGCC.status_rsout
+      ~GaugeSerialGCC.trigger_signals
+   
+   

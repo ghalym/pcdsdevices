@@ -1,0 +1,6 @@
+pcdsdevices.valve.VVCNO.wait\_for\_connection
+=============================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VVCNO.wait_for_connection

@@ -1,0 +1,6 @@
+pcdsdevices.pump.GammaPCT.check\_value
+======================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: GammaPCT.check_value

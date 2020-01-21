@@ -1,0 +1,6 @@
+pcdsdevices.pump.PIPSerial.clear\_sub
+=====================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PIPSerial.clear_sub

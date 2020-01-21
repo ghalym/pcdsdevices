@@ -1,0 +1,6 @@
+pcdsdevices.pump.PIPPLC.pause
+=============================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PIPPLC.pause

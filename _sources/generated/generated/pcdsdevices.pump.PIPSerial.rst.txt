@@ -1,0 +1,83 @@
+pcdsdevices.pump.PIPSerial
+==========================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. autoclass:: PIPSerial
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~PIPSerial.__init__
+      ~PIPSerial.check_value
+      ~PIPSerial.clear_sub
+      ~PIPSerial.configure
+      ~PIPSerial.describe
+      ~PIPSerial.describe_configuration
+      ~PIPSerial.get
+      ~PIPSerial.get_device_tuple
+      ~PIPSerial.get_instantiated_signals
+      ~PIPSerial.pause
+      ~PIPSerial.put
+      ~PIPSerial.read
+      ~PIPSerial.read_configuration
+      ~PIPSerial.resume
+      ~PIPSerial.stage
+      ~PIPSerial.stop
+      ~PIPSerial.subscribe
+      ~PIPSerial.summary
+      ~PIPSerial.trigger
+      ~PIPSerial.unstage
+      ~PIPSerial.unsubscribe
+      ~PIPSerial.unsubscribe_all
+      ~PIPSerial.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PIPSerial.SUB_ACQ_DONE
+      ~PIPSerial.aomode
+      ~PIPSerial.aomodedes
+      ~PIPSerial.calfactor
+      ~PIPSerial.calfactordes
+      ~PIPSerial.component_names
+      ~PIPSerial.configuration_attrs
+      ~PIPSerial.connected
+      ~PIPSerial.dispdes
+      ~PIPSerial.event_types
+      ~PIPSerial.hints
+      ~PIPSerial.imon
+      ~PIPSerial.kind
+      ~PIPSerial.name
+      ~PIPSerial.parent
+      ~PIPSerial.pmon
+      ~PIPSerial.pmonlog
+      ~PIPSerial.pname
+      ~PIPSerial.pnamedes
+      ~PIPSerial.pumpsize
+      ~PIPSerial.pumpsizedes
+      ~PIPSerial.read_attrs
+      ~PIPSerial.report
+      ~PIPSerial.root
+      ~PIPSerial.signal_names
+      ~PIPSerial.statedes
+      ~PIPSerial.statemon
+      ~PIPSerial.status
+      ~PIPSerial.statuscalc
+      ~PIPSerial.statuscode
+      ~PIPSerial.statuscodecl
+      ~PIPSerial.statusraw
+      ~PIPSerial.trigger_signals
+      ~PIPSerial.vmon
+      ~PIPSerial.vpcname
+   
+   

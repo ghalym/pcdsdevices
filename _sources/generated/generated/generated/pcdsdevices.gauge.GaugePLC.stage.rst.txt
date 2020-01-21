@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugePLC.stage
+================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugePLC.stage

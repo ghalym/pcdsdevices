@@ -1,0 +1,106 @@
+pcdsdevices.pump.Navigator
+==========================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. autoclass:: Navigator
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~Navigator.__init__
+      ~Navigator.check_value
+      ~Navigator.clear_sub
+      ~Navigator.configure
+      ~Navigator.describe
+      ~Navigator.describe_configuration
+      ~Navigator.get
+      ~Navigator.get_device_tuple
+      ~Navigator.get_instantiated_signals
+      ~Navigator.pause
+      ~Navigator.put
+      ~Navigator.read
+      ~Navigator.read_configuration
+      ~Navigator.resume
+      ~Navigator.stage
+      ~Navigator.stop
+      ~Navigator.subscribe
+      ~Navigator.summary
+      ~Navigator.trigger
+      ~Navigator.unstage
+      ~Navigator.unsubscribe
+      ~Navigator.unsubscribe_all
+      ~Navigator.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Navigator.SUB_ACQ_DONE
+      ~Navigator.active_stop
+      ~Navigator.ao_type
+      ~Navigator.component_names
+      ~Navigator.config
+      ~Navigator.configuration_attrs
+      ~Navigator.connected
+      ~Navigator.ctrl_air_temp
+      ~Navigator.ctrl_heatsink_temp
+      ~Navigator.event_types
+      ~Navigator.gas_load_type
+      ~Navigator.hints
+      ~Navigator.interlock_type
+      ~Navigator.kind
+      ~Navigator.low_speed
+      ~Navigator.low_speed_freq
+      ~Navigator.name
+      ~Navigator.parent
+      ~Navigator.power_limit
+      ~Navigator.press_read_corr
+      ~Navigator.pump_current
+      ~Navigator.pump_drive_freq
+      ~Navigator.pump_error
+      ~Navigator.pump_power
+      ~Navigator.pump_status
+      ~Navigator.pump_temp
+      ~Navigator.pump_voltage
+      ~Navigator.read_attrs
+      ~Navigator.report
+      ~Navigator.root
+      ~Navigator.rot_freq
+      ~Navigator.run
+      ~Navigator.signal_names
+      ~Navigator.softstart
+      ~Navigator.sp_calcdis
+      ~Navigator.sp_current
+      ~Navigator.sp_delay
+      ~Navigator.sp_dis
+      ~Navigator.sp_freq
+      ~Navigator.sp_hys
+      ~Navigator.sp_normal
+      ~Navigator.sp_polarity
+      ~Navigator.sp_power
+      ~Navigator.sp_press_unit
+      ~Navigator.sp_pressure
+      ~Navigator.sp_time
+      ~Navigator.sp_type
+      ~Navigator.sp_write_press_unit
+      ~Navigator.sp_writeval
+      ~Navigator.stop_speed_reading
+      ~Navigator.trigger_signals
+      ~Navigator.vent_open_time
+      ~Navigator.vent_open_time_raw
+      ~Navigator.vent_valve
+      ~Navigator.vent_valve_delay
+      ~Navigator.vent_valve_operation
+      ~Navigator.vent_valve_raw
+      ~Navigator.water_cooling
+   
+   

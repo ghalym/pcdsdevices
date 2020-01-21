@@ -1,0 +1,6 @@
+pcdsdevices.pump.PTMPLC.get\_instantiated\_signals
+==================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PTMPLC.get_instantiated_signals

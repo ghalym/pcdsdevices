@@ -1,0 +1,6 @@
+pcdsdevices.pump.PTMPLC.wait\_for\_connection
+=============================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PTMPLC.wait_for_connection

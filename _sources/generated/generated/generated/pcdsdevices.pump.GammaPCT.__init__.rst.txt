@@ -1,0 +1,6 @@
+pcdsdevices.pump.GammaPCT.\_\_init\_\_
+======================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: GammaPCT.__init__

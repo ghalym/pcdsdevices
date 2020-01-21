@@ -1,0 +1,6 @@
+pcdsdevices.valve.VCN.get\_device\_tuple
+========================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VCN.get_device_tuple

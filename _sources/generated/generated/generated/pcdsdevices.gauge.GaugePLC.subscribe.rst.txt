@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugePLC.subscribe
+====================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugePLC.subscribe

@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugePLC.unsubscribe\_all
+===========================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugePLC.unsubscribe_all

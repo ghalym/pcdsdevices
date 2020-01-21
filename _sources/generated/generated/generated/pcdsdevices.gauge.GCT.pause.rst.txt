@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCT.pause
+===========================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCT.pause

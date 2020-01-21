@@ -1,0 +1,76 @@
+pcdsdevices.gauge.MKS937AController
+===================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. autoclass:: MKS937AController
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~MKS937AController.__init__
+      ~MKS937AController.check_value
+      ~MKS937AController.clear_sub
+      ~MKS937AController.configure
+      ~MKS937AController.describe
+      ~MKS937AController.describe_configuration
+      ~MKS937AController.get
+      ~MKS937AController.get_device_tuple
+      ~MKS937AController.get_instantiated_signals
+      ~MKS937AController.pause
+      ~MKS937AController.put
+      ~MKS937AController.read
+      ~MKS937AController.read_configuration
+      ~MKS937AController.resume
+      ~MKS937AController.stage
+      ~MKS937AController.stop
+      ~MKS937AController.subscribe
+      ~MKS937AController.summary
+      ~MKS937AController.trigger
+      ~MKS937AController.unstage
+      ~MKS937AController.unsubscribe
+      ~MKS937AController.unsubscribe_all
+      ~MKS937AController.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~MKS937AController.SUB_ACQ_DONE
+      ~MKS937AController.cal
+      ~MKS937AController.com
+      ~MKS937AController.com_des
+      ~MKS937AController.component_names
+      ~MKS937AController.configuration_attrs
+      ~MKS937AController.connected
+      ~MKS937AController.delay
+      ~MKS937AController.event_types
+      ~MKS937AController.freq
+      ~MKS937AController.front
+      ~MKS937AController.gauges
+      ~MKS937AController.hints
+      ~MKS937AController.kind
+      ~MKS937AController.moda
+      ~MKS937AController.modb
+      ~MKS937AController.modcc
+      ~MKS937AController.name
+      ~MKS937AController.parent
+      ~MKS937AController.pstatenout
+      ~MKS937AController.pstatspout
+      ~MKS937AController.read_attrs
+      ~MKS937AController.report
+      ~MKS937AController.root
+      ~MKS937AController.signal_names
+      ~MKS937AController.trigger_signals
+      ~MKS937AController.unit
+      ~MKS937AController.version
+   
+   

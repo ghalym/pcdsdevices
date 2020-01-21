@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCC500PLC.\_\_init\_\_
+========================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCC500PLC.__init__

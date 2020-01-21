@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCC500PLC.get\_device\_tuple
+==============================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCC500PLC.get_device_tuple

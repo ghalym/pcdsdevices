@@ -1,0 +1,6 @@
+pcdsdevices.pump.PROPLC.resume
+==============================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PROPLC.resume

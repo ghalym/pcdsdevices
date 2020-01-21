@@ -1,0 +1,6 @@
+pcdsdevices.pump.Navigator.\_\_init\_\_
+=======================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: Navigator.__init__

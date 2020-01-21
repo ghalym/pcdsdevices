@@ -1,0 +1,6 @@
+pcdsdevices.valve.ValveBase.clear\_sub
+======================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: ValveBase.clear_sub

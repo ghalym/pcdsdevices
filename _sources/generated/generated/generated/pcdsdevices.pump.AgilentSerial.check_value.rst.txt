@@ -1,0 +1,6 @@
+pcdsdevices.pump.AgilentSerial.check\_value
+===========================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: AgilentSerial.check_value

@@ -1,0 +1,6 @@
+pcdsdevices.pump.Navigator.stage
+================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: Navigator.stage

@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCT.unsubscribe\_all
+======================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCT.unsubscribe_all

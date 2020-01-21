@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSerialGPI.stage
+======================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSerialGPI.stage

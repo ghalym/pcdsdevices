@@ -1,0 +1,6 @@
+pcdsdevices.pump.QPCPCT.wait\_for\_connection
+=============================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: QPCPCT.wait_for_connection

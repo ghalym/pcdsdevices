@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCCPLC.subscribe
+==================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCCPLC.subscribe

@@ -1,0 +1,6 @@
+pcdsdevices.pump.Navigator.describe\_configuration
+==================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: Navigator.describe_configuration

@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSerial.check\_value
+==========================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSerial.check_value

@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSerialGPI.\_\_init\_\_
+=============================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSerialGPI.__init__

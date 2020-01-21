@@ -1,0 +1,6 @@
+pcdsdevices.gauge.MKS937AController.subscribe
+=============================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: MKS937AController.subscribe

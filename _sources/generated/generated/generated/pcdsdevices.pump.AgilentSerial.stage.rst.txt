@@ -1,0 +1,6 @@
+pcdsdevices.pump.AgilentSerial.stage
+====================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: AgilentSerial.stage

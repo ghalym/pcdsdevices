@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCT.clear\_sub
+================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCT.clear_sub

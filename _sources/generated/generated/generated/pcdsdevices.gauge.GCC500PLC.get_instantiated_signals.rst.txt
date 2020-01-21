@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCC500PLC.get\_instantiated\_signals
+======================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCC500PLC.get_instantiated_signals

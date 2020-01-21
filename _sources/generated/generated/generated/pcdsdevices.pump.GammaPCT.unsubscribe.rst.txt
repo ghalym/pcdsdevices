@@ -1,0 +1,6 @@
+pcdsdevices.pump.GammaPCT.unsubscribe
+=====================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: GammaPCT.unsubscribe

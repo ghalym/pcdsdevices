@@ -1,0 +1,6 @@
+pcdsdevices.pump.AgilentSerial.pause
+====================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: AgilentSerial.pause

@@ -1,0 +1,6 @@
+pcdsdevices.pump.PROPLC.unstage
+===============================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PROPLC.unstage

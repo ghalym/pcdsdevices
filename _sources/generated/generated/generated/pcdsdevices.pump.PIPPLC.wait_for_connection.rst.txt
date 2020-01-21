@@ -1,0 +1,6 @@
+pcdsdevices.pump.PIPPLC.wait\_for\_connection
+=============================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PIPPLC.wait_for_connection

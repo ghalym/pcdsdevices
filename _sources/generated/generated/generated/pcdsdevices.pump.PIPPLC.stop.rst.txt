@@ -1,0 +1,6 @@
+pcdsdevices.pump.PIPPLC.stop
+============================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PIPPLC.stop

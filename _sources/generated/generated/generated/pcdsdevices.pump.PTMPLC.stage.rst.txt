@@ -1,0 +1,6 @@
+pcdsdevices.pump.PTMPLC.stage
+=============================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PTMPLC.stage

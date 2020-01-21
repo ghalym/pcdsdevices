@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCT.unstage
+=============================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCT.unstage

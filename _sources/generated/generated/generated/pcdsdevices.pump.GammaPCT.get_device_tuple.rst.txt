@@ -1,0 +1,6 @@
+pcdsdevices.pump.GammaPCT.get\_device\_tuple
+============================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: GammaPCT.get_device_tuple

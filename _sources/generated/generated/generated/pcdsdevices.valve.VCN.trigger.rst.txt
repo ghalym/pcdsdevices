@@ -1,0 +1,6 @@
+pcdsdevices.valve.VCN.trigger
+=============================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VCN.trigger

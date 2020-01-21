@@ -1,0 +1,6 @@
+pcdsdevices.valve.VVC.pause
+===========================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VVC.pause

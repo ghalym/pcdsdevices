@@ -1,0 +1,6 @@
+pcdsdevices.gauge.MKS937BController.get\_device\_tuple
+======================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: MKS937BController.get_device_tuple

@@ -1,0 +1,6 @@
+pcdsdevices.pump.PIPSerial.\_\_init\_\_
+=======================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PIPSerial.__init__

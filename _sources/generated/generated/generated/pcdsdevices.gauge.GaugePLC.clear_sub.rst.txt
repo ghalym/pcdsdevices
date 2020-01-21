@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugePLC.clear\_sub
+=====================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugePLC.clear_sub

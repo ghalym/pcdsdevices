@@ -1,0 +1,6 @@
+pcdsdevices.valve.ValveBase.resume
+==================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: ValveBase.resume

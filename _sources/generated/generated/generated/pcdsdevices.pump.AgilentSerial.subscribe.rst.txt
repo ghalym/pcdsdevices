@@ -1,0 +1,6 @@
+pcdsdevices.pump.AgilentSerial.subscribe
+========================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: AgilentSerial.subscribe

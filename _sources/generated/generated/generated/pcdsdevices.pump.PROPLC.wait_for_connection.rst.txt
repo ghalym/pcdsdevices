@@ -1,0 +1,6 @@
+pcdsdevices.pump.PROPLC.wait\_for\_connection
+=============================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PROPLC.wait_for_connection

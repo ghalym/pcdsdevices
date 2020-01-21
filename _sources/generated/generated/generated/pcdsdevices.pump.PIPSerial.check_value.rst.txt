@@ -1,0 +1,6 @@
+pcdsdevices.pump.PIPSerial.check\_value
+=======================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PIPSerial.check_value

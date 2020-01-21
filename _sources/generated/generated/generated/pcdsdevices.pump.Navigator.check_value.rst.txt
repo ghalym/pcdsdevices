@@ -1,0 +1,6 @@
+pcdsdevices.pump.Navigator.check\_value
+=======================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: Navigator.check_value

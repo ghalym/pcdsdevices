@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCC500PLC.wait\_for\_connection
+=================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCC500PLC.wait_for_connection

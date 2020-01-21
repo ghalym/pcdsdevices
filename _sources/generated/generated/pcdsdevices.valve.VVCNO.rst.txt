@@ -1,0 +1,67 @@
+pcdsdevices.valve.VVCNO
+=======================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. autoclass:: VVCNO
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~VVCNO.__init__
+      ~VVCNO.check_value
+      ~VVCNO.clear_sub
+      ~VVCNO.configure
+      ~VVCNO.describe
+      ~VVCNO.describe_configuration
+      ~VVCNO.get
+      ~VVCNO.get_device_tuple
+      ~VVCNO.get_instantiated_signals
+      ~VVCNO.pause
+      ~VVCNO.put
+      ~VVCNO.read
+      ~VVCNO.read_configuration
+      ~VVCNO.resume
+      ~VVCNO.stage
+      ~VVCNO.stop
+      ~VVCNO.subscribe
+      ~VVCNO.summary
+      ~VVCNO.trigger
+      ~VVCNO.unstage
+      ~VVCNO.unsubscribe
+      ~VVCNO.unsubscribe_all
+      ~VVCNO.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~VVCNO.SUB_ACQ_DONE
+      ~VVCNO.close_command
+      ~VVCNO.close_do
+      ~VVCNO.close_ok
+      ~VVCNO.close_override
+      ~VVCNO.component_names
+      ~VVCNO.configuration_attrs
+      ~VVCNO.connected
+      ~VVCNO.event_types
+      ~VVCNO.hints
+      ~VVCNO.kind
+      ~VVCNO.name
+      ~VVCNO.override_on
+      ~VVCNO.parent
+      ~VVCNO.read_attrs
+      ~VVCNO.report
+      ~VVCNO.root
+      ~VVCNO.signal_names
+      ~VVCNO.trigger_signals
+   
+   

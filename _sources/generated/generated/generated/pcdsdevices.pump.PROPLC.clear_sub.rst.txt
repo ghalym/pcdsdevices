@@ -1,0 +1,6 @@
+pcdsdevices.pump.PROPLC.clear\_sub
+==================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PROPLC.clear_sub

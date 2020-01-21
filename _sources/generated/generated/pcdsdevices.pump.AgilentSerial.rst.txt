@@ -1,0 +1,91 @@
+pcdsdevices.pump.AgilentSerial
+==============================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. autoclass:: AgilentSerial
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~AgilentSerial.__init__
+      ~AgilentSerial.check_value
+      ~AgilentSerial.clear_sub
+      ~AgilentSerial.configure
+      ~AgilentSerial.describe
+      ~AgilentSerial.describe_configuration
+      ~AgilentSerial.get
+      ~AgilentSerial.get_device_tuple
+      ~AgilentSerial.get_instantiated_signals
+      ~AgilentSerial.pause
+      ~AgilentSerial.put
+      ~AgilentSerial.read
+      ~AgilentSerial.read_configuration
+      ~AgilentSerial.resume
+      ~AgilentSerial.stage
+      ~AgilentSerial.stop
+      ~AgilentSerial.subscribe
+      ~AgilentSerial.summary
+      ~AgilentSerial.trigger
+      ~AgilentSerial.unstage
+      ~AgilentSerial.unsubscribe
+      ~AgilentSerial.unsubscribe_all
+      ~AgilentSerial.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~AgilentSerial.SUB_ACQ_DONE
+      ~AgilentSerial.active_stop
+      ~AgilentSerial.ao_type
+      ~AgilentSerial.component_names
+      ~AgilentSerial.config
+      ~AgilentSerial.configuration_attrs
+      ~AgilentSerial.connected
+      ~AgilentSerial.event_types
+      ~AgilentSerial.hints
+      ~AgilentSerial.interlock_type
+      ~AgilentSerial.kind
+      ~AgilentSerial.name
+      ~AgilentSerial.parent
+      ~AgilentSerial.pump_current
+      ~AgilentSerial.pump_drive_freq
+      ~AgilentSerial.pump_error
+      ~AgilentSerial.pump_power
+      ~AgilentSerial.pump_status
+      ~AgilentSerial.pump_temp
+      ~AgilentSerial.pump_voltage
+      ~AgilentSerial.read_attrs
+      ~AgilentSerial.report
+      ~AgilentSerial.root
+      ~AgilentSerial.rot_freq
+      ~AgilentSerial.run
+      ~AgilentSerial.signal_names
+      ~AgilentSerial.softstart
+      ~AgilentSerial.sp_calcdis
+      ~AgilentSerial.sp_current
+      ~AgilentSerial.sp_delay
+      ~AgilentSerial.sp_dis
+      ~AgilentSerial.sp_freq
+      ~AgilentSerial.sp_hys
+      ~AgilentSerial.sp_polarity
+      ~AgilentSerial.sp_time
+      ~AgilentSerial.sp_type
+      ~AgilentSerial.sp_writeval
+      ~AgilentSerial.trigger_signals
+      ~AgilentSerial.vent_valve
+      ~AgilentSerial.vent_valve_delay
+      ~AgilentSerial.vent_valve_operation
+      ~AgilentSerial.vent_valve_raw
+      ~AgilentSerial.water_cooling
+   
+   

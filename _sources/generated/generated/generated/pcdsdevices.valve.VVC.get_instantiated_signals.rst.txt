@@ -1,0 +1,6 @@
+pcdsdevices.valve.VVC.get\_instantiated\_signals
+================================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VVC.get_instantiated_signals

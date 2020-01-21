@@ -1,0 +1,67 @@
+pcdsdevices.gauge.GaugePLC
+==========================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. autoclass:: GaugePLC
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~GaugePLC.__init__
+      ~GaugePLC.check_value
+      ~GaugePLC.clear_sub
+      ~GaugePLC.configure
+      ~GaugePLC.describe
+      ~GaugePLC.describe_configuration
+      ~GaugePLC.get
+      ~GaugePLC.get_device_tuple
+      ~GaugePLC.get_instantiated_signals
+      ~GaugePLC.pause
+      ~GaugePLC.put
+      ~GaugePLC.read
+      ~GaugePLC.read_configuration
+      ~GaugePLC.resume
+      ~GaugePLC.stage
+      ~GaugePLC.stop
+      ~GaugePLC.subscribe
+      ~GaugePLC.summary
+      ~GaugePLC.trigger
+      ~GaugePLC.unstage
+      ~GaugePLC.unsubscribe
+      ~GaugePLC.unsubscribe_all
+      ~GaugePLC.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~GaugePLC.SUB_ACQ_DONE
+      ~GaugePLC.at_vac_setpoint
+      ~GaugePLC.component_names
+      ~GaugePLC.configuration_attrs
+      ~GaugePLC.connected
+      ~GaugePLC.event_types
+      ~GaugePLC.gauge_at_vac
+      ~GaugePLC.hints
+      ~GaugePLC.kind
+      ~GaugePLC.name
+      ~GaugePLC.parent
+      ~GaugePLC.pressure
+      ~GaugePLC.pressure_ok
+      ~GaugePLC.read_attrs
+      ~GaugePLC.report
+      ~GaugePLC.root
+      ~GaugePLC.signal_names
+      ~GaugePLC.state
+      ~GaugePLC.trigger_signals
+   
+   
