@@ -1,0 +1,6 @@
+pcdsdevices.lens.LensStackBase.destroy
+======================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: LensStackBase.destroy

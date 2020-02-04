@@ -15,15 +15,21 @@ pcdsdevices.lens.SimLensStack
       ~SimLensStack.__init__
       ~SimLensStack.add_instantiation_callback
       ~SimLensStack.align
+      ~SimLensStack.calc_beam_fwhm
+      ~SimLensStack.calc_distance_for_size
+      ~SimLensStack.calc_focal_length
+      ~SimLensStack.calc_focal_length_for_single_lens
       ~SimLensStack.check_single
       ~SimLensStack.check_value
       ~SimLensStack.clear_sub
       ~SimLensStack.configure
+      ~SimLensStack.create_lens
       ~SimLensStack.describe
       ~SimLensStack.describe_configuration
       ~SimLensStack.destroy
       ~SimLensStack.forward
       ~SimLensStack.get
+      ~SimLensStack.get_delta
       ~SimLensStack.get_device_tuple
       ~SimLensStack.get_instantiated_signals
       ~SimLensStack.inverse
@@ -33,6 +39,7 @@ pcdsdevices.lens.SimLensStack
       ~SimLensStack.put
       ~SimLensStack.read
       ~SimLensStack.read_configuration
+      ~SimLensStack.read_lens
       ~SimLensStack.resume
       ~SimLensStack.set
       ~SimLensStack.stage
@@ -65,6 +72,8 @@ pcdsdevices.lens.SimLensStack
       ~SimLensStack.SUB_READBACK
       ~SimLensStack.SUB_START
       ~SimLensStack.attr_name
+      ~SimLensStack.backup_path
+      ~SimLensStack.beam_size
       ~SimLensStack.calib_z
       ~SimLensStack.component_names
       ~SimLensStack.composite_egu

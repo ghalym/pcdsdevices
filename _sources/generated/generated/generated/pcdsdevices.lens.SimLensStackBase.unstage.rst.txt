@@ -1,0 +1,6 @@
+pcdsdevices.lens.SimLensStackBase.unstage
+=========================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: SimLensStackBase.unstage

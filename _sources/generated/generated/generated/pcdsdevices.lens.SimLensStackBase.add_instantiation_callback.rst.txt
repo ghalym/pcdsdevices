@@ -1,0 +1,6 @@
+pcdsdevices.lens.SimLensStackBase.add\_instantiation\_callback
+==============================================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: SimLensStackBase.add_instantiation_callback

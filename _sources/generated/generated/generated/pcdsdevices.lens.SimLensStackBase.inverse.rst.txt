@@ -1,0 +1,6 @@
+pcdsdevices.lens.SimLensStackBase.inverse
+=========================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: SimLensStackBase.inverse

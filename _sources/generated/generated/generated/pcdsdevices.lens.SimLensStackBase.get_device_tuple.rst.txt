@@ -1,0 +1,6 @@
+pcdsdevices.lens.SimLensStackBase.get\_device\_tuple
+====================================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: SimLensStackBase.get_device_tuple

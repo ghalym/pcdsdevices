@@ -15,15 +15,21 @@ pcdsdevices.lens.LensStack
       ~LensStack.__init__
       ~LensStack.add_instantiation_callback
       ~LensStack.align
+      ~LensStack.calc_beam_fwhm
+      ~LensStack.calc_distance_for_size
+      ~LensStack.calc_focal_length
+      ~LensStack.calc_focal_length_for_single_lens
       ~LensStack.check_single
       ~LensStack.check_value
       ~LensStack.clear_sub
       ~LensStack.configure
+      ~LensStack.create_lens
       ~LensStack.describe
       ~LensStack.describe_configuration
       ~LensStack.destroy
       ~LensStack.forward
       ~LensStack.get
+      ~LensStack.get_delta
       ~LensStack.get_device_tuple
       ~LensStack.get_instantiated_signals
       ~LensStack.inverse
@@ -33,6 +39,7 @@ pcdsdevices.lens.LensStack
       ~LensStack.put
       ~LensStack.read
       ~LensStack.read_configuration
+      ~LensStack.read_lens
       ~LensStack.resume
       ~LensStack.set
       ~LensStack.stage
@@ -65,6 +72,8 @@ pcdsdevices.lens.LensStack
       ~LensStack.SUB_READBACK
       ~LensStack.SUB_START
       ~LensStack.attr_name
+      ~LensStack.backup_path
+      ~LensStack.beam_size
       ~LensStack.calib_z
       ~LensStack.component_names
       ~LensStack.composite_egu

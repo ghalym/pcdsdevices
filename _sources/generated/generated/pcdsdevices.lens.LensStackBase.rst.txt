@@ -1,0 +1,111 @@
+pcdsdevices.lens.LensStackBase
+==============================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. autoclass:: LensStackBase
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~LensStackBase.__init__
+      ~LensStackBase.add_instantiation_callback
+      ~LensStackBase.align
+      ~LensStackBase.calc_beam_fwhm
+      ~LensStackBase.calc_distance_for_size
+      ~LensStackBase.calc_focal_length
+      ~LensStackBase.calc_focal_length_for_single_lens
+      ~LensStackBase.check_single
+      ~LensStackBase.check_value
+      ~LensStackBase.clear_sub
+      ~LensStackBase.configure
+      ~LensStackBase.describe
+      ~LensStackBase.describe_configuration
+      ~LensStackBase.destroy
+      ~LensStackBase.forward
+      ~LensStackBase.get
+      ~LensStackBase.get_delta
+      ~LensStackBase.get_device_tuple
+      ~LensStackBase.get_instantiated_signals
+      ~LensStackBase.inverse
+      ~LensStackBase.move
+      ~LensStackBase.move_single
+      ~LensStackBase.pause
+      ~LensStackBase.put
+      ~LensStackBase.read
+      ~LensStackBase.read_configuration
+      ~LensStackBase.resume
+      ~LensStackBase.set
+      ~LensStackBase.stage
+      ~LensStackBase.stop
+      ~LensStackBase.subscribe
+      ~LensStackBase.summary
+      ~LensStackBase.to_pseudo_tuple
+      ~LensStackBase.to_real_tuple
+      ~LensStackBase.trigger
+      ~LensStackBase.tweak
+      ~LensStackBase.unstage
+      ~LensStackBase.unsubscribe
+      ~LensStackBase.unsubscribe_all
+      ~LensStackBase.wait_for_connection
+      ~LensStackBase.walk_components
+      ~LensStackBase.walk_signals
+      ~LensStackBase.walk_subdevice_classes
+      ~LensStackBase.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~LensStackBase.SUB_ACQ_DONE
+      ~LensStackBase.SUB_DONE
+      ~LensStackBase.SUB_READBACK
+      ~LensStackBase.SUB_START
+      ~LensStackBase.attr_name
+      ~LensStackBase.beam_size
+      ~LensStackBase.calib_z
+      ~LensStackBase.component_names
+      ~LensStackBase.composite_egu
+      ~LensStackBase.concurrent
+      ~LensStackBase.configuration_attrs
+      ~LensStackBase.connected
+      ~LensStackBase.dotted_name
+      ~LensStackBase.egu
+      ~LensStackBase.event_types
+      ~LensStackBase.high_limit
+      ~LensStackBase.hints
+      ~LensStackBase.kind
+      ~LensStackBase.lazy_wait_for_connection
+      ~LensStackBase.limits
+      ~LensStackBase.low_limit
+      ~LensStackBase.moving
+      ~LensStackBase.name
+      ~LensStackBase.parent
+      ~LensStackBase.position
+      ~LensStackBase.pseudo_positioners
+      ~LensStackBase.read_attrs
+      ~LensStackBase.real_position
+      ~LensStackBase.real_positioners
+      ~LensStackBase.report
+      ~LensStackBase.root
+      ~LensStackBase.sequential
+      ~LensStackBase.settle_time
+      ~LensStackBase.signal_names
+      ~LensStackBase.tab_component_names
+      ~LensStackBase.tab_whitelist
+      ~LensStackBase.target
+      ~LensStackBase.timeout
+      ~LensStackBase.trigger_signals
+      ~LensStackBase.x
+      ~LensStackBase.y
+      ~LensStackBase.z
+   
+   
