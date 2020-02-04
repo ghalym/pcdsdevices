@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.state.StatePositioner &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
+  <title>pcdsdevices.state.StatePositioner &mdash; PCDS Devices 2.2.0+32.gdbe8040 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.2.0+19.gb9a4274
+                2.2.0+32.gdbe8040
               </div>
             
           
@@ -274,7 +274,9 @@ in-progress move as failed.</p></li>
 <dl class="attribute">
 <dt id="pcdsdevices.state.StatePositioner.states_list">
 <code class="sig-name descname">states_list</code><a class="headerlink" href="#pcdsdevices.state.StatePositioner.states_list" title="Permalink to this definition">¶</a></dt>
-<dd><p>An exhaustive list of all possible states. This should be overridden in
+<dd><p>This no longer has to be provided if the state signal contains enum
+information, like an EPICS mbbi. If it is provided, it must be
+an exhaustive list of all possible states. This should be overridden in
 a base class. Unknown must be omitted in the class definition and will
 be added dynamically in position 0 when the object is created.</p>
 <dl class="field-list simple">
