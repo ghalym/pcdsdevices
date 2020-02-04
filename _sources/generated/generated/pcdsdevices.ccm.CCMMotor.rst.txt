@@ -13,12 +13,14 @@ pcdsdevices.ccm.CCMMotor
       :toctree: generated
    
       ~CCMMotor.__init__
+      ~CCMMotor.add_instantiation_callback
       ~CCMMotor.camonitor
       ~CCMMotor.check_value
       ~CCMMotor.clear_sub
       ~CCMMotor.configure
       ~CCMMotor.describe
       ~CCMMotor.describe_configuration
+      ~CCMMotor.destroy
       ~CCMMotor.end_monitor_thread
       ~CCMMotor.get
       ~CCMMotor.get_device_tuple
@@ -45,6 +47,10 @@ pcdsdevices.ccm.CCMMotor
       ~CCMMotor.unsubscribe
       ~CCMMotor.unsubscribe_all
       ~CCMMotor.wait_for_connection
+      ~CCMMotor.walk_components
+      ~CCMMotor.walk_signals
+      ~CCMMotor.walk_subdevice_classes
+      ~CCMMotor.walk_subdevices
       ~CCMMotor.wm
       ~CCMMotor.wm_update
    
@@ -62,16 +68,19 @@ pcdsdevices.ccm.CCMMotor
       ~CCMMotor.SUB_START
       ~CCMMotor.actuate
       ~CCMMotor.actuate_value
+      ~CCMMotor.attr_name
       ~CCMMotor.component_names
       ~CCMMotor.configuration_attrs
       ~CCMMotor.connected
       ~CCMMotor.done
       ~CCMMotor.done_value
+      ~CCMMotor.dotted_name
       ~CCMMotor.egu
       ~CCMMotor.event_types
       ~CCMMotor.high_limit
       ~CCMMotor.hints
       ~CCMMotor.kind
+      ~CCMMotor.lazy_wait_for_connection
       ~CCMMotor.limits
       ~CCMMotor.low_limit
       ~CCMMotor.moving

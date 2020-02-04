@@ -13,12 +13,14 @@ pcdsdevices.epics\_motor.PCDSMotorBase
       :toctree: generated
    
       ~PCDSMotorBase.__init__
+      ~PCDSMotorBase.add_instantiation_callback
       ~PCDSMotorBase.camonitor
       ~PCDSMotorBase.check_value
       ~PCDSMotorBase.clear_sub
       ~PCDSMotorBase.configure
       ~PCDSMotorBase.describe
       ~PCDSMotorBase.describe_configuration
+      ~PCDSMotorBase.destroy
       ~PCDSMotorBase.disable
       ~PCDSMotorBase.enable
       ~PCDSMotorBase.end_monitor_thread
@@ -53,6 +55,10 @@ pcdsdevices.epics\_motor.PCDSMotorBase
       ~PCDSMotorBase.unsubscribe
       ~PCDSMotorBase.unsubscribe_all
       ~PCDSMotorBase.wait_for_connection
+      ~PCDSMotorBase.walk_components
+      ~PCDSMotorBase.walk_signals
+      ~PCDSMotorBase.walk_subdevice_classes
+      ~PCDSMotorBase.walk_subdevices
       ~PCDSMotorBase.wm
       ~PCDSMotorBase.wm_update
    
@@ -69,12 +75,14 @@ pcdsdevices.epics\_motor.PCDSMotorBase
       ~PCDSMotorBase.SUB_READBACK
       ~PCDSMotorBase.SUB_START
       ~PCDSMotorBase.acceleration
+      ~PCDSMotorBase.attr_name
       ~PCDSMotorBase.component_names
       ~PCDSMotorBase.configuration_attrs
       ~PCDSMotorBase.connected
       ~PCDSMotorBase.description
       ~PCDSMotorBase.direction_of_travel
       ~PCDSMotorBase.disabled
+      ~PCDSMotorBase.dotted_name
       ~PCDSMotorBase.egu
       ~PCDSMotorBase.event_types
       ~PCDSMotorBase.high_limit
@@ -84,6 +92,7 @@ pcdsdevices.epics\_motor.PCDSMotorBase
       ~PCDSMotorBase.home_forward
       ~PCDSMotorBase.home_reverse
       ~PCDSMotorBase.kind
+      ~PCDSMotorBase.lazy_wait_for_connection
       ~PCDSMotorBase.limits
       ~PCDSMotorBase.low_limit
       ~PCDSMotorBase.low_limit_switch

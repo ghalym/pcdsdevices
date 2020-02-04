@@ -13,12 +13,14 @@ pcdsdevices.lodcm.YagLom
       :toctree: generated
    
       ~YagLom.__init__
+      ~YagLom.add_instantiation_callback
       ~YagLom.camonitor
       ~YagLom.check_value
       ~YagLom.clear_sub
       ~YagLom.configure
       ~YagLom.describe
       ~YagLom.describe_configuration
+      ~YagLom.destroy
       ~YagLom.end_monitor_thread
       ~YagLom.get
       ~YagLom.get_device_tuple
@@ -43,6 +45,10 @@ pcdsdevices.lodcm.YagLom
       ~YagLom.unsubscribe
       ~YagLom.unsubscribe_all
       ~YagLom.wait_for_connection
+      ~YagLom.walk_components
+      ~YagLom.walk_signals
+      ~YagLom.walk_subdevice_classes
+      ~YagLom.walk_subdevices
       ~YagLom.wm
       ~YagLom.wm_update
    
@@ -59,9 +65,11 @@ pcdsdevices.lodcm.YagLom
       ~YagLom.SUB_READBACK
       ~YagLom.SUB_START
       ~YagLom.SUB_STATE
+      ~YagLom.attr_name
       ~YagLom.component_names
       ~YagLom.configuration_attrs
       ~YagLom.connected
+      ~YagLom.dotted_name
       ~YagLom.egu
       ~YagLom.event_types
       ~YagLom.high_limit
@@ -69,6 +77,7 @@ pcdsdevices.lodcm.YagLom
       ~YagLom.in_states
       ~YagLom.inserted
       ~YagLom.kind
+      ~YagLom.lazy_wait_for_connection
       ~YagLom.limits
       ~YagLom.low_limit
       ~YagLom.motor

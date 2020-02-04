@@ -1,0 +1,6 @@
+pcdsdevices.pump.Navigator.add\_instantiation\_callback
+=======================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: Navigator.add_instantiation_callback

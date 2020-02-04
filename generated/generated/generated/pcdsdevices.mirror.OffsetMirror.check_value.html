@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.mirror.OffsetMirror.check_value &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.mirror.OffsetMirror.check_value &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -36,7 +36,7 @@
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
     <link rel="next" title="pcdsdevices.mirror.OffsetMirror.clear_sub" href="pcdsdevices.mirror.OffsetMirror.clear_sub.html" />
-    <link rel="prev" title="pcdsdevices.mirror.OffsetMirror.__init__" href="pcdsdevices.mirror.OffsetMirror.__init__.html" /> 
+    <link rel="prev" title="pcdsdevices.mirror.OffsetMirror.add_instantiation_callback" href="pcdsdevices.mirror.OffsetMirror.add_instantiation_callback.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -117,11 +117,13 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.mirror.OMMotor.html">pcdsdevices.mirror.OMMotor</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.mirror.OffsetMirror.html">pcdsdevices.mirror.OffsetMirror</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.__init__.html">pcdsdevices.mirror.OffsetMirror.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.add_instantiation_callback.html">pcdsdevices.mirror.OffsetMirror.add_instantiation_callback</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.mirror.OffsetMirror.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.clear_sub.html">pcdsdevices.mirror.OffsetMirror.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.configure.html">pcdsdevices.mirror.OffsetMirror.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.describe.html">pcdsdevices.mirror.OffsetMirror.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.describe_configuration.html">pcdsdevices.mirror.OffsetMirror.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.destroy.html">pcdsdevices.mirror.OffsetMirror.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.get.html">pcdsdevices.mirror.OffsetMirror.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.get_device_tuple.html">pcdsdevices.mirror.OffsetMirror.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.get_instantiated_signals.html">pcdsdevices.mirror.OffsetMirror.get_instantiated_signals</a></li>
@@ -139,6 +141,10 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.unsubscribe.html">pcdsdevices.mirror.OffsetMirror.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.unsubscribe_all.html">pcdsdevices.mirror.OffsetMirror.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.wait_for_connection.html">pcdsdevices.mirror.OffsetMirror.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.walk_components.html">pcdsdevices.mirror.OffsetMirror.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.walk_signals.html">pcdsdevices.mirror.OffsetMirror.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.walk_subdevice_classes.html">pcdsdevices.mirror.OffsetMirror.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.walk_subdevices.html">pcdsdevices.mirror.OffsetMirror.walk_subdevices</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.mirror.Pitch.html">pcdsdevices.mirror.Pitch</a></li>
@@ -258,7 +264,7 @@ value is invalid.</p>
         <a href="pcdsdevices.mirror.OffsetMirror.clear_sub.html" class="btn btn-neutral float-right" title="pcdsdevices.mirror.OffsetMirror.clear_sub" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="pcdsdevices.mirror.OffsetMirror.__init__.html" class="btn btn-neutral float-left" title="pcdsdevices.mirror.OffsetMirror.__init__" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="pcdsdevices.mirror.OffsetMirror.add_instantiation_callback.html" class="btn btn-neutral float-left" title="pcdsdevices.mirror.OffsetMirror.add_instantiation_callback" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.Newport.subscribe &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.device_types.Newport.subscribe &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -110,12 +110,14 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.MovableStand.html">pcdsdevices.device_types.MovableStand</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.device_types.Newport.html">pcdsdevices.device_types.Newport</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Newport.__init__.html">pcdsdevices.device_types.Newport.__init__</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Newport.add_instantiation_callback.html">pcdsdevices.device_types.Newport.add_instantiation_callback</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Newport.camonitor.html">pcdsdevices.device_types.Newport.camonitor</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Newport.check_value.html">pcdsdevices.device_types.Newport.check_value</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Newport.clear_sub.html">pcdsdevices.device_types.Newport.clear_sub</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Newport.configure.html">pcdsdevices.device_types.Newport.configure</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Newport.describe.html">pcdsdevices.device_types.Newport.describe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Newport.describe_configuration.html">pcdsdevices.device_types.Newport.describe_configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Newport.destroy.html">pcdsdevices.device_types.Newport.destroy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Newport.disable.html">pcdsdevices.device_types.Newport.disable</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Newport.enable.html">pcdsdevices.device_types.Newport.enable</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Newport.end_monitor_thread.html">pcdsdevices.device_types.Newport.end_monitor_thread</a></li>
@@ -150,6 +152,10 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Newport.unsubscribe.html">pcdsdevices.device_types.Newport.unsubscribe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Newport.unsubscribe_all.html">pcdsdevices.device_types.Newport.unsubscribe_all</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Newport.wait_for_connection.html">pcdsdevices.device_types.Newport.wait_for_connection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Newport.walk_components.html">pcdsdevices.device_types.Newport.walk_components</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Newport.walk_signals.html">pcdsdevices.device_types.Newport.walk_signals</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Newport.walk_subdevice_classes.html">pcdsdevices.device_types.Newport.walk_subdevice_classes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Newport.walk_subdevices.html">pcdsdevices.device_types.Newport.walk_subdevices</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Newport.wm.html">pcdsdevices.device_types.Newport.wm</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Newport.wm_update.html">pcdsdevices.device_types.Newport.wm_update</a></li>
 </ul>
@@ -247,7 +253,7 @@
 <h1>pcdsdevices.device_types.Newport.subscribe<a class="headerlink" href="#pcdsdevices-device-types-newport-subscribe" title="Permalink to this headline">¶</a></h1>
 <dl class="method">
 <dt id="pcdsdevices.device_types.Newport.subscribe">
-<code class="sig-prename descclassname">Newport.</code><code class="sig-name descname">subscribe</code><span class="sig-paren">(</span><em class="sig-param">cb</em>, <em class="sig-param">event_type=None</em>, <em class="sig-param">run=True</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.device_types.Newport.subscribe" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">Newport.</code><code class="sig-name descname">subscribe</code><span class="sig-paren">(</span><em class="sig-param">callback</em>, <em class="sig-param">event_type=None</em>, <em class="sig-param">run=True</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.device_types.Newport.subscribe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Subscribe to events this event_type generates.</p>
 <p>The callback will be called as <code class="docutils literal notranslate"><span class="pre">cb(*args,</span> <span class="pre">**kwargs)</span></code> with
 the values passed to <code class="xref any docutils literal notranslate"><span class="pre">_run_subs</span></code> with the following additional keys:</p>
@@ -267,7 +273,7 @@ silently ignored.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>cb</strong> (<em>callable</em>) – <p>A callable function (that takes kwargs) to be run when the event is
+<li><p><strong>callback</strong> (<em>callable</em>) – <p>A callable function (that takes kwargs) to be run when the event is
 generated.  The expected signature is</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">cb</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="n">obj</span><span class="p">:</span> <span class="n">OphydObject</span><span class="p">,</span> <span class="n">sub_type</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
 </pre></div>

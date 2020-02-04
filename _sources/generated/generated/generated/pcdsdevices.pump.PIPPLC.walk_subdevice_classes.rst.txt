@@ -1,0 +1,6 @@
+pcdsdevices.pump.PIPPLC.walk\_subdevice\_classes
+================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PIPPLC.walk_subdevice_classes

@@ -1,0 +1,6 @@
+pcdsdevices.pump.TurboPump.walk\_subdevices
+===========================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: TurboPump.walk_subdevices

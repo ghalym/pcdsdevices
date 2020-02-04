@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.gauge.GaugeColdCathode &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.gauge.GaugeColdCathode &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -36,7 +36,7 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="pcdsdevices.gauge.GaugeColdCathode.__init__" href="generated/pcdsdevices.gauge.GaugeColdCathode.__init__.html" />
-    <link rel="prev" title="pcdsdevices.gauge.GCT.wait_for_connection" href="generated/pcdsdevices.gauge.GCT.wait_for_connection.html" /> 
+    <link rel="prev" title="pcdsdevices.gauge.GCT.walk_subdevices" href="generated/pcdsdevices.gauge.GCT.walk_subdevices.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -114,11 +114,13 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.gauge.GCT.html">pcdsdevices.gauge.GCT</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.gauge.GaugeColdCathode</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.__init__.html">pcdsdevices.gauge.GaugeColdCathode.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.add_instantiation_callback.html">pcdsdevices.gauge.GaugeColdCathode.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.check_value.html">pcdsdevices.gauge.GaugeColdCathode.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.clear_sub.html">pcdsdevices.gauge.GaugeColdCathode.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.configure.html">pcdsdevices.gauge.GaugeColdCathode.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.describe.html">pcdsdevices.gauge.GaugeColdCathode.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.describe_configuration.html">pcdsdevices.gauge.GaugeColdCathode.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.destroy.html">pcdsdevices.gauge.GaugeColdCathode.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.get.html">pcdsdevices.gauge.GaugeColdCathode.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.get_device_tuple.html">pcdsdevices.gauge.GaugeColdCathode.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.get_instantiated_signals.html">pcdsdevices.gauge.GaugeColdCathode.get_instantiated_signals</a></li>
@@ -136,6 +138,10 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.unsubscribe.html">pcdsdevices.gauge.GaugeColdCathode.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.unsubscribe_all.html">pcdsdevices.gauge.GaugeColdCathode.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.wait_for_connection.html">pcdsdevices.gauge.GaugeColdCathode.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.walk_components.html">pcdsdevices.gauge.GaugeColdCathode.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.walk_signals.html">pcdsdevices.gauge.GaugeColdCathode.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.walk_subdevice_classes.html">pcdsdevices.gauge.GaugeColdCathode.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.walk_subdevices.html">pcdsdevices.gauge.GaugeColdCathode.walk_subdevices</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.gauge.GaugePLC.html">pcdsdevices.gauge.GaugePLC</a></li>
@@ -257,20 +263,26 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.__init__.html#pcdsdevices.gauge.GaugeColdCathode.__init__" title="pcdsdevices.gauge.GaugeColdCathode.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>([prefix, kind, read_attrs, …])</p></td>
 <td><p>Initialize self.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.check_value.html#pcdsdevices.gauge.GaugeColdCathode.check_value" title="pcdsdevices.gauge.GaugeColdCathode.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.add_instantiation_callback.html#pcdsdevices.gauge.GaugeColdCathode.add_instantiation_callback" title="pcdsdevices.gauge.GaugeColdCathode.add_instantiation_callback"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_instantiation_callback</span></code></a>(callback[, …])</p></td>
+<td><p>Register a callback which will receive each OphydObject instance.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.check_value.html#pcdsdevices.gauge.GaugeColdCathode.check_value" title="pcdsdevices.gauge.GaugeColdCathode.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value, **kwargs)</p></td>
 <td><p>Check if the value is valid for this object</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.clear_sub.html#pcdsdevices.gauge.GaugeColdCathode.clear_sub" title="pcdsdevices.gauge.GaugeColdCathode.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.clear_sub.html#pcdsdevices.gauge.GaugeColdCathode.clear_sub" title="pcdsdevices.gauge.GaugeColdCathode.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
 <td><p>Remove a subscription, given the original callback function</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.configure.html#pcdsdevices.gauge.GaugeColdCathode.configure" title="pcdsdevices.gauge.GaugeColdCathode.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.configure.html#pcdsdevices.gauge.GaugeColdCathode.configure" title="pcdsdevices.gauge.GaugeColdCathode.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
 <td><p>Configure the device for something during a run</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.describe.html#pcdsdevices.gauge.GaugeColdCathode.describe" title="pcdsdevices.gauge.GaugeColdCathode.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
-<td><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.describe.html#pcdsdevices.gauge.GaugeColdCathode.describe" title="pcdsdevices.gauge.GaugeColdCathode.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
+<td><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code>.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.describe_configuration.html#pcdsdevices.gauge.GaugeColdCathode.describe_configuration" title="pcdsdevices.gauge.GaugeColdCathode.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.describe_configuration.html#pcdsdevices.gauge.GaugeColdCathode.describe_configuration" title="pcdsdevices.gauge.GaugeColdCathode.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</p></td>
 <td><p>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.destroy.html#pcdsdevices.gauge.GaugeColdCathode.destroy" title="pcdsdevices.gauge.GaugeColdCathode.destroy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">destroy</span></code></a>()</p></td>
+<td><p>Disconnect and destroy all signals on the Device</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.get.html#pcdsdevices.gauge.GaugeColdCathode.get" title="pcdsdevices.gauge.GaugeColdCathode.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
@@ -288,13 +300,13 @@
 <td><p>Put a value to all components of the device</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.read.html#pcdsdevices.gauge.GaugeColdCathode.read" title="pcdsdevices.gauge.GaugeColdCathode.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
-<td><p>Read data from the device</p></td>
+<td><p>Read data from the device.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.read_configuration.html#pcdsdevices.gauge.GaugeColdCathode.read_configuration" title="pcdsdevices.gauge.GaugeColdCathode.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
-<td><p>returns dictionary mapping names to (value, timestamp) pairs</p></td>
+<td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.resume.html#pcdsdevices.gauge.GaugeColdCathode.resume" title="pcdsdevices.gauge.GaugeColdCathode.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
-<td><p>Resume a device from a ‘paused’ state</p></td>
+<td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.stage.html#pcdsdevices.gauge.GaugeColdCathode.stage" title="pcdsdevices.gauge.GaugeColdCathode.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
 <td><p>Stage the device for data collection.</p></td>
@@ -302,14 +314,14 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.stop.html#pcdsdevices.gauge.GaugeColdCathode.stop" title="pcdsdevices.gauge.GaugeColdCathode.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.subscribe.html#pcdsdevices.gauge.GaugeColdCathode.subscribe" title="pcdsdevices.gauge.GaugeColdCathode.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[, event_type, run])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.subscribe.html#pcdsdevices.gauge.GaugeColdCathode.subscribe" title="pcdsdevices.gauge.GaugeColdCathode.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(callback[, event_type, run])</p></td>
 <td><p>Subscribe to events this event_type generates.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.summary.html#pcdsdevices.gauge.GaugeColdCathode.summary" title="pcdsdevices.gauge.GaugeColdCathode.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.trigger.html#pcdsdevices.gauge.GaugeColdCathode.trigger" title="pcdsdevices.gauge.GaugeColdCathode.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
-<td><p>Trigger the device and return status object</p></td>
+<td><p>Trigger the device and return status object.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.unstage.html#pcdsdevices.gauge.GaugeColdCathode.unstage" title="pcdsdevices.gauge.GaugeColdCathode.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</p></td>
 <td><p>Unstage the device.</p></td>
@@ -323,6 +335,18 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.wait_for_connection.html#pcdsdevices.gauge.GaugeColdCathode.wait_for_connection" title="pcdsdevices.gauge.GaugeColdCathode.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals, timeout])</p></td>
 <td><p>Wait for signals to connect</p></td>
 </tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.walk_components.html#pcdsdevices.gauge.GaugeColdCathode.walk_components" title="pcdsdevices.gauge.GaugeColdCathode.walk_components"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_components</span></code></a>()</p></td>
+<td><p>Walk all components in the Device hierarchy</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.walk_signals.html#pcdsdevices.gauge.GaugeColdCathode.walk_signals" title="pcdsdevices.gauge.GaugeColdCathode.walk_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_signals</span></code></a>(*[, include_lazy])</p></td>
+<td><p>Walk all signals in the Device hierarchy</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.walk_subdevice_classes.html#pcdsdevices.gauge.GaugeColdCathode.walk_subdevice_classes" title="pcdsdevices.gauge.GaugeColdCathode.walk_subdevice_classes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevice_classes</span></code></a>()</p></td>
+<td><p>Walk all sub-Devices classes in the Device hierarchy</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.walk_subdevices.html#pcdsdevices.gauge.GaugeColdCathode.walk_subdevices" title="pcdsdevices.gauge.GaugeColdCathode.walk_subdevices"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevices</span></code></a>(*[, include_lazy])</p></td>
+<td><p>Walk all sub-Devices in the hierarchy</p></td>
+</tr>
 </tbody>
 </table>
 <p class="rubric">Attributes</p>
@@ -335,26 +359,32 @@
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_ACQ_DONE</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_names</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">attr_name</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_attrs</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_names</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_attrs</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></p></td>
 <td><p>If the device is connected.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">control_enable</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">control_enable</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">control_setpoint</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">control_setpoint</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">dotted_name</span></code></p></td>
+<td><p>Return the dotted name</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">egu</span></code></p></td>
-<td><p>Component attribute</p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">enable</span></code></p></td>
-<td><p>Component attribute</p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">event_types</span></code></p></td>
 <td><p>Events that can be subscribed to via <code class="xref any docutils literal notranslate"><span class="pre">obj.subscribe</span></code></p></td>
@@ -365,58 +395,61 @@
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">lazy_wait_for_connection</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></p></td>
 <td><p>name of the device</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></p></td>
 <td><p>The parent of the ophyd object.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pressure</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pressure</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pressure_status</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pressure_status</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pressure_status_enable</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pressure_status_enable</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">protection_enable</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">protection_enable</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">protection_setpoint</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">protection_setpoint</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">relay_enable</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">relay_enable</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">relay_setpoint</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">relay_setpoint</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
 <td><p>A report on the object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></p></td>
 <td><p>Walk parents to find ultimate ancestor (parent’s parent…).</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">state</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">state</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">status</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">status</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tab_component_names</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tab_component_names</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tab_whitelist</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tab_whitelist</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
 <td><p></p></td>
 </tr>
 </tbody>
@@ -436,7 +469,7 @@
         <a href="generated/pcdsdevices.gauge.GaugeColdCathode.__init__.html" class="btn btn-neutral float-right" title="pcdsdevices.gauge.GaugeColdCathode.__init__" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="generated/pcdsdevices.gauge.GCT.wait_for_connection.html" class="btn btn-neutral float-left" title="pcdsdevices.gauge.GCT.wait_for_connection" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="generated/pcdsdevices.gauge.GCT.walk_subdevices.html" class="btn btn-neutral float-left" title="pcdsdevices.gauge.GCT.walk_subdevices" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

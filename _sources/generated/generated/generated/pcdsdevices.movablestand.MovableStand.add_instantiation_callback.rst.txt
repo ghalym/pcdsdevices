@@ -1,0 +1,6 @@
+pcdsdevices.movablestand.MovableStand.add\_instantiation\_callback
+==================================================================
+
+.. currentmodule:: pcdsdevices.movablestand
+
+.. automethod:: MovableStand.add_instantiation_callback

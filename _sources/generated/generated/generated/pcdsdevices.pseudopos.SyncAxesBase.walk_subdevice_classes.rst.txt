@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.SyncAxesBase.walk\_subdevice\_classes
+===========================================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: SyncAxesBase.walk_subdevice_classes

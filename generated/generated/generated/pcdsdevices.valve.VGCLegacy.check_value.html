@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.valve.VGCLegacy.check_value &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.valve.VGCLegacy.check_value &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -36,7 +36,7 @@
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
     <link rel="next" title="pcdsdevices.valve.VGCLegacy.clear_sub" href="pcdsdevices.valve.VGCLegacy.clear_sub.html" />
-    <link rel="prev" title="pcdsdevices.valve.VGCLegacy.__init__" href="pcdsdevices.valve.VGCLegacy.__init__.html" /> 
+    <link rel="prev" title="pcdsdevices.valve.VGCLegacy.add_instantiation_callback" href="pcdsdevices.valve.VGCLegacy.add_instantiation_callback.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -134,11 +134,13 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.valve.VGC.html">pcdsdevices.valve.VGC</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.valve.VGCLegacy.html">pcdsdevices.valve.VGCLegacy</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VGCLegacy.__init__.html">pcdsdevices.valve.VGCLegacy.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VGCLegacy.add_instantiation_callback.html">pcdsdevices.valve.VGCLegacy.add_instantiation_callback</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.valve.VGCLegacy.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VGCLegacy.clear_sub.html">pcdsdevices.valve.VGCLegacy.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VGCLegacy.configure.html">pcdsdevices.valve.VGCLegacy.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VGCLegacy.describe.html">pcdsdevices.valve.VGCLegacy.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VGCLegacy.describe_configuration.html">pcdsdevices.valve.VGCLegacy.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VGCLegacy.destroy.html">pcdsdevices.valve.VGCLegacy.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VGCLegacy.get.html">pcdsdevices.valve.VGCLegacy.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VGCLegacy.get_device_tuple.html">pcdsdevices.valve.VGCLegacy.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VGCLegacy.get_instantiated_signals.html">pcdsdevices.valve.VGCLegacy.get_instantiated_signals</a></li>
@@ -156,6 +158,10 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VGCLegacy.unsubscribe.html">pcdsdevices.valve.VGCLegacy.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VGCLegacy.unsubscribe_all.html">pcdsdevices.valve.VGCLegacy.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VGCLegacy.wait_for_connection.html">pcdsdevices.valve.VGCLegacy.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VGCLegacy.walk_components.html">pcdsdevices.valve.VGCLegacy.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VGCLegacy.walk_signals.html">pcdsdevices.valve.VGCLegacy.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VGCLegacy.walk_subdevice_classes.html">pcdsdevices.valve.VGCLegacy.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VGCLegacy.walk_subdevices.html">pcdsdevices.valve.VGCLegacy.walk_subdevices</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.valve.VRC.html">pcdsdevices.valve.VRC</a></li>
@@ -265,7 +271,7 @@ value is invalid.</p>
         <a href="pcdsdevices.valve.VGCLegacy.clear_sub.html" class="btn btn-neutral float-right" title="pcdsdevices.valve.VGCLegacy.clear_sub" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="pcdsdevices.valve.VGCLegacy.__init__.html" class="btn btn-neutral float-left" title="pcdsdevices.valve.VGCLegacy.__init__" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="pcdsdevices.valve.VGCLegacy.add_instantiation_callback.html" class="btn btn-neutral float-left" title="pcdsdevices.valve.VGCLegacy.add_instantiation_callback" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

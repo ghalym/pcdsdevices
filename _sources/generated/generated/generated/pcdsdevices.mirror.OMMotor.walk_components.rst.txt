@@ -1,0 +1,6 @@
+pcdsdevices.mirror.OMMotor.walk\_components
+===========================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: OMMotor.walk_components

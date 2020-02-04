@@ -1,0 +1,6 @@
+pcdsdevices.gauge.MKS937a.walk\_subdevice\_classes
+==================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: MKS937a.walk_subdevice_classes

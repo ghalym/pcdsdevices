@@ -1,0 +1,6 @@
+pcdsdevices.pump.PIPSerial.destroy
+==================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PIPSerial.destroy

@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Trigger.walk\_components
+==================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Trigger.walk_components

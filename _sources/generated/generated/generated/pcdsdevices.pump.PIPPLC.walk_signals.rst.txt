@@ -1,0 +1,6 @@
+pcdsdevices.pump.PIPPLC.walk\_signals
+=====================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PIPPLC.walk_signals

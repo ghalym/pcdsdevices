@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMY.walk\_components
+=====================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMY.walk_components

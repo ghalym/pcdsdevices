@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.inout.TTReflaser.trigger &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.inout.TTReflaser.trigger &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -114,12 +114,14 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.inout.Reflaser.html">pcdsdevices.inout.Reflaser</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.inout.TTReflaser.html">pcdsdevices.inout.TTReflaser</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.TTReflaser.__init__.html">pcdsdevices.inout.TTReflaser.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.TTReflaser.add_instantiation_callback.html">pcdsdevices.inout.TTReflaser.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.TTReflaser.camonitor.html">pcdsdevices.inout.TTReflaser.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.TTReflaser.check_value.html">pcdsdevices.inout.TTReflaser.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.TTReflaser.clear_sub.html">pcdsdevices.inout.TTReflaser.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.TTReflaser.configure.html">pcdsdevices.inout.TTReflaser.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.TTReflaser.describe.html">pcdsdevices.inout.TTReflaser.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.TTReflaser.describe_configuration.html">pcdsdevices.inout.TTReflaser.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.TTReflaser.destroy.html">pcdsdevices.inout.TTReflaser.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.TTReflaser.end_monitor_thread.html">pcdsdevices.inout.TTReflaser.end_monitor_thread</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.TTReflaser.get.html">pcdsdevices.inout.TTReflaser.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.TTReflaser.get_device_tuple.html">pcdsdevices.inout.TTReflaser.get_device_tuple</a></li>
@@ -144,6 +146,10 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.TTReflaser.unsubscribe.html">pcdsdevices.inout.TTReflaser.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.TTReflaser.unsubscribe_all.html">pcdsdevices.inout.TTReflaser.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.TTReflaser.wait_for_connection.html">pcdsdevices.inout.TTReflaser.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.TTReflaser.walk_components.html">pcdsdevices.inout.TTReflaser.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.TTReflaser.walk_signals.html">pcdsdevices.inout.TTReflaser.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.TTReflaser.walk_subdevice_classes.html">pcdsdevices.inout.TTReflaser.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.TTReflaser.walk_subdevices.html">pcdsdevices.inout.TTReflaser.walk_subdevices</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.TTReflaser.wm.html">pcdsdevices.inout.TTReflaser.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.TTReflaser.wm_update.html">pcdsdevices.inout.TTReflaser.wm_update</a></li>
 </ul>
@@ -245,17 +251,17 @@
 <dl class="method">
 <dt id="pcdsdevices.inout.TTReflaser.trigger">
 <code class="sig-prename descclassname">TTReflaser.</code><code class="sig-name descname">trigger</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; ophyd.status.StatusBase<a class="headerlink" href="#pcdsdevices.inout.TTReflaser.trigger" title="Permalink to this definition">¶</a></dt>
-<dd><p>Trigger the device and return status object</p>
+<dd><p>Trigger the device and return status object.</p>
 <p>This method is responsible for implementing ‘trigger’ or
 ‘acquire’ functionality of this device.</p>
 <p>If there is an appreciable time between triggering the device
 and it being able to be read (via the
 <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code> method) then this method is
 also responsible for arranging that the
-<code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code> object returned my this method
+<code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code> object returned by this method
 is notified when the device is ready to be read.</p>
 <p>If there is no delay between triggering and being readable,
-then this method must return a <code class="xref py py-obj docutils literal notranslate"><span class="pre">SatusBase</span></code>
+then this method must return a <code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code>
 object which is already completed.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>

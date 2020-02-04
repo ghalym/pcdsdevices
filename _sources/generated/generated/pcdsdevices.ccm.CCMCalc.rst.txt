@@ -13,6 +13,7 @@ pcdsdevices.ccm.CCMCalc
       :toctree: generated
    
       ~CCMCalc.__init__
+      ~CCMCalc.add_instantiation_callback
       ~CCMCalc.camonitor
       ~CCMCalc.check_single
       ~CCMCalc.check_value
@@ -20,6 +21,7 @@ pcdsdevices.ccm.CCMCalc
       ~CCMCalc.configure
       ~CCMCalc.describe
       ~CCMCalc.describe_configuration
+      ~CCMCalc.destroy
       ~CCMCalc.end_monitor_thread
       ~CCMCalc.forward
       ~CCMCalc.get
@@ -51,6 +53,10 @@ pcdsdevices.ccm.CCMCalc
       ~CCMCalc.unsubscribe
       ~CCMCalc.unsubscribe_all
       ~CCMCalc.wait_for_connection
+      ~CCMCalc.walk_components
+      ~CCMCalc.walk_signals
+      ~CCMCalc.walk_subdevice_classes
+      ~CCMCalc.walk_subdevices
       ~CCMCalc.wm
       ~CCMCalc.wm_update
    
@@ -67,17 +73,20 @@ pcdsdevices.ccm.CCMCalc
       ~CCMCalc.SUB_READBACK
       ~CCMCalc.SUB_START
       ~CCMCalc.alio
+      ~CCMCalc.attr_name
       ~CCMCalc.component_names
       ~CCMCalc.composite_egu
       ~CCMCalc.concurrent
       ~CCMCalc.configuration_attrs
       ~CCMCalc.connected
+      ~CCMCalc.dotted_name
       ~CCMCalc.egu
       ~CCMCalc.energy
       ~CCMCalc.event_types
       ~CCMCalc.high_limit
       ~CCMCalc.hints
       ~CCMCalc.kind
+      ~CCMCalc.lazy_wait_for_connection
       ~CCMCalc.limits
       ~CCMCalc.low_limit
       ~CCMCalc.moving

@@ -1,0 +1,6 @@
+pcdsdevices.pump.GammaPCT.destroy
+=================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: GammaPCT.destroy

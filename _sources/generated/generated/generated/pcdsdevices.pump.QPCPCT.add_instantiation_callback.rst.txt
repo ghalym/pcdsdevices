@@ -1,0 +1,6 @@
+pcdsdevices.pump.QPCPCT.add\_instantiation\_callback
+====================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: QPCPCT.add_instantiation_callback

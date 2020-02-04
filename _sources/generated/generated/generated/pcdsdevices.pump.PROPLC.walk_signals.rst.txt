@@ -1,0 +1,6 @@
+pcdsdevices.pump.PROPLC.walk\_signals
+=====================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PROPLC.walk_signals

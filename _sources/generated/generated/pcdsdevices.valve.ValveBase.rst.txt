@@ -13,11 +13,13 @@ pcdsdevices.valve.ValveBase
       :toctree: generated
    
       ~ValveBase.__init__
+      ~ValveBase.add_instantiation_callback
       ~ValveBase.check_value
       ~ValveBase.clear_sub
       ~ValveBase.configure
       ~ValveBase.describe
       ~ValveBase.describe_configuration
+      ~ValveBase.destroy
       ~ValveBase.get
       ~ValveBase.get_device_tuple
       ~ValveBase.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.valve.ValveBase
       ~ValveBase.unsubscribe
       ~ValveBase.unsubscribe_all
       ~ValveBase.wait_for_connection
+      ~ValveBase.walk_components
+      ~ValveBase.walk_signals
+      ~ValveBase.walk_subdevice_classes
+      ~ValveBase.walk_subdevices
    
    
 
@@ -45,13 +51,16 @@ pcdsdevices.valve.ValveBase
    .. autosummary::
    
       ~ValveBase.SUB_ACQ_DONE
+      ~ValveBase.attr_name
       ~ValveBase.component_names
       ~ValveBase.configuration_attrs
       ~ValveBase.connected
+      ~ValveBase.dotted_name
       ~ValveBase.event_types
       ~ValveBase.hints
       ~ValveBase.interlock_ok
       ~ValveBase.kind
+      ~ValveBase.lazy_wait_for_connection
       ~ValveBase.name
       ~ValveBase.open_command
       ~ValveBase.open_do

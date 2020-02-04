@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.signal.AvgSignal.describe &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.signal.AvgSignal.describe &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -124,10 +124,12 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.signal.AggregateSignal.html">pcdsdevices.signal.AggregateSignal</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.signal.AvgSignal.html">pcdsdevices.signal.AvgSignal</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.AvgSignal.__init__.html">pcdsdevices.signal.AvgSignal.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.AvgSignal.add_instantiation_callback.html">pcdsdevices.signal.AvgSignal.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.AvgSignal.check_value.html">pcdsdevices.signal.AvgSignal.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.AvgSignal.clear_sub.html">pcdsdevices.signal.AvgSignal.clear_sub</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.signal.AvgSignal.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.AvgSignal.describe_configuration.html">pcdsdevices.signal.AvgSignal.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.AvgSignal.destroy.html">pcdsdevices.signal.AvgSignal.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.AvgSignal.get.html">pcdsdevices.signal.AvgSignal.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.AvgSignal.put.html">pcdsdevices.signal.AvgSignal.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.AvgSignal.read.html">pcdsdevices.signal.AvgSignal.read</a></li>
@@ -224,7 +226,20 @@
 <dl class="method">
 <dt id="pcdsdevices.signal.AvgSignal.describe">
 <code class="sig-prename descclassname">AvgSignal.</code><code class="sig-name descname">describe</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.signal.AvgSignal.describe" title="Permalink to this definition">¶</a></dt>
-<dd><p>Return the description as a dictionary</p>
+<dd><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code></p>
+<p>This keys in the <code class="xref any docutils literal notranslate"><span class="pre">OrderedDict</span></code> this method returns must match the
+keys in the <code class="xref any docutils literal notranslate"><span class="pre">OrderedDict</span></code> return by <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code>.</p>
+<p>This provides schema related information, (ex shape, dtype), the
+source (ex PV name), and if available, units, limits, precision etc.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p><strong>data_keys</strong> – The keys must be strings and the values must be dict-like
+with the <code class="docutils literal notranslate"><span class="pre">event_model.event_descriptor.data_key</span></code> schema.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>OrderedDict</p>
+</dd>
+</dl>
 </dd></dl>
 
 </div>

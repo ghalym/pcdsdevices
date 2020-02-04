@@ -13,6 +13,7 @@ pcdsdevices.pseudopos.DelayBase
       :toctree: generated
    
       ~DelayBase.__init__
+      ~DelayBase.add_instantiation_callback
       ~DelayBase.camonitor
       ~DelayBase.check_single
       ~DelayBase.check_value
@@ -20,6 +21,7 @@ pcdsdevices.pseudopos.DelayBase
       ~DelayBase.configure
       ~DelayBase.describe
       ~DelayBase.describe_configuration
+      ~DelayBase.destroy
       ~DelayBase.end_monitor_thread
       ~DelayBase.forward
       ~DelayBase.get
@@ -51,6 +53,10 @@ pcdsdevices.pseudopos.DelayBase
       ~DelayBase.unsubscribe
       ~DelayBase.unsubscribe_all
       ~DelayBase.wait_for_connection
+      ~DelayBase.walk_components
+      ~DelayBase.walk_signals
+      ~DelayBase.walk_subdevice_classes
+      ~DelayBase.walk_subdevices
       ~DelayBase.wm
       ~DelayBase.wm_update
    
@@ -66,17 +72,20 @@ pcdsdevices.pseudopos.DelayBase
       ~DelayBase.SUB_DONE
       ~DelayBase.SUB_READBACK
       ~DelayBase.SUB_START
+      ~DelayBase.attr_name
       ~DelayBase.component_names
       ~DelayBase.composite_egu
       ~DelayBase.concurrent
       ~DelayBase.configuration_attrs
       ~DelayBase.connected
       ~DelayBase.delay
+      ~DelayBase.dotted_name
       ~DelayBase.egu
       ~DelayBase.event_types
       ~DelayBase.high_limit
       ~DelayBase.hints
       ~DelayBase.kind
+      ~DelayBase.lazy_wait_for_connection
       ~DelayBase.limits
       ~DelayBase.low_limit
       ~DelayBase.motor

@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.FeeFilter.walk\_subdevices
+=================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: FeeFilter.walk_subdevices

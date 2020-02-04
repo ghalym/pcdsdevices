@@ -13,11 +13,13 @@ pcdsdevices.pump.EbaraPump
       :toctree: generated
    
       ~EbaraPump.__init__
+      ~EbaraPump.add_instantiation_callback
       ~EbaraPump.check_value
       ~EbaraPump.clear_sub
       ~EbaraPump.configure
       ~EbaraPump.describe
       ~EbaraPump.describe_configuration
+      ~EbaraPump.destroy
       ~EbaraPump.get
       ~EbaraPump.get_device_tuple
       ~EbaraPump.get_instantiated_signals
@@ -36,6 +38,10 @@ pcdsdevices.pump.EbaraPump
       ~EbaraPump.unsubscribe
       ~EbaraPump.unsubscribe_all
       ~EbaraPump.wait_for_connection
+      ~EbaraPump.walk_components
+      ~EbaraPump.walk_signals
+      ~EbaraPump.walk_subdevice_classes
+      ~EbaraPump.walk_subdevices
    
    
 
@@ -46,12 +52,15 @@ pcdsdevices.pump.EbaraPump
    .. autosummary::
    
       ~EbaraPump.SUB_ACQ_DONE
+      ~EbaraPump.attr_name
       ~EbaraPump.component_names
       ~EbaraPump.configuration_attrs
       ~EbaraPump.connected
+      ~EbaraPump.dotted_name
       ~EbaraPump.event_types
       ~EbaraPump.hints
       ~EbaraPump.kind
+      ~EbaraPump.lazy_wait_for_connection
       ~EbaraPump.name
       ~EbaraPump.parent
       ~EbaraPump.read_attrs

@@ -1,0 +1,6 @@
+pcdsdevices.pump.PROPLC.add\_instantiation\_callback
+====================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PROPLC.add_instantiation_callback

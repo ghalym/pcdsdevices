@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.pulsepicker.PulsePicker.trigger &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.pulsepicker.PulsePicker.trigger &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -120,6 +120,7 @@
 <li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a><ul class="current">
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.pulsepicker.PulsePicker.html">pcdsdevices.pulsepicker.PulsePicker</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.__init__.html">pcdsdevices.pulsepicker.PulsePicker.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.add_instantiation_callback.html">pcdsdevices.pulsepicker.PulsePicker.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.burst.html">pcdsdevices.pulsepicker.PulsePicker.burst</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.camonitor.html">pcdsdevices.pulsepicker.PulsePicker.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.check_value.html">pcdsdevices.pulsepicker.PulsePicker.check_value</a></li>
@@ -128,6 +129,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.configure.html">pcdsdevices.pulsepicker.PulsePicker.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.describe.html">pcdsdevices.pulsepicker.PulsePicker.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.describe_configuration.html">pcdsdevices.pulsepicker.PulsePicker.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.destroy.html">pcdsdevices.pulsepicker.PulsePicker.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.end_monitor_thread.html">pcdsdevices.pulsepicker.PulsePicker.end_monitor_thread</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.flipflop.html">pcdsdevices.pulsepicker.PulsePicker.flipflop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.follower.html">pcdsdevices.pulsepicker.PulsePicker.follower</a></li>
@@ -156,6 +158,10 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.unsubscribe.html">pcdsdevices.pulsepicker.PulsePicker.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.unsubscribe_all.html">pcdsdevices.pulsepicker.PulsePicker.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.wait_for_connection.html">pcdsdevices.pulsepicker.PulsePicker.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.walk_components.html">pcdsdevices.pulsepicker.PulsePicker.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.walk_signals.html">pcdsdevices.pulsepicker.PulsePicker.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.walk_subdevice_classes.html">pcdsdevices.pulsepicker.PulsePicker.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.walk_subdevices.html">pcdsdevices.pulsepicker.PulsePicker.walk_subdevices</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.wm.html">pcdsdevices.pulsepicker.PulsePicker.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.wm_update.html">pcdsdevices.pulsepicker.PulsePicker.wm_update</a></li>
 </ul>
@@ -248,17 +254,17 @@
 <dl class="method">
 <dt id="pcdsdevices.pulsepicker.PulsePicker.trigger">
 <code class="sig-prename descclassname">PulsePicker.</code><code class="sig-name descname">trigger</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; ophyd.status.StatusBase<a class="headerlink" href="#pcdsdevices.pulsepicker.PulsePicker.trigger" title="Permalink to this definition">¶</a></dt>
-<dd><p>Trigger the device and return status object</p>
+<dd><p>Trigger the device and return status object.</p>
 <p>This method is responsible for implementing ‘trigger’ or
 ‘acquire’ functionality of this device.</p>
 <p>If there is an appreciable time between triggering the device
 and it being able to be read (via the
 <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code> method) then this method is
 also responsible for arranging that the
-<code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code> object returned my this method
+<code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code> object returned by this method
 is notified when the device is ready to be read.</p>
 <p>If there is no delay between triggering and being readable,
-then this method must return a <code class="xref py py-obj docutils literal notranslate"><span class="pre">SatusBase</span></code>
+then this method must return a <code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code>
 object which is already completed.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>

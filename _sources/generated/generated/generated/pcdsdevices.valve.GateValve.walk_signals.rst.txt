@@ -1,0 +1,6 @@
+pcdsdevices.valve.GateValve.walk\_signals
+=========================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: GateValve.walk_signals

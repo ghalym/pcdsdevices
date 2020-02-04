@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Diode.walk\_components
+========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Diode.walk_components

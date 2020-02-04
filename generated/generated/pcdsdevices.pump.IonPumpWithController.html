@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.pump.IonPumpWithController &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.pump.IonPumpWithController &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -36,7 +36,7 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="pcdsdevices.pump.IonPumpWithController.__init__" href="generated/pcdsdevices.pump.IonPumpWithController.__init__.html" />
-    <link rel="prev" title="pcdsdevices.pump.IonPumpBase.wait_for_connection" href="generated/pcdsdevices.pump.IonPumpBase.wait_for_connection.html" /> 
+    <link rel="prev" title="pcdsdevices.pump.IonPumpBase.walk_subdevices" href="generated/pcdsdevices.pump.IonPumpBase.walk_subdevices.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -127,11 +127,13 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pump.IonPumpBase.html">pcdsdevices.pump.IonPumpBase</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.pump.IonPumpWithController</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.__init__.html">pcdsdevices.pump.IonPumpWithController.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.add_instantiation_callback.html">pcdsdevices.pump.IonPumpWithController.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.check_value.html">pcdsdevices.pump.IonPumpWithController.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.clear_sub.html">pcdsdevices.pump.IonPumpWithController.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.configure.html">pcdsdevices.pump.IonPumpWithController.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.describe.html">pcdsdevices.pump.IonPumpWithController.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.describe_configuration.html">pcdsdevices.pump.IonPumpWithController.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.destroy.html">pcdsdevices.pump.IonPumpWithController.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.egu.html">pcdsdevices.pump.IonPumpWithController.egu</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.get.html">pcdsdevices.pump.IonPumpWithController.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.get_device_tuple.html">pcdsdevices.pump.IonPumpWithController.get_device_tuple</a></li>
@@ -154,6 +156,10 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.unsubscribe.html">pcdsdevices.pump.IonPumpWithController.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.unsubscribe_all.html">pcdsdevices.pump.IonPumpWithController.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.wait_for_connection.html">pcdsdevices.pump.IonPumpWithController.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.walk_components.html">pcdsdevices.pump.IonPumpWithController.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.walk_signals.html">pcdsdevices.pump.IonPumpWithController.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.walk_subdevice_classes.html">pcdsdevices.pump.IonPumpWithController.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.walk_subdevices.html">pcdsdevices.pump.IonPumpWithController.walk_subdevices</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pump.Navigator.html">pcdsdevices.pump.Navigator</a></li>
@@ -270,20 +276,26 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.__init__.html#pcdsdevices.pump.IonPumpWithController.__init__" title="pcdsdevices.pump.IonPumpWithController.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(prefix, *, prefix_controller, **kwargs)</p></td>
 <td><p>Initialize self.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.check_value.html#pcdsdevices.pump.IonPumpWithController.check_value" title="pcdsdevices.pump.IonPumpWithController.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.add_instantiation_callback.html#pcdsdevices.pump.IonPumpWithController.add_instantiation_callback" title="pcdsdevices.pump.IonPumpWithController.add_instantiation_callback"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_instantiation_callback</span></code></a>(callback[, …])</p></td>
+<td><p>Register a callback which will receive each OphydObject instance.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.check_value.html#pcdsdevices.pump.IonPumpWithController.check_value" title="pcdsdevices.pump.IonPumpWithController.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value, **kwargs)</p></td>
 <td><p>Check if the value is valid for this object</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.clear_sub.html#pcdsdevices.pump.IonPumpWithController.clear_sub" title="pcdsdevices.pump.IonPumpWithController.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.clear_sub.html#pcdsdevices.pump.IonPumpWithController.clear_sub" title="pcdsdevices.pump.IonPumpWithController.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
 <td><p>Remove a subscription, given the original callback function</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.configure.html#pcdsdevices.pump.IonPumpWithController.configure" title="pcdsdevices.pump.IonPumpWithController.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.configure.html#pcdsdevices.pump.IonPumpWithController.configure" title="pcdsdevices.pump.IonPumpWithController.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
 <td><p>Configure the device for something during a run</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.describe.html#pcdsdevices.pump.IonPumpWithController.describe" title="pcdsdevices.pump.IonPumpWithController.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
-<td><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.describe.html#pcdsdevices.pump.IonPumpWithController.describe" title="pcdsdevices.pump.IonPumpWithController.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
+<td><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code>.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.describe_configuration.html#pcdsdevices.pump.IonPumpWithController.describe_configuration" title="pcdsdevices.pump.IonPumpWithController.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.describe_configuration.html#pcdsdevices.pump.IonPumpWithController.describe_configuration" title="pcdsdevices.pump.IonPumpWithController.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</p></td>
 <td><p>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.destroy.html#pcdsdevices.pump.IonPumpWithController.destroy" title="pcdsdevices.pump.IonPumpWithController.destroy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">destroy</span></code></a>()</p></td>
+<td><p>Disconnect and destroy all signals on the Device</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.egu.html#pcdsdevices.pump.IonPumpWithController.egu" title="pcdsdevices.pump.IonPumpWithController.egu"><code class="xref py py-obj docutils literal notranslate"><span class="pre">egu</span></code></a>()</p></td>
 <td><p></p></td>
@@ -316,13 +328,13 @@
 <td><p>Put a value to all components of the device</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.read.html#pcdsdevices.pump.IonPumpWithController.read" title="pcdsdevices.pump.IonPumpWithController.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
-<td><p>Read data from the device</p></td>
+<td><p>Read data from the device.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.read_configuration.html#pcdsdevices.pump.IonPumpWithController.read_configuration" title="pcdsdevices.pump.IonPumpWithController.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
-<td><p>returns dictionary mapping names to (value, timestamp) pairs</p></td>
+<td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.resume.html#pcdsdevices.pump.IonPumpWithController.resume" title="pcdsdevices.pump.IonPumpWithController.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
-<td><p>Resume a device from a ‘paused’ state</p></td>
+<td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.stage.html#pcdsdevices.pump.IonPumpWithController.stage" title="pcdsdevices.pump.IonPumpWithController.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
 <td><p>Stage the device for data collection.</p></td>
@@ -330,14 +342,14 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.stop.html#pcdsdevices.pump.IonPumpWithController.stop" title="pcdsdevices.pump.IonPumpWithController.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.subscribe.html#pcdsdevices.pump.IonPumpWithController.subscribe" title="pcdsdevices.pump.IonPumpWithController.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[, event_type, run])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.subscribe.html#pcdsdevices.pump.IonPumpWithController.subscribe" title="pcdsdevices.pump.IonPumpWithController.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(callback[, event_type, run])</p></td>
 <td><p>Subscribe to events this event_type generates.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.summary.html#pcdsdevices.pump.IonPumpWithController.summary" title="pcdsdevices.pump.IonPumpWithController.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.trigger.html#pcdsdevices.pump.IonPumpWithController.trigger" title="pcdsdevices.pump.IonPumpWithController.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
-<td><p>Trigger the device and return status object</p></td>
+<td><p>Trigger the device and return status object.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.unstage.html#pcdsdevices.pump.IonPumpWithController.unstage" title="pcdsdevices.pump.IonPumpWithController.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</p></td>
 <td><p>Unstage the device.</p></td>
@@ -350,6 +362,18 @@
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.wait_for_connection.html#pcdsdevices.pump.IonPumpWithController.wait_for_connection" title="pcdsdevices.pump.IonPumpWithController.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals, timeout])</p></td>
 <td><p>Wait for signals to connect</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.walk_components.html#pcdsdevices.pump.IonPumpWithController.walk_components" title="pcdsdevices.pump.IonPumpWithController.walk_components"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_components</span></code></a>()</p></td>
+<td><p>Walk all components in the Device hierarchy</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.walk_signals.html#pcdsdevices.pump.IonPumpWithController.walk_signals" title="pcdsdevices.pump.IonPumpWithController.walk_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_signals</span></code></a>(*[, include_lazy])</p></td>
+<td><p>Walk all signals in the Device hierarchy</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.walk_subdevice_classes.html#pcdsdevices.pump.IonPumpWithController.walk_subdevice_classes" title="pcdsdevices.pump.IonPumpWithController.walk_subdevice_classes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevice_classes</span></code></a>()</p></td>
+<td><p>Walk all sub-Devices classes in the Device hierarchy</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpWithController.walk_subdevices.html#pcdsdevices.pump.IonPumpWithController.walk_subdevices" title="pcdsdevices.pump.IonPumpWithController.walk_subdevices"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevices</span></code></a>(*[, include_lazy])</p></td>
+<td><p>Walk all sub-Devices in the hierarchy</p></td>
 </tr>
 </tbody>
 </table>
@@ -364,28 +388,34 @@
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">aomode</span></code></p></td>
-<td><p>Component attribute</p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">calfactor</span></code></p></td>
-<td><p>Component attribute</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_names</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">attr_name</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_attrs</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">calfactor</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_names</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_attrs</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></p></td>
 <td><p>If the device is connected.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">controller</span></code></p></td>
-<td><p>FormattedComponent attribute</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">controller</span></code></p></td>
+<td><p>A Component which takes a dynamic format string</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">controllername</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">controllername</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">current</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">current</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">dotted_name</span></code></p></td>
+<td><p>Return the dotted name</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">event_types</span></code></p></td>
 <td><p>Events that can be subscribed to via <code class="xref any docutils literal notranslate"><span class="pre">obj.subscribe</span></code></p></td>
@@ -394,55 +424,58 @@
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">hvstrapping</span></code></p></td>
-<td><p>Component attribute</p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">lazy_wait_for_connection</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></p></td>
 <td><p>name of the device</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></p></td>
 <td><p>The parent of the ophyd object.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pumpsize</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pumpsize</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
 <td><p>A report on the object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></p></td>
 <td><p>Walk parents to find ultimate ancestor (parent’s parent…).</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">state</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">state</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">status</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">status</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">status_code</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">status_code</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">supplysize</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">supplysize</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tab_component_names</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tab_component_names</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tab_whitelist</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tab_whitelist</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">voltage</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">voltage</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 </tbody>
 </table>
@@ -461,7 +494,7 @@
         <a href="generated/pcdsdevices.pump.IonPumpWithController.__init__.html" class="btn btn-neutral float-right" title="pcdsdevices.pump.IonPumpWithController.__init__" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="generated/pcdsdevices.pump.IonPumpBase.wait_for_connection.html" class="btn btn-neutral float-left" title="pcdsdevices.pump.IonPumpBase.wait_for_connection" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="generated/pcdsdevices.pump.IonPumpBase.walk_subdevices.html" class="btn btn-neutral float-left" title="pcdsdevices.pump.IonPumpBase.walk_subdevices" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

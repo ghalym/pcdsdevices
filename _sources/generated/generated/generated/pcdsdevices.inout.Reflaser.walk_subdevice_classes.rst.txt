@@ -1,0 +1,6 @@
+pcdsdevices.inout.Reflaser.walk\_subdevice\_classes
+===================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: Reflaser.walk_subdevice_classes

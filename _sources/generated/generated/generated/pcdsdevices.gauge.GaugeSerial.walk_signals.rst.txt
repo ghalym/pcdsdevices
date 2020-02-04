@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSerial.walk\_signals
+===========================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSerial.walk_signals

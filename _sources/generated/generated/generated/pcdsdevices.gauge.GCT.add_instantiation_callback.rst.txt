@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCT.add\_instantiation\_callback
+==================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCT.add_instantiation_callback

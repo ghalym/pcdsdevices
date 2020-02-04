@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.gauge.GaugeSerialGCC.describe &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.gauge.GaugeSerialGCC.describe &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -118,11 +118,13 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.gauge.GaugeSerial.html">pcdsdevices.gauge.GaugeSerial</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.gauge.GaugeSerialGCC.html">pcdsdevices.gauge.GaugeSerialGCC</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGCC.__init__.html">pcdsdevices.gauge.GaugeSerialGCC.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGCC.add_instantiation_callback.html">pcdsdevices.gauge.GaugeSerialGCC.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGCC.check_value.html">pcdsdevices.gauge.GaugeSerialGCC.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGCC.clear_sub.html">pcdsdevices.gauge.GaugeSerialGCC.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGCC.configure.html">pcdsdevices.gauge.GaugeSerialGCC.configure</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.gauge.GaugeSerialGCC.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGCC.describe_configuration.html">pcdsdevices.gauge.GaugeSerialGCC.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGCC.destroy.html">pcdsdevices.gauge.GaugeSerialGCC.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGCC.get.html">pcdsdevices.gauge.GaugeSerialGCC.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGCC.get_device_tuple.html">pcdsdevices.gauge.GaugeSerialGCC.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGCC.get_instantiated_signals.html">pcdsdevices.gauge.GaugeSerialGCC.get_instantiated_signals</a></li>
@@ -140,6 +142,10 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGCC.unsubscribe.html">pcdsdevices.gauge.GaugeSerialGCC.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGCC.unsubscribe_all.html">pcdsdevices.gauge.GaugeSerialGCC.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGCC.wait_for_connection.html">pcdsdevices.gauge.GaugeSerialGCC.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGCC.walk_components.html">pcdsdevices.gauge.GaugeSerialGCC.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGCC.walk_signals.html">pcdsdevices.gauge.GaugeSerialGCC.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGCC.walk_subdevice_classes.html">pcdsdevices.gauge.GaugeSerialGCC.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGCC.walk_subdevices.html">pcdsdevices.gauge.GaugeSerialGCC.walk_subdevices</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.gauge.GaugeSerialGPI.html">pcdsdevices.gauge.GaugeSerialGPI</a></li>
@@ -248,7 +254,7 @@
 <dl class="method">
 <dt id="pcdsdevices.gauge.GaugeSerialGCC.describe">
 <code class="sig-prename descclassname">GaugeSerialGCC.</code><code class="sig-name descname">describe</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; ophyd.device.OrderedDictType[str, Dict[str, Any]]<a class="headerlink" href="#pcdsdevices.gauge.GaugeSerialGCC.describe" title="Permalink to this definition">¶</a></dt>
-<dd><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code></p>
+<dd><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code>.</p>
 <p>This keys in the <code class="xref any docutils literal notranslate"><span class="pre">OrderedDict</span></code> this method returns must match the
 keys in the <code class="xref any docutils literal notranslate"><span class="pre">OrderedDict</span></code> return by <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code>.</p>
 <p>This provides schema related information, (ex shape, dtype), the

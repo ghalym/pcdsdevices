@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.DelayBase.destroy
+=======================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: DelayBase.destroy

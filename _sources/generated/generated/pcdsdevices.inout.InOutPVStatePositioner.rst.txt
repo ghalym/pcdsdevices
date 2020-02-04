@@ -13,12 +13,14 @@ pcdsdevices.inout.InOutPVStatePositioner
       :toctree: generated
    
       ~InOutPVStatePositioner.__init__
+      ~InOutPVStatePositioner.add_instantiation_callback
       ~InOutPVStatePositioner.camonitor
       ~InOutPVStatePositioner.check_value
       ~InOutPVStatePositioner.clear_sub
       ~InOutPVStatePositioner.configure
       ~InOutPVStatePositioner.describe
       ~InOutPVStatePositioner.describe_configuration
+      ~InOutPVStatePositioner.destroy
       ~InOutPVStatePositioner.end_monitor_thread
       ~InOutPVStatePositioner.get
       ~InOutPVStatePositioner.get_device_tuple
@@ -43,6 +45,10 @@ pcdsdevices.inout.InOutPVStatePositioner
       ~InOutPVStatePositioner.unsubscribe
       ~InOutPVStatePositioner.unsubscribe_all
       ~InOutPVStatePositioner.wait_for_connection
+      ~InOutPVStatePositioner.walk_components
+      ~InOutPVStatePositioner.walk_signals
+      ~InOutPVStatePositioner.walk_subdevice_classes
+      ~InOutPVStatePositioner.walk_subdevices
       ~InOutPVStatePositioner.wm
       ~InOutPVStatePositioner.wm_update
    
@@ -59,9 +65,11 @@ pcdsdevices.inout.InOutPVStatePositioner
       ~InOutPVStatePositioner.SUB_READBACK
       ~InOutPVStatePositioner.SUB_START
       ~InOutPVStatePositioner.SUB_STATE
+      ~InOutPVStatePositioner.attr_name
       ~InOutPVStatePositioner.component_names
       ~InOutPVStatePositioner.configuration_attrs
       ~InOutPVStatePositioner.connected
+      ~InOutPVStatePositioner.dotted_name
       ~InOutPVStatePositioner.egu
       ~InOutPVStatePositioner.event_types
       ~InOutPVStatePositioner.high_limit
@@ -69,6 +77,7 @@ pcdsdevices.inout.InOutPVStatePositioner
       ~InOutPVStatePositioner.in_states
       ~InOutPVStatePositioner.inserted
       ~InOutPVStatePositioner.kind
+      ~InOutPVStatePositioner.lazy_wait_for_connection
       ~InOutPVStatePositioner.limits
       ~InOutPVStatePositioner.low_limit
       ~InOutPVStatePositioner.moving

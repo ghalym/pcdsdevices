@@ -13,11 +13,13 @@ pcdsdevices.pump.PROPLC
       :toctree: generated
    
       ~PROPLC.__init__
+      ~PROPLC.add_instantiation_callback
       ~PROPLC.check_value
       ~PROPLC.clear_sub
       ~PROPLC.configure
       ~PROPLC.describe
       ~PROPLC.describe_configuration
+      ~PROPLC.destroy
       ~PROPLC.get
       ~PROPLC.get_device_tuple
       ~PROPLC.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.pump.PROPLC
       ~PROPLC.unsubscribe
       ~PROPLC.unsubscribe_all
       ~PROPLC.wait_for_connection
+      ~PROPLC.walk_components
+      ~PROPLC.walk_signals
+      ~PROPLC.walk_subdevice_classes
+      ~PROPLC.walk_subdevices
    
    
 
@@ -45,14 +51,17 @@ pcdsdevices.pump.PROPLC
    .. autosummary::
    
       ~PROPLC.SUB_ACQ_DONE
+      ~PROPLC.attr_name
       ~PROPLC.component_names
       ~PROPLC.configuration_attrs
       ~PROPLC.connected
+      ~PROPLC.dotted_name
       ~PROPLC.error
       ~PROPLC.event_types
       ~PROPLC.hints
       ~PROPLC.interlock_ok
       ~PROPLC.kind
+      ~PROPLC.lazy_wait_for_connection
       ~PROPLC.name
       ~PROPLC.parent
       ~PROPLC.pump_at_speed

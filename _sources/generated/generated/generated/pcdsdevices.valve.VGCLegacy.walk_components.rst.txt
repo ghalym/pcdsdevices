@@ -1,0 +1,6 @@
+pcdsdevices.valve.VGCLegacy.walk\_components
+============================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VGCLegacy.walk_components

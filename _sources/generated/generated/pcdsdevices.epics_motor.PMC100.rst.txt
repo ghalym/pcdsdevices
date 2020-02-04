@@ -13,12 +13,14 @@ pcdsdevices.epics\_motor.PMC100
       :toctree: generated
    
       ~PMC100.__init__
+      ~PMC100.add_instantiation_callback
       ~PMC100.camonitor
       ~PMC100.check_value
       ~PMC100.clear_sub
       ~PMC100.configure
       ~PMC100.describe
       ~PMC100.describe_configuration
+      ~PMC100.destroy
       ~PMC100.disable
       ~PMC100.enable
       ~PMC100.end_monitor_thread
@@ -53,6 +55,10 @@ pcdsdevices.epics\_motor.PMC100
       ~PMC100.unsubscribe
       ~PMC100.unsubscribe_all
       ~PMC100.wait_for_connection
+      ~PMC100.walk_components
+      ~PMC100.walk_signals
+      ~PMC100.walk_subdevice_classes
+      ~PMC100.walk_subdevices
       ~PMC100.wm
       ~PMC100.wm_update
    
@@ -69,12 +75,14 @@ pcdsdevices.epics\_motor.PMC100
       ~PMC100.SUB_READBACK
       ~PMC100.SUB_START
       ~PMC100.acceleration
+      ~PMC100.attr_name
       ~PMC100.component_names
       ~PMC100.configuration_attrs
       ~PMC100.connected
       ~PMC100.description
       ~PMC100.direction_of_travel
       ~PMC100.disabled
+      ~PMC100.dotted_name
       ~PMC100.egu
       ~PMC100.event_types
       ~PMC100.high_limit
@@ -84,6 +92,7 @@ pcdsdevices.epics\_motor.PMC100
       ~PMC100.home_forward
       ~PMC100.home_reverse
       ~PMC100.kind
+      ~PMC100.lazy_wait_for_connection
       ~PMC100.limits
       ~PMC100.low_limit
       ~PMC100.low_limit_switch

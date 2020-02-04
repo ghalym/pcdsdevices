@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Foil.walk\_subdevice\_classes
+===============================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Foil.walk_subdevice_classes

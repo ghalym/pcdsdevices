@@ -1,0 +1,6 @@
+pcdsdevices.pump.PTMPLC.walk\_subdevice\_classes
+================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PTMPLC.walk_subdevice_classes

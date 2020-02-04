@@ -13,6 +13,7 @@ pcdsdevices.pseudopos.SyncAxesBase
       :toctree: generated
    
       ~SyncAxesBase.__init__
+      ~SyncAxesBase.add_instantiation_callback
       ~SyncAxesBase.calc_combined
       ~SyncAxesBase.camonitor
       ~SyncAxesBase.check_single
@@ -21,6 +22,7 @@ pcdsdevices.pseudopos.SyncAxesBase
       ~SyncAxesBase.configure
       ~SyncAxesBase.describe
       ~SyncAxesBase.describe_configuration
+      ~SyncAxesBase.destroy
       ~SyncAxesBase.end_monitor_thread
       ~SyncAxesBase.forward
       ~SyncAxesBase.get
@@ -53,6 +55,10 @@ pcdsdevices.pseudopos.SyncAxesBase
       ~SyncAxesBase.unsubscribe
       ~SyncAxesBase.unsubscribe_all
       ~SyncAxesBase.wait_for_connection
+      ~SyncAxesBase.walk_components
+      ~SyncAxesBase.walk_signals
+      ~SyncAxesBase.walk_subdevice_classes
+      ~SyncAxesBase.walk_subdevices
       ~SyncAxesBase.wm
       ~SyncAxesBase.wm_update
    
@@ -68,16 +74,19 @@ pcdsdevices.pseudopos.SyncAxesBase
       ~SyncAxesBase.SUB_DONE
       ~SyncAxesBase.SUB_READBACK
       ~SyncAxesBase.SUB_START
+      ~SyncAxesBase.attr_name
       ~SyncAxesBase.component_names
       ~SyncAxesBase.composite_egu
       ~SyncAxesBase.concurrent
       ~SyncAxesBase.configuration_attrs
       ~SyncAxesBase.connected
+      ~SyncAxesBase.dotted_name
       ~SyncAxesBase.egu
       ~SyncAxesBase.event_types
       ~SyncAxesBase.high_limit
       ~SyncAxesBase.hints
       ~SyncAxesBase.kind
+      ~SyncAxesBase.lazy_wait_for_connection
       ~SyncAxesBase.limits
       ~SyncAxesBase.low_limit
       ~SyncAxesBase.moving

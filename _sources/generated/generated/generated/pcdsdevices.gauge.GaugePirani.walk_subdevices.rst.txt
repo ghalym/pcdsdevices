@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugePirani.walk\_subdevices
+==============================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugePirani.walk_subdevices

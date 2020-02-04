@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.BeckhoffAxis.destroy
+=============================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: BeckhoffAxis.destroy

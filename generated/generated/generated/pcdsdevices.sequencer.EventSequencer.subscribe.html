@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.sequencer.EventSequencer.subscribe &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.sequencer.EventSequencer.subscribe &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -123,6 +123,7 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.sequencer.EventSequence.html">pcdsdevices.sequencer.EventSequence</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.sequencer.EventSequencer.html">pcdsdevices.sequencer.EventSequencer</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.__init__.html">pcdsdevices.sequencer.EventSequencer.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.add_instantiation_callback.html">pcdsdevices.sequencer.EventSequencer.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.check_value.html">pcdsdevices.sequencer.EventSequencer.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.clear_sub.html">pcdsdevices.sequencer.EventSequencer.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.collect.html">pcdsdevices.sequencer.EventSequencer.collect</a></li>
@@ -132,6 +133,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.describe.html">pcdsdevices.sequencer.EventSequencer.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.describe_collect.html">pcdsdevices.sequencer.EventSequencer.describe_collect</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.describe_configuration.html">pcdsdevices.sequencer.EventSequencer.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.destroy.html">pcdsdevices.sequencer.EventSequencer.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.get.html">pcdsdevices.sequencer.EventSequencer.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.get_device_tuple.html">pcdsdevices.sequencer.EventSequencer.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.get_instantiated_signals.html">pcdsdevices.sequencer.EventSequencer.get_instantiated_signals</a></li>
@@ -151,6 +153,10 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.unsubscribe.html">pcdsdevices.sequencer.EventSequencer.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.unsubscribe_all.html">pcdsdevices.sequencer.EventSequencer.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.wait_for_connection.html">pcdsdevices.sequencer.EventSequencer.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.walk_components.html">pcdsdevices.sequencer.EventSequencer.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.walk_signals.html">pcdsdevices.sequencer.EventSequencer.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.walk_subdevice_classes.html">pcdsdevices.sequencer.EventSequencer.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.walk_subdevices.html">pcdsdevices.sequencer.EventSequencer.walk_subdevices</a></li>
 </ul>
 </li>
 </ul>
@@ -237,7 +243,7 @@
 <h1>pcdsdevices.sequencer.EventSequencer.subscribe<a class="headerlink" href="#pcdsdevices-sequencer-eventsequencer-subscribe" title="Permalink to this headline">¶</a></h1>
 <dl class="method">
 <dt id="pcdsdevices.sequencer.EventSequencer.subscribe">
-<code class="sig-prename descclassname">EventSequencer.</code><code class="sig-name descname">subscribe</code><span class="sig-paren">(</span><em class="sig-param">cb</em>, <em class="sig-param">event_type=None</em>, <em class="sig-param">run=True</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.sequencer.EventSequencer.subscribe" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">EventSequencer.</code><code class="sig-name descname">subscribe</code><span class="sig-paren">(</span><em class="sig-param">callback</em>, <em class="sig-param">event_type=None</em>, <em class="sig-param">run=True</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.sequencer.EventSequencer.subscribe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Subscribe to events this event_type generates.</p>
 <p>The callback will be called as <code class="docutils literal notranslate"><span class="pre">cb(*args,</span> <span class="pre">**kwargs)</span></code> with
 the values passed to <code class="xref any docutils literal notranslate"><span class="pre">_run_subs</span></code> with the following additional keys:</p>
@@ -257,7 +263,7 @@ silently ignored.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>cb</strong> (<em>callable</em>) – <p>A callable function (that takes kwargs) to be run when the event is
+<li><p><strong>callback</strong> (<em>callable</em>) – <p>A callable function (that takes kwargs) to be run when the event is
 generated.  The expected signature is</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">cb</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="n">obj</span><span class="p">:</span> <span class="n">OphydObject</span><span class="p">,</span> <span class="n">sub_type</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
 </pre></div>

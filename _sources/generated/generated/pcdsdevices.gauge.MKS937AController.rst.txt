@@ -13,11 +13,13 @@ pcdsdevices.gauge.MKS937AController
       :toctree: generated
    
       ~MKS937AController.__init__
+      ~MKS937AController.add_instantiation_callback
       ~MKS937AController.check_value
       ~MKS937AController.clear_sub
       ~MKS937AController.configure
       ~MKS937AController.describe
       ~MKS937AController.describe_configuration
+      ~MKS937AController.destroy
       ~MKS937AController.get
       ~MKS937AController.get_device_tuple
       ~MKS937AController.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.gauge.MKS937AController
       ~MKS937AController.unsubscribe
       ~MKS937AController.unsubscribe_all
       ~MKS937AController.wait_for_connection
+      ~MKS937AController.walk_components
+      ~MKS937AController.walk_signals
+      ~MKS937AController.walk_subdevice_classes
+      ~MKS937AController.walk_subdevices
    
    
 
@@ -45,6 +51,7 @@ pcdsdevices.gauge.MKS937AController
    .. autosummary::
    
       ~MKS937AController.SUB_ACQ_DONE
+      ~MKS937AController.attr_name
       ~MKS937AController.cal
       ~MKS937AController.com
       ~MKS937AController.com_des
@@ -52,12 +59,14 @@ pcdsdevices.gauge.MKS937AController
       ~MKS937AController.configuration_attrs
       ~MKS937AController.connected
       ~MKS937AController.delay
+      ~MKS937AController.dotted_name
       ~MKS937AController.event_types
       ~MKS937AController.freq
       ~MKS937AController.front
       ~MKS937AController.gauges
       ~MKS937AController.hints
       ~MKS937AController.kind
+      ~MKS937AController.lazy_wait_for_connection
       ~MKS937AController.moda
       ~MKS937AController.modb
       ~MKS937AController.modcc

@@ -1,0 +1,6 @@
+pcdsdevices.sim.SimTwoAxis.walk\_subdevice\_classes
+===================================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SimTwoAxis.walk_subdevice_classes

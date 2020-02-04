@@ -13,12 +13,14 @@ pcdsdevices.inout.InOutRecordPositioner
       :toctree: generated
    
       ~InOutRecordPositioner.__init__
+      ~InOutRecordPositioner.add_instantiation_callback
       ~InOutRecordPositioner.camonitor
       ~InOutRecordPositioner.check_value
       ~InOutRecordPositioner.clear_sub
       ~InOutRecordPositioner.configure
       ~InOutRecordPositioner.describe
       ~InOutRecordPositioner.describe_configuration
+      ~InOutRecordPositioner.destroy
       ~InOutRecordPositioner.end_monitor_thread
       ~InOutRecordPositioner.get
       ~InOutRecordPositioner.get_device_tuple
@@ -43,6 +45,10 @@ pcdsdevices.inout.InOutRecordPositioner
       ~InOutRecordPositioner.unsubscribe
       ~InOutRecordPositioner.unsubscribe_all
       ~InOutRecordPositioner.wait_for_connection
+      ~InOutRecordPositioner.walk_components
+      ~InOutRecordPositioner.walk_signals
+      ~InOutRecordPositioner.walk_subdevice_classes
+      ~InOutRecordPositioner.walk_subdevices
       ~InOutRecordPositioner.wm
       ~InOutRecordPositioner.wm_update
    
@@ -59,9 +65,11 @@ pcdsdevices.inout.InOutRecordPositioner
       ~InOutRecordPositioner.SUB_READBACK
       ~InOutRecordPositioner.SUB_START
       ~InOutRecordPositioner.SUB_STATE
+      ~InOutRecordPositioner.attr_name
       ~InOutRecordPositioner.component_names
       ~InOutRecordPositioner.configuration_attrs
       ~InOutRecordPositioner.connected
+      ~InOutRecordPositioner.dotted_name
       ~InOutRecordPositioner.egu
       ~InOutRecordPositioner.event_types
       ~InOutRecordPositioner.high_limit
@@ -69,6 +77,7 @@ pcdsdevices.inout.InOutRecordPositioner
       ~InOutRecordPositioner.in_states
       ~InOutRecordPositioner.inserted
       ~InOutRecordPositioner.kind
+      ~InOutRecordPositioner.lazy_wait_for_connection
       ~InOutRecordPositioner.limits
       ~InOutRecordPositioner.low_limit
       ~InOutRecordPositioner.motor

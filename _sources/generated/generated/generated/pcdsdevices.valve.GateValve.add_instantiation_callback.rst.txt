@@ -1,0 +1,6 @@
+pcdsdevices.valve.GateValve.add\_instantiation\_callback
+========================================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: GateValve.add_instantiation_callback

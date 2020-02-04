@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.PCDSAreaDetector &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.device_types.PCDSAreaDetector &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -36,7 +36,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="pcdsdevices.device_types.PCDSAreaDetector.__init__" href="generated/pcdsdevices.device_types.PCDSAreaDetector.__init__.html" />
-    <link rel="prev" title="pcdsdevices.device_types.OffsetMirror.wait_for_connection" href="generated/pcdsdevices.device_types.OffsetMirror.wait_for_connection.html" /> 
+    <link rel="prev" title="pcdsdevices.device_types.OffsetMirror.walk_subdevices" href="generated/pcdsdevices.device_types.OffsetMirror.walk_subdevices.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -112,12 +112,14 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.OffsetMirror.html">pcdsdevices.device_types.OffsetMirror</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">pcdsdevices.device_types.PCDSAreaDetector</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.__init__.html">pcdsdevices.device_types.PCDSAreaDetector.__init__</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.add_instantiation_callback.html">pcdsdevices.device_types.PCDSAreaDetector.add_instantiation_callback</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.check_value.html">pcdsdevices.device_types.PCDSAreaDetector.check_value</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.clear_sub.html">pcdsdevices.device_types.PCDSAreaDetector.clear_sub</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.collect_asset_docs.html">pcdsdevices.device_types.PCDSAreaDetector.collect_asset_docs</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.configure.html">pcdsdevices.device_types.PCDSAreaDetector.configure</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.describe.html">pcdsdevices.device_types.PCDSAreaDetector.describe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.describe_configuration.html">pcdsdevices.device_types.PCDSAreaDetector.describe_configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.destroy.html">pcdsdevices.device_types.PCDSAreaDetector.destroy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.dispatch.html">pcdsdevices.device_types.PCDSAreaDetector.dispatch</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.find_signal.html">pcdsdevices.device_types.PCDSAreaDetector.find_signal</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.get.html">pcdsdevices.device_types.PCDSAreaDetector.get</a></li>
@@ -145,6 +147,10 @@
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.validate_asyn_ports.html">pcdsdevices.device_types.PCDSAreaDetector.validate_asyn_ports</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.visualize_asyn_digraph.html">pcdsdevices.device_types.PCDSAreaDetector.visualize_asyn_digraph</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.wait_for_connection.html">pcdsdevices.device_types.PCDSAreaDetector.wait_for_connection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.walk_components.html">pcdsdevices.device_types.PCDSAreaDetector.walk_components</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.walk_signals.html">pcdsdevices.device_types.PCDSAreaDetector.walk_signals</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.walk_subdevice_classes.html">pcdsdevices.device_types.PCDSAreaDetector.walk_subdevice_classes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.walk_subdevices.html">pcdsdevices.device_types.PCDSAreaDetector.walk_subdevices</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.PIM.html">pcdsdevices.device_types.PIM</a></li>
@@ -296,23 +302,29 @@ as <code class="xref any docutils literal notranslate"><span class="pre">ophyd.a
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.__init__.html#pcdsdevices.device_types.PCDSAreaDetector.__init__" title="pcdsdevices.device_types.PCDSAreaDetector.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Initialize self.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.check_value.html#pcdsdevices.device_types.PCDSAreaDetector.check_value" title="pcdsdevices.device_types.PCDSAreaDetector.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.add_instantiation_callback.html#pcdsdevices.device_types.PCDSAreaDetector.add_instantiation_callback" title="pcdsdevices.device_types.PCDSAreaDetector.add_instantiation_callback"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_instantiation_callback</span></code></a>(callback[, …])</p></td>
+<td><p>Register a callback which will receive each OphydObject instance.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.check_value.html#pcdsdevices.device_types.PCDSAreaDetector.check_value" title="pcdsdevices.device_types.PCDSAreaDetector.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value, **kwargs)</p></td>
 <td><p>Check if the value is valid for this object</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.clear_sub.html#pcdsdevices.device_types.PCDSAreaDetector.clear_sub" title="pcdsdevices.device_types.PCDSAreaDetector.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.clear_sub.html#pcdsdevices.device_types.PCDSAreaDetector.clear_sub" title="pcdsdevices.device_types.PCDSAreaDetector.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
 <td><p>Remove a subscription, given the original callback function</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.collect_asset_docs.html#pcdsdevices.device_types.PCDSAreaDetector.collect_asset_docs" title="pcdsdevices.device_types.PCDSAreaDetector.collect_asset_docs"><code class="xref py py-obj docutils literal notranslate"><span class="pre">collect_asset_docs</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.collect_asset_docs.html#pcdsdevices.device_types.PCDSAreaDetector.collect_asset_docs" title="pcdsdevices.device_types.PCDSAreaDetector.collect_asset_docs"><code class="xref py py-obj docutils literal notranslate"><span class="pre">collect_asset_docs</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.configure.html#pcdsdevices.device_types.PCDSAreaDetector.configure" title="pcdsdevices.device_types.PCDSAreaDetector.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.configure.html#pcdsdevices.device_types.PCDSAreaDetector.configure" title="pcdsdevices.device_types.PCDSAreaDetector.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
 <td><p>Configure the device for something during a run</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.describe.html#pcdsdevices.device_types.PCDSAreaDetector.describe" title="pcdsdevices.device_types.PCDSAreaDetector.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
-<td><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.describe.html#pcdsdevices.device_types.PCDSAreaDetector.describe" title="pcdsdevices.device_types.PCDSAreaDetector.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
+<td><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code>.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.describe_configuration.html#pcdsdevices.device_types.PCDSAreaDetector.describe_configuration" title="pcdsdevices.device_types.PCDSAreaDetector.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.describe_configuration.html#pcdsdevices.device_types.PCDSAreaDetector.describe_configuration" title="pcdsdevices.device_types.PCDSAreaDetector.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</p></td>
 <td><p>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.destroy.html#pcdsdevices.device_types.PCDSAreaDetector.destroy" title="pcdsdevices.device_types.PCDSAreaDetector.destroy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">destroy</span></code></a>()</p></td>
+<td><p>Disconnect and destroy all signals on the Device</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.dispatch.html#pcdsdevices.device_types.PCDSAreaDetector.dispatch" title="pcdsdevices.device_types.PCDSAreaDetector.dispatch"><code class="xref py py-obj docutils literal notranslate"><span class="pre">dispatch</span></code></a>(key, timestamp)</p></td>
 <td><p>Notify plugins of acquisition being complete.</p></td>
@@ -354,13 +366,13 @@ as <code class="xref any docutils literal notranslate"><span class="pre">ophyd.a
 <td><p>Put a value to all components of the device</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.read.html#pcdsdevices.device_types.PCDSAreaDetector.read" title="pcdsdevices.device_types.PCDSAreaDetector.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
-<td><p>Read data from the device</p></td>
+<td><p>Read data from the device.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.read_configuration.html#pcdsdevices.device_types.PCDSAreaDetector.read_configuration" title="pcdsdevices.device_types.PCDSAreaDetector.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
-<td><p>returns dictionary mapping names to (value, timestamp) pairs</p></td>
+<td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.resume.html#pcdsdevices.device_types.PCDSAreaDetector.resume" title="pcdsdevices.device_types.PCDSAreaDetector.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
-<td><p>Resume a device from a ‘paused’ state</p></td>
+<td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.stage.html#pcdsdevices.device_types.PCDSAreaDetector.stage" title="pcdsdevices.device_types.PCDSAreaDetector.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Stage the device for data collection.</p></td>
@@ -368,14 +380,14 @@ as <code class="xref any docutils literal notranslate"><span class="pre">ophyd.a
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.stop.html#pcdsdevices.device_types.PCDSAreaDetector.stop" title="pcdsdevices.device_types.PCDSAreaDetector.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.subscribe.html#pcdsdevices.device_types.PCDSAreaDetector.subscribe" title="pcdsdevices.device_types.PCDSAreaDetector.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[, event_type, run])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.subscribe.html#pcdsdevices.device_types.PCDSAreaDetector.subscribe" title="pcdsdevices.device_types.PCDSAreaDetector.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(callback[, event_type, run])</p></td>
 <td><p>Subscribe to events this event_type generates.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.summary.html#pcdsdevices.device_types.PCDSAreaDetector.summary" title="pcdsdevices.device_types.PCDSAreaDetector.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.trigger.html#pcdsdevices.device_types.PCDSAreaDetector.trigger" title="pcdsdevices.device_types.PCDSAreaDetector.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
-<td><p>Trigger the device and return status object</p></td>
+<td><p>Trigger the device and return status object.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.unstage.html#pcdsdevices.device_types.PCDSAreaDetector.unstage" title="pcdsdevices.device_types.PCDSAreaDetector.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</p></td>
 <td><p>Unstage the device.</p></td>
@@ -395,6 +407,18 @@ as <code class="xref any docutils literal notranslate"><span class="pre">ophyd.a
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.wait_for_connection.html#pcdsdevices.device_types.PCDSAreaDetector.wait_for_connection" title="pcdsdevices.device_types.PCDSAreaDetector.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals, timeout])</p></td>
 <td><p>Wait for signals to connect</p></td>
 </tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.walk_components.html#pcdsdevices.device_types.PCDSAreaDetector.walk_components" title="pcdsdevices.device_types.PCDSAreaDetector.walk_components"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_components</span></code></a>()</p></td>
+<td><p>Walk all components in the Device hierarchy</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.walk_signals.html#pcdsdevices.device_types.PCDSAreaDetector.walk_signals" title="pcdsdevices.device_types.PCDSAreaDetector.walk_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_signals</span></code></a>(*[, include_lazy])</p></td>
+<td><p>Walk all signals in the Device hierarchy</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.walk_subdevice_classes.html#pcdsdevices.device_types.PCDSAreaDetector.walk_subdevice_classes" title="pcdsdevices.device_types.PCDSAreaDetector.walk_subdevice_classes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevice_classes</span></code></a>()</p></td>
+<td><p>Walk all sub-Devices classes in the Device hierarchy</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.walk_subdevices.html#pcdsdevices.device_types.PCDSAreaDetector.walk_subdevices" title="pcdsdevices.device_types.PCDSAreaDetector.walk_subdevices"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevices</span></code></a>(*[, include_lazy])</p></td>
+<td><p>Walk all sub-Devices in the hierarchy</p></td>
+</tr>
 </tbody>
 </table>
 <p class="rubric">Attributes</p>
@@ -410,32 +434,38 @@ as <code class="xref any docutils literal notranslate"><span class="pre">ophyd.a
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">ad_root</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">cam</span></code></p></td>
-<td><p>ADComponent attribute</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">cc1</span></code></p></td>
-<td><p>Component attribute</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">cc2</span></code></p></td>
-<td><p>Component attribute</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_names</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">attr_name</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_attrs</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">cam</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_names</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">cc1</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">cc2</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_names</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_attrs</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_names</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></p></td>
 <td><p>If the device is connected.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">dotted_name</span></code></p></td>
+<td><p>Return the dotted name</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">event_types</span></code></p></td>
 <td><p>Events that can be subscribed to via <code class="xref any docutils literal notranslate"><span class="pre">obj.subscribe</span></code></p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">hdf51</span></code></p></td>
-<td><p>Component attribute</p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">hints</span></code></p></td>
 <td><p></p></td>
@@ -444,123 +474,126 @@ as <code class="xref any docutils literal notranslate"><span class="pre">ophyd.a
 <td><p>Deprecated - alias for <code class="xref any docutils literal notranslate"><span class="pre">image2</span></code></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">image1</span></code></p></td>
-<td><p>Image plugin for general usage</p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">image1_cc</span></code></p></td>
-<td><p>Component attribute</p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">image1_over</span></code></p></td>
-<td><p>Component attribute</p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">image1_proc</span></code></p></td>
-<td><p>Component attribute</p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">image1_roi</span></code></p></td>
-<td><p>Component attribute</p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">image2</span></code></p></td>
-<td><p>Image plugin used for the camera viewer</p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">image2_cc</span></code></p></td>
-<td><p>Component attribute</p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">image2_over</span></code></p></td>
-<td><p>Component attribute</p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">image2_proc</span></code></p></td>
-<td><p>Component attribute</p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">image2_roi</span></code></p></td>
-<td><p>Component attribute</p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">jpeg1</span></code></p></td>
-<td><p>Component attribute</p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">lazy_wait_for_connection</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></p></td>
 <td><p>name of the device</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">netcdf1</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">netcdf1</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">nexus1</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">nexus1</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">over1</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">over1</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></p></td>
 <td><p>The parent of the ophyd object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">proc1</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">proc1</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
 <td><p>A report on the object.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">roi1</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">roi1</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">roi2</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">roi2</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">roi3</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">roi3</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">roi4</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">roi4</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></p></td>
 <td><p>Walk parents to find ultimate ancestor (parent’s parent…).</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stats</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stats</span></code></p></td>
 <td><p>Deprecated - alias for <code class="xref any docutils literal notranslate"><span class="pre">stats2</span></code></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stats1</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stats1</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stats2</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stats2</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stats3</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stats3</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stats4</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stats4</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stats5</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stats5</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">thumbnail</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">thumbnail</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">thumbnail_cc</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">thumbnail_cc</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">thumbnail_over</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">thumbnail_over</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">thumbnail_proc</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">thumbnail_proc</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">thumbnail_roi</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">thumbnail_roi</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tiff1</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tiff1</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trans1</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trans1</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
 <td><p></p></td>
 </tr>
 </tbody>
@@ -580,7 +613,7 @@ as <code class="xref any docutils literal notranslate"><span class="pre">ophyd.a
         <a href="generated/pcdsdevices.device_types.PCDSAreaDetector.__init__.html" class="btn btn-neutral float-right" title="pcdsdevices.device_types.PCDSAreaDetector.__init__" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="generated/pcdsdevices.device_types.OffsetMirror.wait_for_connection.html" class="btn btn-neutral float-left" title="pcdsdevices.device_types.OffsetMirror.wait_for_connection" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="generated/pcdsdevices.device_types.OffsetMirror.walk_subdevices.html" class="btn btn-neutral float-left" title="pcdsdevices.device_types.OffsetMirror.walk_subdevices" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

@@ -1,0 +1,6 @@
+pcdsdevices.pump.Navigator.walk\_signals
+========================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: Navigator.walk_signals

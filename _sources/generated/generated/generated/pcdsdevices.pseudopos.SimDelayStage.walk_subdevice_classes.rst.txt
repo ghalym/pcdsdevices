@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.SimDelayStage.walk\_subdevice\_classes
+============================================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: SimDelayStage.walk_subdevice_classes

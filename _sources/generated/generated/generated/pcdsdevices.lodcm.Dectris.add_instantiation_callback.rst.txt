@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Dectris.add\_instantiation\_callback
+======================================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Dectris.add_instantiation_callback

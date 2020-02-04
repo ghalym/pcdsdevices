@@ -13,12 +13,14 @@ pcdsdevices.attenuator.AttBase3rd
       :toctree: generated
    
       ~AttBase3rd.__init__
+      ~AttBase3rd.add_instantiation_callback
       ~AttBase3rd.camonitor
       ~AttBase3rd.check_value
       ~AttBase3rd.clear_sub
       ~AttBase3rd.configure
       ~AttBase3rd.describe
       ~AttBase3rd.describe_configuration
+      ~AttBase3rd.destroy
       ~AttBase3rd.end_monitor_thread
       ~AttBase3rd.get
       ~AttBase3rd.get_device_tuple
@@ -48,6 +50,10 @@ pcdsdevices.attenuator.AttBase3rd
       ~AttBase3rd.unsubscribe
       ~AttBase3rd.unsubscribe_all
       ~AttBase3rd.wait_for_connection
+      ~AttBase3rd.walk_components
+      ~AttBase3rd.walk_signals
+      ~AttBase3rd.walk_subdevice_classes
+      ~AttBase3rd.walk_subdevices
       ~AttBase3rd.wm
       ~AttBase3rd.wm_update
    
@@ -66,12 +72,14 @@ pcdsdevices.attenuator.AttBase3rd
       ~AttBase3rd.SUB_STATE
       ~AttBase3rd.actuate
       ~AttBase3rd.actuate_value
+      ~AttBase3rd.attr_name
       ~AttBase3rd.calcpend
       ~AttBase3rd.component_names
       ~AttBase3rd.configuration_attrs
       ~AttBase3rd.connected
       ~AttBase3rd.done
       ~AttBase3rd.done_value
+      ~AttBase3rd.dotted_name
       ~AttBase3rd.eget_cmd
       ~AttBase3rd.egu
       ~AttBase3rd.energy
@@ -80,6 +88,7 @@ pcdsdevices.attenuator.AttBase3rd
       ~AttBase3rd.hints
       ~AttBase3rd.inserted
       ~AttBase3rd.kind
+      ~AttBase3rd.lazy_wait_for_connection
       ~AttBase3rd.limits
       ~AttBase3rd.low_limit
       ~AttBase3rd.moving

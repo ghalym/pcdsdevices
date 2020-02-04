@@ -13,12 +13,14 @@ pcdsdevices.device\_types.PointingMirror
       :toctree: generated
    
       ~PointingMirror.__init__
+      ~PointingMirror.add_instantiation_callback
       ~PointingMirror.camonitor
       ~PointingMirror.check_value
       ~PointingMirror.clear_sub
       ~PointingMirror.configure
       ~PointingMirror.describe
       ~PointingMirror.describe_configuration
+      ~PointingMirror.destroy
       ~PointingMirror.end_monitor_thread
       ~PointingMirror.get
       ~PointingMirror.get_device_tuple
@@ -43,6 +45,10 @@ pcdsdevices.device\_types.PointingMirror
       ~PointingMirror.unsubscribe
       ~PointingMirror.unsubscribe_all
       ~PointingMirror.wait_for_connection
+      ~PointingMirror.walk_components
+      ~PointingMirror.walk_signals
+      ~PointingMirror.walk_subdevice_classes
+      ~PointingMirror.walk_subdevices
       ~PointingMirror.wm
       ~PointingMirror.wm_update
    
@@ -59,11 +65,13 @@ pcdsdevices.device\_types.PointingMirror
       ~PointingMirror.SUB_READBACK
       ~PointingMirror.SUB_START
       ~PointingMirror.SUB_STATE
+      ~PointingMirror.attr_name
       ~PointingMirror.branches
       ~PointingMirror.component_names
       ~PointingMirror.configuration_attrs
       ~PointingMirror.connected
       ~PointingMirror.destination
+      ~PointingMirror.dotted_name
       ~PointingMirror.egu
       ~PointingMirror.event_types
       ~PointingMirror.high_limit
@@ -71,6 +79,7 @@ pcdsdevices.device\_types.PointingMirror
       ~PointingMirror.in_states
       ~PointingMirror.inserted
       ~PointingMirror.kind
+      ~PointingMirror.lazy_wait_for_connection
       ~PointingMirror.limits
       ~PointingMirror.low_limit
       ~PointingMirror.motor

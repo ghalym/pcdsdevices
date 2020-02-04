@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.state.StateRecordPositioner.describe_configuration &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.state.StateRecordPositioner.describe_configuration &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.state.StateRecordPositioner.end_monitor_thread" href="pcdsdevices.state.StateRecordPositioner.end_monitor_thread.html" />
+    <link rel="next" title="pcdsdevices.state.StateRecordPositioner.destroy" href="pcdsdevices.state.StateRecordPositioner.destroy.html" />
     <link rel="prev" title="pcdsdevices.state.StateRecordPositioner.describe" href="pcdsdevices.state.StateRecordPositioner.describe.html" /> 
 </head>
 
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -129,12 +129,14 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.state.StatePositioner.html">pcdsdevices.state.StatePositioner</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.state.StateRecordPositioner.html">pcdsdevices.state.StateRecordPositioner</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateRecordPositioner.__init__.html">pcdsdevices.state.StateRecordPositioner.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateRecordPositioner.add_instantiation_callback.html">pcdsdevices.state.StateRecordPositioner.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateRecordPositioner.camonitor.html">pcdsdevices.state.StateRecordPositioner.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateRecordPositioner.check_value.html">pcdsdevices.state.StateRecordPositioner.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateRecordPositioner.clear_sub.html">pcdsdevices.state.StateRecordPositioner.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateRecordPositioner.configure.html">pcdsdevices.state.StateRecordPositioner.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateRecordPositioner.describe.html">pcdsdevices.state.StateRecordPositioner.describe</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.state.StateRecordPositioner.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateRecordPositioner.destroy.html">pcdsdevices.state.StateRecordPositioner.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateRecordPositioner.end_monitor_thread.html">pcdsdevices.state.StateRecordPositioner.end_monitor_thread</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateRecordPositioner.get.html">pcdsdevices.state.StateRecordPositioner.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateRecordPositioner.get_device_tuple.html">pcdsdevices.state.StateRecordPositioner.get_device_tuple</a></li>
@@ -157,6 +159,10 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateRecordPositioner.unsubscribe.html">pcdsdevices.state.StateRecordPositioner.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateRecordPositioner.unsubscribe_all.html">pcdsdevices.state.StateRecordPositioner.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateRecordPositioner.wait_for_connection.html">pcdsdevices.state.StateRecordPositioner.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateRecordPositioner.walk_components.html">pcdsdevices.state.StateRecordPositioner.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateRecordPositioner.walk_signals.html">pcdsdevices.state.StateRecordPositioner.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateRecordPositioner.walk_subdevice_classes.html">pcdsdevices.state.StateRecordPositioner.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateRecordPositioner.walk_subdevices.html">pcdsdevices.state.StateRecordPositioner.walk_subdevices</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateRecordPositioner.wm.html">pcdsdevices.state.StateRecordPositioner.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateRecordPositioner.wm_update.html">pcdsdevices.state.StateRecordPositioner.wm_update</a></li>
 </ul>
@@ -269,7 +275,7 @@ with the <code class="docutils literal notranslate"><span class="pre">event_mode
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.state.StateRecordPositioner.end_monitor_thread.html" class="btn btn-neutral float-right" title="pcdsdevices.state.StateRecordPositioner.end_monitor_thread" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.state.StateRecordPositioner.destroy.html" class="btn btn-neutral float-right" title="pcdsdevices.state.StateRecordPositioner.destroy" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="pcdsdevices.state.StateRecordPositioner.describe.html" class="btn btn-neutral float-left" title="pcdsdevices.state.StateRecordPositioner.describe" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

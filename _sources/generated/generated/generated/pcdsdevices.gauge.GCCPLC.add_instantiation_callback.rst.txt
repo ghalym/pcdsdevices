@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCCPLC.add\_instantiation\_callback
+=====================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCCPLC.add_instantiation_callback

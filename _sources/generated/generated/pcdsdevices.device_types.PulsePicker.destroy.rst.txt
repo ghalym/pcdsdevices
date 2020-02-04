@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PulsePicker.destroy
+=============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PulsePicker.destroy

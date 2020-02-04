@@ -1,0 +1,6 @@
+pcdsdevices.sim.SlowMotor.walk\_subdevice\_classes
+==================================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SlowMotor.walk_subdevice_classes

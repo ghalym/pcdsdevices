@@ -13,11 +13,13 @@ pcdsdevices.sequencer.EventSequence
       :toctree: generated
    
       ~EventSequence.__init__
+      ~EventSequence.add_instantiation_callback
       ~EventSequence.check_value
       ~EventSequence.clear_sub
       ~EventSequence.configure
       ~EventSequence.describe
       ~EventSequence.describe_configuration
+      ~EventSequence.destroy
       ~EventSequence.get
       ~EventSequence.get_device_tuple
       ~EventSequence.get_instantiated_signals
@@ -38,6 +40,10 @@ pcdsdevices.sequencer.EventSequence
       ~EventSequence.unsubscribe
       ~EventSequence.unsubscribe_all
       ~EventSequence.wait_for_connection
+      ~EventSequence.walk_components
+      ~EventSequence.walk_signals
+      ~EventSequence.walk_subdevice_classes
+      ~EventSequence.walk_subdevices
    
    
 
@@ -48,16 +54,19 @@ pcdsdevices.sequencer.EventSequence
    .. autosummary::
    
       ~EventSequence.SUB_ACQ_DONE
+      ~EventSequence.attr_name
       ~EventSequence.bc_array
       ~EventSequence.bd_array
       ~EventSequence.component_names
       ~EventSequence.configuration_attrs
       ~EventSequence.connected
+      ~EventSequence.dotted_name
       ~EventSequence.ec_array
       ~EventSequence.event_types
       ~EventSequence.fd_array
       ~EventSequence.hints
       ~EventSequence.kind
+      ~EventSequence.lazy_wait_for_connection
       ~EventSequence.name
       ~EventSequence.parent
       ~EventSequence.read_attrs

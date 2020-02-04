@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ccm.CCMCalc.trigger &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.ccm.CCMCalc.trigger &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -113,6 +113,7 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.ccm.CCM.html">pcdsdevices.ccm.CCM</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.ccm.CCMCalc.html">pcdsdevices.ccm.CCMCalc</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.__init__.html">pcdsdevices.ccm.CCMCalc.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.add_instantiation_callback.html">pcdsdevices.ccm.CCMCalc.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.camonitor.html">pcdsdevices.ccm.CCMCalc.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.check_single.html">pcdsdevices.ccm.CCMCalc.check_single</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.check_value.html">pcdsdevices.ccm.CCMCalc.check_value</a></li>
@@ -120,6 +121,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.configure.html">pcdsdevices.ccm.CCMCalc.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.describe.html">pcdsdevices.ccm.CCMCalc.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.describe_configuration.html">pcdsdevices.ccm.CCMCalc.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.destroy.html">pcdsdevices.ccm.CCMCalc.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.end_monitor_thread.html">pcdsdevices.ccm.CCMCalc.end_monitor_thread</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.forward.html">pcdsdevices.ccm.CCMCalc.forward</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.get.html">pcdsdevices.ccm.CCMCalc.get</a></li>
@@ -151,6 +153,10 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.unsubscribe.html">pcdsdevices.ccm.CCMCalc.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.unsubscribe_all.html">pcdsdevices.ccm.CCMCalc.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.wait_for_connection.html">pcdsdevices.ccm.CCMCalc.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.walk_components.html">pcdsdevices.ccm.CCMCalc.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.walk_signals.html">pcdsdevices.ccm.CCMCalc.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.walk_subdevice_classes.html">pcdsdevices.ccm.CCMCalc.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.walk_subdevices.html">pcdsdevices.ccm.CCMCalc.walk_subdevices</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.wm.html">pcdsdevices.ccm.CCMCalc.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.wm_update.html">pcdsdevices.ccm.CCMCalc.wm_update</a></li>
 </ul>
@@ -259,17 +265,17 @@
 <dl class="method">
 <dt id="pcdsdevices.ccm.CCMCalc.trigger">
 <code class="sig-prename descclassname">CCMCalc.</code><code class="sig-name descname">trigger</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; ophyd.status.StatusBase<a class="headerlink" href="#pcdsdevices.ccm.CCMCalc.trigger" title="Permalink to this definition">¶</a></dt>
-<dd><p>Trigger the device and return status object</p>
+<dd><p>Trigger the device and return status object.</p>
 <p>This method is responsible for implementing ‘trigger’ or
 ‘acquire’ functionality of this device.</p>
 <p>If there is an appreciable time between triggering the device
 and it being able to be read (via the
 <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code> method) then this method is
 also responsible for arranging that the
-<code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code> object returned my this method
+<code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code> object returned by this method
 is notified when the device is ready to be read.</p>
 <p>If there is no delay between triggering and being readable,
-then this method must return a <code class="xref py py-obj docutils literal notranslate"><span class="pre">SatusBase</span></code>
+then this method must return a <code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code>
 object which is already completed.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>

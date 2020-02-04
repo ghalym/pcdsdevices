@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.valve.GateValve &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.valve.GateValve &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -129,6 +129,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.valve.Commands.html">pcdsdevices.valve.Commands</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.valve.GateValve</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.__init__.html">pcdsdevices.valve.GateValve.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.add_instantiation_callback.html">pcdsdevices.valve.GateValve.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.camonitor.html">pcdsdevices.valve.GateValve.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.check_value.html">pcdsdevices.valve.GateValve.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.clear_sub.html">pcdsdevices.valve.GateValve.clear_sub</a></li>
@@ -136,6 +137,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.configure.html">pcdsdevices.valve.GateValve.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.describe.html">pcdsdevices.valve.GateValve.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.describe_configuration.html">pcdsdevices.valve.GateValve.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.destroy.html">pcdsdevices.valve.GateValve.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.end_monitor_thread.html">pcdsdevices.valve.GateValve.end_monitor_thread</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.get.html">pcdsdevices.valve.GateValve.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.get_device_tuple.html">pcdsdevices.valve.GateValve.get_device_tuple</a></li>
@@ -161,6 +163,10 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.unsubscribe.html">pcdsdevices.valve.GateValve.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.unsubscribe_all.html">pcdsdevices.valve.GateValve.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.wait_for_connection.html">pcdsdevices.valve.GateValve.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.walk_components.html">pcdsdevices.valve.GateValve.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.walk_signals.html">pcdsdevices.valve.GateValve.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.walk_subdevice_classes.html">pcdsdevices.valve.GateValve.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.walk_subdevices.html">pcdsdevices.valve.GateValve.walk_subdevices</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.wm.html">pcdsdevices.valve.GateValve.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.wm_update.html">pcdsdevices.valve.GateValve.wm_update</a></li>
 </ul>
@@ -268,26 +274,32 @@ elements still need to be carried over.</p>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.__init__.html#pcdsdevices.valve.GateValve.__init__" title="pcdsdevices.valve.GateValve.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Initialize self.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.camonitor.html#pcdsdevices.valve.GateValve.camonitor" title="pcdsdevices.valve.GateValve.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.add_instantiation_callback.html#pcdsdevices.valve.GateValve.add_instantiation_callback" title="pcdsdevices.valve.GateValve.add_instantiation_callback"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_instantiation_callback</span></code></a>(callback[, …])</p></td>
+<td><p>Register a callback which will receive each OphydObject instance.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.camonitor.html#pcdsdevices.valve.GateValve.camonitor" title="pcdsdevices.valve.GateValve.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.check_value.html#pcdsdevices.valve.GateValve.check_value" title="pcdsdevices.valve.GateValve.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.check_value.html#pcdsdevices.valve.GateValve.check_value" title="pcdsdevices.valve.GateValve.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value)</p></td>
 <td><p>Check when removing GateValve interlock is off</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.clear_sub.html#pcdsdevices.valve.GateValve.clear_sub" title="pcdsdevices.valve.GateValve.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.clear_sub.html#pcdsdevices.valve.GateValve.clear_sub" title="pcdsdevices.valve.GateValve.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
 <td><p>Remove a subscription, given the original callback function</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.close.html#pcdsdevices.valve.GateValve.close" title="pcdsdevices.valve.GateValve.close"><code class="xref py py-obj docutils literal notranslate"><span class="pre">close</span></code></a>(**kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.close.html#pcdsdevices.valve.GateValve.close" title="pcdsdevices.valve.GateValve.close"><code class="xref py py-obj docutils literal notranslate"><span class="pre">close</span></code></a>(**kwargs)</p></td>
 <td><p>Close the stopper</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.configure.html#pcdsdevices.valve.GateValve.configure" title="pcdsdevices.valve.GateValve.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.configure.html#pcdsdevices.valve.GateValve.configure" title="pcdsdevices.valve.GateValve.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
 <td><p>Configure the device for something during a run</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.describe.html#pcdsdevices.valve.GateValve.describe" title="pcdsdevices.valve.GateValve.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
-<td><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.describe.html#pcdsdevices.valve.GateValve.describe" title="pcdsdevices.valve.GateValve.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
+<td><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code>.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.describe_configuration.html#pcdsdevices.valve.GateValve.describe_configuration" title="pcdsdevices.valve.GateValve.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.describe_configuration.html#pcdsdevices.valve.GateValve.describe_configuration" title="pcdsdevices.valve.GateValve.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</p></td>
 <td><p>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.destroy.html#pcdsdevices.valve.GateValve.destroy" title="pcdsdevices.valve.GateValve.destroy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">destroy</span></code></a>()</p></td>
+<td><p>Disconnect and destroy all signals on the Device</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.end_monitor_thread.html#pcdsdevices.valve.GateValve.end_monitor_thread" title="pcdsdevices.valve.GateValve.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
 <td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.valve.GateValve.camonitor.html#pcdsdevices.valve.GateValve.camonitor" title="pcdsdevices.valve.GateValve.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.valve.GateValve.wm_update.html#pcdsdevices.valve.GateValve.wm_update" title="pcdsdevices.valve.GateValve.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</p></td>
@@ -323,16 +335,16 @@ elements still need to be carried over.</p>
 <td><p>Put a value to all components of the device</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.read.html#pcdsdevices.valve.GateValve.read" title="pcdsdevices.valve.GateValve.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
-<td><p>Read data from the device</p></td>
+<td><p>Read data from the device.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.read_configuration.html#pcdsdevices.valve.GateValve.read_configuration" title="pcdsdevices.valve.GateValve.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
-<td><p>returns dictionary mapping names to (value, timestamp) pairs</p></td>
+<td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.remove.html#pcdsdevices.valve.GateValve.remove" title="pcdsdevices.valve.GateValve.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb, timeout, wait])</p></td>
 <td><p>Macro to move this device to the first state on the out_states list.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.resume.html#pcdsdevices.valve.GateValve.resume" title="pcdsdevices.valve.GateValve.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
-<td><p>Resume a device from a ‘paused’ state</p></td>
+<td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.set.html#pcdsdevices.valve.GateValve.set" title="pcdsdevices.valve.GateValve.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[, moved_cb, timeout])</p></td>
 <td><p>Move to the desired state and return completion information.</p></td>
@@ -350,7 +362,7 @@ elements still need to be carried over.</p>
 <td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.trigger.html#pcdsdevices.valve.GateValve.trigger" title="pcdsdevices.valve.GateValve.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
-<td><p>Trigger the device and return status object</p></td>
+<td><p>Trigger the device and return status object.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.unstage.html#pcdsdevices.valve.GateValve.unstage" title="pcdsdevices.valve.GateValve.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</p></td>
 <td><p>Unstage the device.</p></td>
@@ -363,6 +375,18 @@ elements still need to be carried over.</p>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.wait_for_connection.html#pcdsdevices.valve.GateValve.wait_for_connection" title="pcdsdevices.valve.GateValve.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals, timeout])</p></td>
 <td><p>Wait for signals to connect</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.walk_components.html#pcdsdevices.valve.GateValve.walk_components" title="pcdsdevices.valve.GateValve.walk_components"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_components</span></code></a>()</p></td>
+<td><p>Walk all components in the Device hierarchy</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.walk_signals.html#pcdsdevices.valve.GateValve.walk_signals" title="pcdsdevices.valve.GateValve.walk_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_signals</span></code></a>(*[, include_lazy])</p></td>
+<td><p>Walk all signals in the Device hierarchy</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.walk_subdevice_classes.html#pcdsdevices.valve.GateValve.walk_subdevice_classes" title="pcdsdevices.valve.GateValve.walk_subdevice_classes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevice_classes</span></code></a>()</p></td>
+<td><p>Walk all sub-Devices classes in the Device hierarchy</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.walk_subdevices.html#pcdsdevices.valve.GateValve.walk_subdevices" title="pcdsdevices.valve.GateValve.walk_subdevices"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevices</span></code></a>(*[, include_lazy])</p></td>
+<td><p>Walk all sub-Devices in the hierarchy</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.GateValve.wm.html#pcdsdevices.valve.GateValve.wm" title="pcdsdevices.valve.GateValve.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s positon (where motor)</p></td>
@@ -394,20 +418,26 @@ elements still need to be carried over.</p>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_STATE</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">closed_limit</span></code></p></td>
-<td><p>Component attribute</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">command</span></code></p></td>
-<td><p>Component attribute</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_names</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">attr_name</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_attrs</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">closed_limit</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">command</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_names</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_attrs</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></p></td>
 <td><p>If the device is connected.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">dotted_name</span></code></p></td>
+<td><p>Return the dotted name</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">egu</span></code></p></td>
 <td><p></p></td>
@@ -428,7 +458,7 @@ elements still need to be carried over.</p>
 <td><p>True if the device is inserted</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">interlock</span></code></p></td>
-<td><p>Component attribute</p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">interlocked</span></code></p></td>
 <td><p>Whether the interlock on the valve is active, preventing the valve from opening</p></td>
@@ -436,64 +466,67 @@ elements still need to be carried over.</p>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">limits</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">lazy_wait_for_connection</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">low_limit</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">limits</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">moving</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">low_limit</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">moving</span></code></p></td>
 <td><p>Whether or not the motor is moving</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></p></td>
 <td><p>name of the device</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">open_limit</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">open_limit</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">out_states</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">out_states</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></p></td>
 <td><p>The parent of the ophyd object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></p></td>
 <td><p>Name of the positioner’s current state.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">removed</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">removed</span></code></p></td>
 <td><p>True if the device is removed</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
 <td><p>A report on the object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></p></td>
 <td><p>Walk parents to find ultimate ancestor (parent’s parent…).</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></p></td>
 <td><p>Amount of time to wait after moves to report status completion</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">state</span></code></p></td>
-<td><p>Component attribute</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">state</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">states_list</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">states_list</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tab_whitelist</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tab_whitelist</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">timeout</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">timeout</span></code></p></td>
 <td><p>Amount of time to wait before to considering a motion as failed</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">transmission</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">transmission</span></code></p></td>
 <td><p>The proportion of incoming beam that makes it through the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
 <td><p></p></td>
 </tr>
 </tbody>

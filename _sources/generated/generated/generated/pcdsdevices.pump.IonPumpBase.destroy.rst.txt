@@ -1,0 +1,6 @@
+pcdsdevices.pump.IonPumpBase.destroy
+====================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: IonPumpBase.destroy

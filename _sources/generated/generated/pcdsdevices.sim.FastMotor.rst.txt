@@ -13,12 +13,14 @@ pcdsdevices.sim.FastMotor
       :toctree: generated
    
       ~FastMotor.__init__
+      ~FastMotor.add_instantiation_callback
       ~FastMotor.camonitor
       ~FastMotor.check_value
       ~FastMotor.clear_sub
       ~FastMotor.configure
       ~FastMotor.describe
       ~FastMotor.describe_configuration
+      ~FastMotor.destroy
       ~FastMotor.end_monitor_thread
       ~FastMotor.get
       ~FastMotor.get_device_tuple
@@ -45,6 +47,10 @@ pcdsdevices.sim.FastMotor
       ~FastMotor.unsubscribe
       ~FastMotor.unsubscribe_all
       ~FastMotor.wait_for_connection
+      ~FastMotor.walk_components
+      ~FastMotor.walk_signals
+      ~FastMotor.walk_subdevice_classes
+      ~FastMotor.walk_subdevices
       ~FastMotor.wm
       ~FastMotor.wm_update
    
@@ -60,14 +66,17 @@ pcdsdevices.sim.FastMotor
       ~FastMotor.SUB_DONE
       ~FastMotor.SUB_READBACK
       ~FastMotor.SUB_START
+      ~FastMotor.attr_name
       ~FastMotor.component_names
       ~FastMotor.configuration_attrs
       ~FastMotor.connected
+      ~FastMotor.dotted_name
       ~FastMotor.egu
       ~FastMotor.event_types
       ~FastMotor.high_limit
       ~FastMotor.hints
       ~FastMotor.kind
+      ~FastMotor.lazy_wait_for_connection
       ~FastMotor.limits
       ~FastMotor.low_limit
       ~FastMotor.moving

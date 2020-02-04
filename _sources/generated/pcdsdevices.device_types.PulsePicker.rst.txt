@@ -13,6 +13,7 @@ pcdsdevices.device\_types.PulsePicker
       :toctree: generated
    
       ~PulsePicker.__init__
+      ~PulsePicker.add_instantiation_callback
       ~PulsePicker.burst
       ~PulsePicker.camonitor
       ~PulsePicker.check_value
@@ -21,6 +22,7 @@ pcdsdevices.device\_types.PulsePicker
       ~PulsePicker.configure
       ~PulsePicker.describe
       ~PulsePicker.describe_configuration
+      ~PulsePicker.destroy
       ~PulsePicker.end_monitor_thread
       ~PulsePicker.flipflop
       ~PulsePicker.follower
@@ -49,6 +51,10 @@ pcdsdevices.device\_types.PulsePicker
       ~PulsePicker.unsubscribe
       ~PulsePicker.unsubscribe_all
       ~PulsePicker.wait_for_connection
+      ~PulsePicker.walk_components
+      ~PulsePicker.walk_signals
+      ~PulsePicker.walk_subdevice_classes
+      ~PulsePicker.walk_subdevices
       ~PulsePicker.wm
       ~PulsePicker.wm_update
    
@@ -65,6 +71,7 @@ pcdsdevices.device\_types.PulsePicker
       ~PulsePicker.SUB_READBACK
       ~PulsePicker.SUB_START
       ~PulsePicker.SUB_STATE
+      ~PulsePicker.attr_name
       ~PulsePicker.blade
       ~PulsePicker.cmd_burst
       ~PulsePicker.cmd_close
@@ -75,6 +82,7 @@ pcdsdevices.device\_types.PulsePicker
       ~PulsePicker.component_names
       ~PulsePicker.configuration_attrs
       ~PulsePicker.connected
+      ~PulsePicker.dotted_name
       ~PulsePicker.egu
       ~PulsePicker.event_types
       ~PulsePicker.high_limit
@@ -82,6 +90,7 @@ pcdsdevices.device\_types.PulsePicker
       ~PulsePicker.in_states
       ~PulsePicker.inserted
       ~PulsePicker.kind
+      ~PulsePicker.lazy_wait_for_connection
       ~PulsePicker.limits
       ~PulsePicker.low_limit
       ~PulsePicker.mode

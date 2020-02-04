@@ -13,12 +13,14 @@ pcdsdevices.lodcm.Diode
       :toctree: generated
    
       ~Diode.__init__
+      ~Diode.add_instantiation_callback
       ~Diode.camonitor
       ~Diode.check_value
       ~Diode.clear_sub
       ~Diode.configure
       ~Diode.describe
       ~Diode.describe_configuration
+      ~Diode.destroy
       ~Diode.end_monitor_thread
       ~Diode.get
       ~Diode.get_device_tuple
@@ -43,6 +45,10 @@ pcdsdevices.lodcm.Diode
       ~Diode.unsubscribe
       ~Diode.unsubscribe_all
       ~Diode.wait_for_connection
+      ~Diode.walk_components
+      ~Diode.walk_signals
+      ~Diode.walk_subdevice_classes
+      ~Diode.walk_subdevices
       ~Diode.wm
       ~Diode.wm_update
    
@@ -59,9 +65,11 @@ pcdsdevices.lodcm.Diode
       ~Diode.SUB_READBACK
       ~Diode.SUB_START
       ~Diode.SUB_STATE
+      ~Diode.attr_name
       ~Diode.component_names
       ~Diode.configuration_attrs
       ~Diode.connected
+      ~Diode.dotted_name
       ~Diode.egu
       ~Diode.event_types
       ~Diode.high_limit
@@ -69,6 +77,7 @@ pcdsdevices.lodcm.Diode
       ~Diode.in_states
       ~Diode.inserted
       ~Diode.kind
+      ~Diode.lazy_wait_for_connection
       ~Diode.limits
       ~Diode.low_limit
       ~Diode.motor

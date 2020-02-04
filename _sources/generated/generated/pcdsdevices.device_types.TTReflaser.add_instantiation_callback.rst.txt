@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.TTReflaser.add\_instantiation\_callback
+=================================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: TTReflaser.add_instantiation_callback

@@ -1,0 +1,6 @@
+pcdsdevices.pump.PIPSerial.add\_instantiation\_callback
+=======================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PIPSerial.add_instantiation_callback

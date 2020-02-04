@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.lodcm.Dectris.wait_for_connection &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.lodcm.Dectris.wait_for_connection &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.lodcm.Dectris.wm" href="pcdsdevices.lodcm.Dectris.wm.html" />
+    <link rel="next" title="pcdsdevices.lodcm.Dectris.walk_components" href="pcdsdevices.lodcm.Dectris.walk_components.html" />
     <link rel="prev" title="pcdsdevices.lodcm.Dectris.unsubscribe_all" href="pcdsdevices.lodcm.Dectris.unsubscribe_all.html" /> 
 </head>
 
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -114,12 +114,14 @@
 <li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.lodcm.html">pcdsdevices.lodcm</a><ul class="current">
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.lodcm.Dectris.html">pcdsdevices.lodcm.Dectris</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Dectris.__init__.html">pcdsdevices.lodcm.Dectris.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Dectris.add_instantiation_callback.html">pcdsdevices.lodcm.Dectris.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Dectris.camonitor.html">pcdsdevices.lodcm.Dectris.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Dectris.check_value.html">pcdsdevices.lodcm.Dectris.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Dectris.clear_sub.html">pcdsdevices.lodcm.Dectris.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Dectris.configure.html">pcdsdevices.lodcm.Dectris.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Dectris.describe.html">pcdsdevices.lodcm.Dectris.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Dectris.describe_configuration.html">pcdsdevices.lodcm.Dectris.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Dectris.destroy.html">pcdsdevices.lodcm.Dectris.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Dectris.end_monitor_thread.html">pcdsdevices.lodcm.Dectris.end_monitor_thread</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Dectris.get.html">pcdsdevices.lodcm.Dectris.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Dectris.get_device_tuple.html">pcdsdevices.lodcm.Dectris.get_device_tuple</a></li>
@@ -144,6 +146,10 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Dectris.unsubscribe.html">pcdsdevices.lodcm.Dectris.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Dectris.unsubscribe_all.html">pcdsdevices.lodcm.Dectris.unsubscribe_all</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.lodcm.Dectris.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Dectris.walk_components.html">pcdsdevices.lodcm.Dectris.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Dectris.walk_signals.html">pcdsdevices.lodcm.Dectris.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Dectris.walk_subdevice_classes.html">pcdsdevices.lodcm.Dectris.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Dectris.walk_subdevices.html">pcdsdevices.lodcm.Dectris.walk_subdevices</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Dectris.wm.html">pcdsdevices.lodcm.Dectris.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Dectris.wm_update.html">pcdsdevices.lodcm.Dectris.wm_update</a></li>
 </ul>
@@ -267,7 +273,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.lodcm.Dectris.wm.html" class="btn btn-neutral float-right" title="pcdsdevices.lodcm.Dectris.wm" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.lodcm.Dectris.walk_components.html" class="btn btn-neutral float-right" title="pcdsdevices.lodcm.Dectris.walk_components" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="pcdsdevices.lodcm.Dectris.unsubscribe_all.html" class="btn btn-neutral float-left" title="pcdsdevices.lodcm.Dectris.unsubscribe_all" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

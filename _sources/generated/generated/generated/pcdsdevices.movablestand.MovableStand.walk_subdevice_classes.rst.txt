@@ -1,0 +1,6 @@
+pcdsdevices.movablestand.MovableStand.walk\_subdevice\_classes
+==============================================================
+
+.. currentmodule:: pcdsdevices.movablestand
+
+.. automethod:: MovableStand.walk_subdevice_classes

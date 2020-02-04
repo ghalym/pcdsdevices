@@ -13,11 +13,13 @@ pcdsdevices.gauge.GCT
       :toctree: generated
    
       ~GCT.__init__
+      ~GCT.add_instantiation_callback
       ~GCT.check_value
       ~GCT.clear_sub
       ~GCT.configure
       ~GCT.describe
       ~GCT.describe_configuration
+      ~GCT.destroy
       ~GCT.get
       ~GCT.get_device_tuple
       ~GCT.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.gauge.GCT
       ~GCT.unsubscribe
       ~GCT.unsubscribe_all
       ~GCT.wait_for_connection
+      ~GCT.walk_components
+      ~GCT.walk_signals
+      ~GCT.walk_subdevice_classes
+      ~GCT.walk_subdevices
    
    
 
@@ -45,13 +51,16 @@ pcdsdevices.gauge.GCT
    .. autosummary::
    
       ~GCT.SUB_ACQ_DONE
+      ~GCT.attr_name
       ~GCT.cal
       ~GCT.component_names
       ~GCT.configuration_attrs
       ~GCT.connected
+      ~GCT.dotted_name
       ~GCT.event_types
       ~GCT.hints
       ~GCT.kind
+      ~GCT.lazy_wait_for_connection
       ~GCT.name
       ~GCT.parent
       ~GCT.read_attrs

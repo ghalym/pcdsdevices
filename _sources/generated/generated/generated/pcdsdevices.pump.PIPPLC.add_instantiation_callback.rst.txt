@@ -1,0 +1,6 @@
+pcdsdevices.pump.PIPPLC.add\_instantiation\_callback
+====================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PIPPLC.add_instantiation_callback

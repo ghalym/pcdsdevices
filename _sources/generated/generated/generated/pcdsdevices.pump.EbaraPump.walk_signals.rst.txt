@@ -1,0 +1,6 @@
+pcdsdevices.pump.EbaraPump.walk\_signals
+========================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: EbaraPump.walk_signals

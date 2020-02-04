@@ -13,11 +13,13 @@ pcdsdevices.pump.QPCPCT
       :toctree: generated
    
       ~QPCPCT.__init__
+      ~QPCPCT.add_instantiation_callback
       ~QPCPCT.check_value
       ~QPCPCT.clear_sub
       ~QPCPCT.configure
       ~QPCPCT.describe
       ~QPCPCT.describe_configuration
+      ~QPCPCT.destroy
       ~QPCPCT.get
       ~QPCPCT.get_device_tuple
       ~QPCPCT.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.pump.QPCPCT
       ~QPCPCT.unsubscribe
       ~QPCPCT.unsubscribe_all
       ~QPCPCT.wait_for_connection
+      ~QPCPCT.walk_components
+      ~QPCPCT.walk_signals
+      ~QPCPCT.walk_subdevice_classes
+      ~QPCPCT.walk_subdevices
    
    
 
@@ -49,14 +55,17 @@ pcdsdevices.pump.QPCPCT
       ~QPCPCT.ashvedes
       ~QPCPCT.aspower
       ~QPCPCT.aspowerdes
+      ~QPCPCT.attr_name
       ~QPCPCT.component_names
       ~QPCPCT.configuration_attrs
       ~QPCPCT.connected
       ~QPCPCT.do_reset
+      ~QPCPCT.dotted_name
       ~QPCPCT.event_types
       ~QPCPCT.fwversion
       ~QPCPCT.hints
       ~QPCPCT.kind
+      ~QPCPCT.lazy_wait_for_connection
       ~QPCPCT.masterreset
       ~QPCPCT.model
       ~QPCPCT.name

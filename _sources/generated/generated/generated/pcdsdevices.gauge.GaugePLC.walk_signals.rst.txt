@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugePLC.walk\_signals
+========================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugePLC.walk_signals

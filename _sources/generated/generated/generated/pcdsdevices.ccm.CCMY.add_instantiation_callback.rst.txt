@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMY.add\_instantiation\_callback
+=================================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMY.add_instantiation_callback

@@ -13,11 +13,13 @@ pcdsdevices.pump.GammaPCT
       :toctree: generated
    
       ~GammaPCT.__init__
+      ~GammaPCT.add_instantiation_callback
       ~GammaPCT.check_value
       ~GammaPCT.clear_sub
       ~GammaPCT.configure
       ~GammaPCT.describe
       ~GammaPCT.describe_configuration
+      ~GammaPCT.destroy
       ~GammaPCT.get
       ~GammaPCT.get_device_tuple
       ~GammaPCT.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.pump.GammaPCT
       ~GammaPCT.unsubscribe
       ~GammaPCT.unsubscribe_all
       ~GammaPCT.wait_for_connection
+      ~GammaPCT.walk_components
+      ~GammaPCT.walk_signals
+      ~GammaPCT.walk_subdevice_classes
+      ~GammaPCT.walk_subdevices
    
    
 
@@ -49,13 +55,16 @@ pcdsdevices.pump.GammaPCT
       ~GammaPCT.ashvedes
       ~GammaPCT.aspower
       ~GammaPCT.aspowerdes
+      ~GammaPCT.attr_name
       ~GammaPCT.component_names
       ~GammaPCT.configuration_attrs
       ~GammaPCT.connected
+      ~GammaPCT.dotted_name
       ~GammaPCT.event_types
       ~GammaPCT.fwversion
       ~GammaPCT.hints
       ~GammaPCT.kind
+      ~GammaPCT.lazy_wait_for_connection
       ~GammaPCT.masterreset
       ~GammaPCT.model
       ~GammaPCT.name

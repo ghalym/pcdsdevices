@@ -13,11 +13,13 @@ pcdsdevices.valve.VVCNO
       :toctree: generated
    
       ~VVCNO.__init__
+      ~VVCNO.add_instantiation_callback
       ~VVCNO.check_value
       ~VVCNO.clear_sub
       ~VVCNO.configure
       ~VVCNO.describe
       ~VVCNO.describe_configuration
+      ~VVCNO.destroy
       ~VVCNO.get
       ~VVCNO.get_device_tuple
       ~VVCNO.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.valve.VVCNO
       ~VVCNO.unsubscribe
       ~VVCNO.unsubscribe_all
       ~VVCNO.wait_for_connection
+      ~VVCNO.walk_components
+      ~VVCNO.walk_signals
+      ~VVCNO.walk_subdevice_classes
+      ~VVCNO.walk_subdevices
    
    
 
@@ -45,6 +51,7 @@ pcdsdevices.valve.VVCNO
    .. autosummary::
    
       ~VVCNO.SUB_ACQ_DONE
+      ~VVCNO.attr_name
       ~VVCNO.close_command
       ~VVCNO.close_do
       ~VVCNO.close_ok
@@ -52,9 +59,11 @@ pcdsdevices.valve.VVCNO
       ~VVCNO.component_names
       ~VVCNO.configuration_attrs
       ~VVCNO.connected
+      ~VVCNO.dotted_name
       ~VVCNO.event_types
       ~VVCNO.hints
       ~VVCNO.kind
+      ~VVCNO.lazy_wait_for_connection
       ~VVCNO.name
       ~VVCNO.override_on
       ~VVCNO.parent

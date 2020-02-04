@@ -13,11 +13,13 @@ pcdsdevices.sim.SimTwoAxis
       :toctree: generated
    
       ~SimTwoAxis.__init__
+      ~SimTwoAxis.add_instantiation_callback
       ~SimTwoAxis.check_value
       ~SimTwoAxis.clear_sub
       ~SimTwoAxis.configure
       ~SimTwoAxis.describe
       ~SimTwoAxis.describe_configuration
+      ~SimTwoAxis.destroy
       ~SimTwoAxis.get
       ~SimTwoAxis.get_device_tuple
       ~SimTwoAxis.get_instantiated_signals
@@ -36,6 +38,10 @@ pcdsdevices.sim.SimTwoAxis
       ~SimTwoAxis.unsubscribe
       ~SimTwoAxis.unsubscribe_all
       ~SimTwoAxis.wait_for_connection
+      ~SimTwoAxis.walk_components
+      ~SimTwoAxis.walk_signals
+      ~SimTwoAxis.walk_subdevice_classes
+      ~SimTwoAxis.walk_subdevices
    
    
 
@@ -46,12 +52,15 @@ pcdsdevices.sim.SimTwoAxis
    .. autosummary::
    
       ~SimTwoAxis.SUB_ACQ_DONE
+      ~SimTwoAxis.attr_name
       ~SimTwoAxis.component_names
       ~SimTwoAxis.configuration_attrs
       ~SimTwoAxis.connected
+      ~SimTwoAxis.dotted_name
       ~SimTwoAxis.event_types
       ~SimTwoAxis.hints
       ~SimTwoAxis.kind
+      ~SimTwoAxis.lazy_wait_for_connection
       ~SimTwoAxis.name
       ~SimTwoAxis.parent
       ~SimTwoAxis.read_attrs

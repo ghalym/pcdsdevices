@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeColdCathode.walk\_signals
+================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeColdCathode.walk_signals

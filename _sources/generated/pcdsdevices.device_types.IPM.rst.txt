@@ -13,11 +13,13 @@ pcdsdevices.device\_types.IPM
       :toctree: generated
    
       ~IPM.__init__
+      ~IPM.add_instantiation_callback
       ~IPM.check_value
       ~IPM.clear_sub
       ~IPM.configure
       ~IPM.describe
       ~IPM.describe_configuration
+      ~IPM.destroy
       ~IPM.get
       ~IPM.get_device_tuple
       ~IPM.get_instantiated_signals
@@ -36,6 +38,10 @@ pcdsdevices.device\_types.IPM
       ~IPM.unsubscribe
       ~IPM.unsubscribe_all
       ~IPM.wait_for_connection
+      ~IPM.walk_components
+      ~IPM.walk_signals
+      ~IPM.walk_subdevice_classes
+      ~IPM.walk_subdevices
    
    
 
@@ -46,14 +52,17 @@ pcdsdevices.device\_types.IPM
    .. autosummary::
    
       ~IPM.SUB_ACQ_DONE
+      ~IPM.attr_name
       ~IPM.component_names
       ~IPM.configuration_attrs
       ~IPM.connected
       ~IPM.diode
+      ~IPM.dotted_name
       ~IPM.event_types
       ~IPM.hints
       ~IPM.inserted
       ~IPM.kind
+      ~IPM.lazy_wait_for_connection
       ~IPM.name
       ~IPM.parent
       ~IPM.read_attrs

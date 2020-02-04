@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugePLC.add\_instantiation\_callback
+=======================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugePLC.add_instantiation_callback

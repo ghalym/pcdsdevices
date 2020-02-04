@@ -13,11 +13,13 @@ pcdsdevices.pump.Navigator
       :toctree: generated
    
       ~Navigator.__init__
+      ~Navigator.add_instantiation_callback
       ~Navigator.check_value
       ~Navigator.clear_sub
       ~Navigator.configure
       ~Navigator.describe
       ~Navigator.describe_configuration
+      ~Navigator.destroy
       ~Navigator.get
       ~Navigator.get_device_tuple
       ~Navigator.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.pump.Navigator
       ~Navigator.unsubscribe
       ~Navigator.unsubscribe_all
       ~Navigator.wait_for_connection
+      ~Navigator.walk_components
+      ~Navigator.walk_signals
+      ~Navigator.walk_subdevice_classes
+      ~Navigator.walk_subdevices
    
    
 
@@ -47,17 +53,20 @@ pcdsdevices.pump.Navigator
       ~Navigator.SUB_ACQ_DONE
       ~Navigator.active_stop
       ~Navigator.ao_type
+      ~Navigator.attr_name
       ~Navigator.component_names
       ~Navigator.config
       ~Navigator.configuration_attrs
       ~Navigator.connected
       ~Navigator.ctrl_air_temp
       ~Navigator.ctrl_heatsink_temp
+      ~Navigator.dotted_name
       ~Navigator.event_types
       ~Navigator.gas_load_type
       ~Navigator.hints
       ~Navigator.interlock_type
       ~Navigator.kind
+      ~Navigator.lazy_wait_for_connection
       ~Navigator.low_speed
       ~Navigator.low_speed_freq
       ~Navigator.name

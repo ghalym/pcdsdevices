@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSerial.add\_instantiation\_callback
+==========================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSerial.add_instantiation_callback

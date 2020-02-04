@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.SimDelayStage.add\_instantiation\_callback
+================================================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: SimDelayStage.add_instantiation_callback

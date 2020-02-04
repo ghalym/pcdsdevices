@@ -1,0 +1,6 @@
+pcdsdevices.pump.IonPumpWithController.walk\_subdevice\_classes
+===============================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: IonPumpWithController.walk_subdevice_classes

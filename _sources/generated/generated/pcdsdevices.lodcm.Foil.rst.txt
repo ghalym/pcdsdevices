@@ -13,12 +13,14 @@ pcdsdevices.lodcm.Foil
       :toctree: generated
    
       ~Foil.__init__
+      ~Foil.add_instantiation_callback
       ~Foil.camonitor
       ~Foil.check_value
       ~Foil.clear_sub
       ~Foil.configure
       ~Foil.describe
       ~Foil.describe_configuration
+      ~Foil.destroy
       ~Foil.end_monitor_thread
       ~Foil.get
       ~Foil.get_device_tuple
@@ -43,6 +45,10 @@ pcdsdevices.lodcm.Foil
       ~Foil.unsubscribe
       ~Foil.unsubscribe_all
       ~Foil.wait_for_connection
+      ~Foil.walk_components
+      ~Foil.walk_signals
+      ~Foil.walk_subdevice_classes
+      ~Foil.walk_subdevices
       ~Foil.wm
       ~Foil.wm_update
    
@@ -59,9 +65,11 @@ pcdsdevices.lodcm.Foil
       ~Foil.SUB_READBACK
       ~Foil.SUB_START
       ~Foil.SUB_STATE
+      ~Foil.attr_name
       ~Foil.component_names
       ~Foil.configuration_attrs
       ~Foil.connected
+      ~Foil.dotted_name
       ~Foil.egu
       ~Foil.event_types
       ~Foil.high_limit
@@ -69,6 +77,7 @@ pcdsdevices.lodcm.Foil
       ~Foil.in_states
       ~Foil.inserted
       ~Foil.kind
+      ~Foil.lazy_wait_for_connection
       ~Foil.limits
       ~Foil.low_limit
       ~Foil.motor

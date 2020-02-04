@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.PseudoSingleInterface.add\_instantiation\_callback
+========================================================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: PseudoSingleInterface.add_instantiation_callback

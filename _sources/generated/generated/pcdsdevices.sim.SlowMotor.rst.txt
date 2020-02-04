@@ -13,12 +13,14 @@ pcdsdevices.sim.SlowMotor
       :toctree: generated
    
       ~SlowMotor.__init__
+      ~SlowMotor.add_instantiation_callback
       ~SlowMotor.camonitor
       ~SlowMotor.check_value
       ~SlowMotor.clear_sub
       ~SlowMotor.configure
       ~SlowMotor.describe
       ~SlowMotor.describe_configuration
+      ~SlowMotor.destroy
       ~SlowMotor.end_monitor_thread
       ~SlowMotor.get
       ~SlowMotor.get_device_tuple
@@ -45,6 +47,10 @@ pcdsdevices.sim.SlowMotor
       ~SlowMotor.unsubscribe
       ~SlowMotor.unsubscribe_all
       ~SlowMotor.wait_for_connection
+      ~SlowMotor.walk_components
+      ~SlowMotor.walk_signals
+      ~SlowMotor.walk_subdevice_classes
+      ~SlowMotor.walk_subdevices
       ~SlowMotor.wm
       ~SlowMotor.wm_update
    
@@ -60,14 +66,17 @@ pcdsdevices.sim.SlowMotor
       ~SlowMotor.SUB_DONE
       ~SlowMotor.SUB_READBACK
       ~SlowMotor.SUB_START
+      ~SlowMotor.attr_name
       ~SlowMotor.component_names
       ~SlowMotor.configuration_attrs
       ~SlowMotor.connected
+      ~SlowMotor.dotted_name
       ~SlowMotor.egu
       ~SlowMotor.event_types
       ~SlowMotor.high_limit
       ~SlowMotor.hints
       ~SlowMotor.kind
+      ~SlowMotor.lazy_wait_for_connection
       ~SlowMotor.limits
       ~SlowMotor.low_limit
       ~SlowMotor.moving

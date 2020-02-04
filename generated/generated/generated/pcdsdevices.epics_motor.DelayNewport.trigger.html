@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.epics_motor.DelayNewport.trigger &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.epics_motor.DelayNewport.trigger &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -109,6 +109,7 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.epics_motor.BeckhoffAxis.html">pcdsdevices.epics_motor.BeckhoffAxis</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.epics_motor.DelayNewport.html">pcdsdevices.epics_motor.DelayNewport</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.__init__.html">pcdsdevices.epics_motor.DelayNewport.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.add_instantiation_callback.html">pcdsdevices.epics_motor.DelayNewport.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.camonitor.html">pcdsdevices.epics_motor.DelayNewport.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.check_single.html">pcdsdevices.epics_motor.DelayNewport.check_single</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.check_value.html">pcdsdevices.epics_motor.DelayNewport.check_value</a></li>
@@ -116,6 +117,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.configure.html">pcdsdevices.epics_motor.DelayNewport.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.describe.html">pcdsdevices.epics_motor.DelayNewport.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.describe_configuration.html">pcdsdevices.epics_motor.DelayNewport.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.destroy.html">pcdsdevices.epics_motor.DelayNewport.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.end_monitor_thread.html">pcdsdevices.epics_motor.DelayNewport.end_monitor_thread</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.forward.html">pcdsdevices.epics_motor.DelayNewport.forward</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.get.html">pcdsdevices.epics_motor.DelayNewport.get</a></li>
@@ -147,6 +149,10 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.unsubscribe.html">pcdsdevices.epics_motor.DelayNewport.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.unsubscribe_all.html">pcdsdevices.epics_motor.DelayNewport.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.wait_for_connection.html">pcdsdevices.epics_motor.DelayNewport.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.walk_components.html">pcdsdevices.epics_motor.DelayNewport.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.walk_signals.html">pcdsdevices.epics_motor.DelayNewport.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.walk_subdevice_classes.html">pcdsdevices.epics_motor.DelayNewport.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.walk_subdevices.html">pcdsdevices.epics_motor.DelayNewport.walk_subdevices</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.wm.html">pcdsdevices.epics_motor.DelayNewport.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.wm_update.html">pcdsdevices.epics_motor.DelayNewport.wm_update</a></li>
 </ul>
@@ -257,17 +263,17 @@
 <dl class="method">
 <dt id="pcdsdevices.epics_motor.DelayNewport.trigger">
 <code class="sig-prename descclassname">DelayNewport.</code><code class="sig-name descname">trigger</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; ophyd.status.StatusBase<a class="headerlink" href="#pcdsdevices.epics_motor.DelayNewport.trigger" title="Permalink to this definition">¶</a></dt>
-<dd><p>Trigger the device and return status object</p>
+<dd><p>Trigger the device and return status object.</p>
 <p>This method is responsible for implementing ‘trigger’ or
 ‘acquire’ functionality of this device.</p>
 <p>If there is an appreciable time between triggering the device
 and it being able to be read (via the
 <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code> method) then this method is
 also responsible for arranging that the
-<code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code> object returned my this method
+<code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code> object returned by this method
 is notified when the device is ready to be read.</p>
 <p>If there is no delay between triggering and being readable,
-then this method must return a <code class="xref py py-obj docutils literal notranslate"><span class="pre">SatusBase</span></code>
+then this method must return a <code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code>
 object which is already completed.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>

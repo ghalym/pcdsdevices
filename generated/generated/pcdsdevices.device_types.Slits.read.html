@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.Slits.read &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.device_types.Slits.read &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -118,6 +118,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Reflaser.html">pcdsdevices.device_types.Reflaser</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.device_types.Slits.html">pcdsdevices.device_types.Slits</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Slits.__init__.html">pcdsdevices.device_types.Slits.__init__</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Slits.add_instantiation_callback.html">pcdsdevices.device_types.Slits.add_instantiation_callback</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Slits.block.html">pcdsdevices.device_types.Slits.block</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Slits.camonitor.html">pcdsdevices.device_types.Slits.camonitor</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Slits.check_value.html">pcdsdevices.device_types.Slits.check_value</a></li>
@@ -126,6 +127,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Slits.configure.html">pcdsdevices.device_types.Slits.configure</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Slits.describe.html">pcdsdevices.device_types.Slits.describe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Slits.describe_configuration.html">pcdsdevices.device_types.Slits.describe_configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Slits.destroy.html">pcdsdevices.device_types.Slits.destroy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Slits.end_monitor_thread.html">pcdsdevices.device_types.Slits.end_monitor_thread</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Slits.get.html">pcdsdevices.device_types.Slits.get</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Slits.get_device_tuple.html">pcdsdevices.device_types.Slits.get_device_tuple</a></li>
@@ -149,6 +151,10 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Slits.unsubscribe.html">pcdsdevices.device_types.Slits.unsubscribe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Slits.unsubscribe_all.html">pcdsdevices.device_types.Slits.unsubscribe_all</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Slits.wait_for_connection.html">pcdsdevices.device_types.Slits.wait_for_connection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Slits.walk_components.html">pcdsdevices.device_types.Slits.walk_components</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Slits.walk_signals.html">pcdsdevices.device_types.Slits.walk_signals</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Slits.walk_subdevice_classes.html">pcdsdevices.device_types.Slits.walk_subdevice_classes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Slits.walk_subdevices.html">pcdsdevices.device_types.Slits.walk_subdevices</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Slits.wm.html">pcdsdevices.device_types.Slits.wm</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Slits.wm_update.html">pcdsdevices.device_types.Slits.wm_update</a></li>
 </ul>
@@ -239,7 +245,7 @@
 <dl class="method">
 <dt id="pcdsdevices.device_types.Slits.read">
 <code class="sig-prename descclassname">Slits.</code><code class="sig-name descname">read</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; ophyd.device.OrderedDictType[str, Dict[str, Any]]<a class="headerlink" href="#pcdsdevices.device_types.Slits.read" title="Permalink to this definition">¶</a></dt>
-<dd><p>Read data from the device</p>
+<dd><p>Read data from the device.</p>
 <p>This method is expected to be as instantaneous as possible,
 with any substantial acquisition time taken care of in
 <code class="xref py py-meth docutils literal notranslate"><span class="pre">trigger()</span></code>.</p>

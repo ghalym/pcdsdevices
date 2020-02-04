@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Foil.walk\_components
+=======================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Foil.walk_components

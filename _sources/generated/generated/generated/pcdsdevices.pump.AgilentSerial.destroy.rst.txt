@@ -1,0 +1,6 @@
+pcdsdevices.pump.AgilentSerial.destroy
+======================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: AgilentSerial.destroy

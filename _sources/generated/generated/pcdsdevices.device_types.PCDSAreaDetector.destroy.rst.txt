@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PCDSAreaDetector.destroy
+==================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PCDSAreaDetector.destroy

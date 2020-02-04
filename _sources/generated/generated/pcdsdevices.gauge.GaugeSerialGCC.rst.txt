@@ -13,11 +13,13 @@ pcdsdevices.gauge.GaugeSerialGCC
       :toctree: generated
    
       ~GaugeSerialGCC.__init__
+      ~GaugeSerialGCC.add_instantiation_callback
       ~GaugeSerialGCC.check_value
       ~GaugeSerialGCC.clear_sub
       ~GaugeSerialGCC.configure
       ~GaugeSerialGCC.describe
       ~GaugeSerialGCC.describe_configuration
+      ~GaugeSerialGCC.destroy
       ~GaugeSerialGCC.get
       ~GaugeSerialGCC.get_device_tuple
       ~GaugeSerialGCC.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.gauge.GaugeSerialGCC
       ~GaugeSerialGCC.unsubscribe
       ~GaugeSerialGCC.unsubscribe_all
       ~GaugeSerialGCC.wait_for_connection
+      ~GaugeSerialGCC.walk_components
+      ~GaugeSerialGCC.walk_signals
+      ~GaugeSerialGCC.walk_subdevice_classes
+      ~GaugeSerialGCC.walk_subdevices
    
    
 
@@ -45,9 +51,11 @@ pcdsdevices.gauge.GaugeSerialGCC
    .. autosummary::
    
       ~GaugeSerialGCC.SUB_ACQ_DONE
+      ~GaugeSerialGCC.attr_name
       ~GaugeSerialGCC.component_names
       ~GaugeSerialGCC.configuration_attrs
       ~GaugeSerialGCC.connected
+      ~GaugeSerialGCC.dotted_name
       ~GaugeSerialGCC.event_types
       ~GaugeSerialGCC.gastype
       ~GaugeSerialGCC.gastypedes
@@ -55,6 +63,7 @@ pcdsdevices.gauge.GaugeSerialGCC
       ~GaugeSerialGCC.hystsprbck_1
       ~GaugeSerialGCC.hystsprbck_2
       ~GaugeSerialGCC.kind
+      ~GaugeSerialGCC.lazy_wait_for_connection
       ~GaugeSerialGCC.name
       ~GaugeSerialGCC.p
       ~GaugeSerialGCC.padel

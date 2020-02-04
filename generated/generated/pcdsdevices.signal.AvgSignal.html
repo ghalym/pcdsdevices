@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.signal.AvgSignal &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.signal.AvgSignal &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -124,10 +124,12 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.signal.AggregateSignal.html">pcdsdevices.signal.AggregateSignal</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.signal.AvgSignal</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.__init__.html">pcdsdevices.signal.AvgSignal.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.add_instantiation_callback.html">pcdsdevices.signal.AvgSignal.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.check_value.html">pcdsdevices.signal.AvgSignal.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.clear_sub.html">pcdsdevices.signal.AvgSignal.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.describe.html">pcdsdevices.signal.AvgSignal.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.describe_configuration.html">pcdsdevices.signal.AvgSignal.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.destroy.html">pcdsdevices.signal.AvgSignal.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.get.html">pcdsdevices.signal.AvgSignal.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.put.html">pcdsdevices.signal.AvgSignal.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.read.html">pcdsdevices.signal.AvgSignal.read</a></li>
@@ -250,34 +252,40 @@ after this number is reached will begin overriding old values.</p></li>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.__init__.html#pcdsdevices.signal.AvgSignal.__init__" title="pcdsdevices.signal.AvgSignal.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(signal, averages, *, name[, parent])</p></td>
 <td><p>Initialize self.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.check_value.html#pcdsdevices.signal.AvgSignal.check_value" title="pcdsdevices.signal.AvgSignal.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.add_instantiation_callback.html#pcdsdevices.signal.AvgSignal.add_instantiation_callback" title="pcdsdevices.signal.AvgSignal.add_instantiation_callback"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_instantiation_callback</span></code></a>(callback[, …])</p></td>
+<td><p>Register a callback which will receive each OphydObject instance.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.check_value.html#pcdsdevices.signal.AvgSignal.check_value" title="pcdsdevices.signal.AvgSignal.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value, **kwargs)</p></td>
 <td><p>Check if the value is valid for this object</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.clear_sub.html#pcdsdevices.signal.AvgSignal.clear_sub" title="pcdsdevices.signal.AvgSignal.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.clear_sub.html#pcdsdevices.signal.AvgSignal.clear_sub" title="pcdsdevices.signal.AvgSignal.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
 <td><p>Remove a subscription, given the original callback function</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.describe.html#pcdsdevices.signal.AvgSignal.describe" title="pcdsdevices.signal.AvgSignal.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
-<td><p>Return the description as a dictionary</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.describe.html#pcdsdevices.signal.AvgSignal.describe" title="pcdsdevices.signal.AvgSignal.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
+<td><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.describe_configuration.html#pcdsdevices.signal.AvgSignal.describe_configuration" title="pcdsdevices.signal.AvgSignal.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</p></td>
-<td><p>Subclasses may customize this.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.describe_configuration.html#pcdsdevices.signal.AvgSignal.describe_configuration" title="pcdsdevices.signal.AvgSignal.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</p></td>
+<td><p>Provide schema &amp; meta-data for <code class="xref any docutils literal notranslate"><span class="pre">~BlueskyInterface.read_configuration</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.destroy.html#pcdsdevices.signal.AvgSignal.destroy" title="pcdsdevices.signal.AvgSignal.destroy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">destroy</span></code></a>()</p></td>
+<td><p>Disconnect the Signal from the underlying control layer; destroy it</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.get.html#pcdsdevices.signal.AvgSignal.get" title="pcdsdevices.signal.AvgSignal.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>The readback value</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.put.html#pcdsdevices.signal.AvgSignal.put" title="pcdsdevices.signal.AvgSignal.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(value, *[, timestamp, force])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.put.html#pcdsdevices.signal.AvgSignal.put" title="pcdsdevices.signal.AvgSignal.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(value, *[, timestamp, force, metadata])</p></td>
 <td><p>Put updates the internal readback value</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.read.html#pcdsdevices.signal.AvgSignal.read" title="pcdsdevices.signal.AvgSignal.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
 <td><p>Put the status of the signal into a simple dictionary format for data acquisition</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.read_configuration.html#pcdsdevices.signal.AvgSignal.read_configuration" title="pcdsdevices.signal.AvgSignal.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
-<td><p>Subclasses may customize this.</p></td>
+<td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.set.html#pcdsdevices.signal.AvgSignal.set" title="pcdsdevices.signal.AvgSignal.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(value, *[, timeout, settle_time])</p></td>
 <td><p>Set is like <a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.put.html#pcdsdevices.signal.AvgSignal.put" title="pcdsdevices.signal.AvgSignal.put"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">put</span></code></a>, but is here for bluesky compatibility</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.subscribe.html#pcdsdevices.signal.AvgSignal.subscribe" title="pcdsdevices.signal.AvgSignal.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[, event_type, run])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.subscribe.html#pcdsdevices.signal.AvgSignal.subscribe" title="pcdsdevices.signal.AvgSignal.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(callback[, event_type, run])</p></td>
 <td><p>Subscribe to events this event_type generates.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.trigger.html#pcdsdevices.signal.AvgSignal.trigger" title="pcdsdevices.signal.AvgSignal.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
@@ -301,38 +309,56 @@ after this number is reached will begin overriding old values.</p></li>
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_VALUE</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_META</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_VALUE</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">attr_name</span></code></p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">averages</span></code></p></td>
 <td><p>The size of the internal buffer of values to average over.</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></p></td>
-<td><p>If the device is connected.</p></td>
+<td><p>Is the signal connected to its associated hardware, and ready to use?</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">event_types</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">dotted_name</span></code></p></td>
+<td><p>Return the dotted name</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">event_types</span></code></p></td>
 <td><p>Events that can be subscribed to via <code class="xref any docutils literal notranslate"><span class="pre">obj.subscribe</span></code></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">high_limit</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">high_limit</span></code></p></td>
+<td><p>The high, inclusive control limit for the Signal</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">hints</span></code></p></td>
+<td><p>Field hints for plotting</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">hints</span></code></p></td>
-<td><p></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">limits</span></code></p></td>
+<td><p>The control limits (low, high), such that low &lt;= value &lt;= high</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
-<td><p></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">low_limit</span></code></p></td>
+<td><p>The low, inclusive control limit for the Signal</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">limits</span></code></p></td>
-<td><p></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">metadata</span></code></p></td>
+<td><p>A copy of the metadata dictionary associated with the signal</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">low_limit</span></code></p></td>
-<td><p></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">metadata_keys</span></code></p></td>
+<td><p>Metadata keys that will be passed along on value subscriptions</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></p></td>
 <td><p>name of the device</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></p></td>
 <td><p>The parent of the ophyd object.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_access</span></code></p></td>
+<td><p>Can the signal be read?</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
 <td><p>A report on the object.</p></td>
@@ -348,6 +374,9 @@ after this number is reached will begin overriding old values.</p></li>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">value</span></code></p></td>
 <td><p>The signal’s value</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">write_access</span></code></p></td>
+<td><p>Can the signal be written to?</p></td>
 </tr>
 </tbody>
 </table>

@@ -13,12 +13,14 @@ pcdsdevices.attenuator.Filter
       :toctree: generated
    
       ~Filter.__init__
+      ~Filter.add_instantiation_callback
       ~Filter.camonitor
       ~Filter.check_value
       ~Filter.clear_sub
       ~Filter.configure
       ~Filter.describe
       ~Filter.describe_configuration
+      ~Filter.destroy
       ~Filter.end_monitor_thread
       ~Filter.get
       ~Filter.get_device_tuple
@@ -43,6 +45,10 @@ pcdsdevices.attenuator.Filter
       ~Filter.unsubscribe
       ~Filter.unsubscribe_all
       ~Filter.wait_for_connection
+      ~Filter.walk_components
+      ~Filter.walk_signals
+      ~Filter.walk_subdevice_classes
+      ~Filter.walk_subdevices
       ~Filter.wm
       ~Filter.wm_update
    
@@ -59,9 +65,11 @@ pcdsdevices.attenuator.Filter
       ~Filter.SUB_READBACK
       ~Filter.SUB_START
       ~Filter.SUB_STATE
+      ~Filter.attr_name
       ~Filter.component_names
       ~Filter.configuration_attrs
       ~Filter.connected
+      ~Filter.dotted_name
       ~Filter.egu
       ~Filter.event_types
       ~Filter.high_limit
@@ -69,6 +77,7 @@ pcdsdevices.attenuator.Filter
       ~Filter.in_states
       ~Filter.inserted
       ~Filter.kind
+      ~Filter.lazy_wait_for_connection
       ~Filter.limits
       ~Filter.low_limit
       ~Filter.material

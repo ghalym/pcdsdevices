@@ -1,0 +1,6 @@
+pcdsdevices.sim.FastMotor.add\_instantiation\_callback
+======================================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: FastMotor.add_instantiation_callback

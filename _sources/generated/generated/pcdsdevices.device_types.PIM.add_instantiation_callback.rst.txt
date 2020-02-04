@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PIM.add\_instantiation\_callback
+==========================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PIM.add_instantiation_callback

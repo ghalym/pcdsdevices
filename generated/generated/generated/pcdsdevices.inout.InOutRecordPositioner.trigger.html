@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.inout.InOutRecordPositioner.trigger &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.inout.InOutRecordPositioner.trigger &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -112,12 +112,14 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.inout.InOutPositioner.html">pcdsdevices.inout.InOutPositioner</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.inout.InOutRecordPositioner.html">pcdsdevices.inout.InOutRecordPositioner</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutRecordPositioner.__init__.html">pcdsdevices.inout.InOutRecordPositioner.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutRecordPositioner.add_instantiation_callback.html">pcdsdevices.inout.InOutRecordPositioner.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutRecordPositioner.camonitor.html">pcdsdevices.inout.InOutRecordPositioner.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutRecordPositioner.check_value.html">pcdsdevices.inout.InOutRecordPositioner.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutRecordPositioner.clear_sub.html">pcdsdevices.inout.InOutRecordPositioner.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutRecordPositioner.configure.html">pcdsdevices.inout.InOutRecordPositioner.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutRecordPositioner.describe.html">pcdsdevices.inout.InOutRecordPositioner.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutRecordPositioner.describe_configuration.html">pcdsdevices.inout.InOutRecordPositioner.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutRecordPositioner.destroy.html">pcdsdevices.inout.InOutRecordPositioner.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutRecordPositioner.end_monitor_thread.html">pcdsdevices.inout.InOutRecordPositioner.end_monitor_thread</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutRecordPositioner.get.html">pcdsdevices.inout.InOutRecordPositioner.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutRecordPositioner.get_device_tuple.html">pcdsdevices.inout.InOutRecordPositioner.get_device_tuple</a></li>
@@ -142,6 +144,10 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutRecordPositioner.unsubscribe.html">pcdsdevices.inout.InOutRecordPositioner.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutRecordPositioner.unsubscribe_all.html">pcdsdevices.inout.InOutRecordPositioner.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutRecordPositioner.wait_for_connection.html">pcdsdevices.inout.InOutRecordPositioner.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutRecordPositioner.walk_components.html">pcdsdevices.inout.InOutRecordPositioner.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutRecordPositioner.walk_signals.html">pcdsdevices.inout.InOutRecordPositioner.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutRecordPositioner.walk_subdevice_classes.html">pcdsdevices.inout.InOutRecordPositioner.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutRecordPositioner.walk_subdevices.html">pcdsdevices.inout.InOutRecordPositioner.walk_subdevices</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutRecordPositioner.wm.html">pcdsdevices.inout.InOutRecordPositioner.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutRecordPositioner.wm_update.html">pcdsdevices.inout.InOutRecordPositioner.wm_update</a></li>
 </ul>
@@ -245,17 +251,17 @@
 <dl class="method">
 <dt id="pcdsdevices.inout.InOutRecordPositioner.trigger">
 <code class="sig-prename descclassname">InOutRecordPositioner.</code><code class="sig-name descname">trigger</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; ophyd.status.StatusBase<a class="headerlink" href="#pcdsdevices.inout.InOutRecordPositioner.trigger" title="Permalink to this definition">¶</a></dt>
-<dd><p>Trigger the device and return status object</p>
+<dd><p>Trigger the device and return status object.</p>
 <p>This method is responsible for implementing ‘trigger’ or
 ‘acquire’ functionality of this device.</p>
 <p>If there is an appreciable time between triggering the device
 and it being able to be read (via the
 <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code> method) then this method is
 also responsible for arranging that the
-<code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code> object returned my this method
+<code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code> object returned by this method
 is notified when the device is ready to be read.</p>
 <p>If there is no delay between triggering and being readable,
-then this method must return a <code class="xref py py-obj docutils literal notranslate"><span class="pre">SatusBase</span></code>
+then this method must return a <code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code>
 object which is already completed.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>

@@ -13,11 +13,13 @@ pcdsdevices.device\_types.LODCM
       :toctree: generated
    
       ~LODCM.__init__
+      ~LODCM.add_instantiation_callback
       ~LODCM.check_value
       ~LODCM.clear_sub
       ~LODCM.configure
       ~LODCM.describe
       ~LODCM.describe_configuration
+      ~LODCM.destroy
       ~LODCM.get
       ~LODCM.get_device_tuple
       ~LODCM.get_instantiated_signals
@@ -37,6 +39,10 @@ pcdsdevices.device\_types.LODCM
       ~LODCM.unsubscribe
       ~LODCM.unsubscribe_all
       ~LODCM.wait_for_connection
+      ~LODCM.walk_components
+      ~LODCM.walk_signals
+      ~LODCM.walk_subdevice_classes
+      ~LODCM.walk_subdevices
    
    
 
@@ -47,6 +53,7 @@ pcdsdevices.device\_types.LODCM
    .. autosummary::
    
       ~LODCM.SUB_ACQ_DONE
+      ~LODCM.attr_name
       ~LODCM.branches
       ~LODCM.component_names
       ~LODCM.configuration_attrs
@@ -54,12 +61,14 @@ pcdsdevices.device\_types.LODCM
       ~LODCM.dectris
       ~LODCM.destination
       ~LODCM.diode
+      ~LODCM.dotted_name
       ~LODCM.event_types
       ~LODCM.foil
       ~LODCM.h1n
       ~LODCM.hints
       ~LODCM.inserted
       ~LODCM.kind
+      ~LODCM.lazy_wait_for_connection
       ~LODCM.name
       ~LODCM.parent
       ~LODCM.read_attrs

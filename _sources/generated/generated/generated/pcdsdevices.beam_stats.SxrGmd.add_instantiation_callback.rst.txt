@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.SxrGmd.add\_instantiation\_callback
+===========================================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: SxrGmd.add_instantiation_callback

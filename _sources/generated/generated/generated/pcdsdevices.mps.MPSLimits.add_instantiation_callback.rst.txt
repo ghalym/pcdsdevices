@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPSLimits.add\_instantiation\_callback
+======================================================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPSLimits.add_instantiation_callback

@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugePLC.walk\_subdevices
+===========================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugePLC.walk_subdevices

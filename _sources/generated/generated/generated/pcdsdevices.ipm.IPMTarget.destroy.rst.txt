@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMTarget.destroy
+=================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMTarget.destroy

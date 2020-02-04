@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.PIM.read_configuration &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.device_types.PIM.read_configuration &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -113,12 +113,14 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.PCDSAreaDetector.html">pcdsdevices.device_types.PCDSAreaDetector</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.device_types.PIM.html">pcdsdevices.device_types.PIM</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PIM.__init__.html">pcdsdevices.device_types.PIM.__init__</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PIM.add_instantiation_callback.html">pcdsdevices.device_types.PIM.add_instantiation_callback</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PIM.camonitor.html">pcdsdevices.device_types.PIM.camonitor</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PIM.check_value.html">pcdsdevices.device_types.PIM.check_value</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PIM.clear_sub.html">pcdsdevices.device_types.PIM.clear_sub</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PIM.configure.html">pcdsdevices.device_types.PIM.configure</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PIM.describe.html">pcdsdevices.device_types.PIM.describe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PIM.describe_configuration.html">pcdsdevices.device_types.PIM.describe_configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PIM.destroy.html">pcdsdevices.device_types.PIM.destroy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PIM.end_monitor_thread.html">pcdsdevices.device_types.PIM.end_monitor_thread</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PIM.get.html">pcdsdevices.device_types.PIM.get</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PIM.get_device_tuple.html">pcdsdevices.device_types.PIM.get_device_tuple</a></li>
@@ -143,6 +145,10 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PIM.unsubscribe.html">pcdsdevices.device_types.PIM.unsubscribe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PIM.unsubscribe_all.html">pcdsdevices.device_types.PIM.unsubscribe_all</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PIM.wait_for_connection.html">pcdsdevices.device_types.PIM.wait_for_connection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PIM.walk_components.html">pcdsdevices.device_types.PIM.walk_components</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PIM.walk_signals.html">pcdsdevices.device_types.PIM.walk_signals</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PIM.walk_subdevice_classes.html">pcdsdevices.device_types.PIM.walk_subdevice_classes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PIM.walk_subdevices.html">pcdsdevices.device_types.PIM.walk_subdevices</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PIM.wm.html">pcdsdevices.device_types.PIM.wm</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PIM.wm_update.html">pcdsdevices.device_types.PIM.wm_update</a></li>
 </ul>
@@ -238,9 +244,9 @@
 <dl class="method">
 <dt id="pcdsdevices.device_types.PIM.read_configuration">
 <code class="sig-prename descclassname">PIM.</code><code class="sig-name descname">read_configuration</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; ophyd.device.OrderedDictType[str, Dict[str, Any]]<a class="headerlink" href="#pcdsdevices.device_types.PIM.read_configuration" title="Permalink to this definition">¶</a></dt>
-<dd><p>returns dictionary mapping names to (value, timestamp) pairs</p>
-<p>To control which fields are included, adjust the
-<code class="docutils literal notranslate"><span class="pre">configuration_attrs</span></code> list.</p>
+<dd><p>Dictionary mapping names to value dicts with keys: value, timestamp</p>
+<p>To control which fields are included, change the Component kinds on the
+device, or modify the <code class="docutils literal notranslate"><span class="pre">configuration_attrs</span></code> list.</p>
 </dd></dl>
 
 </div>

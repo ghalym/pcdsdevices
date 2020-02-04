@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PointingMirror.destroy
+================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PointingMirror.destroy

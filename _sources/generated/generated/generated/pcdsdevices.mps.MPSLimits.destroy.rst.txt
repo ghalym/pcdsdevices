@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPSLimits.destroy
+=================================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPSLimits.destroy

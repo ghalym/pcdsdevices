@@ -13,12 +13,14 @@ pcdsdevices.device\_types.CCM
       :toctree: generated
    
       ~CCM.__init__
+      ~CCM.add_instantiation_callback
       ~CCM.camonitor
       ~CCM.check_value
       ~CCM.clear_sub
       ~CCM.configure
       ~CCM.describe
       ~CCM.describe_configuration
+      ~CCM.destroy
       ~CCM.end_monitor_thread
       ~CCM.get
       ~CCM.get_device_tuple
@@ -43,6 +45,10 @@ pcdsdevices.device\_types.CCM
       ~CCM.unsubscribe
       ~CCM.unsubscribe_all
       ~CCM.wait_for_connection
+      ~CCM.walk_components
+      ~CCM.walk_signals
+      ~CCM.walk_subdevice_classes
+      ~CCM.walk_subdevices
       ~CCM.wm
       ~CCM.wm_update
    
@@ -59,10 +65,12 @@ pcdsdevices.device\_types.CCM
       ~CCM.SUB_READBACK
       ~CCM.SUB_START
       ~CCM.SUB_STATE
+      ~CCM.attr_name
       ~CCM.calc
       ~CCM.component_names
       ~CCM.configuration_attrs
       ~CCM.connected
+      ~CCM.dotted_name
       ~CCM.egu
       ~CCM.event_types
       ~CCM.high_limit
@@ -70,6 +78,7 @@ pcdsdevices.device\_types.CCM
       ~CCM.in_states
       ~CCM.inserted
       ~CCM.kind
+      ~CCM.lazy_wait_for_connection
       ~CCM.limits
       ~CCM.low_limit
       ~CCM.moving

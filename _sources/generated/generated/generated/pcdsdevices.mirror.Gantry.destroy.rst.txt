@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Gantry.destroy
+=================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Gantry.destroy

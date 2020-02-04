@@ -13,12 +13,14 @@ pcdsdevices.inout.TTReflaser
       :toctree: generated
    
       ~TTReflaser.__init__
+      ~TTReflaser.add_instantiation_callback
       ~TTReflaser.camonitor
       ~TTReflaser.check_value
       ~TTReflaser.clear_sub
       ~TTReflaser.configure
       ~TTReflaser.describe
       ~TTReflaser.describe_configuration
+      ~TTReflaser.destroy
       ~TTReflaser.end_monitor_thread
       ~TTReflaser.get
       ~TTReflaser.get_device_tuple
@@ -43,6 +45,10 @@ pcdsdevices.inout.TTReflaser
       ~TTReflaser.unsubscribe
       ~TTReflaser.unsubscribe_all
       ~TTReflaser.wait_for_connection
+      ~TTReflaser.walk_components
+      ~TTReflaser.walk_signals
+      ~TTReflaser.walk_subdevice_classes
+      ~TTReflaser.walk_subdevices
       ~TTReflaser.wm
       ~TTReflaser.wm_update
    
@@ -59,9 +65,11 @@ pcdsdevices.inout.TTReflaser
       ~TTReflaser.SUB_READBACK
       ~TTReflaser.SUB_START
       ~TTReflaser.SUB_STATE
+      ~TTReflaser.attr_name
       ~TTReflaser.component_names
       ~TTReflaser.configuration_attrs
       ~TTReflaser.connected
+      ~TTReflaser.dotted_name
       ~TTReflaser.egu
       ~TTReflaser.event_types
       ~TTReflaser.high_limit
@@ -69,6 +77,7 @@ pcdsdevices.inout.TTReflaser
       ~TTReflaser.in_states
       ~TTReflaser.inserted
       ~TTReflaser.kind
+      ~TTReflaser.lazy_wait_for_connection
       ~TTReflaser.limits
       ~TTReflaser.low_limit
       ~TTReflaser.motor

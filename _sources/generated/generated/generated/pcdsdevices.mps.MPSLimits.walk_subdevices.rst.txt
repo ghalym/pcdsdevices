@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPSLimits.walk\_subdevices
+==========================================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPSLimits.walk_subdevices

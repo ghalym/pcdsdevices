@@ -13,11 +13,13 @@ pcdsdevices.pump.PTMPLC
       :toctree: generated
    
       ~PTMPLC.__init__
+      ~PTMPLC.add_instantiation_callback
       ~PTMPLC.check_value
       ~PTMPLC.clear_sub
       ~PTMPLC.configure
       ~PTMPLC.describe
       ~PTMPLC.describe_configuration
+      ~PTMPLC.destroy
       ~PTMPLC.get
       ~PTMPLC.get_device_tuple
       ~PTMPLC.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.pump.PTMPLC
       ~PTMPLC.unsubscribe
       ~PTMPLC.unsubscribe_all
       ~PTMPLC.wait_for_connection
+      ~PTMPLC.walk_components
+      ~PTMPLC.walk_signals
+      ~PTMPLC.walk_subdevice_classes
+      ~PTMPLC.walk_subdevices
    
    
 
@@ -46,16 +52,19 @@ pcdsdevices.pump.PTMPLC
    
       ~PTMPLC.SUB_ACQ_DONE
       ~PTMPLC.alarm
+      ~PTMPLC.attr_name
       ~PTMPLC.bp_sp
       ~PTMPLC.component_names
       ~PTMPLC.configuration_attrs
       ~PTMPLC.connected
+      ~PTMPLC.dotted_name
       ~PTMPLC.event_types
       ~PTMPLC.fault
       ~PTMPLC.hints
       ~PTMPLC.interlock_status
       ~PTMPLC.ip_sp
       ~PTMPLC.kind
+      ~PTMPLC.lazy_wait_for_connection
       ~PTMPLC.name
       ~PTMPLC.parent
       ~PTMPLC.pump_accelerating

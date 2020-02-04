@@ -13,12 +13,14 @@ pcdsdevices.valve.PPSStopper
       :toctree: generated
    
       ~PPSStopper.__init__
+      ~PPSStopper.add_instantiation_callback
       ~PPSStopper.camonitor
       ~PPSStopper.check_value
       ~PPSStopper.clear_sub
       ~PPSStopper.configure
       ~PPSStopper.describe
       ~PPSStopper.describe_configuration
+      ~PPSStopper.destroy
       ~PPSStopper.end_monitor_thread
       ~PPSStopper.get
       ~PPSStopper.get_device_tuple
@@ -43,6 +45,10 @@ pcdsdevices.valve.PPSStopper
       ~PPSStopper.unsubscribe
       ~PPSStopper.unsubscribe_all
       ~PPSStopper.wait_for_connection
+      ~PPSStopper.walk_components
+      ~PPSStopper.walk_signals
+      ~PPSStopper.walk_subdevice_classes
+      ~PPSStopper.walk_subdevices
       ~PPSStopper.wm
       ~PPSStopper.wm_update
    
@@ -59,9 +65,11 @@ pcdsdevices.valve.PPSStopper
       ~PPSStopper.SUB_READBACK
       ~PPSStopper.SUB_START
       ~PPSStopper.SUB_STATE
+      ~PPSStopper.attr_name
       ~PPSStopper.component_names
       ~PPSStopper.configuration_attrs
       ~PPSStopper.connected
+      ~PPSStopper.dotted_name
       ~PPSStopper.egu
       ~PPSStopper.event_types
       ~PPSStopper.high_limit
@@ -69,6 +77,7 @@ pcdsdevices.valve.PPSStopper
       ~PPSStopper.in_states
       ~PPSStopper.inserted
       ~PPSStopper.kind
+      ~PPSStopper.lazy_wait_for_connection
       ~PPSStopper.limits
       ~PPSStopper.low_limit
       ~PPSStopper.moving

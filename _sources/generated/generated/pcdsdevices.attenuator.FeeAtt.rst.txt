@@ -13,12 +13,14 @@ pcdsdevices.attenuator.FeeAtt
       :toctree: generated
    
       ~FeeAtt.__init__
+      ~FeeAtt.add_instantiation_callback
       ~FeeAtt.camonitor
       ~FeeAtt.check_value
       ~FeeAtt.clear_sub
       ~FeeAtt.configure
       ~FeeAtt.describe
       ~FeeAtt.describe_configuration
+      ~FeeAtt.destroy
       ~FeeAtt.end_monitor_thread
       ~FeeAtt.get
       ~FeeAtt.get_device_tuple
@@ -48,6 +50,10 @@ pcdsdevices.attenuator.FeeAtt
       ~FeeAtt.unsubscribe
       ~FeeAtt.unsubscribe_all
       ~FeeAtt.wait_for_connection
+      ~FeeAtt.walk_components
+      ~FeeAtt.walk_signals
+      ~FeeAtt.walk_subdevice_classes
+      ~FeeAtt.walk_subdevices
       ~FeeAtt.wm
       ~FeeAtt.wm_update
    
@@ -66,12 +72,14 @@ pcdsdevices.attenuator.FeeAtt
       ~FeeAtt.SUB_STATE
       ~FeeAtt.actuate
       ~FeeAtt.actuate_value
+      ~FeeAtt.attr_name
       ~FeeAtt.calcpend
       ~FeeAtt.component_names
       ~FeeAtt.configuration_attrs
       ~FeeAtt.connected
       ~FeeAtt.done
       ~FeeAtt.done_value
+      ~FeeAtt.dotted_name
       ~FeeAtt.eget_cmd
       ~FeeAtt.egu
       ~FeeAtt.energy
@@ -89,6 +97,7 @@ pcdsdevices.attenuator.FeeAtt
       ~FeeAtt.hints
       ~FeeAtt.inserted
       ~FeeAtt.kind
+      ~FeeAtt.lazy_wait_for_connection
       ~FeeAtt.limits
       ~FeeAtt.low_limit
       ~FeeAtt.moving

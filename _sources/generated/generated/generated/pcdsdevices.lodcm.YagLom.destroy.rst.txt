@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.YagLom.destroy
+================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: YagLom.destroy

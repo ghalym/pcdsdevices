@@ -13,6 +13,7 @@ pcdsdevices.pulsepicker.PulsePickerInOut
       :toctree: generated
    
       ~PulsePickerInOut.__init__
+      ~PulsePickerInOut.add_instantiation_callback
       ~PulsePickerInOut.burst
       ~PulsePickerInOut.camonitor
       ~PulsePickerInOut.check_value
@@ -21,6 +22,7 @@ pcdsdevices.pulsepicker.PulsePickerInOut
       ~PulsePickerInOut.configure
       ~PulsePickerInOut.describe
       ~PulsePickerInOut.describe_configuration
+      ~PulsePickerInOut.destroy
       ~PulsePickerInOut.end_monitor_thread
       ~PulsePickerInOut.flipflop
       ~PulsePickerInOut.follower
@@ -49,6 +51,10 @@ pcdsdevices.pulsepicker.PulsePickerInOut
       ~PulsePickerInOut.unsubscribe
       ~PulsePickerInOut.unsubscribe_all
       ~PulsePickerInOut.wait_for_connection
+      ~PulsePickerInOut.walk_components
+      ~PulsePickerInOut.walk_signals
+      ~PulsePickerInOut.walk_subdevice_classes
+      ~PulsePickerInOut.walk_subdevices
       ~PulsePickerInOut.wm
       ~PulsePickerInOut.wm_update
    
@@ -65,6 +71,7 @@ pcdsdevices.pulsepicker.PulsePickerInOut
       ~PulsePickerInOut.SUB_READBACK
       ~PulsePickerInOut.SUB_START
       ~PulsePickerInOut.SUB_STATE
+      ~PulsePickerInOut.attr_name
       ~PulsePickerInOut.blade
       ~PulsePickerInOut.cmd_burst
       ~PulsePickerInOut.cmd_close
@@ -75,6 +82,7 @@ pcdsdevices.pulsepicker.PulsePickerInOut
       ~PulsePickerInOut.component_names
       ~PulsePickerInOut.configuration_attrs
       ~PulsePickerInOut.connected
+      ~PulsePickerInOut.dotted_name
       ~PulsePickerInOut.egu
       ~PulsePickerInOut.event_types
       ~PulsePickerInOut.high_limit
@@ -83,6 +91,7 @@ pcdsdevices.pulsepicker.PulsePickerInOut
       ~PulsePickerInOut.inout
       ~PulsePickerInOut.inserted
       ~PulsePickerInOut.kind
+      ~PulsePickerInOut.lazy_wait_for_connection
       ~PulsePickerInOut.limits
       ~PulsePickerInOut.low_limit
       ~PulsePickerInOut.mode

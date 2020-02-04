@@ -13,11 +13,13 @@ pcdsdevices.valve.VGCLegacy
       :toctree: generated
    
       ~VGCLegacy.__init__
+      ~VGCLegacy.add_instantiation_callback
       ~VGCLegacy.check_value
       ~VGCLegacy.clear_sub
       ~VGCLegacy.configure
       ~VGCLegacy.describe
       ~VGCLegacy.describe_configuration
+      ~VGCLegacy.destroy
       ~VGCLegacy.get
       ~VGCLegacy.get_device_tuple
       ~VGCLegacy.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.valve.VGCLegacy
       ~VGCLegacy.unsubscribe
       ~VGCLegacy.unsubscribe_all
       ~VGCLegacy.wait_for_connection
+      ~VGCLegacy.walk_components
+      ~VGCLegacy.walk_signals
+      ~VGCLegacy.walk_subdevice_classes
+      ~VGCLegacy.walk_subdevices
    
    
 
@@ -45,14 +51,17 @@ pcdsdevices.valve.VGCLegacy
    .. autosummary::
    
       ~VGCLegacy.SUB_ACQ_DONE
+      ~VGCLegacy.attr_name
       ~VGCLegacy.closed_limit
       ~VGCLegacy.component_names
       ~VGCLegacy.configuration_attrs
       ~VGCLegacy.connected
+      ~VGCLegacy.dotted_name
       ~VGCLegacy.event_types
       ~VGCLegacy.hints
       ~VGCLegacy.interlock_ok
       ~VGCLegacy.kind
+      ~VGCLegacy.lazy_wait_for_connection
       ~VGCLegacy.name
       ~VGCLegacy.open_command
       ~VGCLegacy.open_do

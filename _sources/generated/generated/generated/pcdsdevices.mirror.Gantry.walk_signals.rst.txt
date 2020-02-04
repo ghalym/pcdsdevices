@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Gantry.walk\_signals
+=======================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Gantry.walk_signals

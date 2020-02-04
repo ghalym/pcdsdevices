@@ -13,11 +13,13 @@ pcdsdevices.mps.MPSLimits
       :toctree: generated
    
       ~MPSLimits.__init__
+      ~MPSLimits.add_instantiation_callback
       ~MPSLimits.check_value
       ~MPSLimits.clear_sub
       ~MPSLimits.configure
       ~MPSLimits.describe
       ~MPSLimits.describe_configuration
+      ~MPSLimits.destroy
       ~MPSLimits.get
       ~MPSLimits.get_device_tuple
       ~MPSLimits.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.mps.MPSLimits
       ~MPSLimits.unsubscribe
       ~MPSLimits.unsubscribe_all
       ~MPSLimits.wait_for_connection
+      ~MPSLimits.walk_components
+      ~MPSLimits.walk_signals
+      ~MPSLimits.walk_subdevice_classes
+      ~MPSLimits.walk_subdevices
    
    
 
@@ -46,15 +52,18 @@ pcdsdevices.mps.MPSLimits
    
       ~MPSLimits.SUB_ACQ_DONE
       ~MPSLimits.SUB_FAULT_CH
+      ~MPSLimits.attr_name
       ~MPSLimits.bypassed
       ~MPSLimits.component_names
       ~MPSLimits.configuration_attrs
       ~MPSLimits.connected
+      ~MPSLimits.dotted_name
       ~MPSLimits.event_types
       ~MPSLimits.faulted
       ~MPSLimits.hints
       ~MPSLimits.in_limit
       ~MPSLimits.kind
+      ~MPSLimits.lazy_wait_for_connection
       ~MPSLimits.name
       ~MPSLimits.out_limit
       ~MPSLimits.parent

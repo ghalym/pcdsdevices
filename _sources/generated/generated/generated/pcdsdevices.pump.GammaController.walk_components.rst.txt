@@ -1,0 +1,6 @@
+pcdsdevices.pump.GammaController.walk\_components
+=================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: GammaController.walk_components

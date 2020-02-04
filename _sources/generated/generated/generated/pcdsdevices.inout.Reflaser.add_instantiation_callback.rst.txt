@@ -1,0 +1,6 @@
+pcdsdevices.inout.Reflaser.add\_instantiation\_callback
+=======================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: Reflaser.add_instantiation_callback

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.gauge.MKS937AController.wait_for_connection &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.gauge.MKS937AController.wait_for_connection &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.gauge.MKS937BController" href="../pcdsdevices.gauge.MKS937BController.html" />
+    <link rel="next" title="pcdsdevices.gauge.MKS937AController.walk_components" href="pcdsdevices.gauge.MKS937AController.walk_components.html" />
     <link rel="prev" title="pcdsdevices.gauge.MKS937AController.unsubscribe_all" href="pcdsdevices.gauge.MKS937AController.unsubscribe_all.html" /> 
 </head>
 
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -124,11 +124,13 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.gauge.GaugeSetPiraniMks.html">pcdsdevices.gauge.GaugeSetPiraniMks</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.gauge.MKS937AController.html">pcdsdevices.gauge.MKS937AController</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.MKS937AController.__init__.html">pcdsdevices.gauge.MKS937AController.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.MKS937AController.add_instantiation_callback.html">pcdsdevices.gauge.MKS937AController.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.MKS937AController.check_value.html">pcdsdevices.gauge.MKS937AController.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.MKS937AController.clear_sub.html">pcdsdevices.gauge.MKS937AController.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.MKS937AController.configure.html">pcdsdevices.gauge.MKS937AController.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.MKS937AController.describe.html">pcdsdevices.gauge.MKS937AController.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.MKS937AController.describe_configuration.html">pcdsdevices.gauge.MKS937AController.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.MKS937AController.destroy.html">pcdsdevices.gauge.MKS937AController.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.MKS937AController.get.html">pcdsdevices.gauge.MKS937AController.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.MKS937AController.get_device_tuple.html">pcdsdevices.gauge.MKS937AController.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.MKS937AController.get_instantiated_signals.html">pcdsdevices.gauge.MKS937AController.get_instantiated_signals</a></li>
@@ -146,6 +148,10 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.MKS937AController.unsubscribe.html">pcdsdevices.gauge.MKS937AController.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.MKS937AController.unsubscribe_all.html">pcdsdevices.gauge.MKS937AController.unsubscribe_all</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.gauge.MKS937AController.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.MKS937AController.walk_components.html">pcdsdevices.gauge.MKS937AController.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.MKS937AController.walk_signals.html">pcdsdevices.gauge.MKS937AController.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.MKS937AController.walk_subdevice_classes.html">pcdsdevices.gauge.MKS937AController.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.MKS937AController.walk_subdevices.html">pcdsdevices.gauge.MKS937AController.walk_subdevices</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.gauge.MKS937BController.html">pcdsdevices.gauge.MKS937BController</a></li>
@@ -269,7 +275,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../pcdsdevices.gauge.MKS937BController.html" class="btn btn-neutral float-right" title="pcdsdevices.gauge.MKS937BController" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.gauge.MKS937AController.walk_components.html" class="btn btn-neutral float-right" title="pcdsdevices.gauge.MKS937AController.walk_components" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="pcdsdevices.gauge.MKS937AController.unsubscribe_all.html" class="btn btn-neutral float-left" title="pcdsdevices.gauge.MKS937AController.unsubscribe_all" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

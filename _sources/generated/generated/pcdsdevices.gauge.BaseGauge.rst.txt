@@ -13,11 +13,13 @@ pcdsdevices.gauge.BaseGauge
       :toctree: generated
    
       ~BaseGauge.__init__
+      ~BaseGauge.add_instantiation_callback
       ~BaseGauge.check_value
       ~BaseGauge.clear_sub
       ~BaseGauge.configure
       ~BaseGauge.describe
       ~BaseGauge.describe_configuration
+      ~BaseGauge.destroy
       ~BaseGauge.get
       ~BaseGauge.get_device_tuple
       ~BaseGauge.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.gauge.BaseGauge
       ~BaseGauge.unsubscribe
       ~BaseGauge.unsubscribe_all
       ~BaseGauge.wait_for_connection
+      ~BaseGauge.walk_components
+      ~BaseGauge.walk_signals
+      ~BaseGauge.walk_subdevice_classes
+      ~BaseGauge.walk_subdevices
    
    
 
@@ -45,13 +51,16 @@ pcdsdevices.gauge.BaseGauge
    .. autosummary::
    
       ~BaseGauge.SUB_ACQ_DONE
+      ~BaseGauge.attr_name
       ~BaseGauge.component_names
       ~BaseGauge.configuration_attrs
       ~BaseGauge.connected
+      ~BaseGauge.dotted_name
       ~BaseGauge.egu
       ~BaseGauge.event_types
       ~BaseGauge.hints
       ~BaseGauge.kind
+      ~BaseGauge.lazy_wait_for_connection
       ~BaseGauge.name
       ~BaseGauge.parent
       ~BaseGauge.pressure

@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.CCM.destroy
+=====================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: CCM.destroy

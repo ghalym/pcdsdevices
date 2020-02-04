@@ -13,11 +13,13 @@ pcdsdevices.gauge.GaugeSerialGPI
       :toctree: generated
    
       ~GaugeSerialGPI.__init__
+      ~GaugeSerialGPI.add_instantiation_callback
       ~GaugeSerialGPI.check_value
       ~GaugeSerialGPI.clear_sub
       ~GaugeSerialGPI.configure
       ~GaugeSerialGPI.describe
       ~GaugeSerialGPI.describe_configuration
+      ~GaugeSerialGPI.destroy
       ~GaugeSerialGPI.get
       ~GaugeSerialGPI.get_device_tuple
       ~GaugeSerialGPI.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.gauge.GaugeSerialGPI
       ~GaugeSerialGPI.unsubscribe
       ~GaugeSerialGPI.unsubscribe_all
       ~GaugeSerialGPI.wait_for_connection
+      ~GaugeSerialGPI.walk_components
+      ~GaugeSerialGPI.walk_signals
+      ~GaugeSerialGPI.walk_subdevice_classes
+      ~GaugeSerialGPI.walk_subdevices
    
    
 
@@ -47,11 +53,13 @@ pcdsdevices.gauge.GaugeSerialGPI
       ~GaugeSerialGPI.SUB_ACQ_DONE
       ~GaugeSerialGPI.atmcalib
       ~GaugeSerialGPI.atmcalibdes
+      ~GaugeSerialGPI.attr_name
       ~GaugeSerialGPI.autozero
       ~GaugeSerialGPI.autozerodes
       ~GaugeSerialGPI.component_names
       ~GaugeSerialGPI.configuration_attrs
       ~GaugeSerialGPI.connected
+      ~GaugeSerialGPI.dotted_name
       ~GaugeSerialGPI.event_types
       ~GaugeSerialGPI.gastype
       ~GaugeSerialGPI.gastypedes
@@ -59,6 +67,7 @@ pcdsdevices.gauge.GaugeSerialGPI
       ~GaugeSerialGPI.hystsprbck_1
       ~GaugeSerialGPI.hystsprbck_2
       ~GaugeSerialGPI.kind
+      ~GaugeSerialGPI.lazy_wait_for_connection
       ~GaugeSerialGPI.name
       ~GaugeSerialGPI.p
       ~GaugeSerialGPI.padel

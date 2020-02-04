@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Pitch.add\_instantiation\_callback
+=====================================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Pitch.add_instantiation_callback

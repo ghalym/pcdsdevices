@@ -13,11 +13,13 @@ pcdsdevices.gauge.GaugeColdCathode
       :toctree: generated
    
       ~GaugeColdCathode.__init__
+      ~GaugeColdCathode.add_instantiation_callback
       ~GaugeColdCathode.check_value
       ~GaugeColdCathode.clear_sub
       ~GaugeColdCathode.configure
       ~GaugeColdCathode.describe
       ~GaugeColdCathode.describe_configuration
+      ~GaugeColdCathode.destroy
       ~GaugeColdCathode.get
       ~GaugeColdCathode.get_device_tuple
       ~GaugeColdCathode.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.gauge.GaugeColdCathode
       ~GaugeColdCathode.unsubscribe
       ~GaugeColdCathode.unsubscribe_all
       ~GaugeColdCathode.wait_for_connection
+      ~GaugeColdCathode.walk_components
+      ~GaugeColdCathode.walk_signals
+      ~GaugeColdCathode.walk_subdevice_classes
+      ~GaugeColdCathode.walk_subdevices
    
    
 
@@ -45,16 +51,19 @@ pcdsdevices.gauge.GaugeColdCathode
    .. autosummary::
    
       ~GaugeColdCathode.SUB_ACQ_DONE
+      ~GaugeColdCathode.attr_name
       ~GaugeColdCathode.component_names
       ~GaugeColdCathode.configuration_attrs
       ~GaugeColdCathode.connected
       ~GaugeColdCathode.control_enable
       ~GaugeColdCathode.control_setpoint
+      ~GaugeColdCathode.dotted_name
       ~GaugeColdCathode.egu
       ~GaugeColdCathode.enable
       ~GaugeColdCathode.event_types
       ~GaugeColdCathode.hints
       ~GaugeColdCathode.kind
+      ~GaugeColdCathode.lazy_wait_for_connection
       ~GaugeColdCathode.name
       ~GaugeColdCathode.parent
       ~GaugeColdCathode.pressure

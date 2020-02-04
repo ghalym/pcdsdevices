@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.pump.PROPLC.read_configuration &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.pump.PROPLC.read_configuration &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -131,11 +131,13 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.pump.PIPSerial.html">pcdsdevices.pump.PIPSerial</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.pump.PROPLC.html">pcdsdevices.pump.PROPLC</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pump.PROPLC.__init__.html">pcdsdevices.pump.PROPLC.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pump.PROPLC.add_instantiation_callback.html">pcdsdevices.pump.PROPLC.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pump.PROPLC.check_value.html">pcdsdevices.pump.PROPLC.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pump.PROPLC.clear_sub.html">pcdsdevices.pump.PROPLC.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pump.PROPLC.configure.html">pcdsdevices.pump.PROPLC.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pump.PROPLC.describe.html">pcdsdevices.pump.PROPLC.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pump.PROPLC.describe_configuration.html">pcdsdevices.pump.PROPLC.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pump.PROPLC.destroy.html">pcdsdevices.pump.PROPLC.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pump.PROPLC.get.html">pcdsdevices.pump.PROPLC.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pump.PROPLC.get_device_tuple.html">pcdsdevices.pump.PROPLC.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pump.PROPLC.get_instantiated_signals.html">pcdsdevices.pump.PROPLC.get_instantiated_signals</a></li>
@@ -153,6 +155,10 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pump.PROPLC.unsubscribe.html">pcdsdevices.pump.PROPLC.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pump.PROPLC.unsubscribe_all.html">pcdsdevices.pump.PROPLC.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pump.PROPLC.wait_for_connection.html">pcdsdevices.pump.PROPLC.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pump.PROPLC.walk_components.html">pcdsdevices.pump.PROPLC.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pump.PROPLC.walk_signals.html">pcdsdevices.pump.PROPLC.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pump.PROPLC.walk_subdevice_classes.html">pcdsdevices.pump.PROPLC.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pump.PROPLC.walk_subdevices.html">pcdsdevices.pump.PROPLC.walk_subdevices</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.pump.PTMPLC.html">pcdsdevices.pump.PTMPLC</a></li>
@@ -244,9 +250,9 @@
 <dl class="method">
 <dt id="pcdsdevices.pump.PROPLC.read_configuration">
 <code class="sig-prename descclassname">PROPLC.</code><code class="sig-name descname">read_configuration</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; ophyd.device.OrderedDictType[str, Dict[str, Any]]<a class="headerlink" href="#pcdsdevices.pump.PROPLC.read_configuration" title="Permalink to this definition">¶</a></dt>
-<dd><p>returns dictionary mapping names to (value, timestamp) pairs</p>
-<p>To control which fields are included, adjust the
-<code class="docutils literal notranslate"><span class="pre">configuration_attrs</span></code> list.</p>
+<dd><p>Dictionary mapping names to value dicts with keys: value, timestamp</p>
+<p>To control which fields are included, change the Component kinds on the
+device, or modify the <code class="docutils literal notranslate"><span class="pre">configuration_attrs</span></code> list.</p>
 </dd></dl>
 
 </div>

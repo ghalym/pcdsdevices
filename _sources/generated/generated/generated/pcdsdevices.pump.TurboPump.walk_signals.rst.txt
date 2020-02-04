@@ -1,0 +1,6 @@
+pcdsdevices.pump.TurboPump.walk\_signals
+========================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: TurboPump.walk_signals

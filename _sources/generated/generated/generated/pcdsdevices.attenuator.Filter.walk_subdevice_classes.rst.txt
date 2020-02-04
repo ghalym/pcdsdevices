@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.Filter.walk\_subdevice\_classes
+======================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: Filter.walk_subdevice_classes

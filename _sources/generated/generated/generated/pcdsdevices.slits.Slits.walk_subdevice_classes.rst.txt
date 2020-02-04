@@ -1,0 +1,6 @@
+pcdsdevices.slits.Slits.walk\_subdevice\_classes
+================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: Slits.walk_subdevice_classes

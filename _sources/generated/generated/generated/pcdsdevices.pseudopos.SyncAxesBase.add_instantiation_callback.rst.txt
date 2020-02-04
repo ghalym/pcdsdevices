@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.SyncAxesBase.add\_instantiation\_callback
+===============================================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: SyncAxesBase.add_instantiation_callback

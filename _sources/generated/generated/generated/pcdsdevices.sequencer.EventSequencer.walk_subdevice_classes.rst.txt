@@ -1,0 +1,6 @@
+pcdsdevices.sequencer.EventSequencer.walk\_subdevice\_classes
+=============================================================
+
+.. currentmodule:: pcdsdevices.sequencer
+
+.. automethod:: EventSequencer.walk_subdevice_classes

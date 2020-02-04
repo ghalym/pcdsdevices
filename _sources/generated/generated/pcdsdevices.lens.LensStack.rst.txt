@@ -13,6 +13,7 @@ pcdsdevices.lens.LensStack
       :toctree: generated
    
       ~LensStack.__init__
+      ~LensStack.add_instantiation_callback
       ~LensStack.align
       ~LensStack.check_single
       ~LensStack.check_value
@@ -20,6 +21,7 @@ pcdsdevices.lens.LensStack
       ~LensStack.configure
       ~LensStack.describe
       ~LensStack.describe_configuration
+      ~LensStack.destroy
       ~LensStack.forward
       ~LensStack.get
       ~LensStack.get_device_tuple
@@ -45,6 +47,10 @@ pcdsdevices.lens.LensStack
       ~LensStack.unsubscribe
       ~LensStack.unsubscribe_all
       ~LensStack.wait_for_connection
+      ~LensStack.walk_components
+      ~LensStack.walk_signals
+      ~LensStack.walk_subdevice_classes
+      ~LensStack.walk_subdevices
    
    
 
@@ -58,17 +64,20 @@ pcdsdevices.lens.LensStack
       ~LensStack.SUB_DONE
       ~LensStack.SUB_READBACK
       ~LensStack.SUB_START
+      ~LensStack.attr_name
       ~LensStack.calib_z
       ~LensStack.component_names
       ~LensStack.composite_egu
       ~LensStack.concurrent
       ~LensStack.configuration_attrs
       ~LensStack.connected
+      ~LensStack.dotted_name
       ~LensStack.egu
       ~LensStack.event_types
       ~LensStack.high_limit
       ~LensStack.hints
       ~LensStack.kind
+      ~LensStack.lazy_wait_for_connection
       ~LensStack.limits
       ~LensStack.low_limit
       ~LensStack.moving

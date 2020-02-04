@@ -1,0 +1,6 @@
+pcdsdevices.sim.SynMotor.walk\_signals
+======================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SynMotor.walk_signals

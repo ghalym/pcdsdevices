@@ -1,0 +1,6 @@
+pcdsdevices.mirror.PointingMirror.walk\_subdevice\_classes
+==========================================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: PointingMirror.walk_subdevice_classes

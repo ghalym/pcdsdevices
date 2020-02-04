@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeColdCathode.destroy
+==========================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeColdCathode.destroy

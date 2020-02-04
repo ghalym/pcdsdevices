@@ -13,11 +13,13 @@ pcdsdevices.pump.IonPumpBase
       :toctree: generated
    
       ~IonPumpBase.__init__
+      ~IonPumpBase.add_instantiation_callback
       ~IonPumpBase.check_value
       ~IonPumpBase.clear_sub
       ~IonPumpBase.configure
       ~IonPumpBase.describe
       ~IonPumpBase.describe_configuration
+      ~IonPumpBase.destroy
       ~IonPumpBase.egu
       ~IonPumpBase.get
       ~IonPumpBase.get_device_tuple
@@ -40,6 +42,10 @@ pcdsdevices.pump.IonPumpBase
       ~IonPumpBase.unsubscribe
       ~IonPumpBase.unsubscribe_all
       ~IonPumpBase.wait_for_connection
+      ~IonPumpBase.walk_components
+      ~IonPumpBase.walk_signals
+      ~IonPumpBase.walk_subdevice_classes
+      ~IonPumpBase.walk_subdevices
    
    
 
@@ -51,16 +57,19 @@ pcdsdevices.pump.IonPumpBase
    
       ~IonPumpBase.SUB_ACQ_DONE
       ~IonPumpBase.aomode
+      ~IonPumpBase.attr_name
       ~IonPumpBase.calfactor
       ~IonPumpBase.component_names
       ~IonPumpBase.configuration_attrs
       ~IonPumpBase.connected
       ~IonPumpBase.controllername
       ~IonPumpBase.current
+      ~IonPumpBase.dotted_name
       ~IonPumpBase.event_types
       ~IonPumpBase.hints
       ~IonPumpBase.hvstrapping
       ~IonPumpBase.kind
+      ~IonPumpBase.lazy_wait_for_connection
       ~IonPumpBase.name
       ~IonPumpBase.parent
       ~IonPumpBase.pumpsize

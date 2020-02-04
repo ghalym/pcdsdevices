@@ -13,12 +13,14 @@ pcdsdevices.device\_types.Reflaser
       :toctree: generated
    
       ~Reflaser.__init__
+      ~Reflaser.add_instantiation_callback
       ~Reflaser.camonitor
       ~Reflaser.check_value
       ~Reflaser.clear_sub
       ~Reflaser.configure
       ~Reflaser.describe
       ~Reflaser.describe_configuration
+      ~Reflaser.destroy
       ~Reflaser.end_monitor_thread
       ~Reflaser.get
       ~Reflaser.get_device_tuple
@@ -43,6 +45,10 @@ pcdsdevices.device\_types.Reflaser
       ~Reflaser.unsubscribe
       ~Reflaser.unsubscribe_all
       ~Reflaser.wait_for_connection
+      ~Reflaser.walk_components
+      ~Reflaser.walk_signals
+      ~Reflaser.walk_subdevice_classes
+      ~Reflaser.walk_subdevices
       ~Reflaser.wm
       ~Reflaser.wm_update
    
@@ -59,9 +65,11 @@ pcdsdevices.device\_types.Reflaser
       ~Reflaser.SUB_READBACK
       ~Reflaser.SUB_START
       ~Reflaser.SUB_STATE
+      ~Reflaser.attr_name
       ~Reflaser.component_names
       ~Reflaser.configuration_attrs
       ~Reflaser.connected
+      ~Reflaser.dotted_name
       ~Reflaser.egu
       ~Reflaser.event_types
       ~Reflaser.high_limit
@@ -69,6 +77,7 @@ pcdsdevices.device\_types.Reflaser
       ~Reflaser.in_states
       ~Reflaser.inserted
       ~Reflaser.kind
+      ~Reflaser.lazy_wait_for_connection
       ~Reflaser.limits
       ~Reflaser.low_limit
       ~Reflaser.motor

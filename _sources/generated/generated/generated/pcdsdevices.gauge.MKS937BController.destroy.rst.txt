@@ -1,0 +1,6 @@
+pcdsdevices.gauge.MKS937BController.destroy
+===========================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: MKS937BController.destroy

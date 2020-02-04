@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ccm.CCMMotor.trigger &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.ccm.CCMMotor.trigger &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -114,12 +114,14 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.ccm.CCMCalc.html">pcdsdevices.ccm.CCMCalc</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.ccm.CCMMotor.html">pcdsdevices.ccm.CCMMotor</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.__init__.html">pcdsdevices.ccm.CCMMotor.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.add_instantiation_callback.html">pcdsdevices.ccm.CCMMotor.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.camonitor.html">pcdsdevices.ccm.CCMMotor.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.check_value.html">pcdsdevices.ccm.CCMMotor.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.clear_sub.html">pcdsdevices.ccm.CCMMotor.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.configure.html">pcdsdevices.ccm.CCMMotor.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.describe.html">pcdsdevices.ccm.CCMMotor.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.describe_configuration.html">pcdsdevices.ccm.CCMMotor.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.destroy.html">pcdsdevices.ccm.CCMMotor.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.end_monitor_thread.html">pcdsdevices.ccm.CCMMotor.end_monitor_thread</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.get.html">pcdsdevices.ccm.CCMMotor.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.get_device_tuple.html">pcdsdevices.ccm.CCMMotor.get_device_tuple</a></li>
@@ -146,6 +148,10 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.unsubscribe.html">pcdsdevices.ccm.CCMMotor.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.unsubscribe_all.html">pcdsdevices.ccm.CCMMotor.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.wait_for_connection.html">pcdsdevices.ccm.CCMMotor.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.walk_components.html">pcdsdevices.ccm.CCMMotor.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.walk_signals.html">pcdsdevices.ccm.CCMMotor.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.walk_subdevice_classes.html">pcdsdevices.ccm.CCMMotor.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.walk_subdevices.html">pcdsdevices.ccm.CCMMotor.walk_subdevices</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.wm.html">pcdsdevices.ccm.CCMMotor.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.wm_update.html">pcdsdevices.ccm.CCMMotor.wm_update</a></li>
 </ul>
@@ -253,17 +259,17 @@
 <dl class="method">
 <dt id="pcdsdevices.ccm.CCMMotor.trigger">
 <code class="sig-prename descclassname">CCMMotor.</code><code class="sig-name descname">trigger</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; ophyd.status.StatusBase<a class="headerlink" href="#pcdsdevices.ccm.CCMMotor.trigger" title="Permalink to this definition">¶</a></dt>
-<dd><p>Trigger the device and return status object</p>
+<dd><p>Trigger the device and return status object.</p>
 <p>This method is responsible for implementing ‘trigger’ or
 ‘acquire’ functionality of this device.</p>
 <p>If there is an appreciable time between triggering the device
 and it being able to be read (via the
 <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code> method) then this method is
 also responsible for arranging that the
-<code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code> object returned my this method
+<code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code> object returned by this method
 is notified when the device is ready to be read.</p>
 <p>If there is no delay between triggering and being readable,
-then this method must return a <code class="xref py py-obj docutils literal notranslate"><span class="pre">SatusBase</span></code>
+then this method must return a <code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code>
 object which is already completed.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>

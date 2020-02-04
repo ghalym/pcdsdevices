@@ -1,0 +1,6 @@
+pcdsdevices.pump.IonPumpWithController.walk\_signals
+====================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: IonPumpWithController.walk_signals

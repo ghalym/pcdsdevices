@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.SyncAxesBase.destroy
+==========================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: SyncAxesBase.destroy

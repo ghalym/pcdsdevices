@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.gauge.GaugeSerialGPI.__init__ &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.gauge.GaugeSerialGPI.__init__ &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.gauge.GaugeSerialGPI.check_value" href="pcdsdevices.gauge.GaugeSerialGPI.check_value.html" />
+    <link rel="next" title="pcdsdevices.gauge.GaugeSerialGPI.add_instantiation_callback" href="pcdsdevices.gauge.GaugeSerialGPI.add_instantiation_callback.html" />
     <link rel="prev" title="pcdsdevices.gauge.GaugeSerialGPI" href="../pcdsdevices.gauge.GaugeSerialGPI.html" /> 
 </head>
 
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -119,11 +119,13 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.gauge.GaugeSerialGCC.html">pcdsdevices.gauge.GaugeSerialGCC</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.gauge.GaugeSerialGPI.html">pcdsdevices.gauge.GaugeSerialGPI</a><ul class="current">
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.gauge.GaugeSerialGPI.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGPI.add_instantiation_callback.html">pcdsdevices.gauge.GaugeSerialGPI.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGPI.check_value.html">pcdsdevices.gauge.GaugeSerialGPI.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGPI.clear_sub.html">pcdsdevices.gauge.GaugeSerialGPI.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGPI.configure.html">pcdsdevices.gauge.GaugeSerialGPI.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGPI.describe.html">pcdsdevices.gauge.GaugeSerialGPI.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGPI.describe_configuration.html">pcdsdevices.gauge.GaugeSerialGPI.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGPI.destroy.html">pcdsdevices.gauge.GaugeSerialGPI.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGPI.get.html">pcdsdevices.gauge.GaugeSerialGPI.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGPI.get_device_tuple.html">pcdsdevices.gauge.GaugeSerialGPI.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGPI.get_instantiated_signals.html">pcdsdevices.gauge.GaugeSerialGPI.get_instantiated_signals</a></li>
@@ -141,6 +143,10 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGPI.unsubscribe.html">pcdsdevices.gauge.GaugeSerialGPI.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGPI.unsubscribe_all.html">pcdsdevices.gauge.GaugeSerialGPI.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGPI.wait_for_connection.html">pcdsdevices.gauge.GaugeSerialGPI.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGPI.walk_components.html">pcdsdevices.gauge.GaugeSerialGPI.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGPI.walk_signals.html">pcdsdevices.gauge.GaugeSerialGPI.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGPI.walk_subdevice_classes.html">pcdsdevices.gauge.GaugeSerialGPI.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSerialGPI.walk_subdevices.html">pcdsdevices.gauge.GaugeSerialGPI.walk_subdevices</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.gauge.GaugeSetBase.html">pcdsdevices.gauge.GaugeSetBase</a></li>
@@ -261,7 +267,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.gauge.GaugeSerialGPI.check_value.html" class="btn btn-neutral float-right" title="pcdsdevices.gauge.GaugeSerialGPI.check_value" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.gauge.GaugeSerialGPI.add_instantiation_callback.html" class="btn btn-neutral float-right" title="pcdsdevices.gauge.GaugeSerialGPI.add_instantiation_callback" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="../pcdsdevices.gauge.GaugeSerialGPI.html" class="btn btn-neutral float-left" title="pcdsdevices.gauge.GaugeSerialGPI" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

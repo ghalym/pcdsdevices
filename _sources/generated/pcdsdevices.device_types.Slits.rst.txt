@@ -13,6 +13,7 @@ pcdsdevices.device\_types.Slits
       :toctree: generated
    
       ~Slits.__init__
+      ~Slits.add_instantiation_callback
       ~Slits.block
       ~Slits.camonitor
       ~Slits.check_value
@@ -21,6 +22,7 @@ pcdsdevices.device\_types.Slits
       ~Slits.configure
       ~Slits.describe
       ~Slits.describe_configuration
+      ~Slits.destroy
       ~Slits.end_monitor_thread
       ~Slits.get
       ~Slits.get_device_tuple
@@ -44,6 +46,10 @@ pcdsdevices.device\_types.Slits
       ~Slits.unsubscribe
       ~Slits.unsubscribe_all
       ~Slits.wait_for_connection
+      ~Slits.walk_components
+      ~Slits.walk_signals
+      ~Slits.walk_subdevice_classes
+      ~Slits.walk_subdevices
       ~Slits.wm
       ~Slits.wm_update
    
@@ -57,6 +63,7 @@ pcdsdevices.device\_types.Slits
    
       ~Slits.SUB_ACQ_DONE
       ~Slits.SUB_STATE
+      ~Slits.attr_name
       ~Slits.block_cmd
       ~Slits.blocked
       ~Slits.close_cmd
@@ -64,10 +71,12 @@ pcdsdevices.device\_types.Slits
       ~Slits.configuration_attrs
       ~Slits.connected
       ~Slits.current_aperture
+      ~Slits.dotted_name
       ~Slits.event_types
       ~Slits.hints
       ~Slits.inserted
       ~Slits.kind
+      ~Slits.lazy_wait_for_connection
       ~Slits.name
       ~Slits.nominal_aperture
       ~Slits.open_cmd

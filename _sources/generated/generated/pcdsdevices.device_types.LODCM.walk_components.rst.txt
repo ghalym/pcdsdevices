@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.LODCM.walk\_components
+================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: LODCM.walk_components

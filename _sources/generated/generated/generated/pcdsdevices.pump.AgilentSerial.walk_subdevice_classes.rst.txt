@@ -1,0 +1,6 @@
+pcdsdevices.pump.AgilentSerial.walk\_subdevice\_classes
+=======================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: AgilentSerial.walk_subdevice_classes

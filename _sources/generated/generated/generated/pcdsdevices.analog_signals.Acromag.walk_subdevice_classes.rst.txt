@@ -1,0 +1,6 @@
+pcdsdevices.analog\_signals.Acromag.walk\_subdevice\_classes
+============================================================
+
+.. currentmodule:: pcdsdevices.analog_signals
+
+.. automethod:: Acromag.walk_subdevice_classes

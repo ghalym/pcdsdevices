@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCCPLC.destroy
+================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCCPLC.destroy

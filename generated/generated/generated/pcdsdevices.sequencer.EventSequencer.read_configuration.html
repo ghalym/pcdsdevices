@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.sequencer.EventSequencer.read_configuration &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.sequencer.EventSequencer.read_configuration &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -123,6 +123,7 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.sequencer.EventSequence.html">pcdsdevices.sequencer.EventSequence</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.sequencer.EventSequencer.html">pcdsdevices.sequencer.EventSequencer</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.__init__.html">pcdsdevices.sequencer.EventSequencer.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.add_instantiation_callback.html">pcdsdevices.sequencer.EventSequencer.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.check_value.html">pcdsdevices.sequencer.EventSequencer.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.clear_sub.html">pcdsdevices.sequencer.EventSequencer.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.collect.html">pcdsdevices.sequencer.EventSequencer.collect</a></li>
@@ -132,6 +133,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.describe.html">pcdsdevices.sequencer.EventSequencer.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.describe_collect.html">pcdsdevices.sequencer.EventSequencer.describe_collect</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.describe_configuration.html">pcdsdevices.sequencer.EventSequencer.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.destroy.html">pcdsdevices.sequencer.EventSequencer.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.get.html">pcdsdevices.sequencer.EventSequencer.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.get_device_tuple.html">pcdsdevices.sequencer.EventSequencer.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.get_instantiated_signals.html">pcdsdevices.sequencer.EventSequencer.get_instantiated_signals</a></li>
@@ -151,6 +153,10 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.unsubscribe.html">pcdsdevices.sequencer.EventSequencer.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.unsubscribe_all.html">pcdsdevices.sequencer.EventSequencer.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.wait_for_connection.html">pcdsdevices.sequencer.EventSequencer.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.walk_components.html">pcdsdevices.sequencer.EventSequencer.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.walk_signals.html">pcdsdevices.sequencer.EventSequencer.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.walk_subdevice_classes.html">pcdsdevices.sequencer.EventSequencer.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequencer.walk_subdevices.html">pcdsdevices.sequencer.EventSequencer.walk_subdevices</a></li>
 </ul>
 </li>
 </ul>
@@ -238,9 +244,9 @@
 <dl class="method">
 <dt id="pcdsdevices.sequencer.EventSequencer.read_configuration">
 <code class="sig-prename descclassname">EventSequencer.</code><code class="sig-name descname">read_configuration</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; ophyd.device.OrderedDictType[str, Dict[str, Any]]<a class="headerlink" href="#pcdsdevices.sequencer.EventSequencer.read_configuration" title="Permalink to this definition">¶</a></dt>
-<dd><p>returns dictionary mapping names to (value, timestamp) pairs</p>
-<p>To control which fields are included, adjust the
-<code class="docutils literal notranslate"><span class="pre">configuration_attrs</span></code> list.</p>
+<dd><p>Dictionary mapping names to value dicts with keys: value, timestamp</p>
+<p>To control which fields are included, change the Component kinds on the
+device, or modify the <code class="docutils literal notranslate"><span class="pre">configuration_attrs</span></code> list.</p>
 </dd></dl>
 
 </div>

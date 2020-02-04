@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.lens.LensStack.read_configuration &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.lens.LensStack.read_configuration &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -113,6 +113,7 @@
 <li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.lens.html">pcdsdevices.lens</a><ul class="current">
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.lens.LensStack.html">pcdsdevices.lens.LensStack</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.__init__.html">pcdsdevices.lens.LensStack.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.add_instantiation_callback.html">pcdsdevices.lens.LensStack.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.align.html">pcdsdevices.lens.LensStack.align</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.check_single.html">pcdsdevices.lens.LensStack.check_single</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.check_value.html">pcdsdevices.lens.LensStack.check_value</a></li>
@@ -120,6 +121,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.configure.html">pcdsdevices.lens.LensStack.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.describe.html">pcdsdevices.lens.LensStack.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.describe_configuration.html">pcdsdevices.lens.LensStack.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.destroy.html">pcdsdevices.lens.LensStack.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.forward.html">pcdsdevices.lens.LensStack.forward</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.get.html">pcdsdevices.lens.LensStack.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.get_device_tuple.html">pcdsdevices.lens.LensStack.get_device_tuple</a></li>
@@ -145,6 +147,10 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.unsubscribe.html">pcdsdevices.lens.LensStack.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.unsubscribe_all.html">pcdsdevices.lens.LensStack.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.wait_for_connection.html">pcdsdevices.lens.LensStack.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.walk_components.html">pcdsdevices.lens.LensStack.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.walk_signals.html">pcdsdevices.lens.LensStack.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.walk_subdevice_classes.html">pcdsdevices.lens.LensStack.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.walk_subdevices.html">pcdsdevices.lens.LensStack.walk_subdevices</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.lens.SimLensStack.html">pcdsdevices.lens.SimLensStack</a></li>
@@ -243,9 +249,9 @@
 <dl class="method">
 <dt id="pcdsdevices.lens.LensStack.read_configuration">
 <code class="sig-prename descclassname">LensStack.</code><code class="sig-name descname">read_configuration</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; ophyd.device.OrderedDictType[str, Dict[str, Any]]<a class="headerlink" href="#pcdsdevices.lens.LensStack.read_configuration" title="Permalink to this definition">¶</a></dt>
-<dd><p>returns dictionary mapping names to (value, timestamp) pairs</p>
-<p>To control which fields are included, adjust the
-<code class="docutils literal notranslate"><span class="pre">configuration_attrs</span></code> list.</p>
+<dd><p>Dictionary mapping names to value dicts with keys: value, timestamp</p>
+<p>To control which fields are included, change the Component kinds on the
+device, or modify the <code class="docutils literal notranslate"><span class="pre">configuration_attrs</span></code> list.</p>
 </dd></dl>
 
 </div>

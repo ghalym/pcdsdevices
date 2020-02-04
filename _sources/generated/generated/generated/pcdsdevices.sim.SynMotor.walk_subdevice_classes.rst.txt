@@ -1,0 +1,6 @@
+pcdsdevices.sim.SynMotor.walk\_subdevice\_classes
+=================================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SynMotor.walk_subdevice_classes

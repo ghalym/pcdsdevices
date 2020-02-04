@@ -1,0 +1,6 @@
+pcdsdevices.valve.VRC.destroy
+=============================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VRC.destroy

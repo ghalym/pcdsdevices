@@ -13,11 +13,13 @@ pcdsdevices.gauge.MKS937a
       :toctree: generated
    
       ~MKS937a.__init__
+      ~MKS937a.add_instantiation_callback
       ~MKS937a.check_value
       ~MKS937a.clear_sub
       ~MKS937a.configure
       ~MKS937a.describe
       ~MKS937a.describe_configuration
+      ~MKS937a.destroy
       ~MKS937a.get
       ~MKS937a.get_device_tuple
       ~MKS937a.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.gauge.MKS937a
       ~MKS937a.unsubscribe
       ~MKS937a.unsubscribe_all
       ~MKS937a.wait_for_connection
+      ~MKS937a.walk_components
+      ~MKS937a.walk_signals
+      ~MKS937a.walk_subdevice_classes
+      ~MKS937a.walk_subdevices
    
    
 
@@ -47,16 +53,19 @@ pcdsdevices.gauge.MKS937a
       ~MKS937a.A1_A2_slot
       ~MKS937a.B1_B2_slot
       ~MKS937a.SUB_ACQ_DONE
+      ~MKS937a.attr_name
       ~MKS937a.cc_delay
       ~MKS937a.command
       ~MKS937a.component_names
       ~MKS937a.configuration_attrs
       ~MKS937a.connected
+      ~MKS937a.dotted_name
       ~MKS937a.event_types
       ~MKS937a.frequence
       ~MKS937a.frontpanel
       ~MKS937a.hints
       ~MKS937a.kind
+      ~MKS937a.lazy_wait_for_connection
       ~MKS937a.name
       ~MKS937a.parent
       ~MKS937a.read_attrs

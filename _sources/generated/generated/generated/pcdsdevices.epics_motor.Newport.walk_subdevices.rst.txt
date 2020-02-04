@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.Newport.walk\_subdevices
+=================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: Newport.walk_subdevices

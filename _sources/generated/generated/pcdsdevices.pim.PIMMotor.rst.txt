@@ -13,12 +13,14 @@ pcdsdevices.pim.PIMMotor
       :toctree: generated
    
       ~PIMMotor.__init__
+      ~PIMMotor.add_instantiation_callback
       ~PIMMotor.camonitor
       ~PIMMotor.check_value
       ~PIMMotor.clear_sub
       ~PIMMotor.configure
       ~PIMMotor.describe
       ~PIMMotor.describe_configuration
+      ~PIMMotor.destroy
       ~PIMMotor.end_monitor_thread
       ~PIMMotor.get
       ~PIMMotor.get_device_tuple
@@ -43,6 +45,10 @@ pcdsdevices.pim.PIMMotor
       ~PIMMotor.unsubscribe
       ~PIMMotor.unsubscribe_all
       ~PIMMotor.wait_for_connection
+      ~PIMMotor.walk_components
+      ~PIMMotor.walk_signals
+      ~PIMMotor.walk_subdevice_classes
+      ~PIMMotor.walk_subdevices
       ~PIMMotor.wm
       ~PIMMotor.wm_update
    
@@ -59,9 +65,11 @@ pcdsdevices.pim.PIMMotor
       ~PIMMotor.SUB_READBACK
       ~PIMMotor.SUB_START
       ~PIMMotor.SUB_STATE
+      ~PIMMotor.attr_name
       ~PIMMotor.component_names
       ~PIMMotor.configuration_attrs
       ~PIMMotor.connected
+      ~PIMMotor.dotted_name
       ~PIMMotor.egu
       ~PIMMotor.event_types
       ~PIMMotor.high_limit
@@ -69,6 +77,7 @@ pcdsdevices.pim.PIMMotor
       ~PIMMotor.in_states
       ~PIMMotor.inserted
       ~PIMMotor.kind
+      ~PIMMotor.lazy_wait_for_connection
       ~PIMMotor.limits
       ~PIMMotor.low_limit
       ~PIMMotor.motor

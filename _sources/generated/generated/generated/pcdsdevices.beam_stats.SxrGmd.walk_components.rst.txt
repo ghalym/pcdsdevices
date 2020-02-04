@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.SxrGmd.walk\_components
+===============================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: SxrGmd.walk_components

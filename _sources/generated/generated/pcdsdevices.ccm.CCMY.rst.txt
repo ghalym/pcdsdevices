@@ -13,6 +13,7 @@ pcdsdevices.ccm.CCMY
       :toctree: generated
    
       ~CCMY.__init__
+      ~CCMY.add_instantiation_callback
       ~CCMY.calc_combined
       ~CCMY.camonitor
       ~CCMY.check_single
@@ -21,6 +22,7 @@ pcdsdevices.ccm.CCMY
       ~CCMY.configure
       ~CCMY.describe
       ~CCMY.describe_configuration
+      ~CCMY.destroy
       ~CCMY.end_monitor_thread
       ~CCMY.forward
       ~CCMY.get
@@ -53,6 +55,10 @@ pcdsdevices.ccm.CCMY
       ~CCMY.unsubscribe
       ~CCMY.unsubscribe_all
       ~CCMY.wait_for_connection
+      ~CCMY.walk_components
+      ~CCMY.walk_signals
+      ~CCMY.walk_subdevice_classes
+      ~CCMY.walk_subdevices
       ~CCMY.wm
       ~CCMY.wm_update
    
@@ -68,17 +74,20 @@ pcdsdevices.ccm.CCMY
       ~CCMY.SUB_DONE
       ~CCMY.SUB_READBACK
       ~CCMY.SUB_START
+      ~CCMY.attr_name
       ~CCMY.component_names
       ~CCMY.composite_egu
       ~CCMY.concurrent
       ~CCMY.configuration_attrs
       ~CCMY.connected
+      ~CCMY.dotted_name
       ~CCMY.down
       ~CCMY.egu
       ~CCMY.event_types
       ~CCMY.high_limit
       ~CCMY.hints
       ~CCMY.kind
+      ~CCMY.lazy_wait_for_connection
       ~CCMY.limits
       ~CCMY.low_limit
       ~CCMY.moving

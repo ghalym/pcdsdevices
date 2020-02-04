@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.FeeAtt.destroy
+=====================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: FeeAtt.destroy

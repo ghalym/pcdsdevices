@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugePLC.destroy
+==================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugePLC.destroy

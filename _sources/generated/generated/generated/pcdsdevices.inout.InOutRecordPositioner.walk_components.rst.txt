@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutRecordPositioner.walk\_components
+========================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutRecordPositioner.walk_components

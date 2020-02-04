@@ -13,11 +13,13 @@ pcdsdevices.pump.PIPPLC
       :toctree: generated
    
       ~PIPPLC.__init__
+      ~PIPPLC.add_instantiation_callback
       ~PIPPLC.check_value
       ~PIPPLC.clear_sub
       ~PIPPLC.configure
       ~PIPPLC.describe
       ~PIPPLC.describe_configuration
+      ~PIPPLC.destroy
       ~PIPPLC.get
       ~PIPPLC.get_device_tuple
       ~PIPPLC.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.pump.PIPPLC
       ~PIPPLC.unsubscribe
       ~PIPPLC.unsubscribe_all
       ~PIPPLC.wait_for_connection
+      ~PIPPLC.walk_components
+      ~PIPPLC.walk_signals
+      ~PIPPLC.walk_subdevice_classes
+      ~PIPPLC.walk_subdevices
    
    
 
@@ -46,15 +52,18 @@ pcdsdevices.pump.PIPPLC
    
       ~PIPPLC.SUB_ACQ_DONE
       ~PIPPLC.at_vac_sp
+      ~PIPPLC.attr_name
       ~PIPPLC.component_names
       ~PIPPLC.configuration_attrs
       ~PIPPLC.connected
+      ~PIPPLC.dotted_name
       ~PIPPLC.event_types
       ~PIPPLC.high_voltage_do
       ~PIPPLC.high_voltage_switch
       ~PIPPLC.hints
       ~PIPPLC.interlock_ok
       ~PIPPLC.kind
+      ~PIPPLC.lazy_wait_for_connection
       ~PIPPLC.name
       ~PIPPLC.parent
       ~PIPPLC.pressure

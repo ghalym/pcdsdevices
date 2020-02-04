@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.DelayNewport.walk\_subdevice\_classes
+==============================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: DelayNewport.walk_subdevice_classes

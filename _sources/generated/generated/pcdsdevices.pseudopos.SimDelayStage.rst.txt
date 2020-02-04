@@ -13,6 +13,7 @@ pcdsdevices.pseudopos.SimDelayStage
       :toctree: generated
    
       ~SimDelayStage.__init__
+      ~SimDelayStage.add_instantiation_callback
       ~SimDelayStage.camonitor
       ~SimDelayStage.check_single
       ~SimDelayStage.check_value
@@ -20,6 +21,7 @@ pcdsdevices.pseudopos.SimDelayStage
       ~SimDelayStage.configure
       ~SimDelayStage.describe
       ~SimDelayStage.describe_configuration
+      ~SimDelayStage.destroy
       ~SimDelayStage.end_monitor_thread
       ~SimDelayStage.forward
       ~SimDelayStage.get
@@ -51,6 +53,10 @@ pcdsdevices.pseudopos.SimDelayStage
       ~SimDelayStage.unsubscribe
       ~SimDelayStage.unsubscribe_all
       ~SimDelayStage.wait_for_connection
+      ~SimDelayStage.walk_components
+      ~SimDelayStage.walk_signals
+      ~SimDelayStage.walk_subdevice_classes
+      ~SimDelayStage.walk_subdevices
       ~SimDelayStage.wm
       ~SimDelayStage.wm_update
    
@@ -66,17 +72,20 @@ pcdsdevices.pseudopos.SimDelayStage
       ~SimDelayStage.SUB_DONE
       ~SimDelayStage.SUB_READBACK
       ~SimDelayStage.SUB_START
+      ~SimDelayStage.attr_name
       ~SimDelayStage.component_names
       ~SimDelayStage.composite_egu
       ~SimDelayStage.concurrent
       ~SimDelayStage.configuration_attrs
       ~SimDelayStage.connected
       ~SimDelayStage.delay
+      ~SimDelayStage.dotted_name
       ~SimDelayStage.egu
       ~SimDelayStage.event_types
       ~SimDelayStage.high_limit
       ~SimDelayStage.hints
       ~SimDelayStage.kind
+      ~SimDelayStage.lazy_wait_for_connection
       ~SimDelayStage.limits
       ~SimDelayStage.low_limit
       ~SimDelayStage.motor

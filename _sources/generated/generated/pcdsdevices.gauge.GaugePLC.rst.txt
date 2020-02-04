@@ -13,11 +13,13 @@ pcdsdevices.gauge.GaugePLC
       :toctree: generated
    
       ~GaugePLC.__init__
+      ~GaugePLC.add_instantiation_callback
       ~GaugePLC.check_value
       ~GaugePLC.clear_sub
       ~GaugePLC.configure
       ~GaugePLC.describe
       ~GaugePLC.describe_configuration
+      ~GaugePLC.destroy
       ~GaugePLC.get
       ~GaugePLC.get_device_tuple
       ~GaugePLC.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.gauge.GaugePLC
       ~GaugePLC.unsubscribe
       ~GaugePLC.unsubscribe_all
       ~GaugePLC.wait_for_connection
+      ~GaugePLC.walk_components
+      ~GaugePLC.walk_signals
+      ~GaugePLC.walk_subdevice_classes
+      ~GaugePLC.walk_subdevices
    
    
 
@@ -46,13 +52,16 @@ pcdsdevices.gauge.GaugePLC
    
       ~GaugePLC.SUB_ACQ_DONE
       ~GaugePLC.at_vac_setpoint
+      ~GaugePLC.attr_name
       ~GaugePLC.component_names
       ~GaugePLC.configuration_attrs
       ~GaugePLC.connected
+      ~GaugePLC.dotted_name
       ~GaugePLC.event_types
       ~GaugePLC.gauge_at_vac
       ~GaugePLC.hints
       ~GaugePLC.kind
+      ~GaugePLC.lazy_wait_for_connection
       ~GaugePLC.name
       ~GaugePLC.parent
       ~GaugePLC.pressure

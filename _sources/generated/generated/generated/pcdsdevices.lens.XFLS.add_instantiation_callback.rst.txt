@@ -1,0 +1,6 @@
+pcdsdevices.lens.XFLS.add\_instantiation\_callback
+==================================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: XFLS.add_instantiation_callback

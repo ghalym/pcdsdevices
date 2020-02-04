@@ -1,0 +1,6 @@
+pcdsdevices.pump.Navigator.destroy
+==================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: Navigator.destroy

@@ -13,11 +13,13 @@ pcdsdevices.device\_types.OffsetMirror
       :toctree: generated
    
       ~OffsetMirror.__init__
+      ~OffsetMirror.add_instantiation_callback
       ~OffsetMirror.check_value
       ~OffsetMirror.clear_sub
       ~OffsetMirror.configure
       ~OffsetMirror.describe
       ~OffsetMirror.describe_configuration
+      ~OffsetMirror.destroy
       ~OffsetMirror.get
       ~OffsetMirror.get_device_tuple
       ~OffsetMirror.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.device\_types.OffsetMirror
       ~OffsetMirror.unsubscribe
       ~OffsetMirror.unsubscribe_all
       ~OffsetMirror.wait_for_connection
+      ~OffsetMirror.walk_components
+      ~OffsetMirror.walk_signals
+      ~OffsetMirror.walk_subdevice_classes
+      ~OffsetMirror.walk_subdevices
    
    
 
@@ -46,13 +52,16 @@ pcdsdevices.device\_types.OffsetMirror
    
       ~OffsetMirror.SUB_ACQ_DONE
       ~OffsetMirror.SUB_STATE
+      ~OffsetMirror.attr_name
       ~OffsetMirror.component_names
       ~OffsetMirror.configuration_attrs
       ~OffsetMirror.connected
+      ~OffsetMirror.dotted_name
       ~OffsetMirror.event_types
       ~OffsetMirror.hints
       ~OffsetMirror.inserted
       ~OffsetMirror.kind
+      ~OffsetMirror.lazy_wait_for_connection
       ~OffsetMirror.name
       ~OffsetMirror.parent
       ~OffsetMirror.pitch

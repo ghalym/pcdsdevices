@@ -1,0 +1,6 @@
+pcdsdevices.pulsepicker.PulsePicker.add\_instantiation\_callback
+================================================================
+
+.. currentmodule:: pcdsdevices.pulsepicker
+
+.. automethod:: PulsePicker.add_instantiation_callback

@@ -13,12 +13,14 @@ pcdsdevices.epics\_motor.Newport
       :toctree: generated
    
       ~Newport.__init__
+      ~Newport.add_instantiation_callback
       ~Newport.camonitor
       ~Newport.check_value
       ~Newport.clear_sub
       ~Newport.configure
       ~Newport.describe
       ~Newport.describe_configuration
+      ~Newport.destroy
       ~Newport.disable
       ~Newport.enable
       ~Newport.end_monitor_thread
@@ -53,6 +55,10 @@ pcdsdevices.epics\_motor.Newport
       ~Newport.unsubscribe
       ~Newport.unsubscribe_all
       ~Newport.wait_for_connection
+      ~Newport.walk_components
+      ~Newport.walk_signals
+      ~Newport.walk_subdevice_classes
+      ~Newport.walk_subdevices
       ~Newport.wm
       ~Newport.wm_update
    
@@ -69,12 +75,14 @@ pcdsdevices.epics\_motor.Newport
       ~Newport.SUB_READBACK
       ~Newport.SUB_START
       ~Newport.acceleration
+      ~Newport.attr_name
       ~Newport.component_names
       ~Newport.configuration_attrs
       ~Newport.connected
       ~Newport.description
       ~Newport.direction_of_travel
       ~Newport.disabled
+      ~Newport.dotted_name
       ~Newport.egu
       ~Newport.event_types
       ~Newport.high_limit
@@ -84,6 +92,7 @@ pcdsdevices.epics\_motor.Newport
       ~Newport.home_forward
       ~Newport.home_reverse
       ~Newport.kind
+      ~Newport.lazy_wait_for_connection
       ~Newport.limits
       ~Newport.low_limit
       ~Newport.low_limit_switch

@@ -1,0 +1,6 @@
+pcdsdevices.pump.EbaraPump.add\_instantiation\_callback
+=======================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: EbaraPump.add_instantiation_callback

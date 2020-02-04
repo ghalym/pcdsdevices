@@ -13,11 +13,13 @@ pcdsdevices.gauge.GaugeSetBase
       :toctree: generated
    
       ~GaugeSetBase.__init__
+      ~GaugeSetBase.add_instantiation_callback
       ~GaugeSetBase.check_value
       ~GaugeSetBase.clear_sub
       ~GaugeSetBase.configure
       ~GaugeSetBase.describe
       ~GaugeSetBase.describe_configuration
+      ~GaugeSetBase.destroy
       ~GaugeSetBase.egu
       ~GaugeSetBase.get
       ~GaugeSetBase.get_device_tuple
@@ -37,6 +39,10 @@ pcdsdevices.gauge.GaugeSetBase
       ~GaugeSetBase.unsubscribe
       ~GaugeSetBase.unsubscribe_all
       ~GaugeSetBase.wait_for_connection
+      ~GaugeSetBase.walk_components
+      ~GaugeSetBase.walk_signals
+      ~GaugeSetBase.walk_subdevice_classes
+      ~GaugeSetBase.walk_subdevices
    
    
 
@@ -47,13 +53,16 @@ pcdsdevices.gauge.GaugeSetBase
    .. autosummary::
    
       ~GaugeSetBase.SUB_ACQ_DONE
+      ~GaugeSetBase.attr_name
       ~GaugeSetBase.component_names
       ~GaugeSetBase.configuration_attrs
       ~GaugeSetBase.connected
+      ~GaugeSetBase.dotted_name
       ~GaugeSetBase.event_types
       ~GaugeSetBase.gcc
       ~GaugeSetBase.hints
       ~GaugeSetBase.kind
+      ~GaugeSetBase.lazy_wait_for_connection
       ~GaugeSetBase.name
       ~GaugeSetBase.parent
       ~GaugeSetBase.read_attrs

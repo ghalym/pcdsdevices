@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPSBase.add\_instantiation\_callback
+====================================================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPSBase.add_instantiation_callback

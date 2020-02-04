@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.epics_motor.DelayNewport.wait_for_connection &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.epics_motor.DelayNewport.wait_for_connection &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.epics_motor.DelayNewport.wm" href="pcdsdevices.epics_motor.DelayNewport.wm.html" />
+    <link rel="next" title="pcdsdevices.epics_motor.DelayNewport.walk_components" href="pcdsdevices.epics_motor.DelayNewport.walk_components.html" />
     <link rel="prev" title="pcdsdevices.epics_motor.DelayNewport.unsubscribe_all" href="pcdsdevices.epics_motor.DelayNewport.unsubscribe_all.html" /> 
 </head>
 
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -109,6 +109,7 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.epics_motor.BeckhoffAxis.html">pcdsdevices.epics_motor.BeckhoffAxis</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.epics_motor.DelayNewport.html">pcdsdevices.epics_motor.DelayNewport</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.__init__.html">pcdsdevices.epics_motor.DelayNewport.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.add_instantiation_callback.html">pcdsdevices.epics_motor.DelayNewport.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.camonitor.html">pcdsdevices.epics_motor.DelayNewport.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.check_single.html">pcdsdevices.epics_motor.DelayNewport.check_single</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.check_value.html">pcdsdevices.epics_motor.DelayNewport.check_value</a></li>
@@ -116,6 +117,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.configure.html">pcdsdevices.epics_motor.DelayNewport.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.describe.html">pcdsdevices.epics_motor.DelayNewport.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.describe_configuration.html">pcdsdevices.epics_motor.DelayNewport.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.destroy.html">pcdsdevices.epics_motor.DelayNewport.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.end_monitor_thread.html">pcdsdevices.epics_motor.DelayNewport.end_monitor_thread</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.forward.html">pcdsdevices.epics_motor.DelayNewport.forward</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.get.html">pcdsdevices.epics_motor.DelayNewport.get</a></li>
@@ -147,6 +149,10 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.unsubscribe.html">pcdsdevices.epics_motor.DelayNewport.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.unsubscribe_all.html">pcdsdevices.epics_motor.DelayNewport.unsubscribe_all</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.epics_motor.DelayNewport.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.walk_components.html">pcdsdevices.epics_motor.DelayNewport.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.walk_signals.html">pcdsdevices.epics_motor.DelayNewport.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.walk_subdevice_classes.html">pcdsdevices.epics_motor.DelayNewport.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.walk_subdevices.html">pcdsdevices.epics_motor.DelayNewport.walk_subdevices</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.wm.html">pcdsdevices.epics_motor.DelayNewport.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.wm_update.html">pcdsdevices.epics_motor.DelayNewport.wm_update</a></li>
 </ul>
@@ -278,7 +284,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.epics_motor.DelayNewport.wm.html" class="btn btn-neutral float-right" title="pcdsdevices.epics_motor.DelayNewport.wm" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.epics_motor.DelayNewport.walk_components.html" class="btn btn-neutral float-right" title="pcdsdevices.epics_motor.DelayNewport.walk_components" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="pcdsdevices.epics_motor.DelayNewport.unsubscribe_all.html" class="btn btn-neutral float-left" title="pcdsdevices.epics_motor.DelayNewport.unsubscribe_all" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

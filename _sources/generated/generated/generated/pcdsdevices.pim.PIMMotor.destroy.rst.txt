@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMMotor.destroy
+================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMMotor.destroy

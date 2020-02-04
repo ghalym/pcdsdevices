@@ -13,12 +13,14 @@ pcdsdevices.lodcm.Dectris
       :toctree: generated
    
       ~Dectris.__init__
+      ~Dectris.add_instantiation_callback
       ~Dectris.camonitor
       ~Dectris.check_value
       ~Dectris.clear_sub
       ~Dectris.configure
       ~Dectris.describe
       ~Dectris.describe_configuration
+      ~Dectris.destroy
       ~Dectris.end_monitor_thread
       ~Dectris.get
       ~Dectris.get_device_tuple
@@ -43,6 +45,10 @@ pcdsdevices.lodcm.Dectris
       ~Dectris.unsubscribe
       ~Dectris.unsubscribe_all
       ~Dectris.wait_for_connection
+      ~Dectris.walk_components
+      ~Dectris.walk_signals
+      ~Dectris.walk_subdevice_classes
+      ~Dectris.walk_subdevices
       ~Dectris.wm
       ~Dectris.wm_update
    
@@ -59,9 +65,11 @@ pcdsdevices.lodcm.Dectris
       ~Dectris.SUB_READBACK
       ~Dectris.SUB_START
       ~Dectris.SUB_STATE
+      ~Dectris.attr_name
       ~Dectris.component_names
       ~Dectris.configuration_attrs
       ~Dectris.connected
+      ~Dectris.dotted_name
       ~Dectris.egu
       ~Dectris.event_types
       ~Dectris.high_limit
@@ -69,6 +77,7 @@ pcdsdevices.lodcm.Dectris
       ~Dectris.in_states
       ~Dectris.inserted
       ~Dectris.kind
+      ~Dectris.lazy_wait_for_connection
       ~Dectris.limits
       ~Dectris.low_limit
       ~Dectris.motor

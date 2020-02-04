@@ -1,0 +1,6 @@
+pcdsdevices.pump.TurboPump.destroy
+==================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: TurboPump.destroy

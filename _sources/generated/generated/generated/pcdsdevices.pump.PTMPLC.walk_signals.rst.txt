@@ -1,0 +1,6 @@
+pcdsdevices.pump.PTMPLC.walk\_signals
+=====================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PTMPLC.walk_signals

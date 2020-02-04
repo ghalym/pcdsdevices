@@ -1,0 +1,6 @@
+pcdsdevices.evr.Trigger.destroy
+===============================
+
+.. currentmodule:: pcdsdevices.evr
+
+.. automethod:: Trigger.destroy

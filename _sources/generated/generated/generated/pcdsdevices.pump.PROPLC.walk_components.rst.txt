@@ -1,0 +1,6 @@
+pcdsdevices.pump.PROPLC.walk\_components
+========================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PROPLC.walk_components

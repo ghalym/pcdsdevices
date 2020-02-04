@@ -1,0 +1,6 @@
+pcdsdevices.sim.FastMotor.destroy
+=================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: FastMotor.destroy

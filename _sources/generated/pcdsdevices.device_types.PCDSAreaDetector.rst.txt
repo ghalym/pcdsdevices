@@ -13,12 +13,14 @@ pcdsdevices.device\_types.PCDSAreaDetector
       :toctree: generated
    
       ~PCDSAreaDetector.__init__
+      ~PCDSAreaDetector.add_instantiation_callback
       ~PCDSAreaDetector.check_value
       ~PCDSAreaDetector.clear_sub
       ~PCDSAreaDetector.collect_asset_docs
       ~PCDSAreaDetector.configure
       ~PCDSAreaDetector.describe
       ~PCDSAreaDetector.describe_configuration
+      ~PCDSAreaDetector.destroy
       ~PCDSAreaDetector.dispatch
       ~PCDSAreaDetector.find_signal
       ~PCDSAreaDetector.get
@@ -46,6 +48,10 @@ pcdsdevices.device\_types.PCDSAreaDetector
       ~PCDSAreaDetector.validate_asyn_ports
       ~PCDSAreaDetector.visualize_asyn_digraph
       ~PCDSAreaDetector.wait_for_connection
+      ~PCDSAreaDetector.walk_components
+      ~PCDSAreaDetector.walk_signals
+      ~PCDSAreaDetector.walk_subdevice_classes
+      ~PCDSAreaDetector.walk_subdevices
    
    
 
@@ -57,6 +63,7 @@ pcdsdevices.device\_types.PCDSAreaDetector
    
       ~PCDSAreaDetector.SUB_ACQ_DONE
       ~PCDSAreaDetector.ad_root
+      ~PCDSAreaDetector.attr_name
       ~PCDSAreaDetector.cam
       ~PCDSAreaDetector.cc1
       ~PCDSAreaDetector.cc2
@@ -64,6 +71,7 @@ pcdsdevices.device\_types.PCDSAreaDetector
       ~PCDSAreaDetector.configuration_attrs
       ~PCDSAreaDetector.configuration_names
       ~PCDSAreaDetector.connected
+      ~PCDSAreaDetector.dotted_name
       ~PCDSAreaDetector.event_types
       ~PCDSAreaDetector.hdf51
       ~PCDSAreaDetector.hints
@@ -80,6 +88,7 @@ pcdsdevices.device\_types.PCDSAreaDetector
       ~PCDSAreaDetector.image2_roi
       ~PCDSAreaDetector.jpeg1
       ~PCDSAreaDetector.kind
+      ~PCDSAreaDetector.lazy_wait_for_connection
       ~PCDSAreaDetector.name
       ~PCDSAreaDetector.netcdf1
       ~PCDSAreaDetector.nexus1

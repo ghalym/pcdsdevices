@@ -13,11 +13,13 @@ pcdsdevices.gauge.GCC500PLC
       :toctree: generated
    
       ~GCC500PLC.__init__
+      ~GCC500PLC.add_instantiation_callback
       ~GCC500PLC.check_value
       ~GCC500PLC.clear_sub
       ~GCC500PLC.configure
       ~GCC500PLC.describe
       ~GCC500PLC.describe_configuration
+      ~GCC500PLC.destroy
       ~GCC500PLC.get
       ~GCC500PLC.get_device_tuple
       ~GCC500PLC.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.gauge.GCC500PLC
       ~GCC500PLC.unsubscribe
       ~GCC500PLC.unsubscribe_all
       ~GCC500PLC.wait_for_connection
+      ~GCC500PLC.walk_components
+      ~GCC500PLC.walk_signals
+      ~GCC500PLC.walk_subdevice_classes
+      ~GCC500PLC.walk_subdevices
    
    
 
@@ -46,10 +52,12 @@ pcdsdevices.gauge.GCC500PLC
    
       ~GCC500PLC.SUB_ACQ_DONE
       ~GCC500PLC.at_vac_setpoint
+      ~GCC500PLC.attr_name
       ~GCC500PLC.component_names
       ~GCC500PLC.configuration_attrs
       ~GCC500PLC.connected
       ~GCC500PLC.disc_active
+      ~GCC500PLC.dotted_name
       ~GCC500PLC.event_types
       ~GCC500PLC.gauge_at_vac
       ~GCC500PLC.high_voltage_disable
@@ -58,6 +66,7 @@ pcdsdevices.gauge.GCC500PLC
       ~GCC500PLC.hints
       ~GCC500PLC.interlock_ok
       ~GCC500PLC.kind
+      ~GCC500PLC.lazy_wait_for_connection
       ~GCC500PLC.name
       ~GCC500PLC.parent
       ~GCC500PLC.pressure

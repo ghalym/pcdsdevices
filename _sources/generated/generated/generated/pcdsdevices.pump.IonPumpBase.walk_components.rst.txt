@@ -1,0 +1,6 @@
+pcdsdevices.pump.IonPumpBase.walk\_components
+=============================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: IonPumpBase.walk_components

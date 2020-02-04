@@ -13,11 +13,13 @@ pcdsdevices.beam\_stats.SxrGmd
       :toctree: generated
    
       ~SxrGmd.__init__
+      ~SxrGmd.add_instantiation_callback
       ~SxrGmd.check_value
       ~SxrGmd.clear_sub
       ~SxrGmd.configure
       ~SxrGmd.describe
       ~SxrGmd.describe_configuration
+      ~SxrGmd.destroy
       ~SxrGmd.get
       ~SxrGmd.get_device_tuple
       ~SxrGmd.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.beam\_stats.SxrGmd
       ~SxrGmd.unsubscribe
       ~SxrGmd.unsubscribe_all
       ~SxrGmd.wait_for_connection
+      ~SxrGmd.walk_components
+      ~SxrGmd.walk_signals
+      ~SxrGmd.walk_subdevice_classes
+      ~SxrGmd.walk_subdevices
    
    
 
@@ -45,12 +51,15 @@ pcdsdevices.beam\_stats.SxrGmd
    .. autosummary::
    
       ~SxrGmd.SUB_ACQ_DONE
+      ~SxrGmd.attr_name
       ~SxrGmd.component_names
       ~SxrGmd.configuration_attrs
       ~SxrGmd.connected
+      ~SxrGmd.dotted_name
       ~SxrGmd.event_types
       ~SxrGmd.hints
       ~SxrGmd.kind
+      ~SxrGmd.lazy_wait_for_connection
       ~SxrGmd.mj
       ~SxrGmd.name
       ~SxrGmd.parent

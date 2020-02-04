@@ -1,0 +1,6 @@
+pcdsdevices.analog\_signals.Acromag.add\_instantiation\_callback
+================================================================
+
+.. currentmodule:: pcdsdevices.analog_signals
+
+.. automethod:: Acromag.add_instantiation_callback

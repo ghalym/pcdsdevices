@@ -1,0 +1,6 @@
+pcdsdevices.pump.GammaController.add\_instantiation\_callback
+=============================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: GammaController.add_instantiation_callback

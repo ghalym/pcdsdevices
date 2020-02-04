@@ -1,0 +1,6 @@
+pcdsdevices.sim.SlowMotor.walk\_signals
+=======================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SlowMotor.walk_signals

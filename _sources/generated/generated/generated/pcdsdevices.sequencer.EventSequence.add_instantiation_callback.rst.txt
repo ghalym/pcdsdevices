@@ -1,0 +1,6 @@
+pcdsdevices.sequencer.EventSequence.add\_instantiation\_callback
+================================================================
+
+.. currentmodule:: pcdsdevices.sequencer
+
+.. automethod:: EventSequence.add_instantiation_callback

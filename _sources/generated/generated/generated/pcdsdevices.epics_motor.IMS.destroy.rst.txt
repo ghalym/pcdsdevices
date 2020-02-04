@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.IMS.destroy
+====================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: IMS.destroy

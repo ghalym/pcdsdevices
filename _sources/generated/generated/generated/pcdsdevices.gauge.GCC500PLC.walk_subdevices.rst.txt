@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCC500PLC.walk\_subdevices
+============================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCC500PLC.walk_subdevices

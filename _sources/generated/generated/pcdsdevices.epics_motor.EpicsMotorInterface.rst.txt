@@ -13,12 +13,14 @@ pcdsdevices.epics\_motor.EpicsMotorInterface
       :toctree: generated
    
       ~EpicsMotorInterface.__init__
+      ~EpicsMotorInterface.add_instantiation_callback
       ~EpicsMotorInterface.camonitor
       ~EpicsMotorInterface.check_value
       ~EpicsMotorInterface.clear_sub
       ~EpicsMotorInterface.configure
       ~EpicsMotorInterface.describe
       ~EpicsMotorInterface.describe_configuration
+      ~EpicsMotorInterface.destroy
       ~EpicsMotorInterface.disable
       ~EpicsMotorInterface.enable
       ~EpicsMotorInterface.end_monitor_thread
@@ -49,6 +51,10 @@ pcdsdevices.epics\_motor.EpicsMotorInterface
       ~EpicsMotorInterface.unsubscribe
       ~EpicsMotorInterface.unsubscribe_all
       ~EpicsMotorInterface.wait_for_connection
+      ~EpicsMotorInterface.walk_components
+      ~EpicsMotorInterface.walk_signals
+      ~EpicsMotorInterface.walk_subdevice_classes
+      ~EpicsMotorInterface.walk_subdevices
       ~EpicsMotorInterface.wm
       ~EpicsMotorInterface.wm_update
    
@@ -65,12 +71,14 @@ pcdsdevices.epics\_motor.EpicsMotorInterface
       ~EpicsMotorInterface.SUB_READBACK
       ~EpicsMotorInterface.SUB_START
       ~EpicsMotorInterface.acceleration
+      ~EpicsMotorInterface.attr_name
       ~EpicsMotorInterface.component_names
       ~EpicsMotorInterface.configuration_attrs
       ~EpicsMotorInterface.connected
       ~EpicsMotorInterface.description
       ~EpicsMotorInterface.direction_of_travel
       ~EpicsMotorInterface.disabled
+      ~EpicsMotorInterface.dotted_name
       ~EpicsMotorInterface.egu
       ~EpicsMotorInterface.event_types
       ~EpicsMotorInterface.high_limit
@@ -80,6 +88,7 @@ pcdsdevices.epics\_motor.EpicsMotorInterface
       ~EpicsMotorInterface.home_forward
       ~EpicsMotorInterface.home_reverse
       ~EpicsMotorInterface.kind
+      ~EpicsMotorInterface.lazy_wait_for_connection
       ~EpicsMotorInterface.limits
       ~EpicsMotorInterface.low_limit
       ~EpicsMotorInterface.low_limit_switch

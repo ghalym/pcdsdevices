@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.inout.InOutPositioner.describe &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.inout.InOutPositioner.describe &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -111,12 +111,14 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.inout.InOutPVStatePositioner.html">pcdsdevices.inout.InOutPVStatePositioner</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.inout.InOutPositioner.html">pcdsdevices.inout.InOutPositioner</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPositioner.__init__.html">pcdsdevices.inout.InOutPositioner.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPositioner.add_instantiation_callback.html">pcdsdevices.inout.InOutPositioner.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPositioner.camonitor.html">pcdsdevices.inout.InOutPositioner.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPositioner.check_value.html">pcdsdevices.inout.InOutPositioner.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPositioner.clear_sub.html">pcdsdevices.inout.InOutPositioner.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPositioner.configure.html">pcdsdevices.inout.InOutPositioner.configure</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.inout.InOutPositioner.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPositioner.describe_configuration.html">pcdsdevices.inout.InOutPositioner.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPositioner.destroy.html">pcdsdevices.inout.InOutPositioner.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPositioner.end_monitor_thread.html">pcdsdevices.inout.InOutPositioner.end_monitor_thread</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPositioner.get.html">pcdsdevices.inout.InOutPositioner.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPositioner.get_device_tuple.html">pcdsdevices.inout.InOutPositioner.get_device_tuple</a></li>
@@ -141,6 +143,10 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPositioner.unsubscribe.html">pcdsdevices.inout.InOutPositioner.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPositioner.unsubscribe_all.html">pcdsdevices.inout.InOutPositioner.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPositioner.wait_for_connection.html">pcdsdevices.inout.InOutPositioner.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPositioner.walk_components.html">pcdsdevices.inout.InOutPositioner.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPositioner.walk_signals.html">pcdsdevices.inout.InOutPositioner.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPositioner.walk_subdevice_classes.html">pcdsdevices.inout.InOutPositioner.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPositioner.walk_subdevices.html">pcdsdevices.inout.InOutPositioner.walk_subdevices</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPositioner.wm.html">pcdsdevices.inout.InOutPositioner.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPositioner.wm_update.html">pcdsdevices.inout.InOutPositioner.wm_update</a></li>
 </ul>
@@ -245,7 +251,7 @@
 <dl class="method">
 <dt id="pcdsdevices.inout.InOutPositioner.describe">
 <code class="sig-prename descclassname">InOutPositioner.</code><code class="sig-name descname">describe</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; ophyd.device.OrderedDictType[str, Dict[str, Any]]<a class="headerlink" href="#pcdsdevices.inout.InOutPositioner.describe" title="Permalink to this definition">¶</a></dt>
-<dd><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code></p>
+<dd><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code>.</p>
 <p>This keys in the <code class="xref any docutils literal notranslate"><span class="pre">OrderedDict</span></code> this method returns must match the
 keys in the <code class="xref any docutils literal notranslate"><span class="pre">OrderedDict</span></code> return by <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code>.</p>
 <p>This provides schema related information, (ex shape, dtype), the

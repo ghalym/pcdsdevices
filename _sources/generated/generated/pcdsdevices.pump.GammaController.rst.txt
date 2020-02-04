@@ -13,11 +13,13 @@ pcdsdevices.pump.GammaController
       :toctree: generated
    
       ~GammaController.__init__
+      ~GammaController.add_instantiation_callback
       ~GammaController.check_value
       ~GammaController.clear_sub
       ~GammaController.configure
       ~GammaController.describe
       ~GammaController.describe_configuration
+      ~GammaController.destroy
       ~GammaController.get
       ~GammaController.get_device_tuple
       ~GammaController.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.pump.GammaController
       ~GammaController.unsubscribe
       ~GammaController.unsubscribe_all
       ~GammaController.wait_for_connection
+      ~GammaController.walk_components
+      ~GammaController.walk_signals
+      ~GammaController.walk_subdevice_classes
+      ~GammaController.walk_subdevices
    
    
 
@@ -45,17 +51,20 @@ pcdsdevices.pump.GammaController
    .. autosummary::
    
       ~GammaController.SUB_ACQ_DONE
+      ~GammaController.attr_name
       ~GammaController.channel1name
       ~GammaController.channel2name
       ~GammaController.component_names
       ~GammaController.configuration_attrs
       ~GammaController.connected
       ~GammaController.cooling_fan_status
+      ~GammaController.dotted_name
       ~GammaController.event_types
       ~GammaController.firmwareversion
       ~GammaController.high_voltage_enable_autosave
       ~GammaController.hints
       ~GammaController.kind
+      ~GammaController.lazy_wait_for_connection
       ~GammaController.linefrequency
       ~GammaController.linevoltage
       ~GammaController.model

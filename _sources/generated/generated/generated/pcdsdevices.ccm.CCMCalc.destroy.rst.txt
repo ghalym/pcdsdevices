@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMCalc.destroy
+===============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMCalc.destroy

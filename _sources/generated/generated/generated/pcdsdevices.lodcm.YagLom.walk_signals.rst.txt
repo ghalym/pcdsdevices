@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.YagLom.walk\_signals
+======================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: YagLom.walk_signals

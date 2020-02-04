@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPSLimits.walk\_signals
+=======================================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPSLimits.walk_signals

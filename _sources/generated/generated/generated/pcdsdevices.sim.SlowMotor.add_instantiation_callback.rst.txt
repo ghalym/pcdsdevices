@@ -1,0 +1,6 @@
+pcdsdevices.sim.SlowMotor.add\_instantiation\_callback
+======================================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SlowMotor.add_instantiation_callback

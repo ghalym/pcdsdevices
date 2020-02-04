@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.CCM.trigger &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.device_types.CCM.trigger &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -98,12 +98,14 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.BeckhoffAxis.html">pcdsdevices.device_types.BeckhoffAxis</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.device_types.CCM.html">pcdsdevices.device_types.CCM</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.CCM.__init__.html">pcdsdevices.device_types.CCM.__init__</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.CCM.add_instantiation_callback.html">pcdsdevices.device_types.CCM.add_instantiation_callback</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.CCM.camonitor.html">pcdsdevices.device_types.CCM.camonitor</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.CCM.check_value.html">pcdsdevices.device_types.CCM.check_value</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.CCM.clear_sub.html">pcdsdevices.device_types.CCM.clear_sub</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.CCM.configure.html">pcdsdevices.device_types.CCM.configure</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.CCM.describe.html">pcdsdevices.device_types.CCM.describe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.CCM.describe_configuration.html">pcdsdevices.device_types.CCM.describe_configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.CCM.destroy.html">pcdsdevices.device_types.CCM.destroy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.CCM.end_monitor_thread.html">pcdsdevices.device_types.CCM.end_monitor_thread</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.CCM.get.html">pcdsdevices.device_types.CCM.get</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.CCM.get_device_tuple.html">pcdsdevices.device_types.CCM.get_device_tuple</a></li>
@@ -128,6 +130,10 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.CCM.unsubscribe.html">pcdsdevices.device_types.CCM.unsubscribe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.CCM.unsubscribe_all.html">pcdsdevices.device_types.CCM.unsubscribe_all</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.CCM.wait_for_connection.html">pcdsdevices.device_types.CCM.wait_for_connection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.CCM.walk_components.html">pcdsdevices.device_types.CCM.walk_components</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.CCM.walk_signals.html">pcdsdevices.device_types.CCM.walk_signals</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.CCM.walk_subdevice_classes.html">pcdsdevices.device_types.CCM.walk_subdevice_classes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.CCM.walk_subdevices.html">pcdsdevices.device_types.CCM.walk_subdevices</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.CCM.wm.html">pcdsdevices.device_types.CCM.wm</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.CCM.wm_update.html">pcdsdevices.device_types.CCM.wm_update</a></li>
 </ul>
@@ -238,17 +244,17 @@
 <dl class="method">
 <dt id="pcdsdevices.device_types.CCM.trigger">
 <code class="sig-prename descclassname">CCM.</code><code class="sig-name descname">trigger</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; ophyd.status.StatusBase<a class="headerlink" href="#pcdsdevices.device_types.CCM.trigger" title="Permalink to this definition">¶</a></dt>
-<dd><p>Trigger the device and return status object</p>
+<dd><p>Trigger the device and return status object.</p>
 <p>This method is responsible for implementing ‘trigger’ or
 ‘acquire’ functionality of this device.</p>
 <p>If there is an appreciable time between triggering the device
 and it being able to be read (via the
 <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code> method) then this method is
 also responsible for arranging that the
-<code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code> object returned my this method
+<code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code> object returned by this method
 is notified when the device is ready to be read.</p>
 <p>If there is no delay between triggering and being readable,
-then this method must return a <code class="xref py py-obj docutils literal notranslate"><span class="pre">SatusBase</span></code>
+then this method must return a <code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code>
 object which is already completed.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>

@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSetBase.walk\_components
+===============================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSetBase.walk_components

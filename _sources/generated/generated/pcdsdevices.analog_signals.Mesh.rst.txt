@@ -13,11 +13,13 @@ pcdsdevices.analog\_signals.Mesh
       :toctree: generated
    
       ~Mesh.__init__
+      ~Mesh.add_instantiation_callback
       ~Mesh.check_value
       ~Mesh.clear_sub
       ~Mesh.configure
       ~Mesh.describe
       ~Mesh.describe_configuration
+      ~Mesh.destroy
       ~Mesh.get
       ~Mesh.get_device_tuple
       ~Mesh.get_instantiated_signals
@@ -40,6 +42,10 @@ pcdsdevices.analog\_signals.Mesh
       ~Mesh.unsubscribe
       ~Mesh.unsubscribe_all
       ~Mesh.wait_for_connection
+      ~Mesh.walk_components
+      ~Mesh.walk_signals
+      ~Mesh.walk_subdevice_classes
+      ~Mesh.walk_subdevices
    
    
 
@@ -50,12 +56,15 @@ pcdsdevices.analog\_signals.Mesh
    .. autosummary::
    
       ~Mesh.SUB_ACQ_DONE
+      ~Mesh.attr_name
       ~Mesh.component_names
       ~Mesh.configuration_attrs
       ~Mesh.connected
+      ~Mesh.dotted_name
       ~Mesh.event_types
       ~Mesh.hints
       ~Mesh.kind
+      ~Mesh.lazy_wait_for_connection
       ~Mesh.name
       ~Mesh.parent
       ~Mesh.read_attrs

@@ -1,0 +1,6 @@
+pcdsdevices.mirror.PointingMirror.add\_instantiation\_callback
+==============================================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: PointingMirror.add_instantiation_callback

@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMMotor.walk\_subdevices
+=========================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMMotor.walk_subdevices

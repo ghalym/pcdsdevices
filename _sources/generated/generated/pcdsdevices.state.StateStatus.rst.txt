@@ -26,6 +26,7 @@ pcdsdevices.state.StateStatus
    .. autosummary::
    
       ~StateStatus.callbacks
+      ~StateStatus.done
       ~StateStatus.finished_cb
    
    

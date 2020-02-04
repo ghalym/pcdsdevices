@@ -1,0 +1,6 @@
+pcdsdevices.sim.SynMotor.add\_instantiation\_callback
+=====================================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SynMotor.add_instantiation_callback

@@ -13,11 +13,13 @@ pcdsdevices.gauge.GaugeSetPirani
       :toctree: generated
    
       ~GaugeSetPirani.__init__
+      ~GaugeSetPirani.add_instantiation_callback
       ~GaugeSetPirani.check_value
       ~GaugeSetPirani.clear_sub
       ~GaugeSetPirani.configure
       ~GaugeSetPirani.describe
       ~GaugeSetPirani.describe_configuration
+      ~GaugeSetPirani.destroy
       ~GaugeSetPirani.egu
       ~GaugeSetPirani.get
       ~GaugeSetPirani.get_device_tuple
@@ -37,6 +39,10 @@ pcdsdevices.gauge.GaugeSetPirani
       ~GaugeSetPirani.unsubscribe
       ~GaugeSetPirani.unsubscribe_all
       ~GaugeSetPirani.wait_for_connection
+      ~GaugeSetPirani.walk_components
+      ~GaugeSetPirani.walk_signals
+      ~GaugeSetPirani.walk_subdevice_classes
+      ~GaugeSetPirani.walk_subdevices
    
    
 
@@ -47,14 +53,17 @@ pcdsdevices.gauge.GaugeSetPirani
    .. autosummary::
    
       ~GaugeSetPirani.SUB_ACQ_DONE
+      ~GaugeSetPirani.attr_name
       ~GaugeSetPirani.component_names
       ~GaugeSetPirani.configuration_attrs
       ~GaugeSetPirani.connected
+      ~GaugeSetPirani.dotted_name
       ~GaugeSetPirani.event_types
       ~GaugeSetPirani.gcc
       ~GaugeSetPirani.gpi
       ~GaugeSetPirani.hints
       ~GaugeSetPirani.kind
+      ~GaugeSetPirani.lazy_wait_for_connection
       ~GaugeSetPirani.name
       ~GaugeSetPirani.parent
       ~GaugeSetPirani.read_attrs

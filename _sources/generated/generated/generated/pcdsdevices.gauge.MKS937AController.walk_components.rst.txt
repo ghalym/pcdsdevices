@@ -1,0 +1,6 @@
+pcdsdevices.gauge.MKS937AController.walk\_components
+====================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: MKS937AController.walk_components

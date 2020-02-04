@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPS.walk\_subdevices
+====================================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPS.walk_subdevices

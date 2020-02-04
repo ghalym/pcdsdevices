@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMMotor.add\_instantiation\_callback
+=====================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMMotor.add_instantiation_callback

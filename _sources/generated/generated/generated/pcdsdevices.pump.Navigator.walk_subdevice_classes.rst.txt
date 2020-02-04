@@ -1,0 +1,6 @@
+pcdsdevices.pump.Navigator.walk\_subdevice\_classes
+===================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: Navigator.walk_subdevice_classes

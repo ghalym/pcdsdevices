@@ -13,12 +13,14 @@ pcdsdevices.attenuator.FeeFilter
       :toctree: generated
    
       ~FeeFilter.__init__
+      ~FeeFilter.add_instantiation_callback
       ~FeeFilter.camonitor
       ~FeeFilter.check_value
       ~FeeFilter.clear_sub
       ~FeeFilter.configure
       ~FeeFilter.describe
       ~FeeFilter.describe_configuration
+      ~FeeFilter.destroy
       ~FeeFilter.end_monitor_thread
       ~FeeFilter.get
       ~FeeFilter.get_device_tuple
@@ -43,6 +45,10 @@ pcdsdevices.attenuator.FeeFilter
       ~FeeFilter.unsubscribe
       ~FeeFilter.unsubscribe_all
       ~FeeFilter.wait_for_connection
+      ~FeeFilter.walk_components
+      ~FeeFilter.walk_signals
+      ~FeeFilter.walk_subdevice_classes
+      ~FeeFilter.walk_subdevices
       ~FeeFilter.wm
       ~FeeFilter.wm_update
    
@@ -59,9 +65,11 @@ pcdsdevices.attenuator.FeeFilter
       ~FeeFilter.SUB_READBACK
       ~FeeFilter.SUB_START
       ~FeeFilter.SUB_STATE
+      ~FeeFilter.attr_name
       ~FeeFilter.component_names
       ~FeeFilter.configuration_attrs
       ~FeeFilter.connected
+      ~FeeFilter.dotted_name
       ~FeeFilter.egu
       ~FeeFilter.event_types
       ~FeeFilter.high_limit
@@ -69,6 +77,7 @@ pcdsdevices.attenuator.FeeFilter
       ~FeeFilter.in_states
       ~FeeFilter.inserted
       ~FeeFilter.kind
+      ~FeeFilter.lazy_wait_for_connection
       ~FeeFilter.limits
       ~FeeFilter.low_limit
       ~FeeFilter.moving

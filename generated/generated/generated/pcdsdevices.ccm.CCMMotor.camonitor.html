@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ccm.CCMMotor.camonitor &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.ccm.CCMMotor.camonitor &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -36,7 +36,7 @@
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
     <link rel="next" title="pcdsdevices.ccm.CCMMotor.check_value" href="pcdsdevices.ccm.CCMMotor.check_value.html" />
-    <link rel="prev" title="pcdsdevices.ccm.CCMMotor.__init__" href="pcdsdevices.ccm.CCMMotor.__init__.html" /> 
+    <link rel="prev" title="pcdsdevices.ccm.CCMMotor.add_instantiation_callback" href="pcdsdevices.ccm.CCMMotor.add_instantiation_callback.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -114,12 +114,14 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.ccm.CCMCalc.html">pcdsdevices.ccm.CCMCalc</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.ccm.CCMMotor.html">pcdsdevices.ccm.CCMMotor</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.__init__.html">pcdsdevices.ccm.CCMMotor.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.add_instantiation_callback.html">pcdsdevices.ccm.CCMMotor.add_instantiation_callback</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.ccm.CCMMotor.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.check_value.html">pcdsdevices.ccm.CCMMotor.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.clear_sub.html">pcdsdevices.ccm.CCMMotor.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.configure.html">pcdsdevices.ccm.CCMMotor.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.describe.html">pcdsdevices.ccm.CCMMotor.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.describe_configuration.html">pcdsdevices.ccm.CCMMotor.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.destroy.html">pcdsdevices.ccm.CCMMotor.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.end_monitor_thread.html">pcdsdevices.ccm.CCMMotor.end_monitor_thread</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.get.html">pcdsdevices.ccm.CCMMotor.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.get_device_tuple.html">pcdsdevices.ccm.CCMMotor.get_device_tuple</a></li>
@@ -146,6 +148,10 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.unsubscribe.html">pcdsdevices.ccm.CCMMotor.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.unsubscribe_all.html">pcdsdevices.ccm.CCMMotor.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.wait_for_connection.html">pcdsdevices.ccm.CCMMotor.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.walk_components.html">pcdsdevices.ccm.CCMMotor.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.walk_signals.html">pcdsdevices.ccm.CCMMotor.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.walk_subdevice_classes.html">pcdsdevices.ccm.CCMMotor.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.walk_subdevices.html">pcdsdevices.ccm.CCMMotor.walk_subdevices</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.wm.html">pcdsdevices.ccm.CCMMotor.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.wm_update.html">pcdsdevices.ccm.CCMMotor.wm_update</a></li>
 </ul>
@@ -273,7 +279,7 @@ background thread.</p>
         <a href="pcdsdevices.ccm.CCMMotor.check_value.html" class="btn btn-neutral float-right" title="pcdsdevices.ccm.CCMMotor.check_value" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="pcdsdevices.ccm.CCMMotor.__init__.html" class="btn btn-neutral float-left" title="pcdsdevices.ccm.CCMMotor.__init__" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="pcdsdevices.ccm.CCMMotor.add_instantiation_callback.html" class="btn btn-neutral float-left" title="pcdsdevices.ccm.CCMMotor.add_instantiation_callback" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

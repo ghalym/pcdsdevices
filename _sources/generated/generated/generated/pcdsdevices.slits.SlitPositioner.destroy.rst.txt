@@ -1,0 +1,6 @@
+pcdsdevices.slits.SlitPositioner.destroy
+========================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: SlitPositioner.destroy

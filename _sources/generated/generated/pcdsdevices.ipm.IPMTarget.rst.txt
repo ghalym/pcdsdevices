@@ -13,12 +13,14 @@ pcdsdevices.ipm.IPMTarget
       :toctree: generated
    
       ~IPMTarget.__init__
+      ~IPMTarget.add_instantiation_callback
       ~IPMTarget.camonitor
       ~IPMTarget.check_value
       ~IPMTarget.clear_sub
       ~IPMTarget.configure
       ~IPMTarget.describe
       ~IPMTarget.describe_configuration
+      ~IPMTarget.destroy
       ~IPMTarget.end_monitor_thread
       ~IPMTarget.get
       ~IPMTarget.get_device_tuple
@@ -43,6 +45,10 @@ pcdsdevices.ipm.IPMTarget
       ~IPMTarget.unsubscribe
       ~IPMTarget.unsubscribe_all
       ~IPMTarget.wait_for_connection
+      ~IPMTarget.walk_components
+      ~IPMTarget.walk_signals
+      ~IPMTarget.walk_subdevice_classes
+      ~IPMTarget.walk_subdevices
       ~IPMTarget.wm
       ~IPMTarget.wm_update
    
@@ -59,9 +65,11 @@ pcdsdevices.ipm.IPMTarget
       ~IPMTarget.SUB_READBACK
       ~IPMTarget.SUB_START
       ~IPMTarget.SUB_STATE
+      ~IPMTarget.attr_name
       ~IPMTarget.component_names
       ~IPMTarget.configuration_attrs
       ~IPMTarget.connected
+      ~IPMTarget.dotted_name
       ~IPMTarget.egu
       ~IPMTarget.event_types
       ~IPMTarget.high_limit
@@ -69,6 +77,7 @@ pcdsdevices.ipm.IPMTarget
       ~IPMTarget.in_states
       ~IPMTarget.inserted
       ~IPMTarget.kind
+      ~IPMTarget.lazy_wait_for_connection
       ~IPMTarget.limits
       ~IPMTarget.low_limit
       ~IPMTarget.motor

@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugePirani.add\_instantiation\_callback
+==========================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugePirani.add_instantiation_callback

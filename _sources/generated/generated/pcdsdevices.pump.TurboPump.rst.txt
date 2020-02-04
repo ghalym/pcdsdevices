@@ -13,11 +13,13 @@ pcdsdevices.pump.TurboPump
       :toctree: generated
    
       ~TurboPump.__init__
+      ~TurboPump.add_instantiation_callback
       ~TurboPump.check_value
       ~TurboPump.clear_sub
       ~TurboPump.configure
       ~TurboPump.describe
       ~TurboPump.describe_configuration
+      ~TurboPump.destroy
       ~TurboPump.get
       ~TurboPump.get_device_tuple
       ~TurboPump.get_instantiated_signals
@@ -36,6 +38,10 @@ pcdsdevices.pump.TurboPump
       ~TurboPump.unsubscribe
       ~TurboPump.unsubscribe_all
       ~TurboPump.wait_for_connection
+      ~TurboPump.walk_components
+      ~TurboPump.walk_signals
+      ~TurboPump.walk_subdevice_classes
+      ~TurboPump.walk_subdevices
    
    
 
@@ -47,12 +53,15 @@ pcdsdevices.pump.TurboPump
    
       ~TurboPump.SUB_ACQ_DONE
       ~TurboPump.atspeed
+      ~TurboPump.attr_name
       ~TurboPump.component_names
       ~TurboPump.configuration_attrs
       ~TurboPump.connected
+      ~TurboPump.dotted_name
       ~TurboPump.event_types
       ~TurboPump.hints
       ~TurboPump.kind
+      ~TurboPump.lazy_wait_for_connection
       ~TurboPump.name
       ~TurboPump.parent
       ~TurboPump.read_attrs

@@ -13,11 +13,13 @@ pcdsdevices.gauge.GaugeSerial
       :toctree: generated
    
       ~GaugeSerial.__init__
+      ~GaugeSerial.add_instantiation_callback
       ~GaugeSerial.check_value
       ~GaugeSerial.clear_sub
       ~GaugeSerial.configure
       ~GaugeSerial.describe
       ~GaugeSerial.describe_configuration
+      ~GaugeSerial.destroy
       ~GaugeSerial.get
       ~GaugeSerial.get_device_tuple
       ~GaugeSerial.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.gauge.GaugeSerial
       ~GaugeSerial.unsubscribe
       ~GaugeSerial.unsubscribe_all
       ~GaugeSerial.wait_for_connection
+      ~GaugeSerial.walk_components
+      ~GaugeSerial.walk_signals
+      ~GaugeSerial.walk_subdevice_classes
+      ~GaugeSerial.walk_subdevices
    
    
 
@@ -45,9 +51,11 @@ pcdsdevices.gauge.GaugeSerial
    .. autosummary::
    
       ~GaugeSerial.SUB_ACQ_DONE
+      ~GaugeSerial.attr_name
       ~GaugeSerial.component_names
       ~GaugeSerial.configuration_attrs
       ~GaugeSerial.connected
+      ~GaugeSerial.dotted_name
       ~GaugeSerial.event_types
       ~GaugeSerial.gastype
       ~GaugeSerial.gastypedes
@@ -55,6 +63,7 @@ pcdsdevices.gauge.GaugeSerial
       ~GaugeSerial.hystsprbck_1
       ~GaugeSerial.hystsprbck_2
       ~GaugeSerial.kind
+      ~GaugeSerial.lazy_wait_for_connection
       ~GaugeSerial.name
       ~GaugeSerial.p
       ~GaugeSerial.padel

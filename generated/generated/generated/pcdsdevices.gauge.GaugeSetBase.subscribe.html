@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.gauge.GaugeSetBase.subscribe &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.gauge.GaugeSetBase.subscribe &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -120,11 +120,13 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.gauge.GaugeSerialGPI.html">pcdsdevices.gauge.GaugeSerialGPI</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.gauge.GaugeSetBase.html">pcdsdevices.gauge.GaugeSetBase</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.__init__.html">pcdsdevices.gauge.GaugeSetBase.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.add_instantiation_callback.html">pcdsdevices.gauge.GaugeSetBase.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.check_value.html">pcdsdevices.gauge.GaugeSetBase.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.clear_sub.html">pcdsdevices.gauge.GaugeSetBase.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.configure.html">pcdsdevices.gauge.GaugeSetBase.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.describe.html">pcdsdevices.gauge.GaugeSetBase.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.describe_configuration.html">pcdsdevices.gauge.GaugeSetBase.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.destroy.html">pcdsdevices.gauge.GaugeSetBase.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.egu.html">pcdsdevices.gauge.GaugeSetBase.egu</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.get.html">pcdsdevices.gauge.GaugeSetBase.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.get_device_tuple.html">pcdsdevices.gauge.GaugeSetBase.get_device_tuple</a></li>
@@ -144,6 +146,10 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.unsubscribe.html">pcdsdevices.gauge.GaugeSetBase.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.unsubscribe_all.html">pcdsdevices.gauge.GaugeSetBase.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.wait_for_connection.html">pcdsdevices.gauge.GaugeSetBase.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.walk_components.html">pcdsdevices.gauge.GaugeSetBase.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.walk_signals.html">pcdsdevices.gauge.GaugeSetBase.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.walk_subdevice_classes.html">pcdsdevices.gauge.GaugeSetBase.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.walk_subdevices.html">pcdsdevices.gauge.GaugeSetBase.walk_subdevices</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.gauge.GaugeSetMks.html">pcdsdevices.gauge.GaugeSetMks</a></li>
@@ -249,7 +255,7 @@
 <h1>pcdsdevices.gauge.GaugeSetBase.subscribe<a class="headerlink" href="#pcdsdevices-gauge-gaugesetbase-subscribe" title="Permalink to this headline">¶</a></h1>
 <dl class="method">
 <dt id="pcdsdevices.gauge.GaugeSetBase.subscribe">
-<code class="sig-prename descclassname">GaugeSetBase.</code><code class="sig-name descname">subscribe</code><span class="sig-paren">(</span><em class="sig-param">cb</em>, <em class="sig-param">event_type=None</em>, <em class="sig-param">run=True</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.gauge.GaugeSetBase.subscribe" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">GaugeSetBase.</code><code class="sig-name descname">subscribe</code><span class="sig-paren">(</span><em class="sig-param">callback</em>, <em class="sig-param">event_type=None</em>, <em class="sig-param">run=True</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.gauge.GaugeSetBase.subscribe" title="Permalink to this definition">¶</a></dt>
 <dd><p>Subscribe to events this event_type generates.</p>
 <p>The callback will be called as <code class="docutils literal notranslate"><span class="pre">cb(*args,</span> <span class="pre">**kwargs)</span></code> with
 the values passed to <code class="xref any docutils literal notranslate"><span class="pre">_run_subs</span></code> with the following additional keys:</p>
@@ -269,7 +275,7 @@ silently ignored.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>cb</strong> (<em>callable</em>) – <p>A callable function (that takes kwargs) to be run when the event is
+<li><p><strong>callback</strong> (<em>callable</em>) – <p>A callable function (that takes kwargs) to be run when the event is
 generated.  The expected signature is</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">cb</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="n">obj</span><span class="p">:</span> <span class="n">OphydObject</span><span class="p">,</span> <span class="n">sub_type</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
 </pre></div>

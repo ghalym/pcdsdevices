@@ -13,6 +13,7 @@ pcdsdevices.valve.Stopper
       :toctree: generated
    
       ~Stopper.__init__
+      ~Stopper.add_instantiation_callback
       ~Stopper.camonitor
       ~Stopper.check_value
       ~Stopper.clear_sub
@@ -20,6 +21,7 @@ pcdsdevices.valve.Stopper
       ~Stopper.configure
       ~Stopper.describe
       ~Stopper.describe_configuration
+      ~Stopper.destroy
       ~Stopper.end_monitor_thread
       ~Stopper.get
       ~Stopper.get_device_tuple
@@ -45,6 +47,10 @@ pcdsdevices.valve.Stopper
       ~Stopper.unsubscribe
       ~Stopper.unsubscribe_all
       ~Stopper.wait_for_connection
+      ~Stopper.walk_components
+      ~Stopper.walk_signals
+      ~Stopper.walk_subdevice_classes
+      ~Stopper.walk_subdevices
       ~Stopper.wm
       ~Stopper.wm_update
    
@@ -61,11 +67,13 @@ pcdsdevices.valve.Stopper
       ~Stopper.SUB_READBACK
       ~Stopper.SUB_START
       ~Stopper.SUB_STATE
+      ~Stopper.attr_name
       ~Stopper.closed_limit
       ~Stopper.command
       ~Stopper.component_names
       ~Stopper.configuration_attrs
       ~Stopper.connected
+      ~Stopper.dotted_name
       ~Stopper.egu
       ~Stopper.event_types
       ~Stopper.high_limit
@@ -73,6 +81,7 @@ pcdsdevices.valve.Stopper
       ~Stopper.in_states
       ~Stopper.inserted
       ~Stopper.kind
+      ~Stopper.lazy_wait_for_connection
       ~Stopper.limits
       ~Stopper.low_limit
       ~Stopper.moving

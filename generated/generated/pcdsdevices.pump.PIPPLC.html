@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.pump.PIPPLC &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.pump.PIPPLC &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -36,7 +36,7 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="pcdsdevices.pump.PIPPLC.__init__" href="generated/pcdsdevices.pump.PIPPLC.__init__.html" />
-    <link rel="prev" title="pcdsdevices.pump.Navigator.wait_for_connection" href="generated/pcdsdevices.pump.Navigator.wait_for_connection.html" /> 
+    <link rel="prev" title="pcdsdevices.pump.Navigator.walk_subdevices" href="generated/pcdsdevices.pump.Navigator.walk_subdevices.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -129,11 +129,13 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pump.Navigator.html">pcdsdevices.pump.Navigator</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.pump.PIPPLC</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.__init__.html">pcdsdevices.pump.PIPPLC.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.add_instantiation_callback.html">pcdsdevices.pump.PIPPLC.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.check_value.html">pcdsdevices.pump.PIPPLC.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.clear_sub.html">pcdsdevices.pump.PIPPLC.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.configure.html">pcdsdevices.pump.PIPPLC.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.describe.html">pcdsdevices.pump.PIPPLC.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.describe_configuration.html">pcdsdevices.pump.PIPPLC.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.destroy.html">pcdsdevices.pump.PIPPLC.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.get.html">pcdsdevices.pump.PIPPLC.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.get_device_tuple.html">pcdsdevices.pump.PIPPLC.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.get_instantiated_signals.html">pcdsdevices.pump.PIPPLC.get_instantiated_signals</a></li>
@@ -151,6 +153,10 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.unsubscribe.html">pcdsdevices.pump.PIPPLC.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.unsubscribe_all.html">pcdsdevices.pump.PIPPLC.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.wait_for_connection.html">pcdsdevices.pump.PIPPLC.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.walk_components.html">pcdsdevices.pump.PIPPLC.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.walk_signals.html">pcdsdevices.pump.PIPPLC.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.walk_subdevice_classes.html">pcdsdevices.pump.PIPPLC.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.walk_subdevices.html">pcdsdevices.pump.PIPPLC.walk_subdevices</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pump.PIPSerial.html">pcdsdevices.pump.PIPSerial</a></li>
@@ -255,20 +261,26 @@ Still need to work out replacement of old classes.</p>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.__init__.html#pcdsdevices.pump.PIPPLC.__init__" title="pcdsdevices.pump.PIPPLC.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>([prefix, kind, read_attrs, …])</p></td>
 <td><p>Initialize self.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.check_value.html#pcdsdevices.pump.PIPPLC.check_value" title="pcdsdevices.pump.PIPPLC.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.add_instantiation_callback.html#pcdsdevices.pump.PIPPLC.add_instantiation_callback" title="pcdsdevices.pump.PIPPLC.add_instantiation_callback"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_instantiation_callback</span></code></a>(callback[, …])</p></td>
+<td><p>Register a callback which will receive each OphydObject instance.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.check_value.html#pcdsdevices.pump.PIPPLC.check_value" title="pcdsdevices.pump.PIPPLC.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value, **kwargs)</p></td>
 <td><p>Check if the value is valid for this object</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.clear_sub.html#pcdsdevices.pump.PIPPLC.clear_sub" title="pcdsdevices.pump.PIPPLC.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.clear_sub.html#pcdsdevices.pump.PIPPLC.clear_sub" title="pcdsdevices.pump.PIPPLC.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
 <td><p>Remove a subscription, given the original callback function</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.configure.html#pcdsdevices.pump.PIPPLC.configure" title="pcdsdevices.pump.PIPPLC.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.configure.html#pcdsdevices.pump.PIPPLC.configure" title="pcdsdevices.pump.PIPPLC.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
 <td><p>Configure the device for something during a run</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.describe.html#pcdsdevices.pump.PIPPLC.describe" title="pcdsdevices.pump.PIPPLC.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
-<td><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.describe.html#pcdsdevices.pump.PIPPLC.describe" title="pcdsdevices.pump.PIPPLC.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
+<td><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code>.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.describe_configuration.html#pcdsdevices.pump.PIPPLC.describe_configuration" title="pcdsdevices.pump.PIPPLC.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.describe_configuration.html#pcdsdevices.pump.PIPPLC.describe_configuration" title="pcdsdevices.pump.PIPPLC.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</p></td>
 <td><p>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.destroy.html#pcdsdevices.pump.PIPPLC.destroy" title="pcdsdevices.pump.PIPPLC.destroy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">destroy</span></code></a>()</p></td>
+<td><p>Disconnect and destroy all signals on the Device</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.get.html#pcdsdevices.pump.PIPPLC.get" title="pcdsdevices.pump.PIPPLC.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
@@ -286,13 +298,13 @@ Still need to work out replacement of old classes.</p>
 <td><p>Put a value to all components of the device</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.read.html#pcdsdevices.pump.PIPPLC.read" title="pcdsdevices.pump.PIPPLC.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
-<td><p>Read data from the device</p></td>
+<td><p>Read data from the device.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.read_configuration.html#pcdsdevices.pump.PIPPLC.read_configuration" title="pcdsdevices.pump.PIPPLC.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
-<td><p>returns dictionary mapping names to (value, timestamp) pairs</p></td>
+<td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.resume.html#pcdsdevices.pump.PIPPLC.resume" title="pcdsdevices.pump.PIPPLC.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
-<td><p>Resume a device from a ‘paused’ state</p></td>
+<td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.stage.html#pcdsdevices.pump.PIPPLC.stage" title="pcdsdevices.pump.PIPPLC.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
 <td><p>Stage the device for data collection.</p></td>
@@ -300,14 +312,14 @@ Still need to work out replacement of old classes.</p>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.stop.html#pcdsdevices.pump.PIPPLC.stop" title="pcdsdevices.pump.PIPPLC.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.subscribe.html#pcdsdevices.pump.PIPPLC.subscribe" title="pcdsdevices.pump.PIPPLC.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[, event_type, run])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.subscribe.html#pcdsdevices.pump.PIPPLC.subscribe" title="pcdsdevices.pump.PIPPLC.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(callback[, event_type, run])</p></td>
 <td><p>Subscribe to events this event_type generates.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.summary.html#pcdsdevices.pump.PIPPLC.summary" title="pcdsdevices.pump.PIPPLC.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.trigger.html#pcdsdevices.pump.PIPPLC.trigger" title="pcdsdevices.pump.PIPPLC.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
-<td><p>Trigger the device and return status object</p></td>
+<td><p>Trigger the device and return status object.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.unstage.html#pcdsdevices.pump.PIPPLC.unstage" title="pcdsdevices.pump.PIPPLC.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</p></td>
 <td><p>Unstage the device.</p></td>
@@ -320,6 +332,18 @@ Still need to work out replacement of old classes.</p>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.wait_for_connection.html#pcdsdevices.pump.PIPPLC.wait_for_connection" title="pcdsdevices.pump.PIPPLC.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals, timeout])</p></td>
 <td><p>Wait for signals to connect</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.walk_components.html#pcdsdevices.pump.PIPPLC.walk_components" title="pcdsdevices.pump.PIPPLC.walk_components"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_components</span></code></a>()</p></td>
+<td><p>Walk all components in the Device hierarchy</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.walk_signals.html#pcdsdevices.pump.PIPPLC.walk_signals" title="pcdsdevices.pump.PIPPLC.walk_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_signals</span></code></a>(*[, include_lazy])</p></td>
+<td><p>Walk all signals in the Device hierarchy</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.walk_subdevice_classes.html#pcdsdevices.pump.PIPPLC.walk_subdevice_classes" title="pcdsdevices.pump.PIPPLC.walk_subdevice_classes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevice_classes</span></code></a>()</p></td>
+<td><p>Walk all sub-Devices classes in the Device hierarchy</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.PIPPLC.walk_subdevices.html#pcdsdevices.pump.PIPPLC.walk_subdevices" title="pcdsdevices.pump.PIPPLC.walk_subdevices"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevices</span></code></a>(*[, include_lazy])</p></td>
+<td><p>Walk all sub-Devices in the hierarchy</p></td>
 </tr>
 </tbody>
 </table>
@@ -334,60 +358,69 @@ Still need to work out replacement of old classes.</p>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">at_vac_sp</span></code></p></td>
-<td><p>at vacuum set point</p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_names</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">attr_name</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_attrs</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_names</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_attrs</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></p></td>
 <td><p>If the device is connected.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">dotted_name</span></code></p></td>
+<td><p>Return the dotted name</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">event_types</span></code></p></td>
 <td><p>Events that can be subscribed to via <code class="xref any docutils literal notranslate"><span class="pre">obj.subscribe</span></code></p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">high_voltage_do</span></code></p></td>
-<td><p>high voltage digital output</p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">high_voltage_switch</span></code></p></td>
-<td><p>epics command to witch on the high voltage</p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">hints</span></code></p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">interlock_ok</span></code></p></td>
-<td><p>interlock  is ok when true</p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">lazy_wait_for_connection</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></p></td>
 <td><p>name of the device</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></p></td>
 <td><p>The parent of the ophyd object.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pressure</span></code></p></td>
-<td><p>pressure reading</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pressure</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
 <td><p>A report on the object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></p></td>
 <td><p>Walk parents to find ultimate ancestor (parent’s parent…).</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_point_relay</span></code></p></td>
-<td><p>set point digital input relay</p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_point_relay</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
 <td><p></p></td>
 </tr>
 </tbody>
@@ -407,7 +440,7 @@ Still need to work out replacement of old classes.</p>
         <a href="generated/pcdsdevices.pump.PIPPLC.__init__.html" class="btn btn-neutral float-right" title="pcdsdevices.pump.PIPPLC.__init__" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="generated/pcdsdevices.pump.Navigator.wait_for_connection.html" class="btn btn-neutral float-left" title="pcdsdevices.pump.Navigator.wait_for_connection" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="generated/pcdsdevices.pump.Navigator.walk_subdevices.html" class="btn btn-neutral float-left" title="pcdsdevices.pump.Navigator.walk_subdevices" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

@@ -1,0 +1,6 @@
+pcdsdevices.gauge.MKS937BController.walk\_subdevice\_classes
+============================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: MKS937BController.walk_subdevice_classes

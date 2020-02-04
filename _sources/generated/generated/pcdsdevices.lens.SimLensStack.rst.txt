@@ -13,6 +13,7 @@ pcdsdevices.lens.SimLensStack
       :toctree: generated
    
       ~SimLensStack.__init__
+      ~SimLensStack.add_instantiation_callback
       ~SimLensStack.align
       ~SimLensStack.check_single
       ~SimLensStack.check_value
@@ -20,6 +21,7 @@ pcdsdevices.lens.SimLensStack
       ~SimLensStack.configure
       ~SimLensStack.describe
       ~SimLensStack.describe_configuration
+      ~SimLensStack.destroy
       ~SimLensStack.forward
       ~SimLensStack.get
       ~SimLensStack.get_device_tuple
@@ -45,6 +47,10 @@ pcdsdevices.lens.SimLensStack
       ~SimLensStack.unsubscribe
       ~SimLensStack.unsubscribe_all
       ~SimLensStack.wait_for_connection
+      ~SimLensStack.walk_components
+      ~SimLensStack.walk_signals
+      ~SimLensStack.walk_subdevice_classes
+      ~SimLensStack.walk_subdevices
    
    
 
@@ -58,17 +64,20 @@ pcdsdevices.lens.SimLensStack
       ~SimLensStack.SUB_DONE
       ~SimLensStack.SUB_READBACK
       ~SimLensStack.SUB_START
+      ~SimLensStack.attr_name
       ~SimLensStack.calib_z
       ~SimLensStack.component_names
       ~SimLensStack.composite_egu
       ~SimLensStack.concurrent
       ~SimLensStack.configuration_attrs
       ~SimLensStack.connected
+      ~SimLensStack.dotted_name
       ~SimLensStack.egu
       ~SimLensStack.event_types
       ~SimLensStack.high_limit
       ~SimLensStack.hints
       ~SimLensStack.kind
+      ~SimLensStack.lazy_wait_for_connection
       ~SimLensStack.limits
       ~SimLensStack.low_limit
       ~SimLensStack.moving

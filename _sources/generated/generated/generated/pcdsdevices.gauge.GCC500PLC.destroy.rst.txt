@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCC500PLC.destroy
+===================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCC500PLC.destroy

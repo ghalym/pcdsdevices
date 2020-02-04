@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCCPLC.walk\_components
+=========================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCCPLC.walk_components

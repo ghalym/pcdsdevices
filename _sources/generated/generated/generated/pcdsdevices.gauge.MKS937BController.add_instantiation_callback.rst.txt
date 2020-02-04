@@ -1,0 +1,6 @@
+pcdsdevices.gauge.MKS937BController.add\_instantiation\_callback
+================================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: MKS937BController.add_instantiation_callback

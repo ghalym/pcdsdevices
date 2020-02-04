@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ccm.CCMY.end_monitor_thread &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.ccm.CCMY.end_monitor_thread &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -36,7 +36,7 @@
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
     <link rel="next" title="pcdsdevices.ccm.CCMY.forward" href="pcdsdevices.ccm.CCMY.forward.html" />
-    <link rel="prev" title="pcdsdevices.ccm.CCMY.describe_configuration" href="pcdsdevices.ccm.CCMY.describe_configuration.html" /> 
+    <link rel="prev" title="pcdsdevices.ccm.CCMY.destroy" href="pcdsdevices.ccm.CCMY.destroy.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -116,6 +116,7 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.ccm.CCMX.html">pcdsdevices.ccm.CCMX</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.ccm.CCMY.html">pcdsdevices.ccm.CCMY</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMY.__init__.html">pcdsdevices.ccm.CCMY.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMY.add_instantiation_callback.html">pcdsdevices.ccm.CCMY.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMY.calc_combined.html">pcdsdevices.ccm.CCMY.calc_combined</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMY.camonitor.html">pcdsdevices.ccm.CCMY.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMY.check_single.html">pcdsdevices.ccm.CCMY.check_single</a></li>
@@ -124,6 +125,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMY.configure.html">pcdsdevices.ccm.CCMY.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMY.describe.html">pcdsdevices.ccm.CCMY.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMY.describe_configuration.html">pcdsdevices.ccm.CCMY.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMY.destroy.html">pcdsdevices.ccm.CCMY.destroy</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.ccm.CCMY.end_monitor_thread</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMY.forward.html">pcdsdevices.ccm.CCMY.forward</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMY.get.html">pcdsdevices.ccm.CCMY.get</a></li>
@@ -156,6 +158,10 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMY.unsubscribe.html">pcdsdevices.ccm.CCMY.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMY.unsubscribe_all.html">pcdsdevices.ccm.CCMY.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMY.wait_for_connection.html">pcdsdevices.ccm.CCMY.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMY.walk_components.html">pcdsdevices.ccm.CCMY.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMY.walk_signals.html">pcdsdevices.ccm.CCMY.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMY.walk_subdevice_classes.html">pcdsdevices.ccm.CCMY.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMY.walk_subdevices.html">pcdsdevices.ccm.CCMY.walk_subdevices</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMY.wm.html">pcdsdevices.ccm.CCMY.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMY.wm_update.html">pcdsdevices.ccm.CCMY.wm_update</a></li>
 </ul>
@@ -277,7 +283,7 @@
         <a href="pcdsdevices.ccm.CCMY.forward.html" class="btn btn-neutral float-right" title="pcdsdevices.ccm.CCMY.forward" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="pcdsdevices.ccm.CCMY.describe_configuration.html" class="btn btn-neutral float-left" title="pcdsdevices.ccm.CCMY.describe_configuration" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="pcdsdevices.ccm.CCMY.destroy.html" class="btn btn-neutral float-left" title="pcdsdevices.ccm.CCMY.destroy" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

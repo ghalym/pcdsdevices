@@ -13,11 +13,13 @@ pcdsdevices.pump.AgilentSerial
       :toctree: generated
    
       ~AgilentSerial.__init__
+      ~AgilentSerial.add_instantiation_callback
       ~AgilentSerial.check_value
       ~AgilentSerial.clear_sub
       ~AgilentSerial.configure
       ~AgilentSerial.describe
       ~AgilentSerial.describe_configuration
+      ~AgilentSerial.destroy
       ~AgilentSerial.get
       ~AgilentSerial.get_device_tuple
       ~AgilentSerial.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.pump.AgilentSerial
       ~AgilentSerial.unsubscribe
       ~AgilentSerial.unsubscribe_all
       ~AgilentSerial.wait_for_connection
+      ~AgilentSerial.walk_components
+      ~AgilentSerial.walk_signals
+      ~AgilentSerial.walk_subdevice_classes
+      ~AgilentSerial.walk_subdevices
    
    
 
@@ -47,14 +53,17 @@ pcdsdevices.pump.AgilentSerial
       ~AgilentSerial.SUB_ACQ_DONE
       ~AgilentSerial.active_stop
       ~AgilentSerial.ao_type
+      ~AgilentSerial.attr_name
       ~AgilentSerial.component_names
       ~AgilentSerial.config
       ~AgilentSerial.configuration_attrs
       ~AgilentSerial.connected
+      ~AgilentSerial.dotted_name
       ~AgilentSerial.event_types
       ~AgilentSerial.hints
       ~AgilentSerial.interlock_type
       ~AgilentSerial.kind
+      ~AgilentSerial.lazy_wait_for_connection
       ~AgilentSerial.name
       ~AgilentSerial.parent
       ~AgilentSerial.pump_current

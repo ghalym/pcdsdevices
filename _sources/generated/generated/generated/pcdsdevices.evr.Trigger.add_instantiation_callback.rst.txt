@@ -1,0 +1,6 @@
+pcdsdevices.evr.Trigger.add\_instantiation\_callback
+====================================================
+
+.. currentmodule:: pcdsdevices.evr
+
+.. automethod:: Trigger.add_instantiation_callback

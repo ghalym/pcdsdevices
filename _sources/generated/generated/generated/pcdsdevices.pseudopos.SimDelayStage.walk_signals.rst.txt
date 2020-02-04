@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.SimDelayStage.walk\_signals
+=================================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: SimDelayStage.walk_signals

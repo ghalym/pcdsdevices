@@ -13,12 +13,14 @@ pcdsdevices.mirror.OMMotor
       :toctree: generated
    
       ~OMMotor.__init__
+      ~OMMotor.add_instantiation_callback
       ~OMMotor.camonitor
       ~OMMotor.check_value
       ~OMMotor.clear_sub
       ~OMMotor.configure
       ~OMMotor.describe
       ~OMMotor.describe_configuration
+      ~OMMotor.destroy
       ~OMMotor.end_monitor_thread
       ~OMMotor.get
       ~OMMotor.get_device_tuple
@@ -45,6 +47,10 @@ pcdsdevices.mirror.OMMotor
       ~OMMotor.unsubscribe
       ~OMMotor.unsubscribe_all
       ~OMMotor.wait_for_connection
+      ~OMMotor.walk_components
+      ~OMMotor.walk_signals
+      ~OMMotor.walk_subdevice_classes
+      ~OMMotor.walk_subdevices
       ~OMMotor.wm
       ~OMMotor.wm_update
    
@@ -62,11 +68,13 @@ pcdsdevices.mirror.OMMotor
       ~OMMotor.SUB_START
       ~OMMotor.actuate
       ~OMMotor.actuate_value
+      ~OMMotor.attr_name
       ~OMMotor.component_names
       ~OMMotor.configuration_attrs
       ~OMMotor.connected
       ~OMMotor.done
       ~OMMotor.done_value
+      ~OMMotor.dotted_name
       ~OMMotor.egu
       ~OMMotor.enabled
       ~OMMotor.event_types
@@ -75,6 +83,7 @@ pcdsdevices.mirror.OMMotor
       ~OMMotor.hints
       ~OMMotor.interlock
       ~OMMotor.kind
+      ~OMMotor.lazy_wait_for_connection
       ~OMMotor.limits
       ~OMMotor.low_limit
       ~OMMotor.low_limit_switch

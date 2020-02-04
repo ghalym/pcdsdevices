@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.Filter.add\_instantiation\_callback
+==========================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: Filter.add_instantiation_callback

@@ -13,11 +13,13 @@ pcdsdevices.gauge.GCCPLC
       :toctree: generated
    
       ~GCCPLC.__init__
+      ~GCCPLC.add_instantiation_callback
       ~GCCPLC.check_value
       ~GCCPLC.clear_sub
       ~GCCPLC.configure
       ~GCCPLC.describe
       ~GCCPLC.describe_configuration
+      ~GCCPLC.destroy
       ~GCCPLC.get
       ~GCCPLC.get_device_tuple
       ~GCCPLC.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.gauge.GCCPLC
       ~GCCPLC.unsubscribe
       ~GCCPLC.unsubscribe_all
       ~GCCPLC.wait_for_connection
+      ~GCCPLC.walk_components
+      ~GCCPLC.walk_signals
+      ~GCCPLC.walk_subdevice_classes
+      ~GCCPLC.walk_subdevices
    
    
 
@@ -46,9 +52,11 @@ pcdsdevices.gauge.GCCPLC
    
       ~GCCPLC.SUB_ACQ_DONE
       ~GCCPLC.at_vac_setpoint
+      ~GCCPLC.attr_name
       ~GCCPLC.component_names
       ~GCCPLC.configuration_attrs
       ~GCCPLC.connected
+      ~GCCPLC.dotted_name
       ~GCCPLC.event_types
       ~GCCPLC.gauge_at_vac
       ~GCCPLC.high_voltage_disable
@@ -56,6 +64,7 @@ pcdsdevices.gauge.GCCPLC
       ~GCCPLC.hints
       ~GCCPLC.interlock_ok
       ~GCCPLC.kind
+      ~GCCPLC.lazy_wait_for_connection
       ~GCCPLC.name
       ~GCCPLC.parent
       ~GCCPLC.pressure

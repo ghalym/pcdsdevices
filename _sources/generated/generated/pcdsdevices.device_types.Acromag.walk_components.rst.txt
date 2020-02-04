@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Acromag.walk\_components
+==================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Acromag.walk_components

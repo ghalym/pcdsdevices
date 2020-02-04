@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.PseudoSingleInterface.walk\_components
+============================================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: PseudoSingleInterface.walk_components

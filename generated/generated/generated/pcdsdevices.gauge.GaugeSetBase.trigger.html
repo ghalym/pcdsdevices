@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.gauge.GaugeSetBase.trigger &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.gauge.GaugeSetBase.trigger &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -120,11 +120,13 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.gauge.GaugeSerialGPI.html">pcdsdevices.gauge.GaugeSerialGPI</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.gauge.GaugeSetBase.html">pcdsdevices.gauge.GaugeSetBase</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.__init__.html">pcdsdevices.gauge.GaugeSetBase.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.add_instantiation_callback.html">pcdsdevices.gauge.GaugeSetBase.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.check_value.html">pcdsdevices.gauge.GaugeSetBase.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.clear_sub.html">pcdsdevices.gauge.GaugeSetBase.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.configure.html">pcdsdevices.gauge.GaugeSetBase.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.describe.html">pcdsdevices.gauge.GaugeSetBase.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.describe_configuration.html">pcdsdevices.gauge.GaugeSetBase.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.destroy.html">pcdsdevices.gauge.GaugeSetBase.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.egu.html">pcdsdevices.gauge.GaugeSetBase.egu</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.get.html">pcdsdevices.gauge.GaugeSetBase.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.get_device_tuple.html">pcdsdevices.gauge.GaugeSetBase.get_device_tuple</a></li>
@@ -144,6 +146,10 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.unsubscribe.html">pcdsdevices.gauge.GaugeSetBase.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.unsubscribe_all.html">pcdsdevices.gauge.GaugeSetBase.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.wait_for_connection.html">pcdsdevices.gauge.GaugeSetBase.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.walk_components.html">pcdsdevices.gauge.GaugeSetBase.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.walk_signals.html">pcdsdevices.gauge.GaugeSetBase.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.walk_subdevice_classes.html">pcdsdevices.gauge.GaugeSetBase.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.GaugeSetBase.walk_subdevices.html">pcdsdevices.gauge.GaugeSetBase.walk_subdevices</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.gauge.GaugeSetMks.html">pcdsdevices.gauge.GaugeSetMks</a></li>
@@ -250,17 +256,17 @@
 <dl class="method">
 <dt id="pcdsdevices.gauge.GaugeSetBase.trigger">
 <code class="sig-prename descclassname">GaugeSetBase.</code><code class="sig-name descname">trigger</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; ophyd.status.StatusBase<a class="headerlink" href="#pcdsdevices.gauge.GaugeSetBase.trigger" title="Permalink to this definition">¶</a></dt>
-<dd><p>Trigger the device and return status object</p>
+<dd><p>Trigger the device and return status object.</p>
 <p>This method is responsible for implementing ‘trigger’ or
 ‘acquire’ functionality of this device.</p>
 <p>If there is an appreciable time between triggering the device
 and it being able to be read (via the
 <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code> method) then this method is
 also responsible for arranging that the
-<code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code> object returned my this method
+<code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code> object returned by this method
 is notified when the device is ready to be read.</p>
 <p>If there is no delay between triggering and being readable,
-then this method must return a <code class="xref py py-obj docutils literal notranslate"><span class="pre">SatusBase</span></code>
+then this method must return a <code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code>
 object which is already completed.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>

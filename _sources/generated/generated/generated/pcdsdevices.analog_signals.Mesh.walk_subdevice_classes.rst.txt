@@ -1,0 +1,6 @@
+pcdsdevices.analog\_signals.Mesh.walk\_subdevice\_classes
+=========================================================
+
+.. currentmodule:: pcdsdevices.analog_signals
+
+.. automethod:: Mesh.walk_subdevice_classes

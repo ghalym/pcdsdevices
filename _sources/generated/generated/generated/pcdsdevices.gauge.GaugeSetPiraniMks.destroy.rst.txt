@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSetPiraniMks.destroy
+===========================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSetPiraniMks.destroy

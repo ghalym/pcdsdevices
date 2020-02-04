@@ -13,11 +13,13 @@ pcdsdevices.pump.PIPSerial
       :toctree: generated
    
       ~PIPSerial.__init__
+      ~PIPSerial.add_instantiation_callback
       ~PIPSerial.check_value
       ~PIPSerial.clear_sub
       ~PIPSerial.configure
       ~PIPSerial.describe
       ~PIPSerial.describe_configuration
+      ~PIPSerial.destroy
       ~PIPSerial.get
       ~PIPSerial.get_device_tuple
       ~PIPSerial.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.pump.PIPSerial
       ~PIPSerial.unsubscribe
       ~PIPSerial.unsubscribe_all
       ~PIPSerial.wait_for_connection
+      ~PIPSerial.walk_components
+      ~PIPSerial.walk_signals
+      ~PIPSerial.walk_subdevice_classes
+      ~PIPSerial.walk_subdevices
    
    
 
@@ -47,16 +53,19 @@ pcdsdevices.pump.PIPSerial
       ~PIPSerial.SUB_ACQ_DONE
       ~PIPSerial.aomode
       ~PIPSerial.aomodedes
+      ~PIPSerial.attr_name
       ~PIPSerial.calfactor
       ~PIPSerial.calfactordes
       ~PIPSerial.component_names
       ~PIPSerial.configuration_attrs
       ~PIPSerial.connected
       ~PIPSerial.dispdes
+      ~PIPSerial.dotted_name
       ~PIPSerial.event_types
       ~PIPSerial.hints
       ~PIPSerial.imon
       ~PIPSerial.kind
+      ~PIPSerial.lazy_wait_for_connection
       ~PIPSerial.name
       ~PIPSerial.parent
       ~PIPSerial.pmon

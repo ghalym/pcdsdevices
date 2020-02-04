@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.SxrGmd.destroy
+======================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: SxrGmd.destroy

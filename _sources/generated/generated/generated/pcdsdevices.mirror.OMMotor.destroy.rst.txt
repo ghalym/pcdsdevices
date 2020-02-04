@@ -1,0 +1,6 @@
+pcdsdevices.mirror.OMMotor.destroy
+==================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: OMMotor.destroy

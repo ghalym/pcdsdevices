@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPSBase.destroy
+===============================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPSBase.destroy

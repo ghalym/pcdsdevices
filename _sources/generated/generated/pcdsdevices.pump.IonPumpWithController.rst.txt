@@ -13,11 +13,13 @@ pcdsdevices.pump.IonPumpWithController
       :toctree: generated
    
       ~IonPumpWithController.__init__
+      ~IonPumpWithController.add_instantiation_callback
       ~IonPumpWithController.check_value
       ~IonPumpWithController.clear_sub
       ~IonPumpWithController.configure
       ~IonPumpWithController.describe
       ~IonPumpWithController.describe_configuration
+      ~IonPumpWithController.destroy
       ~IonPumpWithController.egu
       ~IonPumpWithController.get
       ~IonPumpWithController.get_device_tuple
@@ -40,6 +42,10 @@ pcdsdevices.pump.IonPumpWithController
       ~IonPumpWithController.unsubscribe
       ~IonPumpWithController.unsubscribe_all
       ~IonPumpWithController.wait_for_connection
+      ~IonPumpWithController.walk_components
+      ~IonPumpWithController.walk_signals
+      ~IonPumpWithController.walk_subdevice_classes
+      ~IonPumpWithController.walk_subdevices
    
    
 
@@ -51,6 +57,7 @@ pcdsdevices.pump.IonPumpWithController
    
       ~IonPumpWithController.SUB_ACQ_DONE
       ~IonPumpWithController.aomode
+      ~IonPumpWithController.attr_name
       ~IonPumpWithController.calfactor
       ~IonPumpWithController.component_names
       ~IonPumpWithController.configuration_attrs
@@ -58,10 +65,12 @@ pcdsdevices.pump.IonPumpWithController
       ~IonPumpWithController.controller
       ~IonPumpWithController.controllername
       ~IonPumpWithController.current
+      ~IonPumpWithController.dotted_name
       ~IonPumpWithController.event_types
       ~IonPumpWithController.hints
       ~IonPumpWithController.hvstrapping
       ~IonPumpWithController.kind
+      ~IonPumpWithController.lazy_wait_for_connection
       ~IonPumpWithController.name
       ~IonPumpWithController.parent
       ~IonPumpWithController.pumpsize

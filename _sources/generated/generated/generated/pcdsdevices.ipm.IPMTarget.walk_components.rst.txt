@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMTarget.walk\_components
+==========================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMTarget.walk_components

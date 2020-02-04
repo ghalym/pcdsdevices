@@ -1,0 +1,6 @@
+pcdsdevices.lens.XFLS.walk\_subdevice\_classes
+==============================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: XFLS.walk_subdevice_classes

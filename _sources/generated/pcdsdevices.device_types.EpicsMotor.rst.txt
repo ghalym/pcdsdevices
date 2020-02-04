@@ -13,11 +13,13 @@ pcdsdevices.device\_types.EpicsMotor
       :toctree: generated
    
       ~EpicsMotor.__init__
+      ~EpicsMotor.add_instantiation_callback
       ~EpicsMotor.check_value
       ~EpicsMotor.clear_sub
       ~EpicsMotor.configure
       ~EpicsMotor.describe
       ~EpicsMotor.describe_configuration
+      ~EpicsMotor.destroy
       ~EpicsMotor.get
       ~EpicsMotor.get_device_tuple
       ~EpicsMotor.get_instantiated_signals
@@ -39,6 +41,10 @@ pcdsdevices.device\_types.EpicsMotor
       ~EpicsMotor.unsubscribe
       ~EpicsMotor.unsubscribe_all
       ~EpicsMotor.wait_for_connection
+      ~EpicsMotor.walk_components
+      ~EpicsMotor.walk_signals
+      ~EpicsMotor.walk_subdevice_classes
+      ~EpicsMotor.walk_subdevices
    
    
 
@@ -53,10 +59,12 @@ pcdsdevices.device\_types.EpicsMotor
       ~EpicsMotor.SUB_READBACK
       ~EpicsMotor.SUB_START
       ~EpicsMotor.acceleration
+      ~EpicsMotor.attr_name
       ~EpicsMotor.component_names
       ~EpicsMotor.configuration_attrs
       ~EpicsMotor.connected
       ~EpicsMotor.direction_of_travel
+      ~EpicsMotor.dotted_name
       ~EpicsMotor.egu
       ~EpicsMotor.event_types
       ~EpicsMotor.high_limit
@@ -65,6 +73,7 @@ pcdsdevices.device\_types.EpicsMotor
       ~EpicsMotor.home_forward
       ~EpicsMotor.home_reverse
       ~EpicsMotor.kind
+      ~EpicsMotor.lazy_wait_for_connection
       ~EpicsMotor.limits
       ~EpicsMotor.low_limit
       ~EpicsMotor.low_limit_switch

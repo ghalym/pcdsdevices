@@ -13,12 +13,14 @@ pcdsdevices.pseudopos.PseudoSingleInterface
       :toctree: generated
    
       ~PseudoSingleInterface.__init__
+      ~PseudoSingleInterface.add_instantiation_callback
       ~PseudoSingleInterface.camonitor
       ~PseudoSingleInterface.check_value
       ~PseudoSingleInterface.clear_sub
       ~PseudoSingleInterface.configure
       ~PseudoSingleInterface.describe
       ~PseudoSingleInterface.describe_configuration
+      ~PseudoSingleInterface.destroy
       ~PseudoSingleInterface.end_monitor_thread
       ~PseudoSingleInterface.get
       ~PseudoSingleInterface.get_device_tuple
@@ -46,6 +48,10 @@ pcdsdevices.pseudopos.PseudoSingleInterface
       ~PseudoSingleInterface.unsubscribe
       ~PseudoSingleInterface.unsubscribe_all
       ~PseudoSingleInterface.wait_for_connection
+      ~PseudoSingleInterface.walk_components
+      ~PseudoSingleInterface.walk_signals
+      ~PseudoSingleInterface.walk_subdevice_classes
+      ~PseudoSingleInterface.walk_subdevices
       ~PseudoSingleInterface.wm
       ~PseudoSingleInterface.wm_update
    
@@ -61,14 +67,17 @@ pcdsdevices.pseudopos.PseudoSingleInterface
       ~PseudoSingleInterface.SUB_DONE
       ~PseudoSingleInterface.SUB_READBACK
       ~PseudoSingleInterface.SUB_START
+      ~PseudoSingleInterface.attr_name
       ~PseudoSingleInterface.component_names
       ~PseudoSingleInterface.configuration_attrs
       ~PseudoSingleInterface.connected
+      ~PseudoSingleInterface.dotted_name
       ~PseudoSingleInterface.egu
       ~PseudoSingleInterface.event_types
       ~PseudoSingleInterface.high_limit
       ~PseudoSingleInterface.hints
       ~PseudoSingleInterface.kind
+      ~PseudoSingleInterface.lazy_wait_for_connection
       ~PseudoSingleInterface.limits
       ~PseudoSingleInterface.low_limit
       ~PseudoSingleInterface.moving

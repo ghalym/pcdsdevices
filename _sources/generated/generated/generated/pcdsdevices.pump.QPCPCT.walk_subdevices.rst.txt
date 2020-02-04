@@ -1,0 +1,6 @@
+pcdsdevices.pump.QPCPCT.walk\_subdevices
+========================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: QPCPCT.walk_subdevices

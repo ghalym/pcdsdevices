@@ -13,12 +13,14 @@ pcdsdevices.state.StatePositioner
       :toctree: generated
    
       ~StatePositioner.__init__
+      ~StatePositioner.add_instantiation_callback
       ~StatePositioner.camonitor
       ~StatePositioner.check_value
       ~StatePositioner.clear_sub
       ~StatePositioner.configure
       ~StatePositioner.describe
       ~StatePositioner.describe_configuration
+      ~StatePositioner.destroy
       ~StatePositioner.end_monitor_thread
       ~StatePositioner.get
       ~StatePositioner.get_device_tuple
@@ -41,6 +43,10 @@ pcdsdevices.state.StatePositioner
       ~StatePositioner.unsubscribe
       ~StatePositioner.unsubscribe_all
       ~StatePositioner.wait_for_connection
+      ~StatePositioner.walk_components
+      ~StatePositioner.walk_signals
+      ~StatePositioner.walk_subdevice_classes
+      ~StatePositioner.walk_subdevices
       ~StatePositioner.wm
       ~StatePositioner.wm_update
    
@@ -57,14 +63,17 @@ pcdsdevices.state.StatePositioner
       ~StatePositioner.SUB_READBACK
       ~StatePositioner.SUB_START
       ~StatePositioner.SUB_STATE
+      ~StatePositioner.attr_name
       ~StatePositioner.component_names
       ~StatePositioner.configuration_attrs
       ~StatePositioner.connected
+      ~StatePositioner.dotted_name
       ~StatePositioner.egu
       ~StatePositioner.event_types
       ~StatePositioner.high_limit
       ~StatePositioner.hints
       ~StatePositioner.kind
+      ~StatePositioner.lazy_wait_for_connection
       ~StatePositioner.limits
       ~StatePositioner.low_limit
       ~StatePositioner.moving

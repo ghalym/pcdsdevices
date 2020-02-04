@@ -1,0 +1,6 @@
+pcdsdevices.sim.FastMotor.walk\_subdevice\_classes
+==================================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: FastMotor.walk_subdevice_classes

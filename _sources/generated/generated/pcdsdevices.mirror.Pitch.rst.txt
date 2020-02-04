@@ -13,12 +13,14 @@ pcdsdevices.mirror.Pitch
       :toctree: generated
    
       ~Pitch.__init__
+      ~Pitch.add_instantiation_callback
       ~Pitch.camonitor
       ~Pitch.check_value
       ~Pitch.clear_sub
       ~Pitch.configure
       ~Pitch.describe
       ~Pitch.describe_configuration
+      ~Pitch.destroy
       ~Pitch.end_monitor_thread
       ~Pitch.get
       ~Pitch.get_device_tuple
@@ -45,6 +47,10 @@ pcdsdevices.mirror.Pitch
       ~Pitch.unsubscribe
       ~Pitch.unsubscribe_all
       ~Pitch.wait_for_connection
+      ~Pitch.walk_components
+      ~Pitch.walk_signals
+      ~Pitch.walk_subdevice_classes
+      ~Pitch.walk_subdevices
       ~Pitch.wm
       ~Pitch.wm_update
    
@@ -62,11 +68,13 @@ pcdsdevices.mirror.Pitch
       ~Pitch.SUB_START
       ~Pitch.actuate
       ~Pitch.actuate_value
+      ~Pitch.attr_name
       ~Pitch.component_names
       ~Pitch.configuration_attrs
       ~Pitch.connected
       ~Pitch.done
       ~Pitch.done_value
+      ~Pitch.dotted_name
       ~Pitch.egu
       ~Pitch.enabled
       ~Pitch.event_types
@@ -75,6 +83,7 @@ pcdsdevices.mirror.Pitch
       ~Pitch.hints
       ~Pitch.interlock
       ~Pitch.kind
+      ~Pitch.lazy_wait_for_connection
       ~Pitch.limits
       ~Pitch.low_limit
       ~Pitch.low_limit_switch

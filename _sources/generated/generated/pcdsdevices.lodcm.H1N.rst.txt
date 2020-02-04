@@ -13,12 +13,14 @@ pcdsdevices.lodcm.H1N
       :toctree: generated
    
       ~H1N.__init__
+      ~H1N.add_instantiation_callback
       ~H1N.camonitor
       ~H1N.check_value
       ~H1N.clear_sub
       ~H1N.configure
       ~H1N.describe
       ~H1N.describe_configuration
+      ~H1N.destroy
       ~H1N.end_monitor_thread
       ~H1N.get
       ~H1N.get_device_tuple
@@ -43,6 +45,10 @@ pcdsdevices.lodcm.H1N
       ~H1N.unsubscribe
       ~H1N.unsubscribe_all
       ~H1N.wait_for_connection
+      ~H1N.walk_components
+      ~H1N.walk_signals
+      ~H1N.walk_subdevice_classes
+      ~H1N.walk_subdevices
       ~H1N.wm
       ~H1N.wm_update
    
@@ -59,9 +65,11 @@ pcdsdevices.lodcm.H1N
       ~H1N.SUB_READBACK
       ~H1N.SUB_START
       ~H1N.SUB_STATE
+      ~H1N.attr_name
       ~H1N.component_names
       ~H1N.configuration_attrs
       ~H1N.connected
+      ~H1N.dotted_name
       ~H1N.egu
       ~H1N.event_types
       ~H1N.high_limit
@@ -69,6 +77,7 @@ pcdsdevices.lodcm.H1N
       ~H1N.in_states
       ~H1N.inserted
       ~H1N.kind
+      ~H1N.lazy_wait_for_connection
       ~H1N.limits
       ~H1N.low_limit
       ~H1N.motor

@@ -1,0 +1,6 @@
+pcdsdevices.pump.EbaraPump.walk\_subdevice\_classes
+===================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: EbaraPump.walk_subdevice_classes

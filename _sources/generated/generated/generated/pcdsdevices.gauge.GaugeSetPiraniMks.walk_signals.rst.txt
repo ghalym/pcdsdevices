@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSetPiraniMks.walk\_signals
+=================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSetPiraniMks.walk_signals

@@ -1,0 +1,6 @@
+pcdsdevices.valve.Stopper.add\_instantiation\_callback
+======================================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: Stopper.add_instantiation_callback

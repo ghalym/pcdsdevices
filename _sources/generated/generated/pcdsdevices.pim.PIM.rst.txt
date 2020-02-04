@@ -13,12 +13,14 @@ pcdsdevices.pim.PIM
       :toctree: generated
    
       ~PIM.__init__
+      ~PIM.add_instantiation_callback
       ~PIM.camonitor
       ~PIM.check_value
       ~PIM.clear_sub
       ~PIM.configure
       ~PIM.describe
       ~PIM.describe_configuration
+      ~PIM.destroy
       ~PIM.end_monitor_thread
       ~PIM.get
       ~PIM.get_device_tuple
@@ -43,6 +45,10 @@ pcdsdevices.pim.PIM
       ~PIM.unsubscribe
       ~PIM.unsubscribe_all
       ~PIM.wait_for_connection
+      ~PIM.walk_components
+      ~PIM.walk_signals
+      ~PIM.walk_subdevice_classes
+      ~PIM.walk_subdevices
       ~PIM.wm
       ~PIM.wm_update
    
@@ -59,10 +65,12 @@ pcdsdevices.pim.PIM
       ~PIM.SUB_READBACK
       ~PIM.SUB_START
       ~PIM.SUB_STATE
+      ~PIM.attr_name
       ~PIM.component_names
       ~PIM.configuration_attrs
       ~PIM.connected
       ~PIM.detector
+      ~PIM.dotted_name
       ~PIM.egu
       ~PIM.event_types
       ~PIM.high_limit
@@ -70,6 +78,7 @@ pcdsdevices.pim.PIM
       ~PIM.in_states
       ~PIM.inserted
       ~PIM.kind
+      ~PIM.lazy_wait_for_connection
       ~PIM.limits
       ~PIM.low_limit
       ~PIM.motor

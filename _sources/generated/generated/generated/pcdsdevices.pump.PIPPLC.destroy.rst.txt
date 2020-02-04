@@ -1,0 +1,6 @@
+pcdsdevices.pump.PIPPLC.destroy
+===============================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PIPPLC.destroy

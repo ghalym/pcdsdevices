@@ -13,12 +13,14 @@ pcdsdevices.inout.InOutPositioner
       :toctree: generated
    
       ~InOutPositioner.__init__
+      ~InOutPositioner.add_instantiation_callback
       ~InOutPositioner.camonitor
       ~InOutPositioner.check_value
       ~InOutPositioner.clear_sub
       ~InOutPositioner.configure
       ~InOutPositioner.describe
       ~InOutPositioner.describe_configuration
+      ~InOutPositioner.destroy
       ~InOutPositioner.end_monitor_thread
       ~InOutPositioner.get
       ~InOutPositioner.get_device_tuple
@@ -43,6 +45,10 @@ pcdsdevices.inout.InOutPositioner
       ~InOutPositioner.unsubscribe
       ~InOutPositioner.unsubscribe_all
       ~InOutPositioner.wait_for_connection
+      ~InOutPositioner.walk_components
+      ~InOutPositioner.walk_signals
+      ~InOutPositioner.walk_subdevice_classes
+      ~InOutPositioner.walk_subdevices
       ~InOutPositioner.wm
       ~InOutPositioner.wm_update
    
@@ -59,9 +65,11 @@ pcdsdevices.inout.InOutPositioner
       ~InOutPositioner.SUB_READBACK
       ~InOutPositioner.SUB_START
       ~InOutPositioner.SUB_STATE
+      ~InOutPositioner.attr_name
       ~InOutPositioner.component_names
       ~InOutPositioner.configuration_attrs
       ~InOutPositioner.connected
+      ~InOutPositioner.dotted_name
       ~InOutPositioner.egu
       ~InOutPositioner.event_types
       ~InOutPositioner.high_limit
@@ -69,6 +77,7 @@ pcdsdevices.inout.InOutPositioner
       ~InOutPositioner.in_states
       ~InOutPositioner.inserted
       ~InOutPositioner.kind
+      ~InOutPositioner.lazy_wait_for_connection
       ~InOutPositioner.limits
       ~InOutPositioner.low_limit
       ~InOutPositioner.moving

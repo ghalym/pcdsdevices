@@ -13,6 +13,7 @@ pcdsdevices.epics\_motor.IMS
       :toctree: generated
    
       ~IMS.__init__
+      ~IMS.add_instantiation_callback
       ~IMS.auto_setup
       ~IMS.camonitor
       ~IMS.check_value
@@ -24,6 +25,7 @@ pcdsdevices.epics\_motor.IMS
       ~IMS.configure
       ~IMS.describe
       ~IMS.describe_configuration
+      ~IMS.destroy
       ~IMS.disable
       ~IMS.enable
       ~IMS.end_monitor_thread
@@ -59,6 +61,10 @@ pcdsdevices.epics\_motor.IMS
       ~IMS.unsubscribe
       ~IMS.unsubscribe_all
       ~IMS.wait_for_connection
+      ~IMS.walk_components
+      ~IMS.walk_signals
+      ~IMS.walk_subdevice_classes
+      ~IMS.walk_subdevices
       ~IMS.wm
       ~IMS.wm_update
    
@@ -75,6 +81,7 @@ pcdsdevices.epics\_motor.IMS
       ~IMS.SUB_READBACK
       ~IMS.SUB_START
       ~IMS.acceleration
+      ~IMS.attr_name
       ~IMS.bit_status
       ~IMS.component_names
       ~IMS.configuration_attrs
@@ -82,6 +89,7 @@ pcdsdevices.epics\_motor.IMS
       ~IMS.description
       ~IMS.direction_of_travel
       ~IMS.disabled
+      ~IMS.dotted_name
       ~IMS.egu
       ~IMS.error_severity
       ~IMS.event_types
@@ -92,6 +100,7 @@ pcdsdevices.epics\_motor.IMS
       ~IMS.home_forward
       ~IMS.home_reverse
       ~IMS.kind
+      ~IMS.lazy_wait_for_connection
       ~IMS.limits
       ~IMS.low_limit
       ~IMS.low_limit_switch

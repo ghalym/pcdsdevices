@@ -1,0 +1,6 @@
+pcdsdevices.pump.GammaController.walk\_subdevice\_classes
+=========================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: GammaController.walk_subdevice_classes

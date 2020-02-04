@@ -13,11 +13,13 @@ pcdsdevices.beam\_stats.BeamStats
       :toctree: generated
    
       ~BeamStats.__init__
+      ~BeamStats.add_instantiation_callback
       ~BeamStats.check_value
       ~BeamStats.clear_sub
       ~BeamStats.configure
       ~BeamStats.describe
       ~BeamStats.describe_configuration
+      ~BeamStats.destroy
       ~BeamStats.get
       ~BeamStats.get_device_tuple
       ~BeamStats.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.beam\_stats.BeamStats
       ~BeamStats.unsubscribe
       ~BeamStats.unsubscribe_all
       ~BeamStats.wait_for_connection
+      ~BeamStats.walk_components
+      ~BeamStats.walk_signals
+      ~BeamStats.walk_subdevice_classes
+      ~BeamStats.walk_subdevices
    
    
 
@@ -45,13 +51,16 @@ pcdsdevices.beam\_stats.BeamStats
    .. autosummary::
    
       ~BeamStats.SUB_ACQ_DONE
+      ~BeamStats.attr_name
       ~BeamStats.component_names
       ~BeamStats.configuration_attrs
       ~BeamStats.connected
+      ~BeamStats.dotted_name
       ~BeamStats.ev
       ~BeamStats.event_types
       ~BeamStats.hints
       ~BeamStats.kind
+      ~BeamStats.lazy_wait_for_connection
       ~BeamStats.mj
       ~BeamStats.mj_avg
       ~BeamStats.mj_buffersize

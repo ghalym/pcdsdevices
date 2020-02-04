@@ -1,0 +1,6 @@
+pcdsdevices.sim.SimTwoAxis.add\_instantiation\_callback
+=======================================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SimTwoAxis.add_instantiation_callback

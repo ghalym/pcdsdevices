@@ -13,11 +13,13 @@ pcdsdevices.evr.Trigger
       :toctree: generated
    
       ~Trigger.__init__
+      ~Trigger.add_instantiation_callback
       ~Trigger.check_value
       ~Trigger.clear_sub
       ~Trigger.configure
       ~Trigger.describe
       ~Trigger.describe_configuration
+      ~Trigger.destroy
       ~Trigger.disable
       ~Trigger.enable
       ~Trigger.get
@@ -37,6 +39,10 @@ pcdsdevices.evr.Trigger
       ~Trigger.unsubscribe
       ~Trigger.unsubscribe_all
       ~Trigger.wait_for_connection
+      ~Trigger.walk_components
+      ~Trigger.walk_signals
+      ~Trigger.walk_subdevice_classes
+      ~Trigger.walk_subdevices
    
    
 
@@ -47,9 +53,11 @@ pcdsdevices.evr.Trigger
    .. autosummary::
    
       ~Trigger.SUB_ACQ_DONE
+      ~Trigger.attr_name
       ~Trigger.component_names
       ~Trigger.configuration_attrs
       ~Trigger.connected
+      ~Trigger.dotted_name
       ~Trigger.enable_cmd
       ~Trigger.event_types
       ~Trigger.eventcode
@@ -57,6 +65,7 @@ pcdsdevices.evr.Trigger
       ~Trigger.hints
       ~Trigger.kind
       ~Trigger.label
+      ~Trigger.lazy_wait_for_connection
       ~Trigger.name
       ~Trigger.ns_delay
       ~Trigger.parent

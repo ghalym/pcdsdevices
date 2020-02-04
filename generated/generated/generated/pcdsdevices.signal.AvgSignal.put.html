@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.signal.AvgSignal.put &mdash; PCDS Devices 2.1.1+14.g89194c3 documentation</title>
+  <title>pcdsdevices.signal.AvgSignal.put &mdash; PCDS Devices 2.2.0+19.gb9a4274 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.1.1+14.g89194c3
+                2.2.0+19.gb9a4274
               </div>
             
           
@@ -124,10 +124,12 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.signal.AggregateSignal.html">pcdsdevices.signal.AggregateSignal</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.signal.AvgSignal.html">pcdsdevices.signal.AvgSignal</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.AvgSignal.__init__.html">pcdsdevices.signal.AvgSignal.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.AvgSignal.add_instantiation_callback.html">pcdsdevices.signal.AvgSignal.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.AvgSignal.check_value.html">pcdsdevices.signal.AvgSignal.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.AvgSignal.clear_sub.html">pcdsdevices.signal.AvgSignal.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.AvgSignal.describe.html">pcdsdevices.signal.AvgSignal.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.AvgSignal.describe_configuration.html">pcdsdevices.signal.AvgSignal.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.AvgSignal.destroy.html">pcdsdevices.signal.AvgSignal.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.AvgSignal.get.html">pcdsdevices.signal.AvgSignal.get</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.signal.AvgSignal.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.AvgSignal.read.html">pcdsdevices.signal.AvgSignal.read</a></li>
@@ -223,7 +225,7 @@
 <h1>pcdsdevices.signal.AvgSignal.put<a class="headerlink" href="#pcdsdevices-signal-avgsignal-put" title="Permalink to this headline">¶</a></h1>
 <dl class="method">
 <dt id="pcdsdevices.signal.AvgSignal.put">
-<code class="sig-prename descclassname">AvgSignal.</code><code class="sig-name descname">put</code><span class="sig-paren">(</span><em class="sig-param">value</em>, <em class="sig-param">*</em>, <em class="sig-param">timestamp=None</em>, <em class="sig-param">force=False</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.signal.AvgSignal.put" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">AvgSignal.</code><code class="sig-name descname">put</code><span class="sig-paren">(</span><em class="sig-param">value</em>, <em class="sig-param">*</em>, <em class="sig-param">timestamp=None</em>, <em class="sig-param">force=False</em>, <em class="sig-param">metadata=None</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.signal.AvgSignal.put" title="Permalink to this definition">¶</a></dt>
 <dd><p>Put updates the internal readback value</p>
 <p>The value is optionally checked first, depending on the value of force.
 In addition, VALUE subscriptions are run.</p>
@@ -234,6 +236,8 @@ pass through).</p>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>value</strong> (<em>any</em>) – Value to set</p></li>
 <li><p><strong>timestamp</strong> (<em>float</em><em>, </em><em>optional</em>) – The timestamp associated with the value, defaults to time.time()</p></li>
+<li><p><strong>metadata</strong> (<em>dict</em><em>, </em><em>optional</em>) – Further associated metadata with the value (such as alarm status,
+severity, etc.)</p></li>
 <li><p><strong>force</strong> (<em>bool</em><em>, </em><em>optional</em>) – Check the value prior to setting it, defaults to False</p></li>
 </ul>
 </dd>

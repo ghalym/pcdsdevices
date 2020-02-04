@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Diode.add\_instantiation\_callback
+====================================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Diode.add_instantiation_callback

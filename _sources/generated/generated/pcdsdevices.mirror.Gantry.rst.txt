@@ -13,12 +13,14 @@ pcdsdevices.mirror.Gantry
       :toctree: generated
    
       ~Gantry.__init__
+      ~Gantry.add_instantiation_callback
       ~Gantry.camonitor
       ~Gantry.check_value
       ~Gantry.clear_sub
       ~Gantry.configure
       ~Gantry.describe
       ~Gantry.describe_configuration
+      ~Gantry.destroy
       ~Gantry.end_monitor_thread
       ~Gantry.get
       ~Gantry.get_device_tuple
@@ -45,6 +47,10 @@ pcdsdevices.mirror.Gantry
       ~Gantry.unsubscribe
       ~Gantry.unsubscribe_all
       ~Gantry.wait_for_connection
+      ~Gantry.walk_components
+      ~Gantry.walk_signals
+      ~Gantry.walk_subdevice_classes
+      ~Gantry.walk_subdevices
       ~Gantry.wm
       ~Gantry.wm_update
    
@@ -62,12 +68,14 @@ pcdsdevices.mirror.Gantry
       ~Gantry.SUB_START
       ~Gantry.actuate
       ~Gantry.actuate_value
+      ~Gantry.attr_name
       ~Gantry.component_names
       ~Gantry.configuration_attrs
       ~Gantry.connected
       ~Gantry.decoupled
       ~Gantry.done
       ~Gantry.done_value
+      ~Gantry.dotted_name
       ~Gantry.egu
       ~Gantry.enabled
       ~Gantry.event_types
@@ -80,6 +88,7 @@ pcdsdevices.mirror.Gantry
       ~Gantry.hints
       ~Gantry.interlock
       ~Gantry.kind
+      ~Gantry.lazy_wait_for_connection
       ~Gantry.limits
       ~Gantry.low_limit
       ~Gantry.low_limit_switch

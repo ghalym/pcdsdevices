@@ -13,11 +13,13 @@ pcdsdevices.valve.VVC
       :toctree: generated
    
       ~VVC.__init__
+      ~VVC.add_instantiation_callback
       ~VVC.check_value
       ~VVC.clear_sub
       ~VVC.configure
       ~VVC.describe
       ~VVC.describe_configuration
+      ~VVC.destroy
       ~VVC.get
       ~VVC.get_device_tuple
       ~VVC.get_instantiated_signals
@@ -35,6 +37,10 @@ pcdsdevices.valve.VVC
       ~VVC.unsubscribe
       ~VVC.unsubscribe_all
       ~VVC.wait_for_connection
+      ~VVC.walk_components
+      ~VVC.walk_signals
+      ~VVC.walk_subdevice_classes
+      ~VVC.walk_subdevices
    
    
 
@@ -45,13 +51,16 @@ pcdsdevices.valve.VVC
    .. autosummary::
    
       ~VVC.SUB_ACQ_DONE
+      ~VVC.attr_name
       ~VVC.component_names
       ~VVC.configuration_attrs
       ~VVC.connected
+      ~VVC.dotted_name
       ~VVC.event_types
       ~VVC.hints
       ~VVC.interlock_ok
       ~VVC.kind
+      ~VVC.lazy_wait_for_connection
       ~VVC.name
       ~VVC.open_command
       ~VVC.open_do

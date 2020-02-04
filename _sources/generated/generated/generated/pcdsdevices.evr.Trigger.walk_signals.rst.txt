@@ -1,0 +1,6 @@
+pcdsdevices.evr.Trigger.walk\_signals
+=====================================
+
+.. currentmodule:: pcdsdevices.evr
+
+.. automethod:: Trigger.walk_signals

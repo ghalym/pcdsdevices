@@ -1,0 +1,6 @@
+pcdsdevices.sim.FastMotor.walk\_signals
+=======================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: FastMotor.walk_signals
