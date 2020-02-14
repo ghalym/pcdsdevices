@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPIMBChannel.add\_instantiation\_callback
+=========================================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPIMBChannel.add_instantiation_callback

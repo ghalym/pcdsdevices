@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPIMBChannel.walk\_components
+=============================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPIMBChannel.walk_components

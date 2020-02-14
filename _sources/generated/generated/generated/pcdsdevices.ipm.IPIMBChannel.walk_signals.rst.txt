@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPIMBChannel.walk\_signals
+==========================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPIMBChannel.walk_signals

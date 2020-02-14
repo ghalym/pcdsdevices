@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPM\_Wave8.pause
+================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPM_Wave8.pause

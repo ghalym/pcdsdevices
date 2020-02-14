@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPM\_Det.clear\_sub
+===================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPM_Det.clear_sub

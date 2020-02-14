@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.IPM.subscribe
-=======================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: IPM.subscribe

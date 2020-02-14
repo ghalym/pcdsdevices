@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMDiode.walk\_subdevice\_classes
+=================================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMDiode.walk_subdevice_classes

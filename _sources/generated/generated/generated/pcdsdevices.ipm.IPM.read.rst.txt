@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPM.read
-========================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPM.read

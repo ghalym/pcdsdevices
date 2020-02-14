@@ -1,0 +1,6 @@
+pcdsdevices.ipm.Wave8Channel.get\_device\_tuple
+===============================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: Wave8Channel.get_device_tuple

@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPM.\_\_init\_\_
-================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPM.__init__

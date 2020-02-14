@@ -1,0 +1,84 @@
+pcdsdevices.ipm.IPM\_IPIMB
+==========================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. autoclass:: IPM_IPIMB
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~IPM_IPIMB.__init__
+      ~IPM_IPIMB.add_instantiation_callback
+      ~IPM_IPIMB.channel
+      ~IPM_IPIMB.check_value
+      ~IPM_IPIMB.clear_sub
+      ~IPM_IPIMB.configure
+      ~IPM_IPIMB.describe
+      ~IPM_IPIMB.describe_configuration
+      ~IPM_IPIMB.destroy
+      ~IPM_IPIMB.get
+      ~IPM_IPIMB.get_device_tuple
+      ~IPM_IPIMB.get_instantiated_signals
+      ~IPM_IPIMB.isum
+      ~IPM_IPIMB.pause
+      ~IPM_IPIMB.put
+      ~IPM_IPIMB.read
+      ~IPM_IPIMB.read_configuration
+      ~IPM_IPIMB.remove
+      ~IPM_IPIMB.resume
+      ~IPM_IPIMB.stage
+      ~IPM_IPIMB.stop
+      ~IPM_IPIMB.subscribe
+      ~IPM_IPIMB.summary
+      ~IPM_IPIMB.trigger
+      ~IPM_IPIMB.unstage
+      ~IPM_IPIMB.unsubscribe
+      ~IPM_IPIMB.unsubscribe_all
+      ~IPM_IPIMB.wait_for_connection
+      ~IPM_IPIMB.walk_components
+      ~IPM_IPIMB.walk_signals
+      ~IPM_IPIMB.walk_subdevice_classes
+      ~IPM_IPIMB.walk_subdevices
+      ~IPM_IPIMB.xpos
+      ~IPM_IPIMB.ypos
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~IPM_IPIMB.SUB_ACQ_DONE
+      ~IPM_IPIMB.attr_name
+      ~IPM_IPIMB.channels
+      ~IPM_IPIMB.component_names
+      ~IPM_IPIMB.configuration_attrs
+      ~IPM_IPIMB.connected
+      ~IPM_IPIMB.diode
+      ~IPM_IPIMB.dotted_name
+      ~IPM_IPIMB.event_types
+      ~IPM_IPIMB.hints
+      ~IPM_IPIMB.inserted
+      ~IPM_IPIMB.ipimb
+      ~IPM_IPIMB.kind
+      ~IPM_IPIMB.lazy_wait_for_connection
+      ~IPM_IPIMB.name
+      ~IPM_IPIMB.parent
+      ~IPM_IPIMB.read_attrs
+      ~IPM_IPIMB.removed
+      ~IPM_IPIMB.report
+      ~IPM_IPIMB.root
+      ~IPM_IPIMB.signal_names
+      ~IPM_IPIMB.tab_whitelist
+      ~IPM_IPIMB.target
+      ~IPM_IPIMB.transmission
+      ~IPM_IPIMB.trigger_signals
+   
+   

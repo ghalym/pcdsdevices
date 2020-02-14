@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMMotion.clear\_sub
+====================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMMotion.clear_sub

@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.IPM.stop
-==================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: IPM.stop

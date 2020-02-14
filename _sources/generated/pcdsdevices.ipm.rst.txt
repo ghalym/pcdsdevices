@@ -5,6 +5,13 @@ pcdsdevices.ipm
 
    
    
+   .. rubric:: Functions
+
+   .. autosummary::
+      :toctree: generated
+   
+      IPM
+   
    
 
    
@@ -14,8 +21,16 @@ pcdsdevices.ipm
    .. autosummary::
       :toctree: generated
    
-      IPM
+      IPIMB
+      IPIMBChannel
+      IPMDiode
+      IPMMotion
       IPMTarget
+      IPM_Det
+      IPM_IPIMB
+      IPM_Wave8
+      Wave8
+      Wave8Channel
    
    
 

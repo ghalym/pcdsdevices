@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPM\_IPIMB.get\_device\_tuple
+=============================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPM_IPIMB.get_device_tuple

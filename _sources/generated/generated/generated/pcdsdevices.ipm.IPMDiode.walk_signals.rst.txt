@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMDiode.walk\_signals
+======================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMDiode.walk_signals

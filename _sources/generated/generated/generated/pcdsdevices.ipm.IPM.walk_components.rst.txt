@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPM.walk\_components
-====================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPM.walk_components

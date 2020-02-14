@@ -1,0 +1,6 @@
+pcdsdevices.utils.ipm\_screen
+=============================
+
+.. currentmodule:: pcdsdevices.utils
+
+.. autofunction:: ipm_screen

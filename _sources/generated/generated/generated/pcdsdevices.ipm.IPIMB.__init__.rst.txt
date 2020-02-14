@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPIMB.\_\_init\_\_
+==================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPIMB.__init__

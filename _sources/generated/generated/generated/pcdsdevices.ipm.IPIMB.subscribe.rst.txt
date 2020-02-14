@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPIMB.subscribe
+===============================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPIMB.subscribe

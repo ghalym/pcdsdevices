@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPM\_Wave8.add\_instantiation\_callback
+=======================================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPM_Wave8.add_instantiation_callback

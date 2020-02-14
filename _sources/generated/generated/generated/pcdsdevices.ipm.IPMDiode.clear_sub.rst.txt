@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMDiode.clear\_sub
+===================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMDiode.clear_sub

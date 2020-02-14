@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPIMBChannel.resume
+===================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPIMBChannel.resume

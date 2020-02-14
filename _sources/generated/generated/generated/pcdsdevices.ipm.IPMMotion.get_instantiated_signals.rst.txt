@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMMotion.get\_instantiated\_signals
+====================================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMMotion.get_instantiated_signals

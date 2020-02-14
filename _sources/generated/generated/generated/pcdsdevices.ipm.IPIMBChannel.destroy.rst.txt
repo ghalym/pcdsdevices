@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPIMBChannel.destroy
+====================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPIMBChannel.destroy

@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPM\_Wave8.get\_instantiated\_signals
+=====================================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPM_Wave8.get_instantiated_signals

@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMMotion.put
+=============================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMMotion.put

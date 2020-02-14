@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPIMB.check\_value
+==================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPIMB.check_value

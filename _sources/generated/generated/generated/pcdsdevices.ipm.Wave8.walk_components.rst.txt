@@ -1,0 +1,6 @@
+pcdsdevices.ipm.Wave8.walk\_components
+======================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: Wave8.walk_components

@@ -1,0 +1,6 @@
+pcdsdevices.ipm.Wave8Channel.walk\_signals
+==========================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: Wave8Channel.walk_signals

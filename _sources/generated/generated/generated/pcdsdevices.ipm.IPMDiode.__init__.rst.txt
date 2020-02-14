@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMDiode.\_\_init\_\_
+=====================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMDiode.__init__
