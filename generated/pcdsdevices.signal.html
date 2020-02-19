@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.signal &mdash; PCDS Devices 2.3.0+27.g41a1c62 documentation</title>
+  <title>pcdsdevices.signal &mdash; PCDS Devices 2.3.0+33.gf102f94 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.3.0+27.g41a1c62
+                2.3.0+33.gf102f94
               </div>
             
           
@@ -123,6 +123,9 @@
 <li class="toctree-l2 current"><a class="current reference internal" href="#">pcdsdevices.signal</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.html">pcdsdevices.signal.AggregateSignal</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.html">pcdsdevices.signal.AvgSignal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignal.html">pcdsdevices.signal.PytmcSignal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignalRO.html">pcdsdevices.signal.PytmcSignalRO</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignalRW.html">pcdsdevices.signal.PytmcSignalRW</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.sim.html">pcdsdevices.sim</a></li>
@@ -213,6 +216,15 @@
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.html#pcdsdevices.signal.AvgSignal" title="pcdsdevices.signal.AvgSignal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AvgSignal</span></code></a>(signal, averages, *, name[, parent])</p></td>
 <td><p>Signal that acts as a rolling average of another signal.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignal.html#pcdsdevices.signal.PytmcSignal" title="pcdsdevices.signal.PytmcSignal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PytmcSignal</span></code></a>(prefix, *, io, **kwargs)</p></td>
+<td><p>Class for a connection to a pytmc-generated EPICS record.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignalRO.html#pcdsdevices.signal.PytmcSignalRO" title="pcdsdevices.signal.PytmcSignalRO"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PytmcSignalRO</span></code></a>(prefix, *, io, **kwargs)</p></td>
+<td><p>Read-only connection to a pytmc-generated EPICS record</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignalRW.html#pcdsdevices.signal.PytmcSignalRW" title="pcdsdevices.signal.PytmcSignalRW"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PytmcSignalRW</span></code></a>(prefix, **kwargs)</p></td>
+<td><p>Read-write connection to a pytmc-generated EPICS record</p></td>
 </tr>
 </tbody>
 </table>

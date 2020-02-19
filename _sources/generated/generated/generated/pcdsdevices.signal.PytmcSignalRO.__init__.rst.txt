@@ -1,0 +1,6 @@
+pcdsdevices.signal.PytmcSignalRO.\_\_init\_\_
+=============================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: PytmcSignalRO.__init__

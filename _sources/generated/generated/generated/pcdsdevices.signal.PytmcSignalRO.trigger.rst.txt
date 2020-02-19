@@ -1,0 +1,6 @@
+pcdsdevices.signal.PytmcSignalRO.trigger
+========================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: PytmcSignalRO.trigger

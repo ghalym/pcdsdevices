@@ -1,0 +1,6 @@
+pcdsdevices.signal.PytmcSignalRW.put
+====================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: PytmcSignalRW.put

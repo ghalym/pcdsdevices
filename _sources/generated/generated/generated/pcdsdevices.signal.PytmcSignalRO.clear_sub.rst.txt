@@ -1,0 +1,6 @@
+pcdsdevices.signal.PytmcSignalRO.clear\_sub
+===========================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: PytmcSignalRO.clear_sub

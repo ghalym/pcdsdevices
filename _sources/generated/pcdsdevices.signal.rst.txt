@@ -16,6 +16,9 @@ pcdsdevices.signal
    
       AggregateSignal
       AvgSignal
+      PytmcSignal
+      PytmcSignalRO
+      PytmcSignalRW
    
    
 
