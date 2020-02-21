@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICTChannel.\_\_init\_\_
+===============================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICTChannel.__init__

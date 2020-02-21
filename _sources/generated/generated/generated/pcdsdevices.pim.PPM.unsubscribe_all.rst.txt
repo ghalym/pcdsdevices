@@ -1,0 +1,6 @@
+pcdsdevices.pim.PPM.unsubscribe\_all
+====================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PPM.unsubscribe_all

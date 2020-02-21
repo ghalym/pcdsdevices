@@ -73,7 +73,6 @@ pcdsdevices.epics\_motor.BeckhoffAxis
       ~BeckhoffAxis.SUB_START
       ~BeckhoffAxis.acceleration
       ~BeckhoffAxis.attr_name
-      ~BeckhoffAxis.cmd_err_reset
       ~BeckhoffAxis.component_names
       ~BeckhoffAxis.configuration_attrs
       ~BeckhoffAxis.connected
@@ -103,6 +102,7 @@ pcdsdevices.epics\_motor.BeckhoffAxis
       ~BeckhoffAxis.name
       ~BeckhoffAxis.offset_freeze_switch
       ~BeckhoffAxis.parent
+      ~BeckhoffAxis.plc
       ~BeckhoffAxis.position
       ~BeckhoffAxis.precision
       ~BeckhoffAxis.presets
@@ -112,7 +112,6 @@ pcdsdevices.epics\_motor.BeckhoffAxis
       ~BeckhoffAxis.set_use_switch
       ~BeckhoffAxis.settle_time
       ~BeckhoffAxis.signal_names
-      ~BeckhoffAxis.status
       ~BeckhoffAxis.tab_whitelist
       ~BeckhoffAxis.timeout
       ~BeckhoffAxis.tolerated_alarm

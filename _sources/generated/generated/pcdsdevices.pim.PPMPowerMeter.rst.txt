@@ -1,0 +1,83 @@
+pcdsdevices.pim.PPMPowerMeter
+=============================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. autoclass:: PPMPowerMeter
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~PPMPowerMeter.__init__
+      ~PPMPowerMeter.add_instantiation_callback
+      ~PPMPowerMeter.check_value
+      ~PPMPowerMeter.clear_sub
+      ~PPMPowerMeter.configure
+      ~PPMPowerMeter.describe
+      ~PPMPowerMeter.describe_configuration
+      ~PPMPowerMeter.destroy
+      ~PPMPowerMeter.get
+      ~PPMPowerMeter.get_device_tuple
+      ~PPMPowerMeter.get_instantiated_signals
+      ~PPMPowerMeter.pause
+      ~PPMPowerMeter.put
+      ~PPMPowerMeter.read
+      ~PPMPowerMeter.read_configuration
+      ~PPMPowerMeter.resume
+      ~PPMPowerMeter.stage
+      ~PPMPowerMeter.stop
+      ~PPMPowerMeter.subscribe
+      ~PPMPowerMeter.summary
+      ~PPMPowerMeter.trigger
+      ~PPMPowerMeter.unstage
+      ~PPMPowerMeter.unsubscribe
+      ~PPMPowerMeter.unsubscribe_all
+      ~PPMPowerMeter.wait_for_connection
+      ~PPMPowerMeter.walk_components
+      ~PPMPowerMeter.walk_signals
+      ~PPMPowerMeter.walk_subdevice_classes
+      ~PPMPowerMeter.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PPMPowerMeter.SUB_ACQ_DONE
+      ~PPMPowerMeter.attr_name
+      ~PPMPowerMeter.calib_mj_ratio
+      ~PPMPowerMeter.calib_offset
+      ~PPMPowerMeter.calib_ratio
+      ~PPMPowerMeter.calibrated_mj
+      ~PPMPowerMeter.calibrated_mj_buffer
+      ~PPMPowerMeter.component_names
+      ~PPMPowerMeter.configuration_attrs
+      ~PPMPowerMeter.connected
+      ~PPMPowerMeter.dimensionless
+      ~PPMPowerMeter.dimensionless_buffer
+      ~PPMPowerMeter.dotted_name
+      ~PPMPowerMeter.event_types
+      ~PPMPowerMeter.hints
+      ~PPMPowerMeter.kind
+      ~PPMPowerMeter.lazy_wait_for_connection
+      ~PPMPowerMeter.name
+      ~PPMPowerMeter.parent
+      ~PPMPowerMeter.raw_voltage
+      ~PPMPowerMeter.raw_voltage_buffer
+      ~PPMPowerMeter.read_attrs
+      ~PPMPowerMeter.report
+      ~PPMPowerMeter.root
+      ~PPMPowerMeter.signal_names
+      ~PPMPowerMeter.tab_component_names
+      ~PPMPowerMeter.tab_whitelist
+      ~PPMPowerMeter.thermocouple
+      ~PPMPowerMeter.trigger_signals
+   
+   

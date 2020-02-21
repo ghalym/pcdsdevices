@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.BeckhoffAxisPLC.pause
+==============================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: BeckhoffAxisPLC.pause

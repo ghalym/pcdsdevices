@@ -1,0 +1,6 @@
+pcdsdevices.interface.MvInterface.clear\_sub
+============================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: MvInterface.clear_sub

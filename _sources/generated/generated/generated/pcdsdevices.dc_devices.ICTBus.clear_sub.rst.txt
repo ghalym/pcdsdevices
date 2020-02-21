@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICTBus.clear\_sub
+=========================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICTBus.clear_sub

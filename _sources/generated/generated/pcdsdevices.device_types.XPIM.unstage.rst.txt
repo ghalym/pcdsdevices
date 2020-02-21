@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XPIM.unstage
+======================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XPIM.unstage

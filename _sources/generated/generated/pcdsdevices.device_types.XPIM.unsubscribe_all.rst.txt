@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XPIM.unsubscribe\_all
+===============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XPIM.unsubscribe_all

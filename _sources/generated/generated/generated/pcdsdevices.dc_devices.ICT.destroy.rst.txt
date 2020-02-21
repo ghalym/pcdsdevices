@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICT.destroy
+===================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICT.destroy

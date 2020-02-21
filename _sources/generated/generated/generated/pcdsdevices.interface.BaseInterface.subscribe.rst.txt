@@ -1,0 +1,6 @@
+pcdsdevices.interface.BaseInterface.subscribe
+=============================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: BaseInterface.subscribe

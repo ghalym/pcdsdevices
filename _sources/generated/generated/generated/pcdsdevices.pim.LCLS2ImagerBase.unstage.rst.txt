@@ -1,0 +1,6 @@
+pcdsdevices.pim.LCLS2ImagerBase.unstage
+=======================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: LCLS2ImagerBase.unstage

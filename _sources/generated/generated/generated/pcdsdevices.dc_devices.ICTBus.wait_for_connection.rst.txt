@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICTBus.wait\_for\_connection
+====================================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICTBus.wait_for_connection

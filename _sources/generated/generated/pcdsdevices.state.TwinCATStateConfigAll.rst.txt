@@ -1,0 +1,86 @@
+pcdsdevices.state.TwinCATStateConfigAll
+=======================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. autoclass:: TwinCATStateConfigAll
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~TwinCATStateConfigAll.__init__
+      ~TwinCATStateConfigAll.add_instantiation_callback
+      ~TwinCATStateConfigAll.check_value
+      ~TwinCATStateConfigAll.clear_sub
+      ~TwinCATStateConfigAll.configure
+      ~TwinCATStateConfigAll.describe
+      ~TwinCATStateConfigAll.describe_configuration
+      ~TwinCATStateConfigAll.destroy
+      ~TwinCATStateConfigAll.get
+      ~TwinCATStateConfigAll.get_device_tuple
+      ~TwinCATStateConfigAll.get_instantiated_signals
+      ~TwinCATStateConfigAll.pause
+      ~TwinCATStateConfigAll.put
+      ~TwinCATStateConfigAll.read
+      ~TwinCATStateConfigAll.read_configuration
+      ~TwinCATStateConfigAll.resume
+      ~TwinCATStateConfigAll.stage
+      ~TwinCATStateConfigAll.stop
+      ~TwinCATStateConfigAll.subscribe
+      ~TwinCATStateConfigAll.summary
+      ~TwinCATStateConfigAll.trigger
+      ~TwinCATStateConfigAll.unstage
+      ~TwinCATStateConfigAll.unsubscribe
+      ~TwinCATStateConfigAll.unsubscribe_all
+      ~TwinCATStateConfigAll.wait_for_connection
+      ~TwinCATStateConfigAll.walk_components
+      ~TwinCATStateConfigAll.walk_signals
+      ~TwinCATStateConfigAll.walk_subdevice_classes
+      ~TwinCATStateConfigAll.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~TwinCATStateConfigAll.SUB_ACQ_DONE
+      ~TwinCATStateConfigAll.attr_name
+      ~TwinCATStateConfigAll.component_names
+      ~TwinCATStateConfigAll.configuration_attrs
+      ~TwinCATStateConfigAll.connected
+      ~TwinCATStateConfigAll.dotted_name
+      ~TwinCATStateConfigAll.event_types
+      ~TwinCATStateConfigAll.hints
+      ~TwinCATStateConfigAll.kind
+      ~TwinCATStateConfigAll.lazy_wait_for_connection
+      ~TwinCATStateConfigAll.name
+      ~TwinCATStateConfigAll.parent
+      ~TwinCATStateConfigAll.read_attrs
+      ~TwinCATStateConfigAll.report
+      ~TwinCATStateConfigAll.root
+      ~TwinCATStateConfigAll.signal_names
+      ~TwinCATStateConfigAll.state01
+      ~TwinCATStateConfigAll.state02
+      ~TwinCATStateConfigAll.state03
+      ~TwinCATStateConfigAll.state04
+      ~TwinCATStateConfigAll.state05
+      ~TwinCATStateConfigAll.state06
+      ~TwinCATStateConfigAll.state07
+      ~TwinCATStateConfigAll.state08
+      ~TwinCATStateConfigAll.state09
+      ~TwinCATStateConfigAll.state10
+      ~TwinCATStateConfigAll.state11
+      ~TwinCATStateConfigAll.state12
+      ~TwinCATStateConfigAll.state13
+      ~TwinCATStateConfigAll.state14
+      ~TwinCATStateConfigAll.state15
+      ~TwinCATStateConfigAll.trigger_signals
+   
+   

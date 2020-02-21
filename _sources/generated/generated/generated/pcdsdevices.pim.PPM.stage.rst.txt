@@ -1,0 +1,6 @@
+pcdsdevices.pim.PPM.stage
+=========================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PPM.stage

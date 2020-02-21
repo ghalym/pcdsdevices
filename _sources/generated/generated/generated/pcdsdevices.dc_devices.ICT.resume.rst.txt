@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICT.resume
+==================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICT.resume

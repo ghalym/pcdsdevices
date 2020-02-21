@@ -1,0 +1,6 @@
+pcdsdevices.interface.FltMvInterface.destroy
+============================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: FltMvInterface.destroy

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.interface.MvInterface.camonitor &mdash; PCDS Devices 2.3.0+33.gf102f94 documentation</title>
+  <title>pcdsdevices.interface.MvInterface.camonitor &mdash; PCDS Devices 2.3.0+58.g2e98c6a documentation</title>
   
 
   
@@ -35,8 +35,8 @@
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.interface.MvInterface.end_monitor_thread" href="pcdsdevices.interface.MvInterface.end_monitor_thread.html" />
-    <link rel="prev" title="pcdsdevices.interface.MvInterface.__init__" href="pcdsdevices.interface.MvInterface.__init__.html" /> 
+    <link rel="next" title="pcdsdevices.interface.MvInterface.check_value" href="pcdsdevices.interface.MvInterface.check_value.html" />
+    <link rel="prev" title="pcdsdevices.interface.MvInterface.add_instantiation_callback" href="pcdsdevices.interface.MvInterface.add_instantiation_callback.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.3.0+33.gf102f94
+                2.3.0+58.g2e98c6a
               </div>
             
           
@@ -104,6 +104,9 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.evr.html">pcdsdevices.evr</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
@@ -118,9 +121,16 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.interface.FltMvInterface.html">pcdsdevices.interface.FltMvInterface</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.interface.MvInterface.html">pcdsdevices.interface.MvInterface</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.interface.MvInterface.__init__.html">pcdsdevices.interface.MvInterface.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.interface.MvInterface.add_instantiation_callback.html">pcdsdevices.interface.MvInterface.add_instantiation_callback</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.interface.MvInterface.camonitor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.interface.MvInterface.check_value.html">pcdsdevices.interface.MvInterface.check_value</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.interface.MvInterface.clear_sub.html">pcdsdevices.interface.MvInterface.clear_sub</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.interface.MvInterface.destroy.html">pcdsdevices.interface.MvInterface.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.interface.MvInterface.end_monitor_thread.html">pcdsdevices.interface.MvInterface.end_monitor_thread</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.interface.MvInterface.mv.html">pcdsdevices.interface.MvInterface.mv</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.interface.MvInterface.subscribe.html">pcdsdevices.interface.MvInterface.subscribe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.interface.MvInterface.unsubscribe.html">pcdsdevices.interface.MvInterface.unsubscribe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.interface.MvInterface.unsubscribe_all.html">pcdsdevices.interface.MvInterface.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.interface.MvInterface.wm.html">pcdsdevices.interface.MvInterface.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.interface.MvInterface.wm_update.html">pcdsdevices.interface.MvInterface.wm_update</a></li>
 </ul>
@@ -135,10 +145,12 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mirror.html">pcdsdevices.mirror</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.movablestand.html">pcdsdevices.movablestand</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mps.html">pcdsdevices.mps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mv_interface.html">pcdsdevices.mv_interface</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pump.html">pcdsdevices.pump</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.sensors.html">pcdsdevices.sensors</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.sequencer.html">pcdsdevices.sequencer</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.signal.html">pcdsdevices.signal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.sim.html">pcdsdevices.sim</a></li>
@@ -240,10 +252,10 @@ background thread.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.interface.MvInterface.end_monitor_thread.html" class="btn btn-neutral float-right" title="pcdsdevices.interface.MvInterface.end_monitor_thread" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.interface.MvInterface.check_value.html" class="btn btn-neutral float-right" title="pcdsdevices.interface.MvInterface.check_value" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="pcdsdevices.interface.MvInterface.__init__.html" class="btn btn-neutral float-left" title="pcdsdevices.interface.MvInterface.__init__" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="pcdsdevices.interface.MvInterface.add_instantiation_callback.html" class="btn btn-neutral float-left" title="pcdsdevices.interface.MvInterface.add_instantiation_callback" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

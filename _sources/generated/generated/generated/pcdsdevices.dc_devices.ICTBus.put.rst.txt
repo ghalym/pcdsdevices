@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICTBus.put
+==================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICTBus.put

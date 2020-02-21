@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICTBus.get\_instantiated\_signals
+=========================================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICTBus.get_instantiated_signals

@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICT.check\_value
+========================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICT.check_value

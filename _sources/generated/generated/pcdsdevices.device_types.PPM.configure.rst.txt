@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PPM.configure
+=======================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PPM.configure

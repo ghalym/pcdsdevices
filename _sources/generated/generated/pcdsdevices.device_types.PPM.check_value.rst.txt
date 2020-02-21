@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PPM.check\_value
+==========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PPM.check_value

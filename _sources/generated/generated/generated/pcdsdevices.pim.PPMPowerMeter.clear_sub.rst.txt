@@ -1,0 +1,6 @@
+pcdsdevices.pim.PPMPowerMeter.clear\_sub
+========================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PPMPowerMeter.clear_sub

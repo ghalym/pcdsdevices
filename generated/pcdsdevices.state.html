@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.state &mdash; PCDS Devices 2.3.0+33.gf102f94 documentation</title>
+  <title>pcdsdevices.state &mdash; PCDS Devices 2.3.0+58.g2e98c6a documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.3.0+33.gf102f94
+                2.3.0+58.g2e98c6a
               </div>
             
           
@@ -104,6 +104,9 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.evr.html">pcdsdevices.evr</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
@@ -115,10 +118,12 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.mirror.html">pcdsdevices.mirror</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.movablestand.html">pcdsdevices.movablestand</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.mps.html">pcdsdevices.mps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.mv_interface.html">pcdsdevices.mv_interface</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pump.html">pcdsdevices.pump</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.sensors.html">pcdsdevices.sensors</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.sequencer.html">pcdsdevices.sequencer</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.signal.html">pcdsdevices.signal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.sim.html">pcdsdevices.sim</a></li>
@@ -129,6 +134,9 @@
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.html">pcdsdevices.state.StatePositioner</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositioner.html">pcdsdevices.state.StateRecordPositioner</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.html">pcdsdevices.state.StateStatus</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.state.TwinCATStateConfigAll.html">pcdsdevices.state.TwinCATStateConfigAll</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.state.TwinCATStateConfigOne.html">pcdsdevices.state.TwinCATStateConfigOne</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.state.TwinCATStatePositioner.html">pcdsdevices.state.TwinCATStatePositioner</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.utils.html">pcdsdevices.utils</a></li>
@@ -225,6 +233,15 @@
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.html#pcdsdevices.state.StateStatus" title="pcdsdevices.state.StateStatus"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StateStatus</span></code></a>(device, desired_state[, …])</p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">Status</span></code> produced by state request</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.TwinCATStateConfigAll.html#pcdsdevices.state.TwinCATStateConfigAll" title="pcdsdevices.state.TwinCATStateConfigAll"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TwinCATStateConfigAll</span></code></a>([prefix, kind, …])</p></td>
+<td><p>Configuration of all possible state positions in TwinCAT</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.TwinCATStateConfigOne.html#pcdsdevices.state.TwinCATStateConfigOne" title="pcdsdevices.state.TwinCATStateConfigOne"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TwinCATStateConfigOne</span></code></a>([prefix, kind, …])</p></td>
+<td><p>Configuration of a single state position in TwinCAT</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.TwinCATStatePositioner.html#pcdsdevices.state.TwinCATStatePositioner" title="pcdsdevices.state.TwinCATStatePositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TwinCATStatePositioner</span></code></a>(prefix, *, name, **kwargs)</p></td>
+<td><p>A <a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.html#pcdsdevices.state.StatePositioner" title="pcdsdevices.state.StatePositioner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">StatePositioner</span></code></a> from Beckhoff land</p></td>
 </tr>
 </tbody>
 </table>

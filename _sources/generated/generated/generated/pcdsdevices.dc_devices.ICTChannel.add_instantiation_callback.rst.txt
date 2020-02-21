@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICTChannel.add\_instantiation\_callback
+===============================================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICTChannel.add_instantiation_callback

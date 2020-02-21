@@ -1,0 +1,76 @@
+pcdsdevices.dc\_devices.ICTBus
+==============================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. autoclass:: ICTBus
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~ICTBus.__init__
+      ~ICTBus.add_instantiation_callback
+      ~ICTBus.check_value
+      ~ICTBus.clear_sub
+      ~ICTBus.configure
+      ~ICTBus.current
+      ~ICTBus.describe
+      ~ICTBus.describe_configuration
+      ~ICTBus.destroy
+      ~ICTBus.get
+      ~ICTBus.get_device_tuple
+      ~ICTBus.get_instantiated_signals
+      ~ICTBus.pause
+      ~ICTBus.put
+      ~ICTBus.read
+      ~ICTBus.read_configuration
+      ~ICTBus.resume
+      ~ICTBus.stage
+      ~ICTBus.stop
+      ~ICTBus.subscribe
+      ~ICTBus.summary
+      ~ICTBus.trigger
+      ~ICTBus.unstage
+      ~ICTBus.unsubscribe
+      ~ICTBus.unsubscribe_all
+      ~ICTBus.voltage
+      ~ICTBus.wait_for_connection
+      ~ICTBus.walk_components
+      ~ICTBus.walk_signals
+      ~ICTBus.walk_subdevice_classes
+      ~ICTBus.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~ICTBus.SUB_ACQ_DONE
+      ~ICTBus.attr_name
+      ~ICTBus.bus_current
+      ~ICTBus.bus_name
+      ~ICTBus.bus_voltage
+      ~ICTBus.component_names
+      ~ICTBus.configuration_attrs
+      ~ICTBus.connected
+      ~ICTBus.dotted_name
+      ~ICTBus.event_types
+      ~ICTBus.hints
+      ~ICTBus.kind
+      ~ICTBus.lazy_wait_for_connection
+      ~ICTBus.name
+      ~ICTBus.parent
+      ~ICTBus.read_attrs
+      ~ICTBus.report
+      ~ICTBus.root
+      ~ICTBus.signal_names
+      ~ICTBus.trigger_signals
+   
+   

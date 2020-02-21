@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICT.get\_instantiated\_signals
+======================================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICT.get_instantiated_signals

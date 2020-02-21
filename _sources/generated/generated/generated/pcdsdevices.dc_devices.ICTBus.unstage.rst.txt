@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICTBus.unstage
+======================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICTBus.unstage

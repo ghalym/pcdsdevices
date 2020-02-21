@@ -1,0 +1,6 @@
+pcdsdevices.sensors.TwinCATThermoCouple.\_\_init\_\_
+====================================================
+
+.. currentmodule:: pcdsdevices.sensors
+
+.. automethod:: TwinCATThermoCouple.__init__

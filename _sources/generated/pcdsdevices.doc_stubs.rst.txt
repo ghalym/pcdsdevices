@@ -1,0 +1,16 @@
+pcdsdevices.doc\_stubs
+======================
+
+.. automodule:: pcdsdevices.doc_stubs
+
+   
+   
+   
+
+   
+   
+   
+
+   
+   
+   

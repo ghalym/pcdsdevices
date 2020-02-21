@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICTChannel.destroy
+==========================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICTChannel.destroy

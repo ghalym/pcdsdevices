@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.BeckhoffAxisPLC.add\_instantiation\_callback
+=====================================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: BeckhoffAxisPLC.add_instantiation_callback

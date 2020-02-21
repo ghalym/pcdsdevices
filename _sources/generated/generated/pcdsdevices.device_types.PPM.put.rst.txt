@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PPM.put
+=================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PPM.put

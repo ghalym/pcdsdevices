@@ -1,0 +1,6 @@
+pcdsdevices.pim.LCLS2ImagerBase.subscribe
+=========================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: LCLS2ImagerBase.subscribe

@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICTChannel.unsubscribe\_all
+===================================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICTChannel.unsubscribe_all

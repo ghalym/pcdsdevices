@@ -1,0 +1,6 @@
+pcdsdevices.state.TwinCATStateConfigAll.walk\_subdevices
+========================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: TwinCATStateConfigAll.walk_subdevices

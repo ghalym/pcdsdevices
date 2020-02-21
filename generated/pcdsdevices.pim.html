@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.pim &mdash; PCDS Devices 2.3.0+33.gf102f94 documentation</title>
+  <title>pcdsdevices.pim &mdash; PCDS Devices 2.3.0+58.g2e98c6a documentation</title>
   
 
   
@@ -35,8 +35,8 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="pcdsdevices.pim.PIM" href="generated/pcdsdevices.pim.PIM.html" />
-    <link rel="prev" title="pcdsdevices.mps.MPSLimits.walk_subdevices" href="generated/generated/pcdsdevices.mps.MPSLimits.walk_subdevices.html" /> 
+    <link rel="next" title="pcdsdevices.pim.LCLS2ImagerBase" href="generated/pcdsdevices.pim.LCLS2ImagerBase.html" />
+    <link rel="prev" title="pcdsdevices.mv_interface" href="pcdsdevices.mv_interface.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.3.0+33.gf102f94
+                2.3.0+58.g2e98c6a
               </div>
             
           
@@ -104,6 +104,9 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.evr.html">pcdsdevices.evr</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
@@ -115,14 +118,21 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.mirror.html">pcdsdevices.mirror</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.movablestand.html">pcdsdevices.movablestand</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.mps.html">pcdsdevices.mps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.mv_interface.html">pcdsdevices.mv_interface</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">pcdsdevices.pim</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.pim.LCLS2ImagerBase.html">pcdsdevices.pim.LCLS2ImagerBase</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.pim.PIM.html">pcdsdevices.pim.PIM</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.html">pcdsdevices.pim.PIMMotor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.pim.PPM.html">pcdsdevices.pim.PPM</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.pim.PPMPowerMeter.html">pcdsdevices.pim.PPMPowerMeter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.pim.XPIM.html">pcdsdevices.pim.XPIM</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.pim.XPIMFilterWheel.html">pcdsdevices.pim.XPIMFilterWheel</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pump.html">pcdsdevices.pump</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.sensors.html">pcdsdevices.sensors</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.sequencer.html">pcdsdevices.sequencer</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.signal.html">pcdsdevices.signal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.sim.html">pcdsdevices.sim</a></li>
@@ -211,11 +221,26 @@ yag position and a camera to view the yag.</p>
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIM.html#pcdsdevices.pim.PIM" title="pcdsdevices.pim.PIM"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PIM</span></code></a>(prefix, *, name[, prefix_det])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.LCLS2ImagerBase.html#pcdsdevices.pim.LCLS2ImagerBase" title="pcdsdevices.pim.LCLS2ImagerBase"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LCLS2ImagerBase</span></code></a>([prefix, kind, read_attrs, …])</p></td>
+<td><p>Shared PVs and components from the LCLS2 imagers</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIM.html#pcdsdevices.pim.PIM" title="pcdsdevices.pim.PIM"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PIM</span></code></a>(prefix, *, name[, prefix_det])</p></td>
 <td><p>Profile intensity monitor, fully motorized and with a detector.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.html#pcdsdevices.pim.PIMMotor" title="pcdsdevices.pim.PIMMotor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PIMMotor</span></code></a>(prefix, *, name, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMMotor.html#pcdsdevices.pim.PIMMotor" title="pcdsdevices.pim.PIMMotor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PIMMotor</span></code></a>(prefix, *, name, **kwargs)</p></td>
 <td><p>Standard position monitor motor.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PPM.html#pcdsdevices.pim.PPM" title="pcdsdevices.pim.PPM"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PPM</span></code></a>([prefix, kind, read_attrs, …])</p></td>
+<td><p>L2SI’s Power and Profile Monitor design.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PPMPowerMeter.html#pcdsdevices.pim.PPMPowerMeter" title="pcdsdevices.pim.PPMPowerMeter"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PPMPowerMeter</span></code></a>([prefix, kind, read_attrs, …])</p></td>
+<td><p>Analog measurement tool for beam energy as part of the PPM assembly.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIM.html#pcdsdevices.pim.XPIM" title="pcdsdevices.pim.XPIM"><code class="xref py py-obj docutils literal notranslate"><span class="pre">XPIM</span></code></a>([prefix, kind, read_attrs, …])</p></td>
+<td><p>XTES’s Imager design.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMFilterWheel.html#pcdsdevices.pim.XPIMFilterWheel" title="pcdsdevices.pim.XPIMFilterWheel"><code class="xref py py-obj docutils literal notranslate"><span class="pre">XPIMFilterWheel</span></code></a>(prefix, *, name, **kwargs)</p></td>
+<td><p>Controllable optical filters to prevent camera saturation.</p></td>
 </tr>
 </tbody>
 </table>
@@ -229,10 +254,10 @@ yag position and a camera to view the yag.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="generated/pcdsdevices.pim.PIM.html" class="btn btn-neutral float-right" title="pcdsdevices.pim.PIM" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="generated/pcdsdevices.pim.LCLS2ImagerBase.html" class="btn btn-neutral float-right" title="pcdsdevices.pim.LCLS2ImagerBase" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="generated/generated/pcdsdevices.mps.MPSLimits.walk_subdevices.html" class="btn btn-neutral float-left" title="pcdsdevices.mps.MPSLimits.walk_subdevices" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="pcdsdevices.mv_interface.html" class="btn btn-neutral float-left" title="pcdsdevices.mv_interface" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

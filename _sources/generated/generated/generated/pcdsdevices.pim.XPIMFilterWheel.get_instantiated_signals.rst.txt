@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMFilterWheel.get\_instantiated\_signals
+==========================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMFilterWheel.get_instantiated_signals

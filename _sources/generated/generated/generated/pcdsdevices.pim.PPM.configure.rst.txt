@@ -1,0 +1,6 @@
+pcdsdevices.pim.PPM.configure
+=============================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PPM.configure

@@ -1,0 +1,6 @@
+pcdsdevices.sensors.TwinCATThermoCouple.destroy
+===============================================
+
+.. currentmodule:: pcdsdevices.sensors
+
+.. automethod:: TwinCATThermoCouple.destroy

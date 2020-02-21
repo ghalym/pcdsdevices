@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICTBus.add\_instantiation\_callback
+===========================================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICTBus.add_instantiation_callback

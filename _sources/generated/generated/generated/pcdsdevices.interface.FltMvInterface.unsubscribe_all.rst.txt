@@ -1,0 +1,6 @@
+pcdsdevices.interface.FltMvInterface.unsubscribe\_all
+=====================================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: FltMvInterface.unsubscribe_all

@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICTBus.get\_device\_tuple
+=================================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICTBus.get_device_tuple

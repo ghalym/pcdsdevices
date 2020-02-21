@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICTChannel.subscribe
+============================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICTChannel.subscribe

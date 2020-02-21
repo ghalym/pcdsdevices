@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICTBus.destroy
+======================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICTBus.destroy

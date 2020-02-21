@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIM.resume
+===========================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIM.resume

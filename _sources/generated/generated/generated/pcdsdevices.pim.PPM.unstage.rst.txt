@@ -1,0 +1,6 @@
+pcdsdevices.pim.PPM.unstage
+===========================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PPM.unstage

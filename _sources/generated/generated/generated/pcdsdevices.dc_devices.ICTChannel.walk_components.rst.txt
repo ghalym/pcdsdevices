@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICTChannel.walk\_components
+===================================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICTChannel.walk_components

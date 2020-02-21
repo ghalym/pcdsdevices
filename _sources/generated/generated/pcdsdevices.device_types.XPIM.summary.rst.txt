@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XPIM.summary
+======================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XPIM.summary

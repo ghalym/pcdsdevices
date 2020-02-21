@@ -1,0 +1,6 @@
+pcdsdevices.sensors.TwinCATThermoCouple.get\_instantiated\_signals
+==================================================================
+
+.. currentmodule:: pcdsdevices.sensors
+
+.. automethod:: TwinCATThermoCouple.get_instantiated_signals

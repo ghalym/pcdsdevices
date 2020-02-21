@@ -1,0 +1,6 @@
+pcdsdevices.state.TwinCATStatePositioner.wait\_for\_connection
+==============================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: TwinCATStatePositioner.wait_for_connection

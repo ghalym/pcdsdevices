@@ -13,6 +13,13 @@ pcdsdevices.interface.BaseInterface
       :toctree: generated
    
       ~BaseInterface.__init__
+      ~BaseInterface.add_instantiation_callback
+      ~BaseInterface.check_value
+      ~BaseInterface.clear_sub
+      ~BaseInterface.destroy
+      ~BaseInterface.subscribe
+      ~BaseInterface.unsubscribe
+      ~BaseInterface.unsubscribe_all
    
    
 
@@ -22,6 +29,15 @@ pcdsdevices.interface.BaseInterface
 
    .. autosummary::
    
+      ~BaseInterface.attr_name
+      ~BaseInterface.connected
+      ~BaseInterface.dotted_name
+      ~BaseInterface.event_types
+      ~BaseInterface.kind
+      ~BaseInterface.name
+      ~BaseInterface.parent
+      ~BaseInterface.report
+      ~BaseInterface.root
       ~BaseInterface.tab_whitelist
    
    

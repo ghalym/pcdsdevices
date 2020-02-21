@@ -1,0 +1,6 @@
+pcdsdevices.interface.BaseInterface.unsubscribe\_all
+====================================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: BaseInterface.unsubscribe_all

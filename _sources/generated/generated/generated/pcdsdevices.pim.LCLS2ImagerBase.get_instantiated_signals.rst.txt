@@ -1,0 +1,6 @@
+pcdsdevices.pim.LCLS2ImagerBase.get\_instantiated\_signals
+==========================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: LCLS2ImagerBase.get_instantiated_signals

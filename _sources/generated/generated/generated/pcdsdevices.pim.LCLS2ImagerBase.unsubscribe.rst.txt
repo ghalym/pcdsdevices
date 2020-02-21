@@ -1,0 +1,6 @@
+pcdsdevices.pim.LCLS2ImagerBase.unsubscribe
+===========================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: LCLS2ImagerBase.unsubscribe

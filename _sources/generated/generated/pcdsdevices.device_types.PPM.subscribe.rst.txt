@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PPM.subscribe
+=======================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PPM.subscribe

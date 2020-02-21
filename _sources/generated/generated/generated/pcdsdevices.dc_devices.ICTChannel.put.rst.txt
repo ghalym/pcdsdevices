@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICTChannel.put
+======================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICTChannel.put

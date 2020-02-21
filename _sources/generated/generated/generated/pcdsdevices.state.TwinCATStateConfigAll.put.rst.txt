@@ -1,0 +1,6 @@
+pcdsdevices.state.TwinCATStateConfigAll.put
+===========================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: TwinCATStateConfigAll.put

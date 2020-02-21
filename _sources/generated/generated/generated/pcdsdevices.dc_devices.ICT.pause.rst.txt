@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICT.pause
+=================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICT.pause

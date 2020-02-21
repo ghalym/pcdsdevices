@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICTChannel.resume
+=========================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICTChannel.resume

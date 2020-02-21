@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIM.destroy
+============================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIM.destroy

@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICT.walk\_subdevices
+============================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICT.walk_subdevices

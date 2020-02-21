@@ -1,0 +1,87 @@
+pcdsdevices.dc\_devices.ICT
+===========================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. autoclass:: ICT
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~ICT.__init__
+      ~ICT.add_instantiation_callback
+      ~ICT.check_value
+      ~ICT.clear_sub
+      ~ICT.configure
+      ~ICT.describe
+      ~ICT.describe_configuration
+      ~ICT.destroy
+      ~ICT.get
+      ~ICT.get_device_tuple
+      ~ICT.get_instantiated_signals
+      ~ICT.pause
+      ~ICT.put
+      ~ICT.read
+      ~ICT.read_configuration
+      ~ICT.resume
+      ~ICT.stage
+      ~ICT.stop
+      ~ICT.subscribe
+      ~ICT.summary
+      ~ICT.trigger
+      ~ICT.unstage
+      ~ICT.unsubscribe
+      ~ICT.unsubscribe_all
+      ~ICT.wait_for_connection
+      ~ICT.walk_components
+      ~ICT.walk_signals
+      ~ICT.walk_subdevice_classes
+      ~ICT.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~ICT.SUB_ACQ_DONE
+      ~ICT.attr_name
+      ~ICT.bus_A
+      ~ICT.bus_B
+      ~ICT.ch_1A
+      ~ICT.ch_1B
+      ~ICT.ch_2A
+      ~ICT.ch_2B
+      ~ICT.ch_3A
+      ~ICT.ch_3B
+      ~ICT.ch_4A
+      ~ICT.ch_4B
+      ~ICT.ch_5A
+      ~ICT.ch_5B
+      ~ICT.ch_6A
+      ~ICT.ch_6B
+      ~ICT.component_names
+      ~ICT.configuration_attrs
+      ~ICT.connected
+      ~ICT.dotted_name
+      ~ICT.event_types
+      ~ICT.hints
+      ~ICT.kind
+      ~ICT.lazy_wait_for_connection
+      ~ICT.name
+      ~ICT.parent
+      ~ICT.read_attrs
+      ~ICT.report
+      ~ICT.root
+      ~ICT.signal_names
+      ~ICT.tab_component_names
+      ~ICT.tab_whitelist
+      ~ICT.trigger_signals
+   
+   

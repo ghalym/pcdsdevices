@@ -14,8 +14,13 @@ pcdsdevices.pim
    .. autosummary::
       :toctree: generated
    
+      LCLS2ImagerBase
       PIM
       PIMMotor
+      PPM
+      PPMPowerMeter
+      XPIM
+      XPIMFilterWheel
    
    
 

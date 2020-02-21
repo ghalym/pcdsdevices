@@ -1,0 +1,6 @@
+pcdsdevices.sensors.TwinCATThermoCouple.pause
+=============================================
+
+.. currentmodule:: pcdsdevices.sensors
+
+.. automethod:: TwinCATThermoCouple.pause

@@ -1,0 +1,6 @@
+pcdsdevices.pim.PPMPowerMeter.subscribe
+=======================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PPMPowerMeter.subscribe

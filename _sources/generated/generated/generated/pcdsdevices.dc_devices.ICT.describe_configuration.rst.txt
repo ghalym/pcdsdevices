@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICT.describe\_configuration
+===================================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICT.describe_configuration

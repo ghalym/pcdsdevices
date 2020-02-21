@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.interface &mdash; PCDS Devices 2.3.0+33.gf102f94 documentation</title>
+  <title>pcdsdevices.interface &mdash; PCDS Devices 2.3.0+58.g2e98c6a documentation</title>
   
 
   
@@ -36,7 +36,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="pcdsdevices.interface.get_engineering_mode" href="generated/pcdsdevices.interface.get_engineering_mode.html" />
-    <link rel="prev" title="pcdsdevices.inout.TTReflaser.wm_update" href="generated/generated/pcdsdevices.inout.TTReflaser.wm_update.html" /> 
+    <link rel="prev" title="pcdsdevices.inout.TwinCATInOutPositioner.wm_update" href="generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.wm_update.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.3.0+33.gf102f94
+                2.3.0+58.g2e98c6a
               </div>
             
           
@@ -104,6 +104,9 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.evr.html">pcdsdevices.evr</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
@@ -127,10 +130,12 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.mirror.html">pcdsdevices.mirror</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.movablestand.html">pcdsdevices.movablestand</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.mps.html">pcdsdevices.mps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.mv_interface.html">pcdsdevices.mv_interface</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.pump.html">pcdsdevices.pump</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.sensors.html">pcdsdevices.sensors</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.sequencer.html">pcdsdevices.sequencer</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.signal.html">pcdsdevices.signal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.sim.html">pcdsdevices.sim</a></li>
@@ -240,7 +245,7 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.AbsProgressBar.html#pcdsdevices.interface.AbsProgressBar" title="pcdsdevices.interface.AbsProgressBar"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AbsProgressBar</span></code></a>(status_objs[, delay_draw])</p></td>
 <td><p>Progress bar that displays the absolute position as well</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.BaseInterface.html#pcdsdevices.interface.BaseInterface" title="pcdsdevices.interface.BaseInterface"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BaseInterface</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.BaseInterface.html#pcdsdevices.interface.BaseInterface" title="pcdsdevices.interface.BaseInterface"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BaseInterface</span></code></a>(*[, name, attr_name, parent, …])</p></td>
 <td><p>Interface layer to attach to any Device for SLAC features.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.FltMvInterface.html#pcdsdevices.interface.FltMvInterface" title="pcdsdevices.interface.FltMvInterface"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FltMvInterface</span></code></a>(*args, **kwargs)</p></td>
@@ -270,7 +275,7 @@
         <a href="generated/pcdsdevices.interface.get_engineering_mode.html" class="btn btn-neutral float-right" title="pcdsdevices.interface.get_engineering_mode" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="generated/generated/pcdsdevices.inout.TTReflaser.wm_update.html" class="btn btn-neutral float-left" title="pcdsdevices.inout.TTReflaser.wm_update" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.wm_update.html" class="btn btn-neutral float-left" title="pcdsdevices.inout.TwinCATInOutPositioner.wm_update" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

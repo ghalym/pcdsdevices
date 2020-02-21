@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICTChannel.off
+======================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICTChannel.off

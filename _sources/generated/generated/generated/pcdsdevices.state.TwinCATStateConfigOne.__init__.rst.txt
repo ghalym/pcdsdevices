@@ -1,0 +1,6 @@
+pcdsdevices.state.TwinCATStateConfigOne.\_\_init\_\_
+====================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: TwinCATStateConfigOne.__init__

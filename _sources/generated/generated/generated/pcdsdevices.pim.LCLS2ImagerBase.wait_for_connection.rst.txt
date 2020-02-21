@@ -1,0 +1,6 @@
+pcdsdevices.pim.LCLS2ImagerBase.wait\_for\_connection
+=====================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: LCLS2ImagerBase.wait_for_connection

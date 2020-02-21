@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICTChannel.wait\_for\_connection
+========================================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICTChannel.wait_for_connection

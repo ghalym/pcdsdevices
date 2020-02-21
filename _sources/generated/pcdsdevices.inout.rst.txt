@@ -19,6 +19,7 @@ pcdsdevices.inout
       InOutRecordPositioner
       Reflaser
       TTReflaser
+      TwinCATInOutPositioner
    
    
 

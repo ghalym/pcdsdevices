@@ -1,0 +1,6 @@
+pcdsdevices.pim.PPMPowerMeter.unsubscribe\_all
+==============================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PPMPowerMeter.unsubscribe_all

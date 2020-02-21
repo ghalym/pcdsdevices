@@ -1,0 +1,6 @@
+pcdsdevices.interface.BaseInterface.check\_value
+================================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: BaseInterface.check_value

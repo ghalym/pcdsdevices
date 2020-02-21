@@ -22,6 +22,7 @@ pcdsdevices.epics\_motor
       :toctree: generated
    
       BeckhoffAxis
+      BeckhoffAxisPLC
       DelayNewport
       EpicsMotorInterface
       IMS

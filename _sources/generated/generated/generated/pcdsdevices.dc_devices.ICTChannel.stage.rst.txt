@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICTChannel.stage
+========================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICTChannel.stage

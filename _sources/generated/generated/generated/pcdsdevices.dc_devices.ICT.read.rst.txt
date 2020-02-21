@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICT.read
+================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICT.read

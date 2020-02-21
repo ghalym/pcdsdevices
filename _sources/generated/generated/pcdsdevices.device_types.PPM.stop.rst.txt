@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PPM.stop
+==================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PPM.stop

@@ -1,0 +1,80 @@
+pcdsdevices.state.TwinCATStateConfigOne
+=======================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. autoclass:: TwinCATStateConfigOne
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~TwinCATStateConfigOne.__init__
+      ~TwinCATStateConfigOne.add_instantiation_callback
+      ~TwinCATStateConfigOne.check_value
+      ~TwinCATStateConfigOne.clear_sub
+      ~TwinCATStateConfigOne.configure
+      ~TwinCATStateConfigOne.describe
+      ~TwinCATStateConfigOne.describe_configuration
+      ~TwinCATStateConfigOne.destroy
+      ~TwinCATStateConfigOne.get
+      ~TwinCATStateConfigOne.get_device_tuple
+      ~TwinCATStateConfigOne.get_instantiated_signals
+      ~TwinCATStateConfigOne.pause
+      ~TwinCATStateConfigOne.put
+      ~TwinCATStateConfigOne.read
+      ~TwinCATStateConfigOne.read_configuration
+      ~TwinCATStateConfigOne.resume
+      ~TwinCATStateConfigOne.stage
+      ~TwinCATStateConfigOne.stop
+      ~TwinCATStateConfigOne.subscribe
+      ~TwinCATStateConfigOne.summary
+      ~TwinCATStateConfigOne.trigger
+      ~TwinCATStateConfigOne.unstage
+      ~TwinCATStateConfigOne.unsubscribe
+      ~TwinCATStateConfigOne.unsubscribe_all
+      ~TwinCATStateConfigOne.wait_for_connection
+      ~TwinCATStateConfigOne.walk_components
+      ~TwinCATStateConfigOne.walk_signals
+      ~TwinCATStateConfigOne.walk_subdevice_classes
+      ~TwinCATStateConfigOne.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~TwinCATStateConfigOne.SUB_ACQ_DONE
+      ~TwinCATStateConfigOne.accl
+      ~TwinCATStateConfigOne.attr_name
+      ~TwinCATStateConfigOne.component_names
+      ~TwinCATStateConfigOne.configuration_attrs
+      ~TwinCATStateConfigOne.connected
+      ~TwinCATStateConfigOne.dccl
+      ~TwinCATStateConfigOne.delta
+      ~TwinCATStateConfigOne.dotted_name
+      ~TwinCATStateConfigOne.event_types
+      ~TwinCATStateConfigOne.hints
+      ~TwinCATStateConfigOne.kind
+      ~TwinCATStateConfigOne.lazy_wait_for_connection
+      ~TwinCATStateConfigOne.locked
+      ~TwinCATStateConfigOne.move_ok
+      ~TwinCATStateConfigOne.name
+      ~TwinCATStateConfigOne.parent
+      ~TwinCATStateConfigOne.read_attrs
+      ~TwinCATStateConfigOne.report
+      ~TwinCATStateConfigOne.root
+      ~TwinCATStateConfigOne.setpoint
+      ~TwinCATStateConfigOne.signal_names
+      ~TwinCATStateConfigOne.state_name
+      ~TwinCATStateConfigOne.trigger_signals
+      ~TwinCATStateConfigOne.valid
+      ~TwinCATStateConfigOne.velo
+   
+   

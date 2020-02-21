@@ -1,0 +1,6 @@
+pcdsdevices.inout.TwinCATInOutPositioner.walk\_subdevice\_classes
+=================================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: TwinCATInOutPositioner.walk_subdevice_classes

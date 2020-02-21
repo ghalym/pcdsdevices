@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XPIM.get\_device\_tuple
+=================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XPIM.get_device_tuple

@@ -1,0 +1,80 @@
+pcdsdevices.pim.PPM
+===================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. autoclass:: PPM
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~PPM.__init__
+      ~PPM.add_instantiation_callback
+      ~PPM.check_value
+      ~PPM.clear_sub
+      ~PPM.configure
+      ~PPM.describe
+      ~PPM.describe_configuration
+      ~PPM.destroy
+      ~PPM.get
+      ~PPM.get_device_tuple
+      ~PPM.get_instantiated_signals
+      ~PPM.pause
+      ~PPM.put
+      ~PPM.read
+      ~PPM.read_configuration
+      ~PPM.resume
+      ~PPM.stage
+      ~PPM.stop
+      ~PPM.subscribe
+      ~PPM.summary
+      ~PPM.trigger
+      ~PPM.unstage
+      ~PPM.unsubscribe
+      ~PPM.unsubscribe_all
+      ~PPM.wait_for_connection
+      ~PPM.walk_components
+      ~PPM.walk_signals
+      ~PPM.walk_subdevice_classes
+      ~PPM.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PPM.SUB_ACQ_DONE
+      ~PPM.attr_name
+      ~PPM.cam_power
+      ~PPM.component_names
+      ~PPM.configuration_attrs
+      ~PPM.connected
+      ~PPM.detector
+      ~PPM.dotted_name
+      ~PPM.event_types
+      ~PPM.hints
+      ~PPM.kind
+      ~PPM.lazy_wait_for_connection
+      ~PPM.led
+      ~PPM.name
+      ~PPM.parent
+      ~PPM.power_meter
+      ~PPM.read_attrs
+      ~PPM.report
+      ~PPM.root
+      ~PPM.signal_names
+      ~PPM.tab_component_names
+      ~PPM.tab_whitelist
+      ~PPM.trigger_signals
+      ~PPM.y_motor
+      ~PPM.y_states
+      ~PPM.yag_thermocouple
+   
+   

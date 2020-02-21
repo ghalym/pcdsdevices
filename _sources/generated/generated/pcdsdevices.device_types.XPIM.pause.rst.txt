@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XPIM.pause
+====================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XPIM.pause

@@ -1,0 +1,6 @@
+pcdsdevices.pim.LCLS2ImagerBase.add\_instantiation\_callback
+============================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: LCLS2ImagerBase.add_instantiation_callback

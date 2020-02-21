@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMFilterWheel.destroy
+=======================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMFilterWheel.destroy

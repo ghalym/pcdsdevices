@@ -19,6 +19,9 @@ pcdsdevices.state
       StatePositioner
       StateRecordPositioner
       StateStatus
+      TwinCATStateConfigAll
+      TwinCATStateConfigOne
+      TwinCATStatePositioner
    
    
 

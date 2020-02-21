@@ -1,0 +1,97 @@
+pcdsdevices.pim.XPIMFilterWheel
+===============================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. autoclass:: XPIMFilterWheel
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~XPIMFilterWheel.__init__
+      ~XPIMFilterWheel.add_instantiation_callback
+      ~XPIMFilterWheel.camonitor
+      ~XPIMFilterWheel.check_value
+      ~XPIMFilterWheel.clear_sub
+      ~XPIMFilterWheel.configure
+      ~XPIMFilterWheel.describe
+      ~XPIMFilterWheel.describe_configuration
+      ~XPIMFilterWheel.destroy
+      ~XPIMFilterWheel.end_monitor_thread
+      ~XPIMFilterWheel.get
+      ~XPIMFilterWheel.get_device_tuple
+      ~XPIMFilterWheel.get_instantiated_signals
+      ~XPIMFilterWheel.get_state
+      ~XPIMFilterWheel.move
+      ~XPIMFilterWheel.mv
+      ~XPIMFilterWheel.pause
+      ~XPIMFilterWheel.put
+      ~XPIMFilterWheel.read
+      ~XPIMFilterWheel.read_configuration
+      ~XPIMFilterWheel.resume
+      ~XPIMFilterWheel.set
+      ~XPIMFilterWheel.stage
+      ~XPIMFilterWheel.stop
+      ~XPIMFilterWheel.subscribe
+      ~XPIMFilterWheel.summary
+      ~XPIMFilterWheel.trigger
+      ~XPIMFilterWheel.unstage
+      ~XPIMFilterWheel.unsubscribe
+      ~XPIMFilterWheel.unsubscribe_all
+      ~XPIMFilterWheel.wait_for_connection
+      ~XPIMFilterWheel.walk_components
+      ~XPIMFilterWheel.walk_signals
+      ~XPIMFilterWheel.walk_subdevice_classes
+      ~XPIMFilterWheel.walk_subdevices
+      ~XPIMFilterWheel.wm
+      ~XPIMFilterWheel.wm_update
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~XPIMFilterWheel.SUB_ACQ_DONE
+      ~XPIMFilterWheel.SUB_DONE
+      ~XPIMFilterWheel.SUB_READBACK
+      ~XPIMFilterWheel.SUB_START
+      ~XPIMFilterWheel.SUB_STATE
+      ~XPIMFilterWheel.attr_name
+      ~XPIMFilterWheel.component_names
+      ~XPIMFilterWheel.configuration_attrs
+      ~XPIMFilterWheel.connected
+      ~XPIMFilterWheel.dotted_name
+      ~XPIMFilterWheel.egu
+      ~XPIMFilterWheel.error_message
+      ~XPIMFilterWheel.event_types
+      ~XPIMFilterWheel.high_limit
+      ~XPIMFilterWheel.hints
+      ~XPIMFilterWheel.kind
+      ~XPIMFilterWheel.lazy_wait_for_connection
+      ~XPIMFilterWheel.limits
+      ~XPIMFilterWheel.low_limit
+      ~XPIMFilterWheel.moving
+      ~XPIMFilterWheel.name
+      ~XPIMFilterWheel.parent
+      ~XPIMFilterWheel.position
+      ~XPIMFilterWheel.read_attrs
+      ~XPIMFilterWheel.report
+      ~XPIMFilterWheel.reset_cmd
+      ~XPIMFilterWheel.root
+      ~XPIMFilterWheel.settle_time
+      ~XPIMFilterWheel.signal_names
+      ~XPIMFilterWheel.state
+      ~XPIMFilterWheel.states_list
+      ~XPIMFilterWheel.tab_component_names
+      ~XPIMFilterWheel.tab_whitelist
+      ~XPIMFilterWheel.timeout
+      ~XPIMFilterWheel.trigger_signals
+   
+   

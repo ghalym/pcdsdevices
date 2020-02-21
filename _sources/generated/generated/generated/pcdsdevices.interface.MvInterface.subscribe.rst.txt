@@ -1,0 +1,6 @@
+pcdsdevices.interface.MvInterface.subscribe
+===========================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: MvInterface.subscribe

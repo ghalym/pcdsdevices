@@ -1,0 +1,74 @@
+pcdsdevices.epics\_motor.BeckhoffAxisPLC
+========================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. autoclass:: BeckhoffAxisPLC
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~BeckhoffAxisPLC.__init__
+      ~BeckhoffAxisPLC.add_instantiation_callback
+      ~BeckhoffAxisPLC.check_value
+      ~BeckhoffAxisPLC.clear_sub
+      ~BeckhoffAxisPLC.configure
+      ~BeckhoffAxisPLC.describe
+      ~BeckhoffAxisPLC.describe_configuration
+      ~BeckhoffAxisPLC.destroy
+      ~BeckhoffAxisPLC.get
+      ~BeckhoffAxisPLC.get_device_tuple
+      ~BeckhoffAxisPLC.get_instantiated_signals
+      ~BeckhoffAxisPLC.pause
+      ~BeckhoffAxisPLC.put
+      ~BeckhoffAxisPLC.read
+      ~BeckhoffAxisPLC.read_configuration
+      ~BeckhoffAxisPLC.resume
+      ~BeckhoffAxisPLC.stage
+      ~BeckhoffAxisPLC.stop
+      ~BeckhoffAxisPLC.subscribe
+      ~BeckhoffAxisPLC.summary
+      ~BeckhoffAxisPLC.trigger
+      ~BeckhoffAxisPLC.unstage
+      ~BeckhoffAxisPLC.unsubscribe
+      ~BeckhoffAxisPLC.unsubscribe_all
+      ~BeckhoffAxisPLC.wait_for_connection
+      ~BeckhoffAxisPLC.walk_components
+      ~BeckhoffAxisPLC.walk_signals
+      ~BeckhoffAxisPLC.walk_subdevice_classes
+      ~BeckhoffAxisPLC.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~BeckhoffAxisPLC.SUB_ACQ_DONE
+      ~BeckhoffAxisPLC.attr_name
+      ~BeckhoffAxisPLC.cmd_err_reset
+      ~BeckhoffAxisPLC.component_names
+      ~BeckhoffAxisPLC.configuration_attrs
+      ~BeckhoffAxisPLC.connected
+      ~BeckhoffAxisPLC.dotted_name
+      ~BeckhoffAxisPLC.err_code
+      ~BeckhoffAxisPLC.event_types
+      ~BeckhoffAxisPLC.hints
+      ~BeckhoffAxisPLC.kind
+      ~BeckhoffAxisPLC.lazy_wait_for_connection
+      ~BeckhoffAxisPLC.name
+      ~BeckhoffAxisPLC.parent
+      ~BeckhoffAxisPLC.read_attrs
+      ~BeckhoffAxisPLC.report
+      ~BeckhoffAxisPLC.root
+      ~BeckhoffAxisPLC.signal_names
+      ~BeckhoffAxisPLC.status
+      ~BeckhoffAxisPLC.trigger_signals
+   
+   

@@ -1,0 +1,6 @@
+pcdsdevices.pim.PPMPowerMeter.get\_device\_tuple
+================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PPMPowerMeter.get_device_tuple

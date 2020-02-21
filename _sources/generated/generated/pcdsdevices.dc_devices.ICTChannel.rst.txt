@@ -1,0 +1,78 @@
+pcdsdevices.dc\_devices.ICTChannel
+==================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. autoclass:: ICTChannel
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~ICTChannel.__init__
+      ~ICTChannel.add_instantiation_callback
+      ~ICTChannel.check_value
+      ~ICTChannel.clear_sub
+      ~ICTChannel.configure
+      ~ICTChannel.current
+      ~ICTChannel.describe
+      ~ICTChannel.describe_configuration
+      ~ICTChannel.destroy
+      ~ICTChannel.get
+      ~ICTChannel.get_device_tuple
+      ~ICTChannel.get_instantiated_signals
+      ~ICTChannel.off
+      ~ICTChannel.on
+      ~ICTChannel.pause
+      ~ICTChannel.put
+      ~ICTChannel.read
+      ~ICTChannel.read_configuration
+      ~ICTChannel.resume
+      ~ICTChannel.stage
+      ~ICTChannel.stop
+      ~ICTChannel.subscribe
+      ~ICTChannel.summary
+      ~ICTChannel.trigger
+      ~ICTChannel.unstage
+      ~ICTChannel.unsubscribe
+      ~ICTChannel.unsubscribe_all
+      ~ICTChannel.wait_for_connection
+      ~ICTChannel.walk_components
+      ~ICTChannel.walk_signals
+      ~ICTChannel.walk_subdevice_classes
+      ~ICTChannel.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~ICTChannel.SUB_ACQ_DONE
+      ~ICTChannel.attr_name
+      ~ICTChannel.breaker_status
+      ~ICTChannel.ch_current
+      ~ICTChannel.ch_name
+      ~ICTChannel.ch_status
+      ~ICTChannel.component_names
+      ~ICTChannel.configuration_attrs
+      ~ICTChannel.connected
+      ~ICTChannel.dotted_name
+      ~ICTChannel.event_types
+      ~ICTChannel.hints
+      ~ICTChannel.kind
+      ~ICTChannel.lazy_wait_for_connection
+      ~ICTChannel.name
+      ~ICTChannel.parent
+      ~ICTChannel.read_attrs
+      ~ICTChannel.report
+      ~ICTChannel.root
+      ~ICTChannel.signal_names
+      ~ICTChannel.trigger_signals
+   
+   

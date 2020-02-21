@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMFilterWheel.walk\_subdevice\_classes
+========================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMFilterWheel.walk_subdevice_classes

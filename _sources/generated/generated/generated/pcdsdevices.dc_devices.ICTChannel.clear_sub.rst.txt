@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICTChannel.clear\_sub
+=============================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICTChannel.clear_sub

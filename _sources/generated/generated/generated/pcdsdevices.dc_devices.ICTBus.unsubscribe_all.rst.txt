@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICTBus.unsubscribe\_all
+===============================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICTBus.unsubscribe_all
