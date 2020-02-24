@@ -1,0 +1,6 @@
+pcdsdevices.slits.PowerSlits.\_\_init\_\_
+=========================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: PowerSlits.__init__

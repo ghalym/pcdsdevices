@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.GasAttenuator.walk\_subdevices
+=====================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: GasAttenuator.walk_subdevices

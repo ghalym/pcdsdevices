@@ -1,6 +1,0 @@
-pcdsdevices.sensors.TwinCATThermoCouple.get\_device\_tuple
-==========================================================
-
-.. currentmodule:: pcdsdevices.sensors
-
-.. automethod:: TwinCATThermoCouple.get_device_tuple

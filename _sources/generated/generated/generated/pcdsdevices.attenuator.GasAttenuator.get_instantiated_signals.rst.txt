@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.GasAttenuator.get\_instantiated\_signals
+===============================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: GasAttenuator.get_instantiated_signals

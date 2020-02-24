@@ -1,0 +1,6 @@
+pcdsdevices.sensors.RTD.stage
+=============================
+
+.. currentmodule:: pcdsdevices.sensors
+
+.. automethod:: RTD.stage

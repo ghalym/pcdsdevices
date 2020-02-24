@@ -1,6 +1,0 @@
-pcdsdevices.sensors.TwinCATThermoCouple.unsubscribe
-===================================================
-
-.. currentmodule:: pcdsdevices.sensors
-
-.. automethod:: TwinCATThermoCouple.unsubscribe

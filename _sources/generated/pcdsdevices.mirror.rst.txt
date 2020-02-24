@@ -15,10 +15,12 @@ pcdsdevices.mirror
       :toctree: generated
    
       Gantry
+      HardOffsetMirror
       OMMotor
       OffsetMirror
       Pitch
       PointingMirror
+      XOffsetMirror
    
    
 

@@ -1,0 +1,6 @@
+pcdsdevices.mirror.HardOffsetMirror.add\_instantiation\_callback
+================================================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: HardOffsetMirror.add_instantiation_callback

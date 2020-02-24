@@ -1,0 +1,73 @@
+pcdsdevices.sensors.RTD
+=======================
+
+.. currentmodule:: pcdsdevices.sensors
+
+.. autoclass:: RTD
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~RTD.__init__
+      ~RTD.add_instantiation_callback
+      ~RTD.check_value
+      ~RTD.clear_sub
+      ~RTD.configure
+      ~RTD.describe
+      ~RTD.describe_configuration
+      ~RTD.destroy
+      ~RTD.get
+      ~RTD.get_device_tuple
+      ~RTD.get_instantiated_signals
+      ~RTD.pause
+      ~RTD.put
+      ~RTD.read
+      ~RTD.read_configuration
+      ~RTD.resume
+      ~RTD.stage
+      ~RTD.stop
+      ~RTD.subscribe
+      ~RTD.summary
+      ~RTD.trigger
+      ~RTD.unstage
+      ~RTD.unsubscribe
+      ~RTD.unsubscribe_all
+      ~RTD.wait_for_connection
+      ~RTD.walk_components
+      ~RTD.walk_signals
+      ~RTD.walk_subdevice_classes
+      ~RTD.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~RTD.SUB_ACQ_DONE
+      ~RTD.attr_name
+      ~RTD.component_names
+      ~RTD.configuration_attrs
+      ~RTD.connected
+      ~RTD.dotted_name
+      ~RTD.event_types
+      ~RTD.hints
+      ~RTD.kind
+      ~RTD.lazy_wait_for_connection
+      ~RTD.name
+      ~RTD.not_implemented
+      ~RTD.parent
+      ~RTD.read_attrs
+      ~RTD.report
+      ~RTD.root
+      ~RTD.signal_names
+      ~RTD.tab_whitelist
+      ~RTD.trigger_signals
+   
+   

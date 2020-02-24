@@ -1,0 +1,6 @@
+pcdsdevices.sensors.RTD.put
+===========================
+
+.. currentmodule:: pcdsdevices.sensors
+
+.. automethod:: RTD.put

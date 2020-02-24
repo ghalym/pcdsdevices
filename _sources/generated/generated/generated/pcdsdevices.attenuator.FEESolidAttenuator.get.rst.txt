@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.FEESolidAttenuator.get
+=============================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: FEESolidAttenuator.get

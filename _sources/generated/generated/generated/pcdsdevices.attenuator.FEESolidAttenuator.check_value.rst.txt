@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.FEESolidAttenuator.check\_value
+======================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: FEESolidAttenuator.check_value

@@ -1,0 +1,6 @@
+pcdsdevices.sensors.RTD.check\_value
+====================================
+
+.. currentmodule:: pcdsdevices.sensors
+
+.. automethod:: RTD.check_value

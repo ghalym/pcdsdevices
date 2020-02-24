@@ -1,6 +1,0 @@
-pcdsdevices.sensors.TwinCATThermoCouple.walk\_subdevice\_classes
-================================================================
-
-.. currentmodule:: pcdsdevices.sensors
-
-.. automethod:: TwinCATThermoCouple.walk_subdevice_classes

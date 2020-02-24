@@ -1,0 +1,73 @@
+pcdsdevices.attenuator.GasAttenuator
+====================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. autoclass:: GasAttenuator
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~GasAttenuator.__init__
+      ~GasAttenuator.add_instantiation_callback
+      ~GasAttenuator.check_value
+      ~GasAttenuator.clear_sub
+      ~GasAttenuator.configure
+      ~GasAttenuator.describe
+      ~GasAttenuator.describe_configuration
+      ~GasAttenuator.destroy
+      ~GasAttenuator.get
+      ~GasAttenuator.get_device_tuple
+      ~GasAttenuator.get_instantiated_signals
+      ~GasAttenuator.pause
+      ~GasAttenuator.put
+      ~GasAttenuator.read
+      ~GasAttenuator.read_configuration
+      ~GasAttenuator.resume
+      ~GasAttenuator.stage
+      ~GasAttenuator.stop
+      ~GasAttenuator.subscribe
+      ~GasAttenuator.summary
+      ~GasAttenuator.trigger
+      ~GasAttenuator.unstage
+      ~GasAttenuator.unsubscribe
+      ~GasAttenuator.unsubscribe_all
+      ~GasAttenuator.wait_for_connection
+      ~GasAttenuator.walk_components
+      ~GasAttenuator.walk_signals
+      ~GasAttenuator.walk_subdevice_classes
+      ~GasAttenuator.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~GasAttenuator.SUB_ACQ_DONE
+      ~GasAttenuator.attr_name
+      ~GasAttenuator.component_names
+      ~GasAttenuator.configuration_attrs
+      ~GasAttenuator.connected
+      ~GasAttenuator.dotted_name
+      ~GasAttenuator.event_types
+      ~GasAttenuator.hints
+      ~GasAttenuator.kind
+      ~GasAttenuator.lazy_wait_for_connection
+      ~GasAttenuator.name
+      ~GasAttenuator.not_implemented
+      ~GasAttenuator.parent
+      ~GasAttenuator.read_attrs
+      ~GasAttenuator.report
+      ~GasAttenuator.root
+      ~GasAttenuator.signal_names
+      ~GasAttenuator.tab_whitelist
+      ~GasAttenuator.trigger_signals
+   
+   

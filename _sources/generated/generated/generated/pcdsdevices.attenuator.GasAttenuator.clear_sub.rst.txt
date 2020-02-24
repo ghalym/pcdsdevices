@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.GasAttenuator.clear\_sub
+===============================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: GasAttenuator.clear_sub

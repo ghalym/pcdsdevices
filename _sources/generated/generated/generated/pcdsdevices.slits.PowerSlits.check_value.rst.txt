@@ -1,0 +1,6 @@
+pcdsdevices.slits.PowerSlits.check\_value
+=========================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: PowerSlits.check_value

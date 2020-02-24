@@ -1,0 +1,6 @@
+pcdsdevices.mirror.HardOffsetMirror.trigger
+===========================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: HardOffsetMirror.trigger

@@ -1,0 +1,6 @@
+pcdsdevices.mirror.HardOffsetMirror.stage
+=========================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: HardOffsetMirror.stage

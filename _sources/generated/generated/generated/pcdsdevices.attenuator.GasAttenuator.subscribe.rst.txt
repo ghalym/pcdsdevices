@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.GasAttenuator.subscribe
+==============================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: GasAttenuator.subscribe

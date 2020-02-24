@@ -1,0 +1,6 @@
+pcdsdevices.slits.PowerSlits.pause
+==================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: PowerSlits.pause

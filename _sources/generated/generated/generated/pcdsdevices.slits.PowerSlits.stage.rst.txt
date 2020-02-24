@@ -1,0 +1,6 @@
+pcdsdevices.slits.PowerSlits.stage
+==================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: PowerSlits.stage

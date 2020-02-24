@@ -1,0 +1,6 @@
+pcdsdevices.sensors.RTD.wait\_for\_connection
+=============================================
+
+.. currentmodule:: pcdsdevices.sensors
+
+.. automethod:: RTD.wait_for_connection

@@ -1,6 +1,0 @@
-pcdsdevices.sensors.TwinCATThermoCouple.resume
-==============================================
-
-.. currentmodule:: pcdsdevices.sensors
-
-.. automethod:: TwinCATThermoCouple.resume

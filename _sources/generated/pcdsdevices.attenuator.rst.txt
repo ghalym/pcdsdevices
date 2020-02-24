@@ -23,9 +23,11 @@ pcdsdevices.attenuator
    
       AttBase
       AttBase3rd
+      FEESolidAttenuator
       FeeAtt
       FeeFilter
       Filter
+      GasAttenuator
    
    
 

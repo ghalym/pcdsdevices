@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.FEESolidAttenuator.stage
+===============================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: FEESolidAttenuator.stage

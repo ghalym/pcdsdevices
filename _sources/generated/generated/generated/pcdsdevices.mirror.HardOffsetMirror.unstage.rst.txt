@@ -1,0 +1,6 @@
+pcdsdevices.mirror.HardOffsetMirror.unstage
+===========================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: HardOffsetMirror.unstage

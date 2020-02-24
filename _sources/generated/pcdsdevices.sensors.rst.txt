@@ -14,7 +14,8 @@ pcdsdevices.sensors
    .. autosummary::
       :toctree: generated
    
-      TwinCATThermoCouple
+      RTD
+      TwinCATThermocouple
    
    
 

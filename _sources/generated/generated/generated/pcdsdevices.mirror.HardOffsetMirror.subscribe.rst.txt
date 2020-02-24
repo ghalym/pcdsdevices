@@ -1,0 +1,6 @@
+pcdsdevices.mirror.HardOffsetMirror.subscribe
+=============================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: HardOffsetMirror.subscribe

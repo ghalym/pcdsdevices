@@ -1,0 +1,6 @@
+pcdsdevices.mirror.HardOffsetMirror.read
+========================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: HardOffsetMirror.read

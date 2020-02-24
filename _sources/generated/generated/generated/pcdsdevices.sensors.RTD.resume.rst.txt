@@ -1,0 +1,6 @@
+pcdsdevices.sensors.RTD.resume
+==============================
+
+.. currentmodule:: pcdsdevices.sensors
+
+.. automethod:: RTD.resume

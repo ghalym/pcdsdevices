@@ -1,0 +1,6 @@
+pcdsdevices.slits.PowerSlits.clear\_sub
+=======================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: PowerSlits.clear_sub

@@ -1,6 +1,0 @@
-pcdsdevices.sensors.TwinCATThermoCouple.stop
-============================================
-
-.. currentmodule:: pcdsdevices.sensors
-
-.. automethod:: TwinCATThermoCouple.stop

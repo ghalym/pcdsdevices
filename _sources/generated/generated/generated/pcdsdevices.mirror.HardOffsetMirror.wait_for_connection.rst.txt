@@ -1,0 +1,6 @@
+pcdsdevices.mirror.HardOffsetMirror.wait\_for\_connection
+=========================================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: HardOffsetMirror.wait_for_connection

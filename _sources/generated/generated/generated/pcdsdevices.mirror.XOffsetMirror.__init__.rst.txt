@@ -1,0 +1,6 @@
+pcdsdevices.mirror.XOffsetMirror.\_\_init\_\_
+=============================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: XOffsetMirror.__init__

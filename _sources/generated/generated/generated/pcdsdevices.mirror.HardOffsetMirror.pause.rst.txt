@@ -1,0 +1,6 @@
+pcdsdevices.mirror.HardOffsetMirror.pause
+=========================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: HardOffsetMirror.pause

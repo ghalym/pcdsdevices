@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.GasAttenuator.unstage
+============================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: GasAttenuator.unstage

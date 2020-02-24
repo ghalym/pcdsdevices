@@ -1,6 +1,0 @@
-pcdsdevices.sensors.TwinCATThermoCouple.check\_value
-====================================================
-
-.. currentmodule:: pcdsdevices.sensors
-
-.. automethod:: TwinCATThermoCouple.check_value
