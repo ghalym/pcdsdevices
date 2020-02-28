@@ -1,6 +1,0 @@
-pcdsdevices.mirror.HardOffsetMirror.summary
-===========================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: HardOffsetMirror.summary

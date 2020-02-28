@@ -1,6 +1,0 @@
-pcdsdevices.mirror.HardOffsetMirror.\_\_init\_\_
-================================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: HardOffsetMirror.__init__

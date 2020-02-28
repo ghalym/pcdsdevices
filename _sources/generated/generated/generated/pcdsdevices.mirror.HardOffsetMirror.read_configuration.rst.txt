@@ -1,6 +1,0 @@
-pcdsdevices.mirror.HardOffsetMirror.read\_configuration
-=======================================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: HardOffsetMirror.read_configuration

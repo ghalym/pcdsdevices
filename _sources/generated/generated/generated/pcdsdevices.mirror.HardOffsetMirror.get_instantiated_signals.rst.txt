@@ -1,6 +1,0 @@
-pcdsdevices.mirror.HardOffsetMirror.get\_instantiated\_signals
-==============================================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: HardOffsetMirror.get_instantiated_signals

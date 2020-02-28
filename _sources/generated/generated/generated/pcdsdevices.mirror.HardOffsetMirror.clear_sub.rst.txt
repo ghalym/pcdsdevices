@@ -1,6 +1,0 @@
-pcdsdevices.mirror.HardOffsetMirror.clear\_sub
-==============================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: HardOffsetMirror.clear_sub

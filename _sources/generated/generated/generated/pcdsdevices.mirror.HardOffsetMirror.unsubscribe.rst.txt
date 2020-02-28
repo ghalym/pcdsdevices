@@ -1,6 +1,0 @@
-pcdsdevices.mirror.HardOffsetMirror.unsubscribe
-===============================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: HardOffsetMirror.unsubscribe

@@ -1,6 +1,0 @@
-pcdsdevices.mirror.HardOffsetMirror.check\_value
-================================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: HardOffsetMirror.check_value

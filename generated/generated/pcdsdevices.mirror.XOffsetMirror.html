@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.mirror.XOffsetMirror &mdash; PCDS Devices 2.3.0+69.gd504f27 documentation</title>
+  <title>pcdsdevices.mirror.XOffsetMirror &mdash; PCDS Devices 2.3.0+72.gc7c4265 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.3.0+69.gd504f27
+                2.3.0+72.gc7c4265
               </div>
             
           
@@ -117,7 +117,6 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.lodcm.html">pcdsdevices.lodcm</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.mirror.html">pcdsdevices.mirror</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.mirror.Gantry.html">pcdsdevices.mirror.Gantry</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.mirror.HardOffsetMirror.html">pcdsdevices.mirror.HardOffsetMirror</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.html">pcdsdevices.mirror.OMMotor</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.html">pcdsdevices.mirror.OffsetMirror</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.mirror.Pitch.html">pcdsdevices.mirror.Pitch</a></li>
@@ -246,12 +245,8 @@
 <dl class="class">
 <dt id="pcdsdevices.mirror.XOffsetMirror">
 <em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.mirror.</code><code class="sig-name descname">XOffsetMirror</code><span class="sig-paren">(</span><em class="sig-param">prefix=''</em>, <em class="sig-param">*</em>, <em class="sig-param">name</em>, <em class="sig-param">kind=None</em>, <em class="sig-param">read_attrs=None</em>, <em class="sig-param">configuration_attrs=None</em>, <em class="sig-param">parent=None</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.mirror.XOffsetMirror" title="Permalink to this definition">¶</a></dt>
-<dd><p>X-Ray Offset Mirror from the L2SI Project</p>
-<p>2nd gen Axilon design with LCLS-II Beckhoff motion architecture.</p>
-<dl class="simple">
-<dt>Mirror is decoupled from vacuum chamber, so it should be</dt><dd><p>very stable.</p>
-</dd>
-</dl>
+<dd><p>X-Ray Offset Mirror</p>
+<p>1st and 2nd gen Axilon designs with LCLS-II Beckhoff motion architecture.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
@@ -369,6 +364,12 @@
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">attr_name</span></code></p></td>
 <td><p></p></td>
 </tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">bender</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">bender_enc_rms</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_names</span></code></p></td>
 <td><p></p></td>
 </tr>
@@ -378,11 +379,35 @@
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></p></td>
 <td><p>If the device is connected.</p></td>
 </tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">couple_status_x</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">couple_status_y</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">couple_x</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">couple_y</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">decouple_x</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">decouple_y</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">dotted_name</span></code></p></td>
 <td><p>Return the dotted name</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">event_types</span></code></p></td>
 <td><p>Events that can be subscribed to via <code class="xref any docutils literal notranslate"><span class="pre">obj.subscribe</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">gantry_x</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">gantry_y</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">hints</span></code></p></td>
 <td><p></p></td>
@@ -396,29 +421,50 @@
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></p></td>
 <td><p>name of the device</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">not_implemented</span></code></p></td>
-<td><p>A descriptor representing a device component (or signal)</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></p></td>
 <td><p>The parent of the ophyd object.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pitch</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pitch_enc_rms</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
 <td><p>A report on the object.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></p></td>
 <td><p>Walk parents to find ultimate ancestor (parent’s parent…).</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tab_whitelist</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tab_whitelist</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
 <td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">x_dwn</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">x_enc_rms</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">x_up</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">y_dwn</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">y_enc_rms</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">y_up</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 </tbody>
 </table>

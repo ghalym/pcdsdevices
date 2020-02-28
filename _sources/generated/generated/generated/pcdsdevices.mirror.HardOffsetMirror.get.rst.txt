@@ -1,6 +1,0 @@
-pcdsdevices.mirror.HardOffsetMirror.get
-=======================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: HardOffsetMirror.get

@@ -1,6 +1,0 @@
-pcdsdevices.mirror.HardOffsetMirror.walk\_subdevice\_classes
-============================================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: HardOffsetMirror.walk_subdevice_classes

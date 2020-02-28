@@ -1,6 +1,0 @@
-pcdsdevices.mirror.HardOffsetMirror.stop
-========================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: HardOffsetMirror.stop

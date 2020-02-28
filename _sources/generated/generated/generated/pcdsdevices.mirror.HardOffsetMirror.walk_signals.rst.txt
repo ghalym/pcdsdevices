@@ -1,6 +1,0 @@
-pcdsdevices.mirror.HardOffsetMirror.walk\_signals
-=================================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: HardOffsetMirror.walk_signals

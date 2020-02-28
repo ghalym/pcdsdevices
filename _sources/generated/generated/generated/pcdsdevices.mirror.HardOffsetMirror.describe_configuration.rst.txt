@@ -1,6 +1,0 @@
-pcdsdevices.mirror.HardOffsetMirror.describe\_configuration
-===========================================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: HardOffsetMirror.describe_configuration
