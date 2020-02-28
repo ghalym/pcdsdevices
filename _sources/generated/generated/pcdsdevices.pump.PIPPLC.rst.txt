@@ -67,10 +67,11 @@ pcdsdevices.pump.PIPPLC
       ~PIPPLC.name
       ~PIPPLC.parent
       ~PIPPLC.pressure
+      ~PIPPLC.pump_on
+      ~PIPPLC.pump_state
       ~PIPPLC.read_attrs
       ~PIPPLC.report
       ~PIPPLC.root
-      ~PIPPLC.set_point_relay
       ~PIPPLC.signal_names
       ~PIPPLC.trigger_signals
    
