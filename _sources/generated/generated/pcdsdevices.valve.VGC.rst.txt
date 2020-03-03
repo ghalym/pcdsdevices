@@ -52,8 +52,7 @@ pcdsdevices.valve.VGC
    
       ~VGC.SUB_ACQ_DONE
       ~VGC.at_vac
-      ~VGC.at_vac_hysterisis
-      ~VGC.at_vac_sp
+      ~VGC.at_vac_setpoint
       ~VGC.attr_name
       ~VGC.closed_limit
       ~VGC.component_names
@@ -68,6 +67,7 @@ pcdsdevices.valve.VGC
       ~VGC.interlock_ok
       ~VGC.kind
       ~VGC.lazy_wait_for_connection
+      ~VGC.mps_state
       ~VGC.name
       ~VGC.open_command
       ~VGC.open_do
@@ -78,6 +78,7 @@ pcdsdevices.valve.VGC
       ~VGC.read_attrs
       ~VGC.report
       ~VGC.root
+      ~VGC.setpoint_hysterisis
       ~VGC.signal_names
       ~VGC.state
       ~VGC.trigger_signals
