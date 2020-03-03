@@ -52,6 +52,25 @@ pcdsdevices.attenuator.FEESolidAttenuator
    
       ~FEESolidAttenuator.SUB_ACQ_DONE
       ~FEESolidAttenuator.attr_name
+      ~FEESolidAttenuator.blade_01
+      ~FEESolidAttenuator.blade_02
+      ~FEESolidAttenuator.blade_03
+      ~FEESolidAttenuator.blade_04
+      ~FEESolidAttenuator.blade_05
+      ~FEESolidAttenuator.blade_06
+      ~FEESolidAttenuator.blade_07
+      ~FEESolidAttenuator.blade_08
+      ~FEESolidAttenuator.blade_09
+      ~FEESolidAttenuator.blade_10
+      ~FEESolidAttenuator.blade_11
+      ~FEESolidAttenuator.blade_12
+      ~FEESolidAttenuator.blade_13
+      ~FEESolidAttenuator.blade_14
+      ~FEESolidAttenuator.blade_15
+      ~FEESolidAttenuator.blade_16
+      ~FEESolidAttenuator.blade_17
+      ~FEESolidAttenuator.blade_18
+      ~FEESolidAttenuator.blade_19
       ~FEESolidAttenuator.component_names
       ~FEESolidAttenuator.configuration_attrs
       ~FEESolidAttenuator.connected
@@ -61,7 +80,6 @@ pcdsdevices.attenuator.FEESolidAttenuator
       ~FEESolidAttenuator.kind
       ~FEESolidAttenuator.lazy_wait_for_connection
       ~FEESolidAttenuator.name
-      ~FEESolidAttenuator.not_implemented
       ~FEESolidAttenuator.parent
       ~FEESolidAttenuator.read_attrs
       ~FEESolidAttenuator.report
