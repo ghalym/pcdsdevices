@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithBoth.unstage
+===================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithBoth.unstage

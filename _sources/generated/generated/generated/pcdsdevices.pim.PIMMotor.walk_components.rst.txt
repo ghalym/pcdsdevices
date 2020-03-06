@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMMotor.walk\_components
-=========================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMMotor.walk_components

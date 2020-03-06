@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIM.mv
-======================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIM.mv

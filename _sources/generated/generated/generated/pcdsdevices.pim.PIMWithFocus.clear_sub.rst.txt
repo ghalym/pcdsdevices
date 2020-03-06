@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithFocus.clear\_sub
+=======================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithFocus.clear_sub

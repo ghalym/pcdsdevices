@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMY.unstage
+============================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMY.unstage

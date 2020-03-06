@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithLED.unsubscribe\_all
+===========================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithLED.unsubscribe_all

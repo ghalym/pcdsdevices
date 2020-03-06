@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMMotor.\_\_init\_\_
-=====================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMMotor.__init__

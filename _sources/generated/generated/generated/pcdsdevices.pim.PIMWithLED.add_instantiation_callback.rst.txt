@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithLED.add\_instantiation\_callback
+=======================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithLED.add_instantiation_callback

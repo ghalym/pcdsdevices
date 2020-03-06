@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMY.walk\_subdevices
+=====================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMY.walk_subdevices

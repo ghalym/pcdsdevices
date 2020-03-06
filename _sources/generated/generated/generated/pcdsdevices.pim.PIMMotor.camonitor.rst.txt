@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMMotor.camonitor
-==================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMMotor.camonitor

@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMMotor.unstage
-================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMMotor.unstage

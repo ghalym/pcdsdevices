@@ -1,0 +1,84 @@
+pcdsdevices.pim.PIMWithBoth
+===========================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. autoclass:: PIMWithBoth
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~PIMWithBoth.__init__
+      ~PIMWithBoth.add_instantiation_callback
+      ~PIMWithBoth.check_value
+      ~PIMWithBoth.clear_sub
+      ~PIMWithBoth.configure
+      ~PIMWithBoth.describe
+      ~PIMWithBoth.describe_configuration
+      ~PIMWithBoth.destroy
+      ~PIMWithBoth.get
+      ~PIMWithBoth.get_device_tuple
+      ~PIMWithBoth.get_instantiated_signals
+      ~PIMWithBoth.infer_prefix
+      ~PIMWithBoth.insert
+      ~PIMWithBoth.pause
+      ~PIMWithBoth.put
+      ~PIMWithBoth.read
+      ~PIMWithBoth.read_configuration
+      ~PIMWithBoth.remove
+      ~PIMWithBoth.resume
+      ~PIMWithBoth.stage
+      ~PIMWithBoth.stop
+      ~PIMWithBoth.subscribe
+      ~PIMWithBoth.summary
+      ~PIMWithBoth.trigger
+      ~PIMWithBoth.unstage
+      ~PIMWithBoth.unsubscribe
+      ~PIMWithBoth.unsubscribe_all
+      ~PIMWithBoth.wait_for_connection
+      ~PIMWithBoth.walk_components
+      ~PIMWithBoth.walk_signals
+      ~PIMWithBoth.walk_subdevice_classes
+      ~PIMWithBoth.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PIMWithBoth.SUB_ACQ_DONE
+      ~PIMWithBoth.attr_name
+      ~PIMWithBoth.component_names
+      ~PIMWithBoth.configuration_attrs
+      ~PIMWithBoth.connected
+      ~PIMWithBoth.detector
+      ~PIMWithBoth.dotted_name
+      ~PIMWithBoth.event_types
+      ~PIMWithBoth.focus_motor
+      ~PIMWithBoth.hints
+      ~PIMWithBoth.inserted
+      ~PIMWithBoth.kind
+      ~PIMWithBoth.lazy_wait_for_connection
+      ~PIMWithBoth.led
+      ~PIMWithBoth.name
+      ~PIMWithBoth.parent
+      ~PIMWithBoth.prefix_start
+      ~PIMWithBoth.read_attrs
+      ~PIMWithBoth.removed
+      ~PIMWithBoth.report
+      ~PIMWithBoth.root
+      ~PIMWithBoth.signal_names
+      ~PIMWithBoth.state
+      ~PIMWithBoth.tab_component_names
+      ~PIMWithBoth.tab_whitelist
+      ~PIMWithBoth.trigger_signals
+      ~PIMWithBoth.zoom_motor
+   
+   

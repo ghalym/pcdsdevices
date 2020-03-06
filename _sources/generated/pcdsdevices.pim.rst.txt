@@ -16,7 +16,10 @@ pcdsdevices.pim
    
       LCLS2ImagerBase
       PIM
-      PIMMotor
+      PIMWithBoth
+      PIMWithFocus
+      PIMWithLED
+      PIMY
       PPM
       PPMPowerMeter
       XPIM

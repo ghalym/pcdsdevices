@@ -14,28 +14,23 @@ pcdsdevices.device\_types.PIM
    
       ~PIM.__init__
       ~PIM.add_instantiation_callback
-      ~PIM.camonitor
       ~PIM.check_value
       ~PIM.clear_sub
       ~PIM.configure
       ~PIM.describe
       ~PIM.describe_configuration
       ~PIM.destroy
-      ~PIM.end_monitor_thread
       ~PIM.get
       ~PIM.get_device_tuple
       ~PIM.get_instantiated_signals
-      ~PIM.get_state
+      ~PIM.infer_prefix
       ~PIM.insert
-      ~PIM.move
-      ~PIM.mv
       ~PIM.pause
       ~PIM.put
       ~PIM.read
       ~PIM.read_configuration
       ~PIM.remove
       ~PIM.resume
-      ~PIM.set
       ~PIM.stage
       ~PIM.stop
       ~PIM.subscribe
@@ -49,8 +44,6 @@ pcdsdevices.device\_types.PIM
       ~PIM.walk_signals
       ~PIM.walk_subdevice_classes
       ~PIM.walk_subdevices
-      ~PIM.wm
-      ~PIM.wm_update
    
    
 
@@ -61,43 +54,29 @@ pcdsdevices.device\_types.PIM
    .. autosummary::
    
       ~PIM.SUB_ACQ_DONE
-      ~PIM.SUB_DONE
-      ~PIM.SUB_READBACK
-      ~PIM.SUB_START
-      ~PIM.SUB_STATE
       ~PIM.attr_name
       ~PIM.component_names
       ~PIM.configuration_attrs
       ~PIM.connected
       ~PIM.detector
       ~PIM.dotted_name
-      ~PIM.egu
       ~PIM.event_types
-      ~PIM.high_limit
       ~PIM.hints
-      ~PIM.in_states
       ~PIM.inserted
       ~PIM.kind
       ~PIM.lazy_wait_for_connection
-      ~PIM.limits
-      ~PIM.low_limit
-      ~PIM.motor
-      ~PIM.moving
       ~PIM.name
-      ~PIM.out_states
       ~PIM.parent
-      ~PIM.position
+      ~PIM.prefix_start
       ~PIM.read_attrs
       ~PIM.removed
       ~PIM.report
       ~PIM.root
-      ~PIM.settle_time
       ~PIM.signal_names
       ~PIM.state
-      ~PIM.states_list
+      ~PIM.tab_component_names
       ~PIM.tab_whitelist
-      ~PIM.timeout
-      ~PIM.transmission
       ~PIM.trigger_signals
+      ~PIM.zoom_motor
    
    

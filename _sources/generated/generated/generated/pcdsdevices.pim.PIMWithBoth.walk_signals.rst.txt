@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithBoth.walk\_signals
+=========================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithBoth.walk_signals

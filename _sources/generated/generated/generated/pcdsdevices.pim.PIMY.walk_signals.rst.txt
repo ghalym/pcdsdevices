@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMY.walk\_signals
+==================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMY.walk_signals

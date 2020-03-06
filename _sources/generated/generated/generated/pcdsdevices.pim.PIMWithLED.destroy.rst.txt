@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithLED.destroy
+==================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithLED.destroy

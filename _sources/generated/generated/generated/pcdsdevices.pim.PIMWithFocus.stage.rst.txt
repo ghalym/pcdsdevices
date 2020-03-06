@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithFocus.stage
+==================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithFocus.stage

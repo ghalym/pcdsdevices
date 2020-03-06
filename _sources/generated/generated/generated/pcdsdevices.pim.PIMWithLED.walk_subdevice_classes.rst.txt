@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithLED.walk\_subdevice\_classes
+===================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithLED.walk_subdevice_classes

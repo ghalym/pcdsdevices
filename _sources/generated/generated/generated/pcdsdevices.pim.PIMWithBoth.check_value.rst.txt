@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithBoth.check\_value
+========================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithBoth.check_value

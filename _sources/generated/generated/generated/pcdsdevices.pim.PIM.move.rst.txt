@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIM.move
-========================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIM.move

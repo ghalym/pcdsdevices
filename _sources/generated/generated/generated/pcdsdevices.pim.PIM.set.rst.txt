@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIM.set
-=======================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIM.set

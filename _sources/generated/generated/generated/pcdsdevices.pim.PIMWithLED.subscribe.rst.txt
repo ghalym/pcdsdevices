@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithLED.subscribe
+====================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithLED.subscribe

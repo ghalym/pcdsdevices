@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMY.add\_instantiation\_callback
+=================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMY.add_instantiation_callback

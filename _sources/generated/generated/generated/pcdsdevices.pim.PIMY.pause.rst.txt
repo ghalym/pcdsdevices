@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMY.pause
+==========================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMY.pause

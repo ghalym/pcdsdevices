@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMMotor.unsubscribe\_all
-=========================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMMotor.unsubscribe_all

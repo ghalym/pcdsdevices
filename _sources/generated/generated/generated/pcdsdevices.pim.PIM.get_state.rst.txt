@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIM.get\_state
-==============================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIM.get_state

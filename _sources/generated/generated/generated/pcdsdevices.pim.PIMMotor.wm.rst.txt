@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMMotor.wm
-===========================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMMotor.wm

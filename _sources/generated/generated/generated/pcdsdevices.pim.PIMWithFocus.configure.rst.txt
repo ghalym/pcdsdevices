@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithFocus.configure
+======================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithFocus.configure

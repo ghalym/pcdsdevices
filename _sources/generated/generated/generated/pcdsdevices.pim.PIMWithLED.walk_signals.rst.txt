@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithLED.walk\_signals
+========================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithLED.walk_signals

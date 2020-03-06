@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithLED.unstage
+==================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithLED.unstage

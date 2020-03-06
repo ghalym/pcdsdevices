@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithLED.stage
+================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithLED.stage
