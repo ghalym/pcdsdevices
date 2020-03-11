@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMMotor.get
-============================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMMotor.get

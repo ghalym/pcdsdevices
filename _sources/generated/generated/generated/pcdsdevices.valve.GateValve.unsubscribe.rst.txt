@@ -1,6 +1,0 @@
-pcdsdevices.valve.GateValve.unsubscribe
-=======================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: GateValve.unsubscribe

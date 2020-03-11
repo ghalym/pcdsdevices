@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIM.read\_configuration
-=======================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIM.read_configuration

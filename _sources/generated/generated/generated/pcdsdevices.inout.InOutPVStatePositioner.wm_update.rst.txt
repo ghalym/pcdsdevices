@@ -1,6 +1,0 @@
-pcdsdevices.inout.InOutPVStatePositioner.wm\_update
-===================================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: InOutPVStatePositioner.wm_update

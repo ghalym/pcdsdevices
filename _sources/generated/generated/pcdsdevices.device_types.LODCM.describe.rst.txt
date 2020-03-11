@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.LODCM.describe
-========================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: LODCM.describe

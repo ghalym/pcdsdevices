@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.Dectris.unstage
-=================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: Dectris.unstage

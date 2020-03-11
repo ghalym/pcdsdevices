@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMY.remove
-===========================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMY.remove

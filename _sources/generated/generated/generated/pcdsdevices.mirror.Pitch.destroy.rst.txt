@@ -1,6 +1,0 @@
-pcdsdevices.mirror.Pitch.destroy
-================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: Pitch.destroy

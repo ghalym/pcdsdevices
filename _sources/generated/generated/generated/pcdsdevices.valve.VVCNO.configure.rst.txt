@@ -1,6 +1,0 @@
-pcdsdevices.valve.VVCNO.configure
-=================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VVCNO.configure

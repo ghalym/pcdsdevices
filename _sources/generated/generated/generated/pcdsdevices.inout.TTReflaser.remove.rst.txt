@@ -1,6 +1,0 @@
-pcdsdevices.inout.TTReflaser.remove
-===================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: TTReflaser.remove

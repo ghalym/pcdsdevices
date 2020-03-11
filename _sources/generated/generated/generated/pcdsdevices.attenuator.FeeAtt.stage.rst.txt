@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.FeeAtt.stage
-===================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: FeeAtt.stage

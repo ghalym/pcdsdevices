@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPMTarget.get\_state
-====================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPMTarget.get_state

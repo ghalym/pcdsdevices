@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.Diode.read
-============================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: Diode.read

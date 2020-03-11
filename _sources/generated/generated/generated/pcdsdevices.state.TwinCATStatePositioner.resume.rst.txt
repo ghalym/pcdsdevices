@@ -1,6 +1,0 @@
-pcdsdevices.state.TwinCATStatePositioner.resume
-===============================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: TwinCATStatePositioner.resume

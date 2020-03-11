@@ -1,6 +1,0 @@
-pcdsdevices.pim.PPMPowerMeter.unstage
-=====================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PPMPowerMeter.unstage

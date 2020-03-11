@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMWithBoth.resume
-==================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMWithBoth.resume

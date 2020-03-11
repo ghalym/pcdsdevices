@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMCalc.wm
-==========================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMCalc.wm

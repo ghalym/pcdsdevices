@@ -1,6 +1,0 @@
-pcdsdevices.valve.VGCLegacy.\_\_init\_\_
-========================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VGCLegacy.__init__

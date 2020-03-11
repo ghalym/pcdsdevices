@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.PPM.read\_configuration
-=================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: PPM.read_configuration

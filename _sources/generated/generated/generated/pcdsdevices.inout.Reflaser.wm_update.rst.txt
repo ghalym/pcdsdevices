@@ -1,6 +1,0 @@
-pcdsdevices.inout.Reflaser.wm\_update
-=====================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: Reflaser.wm_update

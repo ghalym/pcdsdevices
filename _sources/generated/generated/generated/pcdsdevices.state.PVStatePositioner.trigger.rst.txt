@@ -1,6 +1,0 @@
-pcdsdevices.state.PVStatePositioner.trigger
-===========================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: PVStatePositioner.trigger

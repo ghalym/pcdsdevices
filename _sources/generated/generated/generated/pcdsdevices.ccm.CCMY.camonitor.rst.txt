@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMY.camonitor
-==============================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMY.camonitor

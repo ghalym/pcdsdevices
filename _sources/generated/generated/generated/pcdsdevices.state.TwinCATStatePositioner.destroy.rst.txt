@@ -1,6 +1,0 @@
-pcdsdevices.state.TwinCATStatePositioner.destroy
-================================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: TwinCATStatePositioner.destroy

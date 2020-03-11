@@ -1,6 +1,0 @@
-pcdsdevices.valve.Stopper.get\_state
-====================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: Stopper.get_state

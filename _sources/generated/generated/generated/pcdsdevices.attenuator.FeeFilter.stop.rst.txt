@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.FeeFilter.stop
-=====================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: FeeFilter.stop

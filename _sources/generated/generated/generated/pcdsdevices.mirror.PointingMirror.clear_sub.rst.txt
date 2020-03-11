@@ -1,6 +1,0 @@
-pcdsdevices.mirror.PointingMirror.clear\_sub
-============================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: PointingMirror.clear_sub

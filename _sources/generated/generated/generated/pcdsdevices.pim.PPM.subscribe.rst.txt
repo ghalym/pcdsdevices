@@ -1,6 +1,0 @@
-pcdsdevices.pim.PPM.subscribe
-=============================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PPM.subscribe

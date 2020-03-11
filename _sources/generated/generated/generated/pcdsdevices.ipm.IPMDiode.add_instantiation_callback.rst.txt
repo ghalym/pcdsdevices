@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPMDiode.add\_instantiation\_callback
-=====================================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPMDiode.add_instantiation_callback

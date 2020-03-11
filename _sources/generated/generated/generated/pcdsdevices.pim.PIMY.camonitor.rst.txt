@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMY.camonitor
-==============================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMY.camonitor

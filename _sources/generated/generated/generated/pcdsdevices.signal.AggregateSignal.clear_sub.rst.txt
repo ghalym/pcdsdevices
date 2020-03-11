@@ -1,6 +1,0 @@
-pcdsdevices.signal.AggregateSignal.clear\_sub
-=============================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: AggregateSignal.clear_sub

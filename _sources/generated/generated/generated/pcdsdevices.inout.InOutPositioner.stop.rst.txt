@@ -1,6 +1,0 @@
-pcdsdevices.inout.InOutPositioner.stop
-======================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: InOutPositioner.stop

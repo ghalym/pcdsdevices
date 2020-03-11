@@ -1,6 +1,0 @@
-pcdsdevices.state.StatePositioner.configure
-===========================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: StatePositioner.configure

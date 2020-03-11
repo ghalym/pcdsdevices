@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.BeckhoffAxisPLC.\_\_init\_\_
-=====================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: BeckhoffAxisPLC.__init__

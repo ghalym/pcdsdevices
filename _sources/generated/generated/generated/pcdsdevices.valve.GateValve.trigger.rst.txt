@@ -1,6 +1,0 @@
-pcdsdevices.valve.GateValve.trigger
-===================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: GateValve.trigger

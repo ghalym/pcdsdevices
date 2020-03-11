@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMMotor.resume
-===============================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMMotor.resume

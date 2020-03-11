@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.FeeAtt.get
-=================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: FeeAtt.get

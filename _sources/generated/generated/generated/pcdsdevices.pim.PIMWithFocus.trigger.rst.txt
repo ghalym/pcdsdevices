@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMWithFocus.trigger
-====================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMWithFocus.trigger

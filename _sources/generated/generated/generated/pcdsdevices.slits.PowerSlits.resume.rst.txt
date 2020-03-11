@@ -1,6 +1,0 @@
-pcdsdevices.slits.PowerSlits.resume
-===================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: PowerSlits.resume

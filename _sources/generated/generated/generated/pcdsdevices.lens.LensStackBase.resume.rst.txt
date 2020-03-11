@@ -1,6 +1,0 @@
-pcdsdevices.lens.LensStackBase.resume
-=====================================
-
-.. currentmodule:: pcdsdevices.lens
-
-.. automethod:: LensStackBase.resume

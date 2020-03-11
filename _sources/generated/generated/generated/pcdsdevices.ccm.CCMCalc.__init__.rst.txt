@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMCalc.\_\_init\_\_
-====================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMCalc.__init__

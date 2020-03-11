@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.EventSequencer.complete
-=================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: EventSequencer.complete

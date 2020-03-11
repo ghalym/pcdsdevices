@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.IMS.camonitor
-======================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: IMS.camonitor

@@ -1,6 +1,0 @@
-pcdsdevices.pim.XPIMFilterWheel.trigger
-=======================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: XPIMFilterWheel.trigger

@@ -1,6 +1,0 @@
-pcdsdevices.pulsepicker.PulsePicker.read\_configuration
-=======================================================
-
-.. currentmodule:: pcdsdevices.pulsepicker
-
-.. automethod:: PulsePicker.read_configuration

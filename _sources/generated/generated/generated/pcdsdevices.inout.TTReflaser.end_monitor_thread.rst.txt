@@ -1,6 +1,0 @@
-pcdsdevices.inout.TTReflaser.end\_monitor\_thread
-=================================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: TTReflaser.end_monitor_thread

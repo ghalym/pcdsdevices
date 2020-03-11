@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.FeeAtt.describe
-======================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: FeeAtt.describe

@@ -1,6 +1,0 @@
-pcdsdevices.mirror.Gantry.wm
-============================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: Gantry.wm

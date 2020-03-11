@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.FeeFilter.get\_state
-===========================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: FeeFilter.get_state

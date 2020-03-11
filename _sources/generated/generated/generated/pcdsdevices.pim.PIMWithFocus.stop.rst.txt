@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMWithFocus.stop
-=================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMWithFocus.stop

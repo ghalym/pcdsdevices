@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.CCM.unstage
-=====================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: CCM.unstage

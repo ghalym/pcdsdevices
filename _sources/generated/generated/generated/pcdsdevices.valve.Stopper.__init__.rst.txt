@@ -1,6 +1,0 @@
-pcdsdevices.valve.Stopper.\_\_init\_\_
-======================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: Stopper.__init__

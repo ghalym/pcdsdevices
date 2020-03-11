@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.GasAttenuator.read
-=========================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: GasAttenuator.read

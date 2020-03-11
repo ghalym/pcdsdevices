@@ -1,6 +1,0 @@
-pcdsdevices.inout.InOutPositioner.read\_configuration
-=====================================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: InOutPositioner.read_configuration

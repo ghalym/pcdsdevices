@@ -1,6 +1,0 @@
-pcdsdevices.mirror.PointingMirror.stage
-=======================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: PointingMirror.stage

@@ -1,6 +1,0 @@
-pcdsdevices.sensors.RTD.get
-===========================
-
-.. currentmodule:: pcdsdevices.sensors
-
-.. automethod:: RTD.get

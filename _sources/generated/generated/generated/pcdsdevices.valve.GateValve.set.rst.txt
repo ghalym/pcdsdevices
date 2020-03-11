@@ -1,6 +1,0 @@
-pcdsdevices.valve.GateValve.set
-===============================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: GateValve.set

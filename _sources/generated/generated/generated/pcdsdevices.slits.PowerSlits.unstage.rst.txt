@@ -1,6 +1,0 @@
-pcdsdevices.slits.PowerSlits.unstage
-====================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: PowerSlits.unstage

@@ -1,6 +1,0 @@
-pcdsdevices.movablestand.MovableStand.pause
-===========================================
-
-.. currentmodule:: pcdsdevices.movablestand
-
-.. automethod:: MovableStand.pause

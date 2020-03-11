@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMY.subscribe
-==============================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMY.subscribe

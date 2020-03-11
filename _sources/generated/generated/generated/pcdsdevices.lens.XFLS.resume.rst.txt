@@ -1,6 +1,0 @@
-pcdsdevices.lens.XFLS.resume
-============================
-
-.. currentmodule:: pcdsdevices.lens
-
-.. automethod:: XFLS.resume

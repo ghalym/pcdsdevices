@@ -1,6 +1,0 @@
-pcdsdevices.slits.PowerSlits.configure
-======================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: PowerSlits.configure

@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.Dectris.resume
-================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: Dectris.resume

@@ -1,6 +1,0 @@
-pcdsdevices.valve.VVC.read
-==========================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VVC.read

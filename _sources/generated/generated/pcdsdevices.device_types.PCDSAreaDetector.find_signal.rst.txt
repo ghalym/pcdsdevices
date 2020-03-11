@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.PCDSAreaDetector.find\_signal
-=======================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: PCDSAreaDetector.find_signal

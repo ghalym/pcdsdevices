@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIM.remove
-==========================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIM.remove

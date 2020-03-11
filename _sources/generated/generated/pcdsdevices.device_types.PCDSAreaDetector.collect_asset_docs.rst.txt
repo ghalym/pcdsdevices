@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.PCDSAreaDetector.collect\_asset\_docs
-===============================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: PCDSAreaDetector.collect_asset_docs

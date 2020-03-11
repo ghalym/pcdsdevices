@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.LODCM.pause
-=============================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: LODCM.pause

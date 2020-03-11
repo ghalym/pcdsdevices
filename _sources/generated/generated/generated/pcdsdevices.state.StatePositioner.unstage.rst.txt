@@ -1,6 +1,0 @@
-pcdsdevices.state.StatePositioner.unstage
-=========================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: StatePositioner.unstage

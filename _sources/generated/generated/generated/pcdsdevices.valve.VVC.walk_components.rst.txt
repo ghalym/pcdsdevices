@@ -1,6 +1,0 @@
-pcdsdevices.valve.VVC.walk\_components
-======================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VVC.walk_components

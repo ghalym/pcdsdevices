@@ -1,6 +1,0 @@
-pcdsdevices.mirror.OMMotor.wm\_update
-=====================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: OMMotor.wm_update

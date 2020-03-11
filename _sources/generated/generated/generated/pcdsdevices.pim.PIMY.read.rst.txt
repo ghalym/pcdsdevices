@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMY.read
-=========================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMY.read

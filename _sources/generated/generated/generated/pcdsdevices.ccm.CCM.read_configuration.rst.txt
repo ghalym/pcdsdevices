@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCM.read\_configuration
-=======================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCM.read_configuration

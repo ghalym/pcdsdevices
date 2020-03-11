@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPMMotion.stop
-==============================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPMMotion.stop

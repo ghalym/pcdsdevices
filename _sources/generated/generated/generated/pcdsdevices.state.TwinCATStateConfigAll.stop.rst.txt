@@ -1,6 +1,0 @@
-pcdsdevices.state.TwinCATStateConfigAll.stop
-============================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: TwinCATStateConfigAll.stop

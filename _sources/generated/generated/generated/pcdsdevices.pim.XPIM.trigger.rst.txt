@@ -1,6 +1,0 @@
-pcdsdevices.pim.XPIM.trigger
-============================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: XPIM.trigger

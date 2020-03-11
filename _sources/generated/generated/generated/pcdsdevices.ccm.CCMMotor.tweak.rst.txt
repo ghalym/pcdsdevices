@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMMotor.tweak
-==============================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMMotor.tweak

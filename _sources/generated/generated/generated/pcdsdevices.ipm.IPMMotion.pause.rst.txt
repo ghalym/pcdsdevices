@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPMMotion.pause
-===============================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPMMotion.pause

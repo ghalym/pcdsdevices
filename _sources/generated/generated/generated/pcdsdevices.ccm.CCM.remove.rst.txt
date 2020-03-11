@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCM.remove
-==========================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCM.remove

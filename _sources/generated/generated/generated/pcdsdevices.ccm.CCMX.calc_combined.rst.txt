@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMX.calc\_combined
-===================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMX.calc_combined

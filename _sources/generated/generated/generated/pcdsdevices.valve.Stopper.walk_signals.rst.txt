@@ -1,6 +1,0 @@
-pcdsdevices.valve.Stopper.walk\_signals
-=======================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: Stopper.walk_signals

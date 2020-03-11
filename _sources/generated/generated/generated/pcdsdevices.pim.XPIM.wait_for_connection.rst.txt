@@ -1,6 +1,0 @@
-pcdsdevices.pim.XPIM.wait\_for\_connection
-==========================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: XPIM.wait_for_connection

@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPMTarget.remove
-================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPMTarget.remove

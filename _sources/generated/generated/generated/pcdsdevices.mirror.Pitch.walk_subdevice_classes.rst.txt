@@ -1,6 +1,0 @@
-pcdsdevices.mirror.Pitch.walk\_subdevice\_classes
-=================================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: Pitch.walk_subdevice_classes

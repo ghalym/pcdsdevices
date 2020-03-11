@@ -1,6 +1,0 @@
-pcdsdevices.valve.VGC.clear\_sub
-================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VGC.clear_sub

@@ -1,6 +1,0 @@
-pcdsdevices.inout.TTReflaser.wm
-===============================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: TTReflaser.wm

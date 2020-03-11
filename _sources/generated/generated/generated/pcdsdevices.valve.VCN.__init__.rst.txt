@@ -1,6 +1,0 @@
-pcdsdevices.valve.VCN.\_\_init\_\_
-==================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VCN.__init__

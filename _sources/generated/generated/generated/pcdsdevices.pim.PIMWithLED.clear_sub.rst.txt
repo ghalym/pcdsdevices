@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMWithLED.clear\_sub
-=====================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMWithLED.clear_sub

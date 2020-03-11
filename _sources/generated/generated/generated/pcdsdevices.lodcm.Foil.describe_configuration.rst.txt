@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.Foil.describe\_configuration
-==============================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: Foil.describe_configuration

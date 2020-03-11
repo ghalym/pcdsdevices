@@ -1,6 +1,0 @@
-pcdsdevices.pim.PPMPowerMeter.describe\_configuration
-=====================================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PPMPowerMeter.describe_configuration

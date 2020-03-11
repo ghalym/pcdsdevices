@@ -1,6 +1,0 @@
-pcdsdevices.valve.VVC.put
-=========================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VVC.put

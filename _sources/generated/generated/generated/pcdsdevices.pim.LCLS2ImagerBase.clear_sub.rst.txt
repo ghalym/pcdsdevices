@@ -1,6 +1,0 @@
-pcdsdevices.pim.LCLS2ImagerBase.clear\_sub
-==========================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: LCLS2ImagerBase.clear_sub

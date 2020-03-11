@@ -1,6 +1,0 @@
-pcdsdevices.mirror.OMMotor.camonitor
-====================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: OMMotor.camonitor

@@ -1,6 +1,0 @@
-pcdsdevices.mirror.Pitch.get
-============================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: Pitch.get

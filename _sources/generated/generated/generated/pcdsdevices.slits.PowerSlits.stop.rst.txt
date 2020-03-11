@@ -1,6 +1,0 @@
-pcdsdevices.slits.PowerSlits.stop
-=================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: PowerSlits.stop

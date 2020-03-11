@@ -1,6 +1,0 @@
-pcdsdevices.slits.SlitPositioner.subscribe
-==========================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: SlitPositioner.subscribe

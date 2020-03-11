@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMCalc.unstage
-===============================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMCalc.unstage

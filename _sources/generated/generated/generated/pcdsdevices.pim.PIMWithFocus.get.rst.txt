@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMWithFocus.get
-================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMWithFocus.get

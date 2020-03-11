@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.OffsetMirror.add\_instantiation\_callback
-===================================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: OffsetMirror.add_instantiation_callback

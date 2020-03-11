@@ -1,6 +1,0 @@
-pcdsdevices.valve.PPSStopper.stop
-=================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: PPSStopper.stop

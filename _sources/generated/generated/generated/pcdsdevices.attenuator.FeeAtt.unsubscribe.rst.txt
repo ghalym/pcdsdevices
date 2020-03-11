@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.FeeAtt.unsubscribe
-=========================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: FeeAtt.unsubscribe

@@ -1,6 +1,0 @@
-pcdsdevices.mirror.Pitch.walk\_signals
-======================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: Pitch.walk_signals

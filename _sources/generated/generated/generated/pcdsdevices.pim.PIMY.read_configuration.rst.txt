@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMY.read\_configuration
-========================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMY.read_configuration

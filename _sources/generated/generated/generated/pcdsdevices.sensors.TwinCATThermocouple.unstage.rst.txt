@@ -1,6 +1,0 @@
-pcdsdevices.sensors.TwinCATThermocouple.unstage
-===============================================
-
-.. currentmodule:: pcdsdevices.sensors
-
-.. automethod:: TwinCATThermocouple.unstage

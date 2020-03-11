@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMY.describe\_configuration
-============================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMY.describe_configuration

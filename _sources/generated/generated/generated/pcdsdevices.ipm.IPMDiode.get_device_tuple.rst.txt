@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPMDiode.get\_device\_tuple
-===========================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPMDiode.get_device_tuple

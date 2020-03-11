@@ -1,6 +1,0 @@
-pcdsdevices.pim.XPIMFilterWheel.describe
-========================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: XPIMFilterWheel.describe

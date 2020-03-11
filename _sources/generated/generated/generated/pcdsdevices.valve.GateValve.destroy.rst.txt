@@ -1,6 +1,0 @@
-pcdsdevices.valve.GateValve.destroy
-===================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: GateValve.destroy

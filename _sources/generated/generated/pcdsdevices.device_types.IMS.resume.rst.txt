@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.IMS.resume
-====================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: IMS.resume

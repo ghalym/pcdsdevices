@@ -1,6 +1,0 @@
-pcdsdevices.pim.PPM.put
-=======================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PPM.put

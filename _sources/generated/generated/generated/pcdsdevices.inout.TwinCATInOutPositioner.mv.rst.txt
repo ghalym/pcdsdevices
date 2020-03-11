@@ -1,6 +1,0 @@
-pcdsdevices.inout.TwinCATInOutPositioner.mv
-===========================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: TwinCATInOutPositioner.mv

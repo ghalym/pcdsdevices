@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.Foil.add\_instantiation\_callback
-===================================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: Foil.add_instantiation_callback

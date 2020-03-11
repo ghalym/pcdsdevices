@@ -1,6 +1,0 @@
-pcdsdevices.valve.PPSStopper.unsubscribe\_all
-=============================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: PPSStopper.unsubscribe_all

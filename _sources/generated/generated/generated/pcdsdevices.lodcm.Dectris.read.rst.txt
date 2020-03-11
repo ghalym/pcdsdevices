@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.Dectris.read
-==============================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: Dectris.read

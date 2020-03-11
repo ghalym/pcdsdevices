@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.GateValve.destroy
-===========================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: GateValve.destroy

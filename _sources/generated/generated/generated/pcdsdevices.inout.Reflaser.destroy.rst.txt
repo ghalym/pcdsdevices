@@ -1,6 +1,0 @@
-pcdsdevices.inout.Reflaser.destroy
-==================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: Reflaser.destroy

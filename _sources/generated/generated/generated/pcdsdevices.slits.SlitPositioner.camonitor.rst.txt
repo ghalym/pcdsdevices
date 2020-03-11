@@ -1,6 +1,0 @@
-pcdsdevices.slits.SlitPositioner.camonitor
-==========================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: SlitPositioner.camonitor

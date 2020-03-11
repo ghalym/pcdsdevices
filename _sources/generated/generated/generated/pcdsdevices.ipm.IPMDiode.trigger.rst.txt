@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPMDiode.trigger
-================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPMDiode.trigger

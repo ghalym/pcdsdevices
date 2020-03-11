@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPMMotion.get\_device\_tuple
-============================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPMMotion.get_device_tuple

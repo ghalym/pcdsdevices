@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPMTarget.trigger
-=================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPMTarget.trigger

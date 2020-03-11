@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPIMBChannel.pause
-==================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPIMBChannel.pause

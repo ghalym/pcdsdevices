@@ -1,6 +1,0 @@
-pcdsdevices.mirror.PointingMirror.move
-======================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: PointingMirror.move

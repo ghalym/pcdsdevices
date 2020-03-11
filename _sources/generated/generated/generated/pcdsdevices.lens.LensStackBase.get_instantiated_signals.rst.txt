@@ -1,6 +1,0 @@
-pcdsdevices.lens.LensStackBase.get\_instantiated\_signals
-=========================================================
-
-.. currentmodule:: pcdsdevices.lens
-
-.. automethod:: LensStackBase.get_instantiated_signals

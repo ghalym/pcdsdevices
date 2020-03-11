@@ -1,6 +1,0 @@
-pcdsdevices.signal.AggregateSignal.destroy
-==========================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: AggregateSignal.destroy

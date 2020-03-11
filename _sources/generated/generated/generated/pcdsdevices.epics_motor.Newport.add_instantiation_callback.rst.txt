@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.Newport.add\_instantiation\_callback
-=============================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: Newport.add_instantiation_callback

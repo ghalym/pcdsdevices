@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPMTarget.move
-==============================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPMTarget.move

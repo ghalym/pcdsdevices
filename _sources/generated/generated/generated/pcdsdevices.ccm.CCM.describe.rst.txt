@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCM.describe
-============================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCM.describe

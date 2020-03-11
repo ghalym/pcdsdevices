@@ -1,6 +1,0 @@
-pcdsdevices.pim.XPIM.stop
-=========================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: XPIM.stop

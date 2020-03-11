@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPIMBChannel.read
-=================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPIMBChannel.read

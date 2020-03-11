@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.PIM.unsubscribe\_all
-==============================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: PIM.unsubscribe_all

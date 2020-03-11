@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.PCDSMotorBase.read
-===========================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: PCDSMotorBase.read

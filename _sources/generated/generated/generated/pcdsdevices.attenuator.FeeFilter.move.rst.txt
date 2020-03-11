@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.FeeFilter.move
-=====================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: FeeFilter.move

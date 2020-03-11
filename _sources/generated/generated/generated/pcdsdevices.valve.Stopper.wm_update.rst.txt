@@ -1,6 +1,0 @@
-pcdsdevices.valve.Stopper.wm\_update
-====================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: Stopper.wm_update

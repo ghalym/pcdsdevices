@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.OffsetMirror.put
-==========================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: OffsetMirror.put

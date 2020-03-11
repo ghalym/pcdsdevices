@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMWithBoth.stop
-================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMWithBoth.stop

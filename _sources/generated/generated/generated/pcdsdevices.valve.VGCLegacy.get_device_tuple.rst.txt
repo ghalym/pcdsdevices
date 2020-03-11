@@ -1,6 +1,0 @@
-pcdsdevices.valve.VGCLegacy.get\_device\_tuple
-==============================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VGCLegacy.get_device_tuple

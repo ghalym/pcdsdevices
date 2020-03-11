@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.YagLom.read\_configuration
-============================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: YagLom.read_configuration

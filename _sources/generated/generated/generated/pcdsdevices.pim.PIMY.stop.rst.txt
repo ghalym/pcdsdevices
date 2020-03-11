@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMY.stop
-=========================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMY.stop

@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.Dectris.move
-==============================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: Dectris.move

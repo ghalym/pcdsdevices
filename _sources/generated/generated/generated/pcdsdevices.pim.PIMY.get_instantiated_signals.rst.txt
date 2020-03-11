@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMY.get\_instantiated\_signals
-===============================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMY.get_instantiated_signals

@@ -1,6 +1,0 @@
-pcdsdevices.inout.InOutPVStatePositioner.clear\_sub
-===================================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: InOutPVStatePositioner.clear_sub

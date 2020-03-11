@@ -1,6 +1,0 @@
-pcdsdevices.signal.AvgSignal.trigger
-====================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: AvgSignal.trigger

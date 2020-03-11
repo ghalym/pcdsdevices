@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.EventSequencer.get
-============================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: EventSequencer.get

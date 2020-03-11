@@ -1,6 +1,0 @@
-pcdsdevices.valve.PPSStopper.read\_configuration
-================================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: PPSStopper.read_configuration

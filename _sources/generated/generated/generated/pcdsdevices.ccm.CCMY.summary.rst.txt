@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMY.summary
-============================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMY.summary

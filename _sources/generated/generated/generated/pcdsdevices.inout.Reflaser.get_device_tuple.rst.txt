@@ -1,6 +1,0 @@
-pcdsdevices.inout.Reflaser.get\_device\_tuple
-=============================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: Reflaser.get_device_tuple

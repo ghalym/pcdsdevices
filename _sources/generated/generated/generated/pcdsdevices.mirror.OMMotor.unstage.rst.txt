@@ -1,6 +1,0 @@
-pcdsdevices.mirror.OMMotor.unstage
-==================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: OMMotor.unstage

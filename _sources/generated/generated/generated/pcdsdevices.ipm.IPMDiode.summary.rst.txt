@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPMDiode.summary
-================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPMDiode.summary

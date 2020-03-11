@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMY.get
-========================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMY.get

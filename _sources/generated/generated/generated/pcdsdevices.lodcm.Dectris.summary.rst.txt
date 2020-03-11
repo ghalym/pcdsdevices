@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.Dectris.summary
-=================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: Dectris.summary

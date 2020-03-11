@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.IMS.stop
-=================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: IMS.stop

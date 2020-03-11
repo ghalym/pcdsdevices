@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.Slits.wm
-==================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: Slits.wm

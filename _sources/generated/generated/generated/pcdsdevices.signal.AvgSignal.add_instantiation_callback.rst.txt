@@ -1,6 +1,0 @@
-pcdsdevices.signal.AvgSignal.add\_instantiation\_callback
-=========================================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: AvgSignal.add_instantiation_callback

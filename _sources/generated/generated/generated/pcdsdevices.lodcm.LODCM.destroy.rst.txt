@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.LODCM.destroy
-===============================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: LODCM.destroy

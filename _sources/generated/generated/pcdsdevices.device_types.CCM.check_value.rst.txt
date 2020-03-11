@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.CCM.check\_value
-==========================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: CCM.check_value

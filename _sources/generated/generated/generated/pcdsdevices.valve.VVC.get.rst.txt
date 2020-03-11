@@ -1,6 +1,0 @@
-pcdsdevices.valve.VVC.get
-=========================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VVC.get

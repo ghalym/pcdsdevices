@@ -1,6 +1,0 @@
-pcdsdevices.pim.PPM.stop
-========================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PPM.stop

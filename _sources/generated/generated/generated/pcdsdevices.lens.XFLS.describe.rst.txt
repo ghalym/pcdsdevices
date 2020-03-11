@@ -1,6 +1,0 @@
-pcdsdevices.lens.XFLS.describe
-==============================
-
-.. currentmodule:: pcdsdevices.lens
-
-.. automethod:: XFLS.describe

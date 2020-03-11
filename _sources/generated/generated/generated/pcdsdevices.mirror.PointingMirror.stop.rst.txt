@@ -1,6 +1,0 @@
-pcdsdevices.mirror.PointingMirror.stop
-======================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: PointingMirror.stop

@@ -1,6 +1,0 @@
-pcdsdevices.pulsepicker.PulsePickerInOut.reset
-==============================================
-
-.. currentmodule:: pcdsdevices.pulsepicker
-
-.. automethod:: PulsePickerInOut.reset

@@ -1,6 +1,0 @@
-pcdsdevices.pulsepicker.PulsePicker.mv
-======================================
-
-.. currentmodule:: pcdsdevices.pulsepicker
-
-.. automethod:: PulsePicker.mv

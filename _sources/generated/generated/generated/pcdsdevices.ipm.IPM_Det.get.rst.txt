@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPM\_Det.get
-============================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPM_Det.get

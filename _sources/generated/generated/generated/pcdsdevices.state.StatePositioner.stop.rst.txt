@@ -1,6 +1,0 @@
-pcdsdevices.state.StatePositioner.stop
-======================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: StatePositioner.stop

@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.CCM.put
-=================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: CCM.put

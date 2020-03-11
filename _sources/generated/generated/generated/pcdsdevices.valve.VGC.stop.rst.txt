@@ -1,6 +1,0 @@
-pcdsdevices.valve.VGC.stop
-==========================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VGC.stop

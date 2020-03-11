@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPMMotion.get
-=============================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPMMotion.get

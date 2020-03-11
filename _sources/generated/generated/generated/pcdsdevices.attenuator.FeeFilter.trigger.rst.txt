@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.FeeFilter.trigger
-========================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: FeeFilter.trigger

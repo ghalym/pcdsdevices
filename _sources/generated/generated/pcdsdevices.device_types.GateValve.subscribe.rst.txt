@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.GateValve.subscribe
-=============================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: GateValve.subscribe

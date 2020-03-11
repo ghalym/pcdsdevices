@@ -1,6 +1,0 @@
-pcdsdevices.valve.VGC.configure
-===============================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VGC.configure

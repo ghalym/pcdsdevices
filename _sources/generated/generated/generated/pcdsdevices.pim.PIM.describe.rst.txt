@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIM.describe
-============================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIM.describe

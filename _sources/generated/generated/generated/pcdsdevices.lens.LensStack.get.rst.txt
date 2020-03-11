@@ -1,6 +1,0 @@
-pcdsdevices.lens.LensStack.get
-==============================
-
-.. currentmodule:: pcdsdevices.lens
-
-.. automethod:: LensStack.get

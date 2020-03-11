@@ -1,6 +1,0 @@
-pcdsdevices.lens.LensStackBase.trigger
-======================================
-
-.. currentmodule:: pcdsdevices.lens
-
-.. automethod:: LensStackBase.trigger

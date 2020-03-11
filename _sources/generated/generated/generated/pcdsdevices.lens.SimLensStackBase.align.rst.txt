@@ -1,6 +1,0 @@
-pcdsdevices.lens.SimLensStackBase.align
-=======================================
-
-.. currentmodule:: pcdsdevices.lens
-
-.. automethod:: SimLensStackBase.align

@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.YagLom.pause
-==============================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: YagLom.pause

@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMWithLED.stop
-===============================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMWithLED.stop

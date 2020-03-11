@@ -1,6 +1,0 @@
-pcdsdevices.state.PVStatePositioner.resume
-==========================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: PVStatePositioner.resume

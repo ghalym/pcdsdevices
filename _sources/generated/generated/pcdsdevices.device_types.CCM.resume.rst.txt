@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.CCM.resume
-====================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: CCM.resume

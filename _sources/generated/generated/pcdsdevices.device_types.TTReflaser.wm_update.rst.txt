@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.TTReflaser.wm\_update
-===============================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: TTReflaser.wm_update

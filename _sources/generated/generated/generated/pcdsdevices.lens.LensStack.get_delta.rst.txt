@@ -1,6 +1,0 @@
-pcdsdevices.lens.LensStack.get\_delta
-=====================================
-
-.. currentmodule:: pcdsdevices.lens
-
-.. automethod:: LensStack.get_delta

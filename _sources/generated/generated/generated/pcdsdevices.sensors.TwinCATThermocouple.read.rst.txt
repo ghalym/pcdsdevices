@@ -1,6 +1,0 @@
-pcdsdevices.sensors.TwinCATThermocouple.read
-============================================
-
-.. currentmodule:: pcdsdevices.sensors
-
-.. automethod:: TwinCATThermocouple.read

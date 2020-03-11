@@ -1,6 +1,0 @@
-pcdsdevices.valve.VGC.unsubscribe
-=================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VGC.unsubscribe

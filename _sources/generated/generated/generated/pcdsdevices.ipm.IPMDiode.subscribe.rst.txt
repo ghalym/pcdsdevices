@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPMDiode.subscribe
-==================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPMDiode.subscribe

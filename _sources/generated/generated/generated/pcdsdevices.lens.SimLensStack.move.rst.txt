@@ -1,6 +1,0 @@
-pcdsdevices.lens.SimLensStack.move
-==================================
-
-.. currentmodule:: pcdsdevices.lens
-
-.. automethod:: SimLensStack.move

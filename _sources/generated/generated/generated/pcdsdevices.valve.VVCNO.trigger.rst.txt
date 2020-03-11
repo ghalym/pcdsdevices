@@ -1,6 +1,0 @@
-pcdsdevices.valve.VVCNO.trigger
-===============================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VVCNO.trigger

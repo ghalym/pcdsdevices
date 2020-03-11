@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.DelayNewport.umv
-==========================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: DelayNewport.umv

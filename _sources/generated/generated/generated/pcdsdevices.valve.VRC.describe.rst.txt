@@ -1,6 +1,0 @@
-pcdsdevices.valve.VRC.describe
-==============================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VRC.describe

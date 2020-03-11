@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPIMBChannel.trigger
-====================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPIMBChannel.trigger

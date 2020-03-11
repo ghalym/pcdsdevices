@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMX.unstage
-============================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMX.unstage

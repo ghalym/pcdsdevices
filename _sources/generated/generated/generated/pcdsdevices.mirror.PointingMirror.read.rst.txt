@@ -1,6 +1,0 @@
-pcdsdevices.mirror.PointingMirror.read
-======================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: PointingMirror.read

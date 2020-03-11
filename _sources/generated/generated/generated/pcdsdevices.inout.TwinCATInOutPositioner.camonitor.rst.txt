@@ -1,6 +1,0 @@
-pcdsdevices.inout.TwinCATInOutPositioner.camonitor
-==================================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: TwinCATInOutPositioner.camonitor

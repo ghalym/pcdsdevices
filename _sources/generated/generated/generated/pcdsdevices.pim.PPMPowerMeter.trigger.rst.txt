@@ -1,6 +1,0 @@
-pcdsdevices.pim.PPMPowerMeter.trigger
-=====================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PPMPowerMeter.trigger

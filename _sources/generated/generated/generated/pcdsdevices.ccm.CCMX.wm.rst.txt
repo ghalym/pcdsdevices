@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMX.wm
-=======================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMX.wm

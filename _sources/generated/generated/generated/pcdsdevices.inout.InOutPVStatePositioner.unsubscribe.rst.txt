@@ -1,6 +1,0 @@
-pcdsdevices.inout.InOutPVStatePositioner.unsubscribe
-====================================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: InOutPVStatePositioner.unsubscribe

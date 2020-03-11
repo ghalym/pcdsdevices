@@ -1,6 +1,0 @@
-pcdsdevices.pim.PPM.describe
-============================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PPM.describe

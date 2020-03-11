@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.TTReflaser.check\_value
-=================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: TTReflaser.check_value

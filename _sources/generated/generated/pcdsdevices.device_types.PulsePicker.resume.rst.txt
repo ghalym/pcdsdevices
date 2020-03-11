@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.PulsePicker.resume
-============================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: PulsePicker.resume

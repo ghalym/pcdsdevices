@@ -1,6 +1,0 @@
-pcdsdevices.mirror.PointingMirror.insert
-========================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: PointingMirror.insert

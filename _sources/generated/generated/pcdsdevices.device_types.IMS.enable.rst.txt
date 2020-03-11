@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.IMS.enable
-====================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: IMS.enable

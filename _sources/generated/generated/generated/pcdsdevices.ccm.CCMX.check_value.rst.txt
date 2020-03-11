@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMX.check\_value
-=================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMX.check_value

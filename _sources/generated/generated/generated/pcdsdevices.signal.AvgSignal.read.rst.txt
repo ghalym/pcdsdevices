@@ -1,6 +1,0 @@
-pcdsdevices.signal.AvgSignal.read
-=================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: AvgSignal.read

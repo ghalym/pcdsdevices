@@ -1,6 +1,0 @@
-pcdsdevices.mirror.Pitch.trigger
-================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: Pitch.trigger

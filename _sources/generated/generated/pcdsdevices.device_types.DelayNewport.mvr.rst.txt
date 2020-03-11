@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.DelayNewport.mvr
-==========================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: DelayNewport.mvr

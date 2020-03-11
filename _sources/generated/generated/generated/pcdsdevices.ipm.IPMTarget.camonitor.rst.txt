@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPMTarget.camonitor
-===================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPMTarget.camonitor

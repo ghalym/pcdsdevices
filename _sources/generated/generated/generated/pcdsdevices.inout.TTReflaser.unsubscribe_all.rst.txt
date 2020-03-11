@@ -1,6 +1,0 @@
-pcdsdevices.inout.TTReflaser.unsubscribe\_all
-=============================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: TTReflaser.unsubscribe_all

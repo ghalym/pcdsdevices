@@ -1,6 +1,0 @@
-pcdsdevices.lens.LensStackBase.tweak
-====================================
-
-.. currentmodule:: pcdsdevices.lens
-
-.. automethod:: LensStackBase.tweak

@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.GateValve.close
-=========================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: GateValve.close

@@ -1,6 +1,0 @@
-pcdsdevices.mirror.PointingMirror.\_\_init\_\_
-==============================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: PointingMirror.__init__

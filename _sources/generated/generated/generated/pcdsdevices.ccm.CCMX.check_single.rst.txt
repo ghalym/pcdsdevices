@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMX.check\_single
-==================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMX.check_single

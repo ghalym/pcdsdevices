@@ -1,6 +1,0 @@
-pcdsdevices.sensors.RTD.describe\_configuration
-===============================================
-
-.. currentmodule:: pcdsdevices.sensors
-
-.. automethod:: RTD.describe_configuration

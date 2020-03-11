@@ -1,6 +1,0 @@
-pcdsdevices.valve.VVC.unstage
-=============================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VVC.unstage

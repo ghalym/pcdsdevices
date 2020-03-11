@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPMMotion.read\_configuration
-=============================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPMMotion.read_configuration

@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPMTarget.unstage
-=================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPMTarget.unstage

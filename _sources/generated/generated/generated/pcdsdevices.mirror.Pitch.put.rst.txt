@@ -1,6 +1,0 @@
-pcdsdevices.mirror.Pitch.put
-============================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: Pitch.put

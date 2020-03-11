@@ -1,6 +1,0 @@
-pcdsdevices.valve.Stopper.remove
-================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: Stopper.remove

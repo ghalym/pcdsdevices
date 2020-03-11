@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMMotor.unstage
-================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMMotor.unstage

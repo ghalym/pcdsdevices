@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.PulsePicker.pause
-===========================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: PulsePicker.pause

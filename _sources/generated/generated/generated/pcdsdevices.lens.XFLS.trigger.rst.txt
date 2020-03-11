@@ -1,6 +1,0 @@
-pcdsdevices.lens.XFLS.trigger
-=============================
-
-.. currentmodule:: pcdsdevices.lens
-
-.. automethod:: XFLS.trigger

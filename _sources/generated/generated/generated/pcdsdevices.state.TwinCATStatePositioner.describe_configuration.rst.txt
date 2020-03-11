@@ -1,6 +1,0 @@
-pcdsdevices.state.TwinCATStatePositioner.describe\_configuration
-================================================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: TwinCATStatePositioner.describe_configuration

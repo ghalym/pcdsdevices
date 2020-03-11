@@ -1,6 +1,0 @@
-pcdsdevices.lens.SimLensStack.create\_lens
-==========================================
-
-.. currentmodule:: pcdsdevices.lens
-
-.. automethod:: SimLensStack.create_lens

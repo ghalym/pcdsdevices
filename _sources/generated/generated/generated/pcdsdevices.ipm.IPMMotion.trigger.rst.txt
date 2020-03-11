@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPMMotion.trigger
-=================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPMMotion.trigger

@@ -1,6 +1,0 @@
-pcdsdevices.pim.XPIMFilterWheel.resume
-======================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: XPIMFilterWheel.resume

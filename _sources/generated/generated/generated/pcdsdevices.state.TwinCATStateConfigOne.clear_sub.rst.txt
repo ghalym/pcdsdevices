@@ -1,6 +1,0 @@
-pcdsdevices.state.TwinCATStateConfigOne.clear\_sub
-==================================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: TwinCATStateConfigOne.clear_sub

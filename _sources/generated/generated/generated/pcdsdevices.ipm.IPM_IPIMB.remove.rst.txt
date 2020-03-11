@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPM\_IPIMB.remove
-=================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPM_IPIMB.remove

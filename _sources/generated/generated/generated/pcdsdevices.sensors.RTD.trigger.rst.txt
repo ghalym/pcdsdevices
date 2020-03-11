@@ -1,6 +1,0 @@
-pcdsdevices.sensors.RTD.trigger
-===============================
-
-.. currentmodule:: pcdsdevices.sensors
-
-.. automethod:: RTD.trigger

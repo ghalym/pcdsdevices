@@ -1,6 +1,0 @@
-pcdsdevices.lens.XFLS.unstage
-=============================
-
-.. currentmodule:: pcdsdevices.lens
-
-.. automethod:: XFLS.unstage

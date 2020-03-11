@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMY.destroy
-============================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMY.destroy

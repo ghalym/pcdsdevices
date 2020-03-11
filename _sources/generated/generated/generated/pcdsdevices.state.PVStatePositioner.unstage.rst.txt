@@ -1,6 +1,0 @@
-pcdsdevices.state.PVStatePositioner.unstage
-===========================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: PVStatePositioner.unstage

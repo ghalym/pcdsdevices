@@ -1,6 +1,0 @@
-pcdsdevices.mirror.Pitch.clear\_sub
-===================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: Pitch.clear_sub

@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.YagLom.insert
-===============================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: YagLom.insert

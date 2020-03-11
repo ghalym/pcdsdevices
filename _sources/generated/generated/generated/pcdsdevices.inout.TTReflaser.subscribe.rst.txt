@@ -1,6 +1,0 @@
-pcdsdevices.inout.TTReflaser.subscribe
-======================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: TTReflaser.subscribe

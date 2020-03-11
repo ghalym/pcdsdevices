@@ -1,6 +1,0 @@
-pcdsdevices.pim.PPMPowerMeter.stop
-==================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PPMPowerMeter.stop

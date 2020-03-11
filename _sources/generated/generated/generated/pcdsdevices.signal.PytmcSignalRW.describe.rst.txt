@@ -1,6 +1,0 @@
-pcdsdevices.signal.PytmcSignalRW.describe
-=========================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: PytmcSignalRW.describe

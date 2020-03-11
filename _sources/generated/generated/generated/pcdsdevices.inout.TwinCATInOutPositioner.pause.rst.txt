@@ -1,6 +1,0 @@
-pcdsdevices.inout.TwinCATInOutPositioner.pause
-==============================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: TwinCATInOutPositioner.pause

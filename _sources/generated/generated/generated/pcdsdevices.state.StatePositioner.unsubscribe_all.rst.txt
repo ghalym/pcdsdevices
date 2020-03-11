@@ -1,6 +1,0 @@
-pcdsdevices.state.StatePositioner.unsubscribe\_all
-==================================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: StatePositioner.unsubscribe_all

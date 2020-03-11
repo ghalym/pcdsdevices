@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.IMS.destroy
-=====================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: IMS.destroy

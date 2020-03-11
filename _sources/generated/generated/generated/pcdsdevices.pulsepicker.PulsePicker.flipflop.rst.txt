@@ -1,6 +1,0 @@
-pcdsdevices.pulsepicker.PulsePicker.flipflop
-============================================
-
-.. currentmodule:: pcdsdevices.pulsepicker
-
-.. automethod:: PulsePicker.flipflop

@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.Newport.spg\_pause
-===========================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: Newport.spg_pause

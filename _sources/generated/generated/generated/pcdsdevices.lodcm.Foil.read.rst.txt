@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.Foil.read
-===========================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: Foil.read

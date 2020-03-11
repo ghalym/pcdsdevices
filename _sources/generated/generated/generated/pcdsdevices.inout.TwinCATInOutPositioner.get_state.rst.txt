@@ -1,6 +1,0 @@
-pcdsdevices.inout.TwinCATInOutPositioner.get\_state
-===================================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: TwinCATInOutPositioner.get_state

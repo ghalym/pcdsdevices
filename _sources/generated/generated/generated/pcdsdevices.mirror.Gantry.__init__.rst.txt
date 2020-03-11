@@ -1,6 +1,0 @@
-pcdsdevices.mirror.Gantry.\_\_init\_\_
-======================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: Gantry.__init__

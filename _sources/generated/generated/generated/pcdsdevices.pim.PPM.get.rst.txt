@@ -1,6 +1,0 @@
-pcdsdevices.pim.PPM.get
-=======================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PPM.get

@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.Dectris.insert
-================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: Dectris.insert

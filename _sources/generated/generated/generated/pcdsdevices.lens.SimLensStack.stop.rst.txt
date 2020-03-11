@@ -1,6 +1,0 @@
-pcdsdevices.lens.SimLensStack.stop
-==================================
-
-.. currentmodule:: pcdsdevices.lens
-
-.. automethod:: SimLensStack.stop

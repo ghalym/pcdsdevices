@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMY.stage
-==========================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMY.stage

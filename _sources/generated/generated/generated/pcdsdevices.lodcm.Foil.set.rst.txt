@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.Foil.set
-==========================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: Foil.set

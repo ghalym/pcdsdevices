@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMWithBoth.add\_instantiation\_callback
-========================================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMWithBoth.add_instantiation_callback

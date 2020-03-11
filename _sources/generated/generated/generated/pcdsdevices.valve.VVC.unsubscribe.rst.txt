@@ -1,6 +1,0 @@
-pcdsdevices.valve.VVC.unsubscribe
-=================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VVC.unsubscribe

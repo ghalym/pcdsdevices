@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.GateValve.wm
-======================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: GateValve.wm

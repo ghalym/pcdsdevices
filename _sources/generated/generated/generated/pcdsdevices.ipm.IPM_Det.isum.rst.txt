@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPM\_Det.isum
-=============================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPM_Det.isum

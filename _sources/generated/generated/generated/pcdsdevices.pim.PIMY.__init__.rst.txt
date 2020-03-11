@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMY.\_\_init\_\_
-=================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMY.__init__

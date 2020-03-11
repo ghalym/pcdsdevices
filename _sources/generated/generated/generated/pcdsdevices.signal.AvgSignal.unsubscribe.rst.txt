@@ -1,6 +1,0 @@
-pcdsdevices.signal.AvgSignal.unsubscribe
-========================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: AvgSignal.unsubscribe

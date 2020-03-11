@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.Stopper.move
-======================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: Stopper.move

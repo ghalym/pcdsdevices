@@ -1,6 +1,0 @@
-pcdsdevices.sensors.RTD.pause
-=============================
-
-.. currentmodule:: pcdsdevices.sensors
-
-.. automethod:: RTD.pause

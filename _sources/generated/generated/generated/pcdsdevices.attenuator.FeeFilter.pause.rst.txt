@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.FeeFilter.pause
-======================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: FeeFilter.pause

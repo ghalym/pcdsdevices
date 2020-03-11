@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.Dectris.get\_state
-====================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: Dectris.get_state

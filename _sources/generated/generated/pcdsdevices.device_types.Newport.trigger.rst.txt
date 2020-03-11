@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.Newport.trigger
-=========================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: Newport.trigger

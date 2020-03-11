@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.Dectris.end\_monitor\_thread
-==============================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: Dectris.end_monitor_thread

@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPMMotion.destroy
-=================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPMMotion.destroy

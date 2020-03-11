@@ -1,6 +1,0 @@
-pcdsdevices.lens.LensStack.describe
-===================================
-
-.. currentmodule:: pcdsdevices.lens
-
-.. automethod:: LensStack.describe

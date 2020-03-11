@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMY.configure
-==============================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMY.configure

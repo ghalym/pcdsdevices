@@ -1,6 +1,0 @@
-pcdsdevices.state.StatePositioner.check\_value
-==============================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: StatePositioner.check_value

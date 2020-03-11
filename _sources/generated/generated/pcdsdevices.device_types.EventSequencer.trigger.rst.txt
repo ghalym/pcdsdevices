@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.EventSequencer.trigger
-================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: EventSequencer.trigger

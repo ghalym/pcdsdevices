@@ -1,6 +1,0 @@
-pcdsdevices.state.StatePositioner.camonitor
-===========================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: StatePositioner.camonitor

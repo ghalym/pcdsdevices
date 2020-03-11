@@ -1,6 +1,0 @@
-pcdsdevices.pim.XPIM.read\_configuration
-========================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: XPIM.read_configuration

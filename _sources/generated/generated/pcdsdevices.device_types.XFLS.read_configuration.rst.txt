@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.XFLS.read\_configuration
-==================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: XFLS.read_configuration

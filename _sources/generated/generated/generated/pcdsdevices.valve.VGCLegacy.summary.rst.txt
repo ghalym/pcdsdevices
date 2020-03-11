@@ -1,6 +1,0 @@
-pcdsdevices.valve.VGCLegacy.summary
-===================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VGCLegacy.summary

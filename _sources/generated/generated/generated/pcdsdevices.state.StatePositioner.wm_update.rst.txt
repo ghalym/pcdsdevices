@@ -1,6 +1,0 @@
-pcdsdevices.state.StatePositioner.wm\_update
-============================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: StatePositioner.wm_update

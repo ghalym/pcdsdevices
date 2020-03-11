@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMWithLED.read\_configuration
-==============================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMWithLED.read_configuration

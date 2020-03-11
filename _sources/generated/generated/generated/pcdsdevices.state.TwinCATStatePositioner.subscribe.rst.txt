@@ -1,6 +1,0 @@
-pcdsdevices.state.TwinCATStatePositioner.subscribe
-==================================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: TwinCATStatePositioner.subscribe

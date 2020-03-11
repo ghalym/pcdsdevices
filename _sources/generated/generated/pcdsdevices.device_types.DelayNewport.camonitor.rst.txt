@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.DelayNewport.camonitor
-================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: DelayNewport.camonitor

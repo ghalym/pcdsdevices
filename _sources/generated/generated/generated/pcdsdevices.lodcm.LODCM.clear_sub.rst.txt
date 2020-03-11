@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.LODCM.clear\_sub
-==================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: LODCM.clear_sub

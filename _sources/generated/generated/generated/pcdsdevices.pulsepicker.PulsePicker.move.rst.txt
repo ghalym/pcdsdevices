@@ -1,6 +1,0 @@
-pcdsdevices.pulsepicker.PulsePicker.move
-========================================
-
-.. currentmodule:: pcdsdevices.pulsepicker
-
-.. automethod:: PulsePicker.move

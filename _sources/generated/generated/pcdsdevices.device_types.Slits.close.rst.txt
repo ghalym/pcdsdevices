@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.Slits.close
-=====================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: Slits.close

@@ -1,6 +1,0 @@
-pcdsdevices.state.TwinCATStatePositioner.get\_device\_tuple
-===========================================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: TwinCATStatePositioner.get_device_tuple

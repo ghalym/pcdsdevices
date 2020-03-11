@@ -1,6 +1,0 @@
-pcdsdevices.state.PVStateSignal.put
-===================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: PVStateSignal.put

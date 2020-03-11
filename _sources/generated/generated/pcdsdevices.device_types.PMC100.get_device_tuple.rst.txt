@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.PMC100.get\_device\_tuple
-===================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: PMC100.get_device_tuple

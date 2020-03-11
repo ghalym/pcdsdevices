@@ -1,6 +1,0 @@
-pcdsdevices.valve.Stopper.trigger
-=================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: Stopper.trigger

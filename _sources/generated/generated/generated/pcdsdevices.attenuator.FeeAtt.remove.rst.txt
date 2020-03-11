@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.FeeAtt.remove
-====================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: FeeAtt.remove

@@ -1,6 +1,0 @@
-pcdsdevices.mirror.Pitch.pause
-==============================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: Pitch.pause

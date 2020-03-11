@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.IonPump
-=================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. autofunction:: IonPump

@@ -1,6 +1,0 @@
-pcdsdevices.lens.XFLS.move
-==========================
-
-.. currentmodule:: pcdsdevices.lens
-
-.. automethod:: XFLS.move

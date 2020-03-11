@@ -1,6 +1,0 @@
-pcdsdevices.ipm.Wave8.configure
-===============================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: Wave8.configure

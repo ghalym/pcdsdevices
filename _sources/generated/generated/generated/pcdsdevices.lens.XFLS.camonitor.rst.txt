@@ -1,6 +1,0 @@
-pcdsdevices.lens.XFLS.camonitor
-===============================
-
-.. currentmodule:: pcdsdevices.lens
-
-.. automethod:: XFLS.camonitor

@@ -1,6 +1,0 @@
-pcdsdevices.pim.PPM.check\_value
-================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PPM.check_value

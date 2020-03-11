@@ -1,6 +1,0 @@
-pcdsdevices.mirror.Pitch.wm\_update
-===================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: Pitch.wm_update

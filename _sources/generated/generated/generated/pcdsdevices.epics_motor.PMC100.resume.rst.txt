@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.PMC100.resume
-======================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: PMC100.resume

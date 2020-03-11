@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPIMBChannel.stage
-==================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPIMBChannel.stage

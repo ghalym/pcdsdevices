@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMCalc.move
-============================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMCalc.move

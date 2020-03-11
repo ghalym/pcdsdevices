@@ -1,6 +1,0 @@
-pcdsdevices.mirror.XOffsetMirror.clear\_sub
-===========================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: XOffsetMirror.clear_sub

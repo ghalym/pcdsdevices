@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.BeckhoffAxisPLC.summary
-================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: BeckhoffAxisPLC.summary

@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.LODCM.read\_configuration
-===========================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: LODCM.read_configuration

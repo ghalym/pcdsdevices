@@ -1,6 +1,0 @@
-pcdsdevices.signal.PytmcSignalRW.trigger
-========================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: PytmcSignalRW.trigger

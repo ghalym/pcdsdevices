@@ -1,6 +1,0 @@
-pcdsdevices.mirror.Pitch.stop
-=============================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: Pitch.stop

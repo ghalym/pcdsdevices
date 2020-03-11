@@ -1,6 +1,0 @@
-pcdsdevices.mirror.PointingMirror.describe
-==========================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: PointingMirror.describe

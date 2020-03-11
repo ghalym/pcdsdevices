@@ -1,6 +1,0 @@
-pcdsdevices.slits.SlitPositioner.read
-=====================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: SlitPositioner.read

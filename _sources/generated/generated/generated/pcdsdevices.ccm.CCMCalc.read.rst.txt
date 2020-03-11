@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMCalc.read
-============================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMCalc.read

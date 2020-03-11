@@ -1,6 +1,0 @@
-pcdsdevices.inout.TwinCATInOutPositioner.walk\_subdevices
-=========================================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: TwinCATInOutPositioner.walk_subdevices

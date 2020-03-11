@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.FeeFilter.check\_value
-=============================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: FeeFilter.check_value

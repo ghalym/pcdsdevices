@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.GateValve.remove
-==========================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: GateValve.remove

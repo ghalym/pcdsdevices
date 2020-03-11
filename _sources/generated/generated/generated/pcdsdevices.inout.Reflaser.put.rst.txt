@@ -1,6 +1,0 @@
-pcdsdevices.inout.Reflaser.put
-==============================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: Reflaser.put

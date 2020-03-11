@@ -1,6 +1,0 @@
-pcdsdevices.signal.PytmcSignal.describe
-=======================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: PytmcSignal.describe

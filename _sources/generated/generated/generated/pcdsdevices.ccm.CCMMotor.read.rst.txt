@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMMotor.read
-=============================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMMotor.read

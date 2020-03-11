@@ -1,6 +1,0 @@
-pcdsdevices.movablestand.MovableStand.destroy
-=============================================
-
-.. currentmodule:: pcdsdevices.movablestand
-
-.. automethod:: MovableStand.destroy

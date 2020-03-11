@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.BeckhoffAxis.move
-===========================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: BeckhoffAxis.move

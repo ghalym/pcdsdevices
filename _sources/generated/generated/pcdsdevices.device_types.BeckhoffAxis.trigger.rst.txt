@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.BeckhoffAxis.trigger
-==============================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: BeckhoffAxis.trigger

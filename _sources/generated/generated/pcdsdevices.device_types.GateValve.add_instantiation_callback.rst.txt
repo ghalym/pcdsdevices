@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.GateValve.add\_instantiation\_callback
-================================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: GateValve.add_instantiation_callback

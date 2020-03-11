@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.EventSequencer.start
-==============================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: EventSequencer.start

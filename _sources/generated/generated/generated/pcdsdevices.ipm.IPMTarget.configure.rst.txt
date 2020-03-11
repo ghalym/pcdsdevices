@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPMTarget.configure
-===================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPMTarget.configure

@@ -1,6 +1,0 @@
-pcdsdevices.pim.LCLS2ImagerBase.stop
-====================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: LCLS2ImagerBase.stop

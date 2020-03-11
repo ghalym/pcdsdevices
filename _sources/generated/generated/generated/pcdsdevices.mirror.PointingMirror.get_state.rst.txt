@@ -1,6 +1,0 @@
-pcdsdevices.mirror.PointingMirror.get\_state
-============================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: PointingMirror.get_state

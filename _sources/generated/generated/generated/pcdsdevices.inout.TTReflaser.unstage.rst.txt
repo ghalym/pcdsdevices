@@ -1,6 +1,0 @@
-pcdsdevices.inout.TTReflaser.unstage
-====================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: TTReflaser.unstage

@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.Stopper.wm\_update
-============================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: Stopper.wm_update

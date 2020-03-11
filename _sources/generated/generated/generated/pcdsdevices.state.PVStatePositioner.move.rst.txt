@@ -1,6 +1,0 @@
-pcdsdevices.state.PVStatePositioner.move
-========================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: PVStatePositioner.move

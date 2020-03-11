@@ -1,6 +1,0 @@
-pcdsdevices.pulsepicker.PulsePicker.destroy
-===========================================
-
-.. currentmodule:: pcdsdevices.pulsepicker
-
-.. automethod:: PulsePicker.destroy

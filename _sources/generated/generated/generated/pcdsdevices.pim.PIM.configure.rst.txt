@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIM.configure
-=============================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIM.configure

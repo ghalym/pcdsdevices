@@ -1,6 +1,0 @@
-pcdsdevices.inout.TTReflaser.get
-================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: TTReflaser.get

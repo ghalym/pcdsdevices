@@ -1,6 +1,0 @@
-pcdsdevices.sensors.RTD.read
-============================
-
-.. currentmodule:: pcdsdevices.sensors
-
-.. automethod:: RTD.read

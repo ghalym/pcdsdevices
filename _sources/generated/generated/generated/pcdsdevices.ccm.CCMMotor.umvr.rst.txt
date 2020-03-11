@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMMotor.umvr
-=============================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMMotor.umvr

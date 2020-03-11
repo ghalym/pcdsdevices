@@ -1,6 +1,0 @@
-pcdsdevices.valve.Stopper.get\_device\_tuple
-============================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: Stopper.get_device_tuple

@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.PCDSMotorBase.configure
-================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: PCDSMotorBase.configure

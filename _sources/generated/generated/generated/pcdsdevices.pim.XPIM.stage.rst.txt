@@ -1,6 +1,0 @@
-pcdsdevices.pim.XPIM.stage
-==========================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: XPIM.stage

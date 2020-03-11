@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.BeckhoffAxis.end\_monitor\_thread
-===========================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: BeckhoffAxis.end_monitor_thread
