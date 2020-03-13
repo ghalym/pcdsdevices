@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMDiode.unsubscribe
+====================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMDiode.unsubscribe

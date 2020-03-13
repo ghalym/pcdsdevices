@@ -1,0 +1,6 @@
+pcdsdevices.pim.PPMPowerMeter.add\_instantiation\_callback
+==========================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PPMPowerMeter.add_instantiation_callback

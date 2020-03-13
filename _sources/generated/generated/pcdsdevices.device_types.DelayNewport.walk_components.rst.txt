@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.DelayNewport.walk\_components
+=======================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: DelayNewport.walk_components

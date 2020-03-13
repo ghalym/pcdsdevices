@@ -1,0 +1,6 @@
+pcdsdevices.ipm.Wave8Channel.unsubscribe\_all
+=============================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: Wave8Channel.unsubscribe_all

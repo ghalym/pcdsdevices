@@ -1,0 +1,6 @@
+pcdsdevices.signal.AggregateSignal.add\_instantiation\_callback
+===============================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: AggregateSignal.add_instantiation_callback

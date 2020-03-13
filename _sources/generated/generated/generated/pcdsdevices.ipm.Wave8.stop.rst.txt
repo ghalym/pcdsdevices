@@ -1,0 +1,6 @@
+pcdsdevices.ipm.Wave8.stop
+==========================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: Wave8.stop

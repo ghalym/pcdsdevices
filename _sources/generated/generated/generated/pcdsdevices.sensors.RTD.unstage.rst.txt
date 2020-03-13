@@ -1,0 +1,6 @@
+pcdsdevices.sensors.RTD.unstage
+===============================
+
+.. currentmodule:: pcdsdevices.sensors
+
+.. automethod:: RTD.unstage

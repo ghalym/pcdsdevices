@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMTarget.read\_configuration
+=============================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMTarget.read_configuration

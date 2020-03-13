@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithFocus.pause
+==================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithFocus.pause

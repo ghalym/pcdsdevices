@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttBase.walk\_signals
+============================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttBase.walk_signals

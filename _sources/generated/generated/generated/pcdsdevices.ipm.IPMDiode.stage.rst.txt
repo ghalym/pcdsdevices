@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMDiode.stage
+==============================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMDiode.stage

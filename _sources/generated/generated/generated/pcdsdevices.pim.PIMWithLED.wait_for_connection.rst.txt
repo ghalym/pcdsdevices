@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithLED.wait\_for\_connection
+================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithLED.wait_for_connection

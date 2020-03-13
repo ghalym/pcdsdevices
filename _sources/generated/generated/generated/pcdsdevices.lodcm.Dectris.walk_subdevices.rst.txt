@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Dectris.walk\_subdevices
+==========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Dectris.walk_subdevices

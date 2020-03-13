@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.EpicsMotorInterface.add\_instantiation\_callback
+=========================================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: EpicsMotorInterface.add_instantiation_callback

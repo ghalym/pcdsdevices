@@ -1,0 +1,6 @@
+pcdsdevices.state.TwinCATStateConfigOne.subscribe
+=================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: TwinCATStateConfigOne.subscribe

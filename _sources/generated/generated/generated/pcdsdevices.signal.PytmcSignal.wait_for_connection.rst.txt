@@ -1,0 +1,6 @@
+pcdsdevices.signal.PytmcSignal.wait\_for\_connection
+====================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: PytmcSignal.wait_for_connection

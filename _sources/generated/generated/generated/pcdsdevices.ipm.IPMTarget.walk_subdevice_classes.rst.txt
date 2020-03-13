@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMTarget.walk\_subdevice\_classes
+==================================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMTarget.walk_subdevice_classes

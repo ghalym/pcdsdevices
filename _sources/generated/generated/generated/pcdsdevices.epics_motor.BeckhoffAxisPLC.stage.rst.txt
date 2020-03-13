@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.BeckhoffAxisPLC.stage
+==============================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: BeckhoffAxisPLC.stage

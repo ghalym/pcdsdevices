@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIM.get
+========================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIM.get

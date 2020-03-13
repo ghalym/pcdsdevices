@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIM.pause
+==========================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIM.pause

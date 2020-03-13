@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMTarget.stage
+===============================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMTarget.stage

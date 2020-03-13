@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMFilterWheel.unsubscribe\_all
+================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMFilterWheel.unsubscribe_all

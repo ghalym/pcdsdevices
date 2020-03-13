@@ -1,0 +1,6 @@
+pcdsdevices.valve.ValveBase.check\_value
+========================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: ValveBase.check_value

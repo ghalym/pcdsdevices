@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMTarget.insert
+================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMTarget.insert

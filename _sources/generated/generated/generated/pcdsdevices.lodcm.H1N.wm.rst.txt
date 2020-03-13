@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.H1N.wm
+========================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: H1N.wm

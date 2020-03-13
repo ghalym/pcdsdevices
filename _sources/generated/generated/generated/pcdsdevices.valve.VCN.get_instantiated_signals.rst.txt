@@ -1,0 +1,6 @@
+pcdsdevices.valve.VCN.get\_instantiated\_signals
+================================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VCN.get_instantiated_signals

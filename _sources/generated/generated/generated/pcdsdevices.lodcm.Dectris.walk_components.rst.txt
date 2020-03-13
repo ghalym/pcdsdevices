@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Dectris.walk\_components
+==========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Dectris.walk_components

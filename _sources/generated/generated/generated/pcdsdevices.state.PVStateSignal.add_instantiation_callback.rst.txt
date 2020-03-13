@@ -1,0 +1,6 @@
+pcdsdevices.state.PVStateSignal.add\_instantiation\_callback
+============================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: PVStateSignal.add_instantiation_callback

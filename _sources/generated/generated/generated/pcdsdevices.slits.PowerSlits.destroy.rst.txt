@@ -1,0 +1,6 @@
+pcdsdevices.slits.PowerSlits.destroy
+====================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: PowerSlits.destroy

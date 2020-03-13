@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.Newport.destroy
+========================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: Newport.destroy

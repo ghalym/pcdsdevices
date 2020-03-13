@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMTarget.set
+=============================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMTarget.set

@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIM.describe\_configuration
+============================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIM.describe_configuration

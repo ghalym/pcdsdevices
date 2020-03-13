@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPM\_Wave8.stage
+================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPM_Wave8.stage

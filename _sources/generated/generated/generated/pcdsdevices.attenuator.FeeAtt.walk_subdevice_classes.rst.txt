@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.FeeAtt.walk\_subdevice\_classes
+======================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: FeeAtt.walk_subdevice_classes

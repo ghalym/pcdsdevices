@@ -1,0 +1,6 @@
+pcdsdevices.pim.PPMPowerMeter.read
+==================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PPMPowerMeter.read

@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.BeckhoffAxisPLC.unsubscribe\_all
+=========================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: BeckhoffAxisPLC.unsubscribe_all

@@ -1,0 +1,6 @@
+pcdsdevices.pim.LCLS2ImagerBase.destroy
+=======================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: LCLS2ImagerBase.destroy

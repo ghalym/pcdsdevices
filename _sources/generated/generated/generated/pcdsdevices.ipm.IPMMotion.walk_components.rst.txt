@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMMotion.walk\_components
+==========================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMMotion.walk_components

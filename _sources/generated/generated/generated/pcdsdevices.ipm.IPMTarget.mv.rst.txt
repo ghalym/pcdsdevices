@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMTarget.mv
+============================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMTarget.mv

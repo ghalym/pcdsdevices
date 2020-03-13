@@ -1,0 +1,86 @@
+pcdsdevices.valve.VGC
+=====================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. autoclass:: VGC
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~VGC.__init__
+      ~VGC.add_instantiation_callback
+      ~VGC.check_value
+      ~VGC.clear_sub
+      ~VGC.configure
+      ~VGC.describe
+      ~VGC.describe_configuration
+      ~VGC.destroy
+      ~VGC.get
+      ~VGC.get_device_tuple
+      ~VGC.get_instantiated_signals
+      ~VGC.pause
+      ~VGC.put
+      ~VGC.read
+      ~VGC.read_configuration
+      ~VGC.resume
+      ~VGC.stage
+      ~VGC.stop
+      ~VGC.subscribe
+      ~VGC.summary
+      ~VGC.trigger
+      ~VGC.unstage
+      ~VGC.unsubscribe
+      ~VGC.unsubscribe_all
+      ~VGC.wait_for_connection
+      ~VGC.walk_components
+      ~VGC.walk_signals
+      ~VGC.walk_subdevice_classes
+      ~VGC.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~VGC.SUB_ACQ_DONE
+      ~VGC.at_vac
+      ~VGC.at_vac_setpoint
+      ~VGC.attr_name
+      ~VGC.closed_limit
+      ~VGC.component_names
+      ~VGC.configuration_attrs
+      ~VGC.connected
+      ~VGC.diff_press_ok
+      ~VGC.dotted_name
+      ~VGC.error
+      ~VGC.event_types
+      ~VGC.ext_ilk_ok
+      ~VGC.hints
+      ~VGC.interlock_ok
+      ~VGC.kind
+      ~VGC.lazy_wait_for_connection
+      ~VGC.mps_state
+      ~VGC.name
+      ~VGC.open_command
+      ~VGC.open_do
+      ~VGC.open_limit
+      ~VGC.open_override
+      ~VGC.override_on
+      ~VGC.parent
+      ~VGC.read_attrs
+      ~VGC.report
+      ~VGC.root
+      ~VGC.setpoint_hysterisis
+      ~VGC.signal_names
+      ~VGC.state
+      ~VGC.trigger_signals
+   
+   

@@ -1,0 +1,6 @@
+pcdsdevices.valve.Stopper.walk\_subdevices
+==========================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: Stopper.walk_subdevices

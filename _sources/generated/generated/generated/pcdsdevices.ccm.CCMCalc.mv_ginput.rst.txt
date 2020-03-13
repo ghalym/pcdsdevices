@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMCalc.mv\_ginput
+==================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMCalc.mv_ginput

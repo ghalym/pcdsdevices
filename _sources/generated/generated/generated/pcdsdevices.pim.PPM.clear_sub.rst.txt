@@ -1,0 +1,6 @@
+pcdsdevices.pim.PPM.clear\_sub
+==============================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PPM.clear_sub

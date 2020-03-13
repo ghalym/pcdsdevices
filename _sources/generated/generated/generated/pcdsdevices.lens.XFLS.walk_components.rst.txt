@@ -1,0 +1,6 @@
+pcdsdevices.lens.XFLS.walk\_components
+======================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: XFLS.walk_components

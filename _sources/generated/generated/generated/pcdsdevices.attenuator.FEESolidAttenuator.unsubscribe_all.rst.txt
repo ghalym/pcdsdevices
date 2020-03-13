@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.FEESolidAttenuator.unsubscribe\_all
+==========================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: FEESolidAttenuator.unsubscribe_all

@@ -1,0 +1,6 @@
+pcdsdevices.valve.VGCLegacy.add\_instantiation\_callback
+========================================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VGCLegacy.add_instantiation_callback

@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.MovableStand.get\_instantiated\_signals
+=================================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: MovableStand.get_instantiated_signals

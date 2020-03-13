@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XPIM.check\_value
+===========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XPIM.check_value

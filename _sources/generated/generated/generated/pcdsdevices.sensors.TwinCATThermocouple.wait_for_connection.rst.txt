@@ -1,0 +1,6 @@
+pcdsdevices.sensors.TwinCATThermocouple.wait\_for\_connection
+=============================================================
+
+.. currentmodule:: pcdsdevices.sensors
+
+.. automethod:: TwinCATThermocouple.wait_for_connection

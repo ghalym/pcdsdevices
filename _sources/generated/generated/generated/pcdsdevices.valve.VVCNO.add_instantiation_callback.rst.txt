@@ -1,0 +1,6 @@
+pcdsdevices.valve.VVCNO.add\_instantiation\_callback
+====================================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VVCNO.add_instantiation_callback

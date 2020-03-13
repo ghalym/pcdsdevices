@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.Filter.destroy
+=====================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: Filter.destroy

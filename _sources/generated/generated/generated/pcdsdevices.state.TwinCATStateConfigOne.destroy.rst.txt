@@ -1,0 +1,6 @@
+pcdsdevices.state.TwinCATStateConfigOne.destroy
+===============================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: TwinCATStateConfigOne.destroy

@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMDiode.check\_value
+=====================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMDiode.check_value

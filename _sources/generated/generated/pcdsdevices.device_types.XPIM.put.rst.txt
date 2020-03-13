@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XPIM.put
+==================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XPIM.put

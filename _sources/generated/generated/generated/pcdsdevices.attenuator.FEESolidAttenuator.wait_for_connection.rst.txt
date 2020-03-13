@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.FEESolidAttenuator.wait\_for\_connection
+===============================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: FEESolidAttenuator.wait_for_connection

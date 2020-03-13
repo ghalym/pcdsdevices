@@ -1,0 +1,6 @@
+pcdsdevices.ipm.Wave8Channel.wait\_for\_connection
+==================================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: Wave8Channel.wait_for_connection

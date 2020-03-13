@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XFLS.walk\_signals
+============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XFLS.walk_signals

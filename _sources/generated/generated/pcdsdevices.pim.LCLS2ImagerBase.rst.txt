@@ -1,0 +1,77 @@
+pcdsdevices.pim.LCLS2ImagerBase
+===============================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. autoclass:: LCLS2ImagerBase
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~LCLS2ImagerBase.__init__
+      ~LCLS2ImagerBase.add_instantiation_callback
+      ~LCLS2ImagerBase.check_value
+      ~LCLS2ImagerBase.clear_sub
+      ~LCLS2ImagerBase.configure
+      ~LCLS2ImagerBase.describe
+      ~LCLS2ImagerBase.describe_configuration
+      ~LCLS2ImagerBase.destroy
+      ~LCLS2ImagerBase.get
+      ~LCLS2ImagerBase.get_device_tuple
+      ~LCLS2ImagerBase.get_instantiated_signals
+      ~LCLS2ImagerBase.pause
+      ~LCLS2ImagerBase.put
+      ~LCLS2ImagerBase.read
+      ~LCLS2ImagerBase.read_configuration
+      ~LCLS2ImagerBase.resume
+      ~LCLS2ImagerBase.stage
+      ~LCLS2ImagerBase.stop
+      ~LCLS2ImagerBase.subscribe
+      ~LCLS2ImagerBase.summary
+      ~LCLS2ImagerBase.trigger
+      ~LCLS2ImagerBase.unstage
+      ~LCLS2ImagerBase.unsubscribe
+      ~LCLS2ImagerBase.unsubscribe_all
+      ~LCLS2ImagerBase.wait_for_connection
+      ~LCLS2ImagerBase.walk_components
+      ~LCLS2ImagerBase.walk_signals
+      ~LCLS2ImagerBase.walk_subdevice_classes
+      ~LCLS2ImagerBase.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~LCLS2ImagerBase.SUB_ACQ_DONE
+      ~LCLS2ImagerBase.attr_name
+      ~LCLS2ImagerBase.cam_power
+      ~LCLS2ImagerBase.component_names
+      ~LCLS2ImagerBase.configuration_attrs
+      ~LCLS2ImagerBase.connected
+      ~LCLS2ImagerBase.detector
+      ~LCLS2ImagerBase.dotted_name
+      ~LCLS2ImagerBase.event_types
+      ~LCLS2ImagerBase.hints
+      ~LCLS2ImagerBase.kind
+      ~LCLS2ImagerBase.lazy_wait_for_connection
+      ~LCLS2ImagerBase.name
+      ~LCLS2ImagerBase.parent
+      ~LCLS2ImagerBase.read_attrs
+      ~LCLS2ImagerBase.report
+      ~LCLS2ImagerBase.root
+      ~LCLS2ImagerBase.signal_names
+      ~LCLS2ImagerBase.tab_component_names
+      ~LCLS2ImagerBase.tab_whitelist
+      ~LCLS2ImagerBase.trigger_signals
+      ~LCLS2ImagerBase.y_motor
+      ~LCLS2ImagerBase.y_states
+   
+   

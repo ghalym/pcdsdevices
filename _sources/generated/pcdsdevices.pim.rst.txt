@@ -1,0 +1,32 @@
+pcdsdevices.pim
+===============
+
+.. automodule:: pcdsdevices.pim
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree: generated
+   
+      LCLS2ImagerBase
+      PIM
+      PIMWithBoth
+      PIMWithFocus
+      PIMWithLED
+      PIMY
+      PPM
+      PPMPowerMeter
+      XPIM
+      XPIMFilterWheel
+   
+   
+
+   
+   
+   

@@ -1,0 +1,6 @@
+pcdsdevices.valve.VCN.resume
+============================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VCN.resume

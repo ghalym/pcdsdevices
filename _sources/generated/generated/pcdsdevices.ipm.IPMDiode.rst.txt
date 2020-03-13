@@ -1,0 +1,78 @@
+pcdsdevices.ipm.IPMDiode
+========================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. autoclass:: IPMDiode
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~IPMDiode.__init__
+      ~IPMDiode.add_instantiation_callback
+      ~IPMDiode.check_value
+      ~IPMDiode.clear_sub
+      ~IPMDiode.configure
+      ~IPMDiode.describe
+      ~IPMDiode.describe_configuration
+      ~IPMDiode.destroy
+      ~IPMDiode.get
+      ~IPMDiode.get_device_tuple
+      ~IPMDiode.get_instantiated_signals
+      ~IPMDiode.insert
+      ~IPMDiode.pause
+      ~IPMDiode.put
+      ~IPMDiode.read
+      ~IPMDiode.read_configuration
+      ~IPMDiode.remove
+      ~IPMDiode.resume
+      ~IPMDiode.stage
+      ~IPMDiode.stop
+      ~IPMDiode.subscribe
+      ~IPMDiode.summary
+      ~IPMDiode.trigger
+      ~IPMDiode.unstage
+      ~IPMDiode.unsubscribe
+      ~IPMDiode.unsubscribe_all
+      ~IPMDiode.wait_for_connection
+      ~IPMDiode.walk_components
+      ~IPMDiode.walk_signals
+      ~IPMDiode.walk_subdevice_classes
+      ~IPMDiode.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~IPMDiode.SUB_ACQ_DONE
+      ~IPMDiode.attr_name
+      ~IPMDiode.component_names
+      ~IPMDiode.configuration_attrs
+      ~IPMDiode.connected
+      ~IPMDiode.dotted_name
+      ~IPMDiode.event_types
+      ~IPMDiode.hints
+      ~IPMDiode.inserted
+      ~IPMDiode.kind
+      ~IPMDiode.lazy_wait_for_connection
+      ~IPMDiode.name
+      ~IPMDiode.parent
+      ~IPMDiode.read_attrs
+      ~IPMDiode.removed
+      ~IPMDiode.report
+      ~IPMDiode.root
+      ~IPMDiode.signal_names
+      ~IPMDiode.state
+      ~IPMDiode.tab_whitelist
+      ~IPMDiode.trigger_signals
+      ~IPMDiode.x_motor
+   
+   

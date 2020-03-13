@@ -1,0 +1,6 @@
+pcdsdevices.pim.PPMPowerMeter.get\_instantiated\_signals
+========================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PPMPowerMeter.get_instantiated_signals

@@ -1,0 +1,6 @@
+pcdsdevices.lens.LensStackBase.walk\_subdevice\_classes
+=======================================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: LensStackBase.walk_subdevice_classes

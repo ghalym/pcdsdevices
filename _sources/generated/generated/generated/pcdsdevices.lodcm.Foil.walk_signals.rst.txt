@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Foil.walk\_signals
+====================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Foil.walk_signals

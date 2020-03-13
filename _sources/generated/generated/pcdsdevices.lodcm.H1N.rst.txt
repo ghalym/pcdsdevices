@@ -1,0 +1,102 @@
+pcdsdevices.lodcm.H1N
+=====================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. autoclass:: H1N
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~H1N.__init__
+      ~H1N.add_instantiation_callback
+      ~H1N.camonitor
+      ~H1N.check_value
+      ~H1N.clear_sub
+      ~H1N.configure
+      ~H1N.describe
+      ~H1N.describe_configuration
+      ~H1N.destroy
+      ~H1N.end_monitor_thread
+      ~H1N.get
+      ~H1N.get_device_tuple
+      ~H1N.get_instantiated_signals
+      ~H1N.get_state
+      ~H1N.insert
+      ~H1N.move
+      ~H1N.mv
+      ~H1N.pause
+      ~H1N.put
+      ~H1N.read
+      ~H1N.read_configuration
+      ~H1N.remove
+      ~H1N.resume
+      ~H1N.set
+      ~H1N.stage
+      ~H1N.stop
+      ~H1N.subscribe
+      ~H1N.summary
+      ~H1N.trigger
+      ~H1N.unstage
+      ~H1N.unsubscribe
+      ~H1N.unsubscribe_all
+      ~H1N.wait_for_connection
+      ~H1N.walk_components
+      ~H1N.walk_signals
+      ~H1N.walk_subdevice_classes
+      ~H1N.walk_subdevices
+      ~H1N.wm
+      ~H1N.wm_update
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~H1N.SUB_ACQ_DONE
+      ~H1N.SUB_DONE
+      ~H1N.SUB_READBACK
+      ~H1N.SUB_START
+      ~H1N.SUB_STATE
+      ~H1N.attr_name
+      ~H1N.component_names
+      ~H1N.configuration_attrs
+      ~H1N.connected
+      ~H1N.dotted_name
+      ~H1N.egu
+      ~H1N.event_types
+      ~H1N.high_limit
+      ~H1N.hints
+      ~H1N.in_states
+      ~H1N.inserted
+      ~H1N.kind
+      ~H1N.lazy_wait_for_connection
+      ~H1N.limits
+      ~H1N.low_limit
+      ~H1N.motor
+      ~H1N.moving
+      ~H1N.name
+      ~H1N.out_states
+      ~H1N.parent
+      ~H1N.position
+      ~H1N.read_attrs
+      ~H1N.removed
+      ~H1N.report
+      ~H1N.root
+      ~H1N.settle_time
+      ~H1N.signal_names
+      ~H1N.state
+      ~H1N.states_list
+      ~H1N.tab_whitelist
+      ~H1N.timeout
+      ~H1N.transmission
+      ~H1N.trigger_signals
+   
+   

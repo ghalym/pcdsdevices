@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPIMBChannel.read\_configuration
+================================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPIMBChannel.read_configuration

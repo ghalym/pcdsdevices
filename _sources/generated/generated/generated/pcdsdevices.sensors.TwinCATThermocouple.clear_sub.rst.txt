@@ -1,0 +1,6 @@
+pcdsdevices.sensors.TwinCATThermocouple.clear\_sub
+==================================================
+
+.. currentmodule:: pcdsdevices.sensors
+
+.. automethod:: TwinCATThermocouple.clear_sub

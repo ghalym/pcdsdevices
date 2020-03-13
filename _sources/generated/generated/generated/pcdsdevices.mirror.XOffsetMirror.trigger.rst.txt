@@ -1,0 +1,6 @@
+pcdsdevices.mirror.XOffsetMirror.trigger
+========================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: XOffsetMirror.trigger

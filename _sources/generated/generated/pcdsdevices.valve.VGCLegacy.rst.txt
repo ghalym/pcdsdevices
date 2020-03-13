@@ -1,0 +1,76 @@
+pcdsdevices.valve.VGCLegacy
+===========================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. autoclass:: VGCLegacy
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~VGCLegacy.__init__
+      ~VGCLegacy.add_instantiation_callback
+      ~VGCLegacy.check_value
+      ~VGCLegacy.clear_sub
+      ~VGCLegacy.configure
+      ~VGCLegacy.describe
+      ~VGCLegacy.describe_configuration
+      ~VGCLegacy.destroy
+      ~VGCLegacy.get
+      ~VGCLegacy.get_device_tuple
+      ~VGCLegacy.get_instantiated_signals
+      ~VGCLegacy.pause
+      ~VGCLegacy.put
+      ~VGCLegacy.read
+      ~VGCLegacy.read_configuration
+      ~VGCLegacy.resume
+      ~VGCLegacy.stage
+      ~VGCLegacy.stop
+      ~VGCLegacy.subscribe
+      ~VGCLegacy.summary
+      ~VGCLegacy.trigger
+      ~VGCLegacy.unstage
+      ~VGCLegacy.unsubscribe
+      ~VGCLegacy.unsubscribe_all
+      ~VGCLegacy.wait_for_connection
+      ~VGCLegacy.walk_components
+      ~VGCLegacy.walk_signals
+      ~VGCLegacy.walk_subdevice_classes
+      ~VGCLegacy.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~VGCLegacy.SUB_ACQ_DONE
+      ~VGCLegacy.attr_name
+      ~VGCLegacy.closed_limit
+      ~VGCLegacy.component_names
+      ~VGCLegacy.configuration_attrs
+      ~VGCLegacy.connected
+      ~VGCLegacy.dotted_name
+      ~VGCLegacy.event_types
+      ~VGCLegacy.hints
+      ~VGCLegacy.interlock_ok
+      ~VGCLegacy.kind
+      ~VGCLegacy.lazy_wait_for_connection
+      ~VGCLegacy.name
+      ~VGCLegacy.open_command
+      ~VGCLegacy.open_do
+      ~VGCLegacy.open_limit
+      ~VGCLegacy.parent
+      ~VGCLegacy.read_attrs
+      ~VGCLegacy.report
+      ~VGCLegacy.root
+      ~VGCLegacy.signal_names
+      ~VGCLegacy.trigger_signals
+   
+   

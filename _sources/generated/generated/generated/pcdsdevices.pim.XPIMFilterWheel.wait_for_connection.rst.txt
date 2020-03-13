@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMFilterWheel.wait\_for\_connection
+=====================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMFilterWheel.wait_for_connection

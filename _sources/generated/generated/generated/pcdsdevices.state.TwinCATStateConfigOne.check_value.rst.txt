@@ -1,0 +1,6 @@
+pcdsdevices.state.TwinCATStateConfigOne.check\_value
+====================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: TwinCATStateConfigOne.check_value

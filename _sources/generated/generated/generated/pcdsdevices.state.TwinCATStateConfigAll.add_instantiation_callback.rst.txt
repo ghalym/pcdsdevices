@@ -1,0 +1,6 @@
+pcdsdevices.state.TwinCATStateConfigAll.add\_instantiation\_callback
+====================================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: TwinCATStateConfigAll.add_instantiation_callback

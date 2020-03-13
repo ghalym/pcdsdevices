@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.GasAttenuator.\_\_init\_\_
+=================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: GasAttenuator.__init__

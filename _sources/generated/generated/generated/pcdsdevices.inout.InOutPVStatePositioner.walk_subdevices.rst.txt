@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutPVStatePositioner.walk\_subdevices
+=========================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutPVStatePositioner.walk_subdevices

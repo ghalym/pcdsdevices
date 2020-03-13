@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutRecordPositioner.add\_instantiation\_callback
+====================================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutRecordPositioner.add_instantiation_callback

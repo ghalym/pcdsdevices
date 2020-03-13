@@ -1,0 +1,36 @@
+pcdsdevices.attenuator
+======================
+
+.. automodule:: pcdsdevices.attenuator
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+      :toctree: generated
+   
+      Attenuator
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree: generated
+   
+      AttBase
+      AttBase3rd
+      FEESolidAttenuator
+      FeeAtt
+      FeeFilter
+      Filter
+      GasAttenuator
+   
+   
+
+   
+   
+   

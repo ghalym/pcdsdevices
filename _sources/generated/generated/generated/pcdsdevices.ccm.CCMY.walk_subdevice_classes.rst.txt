@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMY.walk\_subdevice\_classes
+=============================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMY.walk_subdevice_classes

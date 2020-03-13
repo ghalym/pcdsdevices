@@ -1,0 +1,78 @@
+pcdsdevices.slits.PowerSlits
+============================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. autoclass:: PowerSlits
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~PowerSlits.__init__
+      ~PowerSlits.add_instantiation_callback
+      ~PowerSlits.check_value
+      ~PowerSlits.clear_sub
+      ~PowerSlits.configure
+      ~PowerSlits.describe
+      ~PowerSlits.describe_configuration
+      ~PowerSlits.destroy
+      ~PowerSlits.get
+      ~PowerSlits.get_device_tuple
+      ~PowerSlits.get_instantiated_signals
+      ~PowerSlits.pause
+      ~PowerSlits.put
+      ~PowerSlits.read
+      ~PowerSlits.read_configuration
+      ~PowerSlits.resume
+      ~PowerSlits.stage
+      ~PowerSlits.stop
+      ~PowerSlits.subscribe
+      ~PowerSlits.summary
+      ~PowerSlits.trigger
+      ~PowerSlits.unstage
+      ~PowerSlits.unsubscribe
+      ~PowerSlits.unsubscribe_all
+      ~PowerSlits.wait_for_connection
+      ~PowerSlits.walk_components
+      ~PowerSlits.walk_signals
+      ~PowerSlits.walk_subdevice_classes
+      ~PowerSlits.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PowerSlits.SUB_ACQ_DONE
+      ~PowerSlits.attr_name
+      ~PowerSlits.bottom
+      ~PowerSlits.component_names
+      ~PowerSlits.configuration_attrs
+      ~PowerSlits.connected
+      ~PowerSlits.dotted_name
+      ~PowerSlits.event_types
+      ~PowerSlits.fsw
+      ~PowerSlits.hints
+      ~PowerSlits.kind
+      ~PowerSlits.lazy_wait_for_connection
+      ~PowerSlits.name
+      ~PowerSlits.north
+      ~PowerSlits.parent
+      ~PowerSlits.read_attrs
+      ~PowerSlits.report
+      ~PowerSlits.root
+      ~PowerSlits.rtds
+      ~PowerSlits.signal_names
+      ~PowerSlits.south
+      ~PowerSlits.tab_whitelist
+      ~PowerSlits.top
+      ~PowerSlits.trigger_signals
+   
+   

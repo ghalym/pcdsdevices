@@ -1,0 +1,6 @@
+pcdsdevices.state.StateRecordPositioner.add\_instantiation\_callback
+====================================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: StateRecordPositioner.add_instantiation_callback

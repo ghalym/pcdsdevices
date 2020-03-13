@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMTarget.add\_instantiation\_callback
+======================================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMTarget.add_instantiation_callback

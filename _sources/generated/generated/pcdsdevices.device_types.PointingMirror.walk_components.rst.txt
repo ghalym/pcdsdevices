@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PointingMirror.walk\_components
+=========================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PointingMirror.walk_components

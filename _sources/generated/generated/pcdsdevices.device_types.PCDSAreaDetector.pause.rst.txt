@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PCDSAreaDetector.pause
+================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PCDSAreaDetector.pause

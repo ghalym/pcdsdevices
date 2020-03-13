@@ -1,0 +1,25 @@
+pcdsdevices.slits
+=================
+
+.. automodule:: pcdsdevices.slits
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree: generated
+   
+      PowerSlits
+      SlitPositioner
+      Slits
+   
+   
+
+   
+   
+   

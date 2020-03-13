@@ -1,0 +1,44 @@
+pcdsdevices.epics\_motor
+========================
+
+.. automodule:: pcdsdevices.epics_motor
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+      :toctree: generated
+   
+      Motor
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree: generated
+   
+      BeckhoffAxis
+      BeckhoffAxisPLC
+      DelayNewport
+      EpicsMotorInterface
+      IMS
+      Newport
+      PCDSMotorBase
+      PMC100
+   
+   
+
+   
+   
+   .. rubric:: Exceptions
+
+   .. autosummary::
+      :toctree: generated
+   
+      MotorDisabledError
+   
+   

@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PPM.\_\_init\_\_
+==========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PPM.__init__

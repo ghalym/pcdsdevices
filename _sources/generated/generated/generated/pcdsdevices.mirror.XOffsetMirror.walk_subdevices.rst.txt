@@ -1,0 +1,6 @@
+pcdsdevices.mirror.XOffsetMirror.walk\_subdevices
+=================================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: XOffsetMirror.walk_subdevices

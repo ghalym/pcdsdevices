@@ -1,0 +1,75 @@
+pcdsdevices.ipm.Wave8Channel
+============================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. autoclass:: Wave8Channel
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~Wave8Channel.__init__
+      ~Wave8Channel.add_instantiation_callback
+      ~Wave8Channel.check_value
+      ~Wave8Channel.clear_sub
+      ~Wave8Channel.configure
+      ~Wave8Channel.describe
+      ~Wave8Channel.describe_configuration
+      ~Wave8Channel.destroy
+      ~Wave8Channel.get
+      ~Wave8Channel.get_device_tuple
+      ~Wave8Channel.get_instantiated_signals
+      ~Wave8Channel.pause
+      ~Wave8Channel.put
+      ~Wave8Channel.read
+      ~Wave8Channel.read_configuration
+      ~Wave8Channel.resume
+      ~Wave8Channel.stage
+      ~Wave8Channel.stop
+      ~Wave8Channel.subscribe
+      ~Wave8Channel.summary
+      ~Wave8Channel.trigger
+      ~Wave8Channel.unstage
+      ~Wave8Channel.unsubscribe
+      ~Wave8Channel.unsubscribe_all
+      ~Wave8Channel.wait_for_connection
+      ~Wave8Channel.walk_components
+      ~Wave8Channel.walk_signals
+      ~Wave8Channel.walk_subdevice_classes
+      ~Wave8Channel.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Wave8Channel.SUB_ACQ_DONE
+      ~Wave8Channel.amplitude
+      ~Wave8Channel.attr_name
+      ~Wave8Channel.component_names
+      ~Wave8Channel.configuration_attrs
+      ~Wave8Channel.connected
+      ~Wave8Channel.delay
+      ~Wave8Channel.dotted_name
+      ~Wave8Channel.event_types
+      ~Wave8Channel.hints
+      ~Wave8Channel.kind
+      ~Wave8Channel.lazy_wait_for_connection
+      ~Wave8Channel.name
+      ~Wave8Channel.number_of_samples
+      ~Wave8Channel.parent
+      ~Wave8Channel.read_attrs
+      ~Wave8Channel.report
+      ~Wave8Channel.root
+      ~Wave8Channel.signal_names
+      ~Wave8Channel.tpos
+      ~Wave8Channel.trigger_signals
+   
+   

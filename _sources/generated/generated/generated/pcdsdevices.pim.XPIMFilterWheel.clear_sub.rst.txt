@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMFilterWheel.clear\_sub
+==========================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMFilterWheel.clear_sub

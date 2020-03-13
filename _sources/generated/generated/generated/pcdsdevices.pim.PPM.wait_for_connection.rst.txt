@@ -1,0 +1,6 @@
+pcdsdevices.pim.PPM.wait\_for\_connection
+=========================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PPM.wait_for_connection

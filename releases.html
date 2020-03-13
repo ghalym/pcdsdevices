@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Release History &mdash; PCDS Devices 2.3.0+113.g1776ab4 documentation</title>
+  <title>Release History &mdash; PCDS Devices 2.3.0+121.g61d5b5c documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.3.0+113.g1776ab4
+                2.3.0+121.g61d5b5c
               </div>
             
           
@@ -469,16 +469,16 @@ subclassed.</p></li>
 <div class="section" id="id16">
 <h3>Features<a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li><p>Added <code class="xref any docutils literal notranslate"><span class="pre">AvgSignal</span></code> class. This can be used when you want to
+<li><p>Added <a class="reference internal" href="generated/generated/pcdsdevices.signal.AvgSignal.html#pcdsdevices.signal.AvgSignal" title="pcdsdevices.signal.AvgSignal"><code class="xref any py py-class docutils literal notranslate"><span class="pre">AvgSignal</span></code></a> class. This can be used when you want to
 run a callback on a rolling average of a <code class="docutils literal notranslate"><span class="pre">Signal</span></code>. (#227)</p></li>
-<li><p>Added an average of the gas detector energy to the <code class="xref any docutils literal notranslate"><span class="pre">BeamStats</span></code> class (#227)</p></li>
+<li><p>Added an average of the gas detector energy to the <a class="reference internal" href="generated/generated/pcdsdevices.beam_stats.BeamStats.html#pcdsdevices.beam_stats.BeamStats" title="pcdsdevices.beam_stats.BeamStats"><code class="xref any py py-class docutils literal notranslate"><span class="pre">BeamStats</span></code></a> class (#227)</p></li>
 <li><p>Implemented motor <code class="xref any docutils literal notranslate"><span class="pre">.SPG</span></code> field from LCLS motor record into PCDSMotorBase (#236)</p></li>
 </ul>
 </div>
 <div class="section" id="id17">
 <h3>Bugfixes<a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li><p>Fix a bug where the <code class="xref any docutils literal notranslate"><span class="pre">LODCM</span></code> class had a <code class="docutils literal notranslate"><span class="pre">readback</span></code> signal with an invalid PV. (#232)</p></li>
+<li><p>Fix a bug where the <a class="reference internal" href="generated/generated/pcdsdevices.lodcm.LODCM.html#pcdsdevices.lodcm.LODCM" title="pcdsdevices.lodcm.LODCM"><code class="xref any py py-class docutils literal notranslate"><span class="pre">LODCM</span></code></a> class had a <code class="docutils literal notranslate"><span class="pre">readback</span></code> signal with an invalid PV. (#232)</p></li>
 <li><p>Fix a bug where the tests would never pass, ever (#238)</p></li>
 </ul>
 </div>
@@ -489,9 +489,9 @@ run a callback on a rolling average of a <code class="docutils literal notransla
 <h3>Features<a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>Revamp states handling for devices like IPM and XFLS (#205)</p></li>
-<li><p>Add a <code class="xref any docutils literal notranslate"><span class="pre">BeamStats</span></code> class (#200)</p></li>
+<li><p>Add a <a class="reference internal" href="generated/generated/pcdsdevices.beam_stats.BeamStats.html#pcdsdevices.beam_stats.BeamStats" title="pcdsdevices.beam_stats.BeamStats"><code class="xref any py py-class docutils literal notranslate"><span class="pre">BeamStats</span></code></a> class (#200)</p></li>
 <li><p>Add an <a class="reference internal" href="generated/generated/pcdsdevices.sequencer.EventSequencer.html#pcdsdevices.sequencer.EventSequencer" title="pcdsdevices.sequencer.EventSequencer"><code class="xref any py py-class docutils literal notranslate"><span class="pre">EventSequencer</span></code></a> class (#196)</p></li>
-<li><p>Add <code class="docutils literal notranslate"><span class="pre">DISP</span></code> field to <code class="xref any docutils literal notranslate"><span class="pre">PCDSMotorBase</span></code> (#192)</p></li>
+<li><p>Add <code class="docutils literal notranslate"><span class="pre">DISP</span></code> field to <a class="reference internal" href="generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.html#pcdsdevices.epics_motor.PCDSMotorBase" title="pcdsdevices.epics_motor.PCDSMotorBase"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PCDSMotorBase</span></code></a> (#192)</p></li>
 </ul>
 </div>
 <div class="section" id="id19">
@@ -536,7 +536,7 @@ important experimental motor positions that are too dynamic to place in EPICS. (
 <ul class="simple">
 <li><p>The <code class="xref any docutils literal notranslate"><span class="pre">pcdsdevices.EpicsMotor</span></code> has been replaced by
 <code class="xref any docutils literal notranslate"><span class="pre">pcdsdevices.PCDSMotorBase</span></code> and three child classes
-<code class="xref any docutils literal notranslate"><span class="pre">IMS</span></code>, <code class="xref any docutils literal notranslate"><span class="pre">Newport</span></code> and <code class="xref any docutils literal notranslate"><span class="pre">PMC100</span></code>. This is an attempt to have a reasonable MRO
+<a class="reference internal" href="generated/generated/pcdsdevices.epics_motor.IMS.html#pcdsdevices.epics_motor.IMS" title="pcdsdevices.epics_motor.IMS"><code class="xref any py py-class docutils literal notranslate"><span class="pre">IMS</span></code></a>, <a class="reference internal" href="generated/generated/pcdsdevices.epics_motor.Newport.html#pcdsdevices.epics_motor.Newport" title="pcdsdevices.epics_motor.Newport"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Newport</span></code></a> and <a class="reference internal" href="generated/generated/pcdsdevices.epics_motor.PMC100.html#pcdsdevices.epics_motor.PMC100" title="pcdsdevices.epics_motor.PMC100"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PMC100</span></code></a>. This is an attempt to have a reasonable MRO
 for the discrepenacies between all our different implementations
 of the EPICS Motor Record (#167)</p></li>
 <li><p>Due to the growing complication of the Daq class and related utilities,

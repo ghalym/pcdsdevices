@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMMotion.unstage
+=================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMMotion.unstage

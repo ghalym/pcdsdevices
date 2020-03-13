@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMMotor.destroy
+================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMMotor.destroy

@@ -1,0 +1,6 @@
+pcdsdevices.pim.PPM.resume
+==========================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PPM.resume

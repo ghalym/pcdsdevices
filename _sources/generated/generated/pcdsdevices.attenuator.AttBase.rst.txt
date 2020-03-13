@@ -1,0 +1,118 @@
+pcdsdevices.attenuator.AttBase
+==============================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. autoclass:: AttBase
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~AttBase.__init__
+      ~AttBase.add_instantiation_callback
+      ~AttBase.camonitor
+      ~AttBase.check_value
+      ~AttBase.clear_sub
+      ~AttBase.configure
+      ~AttBase.describe
+      ~AttBase.describe_configuration
+      ~AttBase.destroy
+      ~AttBase.end_monitor_thread
+      ~AttBase.get
+      ~AttBase.get_device_tuple
+      ~AttBase.get_instantiated_signals
+      ~AttBase.insert
+      ~AttBase.move
+      ~AttBase.mv
+      ~AttBase.mv_ginput
+      ~AttBase.mvr
+      ~AttBase.pause
+      ~AttBase.put
+      ~AttBase.read
+      ~AttBase.read_configuration
+      ~AttBase.remove
+      ~AttBase.resume
+      ~AttBase.set
+      ~AttBase.set_energy
+      ~AttBase.stage
+      ~AttBase.stop
+      ~AttBase.subscribe
+      ~AttBase.summary
+      ~AttBase.trigger
+      ~AttBase.tweak
+      ~AttBase.umv
+      ~AttBase.umvr
+      ~AttBase.unstage
+      ~AttBase.unsubscribe
+      ~AttBase.unsubscribe_all
+      ~AttBase.wait_for_connection
+      ~AttBase.walk_components
+      ~AttBase.walk_signals
+      ~AttBase.walk_subdevice_classes
+      ~AttBase.walk_subdevices
+      ~AttBase.wm
+      ~AttBase.wm_update
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~AttBase.SUB_ACQ_DONE
+      ~AttBase.SUB_DONE
+      ~AttBase.SUB_READBACK
+      ~AttBase.SUB_START
+      ~AttBase.SUB_STATE
+      ~AttBase.actuate
+      ~AttBase.actuate_value
+      ~AttBase.attr_name
+      ~AttBase.calcpend
+      ~AttBase.component_names
+      ~AttBase.configuration_attrs
+      ~AttBase.connected
+      ~AttBase.done
+      ~AttBase.done_value
+      ~AttBase.dotted_name
+      ~AttBase.eget_cmd
+      ~AttBase.egu
+      ~AttBase.energy
+      ~AttBase.event_types
+      ~AttBase.high_limit
+      ~AttBase.hints
+      ~AttBase.inserted
+      ~AttBase.kind
+      ~AttBase.lazy_wait_for_connection
+      ~AttBase.limits
+      ~AttBase.low_limit
+      ~AttBase.moving
+      ~AttBase.name
+      ~AttBase.parent
+      ~AttBase.position
+      ~AttBase.presets
+      ~AttBase.put_complete
+      ~AttBase.read_attrs
+      ~AttBase.readback
+      ~AttBase.removed
+      ~AttBase.report
+      ~AttBase.root
+      ~AttBase.setpoint
+      ~AttBase.settle_time
+      ~AttBase.signal_names
+      ~AttBase.stop_signal
+      ~AttBase.stop_value
+      ~AttBase.tab_whitelist
+      ~AttBase.timeout
+      ~AttBase.trans_ceil
+      ~AttBase.trans_floor
+      ~AttBase.transmission
+      ~AttBase.trigger_signals
+      ~AttBase.user_energy
+   
+   

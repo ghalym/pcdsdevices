@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.PCDSMotorBase.walk\_subdevices
+=======================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: PCDSMotorBase.walk_subdevices

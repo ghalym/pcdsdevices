@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMFilterWheel.camonitor
+=========================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMFilterWheel.camonitor

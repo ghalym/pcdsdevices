@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMY.destroy
+============================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMY.destroy

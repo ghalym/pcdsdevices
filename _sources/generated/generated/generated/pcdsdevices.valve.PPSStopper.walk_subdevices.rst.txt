@@ -1,0 +1,6 @@
+pcdsdevices.valve.PPSStopper.walk\_subdevices
+=============================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: PPSStopper.walk_subdevices

@@ -1,0 +1,6 @@
+pcdsdevices.mirror.OMMotor.add\_instantiation\_callback
+=======================================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: OMMotor.add_instantiation_callback

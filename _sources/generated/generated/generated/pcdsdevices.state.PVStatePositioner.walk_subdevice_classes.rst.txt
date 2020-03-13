@@ -1,0 +1,6 @@
+pcdsdevices.state.PVStatePositioner.walk\_subdevice\_classes
+============================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: PVStatePositioner.walk_subdevice_classes

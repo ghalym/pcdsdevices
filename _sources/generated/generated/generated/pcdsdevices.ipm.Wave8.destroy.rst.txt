@@ -1,0 +1,6 @@
+pcdsdevices.ipm.Wave8.destroy
+=============================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: Wave8.destroy

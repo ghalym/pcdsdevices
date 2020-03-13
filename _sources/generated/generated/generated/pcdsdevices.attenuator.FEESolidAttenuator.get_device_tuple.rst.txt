@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.FEESolidAttenuator.get\_device\_tuple
+============================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: FEESolidAttenuator.get_device_tuple

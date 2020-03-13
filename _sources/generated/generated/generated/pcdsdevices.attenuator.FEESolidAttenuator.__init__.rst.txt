@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.FEESolidAttenuator.\_\_init\_\_
+======================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: FEESolidAttenuator.__init__

@@ -1,0 +1,6 @@
+pcdsdevices.state.PVStateSignal.destroy
+=======================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: PVStateSignal.destroy

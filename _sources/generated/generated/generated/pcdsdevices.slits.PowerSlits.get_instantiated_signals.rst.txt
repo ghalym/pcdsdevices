@@ -1,0 +1,6 @@
+pcdsdevices.slits.PowerSlits.get\_instantiated\_signals
+=======================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: PowerSlits.get_instantiated_signals

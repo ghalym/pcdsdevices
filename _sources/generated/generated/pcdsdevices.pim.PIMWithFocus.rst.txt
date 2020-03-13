@@ -1,0 +1,83 @@
+pcdsdevices.pim.PIMWithFocus
+============================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. autoclass:: PIMWithFocus
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~PIMWithFocus.__init__
+      ~PIMWithFocus.add_instantiation_callback
+      ~PIMWithFocus.check_value
+      ~PIMWithFocus.clear_sub
+      ~PIMWithFocus.configure
+      ~PIMWithFocus.describe
+      ~PIMWithFocus.describe_configuration
+      ~PIMWithFocus.destroy
+      ~PIMWithFocus.get
+      ~PIMWithFocus.get_device_tuple
+      ~PIMWithFocus.get_instantiated_signals
+      ~PIMWithFocus.infer_prefix
+      ~PIMWithFocus.insert
+      ~PIMWithFocus.pause
+      ~PIMWithFocus.put
+      ~PIMWithFocus.read
+      ~PIMWithFocus.read_configuration
+      ~PIMWithFocus.remove
+      ~PIMWithFocus.resume
+      ~PIMWithFocus.stage
+      ~PIMWithFocus.stop
+      ~PIMWithFocus.subscribe
+      ~PIMWithFocus.summary
+      ~PIMWithFocus.trigger
+      ~PIMWithFocus.unstage
+      ~PIMWithFocus.unsubscribe
+      ~PIMWithFocus.unsubscribe_all
+      ~PIMWithFocus.wait_for_connection
+      ~PIMWithFocus.walk_components
+      ~PIMWithFocus.walk_signals
+      ~PIMWithFocus.walk_subdevice_classes
+      ~PIMWithFocus.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PIMWithFocus.SUB_ACQ_DONE
+      ~PIMWithFocus.attr_name
+      ~PIMWithFocus.component_names
+      ~PIMWithFocus.configuration_attrs
+      ~PIMWithFocus.connected
+      ~PIMWithFocus.detector
+      ~PIMWithFocus.dotted_name
+      ~PIMWithFocus.event_types
+      ~PIMWithFocus.focus_motor
+      ~PIMWithFocus.hints
+      ~PIMWithFocus.inserted
+      ~PIMWithFocus.kind
+      ~PIMWithFocus.lazy_wait_for_connection
+      ~PIMWithFocus.name
+      ~PIMWithFocus.parent
+      ~PIMWithFocus.prefix_start
+      ~PIMWithFocus.read_attrs
+      ~PIMWithFocus.removed
+      ~PIMWithFocus.report
+      ~PIMWithFocus.root
+      ~PIMWithFocus.signal_names
+      ~PIMWithFocus.state
+      ~PIMWithFocus.tab_component_names
+      ~PIMWithFocus.tab_whitelist
+      ~PIMWithFocus.trigger_signals
+      ~PIMWithFocus.zoom_motor
+   
+   

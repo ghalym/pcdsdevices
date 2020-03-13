@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPM\_Wave8.\_\_init\_\_
+=======================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPM_Wave8.__init__

@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithBoth.describe\_configuration
+===================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithBoth.describe_configuration

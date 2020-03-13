@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.BeckhoffAxisPLC.read\_configuration
+============================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: BeckhoffAxisPLC.read_configuration

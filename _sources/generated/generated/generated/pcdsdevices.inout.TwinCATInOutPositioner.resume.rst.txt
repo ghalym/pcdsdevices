@@ -1,0 +1,6 @@
+pcdsdevices.inout.TwinCATInOutPositioner.resume
+===============================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: TwinCATInOutPositioner.resume

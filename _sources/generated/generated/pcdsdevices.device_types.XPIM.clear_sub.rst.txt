@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XPIM.clear\_sub
+=========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XPIM.clear_sub

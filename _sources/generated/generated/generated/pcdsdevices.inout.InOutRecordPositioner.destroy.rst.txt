@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutRecordPositioner.destroy
+===============================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutRecordPositioner.destroy

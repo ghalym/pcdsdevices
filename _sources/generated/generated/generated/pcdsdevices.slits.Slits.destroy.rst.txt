@@ -1,0 +1,6 @@
+pcdsdevices.slits.Slits.destroy
+===============================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: Slits.destroy

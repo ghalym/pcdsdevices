@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithBoth.describe
+====================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithBoth.describe

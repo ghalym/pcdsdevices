@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PPM.unsubscribe
+=========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PPM.unsubscribe

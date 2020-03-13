@@ -1,0 +1,83 @@
+pcdsdevices.pim.PIMWithLED
+==========================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. autoclass:: PIMWithLED
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~PIMWithLED.__init__
+      ~PIMWithLED.add_instantiation_callback
+      ~PIMWithLED.check_value
+      ~PIMWithLED.clear_sub
+      ~PIMWithLED.configure
+      ~PIMWithLED.describe
+      ~PIMWithLED.describe_configuration
+      ~PIMWithLED.destroy
+      ~PIMWithLED.get
+      ~PIMWithLED.get_device_tuple
+      ~PIMWithLED.get_instantiated_signals
+      ~PIMWithLED.infer_prefix
+      ~PIMWithLED.insert
+      ~PIMWithLED.pause
+      ~PIMWithLED.put
+      ~PIMWithLED.read
+      ~PIMWithLED.read_configuration
+      ~PIMWithLED.remove
+      ~PIMWithLED.resume
+      ~PIMWithLED.stage
+      ~PIMWithLED.stop
+      ~PIMWithLED.subscribe
+      ~PIMWithLED.summary
+      ~PIMWithLED.trigger
+      ~PIMWithLED.unstage
+      ~PIMWithLED.unsubscribe
+      ~PIMWithLED.unsubscribe_all
+      ~PIMWithLED.wait_for_connection
+      ~PIMWithLED.walk_components
+      ~PIMWithLED.walk_signals
+      ~PIMWithLED.walk_subdevice_classes
+      ~PIMWithLED.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PIMWithLED.SUB_ACQ_DONE
+      ~PIMWithLED.attr_name
+      ~PIMWithLED.component_names
+      ~PIMWithLED.configuration_attrs
+      ~PIMWithLED.connected
+      ~PIMWithLED.detector
+      ~PIMWithLED.dotted_name
+      ~PIMWithLED.event_types
+      ~PIMWithLED.hints
+      ~PIMWithLED.inserted
+      ~PIMWithLED.kind
+      ~PIMWithLED.lazy_wait_for_connection
+      ~PIMWithLED.led
+      ~PIMWithLED.name
+      ~PIMWithLED.parent
+      ~PIMWithLED.prefix_start
+      ~PIMWithLED.read_attrs
+      ~PIMWithLED.removed
+      ~PIMWithLED.report
+      ~PIMWithLED.root
+      ~PIMWithLED.signal_names
+      ~PIMWithLED.state
+      ~PIMWithLED.tab_component_names
+      ~PIMWithLED.tab_whitelist
+      ~PIMWithLED.trigger_signals
+      ~PIMWithLED.zoom_motor
+   
+   

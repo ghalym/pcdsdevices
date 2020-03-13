@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIM.unsubscribe\_all
+=====================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIM.unsubscribe_all

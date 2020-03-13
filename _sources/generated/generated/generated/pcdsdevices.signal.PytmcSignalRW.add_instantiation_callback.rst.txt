@@ -1,0 +1,6 @@
+pcdsdevices.signal.PytmcSignalRW.add\_instantiation\_callback
+=============================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: PytmcSignalRW.add_instantiation_callback

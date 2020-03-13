@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PPM.unstage
+=====================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PPM.unstage

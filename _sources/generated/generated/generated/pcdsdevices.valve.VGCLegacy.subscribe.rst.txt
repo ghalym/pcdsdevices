@@ -1,0 +1,6 @@
+pcdsdevices.valve.VGCLegacy.subscribe
+=====================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VGCLegacy.subscribe

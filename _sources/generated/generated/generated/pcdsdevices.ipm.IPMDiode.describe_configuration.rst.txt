@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMDiode.describe\_configuration
+================================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMDiode.describe_configuration

@@ -1,0 +1,6 @@
+pcdsdevices.slits.PowerSlits.walk\_signals
+==========================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: PowerSlits.walk_signals

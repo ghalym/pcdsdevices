@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMFilterWheel.walk\_signals
+=============================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMFilterWheel.walk_signals

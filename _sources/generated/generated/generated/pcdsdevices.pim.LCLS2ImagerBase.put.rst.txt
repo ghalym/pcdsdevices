@@ -1,0 +1,6 @@
+pcdsdevices.pim.LCLS2ImagerBase.put
+===================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: LCLS2ImagerBase.put

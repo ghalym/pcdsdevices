@@ -1,0 +1,6 @@
+pcdsdevices.mirror.XOffsetMirror.check\_value
+=============================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: XOffsetMirror.check_value

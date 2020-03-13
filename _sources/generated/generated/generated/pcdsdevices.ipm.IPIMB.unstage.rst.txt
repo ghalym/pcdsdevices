@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPIMB.unstage
+=============================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPIMB.unstage

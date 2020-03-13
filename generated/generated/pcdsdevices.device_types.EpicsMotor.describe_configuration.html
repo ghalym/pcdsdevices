@@ -1,0 +1,310 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>pcdsdevices.device_types.EpicsMotor.describe_configuration &mdash; PCDS Devices 2.3.0+121.g61d5b5c documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="pcdsdevices.device_types.EpicsMotor.destroy" href="pcdsdevices.device_types.EpicsMotor.destroy.html" />
+    <link rel="prev" title="pcdsdevices.device_types.EpicsMotor.describe" href="pcdsdevices.device_types.EpicsMotor.describe.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> PCDS Devices
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2.3.0+121.g61d5b5c
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Features</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../mv.html">Shortcuts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../presets.html">Preset Positions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tab.html">IPython Tab Curation</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Device Types</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../epics_types.html">Common EPICS Devices</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Attenuator.html">pcdsdevices.device_types.Attenuator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Acromag.html">pcdsdevices.device_types.Acromag</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.BeckhoffAxis.html">pcdsdevices.device_types.BeckhoffAxis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.CCM.html">pcdsdevices.device_types.CCM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.DelayNewport.html">pcdsdevices.device_types.DelayNewport</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.device_types.EpicsMotor.html">pcdsdevices.device_types.EpicsMotor</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.__init__.html">pcdsdevices.device_types.EpicsMotor.__init__</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.add_instantiation_callback.html">pcdsdevices.device_types.EpicsMotor.add_instantiation_callback</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.check_value.html">pcdsdevices.device_types.EpicsMotor.check_value</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.clear_sub.html">pcdsdevices.device_types.EpicsMotor.clear_sub</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.configure.html">pcdsdevices.device_types.EpicsMotor.configure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.describe.html">pcdsdevices.device_types.EpicsMotor.describe</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.device_types.EpicsMotor.describe_configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.destroy.html">pcdsdevices.device_types.EpicsMotor.destroy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.get.html">pcdsdevices.device_types.EpicsMotor.get</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.get_device_tuple.html">pcdsdevices.device_types.EpicsMotor.get_device_tuple</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.get_instantiated_signals.html">pcdsdevices.device_types.EpicsMotor.get_instantiated_signals</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.home.html">pcdsdevices.device_types.EpicsMotor.home</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.move.html">pcdsdevices.device_types.EpicsMotor.move</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.pause.html">pcdsdevices.device_types.EpicsMotor.pause</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.put.html">pcdsdevices.device_types.EpicsMotor.put</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.read.html">pcdsdevices.device_types.EpicsMotor.read</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.read_configuration.html">pcdsdevices.device_types.EpicsMotor.read_configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.resume.html">pcdsdevices.device_types.EpicsMotor.resume</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.set.html">pcdsdevices.device_types.EpicsMotor.set</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.set_current_position.html">pcdsdevices.device_types.EpicsMotor.set_current_position</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.stage.html">pcdsdevices.device_types.EpicsMotor.stage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.stop.html">pcdsdevices.device_types.EpicsMotor.stop</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.subscribe.html">pcdsdevices.device_types.EpicsMotor.subscribe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.summary.html">pcdsdevices.device_types.EpicsMotor.summary</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.trigger.html">pcdsdevices.device_types.EpicsMotor.trigger</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.unstage.html">pcdsdevices.device_types.EpicsMotor.unstage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.unsubscribe.html">pcdsdevices.device_types.EpicsMotor.unsubscribe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.unsubscribe_all.html">pcdsdevices.device_types.EpicsMotor.unsubscribe_all</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.wait_for_connection.html">pcdsdevices.device_types.EpicsMotor.wait_for_connection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.walk_components.html">pcdsdevices.device_types.EpicsMotor.walk_components</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.walk_signals.html">pcdsdevices.device_types.EpicsMotor.walk_signals</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.walk_subdevice_classes.html">pcdsdevices.device_types.EpicsMotor.walk_subdevice_classes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.EpicsMotor.walk_subdevices.html">pcdsdevices.device_types.EpicsMotor.walk_subdevices</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.EventSequencer.html">pcdsdevices.device_types.EventSequencer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.GateValve.html">pcdsdevices.device_types.GateValve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.GaugeSet.html">pcdsdevices.device_types.GaugeSet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.IMS.html">pcdsdevices.device_types.IMS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.IPM.html">pcdsdevices.device_types.IPM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.IonPump.html">pcdsdevices.device_types.IonPump</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.LODCM.html">pcdsdevices.device_types.LODCM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Motor.html">pcdsdevices.device_types.Motor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.MovableStand.html">pcdsdevices.device_types.MovableStand</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Newport.html">pcdsdevices.device_types.Newport</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.OffsetMirror.html">pcdsdevices.device_types.OffsetMirror</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.PCDSAreaDetector.html">pcdsdevices.device_types.PCDSAreaDetector</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.PIM.html">pcdsdevices.device_types.PIM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.PMC100.html">pcdsdevices.device_types.PMC100</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.PointingMirror.html">pcdsdevices.device_types.PointingMirror</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.PPM.html">pcdsdevices.device_types.PPM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.PulsePicker.html">pcdsdevices.device_types.PulsePicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Reflaser.html">pcdsdevices.device_types.Reflaser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Slits.html">pcdsdevices.device_types.Slits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Stopper.html">pcdsdevices.device_types.Stopper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Trigger.html">pcdsdevices.device_types.Trigger</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.TTReflaser.html">pcdsdevices.device_types.TTReflaser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.XFLS.html">pcdsdevices.device_types.XFLS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.XPIM.html">pcdsdevices.device_types.XPIM</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../base_classes.html">Base Classes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../sim_types.html">Simulated Devices</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developer Notes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../releases.html">Release History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../api.html">Full API</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">PCDS Devices</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../../epics_types.html">Common EPICS Devices</a> &raquo;</li>
+        
+          <li><a href="../pcdsdevices.device_types.EpicsMotor.html">pcdsdevices.device_types.EpicsMotor</a> &raquo;</li>
+        
+      <li>pcdsdevices.device_types.EpicsMotor.describe_configuration</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/generated/generated/pcdsdevices.device_types.EpicsMotor.describe_configuration.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="pcdsdevices-device-types-epicsmotor-describe-configuration">
+<h1>pcdsdevices.device_types.EpicsMotor.describe_configuration<a class="headerlink" href="#pcdsdevices-device-types-epicsmotor-describe-configuration" title="Permalink to this headline">¶</a></h1>
+<dl class="method">
+<dt id="pcdsdevices.device_types.EpicsMotor.describe_configuration">
+<code class="sig-prename descclassname">EpicsMotor.</code><code class="sig-name descname">describe_configuration</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; ophyd.device.OrderedDictType[str, Dict[str, Any]]<a class="headerlink" href="#pcdsdevices.device_types.EpicsMotor.describe_configuration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></p>
+<p>This keys in the <code class="xref any docutils literal notranslate"><span class="pre">OrderedDict</span></code> this method returns must match the
+keys in the <code class="xref any docutils literal notranslate"><span class="pre">OrderedDict</span></code> return by <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code>.</p>
+<p>This provides schema related information, (ex shape, dtype), the
+source (ex PV name), and if available, units, limits, precision etc.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p><strong>data_keys</strong> – The keys must be strings and the values must be dict-like
+with the <code class="docutils literal notranslate"><span class="pre">event_model.event_descriptor.data_key</span></code> schema.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>OrderedDict</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="pcdsdevices.device_types.EpicsMotor.destroy.html" class="btn btn-neutral float-right" title="pcdsdevices.device_types.EpicsMotor.destroy" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="pcdsdevices.device_types.EpicsMotor.describe.html" class="btn btn-neutral float-left" title="pcdsdevices.device_types.EpicsMotor.describe" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, SLAC National Accelerator Laboratory
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

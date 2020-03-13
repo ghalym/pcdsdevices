@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMDiode.wait\_for\_connection
+==============================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMDiode.wait_for_connection

@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.IMS.walk\_components
+=============================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: IMS.walk_components

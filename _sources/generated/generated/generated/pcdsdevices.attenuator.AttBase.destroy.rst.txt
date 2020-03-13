@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttBase.destroy
+======================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttBase.destroy

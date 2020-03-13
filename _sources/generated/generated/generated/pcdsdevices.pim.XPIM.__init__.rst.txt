@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIM.\_\_init\_\_
+=================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIM.__init__

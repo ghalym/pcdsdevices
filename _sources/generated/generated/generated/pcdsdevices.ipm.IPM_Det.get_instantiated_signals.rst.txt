@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPM\_Det.get\_instantiated\_signals
+===================================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPM_Det.get_instantiated_signals

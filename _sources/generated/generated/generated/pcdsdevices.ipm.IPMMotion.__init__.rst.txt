@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMMotion.\_\_init\_\_
+======================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMMotion.__init__

@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XFLS.destroy
+======================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XFLS.destroy

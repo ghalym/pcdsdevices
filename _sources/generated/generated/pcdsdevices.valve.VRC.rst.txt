@@ -1,0 +1,79 @@
+pcdsdevices.valve.VRC
+=====================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. autoclass:: VRC
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~VRC.__init__
+      ~VRC.add_instantiation_callback
+      ~VRC.check_value
+      ~VRC.clear_sub
+      ~VRC.configure
+      ~VRC.describe
+      ~VRC.describe_configuration
+      ~VRC.destroy
+      ~VRC.get
+      ~VRC.get_device_tuple
+      ~VRC.get_instantiated_signals
+      ~VRC.pause
+      ~VRC.put
+      ~VRC.read
+      ~VRC.read_configuration
+      ~VRC.resume
+      ~VRC.stage
+      ~VRC.stop
+      ~VRC.subscribe
+      ~VRC.summary
+      ~VRC.trigger
+      ~VRC.unstage
+      ~VRC.unsubscribe
+      ~VRC.unsubscribe_all
+      ~VRC.wait_for_connection
+      ~VRC.walk_components
+      ~VRC.walk_signals
+      ~VRC.walk_subdevice_classes
+      ~VRC.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~VRC.SUB_ACQ_DONE
+      ~VRC.attr_name
+      ~VRC.closed_limit
+      ~VRC.component_names
+      ~VRC.configuration_attrs
+      ~VRC.connected
+      ~VRC.dotted_name
+      ~VRC.event_types
+      ~VRC.hints
+      ~VRC.interlock_ok
+      ~VRC.kind
+      ~VRC.lazy_wait_for_connection
+      ~VRC.name
+      ~VRC.open_command
+      ~VRC.open_do
+      ~VRC.open_limit
+      ~VRC.open_override
+      ~VRC.override_on
+      ~VRC.parent
+      ~VRC.read_attrs
+      ~VRC.report
+      ~VRC.root
+      ~VRC.signal_names
+      ~VRC.state
+      ~VRC.trigger_signals
+   
+   

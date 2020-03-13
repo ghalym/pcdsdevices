@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.H1N.walk\_signals
+===================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: H1N.walk_signals

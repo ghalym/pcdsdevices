@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.BeamStats.add\_instantiation\_callback
+==============================================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: BeamStats.add_instantiation_callback

@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPM\_Det.\_\_init\_\_
+=====================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPM_Det.__init__

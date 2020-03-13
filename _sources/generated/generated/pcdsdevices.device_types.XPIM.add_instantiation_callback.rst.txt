@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XPIM.add\_instantiation\_callback
+===========================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XPIM.add_instantiation_callback

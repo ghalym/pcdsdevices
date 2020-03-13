@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Gantry.walk\_subdevices
+==========================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Gantry.walk_subdevices

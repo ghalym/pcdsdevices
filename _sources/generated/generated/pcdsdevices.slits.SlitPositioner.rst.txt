@@ -1,0 +1,105 @@
+pcdsdevices.slits.SlitPositioner
+================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. autoclass:: SlitPositioner
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~SlitPositioner.__init__
+      ~SlitPositioner.add_instantiation_callback
+      ~SlitPositioner.camonitor
+      ~SlitPositioner.check_value
+      ~SlitPositioner.clear_sub
+      ~SlitPositioner.configure
+      ~SlitPositioner.describe
+      ~SlitPositioner.describe_configuration
+      ~SlitPositioner.destroy
+      ~SlitPositioner.end_monitor_thread
+      ~SlitPositioner.get
+      ~SlitPositioner.get_device_tuple
+      ~SlitPositioner.get_instantiated_signals
+      ~SlitPositioner.move
+      ~SlitPositioner.mv
+      ~SlitPositioner.mv_ginput
+      ~SlitPositioner.mvr
+      ~SlitPositioner.pause
+      ~SlitPositioner.put
+      ~SlitPositioner.read
+      ~SlitPositioner.read_configuration
+      ~SlitPositioner.resume
+      ~SlitPositioner.set
+      ~SlitPositioner.stage
+      ~SlitPositioner.stop
+      ~SlitPositioner.subscribe
+      ~SlitPositioner.summary
+      ~SlitPositioner.trigger
+      ~SlitPositioner.tweak
+      ~SlitPositioner.umv
+      ~SlitPositioner.umvr
+      ~SlitPositioner.unstage
+      ~SlitPositioner.unsubscribe
+      ~SlitPositioner.unsubscribe_all
+      ~SlitPositioner.wait_for_connection
+      ~SlitPositioner.walk_components
+      ~SlitPositioner.walk_signals
+      ~SlitPositioner.walk_subdevice_classes
+      ~SlitPositioner.walk_subdevices
+      ~SlitPositioner.wm
+      ~SlitPositioner.wm_update
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~SlitPositioner.SUB_ACQ_DONE
+      ~SlitPositioner.SUB_DONE
+      ~SlitPositioner.SUB_READBACK
+      ~SlitPositioner.SUB_START
+      ~SlitPositioner.actuate
+      ~SlitPositioner.actuate_value
+      ~SlitPositioner.attr_name
+      ~SlitPositioner.component_names
+      ~SlitPositioner.configuration_attrs
+      ~SlitPositioner.connected
+      ~SlitPositioner.done
+      ~SlitPositioner.done_value
+      ~SlitPositioner.dotted_name
+      ~SlitPositioner.egu
+      ~SlitPositioner.event_types
+      ~SlitPositioner.high_limit
+      ~SlitPositioner.hints
+      ~SlitPositioner.kind
+      ~SlitPositioner.lazy_wait_for_connection
+      ~SlitPositioner.limits
+      ~SlitPositioner.low_limit
+      ~SlitPositioner.moving
+      ~SlitPositioner.name
+      ~SlitPositioner.parent
+      ~SlitPositioner.position
+      ~SlitPositioner.presets
+      ~SlitPositioner.put_complete
+      ~SlitPositioner.read_attrs
+      ~SlitPositioner.readback
+      ~SlitPositioner.report
+      ~SlitPositioner.root
+      ~SlitPositioner.setpoint
+      ~SlitPositioner.settle_time
+      ~SlitPositioner.signal_names
+      ~SlitPositioner.stop_signal
+      ~SlitPositioner.stop_value
+      ~SlitPositioner.tab_whitelist
+      ~SlitPositioner.timeout
+      ~SlitPositioner.trigger_signals
+   
+   

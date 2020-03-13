@@ -1,0 +1,91 @@
+pcdsdevices.attenuator.FEESolidAttenuator
+=========================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. autoclass:: FEESolidAttenuator
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~FEESolidAttenuator.__init__
+      ~FEESolidAttenuator.add_instantiation_callback
+      ~FEESolidAttenuator.check_value
+      ~FEESolidAttenuator.clear_sub
+      ~FEESolidAttenuator.configure
+      ~FEESolidAttenuator.describe
+      ~FEESolidAttenuator.describe_configuration
+      ~FEESolidAttenuator.destroy
+      ~FEESolidAttenuator.get
+      ~FEESolidAttenuator.get_device_tuple
+      ~FEESolidAttenuator.get_instantiated_signals
+      ~FEESolidAttenuator.pause
+      ~FEESolidAttenuator.put
+      ~FEESolidAttenuator.read
+      ~FEESolidAttenuator.read_configuration
+      ~FEESolidAttenuator.resume
+      ~FEESolidAttenuator.stage
+      ~FEESolidAttenuator.stop
+      ~FEESolidAttenuator.subscribe
+      ~FEESolidAttenuator.summary
+      ~FEESolidAttenuator.trigger
+      ~FEESolidAttenuator.unstage
+      ~FEESolidAttenuator.unsubscribe
+      ~FEESolidAttenuator.unsubscribe_all
+      ~FEESolidAttenuator.wait_for_connection
+      ~FEESolidAttenuator.walk_components
+      ~FEESolidAttenuator.walk_signals
+      ~FEESolidAttenuator.walk_subdevice_classes
+      ~FEESolidAttenuator.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~FEESolidAttenuator.SUB_ACQ_DONE
+      ~FEESolidAttenuator.attr_name
+      ~FEESolidAttenuator.blade_01
+      ~FEESolidAttenuator.blade_02
+      ~FEESolidAttenuator.blade_03
+      ~FEESolidAttenuator.blade_04
+      ~FEESolidAttenuator.blade_05
+      ~FEESolidAttenuator.blade_06
+      ~FEESolidAttenuator.blade_07
+      ~FEESolidAttenuator.blade_08
+      ~FEESolidAttenuator.blade_09
+      ~FEESolidAttenuator.blade_10
+      ~FEESolidAttenuator.blade_11
+      ~FEESolidAttenuator.blade_12
+      ~FEESolidAttenuator.blade_13
+      ~FEESolidAttenuator.blade_14
+      ~FEESolidAttenuator.blade_15
+      ~FEESolidAttenuator.blade_16
+      ~FEESolidAttenuator.blade_17
+      ~FEESolidAttenuator.blade_18
+      ~FEESolidAttenuator.blade_19
+      ~FEESolidAttenuator.component_names
+      ~FEESolidAttenuator.configuration_attrs
+      ~FEESolidAttenuator.connected
+      ~FEESolidAttenuator.dotted_name
+      ~FEESolidAttenuator.event_types
+      ~FEESolidAttenuator.hints
+      ~FEESolidAttenuator.kind
+      ~FEESolidAttenuator.lazy_wait_for_connection
+      ~FEESolidAttenuator.name
+      ~FEESolidAttenuator.parent
+      ~FEESolidAttenuator.read_attrs
+      ~FEESolidAttenuator.report
+      ~FEESolidAttenuator.root
+      ~FEESolidAttenuator.signal_names
+      ~FEESolidAttenuator.tab_whitelist
+      ~FEESolidAttenuator.trigger_signals
+   
+   

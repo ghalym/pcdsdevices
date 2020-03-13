@@ -1,0 +1,64 @@
+pcdsdevices.state.PVStateSignal
+===============================
+
+.. currentmodule:: pcdsdevices.state
+
+.. autoclass:: PVStateSignal
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~PVStateSignal.__init__
+      ~PVStateSignal.add_instantiation_callback
+      ~PVStateSignal.check_value
+      ~PVStateSignal.clear_sub
+      ~PVStateSignal.describe
+      ~PVStateSignal.describe_configuration
+      ~PVStateSignal.destroy
+      ~PVStateSignal.get
+      ~PVStateSignal.put
+      ~PVStateSignal.read
+      ~PVStateSignal.read_configuration
+      ~PVStateSignal.set
+      ~PVStateSignal.subscribe
+      ~PVStateSignal.trigger
+      ~PVStateSignal.unsubscribe
+      ~PVStateSignal.unsubscribe_all
+      ~PVStateSignal.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PVStateSignal.SUB_META
+      ~PVStateSignal.SUB_VALUE
+      ~PVStateSignal.attr_name
+      ~PVStateSignal.connected
+      ~PVStateSignal.dotted_name
+      ~PVStateSignal.event_types
+      ~PVStateSignal.high_limit
+      ~PVStateSignal.hints
+      ~PVStateSignal.kind
+      ~PVStateSignal.limits
+      ~PVStateSignal.low_limit
+      ~PVStateSignal.metadata
+      ~PVStateSignal.metadata_keys
+      ~PVStateSignal.name
+      ~PVStateSignal.parent
+      ~PVStateSignal.read_access
+      ~PVStateSignal.report
+      ~PVStateSignal.root
+      ~PVStateSignal.timestamp
+      ~PVStateSignal.tolerance
+      ~PVStateSignal.value
+      ~PVStateSignal.write_access
+   
+   

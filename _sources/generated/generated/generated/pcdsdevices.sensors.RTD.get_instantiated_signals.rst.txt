@@ -1,0 +1,6 @@
+pcdsdevices.sensors.RTD.get\_instantiated\_signals
+==================================================
+
+.. currentmodule:: pcdsdevices.sensors
+
+.. automethod:: RTD.get_instantiated_signals

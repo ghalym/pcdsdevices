@@ -1,0 +1,6 @@
+pcdsdevices.pim.LCLS2ImagerBase.get\_device\_tuple
+==================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: LCLS2ImagerBase.get_device_tuple

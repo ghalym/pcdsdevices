@@ -1,0 +1,6 @@
+pcdsdevices.pim.PPM.\_\_init\_\_
+================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PPM.__init__

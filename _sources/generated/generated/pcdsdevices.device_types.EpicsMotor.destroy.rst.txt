@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.EpicsMotor.destroy
+============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: EpicsMotor.destroy

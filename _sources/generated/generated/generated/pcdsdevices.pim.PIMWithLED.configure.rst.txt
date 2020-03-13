@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithLED.configure
+====================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithLED.configure

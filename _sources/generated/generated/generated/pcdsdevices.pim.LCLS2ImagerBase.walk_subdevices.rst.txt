@@ -1,0 +1,6 @@
+pcdsdevices.pim.LCLS2ImagerBase.walk\_subdevices
+================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: LCLS2ImagerBase.walk_subdevices

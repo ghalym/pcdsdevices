@@ -1,0 +1,6 @@
+pcdsdevices.pim.PPMPowerMeter.walk\_subdevice\_classes
+======================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PPMPowerMeter.walk_subdevice_classes

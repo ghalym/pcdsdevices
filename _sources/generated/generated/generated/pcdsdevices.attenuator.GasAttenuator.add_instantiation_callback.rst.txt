@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.GasAttenuator.add\_instantiation\_callback
+=================================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: GasAttenuator.add_instantiation_callback

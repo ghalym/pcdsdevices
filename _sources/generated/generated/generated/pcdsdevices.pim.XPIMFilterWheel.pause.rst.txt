@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMFilterWheel.pause
+=====================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMFilterWheel.pause

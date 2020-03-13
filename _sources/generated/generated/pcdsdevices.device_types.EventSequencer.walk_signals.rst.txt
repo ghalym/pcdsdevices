@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.EventSequencer.walk\_signals
+======================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: EventSequencer.walk_signals

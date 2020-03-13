@@ -1,0 +1,6 @@
+pcdsdevices.ipm.Wave8.walk\_subdevice\_classes
+==============================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: Wave8.walk_subdevice_classes

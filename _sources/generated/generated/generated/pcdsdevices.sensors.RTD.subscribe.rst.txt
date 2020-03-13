@@ -1,0 +1,6 @@
+pcdsdevices.sensors.RTD.subscribe
+=================================
+
+.. currentmodule:: pcdsdevices.sensors
+
+.. automethod:: RTD.subscribe

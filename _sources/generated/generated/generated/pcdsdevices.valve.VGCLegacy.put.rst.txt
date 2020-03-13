@@ -1,0 +1,6 @@
+pcdsdevices.valve.VGCLegacy.put
+===============================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VGCLegacy.put

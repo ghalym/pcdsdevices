@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithFocus.walk\_components
+=============================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithFocus.walk_components

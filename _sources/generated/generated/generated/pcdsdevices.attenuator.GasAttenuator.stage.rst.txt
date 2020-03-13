@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.GasAttenuator.stage
+==========================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: GasAttenuator.stage

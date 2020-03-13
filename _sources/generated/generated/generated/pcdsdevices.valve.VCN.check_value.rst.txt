@@ -1,0 +1,6 @@
+pcdsdevices.valve.VCN.check\_value
+==================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VCN.check_value

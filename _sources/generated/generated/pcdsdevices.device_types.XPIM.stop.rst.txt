@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XPIM.stop
+===================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XPIM.stop

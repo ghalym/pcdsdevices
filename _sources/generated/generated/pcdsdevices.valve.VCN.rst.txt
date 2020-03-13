@@ -1,0 +1,77 @@
+pcdsdevices.valve.VCN
+=====================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. autoclass:: VCN
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~VCN.__init__
+      ~VCN.add_instantiation_callback
+      ~VCN.check_value
+      ~VCN.clear_sub
+      ~VCN.configure
+      ~VCN.describe
+      ~VCN.describe_configuration
+      ~VCN.destroy
+      ~VCN.get
+      ~VCN.get_device_tuple
+      ~VCN.get_instantiated_signals
+      ~VCN.pause
+      ~VCN.put
+      ~VCN.read
+      ~VCN.read_configuration
+      ~VCN.resume
+      ~VCN.stage
+      ~VCN.stop
+      ~VCN.subscribe
+      ~VCN.summary
+      ~VCN.trigger
+      ~VCN.unstage
+      ~VCN.unsubscribe
+      ~VCN.unsubscribe_all
+      ~VCN.wait_for_connection
+      ~VCN.walk_components
+      ~VCN.walk_signals
+      ~VCN.walk_subdevice_classes
+      ~VCN.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~VCN.SUB_ACQ_DONE
+      ~VCN.attr_name
+      ~VCN.component_names
+      ~VCN.configuration_attrs
+      ~VCN.connected
+      ~VCN.dotted_name
+      ~VCN.event_types
+      ~VCN.hints
+      ~VCN.interlock_ok
+      ~VCN.kind
+      ~VCN.lazy_wait_for_connection
+      ~VCN.name
+      ~VCN.open_command
+      ~VCN.parent
+      ~VCN.pos_ao
+      ~VCN.position_control
+      ~VCN.position_readback
+      ~VCN.read_attrs
+      ~VCN.report
+      ~VCN.root
+      ~VCN.signal_names
+      ~VCN.state
+      ~VCN.trigger_signals
+   
+   

@@ -1,0 +1,75 @@
+pcdsdevices.sensors.TwinCATThermocouple
+=======================================
+
+.. currentmodule:: pcdsdevices.sensors
+
+.. autoclass:: TwinCATThermocouple
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~TwinCATThermocouple.__init__
+      ~TwinCATThermocouple.add_instantiation_callback
+      ~TwinCATThermocouple.check_value
+      ~TwinCATThermocouple.clear_sub
+      ~TwinCATThermocouple.configure
+      ~TwinCATThermocouple.describe
+      ~TwinCATThermocouple.describe_configuration
+      ~TwinCATThermocouple.destroy
+      ~TwinCATThermocouple.get
+      ~TwinCATThermocouple.get_device_tuple
+      ~TwinCATThermocouple.get_instantiated_signals
+      ~TwinCATThermocouple.pause
+      ~TwinCATThermocouple.put
+      ~TwinCATThermocouple.read
+      ~TwinCATThermocouple.read_configuration
+      ~TwinCATThermocouple.resume
+      ~TwinCATThermocouple.stage
+      ~TwinCATThermocouple.stop
+      ~TwinCATThermocouple.subscribe
+      ~TwinCATThermocouple.summary
+      ~TwinCATThermocouple.trigger
+      ~TwinCATThermocouple.unstage
+      ~TwinCATThermocouple.unsubscribe
+      ~TwinCATThermocouple.unsubscribe_all
+      ~TwinCATThermocouple.wait_for_connection
+      ~TwinCATThermocouple.walk_components
+      ~TwinCATThermocouple.walk_signals
+      ~TwinCATThermocouple.walk_subdevice_classes
+      ~TwinCATThermocouple.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~TwinCATThermocouple.SUB_ACQ_DONE
+      ~TwinCATThermocouple.attr_name
+      ~TwinCATThermocouple.component_names
+      ~TwinCATThermocouple.configuration_attrs
+      ~TwinCATThermocouple.connected
+      ~TwinCATThermocouple.dotted_name
+      ~TwinCATThermocouple.error
+      ~TwinCATThermocouple.event_types
+      ~TwinCATThermocouple.hints
+      ~TwinCATThermocouple.kind
+      ~TwinCATThermocouple.lazy_wait_for_connection
+      ~TwinCATThermocouple.name
+      ~TwinCATThermocouple.parent
+      ~TwinCATThermocouple.read_attrs
+      ~TwinCATThermocouple.report
+      ~TwinCATThermocouple.root
+      ~TwinCATThermocouple.sensor_connected
+      ~TwinCATThermocouple.signal_names
+      ~TwinCATThermocouple.tab_whitelist
+      ~TwinCATThermocouple.temperature
+      ~TwinCATThermocouple.trigger_signals
+   
+   

@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMCalc.add\_instantiation\_callback
+====================================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMCalc.add_instantiation_callback

@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMFilterWheel.get\_device\_tuple
+==================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMFilterWheel.get_device_tuple

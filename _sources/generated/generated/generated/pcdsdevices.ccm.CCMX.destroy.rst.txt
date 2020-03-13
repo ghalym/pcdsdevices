@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMX.destroy
+============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMX.destroy

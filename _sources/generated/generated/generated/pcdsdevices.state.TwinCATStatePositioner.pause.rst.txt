@@ -1,0 +1,6 @@
+pcdsdevices.state.TwinCATStatePositioner.pause
+==============================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: TwinCATStatePositioner.pause

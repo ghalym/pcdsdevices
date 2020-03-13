@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutPVStatePositioner.add\_instantiation\_callback
+=====================================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutPVStatePositioner.add_instantiation_callback

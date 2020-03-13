@@ -1,0 +1,121 @@
+pcdsdevices.device\_types.PCDSAreaDetector
+==========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. autoclass:: PCDSAreaDetector
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~PCDSAreaDetector.__init__
+      ~PCDSAreaDetector.add_instantiation_callback
+      ~PCDSAreaDetector.check_value
+      ~PCDSAreaDetector.clear_sub
+      ~PCDSAreaDetector.collect_asset_docs
+      ~PCDSAreaDetector.configure
+      ~PCDSAreaDetector.describe
+      ~PCDSAreaDetector.describe_configuration
+      ~PCDSAreaDetector.destroy
+      ~PCDSAreaDetector.dispatch
+      ~PCDSAreaDetector.find_signal
+      ~PCDSAreaDetector.get
+      ~PCDSAreaDetector.get_asyn_digraph
+      ~PCDSAreaDetector.get_asyn_port_dictionary
+      ~PCDSAreaDetector.get_device_tuple
+      ~PCDSAreaDetector.get_instantiated_signals
+      ~PCDSAreaDetector.get_plugin_by_asyn_port
+      ~PCDSAreaDetector.get_plugin_graph_edges
+      ~PCDSAreaDetector.make_data_key
+      ~PCDSAreaDetector.missing_plugins
+      ~PCDSAreaDetector.pause
+      ~PCDSAreaDetector.put
+      ~PCDSAreaDetector.read
+      ~PCDSAreaDetector.read_configuration
+      ~PCDSAreaDetector.resume
+      ~PCDSAreaDetector.stage
+      ~PCDSAreaDetector.stop
+      ~PCDSAreaDetector.subscribe
+      ~PCDSAreaDetector.summary
+      ~PCDSAreaDetector.trigger
+      ~PCDSAreaDetector.unstage
+      ~PCDSAreaDetector.unsubscribe
+      ~PCDSAreaDetector.unsubscribe_all
+      ~PCDSAreaDetector.validate_asyn_ports
+      ~PCDSAreaDetector.visualize_asyn_digraph
+      ~PCDSAreaDetector.wait_for_connection
+      ~PCDSAreaDetector.walk_components
+      ~PCDSAreaDetector.walk_signals
+      ~PCDSAreaDetector.walk_subdevice_classes
+      ~PCDSAreaDetector.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PCDSAreaDetector.SUB_ACQ_DONE
+      ~PCDSAreaDetector.ad_root
+      ~PCDSAreaDetector.attr_name
+      ~PCDSAreaDetector.cam
+      ~PCDSAreaDetector.cc1
+      ~PCDSAreaDetector.cc2
+      ~PCDSAreaDetector.component_names
+      ~PCDSAreaDetector.configuration_attrs
+      ~PCDSAreaDetector.configuration_names
+      ~PCDSAreaDetector.connected
+      ~PCDSAreaDetector.dotted_name
+      ~PCDSAreaDetector.event_types
+      ~PCDSAreaDetector.hdf51
+      ~PCDSAreaDetector.hints
+      ~PCDSAreaDetector.image
+      ~PCDSAreaDetector.image1
+      ~PCDSAreaDetector.image1_cc
+      ~PCDSAreaDetector.image1_over
+      ~PCDSAreaDetector.image1_proc
+      ~PCDSAreaDetector.image1_roi
+      ~PCDSAreaDetector.image2
+      ~PCDSAreaDetector.image2_cc
+      ~PCDSAreaDetector.image2_over
+      ~PCDSAreaDetector.image2_proc
+      ~PCDSAreaDetector.image2_roi
+      ~PCDSAreaDetector.jpeg1
+      ~PCDSAreaDetector.kind
+      ~PCDSAreaDetector.lazy_wait_for_connection
+      ~PCDSAreaDetector.name
+      ~PCDSAreaDetector.netcdf1
+      ~PCDSAreaDetector.nexus1
+      ~PCDSAreaDetector.over1
+      ~PCDSAreaDetector.parent
+      ~PCDSAreaDetector.proc1
+      ~PCDSAreaDetector.read_attrs
+      ~PCDSAreaDetector.report
+      ~PCDSAreaDetector.roi1
+      ~PCDSAreaDetector.roi2
+      ~PCDSAreaDetector.roi3
+      ~PCDSAreaDetector.roi4
+      ~PCDSAreaDetector.root
+      ~PCDSAreaDetector.signal_names
+      ~PCDSAreaDetector.stats
+      ~PCDSAreaDetector.stats1
+      ~PCDSAreaDetector.stats2
+      ~PCDSAreaDetector.stats3
+      ~PCDSAreaDetector.stats4
+      ~PCDSAreaDetector.stats5
+      ~PCDSAreaDetector.thumbnail
+      ~PCDSAreaDetector.thumbnail_cc
+      ~PCDSAreaDetector.thumbnail_over
+      ~PCDSAreaDetector.thumbnail_proc
+      ~PCDSAreaDetector.thumbnail_roi
+      ~PCDSAreaDetector.tiff1
+      ~PCDSAreaDetector.trans1
+      ~PCDSAreaDetector.trigger_signals
+   
+   

@@ -1,0 +1,81 @@
+pcdsdevices.pim.XPIM
+====================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. autoclass:: XPIM
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~XPIM.__init__
+      ~XPIM.add_instantiation_callback
+      ~XPIM.check_value
+      ~XPIM.clear_sub
+      ~XPIM.configure
+      ~XPIM.describe
+      ~XPIM.describe_configuration
+      ~XPIM.destroy
+      ~XPIM.get
+      ~XPIM.get_device_tuple
+      ~XPIM.get_instantiated_signals
+      ~XPIM.pause
+      ~XPIM.put
+      ~XPIM.read
+      ~XPIM.read_configuration
+      ~XPIM.resume
+      ~XPIM.stage
+      ~XPIM.stop
+      ~XPIM.subscribe
+      ~XPIM.summary
+      ~XPIM.trigger
+      ~XPIM.unstage
+      ~XPIM.unsubscribe
+      ~XPIM.unsubscribe_all
+      ~XPIM.wait_for_connection
+      ~XPIM.walk_components
+      ~XPIM.walk_signals
+      ~XPIM.walk_subdevice_classes
+      ~XPIM.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~XPIM.SUB_ACQ_DONE
+      ~XPIM.attr_name
+      ~XPIM.cam_power
+      ~XPIM.component_names
+      ~XPIM.configuration_attrs
+      ~XPIM.connected
+      ~XPIM.detector
+      ~XPIM.dotted_name
+      ~XPIM.event_types
+      ~XPIM.filter_wheel
+      ~XPIM.focus_motor
+      ~XPIM.hints
+      ~XPIM.kind
+      ~XPIM.lazy_wait_for_connection
+      ~XPIM.led
+      ~XPIM.name
+      ~XPIM.parent
+      ~XPIM.read_attrs
+      ~XPIM.report
+      ~XPIM.root
+      ~XPIM.signal_names
+      ~XPIM.tab_component_names
+      ~XPIM.tab_whitelist
+      ~XPIM.trigger_signals
+      ~XPIM.y_motor
+      ~XPIM.y_states
+      ~XPIM.zoom_motor
+   
+   

@@ -1,0 +1,6 @@
+pcdsdevices.pulsepicker.PulsePickerInOut.destroy
+================================================
+
+.. currentmodule:: pcdsdevices.pulsepicker
+
+.. automethod:: PulsePickerInOut.destroy

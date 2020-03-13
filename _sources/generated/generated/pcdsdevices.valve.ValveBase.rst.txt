@@ -1,0 +1,74 @@
+pcdsdevices.valve.ValveBase
+===========================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. autoclass:: ValveBase
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~ValveBase.__init__
+      ~ValveBase.add_instantiation_callback
+      ~ValveBase.check_value
+      ~ValveBase.clear_sub
+      ~ValveBase.configure
+      ~ValveBase.describe
+      ~ValveBase.describe_configuration
+      ~ValveBase.destroy
+      ~ValveBase.get
+      ~ValveBase.get_device_tuple
+      ~ValveBase.get_instantiated_signals
+      ~ValveBase.pause
+      ~ValveBase.put
+      ~ValveBase.read
+      ~ValveBase.read_configuration
+      ~ValveBase.resume
+      ~ValveBase.stage
+      ~ValveBase.stop
+      ~ValveBase.subscribe
+      ~ValveBase.summary
+      ~ValveBase.trigger
+      ~ValveBase.unstage
+      ~ValveBase.unsubscribe
+      ~ValveBase.unsubscribe_all
+      ~ValveBase.wait_for_connection
+      ~ValveBase.walk_components
+      ~ValveBase.walk_signals
+      ~ValveBase.walk_subdevice_classes
+      ~ValveBase.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~ValveBase.SUB_ACQ_DONE
+      ~ValveBase.attr_name
+      ~ValveBase.component_names
+      ~ValveBase.configuration_attrs
+      ~ValveBase.connected
+      ~ValveBase.dotted_name
+      ~ValveBase.event_types
+      ~ValveBase.hints
+      ~ValveBase.interlock_ok
+      ~ValveBase.kind
+      ~ValveBase.lazy_wait_for_connection
+      ~ValveBase.name
+      ~ValveBase.open_command
+      ~ValveBase.open_do
+      ~ValveBase.parent
+      ~ValveBase.read_attrs
+      ~ValveBase.report
+      ~ValveBase.root
+      ~ValveBase.signal_names
+      ~ValveBase.trigger_signals
+   
+   

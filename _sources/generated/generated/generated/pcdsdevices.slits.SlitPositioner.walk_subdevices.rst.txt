@@ -1,0 +1,6 @@
+pcdsdevices.slits.SlitPositioner.walk\_subdevices
+=================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: SlitPositioner.walk_subdevices

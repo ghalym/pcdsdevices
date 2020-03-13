@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPM\_Wave8.check\_value
+=======================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPM_Wave8.check_value

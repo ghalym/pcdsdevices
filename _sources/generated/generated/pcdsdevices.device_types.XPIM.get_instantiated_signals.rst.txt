@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XPIM.get\_instantiated\_signals
+=========================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XPIM.get_instantiated_signals

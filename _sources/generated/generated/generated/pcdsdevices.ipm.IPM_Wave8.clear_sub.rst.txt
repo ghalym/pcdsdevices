@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPM\_Wave8.clear\_sub
+=====================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPM_Wave8.clear_sub

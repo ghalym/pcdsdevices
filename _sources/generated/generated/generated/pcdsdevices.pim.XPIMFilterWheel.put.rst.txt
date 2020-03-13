@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMFilterWheel.put
+===================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMFilterWheel.put

@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMDiode.resume
+===============================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMDiode.resume

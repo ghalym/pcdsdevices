@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Gantry.add\_instantiation\_callback
+======================================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Gantry.add_instantiation_callback

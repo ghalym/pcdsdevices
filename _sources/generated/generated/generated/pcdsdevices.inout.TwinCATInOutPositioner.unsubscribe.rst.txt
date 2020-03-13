@@ -1,0 +1,6 @@
+pcdsdevices.inout.TwinCATInOutPositioner.unsubscribe
+====================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: TwinCATInOutPositioner.unsubscribe

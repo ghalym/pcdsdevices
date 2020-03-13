@@ -1,0 +1,6 @@
+pcdsdevices.slits.Slits.add\_instantiation\_callback
+====================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: Slits.add_instantiation_callback

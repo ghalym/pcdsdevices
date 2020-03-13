@@ -1,0 +1,123 @@
+pcdsdevices.epics\_motor.EpicsMotorInterface
+============================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. autoclass:: EpicsMotorInterface
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~EpicsMotorInterface.__init__
+      ~EpicsMotorInterface.add_instantiation_callback
+      ~EpicsMotorInterface.camonitor
+      ~EpicsMotorInterface.check_value
+      ~EpicsMotorInterface.clear_sub
+      ~EpicsMotorInterface.configure
+      ~EpicsMotorInterface.describe
+      ~EpicsMotorInterface.describe_configuration
+      ~EpicsMotorInterface.destroy
+      ~EpicsMotorInterface.disable
+      ~EpicsMotorInterface.enable
+      ~EpicsMotorInterface.end_monitor_thread
+      ~EpicsMotorInterface.get
+      ~EpicsMotorInterface.get_device_tuple
+      ~EpicsMotorInterface.get_instantiated_signals
+      ~EpicsMotorInterface.home
+      ~EpicsMotorInterface.move
+      ~EpicsMotorInterface.mv
+      ~EpicsMotorInterface.mv_ginput
+      ~EpicsMotorInterface.mvr
+      ~EpicsMotorInterface.pause
+      ~EpicsMotorInterface.put
+      ~EpicsMotorInterface.read
+      ~EpicsMotorInterface.read_configuration
+      ~EpicsMotorInterface.resume
+      ~EpicsMotorInterface.set
+      ~EpicsMotorInterface.set_current_position
+      ~EpicsMotorInterface.stage
+      ~EpicsMotorInterface.stop
+      ~EpicsMotorInterface.subscribe
+      ~EpicsMotorInterface.summary
+      ~EpicsMotorInterface.trigger
+      ~EpicsMotorInterface.tweak
+      ~EpicsMotorInterface.umv
+      ~EpicsMotorInterface.umvr
+      ~EpicsMotorInterface.unstage
+      ~EpicsMotorInterface.unsubscribe
+      ~EpicsMotorInterface.unsubscribe_all
+      ~EpicsMotorInterface.wait_for_connection
+      ~EpicsMotorInterface.walk_components
+      ~EpicsMotorInterface.walk_signals
+      ~EpicsMotorInterface.walk_subdevice_classes
+      ~EpicsMotorInterface.walk_subdevices
+      ~EpicsMotorInterface.wm
+      ~EpicsMotorInterface.wm_update
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~EpicsMotorInterface.SUB_ACQ_DONE
+      ~EpicsMotorInterface.SUB_DONE
+      ~EpicsMotorInterface.SUB_READBACK
+      ~EpicsMotorInterface.SUB_START
+      ~EpicsMotorInterface.acceleration
+      ~EpicsMotorInterface.attr_name
+      ~EpicsMotorInterface.component_names
+      ~EpicsMotorInterface.configuration_attrs
+      ~EpicsMotorInterface.connected
+      ~EpicsMotorInterface.description
+      ~EpicsMotorInterface.direction_of_travel
+      ~EpicsMotorInterface.disabled
+      ~EpicsMotorInterface.dotted_name
+      ~EpicsMotorInterface.egu
+      ~EpicsMotorInterface.event_types
+      ~EpicsMotorInterface.high_limit
+      ~EpicsMotorInterface.high_limit_switch
+      ~EpicsMotorInterface.high_soft_limit
+      ~EpicsMotorInterface.hints
+      ~EpicsMotorInterface.home_forward
+      ~EpicsMotorInterface.home_reverse
+      ~EpicsMotorInterface.kind
+      ~EpicsMotorInterface.lazy_wait_for_connection
+      ~EpicsMotorInterface.limits
+      ~EpicsMotorInterface.low_limit
+      ~EpicsMotorInterface.low_limit_switch
+      ~EpicsMotorInterface.low_soft_limit
+      ~EpicsMotorInterface.motor_done_move
+      ~EpicsMotorInterface.motor_egu
+      ~EpicsMotorInterface.motor_is_moving
+      ~EpicsMotorInterface.motor_stop
+      ~EpicsMotorInterface.moving
+      ~EpicsMotorInterface.name
+      ~EpicsMotorInterface.offset_freeze_switch
+      ~EpicsMotorInterface.parent
+      ~EpicsMotorInterface.position
+      ~EpicsMotorInterface.precision
+      ~EpicsMotorInterface.presets
+      ~EpicsMotorInterface.read_attrs
+      ~EpicsMotorInterface.report
+      ~EpicsMotorInterface.root
+      ~EpicsMotorInterface.set_use_switch
+      ~EpicsMotorInterface.settle_time
+      ~EpicsMotorInterface.signal_names
+      ~EpicsMotorInterface.tab_whitelist
+      ~EpicsMotorInterface.timeout
+      ~EpicsMotorInterface.tolerated_alarm
+      ~EpicsMotorInterface.trigger_signals
+      ~EpicsMotorInterface.user_offset
+      ~EpicsMotorInterface.user_offset_dir
+      ~EpicsMotorInterface.user_readback
+      ~EpicsMotorInterface.user_setpoint
+      ~EpicsMotorInterface.velocity
+   
+   

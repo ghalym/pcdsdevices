@@ -1,0 +1,6 @@
+pcdsdevices.lens.LensStackBase.pause
+====================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: LensStackBase.pause

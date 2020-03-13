@@ -1,0 +1,6 @@
+pcdsdevices.valve.PPSStopper.add\_instantiation\_callback
+=========================================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: PPSStopper.add_instantiation_callback

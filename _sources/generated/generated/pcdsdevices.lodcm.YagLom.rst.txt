@@ -1,0 +1,102 @@
+pcdsdevices.lodcm.YagLom
+========================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. autoclass:: YagLom
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~YagLom.__init__
+      ~YagLom.add_instantiation_callback
+      ~YagLom.camonitor
+      ~YagLom.check_value
+      ~YagLom.clear_sub
+      ~YagLom.configure
+      ~YagLom.describe
+      ~YagLom.describe_configuration
+      ~YagLom.destroy
+      ~YagLom.end_monitor_thread
+      ~YagLom.get
+      ~YagLom.get_device_tuple
+      ~YagLom.get_instantiated_signals
+      ~YagLom.get_state
+      ~YagLom.insert
+      ~YagLom.move
+      ~YagLom.mv
+      ~YagLom.pause
+      ~YagLom.put
+      ~YagLom.read
+      ~YagLom.read_configuration
+      ~YagLom.remove
+      ~YagLom.resume
+      ~YagLom.set
+      ~YagLom.stage
+      ~YagLom.stop
+      ~YagLom.subscribe
+      ~YagLom.summary
+      ~YagLom.trigger
+      ~YagLom.unstage
+      ~YagLom.unsubscribe
+      ~YagLom.unsubscribe_all
+      ~YagLom.wait_for_connection
+      ~YagLom.walk_components
+      ~YagLom.walk_signals
+      ~YagLom.walk_subdevice_classes
+      ~YagLom.walk_subdevices
+      ~YagLom.wm
+      ~YagLom.wm_update
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~YagLom.SUB_ACQ_DONE
+      ~YagLom.SUB_DONE
+      ~YagLom.SUB_READBACK
+      ~YagLom.SUB_START
+      ~YagLom.SUB_STATE
+      ~YagLom.attr_name
+      ~YagLom.component_names
+      ~YagLom.configuration_attrs
+      ~YagLom.connected
+      ~YagLom.dotted_name
+      ~YagLom.egu
+      ~YagLom.event_types
+      ~YagLom.high_limit
+      ~YagLom.hints
+      ~YagLom.in_states
+      ~YagLom.inserted
+      ~YagLom.kind
+      ~YagLom.lazy_wait_for_connection
+      ~YagLom.limits
+      ~YagLom.low_limit
+      ~YagLom.motor
+      ~YagLom.moving
+      ~YagLom.name
+      ~YagLom.out_states
+      ~YagLom.parent
+      ~YagLom.position
+      ~YagLom.read_attrs
+      ~YagLom.removed
+      ~YagLom.report
+      ~YagLom.root
+      ~YagLom.settle_time
+      ~YagLom.signal_names
+      ~YagLom.state
+      ~YagLom.states_list
+      ~YagLom.tab_whitelist
+      ~YagLom.timeout
+      ~YagLom.transmission
+      ~YagLom.trigger_signals
+   
+   

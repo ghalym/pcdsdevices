@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.BeckhoffAxis.walk\_subdevices
+======================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: BeckhoffAxis.walk_subdevices

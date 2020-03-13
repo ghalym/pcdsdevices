@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMMotion.check\_value
+======================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMMotion.check_value

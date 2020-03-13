@@ -1,0 +1,6 @@
+pcdsdevices.signal.PytmcSignal.read
+===================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: PytmcSignal.read

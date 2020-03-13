@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMFilterWheel.read
+====================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMFilterWheel.read

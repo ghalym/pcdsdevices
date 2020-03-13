@@ -1,0 +1,6 @@
+pcdsdevices.pim.PPMPowerMeter.wait\_for\_connection
+===================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PPMPowerMeter.wait_for_connection

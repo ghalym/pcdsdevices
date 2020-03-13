@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutPVStatePositioner.destroy
+================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutPVStatePositioner.destroy

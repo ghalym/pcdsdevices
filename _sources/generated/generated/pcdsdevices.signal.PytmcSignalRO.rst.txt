@@ -1,0 +1,73 @@
+pcdsdevices.signal.PytmcSignalRO
+================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. autoclass:: PytmcSignalRO
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~PytmcSignalRO.__init__
+      ~PytmcSignalRO.add_instantiation_callback
+      ~PytmcSignalRO.check_value
+      ~PytmcSignalRO.clear_sub
+      ~PytmcSignalRO.describe
+      ~PytmcSignalRO.describe_configuration
+      ~PytmcSignalRO.destroy
+      ~PytmcSignalRO.get
+      ~PytmcSignalRO.put
+      ~PytmcSignalRO.read
+      ~PytmcSignalRO.read_configuration
+      ~PytmcSignalRO.set
+      ~PytmcSignalRO.set_default_timeout
+      ~PytmcSignalRO.subscribe
+      ~PytmcSignalRO.trigger
+      ~PytmcSignalRO.unsubscribe
+      ~PytmcSignalRO.unsubscribe_all
+      ~PytmcSignalRO.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PytmcSignalRO.SUB_META
+      ~PytmcSignalRO.SUB_VALUE
+      ~PytmcSignalRO.alarm_severity
+      ~PytmcSignalRO.alarm_status
+      ~PytmcSignalRO.as_string
+      ~PytmcSignalRO.attr_name
+      ~PytmcSignalRO.connected
+      ~PytmcSignalRO.connection_timeout
+      ~PytmcSignalRO.dotted_name
+      ~PytmcSignalRO.enum_strs
+      ~PytmcSignalRO.event_types
+      ~PytmcSignalRO.high_limit
+      ~PytmcSignalRO.hints
+      ~PytmcSignalRO.kind
+      ~PytmcSignalRO.limits
+      ~PytmcSignalRO.low_limit
+      ~PytmcSignalRO.metadata
+      ~PytmcSignalRO.metadata_keys
+      ~PytmcSignalRO.name
+      ~PytmcSignalRO.parent
+      ~PytmcSignalRO.precision
+      ~PytmcSignalRO.pvname
+      ~PytmcSignalRO.read_access
+      ~PytmcSignalRO.report
+      ~PytmcSignalRO.root
+      ~PytmcSignalRO.timeout
+      ~PytmcSignalRO.timestamp
+      ~PytmcSignalRO.tolerance
+      ~PytmcSignalRO.value
+      ~PytmcSignalRO.write_access
+   
+   

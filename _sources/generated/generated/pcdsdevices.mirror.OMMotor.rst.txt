@@ -1,0 +1,110 @@
+pcdsdevices.mirror.OMMotor
+==========================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. autoclass:: OMMotor
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~OMMotor.__init__
+      ~OMMotor.add_instantiation_callback
+      ~OMMotor.camonitor
+      ~OMMotor.check_value
+      ~OMMotor.clear_sub
+      ~OMMotor.configure
+      ~OMMotor.describe
+      ~OMMotor.describe_configuration
+      ~OMMotor.destroy
+      ~OMMotor.end_monitor_thread
+      ~OMMotor.get
+      ~OMMotor.get_device_tuple
+      ~OMMotor.get_instantiated_signals
+      ~OMMotor.move
+      ~OMMotor.mv
+      ~OMMotor.mv_ginput
+      ~OMMotor.mvr
+      ~OMMotor.pause
+      ~OMMotor.put
+      ~OMMotor.read
+      ~OMMotor.read_configuration
+      ~OMMotor.resume
+      ~OMMotor.set
+      ~OMMotor.stage
+      ~OMMotor.stop
+      ~OMMotor.subscribe
+      ~OMMotor.summary
+      ~OMMotor.trigger
+      ~OMMotor.tweak
+      ~OMMotor.umv
+      ~OMMotor.umvr
+      ~OMMotor.unstage
+      ~OMMotor.unsubscribe
+      ~OMMotor.unsubscribe_all
+      ~OMMotor.wait_for_connection
+      ~OMMotor.walk_components
+      ~OMMotor.walk_signals
+      ~OMMotor.walk_subdevice_classes
+      ~OMMotor.walk_subdevices
+      ~OMMotor.wm
+      ~OMMotor.wm_update
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~OMMotor.SUB_ACQ_DONE
+      ~OMMotor.SUB_DONE
+      ~OMMotor.SUB_READBACK
+      ~OMMotor.SUB_START
+      ~OMMotor.actuate
+      ~OMMotor.actuate_value
+      ~OMMotor.attr_name
+      ~OMMotor.component_names
+      ~OMMotor.configuration_attrs
+      ~OMMotor.connected
+      ~OMMotor.done
+      ~OMMotor.done_value
+      ~OMMotor.dotted_name
+      ~OMMotor.egu
+      ~OMMotor.enabled
+      ~OMMotor.event_types
+      ~OMMotor.high_limit
+      ~OMMotor.high_limit_switch
+      ~OMMotor.hints
+      ~OMMotor.interlock
+      ~OMMotor.kind
+      ~OMMotor.lazy_wait_for_connection
+      ~OMMotor.limits
+      ~OMMotor.low_limit
+      ~OMMotor.low_limit_switch
+      ~OMMotor.motor_egu
+      ~OMMotor.moving
+      ~OMMotor.name
+      ~OMMotor.parent
+      ~OMMotor.position
+      ~OMMotor.presets
+      ~OMMotor.put_complete
+      ~OMMotor.read_attrs
+      ~OMMotor.readback
+      ~OMMotor.report
+      ~OMMotor.root
+      ~OMMotor.setpoint
+      ~OMMotor.settle_time
+      ~OMMotor.signal_names
+      ~OMMotor.stop_signal
+      ~OMMotor.stop_value
+      ~OMMotor.tab_whitelist
+      ~OMMotor.timeout
+      ~OMMotor.trigger_signals
+   
+   

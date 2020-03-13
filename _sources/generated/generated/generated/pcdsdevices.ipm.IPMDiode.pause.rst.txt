@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMDiode.pause
+==============================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMDiode.pause

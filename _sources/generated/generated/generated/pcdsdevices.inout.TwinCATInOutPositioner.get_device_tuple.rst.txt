@@ -1,0 +1,6 @@
+pcdsdevices.inout.TwinCATInOutPositioner.get\_device\_tuple
+===========================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: TwinCATInOutPositioner.get_device_tuple

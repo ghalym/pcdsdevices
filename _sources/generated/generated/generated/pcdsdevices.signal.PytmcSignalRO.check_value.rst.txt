@@ -1,0 +1,6 @@
+pcdsdevices.signal.PytmcSignalRO.check\_value
+=============================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: PytmcSignalRO.check_value

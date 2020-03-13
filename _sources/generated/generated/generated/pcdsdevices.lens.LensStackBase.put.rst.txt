@@ -1,0 +1,6 @@
+pcdsdevices.lens.LensStackBase.put
+==================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: LensStackBase.put

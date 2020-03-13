@@ -1,0 +1,6 @@
+pcdsdevices.valve.VVCNO.subscribe
+=================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VVCNO.subscribe

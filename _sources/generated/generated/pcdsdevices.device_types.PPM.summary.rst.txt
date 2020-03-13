@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PPM.summary
+=====================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PPM.summary

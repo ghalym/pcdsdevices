@@ -1,0 +1,90 @@
+pcdsdevices.mirror.XOffsetMirror
+================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. autoclass:: XOffsetMirror
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~XOffsetMirror.__init__
+      ~XOffsetMirror.add_instantiation_callback
+      ~XOffsetMirror.check_value
+      ~XOffsetMirror.clear_sub
+      ~XOffsetMirror.configure
+      ~XOffsetMirror.describe
+      ~XOffsetMirror.describe_configuration
+      ~XOffsetMirror.destroy
+      ~XOffsetMirror.get
+      ~XOffsetMirror.get_device_tuple
+      ~XOffsetMirror.get_instantiated_signals
+      ~XOffsetMirror.pause
+      ~XOffsetMirror.put
+      ~XOffsetMirror.read
+      ~XOffsetMirror.read_configuration
+      ~XOffsetMirror.resume
+      ~XOffsetMirror.stage
+      ~XOffsetMirror.stop
+      ~XOffsetMirror.subscribe
+      ~XOffsetMirror.summary
+      ~XOffsetMirror.trigger
+      ~XOffsetMirror.unstage
+      ~XOffsetMirror.unsubscribe
+      ~XOffsetMirror.unsubscribe_all
+      ~XOffsetMirror.wait_for_connection
+      ~XOffsetMirror.walk_components
+      ~XOffsetMirror.walk_signals
+      ~XOffsetMirror.walk_subdevice_classes
+      ~XOffsetMirror.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~XOffsetMirror.SUB_ACQ_DONE
+      ~XOffsetMirror.attr_name
+      ~XOffsetMirror.bender
+      ~XOffsetMirror.bender_enc_rms
+      ~XOffsetMirror.component_names
+      ~XOffsetMirror.configuration_attrs
+      ~XOffsetMirror.connected
+      ~XOffsetMirror.couple_status_x
+      ~XOffsetMirror.couple_status_y
+      ~XOffsetMirror.couple_x
+      ~XOffsetMirror.couple_y
+      ~XOffsetMirror.decouple_x
+      ~XOffsetMirror.decouple_y
+      ~XOffsetMirror.dotted_name
+      ~XOffsetMirror.event_types
+      ~XOffsetMirror.gantry_x
+      ~XOffsetMirror.gantry_y
+      ~XOffsetMirror.hints
+      ~XOffsetMirror.kind
+      ~XOffsetMirror.lazy_wait_for_connection
+      ~XOffsetMirror.name
+      ~XOffsetMirror.parent
+      ~XOffsetMirror.pitch
+      ~XOffsetMirror.pitch_enc_rms
+      ~XOffsetMirror.read_attrs
+      ~XOffsetMirror.report
+      ~XOffsetMirror.root
+      ~XOffsetMirror.signal_names
+      ~XOffsetMirror.tab_whitelist
+      ~XOffsetMirror.trigger_signals
+      ~XOffsetMirror.x_dwn
+      ~XOffsetMirror.x_enc_rms
+      ~XOffsetMirror.x_up
+      ~XOffsetMirror.y_dwn
+      ~XOffsetMirror.y_enc_rms
+      ~XOffsetMirror.y_up
+   
+   

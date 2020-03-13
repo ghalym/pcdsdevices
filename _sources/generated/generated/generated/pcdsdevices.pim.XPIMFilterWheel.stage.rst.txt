@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMFilterWheel.stage
+=====================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMFilterWheel.stage

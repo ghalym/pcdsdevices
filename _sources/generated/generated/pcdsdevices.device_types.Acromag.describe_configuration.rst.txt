@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Acromag.describe\_configuration
+=========================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Acromag.describe_configuration

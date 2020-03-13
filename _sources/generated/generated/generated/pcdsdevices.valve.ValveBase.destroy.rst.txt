@@ -1,0 +1,6 @@
+pcdsdevices.valve.ValveBase.destroy
+===================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: ValveBase.destroy

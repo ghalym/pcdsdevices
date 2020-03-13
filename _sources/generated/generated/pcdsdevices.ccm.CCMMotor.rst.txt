@@ -1,0 +1,105 @@
+pcdsdevices.ccm.CCMMotor
+========================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. autoclass:: CCMMotor
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~CCMMotor.__init__
+      ~CCMMotor.add_instantiation_callback
+      ~CCMMotor.camonitor
+      ~CCMMotor.check_value
+      ~CCMMotor.clear_sub
+      ~CCMMotor.configure
+      ~CCMMotor.describe
+      ~CCMMotor.describe_configuration
+      ~CCMMotor.destroy
+      ~CCMMotor.end_monitor_thread
+      ~CCMMotor.get
+      ~CCMMotor.get_device_tuple
+      ~CCMMotor.get_instantiated_signals
+      ~CCMMotor.move
+      ~CCMMotor.mv
+      ~CCMMotor.mv_ginput
+      ~CCMMotor.mvr
+      ~CCMMotor.pause
+      ~CCMMotor.put
+      ~CCMMotor.read
+      ~CCMMotor.read_configuration
+      ~CCMMotor.resume
+      ~CCMMotor.set
+      ~CCMMotor.stage
+      ~CCMMotor.stop
+      ~CCMMotor.subscribe
+      ~CCMMotor.summary
+      ~CCMMotor.trigger
+      ~CCMMotor.tweak
+      ~CCMMotor.umv
+      ~CCMMotor.umvr
+      ~CCMMotor.unstage
+      ~CCMMotor.unsubscribe
+      ~CCMMotor.unsubscribe_all
+      ~CCMMotor.wait_for_connection
+      ~CCMMotor.walk_components
+      ~CCMMotor.walk_signals
+      ~CCMMotor.walk_subdevice_classes
+      ~CCMMotor.walk_subdevices
+      ~CCMMotor.wm
+      ~CCMMotor.wm_update
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~CCMMotor.SUB_ACQ_DONE
+      ~CCMMotor.SUB_DONE
+      ~CCMMotor.SUB_READBACK
+      ~CCMMotor.SUB_START
+      ~CCMMotor.actuate
+      ~CCMMotor.actuate_value
+      ~CCMMotor.attr_name
+      ~CCMMotor.component_names
+      ~CCMMotor.configuration_attrs
+      ~CCMMotor.connected
+      ~CCMMotor.done
+      ~CCMMotor.done_value
+      ~CCMMotor.dotted_name
+      ~CCMMotor.egu
+      ~CCMMotor.event_types
+      ~CCMMotor.high_limit
+      ~CCMMotor.hints
+      ~CCMMotor.kind
+      ~CCMMotor.lazy_wait_for_connection
+      ~CCMMotor.limits
+      ~CCMMotor.low_limit
+      ~CCMMotor.moving
+      ~CCMMotor.name
+      ~CCMMotor.parent
+      ~CCMMotor.position
+      ~CCMMotor.presets
+      ~CCMMotor.put_complete
+      ~CCMMotor.read_attrs
+      ~CCMMotor.readback
+      ~CCMMotor.report
+      ~CCMMotor.root
+      ~CCMMotor.setpoint
+      ~CCMMotor.settle_time
+      ~CCMMotor.signal_names
+      ~CCMMotor.stop_signal
+      ~CCMMotor.stop_value
+      ~CCMMotor.tab_whitelist
+      ~CCMMotor.timeout
+      ~CCMMotor.trigger_signals
+   
+   

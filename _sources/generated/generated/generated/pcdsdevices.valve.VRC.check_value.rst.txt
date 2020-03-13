@@ -1,0 +1,6 @@
+pcdsdevices.valve.VRC.check\_value
+==================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VRC.check_value

@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PCDSAreaDetector.get\_asyn\_port\_dictionary
+======================================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PCDSAreaDetector.get_asyn_port_dictionary

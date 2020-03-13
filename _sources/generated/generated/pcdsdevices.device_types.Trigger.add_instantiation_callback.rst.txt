@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Trigger.add\_instantiation\_callback
+==============================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Trigger.add_instantiation_callback

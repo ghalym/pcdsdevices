@@ -1,0 +1,6 @@
+pcdsdevices.sensors.RTD.walk\_subdevices
+========================================
+
+.. currentmodule:: pcdsdevices.sensors
+
+.. automethod:: RTD.walk_subdevices

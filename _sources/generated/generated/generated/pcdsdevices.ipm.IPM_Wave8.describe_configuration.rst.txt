@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPM\_Wave8.describe\_configuration
+==================================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPM_Wave8.describe_configuration

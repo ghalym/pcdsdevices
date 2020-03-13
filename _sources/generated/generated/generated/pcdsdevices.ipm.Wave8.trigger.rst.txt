@@ -1,0 +1,6 @@
+pcdsdevices.ipm.Wave8.trigger
+=============================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: Wave8.trigger

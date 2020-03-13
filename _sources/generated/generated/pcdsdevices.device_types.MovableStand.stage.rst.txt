@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.MovableStand.stage
+============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: MovableStand.stage

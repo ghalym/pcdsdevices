@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.MovableStand.clear\_sub
+=================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: MovableStand.clear_sub

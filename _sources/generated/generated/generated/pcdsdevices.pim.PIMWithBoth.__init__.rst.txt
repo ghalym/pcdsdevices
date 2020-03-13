@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithBoth.\_\_init\_\_
+========================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithBoth.__init__

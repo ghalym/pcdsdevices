@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Stopper.walk\_subdevice\_classes
+==========================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Stopper.walk_subdevice_classes

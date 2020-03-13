@@ -1,0 +1,114 @@
+pcdsdevices.lens.SimLensStack
+=============================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. autoclass:: SimLensStack
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~SimLensStack.__init__
+      ~SimLensStack.add_instantiation_callback
+      ~SimLensStack.align
+      ~SimLensStack.calc_beam_fwhm
+      ~SimLensStack.calc_distance_for_size
+      ~SimLensStack.calc_focal_length
+      ~SimLensStack.calc_focal_length_for_single_lens
+      ~SimLensStack.check_single
+      ~SimLensStack.check_value
+      ~SimLensStack.clear_sub
+      ~SimLensStack.configure
+      ~SimLensStack.create_lens
+      ~SimLensStack.describe
+      ~SimLensStack.describe_configuration
+      ~SimLensStack.destroy
+      ~SimLensStack.forward
+      ~SimLensStack.get
+      ~SimLensStack.get_delta
+      ~SimLensStack.get_device_tuple
+      ~SimLensStack.get_instantiated_signals
+      ~SimLensStack.inverse
+      ~SimLensStack.move
+      ~SimLensStack.move_single
+      ~SimLensStack.pause
+      ~SimLensStack.put
+      ~SimLensStack.read
+      ~SimLensStack.read_configuration
+      ~SimLensStack.read_lens
+      ~SimLensStack.resume
+      ~SimLensStack.set
+      ~SimLensStack.stage
+      ~SimLensStack.stop
+      ~SimLensStack.subscribe
+      ~SimLensStack.summary
+      ~SimLensStack.to_pseudo_tuple
+      ~SimLensStack.to_real_tuple
+      ~SimLensStack.trigger
+      ~SimLensStack.tweak
+      ~SimLensStack.unstage
+      ~SimLensStack.unsubscribe
+      ~SimLensStack.unsubscribe_all
+      ~SimLensStack.wait_for_connection
+      ~SimLensStack.walk_components
+      ~SimLensStack.walk_signals
+      ~SimLensStack.walk_subdevice_classes
+      ~SimLensStack.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~SimLensStack.SUB_ACQ_DONE
+      ~SimLensStack.SUB_DONE
+      ~SimLensStack.SUB_READBACK
+      ~SimLensStack.SUB_START
+      ~SimLensStack.attr_name
+      ~SimLensStack.backup_path
+      ~SimLensStack.beam_size
+      ~SimLensStack.calib_z
+      ~SimLensStack.component_names
+      ~SimLensStack.composite_egu
+      ~SimLensStack.concurrent
+      ~SimLensStack.configuration_attrs
+      ~SimLensStack.connected
+      ~SimLensStack.dotted_name
+      ~SimLensStack.egu
+      ~SimLensStack.event_types
+      ~SimLensStack.high_limit
+      ~SimLensStack.hints
+      ~SimLensStack.kind
+      ~SimLensStack.lazy_wait_for_connection
+      ~SimLensStack.limits
+      ~SimLensStack.low_limit
+      ~SimLensStack.moving
+      ~SimLensStack.name
+      ~SimLensStack.parent
+      ~SimLensStack.position
+      ~SimLensStack.pseudo_positioners
+      ~SimLensStack.read_attrs
+      ~SimLensStack.real_position
+      ~SimLensStack.real_positioners
+      ~SimLensStack.report
+      ~SimLensStack.root
+      ~SimLensStack.sequential
+      ~SimLensStack.settle_time
+      ~SimLensStack.signal_names
+      ~SimLensStack.tab_component_names
+      ~SimLensStack.tab_whitelist
+      ~SimLensStack.target
+      ~SimLensStack.timeout
+      ~SimLensStack.trigger_signals
+      ~SimLensStack.x
+      ~SimLensStack.y
+      ~SimLensStack.z
+   
+   

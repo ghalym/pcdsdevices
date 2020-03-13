@@ -1,0 +1,115 @@
+pcdsdevices.mirror.Gantry
+=========================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. autoclass:: Gantry
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~Gantry.__init__
+      ~Gantry.add_instantiation_callback
+      ~Gantry.camonitor
+      ~Gantry.check_value
+      ~Gantry.clear_sub
+      ~Gantry.configure
+      ~Gantry.describe
+      ~Gantry.describe_configuration
+      ~Gantry.destroy
+      ~Gantry.end_monitor_thread
+      ~Gantry.get
+      ~Gantry.get_device_tuple
+      ~Gantry.get_instantiated_signals
+      ~Gantry.move
+      ~Gantry.mv
+      ~Gantry.mv_ginput
+      ~Gantry.mvr
+      ~Gantry.pause
+      ~Gantry.put
+      ~Gantry.read
+      ~Gantry.read_configuration
+      ~Gantry.resume
+      ~Gantry.set
+      ~Gantry.stage
+      ~Gantry.stop
+      ~Gantry.subscribe
+      ~Gantry.summary
+      ~Gantry.trigger
+      ~Gantry.tweak
+      ~Gantry.umv
+      ~Gantry.umvr
+      ~Gantry.unstage
+      ~Gantry.unsubscribe
+      ~Gantry.unsubscribe_all
+      ~Gantry.wait_for_connection
+      ~Gantry.walk_components
+      ~Gantry.walk_signals
+      ~Gantry.walk_subdevice_classes
+      ~Gantry.walk_subdevices
+      ~Gantry.wm
+      ~Gantry.wm_update
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Gantry.SUB_ACQ_DONE
+      ~Gantry.SUB_DONE
+      ~Gantry.SUB_READBACK
+      ~Gantry.SUB_START
+      ~Gantry.actuate
+      ~Gantry.actuate_value
+      ~Gantry.attr_name
+      ~Gantry.component_names
+      ~Gantry.configuration_attrs
+      ~Gantry.connected
+      ~Gantry.decoupled
+      ~Gantry.done
+      ~Gantry.done_value
+      ~Gantry.dotted_name
+      ~Gantry.egu
+      ~Gantry.enabled
+      ~Gantry.event_types
+      ~Gantry.follower_high_limit_switch
+      ~Gantry.follower_low_limit_switch
+      ~Gantry.follower_readback
+      ~Gantry.gantry_difference
+      ~Gantry.high_limit
+      ~Gantry.high_limit_switch
+      ~Gantry.hints
+      ~Gantry.interlock
+      ~Gantry.kind
+      ~Gantry.lazy_wait_for_connection
+      ~Gantry.limits
+      ~Gantry.low_limit
+      ~Gantry.low_limit_switch
+      ~Gantry.motor_egu
+      ~Gantry.moving
+      ~Gantry.name
+      ~Gantry.parent
+      ~Gantry.position
+      ~Gantry.presets
+      ~Gantry.put_complete
+      ~Gantry.read_attrs
+      ~Gantry.readback
+      ~Gantry.report
+      ~Gantry.root
+      ~Gantry.setpoint
+      ~Gantry.settle_time
+      ~Gantry.signal_names
+      ~Gantry.stop_signal
+      ~Gantry.stop_value
+      ~Gantry.tab_whitelist
+      ~Gantry.timeout
+      ~Gantry.trigger_signals
+   
+   

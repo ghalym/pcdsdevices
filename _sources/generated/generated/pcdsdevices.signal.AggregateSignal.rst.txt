@@ -1,0 +1,64 @@
+pcdsdevices.signal.AggregateSignal
+==================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. autoclass:: AggregateSignal
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~AggregateSignal.__init__
+      ~AggregateSignal.add_instantiation_callback
+      ~AggregateSignal.check_value
+      ~AggregateSignal.clear_sub
+      ~AggregateSignal.describe
+      ~AggregateSignal.describe_configuration
+      ~AggregateSignal.destroy
+      ~AggregateSignal.get
+      ~AggregateSignal.put
+      ~AggregateSignal.read
+      ~AggregateSignal.read_configuration
+      ~AggregateSignal.set
+      ~AggregateSignal.subscribe
+      ~AggregateSignal.trigger
+      ~AggregateSignal.unsubscribe
+      ~AggregateSignal.unsubscribe_all
+      ~AggregateSignal.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~AggregateSignal.SUB_META
+      ~AggregateSignal.SUB_VALUE
+      ~AggregateSignal.attr_name
+      ~AggregateSignal.connected
+      ~AggregateSignal.dotted_name
+      ~AggregateSignal.event_types
+      ~AggregateSignal.high_limit
+      ~AggregateSignal.hints
+      ~AggregateSignal.kind
+      ~AggregateSignal.limits
+      ~AggregateSignal.low_limit
+      ~AggregateSignal.metadata
+      ~AggregateSignal.metadata_keys
+      ~AggregateSignal.name
+      ~AggregateSignal.parent
+      ~AggregateSignal.read_access
+      ~AggregateSignal.report
+      ~AggregateSignal.root
+      ~AggregateSignal.timestamp
+      ~AggregateSignal.tolerance
+      ~AggregateSignal.value
+      ~AggregateSignal.write_access
+   
+   

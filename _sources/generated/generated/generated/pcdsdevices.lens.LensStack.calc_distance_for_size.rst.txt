@@ -1,0 +1,6 @@
+pcdsdevices.lens.LensStack.calc\_distance\_for\_size
+====================================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: LensStack.calc_distance_for_size

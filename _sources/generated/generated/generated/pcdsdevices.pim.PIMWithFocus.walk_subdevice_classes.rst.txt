@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithFocus.walk\_subdevice\_classes
+=====================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithFocus.walk_subdevice_classes

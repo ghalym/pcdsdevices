@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.GasAttenuator.put
+========================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: GasAttenuator.put

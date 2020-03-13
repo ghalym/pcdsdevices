@@ -1,0 +1,6 @@
+pcdsdevices.lens.LensStack.add\_instantiation\_callback
+=======================================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: LensStack.add_instantiation_callback

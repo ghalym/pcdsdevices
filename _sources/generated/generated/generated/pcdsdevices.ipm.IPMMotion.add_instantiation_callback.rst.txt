@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMMotion.add\_instantiation\_callback
+======================================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMMotion.add_instantiation_callback

@@ -1,0 +1,6 @@
+pcdsdevices.pulsepicker.PulsePicker.walk\_subdevices
+====================================================
+
+.. currentmodule:: pcdsdevices.pulsepicker
+
+.. automethod:: PulsePicker.walk_subdevices

@@ -1,0 +1,6 @@
+pcdsdevices.valve.VVCNO.summary
+===============================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VVCNO.summary

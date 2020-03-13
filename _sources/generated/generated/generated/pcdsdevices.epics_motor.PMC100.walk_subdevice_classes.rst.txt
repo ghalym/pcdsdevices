@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.PMC100.walk\_subdevice\_classes
+========================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: PMC100.walk_subdevice_classes

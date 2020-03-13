@@ -1,0 +1,6 @@
+pcdsdevices.state.TwinCATStatePositioner.wm
+===========================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: TwinCATStatePositioner.wm

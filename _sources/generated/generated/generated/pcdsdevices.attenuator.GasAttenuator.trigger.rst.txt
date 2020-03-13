@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.GasAttenuator.trigger
+============================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: GasAttenuator.trigger

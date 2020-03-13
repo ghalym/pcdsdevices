@@ -1,0 +1,6 @@
+pcdsdevices.sensors.RTD.read\_configuration
+===========================================
+
+.. currentmodule:: pcdsdevices.sensors
+
+.. automethod:: RTD.read_configuration

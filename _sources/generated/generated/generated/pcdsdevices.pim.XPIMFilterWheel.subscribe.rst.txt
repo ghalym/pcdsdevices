@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMFilterWheel.subscribe
+=========================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMFilterWheel.subscribe

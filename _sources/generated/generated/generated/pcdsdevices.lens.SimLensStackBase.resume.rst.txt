@@ -1,0 +1,6 @@
+pcdsdevices.lens.SimLensStackBase.resume
+========================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: SimLensStackBase.resume

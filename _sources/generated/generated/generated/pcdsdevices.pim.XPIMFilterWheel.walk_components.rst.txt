@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMFilterWheel.walk\_components
+================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMFilterWheel.walk_components

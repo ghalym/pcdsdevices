@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMTarget.get\_instantiated\_signals
+====================================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMTarget.get_instantiated_signals

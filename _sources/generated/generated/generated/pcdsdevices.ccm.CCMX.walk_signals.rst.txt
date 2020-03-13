@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMX.walk\_signals
+==================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMX.walk_signals

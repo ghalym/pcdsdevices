@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPIMB.get
+=========================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPIMB.get

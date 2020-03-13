@@ -1,0 +1,105 @@
+pcdsdevices.device\_types.Acromag
+=================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. autoclass:: Acromag
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~Acromag.__init__
+      ~Acromag.add_instantiation_callback
+      ~Acromag.check_value
+      ~Acromag.clear_sub
+      ~Acromag.configure
+      ~Acromag.describe
+      ~Acromag.describe_configuration
+      ~Acromag.destroy
+      ~Acromag.get
+      ~Acromag.get_device_tuple
+      ~Acromag.get_instantiated_signals
+      ~Acromag.pause
+      ~Acromag.put
+      ~Acromag.read
+      ~Acromag.read_configuration
+      ~Acromag.resume
+      ~Acromag.stage
+      ~Acromag.stop
+      ~Acromag.subscribe
+      ~Acromag.summary
+      ~Acromag.trigger
+      ~Acromag.unstage
+      ~Acromag.unsubscribe
+      ~Acromag.unsubscribe_all
+      ~Acromag.wait_for_connection
+      ~Acromag.walk_components
+      ~Acromag.walk_signals
+      ~Acromag.walk_subdevice_classes
+      ~Acromag.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Acromag.SUB_ACQ_DONE
+      ~Acromag.ai1_0
+      ~Acromag.ai1_1
+      ~Acromag.ai1_10
+      ~Acromag.ai1_11
+      ~Acromag.ai1_12
+      ~Acromag.ai1_13
+      ~Acromag.ai1_14
+      ~Acromag.ai1_15
+      ~Acromag.ai1_2
+      ~Acromag.ai1_3
+      ~Acromag.ai1_4
+      ~Acromag.ai1_5
+      ~Acromag.ai1_6
+      ~Acromag.ai1_7
+      ~Acromag.ai1_8
+      ~Acromag.ai1_9
+      ~Acromag.ao1_0
+      ~Acromag.ao1_1
+      ~Acromag.ao1_10
+      ~Acromag.ao1_11
+      ~Acromag.ao1_12
+      ~Acromag.ao1_13
+      ~Acromag.ao1_14
+      ~Acromag.ao1_15
+      ~Acromag.ao1_2
+      ~Acromag.ao1_3
+      ~Acromag.ao1_4
+      ~Acromag.ao1_5
+      ~Acromag.ao1_6
+      ~Acromag.ao1_7
+      ~Acromag.ao1_8
+      ~Acromag.ao1_9
+      ~Acromag.attr_name
+      ~Acromag.component_names
+      ~Acromag.configuration_attrs
+      ~Acromag.connected
+      ~Acromag.dotted_name
+      ~Acromag.event_types
+      ~Acromag.hints
+      ~Acromag.kind
+      ~Acromag.lazy_wait_for_connection
+      ~Acromag.name
+      ~Acromag.parent
+      ~Acromag.read_attrs
+      ~Acromag.report
+      ~Acromag.root
+      ~Acromag.signal_names
+      ~Acromag.tab_component_names
+      ~Acromag.tab_whitelist
+      ~Acromag.trigger_signals
+   
+   

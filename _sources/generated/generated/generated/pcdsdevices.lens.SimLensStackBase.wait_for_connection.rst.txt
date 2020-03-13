@@ -1,0 +1,6 @@
+pcdsdevices.lens.SimLensStackBase.wait\_for\_connection
+=======================================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: SimLensStackBase.wait_for_connection

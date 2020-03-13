@@ -1,0 +1,6 @@
+pcdsdevices.inout.TwinCATInOutPositioner.add\_instantiation\_callback
+=====================================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: TwinCATInOutPositioner.add_instantiation_callback

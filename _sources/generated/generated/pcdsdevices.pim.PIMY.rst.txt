@@ -1,0 +1,102 @@
+pcdsdevices.pim.PIMY
+====================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. autoclass:: PIMY
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~PIMY.__init__
+      ~PIMY.add_instantiation_callback
+      ~PIMY.camonitor
+      ~PIMY.check_value
+      ~PIMY.clear_sub
+      ~PIMY.configure
+      ~PIMY.describe
+      ~PIMY.describe_configuration
+      ~PIMY.destroy
+      ~PIMY.end_monitor_thread
+      ~PIMY.get
+      ~PIMY.get_device_tuple
+      ~PIMY.get_instantiated_signals
+      ~PIMY.get_state
+      ~PIMY.insert
+      ~PIMY.move
+      ~PIMY.mv
+      ~PIMY.pause
+      ~PIMY.put
+      ~PIMY.read
+      ~PIMY.read_configuration
+      ~PIMY.remove
+      ~PIMY.resume
+      ~PIMY.set
+      ~PIMY.stage
+      ~PIMY.stop
+      ~PIMY.subscribe
+      ~PIMY.summary
+      ~PIMY.trigger
+      ~PIMY.unstage
+      ~PIMY.unsubscribe
+      ~PIMY.unsubscribe_all
+      ~PIMY.wait_for_connection
+      ~PIMY.walk_components
+      ~PIMY.walk_signals
+      ~PIMY.walk_subdevice_classes
+      ~PIMY.walk_subdevices
+      ~PIMY.wm
+      ~PIMY.wm_update
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~PIMY.SUB_ACQ_DONE
+      ~PIMY.SUB_DONE
+      ~PIMY.SUB_READBACK
+      ~PIMY.SUB_START
+      ~PIMY.SUB_STATE
+      ~PIMY.attr_name
+      ~PIMY.component_names
+      ~PIMY.configuration_attrs
+      ~PIMY.connected
+      ~PIMY.dotted_name
+      ~PIMY.egu
+      ~PIMY.event_types
+      ~PIMY.high_limit
+      ~PIMY.hints
+      ~PIMY.in_states
+      ~PIMY.inserted
+      ~PIMY.kind
+      ~PIMY.lazy_wait_for_connection
+      ~PIMY.limits
+      ~PIMY.low_limit
+      ~PIMY.motor
+      ~PIMY.moving
+      ~PIMY.name
+      ~PIMY.out_states
+      ~PIMY.parent
+      ~PIMY.position
+      ~PIMY.read_attrs
+      ~PIMY.removed
+      ~PIMY.report
+      ~PIMY.root
+      ~PIMY.settle_time
+      ~PIMY.signal_names
+      ~PIMY.state
+      ~PIMY.states_list
+      ~PIMY.tab_whitelist
+      ~PIMY.timeout
+      ~PIMY.transmission
+      ~PIMY.trigger_signals
+   
+   

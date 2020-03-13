@@ -1,0 +1,6 @@
+pcdsdevices.lens.LensStackBase.read\_configuration
+==================================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: LensStackBase.read_configuration

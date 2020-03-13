@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithFocus.check\_value
+=========================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithFocus.check_value

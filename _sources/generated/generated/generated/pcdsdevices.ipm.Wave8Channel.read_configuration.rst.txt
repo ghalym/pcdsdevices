@@ -1,0 +1,6 @@
+pcdsdevices.ipm.Wave8Channel.read\_configuration
+================================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: Wave8Channel.read_configuration

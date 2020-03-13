@@ -1,0 +1,6 @@
+pcdsdevices.sensors.TwinCATThermocouple.walk\_components
+========================================================
+
+.. currentmodule:: pcdsdevices.sensors
+
+.. automethod:: TwinCATThermocouple.walk_components

@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.FeeFilter.add\_instantiation\_callback
+=============================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: FeeFilter.add_instantiation_callback

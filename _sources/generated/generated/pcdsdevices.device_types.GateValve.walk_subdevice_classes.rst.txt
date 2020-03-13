@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.GateValve.walk\_subdevice\_classes
+============================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: GateValve.walk_subdevice_classes

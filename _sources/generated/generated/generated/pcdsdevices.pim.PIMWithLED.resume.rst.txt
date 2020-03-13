@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithLED.resume
+=================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithLED.resume

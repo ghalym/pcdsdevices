@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMDiode.destroy
+================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMDiode.destroy

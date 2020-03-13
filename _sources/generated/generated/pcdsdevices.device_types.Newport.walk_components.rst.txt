@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Newport.walk\_components
+==================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Newport.walk_components

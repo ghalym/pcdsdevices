@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.GasAttenuator.describe\_configuration
+============================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: GasAttenuator.describe_configuration

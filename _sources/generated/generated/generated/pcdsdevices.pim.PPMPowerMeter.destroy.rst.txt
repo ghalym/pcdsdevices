@@ -1,0 +1,6 @@
+pcdsdevices.pim.PPMPowerMeter.destroy
+=====================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PPMPowerMeter.destroy

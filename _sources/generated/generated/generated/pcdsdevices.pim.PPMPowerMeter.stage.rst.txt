@@ -1,0 +1,6 @@
+pcdsdevices.pim.PPMPowerMeter.stage
+===================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PPMPowerMeter.stage

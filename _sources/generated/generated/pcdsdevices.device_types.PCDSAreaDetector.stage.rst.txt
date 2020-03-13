@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PCDSAreaDetector.stage
+================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PCDSAreaDetector.stage

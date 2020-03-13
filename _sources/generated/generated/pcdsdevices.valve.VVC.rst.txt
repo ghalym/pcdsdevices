@@ -1,0 +1,76 @@
+pcdsdevices.valve.VVC
+=====================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. autoclass:: VVC
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~VVC.__init__
+      ~VVC.add_instantiation_callback
+      ~VVC.check_value
+      ~VVC.clear_sub
+      ~VVC.configure
+      ~VVC.describe
+      ~VVC.describe_configuration
+      ~VVC.destroy
+      ~VVC.get
+      ~VVC.get_device_tuple
+      ~VVC.get_instantiated_signals
+      ~VVC.pause
+      ~VVC.put
+      ~VVC.read
+      ~VVC.read_configuration
+      ~VVC.resume
+      ~VVC.stage
+      ~VVC.stop
+      ~VVC.subscribe
+      ~VVC.summary
+      ~VVC.trigger
+      ~VVC.unstage
+      ~VVC.unsubscribe
+      ~VVC.unsubscribe_all
+      ~VVC.wait_for_connection
+      ~VVC.walk_components
+      ~VVC.walk_signals
+      ~VVC.walk_subdevice_classes
+      ~VVC.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~VVC.SUB_ACQ_DONE
+      ~VVC.attr_name
+      ~VVC.component_names
+      ~VVC.configuration_attrs
+      ~VVC.connected
+      ~VVC.dotted_name
+      ~VVC.event_types
+      ~VVC.hints
+      ~VVC.interlock_ok
+      ~VVC.kind
+      ~VVC.lazy_wait_for_connection
+      ~VVC.name
+      ~VVC.open_command
+      ~VVC.open_do
+      ~VVC.open_override
+      ~VVC.override_on
+      ~VVC.parent
+      ~VVC.read_attrs
+      ~VVC.report
+      ~VVC.root
+      ~VVC.signal_names
+      ~VVC.trigger_signals
+   
+   

@@ -1,0 +1,6 @@
+pcdsdevices.inout.TwinCATInOutPositioner.check\_value
+=====================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: TwinCATInOutPositioner.check_value

@@ -1,0 +1,6 @@
+pcdsdevices.sensors.RTD.\_\_init\_\_
+====================================
+
+.. currentmodule:: pcdsdevices.sensors
+
+.. automethod:: RTD.__init__

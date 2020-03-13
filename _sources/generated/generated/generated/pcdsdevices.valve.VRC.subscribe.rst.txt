@@ -1,0 +1,6 @@
+pcdsdevices.valve.VRC.subscribe
+===============================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VRC.subscribe

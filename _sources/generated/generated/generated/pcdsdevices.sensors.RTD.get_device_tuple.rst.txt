@@ -1,0 +1,6 @@
+pcdsdevices.sensors.RTD.get\_device\_tuple
+==========================================
+
+.. currentmodule:: pcdsdevices.sensors
+
+.. automethod:: RTD.get_device_tuple

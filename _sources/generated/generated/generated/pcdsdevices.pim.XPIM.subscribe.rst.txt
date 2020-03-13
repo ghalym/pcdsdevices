@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIM.subscribe
+==============================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIM.subscribe

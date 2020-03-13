@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Stopper.add\_instantiation\_callback
+==============================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Stopper.add_instantiation_callback

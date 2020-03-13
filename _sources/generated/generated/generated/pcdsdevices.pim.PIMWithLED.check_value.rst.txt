@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithLED.check\_value
+=======================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithLED.check_value

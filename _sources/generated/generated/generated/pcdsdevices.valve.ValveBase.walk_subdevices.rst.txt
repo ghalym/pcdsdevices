@@ -1,0 +1,6 @@
+pcdsdevices.valve.ValveBase.walk\_subdevices
+============================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: ValveBase.walk_subdevices

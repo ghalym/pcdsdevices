@@ -1,0 +1,102 @@
+pcdsdevices.device\_types.XFLS
+==============================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. autoclass:: XFLS
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~XFLS.__init__
+      ~XFLS.add_instantiation_callback
+      ~XFLS.camonitor
+      ~XFLS.check_value
+      ~XFLS.clear_sub
+      ~XFLS.configure
+      ~XFLS.describe
+      ~XFLS.describe_configuration
+      ~XFLS.destroy
+      ~XFLS.end_monitor_thread
+      ~XFLS.get
+      ~XFLS.get_device_tuple
+      ~XFLS.get_instantiated_signals
+      ~XFLS.get_state
+      ~XFLS.insert
+      ~XFLS.move
+      ~XFLS.mv
+      ~XFLS.pause
+      ~XFLS.put
+      ~XFLS.read
+      ~XFLS.read_configuration
+      ~XFLS.remove
+      ~XFLS.resume
+      ~XFLS.set
+      ~XFLS.stage
+      ~XFLS.stop
+      ~XFLS.subscribe
+      ~XFLS.summary
+      ~XFLS.trigger
+      ~XFLS.unstage
+      ~XFLS.unsubscribe
+      ~XFLS.unsubscribe_all
+      ~XFLS.wait_for_connection
+      ~XFLS.walk_components
+      ~XFLS.walk_signals
+      ~XFLS.walk_subdevice_classes
+      ~XFLS.walk_subdevices
+      ~XFLS.wm
+      ~XFLS.wm_update
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~XFLS.SUB_ACQ_DONE
+      ~XFLS.SUB_DONE
+      ~XFLS.SUB_READBACK
+      ~XFLS.SUB_START
+      ~XFLS.SUB_STATE
+      ~XFLS.attr_name
+      ~XFLS.component_names
+      ~XFLS.configuration_attrs
+      ~XFLS.connected
+      ~XFLS.dotted_name
+      ~XFLS.egu
+      ~XFLS.event_types
+      ~XFLS.high_limit
+      ~XFLS.hints
+      ~XFLS.in_states
+      ~XFLS.inserted
+      ~XFLS.kind
+      ~XFLS.lazy_wait_for_connection
+      ~XFLS.limits
+      ~XFLS.low_limit
+      ~XFLS.motor
+      ~XFLS.moving
+      ~XFLS.name
+      ~XFLS.out_states
+      ~XFLS.parent
+      ~XFLS.position
+      ~XFLS.read_attrs
+      ~XFLS.removed
+      ~XFLS.report
+      ~XFLS.root
+      ~XFLS.settle_time
+      ~XFLS.signal_names
+      ~XFLS.state
+      ~XFLS.states_list
+      ~XFLS.tab_whitelist
+      ~XFLS.timeout
+      ~XFLS.transmission
+      ~XFLS.trigger_signals
+   
+   

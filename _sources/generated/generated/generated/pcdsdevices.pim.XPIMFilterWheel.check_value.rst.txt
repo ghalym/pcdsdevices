@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMFilterWheel.check\_value
+============================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMFilterWheel.check_value

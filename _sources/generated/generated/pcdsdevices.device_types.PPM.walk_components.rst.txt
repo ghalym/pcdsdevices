@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PPM.walk\_components
+==============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PPM.walk_components

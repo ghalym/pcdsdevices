@@ -1,0 +1,108 @@
+pcdsdevices.inout.TwinCATInOutPositioner
+========================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. autoclass:: TwinCATInOutPositioner
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~TwinCATInOutPositioner.__init__
+      ~TwinCATInOutPositioner.add_instantiation_callback
+      ~TwinCATInOutPositioner.camonitor
+      ~TwinCATInOutPositioner.check_value
+      ~TwinCATInOutPositioner.clear_sub
+      ~TwinCATInOutPositioner.configure
+      ~TwinCATInOutPositioner.describe
+      ~TwinCATInOutPositioner.describe_configuration
+      ~TwinCATInOutPositioner.destroy
+      ~TwinCATInOutPositioner.end_monitor_thread
+      ~TwinCATInOutPositioner.get
+      ~TwinCATInOutPositioner.get_device_tuple
+      ~TwinCATInOutPositioner.get_instantiated_signals
+      ~TwinCATInOutPositioner.get_state
+      ~TwinCATInOutPositioner.insert
+      ~TwinCATInOutPositioner.move
+      ~TwinCATInOutPositioner.mv
+      ~TwinCATInOutPositioner.pause
+      ~TwinCATInOutPositioner.put
+      ~TwinCATInOutPositioner.read
+      ~TwinCATInOutPositioner.read_configuration
+      ~TwinCATInOutPositioner.remove
+      ~TwinCATInOutPositioner.resume
+      ~TwinCATInOutPositioner.set
+      ~TwinCATInOutPositioner.stage
+      ~TwinCATInOutPositioner.stop
+      ~TwinCATInOutPositioner.subscribe
+      ~TwinCATInOutPositioner.summary
+      ~TwinCATInOutPositioner.trigger
+      ~TwinCATInOutPositioner.unstage
+      ~TwinCATInOutPositioner.unsubscribe
+      ~TwinCATInOutPositioner.unsubscribe_all
+      ~TwinCATInOutPositioner.wait_for_connection
+      ~TwinCATInOutPositioner.walk_components
+      ~TwinCATInOutPositioner.walk_signals
+      ~TwinCATInOutPositioner.walk_subdevice_classes
+      ~TwinCATInOutPositioner.walk_subdevices
+      ~TwinCATInOutPositioner.wm
+      ~TwinCATInOutPositioner.wm_update
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~TwinCATInOutPositioner.SUB_ACQ_DONE
+      ~TwinCATInOutPositioner.SUB_DONE
+      ~TwinCATInOutPositioner.SUB_READBACK
+      ~TwinCATInOutPositioner.SUB_START
+      ~TwinCATInOutPositioner.SUB_STATE
+      ~TwinCATInOutPositioner.attr_name
+      ~TwinCATInOutPositioner.busy
+      ~TwinCATInOutPositioner.component_names
+      ~TwinCATInOutPositioner.config
+      ~TwinCATInOutPositioner.configuration_attrs
+      ~TwinCATInOutPositioner.connected
+      ~TwinCATInOutPositioner.done
+      ~TwinCATInOutPositioner.dotted_name
+      ~TwinCATInOutPositioner.egu
+      ~TwinCATInOutPositioner.error
+      ~TwinCATInOutPositioner.error_id
+      ~TwinCATInOutPositioner.error_message
+      ~TwinCATInOutPositioner.event_types
+      ~TwinCATInOutPositioner.high_limit
+      ~TwinCATInOutPositioner.hints
+      ~TwinCATInOutPositioner.in_states
+      ~TwinCATInOutPositioner.inserted
+      ~TwinCATInOutPositioner.kind
+      ~TwinCATInOutPositioner.lazy_wait_for_connection
+      ~TwinCATInOutPositioner.limits
+      ~TwinCATInOutPositioner.low_limit
+      ~TwinCATInOutPositioner.moving
+      ~TwinCATInOutPositioner.name
+      ~TwinCATInOutPositioner.out_states
+      ~TwinCATInOutPositioner.parent
+      ~TwinCATInOutPositioner.position
+      ~TwinCATInOutPositioner.read_attrs
+      ~TwinCATInOutPositioner.removed
+      ~TwinCATInOutPositioner.report
+      ~TwinCATInOutPositioner.reset_cmd
+      ~TwinCATInOutPositioner.root
+      ~TwinCATInOutPositioner.settle_time
+      ~TwinCATInOutPositioner.signal_names
+      ~TwinCATInOutPositioner.state
+      ~TwinCATInOutPositioner.states_list
+      ~TwinCATInOutPositioner.tab_whitelist
+      ~TwinCATInOutPositioner.timeout
+      ~TwinCATInOutPositioner.transmission
+      ~TwinCATInOutPositioner.trigger_signals
+   
+   
