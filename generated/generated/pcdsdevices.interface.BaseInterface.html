@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.interface.BaseInterface &mdash; PCDS Devices 2.4.0+15.gbeedd23 documentation</title>
+  <title>pcdsdevices.interface.BaseInterface &mdash; PCDS Devices 2.4.0+19.g03ef19b documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.4.0+15.gbeedd23
+                2.4.0+19.g03ef19b
               </div>
             
           
@@ -225,16 +225,16 @@
             
   <div class="section" id="pcdsdevices-interface-baseinterface">
 <h1>pcdsdevices.interface.BaseInterface<a class="headerlink" href="#pcdsdevices-interface-baseinterface" title="Permalink to this headline">¶</a></h1>
-<dl class="class">
+<dl class="py class">
 <dt id="pcdsdevices.interface.BaseInterface">
-<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.interface.</code><code class="sig-name descname">BaseInterface</code><span class="sig-paren">(</span><em class="sig-param">*</em>, <em class="sig-param">name=None</em>, <em class="sig-param">attr_name=''</em>, <em class="sig-param">parent=None</em>, <em class="sig-param">labels=None</em>, <em class="sig-param">kind=None</em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.interface.BaseInterface" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.interface.</code><code class="sig-name descname">BaseInterface</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">name</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">attr_name</span><span class="o">=</span><span class="default_value">''</span></em>, <em class="sig-param"><span class="n">parent</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">labels</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">kind</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.interface.BaseInterface" title="Permalink to this definition">¶</a></dt>
 <dd><p>Interface layer to attach to any Device for SLAC features.</p>
 <p>This class defines an API and some defaults for filtering tab-completion
 results for new users to avoid confusion. The API involves setting the
 tab_whitelist attribute on any subclass of BaseInterface. When in
 non-engineering mode, only elements on the whitelists will be displayed to
 the user.</p>
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="pcdsdevices.interface.BaseInterface.tab_whitelist">
 <code class="sig-name descname">tab_whitelist</code><a class="headerlink" href="#pcdsdevices.interface.BaseInterface.tab_whitelist" title="Permalink to this definition">¶</a></dt>
 <dd><p>list of string regex to show in autocomplete for non-engineering mode</p>

@@ -1,3 +1,5 @@
+./README.html
+./_sources/README.rst.txt
 ./_sources/api.rst.txt
 ./_sources/base_classes.rst.txt
 ./_sources/epics_types.rst.txt
