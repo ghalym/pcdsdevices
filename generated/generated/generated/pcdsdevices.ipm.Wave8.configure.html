@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ipm.Wave8.configure &mdash; PCDS Devices 2.4.0+19.g03ef19b documentation</title>
+  <title>pcdsdevices.ipm.Wave8.configure &mdash; PCDS Devices 2.4.0+54.gee106ac documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.4.0+19.g03ef19b
+                2.4.0+54.gee106ac
               </div>
             
           
@@ -110,6 +110,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.evr.html">pcdsdevices.evr</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.gon.html">pcdsdevices.gon</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.interface.html">pcdsdevices.interface</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.ipm.html">pcdsdevices.ipm</a><ul class="current">
@@ -125,6 +126,7 @@
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.ipm.Wave8.html">pcdsdevices.ipm.Wave8</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ipm.Wave8.__init__.html">pcdsdevices.ipm.Wave8.__init__</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ipm.Wave8.add_instantiation_callback.html">pcdsdevices.ipm.Wave8.add_instantiation_callback</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ipm.Wave8.apply_configuration.html">pcdsdevices.ipm.Wave8.apply_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ipm.Wave8.check_value.html">pcdsdevices.ipm.Wave8.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ipm.Wave8.clear_sub.html">pcdsdevices.ipm.Wave8.clear_sub</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.ipm.Wave8.configure</a></li>
@@ -158,6 +160,7 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.ipm.Wave8Channel.html">pcdsdevices.ipm.Wave8Channel</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.jet.html">pcdsdevices.jet</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.lodcm.html">pcdsdevices.lodcm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mirror.html">pcdsdevices.mirror</a></li>
@@ -174,6 +177,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.sim.html">pcdsdevices.sim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.slits.html">pcdsdevices.slits</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.state.html">pcdsdevices.state</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.timetool.html">pcdsdevices.timetool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.utils.html">pcdsdevices.utils</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.valve.html">pcdsdevices.valve</a></li>
 </ul>
@@ -252,7 +256,7 @@
 <h1>pcdsdevices.ipm.Wave8.configure<a class="headerlink" href="#pcdsdevices-ipm-wave8-configure" title="Permalink to this headline">¶</a></h1>
 <dl class="py method">
 <dt id="pcdsdevices.ipm.Wave8.configure">
-<code class="sig-prename descclassname">Wave8.</code><code class="sig-name descname">configure</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">d</span><span class="p">:</span> <span class="n">Dict<span class="p">[</span>str<span class="p">, </span>Any<span class="p">]</span></span></em><span class="sig-paren">)</span> &#x2192; Tuple<span class="p">[</span>Dict<span class="p">[</span>str<span class="p">, </span>Any<span class="p">]</span><span class="p">, </span>Dict<span class="p">[</span>str<span class="p">, </span>Any<span class="p">]</span><span class="p">]</span><a class="headerlink" href="#pcdsdevices.ipm.Wave8.configure" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">Wave8.</code><code class="sig-name descname">configure</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.ipm.Wave8.configure" title="Permalink to this definition">¶</a></dt>
 <dd><p>Configure the device for something during a run</p>
 <p>This default implementation allows the user to change any of the
 <code class="xref any docutils literal notranslate"><span class="pre">configuration_attrs</span></code>. Subclasses might override this to perform

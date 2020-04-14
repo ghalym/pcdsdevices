@@ -1,0 +1,6 @@
+pcdsdevices.gon.GonWithDetArm.clear\_sub
+========================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: GonWithDetArm.clear_sub

@@ -1,0 +1,6 @@
+pcdsdevices.lens.Prefocus.check\_value
+======================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: Prefocus.check_value

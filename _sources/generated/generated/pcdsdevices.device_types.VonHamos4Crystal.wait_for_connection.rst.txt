@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.VonHamos4Crystal.wait\_for\_connection
+================================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: VonHamos4Crystal.wait_for_connection

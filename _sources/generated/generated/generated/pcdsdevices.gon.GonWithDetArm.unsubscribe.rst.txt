@@ -1,0 +1,6 @@
+pcdsdevices.gon.GonWithDetArm.unsubscribe
+=========================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: GonWithDetArm.unsubscribe

@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.BeckhoffJet.pause
+===========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: BeckhoffJet.pause

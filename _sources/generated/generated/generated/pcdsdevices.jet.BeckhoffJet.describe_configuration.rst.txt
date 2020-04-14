@@ -1,0 +1,6 @@
+pcdsdevices.jet.BeckhoffJet.describe\_configuration
+===================================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: BeckhoffJet.describe_configuration

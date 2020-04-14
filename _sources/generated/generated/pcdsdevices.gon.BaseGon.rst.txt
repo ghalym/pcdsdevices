@@ -1,0 +1,78 @@
+pcdsdevices.gon.BaseGon
+=======================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. autoclass:: BaseGon
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~BaseGon.__init__
+      ~BaseGon.add_instantiation_callback
+      ~BaseGon.check_value
+      ~BaseGon.clear_sub
+      ~BaseGon.configure
+      ~BaseGon.describe
+      ~BaseGon.describe_configuration
+      ~BaseGon.destroy
+      ~BaseGon.get
+      ~BaseGon.get_device_tuple
+      ~BaseGon.get_instantiated_signals
+      ~BaseGon.pause
+      ~BaseGon.put
+      ~BaseGon.read
+      ~BaseGon.read_configuration
+      ~BaseGon.resume
+      ~BaseGon.stage
+      ~BaseGon.stop
+      ~BaseGon.subscribe
+      ~BaseGon.summary
+      ~BaseGon.trigger
+      ~BaseGon.unstage
+      ~BaseGon.unsubscribe
+      ~BaseGon.unsubscribe_all
+      ~BaseGon.wait_for_connection
+      ~BaseGon.walk_components
+      ~BaseGon.walk_signals
+      ~BaseGon.walk_subdevice_classes
+      ~BaseGon.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~BaseGon.SUB_ACQ_DONE
+      ~BaseGon.attr_name
+      ~BaseGon.component_names
+      ~BaseGon.configuration_attrs
+      ~BaseGon.connected
+      ~BaseGon.dotted_name
+      ~BaseGon.event_types
+      ~BaseGon.hints
+      ~BaseGon.hor
+      ~BaseGon.kind
+      ~BaseGon.lazy_wait_for_connection
+      ~BaseGon.name
+      ~BaseGon.parent
+      ~BaseGon.read_attrs
+      ~BaseGon.report
+      ~BaseGon.root
+      ~BaseGon.rot
+      ~BaseGon.signal_names
+      ~BaseGon.tab_component_names
+      ~BaseGon.tab_whitelist
+      ~BaseGon.tilt
+      ~BaseGon.tip
+      ~BaseGon.trigger_signals
+      ~BaseGon.ver
+   
+   

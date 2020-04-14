@@ -1,0 +1,6 @@
+pcdsdevices.timetool.TimeTool.trigger
+=====================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: TimeTool.trigger

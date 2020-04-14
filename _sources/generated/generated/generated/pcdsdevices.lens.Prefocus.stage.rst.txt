@@ -1,0 +1,6 @@
+pcdsdevices.lens.Prefocus.stage
+===============================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: Prefocus.stage

@@ -1,0 +1,6 @@
+pcdsdevices.inout.CombinedInOutRecordPositioner.wait\_for\_connection
+=====================================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: CombinedInOutRecordPositioner.wait_for_connection

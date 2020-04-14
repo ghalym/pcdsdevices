@@ -1,0 +1,6 @@
+pcdsdevices.inout.CombinedInOutRecordPositioner.walk\_subdevice\_classes
+========================================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: CombinedInOutRecordPositioner.walk_subdevice_classes

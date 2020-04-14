@@ -1,0 +1,6 @@
+pcdsdevices.gon.XYZStage.trigger
+================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: XYZStage.trigger

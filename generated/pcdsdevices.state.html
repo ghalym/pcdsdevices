@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.state &mdash; PCDS Devices 2.4.0+19.g03ef19b documentation</title>
+  <title>pcdsdevices.state &mdash; PCDS Devices 2.4.0+54.gee106ac documentation</title>
   
 
   
@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="pcdsdevices.state.PVStatePositioner" href="generated/pcdsdevices.state.PVStatePositioner.html" />
+    <link rel="next" title="pcdsdevices.state.CombinedStateRecordPositioner" href="generated/pcdsdevices.state.CombinedStateRecordPositioner.html" />
     <link rel="prev" title="pcdsdevices.slits.Slits.wm_update" href="generated/generated/pcdsdevices.slits.Slits.wm_update.html" /> 
 </head>
 
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.4.0+19.g03ef19b
+                2.4.0+54.gee106ac
               </div>
             
           
@@ -110,9 +110,11 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.evr.html">pcdsdevices.evr</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.gon.html">pcdsdevices.gon</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.inout.html">pcdsdevices.inout</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.interface.html">pcdsdevices.interface</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.jet.html">pcdsdevices.jet</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.lens.html">pcdsdevices.lens</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.lodcm.html">pcdsdevices.lodcm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.mirror.html">pcdsdevices.mirror</a></li>
@@ -129,16 +131,19 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.sim.html">pcdsdevices.sim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.slits.html">pcdsdevices.slits</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">pcdsdevices.state</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.state.CombinedStateRecordPositioner.html">pcdsdevices.state.CombinedStateRecordPositioner</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.state.PVStatePositioner.html">pcdsdevices.state.PVStatePositioner</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.state.PVStateSignal.html">pcdsdevices.state.PVStateSignal</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.html">pcdsdevices.state.StatePositioner</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositioner.html">pcdsdevices.state.StateRecordPositioner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.html">pcdsdevices.state.StateRecordPositionerBase</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.html">pcdsdevices.state.StateStatus</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.state.TwinCATStateConfigAll.html">pcdsdevices.state.TwinCATStateConfigAll</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.state.TwinCATStateConfigOne.html">pcdsdevices.state.TwinCATStateConfigOne</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.state.TwinCATStatePositioner.html">pcdsdevices.state.TwinCATStatePositioner</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.timetool.html">pcdsdevices.timetool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.utils.html">pcdsdevices.utils</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.valve.html">pcdsdevices.valve</a></li>
 </ul>
@@ -219,16 +224,22 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.PVStatePositioner.html#pcdsdevices.state.PVStatePositioner" title="pcdsdevices.state.PVStatePositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PVStatePositioner</span></code></a>(prefix, *, name, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.CombinedStateRecordPositioner.html#pcdsdevices.state.CombinedStateRecordPositioner" title="pcdsdevices.state.CombinedStateRecordPositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CombinedStateRecordPositioner</span></code></a>(prefix, *, …)</p></td>
+<td><p>A <a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.html#pcdsdevices.state.StatePositioner" title="pcdsdevices.state.StatePositioner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">StatePositioner</span></code></a> for an EPICS states record associated with an X/Y combined state positioner.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.PVStatePositioner.html#pcdsdevices.state.PVStatePositioner" title="pcdsdevices.state.PVStatePositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PVStatePositioner</span></code></a>(prefix, *, name, **kwargs)</p></td>
 <td><p>A <a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.html#pcdsdevices.state.StatePositioner" title="pcdsdevices.state.StatePositioner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">StatePositioner</span></code></a> that combines a set of PVs into a single state.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.PVStateSignal.html#pcdsdevices.state.PVStateSignal" title="pcdsdevices.state.PVStateSignal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PVStateSignal</span></code></a>(*, name, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.PVStateSignal.html#pcdsdevices.state.PVStateSignal" title="pcdsdevices.state.PVStateSignal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PVStateSignal</span></code></a>(*, name, **kwargs)</p></td>
 <td><p>Signal that implements the <a class="reference internal" href="generated/pcdsdevices.state.PVStatePositioner.html#pcdsdevices.state.PVStatePositioner" title="pcdsdevices.state.PVStatePositioner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PVStatePositioner</span></code></a> state logic.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.html#pcdsdevices.state.StatePositioner" title="pcdsdevices.state.StatePositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatePositioner</span></code></a>(prefix, *, name, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.html#pcdsdevices.state.StatePositioner" title="pcdsdevices.state.StatePositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatePositioner</span></code></a>(prefix, *, name, **kwargs)</p></td>
 <td><p>Base class for a <code class="docutils literal notranslate"><span class="pre">Positioner</span></code> that moves between discrete states rather than along a continuout axis.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositioner.html#pcdsdevices.state.StateRecordPositioner" title="pcdsdevices.state.StateRecordPositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StateRecordPositioner</span></code></a>(prefix, *, name, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositioner.html#pcdsdevices.state.StateRecordPositioner" title="pcdsdevices.state.StateRecordPositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StateRecordPositioner</span></code></a>(prefix, *, name, **kwargs)</p></td>
+<td><p>A <a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.html#pcdsdevices.state.StatePositioner" title="pcdsdevices.state.StatePositioner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">StatePositioner</span></code></a> for an EPICS states record.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.html#pcdsdevices.state.StateRecordPositionerBase" title="pcdsdevices.state.StateRecordPositionerBase"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StateRecordPositionerBase</span></code></a>(prefix, *, name, …)</p></td>
 <td><p>A <a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.html#pcdsdevices.state.StatePositioner" title="pcdsdevices.state.StatePositioner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">StatePositioner</span></code></a> for an EPICS states record.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.html#pcdsdevices.state.StateStatus" title="pcdsdevices.state.StateStatus"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StateStatus</span></code></a>(device, desired_state[, …])</p></td>
@@ -255,7 +266,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="generated/pcdsdevices.state.PVStatePositioner.html" class="btn btn-neutral float-right" title="pcdsdevices.state.PVStatePositioner" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="generated/pcdsdevices.state.CombinedStateRecordPositioner.html" class="btn btn-neutral float-right" title="pcdsdevices.state.CombinedStateRecordPositioner" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="generated/generated/pcdsdevices.slits.Slits.wm_update.html" class="btn btn-neutral float-left" title="pcdsdevices.slits.Slits.wm_update" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

@@ -1,0 +1,6 @@
+pcdsdevices.timetool.TimeToolWithNav.clear\_sub
+===============================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: TimeToolWithNav.clear_sub

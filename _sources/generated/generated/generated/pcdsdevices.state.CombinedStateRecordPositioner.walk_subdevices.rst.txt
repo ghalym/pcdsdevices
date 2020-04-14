@@ -1,0 +1,6 @@
+pcdsdevices.state.CombinedStateRecordPositioner.walk\_subdevices
+================================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: CombinedStateRecordPositioner.walk_subdevices

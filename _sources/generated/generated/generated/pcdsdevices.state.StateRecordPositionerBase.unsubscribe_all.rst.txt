@@ -1,0 +1,6 @@
+pcdsdevices.state.StateRecordPositionerBase.unsubscribe\_all
+============================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: StateRecordPositionerBase.unsubscribe_all

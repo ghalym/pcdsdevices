@@ -1,0 +1,77 @@
+pcdsdevices.jet.BeckhoffJetSlits
+================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. autoclass:: BeckhoffJetSlits
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~BeckhoffJetSlits.__init__
+      ~BeckhoffJetSlits.add_instantiation_callback
+      ~BeckhoffJetSlits.check_value
+      ~BeckhoffJetSlits.clear_sub
+      ~BeckhoffJetSlits.configure
+      ~BeckhoffJetSlits.describe
+      ~BeckhoffJetSlits.describe_configuration
+      ~BeckhoffJetSlits.destroy
+      ~BeckhoffJetSlits.get
+      ~BeckhoffJetSlits.get_device_tuple
+      ~BeckhoffJetSlits.get_instantiated_signals
+      ~BeckhoffJetSlits.pause
+      ~BeckhoffJetSlits.put
+      ~BeckhoffJetSlits.read
+      ~BeckhoffJetSlits.read_configuration
+      ~BeckhoffJetSlits.resume
+      ~BeckhoffJetSlits.stage
+      ~BeckhoffJetSlits.stop
+      ~BeckhoffJetSlits.subscribe
+      ~BeckhoffJetSlits.summary
+      ~BeckhoffJetSlits.trigger
+      ~BeckhoffJetSlits.unstage
+      ~BeckhoffJetSlits.unsubscribe
+      ~BeckhoffJetSlits.unsubscribe_all
+      ~BeckhoffJetSlits.wait_for_connection
+      ~BeckhoffJetSlits.walk_components
+      ~BeckhoffJetSlits.walk_signals
+      ~BeckhoffJetSlits.walk_subdevice_classes
+      ~BeckhoffJetSlits.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~BeckhoffJetSlits.SUB_ACQ_DONE
+      ~BeckhoffJetSlits.attr_name
+      ~BeckhoffJetSlits.bot_x
+      ~BeckhoffJetSlits.bot_y
+      ~BeckhoffJetSlits.component_names
+      ~BeckhoffJetSlits.configuration_attrs
+      ~BeckhoffJetSlits.connected
+      ~BeckhoffJetSlits.dotted_name
+      ~BeckhoffJetSlits.event_types
+      ~BeckhoffJetSlits.hints
+      ~BeckhoffJetSlits.kind
+      ~BeckhoffJetSlits.lazy_wait_for_connection
+      ~BeckhoffJetSlits.name
+      ~BeckhoffJetSlits.parent
+      ~BeckhoffJetSlits.read_attrs
+      ~BeckhoffJetSlits.report
+      ~BeckhoffJetSlits.root
+      ~BeckhoffJetSlits.signal_names
+      ~BeckhoffJetSlits.tab_component_names
+      ~BeckhoffJetSlits.tab_whitelist
+      ~BeckhoffJetSlits.top_x
+      ~BeckhoffJetSlits.top_y
+      ~BeckhoffJetSlits.trigger_signals
+   
+   

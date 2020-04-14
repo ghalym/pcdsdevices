@@ -1,0 +1,6 @@
+pcdsdevices.gon.GonWithDetArm.unstage
+=====================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: GonWithDetArm.unstage

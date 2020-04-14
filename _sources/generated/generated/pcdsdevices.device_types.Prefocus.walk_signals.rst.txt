@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Prefocus.walk\_signals
+================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Prefocus.walk_signals

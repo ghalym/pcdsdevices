@@ -1,0 +1,6 @@
+pcdsdevices.gon.XYZStage.wait\_for\_connection
+==============================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: XYZStage.wait_for_connection

@@ -1,0 +1,6 @@
+pcdsdevices.jet.BeckhoffJetSlits.get
+====================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: BeckhoffJetSlits.get

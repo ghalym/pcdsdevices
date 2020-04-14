@@ -1,0 +1,81 @@
+pcdsdevices.gon.GonWithDetArm
+=============================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. autoclass:: GonWithDetArm
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~GonWithDetArm.__init__
+      ~GonWithDetArm.add_instantiation_callback
+      ~GonWithDetArm.check_value
+      ~GonWithDetArm.clear_sub
+      ~GonWithDetArm.configure
+      ~GonWithDetArm.describe
+      ~GonWithDetArm.describe_configuration
+      ~GonWithDetArm.destroy
+      ~GonWithDetArm.get
+      ~GonWithDetArm.get_device_tuple
+      ~GonWithDetArm.get_instantiated_signals
+      ~GonWithDetArm.pause
+      ~GonWithDetArm.put
+      ~GonWithDetArm.read
+      ~GonWithDetArm.read_configuration
+      ~GonWithDetArm.resume
+      ~GonWithDetArm.stage
+      ~GonWithDetArm.stop
+      ~GonWithDetArm.subscribe
+      ~GonWithDetArm.summary
+      ~GonWithDetArm.trigger
+      ~GonWithDetArm.unstage
+      ~GonWithDetArm.unsubscribe
+      ~GonWithDetArm.unsubscribe_all
+      ~GonWithDetArm.wait_for_connection
+      ~GonWithDetArm.walk_components
+      ~GonWithDetArm.walk_signals
+      ~GonWithDetArm.walk_subdevice_classes
+      ~GonWithDetArm.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~GonWithDetArm.SUB_ACQ_DONE
+      ~GonWithDetArm.attr_name
+      ~GonWithDetArm.component_names
+      ~GonWithDetArm.configuration_attrs
+      ~GonWithDetArm.connected
+      ~GonWithDetArm.det_tilt
+      ~GonWithDetArm.det_ver
+      ~GonWithDetArm.dotted_name
+      ~GonWithDetArm.event_types
+      ~GonWithDetArm.hints
+      ~GonWithDetArm.hor
+      ~GonWithDetArm.kind
+      ~GonWithDetArm.lazy_wait_for_connection
+      ~GonWithDetArm.name
+      ~GonWithDetArm.parent
+      ~GonWithDetArm.read_attrs
+      ~GonWithDetArm.report
+      ~GonWithDetArm.root
+      ~GonWithDetArm.rot
+      ~GonWithDetArm.rot_2theta
+      ~GonWithDetArm.signal_names
+      ~GonWithDetArm.tab_component_names
+      ~GonWithDetArm.tab_whitelist
+      ~GonWithDetArm.tilt
+      ~GonWithDetArm.tip
+      ~GonWithDetArm.trigger_signals
+      ~GonWithDetArm.ver
+   
+   

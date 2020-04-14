@@ -1,0 +1,6 @@
+pcdsdevices.gon.GonWithDetArm.wait\_for\_connection
+===================================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: GonWithDetArm.wait_for_connection

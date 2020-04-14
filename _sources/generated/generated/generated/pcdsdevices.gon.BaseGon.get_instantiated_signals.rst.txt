@@ -1,0 +1,6 @@
+pcdsdevices.gon.BaseGon.get\_instantiated\_signals
+==================================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: BaseGon.get_instantiated_signals

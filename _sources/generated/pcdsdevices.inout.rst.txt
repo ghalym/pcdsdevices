@@ -14,6 +14,7 @@ pcdsdevices.inout
    .. autosummary::
       :toctree: generated
    
+      CombinedInOutRecordPositioner
       InOutPVStatePositioner
       InOutPositioner
       InOutRecordPositioner

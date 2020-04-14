@@ -1,0 +1,6 @@
+pcdsdevices.gon.BaseGon.subscribe
+=================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: BaseGon.subscribe

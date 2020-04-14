@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Prefocus.walk\_subdevice\_classes
+===========================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Prefocus.walk_subdevice_classes

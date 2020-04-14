@@ -69,6 +69,8 @@ pcdsdevices.ipm.Wave8Channel
       ~Wave8Channel.report
       ~Wave8Channel.root
       ~Wave8Channel.signal_names
+      ~Wave8Channel.tab_component_names
+      ~Wave8Channel.tab_whitelist
       ~Wave8Channel.tpos
       ~Wave8Channel.trigger_signals
    

@@ -14,10 +14,12 @@ pcdsdevices.state
    .. autosummary::
       :toctree: generated
    
+      CombinedStateRecordPositioner
       PVStatePositioner
       PVStateSignal
       StatePositioner
       StateRecordPositioner
+      StateRecordPositionerBase
       StateStatus
       TwinCATStateConfigAll
       TwinCATStateConfigOne

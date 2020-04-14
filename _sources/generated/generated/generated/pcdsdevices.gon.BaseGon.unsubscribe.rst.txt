@@ -1,0 +1,6 @@
+pcdsdevices.gon.BaseGon.unsubscribe
+===================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: BaseGon.unsubscribe

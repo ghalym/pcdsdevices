@@ -1,0 +1,6 @@
+pcdsdevices.gon.GonWithDetArm.get\_instantiated\_signals
+========================================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: GonWithDetArm.get_instantiated_signals

@@ -1,0 +1,106 @@
+pcdsdevices.timetool.TimeToolWithNav
+====================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. autoclass:: TimeToolWithNav
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~TimeToolWithNav.__init__
+      ~TimeToolWithNav.add_instantiation_callback
+      ~TimeToolWithNav.camonitor
+      ~TimeToolWithNav.check_value
+      ~TimeToolWithNav.clear_sub
+      ~TimeToolWithNav.configure
+      ~TimeToolWithNav.describe
+      ~TimeToolWithNav.describe_configuration
+      ~TimeToolWithNav.destroy
+      ~TimeToolWithNav.end_monitor_thread
+      ~TimeToolWithNav.get
+      ~TimeToolWithNav.get_device_tuple
+      ~TimeToolWithNav.get_instantiated_signals
+      ~TimeToolWithNav.get_state
+      ~TimeToolWithNav.insert
+      ~TimeToolWithNav.move
+      ~TimeToolWithNav.mv
+      ~TimeToolWithNav.pause
+      ~TimeToolWithNav.put
+      ~TimeToolWithNav.read
+      ~TimeToolWithNav.read_configuration
+      ~TimeToolWithNav.remove
+      ~TimeToolWithNav.resume
+      ~TimeToolWithNav.set
+      ~TimeToolWithNav.stage
+      ~TimeToolWithNav.stop
+      ~TimeToolWithNav.subscribe
+      ~TimeToolWithNav.summary
+      ~TimeToolWithNav.trigger
+      ~TimeToolWithNav.unstage
+      ~TimeToolWithNav.unsubscribe
+      ~TimeToolWithNav.unsubscribe_all
+      ~TimeToolWithNav.wait_for_connection
+      ~TimeToolWithNav.walk_components
+      ~TimeToolWithNav.walk_signals
+      ~TimeToolWithNav.walk_subdevice_classes
+      ~TimeToolWithNav.walk_subdevices
+      ~TimeToolWithNav.wm
+      ~TimeToolWithNav.wm_update
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~TimeToolWithNav.SUB_ACQ_DONE
+      ~TimeToolWithNav.SUB_DONE
+      ~TimeToolWithNav.SUB_READBACK
+      ~TimeToolWithNav.SUB_START
+      ~TimeToolWithNav.SUB_STATE
+      ~TimeToolWithNav.attr_name
+      ~TimeToolWithNav.component_names
+      ~TimeToolWithNav.configuration_attrs
+      ~TimeToolWithNav.connected
+      ~TimeToolWithNav.detector
+      ~TimeToolWithNav.dotted_name
+      ~TimeToolWithNav.egu
+      ~TimeToolWithNav.event_types
+      ~TimeToolWithNav.focus_motor
+      ~TimeToolWithNav.high_limit
+      ~TimeToolWithNav.hints
+      ~TimeToolWithNav.in_states
+      ~TimeToolWithNav.inserted
+      ~TimeToolWithNav.kind
+      ~TimeToolWithNav.lazy_wait_for_connection
+      ~TimeToolWithNav.limits
+      ~TimeToolWithNav.low_limit
+      ~TimeToolWithNav.moving
+      ~TimeToolWithNav.name
+      ~TimeToolWithNav.out_states
+      ~TimeToolWithNav.parent
+      ~TimeToolWithNav.position
+      ~TimeToolWithNav.read_attrs
+      ~TimeToolWithNav.removed
+      ~TimeToolWithNav.report
+      ~TimeToolWithNav.root
+      ~TimeToolWithNav.settle_time
+      ~TimeToolWithNav.signal_names
+      ~TimeToolWithNav.state
+      ~TimeToolWithNav.states_list
+      ~TimeToolWithNav.tab_whitelist
+      ~TimeToolWithNav.timeout
+      ~TimeToolWithNav.transmission
+      ~TimeToolWithNav.trigger_signals
+      ~TimeToolWithNav.x_motor
+      ~TimeToolWithNav.y_motor
+      ~TimeToolWithNav.zoom_motor
+   
+   

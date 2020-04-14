@@ -1,0 +1,6 @@
+pcdsdevices.timetool.TimeToolWithNav.stage
+==========================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: TimeToolWithNav.stage

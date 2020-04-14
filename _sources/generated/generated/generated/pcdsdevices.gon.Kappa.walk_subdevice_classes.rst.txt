@@ -1,0 +1,6 @@
+pcdsdevices.gon.Kappa.walk\_subdevice\_classes
+==============================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: Kappa.walk_subdevice_classes

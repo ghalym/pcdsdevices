@@ -1,0 +1,6 @@
+pcdsdevices.inout.CombinedInOutRecordPositioner.pause
+=====================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: CombinedInOutRecordPositioner.pause

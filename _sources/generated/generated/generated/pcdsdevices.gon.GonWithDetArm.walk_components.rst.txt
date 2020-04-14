@@ -1,0 +1,6 @@
+pcdsdevices.gon.GonWithDetArm.walk\_components
+==============================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: GonWithDetArm.walk_components

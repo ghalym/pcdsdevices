@@ -1,0 +1,6 @@
+pcdsdevices.inout.CombinedInOutRecordPositioner.get\_device\_tuple
+==================================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: CombinedInOutRecordPositioner.get_device_tuple

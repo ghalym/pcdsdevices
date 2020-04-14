@@ -1,0 +1,6 @@
+pcdsdevices.gon.BaseGon.walk\_signals
+=====================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: BaseGon.walk_signals

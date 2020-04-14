@@ -1,0 +1,6 @@
+pcdsdevices.state.StateRecordPositionerBase.read\_configuration
+===============================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: StateRecordPositionerBase.read_configuration

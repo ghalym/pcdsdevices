@@ -1,0 +1,6 @@
+pcdsdevices.inout.CombinedInOutRecordPositioner.get\_instantiated\_signals
+==========================================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: CombinedInOutRecordPositioner.get_instantiated_signals

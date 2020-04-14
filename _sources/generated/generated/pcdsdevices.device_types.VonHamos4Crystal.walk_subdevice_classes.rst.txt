@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.VonHamos4Crystal.walk\_subdevice\_classes
+===================================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: VonHamos4Crystal.walk_subdevice_classes

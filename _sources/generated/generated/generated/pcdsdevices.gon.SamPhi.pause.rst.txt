@@ -1,0 +1,6 @@
+pcdsdevices.gon.SamPhi.pause
+============================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: SamPhi.pause

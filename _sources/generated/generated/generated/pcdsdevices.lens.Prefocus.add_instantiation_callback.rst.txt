@@ -1,0 +1,6 @@
+pcdsdevices.lens.Prefocus.add\_instantiation\_callback
+======================================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: Prefocus.add_instantiation_callback

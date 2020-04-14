@@ -1,0 +1,6 @@
+pcdsdevices.jet.BeckhoffJet.get\_device\_tuple
+==============================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: BeckhoffJet.get_device_tuple

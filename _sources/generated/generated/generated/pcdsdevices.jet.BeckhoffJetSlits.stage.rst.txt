@@ -1,0 +1,6 @@
+pcdsdevices.jet.BeckhoffJetSlits.stage
+======================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: BeckhoffJetSlits.stage

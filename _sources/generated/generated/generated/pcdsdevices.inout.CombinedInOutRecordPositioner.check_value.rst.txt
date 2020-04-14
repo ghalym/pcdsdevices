@@ -1,0 +1,6 @@
+pcdsdevices.inout.CombinedInOutRecordPositioner.check\_value
+============================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: CombinedInOutRecordPositioner.check_value

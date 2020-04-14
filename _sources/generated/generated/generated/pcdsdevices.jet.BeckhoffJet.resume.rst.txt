@@ -1,0 +1,6 @@
+pcdsdevices.jet.BeckhoffJet.resume
+==================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: BeckhoffJet.resume

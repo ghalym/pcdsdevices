@@ -1,0 +1,6 @@
+pcdsdevices.timetool.TimeToolWithNav.unsubscribe\_all
+=====================================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: TimeToolWithNav.unsubscribe_all

@@ -1,0 +1,6 @@
+pcdsdevices.gon.GonWithDetArm.describe\_configuration
+=====================================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: GonWithDetArm.describe_configuration

@@ -1,0 +1,6 @@
+pcdsdevices.jet.BeckhoffJetManipulator.check\_value
+===================================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: BeckhoffJetManipulator.check_value

@@ -1,0 +1,6 @@
+pcdsdevices.lens.Prefocus.unsubscribe\_all
+==========================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: Prefocus.unsubscribe_all

@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.BeckhoffJet.unsubscribe\_all
+======================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: BeckhoffJet.unsubscribe_all

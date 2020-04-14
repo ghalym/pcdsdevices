@@ -1,0 +1,6 @@
+pcdsdevices.gon.Kappa.get\_instantiated\_signals
+================================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: Kappa.get_instantiated_signals

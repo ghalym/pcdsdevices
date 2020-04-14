@@ -1,0 +1,6 @@
+pcdsdevices.gon.XYZStage.describe\_configuration
+================================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: XYZStage.describe_configuration

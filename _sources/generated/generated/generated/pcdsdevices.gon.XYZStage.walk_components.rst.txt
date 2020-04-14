@@ -1,0 +1,6 @@
+pcdsdevices.gon.XYZStage.walk\_components
+=========================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: XYZStage.walk_components

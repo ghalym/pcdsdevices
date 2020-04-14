@@ -1,0 +1,6 @@
+pcdsdevices.gon.Kappa.get\_device\_tuple
+========================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: Kappa.get_device_tuple

@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Prefocus.stage
+========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Prefocus.stage

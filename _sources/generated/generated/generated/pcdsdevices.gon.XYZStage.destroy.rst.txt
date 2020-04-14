@@ -1,0 +1,6 @@
+pcdsdevices.gon.XYZStage.destroy
+================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: XYZStage.destroy

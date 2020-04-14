@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Full API &mdash; PCDS Devices 2.4.0+19.g03ef19b documentation</title>
+  <title>Full API &mdash; PCDS Devices 2.4.0+54.gee106ac documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.4.0+19.g03ef19b
+                2.4.0+54.gee106ac
               </div>
             
           
@@ -110,9 +110,11 @@
 <li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.evr.html">pcdsdevices.evr</a></li>
 <li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.gon.html">pcdsdevices.gon</a></li>
 <li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.inout.html">pcdsdevices.inout</a></li>
 <li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.interface.html">pcdsdevices.interface</a></li>
 <li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.jet.html">pcdsdevices.jet</a></li>
 <li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.lens.html">pcdsdevices.lens</a></li>
 <li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.lodcm.html">pcdsdevices.lodcm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.mirror.html">pcdsdevices.mirror</a></li>
@@ -129,6 +131,7 @@
 <li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.sim.html">pcdsdevices.sim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.slits.html">pcdsdevices.slits</a></li>
 <li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.state.html">pcdsdevices.state</a></li>
+<li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.timetool.html">pcdsdevices.timetool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.utils.html">pcdsdevices.utils</a></li>
 <li class="toctree-l2"><a class="reference internal" href="generated/pcdsdevices.valve.html">pcdsdevices.valve</a></li>
 </ul>
@@ -235,17 +238,23 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.html#module-pcdsdevices.gauge" title="pcdsdevices.gauge"><code class="xref py py-obj docutils literal notranslate"><span class="pre">gauge</span></code></a></p></td>
 <td><p>Standard classes for LCLS Gauges</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.html#module-pcdsdevices.inout" title="pcdsdevices.inout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">inout</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.html#module-pcdsdevices.gon" title="pcdsdevices.gon"><code class="xref py py-obj docutils literal notranslate"><span class="pre">gon</span></code></a></p></td>
+<td><p>Module for goniometers and sample stages used with them</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.html#module-pcdsdevices.inout" title="pcdsdevices.inout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">inout</span></code></a></p></td>
 <td><p>Module to centralize code related to devices that can be <code class="docutils literal notranslate"><span class="pre">IN</span></code> or <code class="docutils literal notranslate"><span class="pre">OUT</span></code>.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.html#module-pcdsdevices.interface" title="pcdsdevices.interface"><code class="xref py py-obj docutils literal notranslate"><span class="pre">interface</span></code></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.html#module-pcdsdevices.interface" title="pcdsdevices.interface"><code class="xref py py-obj docutils literal notranslate"><span class="pre">interface</span></code></a></p></td>
 <td><p>Module for defining bell-and-whistles movement features</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.html#module-pcdsdevices.ipm" title="pcdsdevices.ipm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ipm</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.html#module-pcdsdevices.ipm" title="pcdsdevices.ipm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ipm</span></code></a></p></td>
 <td><p>Module for the <a class="reference internal" href="generated/generated/pcdsdevices.ipm.IPM.html#pcdsdevices.ipm.IPM" title="pcdsdevices.ipm.IPM"><code class="xref any py py-func docutils literal notranslate"><span class="pre">IPM</span></code></a> intensity position monitor class</p></td>
 </tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.jet.html#module-pcdsdevices.jet" title="pcdsdevices.jet"><code class="xref py py-obj docutils literal notranslate"><span class="pre">jet</span></code></a></p></td>
+<td><p>Module for the liquid jet classes</p></td>
+</tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.html#module-pcdsdevices.lens" title="pcdsdevices.lens"><code class="xref py py-obj docutils literal notranslate"><span class="pre">lens</span></code></a></p></td>
-<td><p>Basic Beryllium Lens XFLS</p></td>
+<td><p>Module for Beryllium Lens positioners</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.html#module-pcdsdevices.lodcm" title="pcdsdevices.lodcm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">lodcm</span></code></a></p></td>
 <td><p>LODCM: Large offset dual-crystal monochrometer.</p></td>
@@ -292,10 +301,13 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.html#module-pcdsdevices.state" title="pcdsdevices.state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">state</span></code></a></p></td>
 <td><p>Module to define positioners that move between discrete named states.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.utils.html#module-pcdsdevices.utils" title="pcdsdevices.utils"><code class="xref py py-obj docutils literal notranslate"><span class="pre">utils</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.timetool.html#module-pcdsdevices.timetool" title="pcdsdevices.timetool"><code class="xref py py-obj docutils literal notranslate"><span class="pre">timetool</span></code></a></p></td>
+<td><p>Module for Timetool classes</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.utils.html#module-pcdsdevices.utils" title="pcdsdevices.utils"><code class="xref py py-obj docutils literal notranslate"><span class="pre">utils</span></code></a></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.html#module-pcdsdevices.valve" title="pcdsdevices.valve"><code class="xref py py-obj docutils literal notranslate"><span class="pre">valve</span></code></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.html#module-pcdsdevices.valve" title="pcdsdevices.valve"><code class="xref py py-obj docutils literal notranslate"><span class="pre">valve</span></code></a></p></td>
 <td><p>Standard classes for LCLS Gate Valves</p></td>
 </tr>
 </tbody>

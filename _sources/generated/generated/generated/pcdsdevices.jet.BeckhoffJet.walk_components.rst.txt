@@ -1,0 +1,6 @@
+pcdsdevices.jet.BeckhoffJet.walk\_components
+============================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: BeckhoffJet.walk_components

@@ -1,0 +1,94 @@
+pcdsdevices.state.StateRecordPositionerBase
+===========================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. autoclass:: StateRecordPositionerBase
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~StateRecordPositionerBase.__init__
+      ~StateRecordPositionerBase.add_instantiation_callback
+      ~StateRecordPositionerBase.camonitor
+      ~StateRecordPositionerBase.check_value
+      ~StateRecordPositionerBase.clear_sub
+      ~StateRecordPositionerBase.configure
+      ~StateRecordPositionerBase.describe
+      ~StateRecordPositionerBase.describe_configuration
+      ~StateRecordPositionerBase.destroy
+      ~StateRecordPositionerBase.end_monitor_thread
+      ~StateRecordPositionerBase.get
+      ~StateRecordPositionerBase.get_device_tuple
+      ~StateRecordPositionerBase.get_instantiated_signals
+      ~StateRecordPositionerBase.get_state
+      ~StateRecordPositionerBase.move
+      ~StateRecordPositionerBase.mv
+      ~StateRecordPositionerBase.pause
+      ~StateRecordPositionerBase.put
+      ~StateRecordPositionerBase.read
+      ~StateRecordPositionerBase.read_configuration
+      ~StateRecordPositionerBase.resume
+      ~StateRecordPositionerBase.set
+      ~StateRecordPositionerBase.stage
+      ~StateRecordPositionerBase.stop
+      ~StateRecordPositionerBase.subscribe
+      ~StateRecordPositionerBase.summary
+      ~StateRecordPositionerBase.trigger
+      ~StateRecordPositionerBase.unstage
+      ~StateRecordPositionerBase.unsubscribe
+      ~StateRecordPositionerBase.unsubscribe_all
+      ~StateRecordPositionerBase.wait_for_connection
+      ~StateRecordPositionerBase.walk_components
+      ~StateRecordPositionerBase.walk_signals
+      ~StateRecordPositionerBase.walk_subdevice_classes
+      ~StateRecordPositionerBase.walk_subdevices
+      ~StateRecordPositionerBase.wm
+      ~StateRecordPositionerBase.wm_update
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~StateRecordPositionerBase.SUB_ACQ_DONE
+      ~StateRecordPositionerBase.SUB_DONE
+      ~StateRecordPositionerBase.SUB_READBACK
+      ~StateRecordPositionerBase.SUB_START
+      ~StateRecordPositionerBase.SUB_STATE
+      ~StateRecordPositionerBase.attr_name
+      ~StateRecordPositionerBase.component_names
+      ~StateRecordPositionerBase.configuration_attrs
+      ~StateRecordPositionerBase.connected
+      ~StateRecordPositionerBase.dotted_name
+      ~StateRecordPositionerBase.egu
+      ~StateRecordPositionerBase.event_types
+      ~StateRecordPositionerBase.high_limit
+      ~StateRecordPositionerBase.hints
+      ~StateRecordPositionerBase.kind
+      ~StateRecordPositionerBase.lazy_wait_for_connection
+      ~StateRecordPositionerBase.limits
+      ~StateRecordPositionerBase.low_limit
+      ~StateRecordPositionerBase.moving
+      ~StateRecordPositionerBase.name
+      ~StateRecordPositionerBase.parent
+      ~StateRecordPositionerBase.position
+      ~StateRecordPositionerBase.read_attrs
+      ~StateRecordPositionerBase.report
+      ~StateRecordPositionerBase.root
+      ~StateRecordPositionerBase.settle_time
+      ~StateRecordPositionerBase.signal_names
+      ~StateRecordPositionerBase.state
+      ~StateRecordPositionerBase.states_list
+      ~StateRecordPositionerBase.tab_whitelist
+      ~StateRecordPositionerBase.timeout
+      ~StateRecordPositionerBase.trigger_signals
+   
+   

@@ -1,0 +1,76 @@
+pcdsdevices.gon.XYZStage
+========================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. autoclass:: XYZStage
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~XYZStage.__init__
+      ~XYZStage.add_instantiation_callback
+      ~XYZStage.check_value
+      ~XYZStage.clear_sub
+      ~XYZStage.configure
+      ~XYZStage.describe
+      ~XYZStage.describe_configuration
+      ~XYZStage.destroy
+      ~XYZStage.get
+      ~XYZStage.get_device_tuple
+      ~XYZStage.get_instantiated_signals
+      ~XYZStage.pause
+      ~XYZStage.put
+      ~XYZStage.read
+      ~XYZStage.read_configuration
+      ~XYZStage.resume
+      ~XYZStage.stage
+      ~XYZStage.stop
+      ~XYZStage.subscribe
+      ~XYZStage.summary
+      ~XYZStage.trigger
+      ~XYZStage.unstage
+      ~XYZStage.unsubscribe
+      ~XYZStage.unsubscribe_all
+      ~XYZStage.wait_for_connection
+      ~XYZStage.walk_components
+      ~XYZStage.walk_signals
+      ~XYZStage.walk_subdevice_classes
+      ~XYZStage.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~XYZStage.SUB_ACQ_DONE
+      ~XYZStage.attr_name
+      ~XYZStage.component_names
+      ~XYZStage.configuration_attrs
+      ~XYZStage.connected
+      ~XYZStage.dotted_name
+      ~XYZStage.event_types
+      ~XYZStage.hints
+      ~XYZStage.kind
+      ~XYZStage.lazy_wait_for_connection
+      ~XYZStage.name
+      ~XYZStage.parent
+      ~XYZStage.read_attrs
+      ~XYZStage.report
+      ~XYZStage.root
+      ~XYZStage.signal_names
+      ~XYZStage.tab_component_names
+      ~XYZStage.tab_whitelist
+      ~XYZStage.trigger_signals
+      ~XYZStage.x
+      ~XYZStage.y
+      ~XYZStage.z
+   
+   

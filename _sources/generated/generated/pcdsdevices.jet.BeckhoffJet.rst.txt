@@ -1,0 +1,76 @@
+pcdsdevices.jet.BeckhoffJet
+===========================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. autoclass:: BeckhoffJet
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~BeckhoffJet.__init__
+      ~BeckhoffJet.add_instantiation_callback
+      ~BeckhoffJet.check_value
+      ~BeckhoffJet.clear_sub
+      ~BeckhoffJet.configure
+      ~BeckhoffJet.describe
+      ~BeckhoffJet.describe_configuration
+      ~BeckhoffJet.destroy
+      ~BeckhoffJet.get
+      ~BeckhoffJet.get_device_tuple
+      ~BeckhoffJet.get_instantiated_signals
+      ~BeckhoffJet.pause
+      ~BeckhoffJet.put
+      ~BeckhoffJet.read
+      ~BeckhoffJet.read_configuration
+      ~BeckhoffJet.resume
+      ~BeckhoffJet.stage
+      ~BeckhoffJet.stop
+      ~BeckhoffJet.subscribe
+      ~BeckhoffJet.summary
+      ~BeckhoffJet.trigger
+      ~BeckhoffJet.unstage
+      ~BeckhoffJet.unsubscribe
+      ~BeckhoffJet.unsubscribe_all
+      ~BeckhoffJet.wait_for_connection
+      ~BeckhoffJet.walk_components
+      ~BeckhoffJet.walk_signals
+      ~BeckhoffJet.walk_subdevice_classes
+      ~BeckhoffJet.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~BeckhoffJet.SUB_ACQ_DONE
+      ~BeckhoffJet.attr_name
+      ~BeckhoffJet.component_names
+      ~BeckhoffJet.configuration_attrs
+      ~BeckhoffJet.connected
+      ~BeckhoffJet.dotted_name
+      ~BeckhoffJet.event_types
+      ~BeckhoffJet.hints
+      ~BeckhoffJet.jet
+      ~BeckhoffJet.kind
+      ~BeckhoffJet.lazy_wait_for_connection
+      ~BeckhoffJet.name
+      ~BeckhoffJet.parent
+      ~BeckhoffJet.read_attrs
+      ~BeckhoffJet.report
+      ~BeckhoffJet.root
+      ~BeckhoffJet.signal_names
+      ~BeckhoffJet.ss
+      ~BeckhoffJet.tab_component_names
+      ~BeckhoffJet.tab_whitelist
+      ~BeckhoffJet.trigger_signals
+      ~BeckhoffJet.vh_epix_x
+   
+   

@@ -1,0 +1,6 @@
+pcdsdevices.gon.SamPhi.check\_value
+===================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: SamPhi.check_value

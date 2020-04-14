@@ -1,0 +1,6 @@
+pcdsdevices.lens.Prefocus.walk\_components
+==========================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: Prefocus.walk_components

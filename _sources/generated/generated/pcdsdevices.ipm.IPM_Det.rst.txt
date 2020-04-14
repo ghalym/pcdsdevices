@@ -71,6 +71,8 @@ pcdsdevices.ipm.IPM\_Det
       ~IPM_Det.report
       ~IPM_Det.root
       ~IPM_Det.signal_names
+      ~IPM_Det.tab_component_names
+      ~IPM_Det.tab_whitelist
       ~IPM_Det.trigger_signals
    
    

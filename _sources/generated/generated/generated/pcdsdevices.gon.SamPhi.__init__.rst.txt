@@ -1,0 +1,6 @@
+pcdsdevices.gon.SamPhi.\_\_init\_\_
+===================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: SamPhi.__init__

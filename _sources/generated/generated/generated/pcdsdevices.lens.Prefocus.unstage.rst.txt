@@ -1,0 +1,6 @@
+pcdsdevices.lens.Prefocus.unstage
+=================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: Prefocus.unstage

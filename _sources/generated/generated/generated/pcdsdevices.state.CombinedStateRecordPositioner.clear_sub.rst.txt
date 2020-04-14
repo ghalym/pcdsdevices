@@ -1,0 +1,6 @@
+pcdsdevices.state.CombinedStateRecordPositioner.clear\_sub
+==========================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: CombinedStateRecordPositioner.clear_sub

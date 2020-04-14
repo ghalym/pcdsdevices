@@ -1,0 +1,6 @@
+pcdsdevices.gon.SamPhi.walk\_signals
+====================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: SamPhi.walk_signals

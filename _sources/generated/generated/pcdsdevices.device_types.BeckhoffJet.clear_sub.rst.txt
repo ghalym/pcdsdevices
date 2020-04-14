@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.BeckhoffJet.clear\_sub
+================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: BeckhoffJet.clear_sub

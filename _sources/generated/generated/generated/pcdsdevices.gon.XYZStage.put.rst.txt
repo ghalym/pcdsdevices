@@ -1,0 +1,6 @@
+pcdsdevices.gon.XYZStage.put
+============================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: XYZStage.put

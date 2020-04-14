@@ -1,0 +1,6 @@
+pcdsdevices.gon.BaseGon.stage
+=============================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: BaseGon.stage

@@ -1,0 +1,6 @@
+pcdsdevices.gon.BaseGon.destroy
+===============================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: BaseGon.destroy

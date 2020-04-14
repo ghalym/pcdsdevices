@@ -1,0 +1,6 @@
+pcdsdevices.gon.BaseGon.clear\_sub
+==================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: BaseGon.clear_sub

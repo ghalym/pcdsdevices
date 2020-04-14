@@ -1,0 +1,6 @@
+pcdsdevices.jet.BeckhoffJetSlits.wait\_for\_connection
+======================================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: BeckhoffJetSlits.wait_for_connection

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ipm.IPMMotion &mdash; PCDS Devices 2.4.0+19.g03ef19b documentation</title>
+  <title>pcdsdevices.ipm.IPMMotion &mdash; PCDS Devices 2.4.0+54.gee106ac documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.4.0+19.g03ef19b
+                2.4.0+54.gee106ac
               </div>
             
           
@@ -110,6 +110,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.evr.html">pcdsdevices.evr</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.gon.html">pcdsdevices.gon</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.interface.html">pcdsdevices.interface</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.ipm.html">pcdsdevices.ipm</a><ul class="current">
@@ -129,6 +130,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.get.html">pcdsdevices.ipm.IPMMotion.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.get_device_tuple.html">pcdsdevices.ipm.IPMMotion.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.get_instantiated_signals.html">pcdsdevices.ipm.IPMMotion.get_instantiated_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.insert.html">pcdsdevices.ipm.IPMMotion.insert</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.pause.html">pcdsdevices.ipm.IPMMotion.pause</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.put.html">pcdsdevices.ipm.IPMMotion.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.read.html">pcdsdevices.ipm.IPMMotion.read</a></li>
@@ -158,6 +160,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.ipm.Wave8Channel.html">pcdsdevices.ipm.Wave8Channel</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.jet.html">pcdsdevices.jet</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.lodcm.html">pcdsdevices.lodcm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.mirror.html">pcdsdevices.mirror</a></li>
@@ -174,6 +177,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.sim.html">pcdsdevices.sim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.slits.html">pcdsdevices.slits</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.state.html">pcdsdevices.state</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.timetool.html">pcdsdevices.timetool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.utils.html">pcdsdevices.utils</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.valve.html">pcdsdevices.valve</a></li>
 </ul>
@@ -293,61 +297,64 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.get_instantiated_signals.html#pcdsdevices.ipm.IPMMotion.get_instantiated_signals" title="pcdsdevices.ipm.IPMMotion.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.pause.html#pcdsdevices.ipm.IPMMotion.pause" title="pcdsdevices.ipm.IPMMotion.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.insert.html#pcdsdevices.ipm.IPMMotion.insert" title="pcdsdevices.ipm.IPMMotion.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb, timeout, wait])</p></td>
+<td><p>Move both the target and diode in</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.pause.html#pcdsdevices.ipm.IPMMotion.pause" title="pcdsdevices.ipm.IPMMotion.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
 <td><p>Attempt to ‘pause’ the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.put.html#pcdsdevices.ipm.IPMMotion.put" title="pcdsdevices.ipm.IPMMotion.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.put.html#pcdsdevices.ipm.IPMMotion.put" title="pcdsdevices.ipm.IPMMotion.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
 <td><p>Put a value to all components of the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.read.html#pcdsdevices.ipm.IPMMotion.read" title="pcdsdevices.ipm.IPMMotion.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.read.html#pcdsdevices.ipm.IPMMotion.read" title="pcdsdevices.ipm.IPMMotion.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
 <td><p>Read data from the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.read_configuration.html#pcdsdevices.ipm.IPMMotion.read_configuration" title="pcdsdevices.ipm.IPMMotion.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.read_configuration.html#pcdsdevices.ipm.IPMMotion.read_configuration" title="pcdsdevices.ipm.IPMMotion.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.remove.html#pcdsdevices.ipm.IPMMotion.remove" title="pcdsdevices.ipm.IPMMotion.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb, timeout, wait])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.remove.html#pcdsdevices.ipm.IPMMotion.remove" title="pcdsdevices.ipm.IPMMotion.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb, timeout, wait])</p></td>
 <td><p>Moves the target out of the beam and removes the diode if it is in an unknown state</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.resume.html#pcdsdevices.ipm.IPMMotion.resume" title="pcdsdevices.ipm.IPMMotion.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.resume.html#pcdsdevices.ipm.IPMMotion.resume" title="pcdsdevices.ipm.IPMMotion.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.stage.html#pcdsdevices.ipm.IPMMotion.stage" title="pcdsdevices.ipm.IPMMotion.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.stage.html#pcdsdevices.ipm.IPMMotion.stage" title="pcdsdevices.ipm.IPMMotion.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
 <td><p>Stage the device for data collection.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.stop.html#pcdsdevices.ipm.IPMMotion.stop" title="pcdsdevices.ipm.IPMMotion.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.stop.html#pcdsdevices.ipm.IPMMotion.stop" title="pcdsdevices.ipm.IPMMotion.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.subscribe.html#pcdsdevices.ipm.IPMMotion.subscribe" title="pcdsdevices.ipm.IPMMotion.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(callback[, event_type, run])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.subscribe.html#pcdsdevices.ipm.IPMMotion.subscribe" title="pcdsdevices.ipm.IPMMotion.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(callback[, event_type, run])</p></td>
 <td><p>Subscribe to events this event_type generates.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.summary.html#pcdsdevices.ipm.IPMMotion.summary" title="pcdsdevices.ipm.IPMMotion.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.summary.html#pcdsdevices.ipm.IPMMotion.summary" title="pcdsdevices.ipm.IPMMotion.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.trigger.html#pcdsdevices.ipm.IPMMotion.trigger" title="pcdsdevices.ipm.IPMMotion.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.trigger.html#pcdsdevices.ipm.IPMMotion.trigger" title="pcdsdevices.ipm.IPMMotion.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.unstage.html#pcdsdevices.ipm.IPMMotion.unstage" title="pcdsdevices.ipm.IPMMotion.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.unstage.html#pcdsdevices.ipm.IPMMotion.unstage" title="pcdsdevices.ipm.IPMMotion.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</p></td>
 <td><p>Unstage the device.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.unsubscribe.html#pcdsdevices.ipm.IPMMotion.unsubscribe" title="pcdsdevices.ipm.IPMMotion.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.unsubscribe.html#pcdsdevices.ipm.IPMMotion.unsubscribe" title="pcdsdevices.ipm.IPMMotion.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</p></td>
 <td><p>Remove a subscription</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.unsubscribe_all.html#pcdsdevices.ipm.IPMMotion.unsubscribe_all" title="pcdsdevices.ipm.IPMMotion.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.unsubscribe_all.html#pcdsdevices.ipm.IPMMotion.unsubscribe_all" title="pcdsdevices.ipm.IPMMotion.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.wait_for_connection.html#pcdsdevices.ipm.IPMMotion.wait_for_connection" title="pcdsdevices.ipm.IPMMotion.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals, timeout])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.wait_for_connection.html#pcdsdevices.ipm.IPMMotion.wait_for_connection" title="pcdsdevices.ipm.IPMMotion.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals, timeout])</p></td>
 <td><p>Wait for signals to connect</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.walk_components.html#pcdsdevices.ipm.IPMMotion.walk_components" title="pcdsdevices.ipm.IPMMotion.walk_components"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_components</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.walk_components.html#pcdsdevices.ipm.IPMMotion.walk_components" title="pcdsdevices.ipm.IPMMotion.walk_components"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_components</span></code></a>()</p></td>
 <td><p>Walk all components in the Device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.walk_signals.html#pcdsdevices.ipm.IPMMotion.walk_signals" title="pcdsdevices.ipm.IPMMotion.walk_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_signals</span></code></a>(*[, include_lazy])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.walk_signals.html#pcdsdevices.ipm.IPMMotion.walk_signals" title="pcdsdevices.ipm.IPMMotion.walk_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_signals</span></code></a>(*[, include_lazy])</p></td>
 <td><p>Walk all signals in the Device hierarchy</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.walk_subdevice_classes.html#pcdsdevices.ipm.IPMMotion.walk_subdevice_classes" title="pcdsdevices.ipm.IPMMotion.walk_subdevice_classes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevice_classes</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.walk_subdevice_classes.html#pcdsdevices.ipm.IPMMotion.walk_subdevice_classes" title="pcdsdevices.ipm.IPMMotion.walk_subdevice_classes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevice_classes</span></code></a>()</p></td>
 <td><p>Walk all sub-Devices classes in the Device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.walk_subdevices.html#pcdsdevices.ipm.IPMMotion.walk_subdevices" title="pcdsdevices.ipm.IPMMotion.walk_subdevices"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevices</span></code></a>(*[, include_lazy])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMMotion.walk_subdevices.html#pcdsdevices.ipm.IPMMotion.walk_subdevices" title="pcdsdevices.ipm.IPMMotion.walk_subdevices"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevices</span></code></a>(*[, include_lazy])</p></td>
 <td><p>Walk all sub-Devices in the hierarchy</p></td>
 </tr>
 </tbody>
@@ -423,7 +430,7 @@
 <td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">transmission</span></code></p></td>
-<td><p>Returns the target’s transmission value.</p></td>
+<td><p>Returns the combined transmission value of the target and diode</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
 <td><p></p></td>

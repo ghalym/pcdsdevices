@@ -1,0 +1,6 @@
+pcdsdevices.lens.Prefocus.clear\_sub
+====================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: Prefocus.clear_sub

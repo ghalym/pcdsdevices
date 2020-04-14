@@ -1,0 +1,6 @@
+pcdsdevices.gon.BaseGon.describe\_configuration
+===============================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: BaseGon.describe_configuration

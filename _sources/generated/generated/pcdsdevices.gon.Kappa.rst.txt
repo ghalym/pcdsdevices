@@ -1,0 +1,79 @@
+pcdsdevices.gon.Kappa
+=====================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. autoclass:: Kappa
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~Kappa.__init__
+      ~Kappa.add_instantiation_callback
+      ~Kappa.check_value
+      ~Kappa.clear_sub
+      ~Kappa.configure
+      ~Kappa.describe
+      ~Kappa.describe_configuration
+      ~Kappa.destroy
+      ~Kappa.get
+      ~Kappa.get_device_tuple
+      ~Kappa.get_instantiated_signals
+      ~Kappa.pause
+      ~Kappa.put
+      ~Kappa.read
+      ~Kappa.read_configuration
+      ~Kappa.resume
+      ~Kappa.stage
+      ~Kappa.stop
+      ~Kappa.subscribe
+      ~Kappa.summary
+      ~Kappa.trigger
+      ~Kappa.unstage
+      ~Kappa.unsubscribe
+      ~Kappa.unsubscribe_all
+      ~Kappa.wait_for_connection
+      ~Kappa.walk_components
+      ~Kappa.walk_signals
+      ~Kappa.walk_subdevice_classes
+      ~Kappa.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Kappa.SUB_ACQ_DONE
+      ~Kappa.attr_name
+      ~Kappa.component_names
+      ~Kappa.configuration_attrs
+      ~Kappa.connected
+      ~Kappa.dotted_name
+      ~Kappa.eta
+      ~Kappa.event_types
+      ~Kappa.hints
+      ~Kappa.kappa
+      ~Kappa.kind
+      ~Kappa.lazy_wait_for_connection
+      ~Kappa.name
+      ~Kappa.parent
+      ~Kappa.phi
+      ~Kappa.read_attrs
+      ~Kappa.report
+      ~Kappa.root
+      ~Kappa.signal_names
+      ~Kappa.tab_component_names
+      ~Kappa.tab_whitelist
+      ~Kappa.trigger_signals
+      ~Kappa.x
+      ~Kappa.y
+      ~Kappa.z
+   
+   

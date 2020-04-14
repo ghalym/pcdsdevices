@@ -1,0 +1,76 @@
+pcdsdevices.jet.BeckhoffJetManipulator
+======================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. autoclass:: BeckhoffJetManipulator
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~BeckhoffJetManipulator.__init__
+      ~BeckhoffJetManipulator.add_instantiation_callback
+      ~BeckhoffJetManipulator.check_value
+      ~BeckhoffJetManipulator.clear_sub
+      ~BeckhoffJetManipulator.configure
+      ~BeckhoffJetManipulator.describe
+      ~BeckhoffJetManipulator.describe_configuration
+      ~BeckhoffJetManipulator.destroy
+      ~BeckhoffJetManipulator.get
+      ~BeckhoffJetManipulator.get_device_tuple
+      ~BeckhoffJetManipulator.get_instantiated_signals
+      ~BeckhoffJetManipulator.pause
+      ~BeckhoffJetManipulator.put
+      ~BeckhoffJetManipulator.read
+      ~BeckhoffJetManipulator.read_configuration
+      ~BeckhoffJetManipulator.resume
+      ~BeckhoffJetManipulator.stage
+      ~BeckhoffJetManipulator.stop
+      ~BeckhoffJetManipulator.subscribe
+      ~BeckhoffJetManipulator.summary
+      ~BeckhoffJetManipulator.trigger
+      ~BeckhoffJetManipulator.unstage
+      ~BeckhoffJetManipulator.unsubscribe
+      ~BeckhoffJetManipulator.unsubscribe_all
+      ~BeckhoffJetManipulator.wait_for_connection
+      ~BeckhoffJetManipulator.walk_components
+      ~BeckhoffJetManipulator.walk_signals
+      ~BeckhoffJetManipulator.walk_subdevice_classes
+      ~BeckhoffJetManipulator.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~BeckhoffJetManipulator.SUB_ACQ_DONE
+      ~BeckhoffJetManipulator.attr_name
+      ~BeckhoffJetManipulator.component_names
+      ~BeckhoffJetManipulator.configuration_attrs
+      ~BeckhoffJetManipulator.connected
+      ~BeckhoffJetManipulator.dotted_name
+      ~BeckhoffJetManipulator.event_types
+      ~BeckhoffJetManipulator.hints
+      ~BeckhoffJetManipulator.kind
+      ~BeckhoffJetManipulator.lazy_wait_for_connection
+      ~BeckhoffJetManipulator.name
+      ~BeckhoffJetManipulator.parent
+      ~BeckhoffJetManipulator.read_attrs
+      ~BeckhoffJetManipulator.report
+      ~BeckhoffJetManipulator.root
+      ~BeckhoffJetManipulator.signal_names
+      ~BeckhoffJetManipulator.tab_component_names
+      ~BeckhoffJetManipulator.tab_whitelist
+      ~BeckhoffJetManipulator.trigger_signals
+      ~BeckhoffJetManipulator.x
+      ~BeckhoffJetManipulator.y
+      ~BeckhoffJetManipulator.z
+   
+   

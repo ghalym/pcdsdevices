@@ -1,0 +1,6 @@
+pcdsdevices.jet.BeckhoffJetManipulator.unsubscribe\_all
+=======================================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: BeckhoffJetManipulator.unsubscribe_all

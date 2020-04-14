@@ -1,0 +1,6 @@
+pcdsdevices.state.StateRecordPositionerBase.walk\_components
+============================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: StateRecordPositionerBase.walk_components

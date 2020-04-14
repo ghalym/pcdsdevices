@@ -1,0 +1,318 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>pcdsdevices.jet.BeckhoffJetManipulator.unstage &mdash; PCDS Devices 2.4.0+54.gee106ac documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="pcdsdevices.jet.BeckhoffJetManipulator.unsubscribe" href="pcdsdevices.jet.BeckhoffJetManipulator.unsubscribe.html" />
+    <link rel="prev" title="pcdsdevices.jet.BeckhoffJetManipulator.trigger" href="pcdsdevices.jet.BeckhoffJetManipulator.trigger.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> PCDS Devices
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2.4.0+54.gee106ac
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Features</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../mv.html">Shortcuts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../presets.html">Preset Positions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../tab.html">IPython Tab Curation</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Device Types</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../epics_types.html">Common EPICS Devices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../base_classes.html">Base Classes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sim_types.html">Simulated Devices</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developer Notes</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../releases.html">Release History</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../api.html">Full API</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.analog_signals.html">pcdsdevices.analog_signals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.evr.html">pcdsdevices.evr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.gon.html">pcdsdevices.gon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.interface.html">pcdsdevices.interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.jet.html">pcdsdevices.jet</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.jet.BeckhoffJet.html">pcdsdevices.jet.BeckhoffJet</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.jet.BeckhoffJetManipulator.html">pcdsdevices.jet.BeckhoffJetManipulator</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.__init__.html">pcdsdevices.jet.BeckhoffJetManipulator.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.add_instantiation_callback.html">pcdsdevices.jet.BeckhoffJetManipulator.add_instantiation_callback</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.check_value.html">pcdsdevices.jet.BeckhoffJetManipulator.check_value</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.clear_sub.html">pcdsdevices.jet.BeckhoffJetManipulator.clear_sub</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.configure.html">pcdsdevices.jet.BeckhoffJetManipulator.configure</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.describe.html">pcdsdevices.jet.BeckhoffJetManipulator.describe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.describe_configuration.html">pcdsdevices.jet.BeckhoffJetManipulator.describe_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.destroy.html">pcdsdevices.jet.BeckhoffJetManipulator.destroy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.get.html">pcdsdevices.jet.BeckhoffJetManipulator.get</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.get_device_tuple.html">pcdsdevices.jet.BeckhoffJetManipulator.get_device_tuple</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.get_instantiated_signals.html">pcdsdevices.jet.BeckhoffJetManipulator.get_instantiated_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.pause.html">pcdsdevices.jet.BeckhoffJetManipulator.pause</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.put.html">pcdsdevices.jet.BeckhoffJetManipulator.put</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.read.html">pcdsdevices.jet.BeckhoffJetManipulator.read</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.read_configuration.html">pcdsdevices.jet.BeckhoffJetManipulator.read_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.resume.html">pcdsdevices.jet.BeckhoffJetManipulator.resume</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.stage.html">pcdsdevices.jet.BeckhoffJetManipulator.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.stop.html">pcdsdevices.jet.BeckhoffJetManipulator.stop</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.subscribe.html">pcdsdevices.jet.BeckhoffJetManipulator.subscribe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.summary.html">pcdsdevices.jet.BeckhoffJetManipulator.summary</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.trigger.html">pcdsdevices.jet.BeckhoffJetManipulator.trigger</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.jet.BeckhoffJetManipulator.unstage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.unsubscribe.html">pcdsdevices.jet.BeckhoffJetManipulator.unsubscribe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.unsubscribe_all.html">pcdsdevices.jet.BeckhoffJetManipulator.unsubscribe_all</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.wait_for_connection.html">pcdsdevices.jet.BeckhoffJetManipulator.wait_for_connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.walk_components.html">pcdsdevices.jet.BeckhoffJetManipulator.walk_components</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.walk_signals.html">pcdsdevices.jet.BeckhoffJetManipulator.walk_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.walk_subdevice_classes.html">pcdsdevices.jet.BeckhoffJetManipulator.walk_subdevice_classes</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.walk_subdevices.html">pcdsdevices.jet.BeckhoffJetManipulator.walk_subdevices</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.jet.BeckhoffJetSlits.html">pcdsdevices.jet.BeckhoffJetSlits</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.lodcm.html">pcdsdevices.lodcm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mirror.html">pcdsdevices.mirror</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.movablestand.html">pcdsdevices.movablestand</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mps.html">pcdsdevices.mps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mv_interface.html">pcdsdevices.mv_interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pump.html">pcdsdevices.pump</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.sensors.html">pcdsdevices.sensors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.sequencer.html">pcdsdevices.sequencer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.signal.html">pcdsdevices.signal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.sim.html">pcdsdevices.sim</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.slits.html">pcdsdevices.slits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.state.html">pcdsdevices.state</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.timetool.html">pcdsdevices.timetool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.utils.html">pcdsdevices.utils</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.valve.html">pcdsdevices.valve</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">PCDS Devices</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../../../api.html">Full API</a> &raquo;</li>
+        
+          <li><a href="../../pcdsdevices.jet.html">pcdsdevices.jet</a> &raquo;</li>
+        
+          <li><a href="../pcdsdevices.jet.BeckhoffJetManipulator.html">pcdsdevices.jet.BeckhoffJetManipulator</a> &raquo;</li>
+        
+      <li>pcdsdevices.jet.BeckhoffJetManipulator.unstage</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../../_sources/generated/generated/generated/pcdsdevices.jet.BeckhoffJetManipulator.unstage.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="pcdsdevices-jet-beckhoffjetmanipulator-unstage">
+<h1>pcdsdevices.jet.BeckhoffJetManipulator.unstage<a class="headerlink" href="#pcdsdevices-jet-beckhoffjetmanipulator-unstage" title="Permalink to this headline">¶</a></h1>
+<dl class="py method">
+<dt id="pcdsdevices.jet.BeckhoffJetManipulator.unstage">
+<code class="sig-prename descclassname">BeckhoffJetManipulator.</code><code class="sig-name descname">unstage</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; List<span class="p">[</span>object<span class="p">]</span><a class="headerlink" href="#pcdsdevices.jet.BeckhoffJetManipulator.unstage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Unstage the device.</p>
+<p>This method returns the device to the state it was prior to the
+last <a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.stage.html#pcdsdevices.jet.BeckhoffJetManipulator.stage" title="pcdsdevices.jet.BeckhoffJetManipulator.stage"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">stage</span></code></a> call.</p>
+<p>This method should be as fast as feasible as it does not
+return a status object.</p>
+<p>This method must be idempotent, multiple calls (without a new
+call to ‘stage’) have no effect.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p><strong>devices</strong> – list including self and all child devices unstaged</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>list</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="pcdsdevices.jet.BeckhoffJetManipulator.unsubscribe.html" class="btn btn-neutral float-right" title="pcdsdevices.jet.BeckhoffJetManipulator.unsubscribe" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="pcdsdevices.jet.BeckhoffJetManipulator.trigger.html" class="btn btn-neutral float-left" title="pcdsdevices.jet.BeckhoffJetManipulator.trigger" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, SLAC National Accelerator Laboratory
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -24,6 +24,7 @@ pcdsdevices.ipm.IPM\_Wave8
       ~IPM_Wave8.get
       ~IPM_Wave8.get_device_tuple
       ~IPM_Wave8.get_instantiated_signals
+      ~IPM_Wave8.insert
       ~IPM_Wave8.isum
       ~IPM_Wave8.pause
       ~IPM_Wave8.put
@@ -75,6 +76,7 @@ pcdsdevices.ipm.IPM\_Wave8
       ~IPM_Wave8.report
       ~IPM_Wave8.root
       ~IPM_Wave8.signal_names
+      ~IPM_Wave8.tab_component_names
       ~IPM_Wave8.tab_whitelist
       ~IPM_Wave8.target
       ~IPM_Wave8.transmission

@@ -1,0 +1,6 @@
+pcdsdevices.jet.BeckhoffJetManipulator.pause
+============================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: BeckhoffJetManipulator.pause

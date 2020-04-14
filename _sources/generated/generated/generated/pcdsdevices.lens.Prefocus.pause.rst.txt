@@ -1,0 +1,6 @@
+pcdsdevices.lens.Prefocus.pause
+===============================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: Prefocus.pause

@@ -1,0 +1,6 @@
+pcdsdevices.gon.GonWithDetArm.add\_instantiation\_callback
+==========================================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: GonWithDetArm.add_instantiation_callback

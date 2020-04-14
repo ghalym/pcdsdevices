@@ -1,0 +1,6 @@
+pcdsdevices.gon.BaseGon.check\_value
+====================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: BaseGon.check_value

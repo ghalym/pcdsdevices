@@ -1,0 +1,103 @@
+pcdsdevices.inout.CombinedInOutRecordPositioner
+===============================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. autoclass:: CombinedInOutRecordPositioner
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~CombinedInOutRecordPositioner.__init__
+      ~CombinedInOutRecordPositioner.add_instantiation_callback
+      ~CombinedInOutRecordPositioner.camonitor
+      ~CombinedInOutRecordPositioner.check_value
+      ~CombinedInOutRecordPositioner.clear_sub
+      ~CombinedInOutRecordPositioner.configure
+      ~CombinedInOutRecordPositioner.describe
+      ~CombinedInOutRecordPositioner.describe_configuration
+      ~CombinedInOutRecordPositioner.destroy
+      ~CombinedInOutRecordPositioner.end_monitor_thread
+      ~CombinedInOutRecordPositioner.get
+      ~CombinedInOutRecordPositioner.get_device_tuple
+      ~CombinedInOutRecordPositioner.get_instantiated_signals
+      ~CombinedInOutRecordPositioner.get_state
+      ~CombinedInOutRecordPositioner.insert
+      ~CombinedInOutRecordPositioner.move
+      ~CombinedInOutRecordPositioner.mv
+      ~CombinedInOutRecordPositioner.pause
+      ~CombinedInOutRecordPositioner.put
+      ~CombinedInOutRecordPositioner.read
+      ~CombinedInOutRecordPositioner.read_configuration
+      ~CombinedInOutRecordPositioner.remove
+      ~CombinedInOutRecordPositioner.resume
+      ~CombinedInOutRecordPositioner.set
+      ~CombinedInOutRecordPositioner.stage
+      ~CombinedInOutRecordPositioner.stop
+      ~CombinedInOutRecordPositioner.subscribe
+      ~CombinedInOutRecordPositioner.summary
+      ~CombinedInOutRecordPositioner.trigger
+      ~CombinedInOutRecordPositioner.unstage
+      ~CombinedInOutRecordPositioner.unsubscribe
+      ~CombinedInOutRecordPositioner.unsubscribe_all
+      ~CombinedInOutRecordPositioner.wait_for_connection
+      ~CombinedInOutRecordPositioner.walk_components
+      ~CombinedInOutRecordPositioner.walk_signals
+      ~CombinedInOutRecordPositioner.walk_subdevice_classes
+      ~CombinedInOutRecordPositioner.walk_subdevices
+      ~CombinedInOutRecordPositioner.wm
+      ~CombinedInOutRecordPositioner.wm_update
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~CombinedInOutRecordPositioner.SUB_ACQ_DONE
+      ~CombinedInOutRecordPositioner.SUB_DONE
+      ~CombinedInOutRecordPositioner.SUB_READBACK
+      ~CombinedInOutRecordPositioner.SUB_START
+      ~CombinedInOutRecordPositioner.SUB_STATE
+      ~CombinedInOutRecordPositioner.attr_name
+      ~CombinedInOutRecordPositioner.component_names
+      ~CombinedInOutRecordPositioner.configuration_attrs
+      ~CombinedInOutRecordPositioner.connected
+      ~CombinedInOutRecordPositioner.dotted_name
+      ~CombinedInOutRecordPositioner.egu
+      ~CombinedInOutRecordPositioner.event_types
+      ~CombinedInOutRecordPositioner.high_limit
+      ~CombinedInOutRecordPositioner.hints
+      ~CombinedInOutRecordPositioner.in_states
+      ~CombinedInOutRecordPositioner.inserted
+      ~CombinedInOutRecordPositioner.kind
+      ~CombinedInOutRecordPositioner.lazy_wait_for_connection
+      ~CombinedInOutRecordPositioner.limits
+      ~CombinedInOutRecordPositioner.low_limit
+      ~CombinedInOutRecordPositioner.moving
+      ~CombinedInOutRecordPositioner.name
+      ~CombinedInOutRecordPositioner.out_states
+      ~CombinedInOutRecordPositioner.parent
+      ~CombinedInOutRecordPositioner.position
+      ~CombinedInOutRecordPositioner.read_attrs
+      ~CombinedInOutRecordPositioner.removed
+      ~CombinedInOutRecordPositioner.report
+      ~CombinedInOutRecordPositioner.root
+      ~CombinedInOutRecordPositioner.settle_time
+      ~CombinedInOutRecordPositioner.signal_names
+      ~CombinedInOutRecordPositioner.state
+      ~CombinedInOutRecordPositioner.states_list
+      ~CombinedInOutRecordPositioner.tab_whitelist
+      ~CombinedInOutRecordPositioner.timeout
+      ~CombinedInOutRecordPositioner.transmission
+      ~CombinedInOutRecordPositioner.trigger_signals
+      ~CombinedInOutRecordPositioner.x_motor
+      ~CombinedInOutRecordPositioner.y_motor
+   
+   

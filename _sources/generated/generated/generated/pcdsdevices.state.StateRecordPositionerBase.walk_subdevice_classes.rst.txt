@@ -1,0 +1,6 @@
+pcdsdevices.state.StateRecordPositionerBase.walk\_subdevice\_classes
+====================================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: StateRecordPositionerBase.walk_subdevice_classes

@@ -1,0 +1,6 @@
+pcdsdevices.gon.BaseGon.\_\_init\_\_
+====================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: BaseGon.__init__

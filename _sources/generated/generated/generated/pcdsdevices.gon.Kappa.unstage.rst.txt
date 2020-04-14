@@ -1,0 +1,6 @@
+pcdsdevices.gon.Kappa.unstage
+=============================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: Kappa.unstage

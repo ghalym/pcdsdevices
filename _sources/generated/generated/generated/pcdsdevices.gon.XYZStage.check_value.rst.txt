@@ -1,0 +1,6 @@
+pcdsdevices.gon.XYZStage.check\_value
+=====================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: XYZStage.check_value

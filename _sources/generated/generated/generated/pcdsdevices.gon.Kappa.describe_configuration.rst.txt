@@ -1,0 +1,6 @@
+pcdsdevices.gon.Kappa.describe\_configuration
+=============================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: Kappa.describe_configuration

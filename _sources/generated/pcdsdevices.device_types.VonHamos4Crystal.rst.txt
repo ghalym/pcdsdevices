@@ -1,0 +1,79 @@
+pcdsdevices.device\_types.VonHamos4Crystal
+==========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. autoclass:: VonHamos4Crystal
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~VonHamos4Crystal.__init__
+      ~VonHamos4Crystal.add_instantiation_callback
+      ~VonHamos4Crystal.check_value
+      ~VonHamos4Crystal.clear_sub
+      ~VonHamos4Crystal.configure
+      ~VonHamos4Crystal.describe
+      ~VonHamos4Crystal.describe_configuration
+      ~VonHamos4Crystal.destroy
+      ~VonHamos4Crystal.get
+      ~VonHamos4Crystal.get_device_tuple
+      ~VonHamos4Crystal.get_instantiated_signals
+      ~VonHamos4Crystal.pause
+      ~VonHamos4Crystal.put
+      ~VonHamos4Crystal.read
+      ~VonHamos4Crystal.read_configuration
+      ~VonHamos4Crystal.resume
+      ~VonHamos4Crystal.stage
+      ~VonHamos4Crystal.stop
+      ~VonHamos4Crystal.subscribe
+      ~VonHamos4Crystal.summary
+      ~VonHamos4Crystal.trigger
+      ~VonHamos4Crystal.unstage
+      ~VonHamos4Crystal.unsubscribe
+      ~VonHamos4Crystal.unsubscribe_all
+      ~VonHamos4Crystal.wait_for_connection
+      ~VonHamos4Crystal.walk_components
+      ~VonHamos4Crystal.walk_signals
+      ~VonHamos4Crystal.walk_subdevice_classes
+      ~VonHamos4Crystal.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~VonHamos4Crystal.SUB_ACQ_DONE
+      ~VonHamos4Crystal.attr_name
+      ~VonHamos4Crystal.c1
+      ~VonHamos4Crystal.c2
+      ~VonHamos4Crystal.c3
+      ~VonHamos4Crystal.c4
+      ~VonHamos4Crystal.component_names
+      ~VonHamos4Crystal.configuration_attrs
+      ~VonHamos4Crystal.connected
+      ~VonHamos4Crystal.dotted_name
+      ~VonHamos4Crystal.e
+      ~VonHamos4Crystal.event_types
+      ~VonHamos4Crystal.f
+      ~VonHamos4Crystal.hints
+      ~VonHamos4Crystal.kind
+      ~VonHamos4Crystal.lazy_wait_for_connection
+      ~VonHamos4Crystal.name
+      ~VonHamos4Crystal.parent
+      ~VonHamos4Crystal.read_attrs
+      ~VonHamos4Crystal.report
+      ~VonHamos4Crystal.root
+      ~VonHamos4Crystal.signal_names
+      ~VonHamos4Crystal.tab_component_names
+      ~VonHamos4Crystal.tab_whitelist
+      ~VonHamos4Crystal.trigger_signals
+   
+   

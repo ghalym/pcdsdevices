@@ -1,0 +1,6 @@
+pcdsdevices.state.CombinedStateRecordPositioner.subscribe
+=========================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: CombinedStateRecordPositioner.subscribe

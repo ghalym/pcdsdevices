@@ -1,0 +1,6 @@
+pcdsdevices.gon.BaseGon.pause
+=============================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: BaseGon.pause

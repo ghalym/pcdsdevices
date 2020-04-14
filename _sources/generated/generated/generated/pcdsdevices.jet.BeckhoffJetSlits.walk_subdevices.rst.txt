@@ -1,0 +1,6 @@
+pcdsdevices.jet.BeckhoffJetSlits.walk\_subdevices
+=================================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: BeckhoffJetSlits.walk_subdevices

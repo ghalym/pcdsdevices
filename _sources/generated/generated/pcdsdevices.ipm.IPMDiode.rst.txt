@@ -72,6 +72,7 @@ pcdsdevices.ipm.IPMDiode
       ~IPMDiode.signal_names
       ~IPMDiode.state
       ~IPMDiode.tab_whitelist
+      ~IPMDiode.transmission
       ~IPMDiode.trigger_signals
       ~IPMDiode.x_motor
    

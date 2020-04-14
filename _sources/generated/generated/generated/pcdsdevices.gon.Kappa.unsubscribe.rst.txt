@@ -1,0 +1,6 @@
+pcdsdevices.gon.Kappa.unsubscribe
+=================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: Kappa.unsubscribe

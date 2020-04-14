@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Prefocus.unstage
+==========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Prefocus.unstage

@@ -1,0 +1,6 @@
+pcdsdevices.gon.Kappa.wait\_for\_connection
+===========================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: Kappa.wait_for_connection

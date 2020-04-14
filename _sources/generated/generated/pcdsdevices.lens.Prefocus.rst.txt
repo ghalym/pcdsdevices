@@ -1,0 +1,103 @@
+pcdsdevices.lens.Prefocus
+=========================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. autoclass:: Prefocus
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~Prefocus.__init__
+      ~Prefocus.add_instantiation_callback
+      ~Prefocus.camonitor
+      ~Prefocus.check_value
+      ~Prefocus.clear_sub
+      ~Prefocus.configure
+      ~Prefocus.describe
+      ~Prefocus.describe_configuration
+      ~Prefocus.destroy
+      ~Prefocus.end_monitor_thread
+      ~Prefocus.get
+      ~Prefocus.get_device_tuple
+      ~Prefocus.get_instantiated_signals
+      ~Prefocus.get_state
+      ~Prefocus.insert
+      ~Prefocus.move
+      ~Prefocus.mv
+      ~Prefocus.pause
+      ~Prefocus.put
+      ~Prefocus.read
+      ~Prefocus.read_configuration
+      ~Prefocus.remove
+      ~Prefocus.resume
+      ~Prefocus.set
+      ~Prefocus.stage
+      ~Prefocus.stop
+      ~Prefocus.subscribe
+      ~Prefocus.summary
+      ~Prefocus.trigger
+      ~Prefocus.unstage
+      ~Prefocus.unsubscribe
+      ~Prefocus.unsubscribe_all
+      ~Prefocus.wait_for_connection
+      ~Prefocus.walk_components
+      ~Prefocus.walk_signals
+      ~Prefocus.walk_subdevice_classes
+      ~Prefocus.walk_subdevices
+      ~Prefocus.wm
+      ~Prefocus.wm_update
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Prefocus.SUB_ACQ_DONE
+      ~Prefocus.SUB_DONE
+      ~Prefocus.SUB_READBACK
+      ~Prefocus.SUB_START
+      ~Prefocus.SUB_STATE
+      ~Prefocus.attr_name
+      ~Prefocus.component_names
+      ~Prefocus.configuration_attrs
+      ~Prefocus.connected
+      ~Prefocus.dotted_name
+      ~Prefocus.egu
+      ~Prefocus.event_types
+      ~Prefocus.high_limit
+      ~Prefocus.hints
+      ~Prefocus.in_states
+      ~Prefocus.inserted
+      ~Prefocus.kind
+      ~Prefocus.lazy_wait_for_connection
+      ~Prefocus.limits
+      ~Prefocus.low_limit
+      ~Prefocus.moving
+      ~Prefocus.name
+      ~Prefocus.out_states
+      ~Prefocus.parent
+      ~Prefocus.position
+      ~Prefocus.read_attrs
+      ~Prefocus.removed
+      ~Prefocus.report
+      ~Prefocus.root
+      ~Prefocus.settle_time
+      ~Prefocus.signal_names
+      ~Prefocus.state
+      ~Prefocus.states_list
+      ~Prefocus.tab_whitelist
+      ~Prefocus.timeout
+      ~Prefocus.transmission
+      ~Prefocus.trigger_signals
+      ~Prefocus.x_motor
+      ~Prefocus.y_motor
+   
+   

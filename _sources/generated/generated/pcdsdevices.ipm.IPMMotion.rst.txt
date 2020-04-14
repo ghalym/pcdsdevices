@@ -23,6 +23,7 @@ pcdsdevices.ipm.IPMMotion
       ~IPMMotion.get
       ~IPMMotion.get_device_tuple
       ~IPMMotion.get_instantiated_signals
+      ~IPMMotion.insert
       ~IPMMotion.pause
       ~IPMMotion.put
       ~IPMMotion.read

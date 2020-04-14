@@ -14,6 +14,7 @@ pcdsdevices.ipm.Wave8
    
       ~Wave8.__init__
       ~Wave8.add_instantiation_callback
+      ~Wave8.apply_configuration
       ~Wave8.check_value
       ~Wave8.clear_sub
       ~Wave8.configure
@@ -72,6 +73,7 @@ pcdsdevices.ipm.Wave8
       ~Wave8.component_names
       ~Wave8.configuration_attrs
       ~Wave8.connected
+      ~Wave8.do_config
       ~Wave8.dotted_name
       ~Wave8.event_types
       ~Wave8.evr_channel
@@ -85,6 +87,7 @@ pcdsdevices.ipm.Wave8
       ~Wave8.report
       ~Wave8.root
       ~Wave8.signal_names
+      ~Wave8.tab_whitelist
       ~Wave8.trigger_signals
       ~Wave8.xpos
       ~Wave8.ypos

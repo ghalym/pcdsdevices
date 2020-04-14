@@ -1,0 +1,6 @@
+pcdsdevices.gon.Kappa.walk\_subdevices
+======================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: Kappa.walk_subdevices

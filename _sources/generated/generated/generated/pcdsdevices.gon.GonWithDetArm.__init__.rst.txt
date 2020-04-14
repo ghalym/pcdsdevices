@@ -1,0 +1,6 @@
+pcdsdevices.gon.GonWithDetArm.\_\_init\_\_
+==========================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: GonWithDetArm.__init__

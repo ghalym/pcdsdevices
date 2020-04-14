@@ -1,0 +1,6 @@
+pcdsdevices.lens.Prefocus.subscribe
+===================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: Prefocus.subscribe

@@ -1,0 +1,6 @@
+pcdsdevices.lens.Prefocus.move
+==============================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: Prefocus.move

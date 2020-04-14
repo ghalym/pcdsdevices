@@ -1,0 +1,6 @@
+pcdsdevices.jet.BeckhoffJetManipulator.wait\_for\_connection
+============================================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: BeckhoffJetManipulator.wait_for_connection

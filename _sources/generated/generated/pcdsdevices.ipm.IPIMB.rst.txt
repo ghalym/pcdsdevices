@@ -75,6 +75,7 @@ pcdsdevices.ipm.IPIMB
       ~IPIMB.report
       ~IPIMB.root
       ~IPIMB.signal_names
+      ~IPIMB.tab_whitelist
       ~IPIMB.trigger_signals
       ~IPIMB.xpos
       ~IPIMB.ypos

@@ -1,0 +1,6 @@
+pcdsdevices.state.CombinedStateRecordPositioner.wm\_update
+==========================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: CombinedStateRecordPositioner.wm_update

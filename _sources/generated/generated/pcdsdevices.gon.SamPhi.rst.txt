@@ -1,0 +1,75 @@
+pcdsdevices.gon.SamPhi
+======================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. autoclass:: SamPhi
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~SamPhi.__init__
+      ~SamPhi.add_instantiation_callback
+      ~SamPhi.check_value
+      ~SamPhi.clear_sub
+      ~SamPhi.configure
+      ~SamPhi.describe
+      ~SamPhi.describe_configuration
+      ~SamPhi.destroy
+      ~SamPhi.get
+      ~SamPhi.get_device_tuple
+      ~SamPhi.get_instantiated_signals
+      ~SamPhi.pause
+      ~SamPhi.put
+      ~SamPhi.read
+      ~SamPhi.read_configuration
+      ~SamPhi.resume
+      ~SamPhi.stage
+      ~SamPhi.stop
+      ~SamPhi.subscribe
+      ~SamPhi.summary
+      ~SamPhi.trigger
+      ~SamPhi.unstage
+      ~SamPhi.unsubscribe
+      ~SamPhi.unsubscribe_all
+      ~SamPhi.wait_for_connection
+      ~SamPhi.walk_components
+      ~SamPhi.walk_signals
+      ~SamPhi.walk_subdevice_classes
+      ~SamPhi.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~SamPhi.SUB_ACQ_DONE
+      ~SamPhi.attr_name
+      ~SamPhi.component_names
+      ~SamPhi.configuration_attrs
+      ~SamPhi.connected
+      ~SamPhi.dotted_name
+      ~SamPhi.event_types
+      ~SamPhi.hints
+      ~SamPhi.kind
+      ~SamPhi.lazy_wait_for_connection
+      ~SamPhi.name
+      ~SamPhi.parent
+      ~SamPhi.read_attrs
+      ~SamPhi.report
+      ~SamPhi.root
+      ~SamPhi.sam_phi
+      ~SamPhi.sam_z
+      ~SamPhi.signal_names
+      ~SamPhi.tab_component_names
+      ~SamPhi.tab_whitelist
+      ~SamPhi.trigger_signals
+   
+   

@@ -1,0 +1,6 @@
+pcdsdevices.gon.SamPhi.read
+===========================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: SamPhi.read

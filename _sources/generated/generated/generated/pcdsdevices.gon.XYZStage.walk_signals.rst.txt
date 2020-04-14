@@ -1,0 +1,6 @@
+pcdsdevices.gon.XYZStage.walk\_signals
+======================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: XYZStage.walk_signals

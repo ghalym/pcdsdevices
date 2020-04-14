@@ -1,0 +1,6 @@
+pcdsdevices.gon.BaseGon.wait\_for\_connection
+=============================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: BaseGon.wait_for_connection

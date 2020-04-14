@@ -1,0 +1,6 @@
+pcdsdevices.gon.XYZStage.get\_device\_tuple
+===========================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: XYZStage.get_device_tuple

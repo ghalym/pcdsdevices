@@ -1,0 +1,6 @@
+pcdsdevices.timetool.TimeToolWithNav.walk\_components
+=====================================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: TimeToolWithNav.walk_components

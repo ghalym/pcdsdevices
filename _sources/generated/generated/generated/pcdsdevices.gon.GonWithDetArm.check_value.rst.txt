@@ -1,0 +1,6 @@
+pcdsdevices.gon.GonWithDetArm.check\_value
+==========================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: GonWithDetArm.check_value

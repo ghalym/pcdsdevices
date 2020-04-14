@@ -1,0 +1,6 @@
+pcdsdevices.timetool.TimeToolWithNav.resume
+===========================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: TimeToolWithNav.resume

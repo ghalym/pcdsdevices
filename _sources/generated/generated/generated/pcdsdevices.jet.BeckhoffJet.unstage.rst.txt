@@ -1,0 +1,6 @@
+pcdsdevices.jet.BeckhoffJet.unstage
+===================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: BeckhoffJet.unstage

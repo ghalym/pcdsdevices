@@ -24,6 +24,7 @@ pcdsdevices.ipm.IPM\_IPIMB
       ~IPM_IPIMB.get
       ~IPM_IPIMB.get_device_tuple
       ~IPM_IPIMB.get_instantiated_signals
+      ~IPM_IPIMB.insert
       ~IPM_IPIMB.isum
       ~IPM_IPIMB.pause
       ~IPM_IPIMB.put
@@ -76,6 +77,7 @@ pcdsdevices.ipm.IPM\_IPIMB
       ~IPM_IPIMB.report
       ~IPM_IPIMB.root
       ~IPM_IPIMB.signal_names
+      ~IPM_IPIMB.tab_component_names
       ~IPM_IPIMB.tab_whitelist
       ~IPM_IPIMB.target
       ~IPM_IPIMB.transmission

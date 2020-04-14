@@ -1,0 +1,6 @@
+pcdsdevices.gon.Kappa.check\_value
+==================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: Kappa.check_value

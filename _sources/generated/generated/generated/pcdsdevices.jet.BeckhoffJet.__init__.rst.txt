@@ -1,0 +1,6 @@
+pcdsdevices.jet.BeckhoffJet.\_\_init\_\_
+========================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: BeckhoffJet.__init__

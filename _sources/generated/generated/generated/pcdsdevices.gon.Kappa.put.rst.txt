@@ -1,0 +1,6 @@
+pcdsdevices.gon.Kappa.put
+=========================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: Kappa.put

@@ -1,0 +1,6 @@
+pcdsdevices.gon.Kappa.pause
+===========================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: Kappa.pause

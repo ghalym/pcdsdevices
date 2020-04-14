@@ -1,0 +1,6 @@
+pcdsdevices.gon.Kappa.subscribe
+===============================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: Kappa.subscribe

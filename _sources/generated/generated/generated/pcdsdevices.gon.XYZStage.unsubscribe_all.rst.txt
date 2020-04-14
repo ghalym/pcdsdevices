@@ -1,0 +1,6 @@
+pcdsdevices.gon.XYZStage.unsubscribe\_all
+=========================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: XYZStage.unsubscribe_all

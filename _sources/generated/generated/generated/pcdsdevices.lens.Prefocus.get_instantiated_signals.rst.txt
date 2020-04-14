@@ -1,0 +1,6 @@
+pcdsdevices.lens.Prefocus.get\_instantiated\_signals
+====================================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: Prefocus.get_instantiated_signals

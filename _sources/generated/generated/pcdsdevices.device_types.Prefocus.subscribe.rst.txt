@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Prefocus.subscribe
+============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Prefocus.subscribe

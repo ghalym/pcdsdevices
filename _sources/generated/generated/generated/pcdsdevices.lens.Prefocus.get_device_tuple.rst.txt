@@ -1,0 +1,6 @@
+pcdsdevices.lens.Prefocus.get\_device\_tuple
+============================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: Prefocus.get_device_tuple

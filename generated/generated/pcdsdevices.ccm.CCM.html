@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ccm.CCM &mdash; PCDS Devices 2.4.0+19.g03ef19b documentation</title>
+  <title>pcdsdevices.ccm.CCM &mdash; PCDS Devices 2.4.0+54.gee106ac documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.4.0+19.g03ef19b
+                2.4.0+54.gee106ac
               </div>
             
           
@@ -164,9 +164,11 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.evr.html">pcdsdevices.evr</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.gon.html">pcdsdevices.gon</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.interface.html">pcdsdevices.interface</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.jet.html">pcdsdevices.jet</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.lodcm.html">pcdsdevices.lodcm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.mirror.html">pcdsdevices.mirror</a></li>
@@ -183,6 +185,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.sim.html">pcdsdevices.sim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.slits.html">pcdsdevices.slits</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.state.html">pcdsdevices.state</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.timetool.html">pcdsdevices.timetool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.utils.html">pcdsdevices.utils</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.valve.html">pcdsdevices.valve</a></li>
 </ul>
@@ -313,7 +316,7 @@ are all labelled accordingly.</p>
 <td><p>Given an integer or string value, return the proper state entry.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.insert.html#pcdsdevices.ccm.CCM.insert" title="pcdsdevices.ccm.CCM.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb, timeout, wait])</p></td>
-<td><p>Insert this device.</p></td>
+<td><p>Moves this device to the first state on the <a class="reference internal" href="pcdsdevices.inout.InOutPositioner.html#pcdsdevices.inout.InOutPositioner.in_states" title="pcdsdevices.inout.InOutPositioner.in_states"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">in_states</span></code></a> list.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.move.html#pcdsdevices.ccm.CCM.move" title="pcdsdevices.ccm.CCM.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, moved_cb, timeout, wait])</p></td>
 <td><p>Move to the desired state and return completion information.</p></td>
@@ -334,7 +337,7 @@ are all labelled accordingly.</p>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.remove.html#pcdsdevices.ccm.CCM.remove" title="pcdsdevices.ccm.CCM.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb, timeout, wait])</p></td>
-<td><p>Macro to move this device to the first state on the out_states list.</p></td>
+<td><p>Macro to move this device to the first state on the <a class="reference internal" href="pcdsdevices.inout.InOutPositioner.html#pcdsdevices.inout.InOutPositioner.out_states" title="pcdsdevices.inout.InOutPositioner.out_states"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">out_states</span></code></a> list.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.resume.html#pcdsdevices.ccm.CCM.resume" title="pcdsdevices.ccm.CCM.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>

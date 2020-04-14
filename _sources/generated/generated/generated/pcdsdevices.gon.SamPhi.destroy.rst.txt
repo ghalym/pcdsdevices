@@ -1,0 +1,6 @@
+pcdsdevices.gon.SamPhi.destroy
+==============================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: SamPhi.destroy

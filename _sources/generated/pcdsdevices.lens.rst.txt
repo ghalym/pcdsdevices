@@ -16,6 +16,7 @@ pcdsdevices.lens
    
       LensStack
       LensStackBase
+      Prefocus
       SimLensStack
       SimLensStackBase
       XFLS

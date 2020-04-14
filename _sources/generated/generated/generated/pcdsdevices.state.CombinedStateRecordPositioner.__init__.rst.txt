@@ -1,0 +1,6 @@
+pcdsdevices.state.CombinedStateRecordPositioner.\_\_init\_\_
+============================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: CombinedStateRecordPositioner.__init__

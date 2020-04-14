@@ -1,0 +1,6 @@
+pcdsdevices.gon.XYZStage.subscribe
+==================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: XYZStage.subscribe

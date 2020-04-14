@@ -1,0 +1,6 @@
+pcdsdevices.gon.XYZStage.pause
+==============================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: XYZStage.pause

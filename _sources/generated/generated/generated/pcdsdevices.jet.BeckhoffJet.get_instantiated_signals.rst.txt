@@ -1,0 +1,6 @@
+pcdsdevices.jet.BeckhoffJet.get\_instantiated\_signals
+======================================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: BeckhoffJet.get_instantiated_signals

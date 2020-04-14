@@ -1,0 +1,6 @@
+pcdsdevices.timetool.TimeToolWithNav.check\_value
+=================================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: TimeToolWithNav.check_value

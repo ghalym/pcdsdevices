@@ -1,0 +1,96 @@
+pcdsdevices.state.CombinedStateRecordPositioner
+===============================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. autoclass:: CombinedStateRecordPositioner
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~CombinedStateRecordPositioner.__init__
+      ~CombinedStateRecordPositioner.add_instantiation_callback
+      ~CombinedStateRecordPositioner.camonitor
+      ~CombinedStateRecordPositioner.check_value
+      ~CombinedStateRecordPositioner.clear_sub
+      ~CombinedStateRecordPositioner.configure
+      ~CombinedStateRecordPositioner.describe
+      ~CombinedStateRecordPositioner.describe_configuration
+      ~CombinedStateRecordPositioner.destroy
+      ~CombinedStateRecordPositioner.end_monitor_thread
+      ~CombinedStateRecordPositioner.get
+      ~CombinedStateRecordPositioner.get_device_tuple
+      ~CombinedStateRecordPositioner.get_instantiated_signals
+      ~CombinedStateRecordPositioner.get_state
+      ~CombinedStateRecordPositioner.move
+      ~CombinedStateRecordPositioner.mv
+      ~CombinedStateRecordPositioner.pause
+      ~CombinedStateRecordPositioner.put
+      ~CombinedStateRecordPositioner.read
+      ~CombinedStateRecordPositioner.read_configuration
+      ~CombinedStateRecordPositioner.resume
+      ~CombinedStateRecordPositioner.set
+      ~CombinedStateRecordPositioner.stage
+      ~CombinedStateRecordPositioner.stop
+      ~CombinedStateRecordPositioner.subscribe
+      ~CombinedStateRecordPositioner.summary
+      ~CombinedStateRecordPositioner.trigger
+      ~CombinedStateRecordPositioner.unstage
+      ~CombinedStateRecordPositioner.unsubscribe
+      ~CombinedStateRecordPositioner.unsubscribe_all
+      ~CombinedStateRecordPositioner.wait_for_connection
+      ~CombinedStateRecordPositioner.walk_components
+      ~CombinedStateRecordPositioner.walk_signals
+      ~CombinedStateRecordPositioner.walk_subdevice_classes
+      ~CombinedStateRecordPositioner.walk_subdevices
+      ~CombinedStateRecordPositioner.wm
+      ~CombinedStateRecordPositioner.wm_update
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~CombinedStateRecordPositioner.SUB_ACQ_DONE
+      ~CombinedStateRecordPositioner.SUB_DONE
+      ~CombinedStateRecordPositioner.SUB_READBACK
+      ~CombinedStateRecordPositioner.SUB_START
+      ~CombinedStateRecordPositioner.SUB_STATE
+      ~CombinedStateRecordPositioner.attr_name
+      ~CombinedStateRecordPositioner.component_names
+      ~CombinedStateRecordPositioner.configuration_attrs
+      ~CombinedStateRecordPositioner.connected
+      ~CombinedStateRecordPositioner.dotted_name
+      ~CombinedStateRecordPositioner.egu
+      ~CombinedStateRecordPositioner.event_types
+      ~CombinedStateRecordPositioner.high_limit
+      ~CombinedStateRecordPositioner.hints
+      ~CombinedStateRecordPositioner.kind
+      ~CombinedStateRecordPositioner.lazy_wait_for_connection
+      ~CombinedStateRecordPositioner.limits
+      ~CombinedStateRecordPositioner.low_limit
+      ~CombinedStateRecordPositioner.moving
+      ~CombinedStateRecordPositioner.name
+      ~CombinedStateRecordPositioner.parent
+      ~CombinedStateRecordPositioner.position
+      ~CombinedStateRecordPositioner.read_attrs
+      ~CombinedStateRecordPositioner.report
+      ~CombinedStateRecordPositioner.root
+      ~CombinedStateRecordPositioner.settle_time
+      ~CombinedStateRecordPositioner.signal_names
+      ~CombinedStateRecordPositioner.state
+      ~CombinedStateRecordPositioner.states_list
+      ~CombinedStateRecordPositioner.tab_whitelist
+      ~CombinedStateRecordPositioner.timeout
+      ~CombinedStateRecordPositioner.trigger_signals
+      ~CombinedStateRecordPositioner.x_motor
+      ~CombinedStateRecordPositioner.y_motor
+   
+   

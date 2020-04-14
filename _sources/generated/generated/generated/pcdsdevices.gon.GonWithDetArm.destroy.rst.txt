@@ -1,0 +1,6 @@
+pcdsdevices.gon.GonWithDetArm.destroy
+=====================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: GonWithDetArm.destroy

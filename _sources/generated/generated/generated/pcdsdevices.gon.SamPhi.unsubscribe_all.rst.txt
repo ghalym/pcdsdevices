@@ -1,0 +1,6 @@
+pcdsdevices.gon.SamPhi.unsubscribe\_all
+=======================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: SamPhi.unsubscribe_all

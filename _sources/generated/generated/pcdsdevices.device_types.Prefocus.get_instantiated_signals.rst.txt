@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Prefocus.get\_instantiated\_signals
+=============================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Prefocus.get_instantiated_signals

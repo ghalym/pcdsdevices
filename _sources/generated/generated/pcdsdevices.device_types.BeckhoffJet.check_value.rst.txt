@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.BeckhoffJet.check\_value
+==================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: BeckhoffJet.check_value

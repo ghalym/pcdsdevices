@@ -70,6 +70,8 @@ pcdsdevices.ipm.IPIMBChannel
       ~IPIMBChannel.root
       ~IPIMBChannel.scale
       ~IPIMBChannel.signal_names
+      ~IPIMBChannel.tab_component_names
+      ~IPIMBChannel.tab_whitelist
       ~IPIMBChannel.trigger_signals
    
    

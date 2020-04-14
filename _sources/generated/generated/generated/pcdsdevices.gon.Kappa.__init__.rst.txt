@@ -1,0 +1,6 @@
+pcdsdevices.gon.Kappa.\_\_init\_\_
+==================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: Kappa.__init__

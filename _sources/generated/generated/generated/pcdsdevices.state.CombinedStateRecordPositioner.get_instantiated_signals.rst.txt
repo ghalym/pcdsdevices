@@ -1,0 +1,6 @@
+pcdsdevices.state.CombinedStateRecordPositioner.get\_instantiated\_signals
+==========================================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: CombinedStateRecordPositioner.get_instantiated_signals

@@ -1,0 +1,6 @@
+pcdsdevices.gon.XYZStage.\_\_init\_\_
+=====================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: XYZStage.__init__

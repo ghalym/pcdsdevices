@@ -1,0 +1,6 @@
+pcdsdevices.jet.BeckhoffJetSlits.add\_instantiation\_callback
+=============================================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: BeckhoffJetSlits.add_instantiation_callback

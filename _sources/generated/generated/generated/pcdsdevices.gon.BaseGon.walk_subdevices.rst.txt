@@ -1,0 +1,6 @@
+pcdsdevices.gon.BaseGon.walk\_subdevices
+========================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: BaseGon.walk_subdevices

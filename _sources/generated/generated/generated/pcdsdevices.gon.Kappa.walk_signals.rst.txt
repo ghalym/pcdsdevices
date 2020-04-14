@@ -1,0 +1,6 @@
+pcdsdevices.gon.Kappa.walk\_signals
+===================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: Kappa.walk_signals

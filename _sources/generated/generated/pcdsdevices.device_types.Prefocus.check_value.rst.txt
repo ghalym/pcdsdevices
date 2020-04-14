@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Prefocus.check\_value
+===============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Prefocus.check_value

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ipm.IPM_Wave8 &mdash; PCDS Devices 2.4.0+19.g03ef19b documentation</title>
+  <title>pcdsdevices.ipm.IPM_Wave8 &mdash; PCDS Devices 2.4.0+54.gee106ac documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.4.0+19.g03ef19b
+                2.4.0+54.gee106ac
               </div>
             
           
@@ -110,6 +110,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.evr.html">pcdsdevices.evr</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.gon.html">pcdsdevices.gon</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.interface.html">pcdsdevices.interface</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.ipm.html">pcdsdevices.ipm</a><ul class="current">
@@ -134,6 +135,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.get.html">pcdsdevices.ipm.IPM_Wave8.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.get_device_tuple.html">pcdsdevices.ipm.IPM_Wave8.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.get_instantiated_signals.html">pcdsdevices.ipm.IPM_Wave8.get_instantiated_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.insert.html">pcdsdevices.ipm.IPM_Wave8.insert</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.isum.html">pcdsdevices.ipm.IPM_Wave8.isum</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.pause.html">pcdsdevices.ipm.IPM_Wave8.pause</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.put.html">pcdsdevices.ipm.IPM_Wave8.put</a></li>
@@ -162,6 +164,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.ipm.Wave8Channel.html">pcdsdevices.ipm.Wave8Channel</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.jet.html">pcdsdevices.jet</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.lodcm.html">pcdsdevices.lodcm</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.mirror.html">pcdsdevices.mirror</a></li>
@@ -178,6 +181,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.sim.html">pcdsdevices.sim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.slits.html">pcdsdevices.slits</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.state.html">pcdsdevices.state</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.timetool.html">pcdsdevices.timetool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.utils.html">pcdsdevices.utils</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.valve.html">pcdsdevices.valve</a></li>
 </ul>
@@ -270,7 +274,7 @@ this class. This can easily be controlled using <code class="docutils literal no
 <li><p><strong>prefix</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – The EPICS PV prefix for this motor.</p></li>
 <li><p><strong>name</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>, required keyword) – An identifying name for this motor.</p></li>
 <li><p><strong>settle_time</strong> (<code class="docutils literal notranslate"><span class="pre">float</span></code>, optional) – The amount of extra time to wait before interpreting a move as done</p></li>
-<li><p><strong>float</strong><strong>, </strong><strong>optional</strong> (<em>timeout</em>) – The amount of time to wait before automatically marking a long
+<li><p><strong>timeout</strong> (<code class="docutils literal notranslate"><span class="pre">float</span></code>, optional) – The amount of time to wait before automatically marking a long
 in-progress move as failed.</p></li>
 </ul>
 </dd>
@@ -297,7 +301,7 @@ in-progress move as failed.</p></li>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.clear_sub.html#pcdsdevices.ipm.IPM_Wave8.clear_sub" title="pcdsdevices.ipm.IPM_Wave8.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
 <td><p>Remove a subscription, given the original callback function</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.configure.html#pcdsdevices.ipm.IPM_Wave8.configure" title="pcdsdevices.ipm.IPM_Wave8.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.configure.html#pcdsdevices.ipm.IPM_Wave8.configure" title="pcdsdevices.ipm.IPM_Wave8.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>()</p></td>
 <td><p>Configure the device for something during a run</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.describe.html#pcdsdevices.ipm.IPM_Wave8.describe" title="pcdsdevices.ipm.IPM_Wave8.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
@@ -318,70 +322,73 @@ in-progress move as failed.</p></li>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.get_instantiated_signals.html#pcdsdevices.ipm.IPM_Wave8.get_instantiated_signals" title="pcdsdevices.ipm.IPM_Wave8.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.isum.html#pcdsdevices.ipm.IPM_Wave8.isum" title="pcdsdevices.ipm.IPM_Wave8.isum"><code class="xref py py-obj docutils literal notranslate"><span class="pre">isum</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.insert.html#pcdsdevices.ipm.IPM_Wave8.insert" title="pcdsdevices.ipm.IPM_Wave8.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb, timeout, wait])</p></td>
+<td><p>Move both the target and diode in</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.isum.html#pcdsdevices.ipm.IPM_Wave8.isum" title="pcdsdevices.ipm.IPM_Wave8.isum"><code class="xref py py-obj docutils literal notranslate"><span class="pre">isum</span></code></a>()</p></td>
 <td><p>Returns the detector’s isum value.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.pause.html#pcdsdevices.ipm.IPM_Wave8.pause" title="pcdsdevices.ipm.IPM_Wave8.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.pause.html#pcdsdevices.ipm.IPM_Wave8.pause" title="pcdsdevices.ipm.IPM_Wave8.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
 <td><p>Attempt to ‘pause’ the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.put.html#pcdsdevices.ipm.IPM_Wave8.put" title="pcdsdevices.ipm.IPM_Wave8.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.put.html#pcdsdevices.ipm.IPM_Wave8.put" title="pcdsdevices.ipm.IPM_Wave8.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
 <td><p>Put a value to all components of the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.read.html#pcdsdevices.ipm.IPM_Wave8.read" title="pcdsdevices.ipm.IPM_Wave8.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.read.html#pcdsdevices.ipm.IPM_Wave8.read" title="pcdsdevices.ipm.IPM_Wave8.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
 <td><p>Read data from the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.read_configuration.html#pcdsdevices.ipm.IPM_Wave8.read_configuration" title="pcdsdevices.ipm.IPM_Wave8.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.read_configuration.html#pcdsdevices.ipm.IPM_Wave8.read_configuration" title="pcdsdevices.ipm.IPM_Wave8.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.remove.html#pcdsdevices.ipm.IPM_Wave8.remove" title="pcdsdevices.ipm.IPM_Wave8.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb, timeout, wait])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.remove.html#pcdsdevices.ipm.IPM_Wave8.remove" title="pcdsdevices.ipm.IPM_Wave8.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb, timeout, wait])</p></td>
 <td><p>Moves the target out of the beam and removes the diode if it is in an unknown state</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.resume.html#pcdsdevices.ipm.IPM_Wave8.resume" title="pcdsdevices.ipm.IPM_Wave8.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.resume.html#pcdsdevices.ipm.IPM_Wave8.resume" title="pcdsdevices.ipm.IPM_Wave8.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.stage.html#pcdsdevices.ipm.IPM_Wave8.stage" title="pcdsdevices.ipm.IPM_Wave8.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.stage.html#pcdsdevices.ipm.IPM_Wave8.stage" title="pcdsdevices.ipm.IPM_Wave8.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
 <td><p>Stage the device for data collection.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.stop.html#pcdsdevices.ipm.IPM_Wave8.stop" title="pcdsdevices.ipm.IPM_Wave8.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.stop.html#pcdsdevices.ipm.IPM_Wave8.stop" title="pcdsdevices.ipm.IPM_Wave8.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.subscribe.html#pcdsdevices.ipm.IPM_Wave8.subscribe" title="pcdsdevices.ipm.IPM_Wave8.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(callback[, event_type, run])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.subscribe.html#pcdsdevices.ipm.IPM_Wave8.subscribe" title="pcdsdevices.ipm.IPM_Wave8.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(callback[, event_type, run])</p></td>
 <td><p>Subscribe to events this event_type generates.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.summary.html#pcdsdevices.ipm.IPM_Wave8.summary" title="pcdsdevices.ipm.IPM_Wave8.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.summary.html#pcdsdevices.ipm.IPM_Wave8.summary" title="pcdsdevices.ipm.IPM_Wave8.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.trigger.html#pcdsdevices.ipm.IPM_Wave8.trigger" title="pcdsdevices.ipm.IPM_Wave8.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.trigger.html#pcdsdevices.ipm.IPM_Wave8.trigger" title="pcdsdevices.ipm.IPM_Wave8.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.unstage.html#pcdsdevices.ipm.IPM_Wave8.unstage" title="pcdsdevices.ipm.IPM_Wave8.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.unstage.html#pcdsdevices.ipm.IPM_Wave8.unstage" title="pcdsdevices.ipm.IPM_Wave8.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</p></td>
 <td><p>Unstage the device.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.unsubscribe.html#pcdsdevices.ipm.IPM_Wave8.unsubscribe" title="pcdsdevices.ipm.IPM_Wave8.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.unsubscribe.html#pcdsdevices.ipm.IPM_Wave8.unsubscribe" title="pcdsdevices.ipm.IPM_Wave8.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</p></td>
 <td><p>Remove a subscription</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.unsubscribe_all.html#pcdsdevices.ipm.IPM_Wave8.unsubscribe_all" title="pcdsdevices.ipm.IPM_Wave8.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.unsubscribe_all.html#pcdsdevices.ipm.IPM_Wave8.unsubscribe_all" title="pcdsdevices.ipm.IPM_Wave8.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.wait_for_connection.html#pcdsdevices.ipm.IPM_Wave8.wait_for_connection" title="pcdsdevices.ipm.IPM_Wave8.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals, timeout])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.wait_for_connection.html#pcdsdevices.ipm.IPM_Wave8.wait_for_connection" title="pcdsdevices.ipm.IPM_Wave8.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals, timeout])</p></td>
 <td><p>Wait for signals to connect</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.walk_components.html#pcdsdevices.ipm.IPM_Wave8.walk_components" title="pcdsdevices.ipm.IPM_Wave8.walk_components"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_components</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.walk_components.html#pcdsdevices.ipm.IPM_Wave8.walk_components" title="pcdsdevices.ipm.IPM_Wave8.walk_components"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_components</span></code></a>()</p></td>
 <td><p>Walk all components in the Device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.walk_signals.html#pcdsdevices.ipm.IPM_Wave8.walk_signals" title="pcdsdevices.ipm.IPM_Wave8.walk_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_signals</span></code></a>(*[, include_lazy])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.walk_signals.html#pcdsdevices.ipm.IPM_Wave8.walk_signals" title="pcdsdevices.ipm.IPM_Wave8.walk_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_signals</span></code></a>(*[, include_lazy])</p></td>
 <td><p>Walk all signals in the Device hierarchy</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.walk_subdevice_classes.html#pcdsdevices.ipm.IPM_Wave8.walk_subdevice_classes" title="pcdsdevices.ipm.IPM_Wave8.walk_subdevice_classes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevice_classes</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.walk_subdevice_classes.html#pcdsdevices.ipm.IPM_Wave8.walk_subdevice_classes" title="pcdsdevices.ipm.IPM_Wave8.walk_subdevice_classes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevice_classes</span></code></a>()</p></td>
 <td><p>Walk all sub-Devices classes in the Device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.walk_subdevices.html#pcdsdevices.ipm.IPM_Wave8.walk_subdevices" title="pcdsdevices.ipm.IPM_Wave8.walk_subdevices"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevices</span></code></a>(*[, include_lazy])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.walk_subdevices.html#pcdsdevices.ipm.IPM_Wave8.walk_subdevices" title="pcdsdevices.ipm.IPM_Wave8.walk_subdevices"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevices</span></code></a>(*[, include_lazy])</p></td>
 <td><p>Walk all sub-Devices in the hierarchy</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.xpos.html#pcdsdevices.ipm.IPM_Wave8.xpos" title="pcdsdevices.ipm.IPM_Wave8.xpos"><code class="xref py py-obj docutils literal notranslate"><span class="pre">xpos</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.xpos.html#pcdsdevices.ipm.IPM_Wave8.xpos" title="pcdsdevices.ipm.IPM_Wave8.xpos"><code class="xref py py-obj docutils literal notranslate"><span class="pre">xpos</span></code></a>()</p></td>
 <td><p>Returns the detector’s xpos value.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.ypos.html#pcdsdevices.ipm.IPM_Wave8.ypos" title="pcdsdevices.ipm.IPM_Wave8.ypos"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ypos</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_Wave8.ypos.html#pcdsdevices.ipm.IPM_Wave8.ypos" title="pcdsdevices.ipm.IPM_Wave8.ypos"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ypos</span></code></a>()</p></td>
 <td><p>Returns the detector’s ypos value.</p></td>
 </tr>
 </tbody>
@@ -453,19 +460,22 @@ in-progress move as failed.</p></li>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tab_whitelist</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tab_component_names</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">target</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tab_whitelist</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">target</span></code></p></td>
 <td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">transmission</span></code></p></td>
-<td><p>Returns the target’s transmission value.</p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">transmission</span></code></p></td>
+<td><p>Returns the combined transmission value of the target and diode</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">wave8</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">wave8</span></code></p></td>
 <td><p>A Component which takes a dynamic format string</p></td>
 </tr>
 </tbody>

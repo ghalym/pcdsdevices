@@ -1,0 +1,6 @@
+pcdsdevices.lens.Prefocus.resume
+================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: Prefocus.resume
