@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.signal.PytmcSignal &mdash; PCDS Devices 2.5.0+6.g6dd968b documentation</title>
+  <title>pcdsdevices.signal.PytmcSignal &mdash; PCDS Devices 2.5.0+15.gcd9c46b documentation</title>
   
 
   
@@ -36,7 +36,7 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="pcdsdevices.signal.PytmcSignal.__init__" href="generated/pcdsdevices.signal.PytmcSignal.__init__.html" />
-    <link rel="prev" title="pcdsdevices.signal.AvgSignal.wait_for_connection" href="generated/pcdsdevices.signal.AvgSignal.wait_for_connection.html" /> 
+    <link rel="prev" title="pcdsdevices.signal.FakePytmcSignalRW.wait_for_connection" href="generated/pcdsdevices.signal.FakePytmcSignalRW.wait_for_connection.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+6.g6dd968b
+                2.5.0+15.gcd9c46b
               </div>
             
           
@@ -128,8 +128,13 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.sensors.html">pcdsdevices.sensors</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.sequencer.html">pcdsdevices.sequencer</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.signal.html">pcdsdevices.signal</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.signal.pytmc_writable.html">pcdsdevices.signal.pytmc_writable</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.signal.select_pytmc_class.html">pcdsdevices.signal.select_pytmc_class</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.signal.AggregateSignal.html">pcdsdevices.signal.AggregateSignal</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.signal.AvgSignal.html">pcdsdevices.signal.AvgSignal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.signal.FakePytmcSignal.html">pcdsdevices.signal.FakePytmcSignal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.signal.FakePytmcSignalRO.html">pcdsdevices.signal.FakePytmcSignalRO</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.signal.FakePytmcSignalRW.html">pcdsdevices.signal.FakePytmcSignalRW</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.signal.PytmcSignal</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignal.__init__.html">pcdsdevices.signal.PytmcSignal.__init__</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignal.add_instantiation_callback.html">pcdsdevices.signal.PytmcSignal.add_instantiation_callback</a></li>
@@ -235,7 +240,7 @@
 <h1>pcdsdevices.signal.PytmcSignal<a class="headerlink" href="#pcdsdevices-signal-pytmcsignal" title="Permalink to this headline">¶</a></h1>
 <dl class="py class">
 <dt id="pcdsdevices.signal.PytmcSignal">
-<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.signal.</code><code class="sig-name descname">PytmcSignal</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prefix</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">io</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.signal.PytmcSignal" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.signal.</code><code class="sig-name descname">PytmcSignal</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prefix</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">io</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.signal.PytmcSignal" title="Permalink to this definition">¶</a></dt>
 <dd><p>Class for a connection to a pytmc-generated EPICS record.</p>
 <p>This uses the same args as the pragma, so you can refer to the pytmc
 pragmas to select args for your components. This will automatically append
@@ -420,7 +425,7 @@ depending on your io argument.</p>
         <a href="generated/pcdsdevices.signal.PytmcSignal.__init__.html" class="btn btn-neutral float-right" title="pcdsdevices.signal.PytmcSignal.__init__" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="generated/pcdsdevices.signal.AvgSignal.wait_for_connection.html" class="btn btn-neutral float-left" title="pcdsdevices.signal.AvgSignal.wait_for_connection" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="generated/pcdsdevices.signal.FakePytmcSignalRW.wait_for_connection.html" class="btn btn-neutral float-left" title="pcdsdevices.signal.FakePytmcSignalRW.wait_for_connection" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

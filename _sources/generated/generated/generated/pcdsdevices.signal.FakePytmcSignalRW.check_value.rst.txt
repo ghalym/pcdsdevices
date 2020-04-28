@@ -1,0 +1,6 @@
+pcdsdevices.signal.FakePytmcSignalRW.check\_value
+=================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: FakePytmcSignalRW.check_value

@@ -1,0 +1,6 @@
+pcdsdevices.signal.FakePytmcSignalRO.add\_instantiation\_callback
+=================================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: FakePytmcSignalRO.add_instantiation_callback

@@ -1,0 +1,6 @@
+pcdsdevices.signal.FakePytmcSignalRO.sim\_set\_func
+===================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: FakePytmcSignalRO.sim_set_func

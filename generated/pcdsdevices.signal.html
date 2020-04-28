@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.signal &mdash; PCDS Devices 2.5.0+6.g6dd968b documentation</title>
+  <title>pcdsdevices.signal &mdash; PCDS Devices 2.5.0+15.gcd9c46b documentation</title>
   
 
   
@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="pcdsdevices.signal.AggregateSignal" href="generated/pcdsdevices.signal.AggregateSignal.html" />
+    <link rel="next" title="pcdsdevices.signal.pytmc_writable" href="generated/pcdsdevices.signal.pytmc_writable.html" />
     <link rel="prev" title="pcdsdevices.sequencer.EventSequencer.walk_subdevices" href="generated/generated/pcdsdevices.sequencer.EventSequencer.walk_subdevices.html" /> 
 </head>
 
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+6.g6dd968b
+                2.5.0+15.gcd9c46b
               </div>
             
           
@@ -128,8 +128,13 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.sensors.html">pcdsdevices.sensors</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.sequencer.html">pcdsdevices.sequencer</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">pcdsdevices.signal</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.pytmc_writable.html">pcdsdevices.signal.pytmc_writable</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.select_pytmc_class.html">pcdsdevices.signal.select_pytmc_class</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.html">pcdsdevices.signal.AggregateSignal</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.html">pcdsdevices.signal.AvgSignal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.FakePytmcSignal.html">pcdsdevices.signal.FakePytmcSignal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.FakePytmcSignalRO.html">pcdsdevices.signal.FakePytmcSignalRO</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.FakePytmcSignalRW.html">pcdsdevices.signal.FakePytmcSignalRW</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignal.html">pcdsdevices.signal.PytmcSignal</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignalRO.html">pcdsdevices.signal.PytmcSignalRO</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignalRW.html">pcdsdevices.signal.PytmcSignalRW</a></li>
@@ -212,6 +217,21 @@
   <div class="section" id="module-pcdsdevices.signal">
 <span id="pcdsdevices-signal"></span><h1>pcdsdevices.signal<a class="headerlink" href="#module-pcdsdevices.signal" title="Permalink to this headline">¶</a></h1>
 <p>Module to define ophyd Signal subclass utilities.</p>
+<p class="rubric">Functions</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.pytmc_writable.html#pcdsdevices.signal.pytmc_writable" title="pcdsdevices.signal.pytmc_writable"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pytmc_writable</span></code></a>(io)</p></td>
+<td><p>Returns True if the pytmc io arg represents a writable PV.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.select_pytmc_class.html#pcdsdevices.signal.select_pytmc_class" title="pcdsdevices.signal.select_pytmc_class"><code class="xref py py-obj docutils literal notranslate"><span class="pre">select_pytmc_class</span></code></a>([io])</p></td>
+<td><p>Return the class to use for PytmcSignal’s constructor.</p></td>
+</tr>
+</tbody>
+</table>
 <p class="rubric">Classes</p>
 <table class="longtable docutils align-default">
 <colgroup>
@@ -225,14 +245,23 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.html#pcdsdevices.signal.AvgSignal" title="pcdsdevices.signal.AvgSignal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AvgSignal</span></code></a>(signal, averages, *, name[, parent])</p></td>
 <td><p>Signal that acts as a rolling average of another signal.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignal.html#pcdsdevices.signal.PytmcSignal" title="pcdsdevices.signal.PytmcSignal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PytmcSignal</span></code></a>(prefix, *, io, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.FakePytmcSignal.html#pcdsdevices.signal.FakePytmcSignal" title="pcdsdevices.signal.FakePytmcSignal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FakePytmcSignal</span></code></a>(prefix[, io])</p></td>
+<td><p>A suitable fake class for PytmcSignal.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.FakePytmcSignalRO.html#pcdsdevices.signal.FakePytmcSignalRO" title="pcdsdevices.signal.FakePytmcSignalRO"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FakePytmcSignalRO</span></code></a>(prefix[, io])</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.FakePytmcSignalRW.html#pcdsdevices.signal.FakePytmcSignalRW" title="pcdsdevices.signal.FakePytmcSignalRW"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FakePytmcSignalRW</span></code></a>(prefix, **kwargs)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignal.html#pcdsdevices.signal.PytmcSignal" title="pcdsdevices.signal.PytmcSignal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PytmcSignal</span></code></a>(prefix, *, io, **kwargs)</p></td>
 <td><p>Class for a connection to a pytmc-generated EPICS record.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignalRO.html#pcdsdevices.signal.PytmcSignalRO" title="pcdsdevices.signal.PytmcSignalRO"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PytmcSignalRO</span></code></a>(prefix, *, io, **kwargs)</p></td>
-<td><p>Read-only connection to a pytmc-generated EPICS record</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignalRO.html#pcdsdevices.signal.PytmcSignalRO" title="pcdsdevices.signal.PytmcSignalRO"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PytmcSignalRO</span></code></a>(prefix, *, io, **kwargs)</p></td>
+<td><p>Read-only connection to a pytmc-generated EPICS record.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignalRW.html#pcdsdevices.signal.PytmcSignalRW" title="pcdsdevices.signal.PytmcSignalRW"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PytmcSignalRW</span></code></a>(prefix, **kwargs)</p></td>
-<td><p>Read-write connection to a pytmc-generated EPICS record</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignalRW.html#pcdsdevices.signal.PytmcSignalRW" title="pcdsdevices.signal.PytmcSignalRW"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PytmcSignalRW</span></code></a>(prefix, **kwargs)</p></td>
+<td><p>Read-write connection to a pytmc-generated EPICS record.</p></td>
 </tr>
 </tbody>
 </table>
@@ -246,7 +275,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="generated/pcdsdevices.signal.AggregateSignal.html" class="btn btn-neutral float-right" title="pcdsdevices.signal.AggregateSignal" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="generated/pcdsdevices.signal.pytmc_writable.html" class="btn btn-neutral float-right" title="pcdsdevices.signal.pytmc_writable" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="generated/generated/pcdsdevices.sequencer.EventSequencer.walk_subdevices.html" class="btn btn-neutral float-left" title="pcdsdevices.sequencer.EventSequencer.walk_subdevices" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

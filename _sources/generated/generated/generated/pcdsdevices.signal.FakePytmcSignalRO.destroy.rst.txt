@@ -1,0 +1,6 @@
+pcdsdevices.signal.FakePytmcSignalRO.destroy
+============================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: FakePytmcSignalRO.destroy

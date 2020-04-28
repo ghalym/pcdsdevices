@@ -1,0 +1,6 @@
+pcdsdevices.signal.FakePytmcSignal.wait\_for\_connection
+========================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: FakePytmcSignal.wait_for_connection

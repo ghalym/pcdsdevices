@@ -1,0 +1,6 @@
+pcdsdevices.signal.FakePytmcSignalRW.unsubscribe\_all
+=====================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: FakePytmcSignalRW.unsubscribe_all

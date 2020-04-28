@@ -1,0 +1,6 @@
+pcdsdevices.signal.FakePytmcSignalRW.\_\_init\_\_
+=================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: FakePytmcSignalRW.__init__

@@ -1,0 +1,70 @@
+pcdsdevices.signal.FakePytmcSignal
+==================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. autoclass:: FakePytmcSignal
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~FakePytmcSignal.__init__
+      ~FakePytmcSignal.add_instantiation_callback
+      ~FakePytmcSignal.check_value
+      ~FakePytmcSignal.clear_sub
+      ~FakePytmcSignal.describe
+      ~FakePytmcSignal.describe_configuration
+      ~FakePytmcSignal.destroy
+      ~FakePytmcSignal.get
+      ~FakePytmcSignal.put
+      ~FakePytmcSignal.read
+      ~FakePytmcSignal.read_configuration
+      ~FakePytmcSignal.set
+      ~FakePytmcSignal.sim_put
+      ~FakePytmcSignal.sim_set_enum_strs
+      ~FakePytmcSignal.sim_set_func
+      ~FakePytmcSignal.sim_set_limits
+      ~FakePytmcSignal.sim_set_putter
+      ~FakePytmcSignal.subscribe
+      ~FakePytmcSignal.trigger
+      ~FakePytmcSignal.unsubscribe
+      ~FakePytmcSignal.unsubscribe_all
+      ~FakePytmcSignal.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~FakePytmcSignal.SUB_META
+      ~FakePytmcSignal.SUB_VALUE
+      ~FakePytmcSignal.attr_name
+      ~FakePytmcSignal.connected
+      ~FakePytmcSignal.dotted_name
+      ~FakePytmcSignal.enum_strs
+      ~FakePytmcSignal.event_types
+      ~FakePytmcSignal.high_limit
+      ~FakePytmcSignal.hints
+      ~FakePytmcSignal.kind
+      ~FakePytmcSignal.limits
+      ~FakePytmcSignal.low_limit
+      ~FakePytmcSignal.metadata
+      ~FakePytmcSignal.metadata_keys
+      ~FakePytmcSignal.name
+      ~FakePytmcSignal.parent
+      ~FakePytmcSignal.read_access
+      ~FakePytmcSignal.report
+      ~FakePytmcSignal.root
+      ~FakePytmcSignal.timestamp
+      ~FakePytmcSignal.tolerance
+      ~FakePytmcSignal.value
+      ~FakePytmcSignal.write_access
+   
+   

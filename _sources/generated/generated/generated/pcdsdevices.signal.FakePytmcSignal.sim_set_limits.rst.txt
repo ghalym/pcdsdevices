@@ -1,0 +1,6 @@
+pcdsdevices.signal.FakePytmcSignal.sim\_set\_limits
+===================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: FakePytmcSignal.sim_set_limits

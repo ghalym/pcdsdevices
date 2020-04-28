@@ -1,0 +1,6 @@
+pcdsdevices.signal.FakePytmcSignalRO.subscribe
+==============================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: FakePytmcSignalRO.subscribe
