@@ -79,5 +79,6 @@ pcdsdevices.signal.PytmcSignalRW
       ~PytmcSignalRW.use_limits
       ~PytmcSignalRW.value
       ~PytmcSignalRW.write_access
+      ~PytmcSignalRW.write_timeout
    
    

@@ -23,6 +23,7 @@ pcdsdevices.device\_types.EpicsMotor
       ~EpicsMotor.get
       ~EpicsMotor.get_device_tuple
       ~EpicsMotor.get_instantiated_signals
+      ~EpicsMotor.get_lim
       ~EpicsMotor.home
       ~EpicsMotor.move
       ~EpicsMotor.pause
@@ -32,6 +33,7 @@ pcdsdevices.device\_types.EpicsMotor
       ~EpicsMotor.resume
       ~EpicsMotor.set
       ~EpicsMotor.set_current_position
+      ~EpicsMotor.set_lim
       ~EpicsMotor.stage
       ~EpicsMotor.stop
       ~EpicsMotor.subscribe
@@ -69,6 +71,7 @@ pcdsdevices.device\_types.EpicsMotor
       ~EpicsMotor.event_types
       ~EpicsMotor.high_limit
       ~EpicsMotor.high_limit_switch
+      ~EpicsMotor.high_limit_travel
       ~EpicsMotor.hints
       ~EpicsMotor.home_forward
       ~EpicsMotor.home_reverse
@@ -77,6 +80,7 @@ pcdsdevices.device\_types.EpicsMotor
       ~EpicsMotor.limits
       ~EpicsMotor.low_limit
       ~EpicsMotor.low_limit_switch
+      ~EpicsMotor.low_limit_travel
       ~EpicsMotor.motor_done_move
       ~EpicsMotor.motor_egu
       ~EpicsMotor.motor_is_moving

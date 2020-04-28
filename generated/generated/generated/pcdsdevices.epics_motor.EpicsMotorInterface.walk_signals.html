@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.epics_motor.EpicsMotorInterface.walk_signals &mdash; PCDS Devices 2.5.0+15.gcd9c46b documentation</title>
+  <title>pcdsdevices.epics_motor.EpicsMotorInterface.walk_signals &mdash; PCDS Devices 2.5.0+18.gf153abe documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+15.gcd9c46b
+                2.5.0+18.gf153abe
               </div>
             
           
@@ -128,6 +128,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.EpicsMotorInterface.get.html">pcdsdevices.epics_motor.EpicsMotorInterface.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.EpicsMotorInterface.get_device_tuple.html">pcdsdevices.epics_motor.EpicsMotorInterface.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.EpicsMotorInterface.get_instantiated_signals.html">pcdsdevices.epics_motor.EpicsMotorInterface.get_instantiated_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.EpicsMotorInterface.get_lim.html">pcdsdevices.epics_motor.EpicsMotorInterface.get_lim</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.EpicsMotorInterface.home.html">pcdsdevices.epics_motor.EpicsMotorInterface.home</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.EpicsMotorInterface.move.html">pcdsdevices.epics_motor.EpicsMotorInterface.move</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.EpicsMotorInterface.mv.html">pcdsdevices.epics_motor.EpicsMotorInterface.mv</a></li>
@@ -140,6 +141,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.EpicsMotorInterface.resume.html">pcdsdevices.epics_motor.EpicsMotorInterface.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.EpicsMotorInterface.set.html">pcdsdevices.epics_motor.EpicsMotorInterface.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.EpicsMotorInterface.set_current_position.html">pcdsdevices.epics_motor.EpicsMotorInterface.set_current_position</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.EpicsMotorInterface.set_lim.html">pcdsdevices.epics_motor.EpicsMotorInterface.set_lim</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.EpicsMotorInterface.stage.html">pcdsdevices.epics_motor.EpicsMotorInterface.stage</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.EpicsMotorInterface.stop.html">pcdsdevices.epics_motor.EpicsMotorInterface.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.EpicsMotorInterface.subscribe.html">pcdsdevices.epics_motor.EpicsMotorInterface.subscribe</a></li>
@@ -271,6 +273,8 @@
 <dt id="pcdsdevices.epics_motor.EpicsMotorInterface.walk_signals">
 <code class="sig-prename descclassname">EpicsMotorInterface.</code><code class="sig-name descname">walk_signals</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">include_lazy</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.epics_motor.EpicsMotorInterface.walk_signals" title="Permalink to this definition">¶</a></dt>
 <dd><p>Walk all signals in the Device hierarchy</p>
+<p>EXPERIMENTAL: This method is experimental, and there are tentative
+plans to change its API in a way that may not be backward-compatible.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><p><strong>include_lazy</strong> (<em>bool</em><em>, </em><em>optional</em>) – Include not-yet-instantiated lazy signals</p>

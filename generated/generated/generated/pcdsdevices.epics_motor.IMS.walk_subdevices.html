@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.epics_motor.IMS.walk_subdevices &mdash; PCDS Devices 2.5.0+15.gcd9c46b documentation</title>
+  <title>pcdsdevices.epics_motor.IMS.walk_subdevices &mdash; PCDS Devices 2.5.0+18.gf153abe documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+15.gcd9c46b
+                2.5.0+18.gf153abe
               </div>
             
           
@@ -134,6 +134,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.get.html">pcdsdevices.epics_motor.IMS.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.get_device_tuple.html">pcdsdevices.epics_motor.IMS.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.get_instantiated_signals.html">pcdsdevices.epics_motor.IMS.get_instantiated_signals</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.get_lim.html">pcdsdevices.epics_motor.IMS.get_lim</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.home.html">pcdsdevices.epics_motor.IMS.home</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.move.html">pcdsdevices.epics_motor.IMS.move</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.mv.html">pcdsdevices.epics_motor.IMS.mv</a></li>
@@ -148,6 +149,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.screen.html">pcdsdevices.epics_motor.IMS.screen</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.set.html">pcdsdevices.epics_motor.IMS.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.set_current_position.html">pcdsdevices.epics_motor.IMS.set_current_position</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.set_lim.html">pcdsdevices.epics_motor.IMS.set_lim</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.spg_go.html">pcdsdevices.epics_motor.IMS.spg_go</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.spg_pause.html">pcdsdevices.epics_motor.IMS.spg_pause</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.IMS.spg_stop.html">pcdsdevices.epics_motor.IMS.spg_stop</a></li>
@@ -281,6 +283,8 @@
 <dt id="pcdsdevices.epics_motor.IMS.walk_subdevices">
 <code class="sig-prename descclassname">IMS.</code><code class="sig-name descname">walk_subdevices</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">include_lazy</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.epics_motor.IMS.walk_subdevices" title="Permalink to this definition">¶</a></dt>
 <dd><p>Walk all sub-Devices in the hierarchy</p>
+<p>EXPERIMENTAL: This method is experimental, and there are tentative
+plans to change its API in a way that may not be backward-compatible.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Yields</dt>
 <dd class="field-odd"><p><em>(dotted_name, subdevice_instance)</em></p>

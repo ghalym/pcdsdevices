@@ -32,6 +32,7 @@ pcdsdevices.device\_types.IMS
       ~IMS.get
       ~IMS.get_device_tuple
       ~IMS.get_instantiated_signals
+      ~IMS.get_lim
       ~IMS.home
       ~IMS.move
       ~IMS.mv
@@ -46,6 +47,7 @@ pcdsdevices.device\_types.IMS
       ~IMS.screen
       ~IMS.set
       ~IMS.set_current_position
+      ~IMS.set_lim
       ~IMS.spg_go
       ~IMS.spg_pause
       ~IMS.spg_stop
@@ -95,7 +97,7 @@ pcdsdevices.device\_types.IMS
       ~IMS.event_types
       ~IMS.high_limit
       ~IMS.high_limit_switch
-      ~IMS.high_soft_limit
+      ~IMS.high_limit_travel
       ~IMS.hints
       ~IMS.home_forward
       ~IMS.home_reverse
@@ -104,7 +106,7 @@ pcdsdevices.device\_types.IMS
       ~IMS.limits
       ~IMS.low_limit
       ~IMS.low_limit_switch
-      ~IMS.low_soft_limit
+      ~IMS.low_limit_travel
       ~IMS.motor_done_move
       ~IMS.motor_egu
       ~IMS.motor_is_moving

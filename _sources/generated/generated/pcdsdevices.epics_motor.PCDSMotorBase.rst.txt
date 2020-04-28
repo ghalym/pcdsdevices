@@ -27,6 +27,7 @@ pcdsdevices.epics\_motor.PCDSMotorBase
       ~PCDSMotorBase.get
       ~PCDSMotorBase.get_device_tuple
       ~PCDSMotorBase.get_instantiated_signals
+      ~PCDSMotorBase.get_lim
       ~PCDSMotorBase.home
       ~PCDSMotorBase.move
       ~PCDSMotorBase.mv
@@ -40,6 +41,7 @@ pcdsdevices.epics\_motor.PCDSMotorBase
       ~PCDSMotorBase.screen
       ~PCDSMotorBase.set
       ~PCDSMotorBase.set_current_position
+      ~PCDSMotorBase.set_lim
       ~PCDSMotorBase.spg_go
       ~PCDSMotorBase.spg_pause
       ~PCDSMotorBase.spg_stop
@@ -87,7 +89,7 @@ pcdsdevices.epics\_motor.PCDSMotorBase
       ~PCDSMotorBase.event_types
       ~PCDSMotorBase.high_limit
       ~PCDSMotorBase.high_limit_switch
-      ~PCDSMotorBase.high_soft_limit
+      ~PCDSMotorBase.high_limit_travel
       ~PCDSMotorBase.hints
       ~PCDSMotorBase.home_forward
       ~PCDSMotorBase.home_reverse
@@ -96,7 +98,7 @@ pcdsdevices.epics\_motor.PCDSMotorBase
       ~PCDSMotorBase.limits
       ~PCDSMotorBase.low_limit
       ~PCDSMotorBase.low_limit_switch
-      ~PCDSMotorBase.low_soft_limit
+      ~PCDSMotorBase.low_limit_travel
       ~PCDSMotorBase.motor_done_move
       ~PCDSMotorBase.motor_egu
       ~PCDSMotorBase.motor_is_moving

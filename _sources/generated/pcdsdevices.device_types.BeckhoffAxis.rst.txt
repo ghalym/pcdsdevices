@@ -28,6 +28,7 @@ pcdsdevices.device\_types.BeckhoffAxis
       ~BeckhoffAxis.get
       ~BeckhoffAxis.get_device_tuple
       ~BeckhoffAxis.get_instantiated_signals
+      ~BeckhoffAxis.get_lim
       ~BeckhoffAxis.home
       ~BeckhoffAxis.move
       ~BeckhoffAxis.mv
@@ -40,6 +41,7 @@ pcdsdevices.device\_types.BeckhoffAxis
       ~BeckhoffAxis.resume
       ~BeckhoffAxis.set
       ~BeckhoffAxis.set_current_position
+      ~BeckhoffAxis.set_lim
       ~BeckhoffAxis.stage
       ~BeckhoffAxis.stop
       ~BeckhoffAxis.subscribe
@@ -84,7 +86,7 @@ pcdsdevices.device\_types.BeckhoffAxis
       ~BeckhoffAxis.event_types
       ~BeckhoffAxis.high_limit
       ~BeckhoffAxis.high_limit_switch
-      ~BeckhoffAxis.high_soft_limit
+      ~BeckhoffAxis.high_limit_travel
       ~BeckhoffAxis.hints
       ~BeckhoffAxis.home_forward
       ~BeckhoffAxis.home_reverse
@@ -93,7 +95,7 @@ pcdsdevices.device\_types.BeckhoffAxis
       ~BeckhoffAxis.limits
       ~BeckhoffAxis.low_limit
       ~BeckhoffAxis.low_limit_switch
-      ~BeckhoffAxis.low_soft_limit
+      ~BeckhoffAxis.low_limit_travel
       ~BeckhoffAxis.motor_done_move
       ~BeckhoffAxis.motor_egu
       ~BeckhoffAxis.motor_is_moving

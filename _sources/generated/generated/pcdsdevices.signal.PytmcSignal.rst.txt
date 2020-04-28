@@ -69,5 +69,6 @@ pcdsdevices.signal.PytmcSignal
       ~PytmcSignal.tolerance
       ~PytmcSignal.value
       ~PytmcSignal.write_access
+      ~PytmcSignal.write_timeout
    
    

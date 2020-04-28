@@ -27,6 +27,7 @@ pcdsdevices.device\_types.PMC100
       ~PMC100.get
       ~PMC100.get_device_tuple
       ~PMC100.get_instantiated_signals
+      ~PMC100.get_lim
       ~PMC100.home
       ~PMC100.move
       ~PMC100.mv
@@ -40,6 +41,7 @@ pcdsdevices.device\_types.PMC100
       ~PMC100.screen
       ~PMC100.set
       ~PMC100.set_current_position
+      ~PMC100.set_lim
       ~PMC100.spg_go
       ~PMC100.spg_pause
       ~PMC100.spg_stop
@@ -87,7 +89,7 @@ pcdsdevices.device\_types.PMC100
       ~PMC100.event_types
       ~PMC100.high_limit
       ~PMC100.high_limit_switch
-      ~PMC100.high_soft_limit
+      ~PMC100.high_limit_travel
       ~PMC100.hints
       ~PMC100.home_forward
       ~PMC100.home_reverse
@@ -96,7 +98,7 @@ pcdsdevices.device\_types.PMC100
       ~PMC100.limits
       ~PMC100.low_limit
       ~PMC100.low_limit_switch
-      ~PMC100.low_soft_limit
+      ~PMC100.low_limit_travel
       ~PMC100.motor_done_move
       ~PMC100.motor_egu
       ~PMC100.motor_is_moving

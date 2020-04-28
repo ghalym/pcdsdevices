@@ -27,6 +27,7 @@ pcdsdevices.device\_types.Newport
       ~Newport.get
       ~Newport.get_device_tuple
       ~Newport.get_instantiated_signals
+      ~Newport.get_lim
       ~Newport.home
       ~Newport.move
       ~Newport.mv
@@ -40,6 +41,7 @@ pcdsdevices.device\_types.Newport
       ~Newport.screen
       ~Newport.set
       ~Newport.set_current_position
+      ~Newport.set_lim
       ~Newport.spg_go
       ~Newport.spg_pause
       ~Newport.spg_stop
@@ -87,7 +89,7 @@ pcdsdevices.device\_types.Newport
       ~Newport.event_types
       ~Newport.high_limit
       ~Newport.high_limit_switch
-      ~Newport.high_soft_limit
+      ~Newport.high_limit_travel
       ~Newport.hints
       ~Newport.home_forward
       ~Newport.home_reverse
@@ -96,7 +98,7 @@ pcdsdevices.device\_types.Newport
       ~Newport.limits
       ~Newport.low_limit
       ~Newport.low_limit_switch
-      ~Newport.low_soft_limit
+      ~Newport.low_limit_travel
       ~Newport.motor_done_move
       ~Newport.motor_egu
       ~Newport.motor_is_moving

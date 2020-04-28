@@ -725,6 +725,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.get_instantiated_signals.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.get_lim.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.home.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.move.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.mv.rst.txt
@@ -737,6 +738,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.resume.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.set.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.set_current_position.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.set_lim.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.stage.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.stop.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.subscribe.rst.txt
@@ -846,6 +848,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.get_instantiated_signals.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.get_lim.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.home.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.move.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.mv.rst.txt
@@ -858,6 +861,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.resume.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.set.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.set_current_position.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.set_lim.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.stage.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.stop.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.subscribe.rst.txt
@@ -896,6 +900,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.get_instantiated_signals.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.get_lim.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.home.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.move.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.mv.rst.txt
@@ -910,6 +915,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.screen.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.set.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.set_current_position.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.set_lim.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.spg_go.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.spg_pause.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.spg_stop.rst.txt
@@ -946,6 +952,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.get_instantiated_signals.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.get_lim.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.home.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.move.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.mv.rst.txt
@@ -959,6 +966,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.screen.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.set.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.set_current_position.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.set_lim.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.spg_go.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.spg_pause.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.Newport.spg_stop.rst.txt
@@ -995,6 +1003,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.get_instantiated_signals.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.get_lim.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.home.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.move.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.mv.rst.txt
@@ -1008,6 +1017,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.screen.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.set.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.set_current_position.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.set_lim.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.spg_go.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.spg_pause.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.spg_stop.rst.txt
@@ -1044,6 +1054,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.get.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.get_device_tuple.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.get_instantiated_signals.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.get_lim.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.home.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.move.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.mv.rst.txt
@@ -1057,6 +1068,7 @@
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.screen.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.set.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.set_current_position.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.set_lim.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.spg_go.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.spg_pause.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.epics_motor.PMC100.spg_stop.rst.txt
@@ -5597,6 +5609,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.get.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.get_device_tuple.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.get_instantiated_signals.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.get_lim.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.home.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.move.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.mv.rst.txt
@@ -5609,6 +5622,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.resume.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.set.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.set_current_position.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.set_lim.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.stage.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.stop.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.BeckhoffAxis.subscribe.rst.txt
@@ -5753,6 +5767,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.EpicsMotor.get.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.EpicsMotor.get_device_tuple.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.EpicsMotor.get_instantiated_signals.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.EpicsMotor.get_lim.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.EpicsMotor.home.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.EpicsMotor.move.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.EpicsMotor.pause.rst.txt
@@ -5762,6 +5777,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.EpicsMotor.resume.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.EpicsMotor.set.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.EpicsMotor.set_current_position.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.EpicsMotor.set_lim.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.EpicsMotor.stage.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.EpicsMotor.stop.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.EpicsMotor.subscribe.rst.txt
@@ -5871,6 +5887,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.get.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.get_device_tuple.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.get_instantiated_signals.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.IMS.get_lim.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.home.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.move.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.mv.rst.txt
@@ -5885,6 +5902,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.screen.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.set.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.set_current_position.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.IMS.set_lim.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.spg_go.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.spg_pause.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.IMS.spg_stop.rst.txt
@@ -5991,6 +6009,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.get.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.get_device_tuple.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.get_instantiated_signals.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.Newport.get_lim.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.home.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.move.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.mv.rst.txt
@@ -6004,6 +6023,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.screen.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.set.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.set_current_position.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.Newport.set_lim.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.spg_go.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.spg_pause.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.Newport.spg_stop.rst.txt
@@ -6141,6 +6161,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.get.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.get_device_tuple.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.get_instantiated_signals.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.PMC100.get_lim.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.home.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.move.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.mv.rst.txt
@@ -6154,6 +6175,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.screen.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.set.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.set_current_position.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.PMC100.set_lim.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.spg_go.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.spg_pause.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PMC100.spg_stop.rst.txt
@@ -7786,6 +7808,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.get.html
 ./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.get_instantiated_signals.html
+./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.get_lim.html
 ./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.home.html
 ./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.move.html
 ./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.mv.html
@@ -7798,6 +7821,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.resume.html
 ./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.set.html
 ./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.set_current_position.html
+./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.set_lim.html
 ./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.stage.html
 ./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.stop.html
 ./generated/generated/generated/pcdsdevices.epics_motor.BeckhoffAxis.subscribe.html
@@ -7907,6 +7931,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.get.html
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.get_instantiated_signals.html
+./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.get_lim.html
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.home.html
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.move.html
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.mv.html
@@ -7919,6 +7944,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.resume.html
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.set.html
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.set_current_position.html
+./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.set_lim.html
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.stage.html
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.stop.html
 ./generated/generated/generated/pcdsdevices.epics_motor.EpicsMotorInterface.subscribe.html
@@ -7957,6 +7983,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.get.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.get_instantiated_signals.html
+./generated/generated/generated/pcdsdevices.epics_motor.IMS.get_lim.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.home.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.move.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.mv.html
@@ -7971,6 +7998,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.screen.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.set.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.set_current_position.html
+./generated/generated/generated/pcdsdevices.epics_motor.IMS.set_lim.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.spg_go.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.spg_pause.html
 ./generated/generated/generated/pcdsdevices.epics_motor.IMS.spg_stop.html
@@ -8007,6 +8035,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.get.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.get_instantiated_signals.html
+./generated/generated/generated/pcdsdevices.epics_motor.Newport.get_lim.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.home.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.move.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.mv.html
@@ -8020,6 +8049,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.screen.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.set.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.set_current_position.html
+./generated/generated/generated/pcdsdevices.epics_motor.Newport.set_lim.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.spg_go.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.spg_pause.html
 ./generated/generated/generated/pcdsdevices.epics_motor.Newport.spg_stop.html
@@ -8056,6 +8086,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.get.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.get_instantiated_signals.html
+./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.get_lim.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.home.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.move.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.mv.html
@@ -8069,6 +8100,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.screen.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.set.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.set_current_position.html
+./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.set_lim.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.spg_go.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.spg_pause.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PCDSMotorBase.spg_stop.html
@@ -8105,6 +8137,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.get.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.get_device_tuple.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.get_instantiated_signals.html
+./generated/generated/generated/pcdsdevices.epics_motor.PMC100.get_lim.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.home.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.move.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.mv.html
@@ -8118,6 +8151,7 @@
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.screen.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.set.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.set_current_position.html
+./generated/generated/generated/pcdsdevices.epics_motor.PMC100.set_lim.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.spg_go.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.spg_pause.html
 ./generated/generated/generated/pcdsdevices.epics_motor.PMC100.spg_stop.html
@@ -12658,6 +12692,7 @@
 ./generated/generated/pcdsdevices.device_types.BeckhoffAxis.get.html
 ./generated/generated/pcdsdevices.device_types.BeckhoffAxis.get_device_tuple.html
 ./generated/generated/pcdsdevices.device_types.BeckhoffAxis.get_instantiated_signals.html
+./generated/generated/pcdsdevices.device_types.BeckhoffAxis.get_lim.html
 ./generated/generated/pcdsdevices.device_types.BeckhoffAxis.home.html
 ./generated/generated/pcdsdevices.device_types.BeckhoffAxis.move.html
 ./generated/generated/pcdsdevices.device_types.BeckhoffAxis.mv.html
@@ -12670,6 +12705,7 @@
 ./generated/generated/pcdsdevices.device_types.BeckhoffAxis.resume.html
 ./generated/generated/pcdsdevices.device_types.BeckhoffAxis.set.html
 ./generated/generated/pcdsdevices.device_types.BeckhoffAxis.set_current_position.html
+./generated/generated/pcdsdevices.device_types.BeckhoffAxis.set_lim.html
 ./generated/generated/pcdsdevices.device_types.BeckhoffAxis.stage.html
 ./generated/generated/pcdsdevices.device_types.BeckhoffAxis.stop.html
 ./generated/generated/pcdsdevices.device_types.BeckhoffAxis.subscribe.html
@@ -12814,6 +12850,7 @@
 ./generated/generated/pcdsdevices.device_types.EpicsMotor.get.html
 ./generated/generated/pcdsdevices.device_types.EpicsMotor.get_device_tuple.html
 ./generated/generated/pcdsdevices.device_types.EpicsMotor.get_instantiated_signals.html
+./generated/generated/pcdsdevices.device_types.EpicsMotor.get_lim.html
 ./generated/generated/pcdsdevices.device_types.EpicsMotor.home.html
 ./generated/generated/pcdsdevices.device_types.EpicsMotor.move.html
 ./generated/generated/pcdsdevices.device_types.EpicsMotor.pause.html
@@ -12823,6 +12860,7 @@
 ./generated/generated/pcdsdevices.device_types.EpicsMotor.resume.html
 ./generated/generated/pcdsdevices.device_types.EpicsMotor.set.html
 ./generated/generated/pcdsdevices.device_types.EpicsMotor.set_current_position.html
+./generated/generated/pcdsdevices.device_types.EpicsMotor.set_lim.html
 ./generated/generated/pcdsdevices.device_types.EpicsMotor.stage.html
 ./generated/generated/pcdsdevices.device_types.EpicsMotor.stop.html
 ./generated/generated/pcdsdevices.device_types.EpicsMotor.subscribe.html
@@ -12932,6 +12970,7 @@
 ./generated/generated/pcdsdevices.device_types.IMS.get.html
 ./generated/generated/pcdsdevices.device_types.IMS.get_device_tuple.html
 ./generated/generated/pcdsdevices.device_types.IMS.get_instantiated_signals.html
+./generated/generated/pcdsdevices.device_types.IMS.get_lim.html
 ./generated/generated/pcdsdevices.device_types.IMS.home.html
 ./generated/generated/pcdsdevices.device_types.IMS.move.html
 ./generated/generated/pcdsdevices.device_types.IMS.mv.html
@@ -12946,6 +12985,7 @@
 ./generated/generated/pcdsdevices.device_types.IMS.screen.html
 ./generated/generated/pcdsdevices.device_types.IMS.set.html
 ./generated/generated/pcdsdevices.device_types.IMS.set_current_position.html
+./generated/generated/pcdsdevices.device_types.IMS.set_lim.html
 ./generated/generated/pcdsdevices.device_types.IMS.spg_go.html
 ./generated/generated/pcdsdevices.device_types.IMS.spg_pause.html
 ./generated/generated/pcdsdevices.device_types.IMS.spg_stop.html
@@ -13052,6 +13092,7 @@
 ./generated/generated/pcdsdevices.device_types.Newport.get.html
 ./generated/generated/pcdsdevices.device_types.Newport.get_device_tuple.html
 ./generated/generated/pcdsdevices.device_types.Newport.get_instantiated_signals.html
+./generated/generated/pcdsdevices.device_types.Newport.get_lim.html
 ./generated/generated/pcdsdevices.device_types.Newport.home.html
 ./generated/generated/pcdsdevices.device_types.Newport.move.html
 ./generated/generated/pcdsdevices.device_types.Newport.mv.html
@@ -13065,6 +13106,7 @@
 ./generated/generated/pcdsdevices.device_types.Newport.screen.html
 ./generated/generated/pcdsdevices.device_types.Newport.set.html
 ./generated/generated/pcdsdevices.device_types.Newport.set_current_position.html
+./generated/generated/pcdsdevices.device_types.Newport.set_lim.html
 ./generated/generated/pcdsdevices.device_types.Newport.spg_go.html
 ./generated/generated/pcdsdevices.device_types.Newport.spg_pause.html
 ./generated/generated/pcdsdevices.device_types.Newport.spg_stop.html
@@ -13202,6 +13244,7 @@
 ./generated/generated/pcdsdevices.device_types.PMC100.get.html
 ./generated/generated/pcdsdevices.device_types.PMC100.get_device_tuple.html
 ./generated/generated/pcdsdevices.device_types.PMC100.get_instantiated_signals.html
+./generated/generated/pcdsdevices.device_types.PMC100.get_lim.html
 ./generated/generated/pcdsdevices.device_types.PMC100.home.html
 ./generated/generated/pcdsdevices.device_types.PMC100.move.html
 ./generated/generated/pcdsdevices.device_types.PMC100.mv.html
@@ -13215,6 +13258,7 @@
 ./generated/generated/pcdsdevices.device_types.PMC100.screen.html
 ./generated/generated/pcdsdevices.device_types.PMC100.set.html
 ./generated/generated/pcdsdevices.device_types.PMC100.set_current_position.html
+./generated/generated/pcdsdevices.device_types.PMC100.set_lim.html
 ./generated/generated/pcdsdevices.device_types.PMC100.spg_go.html
 ./generated/generated/pcdsdevices.device_types.PMC100.spg_pause.html
 ./generated/generated/pcdsdevices.device_types.PMC100.spg_stop.html
