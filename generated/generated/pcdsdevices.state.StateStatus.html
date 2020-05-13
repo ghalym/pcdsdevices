@@ -141,6 +141,10 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.__init__.html">pcdsdevices.state.StateStatus.__init__</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.add_callback.html">pcdsdevices.state.StateStatus.add_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.check_value.html">pcdsdevices.state.StateStatus.check_value</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.exception.html">pcdsdevices.state.StateStatus.exception</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.set_exception.html">pcdsdevices.state.StateStatus.set_exception</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.set_finished.html">pcdsdevices.state.StateStatus.set_finished</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.wait.html">pcdsdevices.state.StateStatus.wait</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.watch.html">pcdsdevices.state.StateStatus.watch</a></li>
 </ul>
 </li>
@@ -254,14 +258,26 @@ of the associated EPICS variables</p>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.__init__.html#pcdsdevices.state.StateStatus.__init__" title="pcdsdevices.state.StateStatus.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(device, desired_state[, timeout, …])</p></td>
 <td><p>Initialize self.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.add_callback.html#pcdsdevices.state.StateStatus.add_callback" title="pcdsdevices.state.StateStatus.add_callback"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_callback</span></code></a>(cb)</p></td>
-<td><p></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.add_callback.html#pcdsdevices.state.StateStatus.add_callback" title="pcdsdevices.state.StateStatus.add_callback"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_callback</span></code></a>(callback)</p></td>
+<td><p>Register a callback to be called once when the Status finishes.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.check_value.html#pcdsdevices.state.StateStatus.check_value" title="pcdsdevices.state.StateStatus.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Update the status object</p></td>
 </tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.exception.html#pcdsdevices.state.StateStatus.exception" title="pcdsdevices.state.StateStatus.exception"><code class="xref py py-obj docutils literal notranslate"><span class="pre">exception</span></code></a>([timeout])</p></td>
+<td><p>Return the exception raised by the action.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.set_exception.html#pcdsdevices.state.StateStatus.set_exception" title="pcdsdevices.state.StateStatus.set_exception"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_exception</span></code></a>(exc)</p></td>
+<td><p>Mark as finished but failed with the given Exception.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.set_finished.html#pcdsdevices.state.StateStatus.set_finished" title="pcdsdevices.state.StateStatus.set_finished"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_finished</span></code></a>()</p></td>
+<td><p>Mark as finished successfully.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.wait.html#pcdsdevices.state.StateStatus.wait" title="pcdsdevices.state.StateStatus.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<td><p>Block until the action completes.</p></td>
+</tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.watch.html#pcdsdevices.state.StateStatus.watch" title="pcdsdevices.state.StateStatus.watch"><code class="xref py py-obj docutils literal notranslate"><span class="pre">watch</span></code></a>(func)</p></td>
-<td><p></p></td>
+<td><p>Subscribe to notifications about partial progress.</p></td>
 </tr>
 </tbody>
 </table>
@@ -280,6 +296,15 @@ of the associated EPICS variables</p>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">finished_cb</span></code></p></td>
 <td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></p></td>
+<td><p>A delay between when <a class="reference internal" href="generated/pcdsdevices.state.StateStatus.set_finished.html#pcdsdevices.state.StateStatus.set_finished" title="pcdsdevices.state.StateStatus.set_finished"><code class="xref py py-meth docutils literal notranslate"><span class="pre">set_finished()</span></code></a> is when the Status is done.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">success</span></code></p></td>
+<td><p>Boolean indicating whether associated operation has completed.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">timeout</span></code></p></td>
+<td><p>The timeout for this action.</p></td>
 </tr>
 </tbody>
 </table>

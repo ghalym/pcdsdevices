@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.state.StateStatus.__init__ &mdash; PCDS Devices 2.5.0+18.gf153abe documentation</title>
+  <title>pcdsdevices.state.StateStatus.set_finished &mdash; PCDS Devices 2.5.0+18.gf153abe documentation</title>
   
 
   
@@ -35,8 +35,8 @@
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.state.StateStatus.add_callback" href="pcdsdevices.state.StateStatus.add_callback.html" />
-    <link rel="prev" title="pcdsdevices.state.StateStatus" href="../pcdsdevices.state.StateStatus.html" /> 
+    <link rel="next" title="pcdsdevices.state.StateStatus.wait" href="pcdsdevices.state.StateStatus.wait.html" />
+    <link rel="prev" title="pcdsdevices.state.StateStatus.set_exception" href="pcdsdevices.state.StateStatus.set_exception.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -138,12 +138,12 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.state.StateRecordPositioner.html">pcdsdevices.state.StateRecordPositioner</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.state.StateRecordPositionerBase.html">pcdsdevices.state.StateRecordPositionerBase</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.state.StateStatus.html">pcdsdevices.state.StateStatus</a><ul class="current">
-<li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.state.StateStatus.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateStatus.__init__.html">pcdsdevices.state.StateStatus.__init__</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateStatus.add_callback.html">pcdsdevices.state.StateStatus.add_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateStatus.check_value.html">pcdsdevices.state.StateStatus.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateStatus.exception.html">pcdsdevices.state.StateStatus.exception</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateStatus.set_exception.html">pcdsdevices.state.StateStatus.set_exception</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateStatus.set_finished.html">pcdsdevices.state.StateStatus.set_finished</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.state.StateStatus.set_finished</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateStatus.wait.html">pcdsdevices.state.StateStatus.wait</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.state.StateStatus.watch.html">pcdsdevices.state.StateStatus.watch</a></li>
 </ul>
@@ -209,13 +209,13 @@
         
           <li><a href="../pcdsdevices.state.StateStatus.html">pcdsdevices.state.StateStatus</a> &raquo;</li>
         
-      <li>pcdsdevices.state.StateStatus.__init__</li>
+      <li>pcdsdevices.state.StateStatus.set_finished</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../../../_sources/generated/generated/generated/pcdsdevices.state.StateStatus.__init__.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../../../_sources/generated/generated/generated/pcdsdevices.state.StateStatus.set_finished.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -228,12 +228,14 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="pcdsdevices-state-statestatus-init">
-<h1>pcdsdevices.state.StateStatus.__init__<a class="headerlink" href="#pcdsdevices-state-statestatus-init" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="pcdsdevices-state-statestatus-set-finished">
+<h1>pcdsdevices.state.StateStatus.set_finished<a class="headerlink" href="#pcdsdevices-state-statestatus-set-finished" title="Permalink to this headline">¶</a></h1>
 <dl class="py method">
-<dt id="pcdsdevices.state.StateStatus.__init__">
-<code class="sig-prename descclassname">StateStatus.</code><code class="sig-name descname">__init__</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">device</span></em>, <em class="sig-param"><span class="n">desired_state</span></em>, <em class="sig-param"><span class="n">timeout</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">settle_time</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.state.StateStatus.__init__" title="Permalink to this definition">¶</a></dt>
-<dd><p>Initialize self.  See help(type(self)) for accurate signature.</p>
+<dt id="pcdsdevices.state.StateStatus.set_finished">
+<code class="sig-prename descclassname">StateStatus.</code><code class="sig-name descname">set_finished</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.state.StateStatus.set_finished" title="Permalink to this definition">¶</a></dt>
+<dd><p>Mark as finished successfully.</p>
+<p>This method should generally not be called by the <em>recipient</em> of this
+Status object, but only by the object that created and returned it.</p>
 </dd></dl>
 
 </div>
@@ -246,10 +248,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.state.StateStatus.add_callback.html" class="btn btn-neutral float-right" title="pcdsdevices.state.StateStatus.add_callback" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.state.StateStatus.wait.html" class="btn btn-neutral float-right" title="pcdsdevices.state.StateStatus.wait" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="../pcdsdevices.state.StateStatus.html" class="btn btn-neutral float-left" title="pcdsdevices.state.StateStatus" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="pcdsdevices.state.StateStatus.set_exception.html" class="btn btn-neutral float-left" title="pcdsdevices.state.StateStatus.set_exception" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

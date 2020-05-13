@@ -15,6 +15,10 @@ pcdsdevices.state.StateStatus
       ~StateStatus.__init__
       ~StateStatus.add_callback
       ~StateStatus.check_value
+      ~StateStatus.exception
+      ~StateStatus.set_exception
+      ~StateStatus.set_finished
+      ~StateStatus.wait
       ~StateStatus.watch
    
    
@@ -28,5 +32,8 @@ pcdsdevices.state.StateStatus
       ~StateStatus.callbacks
       ~StateStatus.done
       ~StateStatus.finished_cb
+      ~StateStatus.settle_time
+      ~StateStatus.success
+      ~StateStatus.timeout
    
    

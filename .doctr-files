@@ -5040,6 +5040,10 @@
 ./_sources/generated/generated/generated/pcdsdevices.state.StateStatus.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.StateStatus.add_callback.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.StateStatus.check_value.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.state.StateStatus.exception.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.state.StateStatus.set_exception.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.state.StateStatus.set_finished.rst.txt
+./_sources/generated/generated/generated/pcdsdevices.state.StateStatus.wait.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.StateStatus.watch.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.TwinCATStateConfigAll.__init__.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.state.TwinCATStateConfigAll.add_instantiation_callback.rst.txt
@@ -12123,6 +12127,10 @@
 ./generated/generated/generated/pcdsdevices.state.StateStatus.__init__.html
 ./generated/generated/generated/pcdsdevices.state.StateStatus.add_callback.html
 ./generated/generated/generated/pcdsdevices.state.StateStatus.check_value.html
+./generated/generated/generated/pcdsdevices.state.StateStatus.exception.html
+./generated/generated/generated/pcdsdevices.state.StateStatus.set_exception.html
+./generated/generated/generated/pcdsdevices.state.StateStatus.set_finished.html
+./generated/generated/generated/pcdsdevices.state.StateStatus.wait.html
 ./generated/generated/generated/pcdsdevices.state.StateStatus.watch.html
 ./generated/generated/generated/pcdsdevices.state.TwinCATStateConfigAll.__init__.html
 ./generated/generated/generated/pcdsdevices.state.TwinCATStateConfigAll.add_instantiation_callback.html
