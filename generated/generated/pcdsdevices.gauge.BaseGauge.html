@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.gauge.BaseGauge &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.gauge.BaseGauge &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -260,15 +261,15 @@
 <dl class="py class">
 <dt id="pcdsdevices.gauge.BaseGauge">
 <em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.gauge.</code><code class="sig-name descname">BaseGauge</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prefix</span><span class="o">=</span><span class="default_value">''</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">name</span></em>, <em class="sig-param"><span class="n">kind</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">read_attrs</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">configuration_attrs</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">parent</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.gauge.BaseGauge" title="Permalink to this definition">¶</a></dt>
-<dd><p>Vacuum gauge</p>
+<dd><p>Base class for vacuum gauges.</p>
 <p>A base class for a device with two limits switches controlled via an
-external command PV. This fully encompasses the controls <a class="reference internal" href="pcdsdevices.valve.Stopper.html#pcdsdevices.valve.Stopper" title="pcdsdevices.valve.Stopper"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Stopper</span></code></a>
-installations as well as un-interlocked <code class="xref any docutils literal notranslate"><span class="pre">GateValves</span></code></p>
+external command PV. This fully encompasses the controls <code class="xref py py-class docutils literal notranslate"><span class="pre">Stopper</span></code>
+installations as well as un-interlocked <code class="xref py py-class docutils literal notranslate"><span class="pre">GateValves</span></code>.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – Full Gauge base PV</p></li>
-<li><p><strong>name</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – Alias for the gauge</p></li>
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Full gauge base PV.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – A name to refer to the gauge.</p></li>
 </ul>
 </dd>
 </dl>

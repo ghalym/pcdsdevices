@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.attenuator &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.attenuator &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -114,6 +114,7 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -238,22 +239,22 @@
 <td><p>Base class for the attenuators.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.html#pcdsdevices.attenuator.AttBase3rd" title="pcdsdevices.attenuator.AttBase3rd"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AttBase3rd</span></code></a>(prefix, *, name, **kwargs)</p></td>
-<td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.Attenuator.html#pcdsdevices.attenuator.Attenuator" title="pcdsdevices.attenuator.Attenuator"><code class="xref any py py-func docutils literal notranslate"><span class="pre">Attenuator</span></code></a> class to use the 3rd harmonic values.</p></td>
+<td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.Attenuator.html#pcdsdevices.attenuator.Attenuator" title="pcdsdevices.attenuator.Attenuator"><code class="xref py py-func docutils literal notranslate"><span class="pre">Attenuator()</span></code></a> class to use the 3rd harmonic values.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FEESolidAttenuator.html#pcdsdevices.attenuator.FEESolidAttenuator" title="pcdsdevices.attenuator.FEESolidAttenuator"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FEESolidAttenuator</span></code></a>([prefix, kind, …])</p></td>
-<td><p>Solid Attenuator</p></td>
+<td><p>Solid attenuator variant from the LCLS-II XTES project.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.html#pcdsdevices.attenuator.FeeAtt" title="pcdsdevices.attenuator.FeeAtt"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FeeAtt</span></code></a>([prefix, name])</p></td>
 <td><p>Old attenuator IOC in the FEE.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.html#pcdsdevices.attenuator.FeeFilter" title="pcdsdevices.attenuator.FeeFilter"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FeeFilter</span></code></a>(prefix, *, name, **kwargs)</p></td>
-<td><p>A single attenuation blade, as implemented in the FEE</p></td>
+<td><p>A single attenuation blade, as implemented in the FEE.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.Filter.html#pcdsdevices.attenuator.Filter" title="pcdsdevices.attenuator.Filter"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Filter</span></code></a>(prefix, *, name, **kwargs)</p></td>
 <td><p>A single attenuation blade.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.html#pcdsdevices.attenuator.GasAttenuator" title="pcdsdevices.attenuator.GasAttenuator"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GasAttenuator</span></code></a>([prefix, kind, read_attrs, …])</p></td>
-<td><p>AT*:GAS</p></td>
+<td><p>AT*:GAS, Base class for an LCLS-II XTES gas attenuator.</p></td>
 </tr>
 </tbody>
 </table>

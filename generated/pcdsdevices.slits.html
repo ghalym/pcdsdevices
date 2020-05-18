@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.slits &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.slits &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -214,9 +215,9 @@
 axes into a Slits object. This allows an operator to manipulate the center and
 width in two dimensions of a small aperture. The classes below allow both
 individual parameters of the aperture and the Slit as a whole to be controlled
-and scanned. The <a class="reference internal" href="generated/pcdsdevices.slits.Slits.html#pcdsdevices.slits.Slits" title="pcdsdevices.slits.Slits"><code class="xref py py-class docutils literal notranslate"><span class="pre">Slits</span></code></a> instantiates four sub-devices <code class="docutils literal notranslate"><span class="pre">xwidth</span></code>,
-<code class="docutils literal notranslate"><span class="pre">xcenter</span></code>, <code class="docutils literal notranslate"><span class="pre">ycenter</span></code>, <code class="docutils literal notranslate"><span class="pre">ywidth</span></code>. These are each represented by
-<a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.html#pcdsdevices.slits.SlitPositioner" title="pcdsdevices.slits.SlitPositioner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlitPositioner</span></code></a>. The main <a class="reference internal" href="generated/pcdsdevices.slits.Slits.html#pcdsdevices.slits.Slits" title="pcdsdevices.slits.Slits"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Slits</span></code></a> class assumes that most of
+and scanned. The <a class="reference internal" href="generated/pcdsdevices.slits.Slits.html#pcdsdevices.slits.Slits" title="pcdsdevices.slits.Slits"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Slits</span></code></a> class instantiates four sub-devices: <code class="xref any docutils literal notranslate"><span class="pre">~Slits.xwidth</span></code>,
+<code class="xref any docutils literal notranslate"><span class="pre">~Slits.xcenter</span></code>, <code class="xref any docutils literal notranslate"><span class="pre">~Slits.ycenter</span></code>, <code class="xref any docutils literal notranslate"><span class="pre">~Slits.ywidth</span></code>. These are each represented
+by a <a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.html#pcdsdevices.slits.SlitPositioner" title="pcdsdevices.slits.SlitPositioner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SlitPositioner</span></code></a>. The main <a class="reference internal" href="generated/pcdsdevices.slits.Slits.html#pcdsdevices.slits.Slits" title="pcdsdevices.slits.Slits"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Slits</span></code></a> class assumes that most of
 the manipulation will be done on the size of the aperture not the position,
 however, if control of the center is desired the <code class="docutils literal notranslate"><span class="pre">center</span></code> sub-devices can be
 used.</p>
@@ -228,10 +229,10 @@ used.</p>
 </colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.PowerSlits.html#pcdsdevices.slits.PowerSlits" title="pcdsdevices.slits.PowerSlits"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PowerSlits</span></code></a>([prefix, kind, read_attrs, …])</p></td>
-<td><p>SL*:POWER</p></td>
+<td><p>‘SL*:POWER’.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.html#pcdsdevices.slits.SlitPositioner" title="pcdsdevices.slits.SlitPositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SlitPositioner</span></code></a>(prefix, *[, slit_type, name, …])</p></td>
-<td><p>Abstraction of Slit Axis</p></td>
+<td><p>Abstraction of a Slit axis.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.Slits.html#pcdsdevices.slits.Slits" title="pcdsdevices.slits.Slits"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Slits</span></code></a>(*args[, nominal_aperture])</p></td>
 <td><p>Beam slits with combined motion for center and width.</p></td>

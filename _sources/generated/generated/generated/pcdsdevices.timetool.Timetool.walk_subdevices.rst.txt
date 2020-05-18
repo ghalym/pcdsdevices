@@ -1,0 +1,6 @@
+pcdsdevices.timetool.Timetool.walk\_subdevices
+==============================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: Timetool.walk_subdevices

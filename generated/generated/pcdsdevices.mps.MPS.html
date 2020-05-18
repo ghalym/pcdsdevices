@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.mps.MPS &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.mps.MPS &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -248,10 +249,10 @@
 <dl class="py class">
 <dt id="pcdsdevices.mps.MPS">
 <em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.mps.</code><code class="sig-name descname">MPS</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="n">veto</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.mps.MPS" title="Permalink to this definition">¶</a></dt>
-<dd><p>Class to interpret a single bit of MPS information</p>
+<dd><p>Class to interpret a single bit of MPS information.</p>
 <p>There are three major attributes of each MPS bit that are relevant to
 operations; <code class="xref py py-attr docutils literal notranslate"><span class="pre">faulted</span></code> , <code class="xref py py-attr docutils literal notranslate"><span class="pre">bypassed</span></code> and <code class="xref py py-attr docutils literal notranslate"><span class="pre">veto_capable</span></code>.
-The first is the most obvious, when the device is faulted it reports as
+The first is the most obvious: when the device is faulted, it reports as
 such to the MPS system. However, how this is actually interpreted by the
 MPS is determined by whether the bit is bypassed, and if there is a
 <code class="docutils literal notranslate"><span class="pre">veto</span></code> device upstream such that the fault can be safely ignored. The
@@ -259,13 +260,13 @@ summary of both the <code class="xref any docutils literal notranslate"><span cl
 <code class="xref py py-attr docutils literal notranslate"><span class="pre">tripped</span></code>.  The bypassed state is reported through EPICS as well but
 unfortunately whether a device is considered capable of  “veto-ing” or is
 vetoed by another device is not broadcast by EPICS so this is held within
-this device and the <code class="docutils literal notranslate"><span class="pre">lighpath</span></code> module</p>
+this device and the <code class="docutils literal notranslate"><span class="pre">lightpath</span></code> module.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – PV prefix of MPS information</p></li>
-<li><p><strong>name</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>, required keyword) – Name of MPS bit</p></li>
-<li><p><strong>veto</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>, optional) – Whether or not the the device is capable of vetoing downstream faults</p></li>
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – PV prefix of MPS information.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Name of MPS bit.</p></li>
+<li><p><strong>veto</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Whether or not the the device is capable of vetoing downstream faults.</p></li>
 </ul>
 </dd>
 </dl>
@@ -331,7 +332,7 @@ this device and the <code class="docutils literal notranslate"><span class="pre"
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.subscribe.html#pcdsdevices.mps.MPS.subscribe" title="pcdsdevices.mps.MPS.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[, event_type, run])</p></td>
-<td><p>Subscribe to changes in the MPS</p></td>
+<td><p>Subscribe to changes in the MPS.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.summary.html#pcdsdevices.mps.MPS.summary" title="pcdsdevices.mps.MPS.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
@@ -385,7 +386,7 @@ this device and the <code class="docutils literal notranslate"><span class="pre"
 <td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">bypassed</span></code></p></td>
-<td><p>Bypass state of the MPS bit</p></td>
+<td><p>Bypass state of the MPS bit.</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_names</span></code></p></td>
 <td><p></p></td>
@@ -406,7 +407,7 @@ this device and the <code class="docutils literal notranslate"><span class="pre"
 <td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">faulted</span></code></p></td>
-<td><p>Whether the MPS bit is faulted or not</p></td>
+<td><p>Whether the MPS bit is faulted or not.</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">hints</span></code></p></td>
 <td><p></p></td>
@@ -442,7 +443,7 @@ this device and the <code class="docutils literal notranslate"><span class="pre"
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tripped</span></code></p></td>
-<td><p>Whether this will trip the MPS system</p></td>
+<td><p>Whether this will trip the MPS system.</p></td>
 </tr>
 </tbody>
 </table>

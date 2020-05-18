@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.pim &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.pim &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -216,7 +217,7 @@
             
   <div class="section" id="module-pcdsdevices.pim">
 <span id="pcdsdevices-pim"></span><h1>pcdsdevices.pim<a class="headerlink" href="#module-pcdsdevices.pim" title="Permalink to this headline">¶</a></h1>
-<p>Module for the <a class="reference internal" href="generated/pcdsdevices.pim.PIM.html#pcdsdevices.pim.PIM" title="pcdsdevices.pim.PIM"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PIM</span></code></a> profile intensity monitor classes</p>
+<p>Module for the <a class="reference internal" href="generated/pcdsdevices.pim.PIM.html#pcdsdevices.pim.PIM" title="pcdsdevices.pim.PIM"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PIM</span></code></a> Profile Intensity Monitor classes.</p>
 <p>This module contains all the classes relating to the profile intensity monitor
 classes at the user level. A PIM always has a motor to control yag/diode
 position, a zoom motor, and a camera to view the yag. Some PIMs have LEDs for
@@ -230,22 +231,22 @@ its own class.</p>
 </colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.LCLS2ImagerBase.html#pcdsdevices.pim.LCLS2ImagerBase" title="pcdsdevices.pim.LCLS2ImagerBase"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LCLS2ImagerBase</span></code></a>([prefix, kind, read_attrs, …])</p></td>
-<td><p>Shared PVs and components from the LCLS2 imagers</p></td>
+<td><p>Shared PVs and components from the LCLS2 imagers.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIM.html#pcdsdevices.pim.PIM" title="pcdsdevices.pim.PIM"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PIM</span></code></a>(prefix, *, name[, prefix_det, prefix_zoom])</p></td>
-<td><p>Profile intensity monitor with y-motion motor, zoom motor, and a detector.</p></td>
+<td><p>Profile Intensity Monitor.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.html#pcdsdevices.pim.PIMWithBoth" title="pcdsdevices.pim.PIMWithBoth"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PIMWithBoth</span></code></a>(prefix, *, name[, prefix_focus])</p></td>
-<td><p>Profile intensity monitor with y-motion motor, zoom motor, focus motor, LED, and a detector.</p></td>
+<td><p>Profile Intensity Monitor with LED and Focus control.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithFocus.html#pcdsdevices.pim.PIMWithFocus" title="pcdsdevices.pim.PIMWithFocus"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PIMWithFocus</span></code></a>(prefix, *, name[, prefix_focus])</p></td>
-<td><p>Profile intensity monitor with y-motion motor, zoom motor, focus motor, and a detector.</p></td>
+<td><p>Profile Intensity Monitor with Focus control.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithLED.html#pcdsdevices.pim.PIMWithLED" title="pcdsdevices.pim.PIMWithLED"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PIMWithLED</span></code></a>(prefix, *, name[, prefix_led])</p></td>
-<td><p>Profile intensity monitor with y-motion motor, zoom motor, LED, and a detector.</p></td>
+<td><p>Profile Intensity Monitor with LED.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMY.html#pcdsdevices.pim.PIMY" title="pcdsdevices.pim.PIMY"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PIMY</span></code></a>(prefix, *, name, **kwargs)</p></td>
-<td><p>Standard profile monitor Y motor.</p></td>
+<td><p>Standard Y-motor for a Profile Intensity Monitor.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PPM.html#pcdsdevices.pim.PPM" title="pcdsdevices.pim.PPM"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PPM</span></code></a>([prefix, kind, read_attrs, …])</p></td>
 <td><p>L2SI’s Power and Profile Monitor design.</p></td>

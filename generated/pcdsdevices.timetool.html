@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.timetool &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.timetool &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="pcdsdevices.timetool.TimeTool" href="generated/pcdsdevices.timetool.TimeTool.html" />
+    <link rel="next" title="pcdsdevices.timetool.Timetool" href="generated/pcdsdevices.timetool.Timetool.html" />
     <link rel="prev" title="pcdsdevices.state.TwinCATStatePositioner.wm_update" href="generated/generated/pcdsdevices.state.TwinCATStatePositioner.wm_update.html" /> 
 </head>
 
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -132,8 +133,8 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.slits.html">pcdsdevices.slits</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.state.html">pcdsdevices.state</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">pcdsdevices.timetool</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.timetool.TimeTool.html">pcdsdevices.timetool.TimeTool</a></li>
-<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.timetool.TimeToolWithNav.html">pcdsdevices.timetool.TimeToolWithNav</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.timetool.Timetool.html">pcdsdevices.timetool.Timetool</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.timetool.TimetoolWithNav.html">pcdsdevices.timetool.TimetoolWithNav</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.utils.html">pcdsdevices.utils</a></li>
@@ -208,7 +209,7 @@
             
   <div class="section" id="module-pcdsdevices.timetool">
 <span id="pcdsdevices-timetool"></span><h1>pcdsdevices.timetool<a class="headerlink" href="#module-pcdsdevices.timetool" title="Permalink to this headline">¶</a></h1>
-<p>Module for Timetool classes</p>
+<p>Module for Timetool classes.</p>
 <p class="rubric">Classes</p>
 <table class="longtable docutils align-default">
 <colgroup>
@@ -216,11 +217,11 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.timetool.TimeTool.html#pcdsdevices.timetool.TimeTool" title="pcdsdevices.timetool.TimeTool"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TimeTool</span></code></a>(prefix, *, name, prefix_det, **kwargs)</p></td>
-<td><p>TimeTool motion with x- and y-motion motors</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.timetool.Timetool.html#pcdsdevices.timetool.Timetool" title="pcdsdevices.timetool.Timetool"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Timetool</span></code></a>(prefix, *, name, prefix_det, **kwargs)</p></td>
+<td><p>Timetool motion with x- and y-motion motors.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.timetool.TimeToolWithNav.html#pcdsdevices.timetool.TimeToolWithNav" title="pcdsdevices.timetool.TimeToolWithNav"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TimeToolWithNav</span></code></a>(prefix, *, name, prefix_det, …)</p></td>
-<td><p>TimeTool motion with zoom, focus, and x- &amp; y-motion motors</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.timetool.TimetoolWithNav.html#pcdsdevices.timetool.TimetoolWithNav" title="pcdsdevices.timetool.TimetoolWithNav"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TimetoolWithNav</span></code></a>(prefix, *, name, prefix_det, …)</p></td>
+<td><p>Timetool motion with zoom, focus, and x- &amp; y-motion motors.</p></td>
 </tr>
 </tbody>
 </table>
@@ -234,7 +235,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="generated/pcdsdevices.timetool.TimeTool.html" class="btn btn-neutral float-right" title="pcdsdevices.timetool.TimeTool" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="generated/pcdsdevices.timetool.Timetool.html" class="btn btn-neutral float-right" title="pcdsdevices.timetool.Timetool" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="generated/generated/pcdsdevices.state.TwinCATStatePositioner.wm_update.html" class="btn btn-neutral float-left" title="pcdsdevices.state.TwinCATStatePositioner.wm_update" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

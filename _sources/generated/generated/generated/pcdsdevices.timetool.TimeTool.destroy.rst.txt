@@ -1,6 +1,0 @@
-pcdsdevices.timetool.TimeTool.destroy
-=====================================
-
-.. currentmodule:: pcdsdevices.timetool
-
-.. automethod:: TimeTool.destroy

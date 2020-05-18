@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ccm.CCMCalc &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.ccm.CCMCalc &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -166,6 +166,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.ccm.CCMY.html">pcdsdevices.ccm.CCMY</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -271,7 +272,7 @@
 <dl class="py class">
 <dt id="pcdsdevices.ccm.CCMCalc">
 <em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.ccm.</code><code class="sig-name descname">CCMCalc</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="n">theta0</span><span class="o">=</span><span class="default_value">0.26143635931473463</span></em>, <em class="sig-param"><span class="n">dspacing</span><span class="o">=</span><span class="default_value">3.1356011499587773</span></em>, <em class="sig-param"><span class="n">gr</span><span class="o">=</span><span class="default_value">3.175</span></em>, <em class="sig-param"><span class="n">gd</span><span class="o">=</span><span class="default_value">231.303</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.ccm.CCMCalc" title="Permalink to this definition">¶</a></dt>
-<dd><p>CCM calculation motors to move in terms of physics quantities</p>
+<dd><p>CCM calculation motors to move in terms of physics quantities.</p>
 <p>All new parameters are scientific constants, and the current docstring
 writer is not familiar with all of them, so I will omit the full
 description instead of giving a partial and possibly incorrect summary.</p>
@@ -313,10 +314,10 @@ description instead of giving a partial and possibly incorrect summary.</p>
 <td><p>Disconnect and destroy all signals on the Device</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMCalc.end_monitor_thread.html#pcdsdevices.ccm.CCMCalc.end_monitor_thread" title="pcdsdevices.ccm.CCMCalc.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
-<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.ccm.CCMCalc.camonitor.html#pcdsdevices.ccm.CCMCalc.camonitor" title="pcdsdevices.ccm.CCMCalc.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.ccm.CCMCalc.wm_update.html#pcdsdevices.ccm.CCMCalc.wm_update" title="pcdsdevices.ccm.CCMCalc.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</p></td>
+<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.ccm.CCMCalc.camonitor.html#pcdsdevices.ccm.CCMCalc.camonitor" title="pcdsdevices.ccm.CCMCalc.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.ccm.CCMCalc.wm_update.html#pcdsdevices.ccm.CCMCalc.wm_update" title="pcdsdevices.ccm.CCMCalc.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMCalc.forward.html#pcdsdevices.ccm.CCMCalc.forward" title="pcdsdevices.ccm.CCMCalc.forward"><code class="xref py py-obj docutils literal notranslate"><span class="pre">forward</span></code></a>(pseudo_pos)</p></td>
-<td><p>Take energy, wavelength, or theta and map to alio</p></td>
+<td><p>Take energy, wavelength, or theta and map to alio.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMCalc.get.html#pcdsdevices.ccm.CCMCalc.get" title="pcdsdevices.ccm.CCMCalc.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
@@ -328,7 +329,7 @@ description instead of giving a partial and possibly incorrect summary.</p>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMCalc.inverse.html#pcdsdevices.ccm.CCMCalc.inverse" title="pcdsdevices.ccm.CCMCalc.inverse"><code class="xref py py-obj docutils literal notranslate"><span class="pre">inverse</span></code></a>(real_pos)</p></td>
-<td><p>Take alio and map to energy, wavelength, and theta</p></td>
+<td><p>Take alio and map to energy, wavelength, and theta.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMCalc.move.html#pcdsdevices.ccm.CCMCalc.move" title="pcdsdevices.ccm.CCMCalc.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, wait, timeout, moved_cb])</p></td>
 <td><p>Move to a specified position, optionally waiting for motion to complete.</p></td>
@@ -418,7 +419,7 @@ description instead of giving a partial and possibly incorrect summary.</p>
 <td><p>Walk all sub-Devices in the hierarchy</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMCalc.wm.html#pcdsdevices.ccm.CCMCalc.wm" title="pcdsdevices.ccm.CCMCalc.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
-<td><p>Get the mover’s positon (where motor)</p></td>
+<td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMCalc.wm_update.html#pcdsdevices.ccm.CCMCalc.wm_update" title="pcdsdevices.ccm.CCMCalc.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>

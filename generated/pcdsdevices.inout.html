@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.inout &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.inout &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -213,10 +214,11 @@
             
   <div class="section" id="module-pcdsdevices.inout">
 <span id="pcdsdevices-inout"></span><h1>pcdsdevices.inout<a class="headerlink" href="#module-pcdsdevices.inout" title="Permalink to this headline">¶</a></h1>
-<p>Module to centralize code related to devices that can be <code class="docutils literal notranslate"><span class="pre">IN</span></code> or <code class="docutils literal notranslate"><span class="pre">OUT</span></code>.</p>
+<p>Module to centralize code related to devices that can be ‘IN’ or ‘OUT’.</p>
 <p>The classes that are defined here can be used to create other devices that need
-methods such as <code class="docutils literal notranslate"><span class="pre">insert</span></code> or <code class="docutils literal notranslate"><span class="pre">remove</span></code> and the ability to mark discrete
-states as in the beam or out of the beam.</p>
+methods such as <a class="reference internal" href="generated/generated/pcdsdevices.inout.InOutPositioner.insert.html#pcdsdevices.inout.InOutPositioner.insert" title="pcdsdevices.inout.InOutPositioner.insert"><code class="xref py py-meth docutils literal notranslate"><span class="pre">insert()</span></code></a> or
+<a class="reference internal" href="generated/generated/pcdsdevices.inout.InOutPositioner.remove.html#pcdsdevices.inout.InOutPositioner.remove" title="pcdsdevices.inout.InOutPositioner.remove"><code class="xref py py-meth docutils literal notranslate"><span class="pre">remove()</span></code></a> and the ability to mark discrete states as in
+the beam or out of the beam.</p>
 <p class="rubric">Classes</p>
 <table class="longtable docutils align-default">
 <colgroup>
@@ -225,25 +227,25 @@ states as in the beam or out of the beam.</p>
 </colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.CombinedInOutRecordPositioner.html#pcdsdevices.inout.CombinedInOutRecordPositioner" title="pcdsdevices.inout.CombinedInOutRecordPositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CombinedInOutRecordPositioner</span></code></a>(prefix, *, …)</p></td>
-<td><p><a class="reference internal" href="generated/pcdsdevices.inout.InOutPositioner.html#pcdsdevices.inout.InOutPositioner" title="pcdsdevices.inout.InOutPositioner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">InOutPositioner</span></code></a> for a standard combined states record.</p></td>
+<td><p><a class="reference internal" href="generated/pcdsdevices.inout.InOutPositioner.html#pcdsdevices.inout.InOutPositioner" title="pcdsdevices.inout.InOutPositioner"><code class="xref py py-class docutils literal notranslate"><span class="pre">InOutPositioner</span></code></a> for a standard combined states record.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.InOutPVStatePositioner.html#pcdsdevices.inout.InOutPVStatePositioner" title="pcdsdevices.inout.InOutPVStatePositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">InOutPVStatePositioner</span></code></a>(*args, **kwargs)</p></td>
-<td><p><a class="reference internal" href="generated/pcdsdevices.inout.InOutPositioner.html#pcdsdevices.inout.InOutPositioner" title="pcdsdevices.inout.InOutPositioner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">InOutPositioner</span></code></a> on top of a <a class="reference internal" href="generated/pcdsdevices.state.PVStatePositioner.html#pcdsdevices.state.PVStatePositioner" title="pcdsdevices.state.PVStatePositioner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PVStatePositioner</span></code></a></p></td>
+<td><p><a class="reference internal" href="generated/pcdsdevices.inout.InOutPositioner.html#pcdsdevices.inout.InOutPositioner" title="pcdsdevices.inout.InOutPositioner"><code class="xref py py-class docutils literal notranslate"><span class="pre">InOutPositioner</span></code></a> on top of a <code class="xref py py-class docutils literal notranslate"><span class="pre">PVStatePositioner</span></code>.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.InOutPositioner.html#pcdsdevices.inout.InOutPositioner" title="pcdsdevices.inout.InOutPositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">InOutPositioner</span></code></a>(prefix, *, name, **kwargs)</p></td>
 <td><p>Base class for a device that can be inserted and removed from the beam.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.InOutRecordPositioner.html#pcdsdevices.inout.InOutRecordPositioner" title="pcdsdevices.inout.InOutRecordPositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">InOutRecordPositioner</span></code></a>(prefix, *, name, **kwargs)</p></td>
-<td><p><a class="reference internal" href="generated/pcdsdevices.inout.InOutPositioner.html#pcdsdevices.inout.InOutPositioner" title="pcdsdevices.inout.InOutPositioner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">InOutPositioner</span></code></a> for a standard states record.</p></td>
+<td><p><a class="reference internal" href="generated/pcdsdevices.inout.InOutPositioner.html#pcdsdevices.inout.InOutPositioner" title="pcdsdevices.inout.InOutPositioner"><code class="xref py py-class docutils literal notranslate"><span class="pre">InOutPositioner</span></code></a> for a standard states record.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.Reflaser.html#pcdsdevices.inout.Reflaser" title="pcdsdevices.inout.Reflaser"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Reflaser</span></code></a>(prefix, *, name, **kwargs)</p></td>
-<td><p>Simple ReferenceLaser with In/Out States</p></td>
+<td><p>Simple ReferenceLaser with In/Out States.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.TTReflaser.html#pcdsdevices.inout.TTReflaser" title="pcdsdevices.inout.TTReflaser"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TTReflaser</span></code></a>(prefix, *, name, **kwargs)</p></td>
 <td><p>Motor stack that includes both a timetool and a reflaser.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.TwinCATInOutPositioner.html#pcdsdevices.inout.TwinCATInOutPositioner" title="pcdsdevices.inout.TwinCATInOutPositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TwinCATInOutPositioner</span></code></a>(prefix, *, name, **kwargs)</p></td>
-<td><p><a class="reference internal" href="generated/pcdsdevices.inout.InOutPositioner.html#pcdsdevices.inout.InOutPositioner" title="pcdsdevices.inout.InOutPositioner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">InOutPositioner</span></code></a> on top of a <a class="reference internal" href="generated/pcdsdevices.state.TwinCATStatePositioner.html#pcdsdevices.state.TwinCATStatePositioner" title="pcdsdevices.state.TwinCATStatePositioner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">TwinCATStatePositioner</span></code></a></p></td>
+<td><p><a class="reference internal" href="generated/pcdsdevices.inout.InOutPositioner.html#pcdsdevices.inout.InOutPositioner" title="pcdsdevices.inout.InOutPositioner"><code class="xref py py-class docutils literal notranslate"><span class="pre">InOutPositioner</span></code></a> on top of a <code class="xref py py-class docutils literal notranslate"><span class="pre">TwinCATStatePositioner</span></code>.</p></td>
 </tr>
 </tbody>
 </table>

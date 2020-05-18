@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.mps.must_be_known &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.mps.must_be_known &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -217,23 +218,20 @@
 <dl class="py function">
 <dt id="pcdsdevices.mps.must_be_known">
 <code class="sig-prename descclassname">pcdsdevices.mps.</code><code class="sig-name descname">must_be_known</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">in_limit</span></em>, <em class="sig-param"><span class="n">out_limit</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.mps.must_be_known" title="Permalink to this definition">¶</a></dt>
-<dd><p>Logical combinatino of limits enforcing a known state</p>
+<dd><p>Logical combination of limits enforcing a known state.</p>
 <p>The logic determines that we know that the device is fully inserted or
 removed, alerting the MPS if the device is stuck in an unknown state or
-broken</p>
+broken.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>in_limit</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>) – Whether the in limit is active</p></li>
-<li><p><strong>out_limit</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>) – Whether the out limit is active</p></li>
+<li><p><strong>in_limit</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a>) – Whether the in limit is active.</p></li>
+<li><p><strong>out_limit</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a>) – Whether the out limit is active.</p></li>
 </ul>
 </dd>
 <dt class="field-even">Returns</dt>
-<dd class="field-even"><p>Whether the logical combination of the limit switch ensure that the
-device position is known</p>
-</dd>
-<dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p>is_known</p>
+<dd class="field-even"><p><strong>is_known</strong> (<em>bool</em>) – Whether the logical combination of the limit switch ensure that the
+device position is known.</p>
 </dd>
 </dl>
 </dd></dl>

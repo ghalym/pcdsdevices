@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.attenuator.FeeFilter &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.attenuator.FeeFilter &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -155,6 +155,7 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -260,7 +261,7 @@
 <dl class="py class">
 <dt id="pcdsdevices.attenuator.FeeFilter">
 <em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.attenuator.</code><code class="sig-name descname">FeeFilter</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prefix</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">name</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.attenuator.FeeFilter" title="Permalink to this definition">¶</a></dt>
-<dd><p>A single attenuation blade, as implemented in the FEE</p>
+<dd><p>A single attenuation blade, as implemented in the FEE.</p>
 <p class="rubric">Methods</p>
 <table class="longtable docutils align-default">
 <colgroup>
@@ -296,7 +297,7 @@
 <td><p>Disconnect and destroy all signals on the Device</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.end_monitor_thread.html#pcdsdevices.attenuator.FeeFilter.end_monitor_thread" title="pcdsdevices.attenuator.FeeFilter.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
-<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.camonitor.html#pcdsdevices.attenuator.FeeFilter.camonitor" title="pcdsdevices.attenuator.FeeFilter.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.wm_update.html#pcdsdevices.attenuator.FeeFilter.wm_update" title="pcdsdevices.attenuator.FeeFilter.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</p></td>
+<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.camonitor.html#pcdsdevices.attenuator.FeeFilter.camonitor" title="pcdsdevices.attenuator.FeeFilter.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.wm_update.html#pcdsdevices.attenuator.FeeFilter.wm_update" title="pcdsdevices.attenuator.FeeFilter.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.get.html#pcdsdevices.attenuator.FeeFilter.get" title="pcdsdevices.attenuator.FeeFilter.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
@@ -380,7 +381,7 @@
 <td><p>Walk all sub-Devices in the hierarchy</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.wm.html#pcdsdevices.attenuator.FeeFilter.wm" title="pcdsdevices.attenuator.FeeFilter.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
-<td><p>Get the mover’s positon (where motor)</p></td>
+<td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.wm_update.html#pcdsdevices.attenuator.FeeFilter.wm_update" title="pcdsdevices.attenuator.FeeFilter.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
@@ -440,7 +441,7 @@
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">inserted</span></code></p></td>
-<td><p>True if the device is inserted</p></td>
+<td><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a> if the device is inserted.</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
 <td><p></p></td>
@@ -473,7 +474,7 @@
 <td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">removed</span></code></p></td>
-<td><p>True if the device is removed</p></td>
+<td><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a> if the device is removed.</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
 <td><p>A report on the object.</p></td>

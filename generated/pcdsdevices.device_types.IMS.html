@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.IMS &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.device_types.IMS &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -181,6 +181,7 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Reflaser.html">pcdsdevices.device_types.Reflaser</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Slits.html">pcdsdevices.device_types.Slits</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Stopper.html">pcdsdevices.device_types.Stopper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Timetool.html">pcdsdevices.device_types.Timetool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Trigger.html">pcdsdevices.device_types.Trigger</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.TTReflaser.html">pcdsdevices.device_types.TTReflaser</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.VonHamos4Crystal.html">pcdsdevices.device_types.VonHamos4Crystal</a></li>
@@ -267,14 +268,14 @@
 <dt id="pcdsdevices.device_types.IMS">
 <em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.device_types.</code><code class="sig-name descname">IMS</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.device_types.IMS" title="Permalink to this definition">¶</a></dt>
 <dd><p>PCDS implementation of the Motor Record for IMS motors.</p>
-<p>This is a subclass of <a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.html#pcdsdevices.epics_motor.PCDSMotorBase" title="pcdsdevices.epics_motor.PCDSMotorBase"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PCDSMotorBase</span></code></a></p>
+<p>This is a subclass of <code class="xref py py-class docutils literal notranslate"><span class="pre">PCDSMotorBase</span></code>.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – The EPICS PV prefix for this motor.</p></li>
-<li><p><strong>name</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>, required keyword) – An identifying name for this motor.</p></li>
-<li><p><strong>settle_time</strong> (<code class="docutils literal notranslate"><span class="pre">float</span></code>, optional) – The amount of extra time to wait before interpreting a move as done</p></li>
-<li><p><strong>timeout</strong> (<code class="docutils literal notranslate"><span class="pre">float</span></code>, optional) – The amount of time to wait before automatically marking a long
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The EPICS PV prefix for this motor.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – An identifying name for this motor.</p></li>
+<li><p><strong>settle_time</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a><em>, </em><em>optional</em>) – The amount of extra time to wait before interpreting a move as done.</p></li>
+<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a><em>, </em><em>optional</em>) – The amount of time to wait before automatically marking a long
 in-progress move as failed.</p></li>
 </ul>
 </dd>
@@ -293,7 +294,7 @@ in-progress move as failed.</p></li>
 <td><p>Register a callback which will receive each OphydObject instance.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.auto_setup.html#pcdsdevices.device_types.IMS.auto_setup" title="pcdsdevices.device_types.IMS.auto_setup"><code class="xref py py-obj docutils literal notranslate"><span class="pre">auto_setup</span></code></a>()</p></td>
-<td><p>Automated setup of the IMS motor</p></td>
+<td><p>Automated setup of the IMS motor.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.camonitor.html#pcdsdevices.device_types.IMS.camonitor" title="pcdsdevices.device_types.IMS.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
@@ -302,16 +303,16 @@ in-progress move as failed.</p></li>
 <td><p>Raise an exception if the motor cannot move to value.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.clear_all_flags.html#pcdsdevices.device_types.IMS.clear_all_flags" title="pcdsdevices.device_types.IMS.clear_all_flags"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_all_flags</span></code></a>()</p></td>
-<td><p>Clear all the flags from the IMS motor</p></td>
+<td><p>Clear all the flags from the IMS motor.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.clear_error.html#pcdsdevices.device_types.IMS.clear_error" title="pcdsdevices.device_types.IMS.clear_error"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_error</span></code></a>([wait, timeout])</p></td>
-<td><p>Clear error flag</p></td>
+<td><p>Clear error flag.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.clear_powerup.html#pcdsdevices.device_types.IMS.clear_powerup" title="pcdsdevices.device_types.IMS.clear_powerup"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_powerup</span></code></a>([wait, timeout])</p></td>
-<td><p>Clear powerup flag</p></td>
+<td><p>Clear powerup flag.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.clear_stall.html#pcdsdevices.device_types.IMS.clear_stall" title="pcdsdevices.device_types.IMS.clear_stall"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_stall</span></code></a>([wait, timeout])</p></td>
-<td><p>Clear stall flag</p></td>
+<td><p>Clear stall flag.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.clear_sub.html#pcdsdevices.device_types.IMS.clear_sub" title="pcdsdevices.device_types.IMS.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
 <td><p>Remove a subscription, given the original callback function</p></td>
@@ -335,7 +336,7 @@ in-progress move as failed.</p></li>
 <td><p>Enables the motor.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.end_monitor_thread.html#pcdsdevices.device_types.IMS.end_monitor_thread" title="pcdsdevices.device_types.IMS.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
-<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.device_types.IMS.camonitor.html#pcdsdevices.device_types.IMS.camonitor" title="pcdsdevices.device_types.IMS.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.device_types.IMS.wm_update.html#pcdsdevices.device_types.IMS.wm_update" title="pcdsdevices.device_types.IMS.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</p></td>
+<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.device_types.IMS.camonitor.html#pcdsdevices.device_types.IMS.camonitor" title="pcdsdevices.device_types.IMS.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.device_types.IMS.wm_update.html#pcdsdevices.device_types.IMS.wm_update" title="pcdsdevices.device_types.IMS.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.get.html#pcdsdevices.device_types.IMS.get" title="pcdsdevices.device_types.IMS.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
@@ -377,13 +378,13 @@ in-progress move as failed.</p></li>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.reinitialize.html#pcdsdevices.device_types.IMS.reinitialize" title="pcdsdevices.device_types.IMS.reinitialize"><code class="xref py py-obj docutils literal notranslate"><span class="pre">reinitialize</span></code></a>([wait])</p></td>
-<td><p>Reinitialize the IMS motor</p></td>
+<td><p>Reinitialize the IMS motor.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.resume.html#pcdsdevices.device_types.IMS.resume" title="pcdsdevices.device_types.IMS.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.screen.html#pcdsdevices.device_types.IMS.screen" title="pcdsdevices.device_types.IMS.screen"><code class="xref py py-obj docutils literal notranslate"><span class="pre">screen</span></code></a>()</p></td>
-<td><p>Opens Epics motor expert screen for resetting motor after e.g.</p></td>
+<td><p>Opens Epics motor expert screen e.g.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.set.html#pcdsdevices.device_types.IMS.set" title="pcdsdevices.device_types.IMS.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position, *[, timeout, moved_cb, wait])</p></td>
 <td><p>Set a value and return a Status object</p></td>
@@ -404,7 +405,7 @@ in-progress move as failed.</p></li>
 <td><p>Stops the motor.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.stage.html#pcdsdevices.device_types.IMS.stage" title="pcdsdevices.device_types.IMS.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
-<td><p>Stage the IMS motor</p></td>
+<td><p>Stage the IMS motor.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.stop.html#pcdsdevices.device_types.IMS.stop" title="pcdsdevices.device_types.IMS.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
@@ -452,7 +453,7 @@ in-progress move as failed.</p></li>
 <td><p>Walk all sub-Devices in the hierarchy</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.wm.html#pcdsdevices.device_types.IMS.wm" title="pcdsdevices.device_types.IMS.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
-<td><p>Get the mover’s positon (where motor)</p></td>
+<td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.wm_update.html#pcdsdevices.device_types.IMS.wm_update" title="pcdsdevices.device_types.IMS.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.utils.ipm_screen &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.utils.ipm_screen &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -215,13 +216,13 @@
 <dl class="py function">
 <dt id="pcdsdevices.utils.ipm_screen">
 <code class="sig-prename descclassname">pcdsdevices.utils.</code><code class="sig-name descname">ipm_screen</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dettype</span></em>, <em class="sig-param"><span class="n">prefix</span></em>, <em class="sig-param"><span class="n">prefix_ioc</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.utils.ipm_screen" title="Permalink to this definition">¶</a></dt>
-<dd><p>Function to call the (pyQT) screen for an IPM box</p>
+<dd><p>Function to call the (pyQT) screen for an IPM box.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>dettype</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – The type of detector being accessed, <a class="reference internal" href="pcdsdevices.ipm.IPIMB.html#pcdsdevices.ipm.IPIMB" title="pcdsdevices.ipm.IPIMB"><code class="xref any py py-class docutils literal notranslate"><span class="pre">IPIMB</span></code></a> or <a class="reference internal" href="pcdsdevices.ipm.Wave8.html#pcdsdevices.ipm.Wave8" title="pcdsdevices.ipm.Wave8"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Wave8</span></code></a>.</p></li>
-<li><p><strong>prefix</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – The PV prefix associated with the device being accessed.</p></li>
-<li><p><strong>prefix_ioc</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – The PV prefix associated with the IOC running the device.</p></li>
+<li><p><strong>dettype</strong> (<em>{'IPIMB'</em><em>, </em><em>'Wave8'}</em>) – The type of detector being accessed.</p></li>
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The PV prefix associated with the device being accessed.</p></li>
+<li><p><strong>prefix_ioc</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The PV prefix associated with the IOC running the device.</p></li>
 </ul>
 </dd>
 </dl>

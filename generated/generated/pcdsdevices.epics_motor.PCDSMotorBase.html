@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.epics_motor.PCDSMotorBase &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.epics_motor.PCDSMotorBase &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -274,7 +275,7 @@
 <dl class="py class">
 <dt id="pcdsdevices.epics_motor.PCDSMotorBase">
 <em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.epics_motor.</code><code class="sig-name descname">PCDSMotorBase</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.epics_motor.PCDSMotorBase" title="Permalink to this definition">¶</a></dt>
-<dd><p>EpicsMotor for PCDS</p>
+<dd><p>EpicsMotor for PCDS.</p>
 <p>This incapsulates all motor record implementations standard for PCDS,
 including but not exclusive to Pico, Piezo, IMS and Newport motors. While
 these types of motors may have additional records and configuration
@@ -285,16 +286,15 @@ them.</p>
 community Motor Record and the PCDS Motor Record. The points that matter
 for this class are:</p>
 <blockquote>
-<div><p>1. The <code class="docutils literal notranslate"><span class="pre">TDIR</span></code> field does not exist on the PCDS implementation. This
+<div><p>1. The ‘TDIR’ field does not exist on the PCDS implementation. This
 indicates what direction the motor has travelled last. To account for
-this difference, we use the <code class="xref any docutils literal notranslate"><span class="pre">_pos_changed</span></code> callback to keep track of
-which direction we believe the motor to be travelling and store this in
-a simple <code class="docutils literal notranslate"><span class="pre">ophyd.Signal</span></code>
-2. The <code class="docutils literal notranslate"><span class="pre">SPG</span></code> field implements the three states used in the LCLS
+this difference, we use the <code class="xref py py-meth docutils literal notranslate"><span class="pre">_pos_changed()</span></code> callback to keep
+track of which direction we believe the motor to be travelling
+and store this in a simple <code class="xref py py-class docutils literal notranslate"><span class="pre">Signal</span></code>.
+2. The ‘SPG’ field implements the three states used in the LCLS
 motor record.  This is a reduced version of the standard EPICS
-<code class="docutils literal notranslate"><span class="pre">SPMG</span></code> field.  Setting to <code class="docutils literal notranslate"><span class="pre">STOP</span></code>, <code class="docutils literal notranslate"><span class="pre">PAUSE</span></code> and <code class="docutils literal notranslate"><span class="pre">GO</span></code>  will
-respectively stop motor movement, pause a move in progress, or resume
-a paused move.</p>
+‘SPMG’ field.  Setting to ‘STOP’, ‘PAUSE’ and ‘GO’  will respectively
+stop motor movement, pause a move in progress, or resume a paused move.</p>
 </div></blockquote>
 <p class="rubric">Methods</p>
 <table class="longtable docutils align-default">
@@ -337,7 +337,7 @@ a paused move.</p>
 <td><p>Enables the motor.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.end_monitor_thread.html#pcdsdevices.epics_motor.PCDSMotorBase.end_monitor_thread" title="pcdsdevices.epics_motor.PCDSMotorBase.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
-<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.camonitor.html#pcdsdevices.epics_motor.PCDSMotorBase.camonitor" title="pcdsdevices.epics_motor.PCDSMotorBase.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.wm_update.html#pcdsdevices.epics_motor.PCDSMotorBase.wm_update" title="pcdsdevices.epics_motor.PCDSMotorBase.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</p></td>
+<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.camonitor.html#pcdsdevices.epics_motor.PCDSMotorBase.camonitor" title="pcdsdevices.epics_motor.PCDSMotorBase.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.wm_update.html#pcdsdevices.epics_motor.PCDSMotorBase.wm_update" title="pcdsdevices.epics_motor.PCDSMotorBase.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.get.html#pcdsdevices.epics_motor.PCDSMotorBase.get" title="pcdsdevices.epics_motor.PCDSMotorBase.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
@@ -382,7 +382,7 @@ a paused move.</p>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.screen.html#pcdsdevices.epics_motor.PCDSMotorBase.screen" title="pcdsdevices.epics_motor.PCDSMotorBase.screen"><code class="xref py py-obj docutils literal notranslate"><span class="pre">screen</span></code></a>()</p></td>
-<td><p>Opens Epics motor expert screen for resetting motor after e.g.</p></td>
+<td><p>Opens Epics motor expert screen e.g.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.set.html#pcdsdevices.epics_motor.PCDSMotorBase.set" title="pcdsdevices.epics_motor.PCDSMotorBase.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position, *[, timeout, moved_cb, wait])</p></td>
 <td><p>Set a value and return a Status object</p></td>
@@ -451,7 +451,7 @@ a paused move.</p>
 <td><p>Walk all sub-Devices in the hierarchy</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.wm.html#pcdsdevices.epics_motor.PCDSMotorBase.wm" title="pcdsdevices.epics_motor.PCDSMotorBase.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
-<td><p>Get the mover’s positon (where motor)</p></td>
+<td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.wm_update.html#pcdsdevices.epics_motor.PCDSMotorBase.wm_update" title="pcdsdevices.epics_motor.PCDSMotorBase.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>

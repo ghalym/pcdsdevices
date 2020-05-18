@@ -1,6 +1,0 @@
-pcdsdevices.timetool.TimeToolWithNav.trigger
-============================================
-
-.. currentmodule:: pcdsdevices.timetool
-
-.. automethod:: TimeToolWithNav.trigger

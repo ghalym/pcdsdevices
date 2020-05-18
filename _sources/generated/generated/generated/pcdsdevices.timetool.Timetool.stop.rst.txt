@@ -1,0 +1,6 @@
+pcdsdevices.timetool.Timetool.stop
+==================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: Timetool.stop

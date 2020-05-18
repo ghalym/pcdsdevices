@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.OffsetMirror &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.device_types.OffsetMirror &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -153,6 +153,7 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Reflaser.html">pcdsdevices.device_types.Reflaser</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Slits.html">pcdsdevices.device_types.Slits</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Stopper.html">pcdsdevices.device_types.Stopper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Timetool.html">pcdsdevices.device_types.Timetool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Trigger.html">pcdsdevices.device_types.Trigger</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.TTReflaser.html">pcdsdevices.device_types.TTReflaser</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.VonHamos4Crystal.html">pcdsdevices.device_types.VonHamos4Crystal</a></li>
@@ -238,9 +239,9 @@
 <dl class="py class">
 <dt id="pcdsdevices.device_types.OffsetMirror">
 <em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.device_types.</code><code class="sig-name descname">OffsetMirror</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prefix</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">prefix_xy</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">xgantry_prefix</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.device_types.OffsetMirror" title="Permalink to this definition">¶</a></dt>
-<dd><p>X-Ray offset mirror class.</p>
+<dd><p>X-ray Offset Mirror class.</p>
 <p>This is for each individual mirror system used in the FEE
-and XRT. Controls for the pitch, and primary gantry x and y motors are
+and XRT. Controls for the pitch, and primary gantry x- and y-motors are
 included.</p>
 <p>When controlling the pitch motor, if the piezo is set to ‘PID’ mode, then
 the pitch mechanism is setup to first move the stepper as close to the
@@ -249,10 +250,10 @@ any positional changes.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – The EPICS base PV of the pitch motor</p></li>
-<li><p><strong>prefix_xy</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – The EPICS base PV of the gantry x and y gantry motors</p></li>
-<li><p><strong>xgantry_prefix</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – The name of the horizontal gantry if not identical to the prefix</p></li>
-<li><p><strong>name</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – The name of the offset mirror</p></li>
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The EPICS base PV of the pitch motor.</p></li>
+<li><p><strong>prefix_xy</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The EPICS base PV of the gantry x and y gantry motors.</p></li>
+<li><p><strong>xgantry_prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The name of the horizontal gantry if not identical to the prefix.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The name of the offset mirror.</p></li>
 </ul>
 </dd>
 </dl>
@@ -387,7 +388,7 @@ any positional changes.</p>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">inserted</span></code></p></td>
-<td><p>Treat OffsetMirror as always inserted</p></td>
+<td><p>Returns <a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a>.</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
 <td><p></p></td>
@@ -408,7 +409,7 @@ any positional changes.</p>
 <td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">removed</span></code></p></td>
-<td><p>Treat OffsetMirror as always inserted</p></td>
+<td><p>Returns <code class="xref std std-keyword docutils literal notranslate"><span class="pre">False</span></code>.</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
 <td><p>A report on the object.</p></td>

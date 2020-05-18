@@ -1,0 +1,6 @@
+pcdsdevices.timetool.Timetool.describe\_configuration
+=====================================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: Timetool.describe_configuration

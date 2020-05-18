@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.epics_motor.EpicsMotorInterface &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.epics_motor.EpicsMotorInterface &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -275,21 +276,22 @@
 <p class="rubric">Notes</p>
 <p>The full list of preferences implemented here are:</p>
 <blockquote>
-<div><p>1. Use the FltMvInterface mixin class for some name aliases and
-bells-and-whistles level functions
-2. Instead of using the limit fields on the setpoint PV, the EPICS
-motor class has the <code class="docutils literal notranslate"><span class="pre">LLM</span></code> and <code class="docutils literal notranslate"><span class="pre">HLM</span></code> soft limit fields for
-convenient usage. Unfortunately, pyepics does not update its internal
-cache of the limits after the first get attempt. We therefore disregard
-the internal limits of the PV and use the soft limit records
-exclusively.
-3. The disable puts field <code class="docutils literal notranslate"><span class="pre">.DISP</span></code> is added, along with <code class="docutils literal notranslate"><span class="pre">enable</span></code> and
-<code class="docutils literal notranslate"><span class="pre">disable</span></code> convenience methods. When <code class="docutils literal notranslate"><span class="pre">.DISP</span></code> is 1, puts to the motor
-record will be ignored, effectively disabling the interface.
-4. The description field keeps track of the motors scientific use along</p>
-<blockquote>
-<div><p>the beamline.</p>
-</div></blockquote>
+<div><ol class="arabic simple">
+<li><p>Use the FltMvInterface mixin class for some name aliases and
+bells-and-whistles level functions.</p></li>
+<li><p>Instead of using the limit fields on the setpoint PV, the EPICS
+motor class has the ‘LLM’ and ‘HLM’ soft limit fields for
+convenient usage. Unfortunately, pyepics does not update its
+internal cache of the limits after the first get attempt. We
+therefore disregard the internal limits of the PV and use the soft
+limit records exclusively.</p></li>
+<li><p>The disable puts field ‘.DISP’ is added, along with <a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.enable.html#pcdsdevices.epics_motor.EpicsMotorInterface.enable" title="pcdsdevices.epics_motor.EpicsMotorInterface.enable"><code class="xref py py-meth docutils literal notranslate"><span class="pre">enable()</span></code></a>
+and <a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.disable.html#pcdsdevices.epics_motor.EpicsMotorInterface.disable" title="pcdsdevices.epics_motor.EpicsMotorInterface.disable"><code class="xref py py-meth docutils literal notranslate"><span class="pre">disable()</span></code></a> convenience methods. When ‘.DISP’ is 1, puts to
+the motor record will be ignored, effectively disabling the
+interface.</p></li>
+<li><p>The description field keeps track of the motors scientific use along
+the beamline.</p></li>
+</ol>
 </div></blockquote>
 <p class="rubric">Methods</p>
 <table class="longtable docutils align-default">
@@ -332,7 +334,7 @@ record will be ignored, effectively disabling the interface.
 <td><p>Enables the motor.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.end_monitor_thread.html#pcdsdevices.epics_motor.EpicsMotorInterface.end_monitor_thread" title="pcdsdevices.epics_motor.EpicsMotorInterface.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
-<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.camonitor.html#pcdsdevices.epics_motor.EpicsMotorInterface.camonitor" title="pcdsdevices.epics_motor.EpicsMotorInterface.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.wm_update.html#pcdsdevices.epics_motor.EpicsMotorInterface.wm_update" title="pcdsdevices.epics_motor.EpicsMotorInterface.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</p></td>
+<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.camonitor.html#pcdsdevices.epics_motor.EpicsMotorInterface.camonitor" title="pcdsdevices.epics_motor.EpicsMotorInterface.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.wm_update.html#pcdsdevices.epics_motor.EpicsMotorInterface.wm_update" title="pcdsdevices.epics_motor.EpicsMotorInterface.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.get.html#pcdsdevices.epics_motor.EpicsMotorInterface.get" title="pcdsdevices.epics_motor.EpicsMotorInterface.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
@@ -434,7 +436,7 @@ record will be ignored, effectively disabling the interface.
 <td><p>Walk all sub-Devices in the hierarchy</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.wm.html#pcdsdevices.epics_motor.EpicsMotorInterface.wm" title="pcdsdevices.epics_motor.EpicsMotorInterface.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
-<td><p>Get the mover’s positon (where motor)</p></td>
+<td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.wm_update.html#pcdsdevices.epics_motor.EpicsMotorInterface.wm_update" title="pcdsdevices.epics_motor.EpicsMotorInterface.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>

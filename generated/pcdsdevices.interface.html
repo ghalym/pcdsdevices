@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.interface &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.interface &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -216,7 +217,7 @@
             
   <div class="section" id="module-pcdsdevices.interface">
 <span id="pcdsdevices-interface"></span><h1>pcdsdevices.interface<a class="headerlink" href="#module-pcdsdevices.interface" title="Permalink to this headline">¶</a></h1>
-<p>Module for defining bell-and-whistles movement features</p>
+<p>Module for defining bell-and-whistles movement features.</p>
 <p class="rubric">Functions</p>
 <table class="longtable docutils align-default">
 <colgroup>
@@ -225,13 +226,13 @@
 </colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.get_engineering_mode.html#pcdsdevices.interface.get_engineering_mode" title="pcdsdevices.interface.get_engineering_mode"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_engineering_mode</span></code></a>()</p></td>
-<td><p>Get the last value set by <a class="reference internal" href="generated/pcdsdevices.interface.set_engineering_mode.html#pcdsdevices.interface.set_engineering_mode" title="pcdsdevices.interface.set_engineering_mode"><code class="xref any py py-func docutils literal notranslate"><span class="pre">set_engineering_mode</span></code></a>.</p></td>
+<td><p>Get the last value set by <a class="reference internal" href="generated/pcdsdevices.interface.set_engineering_mode.html#pcdsdevices.interface.set_engineering_mode" title="pcdsdevices.interface.set_engineering_mode"><code class="xref py py-meth docutils literal notranslate"><span class="pre">set_engineering_mode()</span></code></a>.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.set_engineering_mode.html#pcdsdevices.interface.set_engineering_mode" title="pcdsdevices.interface.set_engineering_mode"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_engineering_mode</span></code></a>(expert)</p></td>
-<td><p>Switches between expert mode and user mode for <a class="reference internal" href="generated/pcdsdevices.interface.BaseInterface.html#pcdsdevices.interface.BaseInterface" title="pcdsdevices.interface.BaseInterface"><code class="xref any py py-class docutils literal notranslate"><span class="pre">BaseInterface</span></code></a> features.</p></td>
+<td><p>Switches between expert and user modes for <a class="reference internal" href="generated/pcdsdevices.interface.BaseInterface.html#pcdsdevices.interface.BaseInterface" title="pcdsdevices.interface.BaseInterface"><code class="xref py py-class docutils literal notranslate"><span class="pre">BaseInterface</span></code></a> features.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.setup_preset_paths.html#pcdsdevices.interface.setup_preset_paths" title="pcdsdevices.interface.setup_preset_paths"><code class="xref py py-obj docutils literal notranslate"><span class="pre">setup_preset_paths</span></code></a>(**paths)</p></td>
-<td><p>Prepare the <a class="reference internal" href="generated/pcdsdevices.interface.Presets.html#pcdsdevices.interface.Presets" title="pcdsdevices.interface.Presets"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Presets</span></code></a> class.</p></td>
+<td><p>Prepare the <a class="reference internal" href="generated/pcdsdevices.interface.Presets.html#pcdsdevices.interface.Presets" title="pcdsdevices.interface.Presets"><code class="xref py py-class docutils literal notranslate"><span class="pre">Presets</span></code></a> class.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.tweak_base.html#pcdsdevices.interface.tweak_base" title="pcdsdevices.interface.tweak_base"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak_base</span></code></a>(*args)</p></td>
 <td><p>Base function to control motors with the arrow keys.</p></td>
@@ -246,13 +247,13 @@
 </colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.AbsProgressBar.html#pcdsdevices.interface.AbsProgressBar" title="pcdsdevices.interface.AbsProgressBar"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AbsProgressBar</span></code></a>(status_objs[, delay_draw])</p></td>
-<td><p>Progress bar that displays the absolute position as well</p></td>
+<td><p>Progress bar that displays the absolute position as well.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.BaseInterface.html#pcdsdevices.interface.BaseInterface" title="pcdsdevices.interface.BaseInterface"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BaseInterface</span></code></a>(*[, name, attr_name, parent, …])</p></td>
 <td><p>Interface layer to attach to any Device for SLAC features.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.FltMvInterface.html#pcdsdevices.interface.FltMvInterface" title="pcdsdevices.interface.FltMvInterface"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FltMvInterface</span></code></a>(*args, **kwargs)</p></td>
-<td><p>Extension of <a class="reference internal" href="generated/pcdsdevices.interface.MvInterface.html#pcdsdevices.interface.MvInterface" title="pcdsdevices.interface.MvInterface"><code class="xref any py py-class docutils literal notranslate"><span class="pre">MvInterface</span></code></a> for when the position is a <code class="docutils literal notranslate"><span class="pre">float</span></code>.</p></td>
+<td><p>Extension of <a class="reference internal" href="generated/pcdsdevices.interface.MvInterface.html#pcdsdevices.interface.MvInterface" title="pcdsdevices.interface.MvInterface"><code class="xref py py-class docutils literal notranslate"><span class="pre">MvInterface</span></code></a> for when the position is a float.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.MvInterface.html#pcdsdevices.interface.MvInterface" title="pcdsdevices.interface.MvInterface"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MvInterface</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Interface layer to attach to a positioner for motion shortcuts.</p></td>

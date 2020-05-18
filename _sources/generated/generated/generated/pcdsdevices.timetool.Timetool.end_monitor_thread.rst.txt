@@ -1,0 +1,6 @@
+pcdsdevices.timetool.Timetool.end\_monitor\_thread
+==================================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: Timetool.end_monitor_thread

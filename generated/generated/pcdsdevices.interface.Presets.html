@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.interface.Presets &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.interface.Presets &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -228,23 +229,23 @@
 <dd><p>Manager for device preset positions.</p>
 <p>This provides methods for adding new presets, checking which presets are
 active, and related utilities.</p>
-<p>It will install the <code class="docutils literal notranslate"><span class="pre">mv_presetname</span></code> and <code class="docutils literal notranslate"><span class="pre">wm_presetname</span></code> methods onto
-the associated device, and the <code class="docutils literal notranslate"><span class="pre">add_preset</span></code> and <code class="docutils literal notranslate"><span class="pre">add_preset_here</span></code>
-methods onto itself.</p>
+<p>It will install the <code class="xref py py-meth docutils literal notranslate"><span class="pre">mv_presetname()</span></code> and <code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_presetname()</span></code> methods
+onto the associated device, and the <code class="xref py py-meth docutils literal notranslate"><span class="pre">add_preset()</span></code> and
+<code class="xref py py-meth docutils literal notranslate"><span class="pre">add_preset_here()</span></code> methods onto itself.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>device</strong> (<code class="docutils literal notranslate"><span class="pre">Device</span></code>) – The device to manage saved preset positions for. It must implement the
-<a class="reference internal" href="pcdsdevices.interface.FltMvInterface.html#pcdsdevices.interface.FltMvInterface" title="pcdsdevices.interface.FltMvInterface"><code class="xref any py py-class docutils literal notranslate"><span class="pre">FltMvInterface</span></code></a>.</p>
+<dd class="field-odd"><p><strong>device</strong> (<a class="reference external" href="https://blueskyproject.io/ophyd/generated/ophyd.device.Device.html#ophyd.device.Device" title="(in ophyd v1.5.1b1)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Device</span></code></a>) – The device to manage saved preset positions for. It must implement the
+<a class="reference internal" href="pcdsdevices.interface.FltMvInterface.html#pcdsdevices.interface.FltMvInterface" title="pcdsdevices.interface.FltMvInterface"><code class="xref py py-class docutils literal notranslate"><span class="pre">FltMvInterface</span></code></a>.</p>
 </dd>
 </dl>
 <dl class="py attribute">
 <dt id="pcdsdevices.interface.Presets.positions">
 <code class="sig-name descname">positions</code><a class="headerlink" href="#pcdsdevices.interface.Presets.positions" title="Permalink to this definition">¶</a></dt>
-<dd><p>A namespace that contains all of the active presets as <a class="reference internal" href="pcdsdevices.interface.PresetPosition.html#pcdsdevices.interface.PresetPosition" title="pcdsdevices.interface.PresetPosition"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PresetPosition</span></code></a>
-objects.</p>
+<dd><p>A namespace that contains all of the active presets as
+<a class="reference internal" href="pcdsdevices.interface.PresetPosition.html#pcdsdevices.interface.PresetPosition" title="pcdsdevices.interface.PresetPosition"><code class="xref py py-class docutils literal notranslate"><span class="pre">PresetPosition</span></code></a> objects.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">SimpleNamespace</span></code></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/types.html#types.SimpleNamespace" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">SimpleNamespace</span></code></a></p>
 </dd>
 </dl>
 </dd></dl>

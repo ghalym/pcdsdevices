@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.gauge &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.gauge &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -224,7 +225,7 @@
             
   <div class="section" id="module-pcdsdevices.gauge">
 <span id="pcdsdevices-gauge"></span><h1>pcdsdevices.gauge<a class="headerlink" href="#module-pcdsdevices.gauge" title="Permalink to this headline">¶</a></h1>
-<p>Standard classes for LCLS Gauges</p>
+<p>Standard classes for LCLS Gauges.</p>
 <p class="rubric">Functions</p>
 <table class="longtable docutils align-default">
 <colgroup>
@@ -233,7 +234,7 @@
 </colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSet.html#pcdsdevices.gauge.GaugeSet" title="pcdsdevices.gauge.GaugeSet"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GaugeSet</span></code></a>(prefix, *, name, index, **kwargs)</p></td>
-<td><p>Factory function for Gauge Set</p></td>
+<td><p>Factory function for Gauge Set.</p></td>
 </tr>
 </tbody>
 </table>
@@ -245,55 +246,55 @@
 </colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.BaseGauge.html#pcdsdevices.gauge.BaseGauge" title="pcdsdevices.gauge.BaseGauge"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BaseGauge</span></code></a>([prefix, kind, read_attrs, …])</p></td>
-<td><p>Vacuum gauge</p></td>
+<td><p>Base class for vacuum gauges.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GCC500PLC.html#pcdsdevices.gauge.GCC500PLC" title="pcdsdevices.gauge.GCC500PLC"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GCC500PLC</span></code></a>([prefix, kind, read_attrs, …])</p></td>
-<td><p>Class for GCC500 controlled by PLC</p></td>
+<td><p>Class for a GCC500 controlled by PLC.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GCCPLC.html#pcdsdevices.gauge.GCCPLC" title="pcdsdevices.gauge.GCCPLC"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GCCPLC</span></code></a>([prefix, kind, read_attrs, …])</p></td>
-<td><p>Class for Cold Cathode Gauge controlled by PLC</p></td>
+<td><p>Class for a Cold Cathode Gauge controlled by PLC.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GCT.html#pcdsdevices.gauge.GCT" title="pcdsdevices.gauge.GCT"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GCT</span></code></a>([prefix, kind, read_attrs, …])</p></td>
-<td><p>Base class for Gauge Controllers accessed via serial</p></td>
+<td><p>Base class for Gauge Controllers accessed via serial.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeColdCathode.html#pcdsdevices.gauge.GaugeColdCathode" title="pcdsdevices.gauge.GaugeColdCathode"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GaugeColdCathode</span></code></a>([prefix, kind, read_attrs, …])</p></td>
-<td><p>Class for Cold Cathode Gauge</p></td>
+<td><p>Class for Cold Cathode Gauges.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugePLC.html#pcdsdevices.gauge.GaugePLC" title="pcdsdevices.gauge.GaugePLC"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GaugePLC</span></code></a>([prefix, kind, read_attrs, …])</p></td>
-<td><p>Base class for gauges controlled by PLC</p></td>
+<td><p>Base class for gauges controlled by PLC.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugePirani.html#pcdsdevices.gauge.GaugePirani" title="pcdsdevices.gauge.GaugePirani"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GaugePirani</span></code></a>([prefix, kind, read_attrs, …])</p></td>
-<td><p>Class for Pirani gauge</p></td>
+<td><p>Class for Pirani gauges.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSerial.html#pcdsdevices.gauge.GaugeSerial" title="pcdsdevices.gauge.GaugeSerial"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GaugeSerial</span></code></a>([prefix, kind, read_attrs, …])</p></td>
-<td><p>Base class for Vacuum Gauge controlled via serial</p></td>
+<td><p>Base class for Vacuum Gauges controlled via serial.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSerialGCC.html#pcdsdevices.gauge.GaugeSerialGCC" title="pcdsdevices.gauge.GaugeSerialGCC"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GaugeSerialGCC</span></code></a>([prefix, kind, read_attrs, …])</p></td>
-<td><p>Class for Cold Cathode Gauge controlled via serial</p></td>
+<td><p>Class for Cold Cathode Gauges controlled via serial.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSerialGPI.html#pcdsdevices.gauge.GaugeSerialGPI" title="pcdsdevices.gauge.GaugeSerialGPI"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GaugeSerialGPI</span></code></a>([prefix, kind, read_attrs, …])</p></td>
-<td><p>Class for Pirani Vacuum Gauge controlled via serial</p></td>
+<td><p>Class for Pirani Vacuum Gauges controlled via serial.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetBase.html#pcdsdevices.gauge.GaugeSetBase" title="pcdsdevices.gauge.GaugeSetBase"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GaugeSetBase</span></code></a>(prefix, *, name, index, **kwargs)</p></td>
-<td><p>Class for a Gauge Set</p></td>
+<td><p>Class for a Gauge Set.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetMks.html#pcdsdevices.gauge.GaugeSetMks" title="pcdsdevices.gauge.GaugeSetMks"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GaugeSetMks</span></code></a>(prefix, *, name, index, …)</p></td>
-<td><p>Class for a Gauge Set w/o Pirani, but with controller</p></td>
+<td><p>Class for a Gauge Set w/o Pirani, but with controller.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.html#pcdsdevices.gauge.GaugeSetPirani" title="pcdsdevices.gauge.GaugeSetPirani"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GaugeSetPirani</span></code></a>(prefix, *, name, index, **kwargs)</p></td>
-<td><p>Class for a Gauge Set</p></td>
+<td><p>Class for a Gauge Set.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPiraniMks.html#pcdsdevices.gauge.GaugeSetPiraniMks" title="pcdsdevices.gauge.GaugeSetPiraniMks"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GaugeSetPiraniMks</span></code></a>(prefix, *, name, index, …)</p></td>
-<td><p>Class for a Gauge Set including the controller</p></td>
+<td><p>Class for a Gauge Set including the controller.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937AController.html#pcdsdevices.gauge.MKS937AController" title="pcdsdevices.gauge.MKS937AController"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MKS937AController</span></code></a>([prefix, kind, …])</p></td>
-<td><p>Class for MKS937A accessed via serial</p></td>
+<td><p>Class for MKS937A gauge controllers accessed via serial.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937BController.html#pcdsdevices.gauge.MKS937BController" title="pcdsdevices.gauge.MKS937BController"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MKS937BController</span></code></a>([prefix, kind, …])</p></td>
-<td><p>Class for MKS937B accessed via serial</p></td>
+<td><p>Class for MKS937B gauge controllers accessed via serial.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.html#pcdsdevices.gauge.MKS937a" title="pcdsdevices.gauge.MKS937a"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MKS937a</span></code></a>([prefix, kind, read_attrs, …])</p></td>
-<td><p>Vacuum gauge controller MKS637a)</p></td>
+<td><p>A base class for an MKS637a vacuum gauge controller.</p></td>
 </tr>
 </tbody>
 </table>

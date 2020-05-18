@@ -1,6 +1,0 @@
-pcdsdevices.timetool.TimeToolWithNav.subscribe
-==============================================
-
-.. currentmodule:: pcdsdevices.timetool
-
-.. automethod:: TimeToolWithNav.subscribe

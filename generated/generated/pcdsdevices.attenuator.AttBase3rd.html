@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.attenuator.AttBase3rd &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.attenuator.AttBase3rd &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -160,6 +160,7 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -265,10 +266,10 @@
 <dl class="py class">
 <dt id="pcdsdevices.attenuator.AttBase3rd">
 <em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.attenuator.</code><code class="sig-name descname">AttBase3rd</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prefix</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">name</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.attenuator.AttBase3rd" title="Permalink to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="pcdsdevices.attenuator.Attenuator.html#pcdsdevices.attenuator.Attenuator" title="pcdsdevices.attenuator.Attenuator"><code class="xref any py py-func docutils literal notranslate"><span class="pre">Attenuator</span></code></a> class to use the 3rd harmonic values.</p>
-<p>This is exactly the same as the normal <a class="reference internal" href="pcdsdevices.attenuator.AttBase.html#pcdsdevices.attenuator.AttBase" title="pcdsdevices.attenuator.AttBase"><code class="xref any py py-class docutils literal notranslate"><span class="pre">AttBase</span></code></a>, but with the alternative
-transmission PVs. It can be instantiated using the <code class="docutils literal notranslate"><span class="pre">use_3rd</span></code> argument in
-the <a class="reference internal" href="pcdsdevices.attenuator.Attenuator.html#pcdsdevices.attenuator.Attenuator" title="pcdsdevices.attenuator.Attenuator"><code class="xref any py py-func docutils literal notranslate"><span class="pre">Attenuator</span></code></a> factory function.</p>
+<dd><p><a class="reference internal" href="pcdsdevices.attenuator.Attenuator.html#pcdsdevices.attenuator.Attenuator" title="pcdsdevices.attenuator.Attenuator"><code class="xref py py-func docutils literal notranslate"><span class="pre">Attenuator()</span></code></a> class to use the 3rd harmonic values.</p>
+<p>This is exactly the same as the normal <a class="reference internal" href="pcdsdevices.attenuator.AttBase.html#pcdsdevices.attenuator.AttBase" title="pcdsdevices.attenuator.AttBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">AttBase</span></code></a>, but with the
+alternative transmission PVs. It can be instantiated using the
+<code class="xref any docutils literal notranslate"><span class="pre">~Attenuator.use_3rd</span></code> argument in the <a class="reference internal" href="pcdsdevices.attenuator.Attenuator.html#pcdsdevices.attenuator.Attenuator" title="pcdsdevices.attenuator.Attenuator"><code class="xref py py-func docutils literal notranslate"><span class="pre">Attenuator()</span></code></a> factory function.</p>
 <p class="rubric">Methods</p>
 <table class="longtable docutils align-default">
 <colgroup>
@@ -304,7 +305,7 @@ the <a class="reference internal" href="pcdsdevices.attenuator.Attenuator.html#p
 <td><p>Disconnect and destroy all signals on the Device</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.end_monitor_thread.html#pcdsdevices.attenuator.AttBase3rd.end_monitor_thread" title="pcdsdevices.attenuator.AttBase3rd.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
-<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.camonitor.html#pcdsdevices.attenuator.AttBase3rd.camonitor" title="pcdsdevices.attenuator.AttBase3rd.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.wm_update.html#pcdsdevices.attenuator.AttBase3rd.wm_update" title="pcdsdevices.attenuator.AttBase3rd.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</p></td>
+<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.camonitor.html#pcdsdevices.attenuator.AttBase3rd.camonitor" title="pcdsdevices.attenuator.AttBase3rd.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.wm_update.html#pcdsdevices.attenuator.AttBase3rd.wm_update" title="pcdsdevices.attenuator.AttBase3rd.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.get.html#pcdsdevices.attenuator.AttBase3rd.get" title="pcdsdevices.attenuator.AttBase3rd.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
@@ -316,7 +317,7 @@ the <a class="reference internal" href="pcdsdevices.attenuator.Attenuator.html#p
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.insert.html#pcdsdevices.attenuator.AttBase3rd.insert" title="pcdsdevices.attenuator.AttBase3rd.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([wait, timeout, moved_cb])</p></td>
-<td><p>Block the beam by setting transmission to zero</p></td>
+<td><p>Block the beam by setting transmission to zero.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.move.html#pcdsdevices.attenuator.AttBase3rd.move" title="pcdsdevices.attenuator.AttBase3rd.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, wait, timeout, moved_cb])</p></td>
 <td><p>Move to a specified position, optionally waiting for motion to complete.</p></td>
@@ -343,7 +344,7 @@ the <a class="reference internal" href="pcdsdevices.attenuator.Attenuator.html#p
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.remove.html#pcdsdevices.attenuator.AttBase3rd.remove" title="pcdsdevices.attenuator.AttBase3rd.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([wait, timeout, moved_cb])</p></td>
-<td><p>Bring the attenuator fully out of the beam</p></td>
+<td><p>Bring the attenuator fully out of the beam.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.resume.html#pcdsdevices.attenuator.AttBase3rd.resume" title="pcdsdevices.attenuator.AttBase3rd.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
@@ -403,7 +404,7 @@ the <a class="reference internal" href="pcdsdevices.attenuator.Attenuator.html#p
 <td><p>Walk all sub-Devices in the hierarchy</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.wm.html#pcdsdevices.attenuator.AttBase3rd.wm" title="pcdsdevices.attenuator.AttBase3rd.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
-<td><p>Get the mover’s positon (where motor)</p></td>
+<td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.wm_update.html#pcdsdevices.attenuator.AttBase3rd.wm_update" title="pcdsdevices.attenuator.AttBase3rd.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
@@ -436,7 +437,7 @@ the <a class="reference internal" href="pcdsdevices.attenuator.Attenuator.html#p
 <td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">actuate_value</span></code></p></td>
-<td><p>Sets the value we use in the GO command.</p></td>
+<td><p>Sets the value we use in the ‘GO’ command.</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">attr_name</span></code></p></td>
 <td><p></p></td>
@@ -481,7 +482,7 @@ the <a class="reference internal" href="pcdsdevices.attenuator.Attenuator.html#p
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">inserted</span></code></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">True</span></code> if any blade is inserted</p></td>
+<td><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a> if any blade is inserted.</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
 <td><p></p></td>
@@ -520,7 +521,7 @@ the <a class="reference internal" href="pcdsdevices.attenuator.Attenuator.html#p
 <td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">removed</span></code></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">True</span></code> if all blades are removed</p></td>
+<td><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a> if all blades are removed.</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
 <td><p>A report on the object.</p></td>
@@ -556,7 +557,7 @@ the <a class="reference internal" href="pcdsdevices.attenuator.Attenuator.html#p
 <td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">transmission</span></code></p></td>
-<td><p>Ratio of pass-through beam to incoming beam.</p></td>
+<td><p>Ratio of pass-through beam to incoming beam as a value between 1 (full beam) and 0 (no beam).</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
 <td><p></p></td>

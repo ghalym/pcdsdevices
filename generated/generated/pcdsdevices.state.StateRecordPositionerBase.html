@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.state.StateRecordPositionerBase &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.state.StateRecordPositionerBase &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -261,7 +262,7 @@
 <dt id="pcdsdevices.state.StateRecordPositionerBase">
 <em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.state.</code><code class="sig-name descname">StateRecordPositionerBase</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prefix</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">name</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.state.StateRecordPositionerBase" title="Permalink to this definition">¶</a></dt>
 <dd><p>A <a class="reference internal" href="pcdsdevices.state.StatePositioner.html#pcdsdevices.state.StatePositioner" title="pcdsdevices.state.StatePositioner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">StatePositioner</span></code></a> for an EPICS states record.</p>
-<p><a class="reference internal" href="pcdsdevices.state.StatePositioner.html#pcdsdevices.state.StatePositioner.states_list" title="pcdsdevices.state.StatePositioner.states_list"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">states_list</span></code></a> does not have to be provided</p>
+<p><a class="reference internal" href="pcdsdevices.state.StatePositioner.html#pcdsdevices.state.StatePositioner.states_list" title="pcdsdevices.state.StatePositioner.states_list"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">states_list</span></code></a> does not have to be provided.</p>
 <p class="rubric">Methods</p>
 <table class="longtable docutils align-default">
 <colgroup>
@@ -297,7 +298,7 @@
 <td><p>Disconnect and destroy all signals on the Device</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.end_monitor_thread.html#pcdsdevices.state.StateRecordPositionerBase.end_monitor_thread" title="pcdsdevices.state.StateRecordPositionerBase.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
-<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.camonitor.html#pcdsdevices.state.StateRecordPositionerBase.camonitor" title="pcdsdevices.state.StateRecordPositionerBase.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.wm_update.html#pcdsdevices.state.StateRecordPositionerBase.wm_update" title="pcdsdevices.state.StateRecordPositionerBase.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</p></td>
+<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.camonitor.html#pcdsdevices.state.StateRecordPositionerBase.camonitor" title="pcdsdevices.state.StateRecordPositionerBase.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.wm_update.html#pcdsdevices.state.StateRecordPositionerBase.wm_update" title="pcdsdevices.state.StateRecordPositionerBase.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.get.html#pcdsdevices.state.StateRecordPositionerBase.get" title="pcdsdevices.state.StateRecordPositionerBase.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
@@ -375,7 +376,7 @@
 <td><p>Walk all sub-Devices in the hierarchy</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.wm.html#pcdsdevices.state.StateRecordPositionerBase.wm" title="pcdsdevices.state.StateRecordPositionerBase.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
-<td><p>Get the mover’s positon (where motor)</p></td>
+<td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.wm_update.html#pcdsdevices.state.StateRecordPositionerBase.wm_update" title="pcdsdevices.state.StateRecordPositionerBase.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>

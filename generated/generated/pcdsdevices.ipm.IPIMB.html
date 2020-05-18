@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ipm.IPIMB &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.ipm.IPIMB &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -254,23 +255,46 @@
 <dl class="py class">
 <dt id="pcdsdevices.ipm.IPIMB">
 <em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.ipm.</code><code class="sig-name descname">IPIMB</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prefix</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">name</span></em>, <em class="sig-param"><span class="n">prefix_ioc</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.ipm.IPIMB" title="Permalink to this definition">¶</a></dt>
-<dd><p>Class for an ipimb box.</p>
+<dd><p>Class for an IPIMB box.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – Ipimb base PV</p></li>
-<li><p><strong>name</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – Alias for the ipimb</p></li>
-<li><p><strong>prefix_ioc</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – Ipimb base PV for IOC PVs</p></li>
-<li><p><strong>- readback</strong> (<em>Components</em>) – </p></li>
-<li><p><strong>sum of all 4 channels</strong><strong> (</strong><strong>i0 if stadard IPM device</strong><strong>)</strong> (<em>total</em>) – </p></li>
-<li><p><strong>beam position position calculated from 4 channels</strong> (<em>x&amp;y</em>) – </p></li>
-<li><p><strong>- configuration</strong> (<em>Components</em>) – </p></li>
-<li><p><strong>bias</strong> (<em>voltage aplied to diodes in V</em>) – </p></li>
-<li><p><strong>delay</strong> (<em>delay of trigger relative to input EVR</em>) – </p></li>
-<li><p><strong>trigger</strong> – </p></li>
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – IPIMB base PV.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Alias for the IPIMB.</p></li>
+<li><p><strong>prefix_ioc</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – IPIMB base PV for IOC PVs.</p></li>
 </ul>
 </dd>
 </dl>
+<dl class="py attribute">
+<dt id="pcdsdevices.ipm.IPIMB.isum">
+<code class="sig-name descname">isum</code><a class="headerlink" href="#pcdsdevices.ipm.IPIMB.isum" title="Permalink to this definition">¶</a></dt>
+<dd><p>Total sum of all 4 channels (i0 if standard IPM device).</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt>
+<code class="sig-name descname">xpos, ypos</code></dt>
+<dd><p>X&amp;Y beam position position calculated from 4 channels.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="pcdsdevices.ipm.IPIMB.bias">
+<code class="sig-name descname">bias</code><a class="headerlink" href="#pcdsdevices.ipm.IPIMB.bias" title="Permalink to this definition">¶</a></dt>
+<dd><p>Voltage applied to diodes in V.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="pcdsdevices.ipm.IPIMB.delay">
+<code class="sig-name descname">delay</code><a class="headerlink" href="#pcdsdevices.ipm.IPIMB.delay" title="Permalink to this definition">¶</a></dt>
+<dd><p>Delay of trigger relative to input EVR.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="pcdsdevices.ipm.IPIMB.evr_channel">
+<code class="sig-name descname">evr_channel</code><a class="headerlink" href="#pcdsdevices.ipm.IPIMB.evr_channel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Trigger component.</p>
+</dd></dl>
+
 <p class="rubric">Methods</p>
 <table class="longtable docutils align-default">
 <colgroup>
@@ -327,7 +351,7 @@
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMB.screen.html#pcdsdevices.ipm.IPIMB.screen" title="pcdsdevices.ipm.IPIMB.screen"><code class="xref py py-obj docutils literal notranslate"><span class="pre">screen</span></code></a>()</p></td>
-<td><p>Function to call the (pyQT) screen for an IPIMB box</p></td>
+<td><p>Function to call the (pyQT) screen for an IPIMB box.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMB.stage.html#pcdsdevices.ipm.IPIMB.stage" title="pcdsdevices.ipm.IPIMB.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
 <td><p>Stage the device for data collection.</p></td>
@@ -383,7 +407,7 @@
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">attr_name</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">bias</span></code></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#pcdsdevices.ipm.IPIMB.bias" title="pcdsdevices.ipm.IPIMB.bias"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bias</span></code></a></p></td>
 <td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">ch0</span></code></p></td>
@@ -407,7 +431,7 @@
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></p></td>
 <td><p>If the device is connected.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">delay</span></code></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#pcdsdevices.ipm.IPIMB.delay" title="pcdsdevices.ipm.IPIMB.delay"><code class="xref py py-obj docutils literal notranslate"><span class="pre">delay</span></code></a></p></td>
 <td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">dotted_name</span></code></p></td>
@@ -416,13 +440,13 @@
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">event_types</span></code></p></td>
 <td><p>Events that can be subscribed to via <code class="xref any docutils literal notranslate"><span class="pre">obj.subscribe</span></code></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">evr_channel</span></code></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#pcdsdevices.ipm.IPIMB.evr_channel" title="pcdsdevices.ipm.IPIMB.evr_channel"><code class="xref py py-obj docutils literal notranslate"><span class="pre">evr_channel</span></code></a></p></td>
 <td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">hints</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">isum</span></code></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="#pcdsdevices.ipm.IPIMB.isum" title="pcdsdevices.ipm.IPIMB.isum"><code class="xref py py-obj docutils literal notranslate"><span class="pre">isum</span></code></a></p></td>
 <td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>

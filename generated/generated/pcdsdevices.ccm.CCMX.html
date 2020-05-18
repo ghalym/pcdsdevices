@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ccm.CCMX &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.ccm.CCMX &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -168,6 +168,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.ccm.CCMY.html">pcdsdevices.ccm.CCMY</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -273,7 +274,7 @@
 <dl class="py class">
 <dt id="pcdsdevices.ccm.CCMX">
 <em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.ccm.</code><code class="sig-name descname">CCMX</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">down_prefix</span></em>, <em class="sig-param"><span class="n">up_prefix</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.ccm.CCMX" title="Permalink to this definition">¶</a></dt>
-<dd><p>Combined motion of the CCM X motors</p>
+<dd><p>Combined motion of the CCM X motors.</p>
 <p class="rubric">Methods</p>
 <table class="longtable docutils align-default">
 <colgroup>
@@ -315,10 +316,10 @@
 <td><p>Disconnect and destroy all signals on the Device</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMX.end_monitor_thread.html#pcdsdevices.ccm.CCMX.end_monitor_thread" title="pcdsdevices.ccm.CCMX.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
-<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.ccm.CCMX.camonitor.html#pcdsdevices.ccm.CCMX.camonitor" title="pcdsdevices.ccm.CCMX.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.ccm.CCMX.wm_update.html#pcdsdevices.ccm.CCMX.wm_update" title="pcdsdevices.ccm.CCMX.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</p></td>
+<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.ccm.CCMX.camonitor.html#pcdsdevices.ccm.CCMX.camonitor" title="pcdsdevices.ccm.CCMX.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.ccm.CCMX.wm_update.html#pcdsdevices.ccm.CCMX.wm_update" title="pcdsdevices.ccm.CCMX.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMX.forward.html#pcdsdevices.ccm.CCMX.forward" title="pcdsdevices.ccm.CCMX.forward"><code class="xref py py-obj docutils literal notranslate"><span class="pre">forward</span></code></a>(pseudo_pos)</p></td>
-<td><p>Composite axes move to the combined axis position plus an offset</p></td>
+<td><p>Composite axes move to the combined axis position plus an offset.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMX.get.html#pcdsdevices.ccm.CCMX.get" title="pcdsdevices.ccm.CCMX.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
@@ -330,7 +331,7 @@
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMX.inverse.html#pcdsdevices.ccm.CCMX.inverse" title="pcdsdevices.ccm.CCMX.inverse"><code class="xref py py-obj docutils literal notranslate"><span class="pre">inverse</span></code></a>(real_pos)</p></td>
-<td><p>Combined axis readback is the mean of the composite axes</p></td>
+<td><p>Combined axis readback is the mean of the composite axes.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMX.move.html#pcdsdevices.ccm.CCMX.move" title="pcdsdevices.ccm.CCMX.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, wait, timeout, moved_cb])</p></td>
 <td><p>Move to a specified position, optionally waiting for motion to complete.</p></td>
@@ -423,7 +424,7 @@
 <td><p>Walk all sub-Devices in the hierarchy</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMX.wm.html#pcdsdevices.ccm.CCMX.wm" title="pcdsdevices.ccm.CCMX.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
-<td><p>Get the mover’s positon (where motor)</p></td>
+<td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMX.wm_update.html#pcdsdevices.ccm.CCMX.wm_update" title="pcdsdevices.ccm.CCMX.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>

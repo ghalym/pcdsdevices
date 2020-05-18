@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.Slits &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.device_types.Slits &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -164,6 +164,7 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Stopper.html">pcdsdevices.device_types.Stopper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Timetool.html">pcdsdevices.device_types.Timetool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Trigger.html">pcdsdevices.device_types.Trigger</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.TTReflaser.html">pcdsdevices.device_types.TTReflaser</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.VonHamos4Crystal.html">pcdsdevices.device_types.VonHamos4Crystal</a></li>
@@ -253,20 +254,20 @@
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – The EPICS base of the motor</p></li>
-<li><p><strong>name</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>, optional) – The name of the offset mirror</p></li>
-<li><p><strong>nominal_aperture</strong> (<code class="docutils literal notranslate"><span class="pre">float</span></code>, optional) – Nominal slit size that will encompass the beam without blocking</p></li>
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The EPICS base PV of the motor.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a><em>, </em><em>optional</em>) – The name of the offset mirror.</p></li>
+<li><p><strong>nominal_aperture</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a><em>, </em><em>optional</em>) – Nominal slit size that will encompass the beam without blocking.</p></li>
 </ul>
 </dd>
 </dl>
 <p class="rubric">Notes</p>
 <p>The slits represent a unique device when forming the lightpath because
 whether the beam is being blocked or not depends on the pointing. In order
-to create an estimate that will warn operators of “closed” slits, we set a
-<code class="docutils literal notranslate"><span class="pre">nominal_aperture</span></code> for each unique device along the beamline. This is
+to create an estimate that will warn operators of ‘closed’ slits, we set a
+<code class="xref any docutils literal notranslate"><span class="pre">nominal_aperture</span></code> for each unique device along the beamline. This is
 value is considered the smallest the slit aperture can become without
-blocking the beamline. Both the <code class="docutils literal notranslate"><span class="pre">width</span></code> and the <code class="docutils literal notranslate"><span class="pre">height</span></code> need to exceed
-this <code class="docutils literal notranslate"><span class="pre">nominal_aperture</span></code> for the <code class="docutils literal notranslate"><span class="pre">Slits</span></code> to be considered removed.</p>
+blocking the beamline. Both the <code class="xref any docutils literal notranslate"><span class="pre">xwidth</span></code> and the <code class="xref any docutils literal notranslate"><span class="pre">ywidth`(height)</span> <span class="pre">need</span> <span class="pre">to</span>
+<span class="pre">exceed</span> <span class="pre">this</span> <span class="pre">`nominal_aperture</span></code> for the slits to be considered removed.</p>
 <p class="rubric">Methods</p>
 <table class="longtable docutils align-default">
 <colgroup>
@@ -281,7 +282,7 @@ this <code class="docutils literal notranslate"><span class="pre">nominal_apertu
 <td><p>Register a callback which will receive each OphydObject instance.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.block.html#pcdsdevices.device_types.Slits.block" title="pcdsdevices.device_types.Slits.block"><code class="xref py py-obj docutils literal notranslate"><span class="pre">block</span></code></a>()</p></td>
-<td><p>Overlap the slits to block the beam</p></td>
+<td><p>Overlap the slits to block the beam.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.camonitor.html#pcdsdevices.device_types.Slits.camonitor" title="pcdsdevices.device_types.Slits.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
@@ -293,7 +294,7 @@ this <code class="docutils literal notranslate"><span class="pre">nominal_apertu
 <td><p>Remove a subscription, given the original callback function</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.close.html#pcdsdevices.device_types.Slits.close" title="pcdsdevices.device_types.Slits.close"><code class="xref py py-obj docutils literal notranslate"><span class="pre">close</span></code></a>()</p></td>
-<td><p>Close the slits to have an aperture of 0mm on each side</p></td>
+<td><p>Close the slits to have an aperture of 0mm on each side.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.configure.html#pcdsdevices.device_types.Slits.configure" title="pcdsdevices.device_types.Slits.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
 <td><p>Configure the device for something during a run</p></td>
@@ -308,7 +309,7 @@ this <code class="docutils literal notranslate"><span class="pre">nominal_apertu
 <td><p>Disconnect and destroy all signals on the Device</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.end_monitor_thread.html#pcdsdevices.device_types.Slits.end_monitor_thread" title="pcdsdevices.device_types.Slits.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
-<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.device_types.Slits.camonitor.html#pcdsdevices.device_types.Slits.camonitor" title="pcdsdevices.device_types.Slits.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.device_types.Slits.wm_update.html#pcdsdevices.device_types.Slits.wm_update" title="pcdsdevices.device_types.Slits.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</p></td>
+<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.device_types.Slits.camonitor.html#pcdsdevices.device_types.Slits.camonitor" title="pcdsdevices.device_types.Slits.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.device_types.Slits.wm_update.html#pcdsdevices.device_types.Slits.wm_update" title="pcdsdevices.device_types.Slits.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.get.html#pcdsdevices.device_types.Slits.get" title="pcdsdevices.device_types.Slits.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
@@ -326,7 +327,7 @@ this <code class="docutils literal notranslate"><span class="pre">nominal_apertu
 <td><p>Absolute move to a position.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.open.html#pcdsdevices.device_types.Slits.open" title="pcdsdevices.device_types.Slits.open"><code class="xref py py-obj docutils literal notranslate"><span class="pre">open</span></code></a>()</p></td>
-<td><p>Uses the built-in <code class="docutils literal notranslate"><span class="pre">OPEN</span></code> record to move open the aperture</p></td>
+<td><p>Uses the built-in ‘OPEN’ record to move open the aperture.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.pause.html#pcdsdevices.device_types.Slits.pause" title="pcdsdevices.device_types.Slits.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
 <td><p>Attempt to ‘pause’ the device.</p></td>
@@ -341,22 +342,22 @@ this <code class="docutils literal notranslate"><span class="pre">nominal_apertu
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.remove.html#pcdsdevices.device_types.Slits.remove" title="pcdsdevices.device_types.Slits.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([size, wait, timeout])</p></td>
-<td><p>Open the slits to unblock the beam</p></td>
+<td><p>Open the slits to unblock the beam.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.resume.html#pcdsdevices.device_types.Slits.resume" title="pcdsdevices.device_types.Slits.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.set.html#pcdsdevices.device_types.Slits.set" title="pcdsdevices.device_types.Slits.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(size)</p></td>
-<td><p>Alias for the move method, here for bluesky compatibilty</p></td>
+<td><p>Alias for the move method, here for <code class="docutils literal notranslate"><span class="pre">bluesky</span></code> compatibilty.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.stage.html#pcdsdevices.device_types.Slits.stage" title="pcdsdevices.device_types.Slits.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
-<td><p>Store the initial values of the aperture position before scanning</p></td>
+<td><p>Store the initial values of the aperture position before scanning.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.stop.html#pcdsdevices.device_types.Slits.stop" title="pcdsdevices.device_types.Slits.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.subscribe.html#pcdsdevices.device_types.Slits.subscribe" title="pcdsdevices.device_types.Slits.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[, event_type, run])</p></td>
-<td><p>Subscribe to changes of the slits</p></td>
+<td><p>Subscribe to changes of the slits.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.summary.html#pcdsdevices.device_types.Slits.summary" title="pcdsdevices.device_types.Slits.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
@@ -389,7 +390,7 @@ this <code class="docutils literal notranslate"><span class="pre">nominal_apertu
 <td><p>Walk all sub-Devices in the hierarchy</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.wm.html#pcdsdevices.device_types.Slits.wm" title="pcdsdevices.device_types.Slits.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
-<td><p>Get the mover’s positon (where motor)</p></td>
+<td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Slits.wm_update.html#pcdsdevices.device_types.Slits.wm_update" title="pcdsdevices.device_types.Slits.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
@@ -431,7 +432,7 @@ this <code class="docutils literal notranslate"><span class="pre">nominal_apertu
 <td><p>If the device is connected.</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">current_aperture</span></code></p></td>
-<td><p>Current size of the aperture (width, height)</p></td>
+<td><p>Current size of the aperture.</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">dotted_name</span></code></p></td>
 <td><p>Return the dotted name</p></td>
@@ -443,7 +444,7 @@ this <code class="docutils literal notranslate"><span class="pre">nominal_apertu
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">inserted</span></code></p></td>
-<td><p>Whether the slits are inserted into the beampath</p></td>
+<td><p>Whether the slits are inserted into the beampath.</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
 <td><p></p></td>
@@ -470,7 +471,7 @@ this <code class="docutils literal notranslate"><span class="pre">nominal_apertu
 <td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">removed</span></code></p></td>
-<td><p>Whether the slits are entirely removed from the beampath</p></td>
+<td><p>Whether the slits are entirely removed from the beampath.</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
 <td><p>A report on the object.</p></td>

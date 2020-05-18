@@ -1,6 +1,0 @@
-pcdsdevices.timetool.TimeTool.stage
-===================================
-
-.. currentmodule:: pcdsdevices.timetool
-
-.. automethod:: TimeTool.stage

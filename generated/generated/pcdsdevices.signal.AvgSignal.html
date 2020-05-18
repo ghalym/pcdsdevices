@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.signal.AvgSignal &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.signal.AvgSignal &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -242,7 +243,7 @@
 <em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.signal.</code><code class="sig-name descname">AvgSignal</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">signal</span></em>, <em class="sig-param"><span class="n">averages</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">name</span></em>, <em class="sig-param"><span class="n">parent</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.signal.AvgSignal" title="Permalink to this definition">¶</a></dt>
 <dd><p>Signal that acts as a rolling average of another signal.</p>
 <p>This will subscribe to a signal, and fill an internal buffer with values
-from SUB_VALUE. It will update its own value to be the mean of the last n
+from <code class="xref any docutils literal notranslate"><span class="pre">SUB_VALUE</span></code>. It will update its own value to be the mean of the last n
 accumulated values, up to the buffer size. If we haven’t filled this
 buffer, this will still report a mean value composed of all the values
 we’ve receieved so far.</p>
@@ -251,9 +252,9 @@ just be the mean of a single value!</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>signal</strong> (<code class="docutils literal notranslate"><span class="pre">Signal</span></code>) – Any subclass of <code class="docutils literal notranslate"><span class="pre">ophyd.signal.Signal</span></code> that returns a numeric value.
+<li><p><strong>signal</strong> (<em>Signal</em>) – Any subclass of <code class="xref any docutils literal notranslate"><span class="pre">ophyd.signal.Signal</span></code> that returns a numeric value.
 This signal will be subscribed to be <a class="reference internal" href="#pcdsdevices.signal.AvgSignal" title="pcdsdevices.signal.AvgSignal"><code class="xref any py py-class docutils literal notranslate"><span class="pre">AvgSignal</span></code></a> to calculate the mean.</p></li>
-<li><p><strong>averages</strong> (<code class="docutils literal notranslate"><span class="pre">int</span></code>) – The number of SUB_VALUE updates to include in the average. New values
+<li><p><strong>averages</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – The number of <code class="xref any docutils literal notranslate"><span class="pre">SUB_VALUE</span></code> updates to include in the average. New values
 after this number is reached will begin overriding old values.</p></li>
 </ul>
 </dd>

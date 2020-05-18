@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.sequencer.EventSequence.put_seq &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.sequencer.EventSequence.put_seq &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -249,32 +250,36 @@
 <dl class="py method">
 <dt id="pcdsdevices.sequencer.EventSequence.put_seq">
 <code class="sig-prename descclassname">EventSequence.</code><code class="sig-name descname">put_seq</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">sequence</span></em>, <em class="sig-param"><span class="n">update_length</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.sequencer.EventSequence.put_seq" title="Permalink to this definition">¶</a></dt>
-<dd><p>Write a sequence to the event sequencer. Takes a list of lists,
-with each sub-list representing one line of the event sequence, e.g.
-[beam_code, delta_beam, delta_fiducial, burst_count]. The written
-sequence will overwrite the current sequence in order, up to the
-specified length. The play length of the sequencer will automatically
-be updated, unless the update_length flag is set to False.</p>
+<dd><p>Write a sequence to the event sequencer.</p>
+<p>Takes a list of lists, with each sub-list representing one line of the
+event sequence, e.g. <code class="docutils literal notranslate"><span class="pre">[beam_code,</span> <span class="pre">delta_beam,</span> <span class="pre">delta_fiducial,</span>
+<span class="pre">burst_count]</span></code>. The written sequence will overwrite the current
+sequence in order, up to the specified length. The play length of the
+sequencer will automatically be updated, unless the <code class="xref any docutils literal notranslate"><span class="pre">update_length</span></code>
+flag is set to <code class="xref std std-keyword docutils literal notranslate"><span class="pre">False</span></code>.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>sequence</strong> (<code class="docutils literal notranslate"><span class="pre">list</span></code>) – List of lists describing the event sequence. The list takes the
-form [[beam_code, delta_beam, delta_fiducial, burst_count], …].</p></li>
-<li><p><strong>update_length</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>) – Option to automatically update the play length, the
-{prefix}:LEN PV, to the length of the written sequence. Defaults
-to True.</p></li>
+<li><p><strong>sequence</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.8)"><em>list</em></a>) – List of lists describing the event sequence. The list takes the
+form <code class="docutils literal notranslate"><span class="pre">[[beam_code,</span> <span class="pre">delta_beam,</span> <span class="pre">delta_fiducial,</span> <span class="pre">burst_count],</span>
+<span class="pre">...]</span></code>.</p></li>
+<li><p><strong>update_length</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a>) – Option to automatically update the play length (the ‘{prefix}:LEN’
+PV) to the length of the written sequence. Defaults to <a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a>.</p></li>
 </ul>
 </dd>
 </dl>
 <p class="rubric">Examples</p>
-<dl class="simple">
-<dt>seq = [[182,  12,   0,   0], # Line 1</dt><dd><p>[170,   2,   0,   0], # Line 2
-[169,   1,   0,   0], # Line 3
-[169,   1,   0,   0]] # Line 4</p>
-</dd>
-</dl>
-<p>EventSequence.put_seq(seq)</p>
-<p>EventSequence.put_seq(seq, update_length=False) # Don’t update length</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">seq</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">182</span><span class="p">,</span>  <span class="mi">12</span><span class="p">,</span>   <span class="mi">0</span><span class="p">,</span>   <span class="mi">0</span><span class="p">],</span> <span class="c1"># Line 1</span>
+<span class="go">           [170,   2,   0,   0], # Line 2</span>
+<span class="go">           [169,   1,   0,   0], # Line 3</span>
+<span class="go">           [169,   1,   0,   0]] # Line 4</span>
+</pre></div>
+</div>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">EventSequence</span><span class="o">.</span><span class="n">put_seq</span><span class="p">(</span><span class="n">seq</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Don’t update length:
+&gt;&gt;&gt; EventSequence.put_seq(seq, update_length=False)</p>
 </dd></dl>
 
 </div>

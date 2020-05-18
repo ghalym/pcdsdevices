@@ -1,0 +1,6 @@
+pcdsdevices.timetool.TimetoolWithNav.walk\_signals
+==================================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: TimetoolWithNav.walk_signals

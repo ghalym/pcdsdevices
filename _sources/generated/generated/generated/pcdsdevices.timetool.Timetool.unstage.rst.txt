@@ -1,0 +1,6 @@
+pcdsdevices.timetool.Timetool.unstage
+=====================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: Timetool.unstage

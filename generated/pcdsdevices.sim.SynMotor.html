@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.sim.SynMotor &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.sim.SynMotor &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -220,9 +220,9 @@
 <dl class="py class">
 <dt id="pcdsdevices.sim.SynMotor">
 <em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.sim.</code><code class="sig-name descname">SynMotor</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.sim.SynMotor" title="Permalink to this definition">¶</a></dt>
-<dd><p>SynAxis with the FltMvInterface additions.
-This can be used to test when you need the readback_func feature or if you
-just want your test motor to finish immediately. See the SynAxis
+<dd><p><code class="xref any docutils literal notranslate"><span class="pre">SynAxis</span></code> with the <a class="reference internal" href="generated/pcdsdevices.interface.FltMvInterface.html#pcdsdevices.interface.FltMvInterface" title="pcdsdevices.interface.FltMvInterface"><code class="xref any py py-class docutils literal notranslate"><span class="pre">FltMvInterface</span></code></a> additions.</p>
+<p>This can be used to test when you need the <code class="xref any docutils literal notranslate"><span class="pre">readback_func</span></code> feature or if
+you just want your test motor to finish immediately. See the <code class="xref any docutils literal notranslate"><span class="pre">SynAxis</span></code>
 documentation in ophyd.</p>
 <p class="rubric">Methods</p>
 <table class="longtable docutils align-default">
@@ -259,7 +259,7 @@ documentation in ophyd.</p>
 <td><p>Disconnect and destroy all signals on the Device</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.end_monitor_thread.html#pcdsdevices.sim.SynMotor.end_monitor_thread" title="pcdsdevices.sim.SynMotor.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
-<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.camonitor.html#pcdsdevices.sim.SynMotor.camonitor" title="pcdsdevices.sim.SynMotor.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.wm_update.html#pcdsdevices.sim.SynMotor.wm_update" title="pcdsdevices.sim.SynMotor.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</p></td>
+<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.camonitor.html#pcdsdevices.sim.SynMotor.camonitor" title="pcdsdevices.sim.SynMotor.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.wm_update.html#pcdsdevices.sim.SynMotor.wm_update" title="pcdsdevices.sim.SynMotor.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.get.html#pcdsdevices.sim.SynMotor.get" title="pcdsdevices.sim.SynMotor.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
@@ -349,7 +349,7 @@ documentation in ophyd.</p>
 <td><p>Walk all sub-Devices in the hierarchy</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.wm.html#pcdsdevices.sim.SynMotor.wm" title="pcdsdevices.sim.SynMotor.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
-<td><p>Get the mover’s positon (where motor)</p></td>
+<td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.wm_update.html#pcdsdevices.sim.SynMotor.wm_update" title="pcdsdevices.sim.SynMotor.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>

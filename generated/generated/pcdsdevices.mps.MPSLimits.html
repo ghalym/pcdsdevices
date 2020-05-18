@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.mps.MPSLimits &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.mps.MPSLimits &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -248,8 +249,7 @@
 <dl class="py class">
 <dt id="pcdsdevices.mps.MPSLimits">
 <em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.mps.</code><code class="sig-name descname">MPSLimits</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prefix</span></em>, <em class="sig-param"><span class="n">logic</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.mps.MPSLimits" title="Permalink to this definition">¶</a></dt>
-<dd><p>Logical combination of two MPS bits</p>
-<p>For devices that are inserted and removed from the beam, the MPS system</p>
+<dd><p>Logical combination of two MPS bits.</p>
 <p>The MPSLimits class is to determine what action is to be taken based on the
 MPS values of a device pertaining to a single device. If a device has two
 MPS values, there is certain logic that needs to be followed to determine
@@ -257,9 +257,9 @@ whether or not the beam is allowed through.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – Base of the MPS PVs</p></li>
-<li><p><strong>name</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – Name of the MPS combination</p></li>
-<li><p><strong>logic</strong> (<code class="docutils literal notranslate"><span class="pre">callable</span></code>) – <p>Determine whether the MPS is faulted based on the state of each limit.
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Base of the MPS PVs.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Name of the MPS combination.</p></li>
+<li><p><strong>logic</strong> (<em>callable</em>) – <p>Determine whether the MPS is faulted based on the state of each limit.
 The function signature should look like:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">logic</span><span class="p">(</span><span class="n">in_limit</span><span class="p">:</span> <span class="nb">bool</span><span class="p">,</span> <span class="n">out_limit</span><span class="p">:</span> <span class="nb">bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span>
 </pre></div>
@@ -330,7 +330,7 @@ The function signature should look like:</p>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPSLimits.subscribe.html#pcdsdevices.mps.MPSLimits.subscribe" title="pcdsdevices.mps.MPSLimits.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[, event_type, run])</p></td>
-<td><p>Subscribe to changes in the MPS</p></td>
+<td><p>Subscribe to changes in the MPS.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPSLimits.summary.html#pcdsdevices.mps.MPSLimits.summary" title="pcdsdevices.mps.MPSLimits.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
@@ -381,7 +381,7 @@ The function signature should look like:</p>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">bypassed</span></code></p></td>
-<td><p>Whether either limit is bypassed</p></td>
+<td><p>Whether either limit is bypassed.</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_names</span></code></p></td>
 <td><p></p></td>
@@ -441,7 +441,7 @@ The function signature should look like:</p>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tripped</span></code></p></td>
-<td><p>Whether this will trip the MPS system</p></td>
+<td><p>Whether this will trip the MPS system.</p></td>
 </tr>
 </tbody>
 </table>

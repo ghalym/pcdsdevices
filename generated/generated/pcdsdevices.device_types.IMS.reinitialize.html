@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.IMS.reinitialize &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.device_types.IMS.reinitialize &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -181,6 +181,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Reflaser.html">pcdsdevices.device_types.Reflaser</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Slits.html">pcdsdevices.device_types.Slits</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Stopper.html">pcdsdevices.device_types.Stopper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Timetool.html">pcdsdevices.device_types.Timetool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Trigger.html">pcdsdevices.device_types.Trigger</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.TTReflaser.html">pcdsdevices.device_types.TTReflaser</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.VonHamos4Crystal.html">pcdsdevices.device_types.VonHamos4Crystal</a></li>
@@ -268,16 +269,13 @@
 <dl class="py method">
 <dt id="pcdsdevices.device_types.IMS.reinitialize">
 <code class="sig-prename descclassname">IMS.</code><code class="sig-name descname">reinitialize</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">wait</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.device_types.IMS.reinitialize" title="Permalink to this definition">¶</a></dt>
-<dd><p>Reinitialize the IMS motor</p>
+<dd><p>Reinitialize the IMS motor.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>wait</strong> (<em>bool</em>) – Wait for the motor to be fully intialized</p>
+<dd class="field-odd"><p><strong>wait</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a>) – Wait for the motor to be fully intialized.</p>
 </dd>
 <dt class="field-even">Returns</dt>
-<dd class="field-even"><p>Status object reporting the initialization state of the motor</p>
-</dd>
-<dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p>SubscriptionStatus</p>
+<dd class="field-even"><p><a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.SubscriptionStatus" title="(in ophyd v1.5.1b1)"><code class="xref py py-class docutils literal notranslate"><span class="pre">SubscriptionStatus</span></code></a> – Status object reporting the initialization state of the motor.</p>
 </dd>
 </dl>
 </dd></dl>

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.mps.MPSBase &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.mps.MPSBase &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -227,15 +228,15 @@
 <dl class="py class">
 <dt id="pcdsdevices.mps.MPSBase">
 <em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.mps.</code><code class="sig-name descname">MPSBase</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="n">veto</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.mps.MPSBase" title="Permalink to this definition">¶</a></dt>
-<dd><p>Base MPS class</p>
+<dd><p>Base MPS class.</p>
 <p>Used for shared methods between the individual <a class="reference internal" href="pcdsdevices.mps.MPS.html#pcdsdevices.mps.MPS" title="pcdsdevices.mps.MPS"><code class="xref any py py-class docutils literal notranslate"><span class="pre">MPS</span></code></a> bit class and
 the <a class="reference internal" href="pcdsdevices.mps.MPSLimits.html#pcdsdevices.mps.MPSLimits" title="pcdsdevices.mps.MPSLimits"><code class="xref any py py-class docutils literal notranslate"><span class="pre">MPSLimits</span></code></a> class. The class handles much of the bookkeeping
 for both of these classes.</p>
 <p>Each subclass must reimplement:</p>
 <ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">faulted</span></code></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">bypassed</span></code></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">sub_to_children</span></code></p></li>
+<li><p><code class="xref py py-meth docutils literal notranslate"><span class="pre">faulted()</span></code></p></li>
+<li><p><code class="xref py py-meth docutils literal notranslate"><span class="pre">bypassed()</span></code></p></li>
+<li><p><code class="xref py py-meth docutils literal notranslate"><span class="pre">_sub_to_children()</span></code></p></li>
 </ul>
 <p class="rubric">Methods</p>
 <table class="longtable docutils align-default">
@@ -260,7 +261,7 @@ for both of these classes.</p>
 <td><p>Disconnect the object from the underlying control layer</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPSBase.subscribe.html#pcdsdevices.mps.MPSBase.subscribe" title="pcdsdevices.mps.MPSBase.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[, event_type, run])</p></td>
-<td><p>Subscribe to changes in the MPS</p></td>
+<td><p>Subscribe to changes in the MPS.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPSBase.unsubscribe.html#pcdsdevices.mps.MPSBase.unsubscribe" title="pcdsdevices.mps.MPSBase.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</p></td>
 <td><p>Remove a subscription</p></td>
@@ -311,7 +312,7 @@ for both of these classes.</p>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tripped</span></code></p></td>
-<td><p>Whether this will trip the MPS system</p></td>
+<td><p>Whether this will trip the MPS system.</p></td>
 </tr>
 </tbody>
 </table>

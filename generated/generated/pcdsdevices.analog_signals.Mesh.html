@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.analog_signals.Mesh &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.analog_signals.Mesh &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -144,6 +144,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -249,17 +250,16 @@
 <dl class="py class">
 <dt id="pcdsdevices.analog_signals.Mesh">
 <em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.analog_signals.</code><code class="sig-name descname">Mesh</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prefix</span></em>, <em class="sig-param"><span class="n">sp_ch</span></em>, <em class="sig-param"><span class="n">rb_ch</span></em>, <em class="sig-param"><span class="n">scale</span><span class="o">=</span><span class="default_value">1000.0</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.analog_signals.Mesh" title="Permalink to this definition">¶</a></dt>
-<dd><p>Class for Mesh High Voltage Supply that is connected to
-Acromag inputs and outputs</p>
+<dd><p>Class for Mesh HV Supply that is connected to Acromag inputs and outputs.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – Prefix of Acromag to be used</p></li>
-<li><p><strong>sp_ch</strong> (<code class="docutils literal notranslate"><span class="pre">int</span></code>) – Setpoint Acromag channel to which high voltage supply setpoint
-is connected. Range is 0 to 15</p></li>
-<li><p><strong>rb_ch</strong> (<code class="docutils literal notranslate"><span class="pre">int</span></code>) – Read back Acromag channel to which high voltage readback is
-connected. Range is 0 to 15</p></li>
-<li><p><strong>scale</strong> (<code class="docutils literal notranslate"><span class="pre">float</span></code>, optional) – Gain for high voltage supply to be controlled by the Acromag</p></li>
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Prefix of Acromag to be used.</p></li>
+<li><p><strong>sp_ch</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Setpoint Acromag channel to which high voltage supply setpoint is
+connected. Range is 0 to 15.</p></li>
+<li><p><strong>rb_ch</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Read back Acromag channel to which high voltage readback is connected.
+Range is 0 to 15.</p></li>
+<li><p><strong>scale</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a><em>, </em><em>optional</em>) – Gain for high voltage supply to be controlled by the Acromag.</p></li>
 </ul>
 </dd>
 </dl>
@@ -304,10 +304,10 @@ connected. Range is 0 to 15</p></li>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.analog_signals.Mesh.get_mesh_voltage.html#pcdsdevices.analog_signals.Mesh.get_mesh_voltage" title="pcdsdevices.analog_signals.Mesh.get_mesh_voltage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_mesh_voltage</span></code></a>()</p></td>
-<td><p>Get the current mesh voltage setpoint, i.e the setpoint that the HV supply attempts to output</p></td>
+<td><p>Get the current mesh voltage setpoint, i.e.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.analog_signals.Mesh.get_raw_mesh_voltage.html#pcdsdevices.analog_signals.Mesh.get_raw_mesh_voltage" title="pcdsdevices.analog_signals.Mesh.get_raw_mesh_voltage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_raw_mesh_voltage</span></code></a>()</p></td>
-<td><p>Get the current acromag voltage that outputs to the HV supply, i.e the voltage seen by the HV supply</p></td>
+<td><p>Get the current acromag voltage that outputs to the HV supply, i.e.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.analog_signals.Mesh.pause.html#pcdsdevices.analog_signals.Mesh.pause" title="pcdsdevices.analog_signals.Mesh.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
 <td><p>Attempt to ‘pause’ the device.</p></td>
@@ -325,10 +325,10 @@ connected. Range is 0 to 15</p></li>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.analog_signals.Mesh.set_mesh_voltage.html#pcdsdevices.analog_signals.Mesh.set_mesh_voltage" title="pcdsdevices.analog_signals.Mesh.set_mesh_voltage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_mesh_voltage</span></code></a>(hv_sp[, wait])</p></td>
-<td><p>Set mesh voltage to an absolute value in V</p></td>
+<td><p>Set mesh voltage to an absolute value in V.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.analog_signals.Mesh.set_rel_mesh_voltage.html#pcdsdevices.analog_signals.Mesh.set_rel_mesh_voltage" title="pcdsdevices.analog_signals.Mesh.set_rel_mesh_voltage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_rel_mesh_voltage</span></code></a>(delta_hv_sp[, wait])</p></td>
-<td><p>Increase/decrease the power supply setpoint by a specified amount</p></td>
+<td><p>Increase/decrease the power supply setpoint by a specified amount.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.analog_signals.Mesh.stage.html#pcdsdevices.analog_signals.Mesh.stage" title="pcdsdevices.analog_signals.Mesh.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
 <td><p>Stage the device for data collection.</p></td>
@@ -346,7 +346,7 @@ connected. Range is 0 to 15</p></li>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.analog_signals.Mesh.tweak_mesh_voltage.html#pcdsdevices.analog_signals.Mesh.tweak_mesh_voltage" title="pcdsdevices.analog_signals.Mesh.tweak_mesh_voltage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak_mesh_voltage</span></code></a>(delta_hv_sp[, test_flag])</p></td>
-<td><p>Increase/decrease power supply setpoint by specified amount using the arrow keys</p></td>
+<td><p>Increase/decrease power supply setpoint using the arrow keys.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.analog_signals.Mesh.unstage.html#pcdsdevices.analog_signals.Mesh.unstage" title="pcdsdevices.analog_signals.Mesh.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</p></td>
 <td><p>Unstage the device.</p></td>

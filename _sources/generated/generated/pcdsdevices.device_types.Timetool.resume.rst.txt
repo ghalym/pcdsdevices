@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Timetool.resume
+=========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Timetool.resume

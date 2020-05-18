@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.GateValve.camonitor &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.device_types.GateValve.camonitor &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -165,6 +165,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Reflaser.html">pcdsdevices.device_types.Reflaser</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Slits.html">pcdsdevices.device_types.Slits</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Stopper.html">pcdsdevices.device_types.Stopper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Timetool.html">pcdsdevices.device_types.Timetool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Trigger.html">pcdsdevices.device_types.Trigger</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.TTReflaser.html">pcdsdevices.device_types.TTReflaser</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.VonHamos4Crystal.html">pcdsdevices.device_types.VonHamos4Crystal</a></li>
@@ -253,10 +254,11 @@
 <dt id="pcdsdevices.device_types.GateValve.camonitor">
 <code class="sig-prename descclassname">GateValve.</code><code class="sig-name descname">camonitor</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.device_types.GateValve.camonitor" title="Permalink to this definition">¶</a></dt>
 <dd><p>Shows a live-updating motor position in the terminal.</p>
-<p>This will be the value that is returned by the <code class="docutils literal notranslate"><span class="pre">position</span></code> attribute.
-This method ends cleanly at a ctrl+c or after a call to
-<a class="reference internal" href="pcdsdevices.device_types.GateValve.end_monitor_thread.html#pcdsdevices.device_types.GateValve.end_monitor_thread" title="pcdsdevices.device_types.GateValve.end_monitor_thread"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>, which may be useful when this is called in a
-background thread.</p>
+<p>This will be the value that is returned by the <code class="xref py py-attr docutils literal notranslate"><span class="pre">position</span></code>
+attribute.</p>
+<p>This method ends cleanly at a ctrl+c or after a call to
+<a class="reference internal" href="pcdsdevices.device_types.GateValve.end_monitor_thread.html#pcdsdevices.device_types.GateValve.end_monitor_thread" title="pcdsdevices.device_types.GateValve.end_monitor_thread"><code class="xref py py-meth docutils literal notranslate"><span class="pre">end_monitor_thread()</span></code></a>, which may be useful when this is called in
+a background thread.</p>
 </dd></dl>
 
 </div>

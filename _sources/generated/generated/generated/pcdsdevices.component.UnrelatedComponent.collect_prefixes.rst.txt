@@ -1,0 +1,6 @@
+pcdsdevices.component.UnrelatedComponent.collect\_prefixes
+==========================================================
+
+.. currentmodule:: pcdsdevices.component
+
+.. automethod:: UnrelatedComponent.collect_prefixes

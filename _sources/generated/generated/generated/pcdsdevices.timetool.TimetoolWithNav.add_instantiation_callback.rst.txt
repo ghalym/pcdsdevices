@@ -1,0 +1,6 @@
+pcdsdevices.timetool.TimetoolWithNav.add\_instantiation\_callback
+=================================================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: TimetoolWithNav.add_instantiation_callback

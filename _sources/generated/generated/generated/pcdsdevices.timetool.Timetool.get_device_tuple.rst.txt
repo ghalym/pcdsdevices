@@ -1,0 +1,6 @@
+pcdsdevices.timetool.Timetool.get\_device\_tuple
+================================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: Timetool.get_device_tuple

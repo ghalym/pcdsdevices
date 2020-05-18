@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.mirror.Gantry &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.mirror.Gantry &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -260,18 +261,18 @@
 <dl class="py class">
 <dt id="pcdsdevices.mirror.Gantry">
 <em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.mirror.</code><code class="sig-name descname">Gantry</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prefix</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">gantry_prefix</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.mirror.Gantry" title="Permalink to this definition">¶</a></dt>
-<dd><p>Gantry Axis</p>
+<dd><p>Gantry Axis.</p>
 <p>The horizontal and vertical motion of the OffsetMirror are controlled by
 two coupled stepper motors. Instructions are sent to both by simply
 requesting a move on the primary so they are represented here as a single
-motor with additional diagnostics and interlock</p>
+motor with additional diagnostics and interlock.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – Base prefix for both stepper motors i.e XRT:M1H. Do not include the “P”
-or “S” to indicate primary or secondary steppers</p></li>
-<li><p><strong>gantry_prefix</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>, optional) – Prefix for the shared gantry diagnostics if it is different than the
-stepper motor prefix</p></li>
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Base prefix for both stepper motors e.g. ‘XRT:M1H’. Do not include the
+‘P’ or ‘S’ to indicate primary or secondary steppers.</p></li>
+<li><p><strong>gantry_prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a><em>, </em><em>optional</em>) – Prefix for the shared gantry diagnostics if it is different than the
+stepper motor prefix.</p></li>
 </ul>
 </dd>
 </dl>
@@ -292,7 +293,7 @@ stepper motor prefix</p></li>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.check_value.html#pcdsdevices.mirror.Gantry.check_value" title="pcdsdevices.mirror.Gantry.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(pos)</p></td>
-<td><p>Add additional check for the gantry coupling</p></td>
+<td><p>Add additional check for the gantry coupling.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.clear_sub.html#pcdsdevices.mirror.Gantry.clear_sub" title="pcdsdevices.mirror.Gantry.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
 <td><p>Remove a subscription, given the original callback function</p></td>
@@ -310,7 +311,7 @@ stepper motor prefix</p></li>
 <td><p>Disconnect and destroy all signals on the Device</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.end_monitor_thread.html#pcdsdevices.mirror.Gantry.end_monitor_thread" title="pcdsdevices.mirror.Gantry.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
-<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.camonitor.html#pcdsdevices.mirror.Gantry.camonitor" title="pcdsdevices.mirror.Gantry.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.wm_update.html#pcdsdevices.mirror.Gantry.wm_update" title="pcdsdevices.mirror.Gantry.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</p></td>
+<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.camonitor.html#pcdsdevices.mirror.Gantry.camonitor" title="pcdsdevices.mirror.Gantry.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.wm_update.html#pcdsdevices.mirror.Gantry.wm_update" title="pcdsdevices.mirror.Gantry.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.get.html#pcdsdevices.mirror.Gantry.get" title="pcdsdevices.mirror.Gantry.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
@@ -400,7 +401,7 @@ stepper motor prefix</p></li>
 <td><p>Walk all sub-Devices in the hierarchy</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.wm.html#pcdsdevices.mirror.Gantry.wm" title="pcdsdevices.mirror.Gantry.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
-<td><p>Get the mover’s positon (where motor)</p></td>
+<td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.wm_update.html#pcdsdevices.mirror.Gantry.wm_update" title="pcdsdevices.mirror.Gantry.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
@@ -457,7 +458,7 @@ stepper motor prefix</p></li>
 <td><p>Return the dotted name</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">egu</span></code></p></td>
-<td><p>Engineering units of the readback PV, as reported by EPICS.</p></td>
+<td><p>Returns the Engineering Units of the readback PV, as reported by EPICS.</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">enabled</span></code></p></td>
 <td><p>A descriptor representing a device component (or signal)</p></td>

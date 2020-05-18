@@ -1,0 +1,6 @@
+pcdsdevices.component.UnrelatedComponent.\_\_init\_\_
+=====================================================
+
+.. currentmodule:: pcdsdevices.component
+
+.. automethod:: UnrelatedComponent.__init__

@@ -1,6 +1,0 @@
-pcdsdevices.timetool.TimeTool.read
-==================================
-
-.. currentmodule:: pcdsdevices.timetool
-
-.. automethod:: TimeTool.read

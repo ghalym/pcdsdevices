@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.PCDSAreaDetector &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.device_types.PCDSAreaDetector &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -164,6 +164,7 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Reflaser.html">pcdsdevices.device_types.Reflaser</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Slits.html">pcdsdevices.device_types.Slits</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Stopper.html">pcdsdevices.device_types.Stopper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Timetool.html">pcdsdevices.device_types.Timetool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Trigger.html">pcdsdevices.device_types.Trigger</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.TTReflaser.html">pcdsdevices.device_types.TTReflaser</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.VonHamos4Crystal.html">pcdsdevices.device_types.VonHamos4Crystal</a></li>
@@ -249,13 +250,11 @@
 <dl class="py class">
 <dt id="pcdsdevices.device_types.PCDSAreaDetector">
 <em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.device_types.</code><code class="sig-name descname">PCDSAreaDetector</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.device_types.PCDSAreaDetector" title="Permalink to this definition">¶</a></dt>
-<dd><p>Standard area detector including all (*) standard PCDS plugins.
-Notable plugins:</p>
-<blockquote>
-<div><p>IMAGE2: reduced rate image, used for camera viewer
-Stats2: reduced rate stats</p>
-</div></blockquote>
+<dd><p>Standard area detector including all (*) standard PCDS plugins.</p>
 <dl class="simple">
+<dt>Notable plugins:</dt><dd><p>IMAGE2: reduced rate image, used for camera viewer
+Stats2: reduced rate stats</p>
+</dd>
 <dt>(*) Currently excludes all PVAccess plugins:</dt><dd><p>IMAGE1:Pva
 IMAGE2:Pva:
 THUMBNAIL:Pva</p>
@@ -293,11 +292,10 @@ THUMBNAIL:Pva</p>
 <span class="n">CAM</span> <span class="o">-&gt;</span> <span class="n">Trans1</span>
 </pre></div>
 </div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Subclasses should replace ‘cam’ with that of the respective detector, such
-as <code class="xref any docutils literal notranslate"><span class="pre">ophyd.areadetector.cam.PilatusDetectorCam</span></code> for the Pilatus detector.</p>
-</div>
+<p class="rubric">Notes</p>
+<p>Subclasses should replace <code class="xref py py-attr docutils literal notranslate"><span class="pre">cam</span></code> with that of the respective detector,
+such as <code class="xref any docutils literal notranslate"><span class="pre">PilatusDetectorCam</span></code> for the Pilatus
+detector.</p>
 <p class="rubric">Methods</p>
 <table class="longtable docutils align-default">
 <colgroup>
@@ -357,7 +355,7 @@ as <code class="xref any docutils literal notranslate"><span class="pre">ophyd.a
 <td><p>Get the plugin which has the given asyn port name</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.get_plugin_graph_edges.html#pcdsdevices.device_types.PCDSAreaDetector.get_plugin_graph_edges" title="pcdsdevices.device_types.PCDSAreaDetector.get_plugin_graph_edges"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_plugin_graph_edges</span></code></a>(*[, use_names, …])</p></td>
-<td><p>Get a list of (source, destination) ports for all plugin chains</p></td>
+<td><p>Get a list of (source, destination) ports for all plugin chains.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PCDSAreaDetector.make_data_key.html#pcdsdevices.device_types.PCDSAreaDetector.make_data_key" title="pcdsdevices.device_types.PCDSAreaDetector.make_data_key"><code class="xref py py-obj docutils literal notranslate"><span class="pre">make_data_key</span></code></a>()</p></td>
 <td><p></p></td>
@@ -477,7 +475,7 @@ as <code class="xref any docutils literal notranslate"><span class="pre">ophyd.a
 <td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">image</span></code></p></td>
-<td><p>Deprecated - alias for <code class="xref any docutils literal notranslate"><span class="pre">image2</span></code></p></td>
+<td><p>Deprecated - alias for <code class="xref any docutils literal notranslate"><span class="pre">image2</span></code>.</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">image1</span></code></p></td>
 <td><p>A descriptor representing a device component (or signal)</p></td>
@@ -561,7 +559,7 @@ as <code class="xref any docutils literal notranslate"><span class="pre">ophyd.a
 <td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stats</span></code></p></td>
-<td><p>Deprecated - alias for <code class="xref any docutils literal notranslate"><span class="pre">stats2</span></code></p></td>
+<td><p>Deprecated - alias for <code class="xref any docutils literal notranslate"><span class="pre">stats2</span></code>.</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stats1</span></code></p></td>
 <td><p>A descriptor representing a device component (or signal)</p></td>

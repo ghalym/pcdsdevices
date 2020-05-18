@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Timetool.pause
+========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Timetool.pause

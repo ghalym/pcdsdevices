@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.Attenuator &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.device_types.Attenuator &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -122,6 +122,7 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Reflaser.html">pcdsdevices.device_types.Reflaser</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Slits.html">pcdsdevices.device_types.Slits</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Stopper.html">pcdsdevices.device_types.Stopper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Timetool.html">pcdsdevices.device_types.Timetool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Trigger.html">pcdsdevices.device_types.Trigger</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.TTReflaser.html">pcdsdevices.device_types.TTReflaser</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.VonHamos4Crystal.html">pcdsdevices.device_types.VonHamos4Crystal</a></li>
@@ -208,18 +209,19 @@
 <dt id="pcdsdevices.device_types.Attenuator">
 <code class="sig-prename descclassname">pcdsdevices.device_types.</code><code class="sig-name descname">Attenuator</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prefix</span></em>, <em class="sig-param"><span class="n">n_filters</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">name</span></em>, <em class="sig-param"><span class="n">use_3rd</span><span class="o">=</span><span class="default_value">False</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.device_types.Attenuator" title="Permalink to this definition">¶</a></dt>
 <dd><p>A series of filters that attenuates the beam.</p>
-<p>This is a factory function for instantiating a subclass of <a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase.html#pcdsdevices.attenuator.AttBase" title="pcdsdevices.attenuator.AttBase"><code class="xref any py py-class docutils literal notranslate"><span class="pre">AttBase</span></code></a> or
-<a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.html#pcdsdevices.attenuator.AttBase3rd" title="pcdsdevices.attenuator.AttBase3rd"><code class="xref any py py-class docutils literal notranslate"><span class="pre">AttBase3rd</span></code></a> with the correct number of <a class="reference internal" href="generated/pcdsdevices.attenuator.Filter.html#pcdsdevices.attenuator.Filter" title="pcdsdevices.attenuator.Filter"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Filter</span></code></a> components.</p>
-<p>The <a class="reference internal" href="generated/pcdsdevices.attenuator.Filter.html#pcdsdevices.attenuator.Filter" title="pcdsdevices.attenuator.Filter"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Filter</span></code></a> components will be named <code class="docutils literal notranslate"><span class="pre">filter1</span></code>, <code class="docutils literal notranslate"><span class="pre">filter2</span></code>, …
-<code class="docutils literal notranslate"><span class="pre">filter10</span></code>, …</p>
+<p>This is a factory function for instantiating a subclass of <code class="xref py py-class docutils literal notranslate"><span class="pre">AttBase</span></code>
+or <code class="xref py py-class docutils literal notranslate"><span class="pre">AttBase3rd</span></code> with the correct number of <code class="xref py py-class docutils literal notranslate"><span class="pre">Filter</span></code>
+components.</p>
+<p>The <code class="xref py py-class docutils literal notranslate"><span class="pre">Filter</span></code> components will be named ‘filter1’, ‘filter2’, …
+‘filter10’, …</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – The EPICS prefix that identifies the attenuator, e.g. <code class="docutils literal notranslate"><span class="pre">XPP:ATT</span></code></p></li>
-<li><p><strong>n_filters</strong> (<code class="docutils literal notranslate"><span class="pre">int</span></code>) – The number of filters in the attenuator.</p></li>
-<li><p><strong>name</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – An identifying name for the attenuator.</p></li>
-<li><p><strong>use_3rd</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>, optional) – If <code class="docutils literal notranslate"><span class="pre">True</span></code>, we’ll use the third harmonic transmissions instead of the
-fundamntal frequency.</p></li>
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The EPICS prefix that identifies the attenuator, e.g. ‘XPP:ATT’</p></li>
+<li><p><strong>n_filters</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – The number of filters in the attenuator.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – An identifying name for the attenuator.</p></li>
+<li><p><strong>use_3rd</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – If <a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a>, we’ll use the third harmonic transmissions instead
+of the fundamental frequency.</p></li>
 </ul>
 </dd>
 </dl>

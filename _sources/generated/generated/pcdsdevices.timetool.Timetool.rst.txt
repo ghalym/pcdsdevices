@@ -1,0 +1,104 @@
+pcdsdevices.timetool.Timetool
+=============================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. autoclass:: Timetool
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~Timetool.__init__
+      ~Timetool.add_instantiation_callback
+      ~Timetool.camonitor
+      ~Timetool.check_value
+      ~Timetool.clear_sub
+      ~Timetool.configure
+      ~Timetool.describe
+      ~Timetool.describe_configuration
+      ~Timetool.destroy
+      ~Timetool.end_monitor_thread
+      ~Timetool.get
+      ~Timetool.get_device_tuple
+      ~Timetool.get_instantiated_signals
+      ~Timetool.get_state
+      ~Timetool.insert
+      ~Timetool.move
+      ~Timetool.mv
+      ~Timetool.pause
+      ~Timetool.put
+      ~Timetool.read
+      ~Timetool.read_configuration
+      ~Timetool.remove
+      ~Timetool.resume
+      ~Timetool.set
+      ~Timetool.stage
+      ~Timetool.stop
+      ~Timetool.subscribe
+      ~Timetool.summary
+      ~Timetool.trigger
+      ~Timetool.unstage
+      ~Timetool.unsubscribe
+      ~Timetool.unsubscribe_all
+      ~Timetool.wait_for_connection
+      ~Timetool.walk_components
+      ~Timetool.walk_signals
+      ~Timetool.walk_subdevice_classes
+      ~Timetool.walk_subdevices
+      ~Timetool.wm
+      ~Timetool.wm_update
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~Timetool.SUB_ACQ_DONE
+      ~Timetool.SUB_DONE
+      ~Timetool.SUB_READBACK
+      ~Timetool.SUB_START
+      ~Timetool.SUB_STATE
+      ~Timetool.attr_name
+      ~Timetool.component_names
+      ~Timetool.configuration_attrs
+      ~Timetool.connected
+      ~Timetool.detector
+      ~Timetool.dotted_name
+      ~Timetool.egu
+      ~Timetool.event_types
+      ~Timetool.high_limit
+      ~Timetool.hints
+      ~Timetool.in_states
+      ~Timetool.inserted
+      ~Timetool.kind
+      ~Timetool.lazy_wait_for_connection
+      ~Timetool.limits
+      ~Timetool.low_limit
+      ~Timetool.moving
+      ~Timetool.name
+      ~Timetool.out_states
+      ~Timetool.parent
+      ~Timetool.position
+      ~Timetool.read_attrs
+      ~Timetool.removed
+      ~Timetool.report
+      ~Timetool.root
+      ~Timetool.settle_time
+      ~Timetool.signal_names
+      ~Timetool.state
+      ~Timetool.states_list
+      ~Timetool.tab_whitelist
+      ~Timetool.timeout
+      ~Timetool.transmission
+      ~Timetool.trigger_signals
+      ~Timetool.x_motor
+      ~Timetool.y_motor
+   
+   

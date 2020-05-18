@@ -1,6 +1,0 @@
-pcdsdevices.timetool.TimeToolWithNav.set
-========================================
-
-.. currentmodule:: pcdsdevices.timetool
-
-.. automethod:: TimeToolWithNav.set

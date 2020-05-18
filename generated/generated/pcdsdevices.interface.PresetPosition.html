@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.interface.PresetPosition &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.interface.PresetPosition &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -231,8 +232,8 @@
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>presets</strong> (<a class="reference internal" href="pcdsdevices.interface.Presets.html#pcdsdevices.interface.Presets" title="pcdsdevices.interface.Presets"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Presets</span></code></a>) – The main <a class="reference internal" href="pcdsdevices.interface.Presets.html#pcdsdevices.interface.Presets" title="pcdsdevices.interface.Presets"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Presets</span></code></a> object that manages this position.</p></li>
-<li><p><strong>name</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – The name of this preset position.</p></li>
+<li><p><strong>presets</strong> (<a class="reference internal" href="pcdsdevices.interface.Presets.html#pcdsdevices.interface.Presets" title="pcdsdevices.interface.Presets"><code class="xref py py-class docutils literal notranslate"><span class="pre">Presets</span></code></a>) – The main <a class="reference internal" href="pcdsdevices.interface.Presets.html#pcdsdevices.interface.Presets" title="pcdsdevices.interface.Presets"><code class="xref py py-class docutils literal notranslate"><span class="pre">Presets</span></code></a> object that manages this position.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The name of this preset position.</p></li>
 </ul>
 </dd>
 </dl>
@@ -265,16 +266,16 @@
 </colgroup>
 <tbody>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">history</span></code></p></td>
-<td><p>This position history associated with this preset.</p></td>
+<td><p>This position history associated with this preset, returned as a dict.</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">info</span></code></p></td>
-<td><p>All information associated with this preset.</p></td>
+<td><p>All information associated with this preset, returned as a dict.</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">path</span></code></p></td>
-<td><p>The filepath that defines this preset.</p></td>
+<td><p>The filepath that defines this preset, returned as a string.</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pos</span></code></p></td>
-<td><p>The set position of this preset.</p></td>
+<td><p>The set position of this preset, returned as a float.</p></td>
 </tr>
 </tbody>
 </table>

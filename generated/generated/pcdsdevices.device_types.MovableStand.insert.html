@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.MovableStand.insert &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.device_types.MovableStand.insert &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -163,6 +163,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Reflaser.html">pcdsdevices.device_types.Reflaser</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Slits.html">pcdsdevices.device_types.Slits</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Stopper.html">pcdsdevices.device_types.Stopper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Timetool.html">pcdsdevices.device_types.Timetool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Trigger.html">pcdsdevices.device_types.Trigger</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.TTReflaser.html">pcdsdevices.device_types.TTReflaser</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.VonHamos4Crystal.html">pcdsdevices.device_types.VonHamos4Crystal</a></li>
@@ -255,18 +256,15 @@ If we’re already at some other in state, do nothing instead.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>moved_cb</strong> (<code class="docutils literal notranslate"><span class="pre">callable</span></code>, optional) – Call this callback when movement is finished. This callback must
+<li><p><strong>moved_cb</strong> (<em>callable</em><em>, </em><em>optional</em>) – Call this callback when movement is finished. This callback must
 accept one keyword argument, <code class="docutils literal notranslate"><span class="pre">obj</span></code>, which will be set to this
 instance.</p></li>
-<li><p><strong>timeout</strong> (<code class="docutils literal notranslate"><span class="pre">float</span></code>, optional) – Maximum time to wait for the motion.</p></li>
-<li><p><strong>wait</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>, optional) – If <code class="docutils literal notranslate"><span class="pre">True</span></code>, do not continue until the move is complete.</p></li>
+<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a><em>, </em><em>optional</em>) – Maximum time to wait for the motion.</p></li>
+<li><p><strong>wait</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – If <a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a>, do not continue until the move is complete.</p></li>
 </ul>
 </dd>
 <dt class="field-even">Returns</dt>
-<dd class="field-even"><p><strong>moved_status</strong> – <code class="docutils literal notranslate"><span class="pre">Status</span></code> that will be marked as done when the motion is complete.</p>
-</dd>
-<dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">Status</span></code></p>
+<dd class="field-even"><p><strong>moved_status</strong> (<a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.Status" title="(in ophyd v1.5.1b1)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Status</span></code></a>) – Status that will be marked as done when the motion is complete.</p>
 </dd>
 </dl>
 </dd></dl>

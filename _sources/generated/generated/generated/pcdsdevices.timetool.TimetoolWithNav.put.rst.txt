@@ -1,0 +1,6 @@
+pcdsdevices.timetool.TimetoolWithNav.put
+========================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: TimetoolWithNav.put

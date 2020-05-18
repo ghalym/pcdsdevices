@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ipm.IPM_IPIMB &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.ipm.IPM_IPIMB &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -267,14 +268,14 @@ are (1, 2, 3, 4, 5) or the equivalent
 IPMs each also have a diode, which is implemented as the diode attribute of
 this class. This can easily be controlled using <code class="docutils literal notranslate"><span class="pre">ipm.diode.insert()</span></code> or
 <code class="docutils literal notranslate"><span class="pre">ipm.diode.remove()</span></code>.</p>
-<p>has a member ipimb which represents the ipimb box used for readout</p>
+<p>has a <code class="xref any docutils literal notranslate"><span class="pre">ipimb</span></code> component which represents the IPIMB box used for readout.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – The EPICS PV prefix for this motor.</p></li>
-<li><p><strong>name</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>, required keyword) – An identifying name for this motor.</p></li>
-<li><p><strong>settle_time</strong> (<code class="docutils literal notranslate"><span class="pre">float</span></code>, optional) – The amount of extra time to wait before interpreting a move as done</p></li>
-<li><p><strong>timeout</strong> (<code class="docutils literal notranslate"><span class="pre">float</span></code>, optional) – The amount of time to wait before automatically marking a long
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The EPICS PV prefix for this motor.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – An identifying name for this motor.</p></li>
+<li><p><strong>settle_time</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a><em>, </em><em>optional</em>) – The amount of extra time to wait before interpreting a move as done.</p></li>
+<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a><em>, </em><em>optional</em>) – The amount of time to wait before automatically marking a long
 in-progress move as failed.</p></li>
 </ul>
 </dd>
@@ -293,7 +294,7 @@ in-progress move as failed.</p></li>
 <td><p>Register a callback which will receive each OphydObject instance.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_IPIMB.channel.html#pcdsdevices.ipm.IPM_IPIMB.channel" title="pcdsdevices.ipm.IPM_IPIMB.channel"><code class="xref py py-obj docutils literal notranslate"><span class="pre">channel</span></code></a>([i])</p></td>
-<td><p>Returns the detector’s specified channel</p></td>
+<td><p>Returns the detector’s specified channel.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_IPIMB.check_value.html#pcdsdevices.ipm.IPM_IPIMB.check_value" title="pcdsdevices.ipm.IPM_IPIMB.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value, **kwargs)</p></td>
 <td><p>Check if the value is valid for this object</p></td>
@@ -323,7 +324,7 @@ in-progress move as failed.</p></li>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_IPIMB.insert.html#pcdsdevices.ipm.IPM_IPIMB.insert" title="pcdsdevices.ipm.IPM_IPIMB.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb, timeout, wait])</p></td>
-<td><p>Move both the target and diode in</p></td>
+<td><p>Move both the target and diode in.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_IPIMB.isum.html#pcdsdevices.ipm.IPM_IPIMB.isum" title="pcdsdevices.ipm.IPM_IPIMB.isum"><code class="xref py py-obj docutils literal notranslate"><span class="pre">isum</span></code></a>()</p></td>
 <td><p>Returns the detector’s isum value.</p></td>
@@ -341,7 +342,7 @@ in-progress move as failed.</p></li>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_IPIMB.remove.html#pcdsdevices.ipm.IPM_IPIMB.remove" title="pcdsdevices.ipm.IPM_IPIMB.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb, timeout, wait])</p></td>
-<td><p>Moves the target out of the beam and removes the diode if it is in an unknown state</p></td>
+<td><p>Moves the target out of the beam and removes the diode if it is in an unknown state.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_IPIMB.resume.html#pcdsdevices.ipm.IPM_IPIMB.resume" title="pcdsdevices.ipm.IPM_IPIMB.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
@@ -407,7 +408,7 @@ in-progress move as failed.</p></li>
 <td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">channels</span></code></p></td>
-<td><p>Returns a dictionary of all of the detector’s channels</p></td>
+<td><p>Returns a dictionary of all of the detector’s channels.</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_names</span></code></p></td>
 <td><p></p></td>
@@ -431,7 +432,7 @@ in-progress move as failed.</p></li>
 <td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">inserted</span></code></p></td>
-<td><p>Returns <code class="docutils literal notranslate"><span class="pre">True</span></code> if target is inserted.</p></td>
+<td><p>Returns <a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a> if target is inserted.</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">ipimb</span></code></p></td>
 <td><p>A Component which takes a dynamic format string</p></td>
@@ -452,7 +453,7 @@ in-progress move as failed.</p></li>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">removed</span></code></p></td>
-<td><p>Returns <code class="docutils literal notranslate"><span class="pre">True</span></code> if target is removed and diode is not blocking.</p></td>
+<td><p>Returns <a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a> if target is removed and diode is not blocking.</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
 <td><p>A report on the object.</p></td>
@@ -473,7 +474,7 @@ in-progress move as failed.</p></li>
 <td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">transmission</span></code></p></td>
-<td><p>Returns the combined transmission value of the target and diode</p></td>
+<td><p>Returns the combined transmission value of the target and diode.</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
 <td><p></p></td>

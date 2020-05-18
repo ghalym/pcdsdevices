@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.sequencer.EventSequence.show &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.sequencer.EventSequence.show &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -249,18 +250,20 @@
 <dl class="py method">
 <dt id="pcdsdevices.sequencer.EventSequence.show">
 <code class="sig-prename descclassname">EventSequence.</code><code class="sig-name descname">show</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">num_lines</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.sequencer.EventSequence.show" title="Permalink to this definition">¶</a></dt>
-<dd><p>Print a human readable copy of the current event sequence. Shows
-the current sequence up to the length of the sequencer play length,
-unless otherwise specified by the num_lines parameter.</p>
+<dd><p>Print a human readable copy of the current event sequence.</p>
+<p>Shows the current sequence up to the length of the sequencer play
+length, unless otherwise specified by the <code class="xref any docutils literal notranslate"><span class="pre">num_lines</span></code> parameter.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>num_lines</strong> (<code class="docutils literal notranslate"><span class="pre">int</span></code>) – Number of event sequence lines to print. Defaults to current
+<dd class="field-odd"><p><strong>num_lines</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Number of event sequence lines to print. Defaults to current
 sequence length.</p>
 </dd>
 </dl>
 <p class="rubric">Examples</p>
-<p>seq.show()     # Print current sequence (default)
-seq.show(10)   # Print the first 10 lines</p>
+<p>Print current sequence (default):
+&gt;&gt;&gt; seq.show()</p>
+<p>Print the first 10 lines:
+&gt;&gt;&gt; seq.show(10)</p>
 </dd></dl>
 
 </div>

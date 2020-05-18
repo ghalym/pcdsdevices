@@ -1,6 +1,0 @@
-pcdsdevices.timetool.TimeToolWithNav.destroy
-============================================
-
-.. currentmodule:: pcdsdevices.timetool
-
-.. automethod:: TimeToolWithNav.destroy

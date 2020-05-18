@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.attenuator.FeeAtt.stage &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.attenuator.FeeAtt.stage &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -160,6 +160,7 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -269,8 +270,8 @@
 <code class="sig-prename descclassname">FeeAtt.</code><code class="sig-name descname">stage</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.attenuator.FeeAtt.stage" title="Permalink to this definition">¶</a></dt>
 <dd><p>Store the original positions of all filter blades.</p>
 <p>This is a <code class="docutils literal notranslate"><span class="pre">bluesky</span></code> method called to set up the device for a scan.
-At the end of the scan, <code class="docutils literal notranslate"><span class="pre">unstage</span></code> should be called to restore the
-original positions of the filter blades.</p>
+At the end of the scan, <a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.unstage.html#pcdsdevices.attenuator.FeeAtt.unstage" title="pcdsdevices.attenuator.FeeAtt.unstage"><code class="xref py py-meth docutils literal notranslate"><span class="pre">unstage()</span></code></a> should be called to restore
+the original positions of the filter blades.</p>
 <p>This is better then storing and restoring the transmission because the
 mechanical state associated with a particular transmission changes with
 the beam energy.</p>

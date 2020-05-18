@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.pseudopos.SimDelayStage &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.pseudopos.SimDelayStage &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -302,10 +303,10 @@
 <td><p>Disconnect and destroy all signals on the Device</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.end_monitor_thread.html#pcdsdevices.pseudopos.SimDelayStage.end_monitor_thread" title="pcdsdevices.pseudopos.SimDelayStage.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
-<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.camonitor.html#pcdsdevices.pseudopos.SimDelayStage.camonitor" title="pcdsdevices.pseudopos.SimDelayStage.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.wm_update.html#pcdsdevices.pseudopos.SimDelayStage.wm_update" title="pcdsdevices.pseudopos.SimDelayStage.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</p></td>
+<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.camonitor.html#pcdsdevices.pseudopos.SimDelayStage.camonitor" title="pcdsdevices.pseudopos.SimDelayStage.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.wm_update.html#pcdsdevices.pseudopos.SimDelayStage.wm_update" title="pcdsdevices.pseudopos.SimDelayStage.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.forward.html#pcdsdevices.pseudopos.SimDelayStage.forward" title="pcdsdevices.pseudopos.SimDelayStage.forward"><code class="xref py py-obj docutils literal notranslate"><span class="pre">forward</span></code></a>(pseudo_pos)</p></td>
-<td><p>Convert delay unit to motor unit</p></td>
+<td><p>Convert delay unit to motor unit.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.get.html#pcdsdevices.pseudopos.SimDelayStage.get" title="pcdsdevices.pseudopos.SimDelayStage.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
@@ -317,7 +318,7 @@
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.inverse.html#pcdsdevices.pseudopos.SimDelayStage.inverse" title="pcdsdevices.pseudopos.SimDelayStage.inverse"><code class="xref py py-obj docutils literal notranslate"><span class="pre">inverse</span></code></a>(real_pos)</p></td>
-<td><p>Convert motor unit to delay unit</p></td>
+<td><p>Convert motor unit to delay unit.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.move.html#pcdsdevices.pseudopos.SimDelayStage.move" title="pcdsdevices.pseudopos.SimDelayStage.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, wait, timeout, moved_cb])</p></td>
 <td><p>Move to a specified position, optionally waiting for motion to complete.</p></td>
@@ -407,7 +408,7 @@
 <td><p>Walk all sub-Devices in the hierarchy</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.wm.html#pcdsdevices.pseudopos.SimDelayStage.wm" title="pcdsdevices.pseudopos.SimDelayStage.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
-<td><p>Get the mover’s positon (where motor)</p></td>
+<td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.wm_update.html#pcdsdevices.pseudopos.SimDelayStage.wm_update" title="pcdsdevices.pseudopos.SimDelayStage.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>

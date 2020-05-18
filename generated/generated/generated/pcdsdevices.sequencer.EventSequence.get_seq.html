@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.sequencer.EventSequence.get_seq &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.sequencer.EventSequence.get_seq &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -249,20 +250,24 @@
 <dl class="py method">
 <dt id="pcdsdevices.sequencer.EventSequence.get_seq">
 <code class="sig-prename descclassname">EventSequence.</code><code class="sig-name descname">get_seq</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">current_length</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.sequencer.EventSequence.get_seq" title="Permalink to this definition">¶</a></dt>
-<dd><p>Retrieve the current event sequence. Returns a list of lists, with
-each sub list containing a four item list describing a single line of
-the sequence. Returns the current sequence up to the current play
-length, the {prefix}:LEN PV, unless the current_length option is set
-to False. If set to false, the whole sequence will be returned.</p>
+<dd><p>Retrieve the current event sequence.</p>
+<p>Returns a list of lists, with each sub-list containing a four item list
+describing a single line of the sequence. Returns the current sequence
+up to the current play length (the ‘{prefix}:LEN’ PV), unless the
+<code class="xref any docutils literal notranslate"><span class="pre">current_length</span></code> option is set to <code class="xref std std-keyword docutils literal notranslate"><span class="pre">False</span></code>. If
+<code class="xref std std-keyword docutils literal notranslate"><span class="pre">False</span></code>, the whole sequence will be returned.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>current_length</strong> (<code class="docutils literal notranslate"><span class="pre">bool</span></code>) – Option to retrieve the sequence up to the current length. Defaults
-to True.</p>
+<dd class="field-odd"><p><strong>current_length</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a>) – Option to retrieve the sequence up to the current length. Defaults
+to <a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a>.</p>
 </dd>
 </dl>
 <p class="rubric">Examples</p>
-<p>EventSequence.get_seq()</p>
-<p>EventSequence.get_seq(current_length=False) # Get whole sequence</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">EventSequence</span><span class="o">.</span><span class="n">get_seq</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>Get the whole sequence:
+&gt;&gt;&gt; EventSequence.get_seq(current_length=False)</p>
 </dd></dl>
 
 </div>

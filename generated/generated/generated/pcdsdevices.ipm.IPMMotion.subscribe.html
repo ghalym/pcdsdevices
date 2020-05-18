@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ipm.IPMMotion.subscribe &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.ipm.IPMMotion.subscribe &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -284,11 +285,11 @@ generated.  The expected signature is</p>
 <p>The exact args/kwargs passed are whatever are passed to
 <code class="docutils literal notranslate"><span class="pre">_run_subs</span></code></p>
 </p></li>
-<li><p><strong>event_type</strong> (<em>str</em><em>, </em><em>optional</em>) – <p>The name of the event to subscribe to (if None, defaults to
+<li><p><strong>event_type</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a><em>, </em><em>optional</em>) – <p>The name of the event to subscribe to (if None, defaults to
 the default sub for the instance - obj._default_sub)</p>
 <p>This maps to the <code class="docutils literal notranslate"><span class="pre">sub_type</span></code> kwargs in <code class="xref any docutils literal notranslate"><span class="pre">_run_subs</span></code></p>
 </p></li>
-<li><p><strong>run</strong> (<em>bool</em><em>, </em><em>optional</em>) – Run the callback now</p></li>
+<li><p><strong>run</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Run the callback now</p></li>
 </ul>
 </dd>
 </dl>
@@ -298,11 +299,8 @@ the default sub for the instance - obj._default_sub)</p>
 </div>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p><strong>cid</strong> – id of callback, can be passed to <a class="reference internal" href="pcdsdevices.ipm.IPMMotion.unsubscribe.html#pcdsdevices.ipm.IPMMotion.unsubscribe" title="pcdsdevices.ipm.IPMMotion.unsubscribe"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">unsubscribe</span></code></a> to remove the
+<dd class="field-odd"><p><strong>cid</strong> (<em>int</em>) – id of callback, can be passed to <a class="reference internal" href="pcdsdevices.ipm.IPMMotion.unsubscribe.html#pcdsdevices.ipm.IPMMotion.unsubscribe" title="pcdsdevices.ipm.IPMMotion.unsubscribe"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">unsubscribe</span></code></a> to remove the
 callback</p>
-</dd>
-<dt class="field-even">Return type</dt>
-<dd class="field-even"><p>int</p>
 </dd>
 </dl>
 </dd></dl>

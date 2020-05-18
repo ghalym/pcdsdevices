@@ -1,0 +1,6 @@
+pcdsdevices.timetool.Timetool.move
+==================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: Timetool.move

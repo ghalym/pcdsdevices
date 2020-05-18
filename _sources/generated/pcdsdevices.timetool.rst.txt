@@ -14,8 +14,8 @@ pcdsdevices.timetool
    .. autosummary::
       :toctree: generated
    
-      TimeTool
-      TimeToolWithNav
+      Timetool
+      TimetoolWithNav
    
    
 

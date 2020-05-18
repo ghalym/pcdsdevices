@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.state.PVStatePositioner &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.state.PVStatePositioner &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -265,10 +266,10 @@
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – The EPICS PV prefix for this motor.</p></li>
-<li><p><strong>name</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>, required keyword) – An identifying name for this motor.</p></li>
-<li><p><strong>settle_time</strong> (<code class="docutils literal notranslate"><span class="pre">float</span></code>, optional) – The amount of extra time to wait before interpreting a move as done</p></li>
-<li><p><strong>timeout</strong> (<code class="docutils literal notranslate"><span class="pre">float</span></code>, optional) – The amount of time to wait before automatically marking a long
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The EPICS PV prefix for this motor.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – An identifying name for this motor.</p></li>
+<li><p><strong>settle_time</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a><em>, </em><em>optional</em>) – The amount of extra time to wait before interpreting a move as done.</p></li>
+<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a><em>, </em><em>optional</em>) – The amount of time to wait before automatically marking a long
 in-progress move as failed.</p></li>
 </ul>
 </dd>
@@ -294,7 +295,7 @@ which may matter if <code class="docutils literal notranslate"><span class="pre"
 requirements, replace the <a class="reference internal" href="pcdsdevices.state.StatePositioner.html#pcdsdevices.state.StatePositioner.state" title="pcdsdevices.state.StatePositioner.state"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">state</span></code></a> component.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">dict</span></code></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.8)">dict</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -302,13 +303,13 @@ requirements, replace the <a class="reference internal" href="pcdsdevices.state.
 <dl class="py attribute">
 <dt id="pcdsdevices.state.PVStatePositioner._state_logic_mode">
 <code class="sig-name descname">_state_logic_mode</code><a class="headerlink" href="#pcdsdevices.state.PVStatePositioner._state_logic_mode" title="Permalink to this definition">¶</a></dt>
-<dd><p>This should be <code class="docutils literal notranslate"><span class="pre">ALL</span></code> (default) if the pvs need to agree for a valid
-state. You can set this to ‘FIRST’ to instead use the first state
-found while traversing the state_logic tree. This means an earlier
+<dd><p>This should be ‘ALL’ (default) if the pvs need to agree for a valid
+state. You can set this to ‘FIRST’ instead to use the first state
+found while traversing the <a class="reference internal" href="#pcdsdevices.state.PVStatePositioner._state_logic" title="pcdsdevices.state.PVStatePositioner._state_logic"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">_state_logic</span></code></a> tree. This means an earlier
 state definition can mask a later state definition.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">str</span></code>, <code class="docutils literal notranslate"><span class="pre">'ALL'</span></code> or <code class="docutils literal notranslate"><span class="pre">'FIRST'</span></code></p>
+<dd class="field-odd"><p>{‘ALL’, ‘FIRST’}</p>
 </dd>
 </dl>
 </dd></dl>
@@ -348,7 +349,7 @@ state definition can mask a later state definition.</p>
 <td><p>Disconnect and destroy all signals on the Device</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.PVStatePositioner.end_monitor_thread.html#pcdsdevices.state.PVStatePositioner.end_monitor_thread" title="pcdsdevices.state.PVStatePositioner.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
-<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.state.PVStatePositioner.camonitor.html#pcdsdevices.state.PVStatePositioner.camonitor" title="pcdsdevices.state.PVStatePositioner.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.state.PVStatePositioner.wm_update.html#pcdsdevices.state.PVStatePositioner.wm_update" title="pcdsdevices.state.PVStatePositioner.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</p></td>
+<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.state.PVStatePositioner.camonitor.html#pcdsdevices.state.PVStatePositioner.camonitor" title="pcdsdevices.state.PVStatePositioner.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.state.PVStatePositioner.wm_update.html#pcdsdevices.state.PVStatePositioner.wm_update" title="pcdsdevices.state.PVStatePositioner.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.PVStatePositioner.get.html#pcdsdevices.state.PVStatePositioner.get" title="pcdsdevices.state.PVStatePositioner.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
@@ -426,7 +427,7 @@ state definition can mask a later state definition.</p>
 <td><p>Walk all sub-Devices in the hierarchy</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.PVStatePositioner.wm.html#pcdsdevices.state.PVStatePositioner.wm" title="pcdsdevices.state.PVStatePositioner.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
-<td><p>Get the mover’s positon (where motor)</p></td>
+<td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.PVStatePositioner.wm_update.html#pcdsdevices.state.PVStatePositioner.wm_update" title="pcdsdevices.state.PVStatePositioner.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>

@@ -1,0 +1,6 @@
+pcdsdevices.timetool.Timetool.get\_instantiated\_signals
+========================================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: Timetool.get_instantiated_signals

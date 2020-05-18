@@ -1,6 +1,0 @@
-pcdsdevices.timetool.TimeTool.clear\_sub
-========================================
-
-.. currentmodule:: pcdsdevices.timetool
-
-.. automethod:: TimeTool.clear_sub

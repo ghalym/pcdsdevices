@@ -1,6 +1,0 @@
-pcdsdevices.timetool.TimeTool.get\_state
-========================================
-
-.. currentmodule:: pcdsdevices.timetool
-
-.. automethod:: TimeTool.get_state

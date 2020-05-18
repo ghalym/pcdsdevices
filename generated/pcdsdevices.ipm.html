@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ipm &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.ipm &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -217,7 +218,7 @@
             
   <div class="section" id="module-pcdsdevices.ipm">
 <span id="pcdsdevices-ipm"></span><h1>pcdsdevices.ipm<a class="headerlink" href="#module-pcdsdevices.ipm" title="Permalink to this headline">¶</a></h1>
-<p>Module for the <a class="reference internal" href="generated/pcdsdevices.ipm.IPM.html#pcdsdevices.ipm.IPM" title="pcdsdevices.ipm.IPM"><code class="xref any py py-func docutils literal notranslate"><span class="pre">IPM</span></code></a> intensity position monitor class</p>
+<p>Module for the <a class="reference internal" href="generated/pcdsdevices.ipm.IPM.html#pcdsdevices.ipm.IPM" title="pcdsdevices.ipm.IPM"><code class="xref any py py-func docutils literal notranslate"><span class="pre">IPM</span></code></a> intensity position monitor classes.</p>
 <p class="rubric">Functions</p>
 <table class="longtable docutils align-default">
 <colgroup>
@@ -226,7 +227,7 @@
 </colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM.html#pcdsdevices.ipm.IPM" title="pcdsdevices.ipm.IPM"><code class="xref py py-obj docutils literal notranslate"><span class="pre">IPM</span></code></a>(prefix, *, name, **kwargs)</p></td>
-<td><p>Factory function for an IPM optional: IPIMB box or Wave8 for readout</p></td>
+<td><p>Factory function for an IPM.</p></td>
 </tr>
 </tbody>
 </table>
@@ -238,10 +239,10 @@
 </colgroup>
 <tbody>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMB.html#pcdsdevices.ipm.IPIMB" title="pcdsdevices.ipm.IPIMB"><code class="xref py py-obj docutils literal notranslate"><span class="pre">IPIMB</span></code></a>(prefix, *, name[, prefix_ioc])</p></td>
-<td><p>Class for an ipimb box.</p></td>
+<td><p>Class for an IPIMB box.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMBChannel.html#pcdsdevices.ipm.IPIMBChannel" title="pcdsdevices.ipm.IPIMBChannel"><code class="xref py py-obj docutils literal notranslate"><span class="pre">IPIMBChannel</span></code></a>(prefix, *, name, channel_index, …)</p></td>
-<td><p>Class for a single channel read out by an ipimb box</p></td>
+<td><p>Class for a single channel read out by an IPIMB box.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMDiode.html#pcdsdevices.ipm.IPMDiode" title="pcdsdevices.ipm.IPMDiode"><code class="xref py py-obj docutils literal notranslate"><span class="pre">IPMDiode</span></code></a>(prefix, *, name, **kwargs)</p></td>
 <td><p>Diode of a standard intensity position monitor.</p></td>
@@ -262,10 +263,10 @@
 <td><p>Standard intensity position monitor.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.Wave8.html#pcdsdevices.ipm.Wave8" title="pcdsdevices.ipm.Wave8"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Wave8</span></code></a>(prefix, *, name[, prefix_ioc])</p></td>
-<td><p>Class for a wave8</p></td>
+<td><p>Class for a wave8.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.Wave8Channel.html#pcdsdevices.ipm.Wave8Channel" title="pcdsdevices.ipm.Wave8Channel"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Wave8Channel</span></code></a>(prefix, *, name, channel_index, …)</p></td>
-<td><p>Class for a single channel read out by a wave8</p></td>
+<td><p>Class for a single channel read out by a wave8.</p></td>
 </tr>
 </tbody>
 </table>

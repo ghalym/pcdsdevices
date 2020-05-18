@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.valve.Stopper &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.valve.Stopper &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -104,6 +104,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
@@ -266,25 +267,26 @@
 <dl class="py class">
 <dt id="pcdsdevices.valve.Stopper">
 <em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.valve.</code><code class="sig-name descname">Stopper</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.valve.Stopper" title="Permalink to this definition">¶</a></dt>
-<dd><p>Controls Stopper</p>
+<dd><p>Controls Stopper.</p>
 <p>A base class for a device with two limits switches controlled via an
-external command PV. This fully encompasses the controls <a class="reference internal" href="#pcdsdevices.valve.Stopper" title="pcdsdevices.valve.Stopper"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Stopper</span></code></a>
-installations as well as un-interlocked <code class="xref any docutils literal notranslate"><span class="pre">GateValves</span></code></p>
+external command PV. This fully encompasses the controls Stopper
+installations as well as un-interlocked <a class="reference internal" href="pcdsdevices.valve.GateValve.html#pcdsdevices.valve.GateValve" title="pcdsdevices.valve.GateValve"><code class="xref any py py-class docutils literal notranslate"><span class="pre">GateValve</span></code></a> s.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – Full PPS Stopper PV</p></li>
-<li><p><strong>name</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – Alias for the stopper</p></li>
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Full PPS Stopper PV.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Alias for the stopper.</p></li>
 </ul>
 </dd>
 </dl>
 <dl class="py attribute">
 <dt id="pcdsdevices.valve.Stopper.commands">
 <code class="sig-name descname">commands</code><a class="headerlink" href="#pcdsdevices.valve.Stopper.commands" title="Permalink to this definition">¶</a></dt>
-<dd><p>An enum with integer values for <code class="docutils literal notranslate"><span class="pre">open_valve</span></code>, <code class="docutils literal notranslate"><span class="pre">close_valve</span></code> values</p>
+<dd><p>An enum with integer values for <code class="xref any docutils literal notranslate"><span class="pre">~Commands.open_valve</span></code> and
+<code class="xref any docutils literal notranslate"><span class="pre">~Commands.close_valve</span></code> values.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
-<dd class="field-odd"><p><code class="docutils literal notranslate"><span class="pre">Enum</span></code></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(in Python v3.8)">Enum</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -312,7 +314,7 @@ installations as well as un-interlocked <code class="xref any docutils literal n
 <td><p>Remove a subscription, given the original callback function</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.close.html#pcdsdevices.valve.Stopper.close" title="pcdsdevices.valve.Stopper.close"><code class="xref py py-obj docutils literal notranslate"><span class="pre">close</span></code></a>(**kwargs)</p></td>
-<td><p>Close the stopper</p></td>
+<td><p>Close the stopper.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.configure.html#pcdsdevices.valve.Stopper.configure" title="pcdsdevices.valve.Stopper.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
 <td><p>Configure the device for something during a run</p></td>
@@ -327,7 +329,7 @@ installations as well as un-interlocked <code class="xref any docutils literal n
 <td><p>Disconnect and destroy all signals on the Device</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.end_monitor_thread.html#pcdsdevices.valve.Stopper.end_monitor_thread" title="pcdsdevices.valve.Stopper.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
-<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.valve.Stopper.camonitor.html#pcdsdevices.valve.Stopper.camonitor" title="pcdsdevices.valve.Stopper.camonitor"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">camonitor</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.valve.Stopper.wm_update.html#pcdsdevices.valve.Stopper.wm_update" title="pcdsdevices.valve.Stopper.wm_update"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">wm_update</span></code></a> that is running in another thread.</p></td>
+<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.valve.Stopper.camonitor.html#pcdsdevices.valve.Stopper.camonitor" title="pcdsdevices.valve.Stopper.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.valve.Stopper.wm_update.html#pcdsdevices.valve.Stopper.wm_update" title="pcdsdevices.valve.Stopper.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.get.html#pcdsdevices.valve.Stopper.get" title="pcdsdevices.valve.Stopper.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
@@ -351,7 +353,7 @@ installations as well as un-interlocked <code class="xref any docutils literal n
 <td><p>Absolute move to a position.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.open.html#pcdsdevices.valve.Stopper.open" title="pcdsdevices.valve.Stopper.open"><code class="xref py py-obj docutils literal notranslate"><span class="pre">open</span></code></a>(**kwargs)</p></td>
-<td><p>Open the stopper</p></td>
+<td><p>Open the stopper.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.pause.html#pcdsdevices.valve.Stopper.pause" title="pcdsdevices.valve.Stopper.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
 <td><p>Attempt to ‘pause’ the device.</p></td>
@@ -414,7 +416,7 @@ installations as well as un-interlocked <code class="xref any docutils literal n
 <td><p>Walk all sub-Devices in the hierarchy</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.wm.html#pcdsdevices.valve.Stopper.wm" title="pcdsdevices.valve.Stopper.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
-<td><p>Get the mover’s positon (where motor)</p></td>
+<td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.valve.Stopper.wm_update.html#pcdsdevices.valve.Stopper.wm_update" title="pcdsdevices.valve.Stopper.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
@@ -480,7 +482,7 @@ installations as well as un-interlocked <code class="xref any docutils literal n
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">inserted</span></code></p></td>
-<td><p>True if the device is inserted</p></td>
+<td><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a> if the device is inserted.</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
 <td><p></p></td>
@@ -516,7 +518,7 @@ installations as well as un-interlocked <code class="xref any docutils literal n
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">removed</span></code></p></td>
-<td><p>True if the device is removed</p></td>
+<td><p><a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a> if the device is removed.</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
 <td><p>A report on the object.</p></td>

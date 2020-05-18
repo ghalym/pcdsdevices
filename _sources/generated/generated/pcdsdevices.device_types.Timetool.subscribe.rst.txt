@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Timetool.subscribe
+============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Timetool.subscribe

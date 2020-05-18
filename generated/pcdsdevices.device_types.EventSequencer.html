@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.EventSequencer &mdash; PCDS Devices 2.5.0+31.g7464248 documentation</title>
+  <title>pcdsdevices.device_types.EventSequencer &mdash; PCDS Devices 2.5.0+45.g121b7c2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.5.0+31.g7464248
+                2.5.0+45.g121b7c2
               </div>
             
           
@@ -159,6 +159,7 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Reflaser.html">pcdsdevices.device_types.Reflaser</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Slits.html">pcdsdevices.device_types.Slits</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Stopper.html">pcdsdevices.device_types.Stopper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Timetool.html">pcdsdevices.device_types.Timetool</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.Trigger.html">pcdsdevices.device_types.Trigger</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.TTReflaser.html">pcdsdevices.device_types.TTReflaser</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.device_types.VonHamos4Crystal.html">pcdsdevices.device_types.VonHamos4Crystal</a></li>
@@ -244,36 +245,32 @@
 <dl class="py class">
 <dt id="pcdsdevices.device_types.EventSequencer">
 <em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.device_types.</code><code class="sig-name descname">EventSequencer</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prefix</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">name</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">monitor_attrs</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.device_types.EventSequencer" title="Permalink to this definition">¶</a></dt>
-<dd><p>Event Sequencer</p>
-<p>The LCLS Event Sequencer implemented as an Flyer; i.e it has the methods
+<dd><p>Event Sequencer.</p>
+<p>The LCLS Event Sequencer implemented as an Flyer; i.e. it has the methods
 <a class="reference internal" href="generated/pcdsdevices.device_types.EventSequencer.kickoff.html#pcdsdevices.device_types.EventSequencer.kickoff" title="pcdsdevices.device_types.EventSequencer.kickoff"><code class="xref py py-meth docutils literal notranslate"><span class="pre">kickoff()</span></code></a>, <a class="reference internal" href="generated/pcdsdevices.device_types.EventSequencer.complete.html#pcdsdevices.device_types.EventSequencer.complete" title="pcdsdevices.device_types.EventSequencer.complete"><code class="xref py py-meth docutils literal notranslate"><span class="pre">complete()</span></code></a> and <a class="reference internal" href="generated/pcdsdevices.device_types.EventSequencer.collect.html#pcdsdevices.device_types.EventSequencer.collect" title="pcdsdevices.device_types.EventSequencer.collect"><code class="xref py py-meth docutils literal notranslate"><span class="pre">collect()</span></code></a>. This allows the
 EventSequencer to be used succinctly with the <code class="xref any docutils literal notranslate"><span class="pre">fly_during_wrapper</span></code> and
 associated preprocessor.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – Base prefix of the EventSequencer</p></li>
-<li><p><strong>name</strong> (<code class="docutils literal notranslate"><span class="pre">str</span></code>) – Name of Event Sequencer object</p></li>
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Base prefix of the EventSequencer.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Name of Event Sequencer object.</p></li>
 </ul>
 </dd>
 </dl>
 <p class="rubric">Examples</p>
-<p>Run the EventSequencer throughout my scan</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">fly_during_wrapper</span><span class="p">(</span><span class="n">scan</span><span class="p">([</span><span class="n">det</span><span class="p">],</span> <span class="n">motor</span><span class="p">,</span> <span class="o">...</span><span class="p">),</span> <span class="p">[</span><span class="n">sequencer</span><span class="p">])</span>
-</pre></div>
-</div>
+<p>Run the EventSequencer throughout my scan:
+&gt;&gt;&gt; fly_during_wrapper(scan([det], motor, …), [sequencer])</p>
 <p>Run the EventSequencer at each step in my scan after completing the
-motor move and detector reading:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">scan</span><span class="p">([</span><span class="n">sequencer</span><span class="p">],</span> <span class="n">motor</span><span class="p">,</span> <span class="o">....</span><span class="p">)</span>
-</pre></div>
-</div>
+motor move and detector reading:
+&gt;&gt;&gt; scan([sequencer], motor, ….)</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>It is ambiguous what the correct behavior for the EventSequencer is when we
 pause and resume during a scan. The current implementation will stop the
 EventSequencer and restart the sequence from the beginning. This may impact
 applications which depend on a long single looped sequence running through
-out the scan</p>
+out the scan.</p>
 </div>
 <p class="rubric">Methods</p>
 <table class="longtable docutils align-default">
@@ -301,7 +298,7 @@ out the scan</p>
 <td><p>Retrieve data from flyer as tables</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.EventSequencer.complete.html#pcdsdevices.device_types.EventSequencer.complete" title="pcdsdevices.device_types.EventSequencer.complete"><code class="xref py py-obj docutils literal notranslate"><span class="pre">complete</span></code></a>()</p></td>
-<td><p>Complete the EventSequencer’s current sequence</p></td>
+<td><p>Complete the EventSequencer’s current sequence.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.EventSequencer.configure.html#pcdsdevices.device_types.EventSequencer.configure" title="pcdsdevices.device_types.EventSequencer.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
 <td><p>Configure the device for something during a run</p></td>
@@ -328,10 +325,10 @@ out the scan</p>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.EventSequencer.kickoff.html#pcdsdevices.device_types.EventSequencer.kickoff" title="pcdsdevices.device_types.EventSequencer.kickoff"><code class="xref py py-obj docutils literal notranslate"><span class="pre">kickoff</span></code></a>()</p></td>
-<td><p>Start the EventSequencer</p></td>
+<td><p>Start the EventSequencer.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.EventSequencer.pause.html#pcdsdevices.device_types.EventSequencer.pause" title="pcdsdevices.device_types.EventSequencer.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
-<td><p>Stop the event sequencer and stop monitoring events</p></td>
+<td><p>Stop the event sequencer and stop monitoring events.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.EventSequencer.put.html#pcdsdevices.device_types.EventSequencer.put" title="pcdsdevices.device_types.EventSequencer.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
 <td><p>Put a value to all components of the device</p></td>
@@ -343,16 +340,16 @@ out the scan</p>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.EventSequencer.resume.html#pcdsdevices.device_types.EventSequencer.resume" title="pcdsdevices.device_types.EventSequencer.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
-<td><p>Resume the EventSequencer procedure</p></td>
+<td><p>Resume the EventSequencer procedure.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.EventSequencer.stage.html#pcdsdevices.device_types.EventSequencer.stage" title="pcdsdevices.device_types.EventSequencer.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
 <td><p>Stage the device for data collection.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.EventSequencer.start.html#pcdsdevices.device_types.EventSequencer.start" title="pcdsdevices.device_types.EventSequencer.start"><code class="xref py py-obj docutils literal notranslate"><span class="pre">start</span></code></a>()</p></td>
-<td><p>Start the EventSequencer</p></td>
+<td><p>Start the EventSequencer.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.EventSequencer.stop.html#pcdsdevices.device_types.EventSequencer.stop" title="pcdsdevices.device_types.EventSequencer.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>()</p></td>
-<td><p>Stop the EventSequencer</p></td>
+<td><p>Stop the EventSequencer.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.EventSequencer.subscribe.html#pcdsdevices.device_types.EventSequencer.subscribe" title="pcdsdevices.device_types.EventSequencer.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(callback[, event_type, run])</p></td>
 <td><p>Subscribe to events this event_type generates.</p></td>
@@ -361,7 +358,7 @@ out the scan</p>
 <td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.EventSequencer.trigger.html#pcdsdevices.device_types.EventSequencer.trigger" title="pcdsdevices.device_types.EventSequencer.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
-<td><p>Trigger the EventSequencer</p></td>
+<td><p>Trigger the EventSequencer.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.EventSequencer.unstage.html#pcdsdevices.device_types.EventSequencer.unstage" title="pcdsdevices.device_types.EventSequencer.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</p></td>
 <td><p>Unstage the device.</p></td>

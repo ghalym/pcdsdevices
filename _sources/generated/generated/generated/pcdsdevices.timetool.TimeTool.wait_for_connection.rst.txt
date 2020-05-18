@@ -1,6 +1,0 @@
-pcdsdevices.timetool.TimeTool.wait\_for\_connection
-===================================================
-
-.. currentmodule:: pcdsdevices.timetool
-
-.. automethod:: TimeTool.wait_for_connection
