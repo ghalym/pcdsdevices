@@ -27,6 +27,7 @@ pcdsdevices.device\_types.PCDSAreaDetector
       ~PCDSAreaDetector.get_asyn_digraph
       ~PCDSAreaDetector.get_asyn_port_dictionary
       ~PCDSAreaDetector.get_device_tuple
+      ~PCDSAreaDetector.get_full_area_detector
       ~PCDSAreaDetector.get_instantiated_signals
       ~PCDSAreaDetector.get_plugin_by_asyn_port
       ~PCDSAreaDetector.get_plugin_graph_edges
@@ -75,7 +76,6 @@ pcdsdevices.device\_types.PCDSAreaDetector
       ~PCDSAreaDetector.event_types
       ~PCDSAreaDetector.hdf51
       ~PCDSAreaDetector.hints
-      ~PCDSAreaDetector.image
       ~PCDSAreaDetector.image1
       ~PCDSAreaDetector.image1_cc
       ~PCDSAreaDetector.image1_over
@@ -103,7 +103,6 @@ pcdsdevices.device\_types.PCDSAreaDetector
       ~PCDSAreaDetector.roi4
       ~PCDSAreaDetector.root
       ~PCDSAreaDetector.signal_names
-      ~PCDSAreaDetector.stats
       ~PCDSAreaDetector.stats1
       ~PCDSAreaDetector.stats2
       ~PCDSAreaDetector.stats3

@@ -6101,6 +6101,7 @@
 ./_sources/generated/generated/pcdsdevices.device_types.PCDSAreaDetector.get_asyn_digraph.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PCDSAreaDetector.get_asyn_port_dictionary.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PCDSAreaDetector.get_device_tuple.rst.txt
+./_sources/generated/generated/pcdsdevices.device_types.PCDSAreaDetector.get_full_area_detector.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PCDSAreaDetector.get_instantiated_signals.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PCDSAreaDetector.get_plugin_by_asyn_port.rst.txt
 ./_sources/generated/generated/pcdsdevices.device_types.PCDSAreaDetector.get_plugin_graph_edges.rst.txt
@@ -13239,6 +13240,7 @@
 ./generated/generated/pcdsdevices.device_types.PCDSAreaDetector.get_asyn_digraph.html
 ./generated/generated/pcdsdevices.device_types.PCDSAreaDetector.get_asyn_port_dictionary.html
 ./generated/generated/pcdsdevices.device_types.PCDSAreaDetector.get_device_tuple.html
+./generated/generated/pcdsdevices.device_types.PCDSAreaDetector.get_full_area_detector.html
 ./generated/generated/pcdsdevices.device_types.PCDSAreaDetector.get_instantiated_signals.html
 ./generated/generated/pcdsdevices.device_types.PCDSAreaDetector.get_plugin_by_asyn_port.html
 ./generated/generated/pcdsdevices.device_types.PCDSAreaDetector.get_plugin_graph_edges.html
