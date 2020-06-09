@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.sim.SlowMotor.describe_configuration &mdash; PCDS Devices 2.6.0+3.g1415cd2 documentation</title>
+  <title>pcdsdevices.sim.SlowMotor.describe_configuration &mdash; PCDS Devices 2.6.0+7.g9e20c3c documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.6.0+3.g1415cd2
+                2.6.0+7.g9e20c3c
               </div>
             
           
@@ -222,7 +222,18 @@
 <dl class="py method">
 <dt id="pcdsdevices.sim.SlowMotor.describe_configuration">
 <code class="sig-prename descclassname">SlowMotor.</code><code class="sig-name descname">describe_configuration</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.sim.SlowMotor.describe_configuration" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></p>
+<p>This keys in the <code class="xref any docutils literal notranslate"><span class="pre">OrderedDict</span></code> this method returns must match the
+keys in the <code class="xref any docutils literal notranslate"><span class="pre">OrderedDict</span></code> return by <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code>.</p>
+<p>This provides schema related information, (ex shape, dtype), the
+source (ex PV name), and if available, units, limits, precision etc.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p><strong>data_keys</strong> (<em>OrderedDict</em>) – The keys must be strings and the values must be dict-like
+with the <code class="docutils literal notranslate"><span class="pre">event_model.event_descriptor.data_key</span></code> schema.</p>
+</dd>
+</dl>
+</dd></dl>
 
 </div>
 

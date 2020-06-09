@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.signal.AggregateSignal &mdash; PCDS Devices 2.6.0+3.g1415cd2 documentation</title>
+  <title>pcdsdevices.signal.AggregateSignal &mdash; PCDS Devices 2.6.0+7.g9e20c3c documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.6.0+3.g1415cd2
+                2.6.0+7.g9e20c3c
               </div>
             
           
@@ -246,24 +246,14 @@
 getting the values of all the subsignals at all times.</p>
 <dl class="py attribute">
 <dt id="pcdsdevices.signal.AggregateSignal._cache">
-<code class="sig-name descname">_cache</code><a class="headerlink" href="#pcdsdevices.signal.AggregateSignal._cache" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">_cache</code><em class="property">: <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.8)">dict</a></em><a class="headerlink" href="#pcdsdevices.signal.AggregateSignal._cache" title="Permalink to this definition">¶</a></dt>
 <dd><p>Mapping from signal to last known value.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.8)">dict</a></p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt id="pcdsdevices.signal.AggregateSignal._sub_signals">
-<code class="sig-name descname">_sub_signals</code><a class="headerlink" href="#pcdsdevices.signal.AggregateSignal._sub_signals" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">_sub_signals</code><em class="property">: <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.8)">list</a></em><a class="headerlink" href="#pcdsdevices.signal.AggregateSignal._sub_signals" title="Permalink to this definition">¶</a></dt>
 <dd><p>Signals that contribute to this signal.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.8)">list</a></p>
-</dd>
-</dl>
 </dd></dl>
 
 <p class="rubric">Methods</p>
@@ -300,7 +290,7 @@ getting the values of all the subsignals at all times.</p>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.put.html#pcdsdevices.signal.AggregateSignal.put" title="pcdsdevices.signal.AggregateSignal.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(value, **kwargs)</p></td>
 <td><p>Put updates the internal readback value</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.read.html#pcdsdevices.signal.AggregateSignal.read" title="pcdsdevices.signal.AggregateSignal.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.read.html#pcdsdevices.signal.AggregateSignal.read" title="pcdsdevices.signal.AggregateSignal.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Put the status of the signal into a simple dictionary format for data acquisition</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.read_configuration.html#pcdsdevices.signal.AggregateSignal.read_configuration" title="pcdsdevices.signal.AggregateSignal.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>

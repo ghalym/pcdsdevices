@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.attenuator.Filter.trigger &mdash; PCDS Devices 2.6.0+3.g1415cd2 documentation</title>
+  <title>pcdsdevices.attenuator.Filter.trigger &mdash; PCDS Devices 2.6.0+7.g9e20c3c documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.6.0+3.g1415cd2
+                2.6.0+7.g9e20c3c
               </div>
             
           
@@ -262,7 +262,7 @@
 <h1>pcdsdevices.attenuator.Filter.trigger<a class="headerlink" href="#pcdsdevices-attenuator-filter-trigger" title="Permalink to this headline">¶</a></h1>
 <dl class="py method">
 <dt id="pcdsdevices.attenuator.Filter.trigger">
-<code class="sig-prename descclassname">Filter.</code><code class="sig-name descname">trigger</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; <a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.5.1b1)">ophyd.status.StatusBase</a><a class="headerlink" href="#pcdsdevices.attenuator.Filter.trigger" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">Filter.</code><code class="sig-name descname">trigger</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; <a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.5.1b1.post4+g35cd88f)">ophyd.status.StatusBase</a><a class="headerlink" href="#pcdsdevices.attenuator.Filter.trigger" title="Permalink to this definition">¶</a></dt>
 <dd><p>Trigger the device and return status object.</p>
 <p>This method is responsible for implementing ‘trigger’ or
 ‘acquire’ functionality of this device.</p>
@@ -270,14 +270,14 @@
 and it being able to be read (via the
 <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code> method) then this method is
 also responsible for arranging that the
-<a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.5.1b1)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a> object returned by this method
+<a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.5.1b1.post4+g35cd88f)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a> object returned by this method
 is notified when the device is ready to be read.</p>
 <p>If there is no delay between triggering and being readable,
-then this method must return a <a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.5.1b1)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a>
+then this method must return a <a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.5.1b1.post4+g35cd88f)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a>
 object which is already completed.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p><strong>status</strong> (<em>StatusBase</em>) – <a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.5.1b1)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a> object which will be marked
+<dd class="field-odd"><p><strong>status</strong> (<em>StatusBase</em>) – <a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.5.1b1.post4+g35cd88f)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a> object which will be marked
 as complete when the device is ready to be read.</p>
 </dd>
 </dl>
