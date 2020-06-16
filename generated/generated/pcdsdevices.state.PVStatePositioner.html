@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.state.PVStatePositioner &mdash; PCDS Devices 2.6.0+7.g9e20c3c documentation</title>
+  <title>pcdsdevices.state.PVStatePositioner &mdash; PCDS Devices 2.6.0+12.gf9bd8a6 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.6.0+7.g9e20c3c
+                2.6.0+12.gf9bd8a6
               </div>
             
           
@@ -276,7 +276,7 @@ in-progress move as failed.</p></li>
 </dl>
 <dl class="py attribute">
 <dt id="pcdsdevices.state.PVStatePositioner._state_logic">
-<code class="sig-name descname">_state_logic</code><em class="property">: <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.8)">dict</a></em><a class="headerlink" href="#pcdsdevices.state.PVStatePositioner._state_logic" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">_state_logic</code><a class="headerlink" href="#pcdsdevices.state.PVStatePositioner._state_logic" title="Permalink to this definition">¶</a></dt>
 <dd><p>Information dictionaries for each state of the following form:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
   <span class="s2">&quot;signal_name&quot;</span><span class="p">:</span> <span class="p">{</span>
@@ -293,15 +293,25 @@ each of the states. These states will be evaluated in the dict’s order,
 which may matter if <code class="docutils literal notranslate"><span class="pre">_state_logic_mode</span> <span class="pre">==</span> <span class="pre">'FIRST'</span></code>.</p>
 <p>This is for cases where the logic is simple. If there are more complex
 requirements, replace the <a class="reference internal" href="pcdsdevices.state.StatePositioner.html#pcdsdevices.state.StatePositioner.state" title="pcdsdevices.state.StatePositioner.state"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">state</span></code></a> component.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.8)">dict</a></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt id="pcdsdevices.state.PVStatePositioner._state_logic_mode">
-<code class="sig-name descname">_state_logic_mode</code><em class="property">: {‘ALL’, ‘FIRST’}</em><a class="headerlink" href="#pcdsdevices.state.PVStatePositioner._state_logic_mode" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">_state_logic_mode</code><a class="headerlink" href="#pcdsdevices.state.PVStatePositioner._state_logic_mode" title="Permalink to this definition">¶</a></dt>
 <dd><p>This should be ‘ALL’ (default) if the pvs need to agree for a valid
 state. You can set this to ‘FIRST’ instead to use the first state
 found while traversing the <a class="reference internal" href="#pcdsdevices.state.PVStatePositioner._state_logic" title="pcdsdevices.state.PVStatePositioner._state_logic"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">_state_logic</span></code></a> tree. This means an earlier
 state definition can mask a later state definition.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>{‘ALL’, ‘FIRST’}</p>
+</dd>
+</dl>
 </dd></dl>
 
 <p class="rubric">Methods</p>

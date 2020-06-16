@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.state.StatePositioner &mdash; PCDS Devices 2.6.0+7.g9e20c3c documentation</title>
+  <title>pcdsdevices.state.StatePositioner &mdash; PCDS Devices 2.6.0+12.gf9bd8a6 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.6.0+7.g9e20c3c
+                2.6.0+12.gf9bd8a6
               </div>
             
           
@@ -277,48 +277,78 @@ in-progress move as failed.</p></li>
 </dl>
 <dl class="py attribute">
 <dt id="pcdsdevices.state.StatePositioner.state">
-<code class="sig-name descname">state</code><em class="property">: Signal</em><a class="headerlink" href="#pcdsdevices.state.StatePositioner.state" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">state</code><a class="headerlink" href="#pcdsdevices.state.StatePositioner.state" title="Permalink to this definition">¶</a></dt>
 <dd><p>This signal is the final authority on what state the object is in.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>Signal</p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt id="pcdsdevices.state.StatePositioner.states_list">
-<code class="sig-name descname">states_list</code><em class="property">: list of str</em><a class="headerlink" href="#pcdsdevices.state.StatePositioner.states_list" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">states_list</code><a class="headerlink" href="#pcdsdevices.state.StatePositioner.states_list" title="Permalink to this definition">¶</a></dt>
 <dd><p>This no longer has to be provided if the state signal contains enum
 information, like an EPICS mbbi. If it is provided, it must be
 an exhaustive list of all possible states. This should be overridden in
 a subclass. ‘Unknown’ must be omitted in the class definition and will
 be added dynamically in position 0 when the object is created.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>list of str</p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt id="pcdsdevices.state.StatePositioner.states_enum">
-<code class="sig-name descname">states_enum</code><em class="property">: ~enum.Enum</em><a class="headerlink" href="#pcdsdevices.state.StatePositioner.states_enum" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">states_enum</code><a class="headerlink" href="#pcdsdevices.state.StatePositioner.states_enum" title="Permalink to this definition">¶</a></dt>
 <dd><p>An enum that represents all possible states. This will be constructed
 for the user based on the contents of <a class="reference internal" href="#pcdsdevices.state.StatePositioner.states_list" title="pcdsdevices.state.StatePositioner.states_list"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">states_list</span></code></a> and
 <a class="reference internal" href="#pcdsdevices.state.StatePositioner._states_alias" title="pcdsdevices.state.StatePositioner._states_alias"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">_states_alias</span></code></a>, but it can also be overriden in a child class.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/enum.html#enum.Enum" title="(in Python v3.8)">Enum</a></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt id="pcdsdevices.state.StatePositioner._invalid_states">
-<code class="sig-name descname">_invalid_states</code><em class="property">: list of str</em><a class="headerlink" href="#pcdsdevices.state.StatePositioner._invalid_states" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">_invalid_states</code><a class="headerlink" href="#pcdsdevices.state.StatePositioner._invalid_states" title="Permalink to this definition">¶</a></dt>
 <dd><p>States that cannot be moved to. This can be optionally overriden to be
 extended in a subclass. The <a class="reference internal" href="#pcdsdevices.state.StatePositioner._unknown" title="pcdsdevices.state.StatePositioner._unknown"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">_unknown</span></code></a> state will be included
 automatically.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>list of str</p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt id="pcdsdevices.state.StatePositioner._unknown">
-<code class="sig-name descname">_unknown</code><em class="property">: <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a></em><a class="headerlink" href="#pcdsdevices.state.StatePositioner._unknown" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">_unknown</code><a class="headerlink" href="#pcdsdevices.state.StatePositioner._unknown" title="Permalink to this definition">¶</a></dt>
 <dd><p>The name of the unknown state, defaulting to ‘Unknown’. This can be set
 to <code class="xref std std-keyword docutils literal notranslate"><span class="pre">False</span></code> if there is no unknown state.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt id="pcdsdevices.state.StatePositioner._states_alias">
-<code class="sig-name descname">_states_alias</code><em class="property">: <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.8)">dict</a></em><a class="headerlink" href="#pcdsdevices.state.StatePositioner._states_alias" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">_states_alias</code><a class="headerlink" href="#pcdsdevices.state.StatePositioner._states_alias" title="Permalink to this definition">¶</a></dt>
 <dd><p>Mapping of state names to lists of acceptable aliases. This can
 optionally be overriden in a child class.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.8)">dict</a></p>
+</dd>
+</dl>
 </dd></dl>
 
 <p class="rubric">Methods</p>

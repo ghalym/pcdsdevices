@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.pseudopos.DelayBase &mdash; PCDS Devices 2.6.0+7.g9e20c3c documentation</title>
+  <title>pcdsdevices.pseudopos.DelayBase &mdash; PCDS Devices 2.6.0+12.gf9bd8a6 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                2.6.0+7.g9e20c3c
+                2.6.0+12.gf9bd8a6
               </div>
             
           
@@ -272,16 +272,26 @@ of the laser changes, which introduces a variable delay. This delay is a
 simple multiplier based on the speed of light.</p>
 <dl class="py attribute">
 <dt id="pcdsdevices.pseudopos.DelayBase.delay">
-<code class="sig-name descname">delay</code><em class="property">: ~ophyd.pseudopos.PseudoSingle</em><a class="headerlink" href="#pcdsdevices.pseudopos.DelayBase.delay" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">delay</code><a class="headerlink" href="#pcdsdevices.pseudopos.DelayBase.delay" title="Permalink to this definition">¶</a></dt>
 <dd><p>The fake axis. It has configurable units and number of bounces.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://blueskyproject.io/ophyd/positioners.html#ophyd.pseudopos.PseudoSingle" title="(in ophyd v1.5.1)">PseudoSingle</a></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="py attribute">
 <dt id="pcdsdevices.pseudopos.DelayBase.motor">
-<code class="sig-name descname">motor</code><em class="property">: ~ophyd.positioner.PositionerBase</em><a class="headerlink" href="#pcdsdevices.pseudopos.DelayBase.motor" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">motor</code><a class="headerlink" href="#pcdsdevices.pseudopos.DelayBase.motor" title="Permalink to this definition">¶</a></dt>
 <dd><p>The real axis. This can be a number of things based on the inheriting
 class, but it must have a valid <code class="docutils literal notranslate"><span class="pre">egu</span></code> so we know how to convert to
 the time axis.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://blueskyproject.io/ophyd/positioners.html#ophyd.positioner.PositionerBase" title="(in ophyd v1.5.1)">PositionerBase</a></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="field-list simple">
