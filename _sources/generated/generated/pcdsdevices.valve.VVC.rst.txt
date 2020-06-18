@@ -64,8 +64,8 @@ pcdsdevices.valve.VVC
       ~VVC.name
       ~VVC.open_command
       ~VVC.open_do
-      ~VVC.open_override
-      ~VVC.override_on
+      ~VVC.override_force_open
+      ~VVC.override_status
       ~VVC.parent
       ~VVC.read_attrs
       ~VVC.report

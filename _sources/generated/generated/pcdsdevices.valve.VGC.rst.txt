@@ -72,8 +72,8 @@ pcdsdevices.valve.VGC
       ~VGC.open_command
       ~VGC.open_do
       ~VGC.open_limit
-      ~VGC.open_override
-      ~VGC.override_on
+      ~VGC.override_force_open
+      ~VGC.override_status
       ~VGC.parent
       ~VGC.read_attrs
       ~VGC.report

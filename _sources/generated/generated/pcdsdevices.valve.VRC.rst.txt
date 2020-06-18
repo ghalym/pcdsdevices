@@ -66,8 +66,8 @@ pcdsdevices.valve.VRC
       ~VRC.open_command
       ~VRC.open_do
       ~VRC.open_limit
-      ~VRC.open_override
-      ~VRC.override_on
+      ~VRC.override_force_open
+      ~VRC.override_status
       ~VRC.parent
       ~VRC.read_attrs
       ~VRC.report
