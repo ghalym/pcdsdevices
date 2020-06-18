@@ -6996,6 +6996,7 @@
 ./_sources/generated/generated/pcdsdevices.timetool.Timetool.rst.txt
 ./_sources/generated/generated/pcdsdevices.timetool.TimetoolWithNav.rst.txt
 ./_sources/generated/generated/pcdsdevices.utils.convert_unit.rst.txt
+./_sources/generated/generated/pcdsdevices.utils.get_component.rst.txt
 ./_sources/generated/generated/pcdsdevices.utils.get_input.rst.txt
 ./_sources/generated/generated/pcdsdevices.utils.ipm_screen.rst.txt
 ./_sources/generated/generated/pcdsdevices.utils.is_input.rst.txt
@@ -14125,6 +14126,7 @@
 ./generated/generated/pcdsdevices.timetool.Timetool.html
 ./generated/generated/pcdsdevices.timetool.TimetoolWithNav.html
 ./generated/generated/pcdsdevices.utils.convert_unit.html
+./generated/generated/pcdsdevices.utils.get_component.html
 ./generated/generated/pcdsdevices.utils.get_input.html
 ./generated/generated/pcdsdevices.utils.ipm_screen.html
 ./generated/generated/pcdsdevices.utils.is_input.html

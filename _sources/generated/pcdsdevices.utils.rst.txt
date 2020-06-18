@@ -11,6 +11,7 @@ pcdsdevices.utils
       :toctree: generated
    
       convert_unit
+      get_component
       get_input
       ipm_screen
       is_input
