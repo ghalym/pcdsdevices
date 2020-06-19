@@ -53,6 +53,7 @@ pcdsdevices.pump.PIPPLC
       ~PIPPLC.SUB_ACQ_DONE
       ~PIPPLC.at_vac_setpoint
       ~PIPPLC.attr_name
+      ~PIPPLC.auto_on
       ~PIPPLC.component_names
       ~PIPPLC.configuration_attrs
       ~PIPPLC.connected
@@ -66,10 +67,13 @@ pcdsdevices.pump.PIPPLC
       ~PIPPLC.lazy_wait_for_connection
       ~PIPPLC.name
       ~PIPPLC.parent
+      ~PIPPLC.plc_ai_offset
       ~PIPPLC.pressure
       ~PIPPLC.protection_setpoint
       ~PIPPLC.pump_on_status
       ~PIPPLC.pump_state
+      ~PIPPLC.qpc_name
+      ~PIPPLC.qpc_pumpsize
       ~PIPPLC.read_attrs
       ~PIPPLC.report
       ~PIPPLC.root
