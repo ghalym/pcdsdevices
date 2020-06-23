@@ -1,0 +1,6 @@
+pcdsdevices.jet.InjectorWithFine.\_\_init\_\_
+=============================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: InjectorWithFine.__init__

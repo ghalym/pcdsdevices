@@ -1,0 +1,6 @@
+pcdsdevices.jet.Injector.clear\_sub
+===================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: Injector.clear_sub

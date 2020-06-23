@@ -1,0 +1,6 @@
+pcdsdevices.jet.InjectorWithFine.unstage
+========================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: InjectorWithFine.unstage

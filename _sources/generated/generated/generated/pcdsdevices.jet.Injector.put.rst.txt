@@ -1,0 +1,6 @@
+pcdsdevices.jet.Injector.put
+============================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: Injector.put

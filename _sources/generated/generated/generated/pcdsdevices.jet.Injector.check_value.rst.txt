@@ -1,0 +1,6 @@
+pcdsdevices.jet.Injector.check\_value
+=====================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: Injector.check_value

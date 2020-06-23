@@ -17,6 +17,8 @@ pcdsdevices.jet
       BeckhoffJet
       BeckhoffJetManipulator
       BeckhoffJetSlits
+      Injector
+      InjectorWithFine
    
    
 

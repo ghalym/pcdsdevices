@@ -1,0 +1,6 @@
+pcdsdevices.jet.Injector.walk\_subdevice\_classes
+=================================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: Injector.walk_subdevice_classes

@@ -1,0 +1,6 @@
+pcdsdevices.jet.Injector.wait\_for\_connection
+==============================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: Injector.wait_for_connection

@@ -1,0 +1,6 @@
+pcdsdevices.jet.InjectorWithFine.add\_instantiation\_callback
+=============================================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: InjectorWithFine.add_instantiation_callback

@@ -1,0 +1,6 @@
+pcdsdevices.jet.InjectorWithFine.read\_configuration
+====================================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: InjectorWithFine.read_configuration

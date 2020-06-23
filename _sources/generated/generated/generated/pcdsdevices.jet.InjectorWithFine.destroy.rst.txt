@@ -1,0 +1,6 @@
+pcdsdevices.jet.InjectorWithFine.destroy
+========================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: InjectorWithFine.destroy

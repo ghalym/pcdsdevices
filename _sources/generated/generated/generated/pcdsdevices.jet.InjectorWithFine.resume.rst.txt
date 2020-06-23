@@ -1,0 +1,6 @@
+pcdsdevices.jet.InjectorWithFine.resume
+=======================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: InjectorWithFine.resume

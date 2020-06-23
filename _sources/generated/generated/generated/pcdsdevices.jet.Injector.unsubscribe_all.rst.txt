@@ -1,0 +1,6 @@
+pcdsdevices.jet.Injector.unsubscribe\_all
+=========================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: Injector.unsubscribe_all
