@@ -23,6 +23,7 @@ pcdsdevices.pump
    
       AgilentSerial
       EbaraPump
+      Ebara_EV_A03_1
       GammaController
       GammaPCT
       IonPumpBase
