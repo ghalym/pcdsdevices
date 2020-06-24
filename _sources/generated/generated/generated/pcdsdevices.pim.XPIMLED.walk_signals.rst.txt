@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMLED.walk\_signals
+=====================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMLED.walk_signals

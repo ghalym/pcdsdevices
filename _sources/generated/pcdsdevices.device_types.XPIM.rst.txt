@@ -60,6 +60,7 @@ pcdsdevices.device\_types.XPIM
       ~XPIM.dotted_name
       ~XPIM.event_types
       ~XPIM.filter_wheel
+      ~XPIM.focus_lock
       ~XPIM.focus_motor
       ~XPIM.hints
       ~XPIM.kind
@@ -76,6 +77,7 @@ pcdsdevices.device\_types.XPIM
       ~XPIM.trigger_signals
       ~XPIM.y_motor
       ~XPIM.y_states
+      ~XPIM.zoom_lock
       ~XPIM.zoom_motor
    
    

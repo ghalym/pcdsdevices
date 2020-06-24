@@ -24,6 +24,7 @@ pcdsdevices.pim
       PPMPowerMeter
       XPIM
       XPIMFilterWheel
+      XPIMLED
    
    
 

@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMLED.stage
+=============================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMLED.stage

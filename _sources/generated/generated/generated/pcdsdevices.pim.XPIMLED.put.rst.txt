@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMLED.put
+===========================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMLED.put

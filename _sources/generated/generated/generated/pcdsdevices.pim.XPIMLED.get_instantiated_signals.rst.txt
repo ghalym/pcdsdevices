@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMLED.get\_instantiated\_signals
+==================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMLED.get_instantiated_signals

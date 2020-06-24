@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMLED.stop
+============================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMLED.stop

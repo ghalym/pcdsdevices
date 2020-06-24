@@ -1,0 +1,76 @@
+pcdsdevices.pim.XPIMLED
+=======================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. autoclass:: XPIMLED
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~XPIMLED.__init__
+      ~XPIMLED.add_instantiation_callback
+      ~XPIMLED.check_value
+      ~XPIMLED.clear_sub
+      ~XPIMLED.configure
+      ~XPIMLED.describe
+      ~XPIMLED.describe_configuration
+      ~XPIMLED.destroy
+      ~XPIMLED.get
+      ~XPIMLED.get_device_tuple
+      ~XPIMLED.get_instantiated_signals
+      ~XPIMLED.pause
+      ~XPIMLED.put
+      ~XPIMLED.read
+      ~XPIMLED.read_configuration
+      ~XPIMLED.resume
+      ~XPIMLED.stage
+      ~XPIMLED.stop
+      ~XPIMLED.subscribe
+      ~XPIMLED.summary
+      ~XPIMLED.trigger
+      ~XPIMLED.unstage
+      ~XPIMLED.unsubscribe
+      ~XPIMLED.unsubscribe_all
+      ~XPIMLED.wait_for_connection
+      ~XPIMLED.walk_components
+      ~XPIMLED.walk_signals
+      ~XPIMLED.walk_subdevice_classes
+      ~XPIMLED.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~XPIMLED.SUB_ACQ_DONE
+      ~XPIMLED.attr_name
+      ~XPIMLED.auto_mode
+      ~XPIMLED.component_names
+      ~XPIMLED.configuration_attrs
+      ~XPIMLED.connected
+      ~XPIMLED.dotted_name
+      ~XPIMLED.event_types
+      ~XPIMLED.hints
+      ~XPIMLED.kind
+      ~XPIMLED.lazy_wait_for_connection
+      ~XPIMLED.name
+      ~XPIMLED.parent
+      ~XPIMLED.power
+      ~XPIMLED.power_timeout
+      ~XPIMLED.read_attrs
+      ~XPIMLED.report
+      ~XPIMLED.root
+      ~XPIMLED.signal_names
+      ~XPIMLED.tab_component_names
+      ~XPIMLED.time_remaining
+      ~XPIMLED.trigger_signals
+   
+   

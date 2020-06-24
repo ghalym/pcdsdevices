@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMLED.clear\_sub
+==================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMLED.clear_sub

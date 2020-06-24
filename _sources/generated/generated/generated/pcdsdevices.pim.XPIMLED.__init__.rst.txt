@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMLED.\_\_init\_\_
+====================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMLED.__init__

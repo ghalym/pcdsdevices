@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMLED.unstage
+===============================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMLED.unstage

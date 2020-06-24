@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMLED.walk\_subdevices
+========================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMLED.walk_subdevices
