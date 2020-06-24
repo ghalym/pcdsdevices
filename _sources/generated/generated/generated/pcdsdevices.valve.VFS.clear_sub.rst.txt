@@ -1,0 +1,6 @@
+pcdsdevices.valve.VFS.clear\_sub
+================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VFS.clear_sub

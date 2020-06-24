@@ -1,0 +1,6 @@
+pcdsdevices.valve.VFS.pause
+===========================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VFS.pause

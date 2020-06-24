@@ -1,0 +1,6 @@
+pcdsdevices.valve.VFS.subscribe
+===============================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VFS.subscribe

@@ -19,6 +19,7 @@ pcdsdevices.valve
       PPSStopper
       Stopper
       VCN
+      VFS
       VGC
       VGCLegacy
       VRC

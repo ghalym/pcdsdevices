@@ -1,0 +1,81 @@
+pcdsdevices.valve.VFS
+=====================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. autoclass:: VFS
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~VFS.__init__
+      ~VFS.add_instantiation_callback
+      ~VFS.check_value
+      ~VFS.clear_sub
+      ~VFS.configure
+      ~VFS.describe
+      ~VFS.describe_configuration
+      ~VFS.destroy
+      ~VFS.get
+      ~VFS.get_device_tuple
+      ~VFS.get_instantiated_signals
+      ~VFS.pause
+      ~VFS.put
+      ~VFS.read
+      ~VFS.read_configuration
+      ~VFS.resume
+      ~VFS.stage
+      ~VFS.stop
+      ~VFS.subscribe
+      ~VFS.summary
+      ~VFS.trigger
+      ~VFS.unstage
+      ~VFS.unsubscribe
+      ~VFS.unsubscribe_all
+      ~VFS.wait_for_connection
+      ~VFS.walk_components
+      ~VFS.walk_signals
+      ~VFS.walk_subdevice_classes
+      ~VFS.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~VFS.SUB_ACQ_DONE
+      ~VFS.attr_name
+      ~VFS.component_names
+      ~VFS.configuration_attrs
+      ~VFS.connected
+      ~VFS.dotted_name
+      ~VFS.event_types
+      ~VFS.gfs_trigger
+      ~VFS.hints
+      ~VFS.kind
+      ~VFS.lazy_wait_for_connection
+      ~VFS.mps_ok
+      ~VFS.name
+      ~VFS.override_force_open
+      ~VFS.override_mode
+      ~VFS.parent
+      ~VFS.position_close
+      ~VFS.position_open
+      ~VFS.read_attrs
+      ~VFS.report
+      ~VFS.request_close
+      ~VFS.request_open
+      ~VFS.reset_vacuum_fault
+      ~VFS.root
+      ~VFS.signal_names
+      ~VFS.trigger_signals
+      ~VFS.vac_fault_ok
+   
+   
