@@ -62,6 +62,7 @@ pcdsdevices.pump.PIPPLC
       ~PIPPLC.high_voltage_do
       ~PIPPLC.high_voltage_switch
       ~PIPPLC.hints
+      ~PIPPLC.interlock_device
       ~PIPPLC.interlock_ok
       ~PIPPLC.kind
       ~PIPPLC.lazy_wait_for_connection

@@ -64,6 +64,8 @@ pcdsdevices.valve.VGC
       ~VGC.event_types
       ~VGC.ext_ilk_ok
       ~VGC.hints
+      ~VGC.interlock_device_downstream
+      ~VGC.interlock_device_upstream
       ~VGC.interlock_ok
       ~VGC.kind
       ~VGC.lazy_wait_for_connection
