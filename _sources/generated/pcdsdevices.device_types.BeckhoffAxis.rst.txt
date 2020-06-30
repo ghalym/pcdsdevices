@@ -99,6 +99,7 @@ pcdsdevices.device\_types.BeckhoffAxis
       ~BeckhoffAxis.motor_done_move
       ~BeckhoffAxis.motor_egu
       ~BeckhoffAxis.motor_is_moving
+      ~BeckhoffAxis.motor_spmg
       ~BeckhoffAxis.motor_stop
       ~BeckhoffAxis.moving
       ~BeckhoffAxis.name
