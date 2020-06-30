@@ -57,6 +57,7 @@ pcdsdevices.valve.VFS
       ~VFS.connected
       ~VFS.dotted_name
       ~VFS.event_types
+      ~VFS.gfs_name
       ~VFS.gfs_trigger
       ~VFS.hints
       ~VFS.kind
@@ -77,5 +78,7 @@ pcdsdevices.valve.VFS
       ~VFS.signal_names
       ~VFS.trigger_signals
       ~VFS.vac_fault_ok
+      ~VFS.valve_position
+      ~VFS.vfs_state
    
    
