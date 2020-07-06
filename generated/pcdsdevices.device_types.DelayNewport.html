@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.DelayNewport &mdash; PCDS Devices 2.7.0+14.g41f8bf3 documentation</title>
+  <title>pcdsdevices.device_types.DelayNewport &mdash; PCDS Devices 2.7.0+16.g52cec07 documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.7.0+14.g41f8bf3
+                2.7.0+16.g52cec07
               </div>
             
           
@@ -302,7 +302,7 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.end_monitor_thread.html#pcdsdevices.device_types.DelayNewport.end_monitor_thread" title="pcdsdevices.device_types.DelayNewport.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
 <td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.camonitor.html#pcdsdevices.device_types.DelayNewport.camonitor" title="pcdsdevices.device_types.DelayNewport.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.wm_update.html#pcdsdevices.device_types.DelayNewport.wm_update" title="pcdsdevices.device_types.DelayNewport.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.forward.html#pcdsdevices.device_types.DelayNewport.forward" title="pcdsdevices.device_types.DelayNewport.forward"><code class="xref py py-obj docutils literal notranslate"><span class="pre">forward</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.forward.html#pcdsdevices.device_types.DelayNewport.forward" title="pcdsdevices.device_types.DelayNewport.forward"><code class="xref py py-obj docutils literal notranslate"><span class="pre">forward</span></code></a>(pseudo_pos)</p></td>
 <td><p>Convert delay unit to motor unit.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.get.html#pcdsdevices.device_types.DelayNewport.get" title="pcdsdevices.device_types.DelayNewport.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
@@ -314,10 +314,10 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.get_instantiated_signals.html#pcdsdevices.device_types.DelayNewport.get_instantiated_signals" title="pcdsdevices.device_types.DelayNewport.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.inverse.html#pcdsdevices.device_types.DelayNewport.inverse" title="pcdsdevices.device_types.DelayNewport.inverse"><code class="xref py py-obj docutils literal notranslate"><span class="pre">inverse</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.inverse.html#pcdsdevices.device_types.DelayNewport.inverse" title="pcdsdevices.device_types.DelayNewport.inverse"><code class="xref py py-obj docutils literal notranslate"><span class="pre">inverse</span></code></a>(real_pos)</p></td>
 <td><p>Convert motor unit to delay unit.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.move.html#pcdsdevices.device_types.DelayNewport.move" title="pcdsdevices.device_types.DelayNewport.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.move.html#pcdsdevices.device_types.DelayNewport.move" title="pcdsdevices.device_types.DelayNewport.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, wait, timeout, moved_cb])</p></td>
 <td><p>Move to a specified position, optionally waiting for motion to complete.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.move_single.html#pcdsdevices.device_types.DelayNewport.move_single" title="pcdsdevices.device_types.DelayNewport.move_single"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move_single</span></code></a>(pseudo, position, **kwargs)</p></td>
@@ -347,7 +347,7 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.resume.html#pcdsdevices.device_types.DelayNewport.resume" title="pcdsdevices.device_types.DelayNewport.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.set.html#pcdsdevices.device_types.DelayNewport.set" title="pcdsdevices.device_types.DelayNewport.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.set.html#pcdsdevices.device_types.DelayNewport.set" title="pcdsdevices.device_types.DelayNewport.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position, **kwargs)</p></td>
 <td><p>Move to a new position asynchronously</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.DelayNewport.stage.html#pcdsdevices.device_types.DelayNewport.stage" title="pcdsdevices.device_types.DelayNewport.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>

@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ccm.CCMY &mdash; PCDS Devices 2.7.0+14.g41f8bf3 documentation</title>
+  <title>pcdsdevices.ccm.CCMY &mdash; PCDS Devices 2.7.0+16.g52cec07 documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.7.0+14.g41f8bf3
+                2.7.0+16.g52cec07
               </div>
             
           
@@ -323,7 +323,7 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.end_monitor_thread.html#pcdsdevices.ccm.CCMY.end_monitor_thread" title="pcdsdevices.ccm.CCMY.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
 <td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.camonitor.html#pcdsdevices.ccm.CCMY.camonitor" title="pcdsdevices.ccm.CCMY.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.wm_update.html#pcdsdevices.ccm.CCMY.wm_update" title="pcdsdevices.ccm.CCMY.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.forward.html#pcdsdevices.ccm.CCMY.forward" title="pcdsdevices.ccm.CCMY.forward"><code class="xref py py-obj docutils literal notranslate"><span class="pre">forward</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.forward.html#pcdsdevices.ccm.CCMY.forward" title="pcdsdevices.ccm.CCMY.forward"><code class="xref py py-obj docutils literal notranslate"><span class="pre">forward</span></code></a>(pseudo_pos)</p></td>
 <td><p>Composite axes move to the combined axis position plus an offset.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.get.html#pcdsdevices.ccm.CCMY.get" title="pcdsdevices.ccm.CCMY.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
@@ -335,10 +335,10 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.get_instantiated_signals.html#pcdsdevices.ccm.CCMY.get_instantiated_signals" title="pcdsdevices.ccm.CCMY.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.inverse.html#pcdsdevices.ccm.CCMY.inverse" title="pcdsdevices.ccm.CCMY.inverse"><code class="xref py py-obj docutils literal notranslate"><span class="pre">inverse</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.inverse.html#pcdsdevices.ccm.CCMY.inverse" title="pcdsdevices.ccm.CCMY.inverse"><code class="xref py py-obj docutils literal notranslate"><span class="pre">inverse</span></code></a>(real_pos)</p></td>
 <td><p>Combined axis readback is the mean of the composite axes.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.move.html#pcdsdevices.ccm.CCMY.move" title="pcdsdevices.ccm.CCMY.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.move.html#pcdsdevices.ccm.CCMY.move" title="pcdsdevices.ccm.CCMY.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, wait, timeout, moved_cb])</p></td>
 <td><p>Move to a specified position, optionally waiting for motion to complete.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.move_single.html#pcdsdevices.ccm.CCMY.move_single" title="pcdsdevices.ccm.CCMY.move_single"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move_single</span></code></a>(pseudo, position, **kwargs)</p></td>
@@ -371,7 +371,7 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.save_offsets.html#pcdsdevices.ccm.CCMY.save_offsets" title="pcdsdevices.ccm.CCMY.save_offsets"><code class="xref py py-obj docutils literal notranslate"><span class="pre">save_offsets</span></code></a>()</p></td>
 <td><p>Save the current offsets for the synchronized assembly.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.set.html#pcdsdevices.ccm.CCMY.set" title="pcdsdevices.ccm.CCMY.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.set.html#pcdsdevices.ccm.CCMY.set" title="pcdsdevices.ccm.CCMY.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position, **kwargs)</p></td>
 <td><p>Move to a new position asynchronously</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.stage.html#pcdsdevices.ccm.CCMY.stage" title="pcdsdevices.ccm.CCMY.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>

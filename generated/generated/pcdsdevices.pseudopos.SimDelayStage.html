@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.pseudopos.SimDelayStage &mdash; PCDS Devices 2.7.0+14.g41f8bf3 documentation</title>
+  <title>pcdsdevices.pseudopos.SimDelayStage &mdash; PCDS Devices 2.7.0+16.g52cec07 documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.7.0+14.g41f8bf3
+                2.7.0+16.g52cec07
               </div>
             
           
@@ -310,7 +310,7 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.end_monitor_thread.html#pcdsdevices.pseudopos.SimDelayStage.end_monitor_thread" title="pcdsdevices.pseudopos.SimDelayStage.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
 <td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.camonitor.html#pcdsdevices.pseudopos.SimDelayStage.camonitor" title="pcdsdevices.pseudopos.SimDelayStage.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.wm_update.html#pcdsdevices.pseudopos.SimDelayStage.wm_update" title="pcdsdevices.pseudopos.SimDelayStage.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.forward.html#pcdsdevices.pseudopos.SimDelayStage.forward" title="pcdsdevices.pseudopos.SimDelayStage.forward"><code class="xref py py-obj docutils literal notranslate"><span class="pre">forward</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.forward.html#pcdsdevices.pseudopos.SimDelayStage.forward" title="pcdsdevices.pseudopos.SimDelayStage.forward"><code class="xref py py-obj docutils literal notranslate"><span class="pre">forward</span></code></a>(pseudo_pos)</p></td>
 <td><p>Convert delay unit to motor unit.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.get.html#pcdsdevices.pseudopos.SimDelayStage.get" title="pcdsdevices.pseudopos.SimDelayStage.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
@@ -322,10 +322,10 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.get_instantiated_signals.html#pcdsdevices.pseudopos.SimDelayStage.get_instantiated_signals" title="pcdsdevices.pseudopos.SimDelayStage.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.inverse.html#pcdsdevices.pseudopos.SimDelayStage.inverse" title="pcdsdevices.pseudopos.SimDelayStage.inverse"><code class="xref py py-obj docutils literal notranslate"><span class="pre">inverse</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.inverse.html#pcdsdevices.pseudopos.SimDelayStage.inverse" title="pcdsdevices.pseudopos.SimDelayStage.inverse"><code class="xref py py-obj docutils literal notranslate"><span class="pre">inverse</span></code></a>(real_pos)</p></td>
 <td><p>Convert motor unit to delay unit.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.move.html#pcdsdevices.pseudopos.SimDelayStage.move" title="pcdsdevices.pseudopos.SimDelayStage.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.move.html#pcdsdevices.pseudopos.SimDelayStage.move" title="pcdsdevices.pseudopos.SimDelayStage.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, wait, timeout, moved_cb])</p></td>
 <td><p>Move to a specified position, optionally waiting for motion to complete.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.move_single.html#pcdsdevices.pseudopos.SimDelayStage.move_single" title="pcdsdevices.pseudopos.SimDelayStage.move_single"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move_single</span></code></a>(pseudo, position, **kwargs)</p></td>
@@ -355,7 +355,7 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.resume.html#pcdsdevices.pseudopos.SimDelayStage.resume" title="pcdsdevices.pseudopos.SimDelayStage.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.set.html#pcdsdevices.pseudopos.SimDelayStage.set" title="pcdsdevices.pseudopos.SimDelayStage.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.set.html#pcdsdevices.pseudopos.SimDelayStage.set" title="pcdsdevices.pseudopos.SimDelayStage.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position, **kwargs)</p></td>
 <td><p>Move to a new position asynchronously</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SimDelayStage.stage.html#pcdsdevices.pseudopos.SimDelayStage.stage" title="pcdsdevices.pseudopos.SimDelayStage.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>

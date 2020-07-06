@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.lens.LensStackBase &mdash; PCDS Devices 2.7.0+14.g41f8bf3 documentation</title>
+  <title>pcdsdevices.lens.LensStackBase &mdash; PCDS Devices 2.7.0+16.g52cec07 documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.7.0+14.g41f8bf3
+                2.7.0+16.g52cec07
               </div>
             
           
@@ -319,7 +319,7 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.LensStackBase.destroy.html#pcdsdevices.lens.LensStackBase.destroy" title="pcdsdevices.lens.LensStackBase.destroy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">destroy</span></code></a>()</p></td>
 <td><p>Disconnect and destroy all signals on the Device</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.LensStackBase.forward.html#pcdsdevices.lens.LensStackBase.forward" title="pcdsdevices.lens.LensStackBase.forward"><code class="xref py py-obj docutils literal notranslate"><span class="pre">forward</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.LensStackBase.forward.html#pcdsdevices.lens.LensStackBase.forward" title="pcdsdevices.lens.LensStackBase.forward"><code class="xref py py-obj docutils literal notranslate"><span class="pre">forward</span></code></a>(pseudo_pos)</p></td>
 <td><p>Calculate a RealPosition from a given PseudoPosition</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.LensStackBase.get.html#pcdsdevices.lens.LensStackBase.get" title="pcdsdevices.lens.LensStackBase.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
@@ -334,10 +334,10 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.LensStackBase.get_instantiated_signals.html#pcdsdevices.lens.LensStackBase.get_instantiated_signals" title="pcdsdevices.lens.LensStackBase.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.LensStackBase.inverse.html#pcdsdevices.lens.LensStackBase.inverse" title="pcdsdevices.lens.LensStackBase.inverse"><code class="xref py py-obj docutils literal notranslate"><span class="pre">inverse</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.LensStackBase.inverse.html#pcdsdevices.lens.LensStackBase.inverse" title="pcdsdevices.lens.LensStackBase.inverse"><code class="xref py py-obj docutils literal notranslate"><span class="pre">inverse</span></code></a>(real_pos)</p></td>
 <td><p>Calculate a PseudoPosition from a given RealPosition</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.LensStackBase.move.html#pcdsdevices.lens.LensStackBase.move" title="pcdsdevices.lens.LensStackBase.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.LensStackBase.move.html#pcdsdevices.lens.LensStackBase.move" title="pcdsdevices.lens.LensStackBase.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, wait, timeout, moved_cb])</p></td>
 <td><p>Move to a specified position, optionally waiting for motion to complete.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.LensStackBase.move_single.html#pcdsdevices.lens.LensStackBase.move_single" title="pcdsdevices.lens.LensStackBase.move_single"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move_single</span></code></a>(pseudo, position, **kwargs)</p></td>
@@ -358,7 +358,7 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.LensStackBase.resume.html#pcdsdevices.lens.LensStackBase.resume" title="pcdsdevices.lens.LensStackBase.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.LensStackBase.set.html#pcdsdevices.lens.LensStackBase.set" title="pcdsdevices.lens.LensStackBase.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.LensStackBase.set.html#pcdsdevices.lens.LensStackBase.set" title="pcdsdevices.lens.LensStackBase.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position, **kwargs)</p></td>
 <td><p>Move to a new position asynchronously</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.LensStackBase.stage.html#pcdsdevices.lens.LensStackBase.stage" title="pcdsdevices.lens.LensStackBase.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>

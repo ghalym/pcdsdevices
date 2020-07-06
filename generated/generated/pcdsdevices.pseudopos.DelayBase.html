@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.pseudopos.DelayBase &mdash; PCDS Devices 2.7.0+14.g41f8bf3 documentation</title>
+  <title>pcdsdevices.pseudopos.DelayBase &mdash; PCDS Devices 2.7.0+16.g52cec07 documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.7.0+14.g41f8bf3
+                2.7.0+16.g52cec07
               </div>
             
           
@@ -352,7 +352,7 @@ branch that bounces the laser back along the axis it enters.</p></li>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayBase.end_monitor_thread.html#pcdsdevices.pseudopos.DelayBase.end_monitor_thread" title="pcdsdevices.pseudopos.DelayBase.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
 <td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayBase.camonitor.html#pcdsdevices.pseudopos.DelayBase.camonitor" title="pcdsdevices.pseudopos.DelayBase.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayBase.wm_update.html#pcdsdevices.pseudopos.DelayBase.wm_update" title="pcdsdevices.pseudopos.DelayBase.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayBase.forward.html#pcdsdevices.pseudopos.DelayBase.forward" title="pcdsdevices.pseudopos.DelayBase.forward"><code class="xref py py-obj docutils literal notranslate"><span class="pre">forward</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayBase.forward.html#pcdsdevices.pseudopos.DelayBase.forward" title="pcdsdevices.pseudopos.DelayBase.forward"><code class="xref py py-obj docutils literal notranslate"><span class="pre">forward</span></code></a>(pseudo_pos)</p></td>
 <td><p>Convert delay unit to motor unit.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayBase.get.html#pcdsdevices.pseudopos.DelayBase.get" title="pcdsdevices.pseudopos.DelayBase.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
@@ -364,10 +364,10 @@ branch that bounces the laser back along the axis it enters.</p></li>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayBase.get_instantiated_signals.html#pcdsdevices.pseudopos.DelayBase.get_instantiated_signals" title="pcdsdevices.pseudopos.DelayBase.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayBase.inverse.html#pcdsdevices.pseudopos.DelayBase.inverse" title="pcdsdevices.pseudopos.DelayBase.inverse"><code class="xref py py-obj docutils literal notranslate"><span class="pre">inverse</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayBase.inverse.html#pcdsdevices.pseudopos.DelayBase.inverse" title="pcdsdevices.pseudopos.DelayBase.inverse"><code class="xref py py-obj docutils literal notranslate"><span class="pre">inverse</span></code></a>(real_pos)</p></td>
 <td><p>Convert motor unit to delay unit.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayBase.move.html#pcdsdevices.pseudopos.DelayBase.move" title="pcdsdevices.pseudopos.DelayBase.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayBase.move.html#pcdsdevices.pseudopos.DelayBase.move" title="pcdsdevices.pseudopos.DelayBase.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, wait, timeout, moved_cb])</p></td>
 <td><p>Move to a specified position, optionally waiting for motion to complete.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayBase.move_single.html#pcdsdevices.pseudopos.DelayBase.move_single" title="pcdsdevices.pseudopos.DelayBase.move_single"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move_single</span></code></a>(pseudo, position, **kwargs)</p></td>
@@ -397,7 +397,7 @@ branch that bounces the laser back along the axis it enters.</p></li>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayBase.resume.html#pcdsdevices.pseudopos.DelayBase.resume" title="pcdsdevices.pseudopos.DelayBase.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayBase.set.html#pcdsdevices.pseudopos.DelayBase.set" title="pcdsdevices.pseudopos.DelayBase.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayBase.set.html#pcdsdevices.pseudopos.DelayBase.set" title="pcdsdevices.pseudopos.DelayBase.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position, **kwargs)</p></td>
 <td><p>Move to a new position asynchronously</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayBase.stage.html#pcdsdevices.pseudopos.DelayBase.stage" title="pcdsdevices.pseudopos.DelayBase.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
