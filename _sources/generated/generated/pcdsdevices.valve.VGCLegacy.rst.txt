@@ -57,6 +57,7 @@ pcdsdevices.valve.VGCLegacy
       ~VGCLegacy.configuration_attrs
       ~VGCLegacy.connected
       ~VGCLegacy.dotted_name
+      ~VGCLegacy.error_reset
       ~VGCLegacy.event_types
       ~VGCLegacy.hints
       ~VGCLegacy.interlock_ok

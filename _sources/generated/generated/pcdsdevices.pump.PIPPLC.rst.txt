@@ -67,6 +67,8 @@ pcdsdevices.pump.PIPPLC
       ~PIPPLC.kind
       ~PIPPLC.lazy_wait_for_connection
       ~PIPPLC.name
+      ~PIPPLC.override_force_on
+      ~PIPPLC.override_status
       ~PIPPLC.parent
       ~PIPPLC.plc_ai_offset
       ~PIPPLC.pressure

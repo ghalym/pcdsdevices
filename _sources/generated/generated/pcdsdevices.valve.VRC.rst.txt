@@ -57,6 +57,7 @@ pcdsdevices.valve.VRC
       ~VRC.configuration_attrs
       ~VRC.connected
       ~VRC.dotted_name
+      ~VRC.error_reset
       ~VRC.event_types
       ~VRC.hints
       ~VRC.interlock_ok

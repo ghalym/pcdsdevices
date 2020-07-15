@@ -61,6 +61,7 @@ pcdsdevices.valve.VGC
       ~VGC.diff_press_ok
       ~VGC.dotted_name
       ~VGC.error
+      ~VGC.error_reset
       ~VGC.event_types
       ~VGC.ext_ilk_ok
       ~VGC.hints
