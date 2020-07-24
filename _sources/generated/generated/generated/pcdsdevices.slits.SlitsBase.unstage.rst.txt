@@ -1,0 +1,6 @@
+pcdsdevices.slits.SlitsBase.unstage
+===================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: SlitsBase.unstage

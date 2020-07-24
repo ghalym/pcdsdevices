@@ -1,0 +1,6 @@
+pcdsdevices.interface.LightpathMixin.\_\_init\_\_
+=================================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: LightpathMixin.__init__

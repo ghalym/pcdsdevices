@@ -1,0 +1,6 @@
+pcdsdevices.slits.BeckhoffSlits.get\_instantiated\_signals
+==========================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BeckhoffSlits.get_instantiated_signals

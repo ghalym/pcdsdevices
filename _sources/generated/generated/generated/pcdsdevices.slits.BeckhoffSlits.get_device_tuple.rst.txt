@@ -1,0 +1,6 @@
+pcdsdevices.slits.BeckhoffSlits.get\_device\_tuple
+==================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BeckhoffSlits.get_device_tuple

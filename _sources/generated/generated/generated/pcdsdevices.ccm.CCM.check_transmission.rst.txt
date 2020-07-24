@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCM.check\_transmission
+=======================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCM.check_transmission

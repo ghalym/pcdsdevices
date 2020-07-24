@@ -1,0 +1,6 @@
+pcdsdevices.slits.BeckhoffSlits.walk\_subdevice\_classes
+========================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BeckhoffSlits.walk_subdevice_classes

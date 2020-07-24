@@ -1,0 +1,6 @@
+pcdsdevices.signal.NotImplementedSignal.unsubscribe\_all
+========================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: NotImplementedSignal.unsubscribe_all

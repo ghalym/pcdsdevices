@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.slits &mdash; PCDS Devices 2.7.0+40.g192067e documentation</title>
+  <title>pcdsdevices.slits &mdash; PCDS Devices 2.7.0+76.g6977f10 documentation</title>
   
 
   
@@ -36,7 +36,7 @@
     
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="pcdsdevices.slits.PowerSlits" href="generated/pcdsdevices.slits.PowerSlits.html" />
+    <link rel="next" title="pcdsdevices.slits.BadSlitPositionerBase" href="generated/pcdsdevices.slits.BadSlitPositionerBase.html" />
     <link rel="prev" title="pcdsdevices.sim.SynMotor.wm_update" href="generated/generated/pcdsdevices.sim.SynMotor.wm_update.html" /> 
 </head>
 
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.7.0+40.g192067e
+                2.7.0+76.g6977f10
               </div>
             
           
@@ -135,9 +135,15 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.signal.html">pcdsdevices.signal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.sim.html">pcdsdevices.sim</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">pcdsdevices.slits</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.html">pcdsdevices.slits.BadSlitPositionerBase</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.slits.BeckhoffSlitPositioner.html">pcdsdevices.slits.BeckhoffSlitPositioner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.slits.BeckhoffSlits.html">pcdsdevices.slits.BeckhoffSlits</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.slits.LusiSlitPositioner.html">pcdsdevices.slits.LusiSlitPositioner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.slits.LusiSlits.html">pcdsdevices.slits.LusiSlits</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.slits.PowerSlits.html">pcdsdevices.slits.PowerSlits</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.html">pcdsdevices.slits.SlitPositioner</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.slits.Slits.html">pcdsdevices.slits.Slits</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.slits.SlitsBase.html">pcdsdevices.slits.SlitsBase</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.state.html">pcdsdevices.state</a></li>
@@ -233,14 +239,32 @@ used.</p>
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.PowerSlits.html#pcdsdevices.slits.PowerSlits" title="pcdsdevices.slits.PowerSlits"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PowerSlits</span></code></a>([prefix, kind, read_attrs, …])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.html#pcdsdevices.slits.BadSlitPositionerBase" title="pcdsdevices.slits.BadSlitPositionerBase"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BadSlitPositionerBase</span></code></a>(prefix, *[, …])</p></td>
+<td><p>Base class for slit positioner with awful PV names.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BeckhoffSlitPositioner.html#pcdsdevices.slits.BeckhoffSlitPositioner" title="pcdsdevices.slits.BeckhoffSlitPositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BeckhoffSlitPositioner</span></code></a>(prefix, *[, …])</p></td>
+<td><p>Abstraction of a Slit axis from LCLS-II.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BeckhoffSlits.html#pcdsdevices.slits.BeckhoffSlits" title="pcdsdevices.slits.BeckhoffSlits"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BeckhoffSlits</span></code></a>(*args[, nominal_aperture])</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.LusiSlitPositioner.html#pcdsdevices.slits.LusiSlitPositioner" title="pcdsdevices.slits.LusiSlitPositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LusiSlitPositioner</span></code></a>(prefix, *[, slit_type, …])</p></td>
+<td><p>Abstraction of a Slit axis from LCLS-I</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.LusiSlits.html#pcdsdevices.slits.LusiSlits" title="pcdsdevices.slits.LusiSlits"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LusiSlits</span></code></a>(*args[, nominal_aperture])</p></td>
+<td><p>Beam slits with combined motion for center and width.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.PowerSlits.html#pcdsdevices.slits.PowerSlits" title="pcdsdevices.slits.PowerSlits"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PowerSlits</span></code></a>(*args[, nominal_aperture])</p></td>
 <td><p>‘SL*:POWER’.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.html#pcdsdevices.slits.SlitPositioner" title="pcdsdevices.slits.SlitPositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SlitPositioner</span></code></a>(prefix, *[, slit_type, name, …])</p></td>
-<td><p>Abstraction of a Slit axis.</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.html#pcdsdevices.slits.SlitPositioner" title="pcdsdevices.slits.SlitPositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SlitPositioner</span></code></a>(prefix, *[, slit_type, limits])</p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.Slits.html#pcdsdevices.slits.Slits" title="pcdsdevices.slits.Slits"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Slits</span></code></a>(*args[, nominal_aperture])</p></td>
-<td><p>Beam slits with combined motion for center and width.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.Slits.html#pcdsdevices.slits.Slits" title="pcdsdevices.slits.Slits"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Slits</span></code></a>(*args[, nominal_aperture])</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitsBase.html#pcdsdevices.slits.SlitsBase" title="pcdsdevices.slits.SlitsBase"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SlitsBase</span></code></a>(*args[, nominal_aperture])</p></td>
+<td><p>Base class for slit motion interfacing.</p></td>
 </tr>
 </tbody>
 </table>
@@ -254,7 +278,7 @@ used.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="generated/pcdsdevices.slits.PowerSlits.html" class="btn btn-neutral float-right" title="pcdsdevices.slits.PowerSlits" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="generated/pcdsdevices.slits.BadSlitPositionerBase.html" class="btn btn-neutral float-right" title="pcdsdevices.slits.BadSlitPositionerBase" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="generated/generated/pcdsdevices.sim.SynMotor.wm_update.html" class="btn btn-neutral float-left" title="pcdsdevices.sim.SynMotor.wm_update" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

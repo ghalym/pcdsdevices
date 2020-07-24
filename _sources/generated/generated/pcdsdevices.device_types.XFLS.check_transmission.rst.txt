@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XFLS.check\_transmission
+==================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XFLS.check_transmission

@@ -1,0 +1,6 @@
+pcdsdevices.slits.BadSlitPositionerBase.wait\_for\_connection
+=============================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BadSlitPositionerBase.wait_for_connection

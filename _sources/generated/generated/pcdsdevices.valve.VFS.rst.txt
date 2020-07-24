@@ -51,6 +51,7 @@ pcdsdevices.valve.VFS
    .. autosummary::
    
       ~VFS.SUB_ACQ_DONE
+      ~VFS.SUB_STATE
       ~VFS.attr_name
       ~VFS.component_names
       ~VFS.configuration_attrs
@@ -60,8 +61,10 @@ pcdsdevices.valve.VFS
       ~VFS.gfs_name
       ~VFS.gfs_trigger
       ~VFS.hints
+      ~VFS.inserted
       ~VFS.kind
       ~VFS.lazy_wait_for_connection
+      ~VFS.lightpath_cpts
       ~VFS.mps_ok
       ~VFS.name
       ~VFS.override_force_open
@@ -70,12 +73,14 @@ pcdsdevices.valve.VFS
       ~VFS.position_close
       ~VFS.position_open
       ~VFS.read_attrs
+      ~VFS.removed
       ~VFS.report
       ~VFS.request_close
       ~VFS.request_open
       ~VFS.reset_vacuum_fault
       ~VFS.root
       ~VFS.signal_names
+      ~VFS.transmission
       ~VFS.trigger_signals
       ~VFS.vac_fault_ok
       ~VFS.valve_position

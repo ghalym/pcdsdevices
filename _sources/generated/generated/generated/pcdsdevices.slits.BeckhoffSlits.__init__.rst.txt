@@ -1,0 +1,6 @@
+pcdsdevices.slits.BeckhoffSlits.\_\_init\_\_
+============================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BeckhoffSlits.__init__

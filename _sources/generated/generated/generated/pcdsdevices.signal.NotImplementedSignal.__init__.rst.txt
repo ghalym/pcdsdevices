@@ -1,0 +1,6 @@
+pcdsdevices.signal.NotImplementedSignal.\_\_init\_\_
+====================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: NotImplementedSignal.__init__

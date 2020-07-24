@@ -1,0 +1,6 @@
+pcdsdevices.slits.SlitsBase.unsubscribe
+=======================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: SlitsBase.unsubscribe

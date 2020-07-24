@@ -14,9 +14,15 @@ pcdsdevices.slits
    .. autosummary::
       :toctree: generated
    
+      BadSlitPositionerBase
+      BeckhoffSlitPositioner
+      BeckhoffSlits
+      LusiSlitPositioner
+      LusiSlits
       PowerSlits
       SlitPositioner
       Slits
+      SlitsBase
    
    
 

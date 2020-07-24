@@ -1,0 +1,6 @@
+pcdsdevices.slits.BeckhoffSlitPositioner.walk\_components
+=========================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BeckhoffSlitPositioner.walk_components

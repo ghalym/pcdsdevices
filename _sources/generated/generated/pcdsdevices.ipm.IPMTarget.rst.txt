@@ -15,6 +15,9 @@ pcdsdevices.ipm.IPMTarget
       ~IPMTarget.__init__
       ~IPMTarget.add_instantiation_callback
       ~IPMTarget.camonitor
+      ~IPMTarget.check_inserted
+      ~IPMTarget.check_removed
+      ~IPMTarget.check_transmission
       ~IPMTarget.check_value
       ~IPMTarget.clear_sub
       ~IPMTarget.configure

@@ -1,0 +1,6 @@
+pcdsdevices.signal.InternalSignal.put
+=====================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: InternalSignal.put

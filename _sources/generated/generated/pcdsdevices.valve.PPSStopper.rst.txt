@@ -15,6 +15,9 @@ pcdsdevices.valve.PPSStopper
       ~PPSStopper.__init__
       ~PPSStopper.add_instantiation_callback
       ~PPSStopper.camonitor
+      ~PPSStopper.check_inserted
+      ~PPSStopper.check_removed
+      ~PPSStopper.check_transmission
       ~PPSStopper.check_value
       ~PPSStopper.clear_sub
       ~PPSStopper.configure

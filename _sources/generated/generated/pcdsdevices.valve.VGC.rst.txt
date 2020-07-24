@@ -51,6 +51,7 @@ pcdsdevices.valve.VGC
    .. autosummary::
    
       ~VGC.SUB_ACQ_DONE
+      ~VGC.SUB_STATE
       ~VGC.at_vac
       ~VGC.at_vac_setpoint
       ~VGC.attr_name
@@ -65,11 +66,13 @@ pcdsdevices.valve.VGC
       ~VGC.event_types
       ~VGC.ext_ilk_ok
       ~VGC.hints
+      ~VGC.inserted
       ~VGC.interlock_device_downstream
       ~VGC.interlock_device_upstream
       ~VGC.interlock_ok
       ~VGC.kind
       ~VGC.lazy_wait_for_connection
+      ~VGC.lightpath_cpts
       ~VGC.mps_state
       ~VGC.name
       ~VGC.open_command
@@ -79,11 +82,13 @@ pcdsdevices.valve.VGC
       ~VGC.override_status
       ~VGC.parent
       ~VGC.read_attrs
+      ~VGC.removed
       ~VGC.report
       ~VGC.root
       ~VGC.setpoint_hysterisis
       ~VGC.signal_names
       ~VGC.state
+      ~VGC.transmission
       ~VGC.trigger_signals
    
    

@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.slits.Slits.subscribe &mdash; PCDS Devices 2.7.0+40.g192067e documentation</title>
+  <title>pcdsdevices.slits.Slits.subscribe &mdash; PCDS Devices 2.7.0+76.g6977f10 documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.7.0+40.g192067e
+                2.7.0+76.g6977f10
               </div>
             
           
@@ -135,6 +135,11 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.signal.html">pcdsdevices.signal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.sim.html">pcdsdevices.sim</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.slits.html">pcdsdevices.slits</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.slits.BadSlitPositionerBase.html">pcdsdevices.slits.BadSlitPositionerBase</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.slits.BeckhoffSlitPositioner.html">pcdsdevices.slits.BeckhoffSlitPositioner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.slits.BeckhoffSlits.html">pcdsdevices.slits.BeckhoffSlits</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.slits.LusiSlitPositioner.html">pcdsdevices.slits.LusiSlitPositioner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.slits.LusiSlits.html">pcdsdevices.slits.LusiSlits</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.slits.PowerSlits.html">pcdsdevices.slits.PowerSlits</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.slits.SlitPositioner.html">pcdsdevices.slits.SlitPositioner</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.slits.Slits.html">pcdsdevices.slits.Slits</a><ul class="current">
@@ -180,6 +185,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.wm_update.html">pcdsdevices.slits.Slits.wm_update</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.slits.SlitsBase.html">pcdsdevices.slits.SlitsBase</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.state.html">pcdsdevices.state</a></li>
@@ -264,16 +270,13 @@
 <dl class="py method">
 <dt id="pcdsdevices.slits.Slits.subscribe">
 <code class="sig-prename descclassname">Slits.</code><code class="sig-name descname">subscribe</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">cb</span></em>, <em class="sig-param"><span class="n">event_type</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">run</span><span class="o">=</span><span class="default_value">True</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.slits.Slits.subscribe" title="Permalink to this definition">¶</a></dt>
-<dd><p>Subscribe to changes of the slits.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>cb</strong> (<em>callable</em>) – Callback to be run.</p></li>
-<li><p><strong>event_type</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a><em>, </em><em>optional</em>) – Type of event to run callback on.</p></li>
-<li><p><strong>run</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Run the callback immediately.</p></li>
-</ul>
-</dd>
-</dl>
+<dd><p>Subscribe to changes of the slits.
+:param cb: Callback to be run.
+:type cb: callable
+:param event_type: Type of event to run callback on.
+:type event_type: str, optional
+:param run: Run the callback immediately.
+:type run: bool, optional</p>
 </dd></dl>
 
 </div>

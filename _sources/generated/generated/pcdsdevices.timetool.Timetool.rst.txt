@@ -15,6 +15,9 @@ pcdsdevices.timetool.Timetool
       ~Timetool.__init__
       ~Timetool.add_instantiation_callback
       ~Timetool.camonitor
+      ~Timetool.check_inserted
+      ~Timetool.check_removed
+      ~Timetool.check_transmission
       ~Timetool.check_value
       ~Timetool.clear_sub
       ~Timetool.configure

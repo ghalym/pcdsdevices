@@ -1,0 +1,6 @@
+pcdsdevices.signal.InternalSignal.unsubscribe
+=============================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: InternalSignal.unsubscribe

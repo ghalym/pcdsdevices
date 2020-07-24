@@ -1,0 +1,6 @@
+pcdsdevices.slits.BeckhoffSlitPositioner.wait\_for\_connection
+==============================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BeckhoffSlitPositioner.wait_for_connection

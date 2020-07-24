@@ -1,0 +1,6 @@
+pcdsdevices.slits.BeckhoffSlits.check\_value
+============================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BeckhoffSlits.check_value

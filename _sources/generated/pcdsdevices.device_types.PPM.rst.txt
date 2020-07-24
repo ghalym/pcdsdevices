@@ -51,6 +51,7 @@ pcdsdevices.device\_types.PPM
    .. autosummary::
    
       ~PPM.SUB_ACQ_DONE
+      ~PPM.SUB_STATE
       ~PPM.attr_name
       ~PPM.cam_power
       ~PPM.component_names
@@ -60,18 +61,23 @@ pcdsdevices.device\_types.PPM
       ~PPM.dotted_name
       ~PPM.event_types
       ~PPM.hints
+      ~PPM.inserted
       ~PPM.kind
       ~PPM.lazy_wait_for_connection
       ~PPM.led
+      ~PPM.lightpath_cpts
       ~PPM.name
       ~PPM.parent
       ~PPM.power_meter
       ~PPM.read_attrs
+      ~PPM.removed
       ~PPM.report
       ~PPM.root
       ~PPM.signal_names
       ~PPM.tab_component_names
       ~PPM.tab_whitelist
+      ~PPM.target
+      ~PPM.transmission
       ~PPM.trigger_signals
       ~PPM.y_motor
       ~PPM.y_states

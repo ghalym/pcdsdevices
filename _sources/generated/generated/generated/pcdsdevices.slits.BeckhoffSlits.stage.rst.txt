@@ -1,0 +1,6 @@
+pcdsdevices.slits.BeckhoffSlits.stage
+=====================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BeckhoffSlits.stage

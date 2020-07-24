@@ -51,6 +51,7 @@ pcdsdevices.attenuator.FEESolidAttenuator
    .. autosummary::
    
       ~FEESolidAttenuator.SUB_ACQ_DONE
+      ~FEESolidAttenuator.SUB_STATE
       ~FEESolidAttenuator.attr_name
       ~FEESolidAttenuator.blade_01
       ~FEESolidAttenuator.blade_02
@@ -77,15 +78,21 @@ pcdsdevices.attenuator.FEESolidAttenuator
       ~FEESolidAttenuator.dotted_name
       ~FEESolidAttenuator.event_types
       ~FEESolidAttenuator.hints
+      ~FEESolidAttenuator.inserted
       ~FEESolidAttenuator.kind
       ~FEESolidAttenuator.lazy_wait_for_connection
+      ~FEESolidAttenuator.lightpath_cpts
       ~FEESolidAttenuator.name
+      ~FEESolidAttenuator.num_in
+      ~FEESolidAttenuator.num_out
       ~FEESolidAttenuator.parent
       ~FEESolidAttenuator.read_attrs
+      ~FEESolidAttenuator.removed
       ~FEESolidAttenuator.report
       ~FEESolidAttenuator.root
       ~FEESolidAttenuator.signal_names
       ~FEESolidAttenuator.tab_whitelist
+      ~FEESolidAttenuator.transmission
       ~FEESolidAttenuator.trigger_signals
    
    

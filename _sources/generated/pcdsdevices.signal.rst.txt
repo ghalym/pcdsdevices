@@ -27,6 +27,8 @@ pcdsdevices.signal
       FakePytmcSignal
       FakePytmcSignalRO
       FakePytmcSignalRW
+      InternalSignal
+      NotImplementedSignal
       PytmcSignal
       PytmcSignalRO
       PytmcSignalRW

@@ -51,6 +51,7 @@ pcdsdevices.mirror.XOffsetMirror
    .. autosummary::
    
       ~XOffsetMirror.SUB_ACQ_DONE
+      ~XOffsetMirror.SUB_STATE
       ~XOffsetMirror.attr_name
       ~XOffsetMirror.bender
       ~XOffsetMirror.bender_enc_rms
@@ -68,6 +69,7 @@ pcdsdevices.mirror.XOffsetMirror
       ~XOffsetMirror.gantry_x
       ~XOffsetMirror.gantry_y
       ~XOffsetMirror.hints
+      ~XOffsetMirror.inserted
       ~XOffsetMirror.kind
       ~XOffsetMirror.lazy_wait_for_connection
       ~XOffsetMirror.name
@@ -75,10 +77,12 @@ pcdsdevices.mirror.XOffsetMirror
       ~XOffsetMirror.pitch
       ~XOffsetMirror.pitch_enc_rms
       ~XOffsetMirror.read_attrs
+      ~XOffsetMirror.removed
       ~XOffsetMirror.report
       ~XOffsetMirror.root
       ~XOffsetMirror.signal_names
       ~XOffsetMirror.tab_whitelist
+      ~XOffsetMirror.transmission
       ~XOffsetMirror.trigger_signals
       ~XOffsetMirror.x_dwn
       ~XOffsetMirror.x_enc_rms

@@ -14,20 +14,26 @@ pcdsdevices.slits.PowerSlits
    
       ~PowerSlits.__init__
       ~PowerSlits.add_instantiation_callback
+      ~PowerSlits.camonitor
       ~PowerSlits.check_value
       ~PowerSlits.clear_sub
       ~PowerSlits.configure
       ~PowerSlits.describe
       ~PowerSlits.describe_configuration
       ~PowerSlits.destroy
+      ~PowerSlits.end_monitor_thread
       ~PowerSlits.get
       ~PowerSlits.get_device_tuple
       ~PowerSlits.get_instantiated_signals
+      ~PowerSlits.move
+      ~PowerSlits.mv
       ~PowerSlits.pause
       ~PowerSlits.put
       ~PowerSlits.read
       ~PowerSlits.read_configuration
+      ~PowerSlits.remove
       ~PowerSlits.resume
+      ~PowerSlits.set
       ~PowerSlits.stage
       ~PowerSlits.stop
       ~PowerSlits.subscribe
@@ -41,6 +47,8 @@ pcdsdevices.slits.PowerSlits
       ~PowerSlits.walk_signals
       ~PowerSlits.walk_subdevice_classes
       ~PowerSlits.walk_subdevices
+      ~PowerSlits.wm
+      ~PowerSlits.wm_update
    
    
 
@@ -51,21 +59,35 @@ pcdsdevices.slits.PowerSlits
    .. autosummary::
    
       ~PowerSlits.SUB_ACQ_DONE
+      ~PowerSlits.SUB_STATE
       ~PowerSlits.attr_name
       ~PowerSlits.bottom
       ~PowerSlits.component_names
       ~PowerSlits.configuration_attrs
       ~PowerSlits.connected
+      ~PowerSlits.current_aperture
+      ~PowerSlits.done_all
+      ~PowerSlits.done_bottom
+      ~PowerSlits.done_north
+      ~PowerSlits.done_south
+      ~PowerSlits.done_top
       ~PowerSlits.dotted_name
       ~PowerSlits.event_types
+      ~PowerSlits.exec_move
+      ~PowerSlits.exec_queue
       ~PowerSlits.fsw
       ~PowerSlits.hints
+      ~PowerSlits.inserted
       ~PowerSlits.kind
       ~PowerSlits.lazy_wait_for_connection
+      ~PowerSlits.lightpath_cpts
       ~PowerSlits.name
+      ~PowerSlits.nominal_aperture
       ~PowerSlits.north
       ~PowerSlits.parent
+      ~PowerSlits.position
       ~PowerSlits.read_attrs
+      ~PowerSlits.removed
       ~PowerSlits.report
       ~PowerSlits.root
       ~PowerSlits.rtds
@@ -73,6 +95,11 @@ pcdsdevices.slits.PowerSlits
       ~PowerSlits.south
       ~PowerSlits.tab_whitelist
       ~PowerSlits.top
+      ~PowerSlits.transmission
       ~PowerSlits.trigger_signals
+      ~PowerSlits.xcenter
+      ~PowerSlits.xwidth
+      ~PowerSlits.ycenter
+      ~PowerSlits.ywidth
    
    

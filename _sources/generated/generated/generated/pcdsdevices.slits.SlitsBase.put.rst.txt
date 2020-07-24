@@ -1,0 +1,6 @@
+pcdsdevices.slits.SlitsBase.put
+===============================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: SlitsBase.put

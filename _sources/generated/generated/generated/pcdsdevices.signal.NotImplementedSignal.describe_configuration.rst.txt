@@ -1,0 +1,6 @@
+pcdsdevices.signal.NotImplementedSignal.describe\_configuration
+===============================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: NotImplementedSignal.describe_configuration

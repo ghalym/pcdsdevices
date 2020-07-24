@@ -1,0 +1,6 @@
+pcdsdevices.slits.BadSlitPositionerBase.mv\_ginput
+==================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BadSlitPositionerBase.mv_ginput

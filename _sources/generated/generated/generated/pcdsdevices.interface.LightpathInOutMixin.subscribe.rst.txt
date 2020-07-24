@@ -1,0 +1,6 @@
+pcdsdevices.interface.LightpathInOutMixin.subscribe
+===================================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: LightpathInOutMixin.subscribe

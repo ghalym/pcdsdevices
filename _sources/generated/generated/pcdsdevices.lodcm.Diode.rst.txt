@@ -15,6 +15,9 @@ pcdsdevices.lodcm.Diode
       ~Diode.__init__
       ~Diode.add_instantiation_callback
       ~Diode.camonitor
+      ~Diode.check_inserted
+      ~Diode.check_removed
+      ~Diode.check_transmission
       ~Diode.check_value
       ~Diode.clear_sub
       ~Diode.configure

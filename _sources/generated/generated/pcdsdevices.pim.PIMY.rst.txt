@@ -15,6 +15,9 @@ pcdsdevices.pim.PIMY
       ~PIMY.__init__
       ~PIMY.add_instantiation_callback
       ~PIMY.camonitor
+      ~PIMY.check_inserted
+      ~PIMY.check_removed
+      ~PIMY.check_transmission
       ~PIMY.check_value
       ~PIMY.clear_sub
       ~PIMY.configure

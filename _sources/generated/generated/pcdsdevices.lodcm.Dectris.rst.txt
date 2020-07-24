@@ -15,6 +15,9 @@ pcdsdevices.lodcm.Dectris
       ~Dectris.__init__
       ~Dectris.add_instantiation_callback
       ~Dectris.camonitor
+      ~Dectris.check_inserted
+      ~Dectris.check_removed
+      ~Dectris.check_transmission
       ~Dectris.check_value
       ~Dectris.clear_sub
       ~Dectris.configure

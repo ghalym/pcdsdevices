@@ -1,0 +1,6 @@
+pcdsdevices.slits.SlitsBase.walk\_subdevices
+============================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: SlitsBase.walk_subdevices

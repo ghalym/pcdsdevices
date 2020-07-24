@@ -15,6 +15,9 @@ pcdsdevices.inout.Reflaser
       ~Reflaser.__init__
       ~Reflaser.add_instantiation_callback
       ~Reflaser.camonitor
+      ~Reflaser.check_inserted
+      ~Reflaser.check_removed
+      ~Reflaser.check_transmission
       ~Reflaser.check_value
       ~Reflaser.clear_sub
       ~Reflaser.configure

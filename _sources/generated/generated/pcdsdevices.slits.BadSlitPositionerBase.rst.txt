@@ -1,0 +1,105 @@
+pcdsdevices.slits.BadSlitPositionerBase
+=======================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. autoclass:: BadSlitPositionerBase
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~BadSlitPositionerBase.__init__
+      ~BadSlitPositionerBase.add_instantiation_callback
+      ~BadSlitPositionerBase.camonitor
+      ~BadSlitPositionerBase.check_value
+      ~BadSlitPositionerBase.clear_sub
+      ~BadSlitPositionerBase.configure
+      ~BadSlitPositionerBase.describe
+      ~BadSlitPositionerBase.describe_configuration
+      ~BadSlitPositionerBase.destroy
+      ~BadSlitPositionerBase.end_monitor_thread
+      ~BadSlitPositionerBase.get
+      ~BadSlitPositionerBase.get_device_tuple
+      ~BadSlitPositionerBase.get_instantiated_signals
+      ~BadSlitPositionerBase.move
+      ~BadSlitPositionerBase.mv
+      ~BadSlitPositionerBase.mv_ginput
+      ~BadSlitPositionerBase.mvr
+      ~BadSlitPositionerBase.pause
+      ~BadSlitPositionerBase.put
+      ~BadSlitPositionerBase.read
+      ~BadSlitPositionerBase.read_configuration
+      ~BadSlitPositionerBase.resume
+      ~BadSlitPositionerBase.set
+      ~BadSlitPositionerBase.stage
+      ~BadSlitPositionerBase.stop
+      ~BadSlitPositionerBase.subscribe
+      ~BadSlitPositionerBase.summary
+      ~BadSlitPositionerBase.trigger
+      ~BadSlitPositionerBase.tweak
+      ~BadSlitPositionerBase.umv
+      ~BadSlitPositionerBase.umvr
+      ~BadSlitPositionerBase.unstage
+      ~BadSlitPositionerBase.unsubscribe
+      ~BadSlitPositionerBase.unsubscribe_all
+      ~BadSlitPositionerBase.wait_for_connection
+      ~BadSlitPositionerBase.walk_components
+      ~BadSlitPositionerBase.walk_signals
+      ~BadSlitPositionerBase.walk_subdevice_classes
+      ~BadSlitPositionerBase.walk_subdevices
+      ~BadSlitPositionerBase.wm
+      ~BadSlitPositionerBase.wm_update
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~BadSlitPositionerBase.SUB_ACQ_DONE
+      ~BadSlitPositionerBase.SUB_DONE
+      ~BadSlitPositionerBase.SUB_READBACK
+      ~BadSlitPositionerBase.SUB_START
+      ~BadSlitPositionerBase.actuate
+      ~BadSlitPositionerBase.actuate_value
+      ~BadSlitPositionerBase.attr_name
+      ~BadSlitPositionerBase.component_names
+      ~BadSlitPositionerBase.configuration_attrs
+      ~BadSlitPositionerBase.connected
+      ~BadSlitPositionerBase.done
+      ~BadSlitPositionerBase.done_value
+      ~BadSlitPositionerBase.dotted_name
+      ~BadSlitPositionerBase.egu
+      ~BadSlitPositionerBase.event_types
+      ~BadSlitPositionerBase.high_limit
+      ~BadSlitPositionerBase.hints
+      ~BadSlitPositionerBase.kind
+      ~BadSlitPositionerBase.lazy_wait_for_connection
+      ~BadSlitPositionerBase.limits
+      ~BadSlitPositionerBase.low_limit
+      ~BadSlitPositionerBase.moving
+      ~BadSlitPositionerBase.name
+      ~BadSlitPositionerBase.parent
+      ~BadSlitPositionerBase.position
+      ~BadSlitPositionerBase.presets
+      ~BadSlitPositionerBase.put_complete
+      ~BadSlitPositionerBase.read_attrs
+      ~BadSlitPositionerBase.readback
+      ~BadSlitPositionerBase.report
+      ~BadSlitPositionerBase.root
+      ~BadSlitPositionerBase.setpoint
+      ~BadSlitPositionerBase.settle_time
+      ~BadSlitPositionerBase.signal_names
+      ~BadSlitPositionerBase.stop_signal
+      ~BadSlitPositionerBase.stop_value
+      ~BadSlitPositionerBase.tab_whitelist
+      ~BadSlitPositionerBase.timeout
+      ~BadSlitPositionerBase.trigger_signals
+   
+   

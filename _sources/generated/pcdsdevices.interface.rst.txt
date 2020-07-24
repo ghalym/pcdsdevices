@@ -27,6 +27,8 @@ pcdsdevices.interface
       AbsProgressBar
       BaseInterface
       FltMvInterface
+      LightpathInOutMixin
+      LightpathMixin
       MvInterface
       PresetPosition
       Presets

@@ -1,0 +1,6 @@
+pcdsdevices.signal.NotImplementedSignal.add\_instantiation\_callback
+====================================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: NotImplementedSignal.add_instantiation_callback

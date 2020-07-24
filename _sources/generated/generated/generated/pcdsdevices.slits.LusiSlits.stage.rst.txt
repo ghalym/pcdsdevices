@@ -1,0 +1,6 @@
+pcdsdevices.slits.LusiSlits.stage
+=================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: LusiSlits.stage

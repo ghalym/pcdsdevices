@@ -51,6 +51,7 @@ pcdsdevices.valve.VRC
    .. autosummary::
    
       ~VRC.SUB_ACQ_DONE
+      ~VRC.SUB_STATE
       ~VRC.attr_name
       ~VRC.closed_limit
       ~VRC.component_names
@@ -60,9 +61,11 @@ pcdsdevices.valve.VRC
       ~VRC.error_reset
       ~VRC.event_types
       ~VRC.hints
+      ~VRC.inserted
       ~VRC.interlock_ok
       ~VRC.kind
       ~VRC.lazy_wait_for_connection
+      ~VRC.lightpath_cpts
       ~VRC.name
       ~VRC.open_command
       ~VRC.open_do
@@ -71,10 +74,12 @@ pcdsdevices.valve.VRC
       ~VRC.override_status
       ~VRC.parent
       ~VRC.read_attrs
+      ~VRC.removed
       ~VRC.report
       ~VRC.root
       ~VRC.signal_names
       ~VRC.state
+      ~VRC.transmission
       ~VRC.trigger_signals
    
    

@@ -1,0 +1,6 @@
+pcdsdevices.slits.SlitsBase.wm\_update
+======================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: SlitsBase.wm_update

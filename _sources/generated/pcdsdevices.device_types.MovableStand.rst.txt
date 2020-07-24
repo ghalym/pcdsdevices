@@ -15,6 +15,9 @@ pcdsdevices.device\_types.MovableStand
       ~MovableStand.__init__
       ~MovableStand.add_instantiation_callback
       ~MovableStand.camonitor
+      ~MovableStand.check_inserted
+      ~MovableStand.check_removed
+      ~MovableStand.check_transmission
       ~MovableStand.check_value
       ~MovableStand.clear_sub
       ~MovableStand.configure

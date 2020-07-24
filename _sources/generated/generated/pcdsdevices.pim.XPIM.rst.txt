@@ -51,6 +51,7 @@ pcdsdevices.pim.XPIM
    .. autosummary::
    
       ~XPIM.SUB_ACQ_DONE
+      ~XPIM.SUB_STATE
       ~XPIM.attr_name
       ~XPIM.cam_power
       ~XPIM.component_names
@@ -63,17 +64,22 @@ pcdsdevices.pim.XPIM
       ~XPIM.focus_lock
       ~XPIM.focus_motor
       ~XPIM.hints
+      ~XPIM.inserted
       ~XPIM.kind
       ~XPIM.lazy_wait_for_connection
       ~XPIM.led
+      ~XPIM.lightpath_cpts
       ~XPIM.name
       ~XPIM.parent
       ~XPIM.read_attrs
+      ~XPIM.removed
       ~XPIM.report
       ~XPIM.root
       ~XPIM.signal_names
       ~XPIM.tab_component_names
       ~XPIM.tab_whitelist
+      ~XPIM.target
+      ~XPIM.transmission
       ~XPIM.trigger_signals
       ~XPIM.y_motor
       ~XPIM.y_states

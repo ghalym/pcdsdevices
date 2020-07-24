@@ -1,0 +1,6 @@
+pcdsdevices.slits.BadSlitPositionerBase.umvr
+============================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BadSlitPositionerBase.umvr

@@ -15,6 +15,9 @@ pcdsdevices.lodcm.YagLom
       ~YagLom.__init__
       ~YagLom.add_instantiation_callback
       ~YagLom.camonitor
+      ~YagLom.check_inserted
+      ~YagLom.check_removed
+      ~YagLom.check_transmission
       ~YagLom.check_value
       ~YagLom.clear_sub
       ~YagLom.configure

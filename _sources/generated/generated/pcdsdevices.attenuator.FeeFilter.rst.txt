@@ -15,6 +15,9 @@ pcdsdevices.attenuator.FeeFilter
       ~FeeFilter.__init__
       ~FeeFilter.add_instantiation_callback
       ~FeeFilter.camonitor
+      ~FeeFilter.check_inserted
+      ~FeeFilter.check_removed
+      ~FeeFilter.check_transmission
       ~FeeFilter.check_value
       ~FeeFilter.clear_sub
       ~FeeFilter.configure

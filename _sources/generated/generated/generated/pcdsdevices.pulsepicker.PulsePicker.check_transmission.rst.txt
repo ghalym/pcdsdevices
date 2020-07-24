@@ -1,0 +1,6 @@
+pcdsdevices.pulsepicker.PulsePicker.check\_transmission
+=======================================================
+
+.. currentmodule:: pcdsdevices.pulsepicker
+
+.. automethod:: PulsePicker.check_transmission

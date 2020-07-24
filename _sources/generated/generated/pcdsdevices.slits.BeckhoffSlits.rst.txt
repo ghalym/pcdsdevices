@@ -1,0 +1,103 @@
+pcdsdevices.slits.BeckhoffSlits
+===============================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. autoclass:: BeckhoffSlits
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~BeckhoffSlits.__init__
+      ~BeckhoffSlits.add_instantiation_callback
+      ~BeckhoffSlits.camonitor
+      ~BeckhoffSlits.check_value
+      ~BeckhoffSlits.clear_sub
+      ~BeckhoffSlits.configure
+      ~BeckhoffSlits.describe
+      ~BeckhoffSlits.describe_configuration
+      ~BeckhoffSlits.destroy
+      ~BeckhoffSlits.end_monitor_thread
+      ~BeckhoffSlits.get
+      ~BeckhoffSlits.get_device_tuple
+      ~BeckhoffSlits.get_instantiated_signals
+      ~BeckhoffSlits.move
+      ~BeckhoffSlits.mv
+      ~BeckhoffSlits.pause
+      ~BeckhoffSlits.put
+      ~BeckhoffSlits.read
+      ~BeckhoffSlits.read_configuration
+      ~BeckhoffSlits.remove
+      ~BeckhoffSlits.resume
+      ~BeckhoffSlits.set
+      ~BeckhoffSlits.stage
+      ~BeckhoffSlits.stop
+      ~BeckhoffSlits.subscribe
+      ~BeckhoffSlits.summary
+      ~BeckhoffSlits.trigger
+      ~BeckhoffSlits.unstage
+      ~BeckhoffSlits.unsubscribe
+      ~BeckhoffSlits.unsubscribe_all
+      ~BeckhoffSlits.wait_for_connection
+      ~BeckhoffSlits.walk_components
+      ~BeckhoffSlits.walk_signals
+      ~BeckhoffSlits.walk_subdevice_classes
+      ~BeckhoffSlits.walk_subdevices
+      ~BeckhoffSlits.wm
+      ~BeckhoffSlits.wm_update
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~BeckhoffSlits.SUB_ACQ_DONE
+      ~BeckhoffSlits.SUB_STATE
+      ~BeckhoffSlits.attr_name
+      ~BeckhoffSlits.bottom
+      ~BeckhoffSlits.component_names
+      ~BeckhoffSlits.configuration_attrs
+      ~BeckhoffSlits.connected
+      ~BeckhoffSlits.current_aperture
+      ~BeckhoffSlits.done_all
+      ~BeckhoffSlits.done_bottom
+      ~BeckhoffSlits.done_north
+      ~BeckhoffSlits.done_south
+      ~BeckhoffSlits.done_top
+      ~BeckhoffSlits.dotted_name
+      ~BeckhoffSlits.event_types
+      ~BeckhoffSlits.exec_move
+      ~BeckhoffSlits.exec_queue
+      ~BeckhoffSlits.hints
+      ~BeckhoffSlits.inserted
+      ~BeckhoffSlits.kind
+      ~BeckhoffSlits.lazy_wait_for_connection
+      ~BeckhoffSlits.lightpath_cpts
+      ~BeckhoffSlits.name
+      ~BeckhoffSlits.nominal_aperture
+      ~BeckhoffSlits.north
+      ~BeckhoffSlits.parent
+      ~BeckhoffSlits.position
+      ~BeckhoffSlits.read_attrs
+      ~BeckhoffSlits.removed
+      ~BeckhoffSlits.report
+      ~BeckhoffSlits.root
+      ~BeckhoffSlits.signal_names
+      ~BeckhoffSlits.south
+      ~BeckhoffSlits.tab_whitelist
+      ~BeckhoffSlits.top
+      ~BeckhoffSlits.transmission
+      ~BeckhoffSlits.trigger_signals
+      ~BeckhoffSlits.xcenter
+      ~BeckhoffSlits.xwidth
+      ~BeckhoffSlits.ycenter
+      ~BeckhoffSlits.ywidth
+   
+   

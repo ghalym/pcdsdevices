@@ -1,0 +1,6 @@
+pcdsdevices.slits.LusiSlits.block
+=================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: LusiSlits.block

@@ -1,0 +1,6 @@
+pcdsdevices.slits.BadSlitPositionerBase.unsubscribe
+===================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BadSlitPositionerBase.unsubscribe

@@ -1,0 +1,6 @@
+pcdsdevices.slits.LusiSlitPositioner.get\_device\_tuple
+=======================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: LusiSlitPositioner.get_device_tuple

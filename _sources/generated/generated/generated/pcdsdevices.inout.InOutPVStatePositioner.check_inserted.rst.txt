@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutPVStatePositioner.check\_inserted
+========================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutPVStatePositioner.check_inserted

@@ -1,0 +1,6 @@
+pcdsdevices.slits.BeckhoffSlits.add\_instantiation\_callback
+============================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BeckhoffSlits.add_instantiation_callback

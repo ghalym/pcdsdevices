@@ -1,0 +1,6 @@
+pcdsdevices.slits.SlitsBase.\_\_init\_\_
+========================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: SlitsBase.__init__

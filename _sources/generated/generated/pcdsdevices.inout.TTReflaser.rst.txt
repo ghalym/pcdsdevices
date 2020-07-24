@@ -15,6 +15,9 @@ pcdsdevices.inout.TTReflaser
       ~TTReflaser.__init__
       ~TTReflaser.add_instantiation_callback
       ~TTReflaser.camonitor
+      ~TTReflaser.check_inserted
+      ~TTReflaser.check_removed
+      ~TTReflaser.check_transmission
       ~TTReflaser.check_value
       ~TTReflaser.clear_sub
       ~TTReflaser.configure

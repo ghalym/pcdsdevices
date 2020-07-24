@@ -1,0 +1,6 @@
+pcdsdevices.slits.BadSlitPositionerBase.destroy
+===============================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BadSlitPositionerBase.destroy

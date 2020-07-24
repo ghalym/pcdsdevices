@@ -1,0 +1,6 @@
+pcdsdevices.signal.InternalSignal.subscribe
+===========================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: InternalSignal.subscribe

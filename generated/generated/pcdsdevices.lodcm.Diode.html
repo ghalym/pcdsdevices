@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.lodcm.Diode &mdash; PCDS Devices 2.7.0+40.g192067e documentation</title>
+  <title>pcdsdevices.lodcm.Diode &mdash; PCDS Devices 2.7.0+76.g6977f10 documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.7.0+40.g192067e
+                2.7.0+76.g6977f10
               </div>
             
           
@@ -127,6 +127,9 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.__init__.html">pcdsdevices.lodcm.Diode.__init__</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.add_instantiation_callback.html">pcdsdevices.lodcm.Diode.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.camonitor.html">pcdsdevices.lodcm.Diode.camonitor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.check_inserted.html">pcdsdevices.lodcm.Diode.check_inserted</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.check_removed.html">pcdsdevices.lodcm.Diode.check_removed</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.check_transmission.html">pcdsdevices.lodcm.Diode.check_transmission</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.check_value.html">pcdsdevices.lodcm.Diode.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.clear_sub.html">pcdsdevices.lodcm.Diode.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.configure.html">pcdsdevices.lodcm.Diode.configure</a></li>
@@ -280,112 +283,121 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.camonitor.html#pcdsdevices.lodcm.Diode.camonitor" title="pcdsdevices.lodcm.Diode.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.check_value.html#pcdsdevices.lodcm.Diode.check_value" title="pcdsdevices.lodcm.Diode.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.check_inserted.html#pcdsdevices.lodcm.Diode.check_inserted" title="pcdsdevices.lodcm.Diode.check_inserted"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_inserted</span></code></a>([state])</p></td>
+<td><p>Query if a particular state counts as inserted.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.check_removed.html#pcdsdevices.lodcm.Diode.check_removed" title="pcdsdevices.lodcm.Diode.check_removed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_removed</span></code></a>([state])</p></td>
+<td><p>Query if a particular state counts as removed.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.check_transmission.html#pcdsdevices.lodcm.Diode.check_transmission" title="pcdsdevices.lodcm.Diode.check_transmission"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_transmission</span></code></a>([state])</p></td>
+<td><p>Query the transition at a particular state.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.check_value.html#pcdsdevices.lodcm.Diode.check_value" title="pcdsdevices.lodcm.Diode.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value)</p></td>
 <td><p>Verify that a value is a valid set state, or raise an exception.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.clear_sub.html#pcdsdevices.lodcm.Diode.clear_sub" title="pcdsdevices.lodcm.Diode.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.clear_sub.html#pcdsdevices.lodcm.Diode.clear_sub" title="pcdsdevices.lodcm.Diode.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
 <td><p>Remove a subscription, given the original callback function</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.configure.html#pcdsdevices.lodcm.Diode.configure" title="pcdsdevices.lodcm.Diode.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.configure.html#pcdsdevices.lodcm.Diode.configure" title="pcdsdevices.lodcm.Diode.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
 <td><p>Configure the device for something during a run</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.describe.html#pcdsdevices.lodcm.Diode.describe" title="pcdsdevices.lodcm.Diode.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.describe.html#pcdsdevices.lodcm.Diode.describe" title="pcdsdevices.lodcm.Diode.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
 <td><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code>.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.describe_configuration.html#pcdsdevices.lodcm.Diode.describe_configuration" title="pcdsdevices.lodcm.Diode.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.describe_configuration.html#pcdsdevices.lodcm.Diode.describe_configuration" title="pcdsdevices.lodcm.Diode.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</p></td>
 <td><p>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.destroy.html#pcdsdevices.lodcm.Diode.destroy" title="pcdsdevices.lodcm.Diode.destroy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">destroy</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.destroy.html#pcdsdevices.lodcm.Diode.destroy" title="pcdsdevices.lodcm.Diode.destroy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">destroy</span></code></a>()</p></td>
 <td><p>Disconnect and destroy all signals on the Device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.end_monitor_thread.html#pcdsdevices.lodcm.Diode.end_monitor_thread" title="pcdsdevices.lodcm.Diode.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.end_monitor_thread.html#pcdsdevices.lodcm.Diode.end_monitor_thread" title="pcdsdevices.lodcm.Diode.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
 <td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.camonitor.html#pcdsdevices.lodcm.Diode.camonitor" title="pcdsdevices.lodcm.Diode.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.wm_update.html#pcdsdevices.lodcm.Diode.wm_update" title="pcdsdevices.lodcm.Diode.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.get.html#pcdsdevices.lodcm.Diode.get" title="pcdsdevices.lodcm.Diode.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.get.html#pcdsdevices.lodcm.Diode.get" title="pcdsdevices.lodcm.Diode.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.get_device_tuple.html#pcdsdevices.lodcm.Diode.get_device_tuple" title="pcdsdevices.lodcm.Diode.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.get_device_tuple.html#pcdsdevices.lodcm.Diode.get_device_tuple" title="pcdsdevices.lodcm.Diode.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
 <td><p>The device tuple type associated with an Device class</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.get_instantiated_signals.html#pcdsdevices.lodcm.Diode.get_instantiated_signals" title="pcdsdevices.lodcm.Diode.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.get_instantiated_signals.html#pcdsdevices.lodcm.Diode.get_instantiated_signals" title="pcdsdevices.lodcm.Diode.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.get_state.html#pcdsdevices.lodcm.Diode.get_state" title="pcdsdevices.lodcm.Diode.get_state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_state</span></code></a>(value)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.get_state.html#pcdsdevices.lodcm.Diode.get_state" title="pcdsdevices.lodcm.Diode.get_state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_state</span></code></a>(value)</p></td>
 <td><p>Given an integer or string value, return the proper state entry.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.insert.html#pcdsdevices.lodcm.Diode.insert" title="pcdsdevices.lodcm.Diode.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb, timeout, wait])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.insert.html#pcdsdevices.lodcm.Diode.insert" title="pcdsdevices.lodcm.Diode.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb, timeout, wait])</p></td>
 <td><p>Moves this device to the first state on the <a class="reference internal" href="pcdsdevices.inout.InOutPositioner.html#pcdsdevices.inout.InOutPositioner.in_states" title="pcdsdevices.inout.InOutPositioner.in_states"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">in_states</span></code></a> list.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.move.html#pcdsdevices.lodcm.Diode.move" title="pcdsdevices.lodcm.Diode.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, moved_cb, timeout, wait])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.move.html#pcdsdevices.lodcm.Diode.move" title="pcdsdevices.lodcm.Diode.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, moved_cb, timeout, wait])</p></td>
 <td><p>Move to the desired state and return completion information.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.mv.html#pcdsdevices.lodcm.Diode.mv" title="pcdsdevices.lodcm.Diode.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[, timeout, wait])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.mv.html#pcdsdevices.lodcm.Diode.mv" title="pcdsdevices.lodcm.Diode.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[, timeout, wait])</p></td>
 <td><p>Absolute move to a position.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.pause.html#pcdsdevices.lodcm.Diode.pause" title="pcdsdevices.lodcm.Diode.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.pause.html#pcdsdevices.lodcm.Diode.pause" title="pcdsdevices.lodcm.Diode.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
 <td><p>Attempt to ‘pause’ the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.put.html#pcdsdevices.lodcm.Diode.put" title="pcdsdevices.lodcm.Diode.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.put.html#pcdsdevices.lodcm.Diode.put" title="pcdsdevices.lodcm.Diode.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
 <td><p>Put a value to all components of the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.read.html#pcdsdevices.lodcm.Diode.read" title="pcdsdevices.lodcm.Diode.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.read.html#pcdsdevices.lodcm.Diode.read" title="pcdsdevices.lodcm.Diode.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
 <td><p>Read data from the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.read_configuration.html#pcdsdevices.lodcm.Diode.read_configuration" title="pcdsdevices.lodcm.Diode.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.read_configuration.html#pcdsdevices.lodcm.Diode.read_configuration" title="pcdsdevices.lodcm.Diode.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.remove.html#pcdsdevices.lodcm.Diode.remove" title="pcdsdevices.lodcm.Diode.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb, timeout, wait])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.remove.html#pcdsdevices.lodcm.Diode.remove" title="pcdsdevices.lodcm.Diode.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb, timeout, wait])</p></td>
 <td><p>Macro to move this device to the first state on the <a class="reference internal" href="pcdsdevices.inout.InOutPositioner.html#pcdsdevices.inout.InOutPositioner.out_states" title="pcdsdevices.inout.InOutPositioner.out_states"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">out_states</span></code></a> list.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.resume.html#pcdsdevices.lodcm.Diode.resume" title="pcdsdevices.lodcm.Diode.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.resume.html#pcdsdevices.lodcm.Diode.resume" title="pcdsdevices.lodcm.Diode.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.set.html#pcdsdevices.lodcm.Diode.set" title="pcdsdevices.lodcm.Diode.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[, moved_cb, timeout])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.set.html#pcdsdevices.lodcm.Diode.set" title="pcdsdevices.lodcm.Diode.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[, moved_cb, timeout])</p></td>
 <td><p>Move to the desired state and return completion information.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.stage.html#pcdsdevices.lodcm.Diode.stage" title="pcdsdevices.lodcm.Diode.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.stage.html#pcdsdevices.lodcm.Diode.stage" title="pcdsdevices.lodcm.Diode.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
 <td><p>Stage the device for data collection.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.stop.html#pcdsdevices.lodcm.Diode.stop" title="pcdsdevices.lodcm.Diode.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.stop.html#pcdsdevices.lodcm.Diode.stop" title="pcdsdevices.lodcm.Diode.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.subscribe.html#pcdsdevices.lodcm.Diode.subscribe" title="pcdsdevices.lodcm.Diode.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[, event_type, run])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.subscribe.html#pcdsdevices.lodcm.Diode.subscribe" title="pcdsdevices.lodcm.Diode.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[, event_type, run])</p></td>
 <td><p>Subscribe to events this event_type generates.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.summary.html#pcdsdevices.lodcm.Diode.summary" title="pcdsdevices.lodcm.Diode.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.summary.html#pcdsdevices.lodcm.Diode.summary" title="pcdsdevices.lodcm.Diode.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.trigger.html#pcdsdevices.lodcm.Diode.trigger" title="pcdsdevices.lodcm.Diode.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.trigger.html#pcdsdevices.lodcm.Diode.trigger" title="pcdsdevices.lodcm.Diode.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.unstage.html#pcdsdevices.lodcm.Diode.unstage" title="pcdsdevices.lodcm.Diode.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.unstage.html#pcdsdevices.lodcm.Diode.unstage" title="pcdsdevices.lodcm.Diode.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</p></td>
 <td><p>Unstage the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.unsubscribe.html#pcdsdevices.lodcm.Diode.unsubscribe" title="pcdsdevices.lodcm.Diode.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.unsubscribe.html#pcdsdevices.lodcm.Diode.unsubscribe" title="pcdsdevices.lodcm.Diode.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</p></td>
 <td><p>Remove a subscription</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.unsubscribe_all.html#pcdsdevices.lodcm.Diode.unsubscribe_all" title="pcdsdevices.lodcm.Diode.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.unsubscribe_all.html#pcdsdevices.lodcm.Diode.unsubscribe_all" title="pcdsdevices.lodcm.Diode.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.wait_for_connection.html#pcdsdevices.lodcm.Diode.wait_for_connection" title="pcdsdevices.lodcm.Diode.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals, timeout])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.wait_for_connection.html#pcdsdevices.lodcm.Diode.wait_for_connection" title="pcdsdevices.lodcm.Diode.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals, timeout])</p></td>
 <td><p>Wait for signals to connect</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.walk_components.html#pcdsdevices.lodcm.Diode.walk_components" title="pcdsdevices.lodcm.Diode.walk_components"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_components</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.walk_components.html#pcdsdevices.lodcm.Diode.walk_components" title="pcdsdevices.lodcm.Diode.walk_components"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_components</span></code></a>()</p></td>
 <td><p>Walk all components in the Device hierarchy</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.walk_signals.html#pcdsdevices.lodcm.Diode.walk_signals" title="pcdsdevices.lodcm.Diode.walk_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_signals</span></code></a>(*[, include_lazy])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.walk_signals.html#pcdsdevices.lodcm.Diode.walk_signals" title="pcdsdevices.lodcm.Diode.walk_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_signals</span></code></a>(*[, include_lazy])</p></td>
 <td><p>Walk all signals in the Device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.walk_subdevice_classes.html#pcdsdevices.lodcm.Diode.walk_subdevice_classes" title="pcdsdevices.lodcm.Diode.walk_subdevice_classes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevice_classes</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.walk_subdevice_classes.html#pcdsdevices.lodcm.Diode.walk_subdevice_classes" title="pcdsdevices.lodcm.Diode.walk_subdevice_classes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevice_classes</span></code></a>()</p></td>
 <td><p>Walk all sub-Devices classes in the Device hierarchy</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.walk_subdevices.html#pcdsdevices.lodcm.Diode.walk_subdevices" title="pcdsdevices.lodcm.Diode.walk_subdevices"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevices</span></code></a>(*[, include_lazy])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.walk_subdevices.html#pcdsdevices.lodcm.Diode.walk_subdevices" title="pcdsdevices.lodcm.Diode.walk_subdevices"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevices</span></code></a>(*[, include_lazy])</p></td>
 <td><p>Walk all sub-Devices in the hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.wm.html#pcdsdevices.lodcm.Diode.wm" title="pcdsdevices.lodcm.Diode.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.wm.html#pcdsdevices.lodcm.Diode.wm" title="pcdsdevices.lodcm.Diode.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.wm_update.html#pcdsdevices.lodcm.Diode.wm_update" title="pcdsdevices.lodcm.Diode.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.Diode.wm_update.html#pcdsdevices.lodcm.Diode.wm_update" title="pcdsdevices.lodcm.Diode.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>

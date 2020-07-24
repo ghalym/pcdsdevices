@@ -15,6 +15,9 @@ pcdsdevices.device\_types.Stopper
       ~Stopper.__init__
       ~Stopper.add_instantiation_callback
       ~Stopper.camonitor
+      ~Stopper.check_inserted
+      ~Stopper.check_removed
+      ~Stopper.check_transmission
       ~Stopper.check_value
       ~Stopper.clear_sub
       ~Stopper.close

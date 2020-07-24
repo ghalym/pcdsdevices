@@ -1,0 +1,6 @@
+pcdsdevices.slits.BeckhoffSlitPositioner.stop
+=============================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BeckhoffSlitPositioner.stop

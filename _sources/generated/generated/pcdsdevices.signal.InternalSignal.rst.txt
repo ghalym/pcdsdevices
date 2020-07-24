@@ -1,0 +1,64 @@
+pcdsdevices.signal.InternalSignal
+=================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. autoclass:: InternalSignal
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~InternalSignal.__init__
+      ~InternalSignal.add_instantiation_callback
+      ~InternalSignal.check_value
+      ~InternalSignal.clear_sub
+      ~InternalSignal.describe
+      ~InternalSignal.describe_configuration
+      ~InternalSignal.destroy
+      ~InternalSignal.get
+      ~InternalSignal.put
+      ~InternalSignal.read
+      ~InternalSignal.read_configuration
+      ~InternalSignal.set
+      ~InternalSignal.subscribe
+      ~InternalSignal.trigger
+      ~InternalSignal.unsubscribe
+      ~InternalSignal.unsubscribe_all
+      ~InternalSignal.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~InternalSignal.SUB_META
+      ~InternalSignal.SUB_VALUE
+      ~InternalSignal.attr_name
+      ~InternalSignal.connected
+      ~InternalSignal.dotted_name
+      ~InternalSignal.event_types
+      ~InternalSignal.high_limit
+      ~InternalSignal.hints
+      ~InternalSignal.kind
+      ~InternalSignal.limits
+      ~InternalSignal.low_limit
+      ~InternalSignal.metadata
+      ~InternalSignal.metadata_keys
+      ~InternalSignal.name
+      ~InternalSignal.parent
+      ~InternalSignal.read_access
+      ~InternalSignal.report
+      ~InternalSignal.root
+      ~InternalSignal.timestamp
+      ~InternalSignal.tolerance
+      ~InternalSignal.value
+      ~InternalSignal.write_access
+   
+   

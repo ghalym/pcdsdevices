@@ -15,6 +15,9 @@ pcdsdevices.lodcm.H1N
       ~H1N.__init__
       ~H1N.add_instantiation_callback
       ~H1N.camonitor
+      ~H1N.check_inserted
+      ~H1N.check_removed
+      ~H1N.check_transmission
       ~H1N.check_value
       ~H1N.clear_sub
       ~H1N.configure

@@ -1,0 +1,6 @@
+pcdsdevices.slits.BadSlitPositionerBase.umv
+===========================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BadSlitPositionerBase.umv

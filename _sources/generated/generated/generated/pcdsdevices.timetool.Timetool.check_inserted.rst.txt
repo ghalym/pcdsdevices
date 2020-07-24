@@ -1,0 +1,6 @@
+pcdsdevices.timetool.Timetool.check\_inserted
+=============================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: Timetool.check_inserted

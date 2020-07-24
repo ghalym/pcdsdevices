@@ -15,6 +15,9 @@ pcdsdevices.device\_types.XFLS
       ~XFLS.__init__
       ~XFLS.add_instantiation_callback
       ~XFLS.camonitor
+      ~XFLS.check_inserted
+      ~XFLS.check_removed
+      ~XFLS.check_transmission
       ~XFLS.check_value
       ~XFLS.clear_sub
       ~XFLS.configure

@@ -1,0 +1,6 @@
+pcdsdevices.slits.LusiSlits.resume
+==================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: LusiSlits.resume

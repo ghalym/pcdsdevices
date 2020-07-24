@@ -15,6 +15,9 @@ pcdsdevices.inout.InOutPVStatePositioner
       ~InOutPVStatePositioner.__init__
       ~InOutPVStatePositioner.add_instantiation_callback
       ~InOutPVStatePositioner.camonitor
+      ~InOutPVStatePositioner.check_inserted
+      ~InOutPVStatePositioner.check_removed
+      ~InOutPVStatePositioner.check_transmission
       ~InOutPVStatePositioner.check_value
       ~InOutPVStatePositioner.clear_sub
       ~InOutPVStatePositioner.configure

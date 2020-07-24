@@ -15,6 +15,9 @@ pcdsdevices.lodcm.Foil
       ~Foil.__init__
       ~Foil.add_instantiation_callback
       ~Foil.camonitor
+      ~Foil.check_inserted
+      ~Foil.check_removed
+      ~Foil.check_transmission
       ~Foil.check_value
       ~Foil.clear_sub
       ~Foil.configure

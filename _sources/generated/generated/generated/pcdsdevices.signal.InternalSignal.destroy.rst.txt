@@ -1,0 +1,6 @@
+pcdsdevices.signal.InternalSignal.destroy
+=========================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: InternalSignal.destroy

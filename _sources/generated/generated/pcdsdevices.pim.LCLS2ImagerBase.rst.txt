@@ -51,6 +51,7 @@ pcdsdevices.pim.LCLS2ImagerBase
    .. autosummary::
    
       ~LCLS2ImagerBase.SUB_ACQ_DONE
+      ~LCLS2ImagerBase.SUB_STATE
       ~LCLS2ImagerBase.attr_name
       ~LCLS2ImagerBase.cam_power
       ~LCLS2ImagerBase.component_names
@@ -60,16 +61,21 @@ pcdsdevices.pim.LCLS2ImagerBase
       ~LCLS2ImagerBase.dotted_name
       ~LCLS2ImagerBase.event_types
       ~LCLS2ImagerBase.hints
+      ~LCLS2ImagerBase.inserted
       ~LCLS2ImagerBase.kind
       ~LCLS2ImagerBase.lazy_wait_for_connection
+      ~LCLS2ImagerBase.lightpath_cpts
       ~LCLS2ImagerBase.name
       ~LCLS2ImagerBase.parent
       ~LCLS2ImagerBase.read_attrs
+      ~LCLS2ImagerBase.removed
       ~LCLS2ImagerBase.report
       ~LCLS2ImagerBase.root
       ~LCLS2ImagerBase.signal_names
       ~LCLS2ImagerBase.tab_component_names
       ~LCLS2ImagerBase.tab_whitelist
+      ~LCLS2ImagerBase.target
+      ~LCLS2ImagerBase.transmission
       ~LCLS2ImagerBase.trigger_signals
       ~LCLS2ImagerBase.y_motor
       ~LCLS2ImagerBase.y_states

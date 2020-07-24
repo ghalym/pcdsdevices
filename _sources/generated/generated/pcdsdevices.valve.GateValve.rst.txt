@@ -15,6 +15,9 @@ pcdsdevices.valve.GateValve
       ~GateValve.__init__
       ~GateValve.add_instantiation_callback
       ~GateValve.camonitor
+      ~GateValve.check_inserted
+      ~GateValve.check_removed
+      ~GateValve.check_transmission
       ~GateValve.check_value
       ~GateValve.clear_sub
       ~GateValve.close

@@ -1,0 +1,6 @@
+pcdsdevices.slits.BeckhoffSlits.unsubscribe\_all
+================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BeckhoffSlits.unsubscribe_all

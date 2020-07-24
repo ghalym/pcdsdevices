@@ -15,6 +15,9 @@ pcdsdevices.inout.TwinCATInOutPositioner
       ~TwinCATInOutPositioner.__init__
       ~TwinCATInOutPositioner.add_instantiation_callback
       ~TwinCATInOutPositioner.camonitor
+      ~TwinCATInOutPositioner.check_inserted
+      ~TwinCATInOutPositioner.check_removed
+      ~TwinCATInOutPositioner.check_transmission
       ~TwinCATInOutPositioner.check_value
       ~TwinCATInOutPositioner.clear_sub
       ~TwinCATInOutPositioner.configure

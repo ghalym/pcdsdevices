@@ -1,0 +1,6 @@
+pcdsdevices.slits.LusiSlitPositioner.summary
+============================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: LusiSlitPositioner.summary

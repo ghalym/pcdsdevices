@@ -15,6 +15,9 @@ pcdsdevices.lens.Prefocus
       ~Prefocus.__init__
       ~Prefocus.add_instantiation_callback
       ~Prefocus.camonitor
+      ~Prefocus.check_inserted
+      ~Prefocus.check_removed
+      ~Prefocus.check_transmission
       ~Prefocus.check_value
       ~Prefocus.clear_sub
       ~Prefocus.configure

@@ -16,6 +16,9 @@ pcdsdevices.device\_types.PulsePicker
       ~PulsePicker.add_instantiation_callback
       ~PulsePicker.burst
       ~PulsePicker.camonitor
+      ~PulsePicker.check_inserted
+      ~PulsePicker.check_removed
+      ~PulsePicker.check_transmission
       ~PulsePicker.check_value
       ~PulsePicker.clear_sub
       ~PulsePicker.close

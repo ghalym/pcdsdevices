@@ -1,0 +1,6 @@
+pcdsdevices.slits.LusiSlitPositioner.unsubscribe
+================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: LusiSlitPositioner.unsubscribe

@@ -15,6 +15,9 @@ pcdsdevices.attenuator.Filter
       ~Filter.__init__
       ~Filter.add_instantiation_callback
       ~Filter.camonitor
+      ~Filter.check_inserted
+      ~Filter.check_removed
+      ~Filter.check_transmission
       ~Filter.check_value
       ~Filter.clear_sub
       ~Filter.configure

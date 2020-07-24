@@ -1,0 +1,6 @@
+pcdsdevices.interface.LightpathMixin.unsubscribe\_all
+=====================================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: LightpathMixin.unsubscribe_all

@@ -1,0 +1,99 @@
+pcdsdevices.slits.LusiSlits
+===========================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. autoclass:: LusiSlits
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~LusiSlits.__init__
+      ~LusiSlits.add_instantiation_callback
+      ~LusiSlits.block
+      ~LusiSlits.camonitor
+      ~LusiSlits.check_value
+      ~LusiSlits.clear_sub
+      ~LusiSlits.close
+      ~LusiSlits.configure
+      ~LusiSlits.describe
+      ~LusiSlits.describe_configuration
+      ~LusiSlits.destroy
+      ~LusiSlits.end_monitor_thread
+      ~LusiSlits.get
+      ~LusiSlits.get_device_tuple
+      ~LusiSlits.get_instantiated_signals
+      ~LusiSlits.move
+      ~LusiSlits.mv
+      ~LusiSlits.open
+      ~LusiSlits.pause
+      ~LusiSlits.put
+      ~LusiSlits.read
+      ~LusiSlits.read_configuration
+      ~LusiSlits.remove
+      ~LusiSlits.resume
+      ~LusiSlits.set
+      ~LusiSlits.stage
+      ~LusiSlits.stop
+      ~LusiSlits.subscribe
+      ~LusiSlits.summary
+      ~LusiSlits.trigger
+      ~LusiSlits.unstage
+      ~LusiSlits.unsubscribe
+      ~LusiSlits.unsubscribe_all
+      ~LusiSlits.wait_for_connection
+      ~LusiSlits.walk_components
+      ~LusiSlits.walk_signals
+      ~LusiSlits.walk_subdevice_classes
+      ~LusiSlits.walk_subdevices
+      ~LusiSlits.wm
+      ~LusiSlits.wm_update
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~LusiSlits.SUB_ACQ_DONE
+      ~LusiSlits.SUB_STATE
+      ~LusiSlits.attr_name
+      ~LusiSlits.block_cmd
+      ~LusiSlits.blocked
+      ~LusiSlits.close_cmd
+      ~LusiSlits.component_names
+      ~LusiSlits.configuration_attrs
+      ~LusiSlits.connected
+      ~LusiSlits.current_aperture
+      ~LusiSlits.dotted_name
+      ~LusiSlits.event_types
+      ~LusiSlits.hints
+      ~LusiSlits.inserted
+      ~LusiSlits.kind
+      ~LusiSlits.lazy_wait_for_connection
+      ~LusiSlits.lightpath_cpts
+      ~LusiSlits.name
+      ~LusiSlits.nominal_aperture
+      ~LusiSlits.open_cmd
+      ~LusiSlits.parent
+      ~LusiSlits.position
+      ~LusiSlits.read_attrs
+      ~LusiSlits.removed
+      ~LusiSlits.report
+      ~LusiSlits.root
+      ~LusiSlits.signal_names
+      ~LusiSlits.tab_whitelist
+      ~LusiSlits.transmission
+      ~LusiSlits.trigger_signals
+      ~LusiSlits.xcenter
+      ~LusiSlits.xwidth
+      ~LusiSlits.ycenter
+      ~LusiSlits.ywidth
+   
+   

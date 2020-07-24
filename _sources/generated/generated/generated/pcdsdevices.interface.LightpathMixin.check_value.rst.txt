@@ -1,0 +1,6 @@
+pcdsdevices.interface.LightpathMixin.check\_value
+=================================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: LightpathMixin.check_value

@@ -15,6 +15,9 @@ pcdsdevices.device\_types.CCM
       ~CCM.__init__
       ~CCM.add_instantiation_callback
       ~CCM.camonitor
+      ~CCM.check_inserted
+      ~CCM.check_removed
+      ~CCM.check_transmission
       ~CCM.check_value
       ~CCM.clear_sub
       ~CCM.configure

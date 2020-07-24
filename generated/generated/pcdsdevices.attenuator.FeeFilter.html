@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.attenuator.FeeFilter &mdash; PCDS Devices 2.7.0+40.g192067e documentation</title>
+  <title>pcdsdevices.attenuator.FeeFilter &mdash; PCDS Devices 2.7.0+76.g6977f10 documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.7.0+40.g192067e
+                2.7.0+76.g6977f10
               </div>
             
           
@@ -115,6 +115,9 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.__init__.html">pcdsdevices.attenuator.FeeFilter.__init__</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.add_instantiation_callback.html">pcdsdevices.attenuator.FeeFilter.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.camonitor.html">pcdsdevices.attenuator.FeeFilter.camonitor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.check_inserted.html">pcdsdevices.attenuator.FeeFilter.check_inserted</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.check_removed.html">pcdsdevices.attenuator.FeeFilter.check_removed</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.check_transmission.html">pcdsdevices.attenuator.FeeFilter.check_transmission</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.check_value.html">pcdsdevices.attenuator.FeeFilter.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.clear_sub.html">pcdsdevices.attenuator.FeeFilter.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.configure.html">pcdsdevices.attenuator.FeeFilter.configure</a></li>
@@ -283,112 +286,121 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.camonitor.html#pcdsdevices.attenuator.FeeFilter.camonitor" title="pcdsdevices.attenuator.FeeFilter.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.check_value.html#pcdsdevices.attenuator.FeeFilter.check_value" title="pcdsdevices.attenuator.FeeFilter.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.check_inserted.html#pcdsdevices.attenuator.FeeFilter.check_inserted" title="pcdsdevices.attenuator.FeeFilter.check_inserted"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_inserted</span></code></a>([state])</p></td>
+<td><p>Query if a particular state counts as inserted.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.check_removed.html#pcdsdevices.attenuator.FeeFilter.check_removed" title="pcdsdevices.attenuator.FeeFilter.check_removed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_removed</span></code></a>([state])</p></td>
+<td><p>Query if a particular state counts as removed.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.check_transmission.html#pcdsdevices.attenuator.FeeFilter.check_transmission" title="pcdsdevices.attenuator.FeeFilter.check_transmission"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_transmission</span></code></a>([state])</p></td>
+<td><p>Query the transition at a particular state.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.check_value.html#pcdsdevices.attenuator.FeeFilter.check_value" title="pcdsdevices.attenuator.FeeFilter.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value)</p></td>
 <td><p>Verify that a value is a valid set state, or raise an exception.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.clear_sub.html#pcdsdevices.attenuator.FeeFilter.clear_sub" title="pcdsdevices.attenuator.FeeFilter.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.clear_sub.html#pcdsdevices.attenuator.FeeFilter.clear_sub" title="pcdsdevices.attenuator.FeeFilter.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
 <td><p>Remove a subscription, given the original callback function</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.configure.html#pcdsdevices.attenuator.FeeFilter.configure" title="pcdsdevices.attenuator.FeeFilter.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.configure.html#pcdsdevices.attenuator.FeeFilter.configure" title="pcdsdevices.attenuator.FeeFilter.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
 <td><p>Configure the device for something during a run</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.describe.html#pcdsdevices.attenuator.FeeFilter.describe" title="pcdsdevices.attenuator.FeeFilter.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.describe.html#pcdsdevices.attenuator.FeeFilter.describe" title="pcdsdevices.attenuator.FeeFilter.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
 <td><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code>.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.describe_configuration.html#pcdsdevices.attenuator.FeeFilter.describe_configuration" title="pcdsdevices.attenuator.FeeFilter.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.describe_configuration.html#pcdsdevices.attenuator.FeeFilter.describe_configuration" title="pcdsdevices.attenuator.FeeFilter.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</p></td>
 <td><p>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.destroy.html#pcdsdevices.attenuator.FeeFilter.destroy" title="pcdsdevices.attenuator.FeeFilter.destroy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">destroy</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.destroy.html#pcdsdevices.attenuator.FeeFilter.destroy" title="pcdsdevices.attenuator.FeeFilter.destroy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">destroy</span></code></a>()</p></td>
 <td><p>Disconnect and destroy all signals on the Device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.end_monitor_thread.html#pcdsdevices.attenuator.FeeFilter.end_monitor_thread" title="pcdsdevices.attenuator.FeeFilter.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.end_monitor_thread.html#pcdsdevices.attenuator.FeeFilter.end_monitor_thread" title="pcdsdevices.attenuator.FeeFilter.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
 <td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.camonitor.html#pcdsdevices.attenuator.FeeFilter.camonitor" title="pcdsdevices.attenuator.FeeFilter.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.wm_update.html#pcdsdevices.attenuator.FeeFilter.wm_update" title="pcdsdevices.attenuator.FeeFilter.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.get.html#pcdsdevices.attenuator.FeeFilter.get" title="pcdsdevices.attenuator.FeeFilter.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.get.html#pcdsdevices.attenuator.FeeFilter.get" title="pcdsdevices.attenuator.FeeFilter.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.get_device_tuple.html#pcdsdevices.attenuator.FeeFilter.get_device_tuple" title="pcdsdevices.attenuator.FeeFilter.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.get_device_tuple.html#pcdsdevices.attenuator.FeeFilter.get_device_tuple" title="pcdsdevices.attenuator.FeeFilter.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
 <td><p>The device tuple type associated with an Device class</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.get_instantiated_signals.html#pcdsdevices.attenuator.FeeFilter.get_instantiated_signals" title="pcdsdevices.attenuator.FeeFilter.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.get_instantiated_signals.html#pcdsdevices.attenuator.FeeFilter.get_instantiated_signals" title="pcdsdevices.attenuator.FeeFilter.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.get_state.html#pcdsdevices.attenuator.FeeFilter.get_state" title="pcdsdevices.attenuator.FeeFilter.get_state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_state</span></code></a>(value)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.get_state.html#pcdsdevices.attenuator.FeeFilter.get_state" title="pcdsdevices.attenuator.FeeFilter.get_state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_state</span></code></a>(value)</p></td>
 <td><p>Given an integer or string value, return the proper state entry.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.insert.html#pcdsdevices.attenuator.FeeFilter.insert" title="pcdsdevices.attenuator.FeeFilter.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb, timeout, wait])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.insert.html#pcdsdevices.attenuator.FeeFilter.insert" title="pcdsdevices.attenuator.FeeFilter.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb, timeout, wait])</p></td>
 <td><p>Moves this device to the first state on the <a class="reference internal" href="pcdsdevices.inout.InOutPositioner.html#pcdsdevices.inout.InOutPositioner.in_states" title="pcdsdevices.inout.InOutPositioner.in_states"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">in_states</span></code></a> list.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.move.html#pcdsdevices.attenuator.FeeFilter.move" title="pcdsdevices.attenuator.FeeFilter.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, moved_cb, timeout, wait])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.move.html#pcdsdevices.attenuator.FeeFilter.move" title="pcdsdevices.attenuator.FeeFilter.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, moved_cb, timeout, wait])</p></td>
 <td><p>Move to the desired state and return completion information.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.mv.html#pcdsdevices.attenuator.FeeFilter.mv" title="pcdsdevices.attenuator.FeeFilter.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[, timeout, wait])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.mv.html#pcdsdevices.attenuator.FeeFilter.mv" title="pcdsdevices.attenuator.FeeFilter.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[, timeout, wait])</p></td>
 <td><p>Absolute move to a position.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.pause.html#pcdsdevices.attenuator.FeeFilter.pause" title="pcdsdevices.attenuator.FeeFilter.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.pause.html#pcdsdevices.attenuator.FeeFilter.pause" title="pcdsdevices.attenuator.FeeFilter.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
 <td><p>Attempt to ‘pause’ the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.put.html#pcdsdevices.attenuator.FeeFilter.put" title="pcdsdevices.attenuator.FeeFilter.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.put.html#pcdsdevices.attenuator.FeeFilter.put" title="pcdsdevices.attenuator.FeeFilter.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
 <td><p>Put a value to all components of the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.read.html#pcdsdevices.attenuator.FeeFilter.read" title="pcdsdevices.attenuator.FeeFilter.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.read.html#pcdsdevices.attenuator.FeeFilter.read" title="pcdsdevices.attenuator.FeeFilter.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
 <td><p>Read data from the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.read_configuration.html#pcdsdevices.attenuator.FeeFilter.read_configuration" title="pcdsdevices.attenuator.FeeFilter.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.read_configuration.html#pcdsdevices.attenuator.FeeFilter.read_configuration" title="pcdsdevices.attenuator.FeeFilter.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.remove.html#pcdsdevices.attenuator.FeeFilter.remove" title="pcdsdevices.attenuator.FeeFilter.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb, timeout, wait])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.remove.html#pcdsdevices.attenuator.FeeFilter.remove" title="pcdsdevices.attenuator.FeeFilter.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb, timeout, wait])</p></td>
 <td><p>Macro to move this device to the first state on the <a class="reference internal" href="pcdsdevices.inout.InOutPositioner.html#pcdsdevices.inout.InOutPositioner.out_states" title="pcdsdevices.inout.InOutPositioner.out_states"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">out_states</span></code></a> list.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.resume.html#pcdsdevices.attenuator.FeeFilter.resume" title="pcdsdevices.attenuator.FeeFilter.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.resume.html#pcdsdevices.attenuator.FeeFilter.resume" title="pcdsdevices.attenuator.FeeFilter.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.set.html#pcdsdevices.attenuator.FeeFilter.set" title="pcdsdevices.attenuator.FeeFilter.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[, moved_cb, timeout])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.set.html#pcdsdevices.attenuator.FeeFilter.set" title="pcdsdevices.attenuator.FeeFilter.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[, moved_cb, timeout])</p></td>
 <td><p>Move to the desired state and return completion information.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.stage.html#pcdsdevices.attenuator.FeeFilter.stage" title="pcdsdevices.attenuator.FeeFilter.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.stage.html#pcdsdevices.attenuator.FeeFilter.stage" title="pcdsdevices.attenuator.FeeFilter.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
 <td><p>Stage the device for data collection.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.stop.html#pcdsdevices.attenuator.FeeFilter.stop" title="pcdsdevices.attenuator.FeeFilter.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.stop.html#pcdsdevices.attenuator.FeeFilter.stop" title="pcdsdevices.attenuator.FeeFilter.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.subscribe.html#pcdsdevices.attenuator.FeeFilter.subscribe" title="pcdsdevices.attenuator.FeeFilter.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[, event_type, run])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.subscribe.html#pcdsdevices.attenuator.FeeFilter.subscribe" title="pcdsdevices.attenuator.FeeFilter.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[, event_type, run])</p></td>
 <td><p>Subscribe to events this event_type generates.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.summary.html#pcdsdevices.attenuator.FeeFilter.summary" title="pcdsdevices.attenuator.FeeFilter.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.summary.html#pcdsdevices.attenuator.FeeFilter.summary" title="pcdsdevices.attenuator.FeeFilter.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.trigger.html#pcdsdevices.attenuator.FeeFilter.trigger" title="pcdsdevices.attenuator.FeeFilter.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.trigger.html#pcdsdevices.attenuator.FeeFilter.trigger" title="pcdsdevices.attenuator.FeeFilter.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.unstage.html#pcdsdevices.attenuator.FeeFilter.unstage" title="pcdsdevices.attenuator.FeeFilter.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.unstage.html#pcdsdevices.attenuator.FeeFilter.unstage" title="pcdsdevices.attenuator.FeeFilter.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</p></td>
 <td><p>Unstage the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.unsubscribe.html#pcdsdevices.attenuator.FeeFilter.unsubscribe" title="pcdsdevices.attenuator.FeeFilter.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.unsubscribe.html#pcdsdevices.attenuator.FeeFilter.unsubscribe" title="pcdsdevices.attenuator.FeeFilter.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</p></td>
 <td><p>Remove a subscription</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.unsubscribe_all.html#pcdsdevices.attenuator.FeeFilter.unsubscribe_all" title="pcdsdevices.attenuator.FeeFilter.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.unsubscribe_all.html#pcdsdevices.attenuator.FeeFilter.unsubscribe_all" title="pcdsdevices.attenuator.FeeFilter.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.wait_for_connection.html#pcdsdevices.attenuator.FeeFilter.wait_for_connection" title="pcdsdevices.attenuator.FeeFilter.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals, timeout])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.wait_for_connection.html#pcdsdevices.attenuator.FeeFilter.wait_for_connection" title="pcdsdevices.attenuator.FeeFilter.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals, timeout])</p></td>
 <td><p>Wait for signals to connect</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.walk_components.html#pcdsdevices.attenuator.FeeFilter.walk_components" title="pcdsdevices.attenuator.FeeFilter.walk_components"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_components</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.walk_components.html#pcdsdevices.attenuator.FeeFilter.walk_components" title="pcdsdevices.attenuator.FeeFilter.walk_components"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_components</span></code></a>()</p></td>
 <td><p>Walk all components in the Device hierarchy</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.walk_signals.html#pcdsdevices.attenuator.FeeFilter.walk_signals" title="pcdsdevices.attenuator.FeeFilter.walk_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_signals</span></code></a>(*[, include_lazy])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.walk_signals.html#pcdsdevices.attenuator.FeeFilter.walk_signals" title="pcdsdevices.attenuator.FeeFilter.walk_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_signals</span></code></a>(*[, include_lazy])</p></td>
 <td><p>Walk all signals in the Device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.walk_subdevice_classes.html#pcdsdevices.attenuator.FeeFilter.walk_subdevice_classes" title="pcdsdevices.attenuator.FeeFilter.walk_subdevice_classes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevice_classes</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.walk_subdevice_classes.html#pcdsdevices.attenuator.FeeFilter.walk_subdevice_classes" title="pcdsdevices.attenuator.FeeFilter.walk_subdevice_classes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevice_classes</span></code></a>()</p></td>
 <td><p>Walk all sub-Devices classes in the Device hierarchy</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.walk_subdevices.html#pcdsdevices.attenuator.FeeFilter.walk_subdevices" title="pcdsdevices.attenuator.FeeFilter.walk_subdevices"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevices</span></code></a>(*[, include_lazy])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.walk_subdevices.html#pcdsdevices.attenuator.FeeFilter.walk_subdevices" title="pcdsdevices.attenuator.FeeFilter.walk_subdevices"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevices</span></code></a>(*[, include_lazy])</p></td>
 <td><p>Walk all sub-Devices in the hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.wm.html#pcdsdevices.attenuator.FeeFilter.wm" title="pcdsdevices.attenuator.FeeFilter.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.wm.html#pcdsdevices.attenuator.FeeFilter.wm" title="pcdsdevices.attenuator.FeeFilter.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.wm_update.html#pcdsdevices.attenuator.FeeFilter.wm_update" title="pcdsdevices.attenuator.FeeFilter.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.wm_update.html#pcdsdevices.attenuator.FeeFilter.wm_update" title="pcdsdevices.attenuator.FeeFilter.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>

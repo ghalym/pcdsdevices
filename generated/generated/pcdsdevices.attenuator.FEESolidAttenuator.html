@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.attenuator.FEESolidAttenuator &mdash; PCDS Devices 2.7.0+40.g192067e documentation</title>
+  <title>pcdsdevices.attenuator.FEESolidAttenuator &mdash; PCDS Devices 2.7.0+76.g6977f10 documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.7.0+40.g192067e
+                2.7.0+76.g6977f10
               </div>
             
           
@@ -255,7 +255,7 @@
 <h1>pcdsdevices.attenuator.FEESolidAttenuator<a class="headerlink" href="#pcdsdevices-attenuator-feesolidattenuator" title="Permalink to this headline">¶</a></h1>
 <dl class="py class">
 <dt id="pcdsdevices.attenuator.FEESolidAttenuator">
-<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.attenuator.</code><code class="sig-name descname">FEESolidAttenuator</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prefix</span><span class="o">=</span><span class="default_value">''</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">name</span></em>, <em class="sig-param"><span class="n">kind</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">read_attrs</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">configuration_attrs</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">parent</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.attenuator.FEESolidAttenuator" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.attenuator.</code><code class="sig-name descname">FEESolidAttenuator</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prefix</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">name</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.attenuator.FEESolidAttenuator" title="Permalink to this definition">¶</a></dt>
 <dd><p>Solid attenuator variant from the LCLS-II XTES project.</p>
 <p>Motorized, 18 filters + 1 inspection mirror.</p>
 <p>This is a quick-and-dirty Ophyd device for controlling AT2L0 motion and
@@ -275,7 +275,7 @@ generating a PyDM control screen.</p>
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FEESolidAttenuator.__init__.html#pcdsdevices.attenuator.FEESolidAttenuator.__init__" title="pcdsdevices.attenuator.FEESolidAttenuator.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>([prefix, kind, read_attrs, …])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FEESolidAttenuator.__init__.html#pcdsdevices.attenuator.FEESolidAttenuator.__init__" title="pcdsdevices.attenuator.FEESolidAttenuator.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(prefix, *, name, **kwargs)</p></td>
 <td><p>Initialize self.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FEESolidAttenuator.add_instantiation_callback.html#pcdsdevices.attenuator.FEESolidAttenuator.add_instantiation_callback" title="pcdsdevices.attenuator.FEESolidAttenuator.add_instantiation_callback"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_instantiation_callback</span></code></a>(callback[, …])</p></td>
@@ -374,82 +374,88 @@ generating a PyDM control screen.</p>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_ACQ_DONE</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">attr_name</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_STATE</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_01</span></code></p></td>
-<td><p>A descriptor representing a device component (or signal)</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_02</span></code></p></td>
-<td><p>A descriptor representing a device component (or signal)</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_03</span></code></p></td>
-<td><p>A descriptor representing a device component (or signal)</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_04</span></code></p></td>
-<td><p>A descriptor representing a device component (or signal)</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_05</span></code></p></td>
-<td><p>A descriptor representing a device component (or signal)</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_06</span></code></p></td>
-<td><p>A descriptor representing a device component (or signal)</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_07</span></code></p></td>
-<td><p>A descriptor representing a device component (or signal)</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_08</span></code></p></td>
-<td><p>A descriptor representing a device component (or signal)</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_09</span></code></p></td>
-<td><p>A descriptor representing a device component (or signal)</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_10</span></code></p></td>
-<td><p>A descriptor representing a device component (or signal)</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_11</span></code></p></td>
-<td><p>A descriptor representing a device component (or signal)</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_12</span></code></p></td>
-<td><p>A descriptor representing a device component (or signal)</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_13</span></code></p></td>
-<td><p>A descriptor representing a device component (or signal)</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_14</span></code></p></td>
-<td><p>A descriptor representing a device component (or signal)</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_15</span></code></p></td>
-<td><p>A descriptor representing a device component (or signal)</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_16</span></code></p></td>
-<td><p>A descriptor representing a device component (or signal)</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_17</span></code></p></td>
-<td><p>A descriptor representing a device component (or signal)</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_18</span></code></p></td>
-<td><p>A descriptor representing a device component (or signal)</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_19</span></code></p></td>
-<td><p>A descriptor representing a device component (or signal)</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_names</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">attr_name</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_attrs</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_01</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_02</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_03</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_04</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_05</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_06</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_07</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_08</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_09</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_10</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_11</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_12</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_13</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_14</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_15</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_16</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_17</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_18</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">blade_19</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_names</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_attrs</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></p></td>
 <td><p>If the device is connected.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">dotted_name</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">dotted_name</span></code></p></td>
 <td><p>Return the dotted name</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">event_types</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">event_types</span></code></p></td>
 <td><p>Events that can be subscribed to via <code class="xref any docutils literal notranslate"><span class="pre">obj.subscribe</span></code></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">hints</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">hints</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">inserted</span></code></p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
@@ -458,13 +464,25 @@ generating a PyDM control screen.</p>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">lazy_wait_for_connection</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">lightpath_cpts</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></p></td>
 <td><p>name of the device</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">num_in</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">num_out</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></p></td>
 <td><p>The parent of the ophyd object.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">removed</span></code></p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
@@ -479,7 +497,10 @@ generating a PyDM control screen.</p>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tab_whitelist</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">transmission</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
 <td><p></p></td>
 </tr>
 </tbody>

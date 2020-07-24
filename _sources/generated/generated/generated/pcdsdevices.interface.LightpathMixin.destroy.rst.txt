@@ -1,0 +1,6 @@
+pcdsdevices.interface.LightpathMixin.destroy
+============================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: LightpathMixin.destroy

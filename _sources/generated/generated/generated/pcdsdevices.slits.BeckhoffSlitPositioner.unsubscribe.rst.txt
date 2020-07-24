@@ -1,0 +1,6 @@
+pcdsdevices.slits.BeckhoffSlitPositioner.unsubscribe
+====================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BeckhoffSlitPositioner.unsubscribe

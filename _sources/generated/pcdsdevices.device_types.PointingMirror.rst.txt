@@ -15,6 +15,9 @@ pcdsdevices.device\_types.PointingMirror
       ~PointingMirror.__init__
       ~PointingMirror.add_instantiation_callback
       ~PointingMirror.camonitor
+      ~PointingMirror.check_inserted
+      ~PointingMirror.check_removed
+      ~PointingMirror.check_transmission
       ~PointingMirror.check_value
       ~PointingMirror.clear_sub
       ~PointingMirror.configure

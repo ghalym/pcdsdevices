@@ -1,0 +1,6 @@
+pcdsdevices.slits.BeckhoffSlitPositioner.wm
+===========================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BeckhoffSlitPositioner.wm

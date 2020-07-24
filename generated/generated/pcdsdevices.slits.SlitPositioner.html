@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.slits.SlitPositioner &mdash; PCDS Devices 2.7.0+40.g192067e documentation</title>
+  <title>pcdsdevices.slits.SlitPositioner &mdash; PCDS Devices 2.7.0+76.g6977f10 documentation</title>
   
 
   
@@ -37,7 +37,7 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="pcdsdevices.slits.SlitPositioner.__init__" href="generated/pcdsdevices.slits.SlitPositioner.__init__.html" />
-    <link rel="prev" title="pcdsdevices.slits.PowerSlits.walk_subdevices" href="generated/pcdsdevices.slits.PowerSlits.walk_subdevices.html" /> 
+    <link rel="prev" title="pcdsdevices.slits.PowerSlits.wm_update" href="generated/pcdsdevices.slits.PowerSlits.wm_update.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.7.0+40.g192067e
+                2.7.0+76.g6977f10
               </div>
             
           
@@ -135,6 +135,11 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.signal.html">pcdsdevices.signal</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.sim.html">pcdsdevices.sim</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.slits.html">pcdsdevices.slits</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.html">pcdsdevices.slits.BadSlitPositionerBase</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.slits.BeckhoffSlitPositioner.html">pcdsdevices.slits.BeckhoffSlitPositioner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.slits.BeckhoffSlits.html">pcdsdevices.slits.BeckhoffSlits</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.slits.LusiSlitPositioner.html">pcdsdevices.slits.LusiSlitPositioner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.slits.LusiSlits.html">pcdsdevices.slits.LusiSlits</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.slits.PowerSlits.html">pcdsdevices.slits.PowerSlits</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.slits.SlitPositioner</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.__init__.html">pcdsdevices.slits.SlitPositioner.__init__</a></li>
@@ -181,6 +186,7 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.slits.Slits.html">pcdsdevices.slits.Slits</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.slits.SlitsBase.html">pcdsdevices.slits.SlitsBase</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.state.html">pcdsdevices.state</a></li>
@@ -262,39 +268,15 @@
 <h1>pcdsdevices.slits.SlitPositioner<a class="headerlink" href="#pcdsdevices-slits-slitpositioner" title="Permalink to this headline">¶</a></h1>
 <dl class="py class">
 <dt id="pcdsdevices.slits.SlitPositioner">
-<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.slits.</code><code class="sig-name descname">SlitPositioner</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prefix</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">slit_type</span><span class="o">=</span><span class="default_value">''</span></em>, <em class="sig-param"><span class="n">name</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">limits</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.slits.SlitPositioner" title="Permalink to this definition">¶</a></dt>
-<dd><p>Abstraction of a Slit axis.</p>
-<p>Each adjustable parameter of the slit (center, width) can be modeled as a
-motor in itself, even though each controls two different actual motors in
-reality, this gives a convienent interface for adjusting the aperture size
-and location with out backwards calculating motor positions.</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The prefix location of the slits, e.g. ‘MFX:DG2’.</p></li>
-<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Alias for the axis.</p></li>
-<li><p><strong>slit_type</strong> (<em>{'XWIDTH'</em><em>, </em><em>'YWIDTH'</em><em>, </em><em>'XCENTER'</em><em>, </em><em>'YCENTER'}</em>) – The aspect of the slit position you would like to control with this
-specific motor.</p></li>
-<li><p><strong>limits</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.8)"><em>tuple</em></a><em>, </em><em>optional</em>) – Limits on the motion of the positioner. By default, the limits on the
-setpoint PV are used if <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">None</span></code></a> is given.</p></li>
-</ul>
-</dd>
-</dl>
-<div class="admonition seealso">
-<p class="admonition-title">See also</p>
-<dl class="simple">
-<dt><code class="xref py py-class docutils literal notranslate"><span class="pre">None</span></code></dt><dd><p>SlitPositioner inherits directly from <code class="xref any docutils literal notranslate"><span class="pre">~ophyd.PVPositioner</span></code>.</p>
-</dd>
-</dl>
-</div>
-<p class="rubric">Methods</p>
+<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.slits.</code><code class="sig-name descname">SlitPositioner</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prefix</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">slit_type</span><span class="o">=</span><span class="default_value">''</span></em>, <em class="sig-param"><span class="n">limits</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.slits.SlitPositioner" title="Permalink to this definition">¶</a></dt>
+<dd><p class="rubric">Methods</p>
 <table class="longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.__init__.html#pcdsdevices.slits.SlitPositioner.__init__" title="pcdsdevices.slits.SlitPositioner.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(prefix, *[, slit_type, name, limits])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.__init__.html#pcdsdevices.slits.SlitPositioner.__init__" title="pcdsdevices.slits.SlitPositioner.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(prefix, *[, slit_type, limits])</p></td>
 <td><p>Initialize self.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.add_instantiation_callback.html#pcdsdevices.slits.SlitPositioner.add_instantiation_callback" title="pcdsdevices.slits.SlitPositioner.add_instantiation_callback"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_instantiation_callback</span></code></a>(callback[, …])</p></td>
@@ -560,7 +542,7 @@ setpoint PV are used if <a class="reference external" href="https://docs.python.
         <a href="generated/pcdsdevices.slits.SlitPositioner.__init__.html" class="btn btn-neutral float-right" title="pcdsdevices.slits.SlitPositioner.__init__" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="generated/pcdsdevices.slits.PowerSlits.walk_subdevices.html" class="btn btn-neutral float-left" title="pcdsdevices.slits.PowerSlits.walk_subdevices" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="generated/pcdsdevices.slits.PowerSlits.wm_update.html" class="btn btn-neutral float-left" title="pcdsdevices.slits.PowerSlits.wm_update" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

@@ -1,0 +1,6 @@
+pcdsdevices.slits.LusiSlits.walk\_subdevice\_classes
+====================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: LusiSlits.walk_subdevice_classes

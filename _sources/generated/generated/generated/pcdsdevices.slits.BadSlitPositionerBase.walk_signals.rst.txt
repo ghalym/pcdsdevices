@@ -1,0 +1,6 @@
+pcdsdevices.slits.BadSlitPositionerBase.walk\_signals
+=====================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BadSlitPositionerBase.walk_signals

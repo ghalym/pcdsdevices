@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.TTReflaser &mdash; PCDS Devices 2.7.0+40.g192067e documentation</title>
+  <title>pcdsdevices.device_types.TTReflaser &mdash; PCDS Devices 2.7.0+76.g6977f10 documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.7.0+40.g192067e
+                2.7.0+76.g6977f10
               </div>
             
           
@@ -130,6 +130,9 @@
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.__init__.html">pcdsdevices.device_types.TTReflaser.__init__</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.add_instantiation_callback.html">pcdsdevices.device_types.TTReflaser.add_instantiation_callback</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.camonitor.html">pcdsdevices.device_types.TTReflaser.camonitor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.check_inserted.html">pcdsdevices.device_types.TTReflaser.check_inserted</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.check_removed.html">pcdsdevices.device_types.TTReflaser.check_removed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.check_transmission.html">pcdsdevices.device_types.TTReflaser.check_transmission</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.check_value.html">pcdsdevices.device_types.TTReflaser.check_value</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.clear_sub.html">pcdsdevices.device_types.TTReflaser.clear_sub</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.configure.html">pcdsdevices.device_types.TTReflaser.configure</a></li>
@@ -282,112 +285,121 @@ in-progress move as failed.</p></li>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.camonitor.html#pcdsdevices.device_types.TTReflaser.camonitor" title="pcdsdevices.device_types.TTReflaser.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.check_value.html#pcdsdevices.device_types.TTReflaser.check_value" title="pcdsdevices.device_types.TTReflaser.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.check_inserted.html#pcdsdevices.device_types.TTReflaser.check_inserted" title="pcdsdevices.device_types.TTReflaser.check_inserted"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_inserted</span></code></a>([state])</p></td>
+<td><p>Query if a particular state counts as inserted.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.check_removed.html#pcdsdevices.device_types.TTReflaser.check_removed" title="pcdsdevices.device_types.TTReflaser.check_removed"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_removed</span></code></a>([state])</p></td>
+<td><p>Query if a particular state counts as removed.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.check_transmission.html#pcdsdevices.device_types.TTReflaser.check_transmission" title="pcdsdevices.device_types.TTReflaser.check_transmission"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_transmission</span></code></a>([state])</p></td>
+<td><p>Query the transition at a particular state.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.check_value.html#pcdsdevices.device_types.TTReflaser.check_value" title="pcdsdevices.device_types.TTReflaser.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value)</p></td>
 <td><p>Verify that a value is a valid set state, or raise an exception.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.clear_sub.html#pcdsdevices.device_types.TTReflaser.clear_sub" title="pcdsdevices.device_types.TTReflaser.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.clear_sub.html#pcdsdevices.device_types.TTReflaser.clear_sub" title="pcdsdevices.device_types.TTReflaser.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
 <td><p>Remove a subscription, given the original callback function</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.configure.html#pcdsdevices.device_types.TTReflaser.configure" title="pcdsdevices.device_types.TTReflaser.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.configure.html#pcdsdevices.device_types.TTReflaser.configure" title="pcdsdevices.device_types.TTReflaser.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
 <td><p>Configure the device for something during a run</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.describe.html#pcdsdevices.device_types.TTReflaser.describe" title="pcdsdevices.device_types.TTReflaser.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.describe.html#pcdsdevices.device_types.TTReflaser.describe" title="pcdsdevices.device_types.TTReflaser.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
 <td><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code>.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.describe_configuration.html#pcdsdevices.device_types.TTReflaser.describe_configuration" title="pcdsdevices.device_types.TTReflaser.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.describe_configuration.html#pcdsdevices.device_types.TTReflaser.describe_configuration" title="pcdsdevices.device_types.TTReflaser.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</p></td>
 <td><p>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.destroy.html#pcdsdevices.device_types.TTReflaser.destroy" title="pcdsdevices.device_types.TTReflaser.destroy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">destroy</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.destroy.html#pcdsdevices.device_types.TTReflaser.destroy" title="pcdsdevices.device_types.TTReflaser.destroy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">destroy</span></code></a>()</p></td>
 <td><p>Disconnect and destroy all signals on the Device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.end_monitor_thread.html#pcdsdevices.device_types.TTReflaser.end_monitor_thread" title="pcdsdevices.device_types.TTReflaser.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.end_monitor_thread.html#pcdsdevices.device_types.TTReflaser.end_monitor_thread" title="pcdsdevices.device_types.TTReflaser.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
 <td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.camonitor.html#pcdsdevices.device_types.TTReflaser.camonitor" title="pcdsdevices.device_types.TTReflaser.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.wm_update.html#pcdsdevices.device_types.TTReflaser.wm_update" title="pcdsdevices.device_types.TTReflaser.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.get.html#pcdsdevices.device_types.TTReflaser.get" title="pcdsdevices.device_types.TTReflaser.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.get.html#pcdsdevices.device_types.TTReflaser.get" title="pcdsdevices.device_types.TTReflaser.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.get_device_tuple.html#pcdsdevices.device_types.TTReflaser.get_device_tuple" title="pcdsdevices.device_types.TTReflaser.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.get_device_tuple.html#pcdsdevices.device_types.TTReflaser.get_device_tuple" title="pcdsdevices.device_types.TTReflaser.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
 <td><p>The device tuple type associated with an Device class</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.get_instantiated_signals.html#pcdsdevices.device_types.TTReflaser.get_instantiated_signals" title="pcdsdevices.device_types.TTReflaser.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.get_instantiated_signals.html#pcdsdevices.device_types.TTReflaser.get_instantiated_signals" title="pcdsdevices.device_types.TTReflaser.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.get_state.html#pcdsdevices.device_types.TTReflaser.get_state" title="pcdsdevices.device_types.TTReflaser.get_state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_state</span></code></a>(value)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.get_state.html#pcdsdevices.device_types.TTReflaser.get_state" title="pcdsdevices.device_types.TTReflaser.get_state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_state</span></code></a>(value)</p></td>
 <td><p>Given an integer or string value, return the proper state entry.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.insert.html#pcdsdevices.device_types.TTReflaser.insert" title="pcdsdevices.device_types.TTReflaser.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb, timeout, wait])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.insert.html#pcdsdevices.device_types.TTReflaser.insert" title="pcdsdevices.device_types.TTReflaser.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb, timeout, wait])</p></td>
 <td><p>Moves this device to the first state on the <a class="reference internal" href="generated/pcdsdevices.inout.InOutPositioner.html#pcdsdevices.inout.InOutPositioner.in_states" title="pcdsdevices.inout.InOutPositioner.in_states"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">in_states</span></code></a> list.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.move.html#pcdsdevices.device_types.TTReflaser.move" title="pcdsdevices.device_types.TTReflaser.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, moved_cb, timeout, wait])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.move.html#pcdsdevices.device_types.TTReflaser.move" title="pcdsdevices.device_types.TTReflaser.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, moved_cb, timeout, wait])</p></td>
 <td><p>Move to the desired state and return completion information.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.mv.html#pcdsdevices.device_types.TTReflaser.mv" title="pcdsdevices.device_types.TTReflaser.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[, timeout, wait])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.mv.html#pcdsdevices.device_types.TTReflaser.mv" title="pcdsdevices.device_types.TTReflaser.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[, timeout, wait])</p></td>
 <td><p>Absolute move to a position.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.pause.html#pcdsdevices.device_types.TTReflaser.pause" title="pcdsdevices.device_types.TTReflaser.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.pause.html#pcdsdevices.device_types.TTReflaser.pause" title="pcdsdevices.device_types.TTReflaser.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
 <td><p>Attempt to ‘pause’ the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.put.html#pcdsdevices.device_types.TTReflaser.put" title="pcdsdevices.device_types.TTReflaser.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.put.html#pcdsdevices.device_types.TTReflaser.put" title="pcdsdevices.device_types.TTReflaser.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
 <td><p>Put a value to all components of the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.read.html#pcdsdevices.device_types.TTReflaser.read" title="pcdsdevices.device_types.TTReflaser.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.read.html#pcdsdevices.device_types.TTReflaser.read" title="pcdsdevices.device_types.TTReflaser.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
 <td><p>Read data from the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.read_configuration.html#pcdsdevices.device_types.TTReflaser.read_configuration" title="pcdsdevices.device_types.TTReflaser.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.read_configuration.html#pcdsdevices.device_types.TTReflaser.read_configuration" title="pcdsdevices.device_types.TTReflaser.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.remove.html#pcdsdevices.device_types.TTReflaser.remove" title="pcdsdevices.device_types.TTReflaser.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb, timeout, wait])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.remove.html#pcdsdevices.device_types.TTReflaser.remove" title="pcdsdevices.device_types.TTReflaser.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb, timeout, wait])</p></td>
 <td><p>Macro to move this device to the first state on the <a class="reference internal" href="generated/pcdsdevices.inout.InOutPositioner.html#pcdsdevices.inout.InOutPositioner.out_states" title="pcdsdevices.inout.InOutPositioner.out_states"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">out_states</span></code></a> list.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.resume.html#pcdsdevices.device_types.TTReflaser.resume" title="pcdsdevices.device_types.TTReflaser.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.resume.html#pcdsdevices.device_types.TTReflaser.resume" title="pcdsdevices.device_types.TTReflaser.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.set.html#pcdsdevices.device_types.TTReflaser.set" title="pcdsdevices.device_types.TTReflaser.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[, moved_cb, timeout])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.set.html#pcdsdevices.device_types.TTReflaser.set" title="pcdsdevices.device_types.TTReflaser.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[, moved_cb, timeout])</p></td>
 <td><p>Move to the desired state and return completion information.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.stage.html#pcdsdevices.device_types.TTReflaser.stage" title="pcdsdevices.device_types.TTReflaser.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.stage.html#pcdsdevices.device_types.TTReflaser.stage" title="pcdsdevices.device_types.TTReflaser.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
 <td><p>Stage the device for data collection.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.stop.html#pcdsdevices.device_types.TTReflaser.stop" title="pcdsdevices.device_types.TTReflaser.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.stop.html#pcdsdevices.device_types.TTReflaser.stop" title="pcdsdevices.device_types.TTReflaser.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.subscribe.html#pcdsdevices.device_types.TTReflaser.subscribe" title="pcdsdevices.device_types.TTReflaser.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[, event_type, run])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.subscribe.html#pcdsdevices.device_types.TTReflaser.subscribe" title="pcdsdevices.device_types.TTReflaser.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(cb[, event_type, run])</p></td>
 <td><p>Subscribe to events this event_type generates.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.summary.html#pcdsdevices.device_types.TTReflaser.summary" title="pcdsdevices.device_types.TTReflaser.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.summary.html#pcdsdevices.device_types.TTReflaser.summary" title="pcdsdevices.device_types.TTReflaser.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.trigger.html#pcdsdevices.device_types.TTReflaser.trigger" title="pcdsdevices.device_types.TTReflaser.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.trigger.html#pcdsdevices.device_types.TTReflaser.trigger" title="pcdsdevices.device_types.TTReflaser.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.unstage.html#pcdsdevices.device_types.TTReflaser.unstage" title="pcdsdevices.device_types.TTReflaser.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.unstage.html#pcdsdevices.device_types.TTReflaser.unstage" title="pcdsdevices.device_types.TTReflaser.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</p></td>
 <td><p>Unstage the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.unsubscribe.html#pcdsdevices.device_types.TTReflaser.unsubscribe" title="pcdsdevices.device_types.TTReflaser.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.unsubscribe.html#pcdsdevices.device_types.TTReflaser.unsubscribe" title="pcdsdevices.device_types.TTReflaser.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</p></td>
 <td><p>Remove a subscription</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.unsubscribe_all.html#pcdsdevices.device_types.TTReflaser.unsubscribe_all" title="pcdsdevices.device_types.TTReflaser.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.unsubscribe_all.html#pcdsdevices.device_types.TTReflaser.unsubscribe_all" title="pcdsdevices.device_types.TTReflaser.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.wait_for_connection.html#pcdsdevices.device_types.TTReflaser.wait_for_connection" title="pcdsdevices.device_types.TTReflaser.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals, timeout])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.wait_for_connection.html#pcdsdevices.device_types.TTReflaser.wait_for_connection" title="pcdsdevices.device_types.TTReflaser.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals, timeout])</p></td>
 <td><p>Wait for signals to connect</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.walk_components.html#pcdsdevices.device_types.TTReflaser.walk_components" title="pcdsdevices.device_types.TTReflaser.walk_components"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_components</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.walk_components.html#pcdsdevices.device_types.TTReflaser.walk_components" title="pcdsdevices.device_types.TTReflaser.walk_components"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_components</span></code></a>()</p></td>
 <td><p>Walk all components in the Device hierarchy</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.walk_signals.html#pcdsdevices.device_types.TTReflaser.walk_signals" title="pcdsdevices.device_types.TTReflaser.walk_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_signals</span></code></a>(*[, include_lazy])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.walk_signals.html#pcdsdevices.device_types.TTReflaser.walk_signals" title="pcdsdevices.device_types.TTReflaser.walk_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_signals</span></code></a>(*[, include_lazy])</p></td>
 <td><p>Walk all signals in the Device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.walk_subdevice_classes.html#pcdsdevices.device_types.TTReflaser.walk_subdevice_classes" title="pcdsdevices.device_types.TTReflaser.walk_subdevice_classes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevice_classes</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.walk_subdevice_classes.html#pcdsdevices.device_types.TTReflaser.walk_subdevice_classes" title="pcdsdevices.device_types.TTReflaser.walk_subdevice_classes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevice_classes</span></code></a>()</p></td>
 <td><p>Walk all sub-Devices classes in the Device hierarchy</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.walk_subdevices.html#pcdsdevices.device_types.TTReflaser.walk_subdevices" title="pcdsdevices.device_types.TTReflaser.walk_subdevices"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevices</span></code></a>(*[, include_lazy])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.walk_subdevices.html#pcdsdevices.device_types.TTReflaser.walk_subdevices" title="pcdsdevices.device_types.TTReflaser.walk_subdevices"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevices</span></code></a>(*[, include_lazy])</p></td>
 <td><p>Walk all sub-Devices in the hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.wm.html#pcdsdevices.device_types.TTReflaser.wm" title="pcdsdevices.device_types.TTReflaser.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.wm.html#pcdsdevices.device_types.TTReflaser.wm" title="pcdsdevices.device_types.TTReflaser.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.wm_update.html#pcdsdevices.device_types.TTReflaser.wm_update" title="pcdsdevices.device_types.TTReflaser.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.TTReflaser.wm_update.html#pcdsdevices.device_types.TTReflaser.wm_update" title="pcdsdevices.device_types.TTReflaser.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>

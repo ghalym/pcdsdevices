@@ -1,0 +1,6 @@
+pcdsdevices.slits.BadSlitPositionerBase.camonitor
+=================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BadSlitPositionerBase.camonitor

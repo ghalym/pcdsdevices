@@ -1,0 +1,6 @@
+pcdsdevices.slits.LusiSlits.get\_instantiated\_signals
+======================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: LusiSlits.get_instantiated_signals

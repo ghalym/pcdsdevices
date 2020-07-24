@@ -1,0 +1,6 @@
+pcdsdevices.signal.InternalSignal.check\_value
+==============================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: InternalSignal.check_value

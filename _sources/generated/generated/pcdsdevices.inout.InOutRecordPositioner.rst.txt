@@ -15,6 +15,9 @@ pcdsdevices.inout.InOutRecordPositioner
       ~InOutRecordPositioner.__init__
       ~InOutRecordPositioner.add_instantiation_callback
       ~InOutRecordPositioner.camonitor
+      ~InOutRecordPositioner.check_inserted
+      ~InOutRecordPositioner.check_removed
+      ~InOutRecordPositioner.check_transmission
       ~InOutRecordPositioner.check_value
       ~InOutRecordPositioner.clear_sub
       ~InOutRecordPositioner.configure

@@ -1,0 +1,6 @@
+pcdsdevices.signal.InternalSignal.wait\_for\_connection
+=======================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: InternalSignal.wait_for_connection

@@ -1,0 +1,6 @@
+pcdsdevices.slits.BeckhoffSlitPositioner.read\_configuration
+============================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BeckhoffSlitPositioner.read_configuration

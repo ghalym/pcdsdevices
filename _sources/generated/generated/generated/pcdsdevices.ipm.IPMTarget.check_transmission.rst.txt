@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMTarget.check\_transmission
+=============================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMTarget.check_transmission

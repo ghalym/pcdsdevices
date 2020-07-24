@@ -1,0 +1,6 @@
+pcdsdevices.signal.NotImplementedSignal.clear\_sub
+==================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: NotImplementedSignal.clear_sub

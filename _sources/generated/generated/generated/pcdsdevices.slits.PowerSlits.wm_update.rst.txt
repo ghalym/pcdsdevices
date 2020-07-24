@@ -1,0 +1,6 @@
+pcdsdevices.slits.PowerSlits.wm\_update
+=======================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: PowerSlits.wm_update

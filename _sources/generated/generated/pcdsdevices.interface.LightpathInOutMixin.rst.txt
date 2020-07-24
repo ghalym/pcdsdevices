@@ -1,0 +1,47 @@
+pcdsdevices.interface.LightpathInOutMixin
+=========================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. autoclass:: LightpathInOutMixin
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~LightpathInOutMixin.__init__
+      ~LightpathInOutMixin.add_instantiation_callback
+      ~LightpathInOutMixin.check_value
+      ~LightpathInOutMixin.clear_sub
+      ~LightpathInOutMixin.destroy
+      ~LightpathInOutMixin.subscribe
+      ~LightpathInOutMixin.unsubscribe
+      ~LightpathInOutMixin.unsubscribe_all
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~LightpathInOutMixin.SUB_STATE
+      ~LightpathInOutMixin.attr_name
+      ~LightpathInOutMixin.connected
+      ~LightpathInOutMixin.dotted_name
+      ~LightpathInOutMixin.event_types
+      ~LightpathInOutMixin.inserted
+      ~LightpathInOutMixin.kind
+      ~LightpathInOutMixin.lightpath_cpts
+      ~LightpathInOutMixin.name
+      ~LightpathInOutMixin.parent
+      ~LightpathInOutMixin.removed
+      ~LightpathInOutMixin.report
+      ~LightpathInOutMixin.root
+      ~LightpathInOutMixin.transmission
+   
+   

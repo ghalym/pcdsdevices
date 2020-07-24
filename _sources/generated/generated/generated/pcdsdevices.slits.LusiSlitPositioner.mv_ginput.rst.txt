@@ -1,0 +1,6 @@
+pcdsdevices.slits.LusiSlitPositioner.mv\_ginput
+===============================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: LusiSlitPositioner.mv_ginput
