@@ -1,0 +1,78 @@
+pcdsdevices.attenuator.AttenuatorCalculatorFilter
+=================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. autoclass:: AttenuatorCalculatorFilter
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~AttenuatorCalculatorFilter.__init__
+      ~AttenuatorCalculatorFilter.add_instantiation_callback
+      ~AttenuatorCalculatorFilter.check_value
+      ~AttenuatorCalculatorFilter.clear_sub
+      ~AttenuatorCalculatorFilter.configure
+      ~AttenuatorCalculatorFilter.describe
+      ~AttenuatorCalculatorFilter.describe_configuration
+      ~AttenuatorCalculatorFilter.destroy
+      ~AttenuatorCalculatorFilter.get
+      ~AttenuatorCalculatorFilter.get_device_tuple
+      ~AttenuatorCalculatorFilter.get_instantiated_signals
+      ~AttenuatorCalculatorFilter.pause
+      ~AttenuatorCalculatorFilter.put
+      ~AttenuatorCalculatorFilter.read
+      ~AttenuatorCalculatorFilter.read_configuration
+      ~AttenuatorCalculatorFilter.resume
+      ~AttenuatorCalculatorFilter.stage
+      ~AttenuatorCalculatorFilter.stop
+      ~AttenuatorCalculatorFilter.subscribe
+      ~AttenuatorCalculatorFilter.summary
+      ~AttenuatorCalculatorFilter.trigger
+      ~AttenuatorCalculatorFilter.unstage
+      ~AttenuatorCalculatorFilter.unsubscribe
+      ~AttenuatorCalculatorFilter.unsubscribe_all
+      ~AttenuatorCalculatorFilter.wait_for_connection
+      ~AttenuatorCalculatorFilter.walk_components
+      ~AttenuatorCalculatorFilter.walk_signals
+      ~AttenuatorCalculatorFilter.walk_subdevice_classes
+      ~AttenuatorCalculatorFilter.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~AttenuatorCalculatorFilter.SUB_ACQ_DONE
+      ~AttenuatorCalculatorFilter.attr_name
+      ~AttenuatorCalculatorFilter.closest_energy
+      ~AttenuatorCalculatorFilter.component_names
+      ~AttenuatorCalculatorFilter.configuration_attrs
+      ~AttenuatorCalculatorFilter.connected
+      ~AttenuatorCalculatorFilter.dotted_name
+      ~AttenuatorCalculatorFilter.event_types
+      ~AttenuatorCalculatorFilter.hints
+      ~AttenuatorCalculatorFilter.is_stuck
+      ~AttenuatorCalculatorFilter.kind
+      ~AttenuatorCalculatorFilter.lazy_wait_for_connection
+      ~AttenuatorCalculatorFilter.material
+      ~AttenuatorCalculatorFilter.name
+      ~AttenuatorCalculatorFilter.parent
+      ~AttenuatorCalculatorFilter.read_attrs
+      ~AttenuatorCalculatorFilter.report
+      ~AttenuatorCalculatorFilter.root
+      ~AttenuatorCalculatorFilter.signal_names
+      ~AttenuatorCalculatorFilter.tab_whitelist
+      ~AttenuatorCalculatorFilter.thickness
+      ~AttenuatorCalculatorFilter.transmission
+      ~AttenuatorCalculatorFilter.transmission_3omega
+      ~AttenuatorCalculatorFilter.trigger_signals
+   
+   

@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttenuatorCalculatorFilter.subscribe
+===========================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttenuatorCalculatorFilter.subscribe

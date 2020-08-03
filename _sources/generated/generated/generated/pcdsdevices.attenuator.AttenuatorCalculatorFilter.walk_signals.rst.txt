@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttenuatorCalculatorFilter.walk\_signals
+===============================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttenuatorCalculatorFilter.walk_signals

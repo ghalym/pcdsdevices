@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttenuatorCalculator\_AT2L0.get\_best\_config
+====================================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttenuatorCalculator_AT2L0.get_best_config

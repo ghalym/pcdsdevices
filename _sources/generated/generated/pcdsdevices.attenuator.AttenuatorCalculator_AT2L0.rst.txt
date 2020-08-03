@@ -1,0 +1,95 @@
+pcdsdevices.attenuator.AttenuatorCalculator\_AT2L0
+==================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. autoclass:: AttenuatorCalculator_AT2L0
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~AttenuatorCalculator_AT2L0.__init__
+      ~AttenuatorCalculator_AT2L0.add_instantiation_callback
+      ~AttenuatorCalculator_AT2L0.calculate
+      ~AttenuatorCalculator_AT2L0.check_value
+      ~AttenuatorCalculator_AT2L0.clear_sub
+      ~AttenuatorCalculator_AT2L0.configure
+      ~AttenuatorCalculator_AT2L0.describe
+      ~AttenuatorCalculator_AT2L0.describe_configuration
+      ~AttenuatorCalculator_AT2L0.destroy
+      ~AttenuatorCalculator_AT2L0.get
+      ~AttenuatorCalculator_AT2L0.get_active_config
+      ~AttenuatorCalculator_AT2L0.get_best_config
+      ~AttenuatorCalculator_AT2L0.get_device_tuple
+      ~AttenuatorCalculator_AT2L0.get_instantiated_signals
+      ~AttenuatorCalculator_AT2L0.get_moving_status
+      ~AttenuatorCalculator_AT2L0.pause
+      ~AttenuatorCalculator_AT2L0.put
+      ~AttenuatorCalculator_AT2L0.read
+      ~AttenuatorCalculator_AT2L0.read_configuration
+      ~AttenuatorCalculator_AT2L0.resume
+      ~AttenuatorCalculator_AT2L0.stage
+      ~AttenuatorCalculator_AT2L0.stop
+      ~AttenuatorCalculator_AT2L0.subscribe
+      ~AttenuatorCalculator_AT2L0.summary
+      ~AttenuatorCalculator_AT2L0.trigger
+      ~AttenuatorCalculator_AT2L0.unstage
+      ~AttenuatorCalculator_AT2L0.unsubscribe
+      ~AttenuatorCalculator_AT2L0.unsubscribe_all
+      ~AttenuatorCalculator_AT2L0.wait_for_connection
+      ~AttenuatorCalculator_AT2L0.walk_components
+      ~AttenuatorCalculator_AT2L0.walk_signals
+      ~AttenuatorCalculator_AT2L0.walk_subdevice_classes
+      ~AttenuatorCalculator_AT2L0.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~AttenuatorCalculator_AT2L0.SUB_ACQ_DONE
+      ~AttenuatorCalculator_AT2L0.active_config_bitmask
+      ~AttenuatorCalculator_AT2L0.actual_transmission
+      ~AttenuatorCalculator_AT2L0.actual_transmission_3omega
+      ~AttenuatorCalculator_AT2L0.apply_config
+      ~AttenuatorCalculator_AT2L0.attr_name
+      ~AttenuatorCalculator_AT2L0.best_config_bitmask
+      ~AttenuatorCalculator_AT2L0.best_config_error
+      ~AttenuatorCalculator_AT2L0.calc_mode
+      ~AttenuatorCalculator_AT2L0.component_names
+      ~AttenuatorCalculator_AT2L0.configuration_attrs
+      ~AttenuatorCalculator_AT2L0.connected
+      ~AttenuatorCalculator_AT2L0.desired_transmission
+      ~AttenuatorCalculator_AT2L0.dotted_name
+      ~AttenuatorCalculator_AT2L0.energy_actual
+      ~AttenuatorCalculator_AT2L0.energy_custom
+      ~AttenuatorCalculator_AT2L0.energy_source
+      ~AttenuatorCalculator_AT2L0.event_types
+      ~AttenuatorCalculator_AT2L0.filters
+      ~AttenuatorCalculator_AT2L0.filters_moving_bitmask
+      ~AttenuatorCalculator_AT2L0.first_filter
+      ~AttenuatorCalculator_AT2L0.hints
+      ~AttenuatorCalculator_AT2L0.kind
+      ~AttenuatorCalculator_AT2L0.last_energy
+      ~AttenuatorCalculator_AT2L0.lazy_wait_for_connection
+      ~AttenuatorCalculator_AT2L0.moving
+      ~AttenuatorCalculator_AT2L0.name
+      ~AttenuatorCalculator_AT2L0.num_filters
+      ~AttenuatorCalculator_AT2L0.parent
+      ~AttenuatorCalculator_AT2L0.read_attrs
+      ~AttenuatorCalculator_AT2L0.report
+      ~AttenuatorCalculator_AT2L0.root
+      ~AttenuatorCalculator_AT2L0.run_calculation
+      ~AttenuatorCalculator_AT2L0.signal_names
+      ~AttenuatorCalculator_AT2L0.tab_component_names
+      ~AttenuatorCalculator_AT2L0.tab_whitelist
+      ~AttenuatorCalculator_AT2L0.trigger_signals
+   
+   
