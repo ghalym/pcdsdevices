@@ -1,0 +1,130 @@
+pcdsdevices.epics\_motor.SmarAct
+================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. autoclass:: SmarAct
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~SmarAct.__init__
+      ~SmarAct.add_instantiation_callback
+      ~SmarAct.camonitor
+      ~SmarAct.check_value
+      ~SmarAct.clear_sub
+      ~SmarAct.configure
+      ~SmarAct.describe
+      ~SmarAct.describe_configuration
+      ~SmarAct.destroy
+      ~SmarAct.disable
+      ~SmarAct.enable
+      ~SmarAct.end_monitor_thread
+      ~SmarAct.get
+      ~SmarAct.get_device_tuple
+      ~SmarAct.get_instantiated_signals
+      ~SmarAct.get_lim
+      ~SmarAct.home
+      ~SmarAct.move
+      ~SmarAct.mv
+      ~SmarAct.mv_ginput
+      ~SmarAct.mvr
+      ~SmarAct.pause
+      ~SmarAct.put
+      ~SmarAct.read
+      ~SmarAct.read_configuration
+      ~SmarAct.resume
+      ~SmarAct.screen
+      ~SmarAct.set
+      ~SmarAct.set_current_position
+      ~SmarAct.set_lim
+      ~SmarAct.spg_go
+      ~SmarAct.spg_pause
+      ~SmarAct.spg_stop
+      ~SmarAct.stage
+      ~SmarAct.stop
+      ~SmarAct.subscribe
+      ~SmarAct.summary
+      ~SmarAct.trigger
+      ~SmarAct.tweak
+      ~SmarAct.umv
+      ~SmarAct.umvr
+      ~SmarAct.unstage
+      ~SmarAct.unsubscribe
+      ~SmarAct.unsubscribe_all
+      ~SmarAct.wait_for_connection
+      ~SmarAct.walk_components
+      ~SmarAct.walk_signals
+      ~SmarAct.walk_subdevice_classes
+      ~SmarAct.walk_subdevices
+      ~SmarAct.wm
+      ~SmarAct.wm_update
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~SmarAct.SUB_ACQ_DONE
+      ~SmarAct.SUB_DONE
+      ~SmarAct.SUB_READBACK
+      ~SmarAct.SUB_START
+      ~SmarAct.acceleration
+      ~SmarAct.attr_name
+      ~SmarAct.component_names
+      ~SmarAct.configuration_attrs
+      ~SmarAct.connected
+      ~SmarAct.description
+      ~SmarAct.direction_of_travel
+      ~SmarAct.disabled
+      ~SmarAct.dotted_name
+      ~SmarAct.egu
+      ~SmarAct.event_types
+      ~SmarAct.high_limit
+      ~SmarAct.high_limit_switch
+      ~SmarAct.high_limit_travel
+      ~SmarAct.hints
+      ~SmarAct.home_forward
+      ~SmarAct.home_reverse
+      ~SmarAct.kind
+      ~SmarAct.lazy_wait_for_connection
+      ~SmarAct.limits
+      ~SmarAct.low_limit
+      ~SmarAct.low_limit_switch
+      ~SmarAct.low_limit_travel
+      ~SmarAct.motor_done_move
+      ~SmarAct.motor_egu
+      ~SmarAct.motor_is_moving
+      ~SmarAct.motor_spg
+      ~SmarAct.motor_stop
+      ~SmarAct.moving
+      ~SmarAct.name
+      ~SmarAct.offset_freeze_switch
+      ~SmarAct.parent
+      ~SmarAct.position
+      ~SmarAct.precision
+      ~SmarAct.presets
+      ~SmarAct.read_attrs
+      ~SmarAct.report
+      ~SmarAct.root
+      ~SmarAct.set_use_switch
+      ~SmarAct.settle_time
+      ~SmarAct.signal_names
+      ~SmarAct.tab_whitelist
+      ~SmarAct.timeout
+      ~SmarAct.tolerated_alarm
+      ~SmarAct.trigger_signals
+      ~SmarAct.user_offset
+      ~SmarAct.user_offset_dir
+      ~SmarAct.user_readback
+      ~SmarAct.user_setpoint
+      ~SmarAct.velocity
+   
+   

@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.SmarAct.subscribe
+==========================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: SmarAct.subscribe

@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.SmarActOpenLoop.describe
+=================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: SmarActOpenLoop.describe

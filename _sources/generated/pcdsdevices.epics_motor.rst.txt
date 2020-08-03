@@ -29,6 +29,8 @@ pcdsdevices.epics\_motor
       Newport
       PCDSMotorBase
       PMC100
+      SmarAct
+      SmarActOpenLoop
    
    
 

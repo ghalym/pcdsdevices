@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.SmarActOpenLoop.get\_instantiated\_signals
+===================================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: SmarActOpenLoop.get_instantiated_signals

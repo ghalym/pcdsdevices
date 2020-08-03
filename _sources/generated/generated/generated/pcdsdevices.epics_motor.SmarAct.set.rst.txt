@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.SmarAct.set
+====================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: SmarAct.set

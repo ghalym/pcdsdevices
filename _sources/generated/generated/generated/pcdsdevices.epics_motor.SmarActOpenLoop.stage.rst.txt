@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.SmarActOpenLoop.stage
+==============================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: SmarActOpenLoop.stage

@@ -1,0 +1,80 @@
+pcdsdevices.epics\_motor.SmarActOpenLoop
+========================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. autoclass:: SmarActOpenLoop
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~SmarActOpenLoop.__init__
+      ~SmarActOpenLoop.add_instantiation_callback
+      ~SmarActOpenLoop.check_value
+      ~SmarActOpenLoop.clear_sub
+      ~SmarActOpenLoop.configure
+      ~SmarActOpenLoop.describe
+      ~SmarActOpenLoop.describe_configuration
+      ~SmarActOpenLoop.destroy
+      ~SmarActOpenLoop.get
+      ~SmarActOpenLoop.get_device_tuple
+      ~SmarActOpenLoop.get_instantiated_signals
+      ~SmarActOpenLoop.pause
+      ~SmarActOpenLoop.put
+      ~SmarActOpenLoop.read
+      ~SmarActOpenLoop.read_configuration
+      ~SmarActOpenLoop.resume
+      ~SmarActOpenLoop.stage
+      ~SmarActOpenLoop.stop
+      ~SmarActOpenLoop.subscribe
+      ~SmarActOpenLoop.summary
+      ~SmarActOpenLoop.trigger
+      ~SmarActOpenLoop.unstage
+      ~SmarActOpenLoop.unsubscribe
+      ~SmarActOpenLoop.unsubscribe_all
+      ~SmarActOpenLoop.wait_for_connection
+      ~SmarActOpenLoop.walk_components
+      ~SmarActOpenLoop.walk_signals
+      ~SmarActOpenLoop.walk_subdevice_classes
+      ~SmarActOpenLoop.walk_subdevices
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~SmarActOpenLoop.SUB_ACQ_DONE
+      ~SmarActOpenLoop.attr_name
+      ~SmarActOpenLoop.component_names
+      ~SmarActOpenLoop.configuration_attrs
+      ~SmarActOpenLoop.connected
+      ~SmarActOpenLoop.dotted_name
+      ~SmarActOpenLoop.event_types
+      ~SmarActOpenLoop.hints
+      ~SmarActOpenLoop.jog_fwd
+      ~SmarActOpenLoop.jog_rev
+      ~SmarActOpenLoop.jog_step_size
+      ~SmarActOpenLoop.kind
+      ~SmarActOpenLoop.lazy_wait_for_connection
+      ~SmarActOpenLoop.name
+      ~SmarActOpenLoop.parent
+      ~SmarActOpenLoop.read_attrs
+      ~SmarActOpenLoop.report
+      ~SmarActOpenLoop.root
+      ~SmarActOpenLoop.scan_move_cmd
+      ~SmarActOpenLoop.scan_pos
+      ~SmarActOpenLoop.signal_names
+      ~SmarActOpenLoop.step_clear_cmd
+      ~SmarActOpenLoop.step_freq
+      ~SmarActOpenLoop.step_voltage
+      ~SmarActOpenLoop.total_step_count
+      ~SmarActOpenLoop.trigger_signals
+   
+   

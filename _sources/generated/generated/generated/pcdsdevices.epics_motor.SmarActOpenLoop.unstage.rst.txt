@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.SmarActOpenLoop.unstage
+================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: SmarActOpenLoop.unstage
