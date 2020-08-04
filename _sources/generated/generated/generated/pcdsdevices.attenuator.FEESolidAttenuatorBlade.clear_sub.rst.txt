@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.FEESolidAttenuatorBlade.clear\_sub
+=========================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: FEESolidAttenuatorBlade.clear_sub

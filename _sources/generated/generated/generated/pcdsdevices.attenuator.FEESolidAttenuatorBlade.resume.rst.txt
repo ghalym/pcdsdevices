@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.FEESolidAttenuatorBlade.resume
+=====================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: FEESolidAttenuatorBlade.resume

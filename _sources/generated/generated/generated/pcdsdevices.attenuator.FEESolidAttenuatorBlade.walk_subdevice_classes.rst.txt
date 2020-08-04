@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.FEESolidAttenuatorBlade.walk\_subdevice\_classes
+=======================================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: FEESolidAttenuatorBlade.walk_subdevice_classes

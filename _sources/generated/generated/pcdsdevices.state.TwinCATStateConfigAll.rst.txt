@@ -71,16 +71,6 @@ pcdsdevices.state.TwinCATStateConfigAll
       ~TwinCATStateConfigAll.state03
       ~TwinCATStateConfigAll.state04
       ~TwinCATStateConfigAll.state05
-      ~TwinCATStateConfigAll.state06
-      ~TwinCATStateConfigAll.state07
-      ~TwinCATStateConfigAll.state08
-      ~TwinCATStateConfigAll.state09
-      ~TwinCATStateConfigAll.state10
-      ~TwinCATStateConfigAll.state11
-      ~TwinCATStateConfigAll.state12
-      ~TwinCATStateConfigAll.state13
-      ~TwinCATStateConfigAll.state14
-      ~TwinCATStateConfigAll.state15
       ~TwinCATStateConfigAll.trigger_signals
    
    

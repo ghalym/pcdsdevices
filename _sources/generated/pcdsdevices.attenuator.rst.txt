@@ -27,6 +27,7 @@ pcdsdevices.attenuator
       AttenuatorCalculatorFilter
       AttenuatorCalculator_AT2L0
       FEESolidAttenuator
+      FEESolidAttenuatorBlade
       FeeAtt
       FeeFilter
       Filter
