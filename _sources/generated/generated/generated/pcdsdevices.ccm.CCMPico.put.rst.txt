@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMPico.put
+===========================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMPico.put

@@ -29,6 +29,7 @@ pcdsdevices.ccm
       CCM
       CCMCalc
       CCMMotor
+      CCMPico
       CCMX
       CCMY
    

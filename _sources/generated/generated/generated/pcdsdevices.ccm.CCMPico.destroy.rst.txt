@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMPico.destroy
+===============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMPico.destroy

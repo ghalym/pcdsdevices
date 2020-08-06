@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMPico.stage
+=============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMPico.stage

@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMPico.subscribe
+=================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMPico.subscribe

@@ -70,6 +70,7 @@ pcdsdevices.ccm.CCM
       ~CCM.SUB_STATE
       ~CCM.attr_name
       ~CCM.calc
+      ~CCM.chi2
       ~CCM.component_names
       ~CCM.configuration_attrs
       ~CCM.connected
@@ -99,6 +100,7 @@ pcdsdevices.ccm.CCM
       ~CCM.states_list
       ~CCM.tab_component_names
       ~CCM.tab_whitelist
+      ~CCM.theta2coarse
       ~CCM.theta2fine
       ~CCM.timeout
       ~CCM.transmission

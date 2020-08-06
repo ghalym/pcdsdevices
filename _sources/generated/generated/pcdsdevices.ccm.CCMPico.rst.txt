@@ -1,0 +1,125 @@
+pcdsdevices.ccm.CCMPico
+=======================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. autoclass:: CCMPico
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~CCMPico.__init__
+      ~CCMPico.add_instantiation_callback
+      ~CCMPico.camonitor
+      ~CCMPico.check_value
+      ~CCMPico.clear_sub
+      ~CCMPico.configure
+      ~CCMPico.describe
+      ~CCMPico.describe_configuration
+      ~CCMPico.destroy
+      ~CCMPico.disable
+      ~CCMPico.enable
+      ~CCMPico.end_monitor_thread
+      ~CCMPico.get
+      ~CCMPico.get_device_tuple
+      ~CCMPico.get_instantiated_signals
+      ~CCMPico.get_lim
+      ~CCMPico.home
+      ~CCMPico.move
+      ~CCMPico.mv
+      ~CCMPico.mv_ginput
+      ~CCMPico.mvr
+      ~CCMPico.pause
+      ~CCMPico.put
+      ~CCMPico.read
+      ~CCMPico.read_configuration
+      ~CCMPico.resume
+      ~CCMPico.set
+      ~CCMPico.set_current_position
+      ~CCMPico.set_lim
+      ~CCMPico.stage
+      ~CCMPico.stop
+      ~CCMPico.subscribe
+      ~CCMPico.summary
+      ~CCMPico.trigger
+      ~CCMPico.tweak
+      ~CCMPico.umv
+      ~CCMPico.umvr
+      ~CCMPico.unstage
+      ~CCMPico.unsubscribe
+      ~CCMPico.unsubscribe_all
+      ~CCMPico.wait_for_connection
+      ~CCMPico.walk_components
+      ~CCMPico.walk_signals
+      ~CCMPico.walk_subdevice_classes
+      ~CCMPico.walk_subdevices
+      ~CCMPico.wm
+      ~CCMPico.wm_update
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~CCMPico.SUB_ACQ_DONE
+      ~CCMPico.SUB_DONE
+      ~CCMPico.SUB_READBACK
+      ~CCMPico.SUB_START
+      ~CCMPico.acceleration
+      ~CCMPico.attr_name
+      ~CCMPico.component_names
+      ~CCMPico.configuration_attrs
+      ~CCMPico.connected
+      ~CCMPico.description
+      ~CCMPico.direction_of_travel
+      ~CCMPico.disabled
+      ~CCMPico.dotted_name
+      ~CCMPico.egu
+      ~CCMPico.event_types
+      ~CCMPico.high_limit
+      ~CCMPico.high_limit_switch
+      ~CCMPico.high_limit_travel
+      ~CCMPico.hints
+      ~CCMPico.home_forward
+      ~CCMPico.home_reverse
+      ~CCMPico.kind
+      ~CCMPico.lazy_wait_for_connection
+      ~CCMPico.limits
+      ~CCMPico.low_limit
+      ~CCMPico.low_limit_switch
+      ~CCMPico.low_limit_travel
+      ~CCMPico.motor_done_move
+      ~CCMPico.motor_egu
+      ~CCMPico.motor_is_moving
+      ~CCMPico.motor_stop
+      ~CCMPico.moving
+      ~CCMPico.name
+      ~CCMPico.offset_freeze_switch
+      ~CCMPico.parent
+      ~CCMPico.position
+      ~CCMPico.precision
+      ~CCMPico.presets
+      ~CCMPico.read_attrs
+      ~CCMPico.report
+      ~CCMPico.root
+      ~CCMPico.set_use_switch
+      ~CCMPico.settle_time
+      ~CCMPico.signal_names
+      ~CCMPico.tab_whitelist
+      ~CCMPico.timeout
+      ~CCMPico.tolerated_alarm
+      ~CCMPico.trigger_signals
+      ~CCMPico.user_offset
+      ~CCMPico.user_offset_dir
+      ~CCMPico.user_readback
+      ~CCMPico.user_setpoint
+      ~CCMPico.velocity
+   
+   

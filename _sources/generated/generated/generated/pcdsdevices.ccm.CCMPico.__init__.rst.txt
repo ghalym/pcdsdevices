@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMPico.\_\_init\_\_
+====================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMPico.__init__

@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMPico.get\_instantiated\_signals
+==================================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMPico.get_instantiated_signals

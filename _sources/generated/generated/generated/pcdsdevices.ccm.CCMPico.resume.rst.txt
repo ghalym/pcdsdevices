@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMPico.resume
+==============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMPico.resume

@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMPico.walk\_subdevices
+========================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMPico.walk_subdevices

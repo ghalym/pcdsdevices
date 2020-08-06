@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMPico.wait\_for\_connection
+=============================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMPico.wait_for_connection
