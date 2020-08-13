@@ -20,6 +20,7 @@ pcdsdevices.mirror.XOffsetMirror
       ~XOffsetMirror.describe
       ~XOffsetMirror.describe_configuration
       ~XOffsetMirror.destroy
+      ~XOffsetMirror.format_status_info
       ~XOffsetMirror.get
       ~XOffsetMirror.get_device_tuple
       ~XOffsetMirror.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.mirror.XOffsetMirror
       ~XOffsetMirror.read_configuration
       ~XOffsetMirror.resume
       ~XOffsetMirror.stage
+      ~XOffsetMirror.status_info
       ~XOffsetMirror.stop
       ~XOffsetMirror.subscribe
       ~XOffsetMirror.summary

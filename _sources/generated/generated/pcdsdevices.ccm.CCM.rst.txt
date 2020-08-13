@@ -25,6 +25,7 @@ pcdsdevices.ccm.CCM
       ~CCM.describe_configuration
       ~CCM.destroy
       ~CCM.end_monitor_thread
+      ~CCM.format_status_info
       ~CCM.get
       ~CCM.get_device_tuple
       ~CCM.get_instantiated_signals
@@ -40,6 +41,7 @@ pcdsdevices.ccm.CCM
       ~CCM.resume
       ~CCM.set
       ~CCM.stage
+      ~CCM.status_info
       ~CCM.stop
       ~CCM.subscribe
       ~CCM.summary

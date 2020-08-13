@@ -25,6 +25,7 @@ pcdsdevices.lens.Prefocus
       ~Prefocus.describe_configuration
       ~Prefocus.destroy
       ~Prefocus.end_monitor_thread
+      ~Prefocus.format_status_info
       ~Prefocus.get
       ~Prefocus.get_device_tuple
       ~Prefocus.get_instantiated_signals
@@ -40,6 +41,7 @@ pcdsdevices.lens.Prefocus
       ~Prefocus.resume
       ~Prefocus.set
       ~Prefocus.stage
+      ~Prefocus.status_info
       ~Prefocus.stop
       ~Prefocus.subscribe
       ~Prefocus.summary

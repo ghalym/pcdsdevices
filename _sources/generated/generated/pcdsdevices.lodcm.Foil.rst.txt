@@ -25,6 +25,7 @@ pcdsdevices.lodcm.Foil
       ~Foil.describe_configuration
       ~Foil.destroy
       ~Foil.end_monitor_thread
+      ~Foil.format_status_info
       ~Foil.get
       ~Foil.get_device_tuple
       ~Foil.get_instantiated_signals
@@ -40,6 +41,7 @@ pcdsdevices.lodcm.Foil
       ~Foil.resume
       ~Foil.set
       ~Foil.stage
+      ~Foil.status_info
       ~Foil.stop
       ~Foil.subscribe
       ~Foil.summary

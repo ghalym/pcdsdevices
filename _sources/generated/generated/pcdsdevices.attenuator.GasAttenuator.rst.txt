@@ -20,6 +20,7 @@ pcdsdevices.attenuator.GasAttenuator
       ~GasAttenuator.describe
       ~GasAttenuator.describe_configuration
       ~GasAttenuator.destroy
+      ~GasAttenuator.format_status_info
       ~GasAttenuator.get
       ~GasAttenuator.get_device_tuple
       ~GasAttenuator.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.attenuator.GasAttenuator
       ~GasAttenuator.read_configuration
       ~GasAttenuator.resume
       ~GasAttenuator.stage
+      ~GasAttenuator.status_info
       ~GasAttenuator.stop
       ~GasAttenuator.subscribe
       ~GasAttenuator.summary

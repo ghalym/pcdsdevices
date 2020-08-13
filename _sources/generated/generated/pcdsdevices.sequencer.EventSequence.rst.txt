@@ -20,6 +20,7 @@ pcdsdevices.sequencer.EventSequence
       ~EventSequence.describe
       ~EventSequence.describe_configuration
       ~EventSequence.destroy
+      ~EventSequence.format_status_info
       ~EventSequence.get
       ~EventSequence.get_device_tuple
       ~EventSequence.get_instantiated_signals
@@ -32,6 +33,7 @@ pcdsdevices.sequencer.EventSequence
       ~EventSequence.resume
       ~EventSequence.show
       ~EventSequence.stage
+      ~EventSequence.status_info
       ~EventSequence.stop
       ~EventSequence.subscribe
       ~EventSequence.summary

@@ -24,6 +24,7 @@ pcdsdevices.epics\_motor.SmarAct
       ~SmarAct.disable
       ~SmarAct.enable
       ~SmarAct.end_monitor_thread
+      ~SmarAct.format_status_info
       ~SmarAct.get
       ~SmarAct.get_device_tuple
       ~SmarAct.get_instantiated_signals
@@ -46,6 +47,7 @@ pcdsdevices.epics\_motor.SmarAct
       ~SmarAct.spg_pause
       ~SmarAct.spg_stop
       ~SmarAct.stage
+      ~SmarAct.status_info
       ~SmarAct.stop
       ~SmarAct.subscribe
       ~SmarAct.summary

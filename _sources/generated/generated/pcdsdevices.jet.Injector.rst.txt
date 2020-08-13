@@ -20,6 +20,7 @@ pcdsdevices.jet.Injector
       ~Injector.describe
       ~Injector.describe_configuration
       ~Injector.destroy
+      ~Injector.format_status_info
       ~Injector.get
       ~Injector.get_device_tuple
       ~Injector.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.jet.Injector
       ~Injector.read_configuration
       ~Injector.resume
       ~Injector.stage
+      ~Injector.status_info
       ~Injector.stop
       ~Injector.subscribe
       ~Injector.summary

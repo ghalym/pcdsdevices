@@ -1,0 +1,6 @@
+pcdsdevices.gon.BaseGon.format\_status\_info
+============================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: BaseGon.format_status_info

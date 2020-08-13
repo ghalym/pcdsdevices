@@ -25,6 +25,7 @@ pcdsdevices.ipm.IPMTarget
       ~IPMTarget.describe_configuration
       ~IPMTarget.destroy
       ~IPMTarget.end_monitor_thread
+      ~IPMTarget.format_status_info
       ~IPMTarget.get
       ~IPMTarget.get_device_tuple
       ~IPMTarget.get_instantiated_signals
@@ -40,6 +41,7 @@ pcdsdevices.ipm.IPMTarget
       ~IPMTarget.resume
       ~IPMTarget.set
       ~IPMTarget.stage
+      ~IPMTarget.status_info
       ~IPMTarget.stop
       ~IPMTarget.subscribe
       ~IPMTarget.summary

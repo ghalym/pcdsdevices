@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.IMS.format\_status\_info
+=================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: IMS.format_status_info

@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.mirror.Pitch &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.mirror.Pitch &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -137,6 +137,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.describe_configuration.html">pcdsdevices.mirror.Pitch.describe_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.destroy.html">pcdsdevices.mirror.Pitch.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.end_monitor_thread.html">pcdsdevices.mirror.Pitch.end_monitor_thread</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.format_status_info.html">pcdsdevices.mirror.Pitch.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.get.html">pcdsdevices.mirror.Pitch.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.get_device_tuple.html">pcdsdevices.mirror.Pitch.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.get_instantiated_signals.html">pcdsdevices.mirror.Pitch.get_instantiated_signals</a></li>
@@ -151,6 +152,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.resume.html">pcdsdevices.mirror.Pitch.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.set.html">pcdsdevices.mirror.Pitch.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.stage.html">pcdsdevices.mirror.Pitch.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.status_info.html">pcdsdevices.mirror.Pitch.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.stop.html">pcdsdevices.mirror.Pitch.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.subscribe.html">pcdsdevices.mirror.Pitch.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.summary.html">pcdsdevices.mirror.Pitch.summary</a></li>
@@ -272,10 +274,10 @@ this is reflected in the PV naming.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The EPICS PV prefix for this motor.</p></li>
-<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – An identifying name for this motor.</p></li>
-<li><p><strong>settle_time</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a><em>, </em><em>optional</em>) – The amount of extra time to wait before interpreting a move as done.</p></li>
-<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a><em>, </em><em>optional</em>) – The amount of time to wait before automatically marking a long
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – The EPICS PV prefix for this motor.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – An identifying name for this motor.</p></li>
+<li><p><strong>settle_time</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></a>, <em>optional</em>) – The amount of extra time to wait before interpreting a move as done.</p></li>
+<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></a>, <em>optional</em>) – The amount of time to wait before automatically marking a long
 in-progress move as failed.</p></li>
 </ul>
 </dd>
@@ -317,47 +319,53 @@ in-progress move as failed.</p></li>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.end_monitor_thread.html#pcdsdevices.mirror.Pitch.end_monitor_thread" title="pcdsdevices.mirror.Pitch.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
 <td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.camonitor.html#pcdsdevices.mirror.Pitch.camonitor" title="pcdsdevices.mirror.Pitch.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.wm_update.html#pcdsdevices.mirror.Pitch.wm_update" title="pcdsdevices.mirror.Pitch.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.get.html#pcdsdevices.mirror.Pitch.get" title="pcdsdevices.mirror.Pitch.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.format_status_info.html#pcdsdevices.mirror.Pitch.format_status_info" title="pcdsdevices.mirror.Pitch.format_status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">format_status_info</span></code></a>(status_info)</p></td>
+<td><p>Entry point for the mini status displays in the ipython terminal.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.get.html#pcdsdevices.mirror.Pitch.get" title="pcdsdevices.mirror.Pitch.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.get_device_tuple.html#pcdsdevices.mirror.Pitch.get_device_tuple" title="pcdsdevices.mirror.Pitch.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.get_device_tuple.html#pcdsdevices.mirror.Pitch.get_device_tuple" title="pcdsdevices.mirror.Pitch.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
 <td><p>The device tuple type associated with an Device class</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.get_instantiated_signals.html#pcdsdevices.mirror.Pitch.get_instantiated_signals" title="pcdsdevices.mirror.Pitch.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.get_instantiated_signals.html#pcdsdevices.mirror.Pitch.get_instantiated_signals" title="pcdsdevices.mirror.Pitch.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.move.html#pcdsdevices.mirror.Pitch.move" title="pcdsdevices.mirror.Pitch.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, wait, timeout, moved_cb])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.move.html#pcdsdevices.mirror.Pitch.move" title="pcdsdevices.mirror.Pitch.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, wait, timeout, moved_cb])</p></td>
 <td><p>Move to a specified position, optionally waiting for motion to complete.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.mv.html#pcdsdevices.mirror.Pitch.mv" title="pcdsdevices.mirror.Pitch.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[, timeout, wait])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.mv.html#pcdsdevices.mirror.Pitch.mv" title="pcdsdevices.mirror.Pitch.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[, timeout, wait])</p></td>
 <td><p>Absolute move to a position.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.mv_ginput.html#pcdsdevices.mirror.Pitch.mv_ginput" title="pcdsdevices.mirror.Pitch.mv_ginput"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv_ginput</span></code></a>([timeout])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.mv_ginput.html#pcdsdevices.mirror.Pitch.mv_ginput" title="pcdsdevices.mirror.Pitch.mv_ginput"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv_ginput</span></code></a>([timeout])</p></td>
 <td><p>Moves to a location the user clicks on.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.mvr.html#pcdsdevices.mirror.Pitch.mvr" title="pcdsdevices.mirror.Pitch.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[, timeout, wait])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.mvr.html#pcdsdevices.mirror.Pitch.mvr" title="pcdsdevices.mirror.Pitch.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[, timeout, wait])</p></td>
 <td><p>Relative move from this position.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.pause.html#pcdsdevices.mirror.Pitch.pause" title="pcdsdevices.mirror.Pitch.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.pause.html#pcdsdevices.mirror.Pitch.pause" title="pcdsdevices.mirror.Pitch.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
 <td><p>Attempt to ‘pause’ the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.put.html#pcdsdevices.mirror.Pitch.put" title="pcdsdevices.mirror.Pitch.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.put.html#pcdsdevices.mirror.Pitch.put" title="pcdsdevices.mirror.Pitch.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
 <td><p>Put a value to all components of the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.read.html#pcdsdevices.mirror.Pitch.read" title="pcdsdevices.mirror.Pitch.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.read.html#pcdsdevices.mirror.Pitch.read" title="pcdsdevices.mirror.Pitch.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
 <td><p>Read data from the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.read_configuration.html#pcdsdevices.mirror.Pitch.read_configuration" title="pcdsdevices.mirror.Pitch.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.read_configuration.html#pcdsdevices.mirror.Pitch.read_configuration" title="pcdsdevices.mirror.Pitch.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.resume.html#pcdsdevices.mirror.Pitch.resume" title="pcdsdevices.mirror.Pitch.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.resume.html#pcdsdevices.mirror.Pitch.resume" title="pcdsdevices.mirror.Pitch.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.set.html#pcdsdevices.mirror.Pitch.set" title="pcdsdevices.mirror.Pitch.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position, *[, timeout, moved_cb, wait])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.set.html#pcdsdevices.mirror.Pitch.set" title="pcdsdevices.mirror.Pitch.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position, *[, timeout, moved_cb, wait])</p></td>
 <td><p>Set a value and return a Status object</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.stage.html#pcdsdevices.mirror.Pitch.stage" title="pcdsdevices.mirror.Pitch.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.stage.html#pcdsdevices.mirror.Pitch.stage" title="pcdsdevices.mirror.Pitch.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
 <td><p>Stage the device for data collection.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.status_info.html#pcdsdevices.mirror.Pitch.status_info" title="pcdsdevices.mirror.Pitch.status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status_info</span></code></a>()</p></td>
+<td><p>Get useful information for the status display.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.stop.html#pcdsdevices.mirror.Pitch.stop" title="pcdsdevices.mirror.Pitch.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>

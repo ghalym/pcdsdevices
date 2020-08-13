@@ -20,6 +20,7 @@ pcdsdevices.pim.XPIM
       ~XPIM.describe
       ~XPIM.describe_configuration
       ~XPIM.destroy
+      ~XPIM.format_status_info
       ~XPIM.get
       ~XPIM.get_device_tuple
       ~XPIM.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.pim.XPIM
       ~XPIM.read_configuration
       ~XPIM.resume
       ~XPIM.stage
+      ~XPIM.status_info
       ~XPIM.stop
       ~XPIM.subscribe
       ~XPIM.summary

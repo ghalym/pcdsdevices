@@ -1,0 +1,6 @@
+pcdsdevices.mirror.Pitch.status\_info
+=====================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: Pitch.status_info

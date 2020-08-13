@@ -1,4 +1,4 @@
-pcdsdevices.signal
+﻿pcdsdevices.signal
 ==================
 
 .. automodule:: pcdsdevices.signal

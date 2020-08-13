@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.attenuator.FeeFilter.stage &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.attenuator.FeeFilter.stage &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -36,7 +36,7 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.attenuator.FeeFilter.stop" href="pcdsdevices.attenuator.FeeFilter.stop.html" />
+    <link rel="next" title="pcdsdevices.attenuator.FeeFilter.status_info" href="pcdsdevices.attenuator.FeeFilter.status_info.html" />
     <link rel="prev" title="pcdsdevices.attenuator.FeeFilter.set" href="pcdsdevices.attenuator.FeeFilter.set.html" /> 
 </head>
 
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -107,11 +107,14 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.analog_signals.html">pcdsdevices.analog_signals</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.Attenuator.html">pcdsdevices.attenuator.Attenuator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.get_blade_enum.html">pcdsdevices.attenuator.get_blade_enum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.render_ascii_att.html">pcdsdevices.attenuator.render_ascii_att</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.AttBase.html">pcdsdevices.attenuator.AttBase</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.AttBase3rd.html">pcdsdevices.attenuator.AttBase3rd</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.AttenuatorCalculatorBase.html">pcdsdevices.attenuator.AttenuatorCalculatorBase</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.AttenuatorCalculatorFilter.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.AttenuatorCalculator_AT2L0.html">pcdsdevices.attenuator.AttenuatorCalculator_AT2L0</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.BladeStateEnum.html">pcdsdevices.attenuator.BladeStateEnum</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.FEESolidAttenuator.html">pcdsdevices.attenuator.FEESolidAttenuator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.FEESolidAttenuatorBlade.html">pcdsdevices.attenuator.FEESolidAttenuatorBlade</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.FeeAtt.html">pcdsdevices.attenuator.FeeAtt</a></li>
@@ -129,6 +132,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeFilter.describe_configuration.html">pcdsdevices.attenuator.FeeFilter.describe_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeFilter.destroy.html">pcdsdevices.attenuator.FeeFilter.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeFilter.end_monitor_thread.html">pcdsdevices.attenuator.FeeFilter.end_monitor_thread</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeFilter.format_status_info.html">pcdsdevices.attenuator.FeeFilter.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeFilter.get.html">pcdsdevices.attenuator.FeeFilter.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeFilter.get_device_tuple.html">pcdsdevices.attenuator.FeeFilter.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeFilter.get_instantiated_signals.html">pcdsdevices.attenuator.FeeFilter.get_instantiated_signals</a></li>
@@ -144,6 +148,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeFilter.resume.html">pcdsdevices.attenuator.FeeFilter.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeFilter.set.html">pcdsdevices.attenuator.FeeFilter.set</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.attenuator.FeeFilter.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeFilter.status_info.html">pcdsdevices.attenuator.FeeFilter.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeFilter.stop.html">pcdsdevices.attenuator.FeeFilter.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeFilter.subscribe.html">pcdsdevices.attenuator.FeeFilter.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeFilter.summary.html">pcdsdevices.attenuator.FeeFilter.summary</a></li>
@@ -292,7 +297,7 @@ staging behavior it should not implement <a class="reference internal" href="#pc
 <a class="reference internal" href="pcdsdevices.attenuator.FeeFilter.unstage.html#pcdsdevices.attenuator.FeeFilter.unstage" title="pcdsdevices.attenuator.FeeFilter.unstage"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">unstage</span></code></a>).</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p><strong>devices</strong> (<em>list</em>) – list including self and all child devices staged</p>
+<dd class="field-odd"><p><strong>devices</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code></a>) – list including self and all child devices staged</p>
 </dd>
 </dl>
 </dd></dl>
@@ -307,7 +312,7 @@ staging behavior it should not implement <a class="reference internal" href="#pc
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.attenuator.FeeFilter.stop.html" class="btn btn-neutral float-right" title="pcdsdevices.attenuator.FeeFilter.stop" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.attenuator.FeeFilter.status_info.html" class="btn btn-neutral float-right" title="pcdsdevices.attenuator.FeeFilter.status_info" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="pcdsdevices.attenuator.FeeFilter.set.html" class="btn btn-neutral float-left" title="pcdsdevices.attenuator.FeeFilter.set" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

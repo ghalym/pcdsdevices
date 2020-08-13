@@ -1,0 +1,6 @@
+pcdsdevices.state.PVStatePositioner.format\_status\_info
+========================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: PVStatePositioner.format_status_info

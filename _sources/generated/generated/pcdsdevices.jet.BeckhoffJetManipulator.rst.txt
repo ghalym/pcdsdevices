@@ -20,6 +20,7 @@ pcdsdevices.jet.BeckhoffJetManipulator
       ~BeckhoffJetManipulator.describe
       ~BeckhoffJetManipulator.describe_configuration
       ~BeckhoffJetManipulator.destroy
+      ~BeckhoffJetManipulator.format_status_info
       ~BeckhoffJetManipulator.get
       ~BeckhoffJetManipulator.get_device_tuple
       ~BeckhoffJetManipulator.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.jet.BeckhoffJetManipulator
       ~BeckhoffJetManipulator.read_configuration
       ~BeckhoffJetManipulator.resume
       ~BeckhoffJetManipulator.stage
+      ~BeckhoffJetManipulator.status_info
       ~BeckhoffJetManipulator.stop
       ~BeckhoffJetManipulator.subscribe
       ~BeckhoffJetManipulator.summary

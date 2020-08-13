@@ -1,4 +1,4 @@
-pcdsdevices.attenuator
+﻿pcdsdevices.attenuator
 ======================
 
 .. automodule:: pcdsdevices.attenuator
@@ -11,6 +11,8 @@ pcdsdevices.attenuator
       :toctree: generated
    
       Attenuator
+      get_blade_enum
+      render_ascii_att
    
    
 
@@ -26,6 +28,7 @@ pcdsdevices.attenuator
       AttenuatorCalculatorBase
       AttenuatorCalculatorFilter
       AttenuatorCalculator_AT2L0
+      BladeStateEnum
       FEESolidAttenuator
       FEESolidAttenuatorBlade
       FeeAtt

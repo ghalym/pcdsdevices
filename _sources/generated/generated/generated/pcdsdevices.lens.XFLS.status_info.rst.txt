@@ -1,0 +1,6 @@
+pcdsdevices.lens.XFLS.status\_info
+==================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: XFLS.status_info

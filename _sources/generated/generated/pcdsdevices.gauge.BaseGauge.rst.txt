@@ -20,6 +20,7 @@ pcdsdevices.gauge.BaseGauge
       ~BaseGauge.describe
       ~BaseGauge.describe_configuration
       ~BaseGauge.destroy
+      ~BaseGauge.format_status_info
       ~BaseGauge.get
       ~BaseGauge.get_device_tuple
       ~BaseGauge.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.gauge.BaseGauge
       ~BaseGauge.read_configuration
       ~BaseGauge.resume
       ~BaseGauge.stage
+      ~BaseGauge.status_info
       ~BaseGauge.stop
       ~BaseGauge.subscribe
       ~BaseGauge.summary

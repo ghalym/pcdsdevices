@@ -25,6 +25,7 @@ pcdsdevices.attenuator.FeeFilter
       ~FeeFilter.describe_configuration
       ~FeeFilter.destroy
       ~FeeFilter.end_monitor_thread
+      ~FeeFilter.format_status_info
       ~FeeFilter.get
       ~FeeFilter.get_device_tuple
       ~FeeFilter.get_instantiated_signals
@@ -40,6 +41,7 @@ pcdsdevices.attenuator.FeeFilter
       ~FeeFilter.resume
       ~FeeFilter.set
       ~FeeFilter.stage
+      ~FeeFilter.status_info
       ~FeeFilter.stop
       ~FeeFilter.subscribe
       ~FeeFilter.summary
@@ -96,6 +98,7 @@ pcdsdevices.attenuator.FeeFilter
       ~FeeFilter.signal_names
       ~FeeFilter.state
       ~FeeFilter.states_list
+      ~FeeFilter.status
       ~FeeFilter.tab_whitelist
       ~FeeFilter.timeout
       ~FeeFilter.transmission

@@ -1,0 +1,6 @@
+pcdsdevices.pulsepicker.PulsePickerInOut.status\_info
+=====================================================
+
+.. currentmodule:: pcdsdevices.pulsepicker
+
+.. automethod:: PulsePickerInOut.status_info

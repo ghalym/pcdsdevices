@@ -21,6 +21,7 @@ pcdsdevices.ipm.IPM\_Det
       ~IPM_Det.describe
       ~IPM_Det.describe_configuration
       ~IPM_Det.destroy
+      ~IPM_Det.format_status_info
       ~IPM_Det.get
       ~IPM_Det.get_device_tuple
       ~IPM_Det.get_instantiated_signals
@@ -31,6 +32,7 @@ pcdsdevices.ipm.IPM\_Det
       ~IPM_Det.read_configuration
       ~IPM_Det.resume
       ~IPM_Det.stage
+      ~IPM_Det.status_info
       ~IPM_Det.stop
       ~IPM_Det.subscribe
       ~IPM_Det.summary

@@ -25,6 +25,7 @@ pcdsdevices.inout.Reflaser
       ~Reflaser.describe_configuration
       ~Reflaser.destroy
       ~Reflaser.end_monitor_thread
+      ~Reflaser.format_status_info
       ~Reflaser.get
       ~Reflaser.get_device_tuple
       ~Reflaser.get_instantiated_signals
@@ -40,6 +41,7 @@ pcdsdevices.inout.Reflaser
       ~Reflaser.resume
       ~Reflaser.set
       ~Reflaser.stage
+      ~Reflaser.status_info
       ~Reflaser.stop
       ~Reflaser.subscribe
       ~Reflaser.summary

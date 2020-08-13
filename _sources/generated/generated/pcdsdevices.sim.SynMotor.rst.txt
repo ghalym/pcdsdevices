@@ -22,6 +22,7 @@ pcdsdevices.sim.SynMotor
       ~SynMotor.describe_configuration
       ~SynMotor.destroy
       ~SynMotor.end_monitor_thread
+      ~SynMotor.format_status_info
       ~SynMotor.get
       ~SynMotor.get_device_tuple
       ~SynMotor.get_instantiated_signals
@@ -36,6 +37,7 @@ pcdsdevices.sim.SynMotor
       ~SynMotor.resume
       ~SynMotor.set
       ~SynMotor.stage
+      ~SynMotor.status_info
       ~SynMotor.stop
       ~SynMotor.subscribe
       ~SynMotor.summary

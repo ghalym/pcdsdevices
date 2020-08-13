@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.gon.XYZStage &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.gon.XYZStage &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -130,6 +130,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.describe.html">pcdsdevices.gon.XYZStage.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.describe_configuration.html">pcdsdevices.gon.XYZStage.describe_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.destroy.html">pcdsdevices.gon.XYZStage.destroy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.format_status_info.html">pcdsdevices.gon.XYZStage.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.get.html">pcdsdevices.gon.XYZStage.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.get_device_tuple.html">pcdsdevices.gon.XYZStage.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.get_instantiated_signals.html">pcdsdevices.gon.XYZStage.get_instantiated_signals</a></li>
@@ -139,6 +140,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.read_configuration.html">pcdsdevices.gon.XYZStage.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.resume.html">pcdsdevices.gon.XYZStage.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.stage.html">pcdsdevices.gon.XYZStage.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.status_info.html">pcdsdevices.gon.XYZStage.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.stop.html">pcdsdevices.gon.XYZStage.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.subscribe.html">pcdsdevices.gon.XYZStage.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.summary.html">pcdsdevices.gon.XYZStage.summary</a></li>
@@ -258,10 +260,10 @@
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – A name to refer to the device</p></li>
-<li><p><strong>prefix_x</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The EPICS base PV of the sample-stage’s x motor.</p></li>
-<li><p><strong>prefix_y</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The EPICS base PV of the sample-stage’s y motor.</p></li>
-<li><p><strong>prefix_z</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The EPICS base PV of the sample-stage’s z motor.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – A name to refer to the device</p></li>
+<li><p><strong>prefix_x</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – The EPICS base PV of the sample-stage’s x motor.</p></li>
+<li><p><strong>prefix_y</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – The EPICS base PV of the sample-stage’s y motor.</p></li>
+<li><p><strong>prefix_z</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – The EPICS base PV of the sample-stage’s z motor.</p></li>
 </ul>
 </dd>
 </dl>
@@ -296,32 +298,38 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.destroy.html#pcdsdevices.gon.XYZStage.destroy" title="pcdsdevices.gon.XYZStage.destroy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">destroy</span></code></a>()</p></td>
 <td><p>Disconnect and destroy all signals on the Device</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.get.html#pcdsdevices.gon.XYZStage.get" title="pcdsdevices.gon.XYZStage.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.format_status_info.html#pcdsdevices.gon.XYZStage.format_status_info" title="pcdsdevices.gon.XYZStage.format_status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">format_status_info</span></code></a>(status_info)</p></td>
+<td><p>Entry point for the mini status displays in the ipython terminal.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.get.html#pcdsdevices.gon.XYZStage.get" title="pcdsdevices.gon.XYZStage.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.get_device_tuple.html#pcdsdevices.gon.XYZStage.get_device_tuple" title="pcdsdevices.gon.XYZStage.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.get_device_tuple.html#pcdsdevices.gon.XYZStage.get_device_tuple" title="pcdsdevices.gon.XYZStage.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
 <td><p>The device tuple type associated with an Device class</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.get_instantiated_signals.html#pcdsdevices.gon.XYZStage.get_instantiated_signals" title="pcdsdevices.gon.XYZStage.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.get_instantiated_signals.html#pcdsdevices.gon.XYZStage.get_instantiated_signals" title="pcdsdevices.gon.XYZStage.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.pause.html#pcdsdevices.gon.XYZStage.pause" title="pcdsdevices.gon.XYZStage.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.pause.html#pcdsdevices.gon.XYZStage.pause" title="pcdsdevices.gon.XYZStage.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
 <td><p>Attempt to ‘pause’ the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.put.html#pcdsdevices.gon.XYZStage.put" title="pcdsdevices.gon.XYZStage.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.put.html#pcdsdevices.gon.XYZStage.put" title="pcdsdevices.gon.XYZStage.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
 <td><p>Put a value to all components of the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.read.html#pcdsdevices.gon.XYZStage.read" title="pcdsdevices.gon.XYZStage.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.read.html#pcdsdevices.gon.XYZStage.read" title="pcdsdevices.gon.XYZStage.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
 <td><p>Read data from the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.read_configuration.html#pcdsdevices.gon.XYZStage.read_configuration" title="pcdsdevices.gon.XYZStage.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.read_configuration.html#pcdsdevices.gon.XYZStage.read_configuration" title="pcdsdevices.gon.XYZStage.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.resume.html#pcdsdevices.gon.XYZStage.resume" title="pcdsdevices.gon.XYZStage.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.resume.html#pcdsdevices.gon.XYZStage.resume" title="pcdsdevices.gon.XYZStage.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.stage.html#pcdsdevices.gon.XYZStage.stage" title="pcdsdevices.gon.XYZStage.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.stage.html#pcdsdevices.gon.XYZStage.stage" title="pcdsdevices.gon.XYZStage.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
 <td><p>Stage the device for data collection.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.status_info.html#pcdsdevices.gon.XYZStage.status_info" title="pcdsdevices.gon.XYZStage.status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status_info</span></code></a>()</p></td>
+<td><p>Get useful information for the status display.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.stop.html#pcdsdevices.gon.XYZStage.stop" title="pcdsdevices.gon.XYZStage.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>

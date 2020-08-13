@@ -25,6 +25,7 @@ pcdsdevices.valve.PPSStopper
       ~PPSStopper.describe_configuration
       ~PPSStopper.destroy
       ~PPSStopper.end_monitor_thread
+      ~PPSStopper.format_status_info
       ~PPSStopper.get
       ~PPSStopper.get_device_tuple
       ~PPSStopper.get_instantiated_signals
@@ -40,6 +41,7 @@ pcdsdevices.valve.PPSStopper
       ~PPSStopper.resume
       ~PPSStopper.set
       ~PPSStopper.stage
+      ~PPSStopper.status_info
       ~PPSStopper.stop
       ~PPSStopper.subscribe
       ~PPSStopper.summary

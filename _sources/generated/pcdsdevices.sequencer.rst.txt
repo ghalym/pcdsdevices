@@ -1,4 +1,4 @@
-pcdsdevices.sequencer
+﻿pcdsdevices.sequencer
 =====================
 
 .. automodule:: pcdsdevices.sequencer

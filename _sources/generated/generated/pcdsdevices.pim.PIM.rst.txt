@@ -20,6 +20,7 @@ pcdsdevices.pim.PIM
       ~PIM.describe
       ~PIM.describe_configuration
       ~PIM.destroy
+      ~PIM.format_status_info
       ~PIM.get
       ~PIM.get_device_tuple
       ~PIM.get_instantiated_signals
@@ -32,6 +33,7 @@ pcdsdevices.pim.PIM
       ~PIM.remove
       ~PIM.resume
       ~PIM.stage
+      ~PIM.status_info
       ~PIM.stop
       ~PIM.subscribe
       ~PIM.summary

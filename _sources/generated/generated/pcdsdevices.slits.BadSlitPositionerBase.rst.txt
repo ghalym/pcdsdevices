@@ -22,6 +22,7 @@ pcdsdevices.slits.BadSlitPositionerBase
       ~BadSlitPositionerBase.describe_configuration
       ~BadSlitPositionerBase.destroy
       ~BadSlitPositionerBase.end_monitor_thread
+      ~BadSlitPositionerBase.format_status_info
       ~BadSlitPositionerBase.get
       ~BadSlitPositionerBase.get_device_tuple
       ~BadSlitPositionerBase.get_instantiated_signals
@@ -36,6 +37,7 @@ pcdsdevices.slits.BadSlitPositionerBase
       ~BadSlitPositionerBase.resume
       ~BadSlitPositionerBase.set
       ~BadSlitPositionerBase.stage
+      ~BadSlitPositionerBase.status_info
       ~BadSlitPositionerBase.stop
       ~BadSlitPositionerBase.subscribe
       ~BadSlitPositionerBase.summary

@@ -21,6 +21,7 @@ pcdsdevices.pump.IonPumpBase
       ~IonPumpBase.describe_configuration
       ~IonPumpBase.destroy
       ~IonPumpBase.egu
+      ~IonPumpBase.format_status_info
       ~IonPumpBase.get
       ~IonPumpBase.get_device_tuple
       ~IonPumpBase.get_instantiated_signals
@@ -34,6 +35,7 @@ pcdsdevices.pump.IonPumpBase
       ~IonPumpBase.read_configuration
       ~IonPumpBase.resume
       ~IonPumpBase.stage
+      ~IonPumpBase.status_info
       ~IonPumpBase.stop
       ~IonPumpBase.subscribe
       ~IonPumpBase.summary

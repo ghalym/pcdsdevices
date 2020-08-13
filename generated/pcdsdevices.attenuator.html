@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.attenuator &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.attenuator &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -107,11 +107,14 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.analog_signals.html">pcdsdevices.analog_signals</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">pcdsdevices.attenuator</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.attenuator.Attenuator.html">pcdsdevices.attenuator.Attenuator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.attenuator.get_blade_enum.html">pcdsdevices.attenuator.get_blade_enum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.attenuator.render_ascii_att.html">pcdsdevices.attenuator.render_ascii_att</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase.html">pcdsdevices.attenuator.AttBase</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.attenuator.AttBase3rd.html">pcdsdevices.attenuator.AttBase3rd</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.attenuator.AttenuatorCalculatorBase.html">pcdsdevices.attenuator.AttenuatorCalculatorBase</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.attenuator.AttenuatorCalculatorFilter.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.attenuator.AttenuatorCalculator_AT2L0.html">pcdsdevices.attenuator.AttenuatorCalculator_AT2L0</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.attenuator.BladeStateEnum.html">pcdsdevices.attenuator.BladeStateEnum</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.attenuator.FEESolidAttenuator.html">pcdsdevices.attenuator.FEESolidAttenuator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.attenuator.FEESolidAttenuatorBlade.html">pcdsdevices.attenuator.FEESolidAttenuatorBlade</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.html">pcdsdevices.attenuator.FeeAtt</a></li>
@@ -235,6 +238,12 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.Attenuator.html#pcdsdevices.attenuator.Attenuator" title="pcdsdevices.attenuator.Attenuator"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Attenuator</span></code></a>(prefix, n_filters, *, name[, use_3rd])</p></td>
 <td><p>A series of filters that attenuates the beam.</p></td>
 </tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.get_blade_enum.html#pcdsdevices.attenuator.get_blade_enum" title="pcdsdevices.attenuator.get_blade_enum"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_blade_enum</span></code></a>(value)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.render_ascii_att.html#pcdsdevices.attenuator.render_ascii_att" title="pcdsdevices.attenuator.render_ascii_att"><code class="xref py py-obj docutils literal notranslate"><span class="pre">render_ascii_att</span></code></a>(blade_states)</p></td>
+<td><p>Creates the attenuator ascii art.</p></td>
+</tr>
 </tbody>
 </table>
 <p class="rubric">Classes</p>
@@ -259,22 +268,25 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AttenuatorCalculator_AT2L0.html#pcdsdevices.attenuator.AttenuatorCalculator_AT2L0" title="pcdsdevices.attenuator.AttenuatorCalculator_AT2L0"><code class="xref py py-obj docutils literal notranslate"><span class="pre">AttenuatorCalculator_AT2L0</span></code></a>(prefix, *, name, …)</p></td>
 <td><p>Solid attenuator variant from the LCLS-II XTES project.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FEESolidAttenuator.html#pcdsdevices.attenuator.FEESolidAttenuator" title="pcdsdevices.attenuator.FEESolidAttenuator"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FEESolidAttenuator</span></code></a>([prefix, kind, …])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.BladeStateEnum.html#pcdsdevices.attenuator.BladeStateEnum" title="pcdsdevices.attenuator.BladeStateEnum"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BladeStateEnum</span></code></a>(value)</p></td>
+<td><p>An enumeration.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FEESolidAttenuator.html#pcdsdevices.attenuator.FEESolidAttenuator" title="pcdsdevices.attenuator.FEESolidAttenuator"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FEESolidAttenuator</span></code></a>([prefix, kind, …])</p></td>
 <td><p>Solid attenuator variant from the LCLS-II XTES project.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FEESolidAttenuatorBlade.html#pcdsdevices.attenuator.FEESolidAttenuatorBlade" title="pcdsdevices.attenuator.FEESolidAttenuatorBlade"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FEESolidAttenuatorBlade</span></code></a>([prefix, kind, …])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FEESolidAttenuatorBlade.html#pcdsdevices.attenuator.FEESolidAttenuatorBlade" title="pcdsdevices.attenuator.FEESolidAttenuatorBlade"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FEESolidAttenuatorBlade</span></code></a>([prefix, kind, …])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.html#pcdsdevices.attenuator.FeeAtt" title="pcdsdevices.attenuator.FeeAtt"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FeeAtt</span></code></a>([prefix, name])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeAtt.html#pcdsdevices.attenuator.FeeAtt" title="pcdsdevices.attenuator.FeeAtt"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FeeAtt</span></code></a>([prefix, name])</p></td>
 <td><p>Old attenuator IOC in the FEE.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.html#pcdsdevices.attenuator.FeeFilter" title="pcdsdevices.attenuator.FeeFilter"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FeeFilter</span></code></a>(prefix, *, name, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.FeeFilter.html#pcdsdevices.attenuator.FeeFilter" title="pcdsdevices.attenuator.FeeFilter"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FeeFilter</span></code></a>(prefix, *, name, **kwargs)</p></td>
 <td><p>A single attenuation blade, as implemented in the FEE.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.Filter.html#pcdsdevices.attenuator.Filter" title="pcdsdevices.attenuator.Filter"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Filter</span></code></a>(prefix, *, name, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.Filter.html#pcdsdevices.attenuator.Filter" title="pcdsdevices.attenuator.Filter"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Filter</span></code></a>(prefix, *, name, **kwargs)</p></td>
 <td><p>A single attenuation blade.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.html#pcdsdevices.attenuator.GasAttenuator" title="pcdsdevices.attenuator.GasAttenuator"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GasAttenuator</span></code></a>([prefix, kind, read_attrs, …])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.html#pcdsdevices.attenuator.GasAttenuator" title="pcdsdevices.attenuator.GasAttenuator"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GasAttenuator</span></code></a>([prefix, kind, read_attrs, …])</p></td>
 <td><p>AT*:GAS, Base class for an LCLS-II XTES gas attenuator.</p></td>
 </tr>
 </tbody>

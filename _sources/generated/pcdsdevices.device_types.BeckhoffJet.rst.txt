@@ -1,4 +1,4 @@
-pcdsdevices.device\_types.BeckhoffJet
+﻿pcdsdevices.device\_types.BeckhoffJet
 =====================================
 
 .. currentmodule:: pcdsdevices.device_types
@@ -20,6 +20,7 @@ pcdsdevices.device\_types.BeckhoffJet
       ~BeckhoffJet.describe
       ~BeckhoffJet.describe_configuration
       ~BeckhoffJet.destroy
+      ~BeckhoffJet.format_status_info
       ~BeckhoffJet.get
       ~BeckhoffJet.get_device_tuple
       ~BeckhoffJet.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.device\_types.BeckhoffJet
       ~BeckhoffJet.read_configuration
       ~BeckhoffJet.resume
       ~BeckhoffJet.stage
+      ~BeckhoffJet.status_info
       ~BeckhoffJet.stop
       ~BeckhoffJet.subscribe
       ~BeckhoffJet.summary

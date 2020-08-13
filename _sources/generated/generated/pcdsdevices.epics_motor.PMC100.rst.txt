@@ -24,6 +24,7 @@ pcdsdevices.epics\_motor.PMC100
       ~PMC100.disable
       ~PMC100.enable
       ~PMC100.end_monitor_thread
+      ~PMC100.format_status_info
       ~PMC100.get
       ~PMC100.get_device_tuple
       ~PMC100.get_instantiated_signals
@@ -46,6 +47,7 @@ pcdsdevices.epics\_motor.PMC100
       ~PMC100.spg_pause
       ~PMC100.spg_stop
       ~PMC100.stage
+      ~PMC100.status_info
       ~PMC100.stop
       ~PMC100.subscribe
       ~PMC100.summary

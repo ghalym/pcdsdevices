@@ -20,6 +20,7 @@ pcdsdevices.pump.GammaController
       ~GammaController.describe
       ~GammaController.describe_configuration
       ~GammaController.destroy
+      ~GammaController.format_status_info
       ~GammaController.get
       ~GammaController.get_device_tuple
       ~GammaController.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.pump.GammaController
       ~GammaController.read_configuration
       ~GammaController.resume
       ~GammaController.stage
+      ~GammaController.status_info
       ~GammaController.stop
       ~GammaController.subscribe
       ~GammaController.summary

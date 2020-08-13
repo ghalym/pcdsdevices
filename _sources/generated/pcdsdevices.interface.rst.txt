@@ -1,4 +1,4 @@
-pcdsdevices.interface
+﻿pcdsdevices.interface
 =====================
 
 .. automodule:: pcdsdevices.interface
@@ -10,9 +10,15 @@ pcdsdevices.interface
    .. autosummary::
       :toctree: generated
    
+      device_info
       get_engineering_mode
+      get_kind
+      get_name
+      get_value
+      ophydobj_info
       set_engineering_mode
       setup_preset_paths
+      signal_info
       tweak_base
    
    

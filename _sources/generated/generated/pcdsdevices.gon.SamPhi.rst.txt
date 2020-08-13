@@ -20,6 +20,7 @@ pcdsdevices.gon.SamPhi
       ~SamPhi.describe
       ~SamPhi.describe_configuration
       ~SamPhi.destroy
+      ~SamPhi.format_status_info
       ~SamPhi.get
       ~SamPhi.get_device_tuple
       ~SamPhi.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.gon.SamPhi
       ~SamPhi.read_configuration
       ~SamPhi.resume
       ~SamPhi.stage
+      ~SamPhi.status_info
       ~SamPhi.stop
       ~SamPhi.subscribe
       ~SamPhi.summary

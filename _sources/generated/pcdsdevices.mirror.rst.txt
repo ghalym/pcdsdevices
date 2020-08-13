@@ -1,4 +1,4 @@
-pcdsdevices.mirror
+﻿pcdsdevices.mirror
 ==================
 
 .. automodule:: pcdsdevices.mirror

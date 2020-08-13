@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.Filter.format\_status\_info
+==================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: Filter.format_status_info

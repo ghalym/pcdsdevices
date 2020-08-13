@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.attenuator.FeeAtt.subscribe &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.attenuator.FeeAtt.subscribe &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -107,11 +107,14 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.analog_signals.html">pcdsdevices.analog_signals</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.Attenuator.html">pcdsdevices.attenuator.Attenuator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.get_blade_enum.html">pcdsdevices.attenuator.get_blade_enum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.render_ascii_att.html">pcdsdevices.attenuator.render_ascii_att</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.AttBase.html">pcdsdevices.attenuator.AttBase</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.AttBase3rd.html">pcdsdevices.attenuator.AttBase3rd</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.AttenuatorCalculatorBase.html">pcdsdevices.attenuator.AttenuatorCalculatorBase</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.AttenuatorCalculatorFilter.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.AttenuatorCalculator_AT2L0.html">pcdsdevices.attenuator.AttenuatorCalculator_AT2L0</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.BladeStateEnum.html">pcdsdevices.attenuator.BladeStateEnum</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.FEESolidAttenuator.html">pcdsdevices.attenuator.FEESolidAttenuator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.FEESolidAttenuatorBlade.html">pcdsdevices.attenuator.FEESolidAttenuatorBlade</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.attenuator.FeeAtt.html">pcdsdevices.attenuator.FeeAtt</a><ul class="current">
@@ -125,6 +128,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.describe_configuration.html">pcdsdevices.attenuator.FeeAtt.describe_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.destroy.html">pcdsdevices.attenuator.FeeAtt.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.end_monitor_thread.html">pcdsdevices.attenuator.FeeAtt.end_monitor_thread</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.format_status_info.html">pcdsdevices.attenuator.FeeAtt.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.get.html">pcdsdevices.attenuator.FeeAtt.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.get_device_tuple.html">pcdsdevices.attenuator.FeeAtt.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.get_instantiated_signals.html">pcdsdevices.attenuator.FeeAtt.get_instantiated_signals</a></li>
@@ -142,6 +146,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.set.html">pcdsdevices.attenuator.FeeAtt.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.set_energy.html">pcdsdevices.attenuator.FeeAtt.set_energy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.stage.html">pcdsdevices.attenuator.FeeAtt.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.status_info.html">pcdsdevices.attenuator.FeeAtt.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.stop.html">pcdsdevices.attenuator.FeeAtt.stop</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.attenuator.FeeAtt.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.summary.html">pcdsdevices.attenuator.FeeAtt.summary</a></li>
@@ -296,7 +301,7 @@ silently ignored.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>callback</strong> (<em>callable</em>) – <p>A callable function (that takes kwargs) to be run when the event is
+<li><p><strong>callback</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">callable</span></code>) – <p>A callable function (that takes kwargs) to be run when the event is
 generated.  The expected signature is</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">cb</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="n">obj</span><span class="p">:</span> <span class="n">OphydObject</span><span class="p">,</span> <span class="n">sub_type</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
 </pre></div>
@@ -304,11 +309,11 @@ generated.  The expected signature is</p>
 <p>The exact args/kwargs passed are whatever are passed to
 <code class="docutils literal notranslate"><span class="pre">_run_subs</span></code></p>
 </p></li>
-<li><p><strong>event_type</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a><em>, </em><em>optional</em>) – <p>The name of the event to subscribe to (if None, defaults to
+<li><p><strong>event_type</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <em>optional</em>) – <p>The name of the event to subscribe to (if None, defaults to
 the default sub for the instance - obj._default_sub)</p>
 <p>This maps to the <code class="docutils literal notranslate"><span class="pre">sub_type</span></code> kwargs in <code class="xref any docutils literal notranslate"><span class="pre">_run_subs</span></code></p>
 </p></li>
-<li><p><strong>run</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Run the callback now</p></li>
+<li><p><strong>run</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>, <em>optional</em>) – Run the callback now</p></li>
 </ul>
 </dd>
 </dl>
@@ -318,7 +323,7 @@ the default sub for the instance - obj._default_sub)</p>
 </div>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p><strong>cid</strong> (<em>int</em>) – id of callback, can be passed to <a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.unsubscribe.html#pcdsdevices.attenuator.FeeAtt.unsubscribe" title="pcdsdevices.attenuator.FeeAtt.unsubscribe"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">unsubscribe</span></code></a> to remove the
+<dd class="field-odd"><p><strong>cid</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – id of callback, can be passed to <a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.unsubscribe.html#pcdsdevices.attenuator.FeeAtt.unsubscribe" title="pcdsdevices.attenuator.FeeAtt.unsubscribe"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">unsubscribe</span></code></a> to remove the
 callback</p>
 </dd>
 </dl>

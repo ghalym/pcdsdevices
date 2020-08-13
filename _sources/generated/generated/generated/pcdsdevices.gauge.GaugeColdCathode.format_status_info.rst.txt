@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeColdCathode.format\_status\_info
+=======================================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeColdCathode.format_status_info

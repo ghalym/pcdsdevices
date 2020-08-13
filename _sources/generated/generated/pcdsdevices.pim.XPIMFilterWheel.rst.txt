@@ -22,6 +22,7 @@ pcdsdevices.pim.XPIMFilterWheel
       ~XPIMFilterWheel.describe_configuration
       ~XPIMFilterWheel.destroy
       ~XPIMFilterWheel.end_monitor_thread
+      ~XPIMFilterWheel.format_status_info
       ~XPIMFilterWheel.get
       ~XPIMFilterWheel.get_device_tuple
       ~XPIMFilterWheel.get_instantiated_signals
@@ -35,6 +36,7 @@ pcdsdevices.pim.XPIMFilterWheel
       ~XPIMFilterWheel.resume
       ~XPIMFilterWheel.set
       ~XPIMFilterWheel.stage
+      ~XPIMFilterWheel.status_info
       ~XPIMFilterWheel.stop
       ~XPIMFilterWheel.subscribe
       ~XPIMFilterWheel.summary

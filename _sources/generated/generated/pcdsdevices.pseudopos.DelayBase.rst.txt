@@ -23,6 +23,7 @@ pcdsdevices.pseudopos.DelayBase
       ~DelayBase.describe_configuration
       ~DelayBase.destroy
       ~DelayBase.end_monitor_thread
+      ~DelayBase.format_status_info
       ~DelayBase.forward
       ~DelayBase.get
       ~DelayBase.get_device_tuple
@@ -40,6 +41,7 @@ pcdsdevices.pseudopos.DelayBase
       ~DelayBase.resume
       ~DelayBase.set
       ~DelayBase.stage
+      ~DelayBase.status_info
       ~DelayBase.stop
       ~DelayBase.subscribe
       ~DelayBase.summary

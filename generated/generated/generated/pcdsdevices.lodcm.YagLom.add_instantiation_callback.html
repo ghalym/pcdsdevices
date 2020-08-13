@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.lodcm.YagLom.add_instantiation_callback &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.lodcm.YagLom.add_instantiation_callback &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -141,6 +141,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.YagLom.describe_configuration.html">pcdsdevices.lodcm.YagLom.describe_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.YagLom.destroy.html">pcdsdevices.lodcm.YagLom.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.YagLom.end_monitor_thread.html">pcdsdevices.lodcm.YagLom.end_monitor_thread</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.YagLom.format_status_info.html">pcdsdevices.lodcm.YagLom.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.YagLom.get.html">pcdsdevices.lodcm.YagLom.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.YagLom.get_device_tuple.html">pcdsdevices.lodcm.YagLom.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.YagLom.get_instantiated_signals.html">pcdsdevices.lodcm.YagLom.get_instantiated_signals</a></li>
@@ -156,6 +157,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.YagLom.resume.html">pcdsdevices.lodcm.YagLom.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.YagLom.set.html">pcdsdevices.lodcm.YagLom.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.YagLom.stage.html">pcdsdevices.lodcm.YagLom.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.YagLom.status_info.html">pcdsdevices.lodcm.YagLom.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.YagLom.stop.html">pcdsdevices.lodcm.YagLom.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.YagLom.subscribe.html">pcdsdevices.lodcm.YagLom.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.YagLom.summary.html">pcdsdevices.lodcm.YagLom.summary</a></li>
@@ -273,8 +275,8 @@
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>callback</strong> (<em>callable</em>) – Expected signature: <code class="docutils literal notranslate"><span class="pre">f(ophydobj_instance)</span></code></p></li>
-<li><p><strong>fail_if_late</strong> (<em>boolean</em>) – If True, verify that OphydObj has not yet been instantiated and raise
+<li><p><strong>callback</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">callable</span></code>) – Expected signature: <code class="docutils literal notranslate"><span class="pre">f(ophydobj_instance)</span></code></p></li>
+<li><p><strong>fail_if_late</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">boolean</span></code>) – If True, verify that OphydObj has not yet been instantiated and raise
 <code class="docutils literal notranslate"><span class="pre">RuntimeError</span></code> if it has, as a way of verify that no instances will
 be “missed” by this registry. False by default.</p></li>
 </ul>

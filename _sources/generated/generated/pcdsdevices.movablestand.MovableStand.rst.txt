@@ -25,6 +25,7 @@ pcdsdevices.movablestand.MovableStand
       ~MovableStand.describe_configuration
       ~MovableStand.destroy
       ~MovableStand.end_monitor_thread
+      ~MovableStand.format_status_info
       ~MovableStand.get
       ~MovableStand.get_device_tuple
       ~MovableStand.get_instantiated_signals
@@ -40,6 +41,7 @@ pcdsdevices.movablestand.MovableStand
       ~MovableStand.resume
       ~MovableStand.set
       ~MovableStand.stage
+      ~MovableStand.status_info
       ~MovableStand.stop
       ~MovableStand.subscribe
       ~MovableStand.summary

@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.mirror.OffsetMirror.add_instantiation_callback &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.mirror.OffsetMirror.add_instantiation_callback &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -134,6 +134,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.describe.html">pcdsdevices.mirror.OffsetMirror.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.describe_configuration.html">pcdsdevices.mirror.OffsetMirror.describe_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.destroy.html">pcdsdevices.mirror.OffsetMirror.destroy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.format_status_info.html">pcdsdevices.mirror.OffsetMirror.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.get.html">pcdsdevices.mirror.OffsetMirror.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.get_device_tuple.html">pcdsdevices.mirror.OffsetMirror.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.get_instantiated_signals.html">pcdsdevices.mirror.OffsetMirror.get_instantiated_signals</a></li>
@@ -143,6 +144,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.read_configuration.html">pcdsdevices.mirror.OffsetMirror.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.resume.html">pcdsdevices.mirror.OffsetMirror.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.stage.html">pcdsdevices.mirror.OffsetMirror.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.status_info.html">pcdsdevices.mirror.OffsetMirror.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.stop.html">pcdsdevices.mirror.OffsetMirror.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.subscribe.html">pcdsdevices.mirror.OffsetMirror.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OffsetMirror.summary.html">pcdsdevices.mirror.OffsetMirror.summary</a></li>
@@ -260,8 +262,8 @@
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>callback</strong> (<em>callable</em>) – Expected signature: <code class="docutils literal notranslate"><span class="pre">f(ophydobj_instance)</span></code></p></li>
-<li><p><strong>fail_if_late</strong> (<em>boolean</em>) – If True, verify that OphydObj has not yet been instantiated and raise
+<li><p><strong>callback</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">callable</span></code>) – Expected signature: <code class="docutils literal notranslate"><span class="pre">f(ophydobj_instance)</span></code></p></li>
+<li><p><strong>fail_if_late</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">boolean</span></code>) – If True, verify that OphydObj has not yet been instantiated and raise
 <code class="docutils literal notranslate"><span class="pre">RuntimeError</span></code> if it has, as a way of verify that no instances will
 be “missed” by this registry. False by default.</p></li>
 </ul>

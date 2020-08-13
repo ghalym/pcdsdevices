@@ -1,4 +1,4 @@
-pcdsdevices.jet
+﻿pcdsdevices.jet
 ===============
 
 .. automodule:: pcdsdevices.jet

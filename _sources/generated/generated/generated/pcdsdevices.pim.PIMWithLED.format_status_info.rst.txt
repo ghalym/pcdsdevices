@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithLED.format\_status\_info
+===============================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithLED.format_status_info

@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ccm.CCMPico.move &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.ccm.CCMPico.move &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -130,6 +130,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMPico.disable.html">pcdsdevices.ccm.CCMPico.disable</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMPico.enable.html">pcdsdevices.ccm.CCMPico.enable</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMPico.end_monitor_thread.html">pcdsdevices.ccm.CCMPico.end_monitor_thread</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMPico.format_status_info.html">pcdsdevices.ccm.CCMPico.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMPico.get.html">pcdsdevices.ccm.CCMPico.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMPico.get_device_tuple.html">pcdsdevices.ccm.CCMPico.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMPico.get_instantiated_signals.html">pcdsdevices.ccm.CCMPico.get_instantiated_signals</a></li>
@@ -148,6 +149,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMPico.set_current_position.html">pcdsdevices.ccm.CCMPico.set_current_position</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMPico.set_lim.html">pcdsdevices.ccm.CCMPico.set_lim</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMPico.stage.html">pcdsdevices.ccm.CCMPico.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMPico.status_info.html">pcdsdevices.ccm.CCMPico.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMPico.stop.html">pcdsdevices.ccm.CCMPico.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMPico.subscribe.html">pcdsdevices.ccm.CCMPico.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMPico.summary.html">pcdsdevices.ccm.CCMPico.summary</a></li>
@@ -286,15 +288,15 @@ complete.</p>
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>position</strong> – Position to move to</p></li>
-<li><p><strong>moved_cb</strong> (<em>callable</em>) – Call this callback when movement has finished. This callback must
+<li><p><strong>moved_cb</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">callable</span></code>) – Call this callback when movement has finished. This callback must
 accept one keyword argument: ‘obj’ which will be set to this
 positioner instance.</p></li>
-<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a><em>, </em><em>optional</em>) – Maximum time to wait for the motion. If None, the default timeout
+<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></a>, <em>optional</em>) – Maximum time to wait for the motion. If None, the default timeout
 for this positioner is used.</p></li>
 </ul>
 </dd>
 <dt class="field-even">Returns</dt>
-<dd class="field-even"><p><strong>status</strong> (<em>MoveStatus</em>)</p>
+<dd class="field-even"><p><strong>status</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">MoveStatus</span></code>)</p>
 </dd>
 <dt class="field-odd">Raises</dt>
 <dd class="field-odd"><ul class="simple">

@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPIMBChannel.format\_status\_info
+=================================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPIMBChannel.format_status_info

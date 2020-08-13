@@ -20,6 +20,7 @@ pcdsdevices.attenuator.FEESolidAttenuatorBlade
       ~FEESolidAttenuatorBlade.describe
       ~FEESolidAttenuatorBlade.describe_configuration
       ~FEESolidAttenuatorBlade.destroy
+      ~FEESolidAttenuatorBlade.format_status_info
       ~FEESolidAttenuatorBlade.get
       ~FEESolidAttenuatorBlade.get_device_tuple
       ~FEESolidAttenuatorBlade.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.attenuator.FEESolidAttenuatorBlade
       ~FEESolidAttenuatorBlade.read_configuration
       ~FEESolidAttenuatorBlade.resume
       ~FEESolidAttenuatorBlade.stage
+      ~FEESolidAttenuatorBlade.status_info
       ~FEESolidAttenuatorBlade.stop
       ~FEESolidAttenuatorBlade.subscribe
       ~FEESolidAttenuatorBlade.summary

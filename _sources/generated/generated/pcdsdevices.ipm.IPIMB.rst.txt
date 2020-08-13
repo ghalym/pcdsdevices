@@ -20,6 +20,7 @@ pcdsdevices.ipm.IPIMB
       ~IPIMB.describe
       ~IPIMB.describe_configuration
       ~IPIMB.destroy
+      ~IPIMB.format_status_info
       ~IPIMB.get
       ~IPIMB.get_device_tuple
       ~IPIMB.get_instantiated_signals
@@ -30,6 +31,7 @@ pcdsdevices.ipm.IPIMB
       ~IPIMB.resume
       ~IPIMB.screen
       ~IPIMB.stage
+      ~IPIMB.status_info
       ~IPIMB.stop
       ~IPIMB.subscribe
       ~IPIMB.summary

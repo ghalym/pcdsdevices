@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.OffsetMirror.status\_info
+===================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: OffsetMirror.status_info

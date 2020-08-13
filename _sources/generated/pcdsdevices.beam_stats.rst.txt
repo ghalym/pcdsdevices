@@ -1,4 +1,4 @@
-pcdsdevices.beam\_stats
+﻿pcdsdevices.beam\_stats
 =======================
 
 .. automodule:: pcdsdevices.beam_stats

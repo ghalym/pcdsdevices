@@ -22,6 +22,7 @@ pcdsdevices.attenuator.AttBase
       ~AttBase.describe_configuration
       ~AttBase.destroy
       ~AttBase.end_monitor_thread
+      ~AttBase.format_status_info
       ~AttBase.get
       ~AttBase.get_device_tuple
       ~AttBase.get_instantiated_signals
@@ -39,6 +40,7 @@ pcdsdevices.attenuator.AttBase
       ~AttBase.set
       ~AttBase.set_energy
       ~AttBase.stage
+      ~AttBase.status_info
       ~AttBase.stop
       ~AttBase.subscribe
       ~AttBase.summary

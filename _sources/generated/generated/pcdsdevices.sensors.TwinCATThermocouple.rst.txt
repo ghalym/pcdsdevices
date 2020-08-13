@@ -20,6 +20,7 @@ pcdsdevices.sensors.TwinCATThermocouple
       ~TwinCATThermocouple.describe
       ~TwinCATThermocouple.describe_configuration
       ~TwinCATThermocouple.destroy
+      ~TwinCATThermocouple.format_status_info
       ~TwinCATThermocouple.get
       ~TwinCATThermocouple.get_device_tuple
       ~TwinCATThermocouple.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.sensors.TwinCATThermocouple
       ~TwinCATThermocouple.read_configuration
       ~TwinCATThermocouple.resume
       ~TwinCATThermocouple.stage
+      ~TwinCATThermocouple.status_info
       ~TwinCATThermocouple.stop
       ~TwinCATThermocouple.subscribe
       ~TwinCATThermocouple.summary

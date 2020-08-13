@@ -1,0 +1,6 @@
+pcdsdevices.lens.Prefocus.format\_status\_info
+==============================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: Prefocus.format_status_info

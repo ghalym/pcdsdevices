@@ -1,0 +1,6 @@
+pcdsdevices.gon.Kappa.format\_status\_info
+==========================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: Kappa.format_status_info

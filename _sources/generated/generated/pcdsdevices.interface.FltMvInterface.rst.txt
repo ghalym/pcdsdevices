@@ -19,9 +19,11 @@ pcdsdevices.interface.FltMvInterface
       ~FltMvInterface.clear_sub
       ~FltMvInterface.destroy
       ~FltMvInterface.end_monitor_thread
+      ~FltMvInterface.format_status_info
       ~FltMvInterface.mv
       ~FltMvInterface.mv_ginput
       ~FltMvInterface.mvr
+      ~FltMvInterface.status_info
       ~FltMvInterface.subscribe
       ~FltMvInterface.tweak
       ~FltMvInterface.umv

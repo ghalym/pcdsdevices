@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.pim.PIMWithBoth &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.pim.PIMWithBoth &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -138,6 +138,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.describe.html">pcdsdevices.pim.PIMWithBoth.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.describe_configuration.html">pcdsdevices.pim.PIMWithBoth.describe_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.destroy.html">pcdsdevices.pim.PIMWithBoth.destroy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.format_status_info.html">pcdsdevices.pim.PIMWithBoth.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.get.html">pcdsdevices.pim.PIMWithBoth.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.get_device_tuple.html">pcdsdevices.pim.PIMWithBoth.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.get_instantiated_signals.html">pcdsdevices.pim.PIMWithBoth.get_instantiated_signals</a></li>
@@ -150,6 +151,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.remove.html">pcdsdevices.pim.PIMWithBoth.remove</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.resume.html">pcdsdevices.pim.PIMWithBoth.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.stage.html">pcdsdevices.pim.PIMWithBoth.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.status_info.html">pcdsdevices.pim.PIMWithBoth.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.stop.html">pcdsdevices.pim.PIMWithBoth.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.subscribe.html">pcdsdevices.pim.PIMWithBoth.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.summary.html">pcdsdevices.pim.PIMWithBoth.summary</a></li>
@@ -268,15 +270,15 @@ detector.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The EPICS base of the PIM.</p></li>
-<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – A name to refer to the device.</p></li>
-<li><p><strong>prefix_det</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a><em>, </em><em>optional</em>) – The EPICS base PV of the detector. If None, it will be attempted to be
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – The EPICS base of the PIM.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – A name to refer to the device.</p></li>
+<li><p><strong>prefix_det</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <em>optional</em>) – The EPICS base PV of the detector. If None, it will be attempted to be
 inferred from <code class="xref any docutils literal notranslate"><span class="pre">prefix</span></code>.</p></li>
-<li><p><strong>prefix_zoom</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a><em>, </em><em>optional</em>) – The EPICS base PV of the zoom motor. If None, it will be attempted to
+<li><p><strong>prefix_zoom</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <em>optional</em>) – The EPICS base PV of the zoom motor. If None, it will be attempted to
 be inferred from <code class="xref any docutils literal notranslate"><span class="pre">prefix</span></code>.</p></li>
-<li><p><strong>prefix_focus</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a><em>, </em><em>optional</em>) – The EPICS base PV of the focus motor. If None, it will be attempted to
+<li><p><strong>prefix_focus</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <em>optional</em>) – The EPICS base PV of the focus motor. If None, it will be attempted to
 be inferred from <code class="xref any docutils literal notranslate"><span class="pre">prefix</span></code>.</p></li>
-<li><p><strong>prefix_led</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a><em>, </em><em>optional</em>) – The EPICS base PV of the LED. If None, it will be attempted to be
+<li><p><strong>prefix_led</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <em>optional</em>) – The EPICS base PV of the LED. If None, it will be attempted to be
 inferred from <code class="xref any docutils literal notranslate"><span class="pre">prefix</span></code>.</p></li>
 </ul>
 </dd>
@@ -312,41 +314,47 @@ inferred from <code class="xref any docutils literal notranslate"><span class="p
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.destroy.html#pcdsdevices.pim.PIMWithBoth.destroy" title="pcdsdevices.pim.PIMWithBoth.destroy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">destroy</span></code></a>()</p></td>
 <td><p>Disconnect and destroy all signals on the Device</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.get.html#pcdsdevices.pim.PIMWithBoth.get" title="pcdsdevices.pim.PIMWithBoth.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.format_status_info.html#pcdsdevices.pim.PIMWithBoth.format_status_info" title="pcdsdevices.pim.PIMWithBoth.format_status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">format_status_info</span></code></a>(status_info)</p></td>
+<td><p>Entry point for the mini status displays in the ipython terminal.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.get.html#pcdsdevices.pim.PIMWithBoth.get" title="pcdsdevices.pim.PIMWithBoth.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.get_device_tuple.html#pcdsdevices.pim.PIMWithBoth.get_device_tuple" title="pcdsdevices.pim.PIMWithBoth.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.get_device_tuple.html#pcdsdevices.pim.PIMWithBoth.get_device_tuple" title="pcdsdevices.pim.PIMWithBoth.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
 <td><p>The device tuple type associated with an Device class</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.get_instantiated_signals.html#pcdsdevices.pim.PIMWithBoth.get_instantiated_signals" title="pcdsdevices.pim.PIMWithBoth.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.get_instantiated_signals.html#pcdsdevices.pim.PIMWithBoth.get_instantiated_signals" title="pcdsdevices.pim.PIMWithBoth.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.infer_prefix.html#pcdsdevices.pim.PIMWithBoth.infer_prefix" title="pcdsdevices.pim.PIMWithBoth.infer_prefix"><code class="xref py py-obj docutils literal notranslate"><span class="pre">infer_prefix</span></code></a>(prefix)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.infer_prefix.html#pcdsdevices.pim.PIMWithBoth.infer_prefix" title="pcdsdevices.pim.PIMWithBoth.infer_prefix"><code class="xref py py-obj docutils literal notranslate"><span class="pre">infer_prefix</span></code></a>(prefix)</p></td>
 <td><p>Pulls out the first two segments of the prefix PV, if not already done</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.insert.html#pcdsdevices.pim.PIMWithBoth.insert" title="pcdsdevices.pim.PIMWithBoth.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb, timeout, wait])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.insert.html#pcdsdevices.pim.PIMWithBoth.insert" title="pcdsdevices.pim.PIMWithBoth.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb, timeout, wait])</p></td>
 <td><p>Moves the YAG into the beam.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.pause.html#pcdsdevices.pim.PIMWithBoth.pause" title="pcdsdevices.pim.PIMWithBoth.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.pause.html#pcdsdevices.pim.PIMWithBoth.pause" title="pcdsdevices.pim.PIMWithBoth.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
 <td><p>Attempt to ‘pause’ the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.put.html#pcdsdevices.pim.PIMWithBoth.put" title="pcdsdevices.pim.PIMWithBoth.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.put.html#pcdsdevices.pim.PIMWithBoth.put" title="pcdsdevices.pim.PIMWithBoth.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
 <td><p>Put a value to all components of the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.read.html#pcdsdevices.pim.PIMWithBoth.read" title="pcdsdevices.pim.PIMWithBoth.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.read.html#pcdsdevices.pim.PIMWithBoth.read" title="pcdsdevices.pim.PIMWithBoth.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
 <td><p>Read data from the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.read_configuration.html#pcdsdevices.pim.PIMWithBoth.read_configuration" title="pcdsdevices.pim.PIMWithBoth.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.read_configuration.html#pcdsdevices.pim.PIMWithBoth.read_configuration" title="pcdsdevices.pim.PIMWithBoth.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.remove.html#pcdsdevices.pim.PIMWithBoth.remove" title="pcdsdevices.pim.PIMWithBoth.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb, timeout, wait])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.remove.html#pcdsdevices.pim.PIMWithBoth.remove" title="pcdsdevices.pim.PIMWithBoth.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb, timeout, wait])</p></td>
 <td><p>Moves the YAG and diode out of the beam.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.resume.html#pcdsdevices.pim.PIMWithBoth.resume" title="pcdsdevices.pim.PIMWithBoth.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.resume.html#pcdsdevices.pim.PIMWithBoth.resume" title="pcdsdevices.pim.PIMWithBoth.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.stage.html#pcdsdevices.pim.PIMWithBoth.stage" title="pcdsdevices.pim.PIMWithBoth.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.stage.html#pcdsdevices.pim.PIMWithBoth.stage" title="pcdsdevices.pim.PIMWithBoth.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
 <td><p>Stage the device for data collection.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.status_info.html#pcdsdevices.pim.PIMWithBoth.status_info" title="pcdsdevices.pim.PIMWithBoth.status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status_info</span></code></a>()</p></td>
+<td><p>Get useful information for the status display.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithBoth.stop.html#pcdsdevices.pim.PIMWithBoth.stop" title="pcdsdevices.pim.PIMWithBoth.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>

@@ -20,6 +20,7 @@ pcdsdevices.gon.XYZStage
       ~XYZStage.describe
       ~XYZStage.describe_configuration
       ~XYZStage.destroy
+      ~XYZStage.format_status_info
       ~XYZStage.get
       ~XYZStage.get_device_tuple
       ~XYZStage.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.gon.XYZStage
       ~XYZStage.read_configuration
       ~XYZStage.resume
       ~XYZStage.stage
+      ~XYZStage.status_info
       ~XYZStage.stop
       ~XYZStage.subscribe
       ~XYZStage.summary

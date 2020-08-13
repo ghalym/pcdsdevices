@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.slits.SlitPositioner.move &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.slits.SlitPositioner.move &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -152,6 +152,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.SlitPositioner.describe_configuration.html">pcdsdevices.slits.SlitPositioner.describe_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.SlitPositioner.destroy.html">pcdsdevices.slits.SlitPositioner.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.SlitPositioner.end_monitor_thread.html">pcdsdevices.slits.SlitPositioner.end_monitor_thread</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.SlitPositioner.format_status_info.html">pcdsdevices.slits.SlitPositioner.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.SlitPositioner.get.html">pcdsdevices.slits.SlitPositioner.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.SlitPositioner.get_device_tuple.html">pcdsdevices.slits.SlitPositioner.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.SlitPositioner.get_instantiated_signals.html">pcdsdevices.slits.SlitPositioner.get_instantiated_signals</a></li>
@@ -166,6 +167,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.SlitPositioner.resume.html">pcdsdevices.slits.SlitPositioner.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.SlitPositioner.set.html">pcdsdevices.slits.SlitPositioner.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.SlitPositioner.stage.html">pcdsdevices.slits.SlitPositioner.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.SlitPositioner.status_info.html">pcdsdevices.slits.SlitPositioner.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.SlitPositioner.stop.html">pcdsdevices.slits.SlitPositioner.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.SlitPositioner.subscribe.html">pcdsdevices.slits.SlitPositioner.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.SlitPositioner.summary.html">pcdsdevices.slits.SlitPositioner.summary</a></li>
@@ -277,15 +279,15 @@ complete.</p>
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>position</strong> – Position to move to</p></li>
-<li><p><strong>moved_cb</strong> (<em>callable</em>) – Call this callback when movement has finished. This callback must
+<li><p><strong>moved_cb</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">callable</span></code>) – Call this callback when movement has finished. This callback must
 accept one keyword argument: ‘obj’ which will be set to this
 positioner instance.</p></li>
-<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a><em>, </em><em>optional</em>) – Maximum time to wait for the motion. If None, the default timeout
+<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></a>, <em>optional</em>) – Maximum time to wait for the motion. If None, the default timeout
 for this positioner is used.</p></li>
 </ul>
 </dd>
 <dt class="field-even">Returns</dt>
-<dd class="field-even"><p><strong>status</strong> (<em>MoveStatus</em>)</p>
+<dd class="field-even"><p><strong>status</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">MoveStatus</span></code>)</p>
 </dd>
 <dt class="field-odd">Raises</dt>
 <dd class="field-odd"><ul class="simple">

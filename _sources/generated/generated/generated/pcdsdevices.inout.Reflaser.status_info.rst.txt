@@ -1,0 +1,6 @@
+pcdsdevices.inout.Reflaser.status\_info
+=======================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: Reflaser.status_info

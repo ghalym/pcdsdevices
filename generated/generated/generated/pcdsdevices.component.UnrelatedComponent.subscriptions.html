@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.component.UnrelatedComponent.subscriptions &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.component.UnrelatedComponent.subscriptions &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -234,12 +234,12 @@
 <dd><p>(Decorator) Specify subscriptions callbacks in the Device definition</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>event_type</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a><em> or </em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.8)"><em>None</em></a>) – Event type to subscribe to. <code class="xref any docutils literal notranslate"><span class="pre">ophyd.Signal</span></code> supports at least
+<dd class="field-odd"><p><strong>event_type</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a> or <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.8)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a>) – Event type to subscribe to. <code class="xref any docutils literal notranslate"><span class="pre">ophyd.Signal</span></code> supports at least
 {‘value’, ‘meta’}.  An <code class="xref any docutils literal notranslate"><span class="pre">event_type</span></code> of <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">None</span></code></a> indicates that the
 default event type for the signal is to be used.</p>
 </dd>
 <dt class="field-even">Returns</dt>
-<dd class="field-even"><p><strong>subscriber</strong> (<em>callable</em>) – Callable with signature <code class="xref any docutils literal notranslate"><span class="pre">subscriber(func)</span></code>, where <code class="xref any docutils literal notranslate"><span class="pre">func</span></code> is the
+<dd class="field-even"><p><strong>subscriber</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">callable</span></code>) – Callable with signature <code class="xref any docutils literal notranslate"><span class="pre">subscriber(func)</span></code>, where <code class="xref any docutils literal notranslate"><span class="pre">func</span></code> is the
 method to call when the subscription of event_type is fired.</p>
 </dd>
 </dl>

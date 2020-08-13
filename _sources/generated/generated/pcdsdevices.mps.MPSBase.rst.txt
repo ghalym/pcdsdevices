@@ -17,6 +17,8 @@ pcdsdevices.mps.MPSBase
       ~MPSBase.check_value
       ~MPSBase.clear_sub
       ~MPSBase.destroy
+      ~MPSBase.format_status_info
+      ~MPSBase.status_info
       ~MPSBase.subscribe
       ~MPSBase.unsubscribe
       ~MPSBase.unsubscribe_all

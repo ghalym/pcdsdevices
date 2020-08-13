@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.interface.Presets &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.interface.Presets &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -118,9 +118,15 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.gon.html">pcdsdevices.gon</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.interface.html">pcdsdevices.interface</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.device_info.html">pcdsdevices.interface.device_info</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.get_engineering_mode.html">pcdsdevices.interface.get_engineering_mode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.get_kind.html">pcdsdevices.interface.get_kind</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.get_name.html">pcdsdevices.interface.get_name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.get_value.html">pcdsdevices.interface.get_value</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.ophydobj_info.html">pcdsdevices.interface.ophydobj_info</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.set_engineering_mode.html">pcdsdevices.interface.set_engineering_mode</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.setup_preset_paths.html">pcdsdevices.interface.setup_preset_paths</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.signal_info.html">pcdsdevices.interface.signal_info</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.tweak_base.html">pcdsdevices.interface.tweak_base</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.AbsProgressBar.html">pcdsdevices.interface.AbsProgressBar</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.BaseInterface.html">pcdsdevices.interface.BaseInterface</a></li>
@@ -131,6 +137,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.PresetPosition.html">pcdsdevices.interface.PresetPosition</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.interface.Presets</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.Presets.__init__.html">pcdsdevices.interface.Presets.__init__</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.Presets.state.html">pcdsdevices.interface.Presets.state</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.Presets.sync.html">pcdsdevices.interface.Presets.sync</a></li>
 </ul>
 </li>
@@ -267,8 +274,23 @@ onto the associated device, and the <code class="xref py py-meth docutils litera
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.Presets.__init__.html#pcdsdevices.interface.Presets.__init__" title="pcdsdevices.interface.Presets.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(device)</p></td>
 <td><p>Initialize self.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.Presets.sync.html#pcdsdevices.interface.Presets.sync" title="pcdsdevices.interface.Presets.sync"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sync</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.Presets.state.html#pcdsdevices.interface.Presets.state" title="pcdsdevices.interface.Presets.state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">state</span></code></a>()</p></td>
+<td><p>Return the current active preset state name.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.Presets.sync.html#pcdsdevices.interface.Presets.sync" title="pcdsdevices.interface.Presets.sync"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sync</span></code></a>()</p></td>
 <td><p>Synchronize the presets with the database.</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Attributes</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">has_presets</span></code></p></td>
+<td><p>Returns True if any preset positions are defined.</p></td>
 </tr>
 </tbody>
 </table>

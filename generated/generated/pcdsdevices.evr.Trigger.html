@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.evr.Trigger &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.evr.Trigger &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -125,6 +125,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.destroy.html">pcdsdevices.evr.Trigger.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.disable.html">pcdsdevices.evr.Trigger.disable</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.enable.html">pcdsdevices.evr.Trigger.enable</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.format_status_info.html">pcdsdevices.evr.Trigger.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.get.html">pcdsdevices.evr.Trigger.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.get_device_tuple.html">pcdsdevices.evr.Trigger.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.get_instantiated_signals.html">pcdsdevices.evr.Trigger.get_instantiated_signals</a></li>
@@ -134,6 +135,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.read_configuration.html">pcdsdevices.evr.Trigger.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.resume.html">pcdsdevices.evr.Trigger.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.stage.html">pcdsdevices.evr.Trigger.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.status_info.html">pcdsdevices.evr.Trigger.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.stop.html">pcdsdevices.evr.Trigger.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.subscribe.html">pcdsdevices.evr.Trigger.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.summary.html">pcdsdevices.evr.Trigger.summary</a></li>
@@ -289,32 +291,38 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.enable.html#pcdsdevices.evr.Trigger.enable" title="pcdsdevices.evr.Trigger.enable"><code class="xref py py-obj docutils literal notranslate"><span class="pre">enable</span></code></a>()</p></td>
 <td><p>Enable the trigger.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.get.html#pcdsdevices.evr.Trigger.get" title="pcdsdevices.evr.Trigger.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.format_status_info.html#pcdsdevices.evr.Trigger.format_status_info" title="pcdsdevices.evr.Trigger.format_status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">format_status_info</span></code></a>(status_info)</p></td>
+<td><p>Entry point for the mini status displays in the ipython terminal.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.get.html#pcdsdevices.evr.Trigger.get" title="pcdsdevices.evr.Trigger.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.get_device_tuple.html#pcdsdevices.evr.Trigger.get_device_tuple" title="pcdsdevices.evr.Trigger.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.get_device_tuple.html#pcdsdevices.evr.Trigger.get_device_tuple" title="pcdsdevices.evr.Trigger.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
 <td><p>The device tuple type associated with an Device class</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.get_instantiated_signals.html#pcdsdevices.evr.Trigger.get_instantiated_signals" title="pcdsdevices.evr.Trigger.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.get_instantiated_signals.html#pcdsdevices.evr.Trigger.get_instantiated_signals" title="pcdsdevices.evr.Trigger.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.pause.html#pcdsdevices.evr.Trigger.pause" title="pcdsdevices.evr.Trigger.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.pause.html#pcdsdevices.evr.Trigger.pause" title="pcdsdevices.evr.Trigger.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
 <td><p>Attempt to ‘pause’ the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.put.html#pcdsdevices.evr.Trigger.put" title="pcdsdevices.evr.Trigger.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.put.html#pcdsdevices.evr.Trigger.put" title="pcdsdevices.evr.Trigger.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
 <td><p>Put a value to all components of the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.read.html#pcdsdevices.evr.Trigger.read" title="pcdsdevices.evr.Trigger.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.read.html#pcdsdevices.evr.Trigger.read" title="pcdsdevices.evr.Trigger.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
 <td><p>Read data from the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.read_configuration.html#pcdsdevices.evr.Trigger.read_configuration" title="pcdsdevices.evr.Trigger.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.read_configuration.html#pcdsdevices.evr.Trigger.read_configuration" title="pcdsdevices.evr.Trigger.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.resume.html#pcdsdevices.evr.Trigger.resume" title="pcdsdevices.evr.Trigger.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.resume.html#pcdsdevices.evr.Trigger.resume" title="pcdsdevices.evr.Trigger.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.stage.html#pcdsdevices.evr.Trigger.stage" title="pcdsdevices.evr.Trigger.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.stage.html#pcdsdevices.evr.Trigger.stage" title="pcdsdevices.evr.Trigger.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
 <td><p>Stage the device for data collection.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.status_info.html#pcdsdevices.evr.Trigger.status_info" title="pcdsdevices.evr.Trigger.status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status_info</span></code></a>()</p></td>
+<td><p>Get useful information for the status display.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.evr.Trigger.stop.html#pcdsdevices.evr.Trigger.stop" title="pcdsdevices.evr.Trigger.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>

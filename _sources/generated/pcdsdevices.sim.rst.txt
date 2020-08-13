@@ -1,4 +1,4 @@
-pcdsdevices.sim
+﻿pcdsdevices.sim
 ===============
 
 .. automodule:: pcdsdevices.sim

@@ -20,6 +20,7 @@ pcdsdevices.gon.GonWithDetArm
       ~GonWithDetArm.describe
       ~GonWithDetArm.describe_configuration
       ~GonWithDetArm.destroy
+      ~GonWithDetArm.format_status_info
       ~GonWithDetArm.get
       ~GonWithDetArm.get_device_tuple
       ~GonWithDetArm.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.gon.GonWithDetArm
       ~GonWithDetArm.read_configuration
       ~GonWithDetArm.resume
       ~GonWithDetArm.stage
+      ~GonWithDetArm.status_info
       ~GonWithDetArm.stop
       ~GonWithDetArm.subscribe
       ~GonWithDetArm.summary

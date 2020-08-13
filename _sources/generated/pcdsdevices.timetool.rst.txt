@@ -1,4 +1,4 @@
-pcdsdevices.timetool
+﻿pcdsdevices.timetool
 ====================
 
 .. automodule:: pcdsdevices.timetool

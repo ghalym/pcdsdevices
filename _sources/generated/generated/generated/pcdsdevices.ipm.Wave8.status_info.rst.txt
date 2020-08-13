@@ -1,0 +1,6 @@
+pcdsdevices.ipm.Wave8.status\_info
+==================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: Wave8.status_info

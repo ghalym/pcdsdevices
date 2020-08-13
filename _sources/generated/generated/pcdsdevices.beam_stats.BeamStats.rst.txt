@@ -20,6 +20,7 @@ pcdsdevices.beam\_stats.BeamStats
       ~BeamStats.describe
       ~BeamStats.describe_configuration
       ~BeamStats.destroy
+      ~BeamStats.format_status_info
       ~BeamStats.get
       ~BeamStats.get_device_tuple
       ~BeamStats.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.beam\_stats.BeamStats
       ~BeamStats.read_configuration
       ~BeamStats.resume
       ~BeamStats.stage
+      ~BeamStats.status_info
       ~BeamStats.stop
       ~BeamStats.subscribe
       ~BeamStats.summary

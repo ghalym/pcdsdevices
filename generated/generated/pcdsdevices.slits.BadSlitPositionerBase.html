@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.slits.BadSlitPositionerBase &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.slits.BadSlitPositionerBase &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -146,6 +146,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.describe_configuration.html">pcdsdevices.slits.BadSlitPositionerBase.describe_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.destroy.html">pcdsdevices.slits.BadSlitPositionerBase.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.end_monitor_thread.html">pcdsdevices.slits.BadSlitPositionerBase.end_monitor_thread</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.format_status_info.html">pcdsdevices.slits.BadSlitPositionerBase.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.get.html">pcdsdevices.slits.BadSlitPositionerBase.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.get_device_tuple.html">pcdsdevices.slits.BadSlitPositionerBase.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.get_instantiated_signals.html">pcdsdevices.slits.BadSlitPositionerBase.get_instantiated_signals</a></li>
@@ -160,6 +161,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.resume.html">pcdsdevices.slits.BadSlitPositionerBase.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.set.html">pcdsdevices.slits.BadSlitPositionerBase.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.stage.html">pcdsdevices.slits.BadSlitPositionerBase.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.status_info.html">pcdsdevices.slits.BadSlitPositionerBase.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.stop.html">pcdsdevices.slits.BadSlitPositionerBase.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.subscribe.html">pcdsdevices.slits.BadSlitPositionerBase.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.summary.html">pcdsdevices.slits.BadSlitPositionerBase.summary</a></li>
@@ -307,47 +309,53 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.end_monitor_thread.html#pcdsdevices.slits.BadSlitPositionerBase.end_monitor_thread" title="pcdsdevices.slits.BadSlitPositionerBase.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
 <td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.camonitor.html#pcdsdevices.slits.BadSlitPositionerBase.camonitor" title="pcdsdevices.slits.BadSlitPositionerBase.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.wm_update.html#pcdsdevices.slits.BadSlitPositionerBase.wm_update" title="pcdsdevices.slits.BadSlitPositionerBase.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.get.html#pcdsdevices.slits.BadSlitPositionerBase.get" title="pcdsdevices.slits.BadSlitPositionerBase.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.format_status_info.html#pcdsdevices.slits.BadSlitPositionerBase.format_status_info" title="pcdsdevices.slits.BadSlitPositionerBase.format_status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">format_status_info</span></code></a>(status_info)</p></td>
+<td><p>Entry point for the mini status displays in the ipython terminal.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.get.html#pcdsdevices.slits.BadSlitPositionerBase.get" title="pcdsdevices.slits.BadSlitPositionerBase.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.get_device_tuple.html#pcdsdevices.slits.BadSlitPositionerBase.get_device_tuple" title="pcdsdevices.slits.BadSlitPositionerBase.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.get_device_tuple.html#pcdsdevices.slits.BadSlitPositionerBase.get_device_tuple" title="pcdsdevices.slits.BadSlitPositionerBase.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
 <td><p>The device tuple type associated with an Device class</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.get_instantiated_signals.html#pcdsdevices.slits.BadSlitPositionerBase.get_instantiated_signals" title="pcdsdevices.slits.BadSlitPositionerBase.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.get_instantiated_signals.html#pcdsdevices.slits.BadSlitPositionerBase.get_instantiated_signals" title="pcdsdevices.slits.BadSlitPositionerBase.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.move.html#pcdsdevices.slits.BadSlitPositionerBase.move" title="pcdsdevices.slits.BadSlitPositionerBase.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, wait, timeout, moved_cb])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.move.html#pcdsdevices.slits.BadSlitPositionerBase.move" title="pcdsdevices.slits.BadSlitPositionerBase.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, wait, timeout, moved_cb])</p></td>
 <td><p>Move to a specified position, optionally waiting for motion to complete.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.mv.html#pcdsdevices.slits.BadSlitPositionerBase.mv" title="pcdsdevices.slits.BadSlitPositionerBase.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[, timeout, wait])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.mv.html#pcdsdevices.slits.BadSlitPositionerBase.mv" title="pcdsdevices.slits.BadSlitPositionerBase.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[, timeout, wait])</p></td>
 <td><p>Absolute move to a position.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.mv_ginput.html#pcdsdevices.slits.BadSlitPositionerBase.mv_ginput" title="pcdsdevices.slits.BadSlitPositionerBase.mv_ginput"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv_ginput</span></code></a>([timeout])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.mv_ginput.html#pcdsdevices.slits.BadSlitPositionerBase.mv_ginput" title="pcdsdevices.slits.BadSlitPositionerBase.mv_ginput"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv_ginput</span></code></a>([timeout])</p></td>
 <td><p>Moves to a location the user clicks on.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.mvr.html#pcdsdevices.slits.BadSlitPositionerBase.mvr" title="pcdsdevices.slits.BadSlitPositionerBase.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[, timeout, wait])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.mvr.html#pcdsdevices.slits.BadSlitPositionerBase.mvr" title="pcdsdevices.slits.BadSlitPositionerBase.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[, timeout, wait])</p></td>
 <td><p>Relative move from this position.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.pause.html#pcdsdevices.slits.BadSlitPositionerBase.pause" title="pcdsdevices.slits.BadSlitPositionerBase.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.pause.html#pcdsdevices.slits.BadSlitPositionerBase.pause" title="pcdsdevices.slits.BadSlitPositionerBase.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
 <td><p>Attempt to ‘pause’ the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.put.html#pcdsdevices.slits.BadSlitPositionerBase.put" title="pcdsdevices.slits.BadSlitPositionerBase.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.put.html#pcdsdevices.slits.BadSlitPositionerBase.put" title="pcdsdevices.slits.BadSlitPositionerBase.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
 <td><p>Put a value to all components of the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.read.html#pcdsdevices.slits.BadSlitPositionerBase.read" title="pcdsdevices.slits.BadSlitPositionerBase.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.read.html#pcdsdevices.slits.BadSlitPositionerBase.read" title="pcdsdevices.slits.BadSlitPositionerBase.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
 <td><p>Read data from the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.read_configuration.html#pcdsdevices.slits.BadSlitPositionerBase.read_configuration" title="pcdsdevices.slits.BadSlitPositionerBase.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.read_configuration.html#pcdsdevices.slits.BadSlitPositionerBase.read_configuration" title="pcdsdevices.slits.BadSlitPositionerBase.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.resume.html#pcdsdevices.slits.BadSlitPositionerBase.resume" title="pcdsdevices.slits.BadSlitPositionerBase.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.resume.html#pcdsdevices.slits.BadSlitPositionerBase.resume" title="pcdsdevices.slits.BadSlitPositionerBase.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.set.html#pcdsdevices.slits.BadSlitPositionerBase.set" title="pcdsdevices.slits.BadSlitPositionerBase.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position, *[, timeout, moved_cb, wait])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.set.html#pcdsdevices.slits.BadSlitPositionerBase.set" title="pcdsdevices.slits.BadSlitPositionerBase.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position, *[, timeout, moved_cb, wait])</p></td>
 <td><p>Set a value and return a Status object</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.stage.html#pcdsdevices.slits.BadSlitPositionerBase.stage" title="pcdsdevices.slits.BadSlitPositionerBase.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.stage.html#pcdsdevices.slits.BadSlitPositionerBase.stage" title="pcdsdevices.slits.BadSlitPositionerBase.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
 <td><p>Stage the device for data collection.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.status_info.html#pcdsdevices.slits.BadSlitPositionerBase.status_info" title="pcdsdevices.slits.BadSlitPositionerBase.status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status_info</span></code></a>()</p></td>
+<td><p>Get useful information for the status display.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.stop.html#pcdsdevices.slits.BadSlitPositionerBase.stop" title="pcdsdevices.slits.BadSlitPositionerBase.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>

@@ -19,7 +19,9 @@ pcdsdevices.interface.MvInterface
       ~MvInterface.clear_sub
       ~MvInterface.destroy
       ~MvInterface.end_monitor_thread
+      ~MvInterface.format_status_info
       ~MvInterface.mv
+      ~MvInterface.status_info
       ~MvInterface.subscribe
       ~MvInterface.unsubscribe
       ~MvInterface.unsubscribe_all

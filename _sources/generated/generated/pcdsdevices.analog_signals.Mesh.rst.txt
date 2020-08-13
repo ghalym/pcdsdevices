@@ -20,6 +20,7 @@ pcdsdevices.analog\_signals.Mesh
       ~Mesh.describe
       ~Mesh.describe_configuration
       ~Mesh.destroy
+      ~Mesh.format_status_info
       ~Mesh.get
       ~Mesh.get_device_tuple
       ~Mesh.get_instantiated_signals
@@ -33,6 +34,7 @@ pcdsdevices.analog\_signals.Mesh
       ~Mesh.set_mesh_voltage
       ~Mesh.set_rel_mesh_voltage
       ~Mesh.stage
+      ~Mesh.status_info
       ~Mesh.stop
       ~Mesh.subscribe
       ~Mesh.summary

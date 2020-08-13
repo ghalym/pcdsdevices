@@ -20,6 +20,7 @@ pcdsdevices.gon.BaseGon
       ~BaseGon.describe
       ~BaseGon.describe_configuration
       ~BaseGon.destroy
+      ~BaseGon.format_status_info
       ~BaseGon.get
       ~BaseGon.get_device_tuple
       ~BaseGon.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.gon.BaseGon
       ~BaseGon.read_configuration
       ~BaseGon.resume
       ~BaseGon.stage
+      ~BaseGon.status_info
       ~BaseGon.stop
       ~BaseGon.subscribe
       ~BaseGon.summary

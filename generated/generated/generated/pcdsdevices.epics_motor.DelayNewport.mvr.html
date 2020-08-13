@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.epics_motor.DelayNewport.mvr &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.epics_motor.DelayNewport.mvr &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -128,6 +128,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.describe_configuration.html">pcdsdevices.epics_motor.DelayNewport.describe_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.destroy.html">pcdsdevices.epics_motor.DelayNewport.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.end_monitor_thread.html">pcdsdevices.epics_motor.DelayNewport.end_monitor_thread</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.format_status_info.html">pcdsdevices.epics_motor.DelayNewport.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.forward.html">pcdsdevices.epics_motor.DelayNewport.forward</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.get.html">pcdsdevices.epics_motor.DelayNewport.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.get_device_tuple.html">pcdsdevices.epics_motor.DelayNewport.get_device_tuple</a></li>
@@ -145,6 +146,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.resume.html">pcdsdevices.epics_motor.DelayNewport.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.set.html">pcdsdevices.epics_motor.DelayNewport.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.stage.html">pcdsdevices.epics_motor.DelayNewport.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.status_info.html">pcdsdevices.epics_motor.DelayNewport.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.stop.html">pcdsdevices.epics_motor.DelayNewport.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.subscribe.html">pcdsdevices.epics_motor.DelayNewport.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.summary.html">pcdsdevices.epics_motor.DelayNewport.summary</a></li>
@@ -284,11 +286,11 @@
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>delta</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a>) – Desired change in position.</p></li>
-<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a><em>, </em><em>optional</em>) – If provided, the mover will throw an error if motion takes longer
+<li><p><strong>delta</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></a>) – Desired change in position.</p></li>
+<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></a>, <em>optional</em>) – If provided, the mover will throw an error if motion takes longer
 than timeout to complete. If omitted, the mover’s default timeout
 will be use.</p></li>
-<li><p><strong>wait</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – If <a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a>, wait for motion completion before returning.
+<li><p><strong>wait</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>, <em>optional</em>) – If <a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a>, wait for motion completion before returning.
 Defaults to <code class="xref std std-keyword docutils literal notranslate"><span class="pre">False</span></code>.</p></li>
 </ul>
 </dd>

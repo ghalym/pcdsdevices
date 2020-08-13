@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.interface.FltMvInterface.subscribe &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.interface.FltMvInterface.subscribe &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -37,7 +37,7 @@
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
     <link rel="next" title="pcdsdevices.interface.FltMvInterface.tweak" href="pcdsdevices.interface.FltMvInterface.tweak.html" />
-    <link rel="prev" title="pcdsdevices.interface.FltMvInterface.mvr" href="pcdsdevices.interface.FltMvInterface.mvr.html" /> 
+    <link rel="prev" title="pcdsdevices.interface.FltMvInterface.status_info" href="pcdsdevices.interface.FltMvInterface.status_info.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -118,9 +118,15 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.gon.html">pcdsdevices.gon</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.interface.html">pcdsdevices.interface</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.interface.device_info.html">pcdsdevices.interface.device_info</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.interface.get_engineering_mode.html">pcdsdevices.interface.get_engineering_mode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.interface.get_kind.html">pcdsdevices.interface.get_kind</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.interface.get_name.html">pcdsdevices.interface.get_name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.interface.get_value.html">pcdsdevices.interface.get_value</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.interface.ophydobj_info.html">pcdsdevices.interface.ophydobj_info</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.interface.set_engineering_mode.html">pcdsdevices.interface.set_engineering_mode</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.interface.setup_preset_paths.html">pcdsdevices.interface.setup_preset_paths</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.interface.signal_info.html">pcdsdevices.interface.signal_info</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.interface.tweak_base.html">pcdsdevices.interface.tweak_base</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.interface.AbsProgressBar.html">pcdsdevices.interface.AbsProgressBar</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.interface.BaseInterface.html">pcdsdevices.interface.BaseInterface</a></li>
@@ -132,9 +138,11 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.interface.FltMvInterface.clear_sub.html">pcdsdevices.interface.FltMvInterface.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.interface.FltMvInterface.destroy.html">pcdsdevices.interface.FltMvInterface.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.interface.FltMvInterface.end_monitor_thread.html">pcdsdevices.interface.FltMvInterface.end_monitor_thread</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.interface.FltMvInterface.format_status_info.html">pcdsdevices.interface.FltMvInterface.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.interface.FltMvInterface.mv.html">pcdsdevices.interface.FltMvInterface.mv</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.interface.FltMvInterface.mv_ginput.html">pcdsdevices.interface.FltMvInterface.mv_ginput</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.interface.FltMvInterface.mvr.html">pcdsdevices.interface.FltMvInterface.mvr</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.interface.FltMvInterface.status_info.html">pcdsdevices.interface.FltMvInterface.status_info</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.interface.FltMvInterface.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.interface.FltMvInterface.tweak.html">pcdsdevices.interface.FltMvInterface.tweak</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.interface.FltMvInterface.umv.html">pcdsdevices.interface.FltMvInterface.umv</a></li>
@@ -270,7 +278,7 @@ silently ignored.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>callback</strong> (<em>callable</em>) – <p>A callable function (that takes kwargs) to be run when the event is
+<li><p><strong>callback</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">callable</span></code>) – <p>A callable function (that takes kwargs) to be run when the event is
 generated.  The expected signature is</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">cb</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="n">obj</span><span class="p">:</span> <span class="n">OphydObject</span><span class="p">,</span> <span class="n">sub_type</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
 </pre></div>
@@ -278,11 +286,11 @@ generated.  The expected signature is</p>
 <p>The exact args/kwargs passed are whatever are passed to
 <code class="docutils literal notranslate"><span class="pre">_run_subs</span></code></p>
 </p></li>
-<li><p><strong>event_type</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a><em>, </em><em>optional</em>) – <p>The name of the event to subscribe to (if None, defaults to
+<li><p><strong>event_type</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <em>optional</em>) – <p>The name of the event to subscribe to (if None, defaults to
 the default sub for the instance - obj._default_sub)</p>
 <p>This maps to the <code class="docutils literal notranslate"><span class="pre">sub_type</span></code> kwargs in <code class="xref any docutils literal notranslate"><span class="pre">_run_subs</span></code></p>
 </p></li>
-<li><p><strong>run</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Run the callback now</p></li>
+<li><p><strong>run</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>, <em>optional</em>) – Run the callback now</p></li>
 </ul>
 </dd>
 </dl>
@@ -292,7 +300,7 @@ the default sub for the instance - obj._default_sub)</p>
 </div>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p><strong>cid</strong> (<em>int</em>) – id of callback, can be passed to <a class="reference internal" href="pcdsdevices.interface.FltMvInterface.unsubscribe.html#pcdsdevices.interface.FltMvInterface.unsubscribe" title="pcdsdevices.interface.FltMvInterface.unsubscribe"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">unsubscribe</span></code></a> to remove the
+<dd class="field-odd"><p><strong>cid</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – id of callback, can be passed to <a class="reference internal" href="pcdsdevices.interface.FltMvInterface.unsubscribe.html#pcdsdevices.interface.FltMvInterface.unsubscribe" title="pcdsdevices.interface.FltMvInterface.unsubscribe"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">unsubscribe</span></code></a> to remove the
 callback</p>
 </dd>
 </dl>
@@ -311,7 +319,7 @@ callback</p>
         <a href="pcdsdevices.interface.FltMvInterface.tweak.html" class="btn btn-neutral float-right" title="pcdsdevices.interface.FltMvInterface.tweak" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="pcdsdevices.interface.FltMvInterface.mvr.html" class="btn btn-neutral float-left" title="pcdsdevices.interface.FltMvInterface.mvr" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="pcdsdevices.interface.FltMvInterface.status_info.html" class="btn btn-neutral float-left" title="pcdsdevices.interface.FltMvInterface.status_info" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

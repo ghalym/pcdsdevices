@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.CCM.format\_status\_info
+==================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: CCM.format_status_info

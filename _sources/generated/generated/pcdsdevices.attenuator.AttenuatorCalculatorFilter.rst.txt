@@ -20,6 +20,7 @@ pcdsdevices.attenuator.AttenuatorCalculatorFilter
       ~AttenuatorCalculatorFilter.describe
       ~AttenuatorCalculatorFilter.describe_configuration
       ~AttenuatorCalculatorFilter.destroy
+      ~AttenuatorCalculatorFilter.format_status_info
       ~AttenuatorCalculatorFilter.get
       ~AttenuatorCalculatorFilter.get_device_tuple
       ~AttenuatorCalculatorFilter.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.attenuator.AttenuatorCalculatorFilter
       ~AttenuatorCalculatorFilter.read_configuration
       ~AttenuatorCalculatorFilter.resume
       ~AttenuatorCalculatorFilter.stage
+      ~AttenuatorCalculatorFilter.status_info
       ~AttenuatorCalculatorFilter.stop
       ~AttenuatorCalculatorFilter.subscribe
       ~AttenuatorCalculatorFilter.summary

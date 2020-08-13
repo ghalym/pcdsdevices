@@ -20,6 +20,7 @@ pcdsdevices.ipm.Wave8Channel
       ~Wave8Channel.describe
       ~Wave8Channel.describe_configuration
       ~Wave8Channel.destroy
+      ~Wave8Channel.format_status_info
       ~Wave8Channel.get
       ~Wave8Channel.get_device_tuple
       ~Wave8Channel.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.ipm.Wave8Channel
       ~Wave8Channel.read_configuration
       ~Wave8Channel.resume
       ~Wave8Channel.stage
+      ~Wave8Channel.status_info
       ~Wave8Channel.stop
       ~Wave8Channel.subscribe
       ~Wave8Channel.summary

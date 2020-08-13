@@ -1,0 +1,6 @@
+pcdsdevices.gon.XYZStage.status\_info
+=====================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: XYZStage.status_info

@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.FeeAtt.format\_status\_info
+==================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: FeeAtt.format_status_info

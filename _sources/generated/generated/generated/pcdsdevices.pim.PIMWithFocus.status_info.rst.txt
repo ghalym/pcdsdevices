@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithFocus.status\_info
+=========================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithFocus.status_info

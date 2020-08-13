@@ -1,4 +1,4 @@
-pcdsdevices.device\_types.LODCM
+﻿pcdsdevices.device\_types.LODCM
 ===============================
 
 .. currentmodule:: pcdsdevices.device_types
@@ -20,6 +20,7 @@ pcdsdevices.device\_types.LODCM
       ~LODCM.describe
       ~LODCM.describe_configuration
       ~LODCM.destroy
+      ~LODCM.format_status_info
       ~LODCM.get
       ~LODCM.get_device_tuple
       ~LODCM.get_instantiated_signals
@@ -31,6 +32,7 @@ pcdsdevices.device\_types.LODCM
       ~LODCM.remove_dia
       ~LODCM.resume
       ~LODCM.stage
+      ~LODCM.status_info
       ~LODCM.stop
       ~LODCM.subscribe
       ~LODCM.summary

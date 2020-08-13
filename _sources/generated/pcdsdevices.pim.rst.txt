@@ -1,4 +1,4 @@
-pcdsdevices.pim
+﻿pcdsdevices.pim
 ===============
 
 .. automodule:: pcdsdevices.pim

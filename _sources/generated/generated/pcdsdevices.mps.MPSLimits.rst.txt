@@ -20,6 +20,7 @@ pcdsdevices.mps.MPSLimits
       ~MPSLimits.describe
       ~MPSLimits.describe_configuration
       ~MPSLimits.destroy
+      ~MPSLimits.format_status_info
       ~MPSLimits.get
       ~MPSLimits.get_device_tuple
       ~MPSLimits.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.mps.MPSLimits
       ~MPSLimits.read_configuration
       ~MPSLimits.resume
       ~MPSLimits.stage
+      ~MPSLimits.status_info
       ~MPSLimits.stop
       ~MPSLimits.subscribe
       ~MPSLimits.summary

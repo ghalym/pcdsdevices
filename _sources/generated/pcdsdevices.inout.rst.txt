@@ -1,4 +1,4 @@
-pcdsdevices.inout
+﻿pcdsdevices.inout
 =================
 
 .. automodule:: pcdsdevices.inout

@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugePirani.status\_info
+==========================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugePirani.status_info

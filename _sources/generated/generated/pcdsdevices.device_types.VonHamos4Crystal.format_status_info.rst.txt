@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.VonHamos4Crystal.format\_status\_info
+===============================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: VonHamos4Crystal.format_status_info

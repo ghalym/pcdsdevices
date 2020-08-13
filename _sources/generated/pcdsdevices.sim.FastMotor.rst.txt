@@ -1,4 +1,4 @@
-pcdsdevices.sim.FastMotor
+﻿pcdsdevices.sim.FastMotor
 =========================
 
 .. currentmodule:: pcdsdevices.sim
@@ -22,6 +22,7 @@ pcdsdevices.sim.FastMotor
       ~FastMotor.describe_configuration
       ~FastMotor.destroy
       ~FastMotor.end_monitor_thread
+      ~FastMotor.format_status_info
       ~FastMotor.get
       ~FastMotor.get_device_tuple
       ~FastMotor.get_instantiated_signals
@@ -36,6 +37,7 @@ pcdsdevices.sim.FastMotor
       ~FastMotor.resume
       ~FastMotor.set
       ~FastMotor.stage
+      ~FastMotor.status_info
       ~FastMotor.stop
       ~FastMotor.subscribe
       ~FastMotor.summary

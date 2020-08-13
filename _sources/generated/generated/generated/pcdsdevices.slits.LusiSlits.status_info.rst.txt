@@ -1,0 +1,6 @@
+pcdsdevices.slits.LusiSlits.status\_info
+========================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: LusiSlits.status_info

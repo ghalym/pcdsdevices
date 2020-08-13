@@ -20,6 +20,7 @@ pcdsdevices.jet.BeckhoffJetSlits
       ~BeckhoffJetSlits.describe
       ~BeckhoffJetSlits.describe_configuration
       ~BeckhoffJetSlits.destroy
+      ~BeckhoffJetSlits.format_status_info
       ~BeckhoffJetSlits.get
       ~BeckhoffJetSlits.get_device_tuple
       ~BeckhoffJetSlits.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.jet.BeckhoffJetSlits
       ~BeckhoffJetSlits.read_configuration
       ~BeckhoffJetSlits.resume
       ~BeckhoffJetSlits.stage
+      ~BeckhoffJetSlits.status_info
       ~BeckhoffJetSlits.stop
       ~BeckhoffJetSlits.subscribe
       ~BeckhoffJetSlits.summary

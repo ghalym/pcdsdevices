@@ -1,0 +1,6 @@
+pcdsdevices.analog\_signals.Mesh.format\_status\_info
+=====================================================
+
+.. currentmodule:: pcdsdevices.analog_signals
+
+.. automethod:: Mesh.format_status_info

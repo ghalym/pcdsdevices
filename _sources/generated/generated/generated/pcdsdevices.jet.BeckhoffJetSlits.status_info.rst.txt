@@ -1,0 +1,6 @@
+pcdsdevices.jet.BeckhoffJetSlits.status\_info
+=============================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: BeckhoffJetSlits.status_info

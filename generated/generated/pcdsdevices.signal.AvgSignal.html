@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.signal.AvgSignal &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.signal.AvgSignal &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -259,9 +259,9 @@ just be the mean of a single value!</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>signal</strong> (<em>Signal</em>) – Any subclass of <code class="xref any docutils literal notranslate"><span class="pre">ophyd.signal.Signal</span></code> that returns a numeric value.
+<li><p><strong>signal</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Signal</span></code>) – Any subclass of <code class="xref any docutils literal notranslate"><span class="pre">ophyd.signal.Signal</span></code> that returns a numeric value.
 This signal will be subscribed to be <a class="reference internal" href="#pcdsdevices.signal.AvgSignal" title="pcdsdevices.signal.AvgSignal"><code class="xref any py py-class docutils literal notranslate"><span class="pre">AvgSignal</span></code></a> to calculate the mean.</p></li>
-<li><p><strong>averages</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – The number of <code class="xref any docutils literal notranslate"><span class="pre">SUB_VALUE</span></code> updates to include in the average. New values
+<li><p><strong>averages</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – The number of <code class="xref any docutils literal notranslate"><span class="pre">SUB_VALUE</span></code> updates to include in the average. New values
 after this number is reached will begin overriding old values.</p></li>
 </ul>
 </dd>

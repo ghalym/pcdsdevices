@@ -25,6 +25,7 @@ pcdsdevices.lodcm.Dectris
       ~Dectris.describe_configuration
       ~Dectris.destroy
       ~Dectris.end_monitor_thread
+      ~Dectris.format_status_info
       ~Dectris.get
       ~Dectris.get_device_tuple
       ~Dectris.get_instantiated_signals
@@ -40,6 +41,7 @@ pcdsdevices.lodcm.Dectris
       ~Dectris.resume
       ~Dectris.set
       ~Dectris.stage
+      ~Dectris.status_info
       ~Dectris.stop
       ~Dectris.subscribe
       ~Dectris.summary

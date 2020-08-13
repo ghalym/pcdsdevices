@@ -25,6 +25,7 @@ pcdsdevices.attenuator.Filter
       ~Filter.describe_configuration
       ~Filter.destroy
       ~Filter.end_monitor_thread
+      ~Filter.format_status_info
       ~Filter.get
       ~Filter.get_device_tuple
       ~Filter.get_instantiated_signals
@@ -40,6 +41,7 @@ pcdsdevices.attenuator.Filter
       ~Filter.resume
       ~Filter.set
       ~Filter.stage
+      ~Filter.status_info
       ~Filter.stop
       ~Filter.subscribe
       ~Filter.summary
@@ -97,6 +99,7 @@ pcdsdevices.attenuator.Filter
       ~Filter.signal_names
       ~Filter.state
       ~Filter.states_list
+      ~Filter.status
       ~Filter.stuck
       ~Filter.tab_component_names
       ~Filter.tab_whitelist

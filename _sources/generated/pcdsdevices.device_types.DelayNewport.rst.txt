@@ -1,4 +1,4 @@
-pcdsdevices.device\_types.DelayNewport
+﻿pcdsdevices.device\_types.DelayNewport
 ======================================
 
 .. currentmodule:: pcdsdevices.device_types
@@ -23,6 +23,7 @@ pcdsdevices.device\_types.DelayNewport
       ~DelayNewport.describe_configuration
       ~DelayNewport.destroy
       ~DelayNewport.end_monitor_thread
+      ~DelayNewport.format_status_info
       ~DelayNewport.forward
       ~DelayNewport.get
       ~DelayNewport.get_device_tuple
@@ -40,6 +41,7 @@ pcdsdevices.device\_types.DelayNewport
       ~DelayNewport.resume
       ~DelayNewport.set
       ~DelayNewport.stage
+      ~DelayNewport.status_info
       ~DelayNewport.stop
       ~DelayNewport.subscribe
       ~DelayNewport.summary

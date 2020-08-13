@@ -21,6 +21,7 @@ pcdsdevices.attenuator.AttenuatorCalculatorBase
       ~AttenuatorCalculatorBase.describe
       ~AttenuatorCalculatorBase.describe_configuration
       ~AttenuatorCalculatorBase.destroy
+      ~AttenuatorCalculatorBase.format_status_info
       ~AttenuatorCalculatorBase.get
       ~AttenuatorCalculatorBase.get_active_config
       ~AttenuatorCalculatorBase.get_best_config
@@ -33,6 +34,7 @@ pcdsdevices.attenuator.AttenuatorCalculatorBase
       ~AttenuatorCalculatorBase.read_configuration
       ~AttenuatorCalculatorBase.resume
       ~AttenuatorCalculatorBase.stage
+      ~AttenuatorCalculatorBase.status_info
       ~AttenuatorCalculatorBase.stop
       ~AttenuatorCalculatorBase.subscribe
       ~AttenuatorCalculatorBase.summary

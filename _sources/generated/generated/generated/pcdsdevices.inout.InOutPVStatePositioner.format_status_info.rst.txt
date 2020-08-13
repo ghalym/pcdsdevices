@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutPVStatePositioner.format\_status\_info
+=============================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutPVStatePositioner.format_status_info

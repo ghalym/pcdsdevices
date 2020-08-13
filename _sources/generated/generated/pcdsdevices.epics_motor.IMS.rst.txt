@@ -29,6 +29,7 @@ pcdsdevices.epics\_motor.IMS
       ~IMS.disable
       ~IMS.enable
       ~IMS.end_monitor_thread
+      ~IMS.format_status_info
       ~IMS.get
       ~IMS.get_device_tuple
       ~IMS.get_instantiated_signals
@@ -52,6 +53,7 @@ pcdsdevices.epics\_motor.IMS
       ~IMS.spg_pause
       ~IMS.spg_stop
       ~IMS.stage
+      ~IMS.status_info
       ~IMS.stop
       ~IMS.subscribe
       ~IMS.summary

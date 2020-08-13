@@ -1,0 +1,6 @@
+pcdsdevices.valve.PPSStopper.format\_status\_info
+=================================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: PPSStopper.format_status_info

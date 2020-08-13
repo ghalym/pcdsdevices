@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMY.format\_status\_info
+=========================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMY.format_status_info

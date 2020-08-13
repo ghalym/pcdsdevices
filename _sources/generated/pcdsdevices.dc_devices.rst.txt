@@ -1,4 +1,4 @@
-pcdsdevices.dc\_devices
+﻿pcdsdevices.dc\_devices
 =======================
 
 .. automodule:: pcdsdevices.dc_devices

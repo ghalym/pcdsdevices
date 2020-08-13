@@ -20,6 +20,7 @@ pcdsdevices.gauge.GaugeColdCathode
       ~GaugeColdCathode.describe
       ~GaugeColdCathode.describe_configuration
       ~GaugeColdCathode.destroy
+      ~GaugeColdCathode.format_status_info
       ~GaugeColdCathode.get
       ~GaugeColdCathode.get_device_tuple
       ~GaugeColdCathode.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.gauge.GaugeColdCathode
       ~GaugeColdCathode.read_configuration
       ~GaugeColdCathode.resume
       ~GaugeColdCathode.stage
+      ~GaugeColdCathode.status_info
       ~GaugeColdCathode.stop
       ~GaugeColdCathode.subscribe
       ~GaugeColdCathode.summary

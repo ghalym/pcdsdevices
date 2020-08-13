@@ -1,4 +1,4 @@
-pcdsdevices.pulsepicker
+﻿pcdsdevices.pulsepicker
 =======================
 
 .. automodule:: pcdsdevices.pulsepicker

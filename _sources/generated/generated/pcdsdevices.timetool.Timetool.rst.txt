@@ -25,6 +25,7 @@ pcdsdevices.timetool.Timetool
       ~Timetool.describe_configuration
       ~Timetool.destroy
       ~Timetool.end_monitor_thread
+      ~Timetool.format_status_info
       ~Timetool.get
       ~Timetool.get_device_tuple
       ~Timetool.get_instantiated_signals
@@ -40,6 +41,7 @@ pcdsdevices.timetool.Timetool
       ~Timetool.resume
       ~Timetool.set
       ~Timetool.stage
+      ~Timetool.status_info
       ~Timetool.stop
       ~Timetool.subscribe
       ~Timetool.summary

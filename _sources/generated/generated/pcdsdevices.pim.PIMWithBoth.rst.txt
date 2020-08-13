@@ -20,6 +20,7 @@ pcdsdevices.pim.PIMWithBoth
       ~PIMWithBoth.describe
       ~PIMWithBoth.describe_configuration
       ~PIMWithBoth.destroy
+      ~PIMWithBoth.format_status_info
       ~PIMWithBoth.get
       ~PIMWithBoth.get_device_tuple
       ~PIMWithBoth.get_instantiated_signals
@@ -32,6 +33,7 @@ pcdsdevices.pim.PIMWithBoth
       ~PIMWithBoth.remove
       ~PIMWithBoth.resume
       ~PIMWithBoth.stage
+      ~PIMWithBoth.status_info
       ~PIMWithBoth.stop
       ~PIMWithBoth.subscribe
       ~PIMWithBoth.summary

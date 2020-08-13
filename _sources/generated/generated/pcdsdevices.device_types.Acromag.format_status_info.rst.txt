@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Acromag.format\_status\_info
+======================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Acromag.format_status_info

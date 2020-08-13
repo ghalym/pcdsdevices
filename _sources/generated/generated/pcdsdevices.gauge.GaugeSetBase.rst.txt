@@ -21,6 +21,7 @@ pcdsdevices.gauge.GaugeSetBase
       ~GaugeSetBase.describe_configuration
       ~GaugeSetBase.destroy
       ~GaugeSetBase.egu
+      ~GaugeSetBase.format_status_info
       ~GaugeSetBase.get
       ~GaugeSetBase.get_device_tuple
       ~GaugeSetBase.get_instantiated_signals
@@ -31,6 +32,7 @@ pcdsdevices.gauge.GaugeSetBase
       ~GaugeSetBase.read_configuration
       ~GaugeSetBase.resume
       ~GaugeSetBase.stage
+      ~GaugeSetBase.status_info
       ~GaugeSetBase.stop
       ~GaugeSetBase.subscribe
       ~GaugeSetBase.summary

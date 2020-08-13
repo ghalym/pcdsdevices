@@ -1,0 +1,6 @@
+pcdsdevices.sensors.TwinCATThermocouple.format\_status\_info
+============================================================
+
+.. currentmodule:: pcdsdevices.sensors
+
+.. automethod:: TwinCATThermocouple.format_status_info

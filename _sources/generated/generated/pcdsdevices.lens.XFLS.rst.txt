@@ -25,6 +25,7 @@ pcdsdevices.lens.XFLS
       ~XFLS.describe_configuration
       ~XFLS.destroy
       ~XFLS.end_monitor_thread
+      ~XFLS.format_status_info
       ~XFLS.get
       ~XFLS.get_device_tuple
       ~XFLS.get_instantiated_signals
@@ -40,6 +41,7 @@ pcdsdevices.lens.XFLS
       ~XFLS.resume
       ~XFLS.set
       ~XFLS.stage
+      ~XFLS.status_info
       ~XFLS.stop
       ~XFLS.subscribe
       ~XFLS.summary

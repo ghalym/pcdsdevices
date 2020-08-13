@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.pulsepicker.PulsePicker &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.pulsepicker.PulsePicker &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -147,6 +147,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.end_monitor_thread.html">pcdsdevices.pulsepicker.PulsePicker.end_monitor_thread</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.flipflop.html">pcdsdevices.pulsepicker.PulsePicker.flipflop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.follower.html">pcdsdevices.pulsepicker.PulsePicker.follower</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.format_status_info.html">pcdsdevices.pulsepicker.PulsePicker.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.get.html">pcdsdevices.pulsepicker.PulsePicker.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.get_device_tuple.html">pcdsdevices.pulsepicker.PulsePicker.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.get_instantiated_signals.html">pcdsdevices.pulsepicker.PulsePicker.get_instantiated_signals</a></li>
@@ -164,6 +165,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.resume.html">pcdsdevices.pulsepicker.PulsePicker.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.set.html">pcdsdevices.pulsepicker.PulsePicker.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.stage.html">pcdsdevices.pulsepicker.PulsePicker.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.status_info.html">pcdsdevices.pulsepicker.PulsePicker.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.stop.html">pcdsdevices.pulsepicker.PulsePicker.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.subscribe.html">pcdsdevices.pulsepicker.PulsePicker.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.summary.html">pcdsdevices.pulsepicker.PulsePicker.summary</a></li>
@@ -275,10 +277,10 @@ through and block others.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The EPICS PV prefix for this motor.</p></li>
-<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – An identifying name for this motor.</p></li>
-<li><p><strong>settle_time</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a><em>, </em><em>optional</em>) – The amount of extra time to wait before interpreting a move as done.</p></li>
-<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a><em>, </em><em>optional</em>) – The amount of time to wait before automatically marking a long
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – The EPICS PV prefix for this motor.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – An identifying name for this motor.</p></li>
+<li><p><strong>settle_time</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></a>, <em>optional</em>) – The amount of extra time to wait before interpreting a move as done.</p></li>
+<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></a>, <em>optional</em>) – The amount of time to wait before automatically marking a long
 in-progress move as failed.</p></li>
 </ul>
 </dd>
@@ -341,56 +343,62 @@ in-progress move as failed.</p></li>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.follower.html#pcdsdevices.pulsepicker.PulsePicker.follower" title="pcdsdevices.pulsepicker.PulsePicker.follower"><code class="xref py py-obj docutils literal notranslate"><span class="pre">follower</span></code></a>([wait])</p></td>
 <td><p>Change the current mode to FOLLOWER.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.get.html#pcdsdevices.pulsepicker.PulsePicker.get" title="pcdsdevices.pulsepicker.PulsePicker.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.format_status_info.html#pcdsdevices.pulsepicker.PulsePicker.format_status_info" title="pcdsdevices.pulsepicker.PulsePicker.format_status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">format_status_info</span></code></a>(status_info)</p></td>
+<td><p>Entry point for the mini status displays in the ipython terminal.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.get.html#pcdsdevices.pulsepicker.PulsePicker.get" title="pcdsdevices.pulsepicker.PulsePicker.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.get_device_tuple.html#pcdsdevices.pulsepicker.PulsePicker.get_device_tuple" title="pcdsdevices.pulsepicker.PulsePicker.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.get_device_tuple.html#pcdsdevices.pulsepicker.PulsePicker.get_device_tuple" title="pcdsdevices.pulsepicker.PulsePicker.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
 <td><p>The device tuple type associated with an Device class</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.get_instantiated_signals.html#pcdsdevices.pulsepicker.PulsePicker.get_instantiated_signals" title="pcdsdevices.pulsepicker.PulsePicker.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.get_instantiated_signals.html#pcdsdevices.pulsepicker.PulsePicker.get_instantiated_signals" title="pcdsdevices.pulsepicker.PulsePicker.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.get_state.html#pcdsdevices.pulsepicker.PulsePicker.get_state" title="pcdsdevices.pulsepicker.PulsePicker.get_state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_state</span></code></a>(value)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.get_state.html#pcdsdevices.pulsepicker.PulsePicker.get_state" title="pcdsdevices.pulsepicker.PulsePicker.get_state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_state</span></code></a>(value)</p></td>
 <td><p>Given an integer or string value, return the proper state entry.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.insert.html#pcdsdevices.pulsepicker.PulsePicker.insert" title="pcdsdevices.pulsepicker.PulsePicker.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb, timeout, wait])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.insert.html#pcdsdevices.pulsepicker.PulsePicker.insert" title="pcdsdevices.pulsepicker.PulsePicker.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb, timeout, wait])</p></td>
 <td><p>Moves this device to the first state on the <a class="reference internal" href="pcdsdevices.inout.InOutPositioner.html#pcdsdevices.inout.InOutPositioner.in_states" title="pcdsdevices.inout.InOutPositioner.in_states"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">in_states</span></code></a> list.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.move.html#pcdsdevices.pulsepicker.PulsePicker.move" title="pcdsdevices.pulsepicker.PulsePicker.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, moved_cb, timeout, wait])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.move.html#pcdsdevices.pulsepicker.PulsePicker.move" title="pcdsdevices.pulsepicker.PulsePicker.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, moved_cb, timeout, wait])</p></td>
 <td><p>Move to the desired state and return completion information.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.mv.html#pcdsdevices.pulsepicker.PulsePicker.mv" title="pcdsdevices.pulsepicker.PulsePicker.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[, timeout, wait])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.mv.html#pcdsdevices.pulsepicker.PulsePicker.mv" title="pcdsdevices.pulsepicker.PulsePicker.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[, timeout, wait])</p></td>
 <td><p>Absolute move to a position.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.open.html#pcdsdevices.pulsepicker.PulsePicker.open" title="pcdsdevices.pulsepicker.PulsePicker.open"><code class="xref py py-obj docutils literal notranslate"><span class="pre">open</span></code></a>([wait])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.open.html#pcdsdevices.pulsepicker.PulsePicker.open" title="pcdsdevices.pulsepicker.PulsePicker.open"><code class="xref py py-obj docutils literal notranslate"><span class="pre">open</span></code></a>([wait])</p></td>
 <td><p>Cancel the current mode and leave the PulsePicker OPEN.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.pause.html#pcdsdevices.pulsepicker.PulsePicker.pause" title="pcdsdevices.pulsepicker.PulsePicker.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.pause.html#pcdsdevices.pulsepicker.PulsePicker.pause" title="pcdsdevices.pulsepicker.PulsePicker.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
 <td><p>Attempt to ‘pause’ the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.put.html#pcdsdevices.pulsepicker.PulsePicker.put" title="pcdsdevices.pulsepicker.PulsePicker.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.put.html#pcdsdevices.pulsepicker.PulsePicker.put" title="pcdsdevices.pulsepicker.PulsePicker.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
 <td><p>Put a value to all components of the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.read.html#pcdsdevices.pulsepicker.PulsePicker.read" title="pcdsdevices.pulsepicker.PulsePicker.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.read.html#pcdsdevices.pulsepicker.PulsePicker.read" title="pcdsdevices.pulsepicker.PulsePicker.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
 <td><p>Read data from the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.read_configuration.html#pcdsdevices.pulsepicker.PulsePicker.read_configuration" title="pcdsdevices.pulsepicker.PulsePicker.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.read_configuration.html#pcdsdevices.pulsepicker.PulsePicker.read_configuration" title="pcdsdevices.pulsepicker.PulsePicker.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.remove.html#pcdsdevices.pulsepicker.PulsePicker.remove" title="pcdsdevices.pulsepicker.PulsePicker.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb, timeout, wait])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.remove.html#pcdsdevices.pulsepicker.PulsePicker.remove" title="pcdsdevices.pulsepicker.PulsePicker.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb, timeout, wait])</p></td>
 <td><p>Macro to move this device to the first state on the <a class="reference internal" href="pcdsdevices.inout.InOutPositioner.html#pcdsdevices.inout.InOutPositioner.out_states" title="pcdsdevices.inout.InOutPositioner.out_states"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">out_states</span></code></a> list.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.reset.html#pcdsdevices.pulsepicker.PulsePicker.reset" title="pcdsdevices.pulsepicker.PulsePicker.reset"><code class="xref py py-obj docutils literal notranslate"><span class="pre">reset</span></code></a>([wait])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.reset.html#pcdsdevices.pulsepicker.PulsePicker.reset" title="pcdsdevices.pulsepicker.PulsePicker.reset"><code class="xref py py-obj docutils literal notranslate"><span class="pre">reset</span></code></a>([wait])</p></td>
 <td><p>Cancel the current mode.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.resume.html#pcdsdevices.pulsepicker.PulsePicker.resume" title="pcdsdevices.pulsepicker.PulsePicker.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.resume.html#pcdsdevices.pulsepicker.PulsePicker.resume" title="pcdsdevices.pulsepicker.PulsePicker.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.set.html#pcdsdevices.pulsepicker.PulsePicker.set" title="pcdsdevices.pulsepicker.PulsePicker.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[, moved_cb, timeout])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.set.html#pcdsdevices.pulsepicker.PulsePicker.set" title="pcdsdevices.pulsepicker.PulsePicker.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[, moved_cb, timeout])</p></td>
 <td><p>Move to the desired state and return completion information.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.stage.html#pcdsdevices.pulsepicker.PulsePicker.stage" title="pcdsdevices.pulsepicker.PulsePicker.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.stage.html#pcdsdevices.pulsepicker.PulsePicker.stage" title="pcdsdevices.pulsepicker.PulsePicker.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
 <td><p>Stage the device for data collection.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.status_info.html#pcdsdevices.pulsepicker.PulsePicker.status_info" title="pcdsdevices.pulsepicker.PulsePicker.status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status_info</span></code></a>()</p></td>
+<td><p>Get useful information for the status display.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePicker.stop.html#pcdsdevices.pulsepicker.PulsePicker.stop" title="pcdsdevices.pulsepicker.PulsePicker.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>

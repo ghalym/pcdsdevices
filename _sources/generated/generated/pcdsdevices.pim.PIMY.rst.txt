@@ -25,6 +25,7 @@ pcdsdevices.pim.PIMY
       ~PIMY.describe_configuration
       ~PIMY.destroy
       ~PIMY.end_monitor_thread
+      ~PIMY.format_status_info
       ~PIMY.get
       ~PIMY.get_device_tuple
       ~PIMY.get_instantiated_signals
@@ -40,6 +41,7 @@ pcdsdevices.pim.PIMY
       ~PIMY.resume
       ~PIMY.set
       ~PIMY.stage
+      ~PIMY.status_info
       ~PIMY.stop
       ~PIMY.subscribe
       ~PIMY.summary

@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.mirror.OMMotor.mvr &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.mirror.OMMotor.mvr &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -135,6 +135,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.describe_configuration.html">pcdsdevices.mirror.OMMotor.describe_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.destroy.html">pcdsdevices.mirror.OMMotor.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.end_monitor_thread.html">pcdsdevices.mirror.OMMotor.end_monitor_thread</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.format_status_info.html">pcdsdevices.mirror.OMMotor.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.get.html">pcdsdevices.mirror.OMMotor.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.get_device_tuple.html">pcdsdevices.mirror.OMMotor.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.get_instantiated_signals.html">pcdsdevices.mirror.OMMotor.get_instantiated_signals</a></li>
@@ -149,6 +150,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.resume.html">pcdsdevices.mirror.OMMotor.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.set.html">pcdsdevices.mirror.OMMotor.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.stage.html">pcdsdevices.mirror.OMMotor.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.status_info.html">pcdsdevices.mirror.OMMotor.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.stop.html">pcdsdevices.mirror.OMMotor.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.subscribe.html">pcdsdevices.mirror.OMMotor.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.summary.html">pcdsdevices.mirror.OMMotor.summary</a></li>
@@ -272,11 +274,11 @@
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>delta</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a>) – Desired change in position.</p></li>
-<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a><em>, </em><em>optional</em>) – If provided, the mover will throw an error if motion takes longer
+<li><p><strong>delta</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></a>) – Desired change in position.</p></li>
+<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></a>, <em>optional</em>) – If provided, the mover will throw an error if motion takes longer
 than timeout to complete. If omitted, the mover’s default timeout
 will be use.</p></li>
-<li><p><strong>wait</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – If <a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a>, wait for motion completion before returning.
+<li><p><strong>wait</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>, <em>optional</em>) – If <a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a>, wait for motion completion before returning.
 Defaults to <code class="xref std std-keyword docutils literal notranslate"><span class="pre">False</span></code>.</p></li>
 </ul>
 </dd>

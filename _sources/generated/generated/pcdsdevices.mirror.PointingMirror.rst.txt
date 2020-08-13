@@ -25,6 +25,7 @@ pcdsdevices.mirror.PointingMirror
       ~PointingMirror.describe_configuration
       ~PointingMirror.destroy
       ~PointingMirror.end_monitor_thread
+      ~PointingMirror.format_status_info
       ~PointingMirror.get
       ~PointingMirror.get_device_tuple
       ~PointingMirror.get_instantiated_signals
@@ -40,6 +41,7 @@ pcdsdevices.mirror.PointingMirror
       ~PointingMirror.resume
       ~PointingMirror.set
       ~PointingMirror.stage
+      ~PointingMirror.status_info
       ~PointingMirror.stop
       ~PointingMirror.subscribe
       ~PointingMirror.summary

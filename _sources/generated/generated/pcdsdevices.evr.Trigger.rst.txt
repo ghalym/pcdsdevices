@@ -22,6 +22,7 @@ pcdsdevices.evr.Trigger
       ~Trigger.destroy
       ~Trigger.disable
       ~Trigger.enable
+      ~Trigger.format_status_info
       ~Trigger.get
       ~Trigger.get_device_tuple
       ~Trigger.get_instantiated_signals
@@ -31,6 +32,7 @@ pcdsdevices.evr.Trigger
       ~Trigger.read_configuration
       ~Trigger.resume
       ~Trigger.stage
+      ~Trigger.status_info
       ~Trigger.stop
       ~Trigger.subscribe
       ~Trigger.summary

@@ -20,6 +20,7 @@ pcdsdevices.gauge.MKS937a
       ~MKS937a.describe
       ~MKS937a.describe_configuration
       ~MKS937a.destroy
+      ~MKS937a.format_status_info
       ~MKS937a.get
       ~MKS937a.get_device_tuple
       ~MKS937a.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.gauge.MKS937a
       ~MKS937a.read_configuration
       ~MKS937a.resume
       ~MKS937a.stage
+      ~MKS937a.status_info
       ~MKS937a.stop
       ~MKS937a.subscribe
       ~MKS937a.summary

@@ -20,6 +20,7 @@ pcdsdevices.pim.PPMPowerMeter
       ~PPMPowerMeter.describe
       ~PPMPowerMeter.describe_configuration
       ~PPMPowerMeter.destroy
+      ~PPMPowerMeter.format_status_info
       ~PPMPowerMeter.get
       ~PPMPowerMeter.get_device_tuple
       ~PPMPowerMeter.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.pim.PPMPowerMeter
       ~PPMPowerMeter.read_configuration
       ~PPMPowerMeter.resume
       ~PPMPowerMeter.stage
+      ~PPMPowerMeter.status_info
       ~PPMPowerMeter.stop
       ~PPMPowerMeter.subscribe
       ~PPMPowerMeter.summary

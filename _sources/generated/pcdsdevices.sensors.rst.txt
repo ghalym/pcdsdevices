@@ -1,4 +1,4 @@
-pcdsdevices.sensors
+﻿pcdsdevices.sensors
 ===================
 
 .. automodule:: pcdsdevices.sensors

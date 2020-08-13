@@ -22,6 +22,7 @@ pcdsdevices.slits.PowerSlits
       ~PowerSlits.describe_configuration
       ~PowerSlits.destroy
       ~PowerSlits.end_monitor_thread
+      ~PowerSlits.format_status_info
       ~PowerSlits.get
       ~PowerSlits.get_device_tuple
       ~PowerSlits.get_instantiated_signals
@@ -35,6 +36,7 @@ pcdsdevices.slits.PowerSlits
       ~PowerSlits.resume
       ~PowerSlits.set
       ~PowerSlits.stage
+      ~PowerSlits.status_info
       ~PowerSlits.stop
       ~PowerSlits.subscribe
       ~PowerSlits.summary

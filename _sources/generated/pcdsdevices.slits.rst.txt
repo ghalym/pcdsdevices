@@ -1,4 +1,4 @@
-pcdsdevices.slits
+﻿pcdsdevices.slits
 =================
 
 .. automodule:: pcdsdevices.slits

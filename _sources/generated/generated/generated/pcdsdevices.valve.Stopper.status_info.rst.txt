@@ -1,0 +1,6 @@
+pcdsdevices.valve.Stopper.status\_info
+======================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: Stopper.status_info

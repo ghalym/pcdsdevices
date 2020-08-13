@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.attenuator.GasAttenuator &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.attenuator.GasAttenuator &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -107,11 +107,14 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.analog_signals.html">pcdsdevices.analog_signals</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.Attenuator.html">pcdsdevices.attenuator.Attenuator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.get_blade_enum.html">pcdsdevices.attenuator.get_blade_enum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.render_ascii_att.html">pcdsdevices.attenuator.render_ascii_att</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.AttBase.html">pcdsdevices.attenuator.AttBase</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.AttBase3rd.html">pcdsdevices.attenuator.AttBase3rd</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorBase.html">pcdsdevices.attenuator.AttenuatorCalculatorBase</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculator_AT2L0.html">pcdsdevices.attenuator.AttenuatorCalculator_AT2L0</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.BladeStateEnum.html">pcdsdevices.attenuator.BladeStateEnum</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.FEESolidAttenuator.html">pcdsdevices.attenuator.FEESolidAttenuator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.FEESolidAttenuatorBlade.html">pcdsdevices.attenuator.FEESolidAttenuatorBlade</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.html">pcdsdevices.attenuator.FeeAtt</a></li>
@@ -126,6 +129,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.describe.html">pcdsdevices.attenuator.GasAttenuator.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.describe_configuration.html">pcdsdevices.attenuator.GasAttenuator.describe_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.destroy.html">pcdsdevices.attenuator.GasAttenuator.destroy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.format_status_info.html">pcdsdevices.attenuator.GasAttenuator.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.get.html">pcdsdevices.attenuator.GasAttenuator.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.get_device_tuple.html">pcdsdevices.attenuator.GasAttenuator.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.get_instantiated_signals.html">pcdsdevices.attenuator.GasAttenuator.get_instantiated_signals</a></li>
@@ -135,6 +139,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.read_configuration.html">pcdsdevices.attenuator.GasAttenuator.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.resume.html">pcdsdevices.attenuator.GasAttenuator.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.stage.html">pcdsdevices.attenuator.GasAttenuator.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.status_info.html">pcdsdevices.attenuator.GasAttenuator.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.stop.html">pcdsdevices.attenuator.GasAttenuator.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.subscribe.html">pcdsdevices.attenuator.GasAttenuator.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.summary.html">pcdsdevices.attenuator.GasAttenuator.summary</a></li>
@@ -264,8 +269,8 @@
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Full Gas Attenuator base PV.</p></li>
-<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Alias for the Gas Attenuator.</p></li>
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Full Gas Attenuator base PV.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Alias for the Gas Attenuator.</p></li>
 </ul>
 </dd>
 </dl>
@@ -303,32 +308,38 @@ represents the gas attenuators present at this time.</p>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.destroy.html#pcdsdevices.attenuator.GasAttenuator.destroy" title="pcdsdevices.attenuator.GasAttenuator.destroy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">destroy</span></code></a>()</p></td>
 <td><p>Disconnect and destroy all signals on the Device</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.get.html#pcdsdevices.attenuator.GasAttenuator.get" title="pcdsdevices.attenuator.GasAttenuator.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.format_status_info.html#pcdsdevices.attenuator.GasAttenuator.format_status_info" title="pcdsdevices.attenuator.GasAttenuator.format_status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">format_status_info</span></code></a>(status_info)</p></td>
+<td><p>Entry point for the mini status displays in the ipython terminal.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.get.html#pcdsdevices.attenuator.GasAttenuator.get" title="pcdsdevices.attenuator.GasAttenuator.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.get_device_tuple.html#pcdsdevices.attenuator.GasAttenuator.get_device_tuple" title="pcdsdevices.attenuator.GasAttenuator.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.get_device_tuple.html#pcdsdevices.attenuator.GasAttenuator.get_device_tuple" title="pcdsdevices.attenuator.GasAttenuator.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
 <td><p>The device tuple type associated with an Device class</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.get_instantiated_signals.html#pcdsdevices.attenuator.GasAttenuator.get_instantiated_signals" title="pcdsdevices.attenuator.GasAttenuator.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.get_instantiated_signals.html#pcdsdevices.attenuator.GasAttenuator.get_instantiated_signals" title="pcdsdevices.attenuator.GasAttenuator.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.pause.html#pcdsdevices.attenuator.GasAttenuator.pause" title="pcdsdevices.attenuator.GasAttenuator.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.pause.html#pcdsdevices.attenuator.GasAttenuator.pause" title="pcdsdevices.attenuator.GasAttenuator.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
 <td><p>Attempt to ‘pause’ the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.put.html#pcdsdevices.attenuator.GasAttenuator.put" title="pcdsdevices.attenuator.GasAttenuator.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.put.html#pcdsdevices.attenuator.GasAttenuator.put" title="pcdsdevices.attenuator.GasAttenuator.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
 <td><p>Put a value to all components of the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.read.html#pcdsdevices.attenuator.GasAttenuator.read" title="pcdsdevices.attenuator.GasAttenuator.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.read.html#pcdsdevices.attenuator.GasAttenuator.read" title="pcdsdevices.attenuator.GasAttenuator.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
 <td><p>Read data from the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.read_configuration.html#pcdsdevices.attenuator.GasAttenuator.read_configuration" title="pcdsdevices.attenuator.GasAttenuator.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.read_configuration.html#pcdsdevices.attenuator.GasAttenuator.read_configuration" title="pcdsdevices.attenuator.GasAttenuator.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.resume.html#pcdsdevices.attenuator.GasAttenuator.resume" title="pcdsdevices.attenuator.GasAttenuator.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.resume.html#pcdsdevices.attenuator.GasAttenuator.resume" title="pcdsdevices.attenuator.GasAttenuator.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.stage.html#pcdsdevices.attenuator.GasAttenuator.stage" title="pcdsdevices.attenuator.GasAttenuator.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.stage.html#pcdsdevices.attenuator.GasAttenuator.stage" title="pcdsdevices.attenuator.GasAttenuator.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
 <td><p>Stage the device for data collection.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.status_info.html#pcdsdevices.attenuator.GasAttenuator.status_info" title="pcdsdevices.attenuator.GasAttenuator.status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status_info</span></code></a>()</p></td>
+<td><p>Get useful information for the status display.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.GasAttenuator.stop.html#pcdsdevices.attenuator.GasAttenuator.stop" title="pcdsdevices.attenuator.GasAttenuator.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>

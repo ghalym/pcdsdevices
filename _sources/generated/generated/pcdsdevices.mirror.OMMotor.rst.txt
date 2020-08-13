@@ -22,6 +22,7 @@ pcdsdevices.mirror.OMMotor
       ~OMMotor.describe_configuration
       ~OMMotor.destroy
       ~OMMotor.end_monitor_thread
+      ~OMMotor.format_status_info
       ~OMMotor.get
       ~OMMotor.get_device_tuple
       ~OMMotor.get_instantiated_signals
@@ -36,6 +37,7 @@ pcdsdevices.mirror.OMMotor
       ~OMMotor.resume
       ~OMMotor.set
       ~OMMotor.stage
+      ~OMMotor.status_info
       ~OMMotor.stop
       ~OMMotor.subscribe
       ~OMMotor.summary

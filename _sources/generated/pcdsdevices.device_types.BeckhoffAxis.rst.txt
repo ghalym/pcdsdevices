@@ -1,4 +1,4 @@
-pcdsdevices.device\_types.BeckhoffAxis
+﻿pcdsdevices.device\_types.BeckhoffAxis
 ======================================
 
 .. currentmodule:: pcdsdevices.device_types
@@ -25,6 +25,7 @@ pcdsdevices.device\_types.BeckhoffAxis
       ~BeckhoffAxis.disable
       ~BeckhoffAxis.enable
       ~BeckhoffAxis.end_monitor_thread
+      ~BeckhoffAxis.format_status_info
       ~BeckhoffAxis.get
       ~BeckhoffAxis.get_device_tuple
       ~BeckhoffAxis.get_instantiated_signals
@@ -43,6 +44,7 @@ pcdsdevices.device\_types.BeckhoffAxis
       ~BeckhoffAxis.set_current_position
       ~BeckhoffAxis.set_lim
       ~BeckhoffAxis.stage
+      ~BeckhoffAxis.status_info
       ~BeckhoffAxis.stop
       ~BeckhoffAxis.subscribe
       ~BeckhoffAxis.summary

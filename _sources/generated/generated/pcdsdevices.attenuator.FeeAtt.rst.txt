@@ -22,6 +22,7 @@ pcdsdevices.attenuator.FeeAtt
       ~FeeAtt.describe_configuration
       ~FeeAtt.destroy
       ~FeeAtt.end_monitor_thread
+      ~FeeAtt.format_status_info
       ~FeeAtt.get
       ~FeeAtt.get_device_tuple
       ~FeeAtt.get_instantiated_signals
@@ -39,6 +40,7 @@ pcdsdevices.attenuator.FeeAtt
       ~FeeAtt.set
       ~FeeAtt.set_energy
       ~FeeAtt.stage
+      ~FeeAtt.status_info
       ~FeeAtt.stop
       ~FeeAtt.subscribe
       ~FeeAtt.summary

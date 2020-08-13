@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.LODCM.format\_status\_info
+====================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: LODCM.format_status_info

@@ -24,6 +24,7 @@ pcdsdevices.pseudopos.SyncAxesBase
       ~SyncAxesBase.describe_configuration
       ~SyncAxesBase.destroy
       ~SyncAxesBase.end_monitor_thread
+      ~SyncAxesBase.format_status_info
       ~SyncAxesBase.forward
       ~SyncAxesBase.get
       ~SyncAxesBase.get_device_tuple
@@ -42,6 +43,7 @@ pcdsdevices.pseudopos.SyncAxesBase
       ~SyncAxesBase.save_offsets
       ~SyncAxesBase.set
       ~SyncAxesBase.stage
+      ~SyncAxesBase.status_info
       ~SyncAxesBase.stop
       ~SyncAxesBase.subscribe
       ~SyncAxesBase.summary

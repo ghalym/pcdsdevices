@@ -1,4 +1,4 @@
-pcdsdevices.device\_types.EventSequencer
+﻿pcdsdevices.device\_types.EventSequencer
 ========================================
 
 .. currentmodule:: pcdsdevices.device_types
@@ -24,6 +24,7 @@ pcdsdevices.device\_types.EventSequencer
       ~EventSequencer.describe_collect
       ~EventSequencer.describe_configuration
       ~EventSequencer.destroy
+      ~EventSequencer.format_status_info
       ~EventSequencer.get
       ~EventSequencer.get_device_tuple
       ~EventSequencer.get_instantiated_signals
@@ -35,6 +36,7 @@ pcdsdevices.device\_types.EventSequencer
       ~EventSequencer.resume
       ~EventSequencer.stage
       ~EventSequencer.start
+      ~EventSequencer.status_info
       ~EventSequencer.stop
       ~EventSequencer.subscribe
       ~EventSequencer.summary

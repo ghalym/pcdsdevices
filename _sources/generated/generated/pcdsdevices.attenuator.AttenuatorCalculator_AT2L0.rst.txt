@@ -21,6 +21,7 @@ pcdsdevices.attenuator.AttenuatorCalculator\_AT2L0
       ~AttenuatorCalculator_AT2L0.describe
       ~AttenuatorCalculator_AT2L0.describe_configuration
       ~AttenuatorCalculator_AT2L0.destroy
+      ~AttenuatorCalculator_AT2L0.format_status_info
       ~AttenuatorCalculator_AT2L0.get
       ~AttenuatorCalculator_AT2L0.get_active_config
       ~AttenuatorCalculator_AT2L0.get_best_config
@@ -33,6 +34,7 @@ pcdsdevices.attenuator.AttenuatorCalculator\_AT2L0
       ~AttenuatorCalculator_AT2L0.read_configuration
       ~AttenuatorCalculator_AT2L0.resume
       ~AttenuatorCalculator_AT2L0.stage
+      ~AttenuatorCalculator_AT2L0.status_info
       ~AttenuatorCalculator_AT2L0.stop
       ~AttenuatorCalculator_AT2L0.subscribe
       ~AttenuatorCalculator_AT2L0.summary

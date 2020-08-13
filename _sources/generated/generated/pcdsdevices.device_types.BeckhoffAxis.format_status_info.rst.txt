@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.BeckhoffAxis.format\_status\_info
+===========================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: BeckhoffAxis.format_status_info

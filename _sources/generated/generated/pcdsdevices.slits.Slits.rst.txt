@@ -24,6 +24,7 @@ pcdsdevices.slits.Slits
       ~Slits.describe_configuration
       ~Slits.destroy
       ~Slits.end_monitor_thread
+      ~Slits.format_status_info
       ~Slits.get
       ~Slits.get_device_tuple
       ~Slits.get_instantiated_signals
@@ -38,6 +39,7 @@ pcdsdevices.slits.Slits
       ~Slits.resume
       ~Slits.set
       ~Slits.stage
+      ~Slits.status_info
       ~Slits.stop
       ~Slits.subscribe
       ~Slits.summary

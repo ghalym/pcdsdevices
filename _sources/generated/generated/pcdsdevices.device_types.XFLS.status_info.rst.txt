@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XFLS.status\_info
+===========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XFLS.status_info

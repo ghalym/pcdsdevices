@@ -23,6 +23,7 @@ pcdsdevices.pseudopos.SimDelayStage
       ~SimDelayStage.describe_configuration
       ~SimDelayStage.destroy
       ~SimDelayStage.end_monitor_thread
+      ~SimDelayStage.format_status_info
       ~SimDelayStage.forward
       ~SimDelayStage.get
       ~SimDelayStage.get_device_tuple
@@ -40,6 +41,7 @@ pcdsdevices.pseudopos.SimDelayStage
       ~SimDelayStage.resume
       ~SimDelayStage.set
       ~SimDelayStage.stage
+      ~SimDelayStage.status_info
       ~SimDelayStage.stop
       ~SimDelayStage.subscribe
       ~SimDelayStage.summary

@@ -22,6 +22,7 @@ pcdsdevices.mirror.Gantry
       ~Gantry.describe_configuration
       ~Gantry.destroy
       ~Gantry.end_monitor_thread
+      ~Gantry.format_status_info
       ~Gantry.get
       ~Gantry.get_device_tuple
       ~Gantry.get_instantiated_signals
@@ -36,6 +37,7 @@ pcdsdevices.mirror.Gantry
       ~Gantry.resume
       ~Gantry.set
       ~Gantry.stage
+      ~Gantry.status_info
       ~Gantry.stop
       ~Gantry.subscribe
       ~Gantry.summary

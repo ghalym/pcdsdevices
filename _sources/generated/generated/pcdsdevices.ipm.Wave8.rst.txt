@@ -21,6 +21,7 @@ pcdsdevices.ipm.Wave8
       ~Wave8.describe
       ~Wave8.describe_configuration
       ~Wave8.destroy
+      ~Wave8.format_status_info
       ~Wave8.get
       ~Wave8.get_device_tuple
       ~Wave8.get_instantiated_signals
@@ -31,6 +32,7 @@ pcdsdevices.ipm.Wave8
       ~Wave8.resume
       ~Wave8.screen
       ~Wave8.stage
+      ~Wave8.status_info
       ~Wave8.stop
       ~Wave8.subscribe
       ~Wave8.summary

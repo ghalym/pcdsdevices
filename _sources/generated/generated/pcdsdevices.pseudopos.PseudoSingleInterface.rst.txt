@@ -22,6 +22,7 @@ pcdsdevices.pseudopos.PseudoSingleInterface
       ~PseudoSingleInterface.describe_configuration
       ~PseudoSingleInterface.destroy
       ~PseudoSingleInterface.end_monitor_thread
+      ~PseudoSingleInterface.format_status_info
       ~PseudoSingleInterface.get
       ~PseudoSingleInterface.get_device_tuple
       ~PseudoSingleInterface.get_instantiated_signals
@@ -36,6 +37,7 @@ pcdsdevices.pseudopos.PseudoSingleInterface
       ~PseudoSingleInterface.resume
       ~PseudoSingleInterface.set
       ~PseudoSingleInterface.stage
+      ~PseudoSingleInterface.status_info
       ~PseudoSingleInterface.stop
       ~PseudoSingleInterface.subscribe
       ~PseudoSingleInterface.summary

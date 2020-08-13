@@ -1,4 +1,4 @@
-pcdsdevices.device\_types.Reflaser
+﻿pcdsdevices.device\_types.Reflaser
 ==================================
 
 .. currentmodule:: pcdsdevices.device_types
@@ -25,6 +25,7 @@ pcdsdevices.device\_types.Reflaser
       ~Reflaser.describe_configuration
       ~Reflaser.destroy
       ~Reflaser.end_monitor_thread
+      ~Reflaser.format_status_info
       ~Reflaser.get
       ~Reflaser.get_device_tuple
       ~Reflaser.get_instantiated_signals
@@ -40,6 +41,7 @@ pcdsdevices.device\_types.Reflaser
       ~Reflaser.resume
       ~Reflaser.set
       ~Reflaser.stage
+      ~Reflaser.status_info
       ~Reflaser.stop
       ~Reflaser.subscribe
       ~Reflaser.summary

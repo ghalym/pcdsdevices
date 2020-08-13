@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Newport.status\_info
+==============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Newport.status_info

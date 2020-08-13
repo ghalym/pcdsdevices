@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.slits.BadSlitPositionerBase.set &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.slits.BadSlitPositionerBase.set &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -146,6 +146,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.describe_configuration.html">pcdsdevices.slits.BadSlitPositionerBase.describe_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.destroy.html">pcdsdevices.slits.BadSlitPositionerBase.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.end_monitor_thread.html">pcdsdevices.slits.BadSlitPositionerBase.end_monitor_thread</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.format_status_info.html">pcdsdevices.slits.BadSlitPositionerBase.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.get.html">pcdsdevices.slits.BadSlitPositionerBase.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.get_device_tuple.html">pcdsdevices.slits.BadSlitPositionerBase.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.get_instantiated_signals.html">pcdsdevices.slits.BadSlitPositionerBase.get_instantiated_signals</a></li>
@@ -160,6 +161,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.resume.html">pcdsdevices.slits.BadSlitPositionerBase.resume</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.slits.BadSlitPositionerBase.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.stage.html">pcdsdevices.slits.BadSlitPositionerBase.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.status_info.html">pcdsdevices.slits.BadSlitPositionerBase.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.stop.html">pcdsdevices.slits.BadSlitPositionerBase.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.subscribe.html">pcdsdevices.slits.BadSlitPositionerBase.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.summary.html">pcdsdevices.slits.BadSlitPositionerBase.summary</a></li>
@@ -275,18 +277,18 @@
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>new_position</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.8)"><em>object</em></a>) – The input here is whatever the device requires (this
+<li><p><strong>new_position</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></a>) – The input here is whatever the device requires (this
 should be over-ridden by the implementation.  For example
 a motor would take a float, a shutter the strings {‘Open’,
 ‘Close’}, and a goineometer (h, k, l) tuples</p></li>
-<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a><em>, </em><em>optional</em>) – Maximum time to wait for the motion. If None, the default timeout
+<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></a>, <em>optional</em>) – Maximum time to wait for the motion. If None, the default timeout
 for this positioner is used.</p></li>
-<li><p><strong>moved_cb</strong> (<em>callable</em><em>, </em><em>optional</em>) – <p>Deprecated</p>
+<li><p><strong>moved_cb</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">callable</span></code>, <em>optional</em>) – <p>Deprecated</p>
 <p>Call this callback when movement has finished. This callback
 must accept one keyword argument: ‘obj’ which will be set to
 this positioner instance.</p>
 </p></li>
-<li><p><strong>wait</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – <p>Deprecated</p>
+<li><p><strong>wait</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>, <em>optional</em>) – <p>Deprecated</p>
 <p>If the method should block until the Status object reports
 it is done.</p>
 <p>Defaults to False</p>
@@ -294,7 +296,7 @@ it is done.</p>
 </ul>
 </dd>
 <dt class="field-even">Returns</dt>
-<dd class="field-even"><p><strong>status</strong> (<em>StatusBase</em>) – Status object to indicate when the motion / set is done.</p>
+<dd class="field-even"><p><strong>status</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">StatusBase</span></code>) – Status object to indicate when the motion / set is done.</p>
 </dd>
 </dl>
 </dd></dl>

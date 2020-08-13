@@ -1,0 +1,6 @@
+pcdsdevices.valve.PPSStopper.status\_info
+=========================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: PPSStopper.status_info

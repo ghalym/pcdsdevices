@@ -1,4 +1,4 @@
-pcdsdevices.device\_types.Newport
+﻿pcdsdevices.device\_types.Newport
 =================================
 
 .. currentmodule:: pcdsdevices.device_types
@@ -24,6 +24,7 @@ pcdsdevices.device\_types.Newport
       ~Newport.disable
       ~Newport.enable
       ~Newport.end_monitor_thread
+      ~Newport.format_status_info
       ~Newport.get
       ~Newport.get_device_tuple
       ~Newport.get_instantiated_signals
@@ -46,6 +47,7 @@ pcdsdevices.device\_types.Newport
       ~Newport.spg_pause
       ~Newport.spg_stop
       ~Newport.stage
+      ~Newport.status_info
       ~Newport.stop
       ~Newport.subscribe
       ~Newport.summary

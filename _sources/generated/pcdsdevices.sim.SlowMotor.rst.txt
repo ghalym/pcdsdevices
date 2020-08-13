@@ -1,4 +1,4 @@
-pcdsdevices.sim.SlowMotor
+﻿pcdsdevices.sim.SlowMotor
 =========================
 
 .. currentmodule:: pcdsdevices.sim
@@ -22,6 +22,7 @@ pcdsdevices.sim.SlowMotor
       ~SlowMotor.describe_configuration
       ~SlowMotor.destroy
       ~SlowMotor.end_monitor_thread
+      ~SlowMotor.format_status_info
       ~SlowMotor.get
       ~SlowMotor.get_device_tuple
       ~SlowMotor.get_instantiated_signals
@@ -36,6 +37,7 @@ pcdsdevices.sim.SlowMotor
       ~SlowMotor.resume
       ~SlowMotor.set
       ~SlowMotor.stage
+      ~SlowMotor.status_info
       ~SlowMotor.stop
       ~SlowMotor.subscribe
       ~SlowMotor.summary

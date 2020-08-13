@@ -20,6 +20,7 @@ pcdsdevices.gon.Kappa
       ~Kappa.describe
       ~Kappa.describe_configuration
       ~Kappa.destroy
+      ~Kappa.format_status_info
       ~Kappa.get
       ~Kappa.get_device_tuple
       ~Kappa.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.gon.Kappa
       ~Kappa.read_configuration
       ~Kappa.resume
       ~Kappa.stage
+      ~Kappa.status_info
       ~Kappa.stop
       ~Kappa.subscribe
       ~Kappa.summary

@@ -22,6 +22,7 @@ pcdsdevices.state.TwinCATStatePositioner
       ~TwinCATStatePositioner.describe_configuration
       ~TwinCATStatePositioner.destroy
       ~TwinCATStatePositioner.end_monitor_thread
+      ~TwinCATStatePositioner.format_status_info
       ~TwinCATStatePositioner.get
       ~TwinCATStatePositioner.get_device_tuple
       ~TwinCATStatePositioner.get_instantiated_signals
@@ -35,6 +36,7 @@ pcdsdevices.state.TwinCATStatePositioner
       ~TwinCATStatePositioner.resume
       ~TwinCATStatePositioner.set
       ~TwinCATStatePositioner.stage
+      ~TwinCATStatePositioner.status_info
       ~TwinCATStatePositioner.stop
       ~TwinCATStatePositioner.subscribe
       ~TwinCATStatePositioner.summary

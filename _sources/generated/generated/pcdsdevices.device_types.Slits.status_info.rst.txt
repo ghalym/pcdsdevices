@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Slits.status\_info
+============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Slits.status_info

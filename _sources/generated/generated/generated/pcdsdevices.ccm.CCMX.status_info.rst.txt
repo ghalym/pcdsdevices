@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMX.status\_info
+=================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMX.status_info

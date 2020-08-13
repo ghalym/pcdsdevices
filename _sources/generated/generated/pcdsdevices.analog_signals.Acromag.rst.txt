@@ -20,6 +20,7 @@ pcdsdevices.analog\_signals.Acromag
       ~Acromag.describe
       ~Acromag.describe_configuration
       ~Acromag.destroy
+      ~Acromag.format_status_info
       ~Acromag.get
       ~Acromag.get_device_tuple
       ~Acromag.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.analog\_signals.Acromag
       ~Acromag.read_configuration
       ~Acromag.resume
       ~Acromag.stage
+      ~Acromag.status_info
       ~Acromag.stop
       ~Acromag.subscribe
       ~Acromag.summary

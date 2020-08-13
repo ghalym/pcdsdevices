@@ -20,6 +20,7 @@ pcdsdevices.jet.InjectorWithFine
       ~InjectorWithFine.describe
       ~InjectorWithFine.describe_configuration
       ~InjectorWithFine.destroy
+      ~InjectorWithFine.format_status_info
       ~InjectorWithFine.get
       ~InjectorWithFine.get_device_tuple
       ~InjectorWithFine.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.jet.InjectorWithFine
       ~InjectorWithFine.read_configuration
       ~InjectorWithFine.resume
       ~InjectorWithFine.stage
+      ~InjectorWithFine.status_info
       ~InjectorWithFine.stop
       ~InjectorWithFine.subscribe
       ~InjectorWithFine.summary

@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.attenuator.FEESolidAttenuatorBlade.destroy &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.attenuator.FEESolidAttenuatorBlade.destroy &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -36,7 +36,7 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.attenuator.FEESolidAttenuatorBlade.get" href="pcdsdevices.attenuator.FEESolidAttenuatorBlade.get.html" />
+    <link rel="next" title="pcdsdevices.attenuator.FEESolidAttenuatorBlade.format_status_info" href="pcdsdevices.attenuator.FEESolidAttenuatorBlade.format_status_info.html" />
     <link rel="prev" title="pcdsdevices.attenuator.FEESolidAttenuatorBlade.describe_configuration" href="pcdsdevices.attenuator.FEESolidAttenuatorBlade.describe_configuration.html" /> 
 </head>
 
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -107,11 +107,14 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.analog_signals.html">pcdsdevices.analog_signals</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.Attenuator.html">pcdsdevices.attenuator.Attenuator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.get_blade_enum.html">pcdsdevices.attenuator.get_blade_enum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.render_ascii_att.html">pcdsdevices.attenuator.render_ascii_att</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.AttBase.html">pcdsdevices.attenuator.AttBase</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.AttBase3rd.html">pcdsdevices.attenuator.AttBase3rd</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.AttenuatorCalculatorBase.html">pcdsdevices.attenuator.AttenuatorCalculatorBase</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.AttenuatorCalculatorFilter.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.AttenuatorCalculator_AT2L0.html">pcdsdevices.attenuator.AttenuatorCalculator_AT2L0</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.BladeStateEnum.html">pcdsdevices.attenuator.BladeStateEnum</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.FEESolidAttenuator.html">pcdsdevices.attenuator.FEESolidAttenuator</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.attenuator.FEESolidAttenuatorBlade.html">pcdsdevices.attenuator.FEESolidAttenuatorBlade</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FEESolidAttenuatorBlade.__init__.html">pcdsdevices.attenuator.FEESolidAttenuatorBlade.__init__</a></li>
@@ -122,6 +125,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FEESolidAttenuatorBlade.describe.html">pcdsdevices.attenuator.FEESolidAttenuatorBlade.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FEESolidAttenuatorBlade.describe_configuration.html">pcdsdevices.attenuator.FEESolidAttenuatorBlade.describe_configuration</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.attenuator.FEESolidAttenuatorBlade.destroy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FEESolidAttenuatorBlade.format_status_info.html">pcdsdevices.attenuator.FEESolidAttenuatorBlade.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FEESolidAttenuatorBlade.get.html">pcdsdevices.attenuator.FEESolidAttenuatorBlade.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FEESolidAttenuatorBlade.get_device_tuple.html">pcdsdevices.attenuator.FEESolidAttenuatorBlade.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FEESolidAttenuatorBlade.get_instantiated_signals.html">pcdsdevices.attenuator.FEESolidAttenuatorBlade.get_instantiated_signals</a></li>
@@ -131,6 +135,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FEESolidAttenuatorBlade.read_configuration.html">pcdsdevices.attenuator.FEESolidAttenuatorBlade.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FEESolidAttenuatorBlade.resume.html">pcdsdevices.attenuator.FEESolidAttenuatorBlade.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FEESolidAttenuatorBlade.stage.html">pcdsdevices.attenuator.FEESolidAttenuatorBlade.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FEESolidAttenuatorBlade.status_info.html">pcdsdevices.attenuator.FEESolidAttenuatorBlade.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FEESolidAttenuatorBlade.stop.html">pcdsdevices.attenuator.FEESolidAttenuatorBlade.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FEESolidAttenuatorBlade.subscribe.html">pcdsdevices.attenuator.FEESolidAttenuatorBlade.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FEESolidAttenuatorBlade.summary.html">pcdsdevices.attenuator.FEESolidAttenuatorBlade.summary</a></li>
@@ -275,7 +280,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.attenuator.FEESolidAttenuatorBlade.get.html" class="btn btn-neutral float-right" title="pcdsdevices.attenuator.FEESolidAttenuatorBlade.get" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.attenuator.FEESolidAttenuatorBlade.format_status_info.html" class="btn btn-neutral float-right" title="pcdsdevices.attenuator.FEESolidAttenuatorBlade.format_status_info" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="pcdsdevices.attenuator.FEESolidAttenuatorBlade.describe_configuration.html" class="btn btn-neutral float-left" title="pcdsdevices.attenuator.FEESolidAttenuatorBlade.describe_configuration" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

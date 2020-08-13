@@ -1,4 +1,4 @@
-pcdsdevices.device\_types.EpicsMotor
+﻿pcdsdevices.device\_types.EpicsMotor
 ====================================
 
 .. currentmodule:: pcdsdevices.device_types

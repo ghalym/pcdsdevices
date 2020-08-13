@@ -22,6 +22,7 @@ pcdsdevices.state.PVStatePositioner
       ~PVStatePositioner.describe_configuration
       ~PVStatePositioner.destroy
       ~PVStatePositioner.end_monitor_thread
+      ~PVStatePositioner.format_status_info
       ~PVStatePositioner.get
       ~PVStatePositioner.get_device_tuple
       ~PVStatePositioner.get_instantiated_signals
@@ -35,6 +36,7 @@ pcdsdevices.state.PVStatePositioner
       ~PVStatePositioner.resume
       ~PVStatePositioner.set
       ~PVStatePositioner.stage
+      ~PVStatePositioner.status_info
       ~PVStatePositioner.stop
       ~PVStatePositioner.subscribe
       ~PVStatePositioner.summary

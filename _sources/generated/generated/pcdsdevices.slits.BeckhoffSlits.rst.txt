@@ -22,6 +22,7 @@ pcdsdevices.slits.BeckhoffSlits
       ~BeckhoffSlits.describe_configuration
       ~BeckhoffSlits.destroy
       ~BeckhoffSlits.end_monitor_thread
+      ~BeckhoffSlits.format_status_info
       ~BeckhoffSlits.get
       ~BeckhoffSlits.get_device_tuple
       ~BeckhoffSlits.get_instantiated_signals
@@ -35,6 +36,7 @@ pcdsdevices.slits.BeckhoffSlits
       ~BeckhoffSlits.resume
       ~BeckhoffSlits.set
       ~BeckhoffSlits.stage
+      ~BeckhoffSlits.status_info
       ~BeckhoffSlits.stop
       ~BeckhoffSlits.subscribe
       ~BeckhoffSlits.summary

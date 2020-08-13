@@ -1,4 +1,4 @@
-pcdsdevices.device\_types.PulsePicker
+﻿pcdsdevices.device\_types.PulsePicker
 =====================================
 
 .. currentmodule:: pcdsdevices.device_types
@@ -29,6 +29,7 @@ pcdsdevices.device\_types.PulsePicker
       ~PulsePicker.end_monitor_thread
       ~PulsePicker.flipflop
       ~PulsePicker.follower
+      ~PulsePicker.format_status_info
       ~PulsePicker.get
       ~PulsePicker.get_device_tuple
       ~PulsePicker.get_instantiated_signals
@@ -46,6 +47,7 @@ pcdsdevices.device\_types.PulsePicker
       ~PulsePicker.resume
       ~PulsePicker.set
       ~PulsePicker.stage
+      ~PulsePicker.status_info
       ~PulsePicker.stop
       ~PulsePicker.subscribe
       ~PulsePicker.summary

@@ -25,6 +25,7 @@ pcdsdevices.inout.InOutPVStatePositioner
       ~InOutPVStatePositioner.describe_configuration
       ~InOutPVStatePositioner.destroy
       ~InOutPVStatePositioner.end_monitor_thread
+      ~InOutPVStatePositioner.format_status_info
       ~InOutPVStatePositioner.get
       ~InOutPVStatePositioner.get_device_tuple
       ~InOutPVStatePositioner.get_instantiated_signals
@@ -40,6 +41,7 @@ pcdsdevices.inout.InOutPVStatePositioner
       ~InOutPVStatePositioner.resume
       ~InOutPVStatePositioner.set
       ~InOutPVStatePositioner.stage
+      ~InOutPVStatePositioner.status_info
       ~InOutPVStatePositioner.stop
       ~InOutPVStatePositioner.subscribe
       ~InOutPVStatePositioner.summary

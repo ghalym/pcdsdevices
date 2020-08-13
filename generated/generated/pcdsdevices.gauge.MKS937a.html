@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.gauge.MKS937a &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.gauge.MKS937a &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -141,6 +141,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.describe.html">pcdsdevices.gauge.MKS937a.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.describe_configuration.html">pcdsdevices.gauge.MKS937a.describe_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.destroy.html">pcdsdevices.gauge.MKS937a.destroy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.format_status_info.html">pcdsdevices.gauge.MKS937a.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.get.html">pcdsdevices.gauge.MKS937a.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.get_device_tuple.html">pcdsdevices.gauge.MKS937a.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.get_instantiated_signals.html">pcdsdevices.gauge.MKS937a.get_instantiated_signals</a></li>
@@ -150,6 +151,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.read_configuration.html">pcdsdevices.gauge.MKS937a.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.resume.html">pcdsdevices.gauge.MKS937a.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.stage.html">pcdsdevices.gauge.MKS937a.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.status_info.html">pcdsdevices.gauge.MKS937a.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.stop.html">pcdsdevices.gauge.MKS937a.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.subscribe.html">pcdsdevices.gauge.MKS937a.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.summary.html">pcdsdevices.gauge.MKS937a.summary</a></li>
@@ -270,8 +272,8 @@
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Full Gauge controller base PV.</p></li>
-<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – A name to refer to the gauge controller.</p></li>
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Full Gauge controller base PV.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – A name to refer to the gauge controller.</p></li>
 </ul>
 </dd>
 </dl>
@@ -306,32 +308,38 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.destroy.html#pcdsdevices.gauge.MKS937a.destroy" title="pcdsdevices.gauge.MKS937a.destroy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">destroy</span></code></a>()</p></td>
 <td><p>Disconnect and destroy all signals on the Device</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.get.html#pcdsdevices.gauge.MKS937a.get" title="pcdsdevices.gauge.MKS937a.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.format_status_info.html#pcdsdevices.gauge.MKS937a.format_status_info" title="pcdsdevices.gauge.MKS937a.format_status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">format_status_info</span></code></a>(status_info)</p></td>
+<td><p>Entry point for the mini status displays in the ipython terminal.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.get.html#pcdsdevices.gauge.MKS937a.get" title="pcdsdevices.gauge.MKS937a.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.get_device_tuple.html#pcdsdevices.gauge.MKS937a.get_device_tuple" title="pcdsdevices.gauge.MKS937a.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.get_device_tuple.html#pcdsdevices.gauge.MKS937a.get_device_tuple" title="pcdsdevices.gauge.MKS937a.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
 <td><p>The device tuple type associated with an Device class</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.get_instantiated_signals.html#pcdsdevices.gauge.MKS937a.get_instantiated_signals" title="pcdsdevices.gauge.MKS937a.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.get_instantiated_signals.html#pcdsdevices.gauge.MKS937a.get_instantiated_signals" title="pcdsdevices.gauge.MKS937a.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.pause.html#pcdsdevices.gauge.MKS937a.pause" title="pcdsdevices.gauge.MKS937a.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.pause.html#pcdsdevices.gauge.MKS937a.pause" title="pcdsdevices.gauge.MKS937a.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
 <td><p>Attempt to ‘pause’ the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.put.html#pcdsdevices.gauge.MKS937a.put" title="pcdsdevices.gauge.MKS937a.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.put.html#pcdsdevices.gauge.MKS937a.put" title="pcdsdevices.gauge.MKS937a.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
 <td><p>Put a value to all components of the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.read.html#pcdsdevices.gauge.MKS937a.read" title="pcdsdevices.gauge.MKS937a.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.read.html#pcdsdevices.gauge.MKS937a.read" title="pcdsdevices.gauge.MKS937a.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
 <td><p>Read data from the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.read_configuration.html#pcdsdevices.gauge.MKS937a.read_configuration" title="pcdsdevices.gauge.MKS937a.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.read_configuration.html#pcdsdevices.gauge.MKS937a.read_configuration" title="pcdsdevices.gauge.MKS937a.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.resume.html#pcdsdevices.gauge.MKS937a.resume" title="pcdsdevices.gauge.MKS937a.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.resume.html#pcdsdevices.gauge.MKS937a.resume" title="pcdsdevices.gauge.MKS937a.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.stage.html#pcdsdevices.gauge.MKS937a.stage" title="pcdsdevices.gauge.MKS937a.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.stage.html#pcdsdevices.gauge.MKS937a.stage" title="pcdsdevices.gauge.MKS937a.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
 <td><p>Stage the device for data collection.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.status_info.html#pcdsdevices.gauge.MKS937a.status_info" title="pcdsdevices.gauge.MKS937a.status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status_info</span></code></a>()</p></td>
+<td><p>Get useful information for the status display.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.MKS937a.stop.html#pcdsdevices.gauge.MKS937a.stop" title="pcdsdevices.gauge.MKS937a.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>

@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ipm.IPMTarget &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.ipm.IPMTarget &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -138,6 +138,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.describe_configuration.html">pcdsdevices.ipm.IPMTarget.describe_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.destroy.html">pcdsdevices.ipm.IPMTarget.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.end_monitor_thread.html">pcdsdevices.ipm.IPMTarget.end_monitor_thread</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.format_status_info.html">pcdsdevices.ipm.IPMTarget.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.get.html">pcdsdevices.ipm.IPMTarget.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.get_device_tuple.html">pcdsdevices.ipm.IPMTarget.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.get_instantiated_signals.html">pcdsdevices.ipm.IPMTarget.get_instantiated_signals</a></li>
@@ -153,6 +154,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.resume.html">pcdsdevices.ipm.IPMTarget.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.set.html">pcdsdevices.ipm.IPMTarget.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.stage.html">pcdsdevices.ipm.IPMTarget.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.status_info.html">pcdsdevices.ipm.IPMTarget.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.stop.html">pcdsdevices.ipm.IPMTarget.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.subscribe.html">pcdsdevices.ipm.IPMTarget.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.summary.html">pcdsdevices.ipm.IPMTarget.summary</a></li>
@@ -279,10 +281,10 @@ equivalent (TARGET1, TARGET2, TARGET3, TARGET4, OUT).</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The EPICS PV prefix for this motor.</p></li>
-<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – An identifying name for this motor.</p></li>
-<li><p><strong>settle_time</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a><em>, </em><em>optional</em>) – The amount of extra time to wait before interpreting a move as done.</p></li>
-<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a><em>, </em><em>optional</em>) – The amount of time to wait before automatically marking a long
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – The EPICS PV prefix for this motor.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – An identifying name for this motor.</p></li>
+<li><p><strong>settle_time</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></a>, <em>optional</em>) – The amount of extra time to wait before interpreting a move as done.</p></li>
+<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></a>, <em>optional</em>) – The amount of time to wait before automatically marking a long
 in-progress move as failed.</p></li>
 </ul>
 </dd>
@@ -333,50 +335,56 @@ in-progress move as failed.</p></li>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.end_monitor_thread.html#pcdsdevices.ipm.IPMTarget.end_monitor_thread" title="pcdsdevices.ipm.IPMTarget.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
 <td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.camonitor.html#pcdsdevices.ipm.IPMTarget.camonitor" title="pcdsdevices.ipm.IPMTarget.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.wm_update.html#pcdsdevices.ipm.IPMTarget.wm_update" title="pcdsdevices.ipm.IPMTarget.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.get.html#pcdsdevices.ipm.IPMTarget.get" title="pcdsdevices.ipm.IPMTarget.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.format_status_info.html#pcdsdevices.ipm.IPMTarget.format_status_info" title="pcdsdevices.ipm.IPMTarget.format_status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">format_status_info</span></code></a>(status_info)</p></td>
+<td><p>Entry point for the mini status displays in the ipython terminal.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.get.html#pcdsdevices.ipm.IPMTarget.get" title="pcdsdevices.ipm.IPMTarget.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.get_device_tuple.html#pcdsdevices.ipm.IPMTarget.get_device_tuple" title="pcdsdevices.ipm.IPMTarget.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.get_device_tuple.html#pcdsdevices.ipm.IPMTarget.get_device_tuple" title="pcdsdevices.ipm.IPMTarget.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
 <td><p>The device tuple type associated with an Device class</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.get_instantiated_signals.html#pcdsdevices.ipm.IPMTarget.get_instantiated_signals" title="pcdsdevices.ipm.IPMTarget.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.get_instantiated_signals.html#pcdsdevices.ipm.IPMTarget.get_instantiated_signals" title="pcdsdevices.ipm.IPMTarget.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.get_state.html#pcdsdevices.ipm.IPMTarget.get_state" title="pcdsdevices.ipm.IPMTarget.get_state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_state</span></code></a>(value)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.get_state.html#pcdsdevices.ipm.IPMTarget.get_state" title="pcdsdevices.ipm.IPMTarget.get_state"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_state</span></code></a>(value)</p></td>
 <td><p>Given an integer or string value, return the proper state entry.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.insert.html#pcdsdevices.ipm.IPMTarget.insert" title="pcdsdevices.ipm.IPMTarget.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb, timeout, wait])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.insert.html#pcdsdevices.ipm.IPMTarget.insert" title="pcdsdevices.ipm.IPMTarget.insert"><code class="xref py py-obj docutils literal notranslate"><span class="pre">insert</span></code></a>([moved_cb, timeout, wait])</p></td>
 <td><p>Moves this device to the first state on the <a class="reference internal" href="pcdsdevices.inout.InOutPositioner.html#pcdsdevices.inout.InOutPositioner.in_states" title="pcdsdevices.inout.InOutPositioner.in_states"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">in_states</span></code></a> list.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.move.html#pcdsdevices.ipm.IPMTarget.move" title="pcdsdevices.ipm.IPMTarget.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, moved_cb, timeout, wait])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.move.html#pcdsdevices.ipm.IPMTarget.move" title="pcdsdevices.ipm.IPMTarget.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, moved_cb, timeout, wait])</p></td>
 <td><p>Move to the desired state and return completion information.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.mv.html#pcdsdevices.ipm.IPMTarget.mv" title="pcdsdevices.ipm.IPMTarget.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[, timeout, wait])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.mv.html#pcdsdevices.ipm.IPMTarget.mv" title="pcdsdevices.ipm.IPMTarget.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[, timeout, wait])</p></td>
 <td><p>Absolute move to a position.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.pause.html#pcdsdevices.ipm.IPMTarget.pause" title="pcdsdevices.ipm.IPMTarget.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.pause.html#pcdsdevices.ipm.IPMTarget.pause" title="pcdsdevices.ipm.IPMTarget.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
 <td><p>Attempt to ‘pause’ the device.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.put.html#pcdsdevices.ipm.IPMTarget.put" title="pcdsdevices.ipm.IPMTarget.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.put.html#pcdsdevices.ipm.IPMTarget.put" title="pcdsdevices.ipm.IPMTarget.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
 <td><p>Put a value to all components of the device</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.read.html#pcdsdevices.ipm.IPMTarget.read" title="pcdsdevices.ipm.IPMTarget.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.read.html#pcdsdevices.ipm.IPMTarget.read" title="pcdsdevices.ipm.IPMTarget.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
 <td><p>Read data from the device.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.read_configuration.html#pcdsdevices.ipm.IPMTarget.read_configuration" title="pcdsdevices.ipm.IPMTarget.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.read_configuration.html#pcdsdevices.ipm.IPMTarget.read_configuration" title="pcdsdevices.ipm.IPMTarget.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.remove.html#pcdsdevices.ipm.IPMTarget.remove" title="pcdsdevices.ipm.IPMTarget.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb, timeout, wait])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.remove.html#pcdsdevices.ipm.IPMTarget.remove" title="pcdsdevices.ipm.IPMTarget.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb, timeout, wait])</p></td>
 <td><p>Macro to move this device to the first state on the <a class="reference internal" href="pcdsdevices.inout.InOutPositioner.html#pcdsdevices.inout.InOutPositioner.out_states" title="pcdsdevices.inout.InOutPositioner.out_states"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">out_states</span></code></a> list.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.resume.html#pcdsdevices.ipm.IPMTarget.resume" title="pcdsdevices.ipm.IPMTarget.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.resume.html#pcdsdevices.ipm.IPMTarget.resume" title="pcdsdevices.ipm.IPMTarget.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.set.html#pcdsdevices.ipm.IPMTarget.set" title="pcdsdevices.ipm.IPMTarget.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[, moved_cb, timeout])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.set.html#pcdsdevices.ipm.IPMTarget.set" title="pcdsdevices.ipm.IPMTarget.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[, moved_cb, timeout])</p></td>
 <td><p>Move to the desired state and return completion information.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.stage.html#pcdsdevices.ipm.IPMTarget.stage" title="pcdsdevices.ipm.IPMTarget.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.stage.html#pcdsdevices.ipm.IPMTarget.stage" title="pcdsdevices.ipm.IPMTarget.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
 <td><p>Stage the device for data collection.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.status_info.html#pcdsdevices.ipm.IPMTarget.status_info" title="pcdsdevices.ipm.IPMTarget.status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status_info</span></code></a>()</p></td>
+<td><p>Get useful information for the status display.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMTarget.stop.html#pcdsdevices.ipm.IPMTarget.stop" title="pcdsdevices.ipm.IPMTarget.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>

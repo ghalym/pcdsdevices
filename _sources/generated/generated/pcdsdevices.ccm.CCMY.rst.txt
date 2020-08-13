@@ -24,6 +24,7 @@ pcdsdevices.ccm.CCMY
       ~CCMY.describe_configuration
       ~CCMY.destroy
       ~CCMY.end_monitor_thread
+      ~CCMY.format_status_info
       ~CCMY.forward
       ~CCMY.get
       ~CCMY.get_device_tuple
@@ -42,6 +43,7 @@ pcdsdevices.ccm.CCMY
       ~CCMY.save_offsets
       ~CCMY.set
       ~CCMY.stage
+      ~CCMY.status_info
       ~CCMY.stop
       ~CCMY.subscribe
       ~CCMY.summary

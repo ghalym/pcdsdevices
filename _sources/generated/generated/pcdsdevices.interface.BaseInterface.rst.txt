@@ -17,6 +17,8 @@ pcdsdevices.interface.BaseInterface
       ~BaseInterface.check_value
       ~BaseInterface.clear_sub
       ~BaseInterface.destroy
+      ~BaseInterface.format_status_info
+      ~BaseInterface.status_info
       ~BaseInterface.subscribe
       ~BaseInterface.unsubscribe
       ~BaseInterface.unsubscribe_all

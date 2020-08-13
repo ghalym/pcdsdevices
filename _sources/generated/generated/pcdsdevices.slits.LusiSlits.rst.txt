@@ -24,6 +24,7 @@ pcdsdevices.slits.LusiSlits
       ~LusiSlits.describe_configuration
       ~LusiSlits.destroy
       ~LusiSlits.end_monitor_thread
+      ~LusiSlits.format_status_info
       ~LusiSlits.get
       ~LusiSlits.get_device_tuple
       ~LusiSlits.get_instantiated_signals
@@ -38,6 +39,7 @@ pcdsdevices.slits.LusiSlits
       ~LusiSlits.resume
       ~LusiSlits.set
       ~LusiSlits.stage
+      ~LusiSlits.status_info
       ~LusiSlits.stop
       ~LusiSlits.subscribe
       ~LusiSlits.summary

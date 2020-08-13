@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.mirror.OffsetMirror &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.mirror.OffsetMirror &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -134,6 +134,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.describe.html">pcdsdevices.mirror.OffsetMirror.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.describe_configuration.html">pcdsdevices.mirror.OffsetMirror.describe_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.destroy.html">pcdsdevices.mirror.OffsetMirror.destroy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.format_status_info.html">pcdsdevices.mirror.OffsetMirror.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.get.html">pcdsdevices.mirror.OffsetMirror.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.get_device_tuple.html">pcdsdevices.mirror.OffsetMirror.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.get_instantiated_signals.html">pcdsdevices.mirror.OffsetMirror.get_instantiated_signals</a></li>
@@ -143,6 +144,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.read_configuration.html">pcdsdevices.mirror.OffsetMirror.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.resume.html">pcdsdevices.mirror.OffsetMirror.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.stage.html">pcdsdevices.mirror.OffsetMirror.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.status_info.html">pcdsdevices.mirror.OffsetMirror.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.stop.html">pcdsdevices.mirror.OffsetMirror.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.subscribe.html">pcdsdevices.mirror.OffsetMirror.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.summary.html">pcdsdevices.mirror.OffsetMirror.summary</a></li>
@@ -265,10 +267,10 @@ any positional changes.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The EPICS base PV of the pitch motor.</p></li>
-<li><p><strong>prefix_xy</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The EPICS base PV of the gantry x and y gantry motors.</p></li>
-<li><p><strong>xgantry_prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The name of the horizontal gantry if not identical to the prefix.</p></li>
-<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The name of the offset mirror.</p></li>
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – The EPICS base PV of the pitch motor.</p></li>
+<li><p><strong>prefix_xy</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – The EPICS base PV of the gantry x and y gantry motors.</p></li>
+<li><p><strong>xgantry_prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – The name of the horizontal gantry if not identical to the prefix.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – The name of the offset mirror.</p></li>
 </ul>
 </dd>
 </dl>
@@ -303,32 +305,38 @@ any positional changes.</p>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.destroy.html#pcdsdevices.mirror.OffsetMirror.destroy" title="pcdsdevices.mirror.OffsetMirror.destroy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">destroy</span></code></a>()</p></td>
 <td><p>Disconnect and destroy all signals on the Device</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.get.html#pcdsdevices.mirror.OffsetMirror.get" title="pcdsdevices.mirror.OffsetMirror.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.format_status_info.html#pcdsdevices.mirror.OffsetMirror.format_status_info" title="pcdsdevices.mirror.OffsetMirror.format_status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">format_status_info</span></code></a>(status_info)</p></td>
+<td><p>Entry point for the mini status displays in the ipython terminal.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.get.html#pcdsdevices.mirror.OffsetMirror.get" title="pcdsdevices.mirror.OffsetMirror.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.get_device_tuple.html#pcdsdevices.mirror.OffsetMirror.get_device_tuple" title="pcdsdevices.mirror.OffsetMirror.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.get_device_tuple.html#pcdsdevices.mirror.OffsetMirror.get_device_tuple" title="pcdsdevices.mirror.OffsetMirror.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
 <td><p>The device tuple type associated with an Device class</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.get_instantiated_signals.html#pcdsdevices.mirror.OffsetMirror.get_instantiated_signals" title="pcdsdevices.mirror.OffsetMirror.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.get_instantiated_signals.html#pcdsdevices.mirror.OffsetMirror.get_instantiated_signals" title="pcdsdevices.mirror.OffsetMirror.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.pause.html#pcdsdevices.mirror.OffsetMirror.pause" title="pcdsdevices.mirror.OffsetMirror.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.pause.html#pcdsdevices.mirror.OffsetMirror.pause" title="pcdsdevices.mirror.OffsetMirror.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
 <td><p>Attempt to ‘pause’ the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.put.html#pcdsdevices.mirror.OffsetMirror.put" title="pcdsdevices.mirror.OffsetMirror.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.put.html#pcdsdevices.mirror.OffsetMirror.put" title="pcdsdevices.mirror.OffsetMirror.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
 <td><p>Put a value to all components of the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.read.html#pcdsdevices.mirror.OffsetMirror.read" title="pcdsdevices.mirror.OffsetMirror.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.read.html#pcdsdevices.mirror.OffsetMirror.read" title="pcdsdevices.mirror.OffsetMirror.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
 <td><p>Read data from the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.read_configuration.html#pcdsdevices.mirror.OffsetMirror.read_configuration" title="pcdsdevices.mirror.OffsetMirror.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.read_configuration.html#pcdsdevices.mirror.OffsetMirror.read_configuration" title="pcdsdevices.mirror.OffsetMirror.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.resume.html#pcdsdevices.mirror.OffsetMirror.resume" title="pcdsdevices.mirror.OffsetMirror.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.resume.html#pcdsdevices.mirror.OffsetMirror.resume" title="pcdsdevices.mirror.OffsetMirror.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.stage.html#pcdsdevices.mirror.OffsetMirror.stage" title="pcdsdevices.mirror.OffsetMirror.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.stage.html#pcdsdevices.mirror.OffsetMirror.stage" title="pcdsdevices.mirror.OffsetMirror.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
 <td><p>Stage the device for data collection.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.status_info.html#pcdsdevices.mirror.OffsetMirror.status_info" title="pcdsdevices.mirror.OffsetMirror.status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status_info</span></code></a>()</p></td>
+<td><p>Get useful information for the status display.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.stop.html#pcdsdevices.mirror.OffsetMirror.stop" title="pcdsdevices.mirror.OffsetMirror.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>

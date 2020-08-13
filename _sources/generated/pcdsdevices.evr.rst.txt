@@ -1,4 +1,4 @@
-pcdsdevices.evr
+﻿pcdsdevices.evr
 ===============
 
 .. automodule:: pcdsdevices.evr

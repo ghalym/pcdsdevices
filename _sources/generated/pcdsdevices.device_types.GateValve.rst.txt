@@ -1,4 +1,4 @@
-pcdsdevices.device\_types.GateValve
+﻿pcdsdevices.device\_types.GateValve
 ===================================
 
 .. currentmodule:: pcdsdevices.device_types
@@ -26,6 +26,7 @@ pcdsdevices.device\_types.GateValve
       ~GateValve.describe_configuration
       ~GateValve.destroy
       ~GateValve.end_monitor_thread
+      ~GateValve.format_status_info
       ~GateValve.get
       ~GateValve.get_device_tuple
       ~GateValve.get_instantiated_signals
@@ -42,6 +43,7 @@ pcdsdevices.device\_types.GateValve
       ~GateValve.resume
       ~GateValve.set
       ~GateValve.stage
+      ~GateValve.status_info
       ~GateValve.stop
       ~GateValve.subscribe
       ~GateValve.summary

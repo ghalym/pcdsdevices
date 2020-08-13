@@ -20,6 +20,7 @@ pcdsdevices.pim.PIMWithLED
       ~PIMWithLED.describe
       ~PIMWithLED.describe_configuration
       ~PIMWithLED.destroy
+      ~PIMWithLED.format_status_info
       ~PIMWithLED.get
       ~PIMWithLED.get_device_tuple
       ~PIMWithLED.get_instantiated_signals
@@ -32,6 +33,7 @@ pcdsdevices.pim.PIMWithLED
       ~PIMWithLED.remove
       ~PIMWithLED.resume
       ~PIMWithLED.stage
+      ~PIMWithLED.status_info
       ~PIMWithLED.stop
       ~PIMWithLED.subscribe
       ~PIMWithLED.summary

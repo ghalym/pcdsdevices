@@ -24,6 +24,7 @@ pcdsdevices.ccm.CCMX
       ~CCMX.describe_configuration
       ~CCMX.destroy
       ~CCMX.end_monitor_thread
+      ~CCMX.format_status_info
       ~CCMX.forward
       ~CCMX.get
       ~CCMX.get_device_tuple
@@ -42,6 +43,7 @@ pcdsdevices.ccm.CCMX
       ~CCMX.save_offsets
       ~CCMX.set
       ~CCMX.stage
+      ~CCMX.status_info
       ~CCMX.stop
       ~CCMX.subscribe
       ~CCMX.summary

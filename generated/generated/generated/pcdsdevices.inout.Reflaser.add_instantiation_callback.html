@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.inout.Reflaser.add_instantiation_callback &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.inout.Reflaser.add_instantiation_callback &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -135,6 +135,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.Reflaser.describe_configuration.html">pcdsdevices.inout.Reflaser.describe_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.Reflaser.destroy.html">pcdsdevices.inout.Reflaser.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.Reflaser.end_monitor_thread.html">pcdsdevices.inout.Reflaser.end_monitor_thread</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.Reflaser.format_status_info.html">pcdsdevices.inout.Reflaser.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.Reflaser.get.html">pcdsdevices.inout.Reflaser.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.Reflaser.get_device_tuple.html">pcdsdevices.inout.Reflaser.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.Reflaser.get_instantiated_signals.html">pcdsdevices.inout.Reflaser.get_instantiated_signals</a></li>
@@ -150,6 +151,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.Reflaser.resume.html">pcdsdevices.inout.Reflaser.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.Reflaser.set.html">pcdsdevices.inout.Reflaser.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.Reflaser.stage.html">pcdsdevices.inout.Reflaser.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.Reflaser.status_info.html">pcdsdevices.inout.Reflaser.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.Reflaser.stop.html">pcdsdevices.inout.Reflaser.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.Reflaser.subscribe.html">pcdsdevices.inout.Reflaser.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.Reflaser.summary.html">pcdsdevices.inout.Reflaser.summary</a></li>
@@ -274,8 +276,8 @@
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>callback</strong> (<em>callable</em>) – Expected signature: <code class="docutils literal notranslate"><span class="pre">f(ophydobj_instance)</span></code></p></li>
-<li><p><strong>fail_if_late</strong> (<em>boolean</em>) – If True, verify that OphydObj has not yet been instantiated and raise
+<li><p><strong>callback</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">callable</span></code>) – Expected signature: <code class="docutils literal notranslate"><span class="pre">f(ophydobj_instance)</span></code></p></li>
+<li><p><strong>fail_if_late</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">boolean</span></code>) – If True, verify that OphydObj has not yet been instantiated and raise
 <code class="docutils literal notranslate"><span class="pre">RuntimeError</span></code> if it has, as a way of verify that no instances will
 be “missed” by this registry. False by default.</p></li>
 </ul>

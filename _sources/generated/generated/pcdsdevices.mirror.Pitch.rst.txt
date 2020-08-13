@@ -22,6 +22,7 @@ pcdsdevices.mirror.Pitch
       ~Pitch.describe_configuration
       ~Pitch.destroy
       ~Pitch.end_monitor_thread
+      ~Pitch.format_status_info
       ~Pitch.get
       ~Pitch.get_device_tuple
       ~Pitch.get_instantiated_signals
@@ -36,6 +37,7 @@ pcdsdevices.mirror.Pitch
       ~Pitch.resume
       ~Pitch.set
       ~Pitch.stage
+      ~Pitch.status_info
       ~Pitch.stop
       ~Pitch.subscribe
       ~Pitch.summary

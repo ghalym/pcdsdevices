@@ -1,4 +1,4 @@
-pcdsdevices.device\_types.IPM
+﻿pcdsdevices.device\_types.IPM
 =============================
 
 .. currentmodule:: pcdsdevices.device_types

@@ -1,0 +1,6 @@
+pcdsdevices.mirror.OMMotor.status\_info
+=======================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: OMMotor.status_info

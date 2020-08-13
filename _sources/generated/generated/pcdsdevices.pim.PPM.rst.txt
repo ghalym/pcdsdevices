@@ -20,6 +20,7 @@ pcdsdevices.pim.PPM
       ~PPM.describe
       ~PPM.describe_configuration
       ~PPM.destroy
+      ~PPM.format_status_info
       ~PPM.get
       ~PPM.get_device_tuple
       ~PPM.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.pim.PPM
       ~PPM.read_configuration
       ~PPM.resume
       ~PPM.stage
+      ~PPM.status_info
       ~PPM.stop
       ~PPM.subscribe
       ~PPM.summary

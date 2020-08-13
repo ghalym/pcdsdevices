@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ipm.IPMMotion.add_instantiation_callback &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.ipm.IPMMotion.add_instantiation_callback &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -132,6 +132,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ipm.IPMMotion.describe.html">pcdsdevices.ipm.IPMMotion.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ipm.IPMMotion.describe_configuration.html">pcdsdevices.ipm.IPMMotion.describe_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ipm.IPMMotion.destroy.html">pcdsdevices.ipm.IPMMotion.destroy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ipm.IPMMotion.format_status_info.html">pcdsdevices.ipm.IPMMotion.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ipm.IPMMotion.get.html">pcdsdevices.ipm.IPMMotion.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ipm.IPMMotion.get_device_tuple.html">pcdsdevices.ipm.IPMMotion.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ipm.IPMMotion.get_instantiated_signals.html">pcdsdevices.ipm.IPMMotion.get_instantiated_signals</a></li>
@@ -143,6 +144,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ipm.IPMMotion.remove.html">pcdsdevices.ipm.IPMMotion.remove</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ipm.IPMMotion.resume.html">pcdsdevices.ipm.IPMMotion.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ipm.IPMMotion.stage.html">pcdsdevices.ipm.IPMMotion.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ipm.IPMMotion.status_info.html">pcdsdevices.ipm.IPMMotion.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ipm.IPMMotion.stop.html">pcdsdevices.ipm.IPMMotion.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ipm.IPMMotion.subscribe.html">pcdsdevices.ipm.IPMMotion.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ipm.IPMMotion.summary.html">pcdsdevices.ipm.IPMMotion.summary</a></li>
@@ -267,8 +269,8 @@
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>callback</strong> (<em>callable</em>) – Expected signature: <code class="docutils literal notranslate"><span class="pre">f(ophydobj_instance)</span></code></p></li>
-<li><p><strong>fail_if_late</strong> (<em>boolean</em>) – If True, verify that OphydObj has not yet been instantiated and raise
+<li><p><strong>callback</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">callable</span></code>) – Expected signature: <code class="docutils literal notranslate"><span class="pre">f(ophydobj_instance)</span></code></p></li>
+<li><p><strong>fail_if_late</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">boolean</span></code>) – If True, verify that OphydObj has not yet been instantiated and raise
 <code class="docutils literal notranslate"><span class="pre">RuntimeError</span></code> if it has, as a way of verify that no instances will
 be “missed” by this registry. False by default.</p></li>
 </ul>

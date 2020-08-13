@@ -1,0 +1,6 @@
+pcdsdevices.pump.IonPumpBase.format\_status\_info
+=================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: IonPumpBase.format_status_info

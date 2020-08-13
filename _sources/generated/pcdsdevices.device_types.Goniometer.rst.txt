@@ -1,4 +1,4 @@
-pcdsdevices.device\_types.Goniometer
+﻿pcdsdevices.device\_types.Goniometer
 ====================================
 
 .. currentmodule:: pcdsdevices.device_types

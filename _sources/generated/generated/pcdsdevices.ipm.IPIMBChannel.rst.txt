@@ -20,6 +20,7 @@ pcdsdevices.ipm.IPIMBChannel
       ~IPIMBChannel.describe
       ~IPIMBChannel.describe_configuration
       ~IPIMBChannel.destroy
+      ~IPIMBChannel.format_status_info
       ~IPIMBChannel.get
       ~IPIMBChannel.get_device_tuple
       ~IPIMBChannel.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.ipm.IPIMBChannel
       ~IPIMBChannel.read_configuration
       ~IPIMBChannel.resume
       ~IPIMBChannel.stage
+      ~IPIMBChannel.status_info
       ~IPIMBChannel.stop
       ~IPIMBChannel.subscribe
       ~IPIMBChannel.summary

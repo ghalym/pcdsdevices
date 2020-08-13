@@ -20,6 +20,7 @@ pcdsdevices.ipm.IPMDiode
       ~IPMDiode.describe
       ~IPMDiode.describe_configuration
       ~IPMDiode.destroy
+      ~IPMDiode.format_status_info
       ~IPMDiode.get
       ~IPMDiode.get_device_tuple
       ~IPMDiode.get_instantiated_signals
@@ -31,6 +32,7 @@ pcdsdevices.ipm.IPMDiode
       ~IPMDiode.remove
       ~IPMDiode.resume
       ~IPMDiode.stage
+      ~IPMDiode.status_info
       ~IPMDiode.stop
       ~IPMDiode.subscribe
       ~IPMDiode.summary

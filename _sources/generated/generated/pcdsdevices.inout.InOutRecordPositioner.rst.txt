@@ -25,6 +25,7 @@ pcdsdevices.inout.InOutRecordPositioner
       ~InOutRecordPositioner.describe_configuration
       ~InOutRecordPositioner.destroy
       ~InOutRecordPositioner.end_monitor_thread
+      ~InOutRecordPositioner.format_status_info
       ~InOutRecordPositioner.get
       ~InOutRecordPositioner.get_device_tuple
       ~InOutRecordPositioner.get_instantiated_signals
@@ -40,6 +41,7 @@ pcdsdevices.inout.InOutRecordPositioner
       ~InOutRecordPositioner.resume
       ~InOutRecordPositioner.set
       ~InOutRecordPositioner.stage
+      ~InOutRecordPositioner.status_info
       ~InOutRecordPositioner.stop
       ~InOutRecordPositioner.subscribe
       ~InOutRecordPositioner.summary

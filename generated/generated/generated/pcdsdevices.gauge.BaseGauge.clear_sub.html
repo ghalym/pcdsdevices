@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.gauge.BaseGauge.clear_sub &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.gauge.BaseGauge.clear_sub &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -125,6 +125,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.describe.html">pcdsdevices.gauge.BaseGauge.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.describe_configuration.html">pcdsdevices.gauge.BaseGauge.describe_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.destroy.html">pcdsdevices.gauge.BaseGauge.destroy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.format_status_info.html">pcdsdevices.gauge.BaseGauge.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.get.html">pcdsdevices.gauge.BaseGauge.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.get_device_tuple.html">pcdsdevices.gauge.BaseGauge.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.get_instantiated_signals.html">pcdsdevices.gauge.BaseGauge.get_instantiated_signals</a></li>
@@ -134,6 +135,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.read_configuration.html">pcdsdevices.gauge.BaseGauge.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.resume.html">pcdsdevices.gauge.BaseGauge.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.stage.html">pcdsdevices.gauge.BaseGauge.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.status_info.html">pcdsdevices.gauge.BaseGauge.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.stop.html">pcdsdevices.gauge.BaseGauge.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.subscribe.html">pcdsdevices.gauge.BaseGauge.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.summary.html">pcdsdevices.gauge.BaseGauge.summary</a></li>
@@ -273,8 +275,8 @@
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>cb</strong> (<em>callable</em>) – The callback</p></li>
-<li><p><strong>event_type</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a><em>, </em><em>optional</em>) – The event to unsubscribe from (if None, removes it from all event
+<li><p><strong>cb</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">callable</span></code>) – The callback</p></li>
+<li><p><strong>event_type</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <em>optional</em>) – The event to unsubscribe from (if None, removes it from all event
 types)</p></li>
 </ul>
 </dd>

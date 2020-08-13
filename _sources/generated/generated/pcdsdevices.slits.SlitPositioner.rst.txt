@@ -22,6 +22,7 @@ pcdsdevices.slits.SlitPositioner
       ~SlitPositioner.describe_configuration
       ~SlitPositioner.destroy
       ~SlitPositioner.end_monitor_thread
+      ~SlitPositioner.format_status_info
       ~SlitPositioner.get
       ~SlitPositioner.get_device_tuple
       ~SlitPositioner.get_instantiated_signals
@@ -36,6 +37,7 @@ pcdsdevices.slits.SlitPositioner
       ~SlitPositioner.resume
       ~SlitPositioner.set
       ~SlitPositioner.stage
+      ~SlitPositioner.status_info
       ~SlitPositioner.stop
       ~SlitPositioner.subscribe
       ~SlitPositioner.summary

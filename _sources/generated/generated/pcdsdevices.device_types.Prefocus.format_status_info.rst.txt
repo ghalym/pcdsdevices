@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Prefocus.format\_status\_info
+=======================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Prefocus.format_status_info

@@ -1,4 +1,4 @@
-pcdsdevices.gon
+﻿pcdsdevices.gon
 ===============
 
 .. automodule:: pcdsdevices.gon

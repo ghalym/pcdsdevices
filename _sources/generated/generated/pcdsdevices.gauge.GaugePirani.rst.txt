@@ -20,6 +20,7 @@ pcdsdevices.gauge.GaugePirani
       ~GaugePirani.describe
       ~GaugePirani.describe_configuration
       ~GaugePirani.destroy
+      ~GaugePirani.format_status_info
       ~GaugePirani.get
       ~GaugePirani.get_device_tuple
       ~GaugePirani.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.gauge.GaugePirani
       ~GaugePirani.read_configuration
       ~GaugePirani.resume
       ~GaugePirani.stage
+      ~GaugePirani.status_info
       ~GaugePirani.stop
       ~GaugePirani.subscribe
       ~GaugePirani.summary

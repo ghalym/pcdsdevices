@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.H1N.format\_status\_info
+==========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: H1N.format_status_info

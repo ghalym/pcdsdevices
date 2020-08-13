@@ -20,6 +20,7 @@ pcdsdevices.dc\_devices.ICT
       ~ICT.describe
       ~ICT.describe_configuration
       ~ICT.destroy
+      ~ICT.format_status_info
       ~ICT.get
       ~ICT.get_device_tuple
       ~ICT.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.dc\_devices.ICT
       ~ICT.read_configuration
       ~ICT.resume
       ~ICT.stage
+      ~ICT.status_info
       ~ICT.stop
       ~ICT.subscribe
       ~ICT.summary

@@ -1,4 +1,4 @@
-pcdsdevices.epics\_motor
+﻿pcdsdevices.epics\_motor
 ========================
 
 .. automodule:: pcdsdevices.epics_motor

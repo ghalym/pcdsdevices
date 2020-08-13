@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.BeckhoffJet.status\_info
+==================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: BeckhoffJet.status_info

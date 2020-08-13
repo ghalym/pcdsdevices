@@ -20,6 +20,7 @@ pcdsdevices.mps.MPS
       ~MPS.describe
       ~MPS.describe_configuration
       ~MPS.destroy
+      ~MPS.format_status_info
       ~MPS.get
       ~MPS.get_device_tuple
       ~MPS.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.mps.MPS
       ~MPS.read_configuration
       ~MPS.resume
       ~MPS.stage
+      ~MPS.status_info
       ~MPS.stop
       ~MPS.subscribe
       ~MPS.summary

@@ -22,6 +22,7 @@ pcdsdevices.ccm.CCMMotor
       ~CCMMotor.describe_configuration
       ~CCMMotor.destroy
       ~CCMMotor.end_monitor_thread
+      ~CCMMotor.format_status_info
       ~CCMMotor.get
       ~CCMMotor.get_device_tuple
       ~CCMMotor.get_instantiated_signals
@@ -36,6 +37,7 @@ pcdsdevices.ccm.CCMMotor
       ~CCMMotor.resume
       ~CCMMotor.set
       ~CCMMotor.stage
+      ~CCMMotor.status_info
       ~CCMMotor.stop
       ~CCMMotor.subscribe
       ~CCMMotor.summary

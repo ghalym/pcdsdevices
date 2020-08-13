@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.sensors.RTD &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.sensors.RTD &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -140,6 +140,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.describe.html">pcdsdevices.sensors.RTD.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.describe_configuration.html">pcdsdevices.sensors.RTD.describe_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.destroy.html">pcdsdevices.sensors.RTD.destroy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.format_status_info.html">pcdsdevices.sensors.RTD.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.get.html">pcdsdevices.sensors.RTD.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.get_device_tuple.html">pcdsdevices.sensors.RTD.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.get_instantiated_signals.html">pcdsdevices.sensors.RTD.get_instantiated_signals</a></li>
@@ -149,6 +150,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.read_configuration.html">pcdsdevices.sensors.RTD.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.resume.html">pcdsdevices.sensors.RTD.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.stage.html">pcdsdevices.sensors.RTD.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.status_info.html">pcdsdevices.sensors.RTD.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.stop.html">pcdsdevices.sensors.RTD.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.subscribe.html">pcdsdevices.sensors.RTD.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.summary.html">pcdsdevices.sensors.RTD.summary</a></li>
@@ -254,7 +256,7 @@
 <p>Can be thermistors, or pt100 (or similar).</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The PV base of the device.</p>
+<dd class="field-odd"><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – The PV base of the device.</p>
 </dd>
 </dl>
 <p class="rubric">Methods</p>
@@ -288,32 +290,38 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.destroy.html#pcdsdevices.sensors.RTD.destroy" title="pcdsdevices.sensors.RTD.destroy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">destroy</span></code></a>()</p></td>
 <td><p>Disconnect and destroy all signals on the Device</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.get.html#pcdsdevices.sensors.RTD.get" title="pcdsdevices.sensors.RTD.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.format_status_info.html#pcdsdevices.sensors.RTD.format_status_info" title="pcdsdevices.sensors.RTD.format_status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">format_status_info</span></code></a>(status_info)</p></td>
+<td><p>Entry point for the mini status displays in the ipython terminal.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.get.html#pcdsdevices.sensors.RTD.get" title="pcdsdevices.sensors.RTD.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.get_device_tuple.html#pcdsdevices.sensors.RTD.get_device_tuple" title="pcdsdevices.sensors.RTD.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.get_device_tuple.html#pcdsdevices.sensors.RTD.get_device_tuple" title="pcdsdevices.sensors.RTD.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
 <td><p>The device tuple type associated with an Device class</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.get_instantiated_signals.html#pcdsdevices.sensors.RTD.get_instantiated_signals" title="pcdsdevices.sensors.RTD.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.get_instantiated_signals.html#pcdsdevices.sensors.RTD.get_instantiated_signals" title="pcdsdevices.sensors.RTD.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.pause.html#pcdsdevices.sensors.RTD.pause" title="pcdsdevices.sensors.RTD.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.pause.html#pcdsdevices.sensors.RTD.pause" title="pcdsdevices.sensors.RTD.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
 <td><p>Attempt to ‘pause’ the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.put.html#pcdsdevices.sensors.RTD.put" title="pcdsdevices.sensors.RTD.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.put.html#pcdsdevices.sensors.RTD.put" title="pcdsdevices.sensors.RTD.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
 <td><p>Put a value to all components of the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.read.html#pcdsdevices.sensors.RTD.read" title="pcdsdevices.sensors.RTD.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.read.html#pcdsdevices.sensors.RTD.read" title="pcdsdevices.sensors.RTD.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
 <td><p>Read data from the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.read_configuration.html#pcdsdevices.sensors.RTD.read_configuration" title="pcdsdevices.sensors.RTD.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.read_configuration.html#pcdsdevices.sensors.RTD.read_configuration" title="pcdsdevices.sensors.RTD.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.resume.html#pcdsdevices.sensors.RTD.resume" title="pcdsdevices.sensors.RTD.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.resume.html#pcdsdevices.sensors.RTD.resume" title="pcdsdevices.sensors.RTD.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.stage.html#pcdsdevices.sensors.RTD.stage" title="pcdsdevices.sensors.RTD.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.stage.html#pcdsdevices.sensors.RTD.stage" title="pcdsdevices.sensors.RTD.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
 <td><p>Stage the device for data collection.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.status_info.html#pcdsdevices.sensors.RTD.status_info" title="pcdsdevices.sensors.RTD.status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status_info</span></code></a>()</p></td>
+<td><p>Get useful information for the status display.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.sensors.RTD.stop.html#pcdsdevices.sensors.RTD.stop" title="pcdsdevices.sensors.RTD.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>

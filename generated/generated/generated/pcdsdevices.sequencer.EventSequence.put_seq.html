@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.sequencer.EventSequence.put_seq &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.sequencer.EventSequence.put_seq &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -141,6 +141,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequence.describe.html">pcdsdevices.sequencer.EventSequence.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequence.describe_configuration.html">pcdsdevices.sequencer.EventSequence.describe_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequence.destroy.html">pcdsdevices.sequencer.EventSequence.destroy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequence.format_status_info.html">pcdsdevices.sequencer.EventSequence.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequence.get.html">pcdsdevices.sequencer.EventSequence.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequence.get_device_tuple.html">pcdsdevices.sequencer.EventSequence.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequence.get_instantiated_signals.html">pcdsdevices.sequencer.EventSequence.get_instantiated_signals</a></li>
@@ -153,6 +154,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequence.resume.html">pcdsdevices.sequencer.EventSequence.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequence.show.html">pcdsdevices.sequencer.EventSequence.show</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequence.stage.html">pcdsdevices.sequencer.EventSequence.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequence.status_info.html">pcdsdevices.sequencer.EventSequence.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequence.stop.html">pcdsdevices.sequencer.EventSequence.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequence.subscribe.html">pcdsdevices.sequencer.EventSequence.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sequencer.EventSequence.summary.html">pcdsdevices.sequencer.EventSequence.summary</a></li>
@@ -265,10 +267,10 @@ flag is set to <code class="xref std std-keyword docutils literal notranslate"><
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>sequence</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.8)"><em>list</em></a>) – List of lists describing the event sequence. The list takes the
+<li><p><strong>sequence</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code></a>) – List of lists describing the event sequence. The list takes the
 form <code class="docutils literal notranslate"><span class="pre">[[beam_code,</span> <span class="pre">delta_beam,</span> <span class="pre">delta_fiducial,</span> <span class="pre">burst_count],</span>
 <span class="pre">...]</span></code>.</p></li>
-<li><p><strong>update_length</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a>) – Option to automatically update the play length (the ‘{prefix}:LEN’
+<li><p><strong>update_length</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>) – Option to automatically update the play length (the ‘{prefix}:LEN’
 PV) to the length of the written sequence. Defaults to <a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a>.</p></li>
 </ul>
 </dd>

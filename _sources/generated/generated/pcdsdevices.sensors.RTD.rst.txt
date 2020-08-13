@@ -20,6 +20,7 @@ pcdsdevices.sensors.RTD
       ~RTD.describe
       ~RTD.describe_configuration
       ~RTD.destroy
+      ~RTD.format_status_info
       ~RTD.get
       ~RTD.get_device_tuple
       ~RTD.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.sensors.RTD
       ~RTD.read_configuration
       ~RTD.resume
       ~RTD.stage
+      ~RTD.status_info
       ~RTD.stop
       ~RTD.subscribe
       ~RTD.summary

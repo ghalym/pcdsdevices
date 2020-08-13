@@ -21,6 +21,7 @@ pcdsdevices.pump.IonPumpWithController
       ~IonPumpWithController.describe_configuration
       ~IonPumpWithController.destroy
       ~IonPumpWithController.egu
+      ~IonPumpWithController.format_status_info
       ~IonPumpWithController.get
       ~IonPumpWithController.get_device_tuple
       ~IonPumpWithController.get_instantiated_signals
@@ -34,6 +35,7 @@ pcdsdevices.pump.IonPumpWithController
       ~IonPumpWithController.read_configuration
       ~IonPumpWithController.resume
       ~IonPumpWithController.stage
+      ~IonPumpWithController.status_info
       ~IonPumpWithController.stop
       ~IonPumpWithController.subscribe
       ~IonPumpWithController.summary

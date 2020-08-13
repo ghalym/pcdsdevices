@@ -20,6 +20,7 @@ pcdsdevices.pim.PIMWithFocus
       ~PIMWithFocus.describe
       ~PIMWithFocus.describe_configuration
       ~PIMWithFocus.destroy
+      ~PIMWithFocus.format_status_info
       ~PIMWithFocus.get
       ~PIMWithFocus.get_device_tuple
       ~PIMWithFocus.get_instantiated_signals
@@ -32,6 +33,7 @@ pcdsdevices.pim.PIMWithFocus
       ~PIMWithFocus.remove
       ~PIMWithFocus.resume
       ~PIMWithFocus.stage
+      ~PIMWithFocus.status_info
       ~PIMWithFocus.stop
       ~PIMWithFocus.subscribe
       ~PIMWithFocus.summary

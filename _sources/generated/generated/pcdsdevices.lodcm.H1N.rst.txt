@@ -25,6 +25,7 @@ pcdsdevices.lodcm.H1N
       ~H1N.describe_configuration
       ~H1N.destroy
       ~H1N.end_monitor_thread
+      ~H1N.format_status_info
       ~H1N.get
       ~H1N.get_device_tuple
       ~H1N.get_instantiated_signals
@@ -40,6 +41,7 @@ pcdsdevices.lodcm.H1N
       ~H1N.resume
       ~H1N.set
       ~H1N.stage
+      ~H1N.status_info
       ~H1N.stop
       ~H1N.subscribe
       ~H1N.summary

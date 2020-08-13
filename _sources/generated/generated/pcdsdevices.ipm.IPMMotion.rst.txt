@@ -20,6 +20,7 @@ pcdsdevices.ipm.IPMMotion
       ~IPMMotion.describe
       ~IPMMotion.describe_configuration
       ~IPMMotion.destroy
+      ~IPMMotion.format_status_info
       ~IPMMotion.get
       ~IPMMotion.get_device_tuple
       ~IPMMotion.get_instantiated_signals
@@ -31,6 +32,7 @@ pcdsdevices.ipm.IPMMotion
       ~IPMMotion.remove
       ~IPMMotion.resume
       ~IPMMotion.stage
+      ~IPMMotion.status_info
       ~IPMMotion.stop
       ~IPMMotion.subscribe
       ~IPMMotion.summary

@@ -25,6 +25,7 @@ pcdsdevices.inout.TwinCATInOutPositioner
       ~TwinCATInOutPositioner.describe_configuration
       ~TwinCATInOutPositioner.destroy
       ~TwinCATInOutPositioner.end_monitor_thread
+      ~TwinCATInOutPositioner.format_status_info
       ~TwinCATInOutPositioner.get
       ~TwinCATInOutPositioner.get_device_tuple
       ~TwinCATInOutPositioner.get_instantiated_signals
@@ -40,6 +41,7 @@ pcdsdevices.inout.TwinCATInOutPositioner
       ~TwinCATInOutPositioner.resume
       ~TwinCATInOutPositioner.set
       ~TwinCATInOutPositioner.stage
+      ~TwinCATInOutPositioner.status_info
       ~TwinCATInOutPositioner.stop
       ~TwinCATInOutPositioner.subscribe
       ~TwinCATInOutPositioner.summary

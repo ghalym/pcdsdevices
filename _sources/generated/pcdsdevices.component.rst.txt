@@ -1,4 +1,4 @@
-pcdsdevices.component
+﻿pcdsdevices.component
 =====================
 
 .. automodule:: pcdsdevices.component

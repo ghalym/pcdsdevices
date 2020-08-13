@@ -29,6 +29,7 @@ pcdsdevices.pulsepicker.PulsePickerInOut
       ~PulsePickerInOut.end_monitor_thread
       ~PulsePickerInOut.flipflop
       ~PulsePickerInOut.follower
+      ~PulsePickerInOut.format_status_info
       ~PulsePickerInOut.get
       ~PulsePickerInOut.get_device_tuple
       ~PulsePickerInOut.get_instantiated_signals
@@ -46,6 +47,7 @@ pcdsdevices.pulsepicker.PulsePickerInOut
       ~PulsePickerInOut.resume
       ~PulsePickerInOut.set
       ~PulsePickerInOut.stage
+      ~PulsePickerInOut.status_info
       ~PulsePickerInOut.stop
       ~PulsePickerInOut.subscribe
       ~PulsePickerInOut.summary

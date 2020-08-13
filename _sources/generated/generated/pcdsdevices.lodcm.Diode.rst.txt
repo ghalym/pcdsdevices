@@ -25,6 +25,7 @@ pcdsdevices.lodcm.Diode
       ~Diode.describe_configuration
       ~Diode.destroy
       ~Diode.end_monitor_thread
+      ~Diode.format_status_info
       ~Diode.get
       ~Diode.get_device_tuple
       ~Diode.get_instantiated_signals
@@ -40,6 +41,7 @@ pcdsdevices.lodcm.Diode
       ~Diode.resume
       ~Diode.set
       ~Diode.stage
+      ~Diode.status_info
       ~Diode.stop
       ~Diode.subscribe
       ~Diode.summary

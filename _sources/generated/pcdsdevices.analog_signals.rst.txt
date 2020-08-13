@@ -1,4 +1,4 @@
-pcdsdevices.analog\_signals
+﻿pcdsdevices.analog\_signals
 ===========================
 
 .. automodule:: pcdsdevices.analog_signals

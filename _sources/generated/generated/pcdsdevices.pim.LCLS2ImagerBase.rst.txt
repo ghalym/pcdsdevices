@@ -20,6 +20,7 @@ pcdsdevices.pim.LCLS2ImagerBase
       ~LCLS2ImagerBase.describe
       ~LCLS2ImagerBase.describe_configuration
       ~LCLS2ImagerBase.destroy
+      ~LCLS2ImagerBase.format_status_info
       ~LCLS2ImagerBase.get
       ~LCLS2ImagerBase.get_device_tuple
       ~LCLS2ImagerBase.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.pim.LCLS2ImagerBase
       ~LCLS2ImagerBase.read_configuration
       ~LCLS2ImagerBase.resume
       ~LCLS2ImagerBase.stage
+      ~LCLS2ImagerBase.status_info
       ~LCLS2ImagerBase.stop
       ~LCLS2ImagerBase.subscribe
       ~LCLS2ImagerBase.summary

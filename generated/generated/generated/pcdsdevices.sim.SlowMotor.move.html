@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.sim.SlowMotor.move &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.sim.SlowMotor.move &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -147,6 +147,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.SlowMotor.describe_configuration.html">pcdsdevices.sim.SlowMotor.describe_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.SlowMotor.destroy.html">pcdsdevices.sim.SlowMotor.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.SlowMotor.end_monitor_thread.html">pcdsdevices.sim.SlowMotor.end_monitor_thread</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.SlowMotor.format_status_info.html">pcdsdevices.sim.SlowMotor.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.SlowMotor.get.html">pcdsdevices.sim.SlowMotor.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.SlowMotor.get_device_tuple.html">pcdsdevices.sim.SlowMotor.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.SlowMotor.get_instantiated_signals.html">pcdsdevices.sim.SlowMotor.get_instantiated_signals</a></li>
@@ -161,6 +162,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.SlowMotor.resume.html">pcdsdevices.sim.SlowMotor.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.SlowMotor.set.html">pcdsdevices.sim.SlowMotor.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.SlowMotor.stage.html">pcdsdevices.sim.SlowMotor.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.SlowMotor.status_info.html">pcdsdevices.sim.SlowMotor.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.SlowMotor.stop.html">pcdsdevices.sim.SlowMotor.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.SlowMotor.subscribe.html">pcdsdevices.sim.SlowMotor.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.SlowMotor.summary.html">pcdsdevices.sim.SlowMotor.summary</a></li>
@@ -272,15 +274,15 @@ complete.</p>
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>position</strong> – Position to move to</p></li>
-<li><p><strong>moved_cb</strong> (<em>callable</em>) – Call this callback when movement has finished. This callback
+<li><p><strong>moved_cb</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">callable</span></code>) – Call this callback when movement has finished. This callback
 must accept one keyword argument: ‘obj’ which will be set to
 this positioner instance.</p></li>
-<li><p><strong>wait</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Wait until motion has completed</p></li>
-<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a><em>, </em><em>optional</em>) – Maximum time to wait for a motion</p></li>
+<li><p><strong>wait</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>, <em>optional</em>) – Wait until motion has completed</p></li>
+<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></a>, <em>optional</em>) – Maximum time to wait for a motion</p></li>
 </ul>
 </dd>
 <dt class="field-even">Returns</dt>
-<dd class="field-even"><p><strong>status</strong> (<em>MoveStatus</em>)</p>
+<dd class="field-even"><p><strong>status</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">MoveStatus</span></code>)</p>
 </dd>
 <dt class="field-odd">Raises</dt>
 <dd class="field-odd"><ul class="simple">

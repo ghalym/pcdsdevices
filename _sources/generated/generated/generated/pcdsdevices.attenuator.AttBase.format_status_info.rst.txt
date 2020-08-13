@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttBase.format\_status\_info
+===================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttBase.format_status_info

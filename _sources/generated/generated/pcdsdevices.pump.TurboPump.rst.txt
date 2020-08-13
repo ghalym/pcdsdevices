@@ -20,6 +20,7 @@ pcdsdevices.pump.TurboPump
       ~TurboPump.describe
       ~TurboPump.describe_configuration
       ~TurboPump.destroy
+      ~TurboPump.format_status_info
       ~TurboPump.get
       ~TurboPump.get_device_tuple
       ~TurboPump.get_instantiated_signals
@@ -30,6 +31,7 @@ pcdsdevices.pump.TurboPump
       ~TurboPump.resume
       ~TurboPump.run
       ~TurboPump.stage
+      ~TurboPump.status_info
       ~TurboPump.stop
       ~TurboPump.subscribe
       ~TurboPump.summary

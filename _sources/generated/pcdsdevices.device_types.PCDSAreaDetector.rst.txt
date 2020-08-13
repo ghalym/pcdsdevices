@@ -1,4 +1,4 @@
-pcdsdevices.device\_types.PCDSAreaDetector
+﻿pcdsdevices.device\_types.PCDSAreaDetector
 ==========================================
 
 .. currentmodule:: pcdsdevices.device_types

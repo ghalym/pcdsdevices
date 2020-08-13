@@ -25,6 +25,7 @@ pcdsdevices.inout.TTReflaser
       ~TTReflaser.describe_configuration
       ~TTReflaser.destroy
       ~TTReflaser.end_monitor_thread
+      ~TTReflaser.format_status_info
       ~TTReflaser.get
       ~TTReflaser.get_device_tuple
       ~TTReflaser.get_instantiated_signals
@@ -40,6 +41,7 @@ pcdsdevices.inout.TTReflaser
       ~TTReflaser.resume
       ~TTReflaser.set
       ~TTReflaser.stage
+      ~TTReflaser.status_info
       ~TTReflaser.stop
       ~TTReflaser.subscribe
       ~TTReflaser.summary

@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.pump.IonPumpBase &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.pump.IonPumpBase &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -146,6 +146,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.describe_configuration.html">pcdsdevices.pump.IonPumpBase.describe_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.destroy.html">pcdsdevices.pump.IonPumpBase.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.egu.html">pcdsdevices.pump.IonPumpBase.egu</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.format_status_info.html">pcdsdevices.pump.IonPumpBase.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.get.html">pcdsdevices.pump.IonPumpBase.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.get_device_tuple.html">pcdsdevices.pump.IonPumpBase.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.get_instantiated_signals.html">pcdsdevices.pump.IonPumpBase.get_instantiated_signals</a></li>
@@ -159,6 +160,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.read_configuration.html">pcdsdevices.pump.IonPumpBase.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.resume.html">pcdsdevices.pump.IonPumpBase.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.stage.html">pcdsdevices.pump.IonPumpBase.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.status_info.html">pcdsdevices.pump.IonPumpBase.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.stop.html">pcdsdevices.pump.IonPumpBase.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.subscribe.html">pcdsdevices.pump.IonPumpBase.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.summary.html">pcdsdevices.pump.IonPumpBase.summary</a></li>
@@ -272,8 +274,8 @@
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – EPICS base PV for the ion pump.</p></li>
-<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Name to refer to the ion pump.</p></li>
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – EPICS base PV for the ion pump.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Name to refer to the ion pump.</p></li>
 </ul>
 </dd>
 </dl>
@@ -311,44 +313,50 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.egu.html#pcdsdevices.pump.IonPumpBase.egu" title="pcdsdevices.pump.IonPumpBase.egu"><code class="xref py py-obj docutils literal notranslate"><span class="pre">egu</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.get.html#pcdsdevices.pump.IonPumpBase.get" title="pcdsdevices.pump.IonPumpBase.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.format_status_info.html#pcdsdevices.pump.IonPumpBase.format_status_info" title="pcdsdevices.pump.IonPumpBase.format_status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">format_status_info</span></code></a>(status_info)</p></td>
+<td><p>Entry point for the mini status displays in the ipython terminal.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.get.html#pcdsdevices.pump.IonPumpBase.get" title="pcdsdevices.pump.IonPumpBase.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.get_device_tuple.html#pcdsdevices.pump.IonPumpBase.get_device_tuple" title="pcdsdevices.pump.IonPumpBase.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.get_device_tuple.html#pcdsdevices.pump.IonPumpBase.get_device_tuple" title="pcdsdevices.pump.IonPumpBase.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
 <td><p>The device tuple type associated with an Device class</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.get_instantiated_signals.html#pcdsdevices.pump.IonPumpBase.get_instantiated_signals" title="pcdsdevices.pump.IonPumpBase.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.get_instantiated_signals.html#pcdsdevices.pump.IonPumpBase.get_instantiated_signals" title="pcdsdevices.pump.IonPumpBase.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.info.html#pcdsdevices.pump.IonPumpBase.info" title="pcdsdevices.pump.IonPumpBase.info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">info</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.info.html#pcdsdevices.pump.IonPumpBase.info" title="pcdsdevices.pump.IonPumpBase.info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">info</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.off.html#pcdsdevices.pump.IonPumpBase.off" title="pcdsdevices.pump.IonPumpBase.off"><code class="xref py py-obj docutils literal notranslate"><span class="pre">off</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.off.html#pcdsdevices.pump.IonPumpBase.off" title="pcdsdevices.pump.IonPumpBase.off"><code class="xref py py-obj docutils literal notranslate"><span class="pre">off</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.on.html#pcdsdevices.pump.IonPumpBase.on" title="pcdsdevices.pump.IonPumpBase.on"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.on.html#pcdsdevices.pump.IonPumpBase.on" title="pcdsdevices.pump.IonPumpBase.on"><code class="xref py py-obj docutils literal notranslate"><span class="pre">on</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.pause.html#pcdsdevices.pump.IonPumpBase.pause" title="pcdsdevices.pump.IonPumpBase.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.pause.html#pcdsdevices.pump.IonPumpBase.pause" title="pcdsdevices.pump.IonPumpBase.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
 <td><p>Attempt to ‘pause’ the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.pressure.html#pcdsdevices.pump.IonPumpBase.pressure" title="pcdsdevices.pump.IonPumpBase.pressure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pressure</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.pressure.html#pcdsdevices.pump.IonPumpBase.pressure" title="pcdsdevices.pump.IonPumpBase.pressure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pressure</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.put.html#pcdsdevices.pump.IonPumpBase.put" title="pcdsdevices.pump.IonPumpBase.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.put.html#pcdsdevices.pump.IonPumpBase.put" title="pcdsdevices.pump.IonPumpBase.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
 <td><p>Put a value to all components of the device</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.read.html#pcdsdevices.pump.IonPumpBase.read" title="pcdsdevices.pump.IonPumpBase.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.read.html#pcdsdevices.pump.IonPumpBase.read" title="pcdsdevices.pump.IonPumpBase.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
 <td><p>Read data from the device.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.read_configuration.html#pcdsdevices.pump.IonPumpBase.read_configuration" title="pcdsdevices.pump.IonPumpBase.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.read_configuration.html#pcdsdevices.pump.IonPumpBase.read_configuration" title="pcdsdevices.pump.IonPumpBase.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.resume.html#pcdsdevices.pump.IonPumpBase.resume" title="pcdsdevices.pump.IonPumpBase.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.resume.html#pcdsdevices.pump.IonPumpBase.resume" title="pcdsdevices.pump.IonPumpBase.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.stage.html#pcdsdevices.pump.IonPumpBase.stage" title="pcdsdevices.pump.IonPumpBase.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.stage.html#pcdsdevices.pump.IonPumpBase.stage" title="pcdsdevices.pump.IonPumpBase.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
 <td><p>Stage the device for data collection.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.status_info.html#pcdsdevices.pump.IonPumpBase.status_info" title="pcdsdevices.pump.IonPumpBase.status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status_info</span></code></a>()</p></td>
+<td><p>Get useful information for the status display.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pump.IonPumpBase.stop.html#pcdsdevices.pump.IonPumpBase.stop" title="pcdsdevices.pump.IonPumpBase.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>

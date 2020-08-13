@@ -24,6 +24,7 @@ pcdsdevices.ccm.CCMPico
       ~CCMPico.disable
       ~CCMPico.enable
       ~CCMPico.end_monitor_thread
+      ~CCMPico.format_status_info
       ~CCMPico.get
       ~CCMPico.get_device_tuple
       ~CCMPico.get_instantiated_signals
@@ -42,6 +43,7 @@ pcdsdevices.ccm.CCMPico
       ~CCMPico.set_current_position
       ~CCMPico.set_lim
       ~CCMPico.stage
+      ~CCMPico.status_info
       ~CCMPico.stop
       ~CCMPico.subscribe
       ~CCMPico.summary

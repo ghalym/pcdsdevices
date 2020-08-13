@@ -23,6 +23,7 @@ pcdsdevices.ccm.CCMCalc
       ~CCMCalc.describe_configuration
       ~CCMCalc.destroy
       ~CCMCalc.end_monitor_thread
+      ~CCMCalc.format_status_info
       ~CCMCalc.forward
       ~CCMCalc.get
       ~CCMCalc.get_device_tuple
@@ -40,6 +41,7 @@ pcdsdevices.ccm.CCMCalc
       ~CCMCalc.resume
       ~CCMCalc.set
       ~CCMCalc.stage
+      ~CCMCalc.status_info
       ~CCMCalc.stop
       ~CCMCalc.subscribe
       ~CCMCalc.summary

@@ -22,6 +22,7 @@ pcdsdevices.state.StatePositioner
       ~StatePositioner.describe_configuration
       ~StatePositioner.destroy
       ~StatePositioner.end_monitor_thread
+      ~StatePositioner.format_status_info
       ~StatePositioner.get
       ~StatePositioner.get_device_tuple
       ~StatePositioner.get_instantiated_signals
@@ -35,6 +36,7 @@ pcdsdevices.state.StatePositioner
       ~StatePositioner.resume
       ~StatePositioner.set
       ~StatePositioner.stage
+      ~StatePositioner.status_info
       ~StatePositioner.stop
       ~StatePositioner.subscribe
       ~StatePositioner.summary

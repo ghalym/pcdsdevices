@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.gauge.GaugeSetPirani &mdash; PCDS Devices 2.8.0+50.g33ab639 documentation</title>
+  <title>pcdsdevices.gauge.GaugeSetPirani &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+50.g33ab639
+                2.8.0+67.gdddd78f
               </div>
             
           
@@ -138,6 +138,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.describe_configuration.html">pcdsdevices.gauge.GaugeSetPirani.describe_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.destroy.html">pcdsdevices.gauge.GaugeSetPirani.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.egu.html">pcdsdevices.gauge.GaugeSetPirani.egu</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.format_status_info.html">pcdsdevices.gauge.GaugeSetPirani.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.get.html">pcdsdevices.gauge.GaugeSetPirani.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.get_device_tuple.html">pcdsdevices.gauge.GaugeSetPirani.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.get_instantiated_signals.html">pcdsdevices.gauge.GaugeSetPirani.get_instantiated_signals</a></li>
@@ -148,6 +149,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.read_configuration.html">pcdsdevices.gauge.GaugeSetPirani.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.resume.html">pcdsdevices.gauge.GaugeSetPirani.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.stage.html">pcdsdevices.gauge.GaugeSetPirani.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.status_info.html">pcdsdevices.gauge.GaugeSetPirani.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.stop.html">pcdsdevices.gauge.GaugeSetPirani.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.subscribe.html">pcdsdevices.gauge.GaugeSetPirani.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.summary.html">pcdsdevices.gauge.GaugeSetPirani.summary</a></li>
@@ -272,9 +274,9 @@
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Gauge base PV (up to GCC/GPI).</p></li>
-<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Alias for the gauge set.</p></li>
-<li><p><strong>index</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a><em> or </em><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – Index for gauge (e.g. ‘02’ or 3).</p></li>
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Gauge base PV (up to GCC/GPI).</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Alias for the gauge set.</p></li>
+<li><p><strong>index</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a> or <a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – Index for gauge (e.g. ‘02’ or 3).</p></li>
 </ul>
 </dd>
 </dl>
@@ -312,35 +314,41 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.egu.html#pcdsdevices.gauge.GaugeSetPirani.egu" title="pcdsdevices.gauge.GaugeSetPirani.egu"><code class="xref py py-obj docutils literal notranslate"><span class="pre">egu</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.get.html#pcdsdevices.gauge.GaugeSetPirani.get" title="pcdsdevices.gauge.GaugeSetPirani.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.format_status_info.html#pcdsdevices.gauge.GaugeSetPirani.format_status_info" title="pcdsdevices.gauge.GaugeSetPirani.format_status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">format_status_info</span></code></a>(status_info)</p></td>
+<td><p>Entry point for the mini status displays in the ipython terminal.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.get.html#pcdsdevices.gauge.GaugeSetPirani.get" title="pcdsdevices.gauge.GaugeSetPirani.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.get_device_tuple.html#pcdsdevices.gauge.GaugeSetPirani.get_device_tuple" title="pcdsdevices.gauge.GaugeSetPirani.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.get_device_tuple.html#pcdsdevices.gauge.GaugeSetPirani.get_device_tuple" title="pcdsdevices.gauge.GaugeSetPirani.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
 <td><p>The device tuple type associated with an Device class</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.get_instantiated_signals.html#pcdsdevices.gauge.GaugeSetPirani.get_instantiated_signals" title="pcdsdevices.gauge.GaugeSetPirani.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.get_instantiated_signals.html#pcdsdevices.gauge.GaugeSetPirani.get_instantiated_signals" title="pcdsdevices.gauge.GaugeSetPirani.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.pause.html#pcdsdevices.gauge.GaugeSetPirani.pause" title="pcdsdevices.gauge.GaugeSetPirani.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.pause.html#pcdsdevices.gauge.GaugeSetPirani.pause" title="pcdsdevices.gauge.GaugeSetPirani.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
 <td><p>Attempt to ‘pause’ the device.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.pressure.html#pcdsdevices.gauge.GaugeSetPirani.pressure" title="pcdsdevices.gauge.GaugeSetPirani.pressure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pressure</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.pressure.html#pcdsdevices.gauge.GaugeSetPirani.pressure" title="pcdsdevices.gauge.GaugeSetPirani.pressure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pressure</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.put.html#pcdsdevices.gauge.GaugeSetPirani.put" title="pcdsdevices.gauge.GaugeSetPirani.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.put.html#pcdsdevices.gauge.GaugeSetPirani.put" title="pcdsdevices.gauge.GaugeSetPirani.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
 <td><p>Put a value to all components of the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.read.html#pcdsdevices.gauge.GaugeSetPirani.read" title="pcdsdevices.gauge.GaugeSetPirani.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.read.html#pcdsdevices.gauge.GaugeSetPirani.read" title="pcdsdevices.gauge.GaugeSetPirani.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
 <td><p>Read data from the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.read_configuration.html#pcdsdevices.gauge.GaugeSetPirani.read_configuration" title="pcdsdevices.gauge.GaugeSetPirani.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.read_configuration.html#pcdsdevices.gauge.GaugeSetPirani.read_configuration" title="pcdsdevices.gauge.GaugeSetPirani.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.resume.html#pcdsdevices.gauge.GaugeSetPirani.resume" title="pcdsdevices.gauge.GaugeSetPirani.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.resume.html#pcdsdevices.gauge.GaugeSetPirani.resume" title="pcdsdevices.gauge.GaugeSetPirani.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.stage.html#pcdsdevices.gauge.GaugeSetPirani.stage" title="pcdsdevices.gauge.GaugeSetPirani.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.stage.html#pcdsdevices.gauge.GaugeSetPirani.stage" title="pcdsdevices.gauge.GaugeSetPirani.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
 <td><p>Stage the device for data collection.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.status_info.html#pcdsdevices.gauge.GaugeSetPirani.status_info" title="pcdsdevices.gauge.GaugeSetPirani.status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status_info</span></code></a>()</p></td>
+<td><p>Get useful information for the status display.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gauge.GaugeSetPirani.stop.html#pcdsdevices.gauge.GaugeSetPirani.stop" title="pcdsdevices.gauge.GaugeSetPirani.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>

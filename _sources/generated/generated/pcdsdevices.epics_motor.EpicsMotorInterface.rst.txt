@@ -24,6 +24,7 @@ pcdsdevices.epics\_motor.EpicsMotorInterface
       ~EpicsMotorInterface.disable
       ~EpicsMotorInterface.enable
       ~EpicsMotorInterface.end_monitor_thread
+      ~EpicsMotorInterface.format_status_info
       ~EpicsMotorInterface.get
       ~EpicsMotorInterface.get_device_tuple
       ~EpicsMotorInterface.get_instantiated_signals
@@ -42,6 +43,7 @@ pcdsdevices.epics\_motor.EpicsMotorInterface
       ~EpicsMotorInterface.set_current_position
       ~EpicsMotorInterface.set_lim
       ~EpicsMotorInterface.stage
+      ~EpicsMotorInterface.status_info
       ~EpicsMotorInterface.stop
       ~EpicsMotorInterface.subscribe
       ~EpicsMotorInterface.summary

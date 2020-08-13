@@ -25,6 +25,7 @@ pcdsdevices.lodcm.YagLom
       ~YagLom.describe_configuration
       ~YagLom.destroy
       ~YagLom.end_monitor_thread
+      ~YagLom.format_status_info
       ~YagLom.get
       ~YagLom.get_device_tuple
       ~YagLom.get_instantiated_signals
@@ -40,6 +41,7 @@ pcdsdevices.lodcm.YagLom
       ~YagLom.resume
       ~YagLom.set
       ~YagLom.stage
+      ~YagLom.status_info
       ~YagLom.stop
       ~YagLom.subscribe
       ~YagLom.summary

@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Reflaser.status\_info
+===============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Reflaser.status_info

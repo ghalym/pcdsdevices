@@ -1,4 +1,4 @@
-pcdsdevices.device\_types.VonHamos4Crystal
+﻿pcdsdevices.device\_types.VonHamos4Crystal
 ==========================================
 
 .. currentmodule:: pcdsdevices.device_types
@@ -20,6 +20,7 @@ pcdsdevices.device\_types.VonHamos4Crystal
       ~VonHamos4Crystal.describe
       ~VonHamos4Crystal.describe_configuration
       ~VonHamos4Crystal.destroy
+      ~VonHamos4Crystal.format_status_info
       ~VonHamos4Crystal.get
       ~VonHamos4Crystal.get_device_tuple
       ~VonHamos4Crystal.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.device\_types.VonHamos4Crystal
       ~VonHamos4Crystal.read_configuration
       ~VonHamos4Crystal.resume
       ~VonHamos4Crystal.stage
+      ~VonHamos4Crystal.status_info
       ~VonHamos4Crystal.stop
       ~VonHamos4Crystal.subscribe
       ~VonHamos4Crystal.summary

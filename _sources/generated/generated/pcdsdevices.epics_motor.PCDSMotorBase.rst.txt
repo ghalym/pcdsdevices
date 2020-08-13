@@ -24,6 +24,7 @@ pcdsdevices.epics\_motor.PCDSMotorBase
       ~PCDSMotorBase.disable
       ~PCDSMotorBase.enable
       ~PCDSMotorBase.end_monitor_thread
+      ~PCDSMotorBase.format_status_info
       ~PCDSMotorBase.get
       ~PCDSMotorBase.get_device_tuple
       ~PCDSMotorBase.get_instantiated_signals
@@ -46,6 +47,7 @@ pcdsdevices.epics\_motor.PCDSMotorBase
       ~PCDSMotorBase.spg_pause
       ~PCDSMotorBase.spg_stop
       ~PCDSMotorBase.stage
+      ~PCDSMotorBase.status_info
       ~PCDSMotorBase.stop
       ~PCDSMotorBase.subscribe
       ~PCDSMotorBase.summary
