@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.pim.XPIMFilterWheel.move &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
+  <title>pcdsdevices.pim.XPIMFilterWheel.move &mdash; PCDS Devices 2.8.0+69.gb43da71 documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+67.gdddd78f
+                2.8.0+69.gb43da71
               </div>
             
           
@@ -275,15 +275,15 @@
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>position</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a> or <a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – The enumerate state or the corresponding integer.</p></li>
-<li><p><strong>moved_cb</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">callable</span></code>, <em>optional</em>) – Function to call at the end of motion. i.e. <code class="docutils literal notranslate"><span class="pre">moved_cb(obj=self)</span></code>
+<li><p><strong>position</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a><em> or </em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The enumerate state or the corresponding integer.</p></li>
+<li><p><strong>moved_cb</strong> (<em>callable</em><em>, </em><em>optional</em>) – Function to call at the end of motion. i.e. <code class="docutils literal notranslate"><span class="pre">moved_cb(obj=self)</span></code>
 will be called when move is complete.</p></li>
-<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a> or <a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">float</span></code></a>, <em>optional</em>) – Move timeout in seconds.</p></li>
-<li><p><strong>wait</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>, <em>optional</em>) – If <a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a>, do not return until the motion has completed.</p></li>
+<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a><em> or </em><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a><em>, </em><em>optional</em>) – Move timeout in seconds.</p></li>
+<li><p><strong>wait</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – If <a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a>, do not return until the motion has completed.</p></li>
 </ul>
 </dd>
 <dt class="field-even">Returns</dt>
-<dd class="field-even"><p><strong>status</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">StateStatus</span></code>) – <code class="xref any docutils literal notranslate"><span class="pre">Status</span></code> object that represents the move’s progress.</p>
+<dd class="field-even"><p><strong>status</strong> (<em>StateStatus</em>) – <code class="xref any docutils literal notranslate"><span class="pre">Status</span></code> object that represents the move’s progress.</p>
 </dd>
 </dl>
 </dd></dl>

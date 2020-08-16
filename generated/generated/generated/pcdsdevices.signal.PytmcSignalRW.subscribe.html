@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.signal.PytmcSignalRW.subscribe &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
+  <title>pcdsdevices.signal.PytmcSignalRW.subscribe &mdash; PCDS Devices 2.8.0+69.gb43da71 documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+67.gdddd78f
+                2.8.0+69.gb43da71
               </div>
             
           
@@ -271,7 +271,7 @@ silently ignored.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>callback</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">callable</span></code>) – <p>A callable function (that takes kwargs) to be run when the event is
+<li><p><strong>callback</strong> (<em>callable</em>) – <p>A callable function (that takes kwargs) to be run when the event is
 generated.  The expected signature is</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">cb</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="n">obj</span><span class="p">:</span> <span class="n">OphydObject</span><span class="p">,</span> <span class="n">sub_type</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
 </pre></div>
@@ -279,11 +279,11 @@ generated.  The expected signature is</p>
 <p>The exact args/kwargs passed are whatever are passed to
 <code class="docutils literal notranslate"><span class="pre">_run_subs</span></code></p>
 </p></li>
-<li><p><strong>event_type</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>, <em>optional</em>) – <p>The name of the event to subscribe to (if None, defaults to
+<li><p><strong>event_type</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a><em>, </em><em>optional</em>) – <p>The name of the event to subscribe to (if None, defaults to
 the default sub for the instance - obj._default_sub)</p>
 <p>This maps to the <code class="docutils literal notranslate"><span class="pre">sub_type</span></code> kwargs in <code class="xref any docutils literal notranslate"><span class="pre">_run_subs</span></code></p>
 </p></li>
-<li><p><strong>run</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></a>, <em>optional</em>) – Run the callback now</p></li>
+<li><p><strong>run</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Run the callback now</p></li>
 </ul>
 </dd>
 </dl>
@@ -293,7 +293,7 @@ the default sub for the instance - obj._default_sub)</p>
 </div>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p><strong>cid</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></a>) – id of callback, can be passed to <a class="reference internal" href="pcdsdevices.signal.PytmcSignalRW.unsubscribe.html#pcdsdevices.signal.PytmcSignalRW.unsubscribe" title="pcdsdevices.signal.PytmcSignalRW.unsubscribe"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">unsubscribe</span></code></a> to remove the
+<dd class="field-odd"><p><strong>cid</strong> (<em>int</em>) – id of callback, can be passed to <a class="reference internal" href="pcdsdevices.signal.PytmcSignalRW.unsubscribe.html#pcdsdevices.signal.PytmcSignalRW.unsubscribe" title="pcdsdevices.signal.PytmcSignalRW.unsubscribe"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">unsubscribe</span></code></a> to remove the
 callback</p>
 </dd>
 </dl>

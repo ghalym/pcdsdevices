@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.mps.MPSLimits &mdash; PCDS Devices 2.8.0+67.gdddd78f documentation</title>
+  <title>pcdsdevices.mps.MPSLimits &mdash; PCDS Devices 2.8.0+69.gb43da71 documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.8.0+67.gdddd78f
+                2.8.0+69.gb43da71
               </div>
             
           
@@ -264,9 +264,9 @@ whether or not the beam is allowed through.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Base of the MPS PVs.</p></li>
-<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code></a>) – Name of the MPS combination.</p></li>
-<li><p><strong>logic</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">callable</span></code>) – <p>Determine whether the MPS is faulted based on the state of each limit.
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Base of the MPS PVs.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – Name of the MPS combination.</p></li>
+<li><p><strong>logic</strong> (<em>callable</em>) – <p>Determine whether the MPS is faulted based on the state of each limit.
 The function signature should look like:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">logic</span><span class="p">(</span><span class="n">in_limit</span><span class="p">:</span> <span class="nb">bool</span><span class="p">,</span> <span class="n">out_limit</span><span class="p">:</span> <span class="nb">bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span>
 </pre></div>
