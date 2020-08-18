@@ -74,6 +74,7 @@ pcdsdevices.attenuator.FEESolidAttenuator
       ~FEESolidAttenuator.blade_17
       ~FEESolidAttenuator.blade_18
       ~FEESolidAttenuator.blade_19
+      ~FEESolidAttenuator.calculator
       ~FEESolidAttenuator.component_names
       ~FEESolidAttenuator.configuration_attrs
       ~FEESolidAttenuator.connected
