@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.LookupTablePositioner.add\_instantiation\_callback
+========================================================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: LookupTablePositioner.add_instantiation_callback

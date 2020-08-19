@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.LookupTablePositioner.get\_device\_tuple
+==============================================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: LookupTablePositioner.get_device_tuple
