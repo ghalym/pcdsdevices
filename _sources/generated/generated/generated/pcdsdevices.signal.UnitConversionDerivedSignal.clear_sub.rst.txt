@@ -1,0 +1,6 @@
+pcdsdevices.signal.UnitConversionDerivedSignal.clear\_sub
+=========================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: UnitConversionDerivedSignal.clear_sub

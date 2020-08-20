@@ -1,0 +1,6 @@
+pcdsdevices.signal.UnitConversionDerivedSignal.subscribe
+========================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: UnitConversionDerivedSignal.subscribe

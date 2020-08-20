@@ -1,0 +1,6 @@
+pcdsdevices.signal.UnitConversionDerivedSignal.\_\_init\_\_
+===========================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: UnitConversionDerivedSignal.__init__

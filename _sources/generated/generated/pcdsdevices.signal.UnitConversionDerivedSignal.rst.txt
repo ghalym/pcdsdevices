@@ -1,0 +1,67 @@
+pcdsdevices.signal.UnitConversionDerivedSignal
+==============================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. autoclass:: UnitConversionDerivedSignal
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~UnitConversionDerivedSignal.__init__
+      ~UnitConversionDerivedSignal.add_instantiation_callback
+      ~UnitConversionDerivedSignal.check_value
+      ~UnitConversionDerivedSignal.clear_sub
+      ~UnitConversionDerivedSignal.describe
+      ~UnitConversionDerivedSignal.describe_configuration
+      ~UnitConversionDerivedSignal.destroy
+      ~UnitConversionDerivedSignal.forward
+      ~UnitConversionDerivedSignal.get
+      ~UnitConversionDerivedSignal.inverse
+      ~UnitConversionDerivedSignal.put
+      ~UnitConversionDerivedSignal.read
+      ~UnitConversionDerivedSignal.read_configuration
+      ~UnitConversionDerivedSignal.set
+      ~UnitConversionDerivedSignal.subscribe
+      ~UnitConversionDerivedSignal.trigger
+      ~UnitConversionDerivedSignal.unsubscribe
+      ~UnitConversionDerivedSignal.unsubscribe_all
+      ~UnitConversionDerivedSignal.wait_for_connection
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~UnitConversionDerivedSignal.SUB_META
+      ~UnitConversionDerivedSignal.SUB_VALUE
+      ~UnitConversionDerivedSignal.attr_name
+      ~UnitConversionDerivedSignal.connected
+      ~UnitConversionDerivedSignal.derived_from
+      ~UnitConversionDerivedSignal.dotted_name
+      ~UnitConversionDerivedSignal.event_types
+      ~UnitConversionDerivedSignal.high_limit
+      ~UnitConversionDerivedSignal.hints
+      ~UnitConversionDerivedSignal.kind
+      ~UnitConversionDerivedSignal.limits
+      ~UnitConversionDerivedSignal.low_limit
+      ~UnitConversionDerivedSignal.metadata
+      ~UnitConversionDerivedSignal.metadata_keys
+      ~UnitConversionDerivedSignal.name
+      ~UnitConversionDerivedSignal.parent
+      ~UnitConversionDerivedSignal.read_access
+      ~UnitConversionDerivedSignal.report
+      ~UnitConversionDerivedSignal.root
+      ~UnitConversionDerivedSignal.timestamp
+      ~UnitConversionDerivedSignal.tolerance
+      ~UnitConversionDerivedSignal.value
+      ~UnitConversionDerivedSignal.write_access
+   
+   
