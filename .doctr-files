@@ -8399,6 +8399,10 @@
 ./_sources/sample_delivery.rst.txt
 ./_sources/sim_types.rst.txt
 ./_sources/tab.rst.txt
+./_sources/upcoming_changes.rst.txt
+./_sources/upcoming_release_notes/0523-dev-notes-conventions.rst.txt
+./_sources/upcoming_release_notes/template-full.rst.txt
+./_sources/upcoming_release_notes/template-short.rst.txt
 ./_static/basic.css
 ./_static/css/badge_only.css
 ./_static/css/fonts/Roboto-Slab-Bold.woff
@@ -16841,3 +16845,7 @@
 ./searchindex.js
 ./sim_types.html
 ./tab.html
+./upcoming_changes.html
+./upcoming_release_notes/0523-dev-notes-conventions.html
+./upcoming_release_notes/template-full.html
+./upcoming_release_notes/template-short.html
