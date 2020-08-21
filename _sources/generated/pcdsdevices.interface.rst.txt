@@ -14,6 +14,7 @@
       get_engineering_mode
       get_kind
       get_name
+      get_units
       get_value
       ophydobj_info
       set_engineering_mode

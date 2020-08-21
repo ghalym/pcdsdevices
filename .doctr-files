@@ -7971,6 +7971,7 @@
 ./_sources/generated/generated/pcdsdevices.interface.get_engineering_mode.rst.txt
 ./_sources/generated/generated/pcdsdevices.interface.get_kind.rst.txt
 ./_sources/generated/generated/pcdsdevices.interface.get_name.rst.txt
+./_sources/generated/generated/pcdsdevices.interface.get_units.rst.txt
 ./_sources/generated/generated/pcdsdevices.interface.get_value.rst.txt
 ./_sources/generated/generated/pcdsdevices.interface.ophydobj_info.rst.txt
 ./_sources/generated/generated/pcdsdevices.interface.set_engineering_mode.rst.txt
@@ -16361,6 +16362,7 @@
 ./generated/generated/pcdsdevices.interface.get_engineering_mode.html
 ./generated/generated/pcdsdevices.interface.get_kind.html
 ./generated/generated/pcdsdevices.interface.get_name.html
+./generated/generated/pcdsdevices.interface.get_units.html
 ./generated/generated/pcdsdevices.interface.get_value.html
 ./generated/generated/pcdsdevices.interface.ophydobj_info.html
 ./generated/generated/pcdsdevices.interface.set_engineering_mode.html
