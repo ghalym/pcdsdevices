@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.BeamEnergyRequest.done\_comparator
+==========================================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: BeamEnergyRequest.done_comparator

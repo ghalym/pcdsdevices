@@ -84,6 +84,8 @@ pcdsdevices.ccm.CCMCalc
       ~CCMCalc.dotted_name
       ~CCMCalc.egu
       ~CCMCalc.energy
+      ~CCMCalc.energy_request
+      ~CCMCalc.energy_with_vernier
       ~CCMCalc.event_types
       ~CCMCalc.high_limit
       ~CCMCalc.hints

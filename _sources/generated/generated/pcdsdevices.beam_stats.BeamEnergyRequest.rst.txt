@@ -1,0 +1,110 @@
+pcdsdevices.beam\_stats.BeamEnergyRequest
+=========================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. autoclass:: BeamEnergyRequest
+
+   
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree: generated
+   
+      ~BeamEnergyRequest.__init__
+      ~BeamEnergyRequest.add_instantiation_callback
+      ~BeamEnergyRequest.camonitor
+      ~BeamEnergyRequest.check_value
+      ~BeamEnergyRequest.clear_sub
+      ~BeamEnergyRequest.configure
+      ~BeamEnergyRequest.describe
+      ~BeamEnergyRequest.describe_configuration
+      ~BeamEnergyRequest.destroy
+      ~BeamEnergyRequest.done_comparator
+      ~BeamEnergyRequest.end_monitor_thread
+      ~BeamEnergyRequest.format_status_info
+      ~BeamEnergyRequest.get
+      ~BeamEnergyRequest.get_device_tuple
+      ~BeamEnergyRequest.get_instantiated_signals
+      ~BeamEnergyRequest.move
+      ~BeamEnergyRequest.mv
+      ~BeamEnergyRequest.mv_ginput
+      ~BeamEnergyRequest.mvr
+      ~BeamEnergyRequest.pause
+      ~BeamEnergyRequest.put
+      ~BeamEnergyRequest.read
+      ~BeamEnergyRequest.read_configuration
+      ~BeamEnergyRequest.resume
+      ~BeamEnergyRequest.set
+      ~BeamEnergyRequest.stage
+      ~BeamEnergyRequest.status_info
+      ~BeamEnergyRequest.stop
+      ~BeamEnergyRequest.subscribe
+      ~BeamEnergyRequest.summary
+      ~BeamEnergyRequest.trigger
+      ~BeamEnergyRequest.tweak
+      ~BeamEnergyRequest.umv
+      ~BeamEnergyRequest.umvr
+      ~BeamEnergyRequest.unstage
+      ~BeamEnergyRequest.unsubscribe
+      ~BeamEnergyRequest.unsubscribe_all
+      ~BeamEnergyRequest.wait_for_connection
+      ~BeamEnergyRequest.walk_components
+      ~BeamEnergyRequest.walk_signals
+      ~BeamEnergyRequest.walk_subdevice_classes
+      ~BeamEnergyRequest.walk_subdevices
+      ~BeamEnergyRequest.wm
+      ~BeamEnergyRequest.wm_update
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~BeamEnergyRequest.SUB_ACQ_DONE
+      ~BeamEnergyRequest.SUB_DONE
+      ~BeamEnergyRequest.SUB_READBACK
+      ~BeamEnergyRequest.SUB_START
+      ~BeamEnergyRequest.actuate
+      ~BeamEnergyRequest.actuate_value
+      ~BeamEnergyRequest.atol
+      ~BeamEnergyRequest.attr_name
+      ~BeamEnergyRequest.component_names
+      ~BeamEnergyRequest.configuration_attrs
+      ~BeamEnergyRequest.connected
+      ~BeamEnergyRequest.done
+      ~BeamEnergyRequest.done_value
+      ~BeamEnergyRequest.dotted_name
+      ~BeamEnergyRequest.egu
+      ~BeamEnergyRequest.event_types
+      ~BeamEnergyRequest.high_limit
+      ~BeamEnergyRequest.hints
+      ~BeamEnergyRequest.kind
+      ~BeamEnergyRequest.lazy_wait_for_connection
+      ~BeamEnergyRequest.limits
+      ~BeamEnergyRequest.low_limit
+      ~BeamEnergyRequest.moving
+      ~BeamEnergyRequest.name
+      ~BeamEnergyRequest.parent
+      ~BeamEnergyRequest.position
+      ~BeamEnergyRequest.presets
+      ~BeamEnergyRequest.put_complete
+      ~BeamEnergyRequest.read_attrs
+      ~BeamEnergyRequest.readback
+      ~BeamEnergyRequest.report
+      ~BeamEnergyRequest.root
+      ~BeamEnergyRequest.rtol
+      ~BeamEnergyRequest.setpoint
+      ~BeamEnergyRequest.settle_time
+      ~BeamEnergyRequest.signal_names
+      ~BeamEnergyRequest.stop_signal
+      ~BeamEnergyRequest.stop_value
+      ~BeamEnergyRequest.tab_whitelist
+      ~BeamEnergyRequest.timeout
+      ~BeamEnergyRequest.trigger_signals
+   
+   

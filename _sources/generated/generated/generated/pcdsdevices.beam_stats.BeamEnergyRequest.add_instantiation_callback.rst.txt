@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.BeamEnergyRequest.add\_instantiation\_callback
+======================================================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: BeamEnergyRequest.add_instantiation_callback

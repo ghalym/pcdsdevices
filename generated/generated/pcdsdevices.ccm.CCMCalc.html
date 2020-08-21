@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ccm.CCMCalc &mdash; PCDS Devices 2.9.0+25.g46c4f23 documentation</title>
+  <title>pcdsdevices.ccm.CCMCalc &mdash; PCDS Devices 2.9.0+39.g3129d16 documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.9.0+25.g46c4f23
+                2.9.0+39.g3129d16
               </div>
             
           
@@ -279,7 +279,7 @@
 <h1>pcdsdevices.ccm.CCMCalc<a class="headerlink" href="#pcdsdevices-ccm-ccmcalc" title="Permalink to this headline">¶</a></h1>
 <dl class="py class">
 <dt id="pcdsdevices.ccm.CCMCalc">
-<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.ccm.</code><code class="sig-name descname">CCMCalc</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="n">theta0</span><span class="o">=</span><span class="default_value">0.26143635931473463</span></em>, <em class="sig-param"><span class="n">dspacing</span><span class="o">=</span><span class="default_value">3.1356011499587773</span></em>, <em class="sig-param"><span class="n">gr</span><span class="o">=</span><span class="default_value">3.175</span></em>, <em class="sig-param"><span class="n">gd</span><span class="o">=</span><span class="default_value">231.303</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.ccm.CCMCalc" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.ccm.</code><code class="sig-name descname">CCMCalc</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prefix</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="n">theta0</span><span class="o">=</span><span class="default_value">0.26143635931473463</span></em>, <em class="sig-param"><span class="n">dspacing</span><span class="o">=</span><span class="default_value">3.1356011499587773</span></em>, <em class="sig-param"><span class="n">gr</span><span class="o">=</span><span class="default_value">3.175</span></em>, <em class="sig-param"><span class="n">gd</span><span class="o">=</span><span class="default_value">231.303</span></em>, <em class="sig-param"><span class="n">hutch</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.ccm.CCMCalc" title="Permalink to this definition">¶</a></dt>
 <dd><p>CCM calculation motors to move in terms of physics quantities.</p>
 <p>All new parameters are scientific constants, and the current docstring
 writer is not familiar with all of them, so I will omit the full
@@ -291,7 +291,7 @@ description instead of giving a partial and possibly incorrect summary.</p>
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMCalc.__init__.html#pcdsdevices.ccm.CCMCalc.__init__" title="pcdsdevices.ccm.CCMCalc.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(*args[, theta0, dspacing, gr, gd])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMCalc.__init__.html#pcdsdevices.ccm.CCMCalc.__init__" title="pcdsdevices.ccm.CCMCalc.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(prefix, *args[, theta0, dspacing, …])</p></td>
 <td><p>Initialize self.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMCalc.add_instantiation_callback.html#pcdsdevices.ccm.CCMCalc.add_instantiation_callback" title="pcdsdevices.ccm.CCMCalc.add_instantiation_callback"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_instantiation_callback</span></code></a>(callback[, …])</p></td>
@@ -328,7 +328,7 @@ description instead of giving a partial and possibly incorrect summary.</p>
 <td><p>Entry point for the mini status displays in the ipython terminal.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMCalc.forward.html#pcdsdevices.ccm.CCMCalc.forward" title="pcdsdevices.ccm.CCMCalc.forward"><code class="xref py py-obj docutils literal notranslate"><span class="pre">forward</span></code></a>(pseudo_pos)</p></td>
-<td><p>Take energy, wavelength, or theta and map to alio.</p></td>
+<td><p>Take energy, wavelength, theta, or energy_with_vernier and map to alio and energy_request.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMCalc.get.html#pcdsdevices.ccm.CCMCalc.get" title="pcdsdevices.ccm.CCMCalc.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
@@ -487,6 +487,12 @@ description instead of giving a partial and possibly incorrect summary.</p>
 <td><p>The engineering units (EGU) for positions</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">energy</span></code></p></td>
+<td><p>A descriptor representing a device component (or signal)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">energy_request</span></code></p></td>
+<td><p>A Component which takes a dynamic format string</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">energy_with_vernier</span></code></p></td>
 <td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">event_types</span></code></p></td>

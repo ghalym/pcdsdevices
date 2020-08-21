@@ -21,6 +21,7 @@ pcdsdevices.ccm.CCMMotor
       ~CCMMotor.describe
       ~CCMMotor.describe_configuration
       ~CCMMotor.destroy
+      ~CCMMotor.done_comparator
       ~CCMMotor.end_monitor_thread
       ~CCMMotor.format_status_info
       ~CCMMotor.get
@@ -70,6 +71,7 @@ pcdsdevices.ccm.CCMMotor
       ~CCMMotor.SUB_START
       ~CCMMotor.actuate
       ~CCMMotor.actuate_value
+      ~CCMMotor.atol
       ~CCMMotor.attr_name
       ~CCMMotor.component_names
       ~CCMMotor.configuration_attrs
@@ -95,6 +97,7 @@ pcdsdevices.ccm.CCMMotor
       ~CCMMotor.readback
       ~CCMMotor.report
       ~CCMMotor.root
+      ~CCMMotor.rtol
       ~CCMMotor.setpoint
       ~CCMMotor.settle_time
       ~CCMMotor.signal_names
