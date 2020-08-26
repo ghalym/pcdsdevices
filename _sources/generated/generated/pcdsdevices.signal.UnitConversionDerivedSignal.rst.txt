@@ -61,6 +61,7 @@ pcdsdevices.signal.UnitConversionDerivedSignal
       ~UnitConversionDerivedSignal.root
       ~UnitConversionDerivedSignal.timestamp
       ~UnitConversionDerivedSignal.tolerance
+      ~UnitConversionDerivedSignal.user_offset
       ~UnitConversionDerivedSignal.value
       ~UnitConversionDerivedSignal.write_access
    
