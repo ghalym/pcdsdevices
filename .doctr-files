@@ -8401,6 +8401,7 @@
 ./_sources/tab.rst.txt
 ./_sources/upcoming_changes.rst.txt
 ./_sources/upcoming_release_notes/0523-dev-notes-conventions.rst.txt
+./_sources/upcoming_release_notes/0529-mv-info.rst.txt
 ./_sources/upcoming_release_notes/template-full.rst.txt
 ./_sources/upcoming_release_notes/template-short.rst.txt
 ./_static/basic.css
@@ -16847,5 +16848,6 @@
 ./tab.html
 ./upcoming_changes.html
 ./upcoming_release_notes/0523-dev-notes-conventions.html
+./upcoming_release_notes/0529-mv-info.html
 ./upcoming_release_notes/template-full.html
 ./upcoming_release_notes/template-short.html
