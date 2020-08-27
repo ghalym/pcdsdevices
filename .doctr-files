@@ -528,7 +528,6 @@
 ./_sources/generated/generated/generated/pcdsdevices.beam_stats.BeamEnergyRequest.describe.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.beam_stats.BeamEnergyRequest.describe_configuration.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.beam_stats.BeamEnergyRequest.destroy.rst.txt
-./_sources/generated/generated/generated/pcdsdevices.beam_stats.BeamEnergyRequest.done_comparator.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.beam_stats.BeamEnergyRequest.end_monitor_thread.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.beam_stats.BeamEnergyRequest.format_status_info.rst.txt
 ./_sources/generated/generated/generated/pcdsdevices.beam_stats.BeamEnergyRequest.get.rst.txt
@@ -8389,6 +8388,7 @@
 ./_sources/upcoming_release_notes/532-lxt_hinted.rst.txt
 ./_sources/upcoming_release_notes/536-limit-overrides.rst.txt
 ./_sources/upcoming_release_notes/537-tab-completion-and-inheritance.rst.txt
+./_sources/upcoming_release_notes/546-beam-req.rst.txt
 ./_sources/upcoming_release_notes/template-full.rst.txt
 ./_sources/upcoming_release_notes/template-short.rst.txt
 ./_static/basic.css
@@ -8957,7 +8957,6 @@
 ./generated/generated/generated/pcdsdevices.beam_stats.BeamEnergyRequest.describe.html
 ./generated/generated/generated/pcdsdevices.beam_stats.BeamEnergyRequest.describe_configuration.html
 ./generated/generated/generated/pcdsdevices.beam_stats.BeamEnergyRequest.destroy.html
-./generated/generated/generated/pcdsdevices.beam_stats.BeamEnergyRequest.done_comparator.html
 ./generated/generated/generated/pcdsdevices.beam_stats.BeamEnergyRequest.end_monitor_thread.html
 ./generated/generated/generated/pcdsdevices.beam_stats.BeamEnergyRequest.format_status_info.html
 ./generated/generated/generated/pcdsdevices.beam_stats.BeamEnergyRequest.get.html
@@ -16823,5 +16822,6 @@
 ./upcoming_release_notes/532-lxt_hinted.html
 ./upcoming_release_notes/536-limit-overrides.html
 ./upcoming_release_notes/537-tab-completion-and-inheritance.html
+./upcoming_release_notes/546-beam-req.html
 ./upcoming_release_notes/template-full.html
 ./upcoming_release_notes/template-short.html

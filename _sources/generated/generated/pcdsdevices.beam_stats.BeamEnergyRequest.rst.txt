@@ -21,7 +21,6 @@ pcdsdevices.beam\_stats.BeamEnergyRequest
       ~BeamEnergyRequest.describe
       ~BeamEnergyRequest.describe_configuration
       ~BeamEnergyRequest.destroy
-      ~BeamEnergyRequest.done_comparator
       ~BeamEnergyRequest.end_monitor_thread
       ~BeamEnergyRequest.format_status_info
       ~BeamEnergyRequest.get
@@ -97,7 +96,6 @@ pcdsdevices.beam\_stats.BeamEnergyRequest
       ~BeamEnergyRequest.readback
       ~BeamEnergyRequest.report
       ~BeamEnergyRequest.root
-      ~BeamEnergyRequest.rtol
       ~BeamEnergyRequest.setpoint
       ~BeamEnergyRequest.settle_time
       ~BeamEnergyRequest.signal_names
