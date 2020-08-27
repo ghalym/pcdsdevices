@@ -13,23 +13,16 @@ pcdsdevices.interface.FltMvInterface
       :toctree: generated
    
       ~FltMvInterface.__init__
-      ~FltMvInterface.add_instantiation_callback
       ~FltMvInterface.camonitor
-      ~FltMvInterface.check_value
-      ~FltMvInterface.clear_sub
-      ~FltMvInterface.destroy
       ~FltMvInterface.end_monitor_thread
       ~FltMvInterface.format_status_info
       ~FltMvInterface.mv
       ~FltMvInterface.mv_ginput
       ~FltMvInterface.mvr
       ~FltMvInterface.status_info
-      ~FltMvInterface.subscribe
       ~FltMvInterface.tweak
       ~FltMvInterface.umv
       ~FltMvInterface.umvr
-      ~FltMvInterface.unsubscribe
-      ~FltMvInterface.unsubscribe_all
       ~FltMvInterface.wm
       ~FltMvInterface.wm_update
    
@@ -41,16 +34,7 @@ pcdsdevices.interface.FltMvInterface
 
    .. autosummary::
    
-      ~FltMvInterface.attr_name
-      ~FltMvInterface.connected
-      ~FltMvInterface.dotted_name
-      ~FltMvInterface.event_types
-      ~FltMvInterface.kind
-      ~FltMvInterface.name
-      ~FltMvInterface.parent
       ~FltMvInterface.presets
-      ~FltMvInterface.report
-      ~FltMvInterface.root
       ~FltMvInterface.tab_whitelist
    
    

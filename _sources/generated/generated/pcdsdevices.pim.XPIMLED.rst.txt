@@ -20,6 +20,7 @@ pcdsdevices.pim.XPIMLED
       ~XPIMLED.describe
       ~XPIMLED.describe_configuration
       ~XPIMLED.destroy
+      ~XPIMLED.format_status_info
       ~XPIMLED.get
       ~XPIMLED.get_device_tuple
       ~XPIMLED.get_instantiated_signals
@@ -29,6 +30,7 @@ pcdsdevices.pim.XPIMLED
       ~XPIMLED.read_configuration
       ~XPIMLED.resume
       ~XPIMLED.stage
+      ~XPIMLED.status_info
       ~XPIMLED.stop
       ~XPIMLED.subscribe
       ~XPIMLED.summary
@@ -70,6 +72,7 @@ pcdsdevices.pim.XPIMLED
       ~XPIMLED.root
       ~XPIMLED.signal_names
       ~XPIMLED.tab_component_names
+      ~XPIMLED.tab_whitelist
       ~XPIMLED.time_remaining
       ~XPIMLED.trigger_signals
    

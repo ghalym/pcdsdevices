@@ -13,18 +13,11 @@ pcdsdevices.interface.MvInterface
       :toctree: generated
    
       ~MvInterface.__init__
-      ~MvInterface.add_instantiation_callback
       ~MvInterface.camonitor
-      ~MvInterface.check_value
-      ~MvInterface.clear_sub
-      ~MvInterface.destroy
       ~MvInterface.end_monitor_thread
       ~MvInterface.format_status_info
       ~MvInterface.mv
       ~MvInterface.status_info
-      ~MvInterface.subscribe
-      ~MvInterface.unsubscribe
-      ~MvInterface.unsubscribe_all
       ~MvInterface.wm
       ~MvInterface.wm_update
    
@@ -36,15 +29,6 @@ pcdsdevices.interface.MvInterface
 
    .. autosummary::
    
-      ~MvInterface.attr_name
-      ~MvInterface.connected
-      ~MvInterface.dotted_name
-      ~MvInterface.event_types
-      ~MvInterface.kind
-      ~MvInterface.name
-      ~MvInterface.parent
-      ~MvInterface.report
-      ~MvInterface.root
       ~MvInterface.tab_whitelist
    
    

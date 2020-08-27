@@ -1,6 +1,0 @@
-pcdsdevices.interface.BaseInterface.destroy
-===========================================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. automethod:: BaseInterface.destroy

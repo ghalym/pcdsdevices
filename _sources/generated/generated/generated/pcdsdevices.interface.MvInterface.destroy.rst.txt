@@ -1,6 +1,0 @@
-pcdsdevices.interface.MvInterface.destroy
-=========================================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. automethod:: MvInterface.destroy

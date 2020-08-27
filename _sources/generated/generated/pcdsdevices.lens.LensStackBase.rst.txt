@@ -26,6 +26,7 @@ pcdsdevices.lens.LensStackBase
       ~LensStackBase.describe
       ~LensStackBase.describe_configuration
       ~LensStackBase.destroy
+      ~LensStackBase.format_status_info
       ~LensStackBase.forward
       ~LensStackBase.get
       ~LensStackBase.get_delta
@@ -41,6 +42,7 @@ pcdsdevices.lens.LensStackBase
       ~LensStackBase.resume
       ~LensStackBase.set
       ~LensStackBase.stage
+      ~LensStackBase.status_info
       ~LensStackBase.stop
       ~LensStackBase.subscribe
       ~LensStackBase.summary

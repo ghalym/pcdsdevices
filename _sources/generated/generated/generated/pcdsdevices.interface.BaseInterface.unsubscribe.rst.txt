@@ -1,6 +1,0 @@
-pcdsdevices.interface.BaseInterface.unsubscribe
-===============================================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. automethod:: BaseInterface.unsubscribe

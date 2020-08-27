@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.pim.XPIMLED &mdash; PCDS Devices 2.10.0+24.g1661d06 documentation</title>
+  <title>pcdsdevices.pim.XPIMLED &mdash; PCDS Devices 2.10.0+32.gdc9237c documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.10.0+24.g1661d06
+                2.10.0+32.gdc9237c
               </div>
             
           
@@ -147,6 +147,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.describe.html">pcdsdevices.pim.XPIMLED.describe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.describe_configuration.html">pcdsdevices.pim.XPIMLED.describe_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.destroy.html">pcdsdevices.pim.XPIMLED.destroy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.format_status_info.html">pcdsdevices.pim.XPIMLED.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.get.html">pcdsdevices.pim.XPIMLED.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.get_device_tuple.html">pcdsdevices.pim.XPIMLED.get_device_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.get_instantiated_signals.html">pcdsdevices.pim.XPIMLED.get_instantiated_signals</a></li>
@@ -156,6 +157,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.read_configuration.html">pcdsdevices.pim.XPIMLED.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.resume.html">pcdsdevices.pim.XPIMLED.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.stage.html">pcdsdevices.pim.XPIMLED.stage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.status_info.html">pcdsdevices.pim.XPIMLED.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.stop.html">pcdsdevices.pim.XPIMLED.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.subscribe.html">pcdsdevices.pim.XPIMLED.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.summary.html">pcdsdevices.pim.XPIMLED.summary</a></li>
@@ -304,32 +306,38 @@ useful. Disable this if the state configuration is wrong.</p>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.destroy.html#pcdsdevices.pim.XPIMLED.destroy" title="pcdsdevices.pim.XPIMLED.destroy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">destroy</span></code></a>()</p></td>
 <td><p>Disconnect and destroy all signals on the Device</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.get.html#pcdsdevices.pim.XPIMLED.get" title="pcdsdevices.pim.XPIMLED.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.format_status_info.html#pcdsdevices.pim.XPIMLED.format_status_info" title="pcdsdevices.pim.XPIMLED.format_status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">format_status_info</span></code></a>(status_info)</p></td>
+<td><p>Entry point for the mini status displays in the ipython terminal.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.get.html#pcdsdevices.pim.XPIMLED.get" title="pcdsdevices.pim.XPIMLED.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.get_device_tuple.html#pcdsdevices.pim.XPIMLED.get_device_tuple" title="pcdsdevices.pim.XPIMLED.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.get_device_tuple.html#pcdsdevices.pim.XPIMLED.get_device_tuple" title="pcdsdevices.pim.XPIMLED.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
 <td><p>The device tuple type associated with an Device class</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.get_instantiated_signals.html#pcdsdevices.pim.XPIMLED.get_instantiated_signals" title="pcdsdevices.pim.XPIMLED.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.get_instantiated_signals.html#pcdsdevices.pim.XPIMLED.get_instantiated_signals" title="pcdsdevices.pim.XPIMLED.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.pause.html#pcdsdevices.pim.XPIMLED.pause" title="pcdsdevices.pim.XPIMLED.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.pause.html#pcdsdevices.pim.XPIMLED.pause" title="pcdsdevices.pim.XPIMLED.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
 <td><p>Attempt to ‘pause’ the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.put.html#pcdsdevices.pim.XPIMLED.put" title="pcdsdevices.pim.XPIMLED.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.put.html#pcdsdevices.pim.XPIMLED.put" title="pcdsdevices.pim.XPIMLED.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
 <td><p>Put a value to all components of the device</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.read.html#pcdsdevices.pim.XPIMLED.read" title="pcdsdevices.pim.XPIMLED.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.read.html#pcdsdevices.pim.XPIMLED.read" title="pcdsdevices.pim.XPIMLED.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
 <td><p>Read data from the device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.read_configuration.html#pcdsdevices.pim.XPIMLED.read_configuration" title="pcdsdevices.pim.XPIMLED.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.read_configuration.html#pcdsdevices.pim.XPIMLED.read_configuration" title="pcdsdevices.pim.XPIMLED.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.resume.html#pcdsdevices.pim.XPIMLED.resume" title="pcdsdevices.pim.XPIMLED.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.resume.html#pcdsdevices.pim.XPIMLED.resume" title="pcdsdevices.pim.XPIMLED.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
 <td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.stage.html#pcdsdevices.pim.XPIMLED.stage" title="pcdsdevices.pim.XPIMLED.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.stage.html#pcdsdevices.pim.XPIMLED.stage" title="pcdsdevices.pim.XPIMLED.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
 <td><p>Stage the device for data collection.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.status_info.html#pcdsdevices.pim.XPIMLED.status_info" title="pcdsdevices.pim.XPIMLED.status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status_info</span></code></a>()</p></td>
+<td><p>Get useful information for the status display.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.stop.html#pcdsdevices.pim.XPIMLED.stop" title="pcdsdevices.pim.XPIMLED.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
@@ -436,10 +444,13 @@ useful. Disable this if the state configuration is wrong.</p>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tab_component_names</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">time_remaining</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tab_whitelist</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">time_remaining</span></code></p></td>
 <td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
 <td><p></p></td>
 </tr>
 </tbody>

@@ -27,6 +27,7 @@ pcdsdevices.lens.SimLensStack
       ~SimLensStack.describe
       ~SimLensStack.describe_configuration
       ~SimLensStack.destroy
+      ~SimLensStack.format_status_info
       ~SimLensStack.forward
       ~SimLensStack.get
       ~SimLensStack.get_delta
@@ -43,6 +44,7 @@ pcdsdevices.lens.SimLensStack
       ~SimLensStack.resume
       ~SimLensStack.set
       ~SimLensStack.stage
+      ~SimLensStack.status_info
       ~SimLensStack.stop
       ~SimLensStack.subscribe
       ~SimLensStack.summary

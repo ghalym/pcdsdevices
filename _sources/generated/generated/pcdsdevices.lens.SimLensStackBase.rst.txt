@@ -26,6 +26,7 @@ pcdsdevices.lens.SimLensStackBase
       ~SimLensStackBase.describe
       ~SimLensStackBase.describe_configuration
       ~SimLensStackBase.destroy
+      ~SimLensStackBase.format_status_info
       ~SimLensStackBase.forward
       ~SimLensStackBase.get
       ~SimLensStackBase.get_delta
@@ -41,6 +42,7 @@ pcdsdevices.lens.SimLensStackBase
       ~SimLensStackBase.resume
       ~SimLensStackBase.set
       ~SimLensStackBase.stage
+      ~SimLensStackBase.status_info
       ~SimLensStackBase.stop
       ~SimLensStackBase.subscribe
       ~SimLensStackBase.summary

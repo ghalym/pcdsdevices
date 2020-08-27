@@ -1,6 +1,0 @@
-pcdsdevices.interface.MvInterface.unsubscribe\_all
-==================================================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. automethod:: MvInterface.unsubscribe_all

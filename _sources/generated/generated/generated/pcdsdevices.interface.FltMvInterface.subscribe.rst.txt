@@ -1,6 +1,0 @@
-pcdsdevices.interface.FltMvInterface.subscribe
-==============================================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. automethod:: FltMvInterface.subscribe
