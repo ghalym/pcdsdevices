@@ -1,0 +1,6 @@
+pcdsdevices.interface.NullFile.\_\_init\_\_
+===========================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: NullFile.__init__

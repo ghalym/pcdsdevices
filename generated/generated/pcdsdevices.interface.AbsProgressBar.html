@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.interface.AbsProgressBar &mdash; PCDS Devices 2.10.0+44.gec87d60 documentation</title>
+  <title>pcdsdevices.interface.AbsProgressBar &mdash; PCDS Devices 2.10.0+57.g5abf427 documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.10.0+44.gec87d60
+                2.10.0+57.g5abf427
               </div>
             
           
@@ -134,6 +134,8 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.AbsProgressBar.__init__.html">pcdsdevices.interface.AbsProgressBar.__init__</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.AbsProgressBar.clear.html">pcdsdevices.interface.AbsProgressBar.clear</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.AbsProgressBar.draw.html">pcdsdevices.interface.AbsProgressBar.draw</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.AbsProgressBar.manual_update.html">pcdsdevices.interface.AbsProgressBar.manual_update</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.AbsProgressBar.no_more_updates.html">pcdsdevices.interface.AbsProgressBar.no_more_updates</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.AbsProgressBar.update.html">pcdsdevices.interface.AbsProgressBar.update</a></li>
 </ul>
 </li>
@@ -142,6 +144,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.LightpathInOutMixin.html">pcdsdevices.interface.LightpathInOutMixin</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.LightpathMixin.html">pcdsdevices.interface.LightpathMixin</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.MvInterface.html">pcdsdevices.interface.MvInterface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.NullFile.html">pcdsdevices.interface.NullFile</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.PresetPosition.html">pcdsdevices.interface.PresetPosition</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.Presets.html">pcdsdevices.interface.Presets</a></li>
 </ul>
@@ -242,7 +245,7 @@
 <h1>pcdsdevices.interface.AbsProgressBar<a class="headerlink" href="#pcdsdevices-interface-absprogressbar" title="Permalink to this headline">¶</a></h1>
 <dl class="py class">
 <dt id="pcdsdevices.interface.AbsProgressBar">
-<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.interface.</code><code class="sig-name descname">AbsProgressBar</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">status_objs</span></em>, <em class="sig-param"><span class="n">delay_draw</span><span class="o">=</span><span class="default_value">0.2</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.interface.AbsProgressBar" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.interface.</code><code class="sig-name descname">AbsProgressBar</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.interface.AbsProgressBar" title="Permalink to this definition">¶</a></dt>
 <dd><p>Progress bar that displays the absolute position as well.</p>
 <p class="rubric">Methods</p>
 <table class="longtable docutils align-default">
@@ -251,7 +254,7 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.AbsProgressBar.__init__.html#pcdsdevices.interface.AbsProgressBar.__init__" title="pcdsdevices.interface.AbsProgressBar.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(status_objs[, delay_draw])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.AbsProgressBar.__init__.html#pcdsdevices.interface.AbsProgressBar.__init__" title="pcdsdevices.interface.AbsProgressBar.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Represent status objects with a progress bars.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.AbsProgressBar.clear.html#pcdsdevices.interface.AbsProgressBar.clear" title="pcdsdevices.interface.AbsProgressBar.clear"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear</span></code></a>()</p></td>
@@ -259,6 +262,12 @@
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.AbsProgressBar.draw.html#pcdsdevices.interface.AbsProgressBar.draw" title="pcdsdevices.interface.AbsProgressBar.draw"><code class="xref py py-obj docutils literal notranslate"><span class="pre">draw</span></code></a>()</p></td>
 <td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.AbsProgressBar.manual_update.html#pcdsdevices.interface.AbsProgressBar.manual_update" title="pcdsdevices.interface.AbsProgressBar.manual_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">manual_update</span></code></a>()</p></td>
+<td><p>Execute a manual update of the progress bar.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.AbsProgressBar.no_more_updates.html#pcdsdevices.interface.AbsProgressBar.no_more_updates" title="pcdsdevices.interface.AbsProgressBar.no_more_updates"><code class="xref py py-obj docutils literal notranslate"><span class="pre">no_more_updates</span></code></a>()</p></td>
+<td><p>Prevent all future prints from the progress bar.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.AbsProgressBar.update.html#pcdsdevices.interface.AbsProgressBar.update" title="pcdsdevices.interface.AbsProgressBar.update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update</span></code></a>(*args[, name, current])</p></td>
 <td><p></p></td>

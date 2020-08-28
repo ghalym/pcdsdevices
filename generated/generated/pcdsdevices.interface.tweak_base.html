@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.interface.tweak_base &mdash; PCDS Devices 2.10.0+44.gec87d60 documentation</title>
+  <title>pcdsdevices.interface.tweak_base &mdash; PCDS Devices 2.10.0+57.g5abf427 documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.10.0+44.gec87d60
+                2.10.0+57.g5abf427
               </div>
             
           
@@ -136,6 +136,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.LightpathInOutMixin.html">pcdsdevices.interface.LightpathInOutMixin</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.LightpathMixin.html">pcdsdevices.interface.LightpathMixin</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.MvInterface.html">pcdsdevices.interface.MvInterface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.NullFile.html">pcdsdevices.interface.NullFile</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.PresetPosition.html">pcdsdevices.interface.PresetPosition</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.Presets.html">pcdsdevices.interface.Presets</a></li>
 </ul>
@@ -238,11 +239,15 @@
 <dt id="pcdsdevices.interface.tweak_base">
 <code class="sig-prename descclassname">pcdsdevices.interface.</code><code class="sig-name descname">tweak_base</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.interface.tweak_base" title="Permalink to this definition">¶</a></dt>
 <dd><p>Base function to control motors with the arrow keys.</p>
-<p>With one motor, this will use the left and right arrows for the axis and up
-and down arrows for scaling the step size. With two motors, this will use
-left and right for the first axis and up and down for the second axis, with
-shift+arrow used for scaling the step size. The q key quits, as does
-ctrl+c.</p>
+<p>With one motor, you can use the right and left arrow keys to move + and -.
+With two motors, you can also use the up and down arrow keys for the second
+motor.
+Three motor and more are not yet supported.</p>
+<p>The scale for the tweak can be doubled by pressing + and halved by pressing
+-. Shift+up and shift+down can also be used, and the up and down keys will
+also adjust the scaling in one motor mode.</p>
+<p>Ctrl+c will stop an ongoing move during a tweak without exiting the tweak.
+Both q and ctrl+c will quit the tweak between moves.</p>
 </dd></dl>
 
 </div>
