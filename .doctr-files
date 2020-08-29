@@ -8396,6 +8396,7 @@
 ./_sources/upcoming_release_notes/537-tab-completion-and-inheritance.rst.txt
 ./_sources/upcoming_release_notes/546-beam-req.rst.txt
 ./_sources/upcoming_release_notes/553-umv-fixes.rst.txt
+./_sources/upcoming_release_notes/558-slow-ureg.rst.txt
 ./_sources/upcoming_release_notes/template-full.rst.txt
 ./_sources/upcoming_release_notes/template-short.rst.txt
 ./_static/basic.css
@@ -16837,5 +16838,6 @@
 ./upcoming_release_notes/537-tab-completion-and-inheritance.html
 ./upcoming_release_notes/546-beam-req.html
 ./upcoming_release_notes/553-umv-fixes.html
+./upcoming_release_notes/558-slow-ureg.html
 ./upcoming_release_notes/template-full.html
 ./upcoming_release_notes/template-short.html
