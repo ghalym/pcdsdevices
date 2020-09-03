@@ -49,6 +49,7 @@ pcdsdevices.timetool.TimetoolWithNav
       ~TimetoolWithNav.unstage
       ~TimetoolWithNav.unsubscribe
       ~TimetoolWithNav.unsubscribe_all
+      ~TimetoolWithNav.wait
       ~TimetoolWithNav.wait_for_connection
       ~TimetoolWithNav.walk_components
       ~TimetoolWithNav.walk_signals

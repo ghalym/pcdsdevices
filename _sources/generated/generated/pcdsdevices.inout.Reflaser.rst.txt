@@ -49,6 +49,7 @@ pcdsdevices.inout.Reflaser
       ~Reflaser.unstage
       ~Reflaser.unsubscribe
       ~Reflaser.unsubscribe_all
+      ~Reflaser.wait
       ~Reflaser.wait_for_connection
       ~Reflaser.walk_components
       ~Reflaser.walk_signals

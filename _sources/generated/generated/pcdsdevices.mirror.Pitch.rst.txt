@@ -48,6 +48,7 @@ pcdsdevices.mirror.Pitch
       ~Pitch.unstage
       ~Pitch.unsubscribe
       ~Pitch.unsubscribe_all
+      ~Pitch.wait
       ~Pitch.wait_for_connection
       ~Pitch.walk_components
       ~Pitch.walk_signals

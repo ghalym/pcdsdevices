@@ -58,6 +58,7 @@ pcdsdevices.epics\_motor.PCDSMotorBase
       ~PCDSMotorBase.unstage
       ~PCDSMotorBase.unsubscribe
       ~PCDSMotorBase.unsubscribe_all
+      ~PCDSMotorBase.wait
       ~PCDSMotorBase.wait_for_connection
       ~PCDSMotorBase.walk_components
       ~PCDSMotorBase.walk_signals

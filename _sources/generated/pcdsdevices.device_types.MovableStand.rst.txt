@@ -49,6 +49,7 @@
       ~MovableStand.unstage
       ~MovableStand.unsubscribe
       ~MovableStand.unsubscribe_all
+      ~MovableStand.wait
       ~MovableStand.wait_for_connection
       ~MovableStand.walk_components
       ~MovableStand.walk_signals

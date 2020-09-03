@@ -49,6 +49,7 @@ pcdsdevices.attenuator.FeeFilter
       ~FeeFilter.unstage
       ~FeeFilter.unsubscribe
       ~FeeFilter.unsubscribe_all
+      ~FeeFilter.wait
       ~FeeFilter.wait_for_connection
       ~FeeFilter.walk_components
       ~FeeFilter.walk_signals

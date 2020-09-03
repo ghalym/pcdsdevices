@@ -49,6 +49,7 @@ pcdsdevices.lodcm.YagLom
       ~YagLom.unstage
       ~YagLom.unsubscribe
       ~YagLom.unsubscribe_all
+      ~YagLom.wait
       ~YagLom.wait_for_connection
       ~YagLom.walk_components
       ~YagLom.walk_signals

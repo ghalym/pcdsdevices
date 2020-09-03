@@ -49,6 +49,7 @@ pcdsdevices.lodcm.Foil
       ~Foil.unstage
       ~Foil.unsubscribe
       ~Foil.unsubscribe_all
+      ~Foil.wait
       ~Foil.wait_for_connection
       ~Foil.walk_components
       ~Foil.walk_signals

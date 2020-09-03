@@ -49,6 +49,7 @@
       ~PointingMirror.unstage
       ~PointingMirror.unsubscribe
       ~PointingMirror.unsubscribe_all
+      ~PointingMirror.wait
       ~PointingMirror.wait_for_connection
       ~PointingMirror.walk_components
       ~PointingMirror.walk_signals

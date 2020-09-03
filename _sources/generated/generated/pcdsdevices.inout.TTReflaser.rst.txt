@@ -49,6 +49,7 @@ pcdsdevices.inout.TTReflaser
       ~TTReflaser.unstage
       ~TTReflaser.unsubscribe
       ~TTReflaser.unsubscribe_all
+      ~TTReflaser.wait
       ~TTReflaser.wait_for_connection
       ~TTReflaser.walk_components
       ~TTReflaser.walk_signals

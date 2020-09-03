@@ -44,6 +44,7 @@ pcdsdevices.slits.BeckhoffSlits
       ~BeckhoffSlits.unstage
       ~BeckhoffSlits.unsubscribe
       ~BeckhoffSlits.unsubscribe_all
+      ~BeckhoffSlits.wait
       ~BeckhoffSlits.wait_for_connection
       ~BeckhoffSlits.walk_components
       ~BeckhoffSlits.walk_signals

@@ -44,6 +44,7 @@ pcdsdevices.slits.SlitsBase
       ~SlitsBase.unstage
       ~SlitsBase.unsubscribe
       ~SlitsBase.unsubscribe_all
+      ~SlitsBase.wait
       ~SlitsBase.wait_for_connection
       ~SlitsBase.walk_components
       ~SlitsBase.walk_signals

@@ -54,6 +54,7 @@ pcdsdevices.pseudopos.DelayBase
       ~DelayBase.unstage
       ~DelayBase.unsubscribe
       ~DelayBase.unsubscribe_all
+      ~DelayBase.wait
       ~DelayBase.wait_for_connection
       ~DelayBase.walk_components
       ~DelayBase.walk_signals

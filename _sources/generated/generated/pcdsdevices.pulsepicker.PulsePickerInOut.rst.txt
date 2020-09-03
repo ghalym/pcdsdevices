@@ -55,6 +55,7 @@ pcdsdevices.pulsepicker.PulsePickerInOut
       ~PulsePickerInOut.unstage
       ~PulsePickerInOut.unsubscribe
       ~PulsePickerInOut.unsubscribe_all
+      ~PulsePickerInOut.wait
       ~PulsePickerInOut.wait_for_connection
       ~PulsePickerInOut.walk_components
       ~PulsePickerInOut.walk_signals

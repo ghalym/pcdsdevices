@@ -49,6 +49,7 @@ pcdsdevices.inout.InOutPVStatePositioner
       ~InOutPVStatePositioner.unstage
       ~InOutPVStatePositioner.unsubscribe
       ~InOutPVStatePositioner.unsubscribe_all
+      ~InOutPVStatePositioner.wait
       ~InOutPVStatePositioner.wait_for_connection
       ~InOutPVStatePositioner.walk_components
       ~InOutPVStatePositioner.walk_signals

@@ -49,6 +49,7 @@ pcdsdevices.ccm.CCMMotor
       ~CCMMotor.unstage
       ~CCMMotor.unsubscribe
       ~CCMMotor.unsubscribe_all
+      ~CCMMotor.wait
       ~CCMMotor.wait_for_connection
       ~CCMMotor.walk_components
       ~CCMMotor.walk_signals

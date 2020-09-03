@@ -44,6 +44,7 @@ pcdsdevices.state.StatePositioner
       ~StatePositioner.unstage
       ~StatePositioner.unsubscribe
       ~StatePositioner.unsubscribe_all
+      ~StatePositioner.wait
       ~StatePositioner.wait_for_connection
       ~StatePositioner.walk_components
       ~StatePositioner.walk_signals

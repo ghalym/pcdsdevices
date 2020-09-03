@@ -49,6 +49,7 @@ pcdsdevices.ipm.IPMTarget
       ~IPMTarget.unstage
       ~IPMTarget.unsubscribe
       ~IPMTarget.unsubscribe_all
+      ~IPMTarget.wait
       ~IPMTarget.wait_for_connection
       ~IPMTarget.walk_components
       ~IPMTarget.walk_signals

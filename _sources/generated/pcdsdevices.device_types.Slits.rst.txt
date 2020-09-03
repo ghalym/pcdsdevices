@@ -47,6 +47,7 @@
       ~Slits.unstage
       ~Slits.unsubscribe
       ~Slits.unsubscribe_all
+      ~Slits.wait
       ~Slits.wait_for_connection
       ~Slits.walk_components
       ~Slits.walk_signals

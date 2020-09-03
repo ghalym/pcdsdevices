@@ -49,6 +49,7 @@ pcdsdevices.lodcm.H1N
       ~H1N.unstage
       ~H1N.unsubscribe
       ~H1N.unsubscribe_all
+      ~H1N.wait
       ~H1N.wait_for_connection
       ~H1N.walk_components
       ~H1N.walk_signals

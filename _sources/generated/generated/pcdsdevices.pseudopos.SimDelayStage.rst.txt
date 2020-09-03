@@ -54,6 +54,7 @@ pcdsdevices.pseudopos.SimDelayStage
       ~SimDelayStage.unstage
       ~SimDelayStage.unsubscribe
       ~SimDelayStage.unsubscribe_all
+      ~SimDelayStage.wait
       ~SimDelayStage.wait_for_connection
       ~SimDelayStage.walk_components
       ~SimDelayStage.walk_signals

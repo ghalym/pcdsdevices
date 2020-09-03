@@ -48,6 +48,7 @@ pcdsdevices.sim.FastMotor
       ~FastMotor.unstage
       ~FastMotor.unsubscribe
       ~FastMotor.unsubscribe_all
+      ~FastMotor.wait
       ~FastMotor.wait_for_connection
       ~FastMotor.walk_components
       ~FastMotor.walk_signals

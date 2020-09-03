@@ -44,6 +44,7 @@ pcdsdevices.state.TwinCATStatePositioner
       ~TwinCATStatePositioner.unstage
       ~TwinCATStatePositioner.unsubscribe
       ~TwinCATStatePositioner.unsubscribe_all
+      ~TwinCATStatePositioner.wait
       ~TwinCATStatePositioner.wait_for_connection
       ~TwinCATStatePositioner.walk_components
       ~TwinCATStatePositioner.walk_signals

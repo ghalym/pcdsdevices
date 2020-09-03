@@ -48,6 +48,7 @@
       ~SynMotor.unstage
       ~SynMotor.unsubscribe
       ~SynMotor.unsubscribe_all
+      ~SynMotor.wait
       ~SynMotor.wait_for_connection
       ~SynMotor.walk_components
       ~SynMotor.walk_signals

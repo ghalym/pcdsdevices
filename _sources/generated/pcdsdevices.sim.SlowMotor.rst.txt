@@ -48,6 +48,7 @@
       ~SlowMotor.unstage
       ~SlowMotor.unsubscribe
       ~SlowMotor.unsubscribe_all
+      ~SlowMotor.wait
       ~SlowMotor.wait_for_connection
       ~SlowMotor.walk_components
       ~SlowMotor.walk_signals

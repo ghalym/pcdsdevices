@@ -58,6 +58,7 @@ pcdsdevices.epics\_motor.SmarAct
       ~SmarAct.unstage
       ~SmarAct.unsubscribe
       ~SmarAct.unsubscribe_all
+      ~SmarAct.wait
       ~SmarAct.wait_for_connection
       ~SmarAct.walk_components
       ~SmarAct.walk_signals

@@ -49,6 +49,7 @@ pcdsdevices.pseudopos.PseudoSingleInterface
       ~PseudoSingleInterface.unstage
       ~PseudoSingleInterface.unsubscribe
       ~PseudoSingleInterface.unsubscribe_all
+      ~PseudoSingleInterface.wait
       ~PseudoSingleInterface.wait_for_connection
       ~PseudoSingleInterface.walk_components
       ~PseudoSingleInterface.walk_signals

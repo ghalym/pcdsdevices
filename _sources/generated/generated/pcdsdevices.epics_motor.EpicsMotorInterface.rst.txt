@@ -54,6 +54,7 @@ pcdsdevices.epics\_motor.EpicsMotorInterface
       ~EpicsMotorInterface.unstage
       ~EpicsMotorInterface.unsubscribe
       ~EpicsMotorInterface.unsubscribe_all
+      ~EpicsMotorInterface.wait
       ~EpicsMotorInterface.wait_for_connection
       ~EpicsMotorInterface.walk_components
       ~EpicsMotorInterface.walk_signals

@@ -55,6 +55,7 @@ pcdsdevices.epics\_motor.BeckhoffAxis
       ~BeckhoffAxis.unstage
       ~BeckhoffAxis.unsubscribe
       ~BeckhoffAxis.unsubscribe_all
+      ~BeckhoffAxis.wait
       ~BeckhoffAxis.wait_for_connection
       ~BeckhoffAxis.walk_components
       ~BeckhoffAxis.walk_signals

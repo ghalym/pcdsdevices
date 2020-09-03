@@ -51,6 +51,7 @@ pcdsdevices.attenuator.AttBase
       ~AttBase.unstage
       ~AttBase.unsubscribe
       ~AttBase.unsubscribe_all
+      ~AttBase.wait
       ~AttBase.wait_for_connection
       ~AttBase.walk_components
       ~AttBase.walk_signals

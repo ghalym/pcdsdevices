@@ -49,6 +49,7 @@ pcdsdevices.pim.PIMY
       ~PIMY.unstage
       ~PIMY.unsubscribe
       ~PIMY.unsubscribe_all
+      ~PIMY.wait
       ~PIMY.wait_for_connection
       ~PIMY.walk_components
       ~PIMY.walk_signals

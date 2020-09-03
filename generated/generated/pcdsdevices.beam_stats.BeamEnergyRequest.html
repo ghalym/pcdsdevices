@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.beam_stats.BeamEnergyRequest &mdash; PCDS Devices 2.10.0+73.geafb6a8 documentation</title>
+  <title>pcdsdevices.beam_stats.BeamEnergyRequest &mdash; PCDS Devices 2.10.0+76.g2a69c65 documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.10.0+73.geafb6a8
+                2.10.0+76.g2a69c65
               </div>
             
           
@@ -145,6 +145,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.beam_stats.BeamEnergyRequest.unstage.html">pcdsdevices.beam_stats.BeamEnergyRequest.unstage</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.beam_stats.BeamEnergyRequest.unsubscribe.html">pcdsdevices.beam_stats.BeamEnergyRequest.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.beam_stats.BeamEnergyRequest.unsubscribe_all.html">pcdsdevices.beam_stats.BeamEnergyRequest.unsubscribe_all</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.beam_stats.BeamEnergyRequest.wait.html">pcdsdevices.beam_stats.BeamEnergyRequest.wait</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.beam_stats.BeamEnergyRequest.wait_for_connection.html">pcdsdevices.beam_stats.BeamEnergyRequest.wait_for_connection</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.beam_stats.BeamEnergyRequest.walk_components.html">pcdsdevices.beam_stats.BeamEnergyRequest.walk_components</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.beam_stats.BeamEnergyRequest.walk_signals.html">pcdsdevices.beam_stats.BeamEnergyRequest.walk_signals</a></li>
@@ -340,7 +341,7 @@ skip moves using the skip_small_moves parameter.</p></li>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.beam_stats.BeamEnergyRequest.get_instantiated_signals.html#pcdsdevices.beam_stats.BeamEnergyRequest.get_instantiated_signals" title="pcdsdevices.beam_stats.BeamEnergyRequest.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
 <td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.beam_stats.BeamEnergyRequest.move.html#pcdsdevices.beam_stats.BeamEnergyRequest.move" title="pcdsdevices.beam_stats.BeamEnergyRequest.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, wait, timeout, moved_cb])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.beam_stats.BeamEnergyRequest.move.html#pcdsdevices.beam_stats.BeamEnergyRequest.move" title="pcdsdevices.beam_stats.BeamEnergyRequest.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Move to a specified position, optionally waiting for motion to complete.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.beam_stats.BeamEnergyRequest.mv.html#pcdsdevices.beam_stats.BeamEnergyRequest.mv" title="pcdsdevices.beam_stats.BeamEnergyRequest.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[, timeout, wait, log])</p></td>
@@ -406,25 +407,28 @@ skip moves using the skip_small_moves parameter.</p></li>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.beam_stats.BeamEnergyRequest.unsubscribe_all.html#pcdsdevices.beam_stats.BeamEnergyRequest.unsubscribe_all" title="pcdsdevices.beam_stats.BeamEnergyRequest.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.beam_stats.BeamEnergyRequest.wait_for_connection.html#pcdsdevices.beam_stats.BeamEnergyRequest.wait_for_connection" title="pcdsdevices.beam_stats.BeamEnergyRequest.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals, timeout])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.beam_stats.BeamEnergyRequest.wait.html#pcdsdevices.beam_stats.BeamEnergyRequest.wait" title="pcdsdevices.beam_stats.BeamEnergyRequest.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.beam_stats.BeamEnergyRequest.wait_for_connection.html#pcdsdevices.beam_stats.BeamEnergyRequest.wait_for_connection" title="pcdsdevices.beam_stats.BeamEnergyRequest.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals, timeout])</p></td>
 <td><p>Wait for signals to connect</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.beam_stats.BeamEnergyRequest.walk_components.html#pcdsdevices.beam_stats.BeamEnergyRequest.walk_components" title="pcdsdevices.beam_stats.BeamEnergyRequest.walk_components"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_components</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.beam_stats.BeamEnergyRequest.walk_components.html#pcdsdevices.beam_stats.BeamEnergyRequest.walk_components" title="pcdsdevices.beam_stats.BeamEnergyRequest.walk_components"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_components</span></code></a>()</p></td>
 <td><p>Walk all components in the Device hierarchy</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.beam_stats.BeamEnergyRequest.walk_signals.html#pcdsdevices.beam_stats.BeamEnergyRequest.walk_signals" title="pcdsdevices.beam_stats.BeamEnergyRequest.walk_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_signals</span></code></a>(*[, include_lazy])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.beam_stats.BeamEnergyRequest.walk_signals.html#pcdsdevices.beam_stats.BeamEnergyRequest.walk_signals" title="pcdsdevices.beam_stats.BeamEnergyRequest.walk_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_signals</span></code></a>(*[, include_lazy])</p></td>
 <td><p>Walk all signals in the Device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.beam_stats.BeamEnergyRequest.walk_subdevice_classes.html#pcdsdevices.beam_stats.BeamEnergyRequest.walk_subdevice_classes" title="pcdsdevices.beam_stats.BeamEnergyRequest.walk_subdevice_classes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevice_classes</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.beam_stats.BeamEnergyRequest.walk_subdevice_classes.html#pcdsdevices.beam_stats.BeamEnergyRequest.walk_subdevice_classes" title="pcdsdevices.beam_stats.BeamEnergyRequest.walk_subdevice_classes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevice_classes</span></code></a>()</p></td>
 <td><p>Walk all sub-Devices classes in the Device hierarchy</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.beam_stats.BeamEnergyRequest.walk_subdevices.html#pcdsdevices.beam_stats.BeamEnergyRequest.walk_subdevices" title="pcdsdevices.beam_stats.BeamEnergyRequest.walk_subdevices"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevices</span></code></a>(*[, include_lazy])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.beam_stats.BeamEnergyRequest.walk_subdevices.html#pcdsdevices.beam_stats.BeamEnergyRequest.walk_subdevices" title="pcdsdevices.beam_stats.BeamEnergyRequest.walk_subdevices"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevices</span></code></a>(*[, include_lazy])</p></td>
 <td><p>Walk all sub-Devices in the hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.beam_stats.BeamEnergyRequest.wm.html#pcdsdevices.beam_stats.BeamEnergyRequest.wm" title="pcdsdevices.beam_stats.BeamEnergyRequest.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.beam_stats.BeamEnergyRequest.wm.html#pcdsdevices.beam_stats.BeamEnergyRequest.wm" title="pcdsdevices.beam_stats.BeamEnergyRequest.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.beam_stats.BeamEnergyRequest.wm_update.html#pcdsdevices.beam_stats.BeamEnergyRequest.wm_update" title="pcdsdevices.beam_stats.BeamEnergyRequest.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.beam_stats.BeamEnergyRequest.wm_update.html#pcdsdevices.beam_stats.BeamEnergyRequest.wm_update" title="pcdsdevices.beam_stats.BeamEnergyRequest.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>

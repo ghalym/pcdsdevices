@@ -51,6 +51,7 @@
       ~GateValve.unstage
       ~GateValve.unsubscribe
       ~GateValve.unsubscribe_all
+      ~GateValve.wait
       ~GateValve.wait_for_connection
       ~GateValve.walk_components
       ~GateValve.walk_signals

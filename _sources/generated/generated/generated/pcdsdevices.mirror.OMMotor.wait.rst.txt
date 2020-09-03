@@ -1,0 +1,6 @@
+pcdsdevices.mirror.OMMotor.wait
+===============================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: OMMotor.wait

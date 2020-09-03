@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.interface.MvInterface &mdash; PCDS Devices 2.10.0+73.geafb6a8 documentation</title>
+  <title>pcdsdevices.interface.MvInterface &mdash; PCDS Devices 2.10.0+76.g2a69c65 documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.10.0+73.geafb6a8
+                2.10.0+76.g2a69c65
               </div>
             
           
@@ -140,8 +140,10 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.MvInterface.camonitor.html">pcdsdevices.interface.MvInterface.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.MvInterface.end_monitor_thread.html">pcdsdevices.interface.MvInterface.end_monitor_thread</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.MvInterface.format_status_info.html">pcdsdevices.interface.MvInterface.format_status_info</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.MvInterface.move.html">pcdsdevices.interface.MvInterface.move</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.MvInterface.mv.html">pcdsdevices.interface.MvInterface.mv</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.MvInterface.status_info.html">pcdsdevices.interface.MvInterface.status_info</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.MvInterface.wait.html">pcdsdevices.interface.MvInterface.wait</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.MvInterface.wm.html">pcdsdevices.interface.MvInterface.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.MvInterface.wm_update.html">pcdsdevices.interface.MvInterface.wm_update</a></li>
 </ul>
@@ -273,11 +275,17 @@ applications.</p>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.MvInterface.format_status_info.html#pcdsdevices.interface.MvInterface.format_status_info" title="pcdsdevices.interface.MvInterface.format_status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">format_status_info</span></code></a>(status_info)</p></td>
 <td><p>Entry point for the mini status displays in the ipython terminal.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.MvInterface.mv.html#pcdsdevices.interface.MvInterface.mv" title="pcdsdevices.interface.MvInterface.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[, timeout, wait, log])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.MvInterface.move.html#pcdsdevices.interface.MvInterface.move" title="pcdsdevices.interface.MvInterface.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(*args, **kwargs)</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.MvInterface.mv.html#pcdsdevices.interface.MvInterface.mv" title="pcdsdevices.interface.MvInterface.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[, timeout, wait, log])</p></td>
 <td><p>Absolute move to a position.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.MvInterface.status_info.html#pcdsdevices.interface.MvInterface.status_info" title="pcdsdevices.interface.MvInterface.status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status_info</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.MvInterface.status_info.html#pcdsdevices.interface.MvInterface.status_info" title="pcdsdevices.interface.MvInterface.status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status_info</span></code></a>()</p></td>
 <td><p>Get useful information for the status display.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.MvInterface.wait.html#pcdsdevices.interface.MvInterface.wait" title="pcdsdevices.interface.MvInterface.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.MvInterface.wm.html#pcdsdevices.interface.MvInterface.wm" title="pcdsdevices.interface.MvInterface.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>

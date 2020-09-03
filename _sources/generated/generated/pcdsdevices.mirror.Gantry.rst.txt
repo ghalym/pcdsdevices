@@ -48,6 +48,7 @@ pcdsdevices.mirror.Gantry
       ~Gantry.unstage
       ~Gantry.unsubscribe
       ~Gantry.unsubscribe_all
+      ~Gantry.wait
       ~Gantry.wait_for_connection
       ~Gantry.walk_components
       ~Gantry.walk_signals

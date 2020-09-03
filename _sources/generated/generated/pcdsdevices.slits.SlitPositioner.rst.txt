@@ -48,6 +48,7 @@ pcdsdevices.slits.SlitPositioner
       ~SlitPositioner.unstage
       ~SlitPositioner.unsubscribe
       ~SlitPositioner.unsubscribe_all
+      ~SlitPositioner.wait
       ~SlitPositioner.wait_for_connection
       ~SlitPositioner.walk_components
       ~SlitPositioner.walk_signals

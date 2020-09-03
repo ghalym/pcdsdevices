@@ -49,6 +49,7 @@ pcdsdevices.valve.PPSStopper
       ~PPSStopper.unstage
       ~PPSStopper.unsubscribe
       ~PPSStopper.unsubscribe_all
+      ~PPSStopper.wait
       ~PPSStopper.wait_for_connection
       ~PPSStopper.walk_components
       ~PPSStopper.walk_signals

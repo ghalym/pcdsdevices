@@ -44,6 +44,7 @@ pcdsdevices.pim.XPIMFilterWheel
       ~XPIMFilterWheel.unstage
       ~XPIMFilterWheel.unsubscribe
       ~XPIMFilterWheel.unsubscribe_all
+      ~XPIMFilterWheel.wait
       ~XPIMFilterWheel.wait_for_connection
       ~XPIMFilterWheel.walk_components
       ~XPIMFilterWheel.walk_signals

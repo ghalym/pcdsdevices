@@ -49,6 +49,7 @@ pcdsdevices.attenuator.Filter
       ~Filter.unstage
       ~Filter.unsubscribe
       ~Filter.unsubscribe_all
+      ~Filter.wait
       ~Filter.wait_for_connection
       ~Filter.walk_components
       ~Filter.walk_signals

@@ -44,6 +44,7 @@ pcdsdevices.slits.PowerSlits
       ~PowerSlits.unstage
       ~PowerSlits.unsubscribe
       ~PowerSlits.unsubscribe_all
+      ~PowerSlits.wait
       ~PowerSlits.wait_for_connection
       ~PowerSlits.walk_components
       ~PowerSlits.walk_signals

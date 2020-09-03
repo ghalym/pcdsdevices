@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.epics_motor.PCDSMotorBase &mdash; PCDS Devices 2.10.0+73.geafb6a8 documentation</title>
+  <title>pcdsdevices.epics_motor.PCDSMotorBase &mdash; PCDS Devices 2.10.0+76.g2a69c65 documentation</title>
   
 
   
@@ -61,7 +61,7 @@
             
             
               <div class="version">
-                2.10.0+73.geafb6a8
+                2.10.0+76.g2a69c65
               </div>
             
           
@@ -168,6 +168,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.unstage.html">pcdsdevices.epics_motor.PCDSMotorBase.unstage</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.unsubscribe.html">pcdsdevices.epics_motor.PCDSMotorBase.unsubscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.unsubscribe_all.html">pcdsdevices.epics_motor.PCDSMotorBase.unsubscribe_all</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.wait.html">pcdsdevices.epics_motor.PCDSMotorBase.wait</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.wait_for_connection.html">pcdsdevices.epics_motor.PCDSMotorBase.wait_for_connection</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.walk_components.html">pcdsdevices.epics_motor.PCDSMotorBase.walk_components</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.walk_signals.html">pcdsdevices.epics_motor.PCDSMotorBase.walk_signals</a></li>
@@ -367,7 +368,7 @@ stop motor movement, pause a move in progress, or resume a paused move.</p>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.home.html#pcdsdevices.epics_motor.PCDSMotorBase.home" title="pcdsdevices.epics_motor.PCDSMotorBase.home"><code class="xref py py-obj docutils literal notranslate"><span class="pre">home</span></code></a>(direction[, wait])</p></td>
 <td><p>Perform the default homing function in the desired direction</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.move.html#pcdsdevices.epics_motor.PCDSMotorBase.move" title="pcdsdevices.epics_motor.PCDSMotorBase.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(position[, wait])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.move.html#pcdsdevices.epics_motor.PCDSMotorBase.move" title="pcdsdevices.epics_motor.PCDSMotorBase.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Move to a specified position, optionally waiting for motion to complete.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.mv.html#pcdsdevices.epics_motor.PCDSMotorBase.mv" title="pcdsdevices.epics_motor.PCDSMotorBase.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[, timeout, wait, log])</p></td>
@@ -451,25 +452,28 @@ stop motor movement, pause a move in progress, or resume a paused move.</p>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.unsubscribe_all.html#pcdsdevices.epics_motor.PCDSMotorBase.unsubscribe_all" title="pcdsdevices.epics_motor.PCDSMotorBase.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.wait_for_connection.html#pcdsdevices.epics_motor.PCDSMotorBase.wait_for_connection" title="pcdsdevices.epics_motor.PCDSMotorBase.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals, timeout])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.wait.html#pcdsdevices.epics_motor.PCDSMotorBase.wait" title="pcdsdevices.epics_motor.PCDSMotorBase.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.wait_for_connection.html#pcdsdevices.epics_motor.PCDSMotorBase.wait_for_connection" title="pcdsdevices.epics_motor.PCDSMotorBase.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals, timeout])</p></td>
 <td><p>Wait for signals to connect</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.walk_components.html#pcdsdevices.epics_motor.PCDSMotorBase.walk_components" title="pcdsdevices.epics_motor.PCDSMotorBase.walk_components"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_components</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.walk_components.html#pcdsdevices.epics_motor.PCDSMotorBase.walk_components" title="pcdsdevices.epics_motor.PCDSMotorBase.walk_components"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_components</span></code></a>()</p></td>
 <td><p>Walk all components in the Device hierarchy</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.walk_signals.html#pcdsdevices.epics_motor.PCDSMotorBase.walk_signals" title="pcdsdevices.epics_motor.PCDSMotorBase.walk_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_signals</span></code></a>(*[, include_lazy])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.walk_signals.html#pcdsdevices.epics_motor.PCDSMotorBase.walk_signals" title="pcdsdevices.epics_motor.PCDSMotorBase.walk_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_signals</span></code></a>(*[, include_lazy])</p></td>
 <td><p>Walk all signals in the Device hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.walk_subdevice_classes.html#pcdsdevices.epics_motor.PCDSMotorBase.walk_subdevice_classes" title="pcdsdevices.epics_motor.PCDSMotorBase.walk_subdevice_classes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevice_classes</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.walk_subdevice_classes.html#pcdsdevices.epics_motor.PCDSMotorBase.walk_subdevice_classes" title="pcdsdevices.epics_motor.PCDSMotorBase.walk_subdevice_classes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevice_classes</span></code></a>()</p></td>
 <td><p>Walk all sub-Devices classes in the Device hierarchy</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.walk_subdevices.html#pcdsdevices.epics_motor.PCDSMotorBase.walk_subdevices" title="pcdsdevices.epics_motor.PCDSMotorBase.walk_subdevices"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevices</span></code></a>(*[, include_lazy])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.walk_subdevices.html#pcdsdevices.epics_motor.PCDSMotorBase.walk_subdevices" title="pcdsdevices.epics_motor.PCDSMotorBase.walk_subdevices"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevices</span></code></a>(*[, include_lazy])</p></td>
 <td><p>Walk all sub-Devices in the hierarchy</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.wm.html#pcdsdevices.epics_motor.PCDSMotorBase.wm" title="pcdsdevices.epics_motor.PCDSMotorBase.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.wm.html#pcdsdevices.epics_motor.PCDSMotorBase.wm" title="pcdsdevices.epics_motor.PCDSMotorBase.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.wm_update.html#pcdsdevices.epics_motor.PCDSMotorBase.wm_update" title="pcdsdevices.epics_motor.PCDSMotorBase.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.wm_update.html#pcdsdevices.epics_motor.PCDSMotorBase.wm_update" title="pcdsdevices.epics_motor.PCDSMotorBase.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>

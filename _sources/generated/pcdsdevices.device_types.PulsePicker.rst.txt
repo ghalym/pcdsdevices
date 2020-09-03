@@ -55,6 +55,7 @@
       ~PulsePicker.unstage
       ~PulsePicker.unsubscribe
       ~PulsePicker.unsubscribe_all
+      ~PulsePicker.wait
       ~PulsePicker.wait_for_connection
       ~PulsePicker.walk_components
       ~PulsePicker.walk_signals

@@ -56,6 +56,7 @@ pcdsdevices.pseudopos.SyncAxesBase
       ~SyncAxesBase.unstage
       ~SyncAxesBase.unsubscribe
       ~SyncAxesBase.unsubscribe_all
+      ~SyncAxesBase.wait
       ~SyncAxesBase.wait_for_connection
       ~SyncAxesBase.walk_components
       ~SyncAxesBase.walk_signals

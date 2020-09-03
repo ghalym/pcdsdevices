@@ -56,6 +56,7 @@ pcdsdevices.ccm.CCMY
       ~CCMY.unstage
       ~CCMY.unsubscribe
       ~CCMY.unsubscribe_all
+      ~CCMY.wait
       ~CCMY.wait_for_connection
       ~CCMY.walk_components
       ~CCMY.walk_signals

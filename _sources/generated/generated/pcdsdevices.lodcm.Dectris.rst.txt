@@ -49,6 +49,7 @@ pcdsdevices.lodcm.Dectris
       ~Dectris.unstage
       ~Dectris.unsubscribe
       ~Dectris.unsubscribe_all
+      ~Dectris.wait
       ~Dectris.wait_for_connection
       ~Dectris.walk_components
       ~Dectris.walk_signals

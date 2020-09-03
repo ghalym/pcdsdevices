@@ -48,6 +48,7 @@ pcdsdevices.beam\_stats.BeamEnergyRequest
       ~BeamEnergyRequest.unstage
       ~BeamEnergyRequest.unsubscribe
       ~BeamEnergyRequest.unsubscribe_all
+      ~BeamEnergyRequest.wait
       ~BeamEnergyRequest.wait_for_connection
       ~BeamEnergyRequest.walk_components
       ~BeamEnergyRequest.walk_signals

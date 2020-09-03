@@ -1,0 +1,6 @@
+pcdsdevices.slits.PowerSlits.wait
+=================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: PowerSlits.wait

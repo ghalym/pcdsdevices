@@ -51,6 +51,7 @@ pcdsdevices.attenuator.FeeAtt
       ~FeeAtt.unstage
       ~FeeAtt.unsubscribe
       ~FeeAtt.unsubscribe_all
+      ~FeeAtt.wait
       ~FeeAtt.wait_for_connection
       ~FeeAtt.walk_components
       ~FeeAtt.walk_signals

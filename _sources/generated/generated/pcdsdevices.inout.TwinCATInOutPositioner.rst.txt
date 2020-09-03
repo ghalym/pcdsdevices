@@ -49,6 +49,7 @@ pcdsdevices.inout.TwinCATInOutPositioner
       ~TwinCATInOutPositioner.unstage
       ~TwinCATInOutPositioner.unsubscribe
       ~TwinCATInOutPositioner.unsubscribe_all
+      ~TwinCATInOutPositioner.wait
       ~TwinCATInOutPositioner.wait_for_connection
       ~TwinCATInOutPositioner.walk_components
       ~TwinCATInOutPositioner.walk_signals

@@ -44,6 +44,7 @@ pcdsdevices.state.PVStatePositioner
       ~PVStatePositioner.unstage
       ~PVStatePositioner.unsubscribe
       ~PVStatePositioner.unsubscribe_all
+      ~PVStatePositioner.wait
       ~PVStatePositioner.wait_for_connection
       ~PVStatePositioner.walk_components
       ~PVStatePositioner.walk_signals

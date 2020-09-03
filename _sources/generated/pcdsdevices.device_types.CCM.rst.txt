@@ -49,6 +49,7 @@
       ~CCM.unstage
       ~CCM.unsubscribe
       ~CCM.unsubscribe_all
+      ~CCM.wait
       ~CCM.wait_for_connection
       ~CCM.walk_components
       ~CCM.walk_signals

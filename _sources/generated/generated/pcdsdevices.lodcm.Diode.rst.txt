@@ -49,6 +49,7 @@ pcdsdevices.lodcm.Diode
       ~Diode.unstage
       ~Diode.unsubscribe
       ~Diode.unsubscribe_all
+      ~Diode.wait
       ~Diode.wait_for_connection
       ~Diode.walk_components
       ~Diode.walk_signals

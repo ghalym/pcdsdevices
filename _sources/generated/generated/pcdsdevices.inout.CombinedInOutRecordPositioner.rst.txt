@@ -49,6 +49,7 @@ pcdsdevices.inout.CombinedInOutRecordPositioner
       ~CombinedInOutRecordPositioner.unstage
       ~CombinedInOutRecordPositioner.unsubscribe
       ~CombinedInOutRecordPositioner.unsubscribe_all
+      ~CombinedInOutRecordPositioner.wait
       ~CombinedInOutRecordPositioner.wait_for_connection
       ~CombinedInOutRecordPositioner.walk_components
       ~CombinedInOutRecordPositioner.walk_signals

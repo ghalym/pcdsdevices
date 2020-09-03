@@ -49,6 +49,7 @@
       ~Prefocus.unstage
       ~Prefocus.unsubscribe
       ~Prefocus.unsubscribe_all
+      ~Prefocus.wait
       ~Prefocus.wait_for_connection
       ~Prefocus.walk_components
       ~Prefocus.walk_signals

@@ -49,6 +49,7 @@
       ~Timetool.unstage
       ~Timetool.unsubscribe
       ~Timetool.unsubscribe_all
+      ~Timetool.wait
       ~Timetool.wait_for_connection
       ~Timetool.walk_components
       ~Timetool.walk_signals

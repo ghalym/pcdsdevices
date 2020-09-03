@@ -1,0 +1,6 @@
+pcdsdevices.interface.FltMvInterface.wait
+=========================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: FltMvInterface.wait

@@ -51,6 +51,7 @@
       ~Stopper.unstage
       ~Stopper.unsubscribe
       ~Stopper.unsubscribe_all
+      ~Stopper.wait
       ~Stopper.wait_for_connection
       ~Stopper.walk_components
       ~Stopper.walk_signals

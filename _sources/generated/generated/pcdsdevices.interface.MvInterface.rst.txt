@@ -16,8 +16,10 @@ pcdsdevices.interface.MvInterface
       ~MvInterface.camonitor
       ~MvInterface.end_monitor_thread
       ~MvInterface.format_status_info
+      ~MvInterface.move
       ~MvInterface.mv
       ~MvInterface.status_info
+      ~MvInterface.wait
       ~MvInterface.wm
       ~MvInterface.wm_update
    

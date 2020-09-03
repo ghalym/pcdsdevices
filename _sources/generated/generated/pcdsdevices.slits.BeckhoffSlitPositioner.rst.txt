@@ -48,6 +48,7 @@ pcdsdevices.slits.BeckhoffSlitPositioner
       ~BeckhoffSlitPositioner.unstage
       ~BeckhoffSlitPositioner.unsubscribe
       ~BeckhoffSlitPositioner.unsubscribe_all
+      ~BeckhoffSlitPositioner.wait
       ~BeckhoffSlitPositioner.wait_for_connection
       ~BeckhoffSlitPositioner.walk_components
       ~BeckhoffSlitPositioner.walk_signals

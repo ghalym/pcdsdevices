@@ -48,6 +48,7 @@ pcdsdevices.slits.BadSlitPositionerBase
       ~BadSlitPositionerBase.unstage
       ~BadSlitPositionerBase.unsubscribe
       ~BadSlitPositionerBase.unsubscribe_all
+      ~BadSlitPositionerBase.wait
       ~BadSlitPositionerBase.wait_for_connection
       ~BadSlitPositionerBase.walk_components
       ~BadSlitPositionerBase.walk_signals

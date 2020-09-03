@@ -54,6 +54,7 @@ pcdsdevices.ccm.CCMPico
       ~CCMPico.unstage
       ~CCMPico.unsubscribe
       ~CCMPico.unsubscribe_all
+      ~CCMPico.wait
       ~CCMPico.wait_for_connection
       ~CCMPico.walk_components
       ~CCMPico.walk_signals

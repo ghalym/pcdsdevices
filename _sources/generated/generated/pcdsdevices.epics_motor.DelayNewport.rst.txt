@@ -54,6 +54,7 @@ pcdsdevices.epics\_motor.DelayNewport
       ~DelayNewport.unstage
       ~DelayNewport.unsubscribe
       ~DelayNewport.unsubscribe_all
+      ~DelayNewport.wait
       ~DelayNewport.wait_for_connection
       ~DelayNewport.walk_components
       ~DelayNewport.walk_signals

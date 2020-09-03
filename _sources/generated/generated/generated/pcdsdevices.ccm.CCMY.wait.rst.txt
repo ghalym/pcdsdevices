@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMY.wait
+=========================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMY.wait

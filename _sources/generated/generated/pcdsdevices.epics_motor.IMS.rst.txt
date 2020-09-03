@@ -64,6 +64,7 @@ pcdsdevices.epics\_motor.IMS
       ~IMS.unstage
       ~IMS.unsubscribe
       ~IMS.unsubscribe_all
+      ~IMS.wait
       ~IMS.wait_for_connection
       ~IMS.walk_components
       ~IMS.walk_signals

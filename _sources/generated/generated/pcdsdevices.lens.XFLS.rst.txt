@@ -49,6 +49,7 @@ pcdsdevices.lens.XFLS
       ~XFLS.unstage
       ~XFLS.unsubscribe
       ~XFLS.unsubscribe_all
+      ~XFLS.wait
       ~XFLS.wait_for_connection
       ~XFLS.walk_components
       ~XFLS.walk_signals

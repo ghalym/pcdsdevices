@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Diode.wait
+============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Diode.wait

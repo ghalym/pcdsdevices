@@ -48,6 +48,7 @@ pcdsdevices.mirror.OMMotor
       ~OMMotor.unstage
       ~OMMotor.unsubscribe
       ~OMMotor.unsubscribe_all
+      ~OMMotor.wait
       ~OMMotor.wait_for_connection
       ~OMMotor.walk_components
       ~OMMotor.walk_signals

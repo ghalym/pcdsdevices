@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttBase.wait
+===================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttBase.wait

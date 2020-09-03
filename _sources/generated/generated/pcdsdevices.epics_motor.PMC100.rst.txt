@@ -58,6 +58,7 @@ pcdsdevices.epics\_motor.PMC100
       ~PMC100.unstage
       ~PMC100.unsubscribe
       ~PMC100.unsubscribe_all
+      ~PMC100.wait
       ~PMC100.wait_for_connection
       ~PMC100.walk_components
       ~PMC100.walk_signals

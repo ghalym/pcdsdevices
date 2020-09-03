@@ -54,6 +54,7 @@ pcdsdevices.ccm.CCMCalc
       ~CCMCalc.unstage
       ~CCMCalc.unsubscribe
       ~CCMCalc.unsubscribe_all
+      ~CCMCalc.wait
       ~CCMCalc.wait_for_connection
       ~CCMCalc.walk_components
       ~CCMCalc.walk_signals

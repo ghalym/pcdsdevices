@@ -49,6 +49,7 @@ pcdsdevices.inout.InOutPositioner
       ~InOutPositioner.unstage
       ~InOutPositioner.unsubscribe
       ~InOutPositioner.unsubscribe_all
+      ~InOutPositioner.wait
       ~InOutPositioner.wait_for_connection
       ~InOutPositioner.walk_components
       ~InOutPositioner.walk_signals

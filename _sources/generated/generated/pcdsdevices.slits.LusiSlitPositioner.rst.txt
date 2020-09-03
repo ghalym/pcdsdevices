@@ -48,6 +48,7 @@ pcdsdevices.slits.LusiSlitPositioner
       ~LusiSlitPositioner.unstage
       ~LusiSlitPositioner.unsubscribe
       ~LusiSlitPositioner.unsubscribe_all
+      ~LusiSlitPositioner.wait
       ~LusiSlitPositioner.wait_for_connection
       ~LusiSlitPositioner.walk_components
       ~LusiSlitPositioner.walk_signals

@@ -58,6 +58,7 @@ pcdsdevices.epics\_motor.Newport
       ~Newport.unstage
       ~Newport.unsubscribe
       ~Newport.unsubscribe_all
+      ~Newport.wait
       ~Newport.wait_for_connection
       ~Newport.walk_components
       ~Newport.walk_signals
