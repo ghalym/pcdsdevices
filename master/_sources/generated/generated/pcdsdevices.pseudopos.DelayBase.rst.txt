@@ -25,7 +25,16 @@ pcdsdevices.pseudopos.DelayBase
           -  normal
           -  
    
+       *  -  user_offset
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  normal
+          -  
+   
 
+   
+   
    
    
    
@@ -57,6 +66,7 @@ pcdsdevices.pseudopos.DelayBase
        ~DelayBase.read
        ~DelayBase.read_configuration
        ~DelayBase.set
+       ~DelayBase.set_current_position
        ~DelayBase.stop
        ~DelayBase.summary
        ~DelayBase.to_pseudo_tuple

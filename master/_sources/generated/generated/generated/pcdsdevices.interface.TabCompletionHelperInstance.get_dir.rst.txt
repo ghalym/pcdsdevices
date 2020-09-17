@@ -1,0 +1,6 @@
+pcdsdevices.interface.TabCompletionHelperInstance.get\_dir
+==========================================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: TabCompletionHelperInstance.get_dir

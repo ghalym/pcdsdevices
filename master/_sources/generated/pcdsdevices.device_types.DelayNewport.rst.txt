@@ -25,6 +25,13 @@
           -  normal
           -  Inherited from :class:`~pcdsdevices.pseudopos.DelayBase`
    
+       *  -  user_offset
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pseudopos.DelayBase`
+   
        *  -  motor
           -  :class:`~pcdsdevices.epics_motor.Newport`
           -  
@@ -33,6 +40,8 @@
           -  
    
 
+   
+   
    
    
    
@@ -66,6 +75,7 @@
        ~DelayNewport.read
        ~DelayNewport.read_configuration
        ~DelayNewport.set
+       ~DelayNewport.set_current_position
        ~DelayNewport.stop
        ~DelayNewport.summary
        ~DelayNewport.to_pseudo_tuple

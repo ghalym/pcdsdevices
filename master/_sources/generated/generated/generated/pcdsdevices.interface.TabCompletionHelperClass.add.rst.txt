@@ -1,0 +1,6 @@
+pcdsdevices.interface.TabCompletionHelperClass.add
+==================================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: TabCompletionHelperClass.add

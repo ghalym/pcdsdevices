@@ -484,6 +484,7 @@ master/_sources/generated/generated/generated/pcdsdevices.epics_motor.DelayNewpo
 master/_sources/generated/generated/generated/pcdsdevices.epics_motor.DelayNewport.read.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.epics_motor.DelayNewport.read_configuration.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.epics_motor.DelayNewport.set.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.epics_motor.DelayNewport.set_current_position.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.epics_motor.DelayNewport.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.epics_motor.DelayNewport.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.epics_motor.DelayNewport.to_pseudo_tuple.rst.txt
@@ -1069,6 +1070,17 @@ master/_sources/generated/generated/generated/pcdsdevices.interface.PresetPositi
 master/_sources/generated/generated/generated/pcdsdevices.interface.PresetPosition.update_pos.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.interface.Presets.state.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.interface.Presets.sync.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.interface.TabCompletionHelperClass.add.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.interface.TabCompletionHelperClass.build_regex.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.interface.TabCompletionHelperClass.new_instance.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.interface.TabCompletionHelperClass.remove.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.interface.TabCompletionHelperClass.reset.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.interface.TabCompletionHelperInstance.add.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.interface.TabCompletionHelperInstance.build_regex.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.interface.TabCompletionHelperInstance.get_dir.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.interface.TabCompletionHelperInstance.get_filtered_dir_list.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.interface.TabCompletionHelperInstance.remove.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.interface.TabCompletionHelperInstance.reset.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.ipm.IPIMB.configure.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.ipm.IPIMB.describe.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.ipm.IPIMB.get.rst.txt
@@ -1764,6 +1776,7 @@ master/_sources/generated/generated/generated/pcdsdevices.pseudopos.DelayBase.mv
 master/_sources/generated/generated/generated/pcdsdevices.pseudopos.DelayBase.read.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pseudopos.DelayBase.read_configuration.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pseudopos.DelayBase.set.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.pseudopos.DelayBase.set_current_position.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pseudopos.DelayBase.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pseudopos.DelayBase.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pseudopos.DelayBase.to_pseudo_tuple.rst.txt
@@ -1829,6 +1842,7 @@ master/_sources/generated/generated/generated/pcdsdevices.pseudopos.SimDelayStag
 master/_sources/generated/generated/generated/pcdsdevices.pseudopos.SimDelayStage.read.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pseudopos.SimDelayStage.read_configuration.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pseudopos.SimDelayStage.set.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.pseudopos.SimDelayStage.set_current_position.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pseudopos.SimDelayStage.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pseudopos.SimDelayStage.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pseudopos.SimDelayStage.to_pseudo_tuple.rst.txt
@@ -2851,6 +2865,7 @@ master/_sources/generated/generated/pcdsdevices.device_types.DelayNewport.mvr.rs
 master/_sources/generated/generated/pcdsdevices.device_types.DelayNewport.read.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.DelayNewport.read_configuration.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.DelayNewport.set.rst.txt
+master/_sources/generated/generated/pcdsdevices.device_types.DelayNewport.set_current_position.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.DelayNewport.stop.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.DelayNewport.summary.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.DelayNewport.to_pseudo_tuple.rst.txt
@@ -3375,6 +3390,8 @@ master/_sources/generated/generated/pcdsdevices.interface.MvInterface.rst.txt
 master/_sources/generated/generated/pcdsdevices.interface.NullFile.rst.txt
 master/_sources/generated/generated/pcdsdevices.interface.PresetPosition.rst.txt
 master/_sources/generated/generated/pcdsdevices.interface.Presets.rst.txt
+master/_sources/generated/generated/pcdsdevices.interface.TabCompletionHelperClass.rst.txt
+master/_sources/generated/generated/pcdsdevices.interface.TabCompletionHelperInstance.rst.txt
 master/_sources/generated/generated/pcdsdevices.interface.device_info.rst.txt
 master/_sources/generated/generated/pcdsdevices.interface.get_engineering_mode.rst.txt
 master/_sources/generated/generated/pcdsdevices.interface.get_kind.rst.txt
@@ -3690,6 +3707,8 @@ master/_sources/upcoming_release_notes/558-slow-ureg.rst.txt
 master/_sources/upcoming_release_notes/560-tol-lims.rst.txt
 master/_sources/upcoming_release_notes/565-pp-inout-pvfix.rst.txt
 master/_sources/upcoming_release_notes/566-seq-race.rst.txt
+master/_sources/upcoming_release_notes/568-DelayBase_offset_support.rst.txt
+master/_sources/upcoming_release_notes/576-tab_completion.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -4261,6 +4280,7 @@ master/generated/generated/generated/pcdsdevices.epics_motor.DelayNewport.mvr.ht
 master/generated/generated/generated/pcdsdevices.epics_motor.DelayNewport.read.html
 master/generated/generated/generated/pcdsdevices.epics_motor.DelayNewport.read_configuration.html
 master/generated/generated/generated/pcdsdevices.epics_motor.DelayNewport.set.html
+master/generated/generated/generated/pcdsdevices.epics_motor.DelayNewport.set_current_position.html
 master/generated/generated/generated/pcdsdevices.epics_motor.DelayNewport.stop.html
 master/generated/generated/generated/pcdsdevices.epics_motor.DelayNewport.summary.html
 master/generated/generated/generated/pcdsdevices.epics_motor.DelayNewport.to_pseudo_tuple.html
@@ -4846,6 +4866,17 @@ master/generated/generated/generated/pcdsdevices.interface.PresetPosition.update
 master/generated/generated/generated/pcdsdevices.interface.PresetPosition.update_pos.html
 master/generated/generated/generated/pcdsdevices.interface.Presets.state.html
 master/generated/generated/generated/pcdsdevices.interface.Presets.sync.html
+master/generated/generated/generated/pcdsdevices.interface.TabCompletionHelperClass.add.html
+master/generated/generated/generated/pcdsdevices.interface.TabCompletionHelperClass.build_regex.html
+master/generated/generated/generated/pcdsdevices.interface.TabCompletionHelperClass.new_instance.html
+master/generated/generated/generated/pcdsdevices.interface.TabCompletionHelperClass.remove.html
+master/generated/generated/generated/pcdsdevices.interface.TabCompletionHelperClass.reset.html
+master/generated/generated/generated/pcdsdevices.interface.TabCompletionHelperInstance.add.html
+master/generated/generated/generated/pcdsdevices.interface.TabCompletionHelperInstance.build_regex.html
+master/generated/generated/generated/pcdsdevices.interface.TabCompletionHelperInstance.get_dir.html
+master/generated/generated/generated/pcdsdevices.interface.TabCompletionHelperInstance.get_filtered_dir_list.html
+master/generated/generated/generated/pcdsdevices.interface.TabCompletionHelperInstance.remove.html
+master/generated/generated/generated/pcdsdevices.interface.TabCompletionHelperInstance.reset.html
 master/generated/generated/generated/pcdsdevices.ipm.IPIMB.configure.html
 master/generated/generated/generated/pcdsdevices.ipm.IPIMB.describe.html
 master/generated/generated/generated/pcdsdevices.ipm.IPIMB.get.html
@@ -5541,6 +5572,7 @@ master/generated/generated/generated/pcdsdevices.pseudopos.DelayBase.mvr.html
 master/generated/generated/generated/pcdsdevices.pseudopos.DelayBase.read.html
 master/generated/generated/generated/pcdsdevices.pseudopos.DelayBase.read_configuration.html
 master/generated/generated/generated/pcdsdevices.pseudopos.DelayBase.set.html
+master/generated/generated/generated/pcdsdevices.pseudopos.DelayBase.set_current_position.html
 master/generated/generated/generated/pcdsdevices.pseudopos.DelayBase.stop.html
 master/generated/generated/generated/pcdsdevices.pseudopos.DelayBase.summary.html
 master/generated/generated/generated/pcdsdevices.pseudopos.DelayBase.to_pseudo_tuple.html
@@ -5606,6 +5638,7 @@ master/generated/generated/generated/pcdsdevices.pseudopos.SimDelayStage.mvr.htm
 master/generated/generated/generated/pcdsdevices.pseudopos.SimDelayStage.read.html
 master/generated/generated/generated/pcdsdevices.pseudopos.SimDelayStage.read_configuration.html
 master/generated/generated/generated/pcdsdevices.pseudopos.SimDelayStage.set.html
+master/generated/generated/generated/pcdsdevices.pseudopos.SimDelayStage.set_current_position.html
 master/generated/generated/generated/pcdsdevices.pseudopos.SimDelayStage.stop.html
 master/generated/generated/generated/pcdsdevices.pseudopos.SimDelayStage.summary.html
 master/generated/generated/generated/pcdsdevices.pseudopos.SimDelayStage.to_pseudo_tuple.html
@@ -6628,6 +6661,7 @@ master/generated/generated/pcdsdevices.device_types.DelayNewport.mvr.html
 master/generated/generated/pcdsdevices.device_types.DelayNewport.read.html
 master/generated/generated/pcdsdevices.device_types.DelayNewport.read_configuration.html
 master/generated/generated/pcdsdevices.device_types.DelayNewport.set.html
+master/generated/generated/pcdsdevices.device_types.DelayNewport.set_current_position.html
 master/generated/generated/pcdsdevices.device_types.DelayNewport.stop.html
 master/generated/generated/pcdsdevices.device_types.DelayNewport.summary.html
 master/generated/generated/pcdsdevices.device_types.DelayNewport.to_pseudo_tuple.html
@@ -7152,6 +7186,8 @@ master/generated/generated/pcdsdevices.interface.MvInterface.html
 master/generated/generated/pcdsdevices.interface.NullFile.html
 master/generated/generated/pcdsdevices.interface.PresetPosition.html
 master/generated/generated/pcdsdevices.interface.Presets.html
+master/generated/generated/pcdsdevices.interface.TabCompletionHelperClass.html
+master/generated/generated/pcdsdevices.interface.TabCompletionHelperInstance.html
 master/generated/generated/pcdsdevices.interface.device_info.html
 master/generated/generated/pcdsdevices.interface.get_engineering_mode.html
 master/generated/generated/pcdsdevices.interface.get_kind.html
@@ -7472,5 +7508,7 @@ master/upcoming_release_notes/558-slow-ureg.html
 master/upcoming_release_notes/560-tol-lims.html
 master/upcoming_release_notes/565-pp-inout-pvfix.html
 master/upcoming_release_notes/566-seq-race.html
+master/upcoming_release_notes/568-DelayBase_offset_support.html
+master/upcoming_release_notes/576-tab_completion.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html

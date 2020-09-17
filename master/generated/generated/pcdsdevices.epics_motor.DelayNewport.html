@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.epics_motor.DelayNewport &mdash; PCDS Devices 2.10.0+92.g9bcb667 documentation</title>
+  <title>pcdsdevices.epics_motor.DelayNewport &mdash; PCDS Devices 2.10.0+102.g84756a2 documentation</title>
   
 
   
@@ -62,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+92.g9bcb667
+                2.10.0+102.g84756a2
               </div>
             
           
@@ -135,6 +135,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.read.html">pcdsdevices.epics_motor.DelayNewport.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.read_configuration.html">pcdsdevices.epics_motor.DelayNewport.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.set.html">pcdsdevices.epics_motor.DelayNewport.set</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.set_current_position.html">pcdsdevices.epics_motor.DelayNewport.set_current_position</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.stop.html">pcdsdevices.epics_motor.DelayNewport.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.summary.html">pcdsdevices.epics_motor.DelayNewport.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.to_pseudo_tuple.html">pcdsdevices.epics_motor.DelayNewport.to_pseudo_tuple</a></li>
@@ -279,7 +280,14 @@
 <td><p>normal</p></td>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.pseudopos.DelayBase.html#pcdsdevices.pseudopos.DelayBase" title="pcdsdevices.pseudopos.DelayBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">DelayBase</span></code></a></p></td>
 </tr>
-<tr class="row-odd"><td><p>motor</p></td>
+<tr class="row-odd"><td><p>user_offset</p></td>
+<td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">Signal</span></code></p></td>
+<td></td>
+<td></td>
+<td><p>normal</p></td>
+<td><p>Inherited from <a class="reference internal" href="pcdsdevices.pseudopos.DelayBase.html#pcdsdevices.pseudopos.DelayBase" title="pcdsdevices.pseudopos.DelayBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">DelayBase</span></code></a></p></td>
+</tr>
+<tr class="row-even"><td><p>motor</p></td>
 <td><p><a class="reference internal" href="pcdsdevices.epics_motor.Newport.html#pcdsdevices.epics_motor.Newport" title="pcdsdevices.epics_motor.Newport"><code class="xref py py-class docutils literal notranslate"><span class="pre">Newport</span></code></a></p></td>
 <td></td>
 <td></td>
@@ -343,37 +351,40 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.set.html#pcdsdevices.epics_motor.DelayNewport.set" title="pcdsdevices.epics_motor.DelayNewport.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position, **kwargs)</p></td>
 <td><p>Move to a new position asynchronously</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.stop.html#pcdsdevices.epics_motor.DelayNewport.stop" title="pcdsdevices.epics_motor.DelayNewport.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>([success])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.set_current_position.html#pcdsdevices.epics_motor.DelayNewport.set_current_position" title="pcdsdevices.epics_motor.DelayNewport.set_current_position"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_current_position</span></code></a>(position)</p></td>
+<td><p>Calculate and configure the user_offset value, indicating the provided <code class="docutils literal notranslate"><span class="pre">position</span></code> as the new current position.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.stop.html#pcdsdevices.epics_motor.DelayNewport.stop" title="pcdsdevices.epics_motor.DelayNewport.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>([success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.summary.html#pcdsdevices.epics_motor.DelayNewport.summary" title="pcdsdevices.epics_motor.DelayNewport.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.summary.html#pcdsdevices.epics_motor.DelayNewport.summary" title="pcdsdevices.epics_motor.DelayNewport.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.to_pseudo_tuple.html#pcdsdevices.epics_motor.DelayNewport.to_pseudo_tuple" title="pcdsdevices.epics_motor.DelayNewport.to_pseudo_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_pseudo_tuple</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.to_pseudo_tuple.html#pcdsdevices.epics_motor.DelayNewport.to_pseudo_tuple" title="pcdsdevices.epics_motor.DelayNewport.to_pseudo_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_pseudo_tuple</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Convert arguments to a PseudoPosition namedtuple and kwargs</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.to_real_tuple.html#pcdsdevices.epics_motor.DelayNewport.to_real_tuple" title="pcdsdevices.epics_motor.DelayNewport.to_real_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_real_tuple</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.to_real_tuple.html#pcdsdevices.epics_motor.DelayNewport.to_real_tuple" title="pcdsdevices.epics_motor.DelayNewport.to_real_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_real_tuple</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Convert arguments to a RealPosition namedtuple and kwargs</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.trigger.html#pcdsdevices.epics_motor.DelayNewport.trigger" title="pcdsdevices.epics_motor.DelayNewport.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.trigger.html#pcdsdevices.epics_motor.DelayNewport.trigger" title="pcdsdevices.epics_motor.DelayNewport.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.tweak.html#pcdsdevices.epics_motor.DelayNewport.tweak" title="pcdsdevices.epics_motor.DelayNewport.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.tweak.html#pcdsdevices.epics_motor.DelayNewport.tweak" title="pcdsdevices.epics_motor.DelayNewport.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
 <td><p>Control this motor using the arrow keys.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.umv.html#pcdsdevices.epics_motor.DelayNewport.umv" title="pcdsdevices.epics_motor.DelayNewport.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.umv.html#pcdsdevices.epics_motor.DelayNewport.umv" title="pcdsdevices.epics_motor.DelayNewport.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
 <td><p>Move to a position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.umvr.html#pcdsdevices.epics_motor.DelayNewport.umvr" title="pcdsdevices.epics_motor.DelayNewport.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.umvr.html#pcdsdevices.epics_motor.DelayNewport.umvr" title="pcdsdevices.epics_motor.DelayNewport.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
 <td><p>Relative move from this position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.wait.html#pcdsdevices.epics_motor.DelayNewport.wait" title="pcdsdevices.epics_motor.DelayNewport.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.wait.html#pcdsdevices.epics_motor.DelayNewport.wait" title="pcdsdevices.epics_motor.DelayNewport.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.wm.html#pcdsdevices.epics_motor.DelayNewport.wm" title="pcdsdevices.epics_motor.DelayNewport.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.wm.html#pcdsdevices.epics_motor.DelayNewport.wm" title="pcdsdevices.epics_motor.DelayNewport.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.wm_update.html#pcdsdevices.epics_motor.DelayNewport.wm_update" title="pcdsdevices.epics_motor.DelayNewport.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.DelayNewport.wm_update.html#pcdsdevices.epics_motor.DelayNewport.wm_update" title="pcdsdevices.epics_motor.DelayNewport.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>

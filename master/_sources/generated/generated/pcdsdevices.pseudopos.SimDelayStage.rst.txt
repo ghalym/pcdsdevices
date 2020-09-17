@@ -25,6 +25,13 @@ pcdsdevices.pseudopos.SimDelayStage
           -  normal
           -  Inherited from :class:`~pcdsdevices.pseudopos.DelayBase`
    
+       *  -  user_offset
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pseudopos.DelayBase`
+   
        *  -  motor
           -  :class:`~pcdsdevices.sim.FastMotor`
           -  
@@ -33,6 +40,8 @@ pcdsdevices.pseudopos.SimDelayStage
           -  
    
 
+   
+   
    
    
    
@@ -66,6 +75,7 @@ pcdsdevices.pseudopos.SimDelayStage
        ~SimDelayStage.read
        ~SimDelayStage.read_configuration
        ~SimDelayStage.set
+       ~SimDelayStage.set_current_position
        ~SimDelayStage.stop
        ~SimDelayStage.summary
        ~SimDelayStage.to_pseudo_tuple

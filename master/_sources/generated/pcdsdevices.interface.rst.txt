@@ -40,6 +40,8 @@
       NullFile
       PresetPosition
       Presets
+      TabCompletionHelperClass
+      TabCompletionHelperInstance
    
    
 
