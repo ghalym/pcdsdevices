@@ -1,6 +1,0 @@
-pcdsdevices.jet.InjectorWithFine.put
-====================================
-
-.. currentmodule:: pcdsdevices.jet
-
-.. automethod:: InjectorWithFine.put

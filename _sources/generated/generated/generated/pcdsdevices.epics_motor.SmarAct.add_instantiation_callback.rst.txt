@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.SmarAct.add\_instantiation\_callback
-=============================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: SmarAct.add_instantiation_callback

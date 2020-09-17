@@ -1,6 +1,0 @@
-pcdsdevices.gon.XYZStage.resume
-===============================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: XYZStage.resume

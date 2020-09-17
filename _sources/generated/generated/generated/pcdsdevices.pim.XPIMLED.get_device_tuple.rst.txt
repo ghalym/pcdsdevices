@@ -1,6 +1,0 @@
-pcdsdevices.pim.XPIMLED.get\_device\_tuple
-==========================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: XPIMLED.get_device_tuple

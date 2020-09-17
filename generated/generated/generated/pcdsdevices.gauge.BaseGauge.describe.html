@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.gauge.BaseGauge.describe &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.gauge.BaseGauge.describe &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,7 +37,7 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.gauge.BaseGauge.describe_configuration" href="pcdsdevices.gauge.BaseGauge.describe_configuration.html" />
+    <link rel="next" title="pcdsdevices.gauge.BaseGauge.get" href="pcdsdevices.gauge.BaseGauge.get.html" />
     <link rel="prev" title="pcdsdevices.gauge.BaseGauge.configure" href="pcdsdevices.gauge.BaseGauge.configure.html" /> 
 </head>
 
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -118,37 +119,14 @@
 <li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.gauge.html">pcdsdevices.gauge</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.gauge.GaugeSet.html">pcdsdevices.gauge.GaugeSet</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.gauge.BaseGauge.html">pcdsdevices.gauge.BaseGauge</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.__init__.html">pcdsdevices.gauge.BaseGauge.__init__</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.add_instantiation_callback.html">pcdsdevices.gauge.BaseGauge.add_instantiation_callback</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.check_value.html">pcdsdevices.gauge.BaseGauge.check_value</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.clear_sub.html">pcdsdevices.gauge.BaseGauge.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.configure.html">pcdsdevices.gauge.BaseGauge.configure</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.gauge.BaseGauge.describe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.describe_configuration.html">pcdsdevices.gauge.BaseGauge.describe_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.destroy.html">pcdsdevices.gauge.BaseGauge.destroy</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.format_status_info.html">pcdsdevices.gauge.BaseGauge.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.get.html">pcdsdevices.gauge.BaseGauge.get</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.get_device_tuple.html">pcdsdevices.gauge.BaseGauge.get_device_tuple</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.get_instantiated_signals.html">pcdsdevices.gauge.BaseGauge.get_instantiated_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.pause.html">pcdsdevices.gauge.BaseGauge.pause</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.put.html">pcdsdevices.gauge.BaseGauge.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.read.html">pcdsdevices.gauge.BaseGauge.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.read_configuration.html">pcdsdevices.gauge.BaseGauge.read_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.resume.html">pcdsdevices.gauge.BaseGauge.resume</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.stage.html">pcdsdevices.gauge.BaseGauge.stage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.status_info.html">pcdsdevices.gauge.BaseGauge.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.stop.html">pcdsdevices.gauge.BaseGauge.stop</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.subscribe.html">pcdsdevices.gauge.BaseGauge.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.summary.html">pcdsdevices.gauge.BaseGauge.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.trigger.html">pcdsdevices.gauge.BaseGauge.trigger</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.unstage.html">pcdsdevices.gauge.BaseGauge.unstage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.unsubscribe.html">pcdsdevices.gauge.BaseGauge.unsubscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.unsubscribe_all.html">pcdsdevices.gauge.BaseGauge.unsubscribe_all</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.wait_for_connection.html">pcdsdevices.gauge.BaseGauge.wait_for_connection</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.walk_components.html">pcdsdevices.gauge.BaseGauge.walk_components</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.walk_signals.html">pcdsdevices.gauge.BaseGauge.walk_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.walk_subdevice_classes.html">pcdsdevices.gauge.BaseGauge.walk_subdevice_classes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gauge.BaseGauge.walk_subdevices.html">pcdsdevices.gauge.BaseGauge.walk_subdevices</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.gauge.GCC500PLC.html">pcdsdevices.gauge.GCC500PLC</a></li>
@@ -294,7 +272,7 @@ with the <code class="docutils literal notranslate"><span class="pre">event_mode
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.gauge.BaseGauge.describe_configuration.html" class="btn btn-neutral float-right" title="pcdsdevices.gauge.BaseGauge.describe_configuration" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.gauge.BaseGauge.get.html" class="btn btn-neutral float-right" title="pcdsdevices.gauge.BaseGauge.get" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="pcdsdevices.gauge.BaseGauge.configure.html" class="btn btn-neutral float-left" title="pcdsdevices.gauge.BaseGauge.configure" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

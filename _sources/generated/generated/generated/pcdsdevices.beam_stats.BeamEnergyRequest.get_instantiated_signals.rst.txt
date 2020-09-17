@@ -1,6 +1,0 @@
-pcdsdevices.beam\_stats.BeamEnergyRequest.get\_instantiated\_signals
-====================================================================
-
-.. currentmodule:: pcdsdevices.beam_stats
-
-.. automethod:: BeamEnergyRequest.get_instantiated_signals

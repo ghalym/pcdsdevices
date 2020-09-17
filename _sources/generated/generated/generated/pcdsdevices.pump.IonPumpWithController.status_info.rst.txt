@@ -1,6 +1,0 @@
-pcdsdevices.pump.IonPumpWithController.status\_info
-===================================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: IonPumpWithController.status_info

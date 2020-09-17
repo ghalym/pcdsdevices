@@ -1,6 +1,0 @@
-pcdsdevices.sensors.RTD.destroy
-===============================
-
-.. currentmodule:: pcdsdevices.sensors
-
-.. automethod:: RTD.destroy

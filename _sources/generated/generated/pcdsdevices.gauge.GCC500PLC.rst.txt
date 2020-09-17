@@ -7,77 +7,159 @@ pcdsdevices.gauge.GCC500PLC
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~GCC500PLC.__init__
-      ~GCC500PLC.add_instantiation_callback
-      ~GCC500PLC.check_value
-      ~GCC500PLC.clear_sub
-      ~GCC500PLC.configure
-      ~GCC500PLC.describe
-      ~GCC500PLC.describe_configuration
-      ~GCC500PLC.destroy
-      ~GCC500PLC.get
-      ~GCC500PLC.get_device_tuple
-      ~GCC500PLC.get_instantiated_signals
-      ~GCC500PLC.pause
-      ~GCC500PLC.put
-      ~GCC500PLC.read
-      ~GCC500PLC.read_configuration
-      ~GCC500PLC.resume
-      ~GCC500PLC.stage
-      ~GCC500PLC.stop
-      ~GCC500PLC.subscribe
-      ~GCC500PLC.summary
-      ~GCC500PLC.trigger
-      ~GCC500PLC.unstage
-      ~GCC500PLC.unsubscribe
-      ~GCC500PLC.unsubscribe_all
-      ~GCC500PLC.wait_for_connection
-      ~GCC500PLC.walk_components
-      ~GCC500PLC.walk_signals
-      ~GCC500PLC.walk_subdevice_classes
-      ~GCC500PLC.walk_subdevices
+       *  -  pressure
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PRESS_RBV``
+          -  gauge pressure reading
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.gauge.GCCPLC`
+   
+       *  -  gauge_at_vac
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:AT_VAC_RBV``
+          -  gauge is at VAC
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gauge.GCCPLC`
+   
+       *  -  pressure_ok
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PRESS_OK_RBV``
+          -  pressure reading ok
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gauge.GCCPLC`
+   
+       *  -  at_vac_setpoint
+          -  :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
+          -  ``:VAC_SP``
+          -  At vacuum setpoint for all gauges
+          -  config
+          -  Inherited from :class:`~pcdsdevices.gauge.GCCPLC`
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:STATE_RBV``
+          -  state of the gauge
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.gauge.GCCPLC`
+   
+       *  -  high_voltage_on
+          -  :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
+          -  ``:HV_SW``
+          -  command to switch the hight voltage on
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gauge.GCCPLC`
+   
+       *  -  high_voltage_disable
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:HV_DIS_DO_RBV``
+          -  enables the high voltage on the cold cathode gauge
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gauge.GCCPLC`
+   
+       *  -  protection_setpoint
+          -  :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
+          -  ``:PRO_SP``
+          -  Protection setpoint for ion gauges at which the gauge turns off
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gauge.GCCPLC`
+   
+       *  -  setpoint_hysterisis
+          -  :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
+          -  ``:SP_HYS``
+          -  Protection setpoint hysteresis
+          -  config
+          -  Inherited from :class:`~pcdsdevices.gauge.GCCPLC`
+   
+       *  -  interlock_ok
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:ILK_OK_RBV``
+          -  Interlock is ok
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gauge.GCCPLC`
+   
+       *  -  high_voltage_is_on
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:HV_ON_RBV``
+          -  state of the HV
+          -  normal
+          -  
+   
+       *  -  disc_active
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:DISC_ACTIVE_RBV``
+          -  discharge current active
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~GCC500PLC.SUB_ACQ_DONE
-      ~GCC500PLC.at_vac_setpoint
-      ~GCC500PLC.attr_name
-      ~GCC500PLC.component_names
-      ~GCC500PLC.configuration_attrs
-      ~GCC500PLC.connected
-      ~GCC500PLC.disc_active
-      ~GCC500PLC.dotted_name
-      ~GCC500PLC.event_types
-      ~GCC500PLC.gauge_at_vac
-      ~GCC500PLC.high_voltage_disable
-      ~GCC500PLC.high_voltage_is_on
-      ~GCC500PLC.high_voltage_on
-      ~GCC500PLC.hints
-      ~GCC500PLC.interlock_ok
-      ~GCC500PLC.kind
-      ~GCC500PLC.lazy_wait_for_connection
-      ~GCC500PLC.name
-      ~GCC500PLC.parent
-      ~GCC500PLC.pressure
-      ~GCC500PLC.pressure_ok
-      ~GCC500PLC.protection_setpoint
-      ~GCC500PLC.read_attrs
-      ~GCC500PLC.report
-      ~GCC500PLC.root
-      ~GCC500PLC.setpoint_hysterisis
-      ~GCC500PLC.signal_names
-      ~GCC500PLC.state
-      ~GCC500PLC.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~GCC500PLC.configure
+       ~GCC500PLC.describe
+       ~GCC500PLC.get
+       ~GCC500PLC.read
+       ~GCC500PLC.read_configuration
+       ~GCC500PLC.stop
+       ~GCC500PLC.summary
+       ~GCC500PLC.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~GCC500PLC.configuration_attrs
+       ~GCC500PLC.connected
+       ~GCC500PLC.hints
+       ~GCC500PLC.kind
+    
+    

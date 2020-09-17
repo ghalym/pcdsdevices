@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.FeeFilter.wait\_for\_connection
-======================================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: FeeFilter.wait_for_connection

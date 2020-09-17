@@ -1,6 +1,0 @@
-pcdsdevices.slits.BeckhoffSlits.clear\_sub
-==========================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: BeckhoffSlits.clear_sub

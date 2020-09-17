@@ -1,6 +1,0 @@
-pcdsdevices.pump.PIPPLC.subscribe
-=================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: PIPPLC.subscribe

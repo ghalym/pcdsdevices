@@ -1,6 +1,0 @@
-pcdsdevices.jet.Injector.get\_instantiated\_signals
-===================================================
-
-.. currentmodule:: pcdsdevices.jet
-
-.. automethod:: Injector.get_instantiated_signals

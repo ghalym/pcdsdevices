@@ -1,6 +1,0 @@
-pcdsdevices.mirror.Gantry.format\_status\_info
-==============================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: Gantry.format_status_info

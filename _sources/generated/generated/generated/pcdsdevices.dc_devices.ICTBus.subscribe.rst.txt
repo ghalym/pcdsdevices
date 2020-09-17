@@ -1,6 +1,0 @@
-pcdsdevices.dc\_devices.ICTBus.subscribe
-========================================
-
-.. currentmodule:: pcdsdevices.dc_devices
-
-.. automethod:: ICTBus.subscribe

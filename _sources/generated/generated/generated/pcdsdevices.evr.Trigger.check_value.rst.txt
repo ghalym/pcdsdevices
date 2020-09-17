@@ -1,6 +1,0 @@
-pcdsdevices.evr.Trigger.check\_value
-====================================
-
-.. currentmodule:: pcdsdevices.evr
-
-.. automethod:: Trigger.check_value

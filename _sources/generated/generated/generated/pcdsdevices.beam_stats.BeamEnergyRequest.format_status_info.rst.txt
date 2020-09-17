@@ -1,6 +1,0 @@
-pcdsdevices.beam\_stats.BeamEnergyRequest.format\_status\_info
-==============================================================
-
-.. currentmodule:: pcdsdevices.beam_stats
-
-.. automethod:: BeamEnergyRequest.format_status_info

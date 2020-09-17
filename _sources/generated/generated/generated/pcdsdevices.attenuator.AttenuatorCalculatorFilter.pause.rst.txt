@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.AttenuatorCalculatorFilter.pause
-=======================================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: AttenuatorCalculatorFilter.pause

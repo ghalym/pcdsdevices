@@ -1,6 +1,0 @@
-pcdsdevices.mirror.OMMotor.pause
-================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: OMMotor.pause

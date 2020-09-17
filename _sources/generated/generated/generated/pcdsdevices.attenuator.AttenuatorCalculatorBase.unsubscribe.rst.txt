@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.AttenuatorCalculatorBase.unsubscribe
-===========================================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: AttenuatorCalculatorBase.unsubscribe

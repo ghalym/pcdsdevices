@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.DelayNewport.format\_status\_info
-==========================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: DelayNewport.format_status_info

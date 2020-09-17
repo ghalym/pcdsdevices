@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.AT2L0.pause
-==================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: AT2L0.pause

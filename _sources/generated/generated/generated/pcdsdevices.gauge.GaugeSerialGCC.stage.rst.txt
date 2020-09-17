@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GaugeSerialGCC.stage
-======================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GaugeSerialGCC.stage

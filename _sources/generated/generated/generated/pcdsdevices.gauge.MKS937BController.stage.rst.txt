@@ -1,6 +1,0 @@
-pcdsdevices.gauge.MKS937BController.stage
-=========================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: MKS937BController.stage

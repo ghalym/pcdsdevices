@@ -1,6 +1,0 @@
-pcdsdevices.pump.PIPPLC.put
-===========================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: PIPPLC.put

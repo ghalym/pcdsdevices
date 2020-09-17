@@ -1,6 +1,0 @@
-pcdsdevices.pump.PROPLC.unsubscribe\_all
-========================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: PROPLC.unsubscribe_all

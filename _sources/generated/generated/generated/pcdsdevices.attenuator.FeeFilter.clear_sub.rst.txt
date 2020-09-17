@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.FeeFilter.clear\_sub
-===========================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: FeeFilter.clear_sub

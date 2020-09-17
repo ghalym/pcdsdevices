@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.LookupTablePositioner.clear\_sub
-======================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: LookupTablePositioner.clear_sub

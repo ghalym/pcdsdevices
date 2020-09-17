@@ -1,6 +1,0 @@
-pcdsdevices.valve.PPSStopper.unstage
-====================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: PPSStopper.unstage

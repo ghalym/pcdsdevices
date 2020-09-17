@@ -1,6 +1,0 @@
-pcdsdevices.valve.VFS.destroy
-=============================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VFS.destroy

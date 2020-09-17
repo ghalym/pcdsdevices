@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.Dectris.format\_status\_info
-==============================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: Dectris.format_status_info

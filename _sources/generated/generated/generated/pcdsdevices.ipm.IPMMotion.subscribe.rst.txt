@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPMMotion.subscribe
-===================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPMMotion.subscribe

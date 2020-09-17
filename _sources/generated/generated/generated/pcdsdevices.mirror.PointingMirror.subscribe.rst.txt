@@ -1,6 +1,0 @@
-pcdsdevices.mirror.PointingMirror.subscribe
-===========================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: PointingMirror.subscribe

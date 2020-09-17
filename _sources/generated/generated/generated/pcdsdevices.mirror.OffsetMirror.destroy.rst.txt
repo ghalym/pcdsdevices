@@ -1,6 +1,0 @@
-pcdsdevices.mirror.OffsetMirror.destroy
-=======================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: OffsetMirror.destroy

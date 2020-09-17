@@ -1,6 +1,0 @@
-pcdsdevices.beam\_stats.BeamStats.format\_status\_info
-======================================================
-
-.. currentmodule:: pcdsdevices.beam_stats
-
-.. automethod:: BeamStats.format_status_info

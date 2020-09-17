@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.LODCM.walk\_subdevices
-================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: LODCM.walk_subdevices

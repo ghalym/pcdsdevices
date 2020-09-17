@@ -1,6 +1,0 @@
-pcdsdevices.pump.PTMPLC.check\_value
-====================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: PTMPLC.check_value

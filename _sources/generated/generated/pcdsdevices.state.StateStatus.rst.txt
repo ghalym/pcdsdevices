@@ -7,33 +7,36 @@ pcdsdevices.state.StateStatus
 
    
    
-   .. rubric:: Methods
-
-   .. autosummary::
-      :toctree: generated
-   
-      ~StateStatus.__init__
-      ~StateStatus.add_callback
-      ~StateStatus.check_value
-      ~StateStatus.exception
-      ~StateStatus.set_exception
-      ~StateStatus.set_finished
-      ~StateStatus.wait
-      ~StateStatus.watch
-   
    
 
-   
-   
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~StateStatus.callbacks
-      ~StateStatus.done
-      ~StateStatus.finished_cb
-      ~StateStatus.settle_time
-      ~StateStatus.success
-      ~StateStatus.timeout
-   
-   
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~StateStatus.add_callback
+       ~StateStatus.exception
+       ~StateStatus.set_exception
+       ~StateStatus.set_finished
+       ~StateStatus.wait
+       ~StateStatus.watch
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~StateStatus.callbacks
+       ~StateStatus.done
+       ~StateStatus.finished_cb
+       ~StateStatus.settle_time
+       ~StateStatus.success
+       ~StateStatus.timeout
+    
+    

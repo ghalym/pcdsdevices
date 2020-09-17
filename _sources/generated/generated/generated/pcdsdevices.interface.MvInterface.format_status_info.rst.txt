@@ -1,6 +1,0 @@
-pcdsdevices.interface.MvInterface.format\_status\_info
-======================================================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. automethod:: MvInterface.format_status_info

@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.BeckhoffAxis.stage
-============================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: BeckhoffAxis.stage

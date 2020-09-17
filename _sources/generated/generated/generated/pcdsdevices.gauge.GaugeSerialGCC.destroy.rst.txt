@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GaugeSerialGCC.destroy
-========================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GaugeSerialGCC.destroy

@@ -1,6 +1,0 @@
-pcdsdevices.gon.Kappa.destroy
-=============================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: Kappa.destroy

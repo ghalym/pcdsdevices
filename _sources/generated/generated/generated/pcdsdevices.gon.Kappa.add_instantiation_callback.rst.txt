@@ -1,6 +1,0 @@
-pcdsdevices.gon.Kappa.add\_instantiation\_callback
-==================================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: Kappa.add_instantiation_callback

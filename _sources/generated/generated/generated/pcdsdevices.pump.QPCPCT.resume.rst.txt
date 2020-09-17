@@ -1,6 +1,0 @@
-pcdsdevices.pump.QPCPCT.resume
-==============================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: QPCPCT.resume

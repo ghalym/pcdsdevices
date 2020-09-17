@@ -1,6 +1,0 @@
-pcdsdevices.gon.SamPhi.put
-==========================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SamPhi.put

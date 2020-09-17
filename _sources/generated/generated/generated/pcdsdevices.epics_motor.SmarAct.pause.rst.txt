@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.SmarAct.pause
-======================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: SmarAct.pause

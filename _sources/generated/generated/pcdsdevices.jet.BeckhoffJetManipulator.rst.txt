@@ -7,72 +7,78 @@ pcdsdevices.jet.BeckhoffJetManipulator
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~BeckhoffJetManipulator.__init__
-      ~BeckhoffJetManipulator.add_instantiation_callback
-      ~BeckhoffJetManipulator.check_value
-      ~BeckhoffJetManipulator.clear_sub
-      ~BeckhoffJetManipulator.configure
-      ~BeckhoffJetManipulator.describe
-      ~BeckhoffJetManipulator.describe_configuration
-      ~BeckhoffJetManipulator.destroy
-      ~BeckhoffJetManipulator.format_status_info
-      ~BeckhoffJetManipulator.get
-      ~BeckhoffJetManipulator.get_device_tuple
-      ~BeckhoffJetManipulator.get_instantiated_signals
-      ~BeckhoffJetManipulator.pause
-      ~BeckhoffJetManipulator.put
-      ~BeckhoffJetManipulator.read
-      ~BeckhoffJetManipulator.read_configuration
-      ~BeckhoffJetManipulator.resume
-      ~BeckhoffJetManipulator.stage
-      ~BeckhoffJetManipulator.status_info
-      ~BeckhoffJetManipulator.stop
-      ~BeckhoffJetManipulator.subscribe
-      ~BeckhoffJetManipulator.summary
-      ~BeckhoffJetManipulator.trigger
-      ~BeckhoffJetManipulator.unstage
-      ~BeckhoffJetManipulator.unsubscribe
-      ~BeckhoffJetManipulator.unsubscribe_all
-      ~BeckhoffJetManipulator.wait_for_connection
-      ~BeckhoffJetManipulator.walk_components
-      ~BeckhoffJetManipulator.walk_signals
-      ~BeckhoffJetManipulator.walk_subdevice_classes
-      ~BeckhoffJetManipulator.walk_subdevices
+       *  -  x
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``:X``
+          -  
+          -  normal
+          -  
    
+       *  -  y
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``:Y``
+          -  
+          -  normal
+          -  
+   
+       *  -  z
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``:Z``
+          -  
+          -  normal
+          -  
    
 
    
    
-   .. rubric:: Attributes
+   
+   
+   
+   
+   
 
-   .. autosummary::
-   
-      ~BeckhoffJetManipulator.SUB_ACQ_DONE
-      ~BeckhoffJetManipulator.attr_name
-      ~BeckhoffJetManipulator.component_names
-      ~BeckhoffJetManipulator.configuration_attrs
-      ~BeckhoffJetManipulator.connected
-      ~BeckhoffJetManipulator.dotted_name
-      ~BeckhoffJetManipulator.event_types
-      ~BeckhoffJetManipulator.hints
-      ~BeckhoffJetManipulator.kind
-      ~BeckhoffJetManipulator.lazy_wait_for_connection
-      ~BeckhoffJetManipulator.name
-      ~BeckhoffJetManipulator.parent
-      ~BeckhoffJetManipulator.read_attrs
-      ~BeckhoffJetManipulator.report
-      ~BeckhoffJetManipulator.root
-      ~BeckhoffJetManipulator.signal_names
-      ~BeckhoffJetManipulator.tab_component_names
-      ~BeckhoffJetManipulator.tab_whitelist
-      ~BeckhoffJetManipulator.trigger_signals
-      ~BeckhoffJetManipulator.x
-      ~BeckhoffJetManipulator.y
-      ~BeckhoffJetManipulator.z
    
    
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~BeckhoffJetManipulator.configure
+       ~BeckhoffJetManipulator.describe
+       ~BeckhoffJetManipulator.get
+       ~BeckhoffJetManipulator.read
+       ~BeckhoffJetManipulator.read_configuration
+       ~BeckhoffJetManipulator.stop
+       ~BeckhoffJetManipulator.summary
+       ~BeckhoffJetManipulator.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~BeckhoffJetManipulator.configuration_attrs
+       ~BeckhoffJetManipulator.connected
+       ~BeckhoffJetManipulator.hints
+       ~BeckhoffJetManipulator.kind
+    
+    

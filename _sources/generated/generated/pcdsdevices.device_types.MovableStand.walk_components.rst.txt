@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.MovableStand.walk\_components
-=======================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: MovableStand.walk_components

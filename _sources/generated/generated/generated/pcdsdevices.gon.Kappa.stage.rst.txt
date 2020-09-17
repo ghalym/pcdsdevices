@@ -1,6 +1,0 @@
-pcdsdevices.gon.Kappa.stage
-===========================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: Kappa.stage

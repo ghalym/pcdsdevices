@@ -1,6 +1,0 @@
-pcdsdevices.pump.PTMPLC.subscribe
-=================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: PTMPLC.subscribe

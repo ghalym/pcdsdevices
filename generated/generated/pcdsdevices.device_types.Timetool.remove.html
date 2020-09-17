@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.Timetool.remove &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.device_types.Timetool.remove &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,7 +37,7 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="pcdsdevices.device_types.Timetool.resume" href="pcdsdevices.device_types.Timetool.resume.html" />
+    <link rel="next" title="pcdsdevices.device_types.Timetool.set" href="pcdsdevices.device_types.Timetool.set.html" />
     <link rel="prev" title="pcdsdevices.device_types.Timetool.read_configuration" href="pcdsdevices.device_types.Timetool.read_configuration.html" /> 
 </head>
 
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -125,49 +126,26 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Slits.html">pcdsdevices.device_types.Slits</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Stopper.html">pcdsdevices.device_types.Stopper</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.device_types.Timetool.html">pcdsdevices.device_types.Timetool</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.__init__.html">pcdsdevices.device_types.Timetool.__init__</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.add_instantiation_callback.html">pcdsdevices.device_types.Timetool.add_instantiation_callback</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.camonitor.html">pcdsdevices.device_types.Timetool.camonitor</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.check_inserted.html">pcdsdevices.device_types.Timetool.check_inserted</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.check_removed.html">pcdsdevices.device_types.Timetool.check_removed</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.check_transmission.html">pcdsdevices.device_types.Timetool.check_transmission</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.check_value.html">pcdsdevices.device_types.Timetool.check_value</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.clear_sub.html">pcdsdevices.device_types.Timetool.clear_sub</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.configure.html">pcdsdevices.device_types.Timetool.configure</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.describe.html">pcdsdevices.device_types.Timetool.describe</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.describe_configuration.html">pcdsdevices.device_types.Timetool.describe_configuration</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.destroy.html">pcdsdevices.device_types.Timetool.destroy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.end_monitor_thread.html">pcdsdevices.device_types.Timetool.end_monitor_thread</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.format_status_info.html">pcdsdevices.device_types.Timetool.format_status_info</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.get.html">pcdsdevices.device_types.Timetool.get</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.get_device_tuple.html">pcdsdevices.device_types.Timetool.get_device_tuple</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.get_instantiated_signals.html">pcdsdevices.device_types.Timetool.get_instantiated_signals</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.get_state.html">pcdsdevices.device_types.Timetool.get_state</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.insert.html">pcdsdevices.device_types.Timetool.insert</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.move.html">pcdsdevices.device_types.Timetool.move</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.mv.html">pcdsdevices.device_types.Timetool.mv</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.pause.html">pcdsdevices.device_types.Timetool.pause</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.put.html">pcdsdevices.device_types.Timetool.put</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.read.html">pcdsdevices.device_types.Timetool.read</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.read_configuration.html">pcdsdevices.device_types.Timetool.read_configuration</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.device_types.Timetool.remove</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.resume.html">pcdsdevices.device_types.Timetool.resume</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.set.html">pcdsdevices.device_types.Timetool.set</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.stage.html">pcdsdevices.device_types.Timetool.stage</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.status_info.html">pcdsdevices.device_types.Timetool.status_info</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.stop.html">pcdsdevices.device_types.Timetool.stop</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.subscribe.html">pcdsdevices.device_types.Timetool.subscribe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.summary.html">pcdsdevices.device_types.Timetool.summary</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.trigger.html">pcdsdevices.device_types.Timetool.trigger</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.unstage.html">pcdsdevices.device_types.Timetool.unstage</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.unsubscribe.html">pcdsdevices.device_types.Timetool.unsubscribe</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.unsubscribe_all.html">pcdsdevices.device_types.Timetool.unsubscribe_all</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.wait.html">pcdsdevices.device_types.Timetool.wait</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.wait_for_connection.html">pcdsdevices.device_types.Timetool.wait_for_connection</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.walk_components.html">pcdsdevices.device_types.Timetool.walk_components</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.walk_signals.html">pcdsdevices.device_types.Timetool.walk_signals</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.walk_subdevice_classes.html">pcdsdevices.device_types.Timetool.walk_subdevice_classes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.walk_subdevices.html">pcdsdevices.device_types.Timetool.walk_subdevices</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.wm.html">pcdsdevices.device_types.Timetool.wm</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.Timetool.wm_update.html">pcdsdevices.device_types.Timetool.wm_update</a></li>
 </ul>
@@ -291,7 +269,7 @@ instance.</p></li>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.device_types.Timetool.resume.html" class="btn btn-neutral float-right" title="pcdsdevices.device_types.Timetool.resume" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.device_types.Timetool.set.html" class="btn btn-neutral float-right" title="pcdsdevices.device_types.Timetool.set" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="pcdsdevices.device_types.Timetool.read_configuration.html" class="btn btn-neutral float-left" title="pcdsdevices.device_types.Timetool.read_configuration" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

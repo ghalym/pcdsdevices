@@ -1,6 +1,0 @@
-pcdsdevices.interface.BaseInterface.format\_status\_info
-========================================================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. automethod:: BaseInterface.format_status_info

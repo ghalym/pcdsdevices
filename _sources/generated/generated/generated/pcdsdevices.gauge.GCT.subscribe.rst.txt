@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GCT.subscribe
-===============================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GCT.subscribe

@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SimDelayStage.get\_instantiated\_signals
-==============================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SimDelayStage.get_instantiated_signals

@@ -1,6 +1,0 @@
-pcdsdevices.inout.TTReflaser.pause
-==================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: TTReflaser.pause

@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMWithFocus.subscribe
-======================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMWithFocus.subscribe

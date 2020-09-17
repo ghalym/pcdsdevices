@@ -1,6 +1,0 @@
-pcdsdevices.mps.MPSLimits.unsubscribe\_all
-==========================================
-
-.. currentmodule:: pcdsdevices.mps
-
-.. automethod:: MPSLimits.unsubscribe_all

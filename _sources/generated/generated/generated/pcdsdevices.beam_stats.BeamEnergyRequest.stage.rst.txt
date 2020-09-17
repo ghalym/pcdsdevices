@@ -1,6 +1,0 @@
-pcdsdevices.beam\_stats.BeamEnergyRequest.stage
-===============================================
-
-.. currentmodule:: pcdsdevices.beam_stats
-
-.. automethod:: BeamEnergyRequest.stage

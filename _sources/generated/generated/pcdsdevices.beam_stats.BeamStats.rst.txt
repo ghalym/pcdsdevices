@@ -7,75 +7,105 @@ pcdsdevices.beam\_stats.BeamStats
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~BeamStats.__init__
-      ~BeamStats.add_instantiation_callback
-      ~BeamStats.check_value
-      ~BeamStats.clear_sub
-      ~BeamStats.configure
-      ~BeamStats.describe
-      ~BeamStats.describe_configuration
-      ~BeamStats.destroy
-      ~BeamStats.format_status_info
-      ~BeamStats.get
-      ~BeamStats.get_device_tuple
-      ~BeamStats.get_instantiated_signals
-      ~BeamStats.pause
-      ~BeamStats.put
-      ~BeamStats.read
-      ~BeamStats.read_configuration
-      ~BeamStats.resume
-      ~BeamStats.stage
-      ~BeamStats.status_info
-      ~BeamStats.stop
-      ~BeamStats.subscribe
-      ~BeamStats.summary
-      ~BeamStats.trigger
-      ~BeamStats.unstage
-      ~BeamStats.unsubscribe
-      ~BeamStats.unsubscribe_all
-      ~BeamStats.wait_for_connection
-      ~BeamStats.walk_components
-      ~BeamStats.walk_signals
-      ~BeamStats.walk_subdevice_classes
-      ~BeamStats.walk_subdevices
+       *  -  mj
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``GDET:FEE1:241:ENRC``
+          -  
+          -  hinted
+          -  
+   
+       *  -  ev
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``BLD:SYS0:500:PHOTONENERGY``
+          -  
+          -  normal
+          -  
+   
+       *  -  rate
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``EVNT:SYS0:1:LCLSBEAMRATE``
+          -  
+          -  normal
+          -  
+   
+       *  -  owner
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``ECS:SYS0:0:BEAM_OWNER_ID``
+          -  
+          -  omitted
+          -  
+   
+       *  -  mj_avg
+          -  :class:`~pcdsdevices.signal.AvgSignal`
+          -  ``mj``
+          -  
+          -  normal
+          -  
+   
+       *  -  mj_buffersize
+          -  :class:`~ophyd.signal.AttributeSignal`
+          -  ``mj_avg.averages``
+          -  
+          -  config
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~BeamStats.SUB_ACQ_DONE
-      ~BeamStats.attr_name
-      ~BeamStats.component_names
-      ~BeamStats.configuration_attrs
-      ~BeamStats.connected
-      ~BeamStats.dotted_name
-      ~BeamStats.ev
-      ~BeamStats.event_types
-      ~BeamStats.hints
-      ~BeamStats.kind
-      ~BeamStats.lazy_wait_for_connection
-      ~BeamStats.mj
-      ~BeamStats.mj_avg
-      ~BeamStats.mj_buffersize
-      ~BeamStats.name
-      ~BeamStats.owner
-      ~BeamStats.parent
-      ~BeamStats.rate
-      ~BeamStats.read_attrs
-      ~BeamStats.report
-      ~BeamStats.root
-      ~BeamStats.signal_names
-      ~BeamStats.tab_component_names
-      ~BeamStats.tab_whitelist
-      ~BeamStats.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~BeamStats.configure
+       ~BeamStats.describe
+       ~BeamStats.get
+       ~BeamStats.read
+       ~BeamStats.read_configuration
+       ~BeamStats.stop
+       ~BeamStats.summary
+       ~BeamStats.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~BeamStats.configuration_attrs
+       ~BeamStats.connected
+       ~BeamStats.hints
+       ~BeamStats.kind
+    
+    

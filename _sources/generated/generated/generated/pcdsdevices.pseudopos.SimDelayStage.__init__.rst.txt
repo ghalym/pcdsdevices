@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SimDelayStage.\_\_init\_\_
-================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SimDelayStage.__init__

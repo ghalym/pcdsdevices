@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GCCPLC.pause
-==============================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GCCPLC.pause

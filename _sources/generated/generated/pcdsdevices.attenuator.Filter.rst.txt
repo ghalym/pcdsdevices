@@ -7,106 +7,122 @@ pcdsdevices.attenuator.Filter
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~Filter.__init__
-      ~Filter.add_instantiation_callback
-      ~Filter.camonitor
-      ~Filter.check_inserted
-      ~Filter.check_removed
-      ~Filter.check_transmission
-      ~Filter.check_value
-      ~Filter.clear_sub
-      ~Filter.configure
-      ~Filter.describe
-      ~Filter.describe_configuration
-      ~Filter.destroy
-      ~Filter.end_monitor_thread
-      ~Filter.format_status_info
-      ~Filter.get
-      ~Filter.get_device_tuple
-      ~Filter.get_instantiated_signals
-      ~Filter.get_state
-      ~Filter.insert
-      ~Filter.move
-      ~Filter.mv
-      ~Filter.pause
-      ~Filter.put
-      ~Filter.read
-      ~Filter.read_configuration
-      ~Filter.remove
-      ~Filter.resume
-      ~Filter.set
-      ~Filter.stage
-      ~Filter.status_info
-      ~Filter.stop
-      ~Filter.subscribe
-      ~Filter.summary
-      ~Filter.trigger
-      ~Filter.unstage
-      ~Filter.unsubscribe
-      ~Filter.unsubscribe_all
-      ~Filter.wait
-      ~Filter.wait_for_connection
-      ~Filter.walk_components
-      ~Filter.walk_signals
-      ~Filter.walk_subdevice_classes
-      ~Filter.walk_subdevices
-      ~Filter.wm
-      ~Filter.wm_update
+       *  -  status
+          -  :class:`~pcdsdevices.signal.InternalSignal`
+          -  
+          -  
+          -  normal
+          -  
    
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:STATE``
+          -  
+          -  normal
+          -  
+   
+       *  -  stuck
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:IS_STUCK``
+          -  
+          -  normal
+          -  
+   
+       *  -  thickness
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:THICK``
+          -  
+          -  config
+          -  
+   
+       *  -  material
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:MATERIAL``
+          -  
+          -  config
+          -  
    
 
    
    
-   .. rubric:: Attributes
+   
+   
+   
+   
+   
+   
+   
+   
+   
 
-   .. autosummary::
-   
-      ~Filter.SUB_ACQ_DONE
-      ~Filter.SUB_DONE
-      ~Filter.SUB_READBACK
-      ~Filter.SUB_START
-      ~Filter.SUB_STATE
-      ~Filter.attr_name
-      ~Filter.component_names
-      ~Filter.configuration_attrs
-      ~Filter.connected
-      ~Filter.dotted_name
-      ~Filter.egu
-      ~Filter.event_types
-      ~Filter.high_limit
-      ~Filter.hints
-      ~Filter.in_states
-      ~Filter.inserted
-      ~Filter.kind
-      ~Filter.lazy_wait_for_connection
-      ~Filter.limits
-      ~Filter.low_limit
-      ~Filter.material
-      ~Filter.moving
-      ~Filter.name
-      ~Filter.out_states
-      ~Filter.parent
-      ~Filter.position
-      ~Filter.read_attrs
-      ~Filter.removed
-      ~Filter.report
-      ~Filter.root
-      ~Filter.settle_time
-      ~Filter.signal_names
-      ~Filter.state
-      ~Filter.states_list
-      ~Filter.status
-      ~Filter.stuck
-      ~Filter.tab_component_names
-      ~Filter.tab_whitelist
-      ~Filter.thickness
-      ~Filter.timeout
-      ~Filter.transmission
-      ~Filter.trigger_signals
    
    
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Filter.camonitor
+       ~Filter.check_inserted
+       ~Filter.check_removed
+       ~Filter.check_transmission
+       ~Filter.configure
+       ~Filter.describe
+       ~Filter.end_monitor_thread
+       ~Filter.get
+       ~Filter.get_state
+       ~Filter.insert
+       ~Filter.move
+       ~Filter.mv
+       ~Filter.read
+       ~Filter.read_configuration
+       ~Filter.remove
+       ~Filter.set
+       ~Filter.stop
+       ~Filter.summary
+       ~Filter.trigger
+       ~Filter.wait
+       ~Filter.wm
+       ~Filter.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Filter.configuration_attrs
+       ~Filter.connected
+       ~Filter.egu
+       ~Filter.high_limit
+       ~Filter.hints
+       ~Filter.in_states
+       ~Filter.kind
+       ~Filter.limits
+       ~Filter.low_limit
+       ~Filter.moving
+       ~Filter.out_states
+       ~Filter.position
+       ~Filter.settle_time
+       ~Filter.states_list
+       ~Filter.timeout
+       ~Filter.transmission
+    
+    

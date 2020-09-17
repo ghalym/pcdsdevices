@@ -7,94 +7,96 @@ pcdsdevices.pim.XPIMFilterWheel
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~XPIMFilterWheel.__init__
-      ~XPIMFilterWheel.add_instantiation_callback
-      ~XPIMFilterWheel.camonitor
-      ~XPIMFilterWheel.check_value
-      ~XPIMFilterWheel.clear_sub
-      ~XPIMFilterWheel.configure
-      ~XPIMFilterWheel.describe
-      ~XPIMFilterWheel.describe_configuration
-      ~XPIMFilterWheel.destroy
-      ~XPIMFilterWheel.end_monitor_thread
-      ~XPIMFilterWheel.format_status_info
-      ~XPIMFilterWheel.get
-      ~XPIMFilterWheel.get_device_tuple
-      ~XPIMFilterWheel.get_instantiated_signals
-      ~XPIMFilterWheel.get_state
-      ~XPIMFilterWheel.move
-      ~XPIMFilterWheel.mv
-      ~XPIMFilterWheel.pause
-      ~XPIMFilterWheel.put
-      ~XPIMFilterWheel.read
-      ~XPIMFilterWheel.read_configuration
-      ~XPIMFilterWheel.resume
-      ~XPIMFilterWheel.set
-      ~XPIMFilterWheel.stage
-      ~XPIMFilterWheel.status_info
-      ~XPIMFilterWheel.stop
-      ~XPIMFilterWheel.subscribe
-      ~XPIMFilterWheel.summary
-      ~XPIMFilterWheel.trigger
-      ~XPIMFilterWheel.unstage
-      ~XPIMFilterWheel.unsubscribe
-      ~XPIMFilterWheel.unsubscribe_all
-      ~XPIMFilterWheel.wait
-      ~XPIMFilterWheel.wait_for_connection
-      ~XPIMFilterWheel.walk_components
-      ~XPIMFilterWheel.walk_signals
-      ~XPIMFilterWheel.walk_subdevice_classes
-      ~XPIMFilterWheel.walk_subdevices
-      ~XPIMFilterWheel.wm
-      ~XPIMFilterWheel.wm_update
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:GET_RBV``
+          -  Control of the filter wheel state by preset transmission percentages.
+          -  normal
+          -  
+   
+       *  -  reset_cmd
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:ERR:RESET``
+          -  Command to reset a filter wheel error.
+          -  omitted
+          -  
+   
+       *  -  error_message
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:ERR:MSG``
+          -  Error text for a filter wheel error.
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~XPIMFilterWheel.SUB_ACQ_DONE
-      ~XPIMFilterWheel.SUB_DONE
-      ~XPIMFilterWheel.SUB_READBACK
-      ~XPIMFilterWheel.SUB_START
-      ~XPIMFilterWheel.SUB_STATE
-      ~XPIMFilterWheel.attr_name
-      ~XPIMFilterWheel.component_names
-      ~XPIMFilterWheel.configuration_attrs
-      ~XPIMFilterWheel.connected
-      ~XPIMFilterWheel.dotted_name
-      ~XPIMFilterWheel.egu
-      ~XPIMFilterWheel.error_message
-      ~XPIMFilterWheel.event_types
-      ~XPIMFilterWheel.high_limit
-      ~XPIMFilterWheel.hints
-      ~XPIMFilterWheel.kind
-      ~XPIMFilterWheel.lazy_wait_for_connection
-      ~XPIMFilterWheel.limits
-      ~XPIMFilterWheel.low_limit
-      ~XPIMFilterWheel.moving
-      ~XPIMFilterWheel.name
-      ~XPIMFilterWheel.parent
-      ~XPIMFilterWheel.position
-      ~XPIMFilterWheel.read_attrs
-      ~XPIMFilterWheel.report
-      ~XPIMFilterWheel.reset_cmd
-      ~XPIMFilterWheel.root
-      ~XPIMFilterWheel.settle_time
-      ~XPIMFilterWheel.signal_names
-      ~XPIMFilterWheel.state
-      ~XPIMFilterWheel.states_list
-      ~XPIMFilterWheel.tab_component_names
-      ~XPIMFilterWheel.tab_whitelist
-      ~XPIMFilterWheel.timeout
-      ~XPIMFilterWheel.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~XPIMFilterWheel.camonitor
+       ~XPIMFilterWheel.configure
+       ~XPIMFilterWheel.describe
+       ~XPIMFilterWheel.end_monitor_thread
+       ~XPIMFilterWheel.get
+       ~XPIMFilterWheel.get_state
+       ~XPIMFilterWheel.move
+       ~XPIMFilterWheel.mv
+       ~XPIMFilterWheel.read
+       ~XPIMFilterWheel.read_configuration
+       ~XPIMFilterWheel.set
+       ~XPIMFilterWheel.stop
+       ~XPIMFilterWheel.summary
+       ~XPIMFilterWheel.trigger
+       ~XPIMFilterWheel.wait
+       ~XPIMFilterWheel.wm
+       ~XPIMFilterWheel.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~XPIMFilterWheel.configuration_attrs
+       ~XPIMFilterWheel.connected
+       ~XPIMFilterWheel.egu
+       ~XPIMFilterWheel.high_limit
+       ~XPIMFilterWheel.hints
+       ~XPIMFilterWheel.kind
+       ~XPIMFilterWheel.limits
+       ~XPIMFilterWheel.low_limit
+       ~XPIMFilterWheel.moving
+       ~XPIMFilterWheel.position
+       ~XPIMFilterWheel.settle_time
+       ~XPIMFilterWheel.states_list
+       ~XPIMFilterWheel.timeout
+    
+    

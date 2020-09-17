@@ -7,75 +7,74 @@ pcdsdevices.analog\_signals.Mesh
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~Mesh.__init__
-      ~Mesh.add_instantiation_callback
-      ~Mesh.check_value
-      ~Mesh.clear_sub
-      ~Mesh.configure
-      ~Mesh.describe
-      ~Mesh.describe_configuration
-      ~Mesh.destroy
-      ~Mesh.format_status_info
-      ~Mesh.get
-      ~Mesh.get_device_tuple
-      ~Mesh.get_instantiated_signals
-      ~Mesh.get_mesh_voltage
-      ~Mesh.get_raw_mesh_voltage
-      ~Mesh.pause
-      ~Mesh.put
-      ~Mesh.read
-      ~Mesh.read_configuration
-      ~Mesh.resume
-      ~Mesh.set_mesh_voltage
-      ~Mesh.set_rel_mesh_voltage
-      ~Mesh.stage
-      ~Mesh.status_info
-      ~Mesh.stop
-      ~Mesh.subscribe
-      ~Mesh.summary
-      ~Mesh.trigger
-      ~Mesh.tweak_mesh_voltage
-      ~Mesh.unstage
-      ~Mesh.unsubscribe
-      ~Mesh.unsubscribe_all
-      ~Mesh.wait_for_connection
-      ~Mesh.walk_components
-      ~Mesh.walk_signals
-      ~Mesh.walk_subdevice_classes
-      ~Mesh.walk_subdevices
+       *  -  write_sig (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{self.prefix}:ao1:{self.sp_ch}``
+          -  
+          -  normal
+          -  
+   
+       *  -  read_sig (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``{self.prefix}:ai1:{self.rb_ch}``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~Mesh.SUB_ACQ_DONE
-      ~Mesh.attr_name
-      ~Mesh.component_names
-      ~Mesh.configuration_attrs
-      ~Mesh.connected
-      ~Mesh.dotted_name
-      ~Mesh.event_types
-      ~Mesh.hints
-      ~Mesh.kind
-      ~Mesh.lazy_wait_for_connection
-      ~Mesh.name
-      ~Mesh.parent
-      ~Mesh.read_attrs
-      ~Mesh.read_sig
-      ~Mesh.report
-      ~Mesh.root
-      ~Mesh.signal_names
-      ~Mesh.tab_whitelist
-      ~Mesh.trigger_signals
-      ~Mesh.write_sig
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Mesh.configure
+       ~Mesh.describe
+       ~Mesh.get
+       ~Mesh.get_mesh_voltage
+       ~Mesh.get_raw_mesh_voltage
+       ~Mesh.read
+       ~Mesh.read_configuration
+       ~Mesh.set_mesh_voltage
+       ~Mesh.set_rel_mesh_voltage
+       ~Mesh.stop
+       ~Mesh.summary
+       ~Mesh.trigger
+       ~Mesh.tweak_mesh_voltage
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Mesh.configuration_attrs
+       ~Mesh.connected
+       ~Mesh.hints
+       ~Mesh.kind
+    
+    

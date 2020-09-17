@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.pim.PIMY.get &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.pim.PIMY.get &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,8 +37,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.pim.PIMY.get_device_tuple" href="pcdsdevices.pim.PIMY.get_device_tuple.html" />
-    <link rel="prev" title="pcdsdevices.pim.PIMY.format_status_info" href="pcdsdevices.pim.PIMY.format_status_info.html" /> 
+    <link rel="next" title="pcdsdevices.pim.PIMY.get_state" href="pcdsdevices.pim.PIMY.get_state.html" />
+    <link rel="prev" title="pcdsdevices.pim.PIMY.end_monitor_thread" href="pcdsdevices.pim.PIMY.end_monitor_thread.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -134,49 +135,26 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.pim.PIMWithFocus.html">pcdsdevices.pim.PIMWithFocus</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.pim.PIMWithLED.html">pcdsdevices.pim.PIMWithLED</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.pim.PIMY.html">pcdsdevices.pim.PIMY</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.__init__.html">pcdsdevices.pim.PIMY.__init__</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.add_instantiation_callback.html">pcdsdevices.pim.PIMY.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.camonitor.html">pcdsdevices.pim.PIMY.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.check_inserted.html">pcdsdevices.pim.PIMY.check_inserted</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.check_removed.html">pcdsdevices.pim.PIMY.check_removed</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.check_transmission.html">pcdsdevices.pim.PIMY.check_transmission</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.check_value.html">pcdsdevices.pim.PIMY.check_value</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.clear_sub.html">pcdsdevices.pim.PIMY.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.configure.html">pcdsdevices.pim.PIMY.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.describe.html">pcdsdevices.pim.PIMY.describe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.describe_configuration.html">pcdsdevices.pim.PIMY.describe_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.destroy.html">pcdsdevices.pim.PIMY.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.end_monitor_thread.html">pcdsdevices.pim.PIMY.end_monitor_thread</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.format_status_info.html">pcdsdevices.pim.PIMY.format_status_info</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.pim.PIMY.get</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.get_device_tuple.html">pcdsdevices.pim.PIMY.get_device_tuple</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.get_instantiated_signals.html">pcdsdevices.pim.PIMY.get_instantiated_signals</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.get_state.html">pcdsdevices.pim.PIMY.get_state</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.insert.html">pcdsdevices.pim.PIMY.insert</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.move.html">pcdsdevices.pim.PIMY.move</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.mv.html">pcdsdevices.pim.PIMY.mv</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.pause.html">pcdsdevices.pim.PIMY.pause</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.put.html">pcdsdevices.pim.PIMY.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.read.html">pcdsdevices.pim.PIMY.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.read_configuration.html">pcdsdevices.pim.PIMY.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.remove.html">pcdsdevices.pim.PIMY.remove</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.resume.html">pcdsdevices.pim.PIMY.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.set.html">pcdsdevices.pim.PIMY.set</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.stage.html">pcdsdevices.pim.PIMY.stage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.status_info.html">pcdsdevices.pim.PIMY.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.stop.html">pcdsdevices.pim.PIMY.stop</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.subscribe.html">pcdsdevices.pim.PIMY.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.summary.html">pcdsdevices.pim.PIMY.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.trigger.html">pcdsdevices.pim.PIMY.trigger</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.unstage.html">pcdsdevices.pim.PIMY.unstage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.unsubscribe.html">pcdsdevices.pim.PIMY.unsubscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.unsubscribe_all.html">pcdsdevices.pim.PIMY.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.wait.html">pcdsdevices.pim.PIMY.wait</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.wait_for_connection.html">pcdsdevices.pim.PIMY.wait_for_connection</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.walk_components.html">pcdsdevices.pim.PIMY.walk_components</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.walk_signals.html">pcdsdevices.pim.PIMY.walk_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.walk_subdevice_classes.html">pcdsdevices.pim.PIMY.walk_subdevice_classes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.walk_subdevices.html">pcdsdevices.pim.PIMY.walk_subdevices</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.wm.html">pcdsdevices.pim.PIMY.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pim.PIMY.wm_update.html">pcdsdevices.pim.PIMY.wm_update</a></li>
 </ul>
@@ -293,10 +271,10 @@ beginning with an underscore will not be included.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.pim.PIMY.get_device_tuple.html" class="btn btn-neutral float-right" title="pcdsdevices.pim.PIMY.get_device_tuple" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.pim.PIMY.get_state.html" class="btn btn-neutral float-right" title="pcdsdevices.pim.PIMY.get_state" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="pcdsdevices.pim.PIMY.format_status_info.html" class="btn btn-neutral float-left" title="pcdsdevices.pim.PIMY.format_status_info" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="pcdsdevices.pim.PIMY.end_monitor_thread.html" class="btn btn-neutral float-left" title="pcdsdevices.pim.PIMY.end_monitor_thread" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

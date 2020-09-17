@@ -1,6 +1,0 @@
-pcdsdevices.valve.VVC.walk\_subdevice\_classes
-==============================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VVC.walk_subdevice_classes

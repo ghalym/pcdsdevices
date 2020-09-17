@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.AttenuatorCalculatorBase.walk\_components
-================================================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: AttenuatorCalculatorBase.walk_components

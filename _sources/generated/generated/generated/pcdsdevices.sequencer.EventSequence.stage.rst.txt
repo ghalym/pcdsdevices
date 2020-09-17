@@ -1,6 +1,0 @@
-pcdsdevices.sequencer.EventSequence.stage
-=========================================
-
-.. currentmodule:: pcdsdevices.sequencer
-
-.. automethod:: EventSequence.stage

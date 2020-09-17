@@ -1,6 +1,0 @@
-pcdsdevices.pim.XPIMLED.destroy
-===============================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: XPIMLED.destroy

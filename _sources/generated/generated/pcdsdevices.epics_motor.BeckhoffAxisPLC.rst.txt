@@ -7,68 +7,78 @@ pcdsdevices.epics\_motor.BeckhoffAxisPLC
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~BeckhoffAxisPLC.__init__
-      ~BeckhoffAxisPLC.add_instantiation_callback
-      ~BeckhoffAxisPLC.check_value
-      ~BeckhoffAxisPLC.clear_sub
-      ~BeckhoffAxisPLC.configure
-      ~BeckhoffAxisPLC.describe
-      ~BeckhoffAxisPLC.describe_configuration
-      ~BeckhoffAxisPLC.destroy
-      ~BeckhoffAxisPLC.get
-      ~BeckhoffAxisPLC.get_device_tuple
-      ~BeckhoffAxisPLC.get_instantiated_signals
-      ~BeckhoffAxisPLC.pause
-      ~BeckhoffAxisPLC.put
-      ~BeckhoffAxisPLC.read
-      ~BeckhoffAxisPLC.read_configuration
-      ~BeckhoffAxisPLC.resume
-      ~BeckhoffAxisPLC.stage
-      ~BeckhoffAxisPLC.stop
-      ~BeckhoffAxisPLC.subscribe
-      ~BeckhoffAxisPLC.summary
-      ~BeckhoffAxisPLC.trigger
-      ~BeckhoffAxisPLC.unstage
-      ~BeckhoffAxisPLC.unsubscribe
-      ~BeckhoffAxisPLC.unsubscribe_all
-      ~BeckhoffAxisPLC.wait_for_connection
-      ~BeckhoffAxisPLC.walk_components
-      ~BeckhoffAxisPLC.walk_signals
-      ~BeckhoffAxisPLC.walk_subdevice_classes
-      ~BeckhoffAxisPLC.walk_subdevices
+       *  -  status
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``sErrorMessage``
+          -  PLC error or warning
+          -  normal
+          -  
    
+       *  -  err_code
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``nErrorId``
+          -  Current NC error code
+          -  normal
+          -  
+   
+       *  -  cmd_err_reset
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``bReset``
+          -  Command to reset an active error
+          -  config
+          -  
    
 
    
    
-   .. rubric:: Attributes
+   
+   
+   
+   
+   
 
-   .. autosummary::
-   
-      ~BeckhoffAxisPLC.SUB_ACQ_DONE
-      ~BeckhoffAxisPLC.attr_name
-      ~BeckhoffAxisPLC.cmd_err_reset
-      ~BeckhoffAxisPLC.component_names
-      ~BeckhoffAxisPLC.configuration_attrs
-      ~BeckhoffAxisPLC.connected
-      ~BeckhoffAxisPLC.dotted_name
-      ~BeckhoffAxisPLC.err_code
-      ~BeckhoffAxisPLC.event_types
-      ~BeckhoffAxisPLC.hints
-      ~BeckhoffAxisPLC.kind
-      ~BeckhoffAxisPLC.lazy_wait_for_connection
-      ~BeckhoffAxisPLC.name
-      ~BeckhoffAxisPLC.parent
-      ~BeckhoffAxisPLC.read_attrs
-      ~BeckhoffAxisPLC.report
-      ~BeckhoffAxisPLC.root
-      ~BeckhoffAxisPLC.signal_names
-      ~BeckhoffAxisPLC.status
-      ~BeckhoffAxisPLC.trigger_signals
    
    
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~BeckhoffAxisPLC.configure
+       ~BeckhoffAxisPLC.describe
+       ~BeckhoffAxisPLC.get
+       ~BeckhoffAxisPLC.read
+       ~BeckhoffAxisPLC.read_configuration
+       ~BeckhoffAxisPLC.stop
+       ~BeckhoffAxisPLC.summary
+       ~BeckhoffAxisPLC.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~BeckhoffAxisPLC.configuration_attrs
+       ~BeckhoffAxisPLC.connected
+       ~BeckhoffAxisPLC.hints
+       ~BeckhoffAxisPLC.kind
+    
+    

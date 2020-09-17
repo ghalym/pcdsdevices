@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMPico.add\_instantiation\_callback
-====================================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMPico.add_instantiation_callback

@@ -7,70 +7,96 @@ pcdsdevices.state.TwinCATStateConfigAll
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~TwinCATStateConfigAll.__init__
-      ~TwinCATStateConfigAll.add_instantiation_callback
-      ~TwinCATStateConfigAll.check_value
-      ~TwinCATStateConfigAll.clear_sub
-      ~TwinCATStateConfigAll.configure
-      ~TwinCATStateConfigAll.describe
-      ~TwinCATStateConfigAll.describe_configuration
-      ~TwinCATStateConfigAll.destroy
-      ~TwinCATStateConfigAll.get
-      ~TwinCATStateConfigAll.get_device_tuple
-      ~TwinCATStateConfigAll.get_instantiated_signals
-      ~TwinCATStateConfigAll.pause
-      ~TwinCATStateConfigAll.put
-      ~TwinCATStateConfigAll.read
-      ~TwinCATStateConfigAll.read_configuration
-      ~TwinCATStateConfigAll.resume
-      ~TwinCATStateConfigAll.stage
-      ~TwinCATStateConfigAll.stop
-      ~TwinCATStateConfigAll.subscribe
-      ~TwinCATStateConfigAll.summary
-      ~TwinCATStateConfigAll.trigger
-      ~TwinCATStateConfigAll.unstage
-      ~TwinCATStateConfigAll.unsubscribe
-      ~TwinCATStateConfigAll.unsubscribe_all
-      ~TwinCATStateConfigAll.wait_for_connection
-      ~TwinCATStateConfigAll.walk_components
-      ~TwinCATStateConfigAll.walk_signals
-      ~TwinCATStateConfigAll.walk_subdevice_classes
-      ~TwinCATStateConfigAll.walk_subdevices
+       *  -  state01
+          -  :class:`~pcdsdevices.state.TwinCATStateConfigOne`
+          -  ``:01``
+          -  
+          -  omitted
+          -  
+   
+       *  -  state02
+          -  :class:`~pcdsdevices.state.TwinCATStateConfigOne`
+          -  ``:02``
+          -  
+          -  omitted
+          -  
+   
+       *  -  state03
+          -  :class:`~pcdsdevices.state.TwinCATStateConfigOne`
+          -  ``:03``
+          -  
+          -  omitted
+          -  
+   
+       *  -  state04
+          -  :class:`~pcdsdevices.state.TwinCATStateConfigOne`
+          -  ``:04``
+          -  
+          -  omitted
+          -  
+   
+       *  -  state05
+          -  :class:`~pcdsdevices.state.TwinCATStateConfigOne`
+          -  ``:05``
+          -  
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~TwinCATStateConfigAll.SUB_ACQ_DONE
-      ~TwinCATStateConfigAll.attr_name
-      ~TwinCATStateConfigAll.component_names
-      ~TwinCATStateConfigAll.configuration_attrs
-      ~TwinCATStateConfigAll.connected
-      ~TwinCATStateConfigAll.dotted_name
-      ~TwinCATStateConfigAll.event_types
-      ~TwinCATStateConfigAll.hints
-      ~TwinCATStateConfigAll.kind
-      ~TwinCATStateConfigAll.lazy_wait_for_connection
-      ~TwinCATStateConfigAll.name
-      ~TwinCATStateConfigAll.parent
-      ~TwinCATStateConfigAll.read_attrs
-      ~TwinCATStateConfigAll.report
-      ~TwinCATStateConfigAll.root
-      ~TwinCATStateConfigAll.signal_names
-      ~TwinCATStateConfigAll.state01
-      ~TwinCATStateConfigAll.state02
-      ~TwinCATStateConfigAll.state03
-      ~TwinCATStateConfigAll.state04
-      ~TwinCATStateConfigAll.state05
-      ~TwinCATStateConfigAll.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~TwinCATStateConfigAll.configure
+       ~TwinCATStateConfigAll.describe
+       ~TwinCATStateConfigAll.get
+       ~TwinCATStateConfigAll.read
+       ~TwinCATStateConfigAll.read_configuration
+       ~TwinCATStateConfigAll.stop
+       ~TwinCATStateConfigAll.summary
+       ~TwinCATStateConfigAll.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~TwinCATStateConfigAll.configuration_attrs
+       ~TwinCATStateConfigAll.connected
+       ~TwinCATStateConfigAll.hints
+       ~TwinCATStateConfigAll.kind
+    
+    

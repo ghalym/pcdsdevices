@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.AT2L0.walk\_signals
-==========================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: AT2L0.walk_signals

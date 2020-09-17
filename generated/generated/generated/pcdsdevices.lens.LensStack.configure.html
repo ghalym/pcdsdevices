@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.lens.LensStack.configure &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.lens.LensStack.configure &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -37,7 +38,7 @@
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
     <link rel="next" title="pcdsdevices.lens.LensStack.create_lens" href="pcdsdevices.lens.LensStack.create_lens.html" />
-    <link rel="prev" title="pcdsdevices.lens.LensStack.clear_sub" href="pcdsdevices.lens.LensStack.clear_sub.html" /> 
+    <link rel="prev" title="pcdsdevices.lens.LensStack.check_single" href="pcdsdevices.lens.LensStack.check_single.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -123,54 +124,31 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.jet.html">pcdsdevices.jet</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.lens.html">pcdsdevices.lens</a><ul class="current">
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.lens.LensStack.html">pcdsdevices.lens.LensStack</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.__init__.html">pcdsdevices.lens.LensStack.__init__</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.add_instantiation_callback.html">pcdsdevices.lens.LensStack.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.align.html">pcdsdevices.lens.LensStack.align</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.calc_beam_fwhm.html">pcdsdevices.lens.LensStack.calc_beam_fwhm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.calc_distance_for_size.html">pcdsdevices.lens.LensStack.calc_distance_for_size</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.calc_focal_length.html">pcdsdevices.lens.LensStack.calc_focal_length</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.calc_focal_length_for_single_lens.html">pcdsdevices.lens.LensStack.calc_focal_length_for_single_lens</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.check_single.html">pcdsdevices.lens.LensStack.check_single</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.check_value.html">pcdsdevices.lens.LensStack.check_value</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.clear_sub.html">pcdsdevices.lens.LensStack.clear_sub</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.lens.LensStack.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.create_lens.html">pcdsdevices.lens.LensStack.create_lens</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.describe.html">pcdsdevices.lens.LensStack.describe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.describe_configuration.html">pcdsdevices.lens.LensStack.describe_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.destroy.html">pcdsdevices.lens.LensStack.destroy</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.format_status_info.html">pcdsdevices.lens.LensStack.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.forward.html">pcdsdevices.lens.LensStack.forward</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.get.html">pcdsdevices.lens.LensStack.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.get_delta.html">pcdsdevices.lens.LensStack.get_delta</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.get_device_tuple.html">pcdsdevices.lens.LensStack.get_device_tuple</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.get_instantiated_signals.html">pcdsdevices.lens.LensStack.get_instantiated_signals</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.inverse.html">pcdsdevices.lens.LensStack.inverse</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.move.html">pcdsdevices.lens.LensStack.move</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.move_single.html">pcdsdevices.lens.LensStack.move_single</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.pause.html">pcdsdevices.lens.LensStack.pause</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.put.html">pcdsdevices.lens.LensStack.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.read.html">pcdsdevices.lens.LensStack.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.read_configuration.html">pcdsdevices.lens.LensStack.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.read_lens.html">pcdsdevices.lens.LensStack.read_lens</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.resume.html">pcdsdevices.lens.LensStack.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.set.html">pcdsdevices.lens.LensStack.set</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.stage.html">pcdsdevices.lens.LensStack.stage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.status_info.html">pcdsdevices.lens.LensStack.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.stop.html">pcdsdevices.lens.LensStack.stop</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.subscribe.html">pcdsdevices.lens.LensStack.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.summary.html">pcdsdevices.lens.LensStack.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.to_pseudo_tuple.html">pcdsdevices.lens.LensStack.to_pseudo_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.to_real_tuple.html">pcdsdevices.lens.LensStack.to_real_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.trigger.html">pcdsdevices.lens.LensStack.trigger</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.tweak.html">pcdsdevices.lens.LensStack.tweak</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.unstage.html">pcdsdevices.lens.LensStack.unstage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.unsubscribe.html">pcdsdevices.lens.LensStack.unsubscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.unsubscribe_all.html">pcdsdevices.lens.LensStack.unsubscribe_all</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.wait_for_connection.html">pcdsdevices.lens.LensStack.wait_for_connection</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.walk_components.html">pcdsdevices.lens.LensStack.walk_components</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.walk_signals.html">pcdsdevices.lens.LensStack.walk_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.walk_subdevice_classes.html">pcdsdevices.lens.LensStack.walk_subdevice_classes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStack.walk_subdevices.html">pcdsdevices.lens.LensStack.walk_subdevices</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.lens.LensStackBase.html">pcdsdevices.lens.LensStackBase</a></li>
@@ -308,7 +286,7 @@ the changes should be made, use an OrderedDict.</p>
         <a href="pcdsdevices.lens.LensStack.create_lens.html" class="btn btn-neutral float-right" title="pcdsdevices.lens.LensStack.create_lens" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="pcdsdevices.lens.LensStack.clear_sub.html" class="btn btn-neutral float-left" title="pcdsdevices.lens.LensStack.clear_sub" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="pcdsdevices.lens.LensStack.check_single.html" class="btn btn-neutral float-left" title="pcdsdevices.lens.LensStack.check_single" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

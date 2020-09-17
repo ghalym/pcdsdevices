@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.PseudoSingleInterface.get\_instantiated\_signals
-======================================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: PseudoSingleInterface.get_instantiated_signals

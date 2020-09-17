@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.DelayBase.stage
-=====================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: DelayBase.stage

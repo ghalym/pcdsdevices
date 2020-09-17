@@ -1,6 +1,0 @@
-pcdsdevices.signal.AvgSignal.destroy
-====================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: AvgSignal.destroy

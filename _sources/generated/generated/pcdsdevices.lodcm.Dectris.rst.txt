@@ -7,102 +7,95 @@ pcdsdevices.lodcm.Dectris
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~Dectris.__init__
-      ~Dectris.add_instantiation_callback
-      ~Dectris.camonitor
-      ~Dectris.check_inserted
-      ~Dectris.check_removed
-      ~Dectris.check_transmission
-      ~Dectris.check_value
-      ~Dectris.clear_sub
-      ~Dectris.configure
-      ~Dectris.describe
-      ~Dectris.describe_configuration
-      ~Dectris.destroy
-      ~Dectris.end_monitor_thread
-      ~Dectris.format_status_info
-      ~Dectris.get
-      ~Dectris.get_device_tuple
-      ~Dectris.get_instantiated_signals
-      ~Dectris.get_state
-      ~Dectris.insert
-      ~Dectris.move
-      ~Dectris.mv
-      ~Dectris.pause
-      ~Dectris.put
-      ~Dectris.read
-      ~Dectris.read_configuration
-      ~Dectris.remove
-      ~Dectris.resume
-      ~Dectris.set
-      ~Dectris.stage
-      ~Dectris.status_info
-      ~Dectris.stop
-      ~Dectris.subscribe
-      ~Dectris.summary
-      ~Dectris.trigger
-      ~Dectris.unstage
-      ~Dectris.unsubscribe
-      ~Dectris.unsubscribe_all
-      ~Dectris.wait
-      ~Dectris.wait_for_connection
-      ~Dectris.walk_components
-      ~Dectris.walk_signals
-      ~Dectris.walk_subdevice_classes
-      ~Dectris.walk_subdevices
-      ~Dectris.wm
-      ~Dectris.wm_update
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+       *  -  motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:MOTOR``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~Dectris.SUB_ACQ_DONE
-      ~Dectris.SUB_DONE
-      ~Dectris.SUB_READBACK
-      ~Dectris.SUB_START
-      ~Dectris.SUB_STATE
-      ~Dectris.attr_name
-      ~Dectris.component_names
-      ~Dectris.configuration_attrs
-      ~Dectris.connected
-      ~Dectris.dotted_name
-      ~Dectris.egu
-      ~Dectris.event_types
-      ~Dectris.high_limit
-      ~Dectris.hints
-      ~Dectris.in_states
-      ~Dectris.inserted
-      ~Dectris.kind
-      ~Dectris.lazy_wait_for_connection
-      ~Dectris.limits
-      ~Dectris.low_limit
-      ~Dectris.motor
-      ~Dectris.moving
-      ~Dectris.name
-      ~Dectris.out_states
-      ~Dectris.parent
-      ~Dectris.position
-      ~Dectris.read_attrs
-      ~Dectris.removed
-      ~Dectris.report
-      ~Dectris.root
-      ~Dectris.settle_time
-      ~Dectris.signal_names
-      ~Dectris.state
-      ~Dectris.states_list
-      ~Dectris.tab_whitelist
-      ~Dectris.timeout
-      ~Dectris.transmission
-      ~Dectris.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Dectris.camonitor
+       ~Dectris.check_inserted
+       ~Dectris.check_removed
+       ~Dectris.check_transmission
+       ~Dectris.configure
+       ~Dectris.describe
+       ~Dectris.end_monitor_thread
+       ~Dectris.get
+       ~Dectris.get_state
+       ~Dectris.insert
+       ~Dectris.move
+       ~Dectris.mv
+       ~Dectris.read
+       ~Dectris.read_configuration
+       ~Dectris.remove
+       ~Dectris.set
+       ~Dectris.stop
+       ~Dectris.summary
+       ~Dectris.trigger
+       ~Dectris.wait
+       ~Dectris.wm
+       ~Dectris.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Dectris.configuration_attrs
+       ~Dectris.connected
+       ~Dectris.egu
+       ~Dectris.high_limit
+       ~Dectris.hints
+       ~Dectris.in_states
+       ~Dectris.kind
+       ~Dectris.limits
+       ~Dectris.low_limit
+       ~Dectris.moving
+       ~Dectris.out_states
+       ~Dectris.position
+       ~Dectris.settle_time
+       ~Dectris.states_list
+       ~Dectris.timeout
+       ~Dectris.transmission
+    
+    

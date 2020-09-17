@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.LookupTablePositioner.pause
-=================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: LookupTablePositioner.pause

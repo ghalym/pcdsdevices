@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.attenuator.FeeAtt.stop &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.attenuator.FeeAtt.stop &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,8 +37,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.attenuator.FeeAtt.subscribe" href="pcdsdevices.attenuator.FeeAtt.subscribe.html" />
-    <link rel="prev" title="pcdsdevices.attenuator.FeeAtt.status_info" href="pcdsdevices.attenuator.FeeAtt.status_info.html" /> 
+    <link rel="next" title="pcdsdevices.attenuator.FeeAtt.summary" href="pcdsdevices.attenuator.FeeAtt.summary.html" />
+    <link rel="prev" title="pcdsdevices.attenuator.FeeAtt.set_energy" href="pcdsdevices.attenuator.FeeAtt.set_energy.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -120,51 +121,28 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.FEESolidAttenuator.html">pcdsdevices.attenuator.FEESolidAttenuator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.FEESolidAttenuatorBlade.html">pcdsdevices.attenuator.FEESolidAttenuatorBlade</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.attenuator.FeeAtt.html">pcdsdevices.attenuator.FeeAtt</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.__init__.html">pcdsdevices.attenuator.FeeAtt.__init__</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.add_instantiation_callback.html">pcdsdevices.attenuator.FeeAtt.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.camonitor.html">pcdsdevices.attenuator.FeeAtt.camonitor</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.check_value.html">pcdsdevices.attenuator.FeeAtt.check_value</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.clear_sub.html">pcdsdevices.attenuator.FeeAtt.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.configure.html">pcdsdevices.attenuator.FeeAtt.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.describe.html">pcdsdevices.attenuator.FeeAtt.describe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.describe_configuration.html">pcdsdevices.attenuator.FeeAtt.describe_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.destroy.html">pcdsdevices.attenuator.FeeAtt.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.end_monitor_thread.html">pcdsdevices.attenuator.FeeAtt.end_monitor_thread</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.format_status_info.html">pcdsdevices.attenuator.FeeAtt.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.get.html">pcdsdevices.attenuator.FeeAtt.get</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.get_device_tuple.html">pcdsdevices.attenuator.FeeAtt.get_device_tuple</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.get_instantiated_signals.html">pcdsdevices.attenuator.FeeAtt.get_instantiated_signals</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.insert.html">pcdsdevices.attenuator.FeeAtt.insert</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.move.html">pcdsdevices.attenuator.FeeAtt.move</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.mv.html">pcdsdevices.attenuator.FeeAtt.mv</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.mv_ginput.html">pcdsdevices.attenuator.FeeAtt.mv_ginput</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.mvr.html">pcdsdevices.attenuator.FeeAtt.mvr</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.pause.html">pcdsdevices.attenuator.FeeAtt.pause</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.put.html">pcdsdevices.attenuator.FeeAtt.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.read.html">pcdsdevices.attenuator.FeeAtt.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.read_configuration.html">pcdsdevices.attenuator.FeeAtt.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.remove.html">pcdsdevices.attenuator.FeeAtt.remove</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.resume.html">pcdsdevices.attenuator.FeeAtt.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.set.html">pcdsdevices.attenuator.FeeAtt.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.set_energy.html">pcdsdevices.attenuator.FeeAtt.set_energy</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.stage.html">pcdsdevices.attenuator.FeeAtt.stage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.status_info.html">pcdsdevices.attenuator.FeeAtt.status_info</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.attenuator.FeeAtt.stop</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.subscribe.html">pcdsdevices.attenuator.FeeAtt.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.summary.html">pcdsdevices.attenuator.FeeAtt.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.trigger.html">pcdsdevices.attenuator.FeeAtt.trigger</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.tweak.html">pcdsdevices.attenuator.FeeAtt.tweak</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.umv.html">pcdsdevices.attenuator.FeeAtt.umv</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.umvr.html">pcdsdevices.attenuator.FeeAtt.umvr</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.unstage.html">pcdsdevices.attenuator.FeeAtt.unstage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.unsubscribe.html">pcdsdevices.attenuator.FeeAtt.unsubscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.unsubscribe_all.html">pcdsdevices.attenuator.FeeAtt.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.wait.html">pcdsdevices.attenuator.FeeAtt.wait</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.wait_for_connection.html">pcdsdevices.attenuator.FeeAtt.wait_for_connection</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.walk_components.html">pcdsdevices.attenuator.FeeAtt.walk_components</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.walk_signals.html">pcdsdevices.attenuator.FeeAtt.walk_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.walk_subdevice_classes.html">pcdsdevices.attenuator.FeeAtt.walk_subdevice_classes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.walk_subdevices.html">pcdsdevices.attenuator.FeeAtt.walk_subdevices</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.wm.html">pcdsdevices.attenuator.FeeAtt.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.FeeAtt.wm_update.html">pcdsdevices.attenuator.FeeAtt.wm_update</a></li>
 </ul>
@@ -298,10 +276,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.attenuator.FeeAtt.subscribe.html" class="btn btn-neutral float-right" title="pcdsdevices.attenuator.FeeAtt.subscribe" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.attenuator.FeeAtt.summary.html" class="btn btn-neutral float-right" title="pcdsdevices.attenuator.FeeAtt.summary" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="pcdsdevices.attenuator.FeeAtt.status_info.html" class="btn btn-neutral float-left" title="pcdsdevices.attenuator.FeeAtt.status_info" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="pcdsdevices.attenuator.FeeAtt.set_energy.html" class="btn btn-neutral float-left" title="pcdsdevices.attenuator.FeeAtt.set_energy" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

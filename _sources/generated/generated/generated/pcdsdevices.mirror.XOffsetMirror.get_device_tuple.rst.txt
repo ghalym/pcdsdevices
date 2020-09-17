@@ -1,6 +1,0 @@
-pcdsdevices.mirror.XOffsetMirror.get\_device\_tuple
-===================================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: XOffsetMirror.get_device_tuple

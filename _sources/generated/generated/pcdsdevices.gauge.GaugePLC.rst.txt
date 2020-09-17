@@ -7,70 +7,96 @@ pcdsdevices.gauge.GaugePLC
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~GaugePLC.__init__
-      ~GaugePLC.add_instantiation_callback
-      ~GaugePLC.check_value
-      ~GaugePLC.clear_sub
-      ~GaugePLC.configure
-      ~GaugePLC.describe
-      ~GaugePLC.describe_configuration
-      ~GaugePLC.destroy
-      ~GaugePLC.get
-      ~GaugePLC.get_device_tuple
-      ~GaugePLC.get_instantiated_signals
-      ~GaugePLC.pause
-      ~GaugePLC.put
-      ~GaugePLC.read
-      ~GaugePLC.read_configuration
-      ~GaugePLC.resume
-      ~GaugePLC.stage
-      ~GaugePLC.stop
-      ~GaugePLC.subscribe
-      ~GaugePLC.summary
-      ~GaugePLC.trigger
-      ~GaugePLC.unstage
-      ~GaugePLC.unsubscribe
-      ~GaugePLC.unsubscribe_all
-      ~GaugePLC.wait_for_connection
-      ~GaugePLC.walk_components
-      ~GaugePLC.walk_signals
-      ~GaugePLC.walk_subdevice_classes
-      ~GaugePLC.walk_subdevices
+       *  -  pressure
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PRESS_RBV``
+          -  gauge pressure reading
+          -  hinted
+          -  
+   
+       *  -  gauge_at_vac
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:AT_VAC_RBV``
+          -  gauge is at VAC
+          -  normal
+          -  
+   
+       *  -  pressure_ok
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PRESS_OK_RBV``
+          -  pressure reading ok
+          -  normal
+          -  
+   
+       *  -  at_vac_setpoint
+          -  :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
+          -  ``:VAC_SP``
+          -  At vacuum setpoint for all gauges
+          -  config
+          -  
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:STATE_RBV``
+          -  state of the gauge
+          -  hinted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~GaugePLC.SUB_ACQ_DONE
-      ~GaugePLC.at_vac_setpoint
-      ~GaugePLC.attr_name
-      ~GaugePLC.component_names
-      ~GaugePLC.configuration_attrs
-      ~GaugePLC.connected
-      ~GaugePLC.dotted_name
-      ~GaugePLC.event_types
-      ~GaugePLC.gauge_at_vac
-      ~GaugePLC.hints
-      ~GaugePLC.kind
-      ~GaugePLC.lazy_wait_for_connection
-      ~GaugePLC.name
-      ~GaugePLC.parent
-      ~GaugePLC.pressure
-      ~GaugePLC.pressure_ok
-      ~GaugePLC.read_attrs
-      ~GaugePLC.report
-      ~GaugePLC.root
-      ~GaugePLC.signal_names
-      ~GaugePLC.state
-      ~GaugePLC.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~GaugePLC.configure
+       ~GaugePLC.describe
+       ~GaugePLC.get
+       ~GaugePLC.read
+       ~GaugePLC.read_configuration
+       ~GaugePLC.stop
+       ~GaugePLC.summary
+       ~GaugePLC.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~GaugePLC.configuration_attrs
+       ~GaugePLC.connected
+       ~GaugePLC.hints
+       ~GaugePLC.kind
+    
+    

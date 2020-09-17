@@ -1,6 +1,0 @@
-pcdsdevices.slits.BeckhoffSlitPositioner.destroy
-================================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: BeckhoffSlitPositioner.destroy

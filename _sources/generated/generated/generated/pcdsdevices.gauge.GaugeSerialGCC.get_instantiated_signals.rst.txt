@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GaugeSerialGCC.get\_instantiated\_signals
-===========================================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GaugeSerialGCC.get_instantiated_signals

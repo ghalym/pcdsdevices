@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ccm.CCM.trigger &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.ccm.CCM.trigger &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,7 +37,7 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.ccm.CCM.unstage" href="pcdsdevices.ccm.CCM.unstage.html" />
+    <link rel="next" title="pcdsdevices.ccm.CCM.wait" href="pcdsdevices.ccm.CCM.wait.html" />
     <link rel="prev" title="pcdsdevices.ccm.CCM.summary" href="pcdsdevices.ccm.CCM.summary.html" /> 
 </head>
 
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -116,49 +117,26 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.ccm.wavelength_to_energy.html">pcdsdevices.ccm.wavelength_to_energy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.ccm.wavelength_to_theta.html">pcdsdevices.ccm.wavelength_to_theta</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.ccm.CCM.html">pcdsdevices.ccm.CCM</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.__init__.html">pcdsdevices.ccm.CCM.__init__</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.add_instantiation_callback.html">pcdsdevices.ccm.CCM.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.camonitor.html">pcdsdevices.ccm.CCM.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.check_inserted.html">pcdsdevices.ccm.CCM.check_inserted</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.check_removed.html">pcdsdevices.ccm.CCM.check_removed</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.check_transmission.html">pcdsdevices.ccm.CCM.check_transmission</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.check_value.html">pcdsdevices.ccm.CCM.check_value</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.clear_sub.html">pcdsdevices.ccm.CCM.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.configure.html">pcdsdevices.ccm.CCM.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.describe.html">pcdsdevices.ccm.CCM.describe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.describe_configuration.html">pcdsdevices.ccm.CCM.describe_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.destroy.html">pcdsdevices.ccm.CCM.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.end_monitor_thread.html">pcdsdevices.ccm.CCM.end_monitor_thread</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.format_status_info.html">pcdsdevices.ccm.CCM.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.get.html">pcdsdevices.ccm.CCM.get</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.get_device_tuple.html">pcdsdevices.ccm.CCM.get_device_tuple</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.get_instantiated_signals.html">pcdsdevices.ccm.CCM.get_instantiated_signals</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.get_state.html">pcdsdevices.ccm.CCM.get_state</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.insert.html">pcdsdevices.ccm.CCM.insert</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.move.html">pcdsdevices.ccm.CCM.move</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.mv.html">pcdsdevices.ccm.CCM.mv</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.pause.html">pcdsdevices.ccm.CCM.pause</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.put.html">pcdsdevices.ccm.CCM.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.read.html">pcdsdevices.ccm.CCM.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.read_configuration.html">pcdsdevices.ccm.CCM.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.remove.html">pcdsdevices.ccm.CCM.remove</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.resume.html">pcdsdevices.ccm.CCM.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.set.html">pcdsdevices.ccm.CCM.set</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.stage.html">pcdsdevices.ccm.CCM.stage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.status_info.html">pcdsdevices.ccm.CCM.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.stop.html">pcdsdevices.ccm.CCM.stop</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.subscribe.html">pcdsdevices.ccm.CCM.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.summary.html">pcdsdevices.ccm.CCM.summary</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.ccm.CCM.trigger</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.unstage.html">pcdsdevices.ccm.CCM.unstage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.unsubscribe.html">pcdsdevices.ccm.CCM.unsubscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.unsubscribe_all.html">pcdsdevices.ccm.CCM.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.wait.html">pcdsdevices.ccm.CCM.wait</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.wait_for_connection.html">pcdsdevices.ccm.CCM.wait_for_connection</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.walk_components.html">pcdsdevices.ccm.CCM.walk_components</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.walk_signals.html">pcdsdevices.ccm.CCM.walk_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.walk_subdevice_classes.html">pcdsdevices.ccm.CCM.walk_subdevice_classes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.walk_subdevices.html">pcdsdevices.ccm.CCM.walk_subdevices</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.wm.html">pcdsdevices.ccm.CCM.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCM.wm_update.html">pcdsdevices.ccm.CCM.wm_update</a></li>
 </ul>
@@ -309,7 +287,7 @@ as complete when the device is ready to be read.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.ccm.CCM.unstage.html" class="btn btn-neutral float-right" title="pcdsdevices.ccm.CCM.unstage" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.ccm.CCM.wait.html" class="btn btn-neutral float-right" title="pcdsdevices.ccm.CCM.wait" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="pcdsdevices.ccm.CCM.summary.html" class="btn btn-neutral float-left" title="pcdsdevices.ccm.CCM.summary" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

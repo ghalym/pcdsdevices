@@ -1,6 +1,0 @@
-pcdsdevices.gon.SamPhi.get\_instantiated\_signals
-=================================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SamPhi.get_instantiated_signals

@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.Prefocus.destroy
-==========================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: Prefocus.destroy

@@ -1,6 +1,0 @@
-pcdsdevices.dc\_devices.ICT.clear\_sub
-======================================
-
-.. currentmodule:: pcdsdevices.dc_devices
-
-.. automethod:: ICT.clear_sub

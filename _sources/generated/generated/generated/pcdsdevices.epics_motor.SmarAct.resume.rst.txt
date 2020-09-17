@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.SmarAct.resume
-=======================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: SmarAct.resume

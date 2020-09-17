@@ -7,30 +7,34 @@ pcdsdevices.component.UnrelatedComponent
 
    
    
-   .. rubric:: Methods
-
-   .. autosummary::
-      :toctree: generated
-   
-      ~UnrelatedComponent.__init__
-      ~UnrelatedComponent.collect_prefixes
-      ~UnrelatedComponent.create_component
-      ~UnrelatedComponent.make_docstring
-      ~UnrelatedComponent.maybe_add_prefix
-      ~UnrelatedComponent.sub_default
-      ~UnrelatedComponent.sub_meta
-      ~UnrelatedComponent.sub_value
-      ~UnrelatedComponent.subscriptions
-   
    
 
-   
-   
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~UnrelatedComponent.is_device
-      ~UnrelatedComponent.is_signal
-   
-   
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~UnrelatedComponent.collect_prefixes
+       ~UnrelatedComponent.create_component
+       ~UnrelatedComponent.make_docstring
+       ~UnrelatedComponent.maybe_add_prefix
+       ~UnrelatedComponent.sub_default
+       ~UnrelatedComponent.sub_meta
+       ~UnrelatedComponent.sub_value
+       ~UnrelatedComponent.subscriptions
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~UnrelatedComponent.is_device
+       ~UnrelatedComponent.is_signal
+    
+    

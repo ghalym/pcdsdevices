@@ -1,6 +1,0 @@
-pcdsdevices.pim.PPM.format\_status\_info
-========================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PPM.format_status_info

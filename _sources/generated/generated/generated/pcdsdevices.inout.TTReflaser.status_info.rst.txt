@@ -1,6 +1,0 @@
-pcdsdevices.inout.TTReflaser.status\_info
-=========================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: TTReflaser.status_info

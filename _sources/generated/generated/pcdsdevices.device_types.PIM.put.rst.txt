@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.PIM.put
-=================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: PIM.put

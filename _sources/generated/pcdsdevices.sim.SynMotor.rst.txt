@@ -7,89 +7,111 @@
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~SynMotor.__init__
-      ~SynMotor.add_instantiation_callback
-      ~SynMotor.camonitor
-      ~SynMotor.check_value
-      ~SynMotor.clear_sub
-      ~SynMotor.configure
-      ~SynMotor.describe
-      ~SynMotor.describe_configuration
-      ~SynMotor.destroy
-      ~SynMotor.end_monitor_thread
-      ~SynMotor.format_status_info
-      ~SynMotor.get
-      ~SynMotor.get_device_tuple
-      ~SynMotor.get_instantiated_signals
-      ~SynMotor.move
-      ~SynMotor.mv
-      ~SynMotor.mv_ginput
-      ~SynMotor.mvr
-      ~SynMotor.pause
-      ~SynMotor.put
-      ~SynMotor.read
-      ~SynMotor.read_configuration
-      ~SynMotor.resume
-      ~SynMotor.set
-      ~SynMotor.stage
-      ~SynMotor.status_info
-      ~SynMotor.stop
-      ~SynMotor.subscribe
-      ~SynMotor.summary
-      ~SynMotor.trigger
-      ~SynMotor.tweak
-      ~SynMotor.umv
-      ~SynMotor.umvr
-      ~SynMotor.unstage
-      ~SynMotor.unsubscribe
-      ~SynMotor.unsubscribe_all
-      ~SynMotor.wait
-      ~SynMotor.wait_for_connection
-      ~SynMotor.walk_components
-      ~SynMotor.walk_signals
-      ~SynMotor.walk_subdevice_classes
-      ~SynMotor.walk_subdevices
-      ~SynMotor.wm
-      ~SynMotor.wm_update
+       *  -  readback
+          -  :class:`~ophyd.sim._ReadbackSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~ophyd.sim.SynAxis`
    
+       *  -  setpoint
+          -  :class:`~ophyd.sim._SetpointSignal`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~ophyd.sim.SynAxis`
+   
+       *  -  velocity
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  config
+          -  Inherited from :class:`~ophyd.sim.SynAxis`
+   
+       *  -  acceleration
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  config
+          -  Inherited from :class:`~ophyd.sim.SynAxis`
+   
+       *  -  unused
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  omitted
+          -  Inherited from :class:`~ophyd.sim.SynAxis`
    
 
    
    
-   .. rubric:: Attributes
+   
+   
+   
+   
+   
+   
+   
+   
+   
 
-   .. autosummary::
-   
-      ~SynMotor.SUB_ACQ_DONE
-      ~SynMotor.SUB_READBACK
-      ~SynMotor.acceleration
-      ~SynMotor.attr_name
-      ~SynMotor.component_names
-      ~SynMotor.configuration_attrs
-      ~SynMotor.connected
-      ~SynMotor.dotted_name
-      ~SynMotor.event_types
-      ~SynMotor.hints
-      ~SynMotor.kind
-      ~SynMotor.lazy_wait_for_connection
-      ~SynMotor.name
-      ~SynMotor.parent
-      ~SynMotor.position
-      ~SynMotor.presets
-      ~SynMotor.read_attrs
-      ~SynMotor.readback
-      ~SynMotor.report
-      ~SynMotor.root
-      ~SynMotor.setpoint
-      ~SynMotor.signal_names
-      ~SynMotor.tab_whitelist
-      ~SynMotor.trigger_signals
-      ~SynMotor.unused
-      ~SynMotor.velocity
    
    
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~SynMotor.camonitor
+       ~SynMotor.configure
+       ~SynMotor.describe
+       ~SynMotor.end_monitor_thread
+       ~SynMotor.get
+       ~SynMotor.move
+       ~SynMotor.mv
+       ~SynMotor.mv_ginput
+       ~SynMotor.mvr
+       ~SynMotor.read
+       ~SynMotor.read_configuration
+       ~SynMotor.set
+       ~SynMotor.stop
+       ~SynMotor.summary
+       ~SynMotor.trigger
+       ~SynMotor.tweak
+       ~SynMotor.umv
+       ~SynMotor.umvr
+       ~SynMotor.wait
+       ~SynMotor.wm
+       ~SynMotor.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~SynMotor.configuration_attrs
+       ~SynMotor.connected
+       ~SynMotor.hints
+       ~SynMotor.kind
+       ~SynMotor.position
+       ~SynMotor.presets
+    
+    

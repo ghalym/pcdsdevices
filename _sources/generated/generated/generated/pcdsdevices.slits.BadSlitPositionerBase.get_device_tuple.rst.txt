@@ -1,6 +1,0 @@
-pcdsdevices.slits.BadSlitPositionerBase.get\_device\_tuple
-==========================================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: BadSlitPositionerBase.get_device_tuple

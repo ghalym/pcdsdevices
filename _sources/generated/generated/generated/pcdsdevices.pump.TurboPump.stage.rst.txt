@@ -1,6 +1,0 @@
-pcdsdevices.pump.TurboPump.stage
-================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: TurboPump.stage

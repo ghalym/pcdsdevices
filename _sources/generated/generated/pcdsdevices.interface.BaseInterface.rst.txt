@@ -7,23 +7,13 @@ pcdsdevices.interface.BaseInterface
 
    
    
-   .. rubric:: Methods
-
-   .. autosummary::
-      :toctree: generated
-   
-      ~BaseInterface.__init__
-      ~BaseInterface.format_status_info
-      ~BaseInterface.status_info
-   
    
 
-   
-   
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~BaseInterface.tab_whitelist
-   
-   
+    
+    
+    
+
+    
+    
+    

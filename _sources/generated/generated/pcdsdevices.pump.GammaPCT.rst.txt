@@ -7,73 +7,123 @@ pcdsdevices.pump.GammaPCT
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~GammaPCT.__init__
-      ~GammaPCT.add_instantiation_callback
-      ~GammaPCT.check_value
-      ~GammaPCT.clear_sub
-      ~GammaPCT.configure
-      ~GammaPCT.describe
-      ~GammaPCT.describe_configuration
-      ~GammaPCT.destroy
-      ~GammaPCT.get
-      ~GammaPCT.get_device_tuple
-      ~GammaPCT.get_instantiated_signals
-      ~GammaPCT.pause
-      ~GammaPCT.put
-      ~GammaPCT.read
-      ~GammaPCT.read_configuration
-      ~GammaPCT.resume
-      ~GammaPCT.stage
-      ~GammaPCT.stop
-      ~GammaPCT.subscribe
-      ~GammaPCT.summary
-      ~GammaPCT.trigger
-      ~GammaPCT.unstage
-      ~GammaPCT.unsubscribe
-      ~GammaPCT.unsubscribe_all
-      ~GammaPCT.wait_for_connection
-      ~GammaPCT.walk_components
-      ~GammaPCT.walk_signals
-      ~GammaPCT.walk_subdevice_classes
-      ~GammaPCT.walk_subdevices
+       *  -  model
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:MODEL_RBV``
+          -  
+          -  normal
+          -  
+   
+       *  -  fwversion
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:FWVERSION_RBV``
+          -  
+          -  normal
+          -  
+   
+       *  -  ashvedes
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:ASHVEDES``
+          -  
+          -  omitted
+          -  
+   
+       *  -  ashve
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:ASHVE_RBV``
+          -  
+          -  normal
+          -  
+   
+       *  -  aspowerdes
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:ASPOWERDES``
+          -  
+          -  omitted
+          -  
+   
+       *  -  aspower
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:ASPOWER_RBV``
+          -  
+          -  normal
+          -  
+   
+       *  -  pegudes
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PEGUDES``
+          -  
+          -  omitted
+          -  
+   
+       *  -  masterreset
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:MASTERRESET``
+          -  
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~GammaPCT.SUB_ACQ_DONE
-      ~GammaPCT.ashve
-      ~GammaPCT.ashvedes
-      ~GammaPCT.aspower
-      ~GammaPCT.aspowerdes
-      ~GammaPCT.attr_name
-      ~GammaPCT.component_names
-      ~GammaPCT.configuration_attrs
-      ~GammaPCT.connected
-      ~GammaPCT.dotted_name
-      ~GammaPCT.event_types
-      ~GammaPCT.fwversion
-      ~GammaPCT.hints
-      ~GammaPCT.kind
-      ~GammaPCT.lazy_wait_for_connection
-      ~GammaPCT.masterreset
-      ~GammaPCT.model
-      ~GammaPCT.name
-      ~GammaPCT.parent
-      ~GammaPCT.pegudes
-      ~GammaPCT.read_attrs
-      ~GammaPCT.report
-      ~GammaPCT.root
-      ~GammaPCT.signal_names
-      ~GammaPCT.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~GammaPCT.configure
+       ~GammaPCT.describe
+       ~GammaPCT.get
+       ~GammaPCT.read
+       ~GammaPCT.read_configuration
+       ~GammaPCT.stop
+       ~GammaPCT.summary
+       ~GammaPCT.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~GammaPCT.configuration_attrs
+       ~GammaPCT.connected
+       ~GammaPCT.hints
+       ~GammaPCT.kind
+    
+    

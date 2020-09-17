@@ -1,6 +1,0 @@
-pcdsdevices.slits.LusiSlits.subscribe
-=====================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: LusiSlits.subscribe

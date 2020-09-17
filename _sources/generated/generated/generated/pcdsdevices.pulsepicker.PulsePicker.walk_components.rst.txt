@@ -1,6 +1,0 @@
-pcdsdevices.pulsepicker.PulsePicker.walk\_components
-====================================================
-
-.. currentmodule:: pcdsdevices.pulsepicker
-
-.. automethod:: PulsePicker.walk_components

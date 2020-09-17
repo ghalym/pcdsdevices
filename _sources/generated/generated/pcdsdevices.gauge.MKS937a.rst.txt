@@ -7,78 +7,132 @@ pcdsdevices.gauge.MKS937a
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~MKS937a.__init__
-      ~MKS937a.add_instantiation_callback
-      ~MKS937a.check_value
-      ~MKS937a.clear_sub
-      ~MKS937a.configure
-      ~MKS937a.describe
-      ~MKS937a.describe_configuration
-      ~MKS937a.destroy
-      ~MKS937a.format_status_info
-      ~MKS937a.get
-      ~MKS937a.get_device_tuple
-      ~MKS937a.get_instantiated_signals
-      ~MKS937a.pause
-      ~MKS937a.put
-      ~MKS937a.read
-      ~MKS937a.read_configuration
-      ~MKS937a.resume
-      ~MKS937a.stage
-      ~MKS937a.status_info
-      ~MKS937a.stop
-      ~MKS937a.subscribe
-      ~MKS937a.summary
-      ~MKS937a.trigger
-      ~MKS937a.unstage
-      ~MKS937a.unsubscribe
-      ~MKS937a.unsubscribe_all
-      ~MKS937a.wait_for_connection
-      ~MKS937a.walk_components
-      ~MKS937a.walk_signals
-      ~MKS937a.walk_subdevice_classes
-      ~MKS937a.walk_subdevices
+       *  -  frequence
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:FREQ``
+          -  
+          -  normal
+          -  
+   
+       *  -  unit
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:UNIT``
+          -  
+          -  normal
+          -  
+   
+       *  -  version
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:VERSION``
+          -  
+          -  config
+          -  
+   
+       *  -  cc_delay
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:DELAY``
+          -  
+          -  config
+          -  
+   
+       *  -  A1_A2_slot
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:MODA``
+          -  
+          -  config
+          -  
+   
+       *  -  B1_B2_slot
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:MODB``
+          -  
+          -  config
+          -  
+   
+       *  -  user_calibration
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:CAL``
+          -  
+          -  config
+          -  
+   
+       *  -  frontpanel
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:FRONT``
+          -  
+          -  config
+          -  
+   
+       *  -  command
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:COM``
+          -  
+          -  config
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~MKS937a.A1_A2_slot
-      ~MKS937a.B1_B2_slot
-      ~MKS937a.SUB_ACQ_DONE
-      ~MKS937a.attr_name
-      ~MKS937a.cc_delay
-      ~MKS937a.command
-      ~MKS937a.component_names
-      ~MKS937a.configuration_attrs
-      ~MKS937a.connected
-      ~MKS937a.dotted_name
-      ~MKS937a.event_types
-      ~MKS937a.frequence
-      ~MKS937a.frontpanel
-      ~MKS937a.hints
-      ~MKS937a.kind
-      ~MKS937a.lazy_wait_for_connection
-      ~MKS937a.name
-      ~MKS937a.parent
-      ~MKS937a.read_attrs
-      ~MKS937a.report
-      ~MKS937a.root
-      ~MKS937a.signal_names
-      ~MKS937a.tab_component_names
-      ~MKS937a.tab_whitelist
-      ~MKS937a.trigger_signals
-      ~MKS937a.unit
-      ~MKS937a.user_calibration
-      ~MKS937a.version
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~MKS937a.configure
+       ~MKS937a.describe
+       ~MKS937a.get
+       ~MKS937a.read
+       ~MKS937a.read_configuration
+       ~MKS937a.stop
+       ~MKS937a.summary
+       ~MKS937a.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~MKS937a.configuration_attrs
+       ~MKS937a.connected
+       ~MKS937a.hints
+       ~MKS937a.kind
+    
+    

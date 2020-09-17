@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMCalc.format\_status\_info
-============================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMCalc.format_status_info

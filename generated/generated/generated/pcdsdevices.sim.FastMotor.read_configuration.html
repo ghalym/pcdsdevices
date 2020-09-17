@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.sim.FastMotor.read_configuration &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.sim.FastMotor.read_configuration &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,7 +37,7 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.sim.FastMotor.resume" href="pcdsdevices.sim.FastMotor.resume.html" />
+    <link rel="next" title="pcdsdevices.sim.FastMotor.set" href="pcdsdevices.sim.FastMotor.set.html" />
     <link rel="prev" title="pcdsdevices.sim.FastMotor.read" href="pcdsdevices.sim.FastMotor.read.html" /> 
 </head>
 
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -136,48 +137,25 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.signal.html">pcdsdevices.signal</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.sim.html">pcdsdevices.sim</a><ul class="current">
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.sim.FastMotor.html">pcdsdevices.sim.FastMotor</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.__init__.html">pcdsdevices.sim.FastMotor.__init__</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.add_instantiation_callback.html">pcdsdevices.sim.FastMotor.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.camonitor.html">pcdsdevices.sim.FastMotor.camonitor</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.check_value.html">pcdsdevices.sim.FastMotor.check_value</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.clear_sub.html">pcdsdevices.sim.FastMotor.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.configure.html">pcdsdevices.sim.FastMotor.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.describe.html">pcdsdevices.sim.FastMotor.describe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.describe_configuration.html">pcdsdevices.sim.FastMotor.describe_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.destroy.html">pcdsdevices.sim.FastMotor.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.end_monitor_thread.html">pcdsdevices.sim.FastMotor.end_monitor_thread</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.format_status_info.html">pcdsdevices.sim.FastMotor.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.get.html">pcdsdevices.sim.FastMotor.get</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.get_device_tuple.html">pcdsdevices.sim.FastMotor.get_device_tuple</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.get_instantiated_signals.html">pcdsdevices.sim.FastMotor.get_instantiated_signals</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.move.html">pcdsdevices.sim.FastMotor.move</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.mv.html">pcdsdevices.sim.FastMotor.mv</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.mv_ginput.html">pcdsdevices.sim.FastMotor.mv_ginput</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.mvr.html">pcdsdevices.sim.FastMotor.mvr</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.pause.html">pcdsdevices.sim.FastMotor.pause</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.put.html">pcdsdevices.sim.FastMotor.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.read.html">pcdsdevices.sim.FastMotor.read</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.sim.FastMotor.read_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.resume.html">pcdsdevices.sim.FastMotor.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.set.html">pcdsdevices.sim.FastMotor.set</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.stage.html">pcdsdevices.sim.FastMotor.stage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.status_info.html">pcdsdevices.sim.FastMotor.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.stop.html">pcdsdevices.sim.FastMotor.stop</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.subscribe.html">pcdsdevices.sim.FastMotor.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.summary.html">pcdsdevices.sim.FastMotor.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.trigger.html">pcdsdevices.sim.FastMotor.trigger</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.tweak.html">pcdsdevices.sim.FastMotor.tweak</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.umv.html">pcdsdevices.sim.FastMotor.umv</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.umvr.html">pcdsdevices.sim.FastMotor.umvr</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.unstage.html">pcdsdevices.sim.FastMotor.unstage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.unsubscribe.html">pcdsdevices.sim.FastMotor.unsubscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.unsubscribe_all.html">pcdsdevices.sim.FastMotor.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.wait.html">pcdsdevices.sim.FastMotor.wait</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.wait_for_connection.html">pcdsdevices.sim.FastMotor.wait_for_connection</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.walk_components.html">pcdsdevices.sim.FastMotor.walk_components</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.walk_signals.html">pcdsdevices.sim.FastMotor.walk_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.walk_subdevice_classes.html">pcdsdevices.sim.FastMotor.walk_subdevice_classes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.walk_subdevices.html">pcdsdevices.sim.FastMotor.walk_subdevices</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.wm.html">pcdsdevices.sim.FastMotor.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.sim.FastMotor.wm_update.html">pcdsdevices.sim.FastMotor.wm_update</a></li>
 </ul>
@@ -285,7 +263,7 @@ device, or modify the <code class="docutils literal notranslate"><span class="pr
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.sim.FastMotor.resume.html" class="btn btn-neutral float-right" title="pcdsdevices.sim.FastMotor.resume" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.sim.FastMotor.set.html" class="btn btn-neutral float-right" title="pcdsdevices.sim.FastMotor.set" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="pcdsdevices.sim.FastMotor.read.html" class="btn btn-neutral float-left" title="pcdsdevices.sim.FastMotor.read" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

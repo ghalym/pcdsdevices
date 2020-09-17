@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMMotor.pause
-==============================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMMotor.pause

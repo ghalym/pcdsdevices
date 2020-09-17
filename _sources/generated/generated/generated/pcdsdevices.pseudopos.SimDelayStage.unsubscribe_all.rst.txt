@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SimDelayStage.unsubscribe\_all
-====================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SimDelayStage.unsubscribe_all

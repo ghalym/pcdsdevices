@@ -1,6 +1,0 @@
-pcdsdevices.pim.XPIMFilterWheel.\_\_init\_\_
-============================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: XPIMFilterWheel.__init__

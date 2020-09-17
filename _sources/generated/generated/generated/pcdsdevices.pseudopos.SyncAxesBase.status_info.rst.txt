@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SyncAxesBase.status\_info
-===============================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SyncAxesBase.status_info

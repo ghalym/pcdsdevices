@@ -7,66 +7,60 @@ pcdsdevices.beam\_stats.SxrGmd
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~SxrGmd.__init__
-      ~SxrGmd.add_instantiation_callback
-      ~SxrGmd.check_value
-      ~SxrGmd.clear_sub
-      ~SxrGmd.configure
-      ~SxrGmd.describe
-      ~SxrGmd.describe_configuration
-      ~SxrGmd.destroy
-      ~SxrGmd.get
-      ~SxrGmd.get_device_tuple
-      ~SxrGmd.get_instantiated_signals
-      ~SxrGmd.pause
-      ~SxrGmd.put
-      ~SxrGmd.read
-      ~SxrGmd.read_configuration
-      ~SxrGmd.resume
-      ~SxrGmd.stage
-      ~SxrGmd.stop
-      ~SxrGmd.subscribe
-      ~SxrGmd.summary
-      ~SxrGmd.trigger
-      ~SxrGmd.unstage
-      ~SxrGmd.unsubscribe
-      ~SxrGmd.unsubscribe_all
-      ~SxrGmd.wait_for_connection
-      ~SxrGmd.walk_components
-      ~SxrGmd.walk_signals
-      ~SxrGmd.walk_subdevice_classes
-      ~SxrGmd.walk_subdevices
+       *  -  mj
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``SXR:GMD:BLD:milliJoulesPerPulse``
+          -  
+          -  hinted
+          -  
+   
+
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~SxrGmd.SUB_ACQ_DONE
-      ~SxrGmd.attr_name
-      ~SxrGmd.component_names
-      ~SxrGmd.configuration_attrs
-      ~SxrGmd.connected
-      ~SxrGmd.dotted_name
-      ~SxrGmd.event_types
-      ~SxrGmd.hints
-      ~SxrGmd.kind
-      ~SxrGmd.lazy_wait_for_connection
-      ~SxrGmd.mj
-      ~SxrGmd.name
-      ~SxrGmd.parent
-      ~SxrGmd.read_attrs
-      ~SxrGmd.report
-      ~SxrGmd.root
-      ~SxrGmd.signal_names
-      ~SxrGmd.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~SxrGmd.configure
+       ~SxrGmd.describe
+       ~SxrGmd.get
+       ~SxrGmd.read
+       ~SxrGmd.read_configuration
+       ~SxrGmd.stop
+       ~SxrGmd.summary
+       ~SxrGmd.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~SxrGmd.configuration_attrs
+       ~SxrGmd.connected
+       ~SxrGmd.hints
+       ~SxrGmd.kind
+    
+    

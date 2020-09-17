@@ -7,125 +7,246 @@ pcdsdevices.attenuator.FeeAtt
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~FeeAtt.__init__
-      ~FeeAtt.add_instantiation_callback
-      ~FeeAtt.camonitor
-      ~FeeAtt.check_value
-      ~FeeAtt.clear_sub
-      ~FeeAtt.configure
-      ~FeeAtt.describe
-      ~FeeAtt.describe_configuration
-      ~FeeAtt.destroy
-      ~FeeAtt.end_monitor_thread
-      ~FeeAtt.format_status_info
-      ~FeeAtt.get
-      ~FeeAtt.get_device_tuple
-      ~FeeAtt.get_instantiated_signals
-      ~FeeAtt.insert
-      ~FeeAtt.move
-      ~FeeAtt.mv
-      ~FeeAtt.mv_ginput
-      ~FeeAtt.mvr
-      ~FeeAtt.pause
-      ~FeeAtt.put
-      ~FeeAtt.read
-      ~FeeAtt.read_configuration
-      ~FeeAtt.remove
-      ~FeeAtt.resume
-      ~FeeAtt.set
-      ~FeeAtt.set_energy
-      ~FeeAtt.stage
-      ~FeeAtt.status_info
-      ~FeeAtt.stop
-      ~FeeAtt.subscribe
-      ~FeeAtt.summary
-      ~FeeAtt.trigger
-      ~FeeAtt.tweak
-      ~FeeAtt.umv
-      ~FeeAtt.umvr
-      ~FeeAtt.unstage
-      ~FeeAtt.unsubscribe
-      ~FeeAtt.unsubscribe_all
-      ~FeeAtt.wait
-      ~FeeAtt.wait_for_connection
-      ~FeeAtt.walk_components
-      ~FeeAtt.walk_signals
-      ~FeeAtt.walk_subdevice_classes
-      ~FeeAtt.walk_subdevices
-      ~FeeAtt.wm
-      ~FeeAtt.wm_update
+       *  -  setpoint
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:RDES``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.attenuator.AttBase`
+   
+       *  -  readback
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:RACT``
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.attenuator.AttBase`
+   
+       *  -  actuate
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:GO``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.attenuator.AttBase`
+   
+       *  -  energy
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:ETOA.E``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.attenuator.AttBase`
+   
+       *  -  trans_ceil
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:R_CEIL``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.attenuator.AttBase`
+   
+       *  -  trans_floor
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:R_FLOOR``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.attenuator.AttBase`
+   
+       *  -  user_energy
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:EDES``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.attenuator.AttBase`
+   
+       *  -  eget_cmd
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:EACT.SCAN``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.attenuator.AttBase`
+   
+       *  -  calcpend
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.attenuator.AttBase`
+   
+       *  -  filter1 (FCpt)
+          -  :class:`~pcdsdevices.attenuator.FeeFilter`
+          -  ``{self._filter_prefix}1``
+          -  
+          -  normal
+          -  
+   
+       *  -  filter2 (FCpt)
+          -  :class:`~pcdsdevices.attenuator.FeeFilter`
+          -  ``{self._filter_prefix}2``
+          -  
+          -  normal
+          -  
+   
+       *  -  filter3 (FCpt)
+          -  :class:`~pcdsdevices.attenuator.FeeFilter`
+          -  ``{self._filter_prefix}3``
+          -  
+          -  normal
+          -  
+   
+       *  -  filter4 (FCpt)
+          -  :class:`~pcdsdevices.attenuator.FeeFilter`
+          -  ``{self._filter_prefix}4``
+          -  
+          -  normal
+          -  
+   
+       *  -  filter5 (FCpt)
+          -  :class:`~pcdsdevices.attenuator.FeeFilter`
+          -  ``{self._filter_prefix}5``
+          -  
+          -  normal
+          -  
+   
+       *  -  filter6 (FCpt)
+          -  :class:`~pcdsdevices.attenuator.FeeFilter`
+          -  ``{self._filter_prefix}6``
+          -  
+          -  normal
+          -  
+   
+       *  -  filter7 (FCpt)
+          -  :class:`~pcdsdevices.attenuator.FeeFilter`
+          -  ``{self._filter_prefix}7``
+          -  
+          -  normal
+          -  
+   
+       *  -  filter8 (FCpt)
+          -  :class:`~pcdsdevices.attenuator.FeeFilter`
+          -  ``{self._filter_prefix}8``
+          -  
+          -  normal
+          -  
+   
+       *  -  filter9 (FCpt)
+          -  :class:`~pcdsdevices.attenuator.FeeFilter`
+          -  ``{self._filter_prefix}9``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~FeeAtt.SUB_ACQ_DONE
-      ~FeeAtt.SUB_DONE
-      ~FeeAtt.SUB_READBACK
-      ~FeeAtt.SUB_START
-      ~FeeAtt.SUB_STATE
-      ~FeeAtt.actuate
-      ~FeeAtt.actuate_value
-      ~FeeAtt.attr_name
-      ~FeeAtt.calcpend
-      ~FeeAtt.component_names
-      ~FeeAtt.configuration_attrs
-      ~FeeAtt.connected
-      ~FeeAtt.done
-      ~FeeAtt.done_value
-      ~FeeAtt.dotted_name
-      ~FeeAtt.eget_cmd
-      ~FeeAtt.egu
-      ~FeeAtt.energy
-      ~FeeAtt.event_types
-      ~FeeAtt.filter1
-      ~FeeAtt.filter2
-      ~FeeAtt.filter3
-      ~FeeAtt.filter4
-      ~FeeAtt.filter5
-      ~FeeAtt.filter6
-      ~FeeAtt.filter7
-      ~FeeAtt.filter8
-      ~FeeAtt.filter9
-      ~FeeAtt.high_limit
-      ~FeeAtt.hints
-      ~FeeAtt.inserted
-      ~FeeAtt.kind
-      ~FeeAtt.lazy_wait_for_connection
-      ~FeeAtt.limits
-      ~FeeAtt.low_limit
-      ~FeeAtt.moving
-      ~FeeAtt.name
-      ~FeeAtt.num_att
-      ~FeeAtt.parent
-      ~FeeAtt.position
-      ~FeeAtt.presets
-      ~FeeAtt.put_complete
-      ~FeeAtt.read_attrs
-      ~FeeAtt.readback
-      ~FeeAtt.removed
-      ~FeeAtt.report
-      ~FeeAtt.root
-      ~FeeAtt.setpoint
-      ~FeeAtt.settle_time
-      ~FeeAtt.signal_names
-      ~FeeAtt.stop_signal
-      ~FeeAtt.stop_value
-      ~FeeAtt.tab_whitelist
-      ~FeeAtt.timeout
-      ~FeeAtt.trans_ceil
-      ~FeeAtt.trans_floor
-      ~FeeAtt.transmission
-      ~FeeAtt.trigger_signals
-      ~FeeAtt.user_energy
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~FeeAtt.camonitor
+       ~FeeAtt.configure
+       ~FeeAtt.describe
+       ~FeeAtt.end_monitor_thread
+       ~FeeAtt.get
+       ~FeeAtt.insert
+       ~FeeAtt.move
+       ~FeeAtt.mv
+       ~FeeAtt.mv_ginput
+       ~FeeAtt.mvr
+       ~FeeAtt.read
+       ~FeeAtt.read_configuration
+       ~FeeAtt.remove
+       ~FeeAtt.set
+       ~FeeAtt.set_energy
+       ~FeeAtt.stop
+       ~FeeAtt.summary
+       ~FeeAtt.trigger
+       ~FeeAtt.tweak
+       ~FeeAtt.umv
+       ~FeeAtt.umvr
+       ~FeeAtt.wait
+       ~FeeAtt.wm
+       ~FeeAtt.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~FeeAtt.actuate_value
+       ~FeeAtt.configuration_attrs
+       ~FeeAtt.connected
+       ~FeeAtt.done
+       ~FeeAtt.done_value
+       ~FeeAtt.egu
+       ~FeeAtt.high_limit
+       ~FeeAtt.hints
+       ~FeeAtt.kind
+       ~FeeAtt.limits
+       ~FeeAtt.low_limit
+       ~FeeAtt.moving
+       ~FeeAtt.num_att
+       ~FeeAtt.position
+       ~FeeAtt.presets
+       ~FeeAtt.put_complete
+       ~FeeAtt.settle_time
+       ~FeeAtt.stop_signal
+       ~FeeAtt.stop_value
+       ~FeeAtt.timeout
+       ~FeeAtt.transmission
+    
+    

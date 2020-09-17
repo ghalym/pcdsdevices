@@ -1,6 +1,0 @@
-pcdsdevices.sim.SimTwoAxis.pause
-================================
-
-.. currentmodule:: pcdsdevices.sim
-
-.. automethod:: SimTwoAxis.pause

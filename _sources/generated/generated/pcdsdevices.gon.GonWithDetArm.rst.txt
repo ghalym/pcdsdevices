@@ -7,77 +7,123 @@ pcdsdevices.gon.GonWithDetArm
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~GonWithDetArm.__init__
-      ~GonWithDetArm.add_instantiation_callback
-      ~GonWithDetArm.check_value
-      ~GonWithDetArm.clear_sub
-      ~GonWithDetArm.configure
-      ~GonWithDetArm.describe
-      ~GonWithDetArm.describe_configuration
-      ~GonWithDetArm.destroy
-      ~GonWithDetArm.format_status_info
-      ~GonWithDetArm.get
-      ~GonWithDetArm.get_device_tuple
-      ~GonWithDetArm.get_instantiated_signals
-      ~GonWithDetArm.pause
-      ~GonWithDetArm.put
-      ~GonWithDetArm.read
-      ~GonWithDetArm.read_configuration
-      ~GonWithDetArm.resume
-      ~GonWithDetArm.stage
-      ~GonWithDetArm.status_info
-      ~GonWithDetArm.stop
-      ~GonWithDetArm.subscribe
-      ~GonWithDetArm.summary
-      ~GonWithDetArm.trigger
-      ~GonWithDetArm.unstage
-      ~GonWithDetArm.unsubscribe
-      ~GonWithDetArm.unsubscribe_all
-      ~GonWithDetArm.wait_for_connection
-      ~GonWithDetArm.walk_components
-      ~GonWithDetArm.walk_signals
-      ~GonWithDetArm.walk_subdevice_classes
-      ~GonWithDetArm.walk_subdevices
+       *  -  hor (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_hor}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gon.BaseGon`
+   
+       *  -  ver (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_ver}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gon.BaseGon`
+   
+       *  -  rot (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_rot}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gon.BaseGon`
+   
+       *  -  tip (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_tip}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gon.BaseGon`
+   
+       *  -  tilt (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_tilt}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gon.BaseGon`
+   
+       *  -  rot_2theta (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_2theta}``
+          -  
+          -  normal
+          -  
+   
+       *  -  det_tilt (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_dettilt}``
+          -  
+          -  normal
+          -  
+   
+       *  -  det_ver (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_detver}``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~GonWithDetArm.SUB_ACQ_DONE
-      ~GonWithDetArm.attr_name
-      ~GonWithDetArm.component_names
-      ~GonWithDetArm.configuration_attrs
-      ~GonWithDetArm.connected
-      ~GonWithDetArm.det_tilt
-      ~GonWithDetArm.det_ver
-      ~GonWithDetArm.dotted_name
-      ~GonWithDetArm.event_types
-      ~GonWithDetArm.hints
-      ~GonWithDetArm.hor
-      ~GonWithDetArm.kind
-      ~GonWithDetArm.lazy_wait_for_connection
-      ~GonWithDetArm.name
-      ~GonWithDetArm.parent
-      ~GonWithDetArm.read_attrs
-      ~GonWithDetArm.report
-      ~GonWithDetArm.root
-      ~GonWithDetArm.rot
-      ~GonWithDetArm.rot_2theta
-      ~GonWithDetArm.signal_names
-      ~GonWithDetArm.tab_component_names
-      ~GonWithDetArm.tab_whitelist
-      ~GonWithDetArm.tilt
-      ~GonWithDetArm.tip
-      ~GonWithDetArm.trigger_signals
-      ~GonWithDetArm.ver
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~GonWithDetArm.configure
+       ~GonWithDetArm.describe
+       ~GonWithDetArm.get
+       ~GonWithDetArm.read
+       ~GonWithDetArm.read_configuration
+       ~GonWithDetArm.stop
+       ~GonWithDetArm.summary
+       ~GonWithDetArm.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~GonWithDetArm.configuration_attrs
+       ~GonWithDetArm.connected
+       ~GonWithDetArm.hints
+       ~GonWithDetArm.kind
+    
+    

@@ -1,6 +1,0 @@
-pcdsdevices.gon.SamPhi.walk\_subdevices
-=======================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SamPhi.walk_subdevices

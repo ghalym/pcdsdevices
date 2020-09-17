@@ -1,6 +1,0 @@
-pcdsdevices.slits.BeckhoffSlits.format\_status\_info
-====================================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: BeckhoffSlits.format_status_info

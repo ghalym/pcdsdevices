@@ -1,6 +1,0 @@
-pcdsdevices.sim.SlowMotor.walk\_subdevices
-==========================================
-
-.. currentmodule:: pcdsdevices.sim
-
-.. automethod:: SlowMotor.walk_subdevices

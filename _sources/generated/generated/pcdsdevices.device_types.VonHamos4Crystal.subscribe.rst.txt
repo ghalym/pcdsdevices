@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.VonHamos4Crystal.subscribe
-====================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: VonHamos4Crystal.subscribe

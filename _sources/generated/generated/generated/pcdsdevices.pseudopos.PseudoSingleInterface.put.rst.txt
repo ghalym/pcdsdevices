@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.PseudoSingleInterface.put
-===============================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: PseudoSingleInterface.put

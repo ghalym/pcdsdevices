@@ -7,94 +7,82 @@
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~FastMotor.__init__
-      ~FastMotor.add_instantiation_callback
-      ~FastMotor.camonitor
-      ~FastMotor.check_value
-      ~FastMotor.clear_sub
-      ~FastMotor.configure
-      ~FastMotor.describe
-      ~FastMotor.describe_configuration
-      ~FastMotor.destroy
-      ~FastMotor.end_monitor_thread
-      ~FastMotor.format_status_info
-      ~FastMotor.get
-      ~FastMotor.get_device_tuple
-      ~FastMotor.get_instantiated_signals
-      ~FastMotor.move
-      ~FastMotor.mv
-      ~FastMotor.mv_ginput
-      ~FastMotor.mvr
-      ~FastMotor.pause
-      ~FastMotor.put
-      ~FastMotor.read
-      ~FastMotor.read_configuration
-      ~FastMotor.resume
-      ~FastMotor.set
-      ~FastMotor.stage
-      ~FastMotor.status_info
-      ~FastMotor.stop
-      ~FastMotor.subscribe
-      ~FastMotor.summary
-      ~FastMotor.trigger
-      ~FastMotor.tweak
-      ~FastMotor.umv
-      ~FastMotor.umvr
-      ~FastMotor.unstage
-      ~FastMotor.unsubscribe
-      ~FastMotor.unsubscribe_all
-      ~FastMotor.wait
-      ~FastMotor.wait_for_connection
-      ~FastMotor.walk_components
-      ~FastMotor.walk_signals
-      ~FastMotor.walk_subdevice_classes
-      ~FastMotor.walk_subdevices
-      ~FastMotor.wm
-      ~FastMotor.wm_update
+       *  -  user_readback
+          -  :class:`~ophyd.signal.AttributeSignal`
+          -  ``position``
+          -  
+          -  normal
+          -  
+   
+
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~FastMotor.SUB_ACQ_DONE
-      ~FastMotor.SUB_DONE
-      ~FastMotor.SUB_READBACK
-      ~FastMotor.SUB_START
-      ~FastMotor.attr_name
-      ~FastMotor.component_names
-      ~FastMotor.configuration_attrs
-      ~FastMotor.connected
-      ~FastMotor.dotted_name
-      ~FastMotor.egu
-      ~FastMotor.event_types
-      ~FastMotor.high_limit
-      ~FastMotor.hints
-      ~FastMotor.kind
-      ~FastMotor.lazy_wait_for_connection
-      ~FastMotor.limits
-      ~FastMotor.low_limit
-      ~FastMotor.moving
-      ~FastMotor.name
-      ~FastMotor.parent
-      ~FastMotor.position
-      ~FastMotor.presets
-      ~FastMotor.read_attrs
-      ~FastMotor.report
-      ~FastMotor.root
-      ~FastMotor.settle_time
-      ~FastMotor.signal_names
-      ~FastMotor.tab_whitelist
-      ~FastMotor.timeout
-      ~FastMotor.trigger_signals
-      ~FastMotor.user_readback
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~FastMotor.camonitor
+       ~FastMotor.configure
+       ~FastMotor.describe
+       ~FastMotor.end_monitor_thread
+       ~FastMotor.get
+       ~FastMotor.move
+       ~FastMotor.mv
+       ~FastMotor.mv_ginput
+       ~FastMotor.mvr
+       ~FastMotor.read
+       ~FastMotor.read_configuration
+       ~FastMotor.set
+       ~FastMotor.stop
+       ~FastMotor.summary
+       ~FastMotor.trigger
+       ~FastMotor.tweak
+       ~FastMotor.umv
+       ~FastMotor.umvr
+       ~FastMotor.wait
+       ~FastMotor.wm
+       ~FastMotor.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~FastMotor.configuration_attrs
+       ~FastMotor.connected
+       ~FastMotor.egu
+       ~FastMotor.high_limit
+       ~FastMotor.hints
+       ~FastMotor.kind
+       ~FastMotor.limits
+       ~FastMotor.low_limit
+       ~FastMotor.moving
+       ~FastMotor.position
+       ~FastMotor.presets
+       ~FastMotor.settle_time
+       ~FastMotor.timeout
+    
+    

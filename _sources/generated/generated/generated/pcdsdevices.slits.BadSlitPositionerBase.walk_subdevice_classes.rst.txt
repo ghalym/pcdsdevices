@@ -1,6 +1,0 @@
-pcdsdevices.slits.BadSlitPositionerBase.walk\_subdevice\_classes
-================================================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: BadSlitPositionerBase.walk_subdevice_classes

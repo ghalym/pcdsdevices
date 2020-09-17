@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.PseudoSingleInterface.subscribe
-=====================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: PseudoSingleInterface.subscribe

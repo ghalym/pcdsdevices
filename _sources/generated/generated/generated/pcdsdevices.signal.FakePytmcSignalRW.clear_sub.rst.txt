@@ -1,6 +1,0 @@
-pcdsdevices.signal.FakePytmcSignalRW.clear\_sub
-===============================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: FakePytmcSignalRW.clear_sub

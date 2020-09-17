@@ -1,6 +1,0 @@
-pcdsdevices.pump.IonPumpWithController.destroy
-==============================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: IonPumpWithController.destroy

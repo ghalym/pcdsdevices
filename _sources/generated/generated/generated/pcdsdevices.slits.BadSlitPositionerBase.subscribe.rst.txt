@@ -1,6 +1,0 @@
-pcdsdevices.slits.BadSlitPositionerBase.subscribe
-=================================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: BadSlitPositionerBase.subscribe

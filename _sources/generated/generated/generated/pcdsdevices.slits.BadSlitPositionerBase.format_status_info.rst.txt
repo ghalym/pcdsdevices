@@ -1,6 +1,0 @@
-pcdsdevices.slits.BadSlitPositionerBase.format\_status\_info
-============================================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: BadSlitPositionerBase.format_status_info

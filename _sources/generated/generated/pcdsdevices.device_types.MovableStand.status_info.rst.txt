@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.MovableStand.status\_info
-===================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: MovableStand.status_info

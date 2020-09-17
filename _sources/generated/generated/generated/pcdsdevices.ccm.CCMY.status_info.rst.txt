@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMY.status\_info
-=================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMY.status_info

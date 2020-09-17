@@ -1,6 +1,0 @@
-pcdsdevices.pump.PIPPLC.unstage
-===============================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: PIPPLC.unstage

@@ -1,6 +1,0 @@
-pcdsdevices.state.PVStatePositioner.destroy
-===========================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: PVStatePositioner.destroy

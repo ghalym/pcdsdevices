@@ -1,6 +1,0 @@
-pcdsdevices.dc\_devices.ICT.\_\_init\_\_
-========================================
-
-.. currentmodule:: pcdsdevices.dc_devices
-
-.. automethod:: ICT.__init__

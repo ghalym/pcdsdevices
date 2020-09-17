@@ -1,6 +1,0 @@
-pcdsdevices.gon.SamPhi.add\_instantiation\_callback
-===================================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SamPhi.add_instantiation_callback

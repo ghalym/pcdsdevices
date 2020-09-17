@@ -1,6 +1,0 @@
-pcdsdevices.pump.GammaPCT.put
-=============================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: GammaPCT.put

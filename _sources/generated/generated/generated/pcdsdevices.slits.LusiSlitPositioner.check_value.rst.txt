@@ -1,6 +1,0 @@
-pcdsdevices.slits.LusiSlitPositioner.check\_value
-=================================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: LusiSlitPositioner.check_value

@@ -1,6 +1,0 @@
-pcdsdevices.slits.SlitsBase.resume
-==================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: SlitsBase.resume

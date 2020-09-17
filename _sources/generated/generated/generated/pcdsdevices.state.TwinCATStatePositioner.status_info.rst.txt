@@ -1,6 +1,0 @@
-pcdsdevices.state.TwinCATStatePositioner.status\_info
-=====================================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: TwinCATStatePositioner.status_info

@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.DelayBase.walk\_subdevice\_classes
-========================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: DelayBase.walk_subdevice_classes

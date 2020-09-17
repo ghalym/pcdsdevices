@@ -1,6 +1,0 @@
-pcdsdevices.valve.VGCLegacy.destroy
-===================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VGCLegacy.destroy

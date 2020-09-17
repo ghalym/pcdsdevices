@@ -1,6 +1,0 @@
-pcdsdevices.pump.TurboPump.unstage
-==================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: TurboPump.unstage

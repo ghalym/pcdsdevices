@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.inout.InOutPVStatePositioner.set &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.inout.InOutPVStatePositioner.set &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,8 +37,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.inout.InOutPVStatePositioner.stage" href="pcdsdevices.inout.InOutPVStatePositioner.stage.html" />
-    <link rel="prev" title="pcdsdevices.inout.InOutPVStatePositioner.resume" href="pcdsdevices.inout.InOutPVStatePositioner.resume.html" /> 
+    <link rel="next" title="pcdsdevices.inout.InOutPVStatePositioner.stop" href="pcdsdevices.inout.InOutPVStatePositioner.stop.html" />
+    <link rel="prev" title="pcdsdevices.inout.InOutPVStatePositioner.remove" href="pcdsdevices.inout.InOutPVStatePositioner.remove.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -120,49 +121,26 @@
 <li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.inout.html">pcdsdevices.inout</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.inout.CombinedInOutRecordPositioner.html">pcdsdevices.inout.CombinedInOutRecordPositioner</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.inout.InOutPVStatePositioner.html">pcdsdevices.inout.InOutPVStatePositioner</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.__init__.html">pcdsdevices.inout.InOutPVStatePositioner.__init__</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.add_instantiation_callback.html">pcdsdevices.inout.InOutPVStatePositioner.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.camonitor.html">pcdsdevices.inout.InOutPVStatePositioner.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.check_inserted.html">pcdsdevices.inout.InOutPVStatePositioner.check_inserted</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.check_removed.html">pcdsdevices.inout.InOutPVStatePositioner.check_removed</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.check_transmission.html">pcdsdevices.inout.InOutPVStatePositioner.check_transmission</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.check_value.html">pcdsdevices.inout.InOutPVStatePositioner.check_value</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.clear_sub.html">pcdsdevices.inout.InOutPVStatePositioner.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.configure.html">pcdsdevices.inout.InOutPVStatePositioner.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.describe.html">pcdsdevices.inout.InOutPVStatePositioner.describe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.describe_configuration.html">pcdsdevices.inout.InOutPVStatePositioner.describe_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.destroy.html">pcdsdevices.inout.InOutPVStatePositioner.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.end_monitor_thread.html">pcdsdevices.inout.InOutPVStatePositioner.end_monitor_thread</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.format_status_info.html">pcdsdevices.inout.InOutPVStatePositioner.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.get.html">pcdsdevices.inout.InOutPVStatePositioner.get</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.get_device_tuple.html">pcdsdevices.inout.InOutPVStatePositioner.get_device_tuple</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.get_instantiated_signals.html">pcdsdevices.inout.InOutPVStatePositioner.get_instantiated_signals</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.get_state.html">pcdsdevices.inout.InOutPVStatePositioner.get_state</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.insert.html">pcdsdevices.inout.InOutPVStatePositioner.insert</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.move.html">pcdsdevices.inout.InOutPVStatePositioner.move</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.mv.html">pcdsdevices.inout.InOutPVStatePositioner.mv</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.pause.html">pcdsdevices.inout.InOutPVStatePositioner.pause</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.put.html">pcdsdevices.inout.InOutPVStatePositioner.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.read.html">pcdsdevices.inout.InOutPVStatePositioner.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.read_configuration.html">pcdsdevices.inout.InOutPVStatePositioner.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.remove.html">pcdsdevices.inout.InOutPVStatePositioner.remove</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.resume.html">pcdsdevices.inout.InOutPVStatePositioner.resume</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.inout.InOutPVStatePositioner.set</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.stage.html">pcdsdevices.inout.InOutPVStatePositioner.stage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.status_info.html">pcdsdevices.inout.InOutPVStatePositioner.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.stop.html">pcdsdevices.inout.InOutPVStatePositioner.stop</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.subscribe.html">pcdsdevices.inout.InOutPVStatePositioner.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.summary.html">pcdsdevices.inout.InOutPVStatePositioner.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.trigger.html">pcdsdevices.inout.InOutPVStatePositioner.trigger</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.unstage.html">pcdsdevices.inout.InOutPVStatePositioner.unstage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.unsubscribe.html">pcdsdevices.inout.InOutPVStatePositioner.unsubscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.unsubscribe_all.html">pcdsdevices.inout.InOutPVStatePositioner.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.wait.html">pcdsdevices.inout.InOutPVStatePositioner.wait</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.wait_for_connection.html">pcdsdevices.inout.InOutPVStatePositioner.wait_for_connection</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.walk_components.html">pcdsdevices.inout.InOutPVStatePositioner.walk_components</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.walk_signals.html">pcdsdevices.inout.InOutPVStatePositioner.walk_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.walk_subdevice_classes.html">pcdsdevices.inout.InOutPVStatePositioner.walk_subdevice_classes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.walk_subdevices.html">pcdsdevices.inout.InOutPVStatePositioner.walk_subdevices</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.wm.html">pcdsdevices.inout.InOutPVStatePositioner.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.inout.InOutPVStatePositioner.wm_update.html">pcdsdevices.inout.InOutPVStatePositioner.wm_update</a></li>
 </ul>
@@ -304,10 +282,10 @@ will be called when move is complete.</p></li>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.inout.InOutPVStatePositioner.stage.html" class="btn btn-neutral float-right" title="pcdsdevices.inout.InOutPVStatePositioner.stage" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.inout.InOutPVStatePositioner.stop.html" class="btn btn-neutral float-right" title="pcdsdevices.inout.InOutPVStatePositioner.stop" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="pcdsdevices.inout.InOutPVStatePositioner.resume.html" class="btn btn-neutral float-left" title="pcdsdevices.inout.InOutPVStatePositioner.resume" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="pcdsdevices.inout.InOutPVStatePositioner.remove.html" class="btn btn-neutral float-left" title="pcdsdevices.inout.InOutPVStatePositioner.remove" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.XPIM.walk\_signals
-============================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: XPIM.walk_signals

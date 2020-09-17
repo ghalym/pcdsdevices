@@ -7,75 +7,105 @@ pcdsdevices.gauge.GaugePirani
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~GaugePirani.__init__
-      ~GaugePirani.add_instantiation_callback
-      ~GaugePirani.check_value
-      ~GaugePirani.clear_sub
-      ~GaugePirani.configure
-      ~GaugePirani.describe
-      ~GaugePirani.describe_configuration
-      ~GaugePirani.destroy
-      ~GaugePirani.format_status_info
-      ~GaugePirani.get
-      ~GaugePirani.get_device_tuple
-      ~GaugePirani.get_instantiated_signals
-      ~GaugePirani.pause
-      ~GaugePirani.put
-      ~GaugePirani.read
-      ~GaugePirani.read_configuration
-      ~GaugePirani.resume
-      ~GaugePirani.stage
-      ~GaugePirani.status_info
-      ~GaugePirani.stop
-      ~GaugePirani.subscribe
-      ~GaugePirani.summary
-      ~GaugePirani.trigger
-      ~GaugePirani.unstage
-      ~GaugePirani.unsubscribe
-      ~GaugePirani.unsubscribe_all
-      ~GaugePirani.wait_for_connection
-      ~GaugePirani.walk_components
-      ~GaugePirani.walk_signals
-      ~GaugePirani.walk_subdevice_classes
-      ~GaugePirani.walk_subdevices
+       *  -  pressure
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PMON``
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.gauge.BaseGauge`
+   
+       *  -  egu
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PMON.EGU``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gauge.BaseGauge`
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:STATE``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gauge.BaseGauge`
+   
+       *  -  status
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:STATUSMON``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gauge.BaseGauge`
+   
+       *  -  pressure_status
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PSTATMON``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gauge.BaseGauge`
+   
+       *  -  pressure_status_enable
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PSTATMSP``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gauge.BaseGauge`
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~GaugePirani.SUB_ACQ_DONE
-      ~GaugePirani.attr_name
-      ~GaugePirani.component_names
-      ~GaugePirani.configuration_attrs
-      ~GaugePirani.connected
-      ~GaugePirani.dotted_name
-      ~GaugePirani.egu
-      ~GaugePirani.event_types
-      ~GaugePirani.hints
-      ~GaugePirani.kind
-      ~GaugePirani.lazy_wait_for_connection
-      ~GaugePirani.name
-      ~GaugePirani.parent
-      ~GaugePirani.pressure
-      ~GaugePirani.pressure_status
-      ~GaugePirani.pressure_status_enable
-      ~GaugePirani.read_attrs
-      ~GaugePirani.report
-      ~GaugePirani.root
-      ~GaugePirani.signal_names
-      ~GaugePirani.state
-      ~GaugePirani.status
-      ~GaugePirani.tab_component_names
-      ~GaugePirani.tab_whitelist
-      ~GaugePirani.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~GaugePirani.configure
+       ~GaugePirani.describe
+       ~GaugePirani.get
+       ~GaugePirani.read
+       ~GaugePirani.read_configuration
+       ~GaugePirani.stop
+       ~GaugePirani.summary
+       ~GaugePirani.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~GaugePirani.configuration_attrs
+       ~GaugePirani.connected
+       ~GaugePirani.hints
+       ~GaugePirani.kind
+    
+    

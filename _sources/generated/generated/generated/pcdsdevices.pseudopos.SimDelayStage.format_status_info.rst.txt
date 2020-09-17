@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SimDelayStage.format\_status\_info
-========================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SimDelayStage.format_status_info

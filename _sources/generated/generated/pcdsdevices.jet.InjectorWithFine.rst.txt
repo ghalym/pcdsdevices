@@ -7,74 +7,105 @@ pcdsdevices.jet.InjectorWithFine
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~InjectorWithFine.__init__
-      ~InjectorWithFine.add_instantiation_callback
-      ~InjectorWithFine.check_value
-      ~InjectorWithFine.clear_sub
-      ~InjectorWithFine.configure
-      ~InjectorWithFine.describe
-      ~InjectorWithFine.describe_configuration
-      ~InjectorWithFine.destroy
-      ~InjectorWithFine.format_status_info
-      ~InjectorWithFine.get
-      ~InjectorWithFine.get_device_tuple
-      ~InjectorWithFine.get_instantiated_signals
-      ~InjectorWithFine.pause
-      ~InjectorWithFine.put
-      ~InjectorWithFine.read
-      ~InjectorWithFine.read_configuration
-      ~InjectorWithFine.resume
-      ~InjectorWithFine.stage
-      ~InjectorWithFine.status_info
-      ~InjectorWithFine.stop
-      ~InjectorWithFine.subscribe
-      ~InjectorWithFine.summary
-      ~InjectorWithFine.trigger
-      ~InjectorWithFine.unstage
-      ~InjectorWithFine.unsubscribe
-      ~InjectorWithFine.unsubscribe_all
-      ~InjectorWithFine.wait_for_connection
-      ~InjectorWithFine.walk_components
-      ~InjectorWithFine.walk_signals
-      ~InjectorWithFine.walk_subdevice_classes
-      ~InjectorWithFine.walk_subdevices
+       *  -  x (UCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.jet.Injector`
+   
+       *  -  y (UCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.jet.Injector`
+   
+       *  -  z (UCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.jet.Injector`
+   
+       *  -  fine_x (UCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  fine_y (UCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  fine_z (UCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~InjectorWithFine.SUB_ACQ_DONE
-      ~InjectorWithFine.attr_name
-      ~InjectorWithFine.component_names
-      ~InjectorWithFine.configuration_attrs
-      ~InjectorWithFine.connected
-      ~InjectorWithFine.dotted_name
-      ~InjectorWithFine.event_types
-      ~InjectorWithFine.fine_x
-      ~InjectorWithFine.fine_y
-      ~InjectorWithFine.fine_z
-      ~InjectorWithFine.hints
-      ~InjectorWithFine.kind
-      ~InjectorWithFine.lazy_wait_for_connection
-      ~InjectorWithFine.name
-      ~InjectorWithFine.parent
-      ~InjectorWithFine.read_attrs
-      ~InjectorWithFine.report
-      ~InjectorWithFine.root
-      ~InjectorWithFine.signal_names
-      ~InjectorWithFine.tab_whitelist
-      ~InjectorWithFine.trigger_signals
-      ~InjectorWithFine.x
-      ~InjectorWithFine.y
-      ~InjectorWithFine.z
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~InjectorWithFine.configure
+       ~InjectorWithFine.describe
+       ~InjectorWithFine.get
+       ~InjectorWithFine.read
+       ~InjectorWithFine.read_configuration
+       ~InjectorWithFine.stop
+       ~InjectorWithFine.summary
+       ~InjectorWithFine.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~InjectorWithFine.configuration_attrs
+       ~InjectorWithFine.connected
+       ~InjectorWithFine.hints
+       ~InjectorWithFine.kind
+    
+    

@@ -7,112 +7,196 @@ pcdsdevices.mirror.Gantry
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~Gantry.__init__
-      ~Gantry.add_instantiation_callback
-      ~Gantry.camonitor
-      ~Gantry.check_value
-      ~Gantry.clear_sub
-      ~Gantry.configure
-      ~Gantry.describe
-      ~Gantry.describe_configuration
-      ~Gantry.destroy
-      ~Gantry.end_monitor_thread
-      ~Gantry.format_status_info
-      ~Gantry.get
-      ~Gantry.get_device_tuple
-      ~Gantry.get_instantiated_signals
-      ~Gantry.move
-      ~Gantry.mv
-      ~Gantry.mv_ginput
-      ~Gantry.mvr
-      ~Gantry.pause
-      ~Gantry.put
-      ~Gantry.read
-      ~Gantry.read_configuration
-      ~Gantry.resume
-      ~Gantry.set
-      ~Gantry.stage
-      ~Gantry.status_info
-      ~Gantry.stop
-      ~Gantry.subscribe
-      ~Gantry.summary
-      ~Gantry.trigger
-      ~Gantry.tweak
-      ~Gantry.umv
-      ~Gantry.umvr
-      ~Gantry.unstage
-      ~Gantry.unsubscribe
-      ~Gantry.unsubscribe_all
-      ~Gantry.wait
-      ~Gantry.wait_for_connection
-      ~Gantry.walk_components
-      ~Gantry.walk_signals
-      ~Gantry.walk_subdevice_classes
-      ~Gantry.walk_subdevices
-      ~Gantry.wm
-      ~Gantry.wm_update
+       *  -  readback
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:RBV``
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  setpoint
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:VAL``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  done
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:DMOV``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  motor_egu
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:RBV.EGU``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  interlock
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:INTERLOCK``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  enabled
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:ENABLED``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  low_limit_switch
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:LLS``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  high_limit_switch
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:HLS``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  gantry_difference (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``{self.gantry_prefix}:GDIF``
+          -  
+          -  normal
+          -  
+   
+       *  -  decoupled (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``{self.gantry_prefix}:DECOUPLE``
+          -  
+          -  config
+          -  
+   
+       *  -  follower_readback (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``{self.follow_prefix}:RBV``
+          -  
+          -  normal
+          -  
+   
+       *  -  follower_low_limit_switch (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``{self.follow_prefix}:LLS``
+          -  
+          -  omitted
+          -  
+   
+       *  -  follower_high_limit_switch (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``{self.follow_prefix}:HLS``
+          -  
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~Gantry.SUB_ACQ_DONE
-      ~Gantry.SUB_DONE
-      ~Gantry.SUB_READBACK
-      ~Gantry.SUB_START
-      ~Gantry.actuate
-      ~Gantry.actuate_value
-      ~Gantry.attr_name
-      ~Gantry.component_names
-      ~Gantry.configuration_attrs
-      ~Gantry.connected
-      ~Gantry.decoupled
-      ~Gantry.done
-      ~Gantry.done_value
-      ~Gantry.dotted_name
-      ~Gantry.egu
-      ~Gantry.enabled
-      ~Gantry.event_types
-      ~Gantry.follower_high_limit_switch
-      ~Gantry.follower_low_limit_switch
-      ~Gantry.follower_readback
-      ~Gantry.gantry_difference
-      ~Gantry.high_limit
-      ~Gantry.high_limit_switch
-      ~Gantry.hints
-      ~Gantry.interlock
-      ~Gantry.kind
-      ~Gantry.lazy_wait_for_connection
-      ~Gantry.limits
-      ~Gantry.low_limit
-      ~Gantry.low_limit_switch
-      ~Gantry.motor_egu
-      ~Gantry.moving
-      ~Gantry.name
-      ~Gantry.parent
-      ~Gantry.position
-      ~Gantry.presets
-      ~Gantry.put_complete
-      ~Gantry.read_attrs
-      ~Gantry.readback
-      ~Gantry.report
-      ~Gantry.root
-      ~Gantry.setpoint
-      ~Gantry.settle_time
-      ~Gantry.signal_names
-      ~Gantry.stop_signal
-      ~Gantry.stop_value
-      ~Gantry.tab_whitelist
-      ~Gantry.timeout
-      ~Gantry.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Gantry.camonitor
+       ~Gantry.configure
+       ~Gantry.describe
+       ~Gantry.end_monitor_thread
+       ~Gantry.get
+       ~Gantry.move
+       ~Gantry.mv
+       ~Gantry.mv_ginput
+       ~Gantry.mvr
+       ~Gantry.read
+       ~Gantry.read_configuration
+       ~Gantry.set
+       ~Gantry.stop
+       ~Gantry.summary
+       ~Gantry.trigger
+       ~Gantry.tweak
+       ~Gantry.umv
+       ~Gantry.umvr
+       ~Gantry.wait
+       ~Gantry.wm
+       ~Gantry.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Gantry.actuate
+       ~Gantry.actuate_value
+       ~Gantry.configuration_attrs
+       ~Gantry.connected
+       ~Gantry.done_value
+       ~Gantry.egu
+       ~Gantry.high_limit
+       ~Gantry.hints
+       ~Gantry.kind
+       ~Gantry.limits
+       ~Gantry.low_limit
+       ~Gantry.moving
+       ~Gantry.position
+       ~Gantry.presets
+       ~Gantry.put_complete
+       ~Gantry.settle_time
+       ~Gantry.stop_signal
+       ~Gantry.stop_value
+       ~Gantry.timeout
+    
+    

@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPMTarget.\_\_init\_\_
-======================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPMTarget.__init__

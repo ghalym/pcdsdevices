@@ -1,6 +1,0 @@
-pcdsdevices.gon.Kappa.clear\_sub
-================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: Kappa.clear_sub

@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.AttenuatorCalculatorBase.check\_value
-============================================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: AttenuatorCalculatorBase.check_value

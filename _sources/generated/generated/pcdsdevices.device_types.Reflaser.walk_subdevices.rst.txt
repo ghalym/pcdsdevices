@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.Reflaser.walk\_subdevices
-===================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: Reflaser.walk_subdevices

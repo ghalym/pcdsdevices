@@ -7,110 +7,129 @@ pcdsdevices.lens.LensStack
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~LensStack.__init__
-      ~LensStack.add_instantiation_callback
-      ~LensStack.align
-      ~LensStack.calc_beam_fwhm
-      ~LensStack.calc_distance_for_size
-      ~LensStack.calc_focal_length
-      ~LensStack.calc_focal_length_for_single_lens
-      ~LensStack.check_single
-      ~LensStack.check_value
-      ~LensStack.clear_sub
-      ~LensStack.configure
-      ~LensStack.create_lens
-      ~LensStack.describe
-      ~LensStack.describe_configuration
-      ~LensStack.destroy
-      ~LensStack.format_status_info
-      ~LensStack.forward
-      ~LensStack.get
-      ~LensStack.get_delta
-      ~LensStack.get_device_tuple
-      ~LensStack.get_instantiated_signals
-      ~LensStack.inverse
-      ~LensStack.move
-      ~LensStack.move_single
-      ~LensStack.pause
-      ~LensStack.put
-      ~LensStack.read
-      ~LensStack.read_configuration
-      ~LensStack.read_lens
-      ~LensStack.resume
-      ~LensStack.set
-      ~LensStack.stage
-      ~LensStack.status_info
-      ~LensStack.stop
-      ~LensStack.subscribe
-      ~LensStack.summary
-      ~LensStack.to_pseudo_tuple
-      ~LensStack.to_real_tuple
-      ~LensStack.trigger
-      ~LensStack.tweak
-      ~LensStack.unstage
-      ~LensStack.unsubscribe
-      ~LensStack.unsubscribe_all
-      ~LensStack.wait_for_connection
-      ~LensStack.walk_components
-      ~LensStack.walk_signals
-      ~LensStack.walk_subdevice_classes
-      ~LensStack.walk_subdevices
+       *  -  x (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self.x_prefix}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lens.LensStackBase`
    
+       *  -  y (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self.y_prefix}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lens.LensStackBase`
+   
+       *  -  z (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self.z_prefix}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lens.LensStackBase`
+   
+       *  -  calib_z
+          -  :class:`~ophyd.pseudopos.PseudoSingle`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lens.LensStackBase`
+   
+       *  -  beam_size
+          -  :class:`~ophyd.pseudopos.PseudoSingle`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lens.LensStackBase`
    
 
    
    
-   .. rubric:: Attributes
+   
+   
+   
+   
+   
+   
+   
+   
+   
 
-   .. autosummary::
-   
-      ~LensStack.SUB_ACQ_DONE
-      ~LensStack.SUB_DONE
-      ~LensStack.SUB_READBACK
-      ~LensStack.SUB_START
-      ~LensStack.attr_name
-      ~LensStack.backup_path
-      ~LensStack.beam_size
-      ~LensStack.calib_z
-      ~LensStack.component_names
-      ~LensStack.composite_egu
-      ~LensStack.concurrent
-      ~LensStack.configuration_attrs
-      ~LensStack.connected
-      ~LensStack.dotted_name
-      ~LensStack.egu
-      ~LensStack.event_types
-      ~LensStack.high_limit
-      ~LensStack.hints
-      ~LensStack.kind
-      ~LensStack.lazy_wait_for_connection
-      ~LensStack.limits
-      ~LensStack.low_limit
-      ~LensStack.moving
-      ~LensStack.name
-      ~LensStack.parent
-      ~LensStack.position
-      ~LensStack.pseudo_positioners
-      ~LensStack.read_attrs
-      ~LensStack.real_position
-      ~LensStack.real_positioners
-      ~LensStack.report
-      ~LensStack.root
-      ~LensStack.sequential
-      ~LensStack.settle_time
-      ~LensStack.signal_names
-      ~LensStack.tab_component_names
-      ~LensStack.tab_whitelist
-      ~LensStack.target
-      ~LensStack.timeout
-      ~LensStack.trigger_signals
-      ~LensStack.x
-      ~LensStack.y
-      ~LensStack.z
    
    
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~LensStack.align
+       ~LensStack.calc_beam_fwhm
+       ~LensStack.calc_distance_for_size
+       ~LensStack.calc_focal_length
+       ~LensStack.calc_focal_length_for_single_lens
+       ~LensStack.check_single
+       ~LensStack.configure
+       ~LensStack.create_lens
+       ~LensStack.describe
+       ~LensStack.forward
+       ~LensStack.get
+       ~LensStack.get_delta
+       ~LensStack.inverse
+       ~LensStack.move
+       ~LensStack.move_single
+       ~LensStack.read
+       ~LensStack.read_configuration
+       ~LensStack.read_lens
+       ~LensStack.set
+       ~LensStack.stop
+       ~LensStack.summary
+       ~LensStack.to_pseudo_tuple
+       ~LensStack.to_real_tuple
+       ~LensStack.trigger
+       ~LensStack.tweak
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~LensStack.backup_path
+       ~LensStack.composite_egu
+       ~LensStack.concurrent
+       ~LensStack.configuration_attrs
+       ~LensStack.connected
+       ~LensStack.egu
+       ~LensStack.high_limit
+       ~LensStack.hints
+       ~LensStack.kind
+       ~LensStack.limits
+       ~LensStack.low_limit
+       ~LensStack.moving
+       ~LensStack.position
+       ~LensStack.pseudo_positioners
+       ~LensStack.real_position
+       ~LensStack.real_positioners
+       ~LensStack.sequential
+       ~LensStack.settle_time
+       ~LensStack.target
+       ~LensStack.timeout
+    
+    

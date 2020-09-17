@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.LODCM.resume
-==============================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: LODCM.resume

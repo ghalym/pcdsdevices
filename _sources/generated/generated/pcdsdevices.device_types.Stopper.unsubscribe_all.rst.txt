@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.Stopper.unsubscribe\_all
-==================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: Stopper.unsubscribe_all

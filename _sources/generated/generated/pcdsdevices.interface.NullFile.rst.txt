@@ -7,16 +7,20 @@ pcdsdevices.interface.NullFile
 
    
    
-   .. rubric:: Methods
-
-   .. autosummary::
-      :toctree: generated
-   
-      ~NullFile.__init__
-      ~NullFile.write
-   
    
 
-   
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~NullFile.write
+    
+    
+
+    
+    
+    

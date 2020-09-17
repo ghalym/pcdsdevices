@@ -1,6 +1,0 @@
-pcdsdevices.mps.MPSLimits.walk\_components
-==========================================
-
-.. currentmodule:: pcdsdevices.mps
-
-.. automethod:: MPSLimits.walk_components

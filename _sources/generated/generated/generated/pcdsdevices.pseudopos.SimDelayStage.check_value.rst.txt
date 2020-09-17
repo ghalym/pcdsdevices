@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SimDelayStage.check\_value
-================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SimDelayStage.check_value

@@ -1,6 +1,0 @@
-pcdsdevices.pim.XPIMLED.add\_instantiation\_callback
-====================================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: XPIMLED.add_instantiation_callback

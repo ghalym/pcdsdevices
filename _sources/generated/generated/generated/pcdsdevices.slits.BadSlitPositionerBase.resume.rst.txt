@@ -1,6 +1,0 @@
-pcdsdevices.slits.BadSlitPositionerBase.resume
-==============================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: BadSlitPositionerBase.resume

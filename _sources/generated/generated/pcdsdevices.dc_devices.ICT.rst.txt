@@ -7,83 +7,177 @@ pcdsdevices.dc\_devices.ICT
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~ICT.__init__
-      ~ICT.add_instantiation_callback
-      ~ICT.check_value
-      ~ICT.clear_sub
-      ~ICT.configure
-      ~ICT.describe
-      ~ICT.describe_configuration
-      ~ICT.destroy
-      ~ICT.format_status_info
-      ~ICT.get
-      ~ICT.get_device_tuple
-      ~ICT.get_instantiated_signals
-      ~ICT.pause
-      ~ICT.put
-      ~ICT.read
-      ~ICT.read_configuration
-      ~ICT.resume
-      ~ICT.stage
-      ~ICT.status_info
-      ~ICT.stop
-      ~ICT.subscribe
-      ~ICT.summary
-      ~ICT.trigger
-      ~ICT.unstage
-      ~ICT.unsubscribe
-      ~ICT.unsubscribe_all
-      ~ICT.wait_for_connection
-      ~ICT.walk_components
-      ~ICT.walk_signals
-      ~ICT.walk_subdevice_classes
-      ~ICT.walk_subdevices
+       *  -  bus_A (FCpt)
+          -  :class:`~pcdsdevices.dc_devices.ICTBus`
+          -  ``{self.prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  bus_B (FCpt)
+          -  :class:`~pcdsdevices.dc_devices.ICTBus`
+          -  ``{self.prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  ch_1A (FCpt)
+          -  :class:`~pcdsdevices.dc_devices.ICTChannel`
+          -  ``{self.prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  ch_2A (FCpt)
+          -  :class:`~pcdsdevices.dc_devices.ICTChannel`
+          -  ``{self.prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  ch_3A (FCpt)
+          -  :class:`~pcdsdevices.dc_devices.ICTChannel`
+          -  ``{self.prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  ch_4A (FCpt)
+          -  :class:`~pcdsdevices.dc_devices.ICTChannel`
+          -  ``{self.prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  ch_5A (FCpt)
+          -  :class:`~pcdsdevices.dc_devices.ICTChannel`
+          -  ``{self.prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  ch_6A (FCpt)
+          -  :class:`~pcdsdevices.dc_devices.ICTChannel`
+          -  ``{self.prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  ch_1B (FCpt)
+          -  :class:`~pcdsdevices.dc_devices.ICTChannel`
+          -  ``{self.prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  ch_2B (FCpt)
+          -  :class:`~pcdsdevices.dc_devices.ICTChannel`
+          -  ``{self.prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  ch_3B (FCpt)
+          -  :class:`~pcdsdevices.dc_devices.ICTChannel`
+          -  ``{self.prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  ch_4B (FCpt)
+          -  :class:`~pcdsdevices.dc_devices.ICTChannel`
+          -  ``{self.prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  ch_5B (FCpt)
+          -  :class:`~pcdsdevices.dc_devices.ICTChannel`
+          -  ``{self.prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  ch_6B (FCpt)
+          -  :class:`~pcdsdevices.dc_devices.ICTChannel`
+          -  ``{self.prefix}``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~ICT.SUB_ACQ_DONE
-      ~ICT.attr_name
-      ~ICT.bus_A
-      ~ICT.bus_B
-      ~ICT.ch_1A
-      ~ICT.ch_1B
-      ~ICT.ch_2A
-      ~ICT.ch_2B
-      ~ICT.ch_3A
-      ~ICT.ch_3B
-      ~ICT.ch_4A
-      ~ICT.ch_4B
-      ~ICT.ch_5A
-      ~ICT.ch_5B
-      ~ICT.ch_6A
-      ~ICT.ch_6B
-      ~ICT.component_names
-      ~ICT.configuration_attrs
-      ~ICT.connected
-      ~ICT.dotted_name
-      ~ICT.event_types
-      ~ICT.hints
-      ~ICT.kind
-      ~ICT.lazy_wait_for_connection
-      ~ICT.name
-      ~ICT.parent
-      ~ICT.read_attrs
-      ~ICT.report
-      ~ICT.root
-      ~ICT.signal_names
-      ~ICT.tab_component_names
-      ~ICT.tab_whitelist
-      ~ICT.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~ICT.configure
+       ~ICT.describe
+       ~ICT.get
+       ~ICT.read
+       ~ICT.read_configuration
+       ~ICT.stop
+       ~ICT.summary
+       ~ICT.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~ICT.configuration_attrs
+       ~ICT.connected
+       ~ICT.hints
+       ~ICT.kind
+    
+    

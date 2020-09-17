@@ -1,6 +1,0 @@
-pcdsdevices.interface.Presets.\_\_init\_\_
-==========================================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. automethod:: Presets.__init__

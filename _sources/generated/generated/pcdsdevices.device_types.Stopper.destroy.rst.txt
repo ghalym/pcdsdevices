@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.Stopper.destroy
-=========================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: Stopper.destroy

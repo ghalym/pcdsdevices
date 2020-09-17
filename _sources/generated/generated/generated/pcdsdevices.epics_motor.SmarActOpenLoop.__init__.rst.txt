@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.SmarActOpenLoop.\_\_init\_\_
-=====================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: SmarActOpenLoop.__init__

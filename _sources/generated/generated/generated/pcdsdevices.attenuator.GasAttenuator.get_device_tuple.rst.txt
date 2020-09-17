@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.GasAttenuator.get\_device\_tuple
-=======================================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: GasAttenuator.get_device_tuple

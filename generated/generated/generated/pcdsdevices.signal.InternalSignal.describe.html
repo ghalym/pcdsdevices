@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.signal.InternalSignal.describe &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.signal.InternalSignal.describe &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,8 +37,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.signal.InternalSignal.describe_configuration" href="pcdsdevices.signal.InternalSignal.describe_configuration.html" />
-    <link rel="prev" title="pcdsdevices.signal.InternalSignal.clear_sub" href="pcdsdevices.signal.InternalSignal.clear_sub.html" /> 
+    <link rel="next" title="pcdsdevices.signal.InternalSignal.get" href="pcdsdevices.signal.InternalSignal.get.html" />
+    <link rel="prev" title="pcdsdevices.signal.InternalSignal" href="../pcdsdevices.signal.InternalSignal.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -142,23 +143,12 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.signal.FakePytmcSignalRO.html">pcdsdevices.signal.FakePytmcSignalRO</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.signal.FakePytmcSignalRW.html">pcdsdevices.signal.FakePytmcSignalRW</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.signal.InternalSignal.html">pcdsdevices.signal.InternalSignal</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.InternalSignal.__init__.html">pcdsdevices.signal.InternalSignal.__init__</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.InternalSignal.add_instantiation_callback.html">pcdsdevices.signal.InternalSignal.add_instantiation_callback</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.InternalSignal.check_value.html">pcdsdevices.signal.InternalSignal.check_value</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.InternalSignal.clear_sub.html">pcdsdevices.signal.InternalSignal.clear_sub</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.signal.InternalSignal.describe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.InternalSignal.describe_configuration.html">pcdsdevices.signal.InternalSignal.describe_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.InternalSignal.destroy.html">pcdsdevices.signal.InternalSignal.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.InternalSignal.get.html">pcdsdevices.signal.InternalSignal.get</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.InternalSignal.put.html">pcdsdevices.signal.InternalSignal.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.InternalSignal.read.html">pcdsdevices.signal.InternalSignal.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.InternalSignal.read_configuration.html">pcdsdevices.signal.InternalSignal.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.InternalSignal.set.html">pcdsdevices.signal.InternalSignal.set</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.InternalSignal.subscribe.html">pcdsdevices.signal.InternalSignal.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.InternalSignal.trigger.html">pcdsdevices.signal.InternalSignal.trigger</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.InternalSignal.unsubscribe.html">pcdsdevices.signal.InternalSignal.unsubscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.InternalSignal.unsubscribe_all.html">pcdsdevices.signal.InternalSignal.unsubscribe_all</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.InternalSignal.wait_for_connection.html">pcdsdevices.signal.InternalSignal.wait_for_connection</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.signal.NotImplementedSignal.html">pcdsdevices.signal.NotImplementedSignal</a></li>
@@ -275,10 +265,10 @@ with the <code class="docutils literal notranslate"><span class="pre">event_mode
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.signal.InternalSignal.describe_configuration.html" class="btn btn-neutral float-right" title="pcdsdevices.signal.InternalSignal.describe_configuration" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.signal.InternalSignal.get.html" class="btn btn-neutral float-right" title="pcdsdevices.signal.InternalSignal.get" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="pcdsdevices.signal.InternalSignal.clear_sub.html" class="btn btn-neutral float-left" title="pcdsdevices.signal.InternalSignal.clear_sub" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="../pcdsdevices.signal.InternalSignal.html" class="btn btn-neutral float-left" title="pcdsdevices.signal.InternalSignal" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

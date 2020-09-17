@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.SmarActOpenLoop.get\_device\_tuple
-===========================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: SmarActOpenLoop.get_device_tuple

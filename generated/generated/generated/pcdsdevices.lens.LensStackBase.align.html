@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.lens.LensStackBase.align &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.lens.LensStackBase.align &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -37,7 +38,7 @@
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
     <link rel="next" title="pcdsdevices.lens.LensStackBase.calc_beam_fwhm" href="pcdsdevices.lens.LensStackBase.calc_beam_fwhm.html" />
-    <link rel="prev" title="pcdsdevices.lens.LensStackBase.add_instantiation_callback" href="pcdsdevices.lens.LensStackBase.add_instantiation_callback.html" /> 
+    <link rel="prev" title="pcdsdevices.lens.LensStackBase" href="../pcdsdevices.lens.LensStackBase.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -124,52 +125,29 @@
 <li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.lens.html">pcdsdevices.lens</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.lens.LensStack.html">pcdsdevices.lens.LensStack</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.lens.LensStackBase.html">pcdsdevices.lens.LensStackBase</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.__init__.html">pcdsdevices.lens.LensStackBase.__init__</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.add_instantiation_callback.html">pcdsdevices.lens.LensStackBase.add_instantiation_callback</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.lens.LensStackBase.align</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.calc_beam_fwhm.html">pcdsdevices.lens.LensStackBase.calc_beam_fwhm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.calc_distance_for_size.html">pcdsdevices.lens.LensStackBase.calc_distance_for_size</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.calc_focal_length.html">pcdsdevices.lens.LensStackBase.calc_focal_length</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.calc_focal_length_for_single_lens.html">pcdsdevices.lens.LensStackBase.calc_focal_length_for_single_lens</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.check_single.html">pcdsdevices.lens.LensStackBase.check_single</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.check_value.html">pcdsdevices.lens.LensStackBase.check_value</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.clear_sub.html">pcdsdevices.lens.LensStackBase.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.configure.html">pcdsdevices.lens.LensStackBase.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.describe.html">pcdsdevices.lens.LensStackBase.describe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.describe_configuration.html">pcdsdevices.lens.LensStackBase.describe_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.destroy.html">pcdsdevices.lens.LensStackBase.destroy</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.format_status_info.html">pcdsdevices.lens.LensStackBase.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.forward.html">pcdsdevices.lens.LensStackBase.forward</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.get.html">pcdsdevices.lens.LensStackBase.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.get_delta.html">pcdsdevices.lens.LensStackBase.get_delta</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.get_device_tuple.html">pcdsdevices.lens.LensStackBase.get_device_tuple</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.get_instantiated_signals.html">pcdsdevices.lens.LensStackBase.get_instantiated_signals</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.inverse.html">pcdsdevices.lens.LensStackBase.inverse</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.move.html">pcdsdevices.lens.LensStackBase.move</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.move_single.html">pcdsdevices.lens.LensStackBase.move_single</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.pause.html">pcdsdevices.lens.LensStackBase.pause</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.put.html">pcdsdevices.lens.LensStackBase.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.read.html">pcdsdevices.lens.LensStackBase.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.read_configuration.html">pcdsdevices.lens.LensStackBase.read_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.resume.html">pcdsdevices.lens.LensStackBase.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.set.html">pcdsdevices.lens.LensStackBase.set</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.stage.html">pcdsdevices.lens.LensStackBase.stage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.status_info.html">pcdsdevices.lens.LensStackBase.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.stop.html">pcdsdevices.lens.LensStackBase.stop</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.subscribe.html">pcdsdevices.lens.LensStackBase.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.summary.html">pcdsdevices.lens.LensStackBase.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.to_pseudo_tuple.html">pcdsdevices.lens.LensStackBase.to_pseudo_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.to_real_tuple.html">pcdsdevices.lens.LensStackBase.to_real_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.trigger.html">pcdsdevices.lens.LensStackBase.trigger</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.tweak.html">pcdsdevices.lens.LensStackBase.tweak</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.unstage.html">pcdsdevices.lens.LensStackBase.unstage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.unsubscribe.html">pcdsdevices.lens.LensStackBase.unsubscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.unsubscribe_all.html">pcdsdevices.lens.LensStackBase.unsubscribe_all</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.wait_for_connection.html">pcdsdevices.lens.LensStackBase.wait_for_connection</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.walk_components.html">pcdsdevices.lens.LensStackBase.walk_components</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.walk_signals.html">pcdsdevices.lens.LensStackBase.walk_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.walk_subdevice_classes.html">pcdsdevices.lens.LensStackBase.walk_subdevice_classes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lens.LensStackBase.walk_subdevices.html">pcdsdevices.lens.LensStackBase.walk_subdevices</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.lens.Prefocus.html">pcdsdevices.lens.Prefocus</a></li>
@@ -298,7 +276,7 @@ If called with an integer, automatically moves the z-motor.</p>
         <a href="pcdsdevices.lens.LensStackBase.calc_beam_fwhm.html" class="btn btn-neutral float-right" title="pcdsdevices.lens.LensStackBase.calc_beam_fwhm" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="pcdsdevices.lens.LensStackBase.add_instantiation_callback.html" class="btn btn-neutral float-left" title="pcdsdevices.lens.LensStackBase.add_instantiation_callback" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="../pcdsdevices.lens.LensStackBase.html" class="btn btn-neutral float-left" title="pcdsdevices.lens.LensStackBase" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

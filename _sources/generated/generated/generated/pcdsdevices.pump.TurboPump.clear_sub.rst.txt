@@ -1,6 +1,0 @@
-pcdsdevices.pump.TurboPump.clear\_sub
-=====================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: TurboPump.clear_sub

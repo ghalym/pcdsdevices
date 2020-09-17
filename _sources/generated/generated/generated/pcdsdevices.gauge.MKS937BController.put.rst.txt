@@ -1,6 +1,0 @@
-pcdsdevices.gauge.MKS937BController.put
-=======================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: MKS937BController.put

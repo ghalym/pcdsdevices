@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.FEESolidAttenuatorBlade.get\_instantiated\_signals
-=========================================================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: FEESolidAttenuatorBlade.get_instantiated_signals

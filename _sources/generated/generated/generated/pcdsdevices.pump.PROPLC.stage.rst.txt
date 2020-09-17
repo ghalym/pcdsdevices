@@ -1,6 +1,0 @@
-pcdsdevices.pump.PROPLC.stage
-=============================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: PROPLC.stage

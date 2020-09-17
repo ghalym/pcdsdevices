@@ -7,102 +7,106 @@ pcdsdevices.slits.LusiSlitPositioner
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~LusiSlitPositioner.__init__
-      ~LusiSlitPositioner.add_instantiation_callback
-      ~LusiSlitPositioner.camonitor
-      ~LusiSlitPositioner.check_value
-      ~LusiSlitPositioner.clear_sub
-      ~LusiSlitPositioner.configure
-      ~LusiSlitPositioner.describe
-      ~LusiSlitPositioner.describe_configuration
-      ~LusiSlitPositioner.destroy
-      ~LusiSlitPositioner.end_monitor_thread
-      ~LusiSlitPositioner.format_status_info
-      ~LusiSlitPositioner.get
-      ~LusiSlitPositioner.get_device_tuple
-      ~LusiSlitPositioner.get_instantiated_signals
-      ~LusiSlitPositioner.move
-      ~LusiSlitPositioner.mv
-      ~LusiSlitPositioner.mv_ginput
-      ~LusiSlitPositioner.mvr
-      ~LusiSlitPositioner.pause
-      ~LusiSlitPositioner.put
-      ~LusiSlitPositioner.read
-      ~LusiSlitPositioner.read_configuration
-      ~LusiSlitPositioner.resume
-      ~LusiSlitPositioner.set
-      ~LusiSlitPositioner.stage
-      ~LusiSlitPositioner.status_info
-      ~LusiSlitPositioner.stop
-      ~LusiSlitPositioner.subscribe
-      ~LusiSlitPositioner.summary
-      ~LusiSlitPositioner.trigger
-      ~LusiSlitPositioner.tweak
-      ~LusiSlitPositioner.umv
-      ~LusiSlitPositioner.umvr
-      ~LusiSlitPositioner.unstage
-      ~LusiSlitPositioner.unsubscribe
-      ~LusiSlitPositioner.unsubscribe_all
-      ~LusiSlitPositioner.wait
-      ~LusiSlitPositioner.wait_for_connection
-      ~LusiSlitPositioner.walk_components
-      ~LusiSlitPositioner.walk_signals
-      ~LusiSlitPositioner.walk_subdevice_classes
-      ~LusiSlitPositioner.walk_subdevices
-      ~LusiSlitPositioner.wm
-      ~LusiSlitPositioner.wm_update
+       *  -  readback (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``{prefix}:ACTUAL_{_dirlong}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.slits.BadSlitPositionerBase`
+   
+       *  -  setpoint (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{prefix}:{_dirshort}_REQ``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.slits.BadSlitPositionerBase`
+   
+       *  -  done
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:DMOV``
+          -  
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~LusiSlitPositioner.SUB_ACQ_DONE
-      ~LusiSlitPositioner.SUB_DONE
-      ~LusiSlitPositioner.SUB_READBACK
-      ~LusiSlitPositioner.SUB_START
-      ~LusiSlitPositioner.actuate
-      ~LusiSlitPositioner.actuate_value
-      ~LusiSlitPositioner.attr_name
-      ~LusiSlitPositioner.component_names
-      ~LusiSlitPositioner.configuration_attrs
-      ~LusiSlitPositioner.connected
-      ~LusiSlitPositioner.done
-      ~LusiSlitPositioner.done_value
-      ~LusiSlitPositioner.dotted_name
-      ~LusiSlitPositioner.egu
-      ~LusiSlitPositioner.event_types
-      ~LusiSlitPositioner.high_limit
-      ~LusiSlitPositioner.hints
-      ~LusiSlitPositioner.kind
-      ~LusiSlitPositioner.lazy_wait_for_connection
-      ~LusiSlitPositioner.limits
-      ~LusiSlitPositioner.low_limit
-      ~LusiSlitPositioner.moving
-      ~LusiSlitPositioner.name
-      ~LusiSlitPositioner.parent
-      ~LusiSlitPositioner.position
-      ~LusiSlitPositioner.presets
-      ~LusiSlitPositioner.put_complete
-      ~LusiSlitPositioner.read_attrs
-      ~LusiSlitPositioner.readback
-      ~LusiSlitPositioner.report
-      ~LusiSlitPositioner.root
-      ~LusiSlitPositioner.setpoint
-      ~LusiSlitPositioner.settle_time
-      ~LusiSlitPositioner.signal_names
-      ~LusiSlitPositioner.stop_signal
-      ~LusiSlitPositioner.stop_value
-      ~LusiSlitPositioner.tab_whitelist
-      ~LusiSlitPositioner.timeout
-      ~LusiSlitPositioner.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~LusiSlitPositioner.camonitor
+       ~LusiSlitPositioner.configure
+       ~LusiSlitPositioner.describe
+       ~LusiSlitPositioner.end_monitor_thread
+       ~LusiSlitPositioner.get
+       ~LusiSlitPositioner.move
+       ~LusiSlitPositioner.mv
+       ~LusiSlitPositioner.mv_ginput
+       ~LusiSlitPositioner.mvr
+       ~LusiSlitPositioner.read
+       ~LusiSlitPositioner.read_configuration
+       ~LusiSlitPositioner.set
+       ~LusiSlitPositioner.stop
+       ~LusiSlitPositioner.summary
+       ~LusiSlitPositioner.trigger
+       ~LusiSlitPositioner.tweak
+       ~LusiSlitPositioner.umv
+       ~LusiSlitPositioner.umvr
+       ~LusiSlitPositioner.wait
+       ~LusiSlitPositioner.wm
+       ~LusiSlitPositioner.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~LusiSlitPositioner.actuate
+       ~LusiSlitPositioner.actuate_value
+       ~LusiSlitPositioner.configuration_attrs
+       ~LusiSlitPositioner.connected
+       ~LusiSlitPositioner.done_value
+       ~LusiSlitPositioner.egu
+       ~LusiSlitPositioner.high_limit
+       ~LusiSlitPositioner.hints
+       ~LusiSlitPositioner.kind
+       ~LusiSlitPositioner.limits
+       ~LusiSlitPositioner.low_limit
+       ~LusiSlitPositioner.moving
+       ~LusiSlitPositioner.position
+       ~LusiSlitPositioner.presets
+       ~LusiSlitPositioner.put_complete
+       ~LusiSlitPositioner.settle_time
+       ~LusiSlitPositioner.stop_signal
+       ~LusiSlitPositioner.stop_value
+       ~LusiSlitPositioner.timeout
+    
+    

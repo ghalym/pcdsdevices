@@ -7,27 +7,31 @@ pcdsdevices.interface.PresetPosition
 
    
    
-   .. rubric:: Methods
-
-   .. autosummary::
-      :toctree: generated
-   
-      ~PresetPosition.__init__
-      ~PresetPosition.deactivate
-      ~PresetPosition.update_comment
-      ~PresetPosition.update_pos
-   
    
 
-   
-   
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~PresetPosition.history
-      ~PresetPosition.info
-      ~PresetPosition.path
-      ~PresetPosition.pos
-   
-   
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~PresetPosition.deactivate
+       ~PresetPosition.update_comment
+       ~PresetPosition.update_pos
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~PresetPosition.history
+       ~PresetPosition.info
+       ~PresetPosition.path
+       ~PresetPosition.pos
+    
+    

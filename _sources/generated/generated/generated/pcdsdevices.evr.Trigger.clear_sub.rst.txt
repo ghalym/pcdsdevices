@@ -1,6 +1,0 @@
-pcdsdevices.evr.Trigger.clear\_sub
-==================================
-
-.. currentmodule:: pcdsdevices.evr
-
-.. automethod:: Trigger.clear_sub

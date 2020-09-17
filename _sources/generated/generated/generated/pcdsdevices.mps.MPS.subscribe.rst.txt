@@ -1,6 +1,0 @@
-pcdsdevices.mps.MPS.subscribe
-=============================
-
-.. currentmodule:: pcdsdevices.mps
-
-.. automethod:: MPS.subscribe

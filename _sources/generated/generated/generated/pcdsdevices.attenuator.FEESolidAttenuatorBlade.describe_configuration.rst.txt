@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.FEESolidAttenuatorBlade.describe\_configuration
-======================================================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: FEESolidAttenuatorBlade.describe_configuration

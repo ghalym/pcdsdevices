@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GCT.get\_instantiated\_signals
-================================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GCT.get_instantiated_signals

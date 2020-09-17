@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMPico.pause
-=============================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMPico.pause

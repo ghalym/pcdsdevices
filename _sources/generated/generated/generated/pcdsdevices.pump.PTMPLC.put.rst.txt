@@ -1,6 +1,0 @@
-pcdsdevices.pump.PTMPLC.put
-===========================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: PTMPLC.put

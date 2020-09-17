@@ -7,100 +7,366 @@ pcdsdevices.gauge.GaugeSerial
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~GaugeSerial.__init__
-      ~GaugeSerial.add_instantiation_callback
-      ~GaugeSerial.check_value
-      ~GaugeSerial.clear_sub
-      ~GaugeSerial.configure
-      ~GaugeSerial.describe
-      ~GaugeSerial.describe_configuration
-      ~GaugeSerial.destroy
-      ~GaugeSerial.get
-      ~GaugeSerial.get_device_tuple
-      ~GaugeSerial.get_instantiated_signals
-      ~GaugeSerial.pause
-      ~GaugeSerial.put
-      ~GaugeSerial.read
-      ~GaugeSerial.read_configuration
-      ~GaugeSerial.resume
-      ~GaugeSerial.stage
-      ~GaugeSerial.stop
-      ~GaugeSerial.subscribe
-      ~GaugeSerial.summary
-      ~GaugeSerial.trigger
-      ~GaugeSerial.unstage
-      ~GaugeSerial.unsubscribe
-      ~GaugeSerial.unsubscribe_all
-      ~GaugeSerial.wait_for_connection
-      ~GaugeSerial.walk_components
-      ~GaugeSerial.walk_signals
-      ~GaugeSerial.walk_subdevice_classes
-      ~GaugeSerial.walk_subdevices
+       *  -  gastype
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:GASTYPE``
+          -  
+          -  omitted
+          -  
+   
+       *  -  gastypedes
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:GASTYPEDES``
+          -  
+          -  omitted
+          -  
+   
+       *  -  hystsprbck_1
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:HYSTSPRBCK_1_RBV``
+          -  
+          -  omitted
+          -  
+   
+       *  -  hystsprbck_2
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:HYSTSPRBCK_2_RBV``
+          -  
+          -  omitted
+          -  
+   
+       *  -  p
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:P``
+          -  
+          -  omitted
+          -  
+   
+       *  -  padel
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PADEL``
+          -  
+          -  omitted
+          -  
+   
+       *  -  plog
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PLOG``
+          -  
+          -  omitted
+          -  
+   
+       *  -  pmon
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PMON``
+          -  
+          -  omitted
+          -  
+   
+       *  -  pmonraw
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PMONRAW``
+          -  
+          -  omitted
+          -  
+   
+       *  -  pstat_1
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PSTAT_1``
+          -  
+          -  omitted
+          -  
+   
+       *  -  pstat_2
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PSTAT_2``
+          -  
+          -  omitted
+          -  
+   
+       *  -  pstat_calc
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PSTAT_CALC``
+          -  
+          -  omitted
+          -  
+   
+       *  -  pstat_sum
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PSTAT_SUM``
+          -  
+          -  omitted
+          -  
+   
+       *  -  pstatdirdes_1
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PSTATDIRDES_1``
+          -  
+          -  omitted
+          -  
+   
+       *  -  pstatdirdes_2
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PSTATDIRDES_2``
+          -  
+          -  omitted
+          -  
+   
+       *  -  pstatenable_1
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PSTATENABLE_1``
+          -  
+          -  omitted
+          -  
+   
+       *  -  pstatenable_2
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PSTATENABLE_2``
+          -  
+          -  omitted
+          -  
+   
+       *  -  pstatenades_1
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PSTATENADES_1``
+          -  
+          -  omitted
+          -  
+   
+       *  -  pstatenades_2
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PSTATENADES_2``
+          -  
+          -  omitted
+          -  
+   
+       *  -  pstatspdes_1
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PSTATSPDES_1``
+          -  
+          -  omitted
+          -  
+   
+       *  -  pstatspdes_2
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PSTATSPDES_2``
+          -  
+          -  omitted
+          -  
+   
+       *  -  pstatspdir_1
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PSTATSPDIR_1``
+          -  
+          -  omitted
+          -  
+   
+       *  -  pstatspdir_2
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PSTATSPDIR_2``
+          -  
+          -  omitted
+          -  
+   
+       *  -  pstatsprbck_1
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PSTATSPRBCK_1_RBV``
+          -  
+          -  omitted
+          -  
+   
+       *  -  pstatsprbck_2
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PSTATSPRBCK_2_RBV``
+          -  
+          -  omitted
+          -  
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:STATE``
+          -  
+          -  omitted
+          -  
+   
+       *  -  statedes
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:STATEDES``
+          -  
+          -  omitted
+          -  
+   
+       *  -  staterbck
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:STATERBCK_RBV``
+          -  
+          -  omitted
+          -  
+   
+       *  -  status_rs
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:STATUS_RS``
+          -  
+          -  omitted
+          -  
+   
+       *  -  status_rs_calc1
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:STATUS_RS_CALC1``
+          -  
+          -  omitted
+          -  
+   
+       *  -  status_rs_calc2
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:STATUS_RS_CALC2``
+          -  
+          -  omitted
+          -  
+   
+       *  -  status_rscalc
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:STATUS_RSCALC``
+          -  
+          -  omitted
+          -  
+   
+       *  -  status_rscalc2
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:STATUS_RSCALC2``
+          -  
+          -  omitted
+          -  
+   
+       *  -  status_rsmon
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:STATUS_RSMON``
+          -  
+          -  omitted
+          -  
+   
+       *  -  status_rsout
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:STATUS_RSOUT``
+          -  
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~GaugeSerial.SUB_ACQ_DONE
-      ~GaugeSerial.attr_name
-      ~GaugeSerial.component_names
-      ~GaugeSerial.configuration_attrs
-      ~GaugeSerial.connected
-      ~GaugeSerial.dotted_name
-      ~GaugeSerial.event_types
-      ~GaugeSerial.gastype
-      ~GaugeSerial.gastypedes
-      ~GaugeSerial.hints
-      ~GaugeSerial.hystsprbck_1
-      ~GaugeSerial.hystsprbck_2
-      ~GaugeSerial.kind
-      ~GaugeSerial.lazy_wait_for_connection
-      ~GaugeSerial.name
-      ~GaugeSerial.p
-      ~GaugeSerial.padel
-      ~GaugeSerial.parent
-      ~GaugeSerial.plog
-      ~GaugeSerial.pmon
-      ~GaugeSerial.pmonraw
-      ~GaugeSerial.pstat_1
-      ~GaugeSerial.pstat_2
-      ~GaugeSerial.pstat_calc
-      ~GaugeSerial.pstat_sum
-      ~GaugeSerial.pstatdirdes_1
-      ~GaugeSerial.pstatdirdes_2
-      ~GaugeSerial.pstatenable_1
-      ~GaugeSerial.pstatenable_2
-      ~GaugeSerial.pstatenades_1
-      ~GaugeSerial.pstatenades_2
-      ~GaugeSerial.pstatspdes_1
-      ~GaugeSerial.pstatspdes_2
-      ~GaugeSerial.pstatspdir_1
-      ~GaugeSerial.pstatspdir_2
-      ~GaugeSerial.pstatsprbck_1
-      ~GaugeSerial.pstatsprbck_2
-      ~GaugeSerial.read_attrs
-      ~GaugeSerial.report
-      ~GaugeSerial.root
-      ~GaugeSerial.signal_names
-      ~GaugeSerial.state
-      ~GaugeSerial.statedes
-      ~GaugeSerial.staterbck
-      ~GaugeSerial.status_rs
-      ~GaugeSerial.status_rs_calc1
-      ~GaugeSerial.status_rs_calc2
-      ~GaugeSerial.status_rscalc
-      ~GaugeSerial.status_rscalc2
-      ~GaugeSerial.status_rsmon
-      ~GaugeSerial.status_rsout
-      ~GaugeSerial.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~GaugeSerial.configure
+       ~GaugeSerial.describe
+       ~GaugeSerial.get
+       ~GaugeSerial.read
+       ~GaugeSerial.read_configuration
+       ~GaugeSerial.stop
+       ~GaugeSerial.summary
+       ~GaugeSerial.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~GaugeSerial.configuration_attrs
+       ~GaugeSerial.connected
+       ~GaugeSerial.hints
+       ~GaugeSerial.kind
+    
+    

@@ -1,6 +1,0 @@
-pcdsdevices.gon.SamPhi.unstage
-==============================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SamPhi.unstage

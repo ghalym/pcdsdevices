@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.interface.LightpathInOutMixin &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.interface.LightpathInOutMixin &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,7 +37,7 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="pcdsdevices.interface.LightpathInOutMixin.__init__" href="generated/pcdsdevices.interface.LightpathInOutMixin.__init__.html" />
+    <link rel="next" title="pcdsdevices.interface.LightpathMixin" href="pcdsdevices.interface.LightpathMixin.html" />
     <link rel="prev" title="pcdsdevices.interface.FltMvInterface.wm_update" href="generated/pcdsdevices.interface.FltMvInterface.wm_update.html" /> 
 </head>
 
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -133,17 +134,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.AbsProgressBar.html">pcdsdevices.interface.AbsProgressBar</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.BaseInterface.html">pcdsdevices.interface.BaseInterface</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.FltMvInterface.html">pcdsdevices.interface.FltMvInterface</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.interface.LightpathInOutMixin</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.LightpathInOutMixin.__init__.html">pcdsdevices.interface.LightpathInOutMixin.__init__</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.LightpathInOutMixin.add_instantiation_callback.html">pcdsdevices.interface.LightpathInOutMixin.add_instantiation_callback</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.LightpathInOutMixin.check_value.html">pcdsdevices.interface.LightpathInOutMixin.check_value</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.LightpathInOutMixin.clear_sub.html">pcdsdevices.interface.LightpathInOutMixin.clear_sub</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.LightpathInOutMixin.destroy.html">pcdsdevices.interface.LightpathInOutMixin.destroy</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.LightpathInOutMixin.subscribe.html">pcdsdevices.interface.LightpathInOutMixin.subscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.LightpathInOutMixin.unsubscribe.html">pcdsdevices.interface.LightpathInOutMixin.unsubscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.LightpathInOutMixin.unsubscribe_all.html">pcdsdevices.interface.LightpathInOutMixin.unsubscribe_all</a></li>
-</ul>
-</li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.interface.LightpathInOutMixin</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.LightpathMixin.html">pcdsdevices.interface.LightpathMixin</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.MvInterface.html">pcdsdevices.interface.MvInterface</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.NullFile.html">pcdsdevices.interface.NullFile</a></li>
@@ -250,39 +241,6 @@
 <em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.interface.</code><code class="sig-name descname">LightpathInOutMixin</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.interface.LightpathInOutMixin" title="Permalink to this definition">¶</a></dt>
 <dd><p>LightpathMixin for parent device with InOut subdevices.
 Also works recursively on other LightpathInOutMixin subclasses.</p>
-<p class="rubric">Methods</p>
-<table class="longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
-<tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.LightpathInOutMixin.__init__.html#pcdsdevices.interface.LightpathInOutMixin.__init__" title="pcdsdevices.interface.LightpathInOutMixin.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(*args, **kwargs)</p></td>
-<td><p>Initialize self.</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.LightpathInOutMixin.add_instantiation_callback.html#pcdsdevices.interface.LightpathInOutMixin.add_instantiation_callback" title="pcdsdevices.interface.LightpathInOutMixin.add_instantiation_callback"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_instantiation_callback</span></code></a>(callback[, …])</p></td>
-<td><p>Register a callback which will receive each OphydObject instance.</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.LightpathInOutMixin.check_value.html#pcdsdevices.interface.LightpathInOutMixin.check_value" title="pcdsdevices.interface.LightpathInOutMixin.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value, **kwargs)</p></td>
-<td><p>Check if the value is valid for this object</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.LightpathInOutMixin.clear_sub.html#pcdsdevices.interface.LightpathInOutMixin.clear_sub" title="pcdsdevices.interface.LightpathInOutMixin.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
-<td><p>Remove a subscription, given the original callback function</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.LightpathInOutMixin.destroy.html#pcdsdevices.interface.LightpathInOutMixin.destroy" title="pcdsdevices.interface.LightpathInOutMixin.destroy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">destroy</span></code></a>()</p></td>
-<td><p>Disconnect the object from the underlying control layer</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.LightpathInOutMixin.subscribe.html#pcdsdevices.interface.LightpathInOutMixin.subscribe" title="pcdsdevices.interface.LightpathInOutMixin.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(callback[, event_type, run])</p></td>
-<td><p>Subscribe to events this event_type generates.</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.LightpathInOutMixin.unsubscribe.html#pcdsdevices.interface.LightpathInOutMixin.unsubscribe" title="pcdsdevices.interface.LightpathInOutMixin.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</p></td>
-<td><p>Remove a subscription</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.LightpathInOutMixin.unsubscribe_all.html#pcdsdevices.interface.LightpathInOutMixin.unsubscribe_all" title="pcdsdevices.interface.LightpathInOutMixin.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</p></td>
-<td><p></p></td>
-</tr>
-</tbody>
-</table>
 <p class="rubric">Attributes</p>
 <table class="longtable docutils align-default">
 <colgroup>
@@ -290,44 +248,14 @@ Also works recursively on other LightpathInOutMixin subclasses.</p>
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_STATE</span></code></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">attr_name</span></code></p></td>
-<td><p></p></td>
-</tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></p></td>
 <td><p>If the device is connected.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">dotted_name</span></code></p></td>
-<td><p>Return the dotted name</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">event_types</span></code></p></td>
-<td><p>Events that can be subscribed to via <code class="xref any docutils literal notranslate"><span class="pre">obj.subscribe</span></code></p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">inserted</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">lightpath_cpts</span></code></p></td>
 <td><p></p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">lightpath_cpts</span></code></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></p></td>
-<td><p>name of the device</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></p></td>
-<td><p>The parent of the ophyd object.</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">removed</span></code></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
-<td><p>A report on the object.</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></p></td>
-<td><p>Walk parents to find ultimate ancestor (parent’s parent…).</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">transmission</span></code></p></td>
 <td><p></p></td>
@@ -346,7 +274,7 @@ Also works recursively on other LightpathInOutMixin subclasses.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="generated/pcdsdevices.interface.LightpathInOutMixin.__init__.html" class="btn btn-neutral float-right" title="pcdsdevices.interface.LightpathInOutMixin.__init__" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.interface.LightpathMixin.html" class="btn btn-neutral float-right" title="pcdsdevices.interface.LightpathMixin" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="generated/pcdsdevices.interface.FltMvInterface.wm_update.html" class="btn btn-neutral float-left" title="pcdsdevices.interface.FltMvInterface.wm_update" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

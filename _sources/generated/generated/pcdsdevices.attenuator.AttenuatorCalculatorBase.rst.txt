@@ -7,87 +7,190 @@ pcdsdevices.attenuator.AttenuatorCalculatorBase
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~AttenuatorCalculatorBase.__init__
-      ~AttenuatorCalculatorBase.add_instantiation_callback
-      ~AttenuatorCalculatorBase.calculate
-      ~AttenuatorCalculatorBase.check_value
-      ~AttenuatorCalculatorBase.clear_sub
-      ~AttenuatorCalculatorBase.configure
-      ~AttenuatorCalculatorBase.describe
-      ~AttenuatorCalculatorBase.describe_configuration
-      ~AttenuatorCalculatorBase.destroy
-      ~AttenuatorCalculatorBase.format_status_info
-      ~AttenuatorCalculatorBase.get
-      ~AttenuatorCalculatorBase.get_active_config
-      ~AttenuatorCalculatorBase.get_best_config
-      ~AttenuatorCalculatorBase.get_device_tuple
-      ~AttenuatorCalculatorBase.get_instantiated_signals
-      ~AttenuatorCalculatorBase.get_moving_status
-      ~AttenuatorCalculatorBase.pause
-      ~AttenuatorCalculatorBase.put
-      ~AttenuatorCalculatorBase.read
-      ~AttenuatorCalculatorBase.read_configuration
-      ~AttenuatorCalculatorBase.resume
-      ~AttenuatorCalculatorBase.stage
-      ~AttenuatorCalculatorBase.status_info
-      ~AttenuatorCalculatorBase.stop
-      ~AttenuatorCalculatorBase.subscribe
-      ~AttenuatorCalculatorBase.summary
-      ~AttenuatorCalculatorBase.trigger
-      ~AttenuatorCalculatorBase.unstage
-      ~AttenuatorCalculatorBase.unsubscribe
-      ~AttenuatorCalculatorBase.unsubscribe_all
-      ~AttenuatorCalculatorBase.wait_for_connection
-      ~AttenuatorCalculatorBase.walk_components
-      ~AttenuatorCalculatorBase.walk_signals
-      ~AttenuatorCalculatorBase.walk_subdevice_classes
-      ~AttenuatorCalculatorBase.walk_subdevices
+       *  -  calc_mode
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:SYS:CalcMode``
+          -  Floor or Ceiling calculation
+          -  config
+          -  
+   
+       *  -  energy_source
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:SYS:EnergySource``
+          -  Use beamline photon energy or custom energy?
+          -  config
+          -  
+   
+       *  -  energy_custom
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:SYS:CustomPhotonEnergy``
+          -  Custom energy to use for calculations [eV]
+          -  config
+          -  
+   
+       *  -  energy_actual
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:SYS:ActualPhotonEnergy_RBV``
+          -  The reported beamline photon energy [eV]
+          -  config
+          -  
+   
+       *  -  actual_transmission
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:SYS:ActualTransmission_RBV``
+          -  Actual normalized transmission value
+          -  normal
+          -  
+   
+       *  -  actual_transmission_3omega
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:SYS:Actual3OmegaTransmission_RBV``
+          -  Actual 3 omega normalized transmission value
+          -  normal
+          -  
+   
+       *  -  desired_transmission
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:SYS:DesiredTransmission``
+          -  Desired normalized transmission value
+          -  normal
+          -  
+   
+       *  -  last_energy
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:SYS:LastPhotonEnergy_RBV``
+          -  The photon energy used for the previous calculation; i.e., the one that goes along with `best_config`.
+          -  config
+          -  
+   
+       *  -  best_config_bitmask
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:SYS:BestConfigurationBitmask_RBV``
+          -  The best configuration of filters for the desired transmission.
+          -  normal
+          -  
+   
+       *  -  best_config_error
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:SYS:BestConfigError_RBV``
+          -  Desired to calculated transmission error
+          -  normal
+          -  
+   
+       *  -  active_config_bitmask
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:SYS:ActiveConfigurationBitmask_RBV``
+          -  Where the filters are now (as an integer)
+          -  normal
+          -  
+   
+       *  -  filters_moving_bitmask
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:SYS:FiltersMovingBitmask_RBV``
+          -  Filter-by-filter motion status as a bitmask
+          -  normal
+          -  
+   
+       *  -  run_calculation
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:SYS:Run``
+          -  Start the calculation
+          -  config
+          -  
+   
+       *  -  apply_config
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:SYS:ApplyConfiguration``
+          -  Apply the best configuration (i.e., move the filters)
+          -  config
+          -  
+   
+       *  -  moving
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:SYS:Moving_RBV``
+          -  Are filters being moved in/out?
+          -  config
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~AttenuatorCalculatorBase.SUB_ACQ_DONE
-      ~AttenuatorCalculatorBase.active_config_bitmask
-      ~AttenuatorCalculatorBase.actual_transmission
-      ~AttenuatorCalculatorBase.actual_transmission_3omega
-      ~AttenuatorCalculatorBase.apply_config
-      ~AttenuatorCalculatorBase.attr_name
-      ~AttenuatorCalculatorBase.best_config_bitmask
-      ~AttenuatorCalculatorBase.best_config_error
-      ~AttenuatorCalculatorBase.calc_mode
-      ~AttenuatorCalculatorBase.component_names
-      ~AttenuatorCalculatorBase.configuration_attrs
-      ~AttenuatorCalculatorBase.connected
-      ~AttenuatorCalculatorBase.desired_transmission
-      ~AttenuatorCalculatorBase.dotted_name
-      ~AttenuatorCalculatorBase.energy_actual
-      ~AttenuatorCalculatorBase.energy_custom
-      ~AttenuatorCalculatorBase.energy_source
-      ~AttenuatorCalculatorBase.event_types
-      ~AttenuatorCalculatorBase.filters_moving_bitmask
-      ~AttenuatorCalculatorBase.hints
-      ~AttenuatorCalculatorBase.kind
-      ~AttenuatorCalculatorBase.last_energy
-      ~AttenuatorCalculatorBase.lazy_wait_for_connection
-      ~AttenuatorCalculatorBase.moving
-      ~AttenuatorCalculatorBase.name
-      ~AttenuatorCalculatorBase.parent
-      ~AttenuatorCalculatorBase.read_attrs
-      ~AttenuatorCalculatorBase.report
-      ~AttenuatorCalculatorBase.root
-      ~AttenuatorCalculatorBase.run_calculation
-      ~AttenuatorCalculatorBase.signal_names
-      ~AttenuatorCalculatorBase.tab_whitelist
-      ~AttenuatorCalculatorBase.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~AttenuatorCalculatorBase.calculate
+       ~AttenuatorCalculatorBase.configure
+       ~AttenuatorCalculatorBase.describe
+       ~AttenuatorCalculatorBase.get
+       ~AttenuatorCalculatorBase.get_active_config
+       ~AttenuatorCalculatorBase.get_best_config
+       ~AttenuatorCalculatorBase.get_moving_status
+       ~AttenuatorCalculatorBase.read
+       ~AttenuatorCalculatorBase.read_configuration
+       ~AttenuatorCalculatorBase.stop
+       ~AttenuatorCalculatorBase.summary
+       ~AttenuatorCalculatorBase.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~AttenuatorCalculatorBase.configuration_attrs
+       ~AttenuatorCalculatorBase.connected
+       ~AttenuatorCalculatorBase.hints
+       ~AttenuatorCalculatorBase.kind
+    
+    

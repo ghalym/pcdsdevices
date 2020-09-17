@@ -1,6 +1,0 @@
-pcdsdevices.pump.GammaController.format\_status\_info
-=====================================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: GammaController.format_status_info

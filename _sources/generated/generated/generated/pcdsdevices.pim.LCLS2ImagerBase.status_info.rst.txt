@@ -1,6 +1,0 @@
-pcdsdevices.pim.LCLS2ImagerBase.status\_info
-============================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: LCLS2ImagerBase.status_info

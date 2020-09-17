@@ -1,6 +1,0 @@
-pcdsdevices.pump.Navigator.unsubscribe\_all
-===========================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: Navigator.unsubscribe_all

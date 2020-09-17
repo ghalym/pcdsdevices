@@ -1,6 +1,0 @@
-pcdsdevices.gauge.BaseGauge.status\_info
-========================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: BaseGauge.status_info

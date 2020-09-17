@@ -7,77 +7,159 @@ pcdsdevices.gauge.MKS937BController
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~MKS937BController.__init__
-      ~MKS937BController.add_instantiation_callback
-      ~MKS937BController.check_value
-      ~MKS937BController.clear_sub
-      ~MKS937BController.configure
-      ~MKS937BController.describe
-      ~MKS937BController.describe_configuration
-      ~MKS937BController.destroy
-      ~MKS937BController.get
-      ~MKS937BController.get_device_tuple
-      ~MKS937BController.get_instantiated_signals
-      ~MKS937BController.pause
-      ~MKS937BController.put
-      ~MKS937BController.read
-      ~MKS937BController.read_configuration
-      ~MKS937BController.resume
-      ~MKS937BController.stage
-      ~MKS937BController.stop
-      ~MKS937BController.subscribe
-      ~MKS937BController.summary
-      ~MKS937BController.trigger
-      ~MKS937BController.unstage
-      ~MKS937BController.unsubscribe
-      ~MKS937BController.unsubscribe_all
-      ~MKS937BController.wait_for_connection
-      ~MKS937BController.walk_components
-      ~MKS937BController.walk_signals
-      ~MKS937BController.walk_subdevice_classes
-      ~MKS937BController.walk_subdevices
+       *  -  unit
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:UNIT``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.gauge.GCT`
+   
+       *  -  cal
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:CAL``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.gauge.GCT`
+   
+       *  -  version
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:VERSION_RBV``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.gauge.GCT`
+   
+       *  -  addr
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:ADDR``
+          -  
+          -  omitted
+          -  
+   
+       *  -  modtype_a
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:MODTYPE_A_RBV``
+          -  
+          -  omitted
+          -  
+   
+       *  -  modtype_b
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:MODTYPE_B_RBV``
+          -  
+          -  omitted
+          -  
+   
+       *  -  modtype_c
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:MODTYPE_C_RBV``
+          -  
+          -  omitted
+          -  
+   
+       *  -  pstatall
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PSTATALL_RBV``
+          -  
+          -  omitted
+          -  
+   
+       *  -  pstatenall
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PSTATENALL_RBV``
+          -  
+          -  omitted
+          -  
+   
+       *  -  slota
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:SLOTA``
+          -  
+          -  omitted
+          -  
+   
+       *  -  slotb
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:SLOTB``
+          -  
+          -  omitted
+          -  
+   
+       *  -  slotc
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:SLOTC``
+          -  
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~MKS937BController.SUB_ACQ_DONE
-      ~MKS937BController.addr
-      ~MKS937BController.attr_name
-      ~MKS937BController.cal
-      ~MKS937BController.component_names
-      ~MKS937BController.configuration_attrs
-      ~MKS937BController.connected
-      ~MKS937BController.dotted_name
-      ~MKS937BController.event_types
-      ~MKS937BController.hints
-      ~MKS937BController.kind
-      ~MKS937BController.lazy_wait_for_connection
-      ~MKS937BController.modtype_a
-      ~MKS937BController.modtype_b
-      ~MKS937BController.modtype_c
-      ~MKS937BController.name
-      ~MKS937BController.parent
-      ~MKS937BController.pstatall
-      ~MKS937BController.pstatenall
-      ~MKS937BController.read_attrs
-      ~MKS937BController.report
-      ~MKS937BController.root
-      ~MKS937BController.signal_names
-      ~MKS937BController.slota
-      ~MKS937BController.slotb
-      ~MKS937BController.slotc
-      ~MKS937BController.trigger_signals
-      ~MKS937BController.unit
-      ~MKS937BController.version
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~MKS937BController.configure
+       ~MKS937BController.describe
+       ~MKS937BController.get
+       ~MKS937BController.read
+       ~MKS937BController.read_configuration
+       ~MKS937BController.stop
+       ~MKS937BController.summary
+       ~MKS937BController.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~MKS937BController.configuration_attrs
+       ~MKS937BController.connected
+       ~MKS937BController.hints
+       ~MKS937BController.kind
+    
+    

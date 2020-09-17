@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ccm.CCMX.mvr &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.ccm.CCMX.mvr &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,7 +37,7 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.ccm.CCMX.pause" href="pcdsdevices.ccm.CCMX.pause.html" />
+    <link rel="next" title="pcdsdevices.ccm.CCMX.read" href="pcdsdevices.ccm.CCMX.read.html" />
     <link rel="prev" title="pcdsdevices.ccm.CCMX.mv_ginput" href="pcdsdevices.ccm.CCMX.mv_ginput.html" /> 
 </head>
 
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -120,40 +121,25 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.ccm.CCMMotor.html">pcdsdevices.ccm.CCMMotor</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.ccm.CCMPico.html">pcdsdevices.ccm.CCMPico</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.ccm.CCMX.html">pcdsdevices.ccm.CCMX</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.__init__.html">pcdsdevices.ccm.CCMX.__init__</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.add_instantiation_callback.html">pcdsdevices.ccm.CCMX.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.calc_combined.html">pcdsdevices.ccm.CCMX.calc_combined</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.camonitor.html">pcdsdevices.ccm.CCMX.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.check_single.html">pcdsdevices.ccm.CCMX.check_single</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.check_value.html">pcdsdevices.ccm.CCMX.check_value</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.clear_sub.html">pcdsdevices.ccm.CCMX.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.configure.html">pcdsdevices.ccm.CCMX.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.describe.html">pcdsdevices.ccm.CCMX.describe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.describe_configuration.html">pcdsdevices.ccm.CCMX.describe_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.destroy.html">pcdsdevices.ccm.CCMX.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.end_monitor_thread.html">pcdsdevices.ccm.CCMX.end_monitor_thread</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.format_status_info.html">pcdsdevices.ccm.CCMX.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.forward.html">pcdsdevices.ccm.CCMX.forward</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.get.html">pcdsdevices.ccm.CCMX.get</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.get_device_tuple.html">pcdsdevices.ccm.CCMX.get_device_tuple</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.get_instantiated_signals.html">pcdsdevices.ccm.CCMX.get_instantiated_signals</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.inverse.html">pcdsdevices.ccm.CCMX.inverse</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.move.html">pcdsdevices.ccm.CCMX.move</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.move_single.html">pcdsdevices.ccm.CCMX.move_single</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.mv.html">pcdsdevices.ccm.CCMX.mv</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.mv_ginput.html">pcdsdevices.ccm.CCMX.mv_ginput</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.ccm.CCMX.mvr</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.pause.html">pcdsdevices.ccm.CCMX.pause</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.put.html">pcdsdevices.ccm.CCMX.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.read.html">pcdsdevices.ccm.CCMX.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.read_configuration.html">pcdsdevices.ccm.CCMX.read_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.resume.html">pcdsdevices.ccm.CCMX.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.save_offsets.html">pcdsdevices.ccm.CCMX.save_offsets</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.set.html">pcdsdevices.ccm.CCMX.set</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.stage.html">pcdsdevices.ccm.CCMX.stage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.status_info.html">pcdsdevices.ccm.CCMX.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.stop.html">pcdsdevices.ccm.CCMX.stop</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.subscribe.html">pcdsdevices.ccm.CCMX.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.summary.html">pcdsdevices.ccm.CCMX.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.to_pseudo_tuple.html">pcdsdevices.ccm.CCMX.to_pseudo_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.to_real_tuple.html">pcdsdevices.ccm.CCMX.to_real_tuple</a></li>
@@ -161,15 +147,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.tweak.html">pcdsdevices.ccm.CCMX.tweak</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.umv.html">pcdsdevices.ccm.CCMX.umv</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.umvr.html">pcdsdevices.ccm.CCMX.umvr</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.unstage.html">pcdsdevices.ccm.CCMX.unstage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.unsubscribe.html">pcdsdevices.ccm.CCMX.unsubscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.unsubscribe_all.html">pcdsdevices.ccm.CCMX.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.wait.html">pcdsdevices.ccm.CCMX.wait</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.wait_for_connection.html">pcdsdevices.ccm.CCMX.wait_for_connection</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.walk_components.html">pcdsdevices.ccm.CCMX.walk_components</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.walk_signals.html">pcdsdevices.ccm.CCMX.walk_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.walk_subdevice_classes.html">pcdsdevices.ccm.CCMX.walk_subdevice_classes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.walk_subdevices.html">pcdsdevices.ccm.CCMX.walk_subdevices</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.wm.html">pcdsdevices.ccm.CCMX.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMX.wm_update.html">pcdsdevices.ccm.CCMX.wm_update</a></li>
 </ul>
@@ -312,7 +290,7 @@ Defaults to <code class="xref std std-keyword docutils literal notranslate"><spa
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.ccm.CCMX.pause.html" class="btn btn-neutral float-right" title="pcdsdevices.ccm.CCMX.pause" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.ccm.CCMX.read.html" class="btn btn-neutral float-right" title="pcdsdevices.ccm.CCMX.read" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="pcdsdevices.ccm.CCMX.mv_ginput.html" class="btn btn-neutral float-left" title="pcdsdevices.ccm.CCMX.mv_ginput" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SyncAxesBase.resume
-=========================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SyncAxesBase.resume

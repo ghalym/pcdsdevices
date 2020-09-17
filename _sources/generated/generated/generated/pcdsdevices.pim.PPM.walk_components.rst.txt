@@ -1,6 +1,0 @@
-pcdsdevices.pim.PPM.walk\_components
-====================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PPM.walk_components

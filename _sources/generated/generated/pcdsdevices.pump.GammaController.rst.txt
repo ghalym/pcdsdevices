@@ -7,79 +7,141 @@ pcdsdevices.pump.GammaController
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~GammaController.__init__
-      ~GammaController.add_instantiation_callback
-      ~GammaController.check_value
-      ~GammaController.clear_sub
-      ~GammaController.configure
-      ~GammaController.describe
-      ~GammaController.describe_configuration
-      ~GammaController.destroy
-      ~GammaController.format_status_info
-      ~GammaController.get
-      ~GammaController.get_device_tuple
-      ~GammaController.get_instantiated_signals
-      ~GammaController.pause
-      ~GammaController.put
-      ~GammaController.read
-      ~GammaController.read_configuration
-      ~GammaController.resume
-      ~GammaController.stage
-      ~GammaController.status_info
-      ~GammaController.stop
-      ~GammaController.subscribe
-      ~GammaController.summary
-      ~GammaController.trigger
-      ~GammaController.unstage
-      ~GammaController.unsubscribe
-      ~GammaController.unsubscribe_all
-      ~GammaController.wait_for_connection
-      ~GammaController.walk_components
-      ~GammaController.walk_signals
-      ~GammaController.walk_subdevice_classes
-      ~GammaController.walk_subdevices
+       *  -  channel1name
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:CHAN1NAME``
+          -  
+          -  config
+          -  
+   
+       *  -  channel2name
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:CHAN2NAME``
+          -  
+          -  config
+          -  
+   
+       *  -  model
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:MODEL``
+          -  
+          -  config
+          -  
+   
+       *  -  firmwareversion
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:FWVERSION``
+          -  
+          -  config
+          -  
+   
+       *  -  linevoltage
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:LINEV``
+          -  
+          -  omitted
+          -  
+   
+       *  -  linefrequency
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:LINEFREQ``
+          -  
+          -  omitted
+          -  
+   
+       *  -  cooling_fan_status
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:FAN``
+          -  
+          -  omitted
+          -  
+   
+       *  -  power_autosave
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:ASPOWERE``
+          -  
+          -  config
+          -  
+   
+       *  -  high_voltage_enable_autosave
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:ASHVE``
+          -  
+          -  normal
+          -  
+   
+       *  -  unit
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PEGUDES``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~GammaController.SUB_ACQ_DONE
-      ~GammaController.attr_name
-      ~GammaController.channel1name
-      ~GammaController.channel2name
-      ~GammaController.component_names
-      ~GammaController.configuration_attrs
-      ~GammaController.connected
-      ~GammaController.cooling_fan_status
-      ~GammaController.dotted_name
-      ~GammaController.event_types
-      ~GammaController.firmwareversion
-      ~GammaController.high_voltage_enable_autosave
-      ~GammaController.hints
-      ~GammaController.kind
-      ~GammaController.lazy_wait_for_connection
-      ~GammaController.linefrequency
-      ~GammaController.linevoltage
-      ~GammaController.model
-      ~GammaController.name
-      ~GammaController.parent
-      ~GammaController.power_autosave
-      ~GammaController.read_attrs
-      ~GammaController.report
-      ~GammaController.root
-      ~GammaController.signal_names
-      ~GammaController.tab_component_names
-      ~GammaController.tab_whitelist
-      ~GammaController.trigger_signals
-      ~GammaController.unit
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~GammaController.configure
+       ~GammaController.describe
+       ~GammaController.get
+       ~GammaController.read
+       ~GammaController.read_configuration
+       ~GammaController.stop
+       ~GammaController.summary
+       ~GammaController.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~GammaController.configuration_attrs
+       ~GammaController.connected
+       ~GammaController.hints
+       ~GammaController.kind
+    
+    

@@ -1,6 +1,0 @@
-pcdsdevices.dc\_devices.ICTBus.\_\_init\_\_
-===========================================
-
-.. currentmodule:: pcdsdevices.dc_devices
-
-.. automethod:: ICTBus.__init__

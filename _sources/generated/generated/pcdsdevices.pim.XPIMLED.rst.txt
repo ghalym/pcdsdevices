@@ -7,73 +7,87 @@ pcdsdevices.pim.XPIMLED
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~XPIMLED.__init__
-      ~XPIMLED.add_instantiation_callback
-      ~XPIMLED.check_value
-      ~XPIMLED.clear_sub
-      ~XPIMLED.configure
-      ~XPIMLED.describe
-      ~XPIMLED.describe_configuration
-      ~XPIMLED.destroy
-      ~XPIMLED.format_status_info
-      ~XPIMLED.get
-      ~XPIMLED.get_device_tuple
-      ~XPIMLED.get_instantiated_signals
-      ~XPIMLED.pause
-      ~XPIMLED.put
-      ~XPIMLED.read
-      ~XPIMLED.read_configuration
-      ~XPIMLED.resume
-      ~XPIMLED.stage
-      ~XPIMLED.status_info
-      ~XPIMLED.stop
-      ~XPIMLED.subscribe
-      ~XPIMLED.summary
-      ~XPIMLED.trigger
-      ~XPIMLED.unstage
-      ~XPIMLED.unsubscribe
-      ~XPIMLED.unsubscribe_all
-      ~XPIMLED.wait_for_connection
-      ~XPIMLED.walk_components
-      ~XPIMLED.walk_signals
-      ~XPIMLED.walk_subdevice_classes
-      ~XPIMLED.walk_subdevices
+       *  -  power
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:PWR``
+          -  LED power state, either on or off.
+          -  normal
+          -  
+   
+       *  -  power_timeout
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:CLK:TIMEOUT``
+          -  Configured auto-shutdown timeout for the led.
+          -  config
+          -  
+   
+       *  -  time_remaining
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:CLK:REMAINING``
+          -  Remaining time before auto-shutoff.
+          -  config
+          -  
+   
+       *  -  auto_mode
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:AUTO``
+          -  Configure auto mode vs manual mode for turning the LED on and off.
+          -  config
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~XPIMLED.SUB_ACQ_DONE
-      ~XPIMLED.attr_name
-      ~XPIMLED.auto_mode
-      ~XPIMLED.component_names
-      ~XPIMLED.configuration_attrs
-      ~XPIMLED.connected
-      ~XPIMLED.dotted_name
-      ~XPIMLED.event_types
-      ~XPIMLED.hints
-      ~XPIMLED.kind
-      ~XPIMLED.lazy_wait_for_connection
-      ~XPIMLED.name
-      ~XPIMLED.parent
-      ~XPIMLED.power
-      ~XPIMLED.power_timeout
-      ~XPIMLED.read_attrs
-      ~XPIMLED.report
-      ~XPIMLED.root
-      ~XPIMLED.signal_names
-      ~XPIMLED.tab_component_names
-      ~XPIMLED.tab_whitelist
-      ~XPIMLED.time_remaining
-      ~XPIMLED.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~XPIMLED.configure
+       ~XPIMLED.describe
+       ~XPIMLED.get
+       ~XPIMLED.read
+       ~XPIMLED.read_configuration
+       ~XPIMLED.stop
+       ~XPIMLED.summary
+       ~XPIMLED.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~XPIMLED.configuration_attrs
+       ~XPIMLED.connected
+       ~XPIMLED.hints
+       ~XPIMLED.kind
+    
+    

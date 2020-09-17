@@ -7,72 +7,62 @@ pcdsdevices.gauge.GaugeSetBase
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~GaugeSetBase.__init__
-      ~GaugeSetBase.add_instantiation_callback
-      ~GaugeSetBase.check_value
-      ~GaugeSetBase.clear_sub
-      ~GaugeSetBase.configure
-      ~GaugeSetBase.describe
-      ~GaugeSetBase.describe_configuration
-      ~GaugeSetBase.destroy
-      ~GaugeSetBase.egu
-      ~GaugeSetBase.format_status_info
-      ~GaugeSetBase.get
-      ~GaugeSetBase.get_device_tuple
-      ~GaugeSetBase.get_instantiated_signals
-      ~GaugeSetBase.pause
-      ~GaugeSetBase.pressure
-      ~GaugeSetBase.put
-      ~GaugeSetBase.read
-      ~GaugeSetBase.read_configuration
-      ~GaugeSetBase.resume
-      ~GaugeSetBase.stage
-      ~GaugeSetBase.status_info
-      ~GaugeSetBase.stop
-      ~GaugeSetBase.subscribe
-      ~GaugeSetBase.summary
-      ~GaugeSetBase.trigger
-      ~GaugeSetBase.unstage
-      ~GaugeSetBase.unsubscribe
-      ~GaugeSetBase.unsubscribe_all
-      ~GaugeSetBase.wait_for_connection
-      ~GaugeSetBase.walk_components
-      ~GaugeSetBase.walk_signals
-      ~GaugeSetBase.walk_subdevice_classes
-      ~GaugeSetBase.walk_subdevices
+       *  -  gcc (FCpt)
+          -  :class:`~pcdsdevices.gauge.GaugeColdCathode`
+          -  ``{self.prefix}:GCC:{self.index}``
+          -  
+          -  normal
+          -  
+   
+
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~GaugeSetBase.SUB_ACQ_DONE
-      ~GaugeSetBase.attr_name
-      ~GaugeSetBase.component_names
-      ~GaugeSetBase.configuration_attrs
-      ~GaugeSetBase.connected
-      ~GaugeSetBase.dotted_name
-      ~GaugeSetBase.event_types
-      ~GaugeSetBase.gcc
-      ~GaugeSetBase.hints
-      ~GaugeSetBase.kind
-      ~GaugeSetBase.lazy_wait_for_connection
-      ~GaugeSetBase.name
-      ~GaugeSetBase.parent
-      ~GaugeSetBase.read_attrs
-      ~GaugeSetBase.report
-      ~GaugeSetBase.root
-      ~GaugeSetBase.signal_names
-      ~GaugeSetBase.tab_component_names
-      ~GaugeSetBase.tab_whitelist
-      ~GaugeSetBase.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~GaugeSetBase.configure
+       ~GaugeSetBase.describe
+       ~GaugeSetBase.egu
+       ~GaugeSetBase.get
+       ~GaugeSetBase.pressure
+       ~GaugeSetBase.read
+       ~GaugeSetBase.read_configuration
+       ~GaugeSetBase.stop
+       ~GaugeSetBase.summary
+       ~GaugeSetBase.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~GaugeSetBase.configuration_attrs
+       ~GaugeSetBase.connected
+       ~GaugeSetBase.hints
+       ~GaugeSetBase.kind
+    
+    

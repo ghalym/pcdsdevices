@@ -7,112 +7,115 @@ pcdsdevices.ccm.CCMX
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~CCMX.__init__
-      ~CCMX.add_instantiation_callback
-      ~CCMX.calc_combined
-      ~CCMX.camonitor
-      ~CCMX.check_single
-      ~CCMX.check_value
-      ~CCMX.clear_sub
-      ~CCMX.configure
-      ~CCMX.describe
-      ~CCMX.describe_configuration
-      ~CCMX.destroy
-      ~CCMX.end_monitor_thread
-      ~CCMX.format_status_info
-      ~CCMX.forward
-      ~CCMX.get
-      ~CCMX.get_device_tuple
-      ~CCMX.get_instantiated_signals
-      ~CCMX.inverse
-      ~CCMX.move
-      ~CCMX.move_single
-      ~CCMX.mv
-      ~CCMX.mv_ginput
-      ~CCMX.mvr
-      ~CCMX.pause
-      ~CCMX.put
-      ~CCMX.read
-      ~CCMX.read_configuration
-      ~CCMX.resume
-      ~CCMX.save_offsets
-      ~CCMX.set
-      ~CCMX.stage
-      ~CCMX.status_info
-      ~CCMX.stop
-      ~CCMX.subscribe
-      ~CCMX.summary
-      ~CCMX.to_pseudo_tuple
-      ~CCMX.to_real_tuple
-      ~CCMX.trigger
-      ~CCMX.tweak
-      ~CCMX.umv
-      ~CCMX.umvr
-      ~CCMX.unstage
-      ~CCMX.unsubscribe
-      ~CCMX.unsubscribe_all
-      ~CCMX.wait
-      ~CCMX.wait_for_connection
-      ~CCMX.walk_components
-      ~CCMX.walk_signals
-      ~CCMX.walk_subdevice_classes
-      ~CCMX.walk_subdevices
-      ~CCMX.wm
-      ~CCMX.wm_update
+       *  -  pseudo
+          -  :class:`~ophyd.pseudopos.PseudoSingle`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pseudopos.SyncAxesBase`
+   
+       *  -  down (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self.down_prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  up (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self.up_prefix}``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~CCMX.SUB_ACQ_DONE
-      ~CCMX.SUB_DONE
-      ~CCMX.SUB_READBACK
-      ~CCMX.SUB_START
-      ~CCMX.attr_name
-      ~CCMX.component_names
-      ~CCMX.composite_egu
-      ~CCMX.concurrent
-      ~CCMX.configuration_attrs
-      ~CCMX.connected
-      ~CCMX.dotted_name
-      ~CCMX.down
-      ~CCMX.egu
-      ~CCMX.event_types
-      ~CCMX.high_limit
-      ~CCMX.hints
-      ~CCMX.kind
-      ~CCMX.lazy_wait_for_connection
-      ~CCMX.limits
-      ~CCMX.low_limit
-      ~CCMX.moving
-      ~CCMX.name
-      ~CCMX.parent
-      ~CCMX.position
-      ~CCMX.presets
-      ~CCMX.pseudo
-      ~CCMX.pseudo_positioners
-      ~CCMX.read_attrs
-      ~CCMX.real_position
-      ~CCMX.real_positioners
-      ~CCMX.report
-      ~CCMX.root
-      ~CCMX.sequential
-      ~CCMX.settle_time
-      ~CCMX.signal_names
-      ~CCMX.tab_component_names
-      ~CCMX.tab_whitelist
-      ~CCMX.target
-      ~CCMX.timeout
-      ~CCMX.trigger_signals
-      ~CCMX.up
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~CCMX.calc_combined
+       ~CCMX.camonitor
+       ~CCMX.check_single
+       ~CCMX.configure
+       ~CCMX.describe
+       ~CCMX.end_monitor_thread
+       ~CCMX.forward
+       ~CCMX.get
+       ~CCMX.inverse
+       ~CCMX.move
+       ~CCMX.move_single
+       ~CCMX.mv
+       ~CCMX.mv_ginput
+       ~CCMX.mvr
+       ~CCMX.read
+       ~CCMX.read_configuration
+       ~CCMX.save_offsets
+       ~CCMX.set
+       ~CCMX.stop
+       ~CCMX.summary
+       ~CCMX.to_pseudo_tuple
+       ~CCMX.to_real_tuple
+       ~CCMX.trigger
+       ~CCMX.tweak
+       ~CCMX.umv
+       ~CCMX.umvr
+       ~CCMX.wait
+       ~CCMX.wm
+       ~CCMX.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~CCMX.composite_egu
+       ~CCMX.concurrent
+       ~CCMX.configuration_attrs
+       ~CCMX.connected
+       ~CCMX.egu
+       ~CCMX.high_limit
+       ~CCMX.hints
+       ~CCMX.kind
+       ~CCMX.limits
+       ~CCMX.low_limit
+       ~CCMX.moving
+       ~CCMX.position
+       ~CCMX.presets
+       ~CCMX.pseudo_positioners
+       ~CCMX.real_position
+       ~CCMX.real_positioners
+       ~CCMX.sequential
+       ~CCMX.settle_time
+       ~CCMX.target
+       ~CCMX.timeout
+    
+    

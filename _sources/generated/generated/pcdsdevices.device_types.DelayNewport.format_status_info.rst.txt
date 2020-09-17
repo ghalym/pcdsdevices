@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.DelayNewport.format\_status\_info
-===========================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: DelayNewport.format_status_info

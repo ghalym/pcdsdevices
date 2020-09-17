@@ -1,6 +1,0 @@
-pcdsdevices.signal.NotImplementedSignal.wait\_for\_connection
-=============================================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: NotImplementedSignal.wait_for_connection

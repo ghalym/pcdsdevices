@@ -1,6 +1,0 @@
-pcdsdevices.jet.BeckhoffJetManipulator.walk\_subdevices
-=======================================================
-
-.. currentmodule:: pcdsdevices.jet
-
-.. automethod:: BeckhoffJetManipulator.walk_subdevices

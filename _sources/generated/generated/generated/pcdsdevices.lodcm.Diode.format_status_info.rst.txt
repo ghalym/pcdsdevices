@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.Diode.format\_status\_info
-============================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: Diode.format_status_info

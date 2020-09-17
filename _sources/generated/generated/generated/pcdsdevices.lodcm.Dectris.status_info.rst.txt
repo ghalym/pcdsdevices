@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.Dectris.status\_info
-======================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: Dectris.status_info

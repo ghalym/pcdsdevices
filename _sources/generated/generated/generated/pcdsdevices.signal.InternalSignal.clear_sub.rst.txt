@@ -1,6 +1,0 @@
-pcdsdevices.signal.InternalSignal.clear\_sub
-============================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: InternalSignal.clear_sub

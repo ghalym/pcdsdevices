@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.AT2L0.\_\_init\_\_
-=========================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: AT2L0.__init__

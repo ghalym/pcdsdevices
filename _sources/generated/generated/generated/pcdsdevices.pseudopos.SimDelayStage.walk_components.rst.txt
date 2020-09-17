@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SimDelayStage.walk\_components
-====================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SimDelayStage.walk_components

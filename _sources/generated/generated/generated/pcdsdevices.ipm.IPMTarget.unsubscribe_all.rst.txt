@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPMTarget.unsubscribe\_all
-==========================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPMTarget.unsubscribe_all

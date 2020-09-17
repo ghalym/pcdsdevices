@@ -1,6 +1,0 @@
-pcdsdevices.pim.XPIMLED.walk\_components
-========================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: XPIMLED.walk_components

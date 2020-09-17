@@ -1,6 +1,0 @@
-pcdsdevices.gon.SamPhi.subscribe
-================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SamPhi.subscribe

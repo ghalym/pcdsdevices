@@ -1,6 +1,0 @@
-pcdsdevices.mirror.PointingMirror.pause
-=======================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: PointingMirror.pause

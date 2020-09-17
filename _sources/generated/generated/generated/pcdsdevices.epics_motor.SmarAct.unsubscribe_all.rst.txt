@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.SmarAct.unsubscribe\_all
-=================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: SmarAct.unsubscribe_all

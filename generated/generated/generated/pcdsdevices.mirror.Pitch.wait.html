@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.mirror.Pitch.wait &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.mirror.Pitch.wait &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,8 +37,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.mirror.Pitch.wait_for_connection" href="pcdsdevices.mirror.Pitch.wait_for_connection.html" />
-    <link rel="prev" title="pcdsdevices.mirror.Pitch.unsubscribe_all" href="pcdsdevices.mirror.Pitch.unsubscribe_all.html" /> 
+    <link rel="next" title="pcdsdevices.mirror.Pitch.wm" href="pcdsdevices.mirror.Pitch.wm.html" />
+    <link rel="prev" title="pcdsdevices.mirror.Pitch.umvr" href="pcdsdevices.mirror.Pitch.umvr.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -128,48 +129,25 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.mirror.OMMotor.html">pcdsdevices.mirror.OMMotor</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.mirror.OffsetMirror.html">pcdsdevices.mirror.OffsetMirror</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.mirror.Pitch.html">pcdsdevices.mirror.Pitch</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.__init__.html">pcdsdevices.mirror.Pitch.__init__</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.add_instantiation_callback.html">pcdsdevices.mirror.Pitch.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.camonitor.html">pcdsdevices.mirror.Pitch.camonitor</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.check_value.html">pcdsdevices.mirror.Pitch.check_value</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.clear_sub.html">pcdsdevices.mirror.Pitch.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.configure.html">pcdsdevices.mirror.Pitch.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.describe.html">pcdsdevices.mirror.Pitch.describe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.describe_configuration.html">pcdsdevices.mirror.Pitch.describe_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.destroy.html">pcdsdevices.mirror.Pitch.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.end_monitor_thread.html">pcdsdevices.mirror.Pitch.end_monitor_thread</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.format_status_info.html">pcdsdevices.mirror.Pitch.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.get.html">pcdsdevices.mirror.Pitch.get</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.get_device_tuple.html">pcdsdevices.mirror.Pitch.get_device_tuple</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.get_instantiated_signals.html">pcdsdevices.mirror.Pitch.get_instantiated_signals</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.move.html">pcdsdevices.mirror.Pitch.move</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.mv.html">pcdsdevices.mirror.Pitch.mv</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.mv_ginput.html">pcdsdevices.mirror.Pitch.mv_ginput</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.mvr.html">pcdsdevices.mirror.Pitch.mvr</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.pause.html">pcdsdevices.mirror.Pitch.pause</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.put.html">pcdsdevices.mirror.Pitch.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.read.html">pcdsdevices.mirror.Pitch.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.read_configuration.html">pcdsdevices.mirror.Pitch.read_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.resume.html">pcdsdevices.mirror.Pitch.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.set.html">pcdsdevices.mirror.Pitch.set</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.stage.html">pcdsdevices.mirror.Pitch.stage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.status_info.html">pcdsdevices.mirror.Pitch.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.stop.html">pcdsdevices.mirror.Pitch.stop</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.subscribe.html">pcdsdevices.mirror.Pitch.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.summary.html">pcdsdevices.mirror.Pitch.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.trigger.html">pcdsdevices.mirror.Pitch.trigger</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.tweak.html">pcdsdevices.mirror.Pitch.tweak</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.umv.html">pcdsdevices.mirror.Pitch.umv</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.umvr.html">pcdsdevices.mirror.Pitch.umvr</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.unstage.html">pcdsdevices.mirror.Pitch.unstage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.unsubscribe.html">pcdsdevices.mirror.Pitch.unsubscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.unsubscribe_all.html">pcdsdevices.mirror.Pitch.unsubscribe_all</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.mirror.Pitch.wait</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.wait_for_connection.html">pcdsdevices.mirror.Pitch.wait_for_connection</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.walk_components.html">pcdsdevices.mirror.Pitch.walk_components</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.walk_signals.html">pcdsdevices.mirror.Pitch.walk_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.walk_subdevice_classes.html">pcdsdevices.mirror.Pitch.walk_subdevice_classes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.walk_subdevices.html">pcdsdevices.mirror.Pitch.walk_subdevices</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.wm.html">pcdsdevices.mirror.Pitch.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.Pitch.wm_update.html">pcdsdevices.mirror.Pitch.wm_update</a></li>
 </ul>
@@ -284,10 +262,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.mirror.Pitch.wait_for_connection.html" class="btn btn-neutral float-right" title="pcdsdevices.mirror.Pitch.wait_for_connection" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.mirror.Pitch.wm.html" class="btn btn-neutral float-right" title="pcdsdevices.mirror.Pitch.wm" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="pcdsdevices.mirror.Pitch.unsubscribe_all.html" class="btn btn-neutral float-left" title="pcdsdevices.mirror.Pitch.unsubscribe_all" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="pcdsdevices.mirror.Pitch.umvr.html" class="btn btn-neutral float-left" title="pcdsdevices.mirror.Pitch.umvr" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

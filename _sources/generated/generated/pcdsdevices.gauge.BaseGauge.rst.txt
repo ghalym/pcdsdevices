@@ -7,75 +7,105 @@ pcdsdevices.gauge.BaseGauge
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~BaseGauge.__init__
-      ~BaseGauge.add_instantiation_callback
-      ~BaseGauge.check_value
-      ~BaseGauge.clear_sub
-      ~BaseGauge.configure
-      ~BaseGauge.describe
-      ~BaseGauge.describe_configuration
-      ~BaseGauge.destroy
-      ~BaseGauge.format_status_info
-      ~BaseGauge.get
-      ~BaseGauge.get_device_tuple
-      ~BaseGauge.get_instantiated_signals
-      ~BaseGauge.pause
-      ~BaseGauge.put
-      ~BaseGauge.read
-      ~BaseGauge.read_configuration
-      ~BaseGauge.resume
-      ~BaseGauge.stage
-      ~BaseGauge.status_info
-      ~BaseGauge.stop
-      ~BaseGauge.subscribe
-      ~BaseGauge.summary
-      ~BaseGauge.trigger
-      ~BaseGauge.unstage
-      ~BaseGauge.unsubscribe
-      ~BaseGauge.unsubscribe_all
-      ~BaseGauge.wait_for_connection
-      ~BaseGauge.walk_components
-      ~BaseGauge.walk_signals
-      ~BaseGauge.walk_subdevice_classes
-      ~BaseGauge.walk_subdevices
+       *  -  pressure
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PMON``
+          -  
+          -  hinted
+          -  
+   
+       *  -  egu
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PMON.EGU``
+          -  
+          -  normal
+          -  
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:STATE``
+          -  
+          -  normal
+          -  
+   
+       *  -  status
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:STATUSMON``
+          -  
+          -  normal
+          -  
+   
+       *  -  pressure_status
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PSTATMON``
+          -  
+          -  normal
+          -  
+   
+       *  -  pressure_status_enable
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PSTATMSP``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~BaseGauge.SUB_ACQ_DONE
-      ~BaseGauge.attr_name
-      ~BaseGauge.component_names
-      ~BaseGauge.configuration_attrs
-      ~BaseGauge.connected
-      ~BaseGauge.dotted_name
-      ~BaseGauge.egu
-      ~BaseGauge.event_types
-      ~BaseGauge.hints
-      ~BaseGauge.kind
-      ~BaseGauge.lazy_wait_for_connection
-      ~BaseGauge.name
-      ~BaseGauge.parent
-      ~BaseGauge.pressure
-      ~BaseGauge.pressure_status
-      ~BaseGauge.pressure_status_enable
-      ~BaseGauge.read_attrs
-      ~BaseGauge.report
-      ~BaseGauge.root
-      ~BaseGauge.signal_names
-      ~BaseGauge.state
-      ~BaseGauge.status
-      ~BaseGauge.tab_component_names
-      ~BaseGauge.tab_whitelist
-      ~BaseGauge.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~BaseGauge.configure
+       ~BaseGauge.describe
+       ~BaseGauge.get
+       ~BaseGauge.read
+       ~BaseGauge.read_configuration
+       ~BaseGauge.stop
+       ~BaseGauge.summary
+       ~BaseGauge.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~BaseGauge.configuration_attrs
+       ~BaseGauge.connected
+       ~BaseGauge.hints
+       ~BaseGauge.kind
+    
+    

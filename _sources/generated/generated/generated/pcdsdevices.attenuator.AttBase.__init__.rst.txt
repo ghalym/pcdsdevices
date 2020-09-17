@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.AttBase.\_\_init\_\_
-===========================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: AttBase.__init__

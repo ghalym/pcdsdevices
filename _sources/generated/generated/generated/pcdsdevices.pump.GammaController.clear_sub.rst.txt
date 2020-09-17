@@ -1,6 +1,0 @@
-pcdsdevices.pump.GammaController.clear\_sub
-===========================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: GammaController.clear_sub

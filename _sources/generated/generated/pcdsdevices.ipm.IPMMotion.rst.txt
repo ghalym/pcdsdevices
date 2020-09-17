@@ -7,75 +7,72 @@ pcdsdevices.ipm.IPMMotion
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~IPMMotion.__init__
-      ~IPMMotion.add_instantiation_callback
-      ~IPMMotion.check_value
-      ~IPMMotion.clear_sub
-      ~IPMMotion.configure
-      ~IPMMotion.describe
-      ~IPMMotion.describe_configuration
-      ~IPMMotion.destroy
-      ~IPMMotion.format_status_info
-      ~IPMMotion.get
-      ~IPMMotion.get_device_tuple
-      ~IPMMotion.get_instantiated_signals
-      ~IPMMotion.insert
-      ~IPMMotion.pause
-      ~IPMMotion.put
-      ~IPMMotion.read
-      ~IPMMotion.read_configuration
-      ~IPMMotion.remove
-      ~IPMMotion.resume
-      ~IPMMotion.stage
-      ~IPMMotion.status_info
-      ~IPMMotion.stop
-      ~IPMMotion.subscribe
-      ~IPMMotion.summary
-      ~IPMMotion.trigger
-      ~IPMMotion.unstage
-      ~IPMMotion.unsubscribe
-      ~IPMMotion.unsubscribe_all
-      ~IPMMotion.wait_for_connection
-      ~IPMMotion.walk_components
-      ~IPMMotion.walk_signals
-      ~IPMMotion.walk_subdevice_classes
-      ~IPMMotion.walk_subdevices
+       *  -  target
+          -  :class:`~pcdsdevices.ipm.IPMTarget`
+          -  ``:TARGET``
+          -  
+          -  normal
+          -  
+   
+       *  -  diode
+          -  :class:`~pcdsdevices.ipm.IPMDiode`
+          -  ``:DIODE``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~IPMMotion.SUB_ACQ_DONE
-      ~IPMMotion.attr_name
-      ~IPMMotion.component_names
-      ~IPMMotion.configuration_attrs
-      ~IPMMotion.connected
-      ~IPMMotion.diode
-      ~IPMMotion.dotted_name
-      ~IPMMotion.event_types
-      ~IPMMotion.hints
-      ~IPMMotion.inserted
-      ~IPMMotion.kind
-      ~IPMMotion.lazy_wait_for_connection
-      ~IPMMotion.name
-      ~IPMMotion.parent
-      ~IPMMotion.read_attrs
-      ~IPMMotion.removed
-      ~IPMMotion.report
-      ~IPMMotion.root
-      ~IPMMotion.signal_names
-      ~IPMMotion.tab_whitelist
-      ~IPMMotion.target
-      ~IPMMotion.transmission
-      ~IPMMotion.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~IPMMotion.configure
+       ~IPMMotion.describe
+       ~IPMMotion.get
+       ~IPMMotion.insert
+       ~IPMMotion.read
+       ~IPMMotion.read_configuration
+       ~IPMMotion.remove
+       ~IPMMotion.stop
+       ~IPMMotion.summary
+       ~IPMMotion.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~IPMMotion.configuration_attrs
+       ~IPMMotion.connected
+       ~IPMMotion.hints
+       ~IPMMotion.kind
+       ~IPMMotion.transmission
+    
+    

@@ -1,6 +1,0 @@
-pcdsdevices.valve.VFS.get\_instantiated\_signals
-================================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VFS.get_instantiated_signals

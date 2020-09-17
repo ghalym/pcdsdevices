@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.AT2L0.add\_instantiation\_callback
-=========================================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: AT2L0.add_instantiation_callback

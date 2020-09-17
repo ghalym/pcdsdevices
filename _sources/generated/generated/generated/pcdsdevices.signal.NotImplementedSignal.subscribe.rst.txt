@@ -1,6 +1,0 @@
-pcdsdevices.signal.NotImplementedSignal.subscribe
-=================================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: NotImplementedSignal.subscribe

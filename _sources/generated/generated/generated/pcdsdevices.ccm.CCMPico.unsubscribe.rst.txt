@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMPico.unsubscribe
-===================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMPico.unsubscribe

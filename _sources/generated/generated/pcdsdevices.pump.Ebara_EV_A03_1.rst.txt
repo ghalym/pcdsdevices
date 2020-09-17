@@ -7,74 +7,132 @@ pcdsdevices.pump.Ebara\_EV\_A03\_1
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~Ebara_EV_A03_1.__init__
-      ~Ebara_EV_A03_1.add_instantiation_callback
-      ~Ebara_EV_A03_1.check_value
-      ~Ebara_EV_A03_1.clear_sub
-      ~Ebara_EV_A03_1.configure
-      ~Ebara_EV_A03_1.describe
-      ~Ebara_EV_A03_1.describe_configuration
-      ~Ebara_EV_A03_1.destroy
-      ~Ebara_EV_A03_1.get
-      ~Ebara_EV_A03_1.get_device_tuple
-      ~Ebara_EV_A03_1.get_instantiated_signals
-      ~Ebara_EV_A03_1.pause
-      ~Ebara_EV_A03_1.put
-      ~Ebara_EV_A03_1.read
-      ~Ebara_EV_A03_1.read_configuration
-      ~Ebara_EV_A03_1.resume
-      ~Ebara_EV_A03_1.stage
-      ~Ebara_EV_A03_1.stop
-      ~Ebara_EV_A03_1.subscribe
-      ~Ebara_EV_A03_1.summary
-      ~Ebara_EV_A03_1.trigger
-      ~Ebara_EV_A03_1.unstage
-      ~Ebara_EV_A03_1.unsubscribe
-      ~Ebara_EV_A03_1.unsubscribe_all
-      ~Ebara_EV_A03_1.wait_for_connection
-      ~Ebara_EV_A03_1.walk_components
-      ~Ebara_EV_A03_1.walk_signals
-      ~Ebara_EV_A03_1.walk_subdevice_classes
-      ~Ebara_EV_A03_1.walk_subdevices
+       *  -  switch_pump_on
+          -  :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
+          -  ``:RUN_SW``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.pump.PROPLC`
+   
+       *  -  interlock_ok
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:ILK_OK_RBV``
+          -  interlock is ok when true
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pump.PROPLC`
+   
+       *  -  run_do
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:RUN_DO_RBV``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pump.PROPLC`
+   
+       *  -  error
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:ERROR_RBV``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pump.PROPLC`
+   
+       *  -  warn
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:WARN_RBV``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pump.PROPLC`
+   
+       *  -  pump_at_speed
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:AT_SPD_RBV``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pump.PROPLC`
+   
+       *  -  remote
+          -  :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
+          -  ``:REMOTE``
+          -  
+          -  omitted
+          -  
+   
+       *  -  alarm
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:ALARM_OK_RBV``
+          -  
+          -  normal
+          -  
+   
+       *  -  run_di
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:RUN_DI_RBV``
+          -  
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~Ebara_EV_A03_1.SUB_ACQ_DONE
-      ~Ebara_EV_A03_1.alarm
-      ~Ebara_EV_A03_1.attr_name
-      ~Ebara_EV_A03_1.component_names
-      ~Ebara_EV_A03_1.configuration_attrs
-      ~Ebara_EV_A03_1.connected
-      ~Ebara_EV_A03_1.dotted_name
-      ~Ebara_EV_A03_1.error
-      ~Ebara_EV_A03_1.event_types
-      ~Ebara_EV_A03_1.hints
-      ~Ebara_EV_A03_1.interlock_ok
-      ~Ebara_EV_A03_1.kind
-      ~Ebara_EV_A03_1.lazy_wait_for_connection
-      ~Ebara_EV_A03_1.name
-      ~Ebara_EV_A03_1.parent
-      ~Ebara_EV_A03_1.pump_at_speed
-      ~Ebara_EV_A03_1.read_attrs
-      ~Ebara_EV_A03_1.remote
-      ~Ebara_EV_A03_1.report
-      ~Ebara_EV_A03_1.root
-      ~Ebara_EV_A03_1.run_di
-      ~Ebara_EV_A03_1.run_do
-      ~Ebara_EV_A03_1.signal_names
-      ~Ebara_EV_A03_1.switch_pump_on
-      ~Ebara_EV_A03_1.trigger_signals
-      ~Ebara_EV_A03_1.warn
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Ebara_EV_A03_1.configure
+       ~Ebara_EV_A03_1.describe
+       ~Ebara_EV_A03_1.get
+       ~Ebara_EV_A03_1.read
+       ~Ebara_EV_A03_1.read_configuration
+       ~Ebara_EV_A03_1.stop
+       ~Ebara_EV_A03_1.summary
+       ~Ebara_EV_A03_1.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Ebara_EV_A03_1.configuration_attrs
+       ~Ebara_EV_A03_1.connected
+       ~Ebara_EV_A03_1.hints
+       ~Ebara_EV_A03_1.kind
+    
+    

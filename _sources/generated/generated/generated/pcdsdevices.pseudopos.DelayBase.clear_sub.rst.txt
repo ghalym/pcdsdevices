@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.DelayBase.clear\_sub
-==========================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: DelayBase.clear_sub

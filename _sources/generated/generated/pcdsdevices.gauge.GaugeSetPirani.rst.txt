@@ -7,73 +7,71 @@ pcdsdevices.gauge.GaugeSetPirani
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~GaugeSetPirani.__init__
-      ~GaugeSetPirani.add_instantiation_callback
-      ~GaugeSetPirani.check_value
-      ~GaugeSetPirani.clear_sub
-      ~GaugeSetPirani.configure
-      ~GaugeSetPirani.describe
-      ~GaugeSetPirani.describe_configuration
-      ~GaugeSetPirani.destroy
-      ~GaugeSetPirani.egu
-      ~GaugeSetPirani.format_status_info
-      ~GaugeSetPirani.get
-      ~GaugeSetPirani.get_device_tuple
-      ~GaugeSetPirani.get_instantiated_signals
-      ~GaugeSetPirani.pause
-      ~GaugeSetPirani.pressure
-      ~GaugeSetPirani.put
-      ~GaugeSetPirani.read
-      ~GaugeSetPirani.read_configuration
-      ~GaugeSetPirani.resume
-      ~GaugeSetPirani.stage
-      ~GaugeSetPirani.status_info
-      ~GaugeSetPirani.stop
-      ~GaugeSetPirani.subscribe
-      ~GaugeSetPirani.summary
-      ~GaugeSetPirani.trigger
-      ~GaugeSetPirani.unstage
-      ~GaugeSetPirani.unsubscribe
-      ~GaugeSetPirani.unsubscribe_all
-      ~GaugeSetPirani.wait_for_connection
-      ~GaugeSetPirani.walk_components
-      ~GaugeSetPirani.walk_signals
-      ~GaugeSetPirani.walk_subdevice_classes
-      ~GaugeSetPirani.walk_subdevices
+       *  -  gcc (FCpt)
+          -  :class:`~pcdsdevices.gauge.GaugeColdCathode`
+          -  ``{self.prefix}:GCC:{self.index}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gauge.GaugeSetBase`
+   
+       *  -  gpi (FCpt)
+          -  :class:`~pcdsdevices.gauge.GaugePirani`
+          -  ``{self.prefix}:GPI:{self.index}``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~GaugeSetPirani.SUB_ACQ_DONE
-      ~GaugeSetPirani.attr_name
-      ~GaugeSetPirani.component_names
-      ~GaugeSetPirani.configuration_attrs
-      ~GaugeSetPirani.connected
-      ~GaugeSetPirani.dotted_name
-      ~GaugeSetPirani.event_types
-      ~GaugeSetPirani.gcc
-      ~GaugeSetPirani.gpi
-      ~GaugeSetPirani.hints
-      ~GaugeSetPirani.kind
-      ~GaugeSetPirani.lazy_wait_for_connection
-      ~GaugeSetPirani.name
-      ~GaugeSetPirani.parent
-      ~GaugeSetPirani.read_attrs
-      ~GaugeSetPirani.report
-      ~GaugeSetPirani.root
-      ~GaugeSetPirani.signal_names
-      ~GaugeSetPirani.tab_component_names
-      ~GaugeSetPirani.tab_whitelist
-      ~GaugeSetPirani.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~GaugeSetPirani.configure
+       ~GaugeSetPirani.describe
+       ~GaugeSetPirani.egu
+       ~GaugeSetPirani.get
+       ~GaugeSetPirani.pressure
+       ~GaugeSetPirani.read
+       ~GaugeSetPirani.read_configuration
+       ~GaugeSetPirani.stop
+       ~GaugeSetPirani.summary
+       ~GaugeSetPirani.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~GaugeSetPirani.configuration_attrs
+       ~GaugeSetPirani.connected
+       ~GaugeSetPirani.hints
+       ~GaugeSetPirani.kind
+    
+    

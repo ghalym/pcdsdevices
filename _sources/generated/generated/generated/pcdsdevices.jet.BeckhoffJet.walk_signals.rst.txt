@@ -1,6 +1,0 @@
-pcdsdevices.jet.BeckhoffJet.walk\_signals
-=========================================
-
-.. currentmodule:: pcdsdevices.jet
-
-.. automethod:: BeckhoffJet.walk_signals

@@ -1,6 +1,0 @@
-pcdsdevices.state.CombinedStateRecordPositioner.put
-===================================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: CombinedStateRecordPositioner.put

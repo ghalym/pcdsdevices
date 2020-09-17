@@ -1,6 +1,0 @@
-pcdsdevices.inout.Reflaser.pause
-================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: Reflaser.pause

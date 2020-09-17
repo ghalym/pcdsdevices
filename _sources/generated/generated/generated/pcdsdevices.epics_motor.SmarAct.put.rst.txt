@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.SmarAct.put
-====================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: SmarAct.put

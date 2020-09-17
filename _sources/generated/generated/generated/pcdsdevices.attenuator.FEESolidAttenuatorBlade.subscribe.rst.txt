@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.FEESolidAttenuatorBlade.subscribe
-========================================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: FEESolidAttenuatorBlade.subscribe

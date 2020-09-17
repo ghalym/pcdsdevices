@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.Foil.unstage
-==============================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: Foil.unstage

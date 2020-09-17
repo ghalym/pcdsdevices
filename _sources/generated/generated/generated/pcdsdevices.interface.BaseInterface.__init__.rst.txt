@@ -1,6 +1,0 @@
-pcdsdevices.interface.BaseInterface.\_\_init\_\_
-================================================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. automethod:: BaseInterface.__init__

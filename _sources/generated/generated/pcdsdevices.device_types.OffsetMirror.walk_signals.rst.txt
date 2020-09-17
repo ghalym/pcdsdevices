@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.OffsetMirror.walk\_signals
-====================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: OffsetMirror.walk_signals

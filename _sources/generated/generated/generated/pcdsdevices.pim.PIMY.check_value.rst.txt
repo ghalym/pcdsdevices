@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMY.check\_value
-=================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMY.check_value

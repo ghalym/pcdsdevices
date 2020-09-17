@@ -9,13 +9,18 @@ pcdsdevices.valve.Commands
    
    
 
-   
-   
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~Commands.close_valve
-      ~Commands.open_valve
-   
-   
+    
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Commands.close_valve
+       ~Commands.open_valve
+    
+    

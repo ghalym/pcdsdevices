@@ -7,75 +7,79 @@
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~OffsetMirror.__init__
-      ~OffsetMirror.add_instantiation_callback
-      ~OffsetMirror.check_value
-      ~OffsetMirror.clear_sub
-      ~OffsetMirror.configure
-      ~OffsetMirror.describe
-      ~OffsetMirror.describe_configuration
-      ~OffsetMirror.destroy
-      ~OffsetMirror.format_status_info
-      ~OffsetMirror.get
-      ~OffsetMirror.get_device_tuple
-      ~OffsetMirror.get_instantiated_signals
-      ~OffsetMirror.pause
-      ~OffsetMirror.put
-      ~OffsetMirror.read
-      ~OffsetMirror.read_configuration
-      ~OffsetMirror.resume
-      ~OffsetMirror.stage
-      ~OffsetMirror.status_info
-      ~OffsetMirror.stop
-      ~OffsetMirror.subscribe
-      ~OffsetMirror.summary
-      ~OffsetMirror.trigger
-      ~OffsetMirror.unstage
-      ~OffsetMirror.unsubscribe
-      ~OffsetMirror.unsubscribe_all
-      ~OffsetMirror.wait_for_connection
-      ~OffsetMirror.walk_components
-      ~OffsetMirror.walk_signals
-      ~OffsetMirror.walk_subdevice_classes
-      ~OffsetMirror.walk_subdevices
+       *  -  pitch (FCpt)
+          -  :class:`~pcdsdevices.mirror.Pitch`
+          -  ``MIRR:{self.prefix}``
+          -  
+          -  hinted
+          -  
    
+       *  -  xgantry (FCpt)
+          -  :class:`~pcdsdevices.mirror.Gantry`
+          -  ``{self._prefix_xy}:X``
+          -  
+          -  normal
+          -  
+   
+       *  -  ygantry (FCpt)
+          -  :class:`~pcdsdevices.mirror.Gantry`
+          -  ``{self._prefix_xy}:Y``
+          -  
+          -  config
+          -  
    
 
    
    
-   .. rubric:: Attributes
+   
+   
+   
+   
+   
 
-   .. autosummary::
-   
-      ~OffsetMirror.SUB_ACQ_DONE
-      ~OffsetMirror.SUB_STATE
-      ~OffsetMirror.attr_name
-      ~OffsetMirror.component_names
-      ~OffsetMirror.configuration_attrs
-      ~OffsetMirror.connected
-      ~OffsetMirror.dotted_name
-      ~OffsetMirror.event_types
-      ~OffsetMirror.hints
-      ~OffsetMirror.inserted
-      ~OffsetMirror.kind
-      ~OffsetMirror.lazy_wait_for_connection
-      ~OffsetMirror.name
-      ~OffsetMirror.parent
-      ~OffsetMirror.pitch
-      ~OffsetMirror.read_attrs
-      ~OffsetMirror.removed
-      ~OffsetMirror.report
-      ~OffsetMirror.root
-      ~OffsetMirror.signal_names
-      ~OffsetMirror.tab_whitelist
-      ~OffsetMirror.transmission
-      ~OffsetMirror.trigger_signals
-      ~OffsetMirror.xgantry
-      ~OffsetMirror.ygantry
    
    
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~OffsetMirror.configure
+       ~OffsetMirror.describe
+       ~OffsetMirror.get
+       ~OffsetMirror.read
+       ~OffsetMirror.read_configuration
+       ~OffsetMirror.stop
+       ~OffsetMirror.summary
+       ~OffsetMirror.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~OffsetMirror.configuration_attrs
+       ~OffsetMirror.connected
+       ~OffsetMirror.hints
+       ~OffsetMirror.kind
+       ~OffsetMirror.transmission
+    
+    

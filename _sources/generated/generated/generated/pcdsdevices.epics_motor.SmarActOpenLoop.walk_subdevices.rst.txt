@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.SmarActOpenLoop.walk\_subdevices
-=========================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: SmarActOpenLoop.walk_subdevices

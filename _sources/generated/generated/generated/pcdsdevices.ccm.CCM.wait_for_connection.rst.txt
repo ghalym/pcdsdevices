@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCM.wait\_for\_connection
-=========================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCM.wait_for_connection

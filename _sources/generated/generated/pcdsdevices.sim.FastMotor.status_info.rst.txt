@@ -1,6 +1,0 @@
-pcdsdevices.sim.FastMotor.status\_info
-======================================
-
-.. currentmodule:: pcdsdevices.sim
-
-.. automethod:: FastMotor.status_info

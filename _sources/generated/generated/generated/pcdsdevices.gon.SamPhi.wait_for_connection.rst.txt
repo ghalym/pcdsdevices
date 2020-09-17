@@ -1,6 +1,0 @@
-pcdsdevices.gon.SamPhi.wait\_for\_connection
-============================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SamPhi.wait_for_connection

@@ -1,6 +1,0 @@
-pcdsdevices.pump.PIPSerial.unsubscribe\_all
-===========================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: PIPSerial.unsubscribe_all

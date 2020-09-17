@@ -1,6 +1,0 @@
-pcdsdevices.pump.PROPLC.put
-===========================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: PROPLC.put

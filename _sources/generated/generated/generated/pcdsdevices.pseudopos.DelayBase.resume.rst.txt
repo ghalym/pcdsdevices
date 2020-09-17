@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.DelayBase.resume
-======================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: DelayBase.resume

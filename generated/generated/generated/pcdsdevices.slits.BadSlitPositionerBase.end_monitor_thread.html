@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.slits.BadSlitPositionerBase.end_monitor_thread &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.slits.BadSlitPositionerBase.end_monitor_thread &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,8 +37,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.slits.BadSlitPositionerBase.format_status_info" href="pcdsdevices.slits.BadSlitPositionerBase.format_status_info.html" />
-    <link rel="prev" title="pcdsdevices.slits.BadSlitPositionerBase.destroy" href="pcdsdevices.slits.BadSlitPositionerBase.destroy.html" /> 
+    <link rel="next" title="pcdsdevices.slits.BadSlitPositionerBase.get" href="pcdsdevices.slits.BadSlitPositionerBase.get.html" />
+    <link rel="prev" title="pcdsdevices.slits.BadSlitPositionerBase.describe" href="pcdsdevices.slits.BadSlitPositionerBase.describe.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -137,48 +138,25 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.sim.html">pcdsdevices.sim</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.slits.html">pcdsdevices.slits</a><ul class="current">
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.slits.BadSlitPositionerBase.html">pcdsdevices.slits.BadSlitPositionerBase</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.__init__.html">pcdsdevices.slits.BadSlitPositionerBase.__init__</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.add_instantiation_callback.html">pcdsdevices.slits.BadSlitPositionerBase.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.camonitor.html">pcdsdevices.slits.BadSlitPositionerBase.camonitor</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.check_value.html">pcdsdevices.slits.BadSlitPositionerBase.check_value</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.clear_sub.html">pcdsdevices.slits.BadSlitPositionerBase.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.configure.html">pcdsdevices.slits.BadSlitPositionerBase.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.describe.html">pcdsdevices.slits.BadSlitPositionerBase.describe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.describe_configuration.html">pcdsdevices.slits.BadSlitPositionerBase.describe_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.destroy.html">pcdsdevices.slits.BadSlitPositionerBase.destroy</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.slits.BadSlitPositionerBase.end_monitor_thread</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.format_status_info.html">pcdsdevices.slits.BadSlitPositionerBase.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.get.html">pcdsdevices.slits.BadSlitPositionerBase.get</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.get_device_tuple.html">pcdsdevices.slits.BadSlitPositionerBase.get_device_tuple</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.get_instantiated_signals.html">pcdsdevices.slits.BadSlitPositionerBase.get_instantiated_signals</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.move.html">pcdsdevices.slits.BadSlitPositionerBase.move</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.mv.html">pcdsdevices.slits.BadSlitPositionerBase.mv</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.mv_ginput.html">pcdsdevices.slits.BadSlitPositionerBase.mv_ginput</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.mvr.html">pcdsdevices.slits.BadSlitPositionerBase.mvr</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.pause.html">pcdsdevices.slits.BadSlitPositionerBase.pause</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.put.html">pcdsdevices.slits.BadSlitPositionerBase.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.read.html">pcdsdevices.slits.BadSlitPositionerBase.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.read_configuration.html">pcdsdevices.slits.BadSlitPositionerBase.read_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.resume.html">pcdsdevices.slits.BadSlitPositionerBase.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.set.html">pcdsdevices.slits.BadSlitPositionerBase.set</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.stage.html">pcdsdevices.slits.BadSlitPositionerBase.stage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.status_info.html">pcdsdevices.slits.BadSlitPositionerBase.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.stop.html">pcdsdevices.slits.BadSlitPositionerBase.stop</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.subscribe.html">pcdsdevices.slits.BadSlitPositionerBase.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.summary.html">pcdsdevices.slits.BadSlitPositionerBase.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.trigger.html">pcdsdevices.slits.BadSlitPositionerBase.trigger</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.tweak.html">pcdsdevices.slits.BadSlitPositionerBase.tweak</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.umv.html">pcdsdevices.slits.BadSlitPositionerBase.umv</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.umvr.html">pcdsdevices.slits.BadSlitPositionerBase.umvr</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.unstage.html">pcdsdevices.slits.BadSlitPositionerBase.unstage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.unsubscribe.html">pcdsdevices.slits.BadSlitPositionerBase.unsubscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.unsubscribe_all.html">pcdsdevices.slits.BadSlitPositionerBase.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.wait.html">pcdsdevices.slits.BadSlitPositionerBase.wait</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.wait_for_connection.html">pcdsdevices.slits.BadSlitPositionerBase.wait_for_connection</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.walk_components.html">pcdsdevices.slits.BadSlitPositionerBase.walk_components</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.walk_signals.html">pcdsdevices.slits.BadSlitPositionerBase.walk_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.walk_subdevice_classes.html">pcdsdevices.slits.BadSlitPositionerBase.walk_subdevice_classes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.walk_subdevices.html">pcdsdevices.slits.BadSlitPositionerBase.walk_subdevices</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.wm.html">pcdsdevices.slits.BadSlitPositionerBase.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.BadSlitPositionerBase.wm_update.html">pcdsdevices.slits.BadSlitPositionerBase.wm_update</a></li>
 </ul>
@@ -289,10 +267,10 @@ another thread.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.slits.BadSlitPositionerBase.format_status_info.html" class="btn btn-neutral float-right" title="pcdsdevices.slits.BadSlitPositionerBase.format_status_info" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.slits.BadSlitPositionerBase.get.html" class="btn btn-neutral float-right" title="pcdsdevices.slits.BadSlitPositionerBase.get" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="pcdsdevices.slits.BadSlitPositionerBase.destroy.html" class="btn btn-neutral float-left" title="pcdsdevices.slits.BadSlitPositionerBase.destroy" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="pcdsdevices.slits.BadSlitPositionerBase.describe.html" class="btn btn-neutral float-left" title="pcdsdevices.slits.BadSlitPositionerBase.describe" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

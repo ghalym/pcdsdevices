@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GaugeSerialGCC.put
-====================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GaugeSerialGCC.put

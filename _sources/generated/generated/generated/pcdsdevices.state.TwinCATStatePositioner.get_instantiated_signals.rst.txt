@@ -1,6 +1,0 @@
-pcdsdevices.state.TwinCATStatePositioner.get\_instantiated\_signals
-===================================================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: TwinCATStatePositioner.get_instantiated_signals

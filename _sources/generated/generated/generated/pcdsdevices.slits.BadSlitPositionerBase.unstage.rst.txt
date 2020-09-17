@@ -1,6 +1,0 @@
-pcdsdevices.slits.BadSlitPositionerBase.unstage
-===============================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: BadSlitPositionerBase.unstage

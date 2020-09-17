@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMPico.walk\_components
-========================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMPico.walk_components

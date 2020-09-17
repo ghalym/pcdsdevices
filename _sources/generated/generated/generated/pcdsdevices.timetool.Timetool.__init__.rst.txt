@@ -1,6 +1,0 @@
-pcdsdevices.timetool.Timetool.\_\_init\_\_
-==========================================
-
-.. currentmodule:: pcdsdevices.timetool
-
-.. automethod:: Timetool.__init__

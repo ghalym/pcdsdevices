@@ -1,6 +1,0 @@
-pcdsdevices.jet.Injector.get\_device\_tuple
-===========================================
-
-.. currentmodule:: pcdsdevices.jet
-
-.. automethod:: Injector.get_device_tuple

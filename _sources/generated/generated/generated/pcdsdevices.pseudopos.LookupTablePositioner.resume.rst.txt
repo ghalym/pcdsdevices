@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.LookupTablePositioner.resume
-==================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: LookupTablePositioner.resume

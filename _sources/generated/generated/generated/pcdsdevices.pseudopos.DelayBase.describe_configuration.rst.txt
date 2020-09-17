@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.DelayBase.describe\_configuration
-=======================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: DelayBase.describe_configuration

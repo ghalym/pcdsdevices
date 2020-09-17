@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GaugeSerialGCC.check\_value
-=============================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GaugeSerialGCC.check_value

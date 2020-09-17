@@ -1,6 +1,0 @@
-pcdsdevices.jet.InjectorWithFine.unsubscribe
-============================================
-
-.. currentmodule:: pcdsdevices.jet
-
-.. automethod:: InjectorWithFine.unsubscribe

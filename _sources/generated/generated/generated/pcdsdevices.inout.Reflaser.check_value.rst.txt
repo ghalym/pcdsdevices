@@ -1,6 +1,0 @@
-pcdsdevices.inout.Reflaser.check\_value
-=======================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: Reflaser.check_value

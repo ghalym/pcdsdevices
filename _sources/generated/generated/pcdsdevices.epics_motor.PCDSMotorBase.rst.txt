@@ -7,127 +7,283 @@ pcdsdevices.epics\_motor.PCDSMotorBase
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~PCDSMotorBase.__init__
-      ~PCDSMotorBase.add_instantiation_callback
-      ~PCDSMotorBase.camonitor
-      ~PCDSMotorBase.check_value
-      ~PCDSMotorBase.clear_sub
-      ~PCDSMotorBase.configure
-      ~PCDSMotorBase.describe
-      ~PCDSMotorBase.describe_configuration
-      ~PCDSMotorBase.destroy
-      ~PCDSMotorBase.disable
-      ~PCDSMotorBase.enable
-      ~PCDSMotorBase.end_monitor_thread
-      ~PCDSMotorBase.format_status_info
-      ~PCDSMotorBase.get
-      ~PCDSMotorBase.get_device_tuple
-      ~PCDSMotorBase.get_instantiated_signals
-      ~PCDSMotorBase.get_lim
-      ~PCDSMotorBase.home
-      ~PCDSMotorBase.move
-      ~PCDSMotorBase.mv
-      ~PCDSMotorBase.mv_ginput
-      ~PCDSMotorBase.mvr
-      ~PCDSMotorBase.pause
-      ~PCDSMotorBase.put
-      ~PCDSMotorBase.read
-      ~PCDSMotorBase.read_configuration
-      ~PCDSMotorBase.resume
-      ~PCDSMotorBase.screen
-      ~PCDSMotorBase.set
-      ~PCDSMotorBase.set_current_position
-      ~PCDSMotorBase.set_lim
-      ~PCDSMotorBase.spg_go
-      ~PCDSMotorBase.spg_pause
-      ~PCDSMotorBase.spg_stop
-      ~PCDSMotorBase.stage
-      ~PCDSMotorBase.status_info
-      ~PCDSMotorBase.stop
-      ~PCDSMotorBase.subscribe
-      ~PCDSMotorBase.summary
-      ~PCDSMotorBase.trigger
-      ~PCDSMotorBase.tweak
-      ~PCDSMotorBase.umv
-      ~PCDSMotorBase.umvr
-      ~PCDSMotorBase.unstage
-      ~PCDSMotorBase.unsubscribe
-      ~PCDSMotorBase.unsubscribe_all
-      ~PCDSMotorBase.wait
-      ~PCDSMotorBase.wait_for_connection
-      ~PCDSMotorBase.walk_components
-      ~PCDSMotorBase.walk_signals
-      ~PCDSMotorBase.walk_subdevice_classes
-      ~PCDSMotorBase.walk_subdevices
-      ~PCDSMotorBase.wm
-      ~PCDSMotorBase.wm_update
+       *  -  user_readback
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``.RBV``
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
+   
+       *  -  user_setpoint
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.VAL``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
+   
+       *  -  user_offset
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.OFF``
+          -  
+          -  config
+          -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
+   
+       *  -  user_offset_dir
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.DIR``
+          -  
+          -  config
+          -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
+   
+       *  -  offset_freeze_switch
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.FOFF``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
+   
+       *  -  set_use_switch
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.SET``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
+   
+       *  -  velocity
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.VELO``
+          -  
+          -  config
+          -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
+   
+       *  -  acceleration
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.ACCL``
+          -  
+          -  config
+          -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
+   
+       *  -  motor_egu
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.EGU``
+          -  
+          -  config
+          -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
+   
+       *  -  motor_is_moving
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``.MOVN``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
+   
+       *  -  motor_done_move
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``.DMOV``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
+   
+       *  -  high_limit_switch
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.HLS``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
+   
+       *  -  low_limit_switch
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.LLS``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
+   
+       *  -  high_limit_travel
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.HLM``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
+   
+       *  -  low_limit_travel
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.LLM``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
+   
+       *  -  direction_of_travel
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
+   
+       *  -  motor_stop
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.STOP``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
+   
+       *  -  home_forward
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.HOMF``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
+   
+       *  -  home_reverse
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.HOMR``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
+   
+       *  -  disabled
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.DISP``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
+   
+       *  -  description
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.DESC``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
+   
+       *  -  motor_spg
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.SPG``
+          -  
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~PCDSMotorBase.SUB_ACQ_DONE
-      ~PCDSMotorBase.SUB_DONE
-      ~PCDSMotorBase.SUB_READBACK
-      ~PCDSMotorBase.SUB_START
-      ~PCDSMotorBase.acceleration
-      ~PCDSMotorBase.attr_name
-      ~PCDSMotorBase.component_names
-      ~PCDSMotorBase.configuration_attrs
-      ~PCDSMotorBase.connected
-      ~PCDSMotorBase.description
-      ~PCDSMotorBase.direction_of_travel
-      ~PCDSMotorBase.disabled
-      ~PCDSMotorBase.dotted_name
-      ~PCDSMotorBase.egu
-      ~PCDSMotorBase.event_types
-      ~PCDSMotorBase.high_limit
-      ~PCDSMotorBase.high_limit_switch
-      ~PCDSMotorBase.high_limit_travel
-      ~PCDSMotorBase.hints
-      ~PCDSMotorBase.home_forward
-      ~PCDSMotorBase.home_reverse
-      ~PCDSMotorBase.kind
-      ~PCDSMotorBase.lazy_wait_for_connection
-      ~PCDSMotorBase.limits
-      ~PCDSMotorBase.low_limit
-      ~PCDSMotorBase.low_limit_switch
-      ~PCDSMotorBase.low_limit_travel
-      ~PCDSMotorBase.motor_done_move
-      ~PCDSMotorBase.motor_egu
-      ~PCDSMotorBase.motor_is_moving
-      ~PCDSMotorBase.motor_spg
-      ~PCDSMotorBase.motor_stop
-      ~PCDSMotorBase.moving
-      ~PCDSMotorBase.name
-      ~PCDSMotorBase.offset_freeze_switch
-      ~PCDSMotorBase.parent
-      ~PCDSMotorBase.position
-      ~PCDSMotorBase.precision
-      ~PCDSMotorBase.presets
-      ~PCDSMotorBase.read_attrs
-      ~PCDSMotorBase.report
-      ~PCDSMotorBase.root
-      ~PCDSMotorBase.set_use_switch
-      ~PCDSMotorBase.settle_time
-      ~PCDSMotorBase.signal_names
-      ~PCDSMotorBase.tab_whitelist
-      ~PCDSMotorBase.timeout
-      ~PCDSMotorBase.tolerated_alarm
-      ~PCDSMotorBase.trigger_signals
-      ~PCDSMotorBase.user_offset
-      ~PCDSMotorBase.user_offset_dir
-      ~PCDSMotorBase.user_readback
-      ~PCDSMotorBase.user_setpoint
-      ~PCDSMotorBase.velocity
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~PCDSMotorBase.camonitor
+       ~PCDSMotorBase.configure
+       ~PCDSMotorBase.describe
+       ~PCDSMotorBase.disable
+       ~PCDSMotorBase.enable
+       ~PCDSMotorBase.end_monitor_thread
+       ~PCDSMotorBase.get
+       ~PCDSMotorBase.get_lim
+       ~PCDSMotorBase.home
+       ~PCDSMotorBase.move
+       ~PCDSMotorBase.mv
+       ~PCDSMotorBase.mv_ginput
+       ~PCDSMotorBase.mvr
+       ~PCDSMotorBase.read
+       ~PCDSMotorBase.read_configuration
+       ~PCDSMotorBase.screen
+       ~PCDSMotorBase.set
+       ~PCDSMotorBase.set_current_position
+       ~PCDSMotorBase.set_lim
+       ~PCDSMotorBase.spg_go
+       ~PCDSMotorBase.spg_pause
+       ~PCDSMotorBase.spg_stop
+       ~PCDSMotorBase.stop
+       ~PCDSMotorBase.summary
+       ~PCDSMotorBase.trigger
+       ~PCDSMotorBase.tweak
+       ~PCDSMotorBase.umv
+       ~PCDSMotorBase.umvr
+       ~PCDSMotorBase.wait
+       ~PCDSMotorBase.wm
+       ~PCDSMotorBase.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~PCDSMotorBase.configuration_attrs
+       ~PCDSMotorBase.connected
+       ~PCDSMotorBase.egu
+       ~PCDSMotorBase.high_limit
+       ~PCDSMotorBase.hints
+       ~PCDSMotorBase.kind
+       ~PCDSMotorBase.limits
+       ~PCDSMotorBase.low_limit
+       ~PCDSMotorBase.moving
+       ~PCDSMotorBase.position
+       ~PCDSMotorBase.precision
+       ~PCDSMotorBase.presets
+       ~PCDSMotorBase.settle_time
+       ~PCDSMotorBase.timeout
+       ~PCDSMotorBase.tolerated_alarm
+    
+    

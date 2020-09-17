@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.lodcm.Foil.stop &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.lodcm.Foil.stop &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,8 +37,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.lodcm.Foil.subscribe" href="pcdsdevices.lodcm.Foil.subscribe.html" />
-    <link rel="prev" title="pcdsdevices.lodcm.Foil.status_info" href="pcdsdevices.lodcm.Foil.status_info.html" /> 
+    <link rel="next" title="pcdsdevices.lodcm.Foil.summary" href="pcdsdevices.lodcm.Foil.summary.html" />
+    <link rel="prev" title="pcdsdevices.lodcm.Foil.set" href="pcdsdevices.lodcm.Foil.set.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -126,49 +127,26 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.lodcm.Dectris.html">pcdsdevices.lodcm.Dectris</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.lodcm.Diode.html">pcdsdevices.lodcm.Diode</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.lodcm.Foil.html">pcdsdevices.lodcm.Foil</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.__init__.html">pcdsdevices.lodcm.Foil.__init__</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.add_instantiation_callback.html">pcdsdevices.lodcm.Foil.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.camonitor.html">pcdsdevices.lodcm.Foil.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.check_inserted.html">pcdsdevices.lodcm.Foil.check_inserted</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.check_removed.html">pcdsdevices.lodcm.Foil.check_removed</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.check_transmission.html">pcdsdevices.lodcm.Foil.check_transmission</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.check_value.html">pcdsdevices.lodcm.Foil.check_value</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.clear_sub.html">pcdsdevices.lodcm.Foil.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.configure.html">pcdsdevices.lodcm.Foil.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.describe.html">pcdsdevices.lodcm.Foil.describe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.describe_configuration.html">pcdsdevices.lodcm.Foil.describe_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.destroy.html">pcdsdevices.lodcm.Foil.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.end_monitor_thread.html">pcdsdevices.lodcm.Foil.end_monitor_thread</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.format_status_info.html">pcdsdevices.lodcm.Foil.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.get.html">pcdsdevices.lodcm.Foil.get</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.get_device_tuple.html">pcdsdevices.lodcm.Foil.get_device_tuple</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.get_instantiated_signals.html">pcdsdevices.lodcm.Foil.get_instantiated_signals</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.get_state.html">pcdsdevices.lodcm.Foil.get_state</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.insert.html">pcdsdevices.lodcm.Foil.insert</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.move.html">pcdsdevices.lodcm.Foil.move</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.mv.html">pcdsdevices.lodcm.Foil.mv</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.pause.html">pcdsdevices.lodcm.Foil.pause</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.put.html">pcdsdevices.lodcm.Foil.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.read.html">pcdsdevices.lodcm.Foil.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.read_configuration.html">pcdsdevices.lodcm.Foil.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.remove.html">pcdsdevices.lodcm.Foil.remove</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.resume.html">pcdsdevices.lodcm.Foil.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.set.html">pcdsdevices.lodcm.Foil.set</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.stage.html">pcdsdevices.lodcm.Foil.stage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.status_info.html">pcdsdevices.lodcm.Foil.status_info</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.lodcm.Foil.stop</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.subscribe.html">pcdsdevices.lodcm.Foil.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.summary.html">pcdsdevices.lodcm.Foil.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.trigger.html">pcdsdevices.lodcm.Foil.trigger</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.unstage.html">pcdsdevices.lodcm.Foil.unstage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.unsubscribe.html">pcdsdevices.lodcm.Foil.unsubscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.unsubscribe_all.html">pcdsdevices.lodcm.Foil.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.wait.html">pcdsdevices.lodcm.Foil.wait</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.wait_for_connection.html">pcdsdevices.lodcm.Foil.wait_for_connection</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.walk_components.html">pcdsdevices.lodcm.Foil.walk_components</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.walk_signals.html">pcdsdevices.lodcm.Foil.walk_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.walk_subdevice_classes.html">pcdsdevices.lodcm.Foil.walk_subdevice_classes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.walk_subdevices.html">pcdsdevices.lodcm.Foil.walk_subdevices</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.wm.html">pcdsdevices.lodcm.Foil.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.lodcm.Foil.wm_update.html">pcdsdevices.lodcm.Foil.wm_update</a></li>
 </ul>
@@ -286,10 +264,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.lodcm.Foil.subscribe.html" class="btn btn-neutral float-right" title="pcdsdevices.lodcm.Foil.subscribe" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.lodcm.Foil.summary.html" class="btn btn-neutral float-right" title="pcdsdevices.lodcm.Foil.summary" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="pcdsdevices.lodcm.Foil.status_info.html" class="btn btn-neutral float-left" title="pcdsdevices.lodcm.Foil.status_info" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="pcdsdevices.lodcm.Foil.set.html" class="btn btn-neutral float-left" title="pcdsdevices.lodcm.Foil.set" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

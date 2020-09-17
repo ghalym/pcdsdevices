@@ -1,6 +1,0 @@
-pcdsdevices.valve.PPSStopper.check\_value
-=========================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: PPSStopper.check_value

@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.LookupTablePositioner.check\_value
-========================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: LookupTablePositioner.check_value

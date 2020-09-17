@@ -7,89 +7,77 @@ pcdsdevices.slits.SlitsBase
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~SlitsBase.__init__
-      ~SlitsBase.add_instantiation_callback
-      ~SlitsBase.camonitor
-      ~SlitsBase.check_value
-      ~SlitsBase.clear_sub
-      ~SlitsBase.configure
-      ~SlitsBase.describe
-      ~SlitsBase.describe_configuration
-      ~SlitsBase.destroy
-      ~SlitsBase.end_monitor_thread
-      ~SlitsBase.format_status_info
-      ~SlitsBase.get
-      ~SlitsBase.get_device_tuple
-      ~SlitsBase.get_instantiated_signals
-      ~SlitsBase.move
-      ~SlitsBase.mv
-      ~SlitsBase.pause
-      ~SlitsBase.put
-      ~SlitsBase.read
-      ~SlitsBase.read_configuration
-      ~SlitsBase.remove
-      ~SlitsBase.resume
-      ~SlitsBase.set
-      ~SlitsBase.stage
-      ~SlitsBase.status_info
-      ~SlitsBase.stop
-      ~SlitsBase.subscribe
-      ~SlitsBase.summary
-      ~SlitsBase.trigger
-      ~SlitsBase.unstage
-      ~SlitsBase.unsubscribe
-      ~SlitsBase.unsubscribe_all
-      ~SlitsBase.wait
-      ~SlitsBase.wait_for_connection
-      ~SlitsBase.walk_components
-      ~SlitsBase.walk_signals
-      ~SlitsBase.walk_subdevice_classes
-      ~SlitsBase.walk_subdevices
-      ~SlitsBase.wm
-      ~SlitsBase.wm_update
+       *  -  nominal_aperture
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  normal
+          -  
+   
+
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~SlitsBase.SUB_ACQ_DONE
-      ~SlitsBase.SUB_STATE
-      ~SlitsBase.attr_name
-      ~SlitsBase.component_names
-      ~SlitsBase.configuration_attrs
-      ~SlitsBase.connected
-      ~SlitsBase.current_aperture
-      ~SlitsBase.dotted_name
-      ~SlitsBase.event_types
-      ~SlitsBase.hints
-      ~SlitsBase.inserted
-      ~SlitsBase.kind
-      ~SlitsBase.lazy_wait_for_connection
-      ~SlitsBase.lightpath_cpts
-      ~SlitsBase.name
-      ~SlitsBase.nominal_aperture
-      ~SlitsBase.parent
-      ~SlitsBase.position
-      ~SlitsBase.read_attrs
-      ~SlitsBase.removed
-      ~SlitsBase.report
-      ~SlitsBase.root
-      ~SlitsBase.signal_names
-      ~SlitsBase.tab_whitelist
-      ~SlitsBase.transmission
-      ~SlitsBase.trigger_signals
-      ~SlitsBase.xcenter
-      ~SlitsBase.xwidth
-      ~SlitsBase.ycenter
-      ~SlitsBase.ywidth
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~SlitsBase.camonitor
+       ~SlitsBase.configure
+       ~SlitsBase.describe
+       ~SlitsBase.end_monitor_thread
+       ~SlitsBase.get
+       ~SlitsBase.move
+       ~SlitsBase.mv
+       ~SlitsBase.read
+       ~SlitsBase.read_configuration
+       ~SlitsBase.remove
+       ~SlitsBase.set
+       ~SlitsBase.stop
+       ~SlitsBase.summary
+       ~SlitsBase.trigger
+       ~SlitsBase.wait
+       ~SlitsBase.wm
+       ~SlitsBase.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~SlitsBase.configuration_attrs
+       ~SlitsBase.connected
+       ~SlitsBase.current_aperture
+       ~SlitsBase.hints
+       ~SlitsBase.kind
+       ~SlitsBase.lightpath_cpts
+       ~SlitsBase.position
+       ~SlitsBase.transmission
+       ~SlitsBase.xcenter
+       ~SlitsBase.xwidth
+       ~SlitsBase.ycenter
+       ~SlitsBase.ywidth
+    
+    

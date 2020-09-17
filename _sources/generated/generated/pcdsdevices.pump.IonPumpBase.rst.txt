@@ -7,85 +7,173 @@ pcdsdevices.pump.IonPumpBase
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~IonPumpBase.__init__
-      ~IonPumpBase.add_instantiation_callback
-      ~IonPumpBase.check_value
-      ~IonPumpBase.clear_sub
-      ~IonPumpBase.configure
-      ~IonPumpBase.describe
-      ~IonPumpBase.describe_configuration
-      ~IonPumpBase.destroy
-      ~IonPumpBase.egu
-      ~IonPumpBase.format_status_info
-      ~IonPumpBase.get
-      ~IonPumpBase.get_device_tuple
-      ~IonPumpBase.get_instantiated_signals
-      ~IonPumpBase.info
-      ~IonPumpBase.off
-      ~IonPumpBase.on
-      ~IonPumpBase.pause
-      ~IonPumpBase.pressure
-      ~IonPumpBase.put
-      ~IonPumpBase.read
-      ~IonPumpBase.read_configuration
-      ~IonPumpBase.resume
-      ~IonPumpBase.stage
-      ~IonPumpBase.status_info
-      ~IonPumpBase.stop
-      ~IonPumpBase.subscribe
-      ~IonPumpBase.summary
-      ~IonPumpBase.trigger
-      ~IonPumpBase.unstage
-      ~IonPumpBase.unsubscribe
-      ~IonPumpBase.unsubscribe_all
-      ~IonPumpBase.wait_for_connection
-      ~IonPumpBase.walk_components
-      ~IonPumpBase.walk_signals
-      ~IonPumpBase.walk_subdevice_classes
-      ~IonPumpBase.walk_subdevices
+       *  -  _pressure
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PMON``
+          -  
+          -  hinted
+          -  
+   
+       *  -  _egu
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PMON.EGU``
+          -  
+          -  omitted
+          -  
+   
+       *  -  current
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:IMON``
+          -  
+          -  normal
+          -  
+   
+       *  -  voltage
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:VMON``
+          -  
+          -  normal
+          -  
+   
+       *  -  status_code
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:STATUSCODE``
+          -  
+          -  normal
+          -  
+   
+       *  -  status
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:STATUS``
+          -  
+          -  normal
+          -  
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:STATEMON``
+          -  
+          -  normal
+          -  
+   
+       *  -  pumpsize
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PUMPSIZEDES``
+          -  
+          -  omitted
+          -  
+   
+       *  -  controllername
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:VPCNAME``
+          -  
+          -  omitted
+          -  
+   
+       *  -  hvstrapping
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:VDESRBCK``
+          -  
+          -  omitted
+          -  
+   
+       *  -  supplysize
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:SUPPLYSIZE``
+          -  
+          -  omitted
+          -  
+   
+       *  -  aomode
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:AOMODEDES``
+          -  
+          -  config
+          -  
+   
+       *  -  calfactor
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:CALFACTORDES``
+          -  
+          -  config
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~IonPumpBase.SUB_ACQ_DONE
-      ~IonPumpBase.aomode
-      ~IonPumpBase.attr_name
-      ~IonPumpBase.calfactor
-      ~IonPumpBase.component_names
-      ~IonPumpBase.configuration_attrs
-      ~IonPumpBase.connected
-      ~IonPumpBase.controllername
-      ~IonPumpBase.current
-      ~IonPumpBase.dotted_name
-      ~IonPumpBase.event_types
-      ~IonPumpBase.hints
-      ~IonPumpBase.hvstrapping
-      ~IonPumpBase.kind
-      ~IonPumpBase.lazy_wait_for_connection
-      ~IonPumpBase.name
-      ~IonPumpBase.parent
-      ~IonPumpBase.pumpsize
-      ~IonPumpBase.read_attrs
-      ~IonPumpBase.report
-      ~IonPumpBase.root
-      ~IonPumpBase.signal_names
-      ~IonPumpBase.state
-      ~IonPumpBase.status
-      ~IonPumpBase.status_code
-      ~IonPumpBase.supplysize
-      ~IonPumpBase.tab_component_names
-      ~IonPumpBase.tab_whitelist
-      ~IonPumpBase.trigger_signals
-      ~IonPumpBase.voltage
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~IonPumpBase.configure
+       ~IonPumpBase.describe
+       ~IonPumpBase.egu
+       ~IonPumpBase.get
+       ~IonPumpBase.info
+       ~IonPumpBase.off
+       ~IonPumpBase.on
+       ~IonPumpBase.pressure
+       ~IonPumpBase.read
+       ~IonPumpBase.read_configuration
+       ~IonPumpBase.stop
+       ~IonPumpBase.summary
+       ~IonPumpBase.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~IonPumpBase.configuration_attrs
+       ~IonPumpBase.connected
+       ~IonPumpBase.hints
+       ~IonPumpBase.kind
+    
+    

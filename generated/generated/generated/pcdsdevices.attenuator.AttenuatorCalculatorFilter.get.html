@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.attenuator.AttenuatorCalculatorFilter.get &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.attenuator.AttenuatorCalculatorFilter.get &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,8 +37,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.attenuator.AttenuatorCalculatorFilter.get_device_tuple" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.get_device_tuple.html" />
-    <link rel="prev" title="pcdsdevices.attenuator.AttenuatorCalculatorFilter.format_status_info" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.format_status_info.html" /> 
+    <link rel="next" title="pcdsdevices.attenuator.AttenuatorCalculatorFilter.read" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.read.html" />
+    <link rel="prev" title="pcdsdevices.attenuator.AttenuatorCalculatorFilter.describe" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.describe.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -115,37 +116,14 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.AttBase3rd.html">pcdsdevices.attenuator.AttBase3rd</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.AttenuatorCalculatorBase.html">pcdsdevices.attenuator.AttenuatorCalculatorBase</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.attenuator.AttenuatorCalculatorFilter.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.__init__.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.__init__</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.add_instantiation_callback.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.add_instantiation_callback</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.check_value.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.check_value</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.clear_sub.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.configure.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.describe.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.describe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.describe_configuration.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.describe_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.destroy.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.destroy</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.format_status_info.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.format_status_info</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.attenuator.AttenuatorCalculatorFilter.get</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.get_device_tuple.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.get_device_tuple</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.get_instantiated_signals.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.get_instantiated_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.pause.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.pause</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.put.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.read.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.read_configuration.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.read_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.resume.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.resume</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.stage.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.stage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.status_info.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.stop.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.stop</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.subscribe.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.summary.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.trigger.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.trigger</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.unstage.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.unstage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.unsubscribe.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.unsubscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.unsubscribe_all.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.unsubscribe_all</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.wait_for_connection.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.wait_for_connection</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.walk_components.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.walk_components</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.walk_signals.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.walk_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.walk_subdevice_classes.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.walk_subdevice_classes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.walk_subdevices.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.walk_subdevices</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.attenuator.AttenuatorCalculator_AT2L0.html">pcdsdevices.attenuator.AttenuatorCalculator_AT2L0</a></li>
@@ -284,10 +262,10 @@ beginning with an underscore will not be included.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.get_device_tuple.html" class="btn btn-neutral float-right" title="pcdsdevices.attenuator.AttenuatorCalculatorFilter.get_device_tuple" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.read.html" class="btn btn-neutral float-right" title="pcdsdevices.attenuator.AttenuatorCalculatorFilter.read" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.format_status_info.html" class="btn btn-neutral float-left" title="pcdsdevices.attenuator.AttenuatorCalculatorFilter.format_status_info" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.describe.html" class="btn btn-neutral float-left" title="pcdsdevices.attenuator.AttenuatorCalculatorFilter.describe" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

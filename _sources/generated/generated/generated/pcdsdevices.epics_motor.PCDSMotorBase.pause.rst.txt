@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.PCDSMotorBase.pause
-============================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: PCDSMotorBase.pause

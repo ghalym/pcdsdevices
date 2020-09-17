@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SimDelayStage.unstage
-===========================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SimDelayStage.unstage

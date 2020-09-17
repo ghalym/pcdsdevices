@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.BeckhoffAxisPLC.get\_device\_tuple
-===========================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: BeckhoffAxisPLC.get_device_tuple

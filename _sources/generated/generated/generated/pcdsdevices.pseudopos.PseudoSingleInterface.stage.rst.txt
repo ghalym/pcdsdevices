@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.PseudoSingleInterface.stage
-=================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: PseudoSingleInterface.stage

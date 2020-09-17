@@ -1,6 +1,0 @@
-pcdsdevices.lens.SimLensStack.destroy
-=====================================
-
-.. currentmodule:: pcdsdevices.lens
-
-.. automethod:: SimLensStack.destroy

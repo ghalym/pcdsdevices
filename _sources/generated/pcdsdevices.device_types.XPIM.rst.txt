@@ -7,85 +7,144 @@
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~XPIM.__init__
-      ~XPIM.add_instantiation_callback
-      ~XPIM.check_value
-      ~XPIM.clear_sub
-      ~XPIM.configure
-      ~XPIM.describe
-      ~XPIM.describe_configuration
-      ~XPIM.destroy
-      ~XPIM.format_status_info
-      ~XPIM.get
-      ~XPIM.get_device_tuple
-      ~XPIM.get_instantiated_signals
-      ~XPIM.pause
-      ~XPIM.put
-      ~XPIM.read
-      ~XPIM.read_configuration
-      ~XPIM.resume
-      ~XPIM.stage
-      ~XPIM.status_info
-      ~XPIM.stop
-      ~XPIM.subscribe
-      ~XPIM.summary
-      ~XPIM.trigger
-      ~XPIM.unstage
-      ~XPIM.unsubscribe
-      ~XPIM.unsubscribe_all
-      ~XPIM.wait_for_connection
-      ~XPIM.walk_components
-      ~XPIM.walk_signals
-      ~XPIM.walk_subdevice_classes
-      ~XPIM.walk_subdevices
+       *  -  target
+          -  :class:`~pcdsdevices.inout.TwinCATInOutPositioner`
+          -  ``:MMS:STATE``
+          -  Control of the diagnostic stack via saved positions.
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.pim.LCLS2ImagerBase`
+   
+       *  -  y_motor
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``:MMS``
+          -  Direct control of the diagnostic stack motor.
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pim.LCLS2ImagerBase`
+   
+       *  -  detector
+          -  :class:`~pcdsdevices.areadetector.detectors.PCDSAreaDetectorTyphos`
+          -  ``:CAM:``
+          -  Area detector settings and readbacks.
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pim.LCLS2ImagerBase`
+   
+       *  -  cam_power
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:CAM:PWR``
+          -  Camera power supply controls.
+          -  config
+          -  Inherited from :class:`~pcdsdevices.pim.LCLS2ImagerBase`
+   
+       *  -  zoom_motor
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``:CLZ``
+          -  Motorized zoom.
+          -  normal
+          -  
+   
+       *  -  focus_motor
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``:CLF``
+          -  Motorized focus.
+          -  normal
+          -  
+   
+       *  -  zoom_lock
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:CLZ:LOCK``
+          -  Lockout to prevent zoom motion.
+          -  config
+          -  
+   
+       *  -  focus_lock
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:CLF:LOCK``
+          -  Lockout to prevent focus motion.
+          -  config
+          -  
+   
+       *  -  led
+          -  :class:`~pcdsdevices.pim.XPIMLED`
+          -  ``:CIL``
+          -  LED for viewing the reticle.
+          -  config
+          -  
+   
+       *  -  filter_wheel
+          -  :class:`~pcdsdevices.pim.XPIMFilterWheel`
+          -  ``:MFW``
+          -  Optical filter wheel in front of the camera to prevent saturation.
+          -  config
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~XPIM.SUB_ACQ_DONE
-      ~XPIM.SUB_STATE
-      ~XPIM.attr_name
-      ~XPIM.cam_power
-      ~XPIM.component_names
-      ~XPIM.configuration_attrs
-      ~XPIM.connected
-      ~XPIM.detector
-      ~XPIM.dotted_name
-      ~XPIM.event_types
-      ~XPIM.filter_wheel
-      ~XPIM.focus_lock
-      ~XPIM.focus_motor
-      ~XPIM.hints
-      ~XPIM.inserted
-      ~XPIM.kind
-      ~XPIM.lazy_wait_for_connection
-      ~XPIM.led
-      ~XPIM.lightpath_cpts
-      ~XPIM.name
-      ~XPIM.parent
-      ~XPIM.read_attrs
-      ~XPIM.removed
-      ~XPIM.report
-      ~XPIM.root
-      ~XPIM.signal_names
-      ~XPIM.tab_component_names
-      ~XPIM.tab_whitelist
-      ~XPIM.target
-      ~XPIM.transmission
-      ~XPIM.trigger_signals
-      ~XPIM.y_motor
-      ~XPIM.y_states
-      ~XPIM.zoom_lock
-      ~XPIM.zoom_motor
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~XPIM.configure
+       ~XPIM.describe
+       ~XPIM.get
+       ~XPIM.read
+       ~XPIM.read_configuration
+       ~XPIM.stop
+       ~XPIM.summary
+       ~XPIM.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~XPIM.configuration_attrs
+       ~XPIM.connected
+       ~XPIM.hints
+       ~XPIM.kind
+       ~XPIM.lightpath_cpts
+       ~XPIM.transmission
+       ~XPIM.y_states
+    
+    

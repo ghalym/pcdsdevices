@@ -7,73 +7,87 @@ pcdsdevices.ipm.IPIMBChannel
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~IPIMBChannel.__init__
-      ~IPIMBChannel.add_instantiation_callback
-      ~IPIMBChannel.check_value
-      ~IPIMBChannel.clear_sub
-      ~IPIMBChannel.configure
-      ~IPIMBChannel.describe
-      ~IPIMBChannel.describe_configuration
-      ~IPIMBChannel.destroy
-      ~IPIMBChannel.format_status_info
-      ~IPIMBChannel.get
-      ~IPIMBChannel.get_device_tuple
-      ~IPIMBChannel.get_instantiated_signals
-      ~IPIMBChannel.pause
-      ~IPIMBChannel.put
-      ~IPIMBChannel.read
-      ~IPIMBChannel.read_configuration
-      ~IPIMBChannel.resume
-      ~IPIMBChannel.stage
-      ~IPIMBChannel.status_info
-      ~IPIMBChannel.stop
-      ~IPIMBChannel.subscribe
-      ~IPIMBChannel.summary
-      ~IPIMBChannel.trigger
-      ~IPIMBChannel.unstage
-      ~IPIMBChannel.unsubscribe
-      ~IPIMBChannel.unsubscribe_all
-      ~IPIMBChannel.wait_for_connection
-      ~IPIMBChannel.walk_components
-      ~IPIMBChannel.walk_signals
-      ~IPIMBChannel.walk_subdevice_classes
-      ~IPIMBChannel.walk_subdevices
+       *  -  amplitude (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``{self.prefix}:CH{self.channel_index}``
+          -  
+          -  hinted
+          -  
+   
+       *  -  gain (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{self.prefix}:ChargeAmpRangeCH{self.channel_index}``
+          -  
+          -  config
+          -  
+   
+       *  -  base (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{self.prefix}:CH{self.channel_index}_BASE``
+          -  
+          -  config
+          -  
+   
+       *  -  scale (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{self.prefix}:CH{self.channel_index}_SCALE``
+          -  
+          -  config
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~IPIMBChannel.SUB_ACQ_DONE
-      ~IPIMBChannel.amplitude
-      ~IPIMBChannel.attr_name
-      ~IPIMBChannel.base
-      ~IPIMBChannel.component_names
-      ~IPIMBChannel.configuration_attrs
-      ~IPIMBChannel.connected
-      ~IPIMBChannel.dotted_name
-      ~IPIMBChannel.event_types
-      ~IPIMBChannel.gain
-      ~IPIMBChannel.hints
-      ~IPIMBChannel.kind
-      ~IPIMBChannel.lazy_wait_for_connection
-      ~IPIMBChannel.name
-      ~IPIMBChannel.parent
-      ~IPIMBChannel.read_attrs
-      ~IPIMBChannel.report
-      ~IPIMBChannel.root
-      ~IPIMBChannel.scale
-      ~IPIMBChannel.signal_names
-      ~IPIMBChannel.tab_component_names
-      ~IPIMBChannel.tab_whitelist
-      ~IPIMBChannel.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~IPIMBChannel.configure
+       ~IPIMBChannel.describe
+       ~IPIMBChannel.get
+       ~IPIMBChannel.read
+       ~IPIMBChannel.read_configuration
+       ~IPIMBChannel.stop
+       ~IPIMBChannel.summary
+       ~IPIMBChannel.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~IPIMBChannel.configuration_attrs
+       ~IPIMBChannel.connected
+       ~IPIMBChannel.hints
+       ~IPIMBChannel.kind
+    
+    

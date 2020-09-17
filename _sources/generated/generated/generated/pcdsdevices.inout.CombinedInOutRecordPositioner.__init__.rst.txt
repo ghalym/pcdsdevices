@@ -1,6 +1,0 @@
-pcdsdevices.inout.CombinedInOutRecordPositioner.\_\_init\_\_
-============================================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: CombinedInOutRecordPositioner.__init__

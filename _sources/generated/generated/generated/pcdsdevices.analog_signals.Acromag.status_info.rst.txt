@@ -1,6 +1,0 @@
-pcdsdevices.analog\_signals.Acromag.status\_info
-================================================
-
-.. currentmodule:: pcdsdevices.analog_signals
-
-.. automethod:: Acromag.status_info

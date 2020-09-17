@@ -1,6 +1,0 @@
-pcdsdevices.signal.UnitConversionDerivedSignal.check\_value
-===========================================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: UnitConversionDerivedSignal.check_value

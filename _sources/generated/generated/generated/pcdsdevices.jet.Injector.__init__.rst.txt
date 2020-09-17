@@ -1,6 +1,0 @@
-pcdsdevices.jet.Injector.\_\_init\_\_
-=====================================
-
-.. currentmodule:: pcdsdevices.jet
-
-.. automethod:: Injector.__init__

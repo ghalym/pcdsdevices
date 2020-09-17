@@ -7,30 +7,26 @@ pcdsdevices.interface.MvInterface
 
    
    
-   .. rubric:: Methods
-
-   .. autosummary::
-      :toctree: generated
-   
-      ~MvInterface.__init__
-      ~MvInterface.camonitor
-      ~MvInterface.end_monitor_thread
-      ~MvInterface.format_status_info
-      ~MvInterface.move
-      ~MvInterface.mv
-      ~MvInterface.status_info
-      ~MvInterface.wait
-      ~MvInterface.wm
-      ~MvInterface.wm_update
-   
    
 
-   
-   
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~MvInterface.tab_whitelist
-   
-   
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~MvInterface.camonitor
+       ~MvInterface.end_monitor_thread
+       ~MvInterface.move
+       ~MvInterface.mv
+       ~MvInterface.wait
+       ~MvInterface.wm
+       ~MvInterface.wm_update
+    
+    
+
+    
+    
+    

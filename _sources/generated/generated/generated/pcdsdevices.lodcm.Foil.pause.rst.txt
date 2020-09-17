@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.Foil.pause
-============================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: Foil.pause

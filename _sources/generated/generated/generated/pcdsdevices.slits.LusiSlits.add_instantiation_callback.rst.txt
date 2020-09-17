@@ -1,6 +1,0 @@
-pcdsdevices.slits.LusiSlits.add\_instantiation\_callback
-========================================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: LusiSlits.add_instantiation_callback

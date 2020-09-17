@@ -7,74 +7,73 @@ pcdsdevices.mps.MPSLimits
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~MPSLimits.__init__
-      ~MPSLimits.add_instantiation_callback
-      ~MPSLimits.check_value
-      ~MPSLimits.clear_sub
-      ~MPSLimits.configure
-      ~MPSLimits.describe
-      ~MPSLimits.describe_configuration
-      ~MPSLimits.destroy
-      ~MPSLimits.format_status_info
-      ~MPSLimits.get
-      ~MPSLimits.get_device_tuple
-      ~MPSLimits.get_instantiated_signals
-      ~MPSLimits.pause
-      ~MPSLimits.put
-      ~MPSLimits.read
-      ~MPSLimits.read_configuration
-      ~MPSLimits.resume
-      ~MPSLimits.stage
-      ~MPSLimits.status_info
-      ~MPSLimits.stop
-      ~MPSLimits.subscribe
-      ~MPSLimits.summary
-      ~MPSLimits.trigger
-      ~MPSLimits.unstage
-      ~MPSLimits.unsubscribe
-      ~MPSLimits.unsubscribe_all
-      ~MPSLimits.wait_for_connection
-      ~MPSLimits.walk_components
-      ~MPSLimits.walk_signals
-      ~MPSLimits.walk_subdevice_classes
-      ~MPSLimits.walk_subdevices
+       *  -  in_limit
+          -  :class:`~pcdsdevices.mps.MPS`
+          -  ``_IN``
+          -  
+          -  normal
+          -  
+   
+       *  -  out_limit
+          -  :class:`~pcdsdevices.mps.MPS`
+          -  ``_OUT``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~MPSLimits.SUB_ACQ_DONE
-      ~MPSLimits.SUB_FAULT_CH
-      ~MPSLimits.attr_name
-      ~MPSLimits.bypassed
-      ~MPSLimits.component_names
-      ~MPSLimits.configuration_attrs
-      ~MPSLimits.connected
-      ~MPSLimits.dotted_name
-      ~MPSLimits.event_types
-      ~MPSLimits.faulted
-      ~MPSLimits.hints
-      ~MPSLimits.in_limit
-      ~MPSLimits.kind
-      ~MPSLimits.lazy_wait_for_connection
-      ~MPSLimits.name
-      ~MPSLimits.out_limit
-      ~MPSLimits.parent
-      ~MPSLimits.read_attrs
-      ~MPSLimits.report
-      ~MPSLimits.root
-      ~MPSLimits.signal_names
-      ~MPSLimits.tab_whitelist
-      ~MPSLimits.trigger_signals
-      ~MPSLimits.tripped
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~MPSLimits.configure
+       ~MPSLimits.describe
+       ~MPSLimits.get
+       ~MPSLimits.read
+       ~MPSLimits.read_configuration
+       ~MPSLimits.stop
+       ~MPSLimits.summary
+       ~MPSLimits.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~MPSLimits.SUB_FAULT_CH
+       ~MPSLimits.bypassed
+       ~MPSLimits.configuration_attrs
+       ~MPSLimits.connected
+       ~MPSLimits.faulted
+       ~MPSLimits.hints
+       ~MPSLimits.kind
+       ~MPSLimits.tripped
+    
+    

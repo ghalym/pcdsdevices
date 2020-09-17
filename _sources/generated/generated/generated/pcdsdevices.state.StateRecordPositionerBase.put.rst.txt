@@ -1,6 +1,0 @@
-pcdsdevices.state.StateRecordPositionerBase.put
-===============================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: StateRecordPositionerBase.put

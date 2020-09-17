@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMWithFocus.destroy
-====================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMWithFocus.destroy

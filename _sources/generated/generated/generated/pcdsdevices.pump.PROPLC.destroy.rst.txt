@@ -1,6 +1,0 @@
-pcdsdevices.pump.PROPLC.destroy
-===============================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: PROPLC.destroy

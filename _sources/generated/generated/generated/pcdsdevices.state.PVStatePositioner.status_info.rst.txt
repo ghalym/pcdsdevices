@@ -1,6 +1,0 @@
-pcdsdevices.state.PVStatePositioner.status\_info
-================================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: PVStatePositioner.status_info

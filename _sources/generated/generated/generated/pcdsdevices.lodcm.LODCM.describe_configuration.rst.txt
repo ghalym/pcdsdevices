@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.LODCM.describe\_configuration
-===============================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: LODCM.describe_configuration

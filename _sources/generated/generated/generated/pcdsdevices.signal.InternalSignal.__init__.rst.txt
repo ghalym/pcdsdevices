@@ -1,6 +1,0 @@
-pcdsdevices.signal.InternalSignal.\_\_init\_\_
-==============================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: InternalSignal.__init__

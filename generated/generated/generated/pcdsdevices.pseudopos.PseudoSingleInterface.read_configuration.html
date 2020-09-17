@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.pseudopos.PseudoSingleInterface.read_configuration &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.pseudopos.PseudoSingleInterface.read_configuration &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,7 +37,7 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.pseudopos.PseudoSingleInterface.resume" href="pcdsdevices.pseudopos.PseudoSingleInterface.resume.html" />
+    <link rel="next" title="pcdsdevices.pseudopos.PseudoSingleInterface.set" href="pcdsdevices.pseudopos.PseudoSingleInterface.set.html" />
     <link rel="prev" title="pcdsdevices.pseudopos.PseudoSingleInterface.read" href="pcdsdevices.pseudopos.PseudoSingleInterface.read.html" /> 
 </head>
 
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -132,49 +133,26 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.pseudopos.DelayBase.html">pcdsdevices.pseudopos.DelayBase</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.pseudopos.LookupTablePositioner.html">pcdsdevices.pseudopos.LookupTablePositioner</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.pseudopos.PseudoSingleInterface.html">pcdsdevices.pseudopos.PseudoSingleInterface</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.__init__.html">pcdsdevices.pseudopos.PseudoSingleInterface.__init__</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.add_instantiation_callback.html">pcdsdevices.pseudopos.PseudoSingleInterface.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.camonitor.html">pcdsdevices.pseudopos.PseudoSingleInterface.camonitor</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.check_value.html">pcdsdevices.pseudopos.PseudoSingleInterface.check_value</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.clear_sub.html">pcdsdevices.pseudopos.PseudoSingleInterface.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.configure.html">pcdsdevices.pseudopos.PseudoSingleInterface.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.describe.html">pcdsdevices.pseudopos.PseudoSingleInterface.describe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.describe_configuration.html">pcdsdevices.pseudopos.PseudoSingleInterface.describe_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.destroy.html">pcdsdevices.pseudopos.PseudoSingleInterface.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.end_monitor_thread.html">pcdsdevices.pseudopos.PseudoSingleInterface.end_monitor_thread</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.format_status_info.html">pcdsdevices.pseudopos.PseudoSingleInterface.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.get.html">pcdsdevices.pseudopos.PseudoSingleInterface.get</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.get_device_tuple.html">pcdsdevices.pseudopos.PseudoSingleInterface.get_device_tuple</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.get_instantiated_signals.html">pcdsdevices.pseudopos.PseudoSingleInterface.get_instantiated_signals</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.move.html">pcdsdevices.pseudopos.PseudoSingleInterface.move</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.mv.html">pcdsdevices.pseudopos.PseudoSingleInterface.mv</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.mv_ginput.html">pcdsdevices.pseudopos.PseudoSingleInterface.mv_ginput</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.mvr.html">pcdsdevices.pseudopos.PseudoSingleInterface.mvr</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.pause.html">pcdsdevices.pseudopos.PseudoSingleInterface.pause</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.put.html">pcdsdevices.pseudopos.PseudoSingleInterface.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.read.html">pcdsdevices.pseudopos.PseudoSingleInterface.read</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.pseudopos.PseudoSingleInterface.read_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.resume.html">pcdsdevices.pseudopos.PseudoSingleInterface.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.set.html">pcdsdevices.pseudopos.PseudoSingleInterface.set</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.stage.html">pcdsdevices.pseudopos.PseudoSingleInterface.stage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.status_info.html">pcdsdevices.pseudopos.PseudoSingleInterface.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.stop.html">pcdsdevices.pseudopos.PseudoSingleInterface.stop</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.subscribe.html">pcdsdevices.pseudopos.PseudoSingleInterface.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.summary.html">pcdsdevices.pseudopos.PseudoSingleInterface.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.sync.html">pcdsdevices.pseudopos.PseudoSingleInterface.sync</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.trigger.html">pcdsdevices.pseudopos.PseudoSingleInterface.trigger</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.tweak.html">pcdsdevices.pseudopos.PseudoSingleInterface.tweak</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.umv.html">pcdsdevices.pseudopos.PseudoSingleInterface.umv</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.umvr.html">pcdsdevices.pseudopos.PseudoSingleInterface.umvr</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.unstage.html">pcdsdevices.pseudopos.PseudoSingleInterface.unstage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.unsubscribe.html">pcdsdevices.pseudopos.PseudoSingleInterface.unsubscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.unsubscribe_all.html">pcdsdevices.pseudopos.PseudoSingleInterface.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.wait.html">pcdsdevices.pseudopos.PseudoSingleInterface.wait</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.wait_for_connection.html">pcdsdevices.pseudopos.PseudoSingleInterface.wait_for_connection</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.walk_components.html">pcdsdevices.pseudopos.PseudoSingleInterface.walk_components</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.walk_signals.html">pcdsdevices.pseudopos.PseudoSingleInterface.walk_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.walk_subdevice_classes.html">pcdsdevices.pseudopos.PseudoSingleInterface.walk_subdevice_classes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.walk_subdevices.html">pcdsdevices.pseudopos.PseudoSingleInterface.walk_subdevices</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.wm.html">pcdsdevices.pseudopos.PseudoSingleInterface.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.wm_update.html">pcdsdevices.pseudopos.PseudoSingleInterface.wm_update</a></li>
 </ul>
@@ -287,7 +265,7 @@ device, or modify the <code class="docutils literal notranslate"><span class="pr
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.pseudopos.PseudoSingleInterface.resume.html" class="btn btn-neutral float-right" title="pcdsdevices.pseudopos.PseudoSingleInterface.resume" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.pseudopos.PseudoSingleInterface.set.html" class="btn btn-neutral float-right" title="pcdsdevices.pseudopos.PseudoSingleInterface.set" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="pcdsdevices.pseudopos.PseudoSingleInterface.read.html" class="btn btn-neutral float-left" title="pcdsdevices.pseudopos.PseudoSingleInterface.read" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

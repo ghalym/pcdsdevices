@@ -1,6 +1,0 @@
-pcdsdevices.mirror.PointingMirror.format\_status\_info
-======================================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: PointingMirror.format_status_info

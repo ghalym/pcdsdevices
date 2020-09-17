@@ -1,6 +1,0 @@
-pcdsdevices.jet.BeckhoffJetManipulator.add\_instantiation\_callback
-===================================================================
-
-.. currentmodule:: pcdsdevices.jet
-
-.. automethod:: BeckhoffJetManipulator.add_instantiation_callback

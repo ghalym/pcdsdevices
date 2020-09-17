@@ -1,6 +1,0 @@
-pcdsdevices.mirror.Pitch.unsubscribe\_all
-=========================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: Pitch.unsubscribe_all

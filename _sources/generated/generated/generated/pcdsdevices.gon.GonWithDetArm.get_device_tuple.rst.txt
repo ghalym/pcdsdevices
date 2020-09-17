@@ -1,6 +1,0 @@
-pcdsdevices.gon.GonWithDetArm.get\_device\_tuple
-================================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: GonWithDetArm.get_device_tuple

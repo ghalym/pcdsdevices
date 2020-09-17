@@ -1,6 +1,0 @@
-pcdsdevices.pump.IonPumpBase.pause
-==================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: IonPumpBase.pause

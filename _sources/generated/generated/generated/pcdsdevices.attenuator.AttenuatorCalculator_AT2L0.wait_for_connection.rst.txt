@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.AttenuatorCalculator\_AT2L0.wait\_for\_connection
-========================================================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: AttenuatorCalculator_AT2L0.wait_for_connection

@@ -7,102 +7,95 @@ pcdsdevices.lodcm.Foil
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~Foil.__init__
-      ~Foil.add_instantiation_callback
-      ~Foil.camonitor
-      ~Foil.check_inserted
-      ~Foil.check_removed
-      ~Foil.check_transmission
-      ~Foil.check_value
-      ~Foil.clear_sub
-      ~Foil.configure
-      ~Foil.describe
-      ~Foil.describe_configuration
-      ~Foil.destroy
-      ~Foil.end_monitor_thread
-      ~Foil.format_status_info
-      ~Foil.get
-      ~Foil.get_device_tuple
-      ~Foil.get_instantiated_signals
-      ~Foil.get_state
-      ~Foil.insert
-      ~Foil.move
-      ~Foil.mv
-      ~Foil.pause
-      ~Foil.put
-      ~Foil.read
-      ~Foil.read_configuration
-      ~Foil.remove
-      ~Foil.resume
-      ~Foil.set
-      ~Foil.stage
-      ~Foil.status_info
-      ~Foil.stop
-      ~Foil.subscribe
-      ~Foil.summary
-      ~Foil.trigger
-      ~Foil.unstage
-      ~Foil.unsubscribe
-      ~Foil.unsubscribe_all
-      ~Foil.wait
-      ~Foil.wait_for_connection
-      ~Foil.walk_components
-      ~Foil.walk_signals
-      ~Foil.walk_subdevice_classes
-      ~Foil.walk_subdevices
-      ~Foil.wm
-      ~Foil.wm_update
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+       *  -  motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:MOTOR``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~Foil.SUB_ACQ_DONE
-      ~Foil.SUB_DONE
-      ~Foil.SUB_READBACK
-      ~Foil.SUB_START
-      ~Foil.SUB_STATE
-      ~Foil.attr_name
-      ~Foil.component_names
-      ~Foil.configuration_attrs
-      ~Foil.connected
-      ~Foil.dotted_name
-      ~Foil.egu
-      ~Foil.event_types
-      ~Foil.high_limit
-      ~Foil.hints
-      ~Foil.in_states
-      ~Foil.inserted
-      ~Foil.kind
-      ~Foil.lazy_wait_for_connection
-      ~Foil.limits
-      ~Foil.low_limit
-      ~Foil.motor
-      ~Foil.moving
-      ~Foil.name
-      ~Foil.out_states
-      ~Foil.parent
-      ~Foil.position
-      ~Foil.read_attrs
-      ~Foil.removed
-      ~Foil.report
-      ~Foil.root
-      ~Foil.settle_time
-      ~Foil.signal_names
-      ~Foil.state
-      ~Foil.states_list
-      ~Foil.tab_whitelist
-      ~Foil.timeout
-      ~Foil.transmission
-      ~Foil.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Foil.camonitor
+       ~Foil.check_inserted
+       ~Foil.check_removed
+       ~Foil.check_transmission
+       ~Foil.configure
+       ~Foil.describe
+       ~Foil.end_monitor_thread
+       ~Foil.get
+       ~Foil.get_state
+       ~Foil.insert
+       ~Foil.move
+       ~Foil.mv
+       ~Foil.read
+       ~Foil.read_configuration
+       ~Foil.remove
+       ~Foil.set
+       ~Foil.stop
+       ~Foil.summary
+       ~Foil.trigger
+       ~Foil.wait
+       ~Foil.wm
+       ~Foil.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Foil.configuration_attrs
+       ~Foil.connected
+       ~Foil.egu
+       ~Foil.high_limit
+       ~Foil.hints
+       ~Foil.in_states
+       ~Foil.kind
+       ~Foil.limits
+       ~Foil.low_limit
+       ~Foil.moving
+       ~Foil.out_states
+       ~Foil.position
+       ~Foil.settle_time
+       ~Foil.states_list
+       ~Foil.timeout
+       ~Foil.transmission
+    
+    

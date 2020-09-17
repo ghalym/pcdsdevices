@@ -7,68 +7,70 @@ pcdsdevices.sim.SimTwoAxis
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~SimTwoAxis.__init__
-      ~SimTwoAxis.add_instantiation_callback
-      ~SimTwoAxis.check_value
-      ~SimTwoAxis.clear_sub
-      ~SimTwoAxis.configure
-      ~SimTwoAxis.describe
-      ~SimTwoAxis.describe_configuration
-      ~SimTwoAxis.destroy
-      ~SimTwoAxis.get
-      ~SimTwoAxis.get_device_tuple
-      ~SimTwoAxis.get_instantiated_signals
-      ~SimTwoAxis.pause
-      ~SimTwoAxis.put
-      ~SimTwoAxis.read
-      ~SimTwoAxis.read_configuration
-      ~SimTwoAxis.resume
-      ~SimTwoAxis.stage
-      ~SimTwoAxis.stop
-      ~SimTwoAxis.subscribe
-      ~SimTwoAxis.summary
-      ~SimTwoAxis.trigger
-      ~SimTwoAxis.tweak
-      ~SimTwoAxis.unstage
-      ~SimTwoAxis.unsubscribe
-      ~SimTwoAxis.unsubscribe_all
-      ~SimTwoAxis.wait_for_connection
-      ~SimTwoAxis.walk_components
-      ~SimTwoAxis.walk_signals
-      ~SimTwoAxis.walk_subdevice_classes
-      ~SimTwoAxis.walk_subdevices
+       *  -  x
+          -  :class:`~pcdsdevices.sim.SlowMotor`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  y
+          -  :class:`~pcdsdevices.sim.SlowMotor`
+          -  
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~SimTwoAxis.SUB_ACQ_DONE
-      ~SimTwoAxis.attr_name
-      ~SimTwoAxis.component_names
-      ~SimTwoAxis.configuration_attrs
-      ~SimTwoAxis.connected
-      ~SimTwoAxis.dotted_name
-      ~SimTwoAxis.event_types
-      ~SimTwoAxis.hints
-      ~SimTwoAxis.kind
-      ~SimTwoAxis.lazy_wait_for_connection
-      ~SimTwoAxis.name
-      ~SimTwoAxis.parent
-      ~SimTwoAxis.read_attrs
-      ~SimTwoAxis.report
-      ~SimTwoAxis.root
-      ~SimTwoAxis.signal_names
-      ~SimTwoAxis.trigger_signals
-      ~SimTwoAxis.x
-      ~SimTwoAxis.y
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~SimTwoAxis.configure
+       ~SimTwoAxis.describe
+       ~SimTwoAxis.get
+       ~SimTwoAxis.read
+       ~SimTwoAxis.read_configuration
+       ~SimTwoAxis.stop
+       ~SimTwoAxis.summary
+       ~SimTwoAxis.trigger
+       ~SimTwoAxis.tweak
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~SimTwoAxis.configuration_attrs
+       ~SimTwoAxis.connected
+       ~SimTwoAxis.hints
+       ~SimTwoAxis.kind
+    
+    

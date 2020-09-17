@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.epics_motor.SmarAct.configure &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.epics_motor.SmarAct.configure &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -37,7 +38,7 @@
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
     <link rel="next" title="pcdsdevices.epics_motor.SmarAct.describe" href="pcdsdevices.epics_motor.SmarAct.describe.html" />
-    <link rel="prev" title="pcdsdevices.epics_motor.SmarAct.clear_sub" href="pcdsdevices.epics_motor.SmarAct.clear_sub.html" /> 
+    <link rel="prev" title="pcdsdevices.epics_motor.SmarAct.camonitor" href="pcdsdevices.epics_motor.SmarAct.camonitor.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -124,33 +125,21 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.epics_motor.PCDSMotorBase.html">pcdsdevices.epics_motor.PCDSMotorBase</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.epics_motor.PMC100.html">pcdsdevices.epics_motor.PMC100</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.epics_motor.SmarAct.html">pcdsdevices.epics_motor.SmarAct</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.__init__.html">pcdsdevices.epics_motor.SmarAct.__init__</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.add_instantiation_callback.html">pcdsdevices.epics_motor.SmarAct.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.camonitor.html">pcdsdevices.epics_motor.SmarAct.camonitor</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.check_value.html">pcdsdevices.epics_motor.SmarAct.check_value</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.clear_sub.html">pcdsdevices.epics_motor.SmarAct.clear_sub</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.epics_motor.SmarAct.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.describe.html">pcdsdevices.epics_motor.SmarAct.describe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.describe_configuration.html">pcdsdevices.epics_motor.SmarAct.describe_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.destroy.html">pcdsdevices.epics_motor.SmarAct.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.disable.html">pcdsdevices.epics_motor.SmarAct.disable</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.enable.html">pcdsdevices.epics_motor.SmarAct.enable</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.end_monitor_thread.html">pcdsdevices.epics_motor.SmarAct.end_monitor_thread</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.format_status_info.html">pcdsdevices.epics_motor.SmarAct.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.get.html">pcdsdevices.epics_motor.SmarAct.get</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.get_device_tuple.html">pcdsdevices.epics_motor.SmarAct.get_device_tuple</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.get_instantiated_signals.html">pcdsdevices.epics_motor.SmarAct.get_instantiated_signals</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.get_lim.html">pcdsdevices.epics_motor.SmarAct.get_lim</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.home.html">pcdsdevices.epics_motor.SmarAct.home</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.move.html">pcdsdevices.epics_motor.SmarAct.move</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.mv.html">pcdsdevices.epics_motor.SmarAct.mv</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.mv_ginput.html">pcdsdevices.epics_motor.SmarAct.mv_ginput</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.mvr.html">pcdsdevices.epics_motor.SmarAct.mvr</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.pause.html">pcdsdevices.epics_motor.SmarAct.pause</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.put.html">pcdsdevices.epics_motor.SmarAct.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.read.html">pcdsdevices.epics_motor.SmarAct.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.read_configuration.html">pcdsdevices.epics_motor.SmarAct.read_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.resume.html">pcdsdevices.epics_motor.SmarAct.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.screen.html">pcdsdevices.epics_motor.SmarAct.screen</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.set.html">pcdsdevices.epics_motor.SmarAct.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.set_current_position.html">pcdsdevices.epics_motor.SmarAct.set_current_position</a></li>
@@ -158,24 +147,13 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.spg_go.html">pcdsdevices.epics_motor.SmarAct.spg_go</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.spg_pause.html">pcdsdevices.epics_motor.SmarAct.spg_pause</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.spg_stop.html">pcdsdevices.epics_motor.SmarAct.spg_stop</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.stage.html">pcdsdevices.epics_motor.SmarAct.stage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.status_info.html">pcdsdevices.epics_motor.SmarAct.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.stop.html">pcdsdevices.epics_motor.SmarAct.stop</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.subscribe.html">pcdsdevices.epics_motor.SmarAct.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.summary.html">pcdsdevices.epics_motor.SmarAct.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.trigger.html">pcdsdevices.epics_motor.SmarAct.trigger</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.tweak.html">pcdsdevices.epics_motor.SmarAct.tweak</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.umv.html">pcdsdevices.epics_motor.SmarAct.umv</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.umvr.html">pcdsdevices.epics_motor.SmarAct.umvr</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.unstage.html">pcdsdevices.epics_motor.SmarAct.unstage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.unsubscribe.html">pcdsdevices.epics_motor.SmarAct.unsubscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.unsubscribe_all.html">pcdsdevices.epics_motor.SmarAct.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.wait.html">pcdsdevices.epics_motor.SmarAct.wait</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.wait_for_connection.html">pcdsdevices.epics_motor.SmarAct.wait_for_connection</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.walk_components.html">pcdsdevices.epics_motor.SmarAct.walk_components</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.walk_signals.html">pcdsdevices.epics_motor.SmarAct.walk_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.walk_subdevice_classes.html">pcdsdevices.epics_motor.SmarAct.walk_subdevice_classes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.walk_subdevices.html">pcdsdevices.epics_motor.SmarAct.walk_subdevices</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.wm.html">pcdsdevices.epics_motor.SmarAct.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.epics_motor.SmarAct.wm_update.html">pcdsdevices.epics_motor.SmarAct.wm_update</a></li>
 </ul>
@@ -320,7 +298,7 @@ the changes should be made, use an OrderedDict.</p>
         <a href="pcdsdevices.epics_motor.SmarAct.describe.html" class="btn btn-neutral float-right" title="pcdsdevices.epics_motor.SmarAct.describe" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="pcdsdevices.epics_motor.SmarAct.clear_sub.html" class="btn btn-neutral float-left" title="pcdsdevices.epics_motor.SmarAct.clear_sub" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="pcdsdevices.epics_motor.SmarAct.camonitor.html" class="btn btn-neutral float-left" title="pcdsdevices.epics_motor.SmarAct.camonitor" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

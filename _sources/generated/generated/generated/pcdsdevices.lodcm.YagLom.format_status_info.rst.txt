@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.YagLom.format\_status\_info
-=============================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: YagLom.format_status_info

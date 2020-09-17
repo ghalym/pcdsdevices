@@ -1,6 +1,0 @@
-pcdsdevices.pump.Navigator.pause
-================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: Navigator.pause

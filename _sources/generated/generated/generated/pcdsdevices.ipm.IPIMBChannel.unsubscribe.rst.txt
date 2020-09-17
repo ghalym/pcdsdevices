@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPIMBChannel.unsubscribe
-========================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPIMBChannel.unsubscribe

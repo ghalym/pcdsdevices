@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SyncAxesBase.get\_instantiated\_signals
-=============================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SyncAxesBase.get_instantiated_signals

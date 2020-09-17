@@ -1,6 +1,0 @@
-pcdsdevices.slits.SlitsBase.check\_value
-========================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: SlitsBase.check_value

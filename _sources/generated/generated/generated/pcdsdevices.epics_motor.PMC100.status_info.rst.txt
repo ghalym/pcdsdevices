@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.PMC100.status\_info
-============================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: PMC100.status_info

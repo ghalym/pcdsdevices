@@ -1,6 +1,0 @@
-pcdsdevices.valve.VGC.destroy
-=============================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VGC.destroy

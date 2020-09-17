@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.Dectris.destroy
-=================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: Dectris.destroy

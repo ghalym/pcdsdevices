@@ -1,6 +1,0 @@
-pcdsdevices.evr.Trigger.format\_status\_info
-============================================
-
-.. currentmodule:: pcdsdevices.evr
-
-.. automethod:: Trigger.format_status_info

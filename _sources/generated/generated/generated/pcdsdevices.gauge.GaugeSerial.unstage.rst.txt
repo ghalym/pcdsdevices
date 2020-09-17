@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GaugeSerial.unstage
-=====================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GaugeSerial.unstage

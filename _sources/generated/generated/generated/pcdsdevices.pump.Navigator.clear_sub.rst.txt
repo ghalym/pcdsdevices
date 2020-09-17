@@ -1,6 +1,0 @@
-pcdsdevices.pump.Navigator.clear\_sub
-=====================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: Navigator.clear_sub

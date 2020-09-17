@@ -1,6 +1,0 @@
-pcdsdevices.signal.UnitConversionDerivedSignal.wait\_for\_connection
-====================================================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: UnitConversionDerivedSignal.wait_for_connection

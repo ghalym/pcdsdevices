@@ -1,6 +1,0 @@
-pcdsdevices.lens.SimLensStack.format\_status\_info
-==================================================
-
-.. currentmodule:: pcdsdevices.lens
-
-.. automethod:: SimLensStack.format_status_info

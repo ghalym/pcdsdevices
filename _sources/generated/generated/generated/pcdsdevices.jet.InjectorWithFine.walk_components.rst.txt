@@ -1,6 +1,0 @@
-pcdsdevices.jet.InjectorWithFine.walk\_components
-=================================================
-
-.. currentmodule:: pcdsdevices.jet
-
-.. automethod:: InjectorWithFine.walk_components

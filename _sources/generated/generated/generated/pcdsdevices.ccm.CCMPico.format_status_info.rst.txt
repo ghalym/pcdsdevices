@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMPico.format\_status\_info
-============================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMPico.format_status_info

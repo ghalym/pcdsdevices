@@ -1,6 +1,0 @@
-pcdsdevices.pim.LCLS2ImagerBase.describe\_configuration
-=======================================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: LCLS2ImagerBase.describe_configuration

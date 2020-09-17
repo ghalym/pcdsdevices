@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SimDelayStage.status\_info
-================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SimDelayStage.status_info

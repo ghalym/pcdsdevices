@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.LookupTablePositioner.subscribe
-=====================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: LookupTablePositioner.subscribe

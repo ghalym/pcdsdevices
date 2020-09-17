@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.PseudoSingleInterface.format\_status\_info
-================================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: PseudoSingleInterface.format_status_info

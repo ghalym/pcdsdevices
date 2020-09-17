@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.slits.Slits.get &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.slits.Slits.get &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,8 +37,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.slits.Slits.get_device_tuple" href="pcdsdevices.slits.Slits.get_device_tuple.html" />
-    <link rel="prev" title="pcdsdevices.slits.Slits.format_status_info" href="pcdsdevices.slits.Slits.format_status_info.html" /> 
+    <link rel="next" title="pcdsdevices.slits.Slits.move" href="pcdsdevices.slits.Slits.move.html" />
+    <link rel="prev" title="pcdsdevices.slits.Slits.end_monitor_thread" href="pcdsdevices.slits.Slits.end_monitor_thread.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -144,47 +145,24 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.slits.PowerSlits.html">pcdsdevices.slits.PowerSlits</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.slits.SlitPositioner.html">pcdsdevices.slits.SlitPositioner</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.slits.Slits.html">pcdsdevices.slits.Slits</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.__init__.html">pcdsdevices.slits.Slits.__init__</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.add_instantiation_callback.html">pcdsdevices.slits.Slits.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.block.html">pcdsdevices.slits.Slits.block</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.camonitor.html">pcdsdevices.slits.Slits.camonitor</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.check_value.html">pcdsdevices.slits.Slits.check_value</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.clear_sub.html">pcdsdevices.slits.Slits.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.close.html">pcdsdevices.slits.Slits.close</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.configure.html">pcdsdevices.slits.Slits.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.describe.html">pcdsdevices.slits.Slits.describe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.describe_configuration.html">pcdsdevices.slits.Slits.describe_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.destroy.html">pcdsdevices.slits.Slits.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.end_monitor_thread.html">pcdsdevices.slits.Slits.end_monitor_thread</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.format_status_info.html">pcdsdevices.slits.Slits.format_status_info</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.slits.Slits.get</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.get_device_tuple.html">pcdsdevices.slits.Slits.get_device_tuple</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.get_instantiated_signals.html">pcdsdevices.slits.Slits.get_instantiated_signals</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.move.html">pcdsdevices.slits.Slits.move</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.mv.html">pcdsdevices.slits.Slits.mv</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.open.html">pcdsdevices.slits.Slits.open</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.pause.html">pcdsdevices.slits.Slits.pause</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.put.html">pcdsdevices.slits.Slits.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.read.html">pcdsdevices.slits.Slits.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.read_configuration.html">pcdsdevices.slits.Slits.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.remove.html">pcdsdevices.slits.Slits.remove</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.resume.html">pcdsdevices.slits.Slits.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.set.html">pcdsdevices.slits.Slits.set</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.stage.html">pcdsdevices.slits.Slits.stage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.status_info.html">pcdsdevices.slits.Slits.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.stop.html">pcdsdevices.slits.Slits.stop</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.subscribe.html">pcdsdevices.slits.Slits.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.summary.html">pcdsdevices.slits.Slits.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.trigger.html">pcdsdevices.slits.Slits.trigger</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.unstage.html">pcdsdevices.slits.Slits.unstage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.unsubscribe.html">pcdsdevices.slits.Slits.unsubscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.unsubscribe_all.html">pcdsdevices.slits.Slits.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.wait.html">pcdsdevices.slits.Slits.wait</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.wait_for_connection.html">pcdsdevices.slits.Slits.wait_for_connection</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.walk_components.html">pcdsdevices.slits.Slits.walk_components</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.walk_signals.html">pcdsdevices.slits.Slits.walk_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.walk_subdevice_classes.html">pcdsdevices.slits.Slits.walk_subdevice_classes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.walk_subdevices.html">pcdsdevices.slits.Slits.walk_subdevices</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.wm.html">pcdsdevices.slits.Slits.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.slits.Slits.wm_update.html">pcdsdevices.slits.Slits.wm_update</a></li>
 </ul>
@@ -289,10 +267,10 @@ beginning with an underscore will not be included.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.slits.Slits.get_device_tuple.html" class="btn btn-neutral float-right" title="pcdsdevices.slits.Slits.get_device_tuple" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.slits.Slits.move.html" class="btn btn-neutral float-right" title="pcdsdevices.slits.Slits.move" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="pcdsdevices.slits.Slits.format_status_info.html" class="btn btn-neutral float-left" title="pcdsdevices.slits.Slits.format_status_info" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="pcdsdevices.slits.Slits.end_monitor_thread.html" class="btn btn-neutral float-left" title="pcdsdevices.slits.Slits.end_monitor_thread" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

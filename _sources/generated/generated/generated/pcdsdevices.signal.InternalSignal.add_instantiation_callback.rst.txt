@@ -1,6 +1,0 @@
-pcdsdevices.signal.InternalSignal.add\_instantiation\_callback
-==============================================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: InternalSignal.add_instantiation_callback

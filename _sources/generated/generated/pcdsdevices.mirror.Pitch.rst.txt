@@ -7,108 +7,168 @@ pcdsdevices.mirror.Pitch
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~Pitch.__init__
-      ~Pitch.add_instantiation_callback
-      ~Pitch.camonitor
-      ~Pitch.check_value
-      ~Pitch.clear_sub
-      ~Pitch.configure
-      ~Pitch.describe
-      ~Pitch.describe_configuration
-      ~Pitch.destroy
-      ~Pitch.end_monitor_thread
-      ~Pitch.format_status_info
-      ~Pitch.get
-      ~Pitch.get_device_tuple
-      ~Pitch.get_instantiated_signals
-      ~Pitch.move
-      ~Pitch.mv
-      ~Pitch.mv_ginput
-      ~Pitch.mvr
-      ~Pitch.pause
-      ~Pitch.put
-      ~Pitch.read
-      ~Pitch.read_configuration
-      ~Pitch.resume
-      ~Pitch.set
-      ~Pitch.stage
-      ~Pitch.status_info
-      ~Pitch.stop
-      ~Pitch.subscribe
-      ~Pitch.summary
-      ~Pitch.trigger
-      ~Pitch.tweak
-      ~Pitch.umv
-      ~Pitch.umvr
-      ~Pitch.unstage
-      ~Pitch.unsubscribe
-      ~Pitch.unsubscribe_all
-      ~Pitch.wait
-      ~Pitch.wait_for_connection
-      ~Pitch.walk_components
-      ~Pitch.walk_signals
-      ~Pitch.walk_subdevice_classes
-      ~Pitch.walk_subdevices
-      ~Pitch.wm
-      ~Pitch.wm_update
+       *  -  readback
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:RBV``
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  setpoint
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:VAL``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  done
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:DMOV``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  motor_egu
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:RBV.EGU``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  interlock
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:INTERLOCK``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  enabled
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:ENABLED``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  low_limit_switch
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:LLS``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  high_limit_switch
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:HLS``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  piezo_volts (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``{self._piezo}:VRBV``
+          -  
+          -  normal
+          -  
+   
+       *  -  stop_signal (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{self._piezo}:STOP``
+          -  
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~Pitch.SUB_ACQ_DONE
-      ~Pitch.SUB_DONE
-      ~Pitch.SUB_READBACK
-      ~Pitch.SUB_START
-      ~Pitch.actuate
-      ~Pitch.actuate_value
-      ~Pitch.attr_name
-      ~Pitch.component_names
-      ~Pitch.configuration_attrs
-      ~Pitch.connected
-      ~Pitch.done
-      ~Pitch.done_value
-      ~Pitch.dotted_name
-      ~Pitch.egu
-      ~Pitch.enabled
-      ~Pitch.event_types
-      ~Pitch.high_limit
-      ~Pitch.high_limit_switch
-      ~Pitch.hints
-      ~Pitch.interlock
-      ~Pitch.kind
-      ~Pitch.lazy_wait_for_connection
-      ~Pitch.limits
-      ~Pitch.low_limit
-      ~Pitch.low_limit_switch
-      ~Pitch.motor_egu
-      ~Pitch.moving
-      ~Pitch.name
-      ~Pitch.parent
-      ~Pitch.piezo_volts
-      ~Pitch.position
-      ~Pitch.presets
-      ~Pitch.put_complete
-      ~Pitch.read_attrs
-      ~Pitch.readback
-      ~Pitch.report
-      ~Pitch.root
-      ~Pitch.setpoint
-      ~Pitch.settle_time
-      ~Pitch.signal_names
-      ~Pitch.stop_signal
-      ~Pitch.stop_value
-      ~Pitch.tab_whitelist
-      ~Pitch.timeout
-      ~Pitch.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Pitch.camonitor
+       ~Pitch.configure
+       ~Pitch.describe
+       ~Pitch.end_monitor_thread
+       ~Pitch.get
+       ~Pitch.move
+       ~Pitch.mv
+       ~Pitch.mv_ginput
+       ~Pitch.mvr
+       ~Pitch.read
+       ~Pitch.read_configuration
+       ~Pitch.set
+       ~Pitch.stop
+       ~Pitch.summary
+       ~Pitch.trigger
+       ~Pitch.tweak
+       ~Pitch.umv
+       ~Pitch.umvr
+       ~Pitch.wait
+       ~Pitch.wm
+       ~Pitch.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Pitch.actuate
+       ~Pitch.actuate_value
+       ~Pitch.configuration_attrs
+       ~Pitch.connected
+       ~Pitch.done_value
+       ~Pitch.egu
+       ~Pitch.high_limit
+       ~Pitch.hints
+       ~Pitch.kind
+       ~Pitch.limits
+       ~Pitch.low_limit
+       ~Pitch.moving
+       ~Pitch.position
+       ~Pitch.presets
+       ~Pitch.put_complete
+       ~Pitch.settle_time
+       ~Pitch.stop_value
+       ~Pitch.timeout
+    
+    

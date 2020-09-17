@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.EpicsMotorInterface.status\_info
-=========================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: EpicsMotorInterface.status_info

@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GaugePLC.get\_device\_tuple
-=============================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GaugePLC.get_device_tuple

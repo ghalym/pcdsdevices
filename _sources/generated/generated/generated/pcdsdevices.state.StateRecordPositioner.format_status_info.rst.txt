@@ -1,6 +1,0 @@
-pcdsdevices.state.StateRecordPositioner.format\_status\_info
-============================================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: StateRecordPositioner.format_status_info

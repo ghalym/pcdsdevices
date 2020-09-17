@@ -1,6 +1,0 @@
-pcdsdevices.mirror.OffsetMirror.resume
-======================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: OffsetMirror.resume

@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.SmarActOpenLoop.check\_value
-=====================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: SmarActOpenLoop.check_value

@@ -1,6 +1,0 @@
-pcdsdevices.sim.SimTwoAxis.destroy
-==================================
-
-.. currentmodule:: pcdsdevices.sim
-
-.. automethod:: SimTwoAxis.destroy

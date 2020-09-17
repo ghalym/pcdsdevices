@@ -1,6 +1,0 @@
-pcdsdevices.sequencer.EventSequence.status\_info
-================================================
-
-.. currentmodule:: pcdsdevices.sequencer
-
-.. automethod:: EventSequence.status_info

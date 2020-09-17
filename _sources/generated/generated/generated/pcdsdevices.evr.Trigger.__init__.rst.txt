@@ -1,6 +1,0 @@
-pcdsdevices.evr.Trigger.\_\_init\_\_
-====================================
-
-.. currentmodule:: pcdsdevices.evr
-
-.. automethod:: Trigger.__init__

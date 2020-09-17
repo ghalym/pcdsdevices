@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPMTarget.check\_value
-======================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPMTarget.check_value

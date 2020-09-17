@@ -1,6 +1,0 @@
-pcdsdevices.jet.BeckhoffJetSlits.subscribe
-==========================================
-
-.. currentmodule:: pcdsdevices.jet
-
-.. automethod:: BeckhoffJetSlits.subscribe

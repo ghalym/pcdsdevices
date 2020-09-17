@@ -1,6 +1,0 @@
-pcdsdevices.valve.VGC.walk\_signals
-===================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VGC.walk_signals

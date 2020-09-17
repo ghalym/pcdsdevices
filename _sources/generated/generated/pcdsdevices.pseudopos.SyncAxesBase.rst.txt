@@ -7,109 +7,97 @@ pcdsdevices.pseudopos.SyncAxesBase
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~SyncAxesBase.__init__
-      ~SyncAxesBase.add_instantiation_callback
-      ~SyncAxesBase.calc_combined
-      ~SyncAxesBase.camonitor
-      ~SyncAxesBase.check_single
-      ~SyncAxesBase.check_value
-      ~SyncAxesBase.clear_sub
-      ~SyncAxesBase.configure
-      ~SyncAxesBase.describe
-      ~SyncAxesBase.describe_configuration
-      ~SyncAxesBase.destroy
-      ~SyncAxesBase.end_monitor_thread
-      ~SyncAxesBase.format_status_info
-      ~SyncAxesBase.forward
-      ~SyncAxesBase.get
-      ~SyncAxesBase.get_device_tuple
-      ~SyncAxesBase.get_instantiated_signals
-      ~SyncAxesBase.inverse
-      ~SyncAxesBase.move
-      ~SyncAxesBase.move_single
-      ~SyncAxesBase.mv
-      ~SyncAxesBase.mv_ginput
-      ~SyncAxesBase.mvr
-      ~SyncAxesBase.pause
-      ~SyncAxesBase.put
-      ~SyncAxesBase.read
-      ~SyncAxesBase.read_configuration
-      ~SyncAxesBase.resume
-      ~SyncAxesBase.save_offsets
-      ~SyncAxesBase.set
-      ~SyncAxesBase.stage
-      ~SyncAxesBase.status_info
-      ~SyncAxesBase.stop
-      ~SyncAxesBase.subscribe
-      ~SyncAxesBase.summary
-      ~SyncAxesBase.to_pseudo_tuple
-      ~SyncAxesBase.to_real_tuple
-      ~SyncAxesBase.trigger
-      ~SyncAxesBase.tweak
-      ~SyncAxesBase.umv
-      ~SyncAxesBase.umvr
-      ~SyncAxesBase.unstage
-      ~SyncAxesBase.unsubscribe
-      ~SyncAxesBase.unsubscribe_all
-      ~SyncAxesBase.wait
-      ~SyncAxesBase.wait_for_connection
-      ~SyncAxesBase.walk_components
-      ~SyncAxesBase.walk_signals
-      ~SyncAxesBase.walk_subdevice_classes
-      ~SyncAxesBase.walk_subdevices
-      ~SyncAxesBase.wm
-      ~SyncAxesBase.wm_update
+       *  -  pseudo
+          -  :class:`~ophyd.pseudopos.PseudoSingle`
+          -  
+          -  
+          -  normal
+          -  
+   
+
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~SyncAxesBase.SUB_ACQ_DONE
-      ~SyncAxesBase.SUB_DONE
-      ~SyncAxesBase.SUB_READBACK
-      ~SyncAxesBase.SUB_START
-      ~SyncAxesBase.attr_name
-      ~SyncAxesBase.component_names
-      ~SyncAxesBase.composite_egu
-      ~SyncAxesBase.concurrent
-      ~SyncAxesBase.configuration_attrs
-      ~SyncAxesBase.connected
-      ~SyncAxesBase.dotted_name
-      ~SyncAxesBase.egu
-      ~SyncAxesBase.event_types
-      ~SyncAxesBase.high_limit
-      ~SyncAxesBase.hints
-      ~SyncAxesBase.kind
-      ~SyncAxesBase.lazy_wait_for_connection
-      ~SyncAxesBase.limits
-      ~SyncAxesBase.low_limit
-      ~SyncAxesBase.moving
-      ~SyncAxesBase.name
-      ~SyncAxesBase.parent
-      ~SyncAxesBase.position
-      ~SyncAxesBase.presets
-      ~SyncAxesBase.pseudo
-      ~SyncAxesBase.pseudo_positioners
-      ~SyncAxesBase.read_attrs
-      ~SyncAxesBase.real_position
-      ~SyncAxesBase.real_positioners
-      ~SyncAxesBase.report
-      ~SyncAxesBase.root
-      ~SyncAxesBase.sequential
-      ~SyncAxesBase.settle_time
-      ~SyncAxesBase.signal_names
-      ~SyncAxesBase.tab_whitelist
-      ~SyncAxesBase.target
-      ~SyncAxesBase.timeout
-      ~SyncAxesBase.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~SyncAxesBase.calc_combined
+       ~SyncAxesBase.camonitor
+       ~SyncAxesBase.check_single
+       ~SyncAxesBase.configure
+       ~SyncAxesBase.describe
+       ~SyncAxesBase.end_monitor_thread
+       ~SyncAxesBase.forward
+       ~SyncAxesBase.get
+       ~SyncAxesBase.inverse
+       ~SyncAxesBase.move
+       ~SyncAxesBase.move_single
+       ~SyncAxesBase.mv
+       ~SyncAxesBase.mv_ginput
+       ~SyncAxesBase.mvr
+       ~SyncAxesBase.read
+       ~SyncAxesBase.read_configuration
+       ~SyncAxesBase.save_offsets
+       ~SyncAxesBase.set
+       ~SyncAxesBase.stop
+       ~SyncAxesBase.summary
+       ~SyncAxesBase.to_pseudo_tuple
+       ~SyncAxesBase.to_real_tuple
+       ~SyncAxesBase.trigger
+       ~SyncAxesBase.tweak
+       ~SyncAxesBase.umv
+       ~SyncAxesBase.umvr
+       ~SyncAxesBase.wait
+       ~SyncAxesBase.wm
+       ~SyncAxesBase.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~SyncAxesBase.composite_egu
+       ~SyncAxesBase.concurrent
+       ~SyncAxesBase.configuration_attrs
+       ~SyncAxesBase.connected
+       ~SyncAxesBase.egu
+       ~SyncAxesBase.high_limit
+       ~SyncAxesBase.hints
+       ~SyncAxesBase.kind
+       ~SyncAxesBase.limits
+       ~SyncAxesBase.low_limit
+       ~SyncAxesBase.moving
+       ~SyncAxesBase.position
+       ~SyncAxesBase.presets
+       ~SyncAxesBase.pseudo_positioners
+       ~SyncAxesBase.real_position
+       ~SyncAxesBase.real_positioners
+       ~SyncAxesBase.sequential
+       ~SyncAxesBase.settle_time
+       ~SyncAxesBase.target
+       ~SyncAxesBase.timeout
+    
+    

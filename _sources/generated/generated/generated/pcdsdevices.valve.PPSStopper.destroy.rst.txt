@@ -1,6 +1,0 @@
-pcdsdevices.valve.PPSStopper.destroy
-====================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: PPSStopper.destroy

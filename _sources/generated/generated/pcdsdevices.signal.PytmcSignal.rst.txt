@@ -7,68 +7,54 @@ pcdsdevices.signal.PytmcSignal
 
    
    
-   .. rubric:: Methods
-
-   .. autosummary::
-      :toctree: generated
-   
-      ~PytmcSignal.__init__
-      ~PytmcSignal.add_instantiation_callback
-      ~PytmcSignal.check_value
-      ~PytmcSignal.clear_sub
-      ~PytmcSignal.describe
-      ~PytmcSignal.describe_configuration
-      ~PytmcSignal.destroy
-      ~PytmcSignal.get
-      ~PytmcSignal.put
-      ~PytmcSignal.read
-      ~PytmcSignal.read_configuration
-      ~PytmcSignal.set
-      ~PytmcSignal.set_default_timeout
-      ~PytmcSignal.subscribe
-      ~PytmcSignal.trigger
-      ~PytmcSignal.unsubscribe
-      ~PytmcSignal.unsubscribe_all
-      ~PytmcSignal.wait_for_connection
-   
    
 
-   
-   
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~PytmcSignal.SUB_META
-      ~PytmcSignal.SUB_VALUE
-      ~PytmcSignal.alarm_severity
-      ~PytmcSignal.alarm_status
-      ~PytmcSignal.as_string
-      ~PytmcSignal.attr_name
-      ~PytmcSignal.connected
-      ~PytmcSignal.connection_timeout
-      ~PytmcSignal.dotted_name
-      ~PytmcSignal.enum_strs
-      ~PytmcSignal.event_types
-      ~PytmcSignal.high_limit
-      ~PytmcSignal.hints
-      ~PytmcSignal.kind
-      ~PytmcSignal.limits
-      ~PytmcSignal.low_limit
-      ~PytmcSignal.metadata
-      ~PytmcSignal.metadata_keys
-      ~PytmcSignal.name
-      ~PytmcSignal.parent
-      ~PytmcSignal.precision
-      ~PytmcSignal.pvname
-      ~PytmcSignal.read_access
-      ~PytmcSignal.report
-      ~PytmcSignal.root
-      ~PytmcSignal.timeout
-      ~PytmcSignal.timestamp
-      ~PytmcSignal.tolerance
-      ~PytmcSignal.value
-      ~PytmcSignal.write_access
-      ~PytmcSignal.write_timeout
-   
-   
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~PytmcSignal.describe
+       ~PytmcSignal.get
+       ~PytmcSignal.read
+       ~PytmcSignal.read_configuration
+       ~PytmcSignal.set
+       ~PytmcSignal.set_default_timeout
+       ~PytmcSignal.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~PytmcSignal.SUB_META
+       ~PytmcSignal.alarm_severity
+       ~PytmcSignal.alarm_status
+       ~PytmcSignal.as_string
+       ~PytmcSignal.connected
+       ~PytmcSignal.connection_timeout
+       ~PytmcSignal.enum_strs
+       ~PytmcSignal.high_limit
+       ~PytmcSignal.hints
+       ~PytmcSignal.kind
+       ~PytmcSignal.limits
+       ~PytmcSignal.low_limit
+       ~PytmcSignal.metadata
+       ~PytmcSignal.metadata_keys
+       ~PytmcSignal.precision
+       ~PytmcSignal.pvname
+       ~PytmcSignal.read_access
+       ~PytmcSignal.timeout
+       ~PytmcSignal.timestamp
+       ~PytmcSignal.tolerance
+       ~PytmcSignal.value
+       ~PytmcSignal.write_access
+       ~PytmcSignal.write_timeout
+    
+    

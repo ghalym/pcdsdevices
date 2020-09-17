@@ -1,6 +1,0 @@
-pcdsdevices.slits.BadSlitPositionerBase.add\_instantiation\_callback
-====================================================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: BadSlitPositionerBase.add_instantiation_callback

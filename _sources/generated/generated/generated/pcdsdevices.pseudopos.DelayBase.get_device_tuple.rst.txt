@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.DelayBase.get\_device\_tuple
-==================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: DelayBase.get_device_tuple

@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.PseudoSingleInterface.resume
-==================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: PseudoSingleInterface.resume

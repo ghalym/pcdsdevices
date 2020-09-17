@@ -1,6 +1,0 @@
-pcdsdevices.gon.Kappa.resume
-============================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: Kappa.resume

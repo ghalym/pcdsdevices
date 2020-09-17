@@ -1,6 +1,0 @@
-pcdsdevices.ipm.Wave8.unstage
-=============================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: Wave8.unstage

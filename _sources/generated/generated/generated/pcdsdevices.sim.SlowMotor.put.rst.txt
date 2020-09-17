@@ -1,6 +1,0 @@
-pcdsdevices.sim.SlowMotor.put
-=============================
-
-.. currentmodule:: pcdsdevices.sim
-
-.. automethod:: SlowMotor.put

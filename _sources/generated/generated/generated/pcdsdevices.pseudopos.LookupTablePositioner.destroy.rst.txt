@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.LookupTablePositioner.destroy
-===================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: LookupTablePositioner.destroy

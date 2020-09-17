@@ -7,100 +7,208 @@ pcdsdevices.slits.BeckhoffSlits
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~BeckhoffSlits.__init__
-      ~BeckhoffSlits.add_instantiation_callback
-      ~BeckhoffSlits.camonitor
-      ~BeckhoffSlits.check_value
-      ~BeckhoffSlits.clear_sub
-      ~BeckhoffSlits.configure
-      ~BeckhoffSlits.describe
-      ~BeckhoffSlits.describe_configuration
-      ~BeckhoffSlits.destroy
-      ~BeckhoffSlits.end_monitor_thread
-      ~BeckhoffSlits.format_status_info
-      ~BeckhoffSlits.get
-      ~BeckhoffSlits.get_device_tuple
-      ~BeckhoffSlits.get_instantiated_signals
-      ~BeckhoffSlits.move
-      ~BeckhoffSlits.mv
-      ~BeckhoffSlits.pause
-      ~BeckhoffSlits.put
-      ~BeckhoffSlits.read
-      ~BeckhoffSlits.read_configuration
-      ~BeckhoffSlits.remove
-      ~BeckhoffSlits.resume
-      ~BeckhoffSlits.set
-      ~BeckhoffSlits.stage
-      ~BeckhoffSlits.status_info
-      ~BeckhoffSlits.stop
-      ~BeckhoffSlits.subscribe
-      ~BeckhoffSlits.summary
-      ~BeckhoffSlits.trigger
-      ~BeckhoffSlits.unstage
-      ~BeckhoffSlits.unsubscribe
-      ~BeckhoffSlits.unsubscribe_all
-      ~BeckhoffSlits.wait
-      ~BeckhoffSlits.wait_for_connection
-      ~BeckhoffSlits.walk_components
-      ~BeckhoffSlits.walk_signals
-      ~BeckhoffSlits.walk_subdevice_classes
-      ~BeckhoffSlits.walk_subdevices
-      ~BeckhoffSlits.wm
-      ~BeckhoffSlits.wm_update
+       *  -  nominal_aperture
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.slits.SlitsBase`
+   
+       *  -  xwidth
+          -  :class:`~pcdsdevices.slits.BeckhoffSlitPositioner`
+          -  
+          -  
+          -  hinted
+          -  
+   
+       *  -  ywidth
+          -  :class:`~pcdsdevices.slits.BeckhoffSlitPositioner`
+          -  
+          -  
+          -  hinted
+          -  
+   
+       *  -  xcenter
+          -  :class:`~pcdsdevices.slits.BeckhoffSlitPositioner`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  ycenter
+          -  :class:`~pcdsdevices.slits.BeckhoffSlitPositioner`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  exec_queue
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  omitted
+          -  
+   
+       *  -  exec_move
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:GO``
+          -  
+          -  omitted
+          -  
+   
+       *  -  done_all
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  omitted
+          -  
+   
+       *  -  done_top
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:TOP:DMOV``
+          -  
+          -  omitted
+          -  
+   
+       *  -  done_bottom
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:BOTTOM:DMOV``
+          -  
+          -  omitted
+          -  
+   
+       *  -  done_north
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:NORTH:DMOV``
+          -  
+          -  omitted
+          -  
+   
+       *  -  done_south
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:SOUTH:DMOV``
+          -  
+          -  omitted
+          -  
+   
+       *  -  top
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``:MMS:TOP``
+          -  
+          -  normal
+          -  
+   
+       *  -  bottom
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``:MMS:BOTTOM``
+          -  
+          -  normal
+          -  
+   
+       *  -  north
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``:MMS:NORTH``
+          -  
+          -  normal
+          -  
+   
+       *  -  south
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``:MMS:SOUTH``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~BeckhoffSlits.SUB_ACQ_DONE
-      ~BeckhoffSlits.SUB_STATE
-      ~BeckhoffSlits.attr_name
-      ~BeckhoffSlits.bottom
-      ~BeckhoffSlits.component_names
-      ~BeckhoffSlits.configuration_attrs
-      ~BeckhoffSlits.connected
-      ~BeckhoffSlits.current_aperture
-      ~BeckhoffSlits.done_all
-      ~BeckhoffSlits.done_bottom
-      ~BeckhoffSlits.done_north
-      ~BeckhoffSlits.done_south
-      ~BeckhoffSlits.done_top
-      ~BeckhoffSlits.dotted_name
-      ~BeckhoffSlits.event_types
-      ~BeckhoffSlits.exec_move
-      ~BeckhoffSlits.exec_queue
-      ~BeckhoffSlits.hints
-      ~BeckhoffSlits.inserted
-      ~BeckhoffSlits.kind
-      ~BeckhoffSlits.lazy_wait_for_connection
-      ~BeckhoffSlits.lightpath_cpts
-      ~BeckhoffSlits.name
-      ~BeckhoffSlits.nominal_aperture
-      ~BeckhoffSlits.north
-      ~BeckhoffSlits.parent
-      ~BeckhoffSlits.position
-      ~BeckhoffSlits.read_attrs
-      ~BeckhoffSlits.removed
-      ~BeckhoffSlits.report
-      ~BeckhoffSlits.root
-      ~BeckhoffSlits.signal_names
-      ~BeckhoffSlits.south
-      ~BeckhoffSlits.tab_whitelist
-      ~BeckhoffSlits.top
-      ~BeckhoffSlits.transmission
-      ~BeckhoffSlits.trigger_signals
-      ~BeckhoffSlits.xcenter
-      ~BeckhoffSlits.xwidth
-      ~BeckhoffSlits.ycenter
-      ~BeckhoffSlits.ywidth
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~BeckhoffSlits.camonitor
+       ~BeckhoffSlits.configure
+       ~BeckhoffSlits.describe
+       ~BeckhoffSlits.end_monitor_thread
+       ~BeckhoffSlits.get
+       ~BeckhoffSlits.move
+       ~BeckhoffSlits.mv
+       ~BeckhoffSlits.read
+       ~BeckhoffSlits.read_configuration
+       ~BeckhoffSlits.remove
+       ~BeckhoffSlits.set
+       ~BeckhoffSlits.stop
+       ~BeckhoffSlits.summary
+       ~BeckhoffSlits.trigger
+       ~BeckhoffSlits.wait
+       ~BeckhoffSlits.wm
+       ~BeckhoffSlits.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~BeckhoffSlits.configuration_attrs
+       ~BeckhoffSlits.connected
+       ~BeckhoffSlits.current_aperture
+       ~BeckhoffSlits.hints
+       ~BeckhoffSlits.kind
+       ~BeckhoffSlits.lightpath_cpts
+       ~BeckhoffSlits.position
+       ~BeckhoffSlits.transmission
+    
+    

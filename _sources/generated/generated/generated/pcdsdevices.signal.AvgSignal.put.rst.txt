@@ -1,6 +1,0 @@
-pcdsdevices.signal.AvgSignal.put
-================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: AvgSignal.put

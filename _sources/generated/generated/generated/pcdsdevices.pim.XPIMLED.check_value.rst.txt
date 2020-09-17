@@ -1,6 +1,0 @@
-pcdsdevices.pim.XPIMLED.check\_value
-====================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: XPIMLED.check_value

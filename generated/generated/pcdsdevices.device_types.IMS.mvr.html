@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.IMS.mvr &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.device_types.IMS.mvr &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,7 +37,7 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="pcdsdevices.device_types.IMS.pause" href="pcdsdevices.device_types.IMS.pause.html" />
+    <link rel="next" title="pcdsdevices.device_types.IMS.read" href="pcdsdevices.device_types.IMS.read.html" />
     <link rel="prev" title="pcdsdevices.device_types.IMS.mv_ginput" href="pcdsdevices.device_types.IMS.mv_ginput.html" /> 
 </head>
 
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -107,39 +108,27 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.GaugeSet.html">pcdsdevices.device_types.GaugeSet</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.Goniometer.html">pcdsdevices.device_types.Goniometer</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.device_types.IMS.html">pcdsdevices.device_types.IMS</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.__init__.html">pcdsdevices.device_types.IMS.__init__</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.add_instantiation_callback.html">pcdsdevices.device_types.IMS.add_instantiation_callback</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.auto_setup.html">pcdsdevices.device_types.IMS.auto_setup</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.camonitor.html">pcdsdevices.device_types.IMS.camonitor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.check_value.html">pcdsdevices.device_types.IMS.check_value</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.clear_all_flags.html">pcdsdevices.device_types.IMS.clear_all_flags</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.clear_error.html">pcdsdevices.device_types.IMS.clear_error</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.clear_powerup.html">pcdsdevices.device_types.IMS.clear_powerup</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.clear_stall.html">pcdsdevices.device_types.IMS.clear_stall</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.clear_sub.html">pcdsdevices.device_types.IMS.clear_sub</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.configure.html">pcdsdevices.device_types.IMS.configure</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.describe.html">pcdsdevices.device_types.IMS.describe</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.describe_configuration.html">pcdsdevices.device_types.IMS.describe_configuration</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.destroy.html">pcdsdevices.device_types.IMS.destroy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.disable.html">pcdsdevices.device_types.IMS.disable</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.enable.html">pcdsdevices.device_types.IMS.enable</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.end_monitor_thread.html">pcdsdevices.device_types.IMS.end_monitor_thread</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.format_status_info.html">pcdsdevices.device_types.IMS.format_status_info</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.get.html">pcdsdevices.device_types.IMS.get</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.get_device_tuple.html">pcdsdevices.device_types.IMS.get_device_tuple</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.get_instantiated_signals.html">pcdsdevices.device_types.IMS.get_instantiated_signals</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.get_lim.html">pcdsdevices.device_types.IMS.get_lim</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.home.html">pcdsdevices.device_types.IMS.home</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.move.html">pcdsdevices.device_types.IMS.move</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.mv.html">pcdsdevices.device_types.IMS.mv</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.mv_ginput.html">pcdsdevices.device_types.IMS.mv_ginput</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.device_types.IMS.mvr</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.pause.html">pcdsdevices.device_types.IMS.pause</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.put.html">pcdsdevices.device_types.IMS.put</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.read.html">pcdsdevices.device_types.IMS.read</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.read_configuration.html">pcdsdevices.device_types.IMS.read_configuration</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.reinitialize.html">pcdsdevices.device_types.IMS.reinitialize</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.resume.html">pcdsdevices.device_types.IMS.resume</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.screen.html">pcdsdevices.device_types.IMS.screen</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.set.html">pcdsdevices.device_types.IMS.set</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.set_current_position.html">pcdsdevices.device_types.IMS.set_current_position</a></li>
@@ -147,24 +136,13 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.spg_go.html">pcdsdevices.device_types.IMS.spg_go</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.spg_pause.html">pcdsdevices.device_types.IMS.spg_pause</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.spg_stop.html">pcdsdevices.device_types.IMS.spg_stop</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.stage.html">pcdsdevices.device_types.IMS.stage</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.status_info.html">pcdsdevices.device_types.IMS.status_info</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.stop.html">pcdsdevices.device_types.IMS.stop</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.subscribe.html">pcdsdevices.device_types.IMS.subscribe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.summary.html">pcdsdevices.device_types.IMS.summary</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.trigger.html">pcdsdevices.device_types.IMS.trigger</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.tweak.html">pcdsdevices.device_types.IMS.tweak</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.umv.html">pcdsdevices.device_types.IMS.umv</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.umvr.html">pcdsdevices.device_types.IMS.umvr</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.unstage.html">pcdsdevices.device_types.IMS.unstage</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.unsubscribe.html">pcdsdevices.device_types.IMS.unsubscribe</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.unsubscribe_all.html">pcdsdevices.device_types.IMS.unsubscribe_all</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.wait.html">pcdsdevices.device_types.IMS.wait</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.wait_for_connection.html">pcdsdevices.device_types.IMS.wait_for_connection</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.walk_components.html">pcdsdevices.device_types.IMS.walk_components</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.walk_signals.html">pcdsdevices.device_types.IMS.walk_signals</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.walk_subdevice_classes.html">pcdsdevices.device_types.IMS.walk_subdevice_classes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.walk_subdevices.html">pcdsdevices.device_types.IMS.walk_subdevices</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.wm.html">pcdsdevices.device_types.IMS.wm</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.IMS.wm_update.html">pcdsdevices.device_types.IMS.wm_update</a></li>
 </ul>
@@ -304,7 +282,7 @@ Defaults to <code class="xref std std-keyword docutils literal notranslate"><spa
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.device_types.IMS.pause.html" class="btn btn-neutral float-right" title="pcdsdevices.device_types.IMS.pause" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.device_types.IMS.read.html" class="btn btn-neutral float-right" title="pcdsdevices.device_types.IMS.read" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="pcdsdevices.device_types.IMS.mv_ginput.html" class="btn btn-neutral float-left" title="pcdsdevices.device_types.IMS.mv_ginput" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GaugeSerialGCC.resume
-=======================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GaugeSerialGCC.resume

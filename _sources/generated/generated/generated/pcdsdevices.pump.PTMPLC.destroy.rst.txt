@@ -1,6 +1,0 @@
-pcdsdevices.pump.PTMPLC.destroy
-===============================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: PTMPLC.destroy

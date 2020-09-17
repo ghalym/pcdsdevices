@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.BeckhoffAxis.check\_value
-===================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: BeckhoffAxis.check_value

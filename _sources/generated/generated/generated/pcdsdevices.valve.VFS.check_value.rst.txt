@@ -1,6 +1,0 @@
-pcdsdevices.valve.VFS.check\_value
-==================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VFS.check_value

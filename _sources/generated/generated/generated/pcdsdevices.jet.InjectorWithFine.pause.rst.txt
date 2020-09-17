@@ -1,6 +1,0 @@
-pcdsdevices.jet.InjectorWithFine.pause
-======================================
-
-.. currentmodule:: pcdsdevices.jet
-
-.. automethod:: InjectorWithFine.pause

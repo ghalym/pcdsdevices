@@ -7,140 +7,352 @@
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~IMS.__init__
-      ~IMS.add_instantiation_callback
-      ~IMS.auto_setup
-      ~IMS.camonitor
-      ~IMS.check_value
-      ~IMS.clear_all_flags
-      ~IMS.clear_error
-      ~IMS.clear_powerup
-      ~IMS.clear_stall
-      ~IMS.clear_sub
-      ~IMS.configure
-      ~IMS.describe
-      ~IMS.describe_configuration
-      ~IMS.destroy
-      ~IMS.disable
-      ~IMS.enable
-      ~IMS.end_monitor_thread
-      ~IMS.format_status_info
-      ~IMS.get
-      ~IMS.get_device_tuple
-      ~IMS.get_instantiated_signals
-      ~IMS.get_lim
-      ~IMS.home
-      ~IMS.move
-      ~IMS.mv
-      ~IMS.mv_ginput
-      ~IMS.mvr
-      ~IMS.pause
-      ~IMS.put
-      ~IMS.read
-      ~IMS.read_configuration
-      ~IMS.reinitialize
-      ~IMS.resume
-      ~IMS.screen
-      ~IMS.set
-      ~IMS.set_current_position
-      ~IMS.set_lim
-      ~IMS.spg_go
-      ~IMS.spg_pause
-      ~IMS.spg_stop
-      ~IMS.stage
-      ~IMS.status_info
-      ~IMS.stop
-      ~IMS.subscribe
-      ~IMS.summary
-      ~IMS.trigger
-      ~IMS.tweak
-      ~IMS.umv
-      ~IMS.umvr
-      ~IMS.unstage
-      ~IMS.unsubscribe
-      ~IMS.unsubscribe_all
-      ~IMS.wait
-      ~IMS.wait_for_connection
-      ~IMS.walk_components
-      ~IMS.walk_signals
-      ~IMS.walk_subdevice_classes
-      ~IMS.walk_subdevices
-      ~IMS.wm
-      ~IMS.wm_update
+       *  -  user_readback
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``.RBV``
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  user_setpoint
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.VAL``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  user_offset
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.OFF``
+          -  
+          -  config
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  user_offset_dir
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.DIR``
+          -  
+          -  config
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  offset_freeze_switch
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.FOFF``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  set_use_switch
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.SET``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  velocity
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.VELO``
+          -  
+          -  config
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  acceleration
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.ACCL``
+          -  
+          -  config
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  motor_egu
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.EGU``
+          -  
+          -  config
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  motor_is_moving
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``.MOVN``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  motor_done_move
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``.DMOV``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  high_limit_switch
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.HLS``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  low_limit_switch
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.LLS``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  high_limit_travel
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.HLM``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  low_limit_travel
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.LLM``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  direction_of_travel
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  motor_stop
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.STOP``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  home_forward
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.HOMF``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  home_reverse
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.HOMR``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  disabled
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.DISP``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  description
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.DESC``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  motor_spg
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.SPG``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  reinit_command
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.RINI``
+          -  
+          -  omitted
+          -  
+   
+       *  -  bit_status
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``.MSTA``
+          -  
+          -  omitted
+          -  
+   
+       *  -  seq_seln
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:SEQ_SELN``
+          -  
+          -  omitted
+          -  
+   
+       *  -  error_severity
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.SEVR``
+          -  
+          -  omitted
+          -  
+   
+       *  -  part_number
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``.PN``
+          -  
+          -  omitted
+          -  
+   
+       *  -  velocity_base
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.VBAS``
+          -  
+          -  omitted
+          -  
+   
+       *  -  velocity_max
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.VMAX``
+          -  
+          -  config
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~IMS.SUB_ACQ_DONE
-      ~IMS.SUB_DONE
-      ~IMS.SUB_READBACK
-      ~IMS.SUB_START
-      ~IMS.acceleration
-      ~IMS.attr_name
-      ~IMS.bit_status
-      ~IMS.component_names
-      ~IMS.configuration_attrs
-      ~IMS.connected
-      ~IMS.description
-      ~IMS.direction_of_travel
-      ~IMS.disabled
-      ~IMS.dotted_name
-      ~IMS.egu
-      ~IMS.error_severity
-      ~IMS.event_types
-      ~IMS.high_limit
-      ~IMS.high_limit_switch
-      ~IMS.high_limit_travel
-      ~IMS.hints
-      ~IMS.home_forward
-      ~IMS.home_reverse
-      ~IMS.kind
-      ~IMS.lazy_wait_for_connection
-      ~IMS.limits
-      ~IMS.low_limit
-      ~IMS.low_limit_switch
-      ~IMS.low_limit_travel
-      ~IMS.motor_done_move
-      ~IMS.motor_egu
-      ~IMS.motor_is_moving
-      ~IMS.motor_spg
-      ~IMS.motor_stop
-      ~IMS.moving
-      ~IMS.name
-      ~IMS.offset_freeze_switch
-      ~IMS.parent
-      ~IMS.part_number
-      ~IMS.position
-      ~IMS.precision
-      ~IMS.presets
-      ~IMS.read_attrs
-      ~IMS.reinit_command
-      ~IMS.report
-      ~IMS.root
-      ~IMS.seq_seln
-      ~IMS.set_use_switch
-      ~IMS.settle_time
-      ~IMS.signal_names
-      ~IMS.tab_whitelist
-      ~IMS.timeout
-      ~IMS.tolerated_alarm
-      ~IMS.trigger_signals
-      ~IMS.user_offset
-      ~IMS.user_offset_dir
-      ~IMS.user_readback
-      ~IMS.user_setpoint
-      ~IMS.velocity
-      ~IMS.velocity_base
-      ~IMS.velocity_max
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~IMS.auto_setup
+       ~IMS.camonitor
+       ~IMS.clear_all_flags
+       ~IMS.clear_error
+       ~IMS.clear_powerup
+       ~IMS.clear_stall
+       ~IMS.configure
+       ~IMS.describe
+       ~IMS.disable
+       ~IMS.enable
+       ~IMS.end_monitor_thread
+       ~IMS.get
+       ~IMS.get_lim
+       ~IMS.home
+       ~IMS.move
+       ~IMS.mv
+       ~IMS.mv_ginput
+       ~IMS.mvr
+       ~IMS.read
+       ~IMS.read_configuration
+       ~IMS.reinitialize
+       ~IMS.screen
+       ~IMS.set
+       ~IMS.set_current_position
+       ~IMS.set_lim
+       ~IMS.spg_go
+       ~IMS.spg_pause
+       ~IMS.spg_stop
+       ~IMS.stop
+       ~IMS.summary
+       ~IMS.trigger
+       ~IMS.tweak
+       ~IMS.umv
+       ~IMS.umvr
+       ~IMS.wait
+       ~IMS.wm
+       ~IMS.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~IMS.configuration_attrs
+       ~IMS.connected
+       ~IMS.egu
+       ~IMS.high_limit
+       ~IMS.hints
+       ~IMS.kind
+       ~IMS.limits
+       ~IMS.low_limit
+       ~IMS.moving
+       ~IMS.position
+       ~IMS.precision
+       ~IMS.presets
+       ~IMS.settle_time
+       ~IMS.timeout
+       ~IMS.tolerated_alarm
+    
+    

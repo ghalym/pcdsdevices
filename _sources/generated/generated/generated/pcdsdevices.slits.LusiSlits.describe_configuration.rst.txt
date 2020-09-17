@@ -1,6 +1,0 @@
-pcdsdevices.slits.LusiSlits.describe\_configuration
-===================================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: LusiSlits.describe_configuration

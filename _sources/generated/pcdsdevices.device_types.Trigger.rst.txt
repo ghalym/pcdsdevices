@@ -7,78 +7,116 @@
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~Trigger.__init__
-      ~Trigger.add_instantiation_callback
-      ~Trigger.check_value
-      ~Trigger.clear_sub
-      ~Trigger.configure
-      ~Trigger.describe
-      ~Trigger.describe_configuration
-      ~Trigger.destroy
-      ~Trigger.disable
-      ~Trigger.enable
-      ~Trigger.format_status_info
-      ~Trigger.get
-      ~Trigger.get_device_tuple
-      ~Trigger.get_instantiated_signals
-      ~Trigger.pause
-      ~Trigger.put
-      ~Trigger.read
-      ~Trigger.read_configuration
-      ~Trigger.resume
-      ~Trigger.stage
-      ~Trigger.status_info
-      ~Trigger.stop
-      ~Trigger.subscribe
-      ~Trigger.summary
-      ~Trigger.trigger
-      ~Trigger.unstage
-      ~Trigger.unsubscribe
-      ~Trigger.unsubscribe_all
-      ~Trigger.wait_for_connection
-      ~Trigger.walk_components
-      ~Trigger.walk_signals
-      ~Trigger.walk_subdevice_classes
-      ~Trigger.walk_subdevices
+       *  -  eventcode
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:EC_RBV``
+          -  
+          -  config
+          -  
+   
+       *  -  eventrate
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:RATE``
+          -  
+          -  normal
+          -  
+   
+       *  -  label
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:TCTL.DESC``
+          -  
+          -  omitted
+          -  
+   
+       *  -  ns_delay
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:BW_TDES``
+          -  
+          -  hinted
+          -  
+   
+       *  -  polarity
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:TPOL``
+          -  
+          -  config
+          -  
+   
+       *  -  width
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:BW_TWIDCALC``
+          -  
+          -  normal
+          -  
+   
+       *  -  enable_cmd
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:TCTL``
+          -  
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~Trigger.SUB_ACQ_DONE
-      ~Trigger.attr_name
-      ~Trigger.component_names
-      ~Trigger.configuration_attrs
-      ~Trigger.connected
-      ~Trigger.dotted_name
-      ~Trigger.enable_cmd
-      ~Trigger.event_types
-      ~Trigger.eventcode
-      ~Trigger.eventrate
-      ~Trigger.hints
-      ~Trigger.kind
-      ~Trigger.label
-      ~Trigger.lazy_wait_for_connection
-      ~Trigger.name
-      ~Trigger.ns_delay
-      ~Trigger.parent
-      ~Trigger.polarity
-      ~Trigger.read_attrs
-      ~Trigger.report
-      ~Trigger.root
-      ~Trigger.signal_names
-      ~Trigger.tab_component_names
-      ~Trigger.tab_whitelist
-      ~Trigger.trigger_signals
-      ~Trigger.width
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Trigger.configure
+       ~Trigger.describe
+       ~Trigger.disable
+       ~Trigger.enable
+       ~Trigger.get
+       ~Trigger.read
+       ~Trigger.read_configuration
+       ~Trigger.stop
+       ~Trigger.summary
+       ~Trigger.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Trigger.configuration_attrs
+       ~Trigger.connected
+       ~Trigger.hints
+       ~Trigger.kind
+    
+    

@@ -1,6 +1,0 @@
-pcdsdevices.valve.VFS.unstage
-=============================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VFS.unstage

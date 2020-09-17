@@ -1,6 +1,0 @@
-pcdsdevices.gon.GonWithDetArm.stage
-===================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: GonWithDetArm.stage

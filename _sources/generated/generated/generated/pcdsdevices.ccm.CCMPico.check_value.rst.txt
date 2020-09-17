@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMPico.check\_value
-====================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMPico.check_value

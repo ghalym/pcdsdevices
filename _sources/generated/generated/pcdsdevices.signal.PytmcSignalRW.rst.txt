@@ -7,78 +7,64 @@ pcdsdevices.signal.PytmcSignalRW
 
    
    
-   .. rubric:: Methods
-
-   .. autosummary::
-      :toctree: generated
-   
-      ~PytmcSignalRW.__init__
-      ~PytmcSignalRW.add_instantiation_callback
-      ~PytmcSignalRW.check_value
-      ~PytmcSignalRW.clear_sub
-      ~PytmcSignalRW.describe
-      ~PytmcSignalRW.describe_configuration
-      ~PytmcSignalRW.destroy
-      ~PytmcSignalRW.get
-      ~PytmcSignalRW.get_setpoint
-      ~PytmcSignalRW.put
-      ~PytmcSignalRW.read
-      ~PytmcSignalRW.read_configuration
-      ~PytmcSignalRW.set
-      ~PytmcSignalRW.set_default_timeout
-      ~PytmcSignalRW.subscribe
-      ~PytmcSignalRW.trigger
-      ~PytmcSignalRW.unsubscribe
-      ~PytmcSignalRW.unsubscribe_all
-      ~PytmcSignalRW.wait_for_connection
-   
    
 
-   
-   
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~PytmcSignalRW.SUB_META
-      ~PytmcSignalRW.SUB_SETPOINT
-      ~PytmcSignalRW.SUB_SETPOINT_META
-      ~PytmcSignalRW.SUB_VALUE
-      ~PytmcSignalRW.alarm_severity
-      ~PytmcSignalRW.alarm_status
-      ~PytmcSignalRW.as_string
-      ~PytmcSignalRW.attr_name
-      ~PytmcSignalRW.connected
-      ~PytmcSignalRW.connection_timeout
-      ~PytmcSignalRW.dotted_name
-      ~PytmcSignalRW.enum_strs
-      ~PytmcSignalRW.event_types
-      ~PytmcSignalRW.high_limit
-      ~PytmcSignalRW.hints
-      ~PytmcSignalRW.kind
-      ~PytmcSignalRW.limits
-      ~PytmcSignalRW.low_limit
-      ~PytmcSignalRW.metadata
-      ~PytmcSignalRW.metadata_keys
-      ~PytmcSignalRW.name
-      ~PytmcSignalRW.parent
-      ~PytmcSignalRW.precision
-      ~PytmcSignalRW.put_complete
-      ~PytmcSignalRW.pvname
-      ~PytmcSignalRW.read_access
-      ~PytmcSignalRW.report
-      ~PytmcSignalRW.root
-      ~PytmcSignalRW.setpoint
-      ~PytmcSignalRW.setpoint_alarm_severity
-      ~PytmcSignalRW.setpoint_alarm_status
-      ~PytmcSignalRW.setpoint_pvname
-      ~PytmcSignalRW.setpoint_ts
-      ~PytmcSignalRW.timeout
-      ~PytmcSignalRW.timestamp
-      ~PytmcSignalRW.tolerance
-      ~PytmcSignalRW.use_limits
-      ~PytmcSignalRW.value
-      ~PytmcSignalRW.write_access
-      ~PytmcSignalRW.write_timeout
-   
-   
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~PytmcSignalRW.describe
+       ~PytmcSignalRW.get
+       ~PytmcSignalRW.get_setpoint
+       ~PytmcSignalRW.read
+       ~PytmcSignalRW.read_configuration
+       ~PytmcSignalRW.set
+       ~PytmcSignalRW.set_default_timeout
+       ~PytmcSignalRW.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~PytmcSignalRW.SUB_META
+       ~PytmcSignalRW.SUB_SETPOINT
+       ~PytmcSignalRW.SUB_SETPOINT_META
+       ~PytmcSignalRW.alarm_severity
+       ~PytmcSignalRW.alarm_status
+       ~PytmcSignalRW.as_string
+       ~PytmcSignalRW.connected
+       ~PytmcSignalRW.connection_timeout
+       ~PytmcSignalRW.enum_strs
+       ~PytmcSignalRW.high_limit
+       ~PytmcSignalRW.hints
+       ~PytmcSignalRW.kind
+       ~PytmcSignalRW.limits
+       ~PytmcSignalRW.low_limit
+       ~PytmcSignalRW.metadata
+       ~PytmcSignalRW.metadata_keys
+       ~PytmcSignalRW.precision
+       ~PytmcSignalRW.put_complete
+       ~PytmcSignalRW.pvname
+       ~PytmcSignalRW.read_access
+       ~PytmcSignalRW.setpoint
+       ~PytmcSignalRW.setpoint_alarm_severity
+       ~PytmcSignalRW.setpoint_alarm_status
+       ~PytmcSignalRW.setpoint_pvname
+       ~PytmcSignalRW.setpoint_ts
+       ~PytmcSignalRW.timeout
+       ~PytmcSignalRW.timestamp
+       ~PytmcSignalRW.tolerance
+       ~PytmcSignalRW.use_limits
+       ~PytmcSignalRW.value
+       ~PytmcSignalRW.write_access
+       ~PytmcSignalRW.write_timeout
+    
+    

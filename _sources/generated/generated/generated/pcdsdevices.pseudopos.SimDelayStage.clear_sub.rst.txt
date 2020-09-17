@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SimDelayStage.clear\_sub
-==============================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SimDelayStage.clear_sub

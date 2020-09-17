@@ -7,75 +7,141 @@ pcdsdevices.gauge.GCCPLC
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~GCCPLC.__init__
-      ~GCCPLC.add_instantiation_callback
-      ~GCCPLC.check_value
-      ~GCCPLC.clear_sub
-      ~GCCPLC.configure
-      ~GCCPLC.describe
-      ~GCCPLC.describe_configuration
-      ~GCCPLC.destroy
-      ~GCCPLC.get
-      ~GCCPLC.get_device_tuple
-      ~GCCPLC.get_instantiated_signals
-      ~GCCPLC.pause
-      ~GCCPLC.put
-      ~GCCPLC.read
-      ~GCCPLC.read_configuration
-      ~GCCPLC.resume
-      ~GCCPLC.stage
-      ~GCCPLC.stop
-      ~GCCPLC.subscribe
-      ~GCCPLC.summary
-      ~GCCPLC.trigger
-      ~GCCPLC.unstage
-      ~GCCPLC.unsubscribe
-      ~GCCPLC.unsubscribe_all
-      ~GCCPLC.wait_for_connection
-      ~GCCPLC.walk_components
-      ~GCCPLC.walk_signals
-      ~GCCPLC.walk_subdevice_classes
-      ~GCCPLC.walk_subdevices
+       *  -  pressure
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PRESS_RBV``
+          -  gauge pressure reading
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.gauge.GaugePLC`
+   
+       *  -  gauge_at_vac
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:AT_VAC_RBV``
+          -  gauge is at VAC
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gauge.GaugePLC`
+   
+       *  -  pressure_ok
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PRESS_OK_RBV``
+          -  pressure reading ok
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gauge.GaugePLC`
+   
+       *  -  at_vac_setpoint
+          -  :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
+          -  ``:VAC_SP``
+          -  At vacuum setpoint for all gauges
+          -  config
+          -  Inherited from :class:`~pcdsdevices.gauge.GaugePLC`
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:STATE_RBV``
+          -  state of the gauge
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.gauge.GaugePLC`
+   
+       *  -  high_voltage_on
+          -  :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
+          -  ``:HV_SW``
+          -  command to switch the hight voltage on
+          -  normal
+          -  
+   
+       *  -  high_voltage_disable
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:HV_DIS_DO_RBV``
+          -  enables the high voltage on the cold cathode gauge
+          -  normal
+          -  
+   
+       *  -  protection_setpoint
+          -  :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
+          -  ``:PRO_SP``
+          -  Protection setpoint for ion gauges at which the gauge turns off
+          -  normal
+          -  
+   
+       *  -  setpoint_hysterisis
+          -  :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
+          -  ``:SP_HYS``
+          -  Protection setpoint hysteresis
+          -  config
+          -  
+   
+       *  -  interlock_ok
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:ILK_OK_RBV``
+          -  Interlock is ok
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~GCCPLC.SUB_ACQ_DONE
-      ~GCCPLC.at_vac_setpoint
-      ~GCCPLC.attr_name
-      ~GCCPLC.component_names
-      ~GCCPLC.configuration_attrs
-      ~GCCPLC.connected
-      ~GCCPLC.dotted_name
-      ~GCCPLC.event_types
-      ~GCCPLC.gauge_at_vac
-      ~GCCPLC.high_voltage_disable
-      ~GCCPLC.high_voltage_on
-      ~GCCPLC.hints
-      ~GCCPLC.interlock_ok
-      ~GCCPLC.kind
-      ~GCCPLC.lazy_wait_for_connection
-      ~GCCPLC.name
-      ~GCCPLC.parent
-      ~GCCPLC.pressure
-      ~GCCPLC.pressure_ok
-      ~GCCPLC.protection_setpoint
-      ~GCCPLC.read_attrs
-      ~GCCPLC.report
-      ~GCCPLC.root
-      ~GCCPLC.setpoint_hysterisis
-      ~GCCPLC.signal_names
-      ~GCCPLC.state
-      ~GCCPLC.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~GCCPLC.configure
+       ~GCCPLC.describe
+       ~GCCPLC.get
+       ~GCCPLC.read
+       ~GCCPLC.read_configuration
+       ~GCCPLC.stop
+       ~GCCPLC.summary
+       ~GCCPLC.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~GCCPLC.configuration_attrs
+       ~GCCPLC.connected
+       ~GCCPLC.hints
+       ~GCCPLC.kind
+    
+    

@@ -1,6 +1,0 @@
-pcdsdevices.slits.BadSlitPositionerBase.clear\_sub
-==================================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: BadSlitPositionerBase.clear_sub

@@ -1,6 +1,0 @@
-pcdsdevices.slits.BadSlitPositionerBase.check\_value
-====================================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: BadSlitPositionerBase.check_value

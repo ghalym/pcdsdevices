@@ -1,6 +1,0 @@
-pcdsdevices.pim.XPIMLED.subscribe
-=================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: XPIMLED.subscribe

@@ -1,6 +1,0 @@
-pcdsdevices.gon.GonWithDetArm.pause
-===================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: GonWithDetArm.pause

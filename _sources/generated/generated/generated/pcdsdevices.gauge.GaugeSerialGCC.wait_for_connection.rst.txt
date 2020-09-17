@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GaugeSerialGCC.wait\_for\_connection
-======================================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GaugeSerialGCC.wait_for_connection

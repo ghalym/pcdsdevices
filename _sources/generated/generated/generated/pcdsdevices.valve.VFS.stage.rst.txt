@@ -1,6 +1,0 @@
-pcdsdevices.valve.VFS.stage
-===========================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VFS.stage

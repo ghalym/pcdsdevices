@@ -1,6 +1,0 @@
-pcdsdevices.inout.CombinedInOutRecordPositioner.unstage
-=======================================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: CombinedInOutRecordPositioner.unstage

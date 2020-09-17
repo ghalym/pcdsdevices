@@ -1,6 +1,0 @@
-pcdsdevices.slits.BeckhoffSlitPositioner.pause
-==============================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: BeckhoffSlitPositioner.pause

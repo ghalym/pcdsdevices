@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.interface.PresetPosition &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.interface.PresetPosition &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,7 +37,7 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="pcdsdevices.interface.PresetPosition.__init__" href="generated/pcdsdevices.interface.PresetPosition.__init__.html" />
+    <link rel="next" title="pcdsdevices.interface.PresetPosition.deactivate" href="generated/pcdsdevices.interface.PresetPosition.deactivate.html" />
     <link rel="prev" title="pcdsdevices.interface.NullFile.write" href="generated/pcdsdevices.interface.NullFile.write.html" /> 
 </head>
 
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -138,7 +139,6 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.MvInterface.html">pcdsdevices.interface.MvInterface</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.NullFile.html">pcdsdevices.interface.NullFile</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.interface.PresetPosition</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.PresetPosition.__init__.html">pcdsdevices.interface.PresetPosition.__init__</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.PresetPosition.deactivate.html">pcdsdevices.interface.PresetPosition.deactivate</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.PresetPosition.update_comment.html">pcdsdevices.interface.PresetPosition.update_comment</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.PresetPosition.update_pos.html">pcdsdevices.interface.PresetPosition.update_pos</a></li>
@@ -260,16 +260,13 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.PresetPosition.__init__.html#pcdsdevices.interface.PresetPosition.__init__" title="pcdsdevices.interface.PresetPosition.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(presets, preset_type, name)</p></td>
-<td><p>Initialize self.</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.PresetPosition.deactivate.html#pcdsdevices.interface.PresetPosition.deactivate" title="pcdsdevices.interface.PresetPosition.deactivate"><code class="xref py py-obj docutils literal notranslate"><span class="pre">deactivate</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.PresetPosition.deactivate.html#pcdsdevices.interface.PresetPosition.deactivate" title="pcdsdevices.interface.PresetPosition.deactivate"><code class="xref py py-obj docutils literal notranslate"><span class="pre">deactivate</span></code></a>()</p></td>
 <td><p>Deactivate a preset from a device.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.PresetPosition.update_comment.html#pcdsdevices.interface.PresetPosition.update_comment" title="pcdsdevices.interface.PresetPosition.update_comment"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_comment</span></code></a>(comment)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.PresetPosition.update_comment.html#pcdsdevices.interface.PresetPosition.update_comment" title="pcdsdevices.interface.PresetPosition.update_comment"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_comment</span></code></a>(comment)</p></td>
 <td><p>Revise the most recent comment in the preset history.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.PresetPosition.update_pos.html#pcdsdevices.interface.PresetPosition.update_pos" title="pcdsdevices.interface.PresetPosition.update_pos"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_pos</span></code></a>([pos, comment])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.PresetPosition.update_pos.html#pcdsdevices.interface.PresetPosition.update_pos" title="pcdsdevices.interface.PresetPosition.update_pos"><code class="xref py py-obj docutils literal notranslate"><span class="pre">update_pos</span></code></a>([pos, comment])</p></td>
 <td><p>Change this preset position and save it.</p></td>
 </tr>
 </tbody>
@@ -307,7 +304,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="generated/pcdsdevices.interface.PresetPosition.__init__.html" class="btn btn-neutral float-right" title="pcdsdevices.interface.PresetPosition.__init__" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="generated/pcdsdevices.interface.PresetPosition.deactivate.html" class="btn btn-neutral float-right" title="pcdsdevices.interface.PresetPosition.deactivate" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="generated/pcdsdevices.interface.NullFile.write.html" class="btn btn-neutral float-left" title="pcdsdevices.interface.NullFile.write" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

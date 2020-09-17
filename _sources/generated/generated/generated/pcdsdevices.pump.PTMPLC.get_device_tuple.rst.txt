@@ -1,6 +1,0 @@
-pcdsdevices.pump.PTMPLC.get\_device\_tuple
-==========================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: PTMPLC.get_device_tuple

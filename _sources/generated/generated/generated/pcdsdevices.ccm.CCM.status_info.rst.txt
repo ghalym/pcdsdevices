@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCM.status\_info
-================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCM.status_info

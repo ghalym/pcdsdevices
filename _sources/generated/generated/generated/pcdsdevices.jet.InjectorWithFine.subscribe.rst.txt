@@ -1,6 +1,0 @@
-pcdsdevices.jet.InjectorWithFine.subscribe
-==========================================
-
-.. currentmodule:: pcdsdevices.jet
-
-.. automethod:: InjectorWithFine.subscribe

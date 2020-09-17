@@ -1,6 +1,0 @@
-pcdsdevices.pump.TurboPump.walk\_subdevice\_classes
-===================================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: TurboPump.walk_subdevice_classes

@@ -1,6 +1,0 @@
-pcdsdevices.pim.XPIMFilterWheel.unstage
-=======================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: XPIMFilterWheel.unstage

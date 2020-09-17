@@ -1,6 +1,0 @@
-pcdsdevices.sim.FastMotor.unstage
-=================================
-
-.. currentmodule:: pcdsdevices.sim
-
-.. automethod:: FastMotor.unstage

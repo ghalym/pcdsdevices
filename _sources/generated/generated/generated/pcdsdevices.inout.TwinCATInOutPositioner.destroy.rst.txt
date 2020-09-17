@@ -1,6 +1,0 @@
-pcdsdevices.inout.TwinCATInOutPositioner.destroy
-================================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: TwinCATInOutPositioner.destroy

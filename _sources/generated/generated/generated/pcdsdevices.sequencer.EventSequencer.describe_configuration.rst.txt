@@ -1,6 +1,0 @@
-pcdsdevices.sequencer.EventSequencer.describe\_configuration
-============================================================
-
-.. currentmodule:: pcdsdevices.sequencer
-
-.. automethod:: EventSequencer.describe_configuration

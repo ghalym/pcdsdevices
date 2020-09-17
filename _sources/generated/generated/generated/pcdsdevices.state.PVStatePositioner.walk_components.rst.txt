@@ -1,6 +1,0 @@
-pcdsdevices.state.PVStatePositioner.walk\_components
-====================================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: PVStatePositioner.walk_components

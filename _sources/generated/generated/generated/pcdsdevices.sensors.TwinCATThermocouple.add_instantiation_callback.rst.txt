@@ -1,6 +1,0 @@
-pcdsdevices.sensors.TwinCATThermocouple.add\_instantiation\_callback
-====================================================================
-
-.. currentmodule:: pcdsdevices.sensors
-
-.. automethod:: TwinCATThermocouple.add_instantiation_callback

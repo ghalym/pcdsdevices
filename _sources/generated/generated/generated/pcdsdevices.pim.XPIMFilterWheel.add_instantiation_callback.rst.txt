@@ -1,6 +1,0 @@
-pcdsdevices.pim.XPIMFilterWheel.add\_instantiation\_callback
-============================================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: XPIMFilterWheel.add_instantiation_callback

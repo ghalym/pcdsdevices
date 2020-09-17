@@ -1,6 +1,0 @@
-pcdsdevices.gon.XYZStage.clear\_sub
-===================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: XYZStage.clear_sub

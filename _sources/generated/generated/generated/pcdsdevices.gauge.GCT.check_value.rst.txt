@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GCT.check\_value
-==================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GCT.check_value

@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.VonHamos4Crystal.add\_instantiation\_callback
-=======================================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: VonHamos4Crystal.add_instantiation_callback

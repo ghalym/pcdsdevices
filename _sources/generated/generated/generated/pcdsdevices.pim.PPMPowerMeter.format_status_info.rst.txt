@@ -1,6 +1,0 @@
-pcdsdevices.pim.PPMPowerMeter.format\_status\_info
-==================================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PPMPowerMeter.format_status_info

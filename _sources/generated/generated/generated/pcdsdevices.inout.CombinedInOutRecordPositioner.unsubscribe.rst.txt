@@ -1,6 +1,0 @@
-pcdsdevices.inout.CombinedInOutRecordPositioner.unsubscribe
-===========================================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: CombinedInOutRecordPositioner.unsubscribe

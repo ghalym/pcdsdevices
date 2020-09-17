@@ -1,6 +1,0 @@
-pcdsdevices.signal.UnitConversionDerivedSignal.unsubscribe
-==========================================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: UnitConversionDerivedSignal.unsubscribe

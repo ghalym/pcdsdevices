@@ -1,6 +1,0 @@
-pcdsdevices.sequencer.EventSequencer.clear\_sub
-===============================================
-
-.. currentmodule:: pcdsdevices.sequencer
-
-.. automethod:: EventSequencer.clear_sub

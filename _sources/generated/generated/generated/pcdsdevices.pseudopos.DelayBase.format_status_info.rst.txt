@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.DelayBase.format\_status\_info
-====================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: DelayBase.format_status_info

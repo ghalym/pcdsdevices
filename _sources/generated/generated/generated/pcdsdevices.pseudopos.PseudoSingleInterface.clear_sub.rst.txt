@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.PseudoSingleInterface.clear\_sub
-======================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: PseudoSingleInterface.clear_sub

@@ -1,6 +1,0 @@
-pcdsdevices.slits.BeckhoffSlits.resume
-======================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: BeckhoffSlits.resume

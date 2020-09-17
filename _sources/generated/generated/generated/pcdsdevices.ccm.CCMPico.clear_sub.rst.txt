@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMPico.clear\_sub
-==================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMPico.clear_sub

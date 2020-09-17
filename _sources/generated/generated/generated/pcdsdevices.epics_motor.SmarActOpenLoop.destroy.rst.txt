@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.SmarActOpenLoop.destroy
-================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: SmarActOpenLoop.destroy

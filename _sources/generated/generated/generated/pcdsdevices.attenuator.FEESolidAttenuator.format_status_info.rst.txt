@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.FEESolidAttenuator.format\_status\_info
-==============================================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: FEESolidAttenuator.format_status_info

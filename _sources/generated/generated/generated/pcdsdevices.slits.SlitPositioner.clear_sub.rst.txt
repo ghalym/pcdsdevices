@@ -1,6 +1,0 @@
-pcdsdevices.slits.SlitPositioner.clear\_sub
-===========================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: SlitPositioner.clear_sub

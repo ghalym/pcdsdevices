@@ -1,6 +1,0 @@
-pcdsdevices.mps.MPS.stage
-=========================
-
-.. currentmodule:: pcdsdevices.mps
-
-.. automethod:: MPS.stage

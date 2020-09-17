@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.YagLom.walk\_subdevices
-=========================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: YagLom.walk_subdevices

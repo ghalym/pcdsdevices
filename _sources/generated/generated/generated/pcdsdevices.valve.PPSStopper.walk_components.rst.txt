@@ -1,6 +1,0 @@
-pcdsdevices.valve.PPSStopper.walk\_components
-=============================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: PPSStopper.walk_components

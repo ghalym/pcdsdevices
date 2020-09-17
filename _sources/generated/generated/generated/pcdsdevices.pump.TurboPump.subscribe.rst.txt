@@ -1,6 +1,0 @@
-pcdsdevices.pump.TurboPump.subscribe
-====================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: TurboPump.subscribe

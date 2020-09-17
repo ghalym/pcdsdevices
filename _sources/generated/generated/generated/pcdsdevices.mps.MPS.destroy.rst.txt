@@ -1,6 +1,0 @@
-pcdsdevices.mps.MPS.destroy
-===========================
-
-.. currentmodule:: pcdsdevices.mps
-
-.. automethod:: MPS.destroy

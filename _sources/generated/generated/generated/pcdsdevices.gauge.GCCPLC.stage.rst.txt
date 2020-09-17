@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GCCPLC.stage
-==============================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GCCPLC.stage

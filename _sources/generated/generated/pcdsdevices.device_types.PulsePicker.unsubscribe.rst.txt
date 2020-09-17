@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.PulsePicker.unsubscribe
-=================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: PulsePicker.unsubscribe

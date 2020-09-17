@@ -7,74 +7,105 @@ pcdsdevices.attenuator.AttenuatorCalculatorFilter
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~AttenuatorCalculatorFilter.__init__
-      ~AttenuatorCalculatorFilter.add_instantiation_callback
-      ~AttenuatorCalculatorFilter.check_value
-      ~AttenuatorCalculatorFilter.clear_sub
-      ~AttenuatorCalculatorFilter.configure
-      ~AttenuatorCalculatorFilter.describe
-      ~AttenuatorCalculatorFilter.describe_configuration
-      ~AttenuatorCalculatorFilter.destroy
-      ~AttenuatorCalculatorFilter.format_status_info
-      ~AttenuatorCalculatorFilter.get
-      ~AttenuatorCalculatorFilter.get_device_tuple
-      ~AttenuatorCalculatorFilter.get_instantiated_signals
-      ~AttenuatorCalculatorFilter.pause
-      ~AttenuatorCalculatorFilter.put
-      ~AttenuatorCalculatorFilter.read
-      ~AttenuatorCalculatorFilter.read_configuration
-      ~AttenuatorCalculatorFilter.resume
-      ~AttenuatorCalculatorFilter.stage
-      ~AttenuatorCalculatorFilter.status_info
-      ~AttenuatorCalculatorFilter.stop
-      ~AttenuatorCalculatorFilter.subscribe
-      ~AttenuatorCalculatorFilter.summary
-      ~AttenuatorCalculatorFilter.trigger
-      ~AttenuatorCalculatorFilter.unstage
-      ~AttenuatorCalculatorFilter.unsubscribe
-      ~AttenuatorCalculatorFilter.unsubscribe_all
-      ~AttenuatorCalculatorFilter.wait_for_connection
-      ~AttenuatorCalculatorFilter.walk_components
-      ~AttenuatorCalculatorFilter.walk_signals
-      ~AttenuatorCalculatorFilter.walk_subdevice_classes
-      ~AttenuatorCalculatorFilter.walk_subdevices
+       *  -  material
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``Material``
+          -  The material formula (e.g., Si, C)
+          -  hinted
+          -  
+   
+       *  -  thickness
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``Thickness``
+          -  Thickness in micron
+          -  hinted
+          -  
+   
+       *  -  is_stuck
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``IsStuck``
+          -  Is the filter stuck / unusable?
+          -  hinted
+          -  
+   
+       *  -  closest_energy
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``ClosestEnergy_RBV``
+          -  Closest tabulated energy available to the requested one
+          -  config
+          -  
+   
+       *  -  transmission
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``Transmission_RBV``
+          -  Normalized transmission at the reported energy
+          -  normal
+          -  
+   
+       *  -  transmission_3omega
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``Transmission3Omega_RBV``
+          -  Normalized transmission at 3 * the reported energy
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~AttenuatorCalculatorFilter.SUB_ACQ_DONE
-      ~AttenuatorCalculatorFilter.attr_name
-      ~AttenuatorCalculatorFilter.closest_energy
-      ~AttenuatorCalculatorFilter.component_names
-      ~AttenuatorCalculatorFilter.configuration_attrs
-      ~AttenuatorCalculatorFilter.connected
-      ~AttenuatorCalculatorFilter.dotted_name
-      ~AttenuatorCalculatorFilter.event_types
-      ~AttenuatorCalculatorFilter.hints
-      ~AttenuatorCalculatorFilter.is_stuck
-      ~AttenuatorCalculatorFilter.kind
-      ~AttenuatorCalculatorFilter.lazy_wait_for_connection
-      ~AttenuatorCalculatorFilter.material
-      ~AttenuatorCalculatorFilter.name
-      ~AttenuatorCalculatorFilter.parent
-      ~AttenuatorCalculatorFilter.read_attrs
-      ~AttenuatorCalculatorFilter.report
-      ~AttenuatorCalculatorFilter.root
-      ~AttenuatorCalculatorFilter.signal_names
-      ~AttenuatorCalculatorFilter.tab_whitelist
-      ~AttenuatorCalculatorFilter.thickness
-      ~AttenuatorCalculatorFilter.transmission
-      ~AttenuatorCalculatorFilter.transmission_3omega
-      ~AttenuatorCalculatorFilter.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~AttenuatorCalculatorFilter.configure
+       ~AttenuatorCalculatorFilter.describe
+       ~AttenuatorCalculatorFilter.get
+       ~AttenuatorCalculatorFilter.read
+       ~AttenuatorCalculatorFilter.read_configuration
+       ~AttenuatorCalculatorFilter.stop
+       ~AttenuatorCalculatorFilter.summary
+       ~AttenuatorCalculatorFilter.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~AttenuatorCalculatorFilter.configuration_attrs
+       ~AttenuatorCalculatorFilter.connected
+       ~AttenuatorCalculatorFilter.hints
+       ~AttenuatorCalculatorFilter.kind
+    
+    

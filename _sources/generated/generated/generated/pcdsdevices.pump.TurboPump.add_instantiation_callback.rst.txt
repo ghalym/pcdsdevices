@@ -1,6 +1,0 @@
-pcdsdevices.pump.TurboPump.add\_instantiation\_callback
-=======================================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: TurboPump.add_instantiation_callback

@@ -1,6 +1,0 @@
-pcdsdevices.jet.BeckhoffJetManipulator.unstage
-==============================================
-
-.. currentmodule:: pcdsdevices.jet
-
-.. automethod:: BeckhoffJetManipulator.unstage

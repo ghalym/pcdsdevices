@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.Newport.format\_status\_info
-=====================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: Newport.format_status_info

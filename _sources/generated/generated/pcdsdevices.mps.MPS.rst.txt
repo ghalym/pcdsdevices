@@ -7,74 +7,73 @@ pcdsdevices.mps.MPS
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~MPS.__init__
-      ~MPS.add_instantiation_callback
-      ~MPS.check_value
-      ~MPS.clear_sub
-      ~MPS.configure
-      ~MPS.describe
-      ~MPS.describe_configuration
-      ~MPS.destroy
-      ~MPS.format_status_info
-      ~MPS.get
-      ~MPS.get_device_tuple
-      ~MPS.get_instantiated_signals
-      ~MPS.pause
-      ~MPS.put
-      ~MPS.read
-      ~MPS.read_configuration
-      ~MPS.resume
-      ~MPS.stage
-      ~MPS.status_info
-      ~MPS.stop
-      ~MPS.subscribe
-      ~MPS.summary
-      ~MPS.trigger
-      ~MPS.unstage
-      ~MPS.unsubscribe
-      ~MPS.unsubscribe_all
-      ~MPS.wait_for_connection
-      ~MPS.walk_components
-      ~MPS.walk_signals
-      ~MPS.walk_subdevice_classes
-      ~MPS.walk_subdevices
+       *  -  fault
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``_MPSC``
+          -  
+          -  hinted
+          -  
+   
+       *  -  bypass
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``_BYPS``
+          -  
+          -  config
+          -  
+   
+
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~MPS.SUB_ACQ_DONE
-      ~MPS.SUB_FAULT_CH
-      ~MPS.attr_name
-      ~MPS.bypass
-      ~MPS.bypassed
-      ~MPS.component_names
-      ~MPS.configuration_attrs
-      ~MPS.connected
-      ~MPS.dotted_name
-      ~MPS.event_types
-      ~MPS.fault
-      ~MPS.faulted
-      ~MPS.hints
-      ~MPS.kind
-      ~MPS.lazy_wait_for_connection
-      ~MPS.name
-      ~MPS.parent
-      ~MPS.read_attrs
-      ~MPS.report
-      ~MPS.root
-      ~MPS.signal_names
-      ~MPS.tab_whitelist
-      ~MPS.trigger_signals
-      ~MPS.tripped
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~MPS.configure
+       ~MPS.describe
+       ~MPS.get
+       ~MPS.read
+       ~MPS.read_configuration
+       ~MPS.stop
+       ~MPS.summary
+       ~MPS.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~MPS.SUB_FAULT_CH
+       ~MPS.bypassed
+       ~MPS.configuration_attrs
+       ~MPS.connected
+       ~MPS.faulted
+       ~MPS.hints
+       ~MPS.kind
+       ~MPS.tripped
+    
+    

@@ -7,71 +7,78 @@ pcdsdevices.jet.Injector
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~Injector.__init__
-      ~Injector.add_instantiation_callback
-      ~Injector.check_value
-      ~Injector.clear_sub
-      ~Injector.configure
-      ~Injector.describe
-      ~Injector.describe_configuration
-      ~Injector.destroy
-      ~Injector.format_status_info
-      ~Injector.get
-      ~Injector.get_device_tuple
-      ~Injector.get_instantiated_signals
-      ~Injector.pause
-      ~Injector.put
-      ~Injector.read
-      ~Injector.read_configuration
-      ~Injector.resume
-      ~Injector.stage
-      ~Injector.status_info
-      ~Injector.stop
-      ~Injector.subscribe
-      ~Injector.summary
-      ~Injector.trigger
-      ~Injector.unstage
-      ~Injector.unsubscribe
-      ~Injector.unsubscribe_all
-      ~Injector.wait_for_connection
-      ~Injector.walk_components
-      ~Injector.walk_signals
-      ~Injector.walk_subdevice_classes
-      ~Injector.walk_subdevices
+       *  -  x (UCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  
+          -  
+          -  normal
+          -  
    
+       *  -  y (UCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  z (UCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  
+          -  
+          -  normal
+          -  
    
 
    
    
-   .. rubric:: Attributes
+   
+   
+   
+   
+   
 
-   .. autosummary::
-   
-      ~Injector.SUB_ACQ_DONE
-      ~Injector.attr_name
-      ~Injector.component_names
-      ~Injector.configuration_attrs
-      ~Injector.connected
-      ~Injector.dotted_name
-      ~Injector.event_types
-      ~Injector.hints
-      ~Injector.kind
-      ~Injector.lazy_wait_for_connection
-      ~Injector.name
-      ~Injector.parent
-      ~Injector.read_attrs
-      ~Injector.report
-      ~Injector.root
-      ~Injector.signal_names
-      ~Injector.tab_whitelist
-      ~Injector.trigger_signals
-      ~Injector.x
-      ~Injector.y
-      ~Injector.z
    
    
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Injector.configure
+       ~Injector.describe
+       ~Injector.get
+       ~Injector.read
+       ~Injector.read_configuration
+       ~Injector.stop
+       ~Injector.summary
+       ~Injector.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Injector.configuration_attrs
+       ~Injector.connected
+       ~Injector.hints
+       ~Injector.kind
+    
+    

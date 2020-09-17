@@ -1,6 +1,0 @@
-pcdsdevices.dc\_devices.ICTBus.pause
-====================================
-
-.. currentmodule:: pcdsdevices.dc_devices
-
-.. automethod:: ICTBus.pause

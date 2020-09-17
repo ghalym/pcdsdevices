@@ -1,6 +1,0 @@
-pcdsdevices.slits.LusiSlits.\_\_init\_\_
-========================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: LusiSlits.__init__

@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.LookupTablePositioner.walk\_subdevices
-============================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: LookupTablePositioner.walk_subdevices

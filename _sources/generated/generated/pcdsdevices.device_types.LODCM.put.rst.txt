@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.LODCM.put
-===================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: LODCM.put

@@ -1,6 +1,0 @@
-pcdsdevices.slits.LusiSlitPositioner.unstage
-============================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: LusiSlitPositioner.unstage

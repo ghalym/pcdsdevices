@@ -7,73 +7,71 @@ pcdsdevices.gauge.GaugeSetMks
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~GaugeSetMks.__init__
-      ~GaugeSetMks.add_instantiation_callback
-      ~GaugeSetMks.check_value
-      ~GaugeSetMks.clear_sub
-      ~GaugeSetMks.configure
-      ~GaugeSetMks.describe
-      ~GaugeSetMks.describe_configuration
-      ~GaugeSetMks.destroy
-      ~GaugeSetMks.egu
-      ~GaugeSetMks.format_status_info
-      ~GaugeSetMks.get
-      ~GaugeSetMks.get_device_tuple
-      ~GaugeSetMks.get_instantiated_signals
-      ~GaugeSetMks.pause
-      ~GaugeSetMks.pressure
-      ~GaugeSetMks.put
-      ~GaugeSetMks.read
-      ~GaugeSetMks.read_configuration
-      ~GaugeSetMks.resume
-      ~GaugeSetMks.stage
-      ~GaugeSetMks.status_info
-      ~GaugeSetMks.stop
-      ~GaugeSetMks.subscribe
-      ~GaugeSetMks.summary
-      ~GaugeSetMks.trigger
-      ~GaugeSetMks.unstage
-      ~GaugeSetMks.unsubscribe
-      ~GaugeSetMks.unsubscribe_all
-      ~GaugeSetMks.wait_for_connection
-      ~GaugeSetMks.walk_components
-      ~GaugeSetMks.walk_signals
-      ~GaugeSetMks.walk_subdevice_classes
-      ~GaugeSetMks.walk_subdevices
+       *  -  gcc (FCpt)
+          -  :class:`~pcdsdevices.gauge.GaugeColdCathode`
+          -  ``{self.prefix}:GCC:{self.index}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gauge.GaugeSetBase`
+   
+       *  -  controller (FCpt)
+          -  :class:`~pcdsdevices.gauge.MKS937a`
+          -  ``{self.prefix_controller}``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~GaugeSetMks.SUB_ACQ_DONE
-      ~GaugeSetMks.attr_name
-      ~GaugeSetMks.component_names
-      ~GaugeSetMks.configuration_attrs
-      ~GaugeSetMks.connected
-      ~GaugeSetMks.controller
-      ~GaugeSetMks.dotted_name
-      ~GaugeSetMks.event_types
-      ~GaugeSetMks.gcc
-      ~GaugeSetMks.hints
-      ~GaugeSetMks.kind
-      ~GaugeSetMks.lazy_wait_for_connection
-      ~GaugeSetMks.name
-      ~GaugeSetMks.parent
-      ~GaugeSetMks.read_attrs
-      ~GaugeSetMks.report
-      ~GaugeSetMks.root
-      ~GaugeSetMks.signal_names
-      ~GaugeSetMks.tab_component_names
-      ~GaugeSetMks.tab_whitelist
-      ~GaugeSetMks.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~GaugeSetMks.configure
+       ~GaugeSetMks.describe
+       ~GaugeSetMks.egu
+       ~GaugeSetMks.get
+       ~GaugeSetMks.pressure
+       ~GaugeSetMks.read
+       ~GaugeSetMks.read_configuration
+       ~GaugeSetMks.stop
+       ~GaugeSetMks.summary
+       ~GaugeSetMks.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~GaugeSetMks.configuration_attrs
+       ~GaugeSetMks.connected
+       ~GaugeSetMks.hints
+       ~GaugeSetMks.kind
+    
+    

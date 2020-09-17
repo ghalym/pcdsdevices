@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.AttenuatorCalculator\_AT2L0.clear\_sub
-=============================================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: AttenuatorCalculator_AT2L0.clear_sub

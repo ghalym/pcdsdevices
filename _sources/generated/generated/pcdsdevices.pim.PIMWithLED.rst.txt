@@ -7,79 +7,91 @@ pcdsdevices.pim.PIMWithLED
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~PIMWithLED.__init__
-      ~PIMWithLED.add_instantiation_callback
-      ~PIMWithLED.check_value
-      ~PIMWithLED.clear_sub
-      ~PIMWithLED.configure
-      ~PIMWithLED.describe
-      ~PIMWithLED.describe_configuration
-      ~PIMWithLED.destroy
-      ~PIMWithLED.format_status_info
-      ~PIMWithLED.get
-      ~PIMWithLED.get_device_tuple
-      ~PIMWithLED.get_instantiated_signals
-      ~PIMWithLED.infer_prefix
-      ~PIMWithLED.insert
-      ~PIMWithLED.pause
-      ~PIMWithLED.put
-      ~PIMWithLED.read
-      ~PIMWithLED.read_configuration
-      ~PIMWithLED.remove
-      ~PIMWithLED.resume
-      ~PIMWithLED.stage
-      ~PIMWithLED.status_info
-      ~PIMWithLED.stop
-      ~PIMWithLED.subscribe
-      ~PIMWithLED.summary
-      ~PIMWithLED.trigger
-      ~PIMWithLED.unstage
-      ~PIMWithLED.unsubscribe
-      ~PIMWithLED.unsubscribe_all
-      ~PIMWithLED.wait_for_connection
-      ~PIMWithLED.walk_components
-      ~PIMWithLED.walk_signals
-      ~PIMWithLED.walk_subdevice_classes
-      ~PIMWithLED.walk_subdevices
+       *  -  state
+          -  :class:`~pcdsdevices.pim.PIMY`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pim.PIM`
    
+       *  -  zoom_motor (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_zoom}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pim.PIM`
+   
+       *  -  detector (FCpt)
+          -  :class:`~pcdsdevices.areadetector.detectors.PCDSAreaDetectorEmbedded`
+          -  ``{self._prefix_det}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pim.PIM`
+   
+       *  -  led (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{self._prefix_led}``
+          -  
+          -  normal
+          -  
    
 
    
    
-   .. rubric:: Attributes
+   
+   
+   
+   
+   
+   
+   
 
-   .. autosummary::
-   
-      ~PIMWithLED.SUB_ACQ_DONE
-      ~PIMWithLED.attr_name
-      ~PIMWithLED.component_names
-      ~PIMWithLED.configuration_attrs
-      ~PIMWithLED.connected
-      ~PIMWithLED.detector
-      ~PIMWithLED.dotted_name
-      ~PIMWithLED.event_types
-      ~PIMWithLED.hints
-      ~PIMWithLED.inserted
-      ~PIMWithLED.kind
-      ~PIMWithLED.lazy_wait_for_connection
-      ~PIMWithLED.led
-      ~PIMWithLED.name
-      ~PIMWithLED.parent
-      ~PIMWithLED.prefix_start
-      ~PIMWithLED.read_attrs
-      ~PIMWithLED.removed
-      ~PIMWithLED.report
-      ~PIMWithLED.root
-      ~PIMWithLED.signal_names
-      ~PIMWithLED.state
-      ~PIMWithLED.tab_component_names
-      ~PIMWithLED.tab_whitelist
-      ~PIMWithLED.trigger_signals
-      ~PIMWithLED.zoom_motor
    
    
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~PIMWithLED.configure
+       ~PIMWithLED.describe
+       ~PIMWithLED.get
+       ~PIMWithLED.infer_prefix
+       ~PIMWithLED.insert
+       ~PIMWithLED.read
+       ~PIMWithLED.read_configuration
+       ~PIMWithLED.remove
+       ~PIMWithLED.stop
+       ~PIMWithLED.summary
+       ~PIMWithLED.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~PIMWithLED.configuration_attrs
+       ~PIMWithLED.connected
+       ~PIMWithLED.hints
+       ~PIMWithLED.kind
+       ~PIMWithLED.prefix_start
+    
+    

@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIM.get\_device\_tuple
-======================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIM.get_device_tuple

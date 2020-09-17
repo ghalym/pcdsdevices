@@ -1,6 +1,0 @@
-pcdsdevices.jet.InjectorWithFine.status\_info
-=============================================
-
-.. currentmodule:: pcdsdevices.jet
-
-.. automethod:: InjectorWithFine.status_info

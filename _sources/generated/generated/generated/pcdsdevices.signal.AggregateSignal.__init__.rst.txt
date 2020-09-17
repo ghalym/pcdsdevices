@@ -1,6 +1,0 @@
-pcdsdevices.signal.AggregateSignal.\_\_init\_\_
-===============================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: AggregateSignal.__init__

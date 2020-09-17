@@ -1,6 +1,0 @@
-pcdsdevices.beam\_stats.BeamEnergyRequest.unsubscribe\_all
-==========================================================
-
-.. currentmodule:: pcdsdevices.beam_stats
-
-.. automethod:: BeamEnergyRequest.unsubscribe_all

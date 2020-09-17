@@ -1,6 +1,0 @@
-pcdsdevices.valve.VFS.walk\_subdevice\_classes
-==============================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VFS.walk_subdevice_classes

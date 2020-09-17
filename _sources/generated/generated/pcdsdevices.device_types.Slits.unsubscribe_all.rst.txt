@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.Slits.unsubscribe\_all
-================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: Slits.unsubscribe_all

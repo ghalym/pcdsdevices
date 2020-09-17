@@ -1,6 +1,0 @@
-pcdsdevices.timetool.TimetoolWithNav.format\_status\_info
-=========================================================
-
-.. currentmodule:: pcdsdevices.timetool
-
-.. automethod:: TimetoolWithNav.format_status_info

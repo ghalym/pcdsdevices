@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.LookupTablePositioner.unstage
-===================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: LookupTablePositioner.unstage

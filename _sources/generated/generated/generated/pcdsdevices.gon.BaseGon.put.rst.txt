@@ -1,6 +1,0 @@
-pcdsdevices.gon.BaseGon.put
-===========================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: BaseGon.put

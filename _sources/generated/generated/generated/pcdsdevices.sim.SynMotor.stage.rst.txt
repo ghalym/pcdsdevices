@@ -1,6 +1,0 @@
-pcdsdevices.sim.SynMotor.stage
-==============================
-
-.. currentmodule:: pcdsdevices.sim
-
-.. automethod:: SynMotor.stage

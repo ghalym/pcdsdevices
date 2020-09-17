@@ -1,6 +1,0 @@
-pcdsdevices.mirror.OMMotor.format\_status\_info
-===============================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: OMMotor.format_status_info

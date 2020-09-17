@@ -1,6 +1,0 @@
-pcdsdevices.sim.FastMotor.describe\_configuration
-=================================================
-
-.. currentmodule:: pcdsdevices.sim
-
-.. automethod:: FastMotor.describe_configuration

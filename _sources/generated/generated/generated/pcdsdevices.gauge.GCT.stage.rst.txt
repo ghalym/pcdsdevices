@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GCT.stage
-===========================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GCT.stage

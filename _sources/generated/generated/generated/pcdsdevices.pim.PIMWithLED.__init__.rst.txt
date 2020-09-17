@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMWithLED.\_\_init\_\_
-=======================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMWithLED.__init__

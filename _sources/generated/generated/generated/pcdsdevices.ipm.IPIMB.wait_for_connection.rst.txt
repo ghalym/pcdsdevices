@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPIMB.wait\_for\_connection
-===========================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPIMB.wait_for_connection

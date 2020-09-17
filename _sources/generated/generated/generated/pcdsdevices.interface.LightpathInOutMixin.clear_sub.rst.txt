@@ -1,6 +1,0 @@
-pcdsdevices.interface.LightpathInOutMixin.clear\_sub
-====================================================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. automethod:: LightpathInOutMixin.clear_sub

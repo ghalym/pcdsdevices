@@ -1,6 +1,0 @@
-pcdsdevices.sensors.RTD.clear\_sub
-==================================
-
-.. currentmodule:: pcdsdevices.sensors
-
-.. automethod:: RTD.clear_sub

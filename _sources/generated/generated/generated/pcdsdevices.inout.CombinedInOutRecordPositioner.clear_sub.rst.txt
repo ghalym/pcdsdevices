@@ -1,6 +1,0 @@
-pcdsdevices.inout.CombinedInOutRecordPositioner.clear\_sub
-==========================================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: CombinedInOutRecordPositioner.clear_sub

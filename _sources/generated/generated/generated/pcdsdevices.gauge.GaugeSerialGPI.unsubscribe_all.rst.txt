@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GaugeSerialGPI.unsubscribe\_all
-=================================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GaugeSerialGPI.unsubscribe_all

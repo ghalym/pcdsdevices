@@ -1,6 +1,0 @@
-pcdsdevices.gon.SamPhi.get\_device\_tuple
-=========================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SamPhi.get_device_tuple

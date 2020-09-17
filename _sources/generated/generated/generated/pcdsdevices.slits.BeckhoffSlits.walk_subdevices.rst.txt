@@ -1,6 +1,0 @@
-pcdsdevices.slits.BeckhoffSlits.walk\_subdevices
-================================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: BeckhoffSlits.walk_subdevices

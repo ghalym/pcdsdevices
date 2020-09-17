@@ -1,6 +1,0 @@
-pcdsdevices.state.TwinCATStateConfigOne.unstage
-===============================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: TwinCATStateConfigOne.unstage

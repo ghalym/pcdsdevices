@@ -1,6 +1,0 @@
-pcdsdevices.signal.NotImplementedSignal.check\_value
-====================================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: NotImplementedSignal.check_value

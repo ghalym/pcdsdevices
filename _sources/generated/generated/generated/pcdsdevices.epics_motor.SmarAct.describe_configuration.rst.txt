@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.SmarAct.describe\_configuration
-========================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: SmarAct.describe_configuration

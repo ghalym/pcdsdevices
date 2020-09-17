@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.PseudoSingleInterface.status\_info
-========================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: PseudoSingleInterface.status_info

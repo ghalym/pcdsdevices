@@ -1,6 +1,0 @@
-pcdsdevices.pump.Navigator.get\_device\_tuple
-=============================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: Navigator.get_device_tuple

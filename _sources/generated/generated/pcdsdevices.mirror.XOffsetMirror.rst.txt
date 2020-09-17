@@ -7,90 +7,214 @@ pcdsdevices.mirror.XOffsetMirror
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~XOffsetMirror.__init__
-      ~XOffsetMirror.add_instantiation_callback
-      ~XOffsetMirror.check_value
-      ~XOffsetMirror.clear_sub
-      ~XOffsetMirror.configure
-      ~XOffsetMirror.describe
-      ~XOffsetMirror.describe_configuration
-      ~XOffsetMirror.destroy
-      ~XOffsetMirror.format_status_info
-      ~XOffsetMirror.get
-      ~XOffsetMirror.get_device_tuple
-      ~XOffsetMirror.get_instantiated_signals
-      ~XOffsetMirror.pause
-      ~XOffsetMirror.put
-      ~XOffsetMirror.read
-      ~XOffsetMirror.read_configuration
-      ~XOffsetMirror.resume
-      ~XOffsetMirror.stage
-      ~XOffsetMirror.status_info
-      ~XOffsetMirror.stop
-      ~XOffsetMirror.subscribe
-      ~XOffsetMirror.summary
-      ~XOffsetMirror.trigger
-      ~XOffsetMirror.unstage
-      ~XOffsetMirror.unsubscribe
-      ~XOffsetMirror.unsubscribe_all
-      ~XOffsetMirror.wait_for_connection
-      ~XOffsetMirror.walk_components
-      ~XOffsetMirror.walk_signals
-      ~XOffsetMirror.walk_subdevice_classes
-      ~XOffsetMirror.walk_subdevices
+       *  -  y_up
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``:MMS:YUP``
+          -  
+          -  hinted
+          -  
+   
+       *  -  x_up
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``:MMS:XUP``
+          -  
+          -  hinted
+          -  
+   
+       *  -  pitch
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``:MMS:PITCH``
+          -  
+          -  hinted
+          -  
+   
+       *  -  bender
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``:MMS:BENDER``
+          -  
+          -  normal
+          -  
+   
+       *  -  y_dwn
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``:MMS:YDWN``
+          -  
+          -  config
+          -  
+   
+       *  -  x_dwn
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``:MMS:XDWN``
+          -  
+          -  config
+          -  
+   
+       *  -  gantry_x
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:GANTRY_X``
+          -  
+          -  normal
+          -  
+   
+       *  -  gantry_y
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:GANTRY_Y``
+          -  
+          -  normal
+          -  
+   
+       *  -  couple_y
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:COUPLE_Y``
+          -  
+          -  config
+          -  
+   
+       *  -  couple_x
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:COUPLE_X``
+          -  
+          -  config
+          -  
+   
+       *  -  decouple_y
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:DECOUPLE_Y``
+          -  
+          -  config
+          -  
+   
+       *  -  decouple_x
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:DECOUPLE_X``
+          -  
+          -  config
+          -  
+   
+       *  -  couple_status_y
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:ALREADY_COUPLED_Y``
+          -  
+          -  normal
+          -  
+   
+       *  -  couple_status_x
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:ALREADY_COUPLED_X``
+          -  
+          -  normal
+          -  
+   
+       *  -  y_enc_rms
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:ENC:Y:RMS``
+          -  
+          -  normal
+          -  
+   
+       *  -  x_enc_rms
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:ENC:X:RMS``
+          -  
+          -  normal
+          -  
+   
+       *  -  pitch_enc_rms
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:ENC:PITCH:RMS``
+          -  
+          -  normal
+          -  
+   
+       *  -  bender_enc_rms
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:ENC:BENDER:RMS``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~XOffsetMirror.SUB_ACQ_DONE
-      ~XOffsetMirror.SUB_STATE
-      ~XOffsetMirror.attr_name
-      ~XOffsetMirror.bender
-      ~XOffsetMirror.bender_enc_rms
-      ~XOffsetMirror.component_names
-      ~XOffsetMirror.configuration_attrs
-      ~XOffsetMirror.connected
-      ~XOffsetMirror.couple_status_x
-      ~XOffsetMirror.couple_status_y
-      ~XOffsetMirror.couple_x
-      ~XOffsetMirror.couple_y
-      ~XOffsetMirror.decouple_x
-      ~XOffsetMirror.decouple_y
-      ~XOffsetMirror.dotted_name
-      ~XOffsetMirror.event_types
-      ~XOffsetMirror.gantry_x
-      ~XOffsetMirror.gantry_y
-      ~XOffsetMirror.hints
-      ~XOffsetMirror.inserted
-      ~XOffsetMirror.kind
-      ~XOffsetMirror.lazy_wait_for_connection
-      ~XOffsetMirror.name
-      ~XOffsetMirror.parent
-      ~XOffsetMirror.pitch
-      ~XOffsetMirror.pitch_enc_rms
-      ~XOffsetMirror.read_attrs
-      ~XOffsetMirror.removed
-      ~XOffsetMirror.report
-      ~XOffsetMirror.root
-      ~XOffsetMirror.signal_names
-      ~XOffsetMirror.tab_whitelist
-      ~XOffsetMirror.transmission
-      ~XOffsetMirror.trigger_signals
-      ~XOffsetMirror.x_dwn
-      ~XOffsetMirror.x_enc_rms
-      ~XOffsetMirror.x_up
-      ~XOffsetMirror.y_dwn
-      ~XOffsetMirror.y_enc_rms
-      ~XOffsetMirror.y_up
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~XOffsetMirror.configure
+       ~XOffsetMirror.describe
+       ~XOffsetMirror.get
+       ~XOffsetMirror.read
+       ~XOffsetMirror.read_configuration
+       ~XOffsetMirror.stop
+       ~XOffsetMirror.summary
+       ~XOffsetMirror.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~XOffsetMirror.configuration_attrs
+       ~XOffsetMirror.connected
+       ~XOffsetMirror.hints
+       ~XOffsetMirror.kind
+       ~XOffsetMirror.transmission
+    
+    

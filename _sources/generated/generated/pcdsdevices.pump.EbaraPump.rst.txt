@@ -7,70 +7,61 @@ pcdsdevices.pump.EbaraPump
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~EbaraPump.__init__
-      ~EbaraPump.add_instantiation_callback
-      ~EbaraPump.check_value
-      ~EbaraPump.clear_sub
-      ~EbaraPump.configure
-      ~EbaraPump.describe
-      ~EbaraPump.describe_configuration
-      ~EbaraPump.destroy
-      ~EbaraPump.format_status_info
-      ~EbaraPump.get
-      ~EbaraPump.get_device_tuple
-      ~EbaraPump.get_instantiated_signals
-      ~EbaraPump.pause
-      ~EbaraPump.put
-      ~EbaraPump.read
-      ~EbaraPump.read_configuration
-      ~EbaraPump.resume
-      ~EbaraPump.run
-      ~EbaraPump.stage
-      ~EbaraPump.status_info
-      ~EbaraPump.stop
-      ~EbaraPump.subscribe
-      ~EbaraPump.summary
-      ~EbaraPump.trigger
-      ~EbaraPump.unstage
-      ~EbaraPump.unsubscribe
-      ~EbaraPump.unsubscribe_all
-      ~EbaraPump.wait_for_connection
-      ~EbaraPump.walk_components
-      ~EbaraPump.walk_signals
-      ~EbaraPump.walk_subdevice_classes
-      ~EbaraPump.walk_subdevices
+       *  -  start
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:MPSTART_SW``
+          -  
+          -  normal
+          -  
+   
+
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~EbaraPump.SUB_ACQ_DONE
-      ~EbaraPump.attr_name
-      ~EbaraPump.component_names
-      ~EbaraPump.configuration_attrs
-      ~EbaraPump.connected
-      ~EbaraPump.dotted_name
-      ~EbaraPump.event_types
-      ~EbaraPump.hints
-      ~EbaraPump.kind
-      ~EbaraPump.lazy_wait_for_connection
-      ~EbaraPump.name
-      ~EbaraPump.parent
-      ~EbaraPump.read_attrs
-      ~EbaraPump.report
-      ~EbaraPump.root
-      ~EbaraPump.signal_names
-      ~EbaraPump.start
-      ~EbaraPump.tab_whitelist
-      ~EbaraPump.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~EbaraPump.configure
+       ~EbaraPump.describe
+       ~EbaraPump.get
+       ~EbaraPump.read
+       ~EbaraPump.read_configuration
+       ~EbaraPump.run
+       ~EbaraPump.stop
+       ~EbaraPump.summary
+       ~EbaraPump.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~EbaraPump.configuration_attrs
+       ~EbaraPump.connected
+       ~EbaraPump.hints
+       ~EbaraPump.kind
+    
+    

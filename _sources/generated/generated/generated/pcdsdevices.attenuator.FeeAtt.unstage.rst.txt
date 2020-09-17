@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.FeeAtt.unstage
-=====================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: FeeAtt.unstage

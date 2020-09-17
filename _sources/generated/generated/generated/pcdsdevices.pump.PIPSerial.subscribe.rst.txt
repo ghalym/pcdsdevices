@@ -1,6 +1,0 @@
-pcdsdevices.pump.PIPSerial.subscribe
-====================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: PIPSerial.subscribe

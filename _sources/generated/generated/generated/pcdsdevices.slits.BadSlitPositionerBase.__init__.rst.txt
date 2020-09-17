@@ -1,6 +1,0 @@
-pcdsdevices.slits.BadSlitPositionerBase.\_\_init\_\_
-====================================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: BadSlitPositionerBase.__init__

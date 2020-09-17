@@ -7,78 +7,82 @@ pcdsdevices.pim.PIM
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~PIM.__init__
-      ~PIM.add_instantiation_callback
-      ~PIM.check_value
-      ~PIM.clear_sub
-      ~PIM.configure
-      ~PIM.describe
-      ~PIM.describe_configuration
-      ~PIM.destroy
-      ~PIM.format_status_info
-      ~PIM.get
-      ~PIM.get_device_tuple
-      ~PIM.get_instantiated_signals
-      ~PIM.infer_prefix
-      ~PIM.insert
-      ~PIM.pause
-      ~PIM.put
-      ~PIM.read
-      ~PIM.read_configuration
-      ~PIM.remove
-      ~PIM.resume
-      ~PIM.stage
-      ~PIM.status_info
-      ~PIM.stop
-      ~PIM.subscribe
-      ~PIM.summary
-      ~PIM.trigger
-      ~PIM.unstage
-      ~PIM.unsubscribe
-      ~PIM.unsubscribe_all
-      ~PIM.wait_for_connection
-      ~PIM.walk_components
-      ~PIM.walk_signals
-      ~PIM.walk_subdevice_classes
-      ~PIM.walk_subdevices
+       *  -  state
+          -  :class:`~pcdsdevices.pim.PIMY`
+          -  
+          -  
+          -  normal
+          -  
    
+       *  -  zoom_motor (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_zoom}``
+          -  
+          -  normal
+          -  
+   
+       *  -  detector (FCpt)
+          -  :class:`~pcdsdevices.areadetector.detectors.PCDSAreaDetectorEmbedded`
+          -  ``{self._prefix_det}``
+          -  
+          -  normal
+          -  
    
 
    
    
-   .. rubric:: Attributes
+   
+   
+   
+   
+   
 
-   .. autosummary::
-   
-      ~PIM.SUB_ACQ_DONE
-      ~PIM.attr_name
-      ~PIM.component_names
-      ~PIM.configuration_attrs
-      ~PIM.connected
-      ~PIM.detector
-      ~PIM.dotted_name
-      ~PIM.event_types
-      ~PIM.hints
-      ~PIM.inserted
-      ~PIM.kind
-      ~PIM.lazy_wait_for_connection
-      ~PIM.name
-      ~PIM.parent
-      ~PIM.prefix_start
-      ~PIM.read_attrs
-      ~PIM.removed
-      ~PIM.report
-      ~PIM.root
-      ~PIM.signal_names
-      ~PIM.state
-      ~PIM.tab_component_names
-      ~PIM.tab_whitelist
-      ~PIM.trigger_signals
-      ~PIM.zoom_motor
    
    
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~PIM.configure
+       ~PIM.describe
+       ~PIM.get
+       ~PIM.infer_prefix
+       ~PIM.insert
+       ~PIM.read
+       ~PIM.read_configuration
+       ~PIM.remove
+       ~PIM.stop
+       ~PIM.summary
+       ~PIM.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~PIM.configuration_attrs
+       ~PIM.connected
+       ~PIM.hints
+       ~PIM.kind
+       ~PIM.prefix_start
+    
+    

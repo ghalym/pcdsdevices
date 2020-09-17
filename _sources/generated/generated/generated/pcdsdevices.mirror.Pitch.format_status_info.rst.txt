@@ -1,6 +1,0 @@
-pcdsdevices.mirror.Pitch.format\_status\_info
-=============================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: Pitch.format_status_info

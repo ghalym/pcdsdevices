@@ -1,6 +1,0 @@
-pcdsdevices.jet.BeckhoffJetManipulator.format\_status\_info
-===========================================================
-
-.. currentmodule:: pcdsdevices.jet
-
-.. automethod:: BeckhoffJetManipulator.format_status_info

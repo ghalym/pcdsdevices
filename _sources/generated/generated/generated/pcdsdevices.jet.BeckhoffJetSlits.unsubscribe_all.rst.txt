@@ -1,6 +1,0 @@
-pcdsdevices.jet.BeckhoffJetSlits.unsubscribe\_all
-=================================================
-
-.. currentmodule:: pcdsdevices.jet
-
-.. automethod:: BeckhoffJetSlits.unsubscribe_all

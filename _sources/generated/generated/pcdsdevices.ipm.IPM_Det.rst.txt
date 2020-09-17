@@ -7,74 +7,41 @@ pcdsdevices.ipm.IPM\_Det
 
    
    
-   .. rubric:: Methods
-
-   .. autosummary::
-      :toctree: generated
-   
-      ~IPM_Det.__init__
-      ~IPM_Det.add_instantiation_callback
-      ~IPM_Det.channel
-      ~IPM_Det.check_value
-      ~IPM_Det.clear_sub
-      ~IPM_Det.configure
-      ~IPM_Det.describe
-      ~IPM_Det.describe_configuration
-      ~IPM_Det.destroy
-      ~IPM_Det.format_status_info
-      ~IPM_Det.get
-      ~IPM_Det.get_device_tuple
-      ~IPM_Det.get_instantiated_signals
-      ~IPM_Det.isum
-      ~IPM_Det.pause
-      ~IPM_Det.put
-      ~IPM_Det.read
-      ~IPM_Det.read_configuration
-      ~IPM_Det.resume
-      ~IPM_Det.stage
-      ~IPM_Det.status_info
-      ~IPM_Det.stop
-      ~IPM_Det.subscribe
-      ~IPM_Det.summary
-      ~IPM_Det.trigger
-      ~IPM_Det.unstage
-      ~IPM_Det.unsubscribe
-      ~IPM_Det.unsubscribe_all
-      ~IPM_Det.wait_for_connection
-      ~IPM_Det.walk_components
-      ~IPM_Det.walk_signals
-      ~IPM_Det.walk_subdevice_classes
-      ~IPM_Det.walk_subdevices
-      ~IPM_Det.xpos
-      ~IPM_Det.ypos
-   
    
 
-   
-   
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~IPM_Det.SUB_ACQ_DONE
-      ~IPM_Det.attr_name
-      ~IPM_Det.channels
-      ~IPM_Det.component_names
-      ~IPM_Det.configuration_attrs
-      ~IPM_Det.connected
-      ~IPM_Det.dotted_name
-      ~IPM_Det.event_types
-      ~IPM_Det.hints
-      ~IPM_Det.kind
-      ~IPM_Det.lazy_wait_for_connection
-      ~IPM_Det.name
-      ~IPM_Det.parent
-      ~IPM_Det.read_attrs
-      ~IPM_Det.report
-      ~IPM_Det.root
-      ~IPM_Det.signal_names
-      ~IPM_Det.tab_component_names
-      ~IPM_Det.tab_whitelist
-      ~IPM_Det.trigger_signals
-   
-   
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~IPM_Det.channel
+       ~IPM_Det.configure
+       ~IPM_Det.describe
+       ~IPM_Det.get
+       ~IPM_Det.isum
+       ~IPM_Det.read
+       ~IPM_Det.read_configuration
+       ~IPM_Det.stop
+       ~IPM_Det.summary
+       ~IPM_Det.trigger
+       ~IPM_Det.xpos
+       ~IPM_Det.ypos
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~IPM_Det.channels
+       ~IPM_Det.configuration_attrs
+       ~IPM_Det.connected
+       ~IPM_Det.hints
+       ~IPM_Det.kind
+    
+    

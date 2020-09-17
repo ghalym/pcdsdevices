@@ -1,6 +1,0 @@
-pcdsdevices.gon.SamPhi.unsubscribe
-==================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SamPhi.unsubscribe

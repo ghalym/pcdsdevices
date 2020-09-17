@@ -1,6 +1,0 @@
-pcdsdevices.beam\_stats.BeamEnergyRequest.walk\_subdevice\_classes
-==================================================================
-
-.. currentmodule:: pcdsdevices.beam_stats
-
-.. automethod:: BeamEnergyRequest.walk_subdevice_classes

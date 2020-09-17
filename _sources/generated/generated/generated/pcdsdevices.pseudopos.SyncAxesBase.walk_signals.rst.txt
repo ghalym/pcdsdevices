@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SyncAxesBase.walk\_signals
-================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SyncAxesBase.walk_signals

@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.interface.LightpathMixin &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.interface.LightpathMixin &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,8 +37,8 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="pcdsdevices.interface.LightpathMixin.__init__" href="generated/pcdsdevices.interface.LightpathMixin.__init__.html" />
-    <link rel="prev" title="pcdsdevices.interface.LightpathInOutMixin.unsubscribe_all" href="generated/pcdsdevices.interface.LightpathInOutMixin.unsubscribe_all.html" /> 
+    <link rel="next" title="pcdsdevices.interface.MvInterface" href="pcdsdevices.interface.MvInterface.html" />
+    <link rel="prev" title="pcdsdevices.interface.LightpathInOutMixin" href="pcdsdevices.interface.LightpathInOutMixin.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -134,17 +135,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.BaseInterface.html">pcdsdevices.interface.BaseInterface</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.FltMvInterface.html">pcdsdevices.interface.FltMvInterface</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.LightpathInOutMixin.html">pcdsdevices.interface.LightpathInOutMixin</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.interface.LightpathMixin</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.LightpathMixin.__init__.html">pcdsdevices.interface.LightpathMixin.__init__</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.LightpathMixin.add_instantiation_callback.html">pcdsdevices.interface.LightpathMixin.add_instantiation_callback</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.LightpathMixin.check_value.html">pcdsdevices.interface.LightpathMixin.check_value</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.LightpathMixin.clear_sub.html">pcdsdevices.interface.LightpathMixin.clear_sub</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.LightpathMixin.destroy.html">pcdsdevices.interface.LightpathMixin.destroy</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.LightpathMixin.subscribe.html">pcdsdevices.interface.LightpathMixin.subscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.LightpathMixin.unsubscribe.html">pcdsdevices.interface.LightpathMixin.unsubscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.interface.LightpathMixin.unsubscribe_all.html">pcdsdevices.interface.LightpathMixin.unsubscribe_all</a></li>
-</ul>
-</li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.interface.LightpathMixin</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.MvInterface.html">pcdsdevices.interface.MvInterface</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.NullFile.html">pcdsdevices.interface.NullFile</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.interface.PresetPosition.html">pcdsdevices.interface.PresetPosition</a></li>
@@ -251,39 +242,6 @@
 <dd><p>Mix-in class that makes it easier to establish a lightpath interface.</p>
 <p>Use this on classes that are not state positioners but would still like to
 be used as a top-level device in lightpath.</p>
-<p class="rubric">Methods</p>
-<table class="longtable docutils align-default">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
-<tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.LightpathMixin.__init__.html#pcdsdevices.interface.LightpathMixin.__init__" title="pcdsdevices.interface.LightpathMixin.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(*args, **kwargs)</p></td>
-<td><p>Initialize self.</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.LightpathMixin.add_instantiation_callback.html#pcdsdevices.interface.LightpathMixin.add_instantiation_callback" title="pcdsdevices.interface.LightpathMixin.add_instantiation_callback"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_instantiation_callback</span></code></a>(callback[, …])</p></td>
-<td><p>Register a callback which will receive each OphydObject instance.</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.LightpathMixin.check_value.html#pcdsdevices.interface.LightpathMixin.check_value" title="pcdsdevices.interface.LightpathMixin.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(value, **kwargs)</p></td>
-<td><p>Check if the value is valid for this object</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.LightpathMixin.clear_sub.html#pcdsdevices.interface.LightpathMixin.clear_sub" title="pcdsdevices.interface.LightpathMixin.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
-<td><p>Remove a subscription, given the original callback function</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.LightpathMixin.destroy.html#pcdsdevices.interface.LightpathMixin.destroy" title="pcdsdevices.interface.LightpathMixin.destroy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">destroy</span></code></a>()</p></td>
-<td><p>Disconnect the object from the underlying control layer</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.LightpathMixin.subscribe.html#pcdsdevices.interface.LightpathMixin.subscribe" title="pcdsdevices.interface.LightpathMixin.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(callback[, event_type, run])</p></td>
-<td><p>Subscribe to events this event_type generates.</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.LightpathMixin.unsubscribe.html#pcdsdevices.interface.LightpathMixin.unsubscribe" title="pcdsdevices.interface.LightpathMixin.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</p></td>
-<td><p>Remove a subscription</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.interface.LightpathMixin.unsubscribe_all.html#pcdsdevices.interface.LightpathMixin.unsubscribe_all" title="pcdsdevices.interface.LightpathMixin.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</p></td>
-<td><p></p></td>
-</tr>
-</tbody>
-</table>
 <p class="rubric">Attributes</p>
 <table class="longtable docutils align-default">
 <colgroup>
@@ -291,44 +249,14 @@ be used as a top-level device in lightpath.</p>
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_STATE</span></code></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">attr_name</span></code></p></td>
-<td><p></p></td>
-</tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></p></td>
 <td><p>If the device is connected.</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">dotted_name</span></code></p></td>
-<td><p>Return the dotted name</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">event_types</span></code></p></td>
-<td><p>Events that can be subscribed to via <code class="xref any docutils literal notranslate"><span class="pre">obj.subscribe</span></code></p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">inserted</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">lightpath_cpts</span></code></p></td>
 <td><p></p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">lightpath_cpts</span></code></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></p></td>
-<td><p>name of the device</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></p></td>
-<td><p>The parent of the ophyd object.</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">removed</span></code></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
-<td><p>A report on the object.</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></p></td>
-<td><p>Walk parents to find ultimate ancestor (parent’s parent…).</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">transmission</span></code></p></td>
 <td><p></p></td>
@@ -347,10 +275,10 @@ be used as a top-level device in lightpath.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="generated/pcdsdevices.interface.LightpathMixin.__init__.html" class="btn btn-neutral float-right" title="pcdsdevices.interface.LightpathMixin.__init__" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.interface.MvInterface.html" class="btn btn-neutral float-right" title="pcdsdevices.interface.MvInterface" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="generated/pcdsdevices.interface.LightpathInOutMixin.unsubscribe_all.html" class="btn btn-neutral float-left" title="pcdsdevices.interface.LightpathInOutMixin.unsubscribe_all" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="pcdsdevices.interface.LightpathInOutMixin.html" class="btn btn-neutral float-left" title="pcdsdevices.interface.LightpathInOutMixin" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

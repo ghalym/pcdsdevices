@@ -1,6 +1,0 @@
-pcdsdevices.state.TwinCATStateConfigOne.unsubscribe
-===================================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: TwinCATStateConfigOne.unsubscribe

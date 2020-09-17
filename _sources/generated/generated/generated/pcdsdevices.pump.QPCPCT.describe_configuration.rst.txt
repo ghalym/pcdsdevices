@@ -1,6 +1,0 @@
-pcdsdevices.pump.QPCPCT.describe\_configuration
-===============================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: QPCPCT.describe_configuration

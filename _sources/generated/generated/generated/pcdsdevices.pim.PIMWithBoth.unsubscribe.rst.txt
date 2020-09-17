@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMWithBoth.unsubscribe
-=======================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMWithBoth.unsubscribe

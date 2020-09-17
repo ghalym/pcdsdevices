@@ -1,6 +1,0 @@
-pcdsdevices.signal.FakePytmcSignalRW.describe\_configuration
-============================================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: FakePytmcSignalRW.describe_configuration

@@ -1,6 +1,0 @@
-pcdsdevices.signal.UnitConversionDerivedSignal.destroy
-======================================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: UnitConversionDerivedSignal.destroy

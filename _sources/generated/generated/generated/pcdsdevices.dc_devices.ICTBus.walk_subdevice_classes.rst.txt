@@ -1,6 +1,0 @@
-pcdsdevices.dc\_devices.ICTBus.walk\_subdevice\_classes
-=======================================================
-
-.. currentmodule:: pcdsdevices.dc_devices
-
-.. automethod:: ICTBus.walk_subdevice_classes

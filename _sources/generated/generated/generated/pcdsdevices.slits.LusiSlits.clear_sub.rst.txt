@@ -1,6 +1,0 @@
-pcdsdevices.slits.LusiSlits.clear\_sub
-======================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: LusiSlits.clear_sub

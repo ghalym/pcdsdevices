@@ -7,75 +7,90 @@ pcdsdevices.sequencer.EventSequence
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~EventSequence.__init__
-      ~EventSequence.add_instantiation_callback
-      ~EventSequence.check_value
-      ~EventSequence.clear_sub
-      ~EventSequence.configure
-      ~EventSequence.describe
-      ~EventSequence.describe_configuration
-      ~EventSequence.destroy
-      ~EventSequence.format_status_info
-      ~EventSequence.get
-      ~EventSequence.get_device_tuple
-      ~EventSequence.get_instantiated_signals
-      ~EventSequence.get_seq
-      ~EventSequence.pause
-      ~EventSequence.put
-      ~EventSequence.put_seq
-      ~EventSequence.read
-      ~EventSequence.read_configuration
-      ~EventSequence.resume
-      ~EventSequence.show
-      ~EventSequence.stage
-      ~EventSequence.status_info
-      ~EventSequence.stop
-      ~EventSequence.subscribe
-      ~EventSequence.summary
-      ~EventSequence.trigger
-      ~EventSequence.unstage
-      ~EventSequence.unsubscribe
-      ~EventSequence.unsubscribe_all
-      ~EventSequence.wait_for_connection
-      ~EventSequence.walk_components
-      ~EventSequence.walk_signals
-      ~EventSequence.walk_subdevice_classes
-      ~EventSequence.walk_subdevices
+       *  -  ec_array
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:SEQ.A``
+          -  
+          -  normal
+          -  
    
+       *  -  bd_array
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:SEQ.B``
+          -  
+          -  normal
+          -  
+   
+       *  -  fd_array
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:SEQ.C``
+          -  
+          -  normal
+          -  
+   
+       *  -  bc_array
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:SEQ.D``
+          -  
+          -  normal
+          -  
    
 
    
    
-   .. rubric:: Attributes
+   
+   
+   
+   
+   
+   
+   
 
-   .. autosummary::
-   
-      ~EventSequence.SUB_ACQ_DONE
-      ~EventSequence.attr_name
-      ~EventSequence.bc_array
-      ~EventSequence.bd_array
-      ~EventSequence.component_names
-      ~EventSequence.configuration_attrs
-      ~EventSequence.connected
-      ~EventSequence.dotted_name
-      ~EventSequence.ec_array
-      ~EventSequence.event_types
-      ~EventSequence.fd_array
-      ~EventSequence.hints
-      ~EventSequence.kind
-      ~EventSequence.lazy_wait_for_connection
-      ~EventSequence.name
-      ~EventSequence.parent
-      ~EventSequence.read_attrs
-      ~EventSequence.report
-      ~EventSequence.root
-      ~EventSequence.signal_names
-      ~EventSequence.tab_whitelist
-      ~EventSequence.trigger_signals
    
    
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~EventSequence.configure
+       ~EventSequence.describe
+       ~EventSequence.get
+       ~EventSequence.get_seq
+       ~EventSequence.put_seq
+       ~EventSequence.read
+       ~EventSequence.read_configuration
+       ~EventSequence.show
+       ~EventSequence.stop
+       ~EventSequence.summary
+       ~EventSequence.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~EventSequence.configuration_attrs
+       ~EventSequence.connected
+       ~EventSequence.hints
+       ~EventSequence.kind
+    
+    

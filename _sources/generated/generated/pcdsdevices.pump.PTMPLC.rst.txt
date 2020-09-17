@@ -7,77 +7,159 @@ pcdsdevices.pump.PTMPLC
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~PTMPLC.__init__
-      ~PTMPLC.add_instantiation_callback
-      ~PTMPLC.check_value
-      ~PTMPLC.clear_sub
-      ~PTMPLC.configure
-      ~PTMPLC.describe
-      ~PTMPLC.describe_configuration
-      ~PTMPLC.destroy
-      ~PTMPLC.get
-      ~PTMPLC.get_device_tuple
-      ~PTMPLC.get_instantiated_signals
-      ~PTMPLC.pause
-      ~PTMPLC.put
-      ~PTMPLC.read
-      ~PTMPLC.read_configuration
-      ~PTMPLC.resume
-      ~PTMPLC.stage
-      ~PTMPLC.stop
-      ~PTMPLC.subscribe
-      ~PTMPLC.summary
-      ~PTMPLC.trigger
-      ~PTMPLC.unstage
-      ~PTMPLC.unsubscribe
-      ~PTMPLC.unsubscribe_all
-      ~PTMPLC.wait_for_connection
-      ~PTMPLC.walk_components
-      ~PTMPLC.walk_signals
-      ~PTMPLC.walk_subdevice_classes
-      ~PTMPLC.walk_subdevices
+       *  -  switch_pump_on
+          -  :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
+          -  ``:RUN_SW``
+          -  
+          -  omitted
+          -  
+   
+       *  -  reset_fault
+          -  :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
+          -  ``:RST_SW``
+          -  
+          -  normal
+          -  
+   
+       *  -  run_do
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:RUN_DO_RBV``
+          -  
+          -  normal
+          -  
+   
+       *  -  pump_at_speed
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:AT_SPD_RBV``
+          -  
+          -  omitted
+          -  
+   
+       *  -  pump_accelerating
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:ACCEL_RBV``
+          -  
+          -  normal
+          -  
+   
+       *  -  pump_speed
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:SPEED_RBV``
+          -  
+          -  normal
+          -  
+   
+       *  -  fault
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:FAULT_RBV``
+          -  
+          -  normal
+          -  
+   
+       *  -  warn
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:WARN_RBV``
+          -  
+          -  normal
+          -  
+   
+       *  -  alarm
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:ALARM_RBV``
+          -  
+          -  normal
+          -  
+   
+       *  -  bp_sp
+          -  :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
+          -  ``:BP_SP``
+          -  
+          -  omitted
+          -  
+   
+       *  -  ip_sp
+          -  :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
+          -  ``:IP_SP``
+          -  
+          -  omitted
+          -  
+   
+       *  -  interlock_status
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:ILK_STATUS_RBV``
+          -  interlock  is ok when true
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~PTMPLC.SUB_ACQ_DONE
-      ~PTMPLC.alarm
-      ~PTMPLC.attr_name
-      ~PTMPLC.bp_sp
-      ~PTMPLC.component_names
-      ~PTMPLC.configuration_attrs
-      ~PTMPLC.connected
-      ~PTMPLC.dotted_name
-      ~PTMPLC.event_types
-      ~PTMPLC.fault
-      ~PTMPLC.hints
-      ~PTMPLC.interlock_status
-      ~PTMPLC.ip_sp
-      ~PTMPLC.kind
-      ~PTMPLC.lazy_wait_for_connection
-      ~PTMPLC.name
-      ~PTMPLC.parent
-      ~PTMPLC.pump_accelerating
-      ~PTMPLC.pump_at_speed
-      ~PTMPLC.pump_speed
-      ~PTMPLC.read_attrs
-      ~PTMPLC.report
-      ~PTMPLC.reset_fault
-      ~PTMPLC.root
-      ~PTMPLC.run_do
-      ~PTMPLC.signal_names
-      ~PTMPLC.switch_pump_on
-      ~PTMPLC.trigger_signals
-      ~PTMPLC.warn
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~PTMPLC.configure
+       ~PTMPLC.describe
+       ~PTMPLC.get
+       ~PTMPLC.read
+       ~PTMPLC.read_configuration
+       ~PTMPLC.stop
+       ~PTMPLC.summary
+       ~PTMPLC.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~PTMPLC.configuration_attrs
+       ~PTMPLC.connected
+       ~PTMPLC.hints
+       ~PTMPLC.kind
+    
+    

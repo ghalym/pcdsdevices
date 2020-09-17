@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.state.StateStatus &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.state.StateStatus &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,7 +37,7 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="pcdsdevices.state.StateStatus.__init__" href="generated/pcdsdevices.state.StateStatus.__init__.html" />
+    <link rel="next" title="pcdsdevices.state.StateStatus.add_callback" href="generated/pcdsdevices.state.StateStatus.add_callback.html" />
     <link rel="prev" title="pcdsdevices.state.StateRecordPositionerBase.wm_update" href="generated/pcdsdevices.state.StateRecordPositionerBase.wm_update.html" /> 
 </head>
 
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -144,9 +145,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.state.StateRecordPositioner.html">pcdsdevices.state.StateRecordPositioner</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.state.StateRecordPositionerBase.html">pcdsdevices.state.StateRecordPositionerBase</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.state.StateStatus</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.__init__.html">pcdsdevices.state.StateStatus.__init__</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.add_callback.html">pcdsdevices.state.StateStatus.add_callback</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.check_value.html">pcdsdevices.state.StateStatus.check_value</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.exception.html">pcdsdevices.state.StateStatus.exception</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.set_exception.html">pcdsdevices.state.StateStatus.set_exception</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.set_finished.html">pcdsdevices.state.StateStatus.set_finished</a></li>
@@ -241,7 +240,7 @@
 <dd><p><code class="xref any docutils literal notranslate"><span class="pre">Status</span></code> produced by state request.</p>
 <p>The status relies on two methods of the device: First, the attribute
 <code class="xref any docutils literal notranslate"><span class="pre">~StatePositioner.position</span></code> should reflect the current state.
-Second, the status will call the built-in method <a class="reference internal" href="generated/pcdsdevices.analog_signals.Acromag.subscribe.html#pcdsdevices.analog_signals.Acromag.subscribe" title="pcdsdevices.analog_signals.Acromag.subscribe"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">subscribe</span></code></a> with the
+Second, the status will call the built-in method <code class="xref any docutils literal notranslate"><span class="pre">subscribe</span></code> with the
 <code class="xref any docutils literal notranslate"><span class="pre">event_type</span></code> explicitly set to <code class="docutils literal notranslate"><span class="pre">device.SUB_STATE</span></code>. This will cause the
 StateStatus to process whenever the device changes state to avoid
 unnecessary polling of the associated EPICS variables.</p>
@@ -262,14 +261,8 @@ unnecessary polling of the associated EPICS variables.</p>
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.__init__.html#pcdsdevices.state.StateStatus.__init__" title="pcdsdevices.state.StateStatus.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(device, desired_state[, timeout, …])</p></td>
-<td><p>Initialize self.</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.add_callback.html#pcdsdevices.state.StateStatus.add_callback" title="pcdsdevices.state.StateStatus.add_callback"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_callback</span></code></a>(callback)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.add_callback.html#pcdsdevices.state.StateStatus.add_callback" title="pcdsdevices.state.StateStatus.add_callback"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_callback</span></code></a>(callback)</p></td>
 <td><p>Register a callback to be called once when the Status finishes.</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.check_value.html#pcdsdevices.state.StateStatus.check_value" title="pcdsdevices.state.StateStatus.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(*args, **kwargs)</p></td>
-<td><p>Update the status object</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateStatus.exception.html#pcdsdevices.state.StateStatus.exception" title="pcdsdevices.state.StateStatus.exception"><code class="xref py py-obj docutils literal notranslate"><span class="pre">exception</span></code></a>([timeout])</p></td>
 <td><p>Return the exception raised by the action.</p></td>
@@ -327,7 +320,7 @@ unnecessary polling of the associated EPICS variables.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="generated/pcdsdevices.state.StateStatus.__init__.html" class="btn btn-neutral float-right" title="pcdsdevices.state.StateStatus.__init__" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="generated/pcdsdevices.state.StateStatus.add_callback.html" class="btn btn-neutral float-right" title="pcdsdevices.state.StateStatus.add_callback" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="generated/pcdsdevices.state.StateRecordPositionerBase.wm_update.html" class="btn btn-neutral float-left" title="pcdsdevices.state.StateRecordPositionerBase.wm_update" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

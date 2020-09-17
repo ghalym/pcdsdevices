@@ -1,6 +1,0 @@
-pcdsdevices.pump.PTMPLC.unstage
-===============================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: PTMPLC.unstage

@@ -1,6 +1,0 @@
-pcdsdevices.pump.QPCPCT.get\_device\_tuple
-==========================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: QPCPCT.get_device_tuple

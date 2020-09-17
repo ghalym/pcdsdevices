@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GCCPLC.unsubscribe
-====================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GCCPLC.unsubscribe

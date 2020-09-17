@@ -1,6 +1,0 @@
-pcdsdevices.slits.SlitPositioner.status\_info
-=============================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: SlitPositioner.status_info

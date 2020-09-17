@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.jet.BeckhoffJetManipulator.stop &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.jet.BeckhoffJetManipulator.stop &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,8 +37,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.jet.BeckhoffJetManipulator.subscribe" href="pcdsdevices.jet.BeckhoffJetManipulator.subscribe.html" />
-    <link rel="prev" title="pcdsdevices.jet.BeckhoffJetManipulator.status_info" href="pcdsdevices.jet.BeckhoffJetManipulator.status_info.html" /> 
+    <link rel="next" title="pcdsdevices.jet.BeckhoffJetManipulator.summary" href="pcdsdevices.jet.BeckhoffJetManipulator.summary.html" />
+    <link rel="prev" title="pcdsdevices.jet.BeckhoffJetManipulator.read_configuration" href="pcdsdevices.jet.BeckhoffJetManipulator.read_configuration.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -123,37 +124,14 @@
 <li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.jet.html">pcdsdevices.jet</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.jet.BeckhoffJet.html">pcdsdevices.jet.BeckhoffJet</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.jet.BeckhoffJetManipulator.html">pcdsdevices.jet.BeckhoffJetManipulator</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.__init__.html">pcdsdevices.jet.BeckhoffJetManipulator.__init__</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.add_instantiation_callback.html">pcdsdevices.jet.BeckhoffJetManipulator.add_instantiation_callback</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.check_value.html">pcdsdevices.jet.BeckhoffJetManipulator.check_value</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.clear_sub.html">pcdsdevices.jet.BeckhoffJetManipulator.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.configure.html">pcdsdevices.jet.BeckhoffJetManipulator.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.describe.html">pcdsdevices.jet.BeckhoffJetManipulator.describe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.describe_configuration.html">pcdsdevices.jet.BeckhoffJetManipulator.describe_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.destroy.html">pcdsdevices.jet.BeckhoffJetManipulator.destroy</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.format_status_info.html">pcdsdevices.jet.BeckhoffJetManipulator.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.get.html">pcdsdevices.jet.BeckhoffJetManipulator.get</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.get_device_tuple.html">pcdsdevices.jet.BeckhoffJetManipulator.get_device_tuple</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.get_instantiated_signals.html">pcdsdevices.jet.BeckhoffJetManipulator.get_instantiated_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.pause.html">pcdsdevices.jet.BeckhoffJetManipulator.pause</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.put.html">pcdsdevices.jet.BeckhoffJetManipulator.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.read.html">pcdsdevices.jet.BeckhoffJetManipulator.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.read_configuration.html">pcdsdevices.jet.BeckhoffJetManipulator.read_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.resume.html">pcdsdevices.jet.BeckhoffJetManipulator.resume</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.stage.html">pcdsdevices.jet.BeckhoffJetManipulator.stage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.status_info.html">pcdsdevices.jet.BeckhoffJetManipulator.status_info</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.jet.BeckhoffJetManipulator.stop</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.subscribe.html">pcdsdevices.jet.BeckhoffJetManipulator.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.summary.html">pcdsdevices.jet.BeckhoffJetManipulator.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.trigger.html">pcdsdevices.jet.BeckhoffJetManipulator.trigger</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.unstage.html">pcdsdevices.jet.BeckhoffJetManipulator.unstage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.unsubscribe.html">pcdsdevices.jet.BeckhoffJetManipulator.unsubscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.unsubscribe_all.html">pcdsdevices.jet.BeckhoffJetManipulator.unsubscribe_all</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.wait_for_connection.html">pcdsdevices.jet.BeckhoffJetManipulator.wait_for_connection</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.walk_components.html">pcdsdevices.jet.BeckhoffJetManipulator.walk_components</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.walk_signals.html">pcdsdevices.jet.BeckhoffJetManipulator.walk_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.walk_subdevice_classes.html">pcdsdevices.jet.BeckhoffJetManipulator.walk_subdevice_classes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.jet.BeckhoffJetManipulator.walk_subdevices.html">pcdsdevices.jet.BeckhoffJetManipulator.walk_subdevices</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.jet.BeckhoffJetSlits.html">pcdsdevices.jet.BeckhoffJetSlits</a></li>
@@ -271,10 +249,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.jet.BeckhoffJetManipulator.subscribe.html" class="btn btn-neutral float-right" title="pcdsdevices.jet.BeckhoffJetManipulator.subscribe" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.jet.BeckhoffJetManipulator.summary.html" class="btn btn-neutral float-right" title="pcdsdevices.jet.BeckhoffJetManipulator.summary" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="pcdsdevices.jet.BeckhoffJetManipulator.status_info.html" class="btn btn-neutral float-left" title="pcdsdevices.jet.BeckhoffJetManipulator.status_info" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="pcdsdevices.jet.BeckhoffJetManipulator.read_configuration.html" class="btn btn-neutral float-left" title="pcdsdevices.jet.BeckhoffJetManipulator.read_configuration" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

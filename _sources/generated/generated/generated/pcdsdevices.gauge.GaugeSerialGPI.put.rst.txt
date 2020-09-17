@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GaugeSerialGPI.put
-====================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GaugeSerialGPI.put

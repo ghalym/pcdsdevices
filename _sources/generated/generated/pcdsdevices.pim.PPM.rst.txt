@@ -7,82 +7,117 @@ pcdsdevices.pim.PPM
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~PPM.__init__
-      ~PPM.add_instantiation_callback
-      ~PPM.check_value
-      ~PPM.clear_sub
-      ~PPM.configure
-      ~PPM.describe
-      ~PPM.describe_configuration
-      ~PPM.destroy
-      ~PPM.format_status_info
-      ~PPM.get
-      ~PPM.get_device_tuple
-      ~PPM.get_instantiated_signals
-      ~PPM.pause
-      ~PPM.put
-      ~PPM.read
-      ~PPM.read_configuration
-      ~PPM.resume
-      ~PPM.stage
-      ~PPM.status_info
-      ~PPM.stop
-      ~PPM.subscribe
-      ~PPM.summary
-      ~PPM.trigger
-      ~PPM.unstage
-      ~PPM.unsubscribe
-      ~PPM.unsubscribe_all
-      ~PPM.wait_for_connection
-      ~PPM.walk_components
-      ~PPM.walk_signals
-      ~PPM.walk_subdevice_classes
-      ~PPM.walk_subdevices
+       *  -  target
+          -  :class:`~pcdsdevices.inout.TwinCATInOutPositioner`
+          -  ``:MMS:STATE``
+          -  Control of the diagnostic stack via saved positions.
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.pim.LCLS2ImagerBase`
+   
+       *  -  y_motor
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``:MMS``
+          -  Direct control of the diagnostic stack motor.
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pim.LCLS2ImagerBase`
+   
+       *  -  detector
+          -  :class:`~pcdsdevices.areadetector.detectors.PCDSAreaDetectorTyphos`
+          -  ``:CAM:``
+          -  Area detector settings and readbacks.
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pim.LCLS2ImagerBase`
+   
+       *  -  cam_power
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:CAM:PWR``
+          -  Camera power supply controls.
+          -  config
+          -  Inherited from :class:`~pcdsdevices.pim.LCLS2ImagerBase`
+   
+       *  -  power_meter
+          -  :class:`~pcdsdevices.pim.PPMPowerMeter`
+          -  ``:SPM``
+          -  Device that measures power of incident beam.
+          -  normal
+          -  
+   
+       *  -  yag_thermocouple
+          -  :class:`~pcdsdevices.sensors.TwinCATThermocouple`
+          -  ``:YAG``
+          -  Thermocouple on the YAG holder.
+          -  normal
+          -  
+   
+       *  -  led
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:CAM:CIL:PCT``
+          -  Percent of light from the dimmable illuminatior.
+          -  config
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~PPM.SUB_ACQ_DONE
-      ~PPM.SUB_STATE
-      ~PPM.attr_name
-      ~PPM.cam_power
-      ~PPM.component_names
-      ~PPM.configuration_attrs
-      ~PPM.connected
-      ~PPM.detector
-      ~PPM.dotted_name
-      ~PPM.event_types
-      ~PPM.hints
-      ~PPM.inserted
-      ~PPM.kind
-      ~PPM.lazy_wait_for_connection
-      ~PPM.led
-      ~PPM.lightpath_cpts
-      ~PPM.name
-      ~PPM.parent
-      ~PPM.power_meter
-      ~PPM.read_attrs
-      ~PPM.removed
-      ~PPM.report
-      ~PPM.root
-      ~PPM.signal_names
-      ~PPM.tab_component_names
-      ~PPM.tab_whitelist
-      ~PPM.target
-      ~PPM.transmission
-      ~PPM.trigger_signals
-      ~PPM.y_motor
-      ~PPM.y_states
-      ~PPM.yag_thermocouple
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~PPM.configure
+       ~PPM.describe
+       ~PPM.get
+       ~PPM.read
+       ~PPM.read_configuration
+       ~PPM.stop
+       ~PPM.summary
+       ~PPM.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~PPM.configuration_attrs
+       ~PPM.connected
+       ~PPM.hints
+       ~PPM.kind
+       ~PPM.lightpath_cpts
+       ~PPM.transmission
+       ~PPM.y_states
+    
+    

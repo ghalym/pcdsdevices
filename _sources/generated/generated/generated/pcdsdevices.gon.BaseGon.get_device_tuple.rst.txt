@@ -1,6 +1,0 @@
-pcdsdevices.gon.BaseGon.get\_device\_tuple
-==========================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: BaseGon.get_device_tuple

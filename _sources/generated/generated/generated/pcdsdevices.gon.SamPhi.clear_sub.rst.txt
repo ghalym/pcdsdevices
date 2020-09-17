@@ -1,6 +1,0 @@
-pcdsdevices.gon.SamPhi.clear\_sub
-=================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SamPhi.clear_sub

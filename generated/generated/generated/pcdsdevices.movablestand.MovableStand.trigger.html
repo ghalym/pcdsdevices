@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.movablestand.MovableStand.trigger &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.movablestand.MovableStand.trigger &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,7 +37,7 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.movablestand.MovableStand.unstage" href="pcdsdevices.movablestand.MovableStand.unstage.html" />
+    <link rel="next" title="pcdsdevices.movablestand.MovableStand.wait" href="pcdsdevices.movablestand.MovableStand.wait.html" />
     <link rel="prev" title="pcdsdevices.movablestand.MovableStand.summary" href="pcdsdevices.movablestand.MovableStand.summary.html" /> 
 </head>
 
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -126,49 +127,26 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mirror.html">pcdsdevices.mirror</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.movablestand.html">pcdsdevices.movablestand</a><ul class="current">
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.movablestand.MovableStand.html">pcdsdevices.movablestand.MovableStand</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.__init__.html">pcdsdevices.movablestand.MovableStand.__init__</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.add_instantiation_callback.html">pcdsdevices.movablestand.MovableStand.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.camonitor.html">pcdsdevices.movablestand.MovableStand.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.check_inserted.html">pcdsdevices.movablestand.MovableStand.check_inserted</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.check_removed.html">pcdsdevices.movablestand.MovableStand.check_removed</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.check_transmission.html">pcdsdevices.movablestand.MovableStand.check_transmission</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.check_value.html">pcdsdevices.movablestand.MovableStand.check_value</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.clear_sub.html">pcdsdevices.movablestand.MovableStand.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.configure.html">pcdsdevices.movablestand.MovableStand.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.describe.html">pcdsdevices.movablestand.MovableStand.describe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.describe_configuration.html">pcdsdevices.movablestand.MovableStand.describe_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.destroy.html">pcdsdevices.movablestand.MovableStand.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.end_monitor_thread.html">pcdsdevices.movablestand.MovableStand.end_monitor_thread</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.format_status_info.html">pcdsdevices.movablestand.MovableStand.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.get.html">pcdsdevices.movablestand.MovableStand.get</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.get_device_tuple.html">pcdsdevices.movablestand.MovableStand.get_device_tuple</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.get_instantiated_signals.html">pcdsdevices.movablestand.MovableStand.get_instantiated_signals</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.get_state.html">pcdsdevices.movablestand.MovableStand.get_state</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.insert.html">pcdsdevices.movablestand.MovableStand.insert</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.move.html">pcdsdevices.movablestand.MovableStand.move</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.mv.html">pcdsdevices.movablestand.MovableStand.mv</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.pause.html">pcdsdevices.movablestand.MovableStand.pause</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.put.html">pcdsdevices.movablestand.MovableStand.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.read.html">pcdsdevices.movablestand.MovableStand.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.read_configuration.html">pcdsdevices.movablestand.MovableStand.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.remove.html">pcdsdevices.movablestand.MovableStand.remove</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.resume.html">pcdsdevices.movablestand.MovableStand.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.set.html">pcdsdevices.movablestand.MovableStand.set</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.stage.html">pcdsdevices.movablestand.MovableStand.stage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.status_info.html">pcdsdevices.movablestand.MovableStand.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.stop.html">pcdsdevices.movablestand.MovableStand.stop</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.subscribe.html">pcdsdevices.movablestand.MovableStand.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.summary.html">pcdsdevices.movablestand.MovableStand.summary</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.movablestand.MovableStand.trigger</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.unstage.html">pcdsdevices.movablestand.MovableStand.unstage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.unsubscribe.html">pcdsdevices.movablestand.MovableStand.unsubscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.unsubscribe_all.html">pcdsdevices.movablestand.MovableStand.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.wait.html">pcdsdevices.movablestand.MovableStand.wait</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.wait_for_connection.html">pcdsdevices.movablestand.MovableStand.wait_for_connection</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.walk_components.html">pcdsdevices.movablestand.MovableStand.walk_components</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.walk_signals.html">pcdsdevices.movablestand.MovableStand.walk_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.walk_subdevice_classes.html">pcdsdevices.movablestand.MovableStand.walk_subdevice_classes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.walk_subdevices.html">pcdsdevices.movablestand.MovableStand.walk_subdevices</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.wm.html">pcdsdevices.movablestand.MovableStand.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.movablestand.MovableStand.wm_update.html">pcdsdevices.movablestand.MovableStand.wm_update</a></li>
 </ul>
@@ -298,7 +276,7 @@ as complete when the device is ready to be read.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.movablestand.MovableStand.unstage.html" class="btn btn-neutral float-right" title="pcdsdevices.movablestand.MovableStand.unstage" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.movablestand.MovableStand.wait.html" class="btn btn-neutral float-right" title="pcdsdevices.movablestand.MovableStand.wait" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="pcdsdevices.movablestand.MovableStand.summary.html" class="btn btn-neutral float-left" title="pcdsdevices.movablestand.MovableStand.summary" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

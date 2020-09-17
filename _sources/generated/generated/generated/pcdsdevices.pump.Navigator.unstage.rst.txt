@@ -1,6 +1,0 @@
-pcdsdevices.pump.Navigator.unstage
-==================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: Navigator.unstage

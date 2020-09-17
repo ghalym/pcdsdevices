@@ -1,6 +1,0 @@
-pcdsdevices.sim.SimTwoAxis.subscribe
-====================================
-
-.. currentmodule:: pcdsdevices.sim
-
-.. automethod:: SimTwoAxis.subscribe

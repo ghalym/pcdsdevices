@@ -1,6 +1,0 @@
-pcdsdevices.gauge.MKS937a.destroy
-=================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: MKS937a.destroy

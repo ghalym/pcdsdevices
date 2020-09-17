@@ -7,97 +7,93 @@ pcdsdevices.pseudopos.PseudoSingleInterface
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~PseudoSingleInterface.__init__
-      ~PseudoSingleInterface.add_instantiation_callback
-      ~PseudoSingleInterface.camonitor
-      ~PseudoSingleInterface.check_value
-      ~PseudoSingleInterface.clear_sub
-      ~PseudoSingleInterface.configure
-      ~PseudoSingleInterface.describe
-      ~PseudoSingleInterface.describe_configuration
-      ~PseudoSingleInterface.destroy
-      ~PseudoSingleInterface.end_monitor_thread
-      ~PseudoSingleInterface.format_status_info
-      ~PseudoSingleInterface.get
-      ~PseudoSingleInterface.get_device_tuple
-      ~PseudoSingleInterface.get_instantiated_signals
-      ~PseudoSingleInterface.move
-      ~PseudoSingleInterface.mv
-      ~PseudoSingleInterface.mv_ginput
-      ~PseudoSingleInterface.mvr
-      ~PseudoSingleInterface.pause
-      ~PseudoSingleInterface.put
-      ~PseudoSingleInterface.read
-      ~PseudoSingleInterface.read_configuration
-      ~PseudoSingleInterface.resume
-      ~PseudoSingleInterface.set
-      ~PseudoSingleInterface.stage
-      ~PseudoSingleInterface.status_info
-      ~PseudoSingleInterface.stop
-      ~PseudoSingleInterface.subscribe
-      ~PseudoSingleInterface.summary
-      ~PseudoSingleInterface.sync
-      ~PseudoSingleInterface.trigger
-      ~PseudoSingleInterface.tweak
-      ~PseudoSingleInterface.umv
-      ~PseudoSingleInterface.umvr
-      ~PseudoSingleInterface.unstage
-      ~PseudoSingleInterface.unsubscribe
-      ~PseudoSingleInterface.unsubscribe_all
-      ~PseudoSingleInterface.wait
-      ~PseudoSingleInterface.wait_for_connection
-      ~PseudoSingleInterface.walk_components
-      ~PseudoSingleInterface.walk_signals
-      ~PseudoSingleInterface.walk_subdevice_classes
-      ~PseudoSingleInterface.walk_subdevices
-      ~PseudoSingleInterface.wm
-      ~PseudoSingleInterface.wm_update
+       *  -  readback
+          -  :class:`~ophyd.signal.AttributeSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~ophyd.pseudopos.PseudoSingle`
+   
+       *  -  setpoint
+          -  :class:`~ophyd.signal.AttributeSignal`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~ophyd.pseudopos.PseudoSingle`
+   
+
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~PseudoSingleInterface.SUB_ACQ_DONE
-      ~PseudoSingleInterface.SUB_DONE
-      ~PseudoSingleInterface.SUB_READBACK
-      ~PseudoSingleInterface.SUB_START
-      ~PseudoSingleInterface.attr_name
-      ~PseudoSingleInterface.component_names
-      ~PseudoSingleInterface.configuration_attrs
-      ~PseudoSingleInterface.connected
-      ~PseudoSingleInterface.dotted_name
-      ~PseudoSingleInterface.egu
-      ~PseudoSingleInterface.event_types
-      ~PseudoSingleInterface.high_limit
-      ~PseudoSingleInterface.hints
-      ~PseudoSingleInterface.kind
-      ~PseudoSingleInterface.lazy_wait_for_connection
-      ~PseudoSingleInterface.limits
-      ~PseudoSingleInterface.low_limit
-      ~PseudoSingleInterface.moving
-      ~PseudoSingleInterface.name
-      ~PseudoSingleInterface.parent
-      ~PseudoSingleInterface.position
-      ~PseudoSingleInterface.presets
-      ~PseudoSingleInterface.read_attrs
-      ~PseudoSingleInterface.readback
-      ~PseudoSingleInterface.report
-      ~PseudoSingleInterface.root
-      ~PseudoSingleInterface.setpoint
-      ~PseudoSingleInterface.settle_time
-      ~PseudoSingleInterface.signal_names
-      ~PseudoSingleInterface.tab_whitelist
-      ~PseudoSingleInterface.target
-      ~PseudoSingleInterface.timeout
-      ~PseudoSingleInterface.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~PseudoSingleInterface.camonitor
+       ~PseudoSingleInterface.configure
+       ~PseudoSingleInterface.describe
+       ~PseudoSingleInterface.end_monitor_thread
+       ~PseudoSingleInterface.get
+       ~PseudoSingleInterface.move
+       ~PseudoSingleInterface.mv
+       ~PseudoSingleInterface.mv_ginput
+       ~PseudoSingleInterface.mvr
+       ~PseudoSingleInterface.read
+       ~PseudoSingleInterface.read_configuration
+       ~PseudoSingleInterface.set
+       ~PseudoSingleInterface.stop
+       ~PseudoSingleInterface.summary
+       ~PseudoSingleInterface.sync
+       ~PseudoSingleInterface.trigger
+       ~PseudoSingleInterface.tweak
+       ~PseudoSingleInterface.umv
+       ~PseudoSingleInterface.umvr
+       ~PseudoSingleInterface.wait
+       ~PseudoSingleInterface.wm
+       ~PseudoSingleInterface.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~PseudoSingleInterface.configuration_attrs
+       ~PseudoSingleInterface.connected
+       ~PseudoSingleInterface.egu
+       ~PseudoSingleInterface.high_limit
+       ~PseudoSingleInterface.hints
+       ~PseudoSingleInterface.kind
+       ~PseudoSingleInterface.limits
+       ~PseudoSingleInterface.low_limit
+       ~PseudoSingleInterface.moving
+       ~PseudoSingleInterface.position
+       ~PseudoSingleInterface.presets
+       ~PseudoSingleInterface.settle_time
+       ~PseudoSingleInterface.target
+       ~PseudoSingleInterface.timeout
+    
+    

@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPMMotion.unsubscribe\_all
-==========================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPMMotion.unsubscribe_all

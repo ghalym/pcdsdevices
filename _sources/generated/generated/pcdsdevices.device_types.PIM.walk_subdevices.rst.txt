@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.PIM.walk\_subdevices
-==============================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: PIM.walk_subdevices

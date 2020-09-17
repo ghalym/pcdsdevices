@@ -1,6 +1,0 @@
-pcdsdevices.mps.MPSBase.status\_info
-====================================
-
-.. currentmodule:: pcdsdevices.mps
-
-.. automethod:: MPSBase.status_info

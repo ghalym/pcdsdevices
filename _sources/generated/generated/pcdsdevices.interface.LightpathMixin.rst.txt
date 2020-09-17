@@ -7,41 +7,22 @@ pcdsdevices.interface.LightpathMixin
 
    
    
-   .. rubric:: Methods
-
-   .. autosummary::
-      :toctree: generated
-   
-      ~LightpathMixin.__init__
-      ~LightpathMixin.add_instantiation_callback
-      ~LightpathMixin.check_value
-      ~LightpathMixin.clear_sub
-      ~LightpathMixin.destroy
-      ~LightpathMixin.subscribe
-      ~LightpathMixin.unsubscribe
-      ~LightpathMixin.unsubscribe_all
-   
    
 
-   
-   
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~LightpathMixin.SUB_STATE
-      ~LightpathMixin.attr_name
-      ~LightpathMixin.connected
-      ~LightpathMixin.dotted_name
-      ~LightpathMixin.event_types
-      ~LightpathMixin.inserted
-      ~LightpathMixin.kind
-      ~LightpathMixin.lightpath_cpts
-      ~LightpathMixin.name
-      ~LightpathMixin.parent
-      ~LightpathMixin.removed
-      ~LightpathMixin.report
-      ~LightpathMixin.root
-      ~LightpathMixin.transmission
-   
-   
+    
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~LightpathMixin.connected
+       ~LightpathMixin.kind
+       ~LightpathMixin.lightpath_cpts
+       ~LightpathMixin.transmission
+    
+    

@@ -1,6 +1,0 @@
-pcdsdevices.pump.PIPPLC.stage
-=============================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: PIPPLC.stage

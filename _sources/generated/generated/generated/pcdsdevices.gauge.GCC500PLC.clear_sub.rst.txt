@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GCC500PLC.clear\_sub
-======================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GCC500PLC.clear_sub

@@ -1,6 +1,0 @@
-pcdsdevices.pump.QPCPCT.check\_value
-====================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: QPCPCT.check_value

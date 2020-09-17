@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.SmarActOpenLoop.add\_instantiation\_callback
-=====================================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: SmarActOpenLoop.add_instantiation_callback

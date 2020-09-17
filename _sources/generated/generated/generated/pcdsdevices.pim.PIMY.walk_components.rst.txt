@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMY.walk\_components
-=====================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMY.walk_components

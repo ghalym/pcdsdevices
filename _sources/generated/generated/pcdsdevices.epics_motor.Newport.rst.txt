@@ -7,127 +7,283 @@ pcdsdevices.epics\_motor.Newport
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~Newport.__init__
-      ~Newport.add_instantiation_callback
-      ~Newport.camonitor
-      ~Newport.check_value
-      ~Newport.clear_sub
-      ~Newport.configure
-      ~Newport.describe
-      ~Newport.describe_configuration
-      ~Newport.destroy
-      ~Newport.disable
-      ~Newport.enable
-      ~Newport.end_monitor_thread
-      ~Newport.format_status_info
-      ~Newport.get
-      ~Newport.get_device_tuple
-      ~Newport.get_instantiated_signals
-      ~Newport.get_lim
-      ~Newport.home
-      ~Newport.move
-      ~Newport.mv
-      ~Newport.mv_ginput
-      ~Newport.mvr
-      ~Newport.pause
-      ~Newport.put
-      ~Newport.read
-      ~Newport.read_configuration
-      ~Newport.resume
-      ~Newport.screen
-      ~Newport.set
-      ~Newport.set_current_position
-      ~Newport.set_lim
-      ~Newport.spg_go
-      ~Newport.spg_pause
-      ~Newport.spg_stop
-      ~Newport.stage
-      ~Newport.status_info
-      ~Newport.stop
-      ~Newport.subscribe
-      ~Newport.summary
-      ~Newport.trigger
-      ~Newport.tweak
-      ~Newport.umv
-      ~Newport.umvr
-      ~Newport.unstage
-      ~Newport.unsubscribe
-      ~Newport.unsubscribe_all
-      ~Newport.wait
-      ~Newport.wait_for_connection
-      ~Newport.walk_components
-      ~Newport.walk_signals
-      ~Newport.walk_subdevice_classes
-      ~Newport.walk_subdevices
-      ~Newport.wm
-      ~Newport.wm_update
+       *  -  user_readback
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``.RBV``
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  user_setpoint
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.VAL``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  user_offset
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.OFF``
+          -  
+          -  config
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  user_offset_dir
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.DIR``
+          -  
+          -  config
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  offset_freeze_switch
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  set_use_switch
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.SET``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  velocity
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.VELO``
+          -  
+          -  config
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  acceleration
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.ACCL``
+          -  
+          -  config
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  motor_egu
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.EGU``
+          -  
+          -  config
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  motor_is_moving
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``.MOVN``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  motor_done_move
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``.DMOV``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  high_limit_switch
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.HLS``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  low_limit_switch
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.LLS``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  high_limit_travel
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.HLM``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  low_limit_travel
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.LLM``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  direction_of_travel
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  motor_stop
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.STOP``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  home_forward
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  home_reverse
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  disabled
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.DISP``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  description
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.DESC``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+       *  -  motor_spg
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.SPG``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~Newport.SUB_ACQ_DONE
-      ~Newport.SUB_DONE
-      ~Newport.SUB_READBACK
-      ~Newport.SUB_START
-      ~Newport.acceleration
-      ~Newport.attr_name
-      ~Newport.component_names
-      ~Newport.configuration_attrs
-      ~Newport.connected
-      ~Newport.description
-      ~Newport.direction_of_travel
-      ~Newport.disabled
-      ~Newport.dotted_name
-      ~Newport.egu
-      ~Newport.event_types
-      ~Newport.high_limit
-      ~Newport.high_limit_switch
-      ~Newport.high_limit_travel
-      ~Newport.hints
-      ~Newport.home_forward
-      ~Newport.home_reverse
-      ~Newport.kind
-      ~Newport.lazy_wait_for_connection
-      ~Newport.limits
-      ~Newport.low_limit
-      ~Newport.low_limit_switch
-      ~Newport.low_limit_travel
-      ~Newport.motor_done_move
-      ~Newport.motor_egu
-      ~Newport.motor_is_moving
-      ~Newport.motor_spg
-      ~Newport.motor_stop
-      ~Newport.moving
-      ~Newport.name
-      ~Newport.offset_freeze_switch
-      ~Newport.parent
-      ~Newport.position
-      ~Newport.precision
-      ~Newport.presets
-      ~Newport.read_attrs
-      ~Newport.report
-      ~Newport.root
-      ~Newport.set_use_switch
-      ~Newport.settle_time
-      ~Newport.signal_names
-      ~Newport.tab_whitelist
-      ~Newport.timeout
-      ~Newport.tolerated_alarm
-      ~Newport.trigger_signals
-      ~Newport.user_offset
-      ~Newport.user_offset_dir
-      ~Newport.user_readback
-      ~Newport.user_setpoint
-      ~Newport.velocity
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Newport.camonitor
+       ~Newport.configure
+       ~Newport.describe
+       ~Newport.disable
+       ~Newport.enable
+       ~Newport.end_monitor_thread
+       ~Newport.get
+       ~Newport.get_lim
+       ~Newport.home
+       ~Newport.move
+       ~Newport.mv
+       ~Newport.mv_ginput
+       ~Newport.mvr
+       ~Newport.read
+       ~Newport.read_configuration
+       ~Newport.screen
+       ~Newport.set
+       ~Newport.set_current_position
+       ~Newport.set_lim
+       ~Newport.spg_go
+       ~Newport.spg_pause
+       ~Newport.spg_stop
+       ~Newport.stop
+       ~Newport.summary
+       ~Newport.trigger
+       ~Newport.tweak
+       ~Newport.umv
+       ~Newport.umvr
+       ~Newport.wait
+       ~Newport.wm
+       ~Newport.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Newport.configuration_attrs
+       ~Newport.connected
+       ~Newport.egu
+       ~Newport.high_limit
+       ~Newport.hints
+       ~Newport.kind
+       ~Newport.limits
+       ~Newport.low_limit
+       ~Newport.moving
+       ~Newport.position
+       ~Newport.precision
+       ~Newport.presets
+       ~Newport.settle_time
+       ~Newport.timeout
+       ~Newport.tolerated_alarm
+    
+    

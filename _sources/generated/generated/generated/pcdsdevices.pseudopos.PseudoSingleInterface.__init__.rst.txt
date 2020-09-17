@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.PseudoSingleInterface.\_\_init\_\_
-========================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: PseudoSingleInterface.__init__

@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.IMS.walk\_components
-==============================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: IMS.walk_components

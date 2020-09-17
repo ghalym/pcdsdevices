@@ -7,75 +7,71 @@ pcdsdevices.attenuator.FEESolidAttenuatorBlade
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~FEESolidAttenuatorBlade.__init__
-      ~FEESolidAttenuatorBlade.add_instantiation_callback
-      ~FEESolidAttenuatorBlade.check_value
-      ~FEESolidAttenuatorBlade.clear_sub
-      ~FEESolidAttenuatorBlade.configure
-      ~FEESolidAttenuatorBlade.describe
-      ~FEESolidAttenuatorBlade.describe_configuration
-      ~FEESolidAttenuatorBlade.destroy
-      ~FEESolidAttenuatorBlade.format_status_info
-      ~FEESolidAttenuatorBlade.get
-      ~FEESolidAttenuatorBlade.get_device_tuple
-      ~FEESolidAttenuatorBlade.get_instantiated_signals
-      ~FEESolidAttenuatorBlade.pause
-      ~FEESolidAttenuatorBlade.put
-      ~FEESolidAttenuatorBlade.read
-      ~FEESolidAttenuatorBlade.read_configuration
-      ~FEESolidAttenuatorBlade.resume
-      ~FEESolidAttenuatorBlade.stage
-      ~FEESolidAttenuatorBlade.status_info
-      ~FEESolidAttenuatorBlade.stop
-      ~FEESolidAttenuatorBlade.subscribe
-      ~FEESolidAttenuatorBlade.summary
-      ~FEESolidAttenuatorBlade.trigger
-      ~FEESolidAttenuatorBlade.unstage
-      ~FEESolidAttenuatorBlade.unsubscribe
-      ~FEESolidAttenuatorBlade.unsubscribe_all
-      ~FEESolidAttenuatorBlade.wait_for_connection
-      ~FEESolidAttenuatorBlade.walk_components
-      ~FEESolidAttenuatorBlade.walk_signals
-      ~FEESolidAttenuatorBlade.walk_subdevice_classes
-      ~FEESolidAttenuatorBlade.walk_subdevices
+       *  -  state
+          -  :class:`~pcdsdevices.inout.TwinCATInOutPositioner`
+          -  ``:STATE``
+          -  
+          -  normal
+          -  
+   
+       *  -  motor
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~FEESolidAttenuatorBlade.SUB_ACQ_DONE
-      ~FEESolidAttenuatorBlade.SUB_STATE
-      ~FEESolidAttenuatorBlade.attr_name
-      ~FEESolidAttenuatorBlade.component_names
-      ~FEESolidAttenuatorBlade.configuration_attrs
-      ~FEESolidAttenuatorBlade.connected
-      ~FEESolidAttenuatorBlade.dotted_name
-      ~FEESolidAttenuatorBlade.event_types
-      ~FEESolidAttenuatorBlade.hints
-      ~FEESolidAttenuatorBlade.inserted
-      ~FEESolidAttenuatorBlade.kind
-      ~FEESolidAttenuatorBlade.lazy_wait_for_connection
-      ~FEESolidAttenuatorBlade.lightpath_cpts
-      ~FEESolidAttenuatorBlade.motor
-      ~FEESolidAttenuatorBlade.name
-      ~FEESolidAttenuatorBlade.parent
-      ~FEESolidAttenuatorBlade.read_attrs
-      ~FEESolidAttenuatorBlade.removed
-      ~FEESolidAttenuatorBlade.report
-      ~FEESolidAttenuatorBlade.root
-      ~FEESolidAttenuatorBlade.signal_names
-      ~FEESolidAttenuatorBlade.state
-      ~FEESolidAttenuatorBlade.tab_whitelist
-      ~FEESolidAttenuatorBlade.transmission
-      ~FEESolidAttenuatorBlade.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~FEESolidAttenuatorBlade.configure
+       ~FEESolidAttenuatorBlade.describe
+       ~FEESolidAttenuatorBlade.get
+       ~FEESolidAttenuatorBlade.read
+       ~FEESolidAttenuatorBlade.read_configuration
+       ~FEESolidAttenuatorBlade.stop
+       ~FEESolidAttenuatorBlade.summary
+       ~FEESolidAttenuatorBlade.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~FEESolidAttenuatorBlade.configuration_attrs
+       ~FEESolidAttenuatorBlade.connected
+       ~FEESolidAttenuatorBlade.hints
+       ~FEESolidAttenuatorBlade.kind
+       ~FEESolidAttenuatorBlade.lightpath_cpts
+       ~FEESolidAttenuatorBlade.transmission
+    
+    

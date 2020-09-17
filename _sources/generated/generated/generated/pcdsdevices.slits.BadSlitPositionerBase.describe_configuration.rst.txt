@@ -1,6 +1,0 @@
-pcdsdevices.slits.BadSlitPositionerBase.describe\_configuration
-===============================================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: BadSlitPositionerBase.describe_configuration

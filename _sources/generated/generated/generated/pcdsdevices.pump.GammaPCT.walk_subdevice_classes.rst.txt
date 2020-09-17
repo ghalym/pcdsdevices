@@ -1,6 +1,0 @@
-pcdsdevices.pump.GammaPCT.walk\_subdevice\_classes
-==================================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: GammaPCT.walk_subdevice_classes

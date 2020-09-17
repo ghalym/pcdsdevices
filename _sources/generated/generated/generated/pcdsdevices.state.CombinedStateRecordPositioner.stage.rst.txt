@@ -1,6 +1,0 @@
-pcdsdevices.state.CombinedStateRecordPositioner.stage
-=====================================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: CombinedStateRecordPositioner.stage

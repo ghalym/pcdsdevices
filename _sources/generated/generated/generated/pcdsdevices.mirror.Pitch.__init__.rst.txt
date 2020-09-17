@@ -1,6 +1,0 @@
-pcdsdevices.mirror.Pitch.\_\_init\_\_
-=====================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: Pitch.__init__

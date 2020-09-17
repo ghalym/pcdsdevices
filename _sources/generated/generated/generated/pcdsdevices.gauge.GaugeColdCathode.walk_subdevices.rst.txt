@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GaugeColdCathode.walk\_subdevices
-===================================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GaugeColdCathode.walk_subdevices

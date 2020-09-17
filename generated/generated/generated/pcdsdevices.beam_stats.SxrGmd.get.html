@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.beam_stats.SxrGmd.get &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.beam_stats.SxrGmd.get &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,8 +37,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.beam_stats.SxrGmd.get_device_tuple" href="pcdsdevices.beam_stats.SxrGmd.get_device_tuple.html" />
-    <link rel="prev" title="pcdsdevices.beam_stats.SxrGmd.destroy" href="pcdsdevices.beam_stats.SxrGmd.destroy.html" /> 
+    <link rel="next" title="pcdsdevices.beam_stats.SxrGmd.read" href="pcdsdevices.beam_stats.SxrGmd.read.html" />
+    <link rel="prev" title="pcdsdevices.beam_stats.SxrGmd.describe" href="pcdsdevices.beam_stats.SxrGmd.describe.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -111,35 +112,14 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.beam_stats.BeamEnergyRequest.html">pcdsdevices.beam_stats.BeamEnergyRequest</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.beam_stats.BeamStats.html">pcdsdevices.beam_stats.BeamStats</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.beam_stats.SxrGmd.html">pcdsdevices.beam_stats.SxrGmd</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.__init__.html">pcdsdevices.beam_stats.SxrGmd.__init__</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.add_instantiation_callback.html">pcdsdevices.beam_stats.SxrGmd.add_instantiation_callback</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.check_value.html">pcdsdevices.beam_stats.SxrGmd.check_value</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.clear_sub.html">pcdsdevices.beam_stats.SxrGmd.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.configure.html">pcdsdevices.beam_stats.SxrGmd.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.describe.html">pcdsdevices.beam_stats.SxrGmd.describe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.describe_configuration.html">pcdsdevices.beam_stats.SxrGmd.describe_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.destroy.html">pcdsdevices.beam_stats.SxrGmd.destroy</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.beam_stats.SxrGmd.get</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.get_device_tuple.html">pcdsdevices.beam_stats.SxrGmd.get_device_tuple</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.get_instantiated_signals.html">pcdsdevices.beam_stats.SxrGmd.get_instantiated_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.pause.html">pcdsdevices.beam_stats.SxrGmd.pause</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.put.html">pcdsdevices.beam_stats.SxrGmd.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.read.html">pcdsdevices.beam_stats.SxrGmd.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.read_configuration.html">pcdsdevices.beam_stats.SxrGmd.read_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.resume.html">pcdsdevices.beam_stats.SxrGmd.resume</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.stage.html">pcdsdevices.beam_stats.SxrGmd.stage</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.stop.html">pcdsdevices.beam_stats.SxrGmd.stop</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.subscribe.html">pcdsdevices.beam_stats.SxrGmd.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.summary.html">pcdsdevices.beam_stats.SxrGmd.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.trigger.html">pcdsdevices.beam_stats.SxrGmd.trigger</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.unstage.html">pcdsdevices.beam_stats.SxrGmd.unstage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.unsubscribe.html">pcdsdevices.beam_stats.SxrGmd.unsubscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.unsubscribe_all.html">pcdsdevices.beam_stats.SxrGmd.unsubscribe_all</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.wait_for_connection.html">pcdsdevices.beam_stats.SxrGmd.wait_for_connection</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.walk_components.html">pcdsdevices.beam_stats.SxrGmd.walk_components</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.walk_signals.html">pcdsdevices.beam_stats.SxrGmd.walk_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.walk_subdevice_classes.html">pcdsdevices.beam_stats.SxrGmd.walk_subdevice_classes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.beam_stats.SxrGmd.walk_subdevices.html">pcdsdevices.beam_stats.SxrGmd.walk_subdevices</a></li>
 </ul>
 </li>
 </ul>
@@ -269,10 +249,10 @@ beginning with an underscore will not be included.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.beam_stats.SxrGmd.get_device_tuple.html" class="btn btn-neutral float-right" title="pcdsdevices.beam_stats.SxrGmd.get_device_tuple" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.beam_stats.SxrGmd.read.html" class="btn btn-neutral float-right" title="pcdsdevices.beam_stats.SxrGmd.read" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="pcdsdevices.beam_stats.SxrGmd.destroy.html" class="btn btn-neutral float-left" title="pcdsdevices.beam_stats.SxrGmd.destroy" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="pcdsdevices.beam_stats.SxrGmd.describe.html" class="btn btn-neutral float-left" title="pcdsdevices.beam_stats.SxrGmd.describe" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

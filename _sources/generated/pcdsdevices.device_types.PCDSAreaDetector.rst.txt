@@ -7,114 +7,388 @@
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~PCDSAreaDetector.__init__
-      ~PCDSAreaDetector.add_instantiation_callback
-      ~PCDSAreaDetector.check_value
-      ~PCDSAreaDetector.clear_sub
-      ~PCDSAreaDetector.collect_asset_docs
-      ~PCDSAreaDetector.configure
-      ~PCDSAreaDetector.describe
-      ~PCDSAreaDetector.describe_configuration
-      ~PCDSAreaDetector.destroy
-      ~PCDSAreaDetector.dispatch
-      ~PCDSAreaDetector.find_signal
-      ~PCDSAreaDetector.get
-      ~PCDSAreaDetector.get_asyn_digraph
-      ~PCDSAreaDetector.get_asyn_port_dictionary
-      ~PCDSAreaDetector.get_device_tuple
-      ~PCDSAreaDetector.get_full_area_detector
-      ~PCDSAreaDetector.get_instantiated_signals
-      ~PCDSAreaDetector.get_plugin_by_asyn_port
-      ~PCDSAreaDetector.get_plugin_graph_edges
-      ~PCDSAreaDetector.make_data_key
-      ~PCDSAreaDetector.missing_plugins
-      ~PCDSAreaDetector.pause
-      ~PCDSAreaDetector.put
-      ~PCDSAreaDetector.read
-      ~PCDSAreaDetector.read_configuration
-      ~PCDSAreaDetector.resume
-      ~PCDSAreaDetector.stage
-      ~PCDSAreaDetector.stop
-      ~PCDSAreaDetector.subscribe
-      ~PCDSAreaDetector.summary
-      ~PCDSAreaDetector.trigger
-      ~PCDSAreaDetector.unstage
-      ~PCDSAreaDetector.unsubscribe
-      ~PCDSAreaDetector.unsubscribe_all
-      ~PCDSAreaDetector.validate_asyn_ports
-      ~PCDSAreaDetector.visualize_asyn_digraph
-      ~PCDSAreaDetector.wait_for_connection
-      ~PCDSAreaDetector.walk_components
-      ~PCDSAreaDetector.walk_signals
-      ~PCDSAreaDetector.walk_subdevice_classes
-      ~PCDSAreaDetector.walk_subdevices
+       *  -  configuration_names
+          -  :class:`~ophyd.signal.ArrayAttributeSignal`
+          -  
+          -  
+          -  config
+          -  Inherited from :class:`~pcdsdevices.areadetector.detectors.PCDSAreaDetectorEmbedded`
+   
+       *  -  cam (ADComponent)
+          -  :class:`~ophyd.areadetector.cam.CamBase`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.areadetector.detectors.PCDSAreaDetectorEmbedded`
+   
+       *  -  image2
+          -  :class:`~pcdsdevices.areadetector.plugins.ImagePlugin`
+          -  ``IMAGE2:``
+          -  Image plugin used for the camera viewer
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.areadetector.detectors.PCDSAreaDetectorEmbedded`
+   
+       *  -  stats2
+          -  :class:`~pcdsdevices.areadetector.plugins.StatsPlugin`
+          -  ``Stats2:``
+          -  Stats plugin used for alignments
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.areadetector.detectors.PCDSAreaDetectorEmbedded`
+   
+       *  -  hdf51
+          -  :class:`~pcdsdevices.areadetector.plugins.HDF5Plugin`
+          -  ``HDF51:``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.areadetector.detectors.PCDSAreaDetectorEmbedded`
+   
+       *  -  image1
+          -  :class:`~pcdsdevices.areadetector.plugins.ImagePlugin`
+          -  ``IMAGE1:``
+          -  
+          -  normal
+          -  
+   
+       *  -  image1_roi
+          -  :class:`~pcdsdevices.areadetector.plugins.ROIPlugin`
+          -  ``IMAGE1:ROI:``
+          -  
+          -  normal
+          -  
+   
+       *  -  image1_cc
+          -  :class:`~pcdsdevices.areadetector.plugins.ColorConvPlugin`
+          -  ``IMAGE1:CC:``
+          -  
+          -  normal
+          -  
+   
+       *  -  image1_proc
+          -  :class:`~pcdsdevices.areadetector.plugins.ProcessPlugin`
+          -  ``IMAGE1:Proc:``
+          -  
+          -  normal
+          -  
+   
+       *  -  image1_over
+          -  :class:`~pcdsdevices.areadetector.plugins.OverlayPlugin`
+          -  ``IMAGE1:Over:``
+          -  
+          -  normal
+          -  
+   
+       *  -  image2_roi
+          -  :class:`~pcdsdevices.areadetector.plugins.ROIPlugin`
+          -  ``IMAGE2:ROI:``
+          -  
+          -  normal
+          -  
+   
+       *  -  image2_cc
+          -  :class:`~pcdsdevices.areadetector.plugins.ColorConvPlugin`
+          -  ``IMAGE2:CC:``
+          -  
+          -  normal
+          -  
+   
+       *  -  image2_proc
+          -  :class:`~pcdsdevices.areadetector.plugins.ProcessPlugin`
+          -  ``IMAGE2:Proc:``
+          -  
+          -  normal
+          -  
+   
+       *  -  image2_over
+          -  :class:`~pcdsdevices.areadetector.plugins.OverlayPlugin`
+          -  ``IMAGE2:Over:``
+          -  
+          -  normal
+          -  
+   
+       *  -  thumbnail
+          -  :class:`~pcdsdevices.areadetector.plugins.ImagePlugin`
+          -  ``THUMBNAIL:``
+          -  
+          -  normal
+          -  
+   
+       *  -  thumbnail_roi
+          -  :class:`~pcdsdevices.areadetector.plugins.ROIPlugin`
+          -  ``THUMBNAIL:ROI:``
+          -  
+          -  normal
+          -  
+   
+       *  -  thumbnail_cc
+          -  :class:`~pcdsdevices.areadetector.plugins.ColorConvPlugin`
+          -  ``THUMBNAIL:CC:``
+          -  
+          -  normal
+          -  
+   
+       *  -  thumbnail_proc
+          -  :class:`~pcdsdevices.areadetector.plugins.ProcessPlugin`
+          -  ``THUMBNAIL:Proc:``
+          -  
+          -  normal
+          -  
+   
+       *  -  thumbnail_over
+          -  :class:`~pcdsdevices.areadetector.plugins.OverlayPlugin`
+          -  ``THUMBNAIL:Over:``
+          -  
+          -  normal
+          -  
+   
+       *  -  cc1
+          -  :class:`~pcdsdevices.areadetector.plugins.ColorConvPlugin`
+          -  ``CC1:``
+          -  
+          -  normal
+          -  
+   
+       *  -  cc2
+          -  :class:`~pcdsdevices.areadetector.plugins.ColorConvPlugin`
+          -  ``CC2:``
+          -  
+          -  normal
+          -  
+   
+       *  -  jpeg1
+          -  :class:`~pcdsdevices.areadetector.plugins.JPEGPlugin`
+          -  ``JPEG1:``
+          -  
+          -  normal
+          -  
+   
+       *  -  netcdf1
+          -  :class:`~pcdsdevices.areadetector.plugins.NetCDFPlugin`
+          -  ``NetCDF1:``
+          -  
+          -  normal
+          -  
+   
+       *  -  nexus1
+          -  :class:`~pcdsdevices.areadetector.plugins.NexusPlugin`
+          -  ``Nexus1:``
+          -  
+          -  normal
+          -  
+   
+       *  -  over1
+          -  :class:`~pcdsdevices.areadetector.plugins.OverlayPlugin`
+          -  ``Over1:``
+          -  
+          -  normal
+          -  
+   
+       *  -  proc1
+          -  :class:`~pcdsdevices.areadetector.plugins.ProcessPlugin`
+          -  ``Proc1:``
+          -  
+          -  normal
+          -  
+   
+       *  -  roi1
+          -  :class:`~pcdsdevices.areadetector.plugins.ROIPlugin`
+          -  ``ROI1:``
+          -  
+          -  normal
+          -  
+   
+       *  -  roi2
+          -  :class:`~pcdsdevices.areadetector.plugins.ROIPlugin`
+          -  ``ROI2:``
+          -  
+          -  normal
+          -  
+   
+       *  -  roi3
+          -  :class:`~pcdsdevices.areadetector.plugins.ROIPlugin`
+          -  ``ROI3:``
+          -  
+          -  normal
+          -  
+   
+       *  -  roi4
+          -  :class:`~pcdsdevices.areadetector.plugins.ROIPlugin`
+          -  ``ROI4:``
+          -  
+          -  normal
+          -  
+   
+       *  -  stats1
+          -  :class:`~pcdsdevices.areadetector.plugins.StatsPlugin`
+          -  ``Stats1:``
+          -  
+          -  normal
+          -  
+   
+       *  -  stats3
+          -  :class:`~pcdsdevices.areadetector.plugins.StatsPlugin`
+          -  ``Stats3:``
+          -  
+          -  normal
+          -  
+   
+       *  -  stats4
+          -  :class:`~pcdsdevices.areadetector.plugins.StatsPlugin`
+          -  ``Stats4:``
+          -  
+          -  normal
+          -  
+   
+       *  -  stats5
+          -  :class:`~pcdsdevices.areadetector.plugins.StatsPlugin`
+          -  ``Stats5:``
+          -  
+          -  normal
+          -  
+   
+       *  -  tiff1
+          -  :class:`~pcdsdevices.areadetector.plugins.TIFFPlugin`
+          -  ``TIFF1:``
+          -  
+          -  normal
+          -  
+   
+       *  -  trans1
+          -  :class:`~pcdsdevices.areadetector.plugins.TransformPlugin`
+          -  ``Trans1:``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~PCDSAreaDetector.SUB_ACQ_DONE
-      ~PCDSAreaDetector.ad_root
-      ~PCDSAreaDetector.attr_name
-      ~PCDSAreaDetector.cam
-      ~PCDSAreaDetector.cc1
-      ~PCDSAreaDetector.cc2
-      ~PCDSAreaDetector.component_names
-      ~PCDSAreaDetector.configuration_attrs
-      ~PCDSAreaDetector.configuration_names
-      ~PCDSAreaDetector.connected
-      ~PCDSAreaDetector.dotted_name
-      ~PCDSAreaDetector.event_types
-      ~PCDSAreaDetector.hdf51
-      ~PCDSAreaDetector.hints
-      ~PCDSAreaDetector.image1
-      ~PCDSAreaDetector.image1_cc
-      ~PCDSAreaDetector.image1_over
-      ~PCDSAreaDetector.image1_proc
-      ~PCDSAreaDetector.image1_roi
-      ~PCDSAreaDetector.image2
-      ~PCDSAreaDetector.image2_cc
-      ~PCDSAreaDetector.image2_over
-      ~PCDSAreaDetector.image2_proc
-      ~PCDSAreaDetector.image2_roi
-      ~PCDSAreaDetector.jpeg1
-      ~PCDSAreaDetector.kind
-      ~PCDSAreaDetector.lazy_wait_for_connection
-      ~PCDSAreaDetector.name
-      ~PCDSAreaDetector.netcdf1
-      ~PCDSAreaDetector.nexus1
-      ~PCDSAreaDetector.over1
-      ~PCDSAreaDetector.parent
-      ~PCDSAreaDetector.proc1
-      ~PCDSAreaDetector.read_attrs
-      ~PCDSAreaDetector.report
-      ~PCDSAreaDetector.roi1
-      ~PCDSAreaDetector.roi2
-      ~PCDSAreaDetector.roi3
-      ~PCDSAreaDetector.roi4
-      ~PCDSAreaDetector.root
-      ~PCDSAreaDetector.signal_names
-      ~PCDSAreaDetector.stats1
-      ~PCDSAreaDetector.stats2
-      ~PCDSAreaDetector.stats3
-      ~PCDSAreaDetector.stats4
-      ~PCDSAreaDetector.stats5
-      ~PCDSAreaDetector.thumbnail
-      ~PCDSAreaDetector.thumbnail_cc
-      ~PCDSAreaDetector.thumbnail_over
-      ~PCDSAreaDetector.thumbnail_proc
-      ~PCDSAreaDetector.thumbnail_roi
-      ~PCDSAreaDetector.tiff1
-      ~PCDSAreaDetector.trans1
-      ~PCDSAreaDetector.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~PCDSAreaDetector.collect_asset_docs
+       ~PCDSAreaDetector.configure
+       ~PCDSAreaDetector.describe
+       ~PCDSAreaDetector.dispatch
+       ~PCDSAreaDetector.find_signal
+       ~PCDSAreaDetector.get
+       ~PCDSAreaDetector.get_asyn_digraph
+       ~PCDSAreaDetector.get_asyn_port_dictionary
+       ~PCDSAreaDetector.get_full_area_detector
+       ~PCDSAreaDetector.get_plugin_by_asyn_port
+       ~PCDSAreaDetector.get_plugin_graph_edges
+       ~PCDSAreaDetector.make_data_key
+       ~PCDSAreaDetector.missing_plugins
+       ~PCDSAreaDetector.read
+       ~PCDSAreaDetector.read_configuration
+       ~PCDSAreaDetector.stop
+       ~PCDSAreaDetector.summary
+       ~PCDSAreaDetector.trigger
+       ~PCDSAreaDetector.validate_asyn_ports
+       ~PCDSAreaDetector.visualize_asyn_digraph
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~PCDSAreaDetector.ad_root
+       ~PCDSAreaDetector.configuration_attrs
+       ~PCDSAreaDetector.connected
+       ~PCDSAreaDetector.hints
+       ~PCDSAreaDetector.kind
+    
+    

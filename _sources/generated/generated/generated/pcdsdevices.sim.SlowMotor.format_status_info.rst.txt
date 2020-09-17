@@ -1,6 +1,0 @@
-pcdsdevices.sim.SlowMotor.format\_status\_info
-==============================================
-
-.. currentmodule:: pcdsdevices.sim
-
-.. automethod:: SlowMotor.format_status_info

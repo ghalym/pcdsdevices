@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.pseudopos.PseudoSingleInterface &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.pseudopos.PseudoSingleInterface &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,8 +37,8 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="pcdsdevices.pseudopos.PseudoSingleInterface.__init__" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.__init__.html" />
-    <link rel="prev" title="pcdsdevices.pseudopos.LookupTablePositioner.walk_subdevices" href="generated/pcdsdevices.pseudopos.LookupTablePositioner.walk_subdevices.html" /> 
+    <link rel="next" title="pcdsdevices.pseudopos.PseudoSingleInterface.camonitor" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.camonitor.html" />
+    <link rel="prev" title="pcdsdevices.pseudopos.LookupTablePositioner.trigger" href="generated/pcdsdevices.pseudopos.LookupTablePositioner.trigger.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -132,49 +133,26 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.DelayBase.html">pcdsdevices.pseudopos.DelayBase</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.LookupTablePositioner.html">pcdsdevices.pseudopos.LookupTablePositioner</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.pseudopos.PseudoSingleInterface</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.__init__.html">pcdsdevices.pseudopos.PseudoSingleInterface.__init__</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.add_instantiation_callback.html">pcdsdevices.pseudopos.PseudoSingleInterface.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.camonitor.html">pcdsdevices.pseudopos.PseudoSingleInterface.camonitor</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.check_value.html">pcdsdevices.pseudopos.PseudoSingleInterface.check_value</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.clear_sub.html">pcdsdevices.pseudopos.PseudoSingleInterface.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.configure.html">pcdsdevices.pseudopos.PseudoSingleInterface.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.describe.html">pcdsdevices.pseudopos.PseudoSingleInterface.describe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.describe_configuration.html">pcdsdevices.pseudopos.PseudoSingleInterface.describe_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.destroy.html">pcdsdevices.pseudopos.PseudoSingleInterface.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.end_monitor_thread.html">pcdsdevices.pseudopos.PseudoSingleInterface.end_monitor_thread</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.format_status_info.html">pcdsdevices.pseudopos.PseudoSingleInterface.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.get.html">pcdsdevices.pseudopos.PseudoSingleInterface.get</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.get_device_tuple.html">pcdsdevices.pseudopos.PseudoSingleInterface.get_device_tuple</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.get_instantiated_signals.html">pcdsdevices.pseudopos.PseudoSingleInterface.get_instantiated_signals</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.move.html">pcdsdevices.pseudopos.PseudoSingleInterface.move</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.mv.html">pcdsdevices.pseudopos.PseudoSingleInterface.mv</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.mv_ginput.html">pcdsdevices.pseudopos.PseudoSingleInterface.mv_ginput</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.mvr.html">pcdsdevices.pseudopos.PseudoSingleInterface.mvr</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.pause.html">pcdsdevices.pseudopos.PseudoSingleInterface.pause</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.put.html">pcdsdevices.pseudopos.PseudoSingleInterface.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.read.html">pcdsdevices.pseudopos.PseudoSingleInterface.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.read_configuration.html">pcdsdevices.pseudopos.PseudoSingleInterface.read_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.resume.html">pcdsdevices.pseudopos.PseudoSingleInterface.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.set.html">pcdsdevices.pseudopos.PseudoSingleInterface.set</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.stage.html">pcdsdevices.pseudopos.PseudoSingleInterface.stage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.status_info.html">pcdsdevices.pseudopos.PseudoSingleInterface.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.stop.html">pcdsdevices.pseudopos.PseudoSingleInterface.stop</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.subscribe.html">pcdsdevices.pseudopos.PseudoSingleInterface.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.summary.html">pcdsdevices.pseudopos.PseudoSingleInterface.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.sync.html">pcdsdevices.pseudopos.PseudoSingleInterface.sync</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.trigger.html">pcdsdevices.pseudopos.PseudoSingleInterface.trigger</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.tweak.html">pcdsdevices.pseudopos.PseudoSingleInterface.tweak</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.umv.html">pcdsdevices.pseudopos.PseudoSingleInterface.umv</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.umvr.html">pcdsdevices.pseudopos.PseudoSingleInterface.umvr</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.unstage.html">pcdsdevices.pseudopos.PseudoSingleInterface.unstage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.unsubscribe.html">pcdsdevices.pseudopos.PseudoSingleInterface.unsubscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.unsubscribe_all.html">pcdsdevices.pseudopos.PseudoSingleInterface.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.wait.html">pcdsdevices.pseudopos.PseudoSingleInterface.wait</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.wait_for_connection.html">pcdsdevices.pseudopos.PseudoSingleInterface.wait_for_connection</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.walk_components.html">pcdsdevices.pseudopos.PseudoSingleInterface.walk_components</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.walk_signals.html">pcdsdevices.pseudopos.PseudoSingleInterface.walk_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.walk_subdevice_classes.html">pcdsdevices.pseudopos.PseudoSingleInterface.walk_subdevice_classes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.walk_subdevices.html">pcdsdevices.pseudopos.PseudoSingleInterface.walk_subdevices</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.wm.html">pcdsdevices.pseudopos.PseudoSingleInterface.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.wm_update.html">pcdsdevices.pseudopos.PseudoSingleInterface.wm_update</a></li>
 </ul>
@@ -271,6 +249,34 @@
 <dt id="pcdsdevices.pseudopos.PseudoSingleInterface">
 <em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.pseudopos.</code><code class="sig-name descname">PseudoSingleInterface</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.pseudopos.PseudoSingleInterface" title="Permalink to this definition">¶</a></dt>
 <dd><p>PseudoSingle with FltMvInterface mixed in.</p>
+<table class="colwidths-auto docutils align-default" id="id1">
+<caption><span class="caption-text">Ophyd Device Components</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Attribute</p></th>
+<th class="head"><p>Class</p></th>
+<th class="head"><p>Suffix</p></th>
+<th class="head"><p>Docs</p></th>
+<th class="head"><p>Kind</p></th>
+<th class="head"><p>Notes</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>readback</p></td>
+<td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">AttributeSignal</span></code></p></td>
+<td></td>
+<td></td>
+<td><p>hinted</p></td>
+<td><p>Inherited from <a class="reference external" href="https://blueskyproject.io/ophyd/positioners.html#ophyd.pseudopos.PseudoSingle" title="(in ophyd v1.5.3.post4+g0dd98ba)"><code class="xref py py-class docutils literal notranslate"><span class="pre">PseudoSingle</span></code></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>setpoint</p></td>
+<td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">AttributeSignal</span></code></p></td>
+<td></td>
+<td></td>
+<td><p>normal</p></td>
+<td><p>Inherited from <a class="reference external" href="https://blueskyproject.io/ophyd/positioners.html#ophyd.pseudopos.PseudoSingle" title="(in ophyd v1.5.3.post4+g0dd98ba)"><code class="xref py py-class docutils literal notranslate"><span class="pre">PseudoSingle</span></code></a></p></td>
+</tr>
+</tbody>
+</table>
 <p class="rubric">Methods</p>
 <table class="longtable docutils align-default">
 <colgroup>
@@ -278,20 +284,8 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.__init__.html#pcdsdevices.pseudopos.PseudoSingleInterface.__init__" title="pcdsdevices.pseudopos.PseudoSingleInterface.__init__"><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code></a>(*args, **kwargs)</p></td>
-<td><p>Initialize self.</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.add_instantiation_callback.html#pcdsdevices.pseudopos.PseudoSingleInterface.add_instantiation_callback" title="pcdsdevices.pseudopos.PseudoSingleInterface.add_instantiation_callback"><code class="xref py py-obj docutils literal notranslate"><span class="pre">add_instantiation_callback</span></code></a>(callback[, …])</p></td>
-<td><p>Register a callback which will receive each OphydObject instance.</p></td>
-</tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.camonitor.html#pcdsdevices.pseudopos.PseudoSingleInterface.camonitor" title="pcdsdevices.pseudopos.PseudoSingleInterface.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.check_value.html#pcdsdevices.pseudopos.PseudoSingleInterface.check_value" title="pcdsdevices.pseudopos.PseudoSingleInterface.check_value"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_value</span></code></a>(pos)</p></td>
-<td><p>Check if the value is valid for this object</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.clear_sub.html#pcdsdevices.pseudopos.PseudoSingleInterface.clear_sub" title="pcdsdevices.pseudopos.PseudoSingleInterface.clear_sub"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_sub</span></code></a>(cb[, event_type])</p></td>
-<td><p>Remove a subscription, given the original callback function</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.configure.html#pcdsdevices.pseudopos.PseudoSingleInterface.configure" title="pcdsdevices.pseudopos.PseudoSingleInterface.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
 <td><p>Configure the device for something during a run</p></td>
@@ -299,118 +293,61 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.describe.html#pcdsdevices.pseudopos.PseudoSingleInterface.describe" title="pcdsdevices.pseudopos.PseudoSingleInterface.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
 <td><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code>.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.describe_configuration.html#pcdsdevices.pseudopos.PseudoSingleInterface.describe_configuration" title="pcdsdevices.pseudopos.PseudoSingleInterface.describe_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe_configuration</span></code></a>()</p></td>
-<td><p>Provide schema &amp; meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read_configuration()</span></code></p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.destroy.html#pcdsdevices.pseudopos.PseudoSingleInterface.destroy" title="pcdsdevices.pseudopos.PseudoSingleInterface.destroy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">destroy</span></code></a>()</p></td>
-<td><p>Disconnect and destroy all signals on the Device</p></td>
-</tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.end_monitor_thread.html#pcdsdevices.pseudopos.PseudoSingleInterface.end_monitor_thread" title="pcdsdevices.pseudopos.PseudoSingleInterface.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
 <td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.camonitor.html#pcdsdevices.pseudopos.PseudoSingleInterface.camonitor" title="pcdsdevices.pseudopos.PseudoSingleInterface.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.wm_update.html#pcdsdevices.pseudopos.PseudoSingleInterface.wm_update" title="pcdsdevices.pseudopos.PseudoSingleInterface.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.format_status_info.html#pcdsdevices.pseudopos.PseudoSingleInterface.format_status_info" title="pcdsdevices.pseudopos.PseudoSingleInterface.format_status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">format_status_info</span></code></a>(status_info)</p></td>
-<td><p>Entry point for the mini status displays in the ipython terminal.</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.get.html#pcdsdevices.pseudopos.PseudoSingleInterface.get" title="pcdsdevices.pseudopos.PseudoSingleInterface.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.get.html#pcdsdevices.pseudopos.PseudoSingleInterface.get" title="pcdsdevices.pseudopos.PseudoSingleInterface.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.get_device_tuple.html#pcdsdevices.pseudopos.PseudoSingleInterface.get_device_tuple" title="pcdsdevices.pseudopos.PseudoSingleInterface.get_device_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_device_tuple</span></code></a>()</p></td>
-<td><p>The device tuple type associated with an Device class</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.get_instantiated_signals.html#pcdsdevices.pseudopos.PseudoSingleInterface.get_instantiated_signals" title="pcdsdevices.pseudopos.PseudoSingleInterface.get_instantiated_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_instantiated_signals</span></code></a>(*[, attr_prefix])</p></td>
-<td><p>Yields all of the instantiated signals in a device hierarchy</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.move.html#pcdsdevices.pseudopos.PseudoSingleInterface.move" title="pcdsdevices.pseudopos.PseudoSingleInterface.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.move.html#pcdsdevices.pseudopos.PseudoSingleInterface.move" title="pcdsdevices.pseudopos.PseudoSingleInterface.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Move this pseudo axis to a specific position.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.mv.html#pcdsdevices.pseudopos.PseudoSingleInterface.mv" title="pcdsdevices.pseudopos.PseudoSingleInterface.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[, timeout, wait, log])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.mv.html#pcdsdevices.pseudopos.PseudoSingleInterface.mv" title="pcdsdevices.pseudopos.PseudoSingleInterface.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[, timeout, wait, log])</p></td>
 <td><p>Absolute move to a position.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.mv_ginput.html#pcdsdevices.pseudopos.PseudoSingleInterface.mv_ginput" title="pcdsdevices.pseudopos.PseudoSingleInterface.mv_ginput"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv_ginput</span></code></a>([timeout])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.mv_ginput.html#pcdsdevices.pseudopos.PseudoSingleInterface.mv_ginput" title="pcdsdevices.pseudopos.PseudoSingleInterface.mv_ginput"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv_ginput</span></code></a>([timeout])</p></td>
 <td><p>Moves to a location the user clicks on.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.mvr.html#pcdsdevices.pseudopos.PseudoSingleInterface.mvr" title="pcdsdevices.pseudopos.PseudoSingleInterface.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[, timeout, wait, log])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.mvr.html#pcdsdevices.pseudopos.PseudoSingleInterface.mvr" title="pcdsdevices.pseudopos.PseudoSingleInterface.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[, timeout, wait, log])</p></td>
 <td><p>Relative move from this position.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.pause.html#pcdsdevices.pseudopos.PseudoSingleInterface.pause" title="pcdsdevices.pseudopos.PseudoSingleInterface.pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pause</span></code></a>()</p></td>
-<td><p>Attempt to ‘pause’ the device.</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.put.html#pcdsdevices.pseudopos.PseudoSingleInterface.put" title="pcdsdevices.pseudopos.PseudoSingleInterface.put"><code class="xref py py-obj docutils literal notranslate"><span class="pre">put</span></code></a>(dev_t, **kwargs)</p></td>
-<td><p>Put a value to all components of the device</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.read.html#pcdsdevices.pseudopos.PseudoSingleInterface.read" title="pcdsdevices.pseudopos.PseudoSingleInterface.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.read.html#pcdsdevices.pseudopos.PseudoSingleInterface.read" title="pcdsdevices.pseudopos.PseudoSingleInterface.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
 <td><p>Read data from the device.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.read_configuration.html#pcdsdevices.pseudopos.PseudoSingleInterface.read_configuration" title="pcdsdevices.pseudopos.PseudoSingleInterface.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.read_configuration.html#pcdsdevices.pseudopos.PseudoSingleInterface.read_configuration" title="pcdsdevices.pseudopos.PseudoSingleInterface.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.resume.html#pcdsdevices.pseudopos.PseudoSingleInterface.resume" title="pcdsdevices.pseudopos.PseudoSingleInterface.resume"><code class="xref py py-obj docutils literal notranslate"><span class="pre">resume</span></code></a>()</p></td>
-<td><p>Resume a device from a ‘paused’ state.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.set.html#pcdsdevices.pseudopos.PseudoSingleInterface.set" title="pcdsdevices.pseudopos.PseudoSingleInterface.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position, *[, timeout, moved_cb, wait])</p></td>
 <td><p>Set a value and return a Status object</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.stage.html#pcdsdevices.pseudopos.PseudoSingleInterface.stage" title="pcdsdevices.pseudopos.PseudoSingleInterface.stage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage</span></code></a>()</p></td>
-<td><p>Stage the device for data collection.</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.status_info.html#pcdsdevices.pseudopos.PseudoSingleInterface.status_info" title="pcdsdevices.pseudopos.PseudoSingleInterface.status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status_info</span></code></a>()</p></td>
-<td><p>Get useful information for the status display.</p></td>
-</tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.stop.html#pcdsdevices.pseudopos.PseudoSingleInterface.stop" title="pcdsdevices.pseudopos.PseudoSingleInterface.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop motion on the PseudoPositioner</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.subscribe.html#pcdsdevices.pseudopos.PseudoSingleInterface.subscribe" title="pcdsdevices.pseudopos.PseudoSingleInterface.subscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">subscribe</span></code></a>(callback[, event_type, run])</p></td>
-<td><p>Subscribe to events this event_type generates.</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.summary.html#pcdsdevices.pseudopos.PseudoSingleInterface.summary" title="pcdsdevices.pseudopos.PseudoSingleInterface.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.summary.html#pcdsdevices.pseudopos.PseudoSingleInterface.summary" title="pcdsdevices.pseudopos.PseudoSingleInterface.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.sync.html#pcdsdevices.pseudopos.PseudoSingleInterface.sync" title="pcdsdevices.pseudopos.PseudoSingleInterface.sync"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sync</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.sync.html#pcdsdevices.pseudopos.PseudoSingleInterface.sync" title="pcdsdevices.pseudopos.PseudoSingleInterface.sync"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sync</span></code></a>()</p></td>
 <td><p>Synchronize target position with current readback position</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.trigger.html#pcdsdevices.pseudopos.PseudoSingleInterface.trigger" title="pcdsdevices.pseudopos.PseudoSingleInterface.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.trigger.html#pcdsdevices.pseudopos.PseudoSingleInterface.trigger" title="pcdsdevices.pseudopos.PseudoSingleInterface.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.tweak.html#pcdsdevices.pseudopos.PseudoSingleInterface.tweak" title="pcdsdevices.pseudopos.PseudoSingleInterface.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.tweak.html#pcdsdevices.pseudopos.PseudoSingleInterface.tweak" title="pcdsdevices.pseudopos.PseudoSingleInterface.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
 <td><p>Control this motor using the arrow keys.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.umv.html#pcdsdevices.pseudopos.PseudoSingleInterface.umv" title="pcdsdevices.pseudopos.PseudoSingleInterface.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.umv.html#pcdsdevices.pseudopos.PseudoSingleInterface.umv" title="pcdsdevices.pseudopos.PseudoSingleInterface.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
 <td><p>Move to a position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.umvr.html#pcdsdevices.pseudopos.PseudoSingleInterface.umvr" title="pcdsdevices.pseudopos.PseudoSingleInterface.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.umvr.html#pcdsdevices.pseudopos.PseudoSingleInterface.umvr" title="pcdsdevices.pseudopos.PseudoSingleInterface.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
 <td><p>Relative move from this position, wait, and update with a progress bar.</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.unstage.html#pcdsdevices.pseudopos.PseudoSingleInterface.unstage" title="pcdsdevices.pseudopos.PseudoSingleInterface.unstage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unstage</span></code></a>()</p></td>
-<td><p>Unstage the device.</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.unsubscribe.html#pcdsdevices.pseudopos.PseudoSingleInterface.unsubscribe" title="pcdsdevices.pseudopos.PseudoSingleInterface.unsubscribe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe</span></code></a>(cid)</p></td>
-<td><p>Remove a subscription</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.unsubscribe_all.html#pcdsdevices.pseudopos.PseudoSingleInterface.unsubscribe_all" title="pcdsdevices.pseudopos.PseudoSingleInterface.unsubscribe_all"><code class="xref py py-obj docutils literal notranslate"><span class="pre">unsubscribe_all</span></code></a>()</p></td>
-<td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.wait.html#pcdsdevices.pseudopos.PseudoSingleInterface.wait" title="pcdsdevices.pseudopos.PseudoSingleInterface.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.wait_for_connection.html#pcdsdevices.pseudopos.PseudoSingleInterface.wait_for_connection" title="pcdsdevices.pseudopos.PseudoSingleInterface.wait_for_connection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_for_connection</span></code></a>([all_signals, timeout])</p></td>
-<td><p>Wait for signals to connect</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.walk_components.html#pcdsdevices.pseudopos.PseudoSingleInterface.walk_components" title="pcdsdevices.pseudopos.PseudoSingleInterface.walk_components"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_components</span></code></a>()</p></td>
-<td><p>Walk all components in the Device hierarchy</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.walk_signals.html#pcdsdevices.pseudopos.PseudoSingleInterface.walk_signals" title="pcdsdevices.pseudopos.PseudoSingleInterface.walk_signals"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_signals</span></code></a>(*[, include_lazy])</p></td>
-<td><p>Walk all signals in the Device hierarchy</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.walk_subdevice_classes.html#pcdsdevices.pseudopos.PseudoSingleInterface.walk_subdevice_classes" title="pcdsdevices.pseudopos.PseudoSingleInterface.walk_subdevice_classes"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevice_classes</span></code></a>()</p></td>
-<td><p>Walk all sub-Devices classes in the Device hierarchy</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.walk_subdevices.html#pcdsdevices.pseudopos.PseudoSingleInterface.walk_subdevices" title="pcdsdevices.pseudopos.PseudoSingleInterface.walk_subdevices"><code class="xref py py-obj docutils literal notranslate"><span class="pre">walk_subdevices</span></code></a>(*[, include_lazy])</p></td>
-<td><p>Walk all sub-Devices in the hierarchy</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.wm.html#pcdsdevices.pseudopos.PseudoSingleInterface.wm" title="pcdsdevices.pseudopos.PseudoSingleInterface.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.wm.html#pcdsdevices.pseudopos.PseudoSingleInterface.wm" title="pcdsdevices.pseudopos.PseudoSingleInterface.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.wm_update.html#pcdsdevices.pseudopos.PseudoSingleInterface.wm_update" title="pcdsdevices.pseudopos.PseudoSingleInterface.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.wm_update.html#pcdsdevices.pseudopos.PseudoSingleInterface.wm_update" title="pcdsdevices.pseudopos.PseudoSingleInterface.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>
@@ -422,38 +359,14 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_ACQ_DONE</span></code></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_DONE</span></code></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_READBACK</span></code></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">SUB_START</span></code></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">attr_name</span></code></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">component_names</span></code></p></td>
-<td><p></p></td>
-</tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_attrs</span></code></p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></p></td>
 <td><p>If the device is connected.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">dotted_name</span></code></p></td>
-<td><p>Return the dotted name</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">egu</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">egu</span></code></p></td>
 <td><p>The engineering units (EGU) for positions</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">event_types</span></code></p></td>
-<td><p>Events that can be subscribed to via <code class="xref any docutils literal notranslate"><span class="pre">obj.subscribe</span></code></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">high_limit</span></code></p></td>
 <td><p></p></td>
@@ -464,62 +377,29 @@
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">lazy_wait_for_connection</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">limits</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">limits</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">low_limit</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">low_limit</span></code></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">moving</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">moving</span></code></p></td>
 <td><p>Whether or not the motor is moving</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">name</span></code></p></td>
-<td><p>name of the device</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">parent</span></code></p></td>
-<td><p>The parent of the ophyd object.</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></p></td>
 <td><p>The current position of the motor in its engineering units</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">presets</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">presets</span></code></p></td>
 <td><p></p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_attrs</span></code></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">readback</span></code></p></td>
-<td><p>A descriptor representing a device component (or signal)</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">report</span></code></p></td>
-<td><p>A report on the object.</p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">root</span></code></p></td>
-<td><p>Walk parents to find ultimate ancestor (parent’s parent…).</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">setpoint</span></code></p></td>
-<td><p>A descriptor representing a device component (or signal)</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></p></td>
 <td><p>Amount of time to wait after moves to report status completion</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">signal_names</span></code></p></td>
-<td><p></p></td>
-</tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">tab_whitelist</span></code></p></td>
-<td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">target</span></code></p></td>
 <td><p>Last commanded target position</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">timeout</span></code></p></td>
 <td><p>Amount of time to wait before to considering a motion as failed</p></td>
-</tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger_signals</span></code></p></td>
-<td><p></p></td>
 </tr>
 </tbody>
 </table>
@@ -535,10 +415,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.__init__.html" class="btn btn-neutral float-right" title="pcdsdevices.pseudopos.PseudoSingleInterface.__init__" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.camonitor.html" class="btn btn-neutral float-right" title="pcdsdevices.pseudopos.PseudoSingleInterface.camonitor" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="generated/pcdsdevices.pseudopos.LookupTablePositioner.walk_subdevices.html" class="btn btn-neutral float-left" title="pcdsdevices.pseudopos.LookupTablePositioner.walk_subdevices" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="generated/pcdsdevices.pseudopos.LookupTablePositioner.trigger.html" class="btn btn-neutral float-left" title="pcdsdevices.pseudopos.LookupTablePositioner.trigger" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

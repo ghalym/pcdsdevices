@@ -1,6 +1,0 @@
-pcdsdevices.gon.BaseGon.resume
-==============================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: BaseGon.resume

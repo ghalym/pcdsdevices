@@ -1,6 +1,0 @@
-pcdsdevices.pump.PIPSerial.walk\_subdevice\_classes
-===================================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: PIPSerial.walk_subdevice_classes

@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.valve.VRC.read_configuration &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.valve.VRC.read_configuration &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,7 +37,7 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.valve.VRC.resume" href="pcdsdevices.valve.VRC.resume.html" />
+    <link rel="next" title="pcdsdevices.valve.VRC.stop" href="pcdsdevices.valve.VRC.stop.html" />
     <link rel="prev" title="pcdsdevices.valve.VRC.read" href="pcdsdevices.valve.VRC.read.html" /> 
 </head>
 
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -149,35 +150,14 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.valve.VGC.html">pcdsdevices.valve.VGC</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.valve.VGCLegacy.html">pcdsdevices.valve.VGCLegacy</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.valve.VRC.html">pcdsdevices.valve.VRC</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.__init__.html">pcdsdevices.valve.VRC.__init__</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.add_instantiation_callback.html">pcdsdevices.valve.VRC.add_instantiation_callback</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.check_value.html">pcdsdevices.valve.VRC.check_value</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.clear_sub.html">pcdsdevices.valve.VRC.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.configure.html">pcdsdevices.valve.VRC.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.describe.html">pcdsdevices.valve.VRC.describe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.describe_configuration.html">pcdsdevices.valve.VRC.describe_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.destroy.html">pcdsdevices.valve.VRC.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.get.html">pcdsdevices.valve.VRC.get</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.get_device_tuple.html">pcdsdevices.valve.VRC.get_device_tuple</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.get_instantiated_signals.html">pcdsdevices.valve.VRC.get_instantiated_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.pause.html">pcdsdevices.valve.VRC.pause</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.put.html">pcdsdevices.valve.VRC.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.read.html">pcdsdevices.valve.VRC.read</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.valve.VRC.read_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.resume.html">pcdsdevices.valve.VRC.resume</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.stage.html">pcdsdevices.valve.VRC.stage</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.stop.html">pcdsdevices.valve.VRC.stop</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.subscribe.html">pcdsdevices.valve.VRC.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.summary.html">pcdsdevices.valve.VRC.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.trigger.html">pcdsdevices.valve.VRC.trigger</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.unstage.html">pcdsdevices.valve.VRC.unstage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.unsubscribe.html">pcdsdevices.valve.VRC.unsubscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.unsubscribe_all.html">pcdsdevices.valve.VRC.unsubscribe_all</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.wait_for_connection.html">pcdsdevices.valve.VRC.wait_for_connection</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.walk_components.html">pcdsdevices.valve.VRC.walk_components</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.walk_signals.html">pcdsdevices.valve.VRC.walk_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.walk_subdevice_classes.html">pcdsdevices.valve.VRC.walk_subdevice_classes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.valve.VRC.walk_subdevices.html">pcdsdevices.valve.VRC.walk_subdevices</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.valve.VVC.html">pcdsdevices.valve.VVC</a></li>
@@ -279,7 +259,7 @@ device, or modify the <code class="docutils literal notranslate"><span class="pr
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.valve.VRC.resume.html" class="btn btn-neutral float-right" title="pcdsdevices.valve.VRC.resume" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.valve.VRC.stop.html" class="btn btn-neutral float-right" title="pcdsdevices.valve.VRC.stop" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="pcdsdevices.valve.VRC.read.html" class="btn btn-neutral float-left" title="pcdsdevices.valve.VRC.read" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

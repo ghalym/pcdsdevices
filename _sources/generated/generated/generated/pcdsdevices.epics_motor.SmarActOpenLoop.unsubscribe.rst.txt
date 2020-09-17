@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.SmarActOpenLoop.unsubscribe
-====================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: SmarActOpenLoop.unsubscribe

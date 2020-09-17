@@ -1,6 +1,0 @@
-pcdsdevices.mps.MPS.pause
-=========================
-
-.. currentmodule:: pcdsdevices.mps
-
-.. automethod:: MPS.pause

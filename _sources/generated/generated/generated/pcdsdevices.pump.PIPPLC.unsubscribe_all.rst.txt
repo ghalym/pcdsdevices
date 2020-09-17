@@ -1,6 +1,0 @@
-pcdsdevices.pump.PIPPLC.unsubscribe\_all
-========================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: PIPPLC.unsubscribe_all

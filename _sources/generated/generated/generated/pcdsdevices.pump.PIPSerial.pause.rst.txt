@@ -1,6 +1,0 @@
-pcdsdevices.pump.PIPSerial.pause
-================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: PIPSerial.pause

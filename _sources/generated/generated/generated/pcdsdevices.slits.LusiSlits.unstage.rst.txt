@@ -1,6 +1,0 @@
-pcdsdevices.slits.LusiSlits.unstage
-===================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: LusiSlits.unstage

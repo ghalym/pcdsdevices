@@ -1,6 +1,0 @@
-pcdsdevices.lens.LensStack.status\_info
-=======================================
-
-.. currentmodule:: pcdsdevices.lens
-
-.. automethod:: LensStack.status_info

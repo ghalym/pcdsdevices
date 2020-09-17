@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMWithBoth.put
-===============================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMWithBoth.put

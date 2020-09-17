@@ -1,6 +1,0 @@
-pcdsdevices.valve.GateValve.format\_status\_info
-================================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: GateValve.format_status_info

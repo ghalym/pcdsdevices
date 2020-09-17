@@ -7,36 +7,37 @@ pcdsdevices.interface.FltMvInterface
 
    
    
-   .. rubric:: Methods
-
-   .. autosummary::
-      :toctree: generated
-   
-      ~FltMvInterface.__init__
-      ~FltMvInterface.camonitor
-      ~FltMvInterface.end_monitor_thread
-      ~FltMvInterface.format_status_info
-      ~FltMvInterface.move
-      ~FltMvInterface.mv
-      ~FltMvInterface.mv_ginput
-      ~FltMvInterface.mvr
-      ~FltMvInterface.status_info
-      ~FltMvInterface.tweak
-      ~FltMvInterface.umv
-      ~FltMvInterface.umvr
-      ~FltMvInterface.wait
-      ~FltMvInterface.wm
-      ~FltMvInterface.wm_update
-   
    
 
-   
-   
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~FltMvInterface.presets
-      ~FltMvInterface.tab_whitelist
-   
-   
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~FltMvInterface.camonitor
+       ~FltMvInterface.end_monitor_thread
+       ~FltMvInterface.move
+       ~FltMvInterface.mv
+       ~FltMvInterface.mv_ginput
+       ~FltMvInterface.mvr
+       ~FltMvInterface.tweak
+       ~FltMvInterface.umv
+       ~FltMvInterface.umvr
+       ~FltMvInterface.wait
+       ~FltMvInterface.wm
+       ~FltMvInterface.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~FltMvInterface.presets
+    
+    

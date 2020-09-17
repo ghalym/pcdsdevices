@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.LODCM.subscribe
-=================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: LODCM.subscribe

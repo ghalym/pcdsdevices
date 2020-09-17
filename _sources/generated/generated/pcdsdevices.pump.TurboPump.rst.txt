@@ -7,71 +7,70 @@ pcdsdevices.pump.TurboPump
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~TurboPump.__init__
-      ~TurboPump.add_instantiation_callback
-      ~TurboPump.check_value
-      ~TurboPump.clear_sub
-      ~TurboPump.configure
-      ~TurboPump.describe
-      ~TurboPump.describe_configuration
-      ~TurboPump.destroy
-      ~TurboPump.format_status_info
-      ~TurboPump.get
-      ~TurboPump.get_device_tuple
-      ~TurboPump.get_instantiated_signals
-      ~TurboPump.pause
-      ~TurboPump.put
-      ~TurboPump.read
-      ~TurboPump.read_configuration
-      ~TurboPump.resume
-      ~TurboPump.run
-      ~TurboPump.stage
-      ~TurboPump.status_info
-      ~TurboPump.stop
-      ~TurboPump.subscribe
-      ~TurboPump.summary
-      ~TurboPump.trigger
-      ~TurboPump.unstage
-      ~TurboPump.unsubscribe
-      ~TurboPump.unsubscribe_all
-      ~TurboPump.wait_for_connection
-      ~TurboPump.walk_components
-      ~TurboPump.walk_signals
-      ~TurboPump.walk_subdevice_classes
-      ~TurboPump.walk_subdevices
+       *  -  atspeed
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:ATSPEED_DI``
+          -  
+          -  normal
+          -  
+   
+       *  -  start
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:START_SW``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~TurboPump.SUB_ACQ_DONE
-      ~TurboPump.atspeed
-      ~TurboPump.attr_name
-      ~TurboPump.component_names
-      ~TurboPump.configuration_attrs
-      ~TurboPump.connected
-      ~TurboPump.dotted_name
-      ~TurboPump.event_types
-      ~TurboPump.hints
-      ~TurboPump.kind
-      ~TurboPump.lazy_wait_for_connection
-      ~TurboPump.name
-      ~TurboPump.parent
-      ~TurboPump.read_attrs
-      ~TurboPump.report
-      ~TurboPump.root
-      ~TurboPump.signal_names
-      ~TurboPump.start
-      ~TurboPump.tab_whitelist
-      ~TurboPump.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~TurboPump.configure
+       ~TurboPump.describe
+       ~TurboPump.get
+       ~TurboPump.read
+       ~TurboPump.read_configuration
+       ~TurboPump.run
+       ~TurboPump.stop
+       ~TurboPump.summary
+       ~TurboPump.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~TurboPump.configuration_attrs
+       ~TurboPump.connected
+       ~TurboPump.hints
+       ~TurboPump.kind
+    
+    

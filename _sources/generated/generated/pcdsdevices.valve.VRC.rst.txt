@@ -7,79 +7,134 @@ pcdsdevices.valve.VRC
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~VRC.__init__
-      ~VRC.add_instantiation_callback
-      ~VRC.check_value
-      ~VRC.clear_sub
-      ~VRC.configure
-      ~VRC.describe
-      ~VRC.describe_configuration
-      ~VRC.destroy
-      ~VRC.get
-      ~VRC.get_device_tuple
-      ~VRC.get_instantiated_signals
-      ~VRC.pause
-      ~VRC.put
-      ~VRC.read
-      ~VRC.read_configuration
-      ~VRC.resume
-      ~VRC.stage
-      ~VRC.stop
-      ~VRC.subscribe
-      ~VRC.summary
-      ~VRC.trigger
-      ~VRC.unstage
-      ~VRC.unsubscribe
-      ~VRC.unsubscribe_all
-      ~VRC.wait_for_connection
-      ~VRC.walk_components
-      ~VRC.walk_signals
-      ~VRC.walk_subdevice_classes
-      ~VRC.walk_subdevices
+       *  -  open_command
+          -  :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
+          -  ``:OPN_SW``
+          -  Epics command to Open valve
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.valve.VVC`
+   
+       *  -  interlock_ok
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:OPN_OK_RBV``
+          -  Valve is OK to Open interlock 
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.valve.VVC`
+   
+       *  -  open_do
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:OPN_DO_RBV``
+          -  PLC Output to Open valve, 1 means 24V on command cable
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.valve.VVC`
+   
+       *  -  error_reset
+          -  :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
+          -  ``:ALM_RST``
+          -  Reset Error state to valid by toggling this
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.valve.VVC`
+   
+       *  -  override_status
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:OVRD_ON_RBV``
+          -  Epics Readback on Override mode
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.valve.VVC`
+   
+       *  -  override_force_open
+          -  :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
+          -  ``:FORCE_OPN``
+          -  Epics Command to force open the valve inoverride mode
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.valve.VVC`
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:STATE_RBV``
+          -  Valve state
+          -  normal
+          -  
+   
+       *  -  open_limit
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:OPN_DI_RBV``
+          -  Open limit switch digital input
+          -  hinted
+          -  
+   
+       *  -  closed_limit
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:CLS_DI_RBV``
+          -  Closed limit switch digital input
+          -  hinted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~VRC.SUB_ACQ_DONE
-      ~VRC.SUB_STATE
-      ~VRC.attr_name
-      ~VRC.closed_limit
-      ~VRC.component_names
-      ~VRC.configuration_attrs
-      ~VRC.connected
-      ~VRC.dotted_name
-      ~VRC.error_reset
-      ~VRC.event_types
-      ~VRC.hints
-      ~VRC.inserted
-      ~VRC.interlock_ok
-      ~VRC.kind
-      ~VRC.lazy_wait_for_connection
-      ~VRC.lightpath_cpts
-      ~VRC.name
-      ~VRC.open_command
-      ~VRC.open_do
-      ~VRC.open_limit
-      ~VRC.override_force_open
-      ~VRC.override_status
-      ~VRC.parent
-      ~VRC.read_attrs
-      ~VRC.removed
-      ~VRC.report
-      ~VRC.root
-      ~VRC.signal_names
-      ~VRC.state
-      ~VRC.transmission
-      ~VRC.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~VRC.configure
+       ~VRC.describe
+       ~VRC.get
+       ~VRC.read
+       ~VRC.read_configuration
+       ~VRC.stop
+       ~VRC.summary
+       ~VRC.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~VRC.configuration_attrs
+       ~VRC.connected
+       ~VRC.hints
+       ~VRC.kind
+       ~VRC.lightpath_cpts
+       ~VRC.transmission
+    
+    

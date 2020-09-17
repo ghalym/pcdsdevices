@@ -7,107 +7,124 @@ pcdsdevices.mirror.PointingMirror
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~PointingMirror.__init__
-      ~PointingMirror.add_instantiation_callback
-      ~PointingMirror.camonitor
-      ~PointingMirror.check_inserted
-      ~PointingMirror.check_removed
-      ~PointingMirror.check_transmission
-      ~PointingMirror.check_value
-      ~PointingMirror.clear_sub
-      ~PointingMirror.configure
-      ~PointingMirror.describe
-      ~PointingMirror.describe_configuration
-      ~PointingMirror.destroy
-      ~PointingMirror.end_monitor_thread
-      ~PointingMirror.format_status_info
-      ~PointingMirror.get
-      ~PointingMirror.get_device_tuple
-      ~PointingMirror.get_instantiated_signals
-      ~PointingMirror.get_state
-      ~PointingMirror.insert
-      ~PointingMirror.move
-      ~PointingMirror.mv
-      ~PointingMirror.pause
-      ~PointingMirror.put
-      ~PointingMirror.read
-      ~PointingMirror.read_configuration
-      ~PointingMirror.remove
-      ~PointingMirror.resume
-      ~PointingMirror.set
-      ~PointingMirror.stage
-      ~PointingMirror.status_info
-      ~PointingMirror.stop
-      ~PointingMirror.subscribe
-      ~PointingMirror.summary
-      ~PointingMirror.trigger
-      ~PointingMirror.unstage
-      ~PointingMirror.unsubscribe
-      ~PointingMirror.unsubscribe_all
-      ~PointingMirror.wait
-      ~PointingMirror.wait_for_connection
-      ~PointingMirror.walk_components
-      ~PointingMirror.walk_signals
-      ~PointingMirror.walk_subdevice_classes
-      ~PointingMirror.walk_subdevices
-      ~PointingMirror.wm
-      ~PointingMirror.wm_update
+       *  -  pitch (FCpt)
+          -  :class:`~pcdsdevices.mirror.Pitch`
+          -  ``MIRR:{self.prefix}``
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.mirror.OffsetMirror`
    
+       *  -  xgantry (FCpt)
+          -  :class:`~pcdsdevices.mirror.Gantry`
+          -  ``{self._prefix_xy}:X``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.mirror.OffsetMirror`
+   
+       *  -  ygantry (FCpt)
+          -  :class:`~pcdsdevices.mirror.Gantry`
+          -  ``{self._prefix_xy}:Y``
+          -  
+          -  config
+          -  Inherited from :class:`~pcdsdevices.mirror.OffsetMirror`
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+       *  -  motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:MOTOR``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
    
 
    
    
-   .. rubric:: Attributes
+   
+   
+   
+   
+   
+   
+   
+   
+   
 
-   .. autosummary::
-   
-      ~PointingMirror.SUB_ACQ_DONE
-      ~PointingMirror.SUB_DONE
-      ~PointingMirror.SUB_READBACK
-      ~PointingMirror.SUB_START
-      ~PointingMirror.SUB_STATE
-      ~PointingMirror.attr_name
-      ~PointingMirror.branches
-      ~PointingMirror.component_names
-      ~PointingMirror.configuration_attrs
-      ~PointingMirror.connected
-      ~PointingMirror.destination
-      ~PointingMirror.dotted_name
-      ~PointingMirror.egu
-      ~PointingMirror.event_types
-      ~PointingMirror.high_limit
-      ~PointingMirror.hints
-      ~PointingMirror.in_states
-      ~PointingMirror.inserted
-      ~PointingMirror.kind
-      ~PointingMirror.lazy_wait_for_connection
-      ~PointingMirror.limits
-      ~PointingMirror.low_limit
-      ~PointingMirror.motor
-      ~PointingMirror.moving
-      ~PointingMirror.name
-      ~PointingMirror.out_states
-      ~PointingMirror.parent
-      ~PointingMirror.pitch
-      ~PointingMirror.position
-      ~PointingMirror.read_attrs
-      ~PointingMirror.removed
-      ~PointingMirror.report
-      ~PointingMirror.root
-      ~PointingMirror.settle_time
-      ~PointingMirror.signal_names
-      ~PointingMirror.state
-      ~PointingMirror.states_list
-      ~PointingMirror.tab_whitelist
-      ~PointingMirror.timeout
-      ~PointingMirror.transmission
-      ~PointingMirror.trigger_signals
-      ~PointingMirror.xgantry
-      ~PointingMirror.ygantry
    
    
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~PointingMirror.camonitor
+       ~PointingMirror.check_inserted
+       ~PointingMirror.check_removed
+       ~PointingMirror.check_transmission
+       ~PointingMirror.configure
+       ~PointingMirror.describe
+       ~PointingMirror.end_monitor_thread
+       ~PointingMirror.get
+       ~PointingMirror.get_state
+       ~PointingMirror.insert
+       ~PointingMirror.move
+       ~PointingMirror.mv
+       ~PointingMirror.read
+       ~PointingMirror.read_configuration
+       ~PointingMirror.remove
+       ~PointingMirror.set
+       ~PointingMirror.stop
+       ~PointingMirror.summary
+       ~PointingMirror.trigger
+       ~PointingMirror.wait
+       ~PointingMirror.wm
+       ~PointingMirror.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~PointingMirror.branches
+       ~PointingMirror.configuration_attrs
+       ~PointingMirror.connected
+       ~PointingMirror.destination
+       ~PointingMirror.egu
+       ~PointingMirror.high_limit
+       ~PointingMirror.hints
+       ~PointingMirror.in_states
+       ~PointingMirror.kind
+       ~PointingMirror.limits
+       ~PointingMirror.low_limit
+       ~PointingMirror.moving
+       ~PointingMirror.out_states
+       ~PointingMirror.position
+       ~PointingMirror.settle_time
+       ~PointingMirror.states_list
+       ~PointingMirror.timeout
+       ~PointingMirror.transmission
+    
+    

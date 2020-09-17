@@ -1,6 +1,0 @@
-pcdsdevices.pim.PPMPowerMeter.\_\_init\_\_
-==========================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PPMPowerMeter.__init__

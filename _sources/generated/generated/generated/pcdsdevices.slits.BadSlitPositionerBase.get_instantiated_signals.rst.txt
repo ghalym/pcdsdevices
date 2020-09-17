@@ -1,6 +1,0 @@
-pcdsdevices.slits.BadSlitPositionerBase.get\_instantiated\_signals
-==================================================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: BadSlitPositionerBase.get_instantiated_signals

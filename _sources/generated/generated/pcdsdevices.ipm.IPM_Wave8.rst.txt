@@ -7,82 +7,86 @@ pcdsdevices.ipm.IPM\_Wave8
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~IPM_Wave8.__init__
-      ~IPM_Wave8.add_instantiation_callback
-      ~IPM_Wave8.channel
-      ~IPM_Wave8.check_value
-      ~IPM_Wave8.clear_sub
-      ~IPM_Wave8.configure
-      ~IPM_Wave8.describe
-      ~IPM_Wave8.describe_configuration
-      ~IPM_Wave8.destroy
-      ~IPM_Wave8.format_status_info
-      ~IPM_Wave8.get
-      ~IPM_Wave8.get_device_tuple
-      ~IPM_Wave8.get_instantiated_signals
-      ~IPM_Wave8.insert
-      ~IPM_Wave8.isum
-      ~IPM_Wave8.pause
-      ~IPM_Wave8.put
-      ~IPM_Wave8.read
-      ~IPM_Wave8.read_configuration
-      ~IPM_Wave8.remove
-      ~IPM_Wave8.resume
-      ~IPM_Wave8.stage
-      ~IPM_Wave8.status_info
-      ~IPM_Wave8.stop
-      ~IPM_Wave8.subscribe
-      ~IPM_Wave8.summary
-      ~IPM_Wave8.trigger
-      ~IPM_Wave8.unstage
-      ~IPM_Wave8.unsubscribe
-      ~IPM_Wave8.unsubscribe_all
-      ~IPM_Wave8.wait_for_connection
-      ~IPM_Wave8.walk_components
-      ~IPM_Wave8.walk_signals
-      ~IPM_Wave8.walk_subdevice_classes
-      ~IPM_Wave8.walk_subdevices
-      ~IPM_Wave8.xpos
-      ~IPM_Wave8.ypos
+       *  -  target
+          -  :class:`~pcdsdevices.ipm.IPMTarget`
+          -  ``:TARGET``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.ipm.IPMMotion`
+   
+       *  -  diode
+          -  :class:`~pcdsdevices.ipm.IPMDiode`
+          -  ``:DIODE``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.ipm.IPMMotion`
+   
+       *  -  wave8 (FCpt)
+          -  :class:`~pcdsdevices.ipm.Wave8`
+          -  ``{self.prefix_wave8}``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~IPM_Wave8.SUB_ACQ_DONE
-      ~IPM_Wave8.attr_name
-      ~IPM_Wave8.channels
-      ~IPM_Wave8.component_names
-      ~IPM_Wave8.configuration_attrs
-      ~IPM_Wave8.connected
-      ~IPM_Wave8.diode
-      ~IPM_Wave8.dotted_name
-      ~IPM_Wave8.event_types
-      ~IPM_Wave8.hints
-      ~IPM_Wave8.inserted
-      ~IPM_Wave8.kind
-      ~IPM_Wave8.lazy_wait_for_connection
-      ~IPM_Wave8.name
-      ~IPM_Wave8.parent
-      ~IPM_Wave8.read_attrs
-      ~IPM_Wave8.removed
-      ~IPM_Wave8.report
-      ~IPM_Wave8.root
-      ~IPM_Wave8.signal_names
-      ~IPM_Wave8.tab_component_names
-      ~IPM_Wave8.tab_whitelist
-      ~IPM_Wave8.target
-      ~IPM_Wave8.transmission
-      ~IPM_Wave8.trigger_signals
-      ~IPM_Wave8.wave8
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~IPM_Wave8.channel
+       ~IPM_Wave8.configure
+       ~IPM_Wave8.describe
+       ~IPM_Wave8.get
+       ~IPM_Wave8.insert
+       ~IPM_Wave8.isum
+       ~IPM_Wave8.read
+       ~IPM_Wave8.read_configuration
+       ~IPM_Wave8.remove
+       ~IPM_Wave8.stop
+       ~IPM_Wave8.summary
+       ~IPM_Wave8.trigger
+       ~IPM_Wave8.xpos
+       ~IPM_Wave8.ypos
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~IPM_Wave8.channels
+       ~IPM_Wave8.configuration_attrs
+       ~IPM_Wave8.connected
+       ~IPM_Wave8.hints
+       ~IPM_Wave8.kind
+       ~IPM_Wave8.transmission
+    
+    

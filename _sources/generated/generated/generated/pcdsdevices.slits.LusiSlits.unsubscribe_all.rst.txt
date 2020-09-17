@@ -1,6 +1,0 @@
-pcdsdevices.slits.LusiSlits.unsubscribe\_all
-============================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: LusiSlits.unsubscribe_all

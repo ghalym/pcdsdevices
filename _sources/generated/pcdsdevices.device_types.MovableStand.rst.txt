@@ -7,103 +7,104 @@
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~MovableStand.__init__
-      ~MovableStand.add_instantiation_callback
-      ~MovableStand.camonitor
-      ~MovableStand.check_inserted
-      ~MovableStand.check_removed
-      ~MovableStand.check_transmission
-      ~MovableStand.check_value
-      ~MovableStand.clear_sub
-      ~MovableStand.configure
-      ~MovableStand.describe
-      ~MovableStand.describe_configuration
-      ~MovableStand.destroy
-      ~MovableStand.end_monitor_thread
-      ~MovableStand.format_status_info
-      ~MovableStand.get
-      ~MovableStand.get_device_tuple
-      ~MovableStand.get_instantiated_signals
-      ~MovableStand.get_state
-      ~MovableStand.insert
-      ~MovableStand.move
-      ~MovableStand.mv
-      ~MovableStand.pause
-      ~MovableStand.put
-      ~MovableStand.read
-      ~MovableStand.read_configuration
-      ~MovableStand.remove
-      ~MovableStand.resume
-      ~MovableStand.set
-      ~MovableStand.stage
-      ~MovableStand.status_info
-      ~MovableStand.stop
-      ~MovableStand.subscribe
-      ~MovableStand.summary
-      ~MovableStand.trigger
-      ~MovableStand.unstage
-      ~MovableStand.unsubscribe
-      ~MovableStand.unsubscribe_all
-      ~MovableStand.wait
-      ~MovableStand.wait_for_connection
-      ~MovableStand.walk_components
-      ~MovableStand.walk_signals
-      ~MovableStand.walk_subdevice_classes
-      ~MovableStand.walk_subdevices
-      ~MovableStand.wm
-      ~MovableStand.wm_update
+       *  -  state
+          -  :class:`~pcdsdevices.state.PVStateSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.inout.InOutPVStatePositioner`
+   
+       *  -  in_limit
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:IN_DI``
+          -  
+          -  normal
+          -  
+   
+       *  -  out_limit
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:OUT_DO``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~MovableStand.SUB_ACQ_DONE
-      ~MovableStand.SUB_DONE
-      ~MovableStand.SUB_READBACK
-      ~MovableStand.SUB_START
-      ~MovableStand.SUB_STATE
-      ~MovableStand.attr_name
-      ~MovableStand.component_names
-      ~MovableStand.configuration_attrs
-      ~MovableStand.connected
-      ~MovableStand.dotted_name
-      ~MovableStand.egu
-      ~MovableStand.event_types
-      ~MovableStand.high_limit
-      ~MovableStand.hints
-      ~MovableStand.in_limit
-      ~MovableStand.in_states
-      ~MovableStand.inserted
-      ~MovableStand.kind
-      ~MovableStand.lazy_wait_for_connection
-      ~MovableStand.limits
-      ~MovableStand.low_limit
-      ~MovableStand.moving
-      ~MovableStand.name
-      ~MovableStand.out_limit
-      ~MovableStand.out_states
-      ~MovableStand.parent
-      ~MovableStand.position
-      ~MovableStand.read_attrs
-      ~MovableStand.removed
-      ~MovableStand.report
-      ~MovableStand.root
-      ~MovableStand.settle_time
-      ~MovableStand.signal_names
-      ~MovableStand.state
-      ~MovableStand.states_list
-      ~MovableStand.tab_whitelist
-      ~MovableStand.timeout
-      ~MovableStand.transmission
-      ~MovableStand.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~MovableStand.camonitor
+       ~MovableStand.check_inserted
+       ~MovableStand.check_removed
+       ~MovableStand.check_transmission
+       ~MovableStand.configure
+       ~MovableStand.describe
+       ~MovableStand.end_monitor_thread
+       ~MovableStand.get
+       ~MovableStand.get_state
+       ~MovableStand.insert
+       ~MovableStand.move
+       ~MovableStand.mv
+       ~MovableStand.read
+       ~MovableStand.read_configuration
+       ~MovableStand.remove
+       ~MovableStand.set
+       ~MovableStand.stop
+       ~MovableStand.summary
+       ~MovableStand.trigger
+       ~MovableStand.wait
+       ~MovableStand.wm
+       ~MovableStand.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~MovableStand.configuration_attrs
+       ~MovableStand.connected
+       ~MovableStand.egu
+       ~MovableStand.high_limit
+       ~MovableStand.hints
+       ~MovableStand.in_states
+       ~MovableStand.kind
+       ~MovableStand.limits
+       ~MovableStand.low_limit
+       ~MovableStand.moving
+       ~MovableStand.out_states
+       ~MovableStand.position
+       ~MovableStand.settle_time
+       ~MovableStand.states_list
+       ~MovableStand.timeout
+       ~MovableStand.transmission
+    
+    

@@ -1,6 +1,0 @@
-pcdsdevices.slits.LusiSlitPositioner.stage
-==========================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: LusiSlitPositioner.stage

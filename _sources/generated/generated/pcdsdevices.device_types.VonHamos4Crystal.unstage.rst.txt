@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.VonHamos4Crystal.unstage
-==================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: VonHamos4Crystal.unstage

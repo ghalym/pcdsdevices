@@ -1,6 +1,0 @@
-pcdsdevices.interface.LightpathMixin.add\_instantiation\_callback
-=================================================================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. automethod:: LightpathMixin.add_instantiation_callback

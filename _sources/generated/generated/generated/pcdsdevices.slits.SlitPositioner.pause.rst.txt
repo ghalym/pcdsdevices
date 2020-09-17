@@ -1,6 +1,0 @@
-pcdsdevices.slits.SlitPositioner.pause
-======================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: SlitPositioner.pause

@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.device_types.PMC100.describe &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.device_types.PMC100.describe &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,7 +37,7 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="pcdsdevices.device_types.PMC100.describe_configuration" href="pcdsdevices.device_types.PMC100.describe_configuration.html" />
+    <link rel="next" title="pcdsdevices.device_types.PMC100.disable" href="pcdsdevices.device_types.PMC100.disable.html" />
     <link rel="prev" title="pcdsdevices.device_types.PMC100.configure" href="pcdsdevices.device_types.PMC100.configure.html" /> 
 </head>
 
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -117,33 +118,21 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.PCDSAreaDetector.html">pcdsdevices.device_types.PCDSAreaDetector</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.PIM.html">pcdsdevices.device_types.PIM</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.device_types.PMC100.html">pcdsdevices.device_types.PMC100</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.__init__.html">pcdsdevices.device_types.PMC100.__init__</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.add_instantiation_callback.html">pcdsdevices.device_types.PMC100.add_instantiation_callback</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.camonitor.html">pcdsdevices.device_types.PMC100.camonitor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.check_value.html">pcdsdevices.device_types.PMC100.check_value</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.clear_sub.html">pcdsdevices.device_types.PMC100.clear_sub</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.configure.html">pcdsdevices.device_types.PMC100.configure</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.device_types.PMC100.describe</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.describe_configuration.html">pcdsdevices.device_types.PMC100.describe_configuration</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.destroy.html">pcdsdevices.device_types.PMC100.destroy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.disable.html">pcdsdevices.device_types.PMC100.disable</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.enable.html">pcdsdevices.device_types.PMC100.enable</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.end_monitor_thread.html">pcdsdevices.device_types.PMC100.end_monitor_thread</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.format_status_info.html">pcdsdevices.device_types.PMC100.format_status_info</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.get.html">pcdsdevices.device_types.PMC100.get</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.get_device_tuple.html">pcdsdevices.device_types.PMC100.get_device_tuple</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.get_instantiated_signals.html">pcdsdevices.device_types.PMC100.get_instantiated_signals</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.get_lim.html">pcdsdevices.device_types.PMC100.get_lim</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.home.html">pcdsdevices.device_types.PMC100.home</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.move.html">pcdsdevices.device_types.PMC100.move</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.mv.html">pcdsdevices.device_types.PMC100.mv</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.mv_ginput.html">pcdsdevices.device_types.PMC100.mv_ginput</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.mvr.html">pcdsdevices.device_types.PMC100.mvr</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.pause.html">pcdsdevices.device_types.PMC100.pause</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.put.html">pcdsdevices.device_types.PMC100.put</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.read.html">pcdsdevices.device_types.PMC100.read</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.read_configuration.html">pcdsdevices.device_types.PMC100.read_configuration</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.resume.html">pcdsdevices.device_types.PMC100.resume</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.screen.html">pcdsdevices.device_types.PMC100.screen</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.set.html">pcdsdevices.device_types.PMC100.set</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.set_current_position.html">pcdsdevices.device_types.PMC100.set_current_position</a></li>
@@ -151,24 +140,13 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.spg_go.html">pcdsdevices.device_types.PMC100.spg_go</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.spg_pause.html">pcdsdevices.device_types.PMC100.spg_pause</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.spg_stop.html">pcdsdevices.device_types.PMC100.spg_stop</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.stage.html">pcdsdevices.device_types.PMC100.stage</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.status_info.html">pcdsdevices.device_types.PMC100.status_info</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.stop.html">pcdsdevices.device_types.PMC100.stop</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.subscribe.html">pcdsdevices.device_types.PMC100.subscribe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.summary.html">pcdsdevices.device_types.PMC100.summary</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.trigger.html">pcdsdevices.device_types.PMC100.trigger</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.tweak.html">pcdsdevices.device_types.PMC100.tweak</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.umv.html">pcdsdevices.device_types.PMC100.umv</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.umvr.html">pcdsdevices.device_types.PMC100.umvr</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.unstage.html">pcdsdevices.device_types.PMC100.unstage</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.unsubscribe.html">pcdsdevices.device_types.PMC100.unsubscribe</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.unsubscribe_all.html">pcdsdevices.device_types.PMC100.unsubscribe_all</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.wait.html">pcdsdevices.device_types.PMC100.wait</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.wait_for_connection.html">pcdsdevices.device_types.PMC100.wait_for_connection</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.walk_components.html">pcdsdevices.device_types.PMC100.walk_components</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.walk_signals.html">pcdsdevices.device_types.PMC100.walk_signals</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.walk_subdevice_classes.html">pcdsdevices.device_types.PMC100.walk_subdevice_classes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.walk_subdevices.html">pcdsdevices.device_types.PMC100.walk_subdevices</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.wm.html">pcdsdevices.device_types.PMC100.wm</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.device_types.PMC100.wm_update.html">pcdsdevices.device_types.PMC100.wm_update</a></li>
 </ul>
@@ -295,7 +273,7 @@ with the <code class="docutils literal notranslate"><span class="pre">event_mode
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.device_types.PMC100.describe_configuration.html" class="btn btn-neutral float-right" title="pcdsdevices.device_types.PMC100.describe_configuration" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.device_types.PMC100.disable.html" class="btn btn-neutral float-right" title="pcdsdevices.device_types.PMC100.disable" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="pcdsdevices.device_types.PMC100.configure.html" class="btn btn-neutral float-left" title="pcdsdevices.device_types.PMC100.configure" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

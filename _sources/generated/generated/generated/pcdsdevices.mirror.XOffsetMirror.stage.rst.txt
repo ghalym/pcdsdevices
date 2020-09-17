@@ -1,6 +1,0 @@
-pcdsdevices.mirror.XOffsetMirror.stage
-======================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: XOffsetMirror.stage

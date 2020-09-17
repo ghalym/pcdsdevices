@@ -7,74 +7,132 @@ pcdsdevices.epics\_motor.SmarActOpenLoop
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~SmarActOpenLoop.__init__
-      ~SmarActOpenLoop.add_instantiation_callback
-      ~SmarActOpenLoop.check_value
-      ~SmarActOpenLoop.clear_sub
-      ~SmarActOpenLoop.configure
-      ~SmarActOpenLoop.describe
-      ~SmarActOpenLoop.describe_configuration
-      ~SmarActOpenLoop.destroy
-      ~SmarActOpenLoop.get
-      ~SmarActOpenLoop.get_device_tuple
-      ~SmarActOpenLoop.get_instantiated_signals
-      ~SmarActOpenLoop.pause
-      ~SmarActOpenLoop.put
-      ~SmarActOpenLoop.read
-      ~SmarActOpenLoop.read_configuration
-      ~SmarActOpenLoop.resume
-      ~SmarActOpenLoop.stage
-      ~SmarActOpenLoop.stop
-      ~SmarActOpenLoop.subscribe
-      ~SmarActOpenLoop.summary
-      ~SmarActOpenLoop.trigger
-      ~SmarActOpenLoop.unstage
-      ~SmarActOpenLoop.unsubscribe
-      ~SmarActOpenLoop.unsubscribe_all
-      ~SmarActOpenLoop.wait_for_connection
-      ~SmarActOpenLoop.walk_components
-      ~SmarActOpenLoop.walk_signals
-      ~SmarActOpenLoop.walk_subdevice_classes
-      ~SmarActOpenLoop.walk_subdevices
+       *  -  step_voltage
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:STEP_VOLTAGE``
+          -  
+          -  omitted
+          -  
+   
+       *  -  step_freq
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:STEP_FREQ``
+          -  
+          -  config
+          -  
+   
+       *  -  jog_step_size
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:STEP_COUNT``
+          -  
+          -  normal
+          -  
+   
+       *  -  jog_fwd
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:STEP_FORWARD``
+          -  
+          -  normal
+          -  
+   
+       *  -  jog_rev
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:STEP_REVERSE``
+          -  
+          -  normal
+          -  
+   
+       *  -  total_step_count
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:TOTAL_STEP_COUNT``
+          -  
+          -  normal
+          -  
+   
+       *  -  step_clear_cmd
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:CLEAR_COUNT``
+          -  
+          -  config
+          -  
+   
+       *  -  scan_move_cmd
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:SCAN_MOVE``
+          -  
+          -  omitted
+          -  
+   
+       *  -  scan_pos
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:SCAN_POS``
+          -  
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~SmarActOpenLoop.SUB_ACQ_DONE
-      ~SmarActOpenLoop.attr_name
-      ~SmarActOpenLoop.component_names
-      ~SmarActOpenLoop.configuration_attrs
-      ~SmarActOpenLoop.connected
-      ~SmarActOpenLoop.dotted_name
-      ~SmarActOpenLoop.event_types
-      ~SmarActOpenLoop.hints
-      ~SmarActOpenLoop.jog_fwd
-      ~SmarActOpenLoop.jog_rev
-      ~SmarActOpenLoop.jog_step_size
-      ~SmarActOpenLoop.kind
-      ~SmarActOpenLoop.lazy_wait_for_connection
-      ~SmarActOpenLoop.name
-      ~SmarActOpenLoop.parent
-      ~SmarActOpenLoop.read_attrs
-      ~SmarActOpenLoop.report
-      ~SmarActOpenLoop.root
-      ~SmarActOpenLoop.scan_move_cmd
-      ~SmarActOpenLoop.scan_pos
-      ~SmarActOpenLoop.signal_names
-      ~SmarActOpenLoop.step_clear_cmd
-      ~SmarActOpenLoop.step_freq
-      ~SmarActOpenLoop.step_voltage
-      ~SmarActOpenLoop.total_step_count
-      ~SmarActOpenLoop.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~SmarActOpenLoop.configure
+       ~SmarActOpenLoop.describe
+       ~SmarActOpenLoop.get
+       ~SmarActOpenLoop.read
+       ~SmarActOpenLoop.read_configuration
+       ~SmarActOpenLoop.stop
+       ~SmarActOpenLoop.summary
+       ~SmarActOpenLoop.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~SmarActOpenLoop.configuration_attrs
+       ~SmarActOpenLoop.connected
+       ~SmarActOpenLoop.hints
+       ~SmarActOpenLoop.kind
+    
+    

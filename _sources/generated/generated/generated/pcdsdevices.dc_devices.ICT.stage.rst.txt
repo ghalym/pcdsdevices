@@ -1,6 +1,0 @@
-pcdsdevices.dc\_devices.ICT.stage
-=================================
-
-.. currentmodule:: pcdsdevices.dc_devices
-
-.. automethod:: ICT.stage

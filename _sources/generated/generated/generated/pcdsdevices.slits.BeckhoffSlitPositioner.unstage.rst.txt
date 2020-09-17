@@ -1,6 +1,0 @@
-pcdsdevices.slits.BeckhoffSlitPositioner.unstage
-================================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: BeckhoffSlitPositioner.unstage

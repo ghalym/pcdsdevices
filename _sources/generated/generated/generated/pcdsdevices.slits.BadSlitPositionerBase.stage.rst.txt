@@ -1,6 +1,0 @@
-pcdsdevices.slits.BadSlitPositionerBase.stage
-=============================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: BadSlitPositionerBase.stage

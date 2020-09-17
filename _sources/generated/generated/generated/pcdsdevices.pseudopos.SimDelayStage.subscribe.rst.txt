@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SimDelayStage.subscribe
-=============================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SimDelayStage.subscribe

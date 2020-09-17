@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.PseudoSingleInterface.unsubscribe\_all
-============================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: PseudoSingleInterface.unsubscribe_all

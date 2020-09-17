@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.BeckhoffAxis.walk\_subdevices
-=======================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: BeckhoffAxis.walk_subdevices

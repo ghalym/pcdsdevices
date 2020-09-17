@@ -1,6 +1,0 @@
-pcdsdevices.mps.MPSLimits.check\_value
-======================================
-
-.. currentmodule:: pcdsdevices.mps
-
-.. automethod:: MPSLimits.check_value

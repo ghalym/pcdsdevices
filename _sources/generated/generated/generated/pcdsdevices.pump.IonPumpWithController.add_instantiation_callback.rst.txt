@@ -1,6 +1,0 @@
-pcdsdevices.pump.IonPumpWithController.add\_instantiation\_callback
-===================================================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: IonPumpWithController.add_instantiation_callback

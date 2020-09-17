@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.PseudoSingleInterface.destroy
-===================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: PseudoSingleInterface.destroy

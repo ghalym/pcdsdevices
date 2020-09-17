@@ -7,102 +7,95 @@ pcdsdevices.lodcm.YagLom
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~YagLom.__init__
-      ~YagLom.add_instantiation_callback
-      ~YagLom.camonitor
-      ~YagLom.check_inserted
-      ~YagLom.check_removed
-      ~YagLom.check_transmission
-      ~YagLom.check_value
-      ~YagLom.clear_sub
-      ~YagLom.configure
-      ~YagLom.describe
-      ~YagLom.describe_configuration
-      ~YagLom.destroy
-      ~YagLom.end_monitor_thread
-      ~YagLom.format_status_info
-      ~YagLom.get
-      ~YagLom.get_device_tuple
-      ~YagLom.get_instantiated_signals
-      ~YagLom.get_state
-      ~YagLom.insert
-      ~YagLom.move
-      ~YagLom.mv
-      ~YagLom.pause
-      ~YagLom.put
-      ~YagLom.read
-      ~YagLom.read_configuration
-      ~YagLom.remove
-      ~YagLom.resume
-      ~YagLom.set
-      ~YagLom.stage
-      ~YagLom.status_info
-      ~YagLom.stop
-      ~YagLom.subscribe
-      ~YagLom.summary
-      ~YagLom.trigger
-      ~YagLom.unstage
-      ~YagLom.unsubscribe
-      ~YagLom.unsubscribe_all
-      ~YagLom.wait
-      ~YagLom.wait_for_connection
-      ~YagLom.walk_components
-      ~YagLom.walk_signals
-      ~YagLom.walk_subdevice_classes
-      ~YagLom.walk_subdevices
-      ~YagLom.wm
-      ~YagLom.wm_update
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+       *  -  motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:MOTOR``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~YagLom.SUB_ACQ_DONE
-      ~YagLom.SUB_DONE
-      ~YagLom.SUB_READBACK
-      ~YagLom.SUB_START
-      ~YagLom.SUB_STATE
-      ~YagLom.attr_name
-      ~YagLom.component_names
-      ~YagLom.configuration_attrs
-      ~YagLom.connected
-      ~YagLom.dotted_name
-      ~YagLom.egu
-      ~YagLom.event_types
-      ~YagLom.high_limit
-      ~YagLom.hints
-      ~YagLom.in_states
-      ~YagLom.inserted
-      ~YagLom.kind
-      ~YagLom.lazy_wait_for_connection
-      ~YagLom.limits
-      ~YagLom.low_limit
-      ~YagLom.motor
-      ~YagLom.moving
-      ~YagLom.name
-      ~YagLom.out_states
-      ~YagLom.parent
-      ~YagLom.position
-      ~YagLom.read_attrs
-      ~YagLom.removed
-      ~YagLom.report
-      ~YagLom.root
-      ~YagLom.settle_time
-      ~YagLom.signal_names
-      ~YagLom.state
-      ~YagLom.states_list
-      ~YagLom.tab_whitelist
-      ~YagLom.timeout
-      ~YagLom.transmission
-      ~YagLom.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~YagLom.camonitor
+       ~YagLom.check_inserted
+       ~YagLom.check_removed
+       ~YagLom.check_transmission
+       ~YagLom.configure
+       ~YagLom.describe
+       ~YagLom.end_monitor_thread
+       ~YagLom.get
+       ~YagLom.get_state
+       ~YagLom.insert
+       ~YagLom.move
+       ~YagLom.mv
+       ~YagLom.read
+       ~YagLom.read_configuration
+       ~YagLom.remove
+       ~YagLom.set
+       ~YagLom.stop
+       ~YagLom.summary
+       ~YagLom.trigger
+       ~YagLom.wait
+       ~YagLom.wm
+       ~YagLom.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~YagLom.configuration_attrs
+       ~YagLom.connected
+       ~YagLom.egu
+       ~YagLom.high_limit
+       ~YagLom.hints
+       ~YagLom.in_states
+       ~YagLom.kind
+       ~YagLom.limits
+       ~YagLom.low_limit
+       ~YagLom.moving
+       ~YagLom.out_states
+       ~YagLom.position
+       ~YagLom.settle_time
+       ~YagLom.states_list
+       ~YagLom.timeout
+       ~YagLom.transmission
+    
+    

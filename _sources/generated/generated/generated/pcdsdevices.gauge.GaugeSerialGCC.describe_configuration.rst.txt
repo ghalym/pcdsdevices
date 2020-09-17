@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GaugeSerialGCC.describe\_configuration
-========================================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GaugeSerialGCC.describe_configuration

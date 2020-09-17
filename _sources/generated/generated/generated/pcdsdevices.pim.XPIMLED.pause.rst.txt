@@ -1,6 +1,0 @@
-pcdsdevices.pim.XPIMLED.pause
-=============================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: XPIMLED.pause

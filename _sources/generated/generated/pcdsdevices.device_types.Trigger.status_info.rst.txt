@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.Trigger.status\_info
-==============================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: Trigger.status_info

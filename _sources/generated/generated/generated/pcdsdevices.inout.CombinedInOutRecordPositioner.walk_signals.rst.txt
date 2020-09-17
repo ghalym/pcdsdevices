@@ -1,6 +1,0 @@
-pcdsdevices.inout.CombinedInOutRecordPositioner.walk\_signals
-=============================================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: CombinedInOutRecordPositioner.walk_signals

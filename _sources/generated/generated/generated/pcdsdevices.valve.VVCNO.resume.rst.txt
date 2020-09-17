@@ -1,6 +1,0 @@
-pcdsdevices.valve.VVCNO.resume
-==============================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VVCNO.resume

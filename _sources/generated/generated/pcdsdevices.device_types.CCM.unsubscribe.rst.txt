@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.CCM.unsubscribe
-=========================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: CCM.unsubscribe

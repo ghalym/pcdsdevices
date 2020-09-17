@@ -7,102 +7,95 @@ pcdsdevices.pim.PIMY
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~PIMY.__init__
-      ~PIMY.add_instantiation_callback
-      ~PIMY.camonitor
-      ~PIMY.check_inserted
-      ~PIMY.check_removed
-      ~PIMY.check_transmission
-      ~PIMY.check_value
-      ~PIMY.clear_sub
-      ~PIMY.configure
-      ~PIMY.describe
-      ~PIMY.describe_configuration
-      ~PIMY.destroy
-      ~PIMY.end_monitor_thread
-      ~PIMY.format_status_info
-      ~PIMY.get
-      ~PIMY.get_device_tuple
-      ~PIMY.get_instantiated_signals
-      ~PIMY.get_state
-      ~PIMY.insert
-      ~PIMY.move
-      ~PIMY.mv
-      ~PIMY.pause
-      ~PIMY.put
-      ~PIMY.read
-      ~PIMY.read_configuration
-      ~PIMY.remove
-      ~PIMY.resume
-      ~PIMY.set
-      ~PIMY.stage
-      ~PIMY.status_info
-      ~PIMY.stop
-      ~PIMY.subscribe
-      ~PIMY.summary
-      ~PIMY.trigger
-      ~PIMY.unstage
-      ~PIMY.unsubscribe
-      ~PIMY.unsubscribe_all
-      ~PIMY.wait
-      ~PIMY.wait_for_connection
-      ~PIMY.walk_components
-      ~PIMY.walk_signals
-      ~PIMY.walk_subdevice_classes
-      ~PIMY.walk_subdevices
-      ~PIMY.wm
-      ~PIMY.wm_update
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+       *  -  motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:MOTOR``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~PIMY.SUB_ACQ_DONE
-      ~PIMY.SUB_DONE
-      ~PIMY.SUB_READBACK
-      ~PIMY.SUB_START
-      ~PIMY.SUB_STATE
-      ~PIMY.attr_name
-      ~PIMY.component_names
-      ~PIMY.configuration_attrs
-      ~PIMY.connected
-      ~PIMY.dotted_name
-      ~PIMY.egu
-      ~PIMY.event_types
-      ~PIMY.high_limit
-      ~PIMY.hints
-      ~PIMY.in_states
-      ~PIMY.inserted
-      ~PIMY.kind
-      ~PIMY.lazy_wait_for_connection
-      ~PIMY.limits
-      ~PIMY.low_limit
-      ~PIMY.motor
-      ~PIMY.moving
-      ~PIMY.name
-      ~PIMY.out_states
-      ~PIMY.parent
-      ~PIMY.position
-      ~PIMY.read_attrs
-      ~PIMY.removed
-      ~PIMY.report
-      ~PIMY.root
-      ~PIMY.settle_time
-      ~PIMY.signal_names
-      ~PIMY.state
-      ~PIMY.states_list
-      ~PIMY.tab_whitelist
-      ~PIMY.timeout
-      ~PIMY.transmission
-      ~PIMY.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~PIMY.camonitor
+       ~PIMY.check_inserted
+       ~PIMY.check_removed
+       ~PIMY.check_transmission
+       ~PIMY.configure
+       ~PIMY.describe
+       ~PIMY.end_monitor_thread
+       ~PIMY.get
+       ~PIMY.get_state
+       ~PIMY.insert
+       ~PIMY.move
+       ~PIMY.mv
+       ~PIMY.read
+       ~PIMY.read_configuration
+       ~PIMY.remove
+       ~PIMY.set
+       ~PIMY.stop
+       ~PIMY.summary
+       ~PIMY.trigger
+       ~PIMY.wait
+       ~PIMY.wm
+       ~PIMY.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~PIMY.configuration_attrs
+       ~PIMY.connected
+       ~PIMY.egu
+       ~PIMY.high_limit
+       ~PIMY.hints
+       ~PIMY.in_states
+       ~PIMY.kind
+       ~PIMY.limits
+       ~PIMY.low_limit
+       ~PIMY.moving
+       ~PIMY.out_states
+       ~PIMY.position
+       ~PIMY.settle_time
+       ~PIMY.states_list
+       ~PIMY.timeout
+       ~PIMY.transmission
+    
+    

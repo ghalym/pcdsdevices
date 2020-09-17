@@ -1,6 +1,0 @@
-pcdsdevices.gon.SamPhi.format\_status\_info
-===========================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SamPhi.format_status_info

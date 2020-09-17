@@ -1,6 +1,0 @@
-pcdsdevices.state.StateRecordPositionerBase.destroy
-===================================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: StateRecordPositionerBase.destroy

@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.PCDSMotorBase.put
-==========================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: PCDSMotorBase.put

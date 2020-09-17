@@ -7,102 +7,114 @@ pcdsdevices.slits.BeckhoffSlitPositioner
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~BeckhoffSlitPositioner.__init__
-      ~BeckhoffSlitPositioner.add_instantiation_callback
-      ~BeckhoffSlitPositioner.camonitor
-      ~BeckhoffSlitPositioner.check_value
-      ~BeckhoffSlitPositioner.clear_sub
-      ~BeckhoffSlitPositioner.configure
-      ~BeckhoffSlitPositioner.describe
-      ~BeckhoffSlitPositioner.describe_configuration
-      ~BeckhoffSlitPositioner.destroy
-      ~BeckhoffSlitPositioner.end_monitor_thread
-      ~BeckhoffSlitPositioner.format_status_info
-      ~BeckhoffSlitPositioner.get
-      ~BeckhoffSlitPositioner.get_device_tuple
-      ~BeckhoffSlitPositioner.get_instantiated_signals
-      ~BeckhoffSlitPositioner.move
-      ~BeckhoffSlitPositioner.mv
-      ~BeckhoffSlitPositioner.mv_ginput
-      ~BeckhoffSlitPositioner.mvr
-      ~BeckhoffSlitPositioner.pause
-      ~BeckhoffSlitPositioner.put
-      ~BeckhoffSlitPositioner.read
-      ~BeckhoffSlitPositioner.read_configuration
-      ~BeckhoffSlitPositioner.resume
-      ~BeckhoffSlitPositioner.set
-      ~BeckhoffSlitPositioner.stage
-      ~BeckhoffSlitPositioner.status_info
-      ~BeckhoffSlitPositioner.stop
-      ~BeckhoffSlitPositioner.subscribe
-      ~BeckhoffSlitPositioner.summary
-      ~BeckhoffSlitPositioner.trigger
-      ~BeckhoffSlitPositioner.tweak
-      ~BeckhoffSlitPositioner.umv
-      ~BeckhoffSlitPositioner.umvr
-      ~BeckhoffSlitPositioner.unstage
-      ~BeckhoffSlitPositioner.unsubscribe
-      ~BeckhoffSlitPositioner.unsubscribe_all
-      ~BeckhoffSlitPositioner.wait
-      ~BeckhoffSlitPositioner.wait_for_connection
-      ~BeckhoffSlitPositioner.walk_components
-      ~BeckhoffSlitPositioner.walk_signals
-      ~BeckhoffSlitPositioner.walk_subdevice_classes
-      ~BeckhoffSlitPositioner.walk_subdevices
-      ~BeckhoffSlitPositioner.wm
-      ~BeckhoffSlitPositioner.wm_update
+       *  -  readback (FCpt)
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``{prefix}:ACTUAL_{_dirlong}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.slits.BadSlitPositionerBase`
+   
+       *  -  setpoint (FCpt)
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``{prefix}:{_dirshort}_REQ``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.slits.BadSlitPositionerBase`
+   
+       *  -  done
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  omitted
+          -  
+   
+       *  -  actuate
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~BeckhoffSlitPositioner.SUB_ACQ_DONE
-      ~BeckhoffSlitPositioner.SUB_DONE
-      ~BeckhoffSlitPositioner.SUB_READBACK
-      ~BeckhoffSlitPositioner.SUB_START
-      ~BeckhoffSlitPositioner.actuate
-      ~BeckhoffSlitPositioner.actuate_value
-      ~BeckhoffSlitPositioner.attr_name
-      ~BeckhoffSlitPositioner.component_names
-      ~BeckhoffSlitPositioner.configuration_attrs
-      ~BeckhoffSlitPositioner.connected
-      ~BeckhoffSlitPositioner.done
-      ~BeckhoffSlitPositioner.done_value
-      ~BeckhoffSlitPositioner.dotted_name
-      ~BeckhoffSlitPositioner.egu
-      ~BeckhoffSlitPositioner.event_types
-      ~BeckhoffSlitPositioner.high_limit
-      ~BeckhoffSlitPositioner.hints
-      ~BeckhoffSlitPositioner.kind
-      ~BeckhoffSlitPositioner.lazy_wait_for_connection
-      ~BeckhoffSlitPositioner.limits
-      ~BeckhoffSlitPositioner.low_limit
-      ~BeckhoffSlitPositioner.moving
-      ~BeckhoffSlitPositioner.name
-      ~BeckhoffSlitPositioner.parent
-      ~BeckhoffSlitPositioner.position
-      ~BeckhoffSlitPositioner.presets
-      ~BeckhoffSlitPositioner.put_complete
-      ~BeckhoffSlitPositioner.read_attrs
-      ~BeckhoffSlitPositioner.readback
-      ~BeckhoffSlitPositioner.report
-      ~BeckhoffSlitPositioner.root
-      ~BeckhoffSlitPositioner.setpoint
-      ~BeckhoffSlitPositioner.settle_time
-      ~BeckhoffSlitPositioner.signal_names
-      ~BeckhoffSlitPositioner.stop_signal
-      ~BeckhoffSlitPositioner.stop_value
-      ~BeckhoffSlitPositioner.tab_whitelist
-      ~BeckhoffSlitPositioner.timeout
-      ~BeckhoffSlitPositioner.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~BeckhoffSlitPositioner.camonitor
+       ~BeckhoffSlitPositioner.configure
+       ~BeckhoffSlitPositioner.describe
+       ~BeckhoffSlitPositioner.end_monitor_thread
+       ~BeckhoffSlitPositioner.get
+       ~BeckhoffSlitPositioner.move
+       ~BeckhoffSlitPositioner.mv
+       ~BeckhoffSlitPositioner.mv_ginput
+       ~BeckhoffSlitPositioner.mvr
+       ~BeckhoffSlitPositioner.read
+       ~BeckhoffSlitPositioner.read_configuration
+       ~BeckhoffSlitPositioner.set
+       ~BeckhoffSlitPositioner.stop
+       ~BeckhoffSlitPositioner.summary
+       ~BeckhoffSlitPositioner.trigger
+       ~BeckhoffSlitPositioner.tweak
+       ~BeckhoffSlitPositioner.umv
+       ~BeckhoffSlitPositioner.umvr
+       ~BeckhoffSlitPositioner.wait
+       ~BeckhoffSlitPositioner.wm
+       ~BeckhoffSlitPositioner.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~BeckhoffSlitPositioner.actuate_value
+       ~BeckhoffSlitPositioner.configuration_attrs
+       ~BeckhoffSlitPositioner.connected
+       ~BeckhoffSlitPositioner.done_value
+       ~BeckhoffSlitPositioner.egu
+       ~BeckhoffSlitPositioner.high_limit
+       ~BeckhoffSlitPositioner.hints
+       ~BeckhoffSlitPositioner.kind
+       ~BeckhoffSlitPositioner.limits
+       ~BeckhoffSlitPositioner.low_limit
+       ~BeckhoffSlitPositioner.moving
+       ~BeckhoffSlitPositioner.position
+       ~BeckhoffSlitPositioner.presets
+       ~BeckhoffSlitPositioner.put_complete
+       ~BeckhoffSlitPositioner.settle_time
+       ~BeckhoffSlitPositioner.stop_signal
+       ~BeckhoffSlitPositioner.stop_value
+       ~BeckhoffSlitPositioner.timeout
+    
+    

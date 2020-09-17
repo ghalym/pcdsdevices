@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.Stopper.clear\_sub
-============================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: Stopper.clear_sub

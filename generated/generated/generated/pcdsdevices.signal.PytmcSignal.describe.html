@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.signal.PytmcSignal.describe &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.signal.PytmcSignal.describe &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,8 +37,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.signal.PytmcSignal.describe_configuration" href="pcdsdevices.signal.PytmcSignal.describe_configuration.html" />
-    <link rel="prev" title="pcdsdevices.signal.PytmcSignal.clear_sub" href="pcdsdevices.signal.PytmcSignal.clear_sub.html" /> 
+    <link rel="next" title="pcdsdevices.signal.PytmcSignal.get" href="pcdsdevices.signal.PytmcSignal.get.html" />
+    <link rel="prev" title="pcdsdevices.signal.PytmcSignal" href="../pcdsdevices.signal.PytmcSignal.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -144,24 +145,13 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.signal.InternalSignal.html">pcdsdevices.signal.InternalSignal</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.signal.NotImplementedSignal.html">pcdsdevices.signal.NotImplementedSignal</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.signal.PytmcSignal.html">pcdsdevices.signal.PytmcSignal</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.__init__.html">pcdsdevices.signal.PytmcSignal.__init__</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.add_instantiation_callback.html">pcdsdevices.signal.PytmcSignal.add_instantiation_callback</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.check_value.html">pcdsdevices.signal.PytmcSignal.check_value</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.clear_sub.html">pcdsdevices.signal.PytmcSignal.clear_sub</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.signal.PytmcSignal.describe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.describe_configuration.html">pcdsdevices.signal.PytmcSignal.describe_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.destroy.html">pcdsdevices.signal.PytmcSignal.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.get.html">pcdsdevices.signal.PytmcSignal.get</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.put.html">pcdsdevices.signal.PytmcSignal.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.read.html">pcdsdevices.signal.PytmcSignal.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.read_configuration.html">pcdsdevices.signal.PytmcSignal.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.set.html">pcdsdevices.signal.PytmcSignal.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.set_default_timeout.html">pcdsdevices.signal.PytmcSignal.set_default_timeout</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.subscribe.html">pcdsdevices.signal.PytmcSignal.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.trigger.html">pcdsdevices.signal.PytmcSignal.trigger</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.unsubscribe.html">pcdsdevices.signal.PytmcSignal.unsubscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.unsubscribe_all.html">pcdsdevices.signal.PytmcSignal.unsubscribe_all</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.wait_for_connection.html">pcdsdevices.signal.PytmcSignal.wait_for_connection</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.signal.PytmcSignalRO.html">pcdsdevices.signal.PytmcSignalRO</a></li>
@@ -271,10 +261,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.signal.PytmcSignal.describe_configuration.html" class="btn btn-neutral float-right" title="pcdsdevices.signal.PytmcSignal.describe_configuration" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.signal.PytmcSignal.get.html" class="btn btn-neutral float-right" title="pcdsdevices.signal.PytmcSignal.get" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="pcdsdevices.signal.PytmcSignal.clear_sub.html" class="btn btn-neutral float-left" title="pcdsdevices.signal.PytmcSignal.clear_sub" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="../pcdsdevices.signal.PytmcSignal.html" class="btn btn-neutral float-left" title="pcdsdevices.signal.PytmcSignal" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

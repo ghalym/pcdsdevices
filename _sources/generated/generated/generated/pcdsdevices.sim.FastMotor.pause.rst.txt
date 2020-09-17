@@ -1,6 +1,0 @@
-pcdsdevices.sim.FastMotor.pause
-===============================
-
-.. currentmodule:: pcdsdevices.sim
-
-.. automethod:: FastMotor.pause

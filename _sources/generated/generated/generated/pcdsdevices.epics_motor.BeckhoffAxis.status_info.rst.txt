@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.BeckhoffAxis.status\_info
-==================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: BeckhoffAxis.status_info

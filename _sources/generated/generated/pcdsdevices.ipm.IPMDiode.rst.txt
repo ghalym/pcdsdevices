@@ -7,75 +7,72 @@ pcdsdevices.ipm.IPMDiode
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~IPMDiode.__init__
-      ~IPMDiode.add_instantiation_callback
-      ~IPMDiode.check_value
-      ~IPMDiode.clear_sub
-      ~IPMDiode.configure
-      ~IPMDiode.describe
-      ~IPMDiode.describe_configuration
-      ~IPMDiode.destroy
-      ~IPMDiode.format_status_info
-      ~IPMDiode.get
-      ~IPMDiode.get_device_tuple
-      ~IPMDiode.get_instantiated_signals
-      ~IPMDiode.insert
-      ~IPMDiode.pause
-      ~IPMDiode.put
-      ~IPMDiode.read
-      ~IPMDiode.read_configuration
-      ~IPMDiode.remove
-      ~IPMDiode.resume
-      ~IPMDiode.stage
-      ~IPMDiode.status_info
-      ~IPMDiode.stop
-      ~IPMDiode.subscribe
-      ~IPMDiode.summary
-      ~IPMDiode.trigger
-      ~IPMDiode.unstage
-      ~IPMDiode.unsubscribe
-      ~IPMDiode.unsubscribe_all
-      ~IPMDiode.wait_for_connection
-      ~IPMDiode.walk_components
-      ~IPMDiode.walk_signals
-      ~IPMDiode.walk_subdevice_classes
-      ~IPMDiode.walk_subdevices
+       *  -  x_motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:X_MOTOR``
+          -  
+          -  normal
+          -  
+   
+       *  -  state
+          -  :class:`~pcdsdevices.inout.InOutRecordPositioner`
+          -  
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~IPMDiode.SUB_ACQ_DONE
-      ~IPMDiode.attr_name
-      ~IPMDiode.component_names
-      ~IPMDiode.configuration_attrs
-      ~IPMDiode.connected
-      ~IPMDiode.dotted_name
-      ~IPMDiode.event_types
-      ~IPMDiode.hints
-      ~IPMDiode.inserted
-      ~IPMDiode.kind
-      ~IPMDiode.lazy_wait_for_connection
-      ~IPMDiode.name
-      ~IPMDiode.parent
-      ~IPMDiode.read_attrs
-      ~IPMDiode.removed
-      ~IPMDiode.report
-      ~IPMDiode.root
-      ~IPMDiode.signal_names
-      ~IPMDiode.state
-      ~IPMDiode.tab_whitelist
-      ~IPMDiode.transmission
-      ~IPMDiode.trigger_signals
-      ~IPMDiode.x_motor
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~IPMDiode.configure
+       ~IPMDiode.describe
+       ~IPMDiode.get
+       ~IPMDiode.insert
+       ~IPMDiode.read
+       ~IPMDiode.read_configuration
+       ~IPMDiode.remove
+       ~IPMDiode.stop
+       ~IPMDiode.summary
+       ~IPMDiode.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~IPMDiode.configuration_attrs
+       ~IPMDiode.connected
+       ~IPMDiode.hints
+       ~IPMDiode.kind
+       ~IPMDiode.transmission
+    
+    

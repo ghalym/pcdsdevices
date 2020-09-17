@@ -1,6 +1,0 @@
-pcdsdevices.gauge.MKS937AController.resume
-==========================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: MKS937AController.resume

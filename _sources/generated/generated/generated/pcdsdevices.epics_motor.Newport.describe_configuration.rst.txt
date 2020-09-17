@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.Newport.describe\_configuration
-========================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: Newport.describe_configuration

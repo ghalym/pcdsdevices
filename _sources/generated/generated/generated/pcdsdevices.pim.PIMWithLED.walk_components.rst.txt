@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMWithLED.walk\_components
-===========================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMWithLED.walk_components

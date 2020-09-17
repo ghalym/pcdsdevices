@@ -1,6 +1,0 @@
-pcdsdevices.jet.BeckhoffJet.destroy
-===================================
-
-.. currentmodule:: pcdsdevices.jet
-
-.. automethod:: BeckhoffJet.destroy

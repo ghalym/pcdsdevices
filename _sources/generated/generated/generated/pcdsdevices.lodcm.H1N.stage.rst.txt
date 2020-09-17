@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.H1N.stage
-===========================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: H1N.stage

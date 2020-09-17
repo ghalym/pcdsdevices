@@ -1,6 +1,0 @@
-pcdsdevices.slits.SlitsBase.clear\_sub
-======================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: SlitsBase.clear_sub

@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.FeeFilter.format\_status\_info
-=====================================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: FeeFilter.format_status_info

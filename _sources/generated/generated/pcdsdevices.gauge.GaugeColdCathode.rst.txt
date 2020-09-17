@@ -7,82 +7,168 @@ pcdsdevices.gauge.GaugeColdCathode
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~GaugeColdCathode.__init__
-      ~GaugeColdCathode.add_instantiation_callback
-      ~GaugeColdCathode.check_value
-      ~GaugeColdCathode.clear_sub
-      ~GaugeColdCathode.configure
-      ~GaugeColdCathode.describe
-      ~GaugeColdCathode.describe_configuration
-      ~GaugeColdCathode.destroy
-      ~GaugeColdCathode.format_status_info
-      ~GaugeColdCathode.get
-      ~GaugeColdCathode.get_device_tuple
-      ~GaugeColdCathode.get_instantiated_signals
-      ~GaugeColdCathode.pause
-      ~GaugeColdCathode.put
-      ~GaugeColdCathode.read
-      ~GaugeColdCathode.read_configuration
-      ~GaugeColdCathode.resume
-      ~GaugeColdCathode.stage
-      ~GaugeColdCathode.status_info
-      ~GaugeColdCathode.stop
-      ~GaugeColdCathode.subscribe
-      ~GaugeColdCathode.summary
-      ~GaugeColdCathode.trigger
-      ~GaugeColdCathode.unstage
-      ~GaugeColdCathode.unsubscribe
-      ~GaugeColdCathode.unsubscribe_all
-      ~GaugeColdCathode.wait_for_connection
-      ~GaugeColdCathode.walk_components
-      ~GaugeColdCathode.walk_signals
-      ~GaugeColdCathode.walk_subdevice_classes
-      ~GaugeColdCathode.walk_subdevices
+       *  -  pressure
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PMON``
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.gauge.BaseGauge`
+   
+       *  -  egu
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PMON.EGU``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gauge.BaseGauge`
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:STATE``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gauge.BaseGauge`
+   
+       *  -  status
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:STATUSMON``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gauge.BaseGauge`
+   
+       *  -  pressure_status
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PSTATMON``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gauge.BaseGauge`
+   
+       *  -  pressure_status_enable
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PSTATMSP``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gauge.BaseGauge`
+   
+       *  -  enable
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:ENBL_SW``
+          -  
+          -  normal
+          -  
+   
+       *  -  relay_setpoint
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PSTATSPRBCK``
+          -  
+          -  normal
+          -  
+   
+       *  -  relay_enable
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PSTATENRBCK``
+          -  
+          -  normal
+          -  
+   
+       *  -  control_setpoint
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PCTRLSPRBCK``
+          -  
+          -  normal
+          -  
+   
+       *  -  control_enable
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PCTRLENRBCK``
+          -  
+          -  normal
+          -  
+   
+       *  -  protection_setpoint
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PPROTSPRBCK``
+          -  
+          -  normal
+          -  
+   
+       *  -  protection_enable
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PPROTENRBCK``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~GaugeColdCathode.SUB_ACQ_DONE
-      ~GaugeColdCathode.attr_name
-      ~GaugeColdCathode.component_names
-      ~GaugeColdCathode.configuration_attrs
-      ~GaugeColdCathode.connected
-      ~GaugeColdCathode.control_enable
-      ~GaugeColdCathode.control_setpoint
-      ~GaugeColdCathode.dotted_name
-      ~GaugeColdCathode.egu
-      ~GaugeColdCathode.enable
-      ~GaugeColdCathode.event_types
-      ~GaugeColdCathode.hints
-      ~GaugeColdCathode.kind
-      ~GaugeColdCathode.lazy_wait_for_connection
-      ~GaugeColdCathode.name
-      ~GaugeColdCathode.parent
-      ~GaugeColdCathode.pressure
-      ~GaugeColdCathode.pressure_status
-      ~GaugeColdCathode.pressure_status_enable
-      ~GaugeColdCathode.protection_enable
-      ~GaugeColdCathode.protection_setpoint
-      ~GaugeColdCathode.read_attrs
-      ~GaugeColdCathode.relay_enable
-      ~GaugeColdCathode.relay_setpoint
-      ~GaugeColdCathode.report
-      ~GaugeColdCathode.root
-      ~GaugeColdCathode.signal_names
-      ~GaugeColdCathode.state
-      ~GaugeColdCathode.status
-      ~GaugeColdCathode.tab_component_names
-      ~GaugeColdCathode.tab_whitelist
-      ~GaugeColdCathode.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~GaugeColdCathode.configure
+       ~GaugeColdCathode.describe
+       ~GaugeColdCathode.get
+       ~GaugeColdCathode.read
+       ~GaugeColdCathode.read_configuration
+       ~GaugeColdCathode.stop
+       ~GaugeColdCathode.summary
+       ~GaugeColdCathode.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~GaugeColdCathode.configuration_attrs
+       ~GaugeColdCathode.connected
+       ~GaugeColdCathode.hints
+       ~GaugeColdCathode.kind
+    
+    

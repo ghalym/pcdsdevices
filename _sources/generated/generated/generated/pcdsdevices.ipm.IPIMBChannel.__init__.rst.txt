@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPIMBChannel.\_\_init\_\_
-=========================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPIMBChannel.__init__

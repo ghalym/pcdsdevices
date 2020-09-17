@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.LookupTablePositioner.describe\_configuration
-===================================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: LookupTablePositioner.describe_configuration

@@ -1,6 +1,0 @@
-pcdsdevices.slits.SlitsBase.wait\_for\_connection
-=================================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: SlitsBase.wait_for_connection

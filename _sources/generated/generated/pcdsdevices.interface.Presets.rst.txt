@@ -7,23 +7,27 @@ pcdsdevices.interface.Presets
 
    
    
-   .. rubric:: Methods
-
-   .. autosummary::
-      :toctree: generated
-   
-      ~Presets.__init__
-      ~Presets.state
-      ~Presets.sync
-   
    
 
-   
-   
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~Presets.has_presets
-   
-   
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Presets.state
+       ~Presets.sync
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Presets.has_presets
+    
+    

@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.mirror.OMMotor.wm &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.mirror.OMMotor.wm &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -37,7 +38,7 @@
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
     <link rel="next" title="pcdsdevices.mirror.OMMotor.wm_update" href="pcdsdevices.mirror.OMMotor.wm_update.html" />
-    <link rel="prev" title="pcdsdevices.mirror.OMMotor.walk_subdevices" href="pcdsdevices.mirror.OMMotor.walk_subdevices.html" /> 
+    <link rel="prev" title="pcdsdevices.mirror.OMMotor.wait" href="pcdsdevices.mirror.OMMotor.wait.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -126,48 +127,25 @@
 <li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.mirror.html">pcdsdevices.mirror</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.mirror.Gantry.html">pcdsdevices.mirror.Gantry</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.mirror.OMMotor.html">pcdsdevices.mirror.OMMotor</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.__init__.html">pcdsdevices.mirror.OMMotor.__init__</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.add_instantiation_callback.html">pcdsdevices.mirror.OMMotor.add_instantiation_callback</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.camonitor.html">pcdsdevices.mirror.OMMotor.camonitor</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.check_value.html">pcdsdevices.mirror.OMMotor.check_value</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.clear_sub.html">pcdsdevices.mirror.OMMotor.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.configure.html">pcdsdevices.mirror.OMMotor.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.describe.html">pcdsdevices.mirror.OMMotor.describe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.describe_configuration.html">pcdsdevices.mirror.OMMotor.describe_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.destroy.html">pcdsdevices.mirror.OMMotor.destroy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.end_monitor_thread.html">pcdsdevices.mirror.OMMotor.end_monitor_thread</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.format_status_info.html">pcdsdevices.mirror.OMMotor.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.get.html">pcdsdevices.mirror.OMMotor.get</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.get_device_tuple.html">pcdsdevices.mirror.OMMotor.get_device_tuple</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.get_instantiated_signals.html">pcdsdevices.mirror.OMMotor.get_instantiated_signals</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.move.html">pcdsdevices.mirror.OMMotor.move</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.mv.html">pcdsdevices.mirror.OMMotor.mv</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.mv_ginput.html">pcdsdevices.mirror.OMMotor.mv_ginput</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.mvr.html">pcdsdevices.mirror.OMMotor.mvr</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.pause.html">pcdsdevices.mirror.OMMotor.pause</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.put.html">pcdsdevices.mirror.OMMotor.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.read.html">pcdsdevices.mirror.OMMotor.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.read_configuration.html">pcdsdevices.mirror.OMMotor.read_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.resume.html">pcdsdevices.mirror.OMMotor.resume</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.set.html">pcdsdevices.mirror.OMMotor.set</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.stage.html">pcdsdevices.mirror.OMMotor.stage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.status_info.html">pcdsdevices.mirror.OMMotor.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.stop.html">pcdsdevices.mirror.OMMotor.stop</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.subscribe.html">pcdsdevices.mirror.OMMotor.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.summary.html">pcdsdevices.mirror.OMMotor.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.trigger.html">pcdsdevices.mirror.OMMotor.trigger</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.tweak.html">pcdsdevices.mirror.OMMotor.tweak</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.umv.html">pcdsdevices.mirror.OMMotor.umv</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.umvr.html">pcdsdevices.mirror.OMMotor.umvr</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.unstage.html">pcdsdevices.mirror.OMMotor.unstage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.unsubscribe.html">pcdsdevices.mirror.OMMotor.unsubscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.unsubscribe_all.html">pcdsdevices.mirror.OMMotor.unsubscribe_all</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.wait.html">pcdsdevices.mirror.OMMotor.wait</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.wait_for_connection.html">pcdsdevices.mirror.OMMotor.wait_for_connection</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.walk_components.html">pcdsdevices.mirror.OMMotor.walk_components</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.walk_signals.html">pcdsdevices.mirror.OMMotor.walk_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.walk_subdevice_classes.html">pcdsdevices.mirror.OMMotor.walk_subdevice_classes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.walk_subdevices.html">pcdsdevices.mirror.OMMotor.walk_subdevices</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.mirror.OMMotor.wm</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.OMMotor.wm_update.html">pcdsdevices.mirror.OMMotor.wm_update</a></li>
 </ul>
@@ -288,7 +266,7 @@
         <a href="pcdsdevices.mirror.OMMotor.wm_update.html" class="btn btn-neutral float-right" title="pcdsdevices.mirror.OMMotor.wm_update" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="pcdsdevices.mirror.OMMotor.walk_subdevices.html" class="btn btn-neutral float-left" title="pcdsdevices.mirror.OMMotor.walk_subdevices" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="pcdsdevices.mirror.OMMotor.wait.html" class="btn btn-neutral float-left" title="pcdsdevices.mirror.OMMotor.wait" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

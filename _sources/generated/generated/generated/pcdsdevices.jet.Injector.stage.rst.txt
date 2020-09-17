@@ -1,6 +1,0 @@
-pcdsdevices.jet.Injector.stage
-==============================
-
-.. currentmodule:: pcdsdevices.jet
-
-.. automethod:: Injector.stage

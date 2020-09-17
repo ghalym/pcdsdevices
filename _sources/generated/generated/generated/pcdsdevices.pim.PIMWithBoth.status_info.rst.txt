@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMWithBoth.status\_info
-========================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMWithBoth.status_info

@@ -1,6 +1,0 @@
-pcdsdevices.state.StateRecordPositioner.pause
-=============================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: StateRecordPositioner.pause

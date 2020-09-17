@@ -7,88 +7,174 @@
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~EventSequencer.__init__
-      ~EventSequencer.add_instantiation_callback
-      ~EventSequencer.check_value
-      ~EventSequencer.clear_sub
-      ~EventSequencer.collect
-      ~EventSequencer.collect_tables
-      ~EventSequencer.complete
-      ~EventSequencer.configure
-      ~EventSequencer.describe
-      ~EventSequencer.describe_collect
-      ~EventSequencer.describe_configuration
-      ~EventSequencer.destroy
-      ~EventSequencer.format_status_info
-      ~EventSequencer.get
-      ~EventSequencer.get_device_tuple
-      ~EventSequencer.get_instantiated_signals
-      ~EventSequencer.kickoff
-      ~EventSequencer.pause
-      ~EventSequencer.put
-      ~EventSequencer.read
-      ~EventSequencer.read_configuration
-      ~EventSequencer.resume
-      ~EventSequencer.stage
-      ~EventSequencer.start
-      ~EventSequencer.status_info
-      ~EventSequencer.stop
-      ~EventSequencer.subscribe
-      ~EventSequencer.summary
-      ~EventSequencer.trigger
-      ~EventSequencer.unstage
-      ~EventSequencer.unsubscribe
-      ~EventSequencer.unsubscribe_all
-      ~EventSequencer.wait_for_connection
-      ~EventSequencer.walk_components
-      ~EventSequencer.walk_signals
-      ~EventSequencer.walk_subdevice_classes
-      ~EventSequencer.walk_subdevices
+       *  -  play_control
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PLYCTL``
+          -  
+          -  omitted
+          -  
+   
+       *  -  sequence_length
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:LEN``
+          -  
+          -  config
+          -  
+   
+       *  -  current_step
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:CURSTP``
+          -  
+          -  normal
+          -  
+   
+       *  -  play_count
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PLYCNT``
+          -  
+          -  normal
+          -  
+   
+       *  -  total_play_count
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:TPLCNT``
+          -  
+          -  normal
+          -  
+   
+       *  -  play_status
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PLSTAT``
+          -  
+          -  normal
+          -  
+   
+       *  -  play_mode
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PLYMOD``
+          -  
+          -  config
+          -  
+   
+       *  -  sync_marker
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:SYNCMARKER``
+          -  
+          -  config
+          -  
+   
+       *  -  next_sync
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:SYNCNEXTTICK``
+          -  
+          -  config
+          -  
+   
+       *  -  pulse_req
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:BEAMPULSEREQ``
+          -  
+          -  config
+          -  
+   
+       *  -  rep_count
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:REPCNT``
+          -  
+          -  config
+          -  
+   
+       *  -  sequence_owner
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:HUTCH_NAME``
+          -  
+          -  omitted
+          -  
+   
+       *  -  sequence
+          -  :class:`~pcdsdevices.sequencer.EventSequence`
+          -  
+          -  
+          -  config
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~EventSequencer.SUB_ACQ_DONE
-      ~EventSequencer.attr_name
-      ~EventSequencer.component_names
-      ~EventSequencer.configuration_attrs
-      ~EventSequencer.connected
-      ~EventSequencer.current_step
-      ~EventSequencer.dotted_name
-      ~EventSequencer.event_types
-      ~EventSequencer.hints
-      ~EventSequencer.kind
-      ~EventSequencer.lazy_wait_for_connection
-      ~EventSequencer.name
-      ~EventSequencer.next_sync
-      ~EventSequencer.parent
-      ~EventSequencer.play_control
-      ~EventSequencer.play_count
-      ~EventSequencer.play_mode
-      ~EventSequencer.play_status
-      ~EventSequencer.pulse_req
-      ~EventSequencer.read_attrs
-      ~EventSequencer.rep_count
-      ~EventSequencer.report
-      ~EventSequencer.root
-      ~EventSequencer.sequence
-      ~EventSequencer.sequence_length
-      ~EventSequencer.sequence_owner
-      ~EventSequencer.signal_names
-      ~EventSequencer.sync_marker
-      ~EventSequencer.tab_component_names
-      ~EventSequencer.tab_whitelist
-      ~EventSequencer.total_play_count
-      ~EventSequencer.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~EventSequencer.collect
+       ~EventSequencer.collect_tables
+       ~EventSequencer.complete
+       ~EventSequencer.configure
+       ~EventSequencer.describe
+       ~EventSequencer.describe_collect
+       ~EventSequencer.get
+       ~EventSequencer.kickoff
+       ~EventSequencer.read
+       ~EventSequencer.read_configuration
+       ~EventSequencer.start
+       ~EventSequencer.stop
+       ~EventSequencer.summary
+       ~EventSequencer.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~EventSequencer.configuration_attrs
+       ~EventSequencer.connected
+       ~EventSequencer.hints
+       ~EventSequencer.kind
+    
+    

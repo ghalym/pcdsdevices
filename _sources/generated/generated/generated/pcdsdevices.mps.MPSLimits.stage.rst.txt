@@ -1,6 +1,0 @@
-pcdsdevices.mps.MPSLimits.stage
-===============================
-
-.. currentmodule:: pcdsdevices.mps
-
-.. automethod:: MPSLimits.stage

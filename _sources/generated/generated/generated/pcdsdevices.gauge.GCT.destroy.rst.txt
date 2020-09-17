@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GCT.destroy
-=============================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GCT.destroy

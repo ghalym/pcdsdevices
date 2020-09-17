@@ -7,96 +7,148 @@
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~Slits.__init__
-      ~Slits.add_instantiation_callback
-      ~Slits.block
-      ~Slits.camonitor
-      ~Slits.check_value
-      ~Slits.clear_sub
-      ~Slits.close
-      ~Slits.configure
-      ~Slits.describe
-      ~Slits.describe_configuration
-      ~Slits.destroy
-      ~Slits.end_monitor_thread
-      ~Slits.format_status_info
-      ~Slits.get
-      ~Slits.get_device_tuple
-      ~Slits.get_instantiated_signals
-      ~Slits.move
-      ~Slits.mv
-      ~Slits.open
-      ~Slits.pause
-      ~Slits.put
-      ~Slits.read
-      ~Slits.read_configuration
-      ~Slits.remove
-      ~Slits.resume
-      ~Slits.set
-      ~Slits.stage
-      ~Slits.status_info
-      ~Slits.stop
-      ~Slits.subscribe
-      ~Slits.summary
-      ~Slits.trigger
-      ~Slits.unstage
-      ~Slits.unsubscribe
-      ~Slits.unsubscribe_all
-      ~Slits.wait
-      ~Slits.wait_for_connection
-      ~Slits.walk_components
-      ~Slits.walk_signals
-      ~Slits.walk_subdevice_classes
-      ~Slits.walk_subdevices
-      ~Slits.wm
-      ~Slits.wm_update
+       *  -  nominal_aperture
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.slits.LusiSlits`
+   
+       *  -  xwidth
+          -  :class:`~pcdsdevices.slits.LusiSlitPositioner`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.slits.LusiSlits`
+   
+       *  -  ywidth
+          -  :class:`~pcdsdevices.slits.LusiSlitPositioner`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.slits.LusiSlits`
+   
+       *  -  xcenter
+          -  :class:`~pcdsdevices.slits.LusiSlitPositioner`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.slits.LusiSlits`
+   
+       *  -  ycenter
+          -  :class:`~pcdsdevices.slits.LusiSlitPositioner`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.slits.LusiSlits`
+   
+       *  -  blocked
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:BLOCKED``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.slits.LusiSlits`
+   
+       *  -  open_cmd
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:OPEN``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.slits.LusiSlits`
+   
+       *  -  close_cmd
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:CLOSE``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.slits.LusiSlits`
+   
+       *  -  block_cmd
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:BLOCK``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.slits.LusiSlits`
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~Slits.SUB_ACQ_DONE
-      ~Slits.SUB_STATE
-      ~Slits.attr_name
-      ~Slits.block_cmd
-      ~Slits.blocked
-      ~Slits.close_cmd
-      ~Slits.component_names
-      ~Slits.configuration_attrs
-      ~Slits.connected
-      ~Slits.current_aperture
-      ~Slits.dotted_name
-      ~Slits.event_types
-      ~Slits.hints
-      ~Slits.inserted
-      ~Slits.kind
-      ~Slits.lazy_wait_for_connection
-      ~Slits.lightpath_cpts
-      ~Slits.name
-      ~Slits.nominal_aperture
-      ~Slits.open_cmd
-      ~Slits.parent
-      ~Slits.position
-      ~Slits.read_attrs
-      ~Slits.removed
-      ~Slits.report
-      ~Slits.root
-      ~Slits.signal_names
-      ~Slits.tab_whitelist
-      ~Slits.transmission
-      ~Slits.trigger_signals
-      ~Slits.xcenter
-      ~Slits.xwidth
-      ~Slits.ycenter
-      ~Slits.ywidth
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Slits.block
+       ~Slits.camonitor
+       ~Slits.close
+       ~Slits.configure
+       ~Slits.describe
+       ~Slits.end_monitor_thread
+       ~Slits.get
+       ~Slits.move
+       ~Slits.mv
+       ~Slits.open
+       ~Slits.read
+       ~Slits.read_configuration
+       ~Slits.remove
+       ~Slits.set
+       ~Slits.stop
+       ~Slits.summary
+       ~Slits.trigger
+       ~Slits.wait
+       ~Slits.wm
+       ~Slits.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Slits.configuration_attrs
+       ~Slits.connected
+       ~Slits.current_aperture
+       ~Slits.hints
+       ~Slits.kind
+       ~Slits.lightpath_cpts
+       ~Slits.position
+       ~Slits.transmission
+    
+    

@@ -1,6 +1,0 @@
-pcdsdevices.pump.PIPSerial.get\_device\_tuple
-=============================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: PIPSerial.get_device_tuple

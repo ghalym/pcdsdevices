@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMPico.unstage
-===============================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMPico.unstage

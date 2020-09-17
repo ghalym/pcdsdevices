@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.PulsePicker.describe\_configuration
-=============================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: PulsePicker.describe_configuration

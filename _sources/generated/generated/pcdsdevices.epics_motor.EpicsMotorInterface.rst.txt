@@ -7,122 +7,270 @@ pcdsdevices.epics\_motor.EpicsMotorInterface
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~EpicsMotorInterface.__init__
-      ~EpicsMotorInterface.add_instantiation_callback
-      ~EpicsMotorInterface.camonitor
-      ~EpicsMotorInterface.check_value
-      ~EpicsMotorInterface.clear_sub
-      ~EpicsMotorInterface.configure
-      ~EpicsMotorInterface.describe
-      ~EpicsMotorInterface.describe_configuration
-      ~EpicsMotorInterface.destroy
-      ~EpicsMotorInterface.disable
-      ~EpicsMotorInterface.enable
-      ~EpicsMotorInterface.end_monitor_thread
-      ~EpicsMotorInterface.format_status_info
-      ~EpicsMotorInterface.get
-      ~EpicsMotorInterface.get_device_tuple
-      ~EpicsMotorInterface.get_instantiated_signals
-      ~EpicsMotorInterface.get_lim
-      ~EpicsMotorInterface.home
-      ~EpicsMotorInterface.move
-      ~EpicsMotorInterface.mv
-      ~EpicsMotorInterface.mv_ginput
-      ~EpicsMotorInterface.mvr
-      ~EpicsMotorInterface.pause
-      ~EpicsMotorInterface.put
-      ~EpicsMotorInterface.read
-      ~EpicsMotorInterface.read_configuration
-      ~EpicsMotorInterface.resume
-      ~EpicsMotorInterface.set
-      ~EpicsMotorInterface.set_current_position
-      ~EpicsMotorInterface.set_lim
-      ~EpicsMotorInterface.stage
-      ~EpicsMotorInterface.status_info
-      ~EpicsMotorInterface.stop
-      ~EpicsMotorInterface.subscribe
-      ~EpicsMotorInterface.summary
-      ~EpicsMotorInterface.trigger
-      ~EpicsMotorInterface.tweak
-      ~EpicsMotorInterface.umv
-      ~EpicsMotorInterface.umvr
-      ~EpicsMotorInterface.unstage
-      ~EpicsMotorInterface.unsubscribe
-      ~EpicsMotorInterface.unsubscribe_all
-      ~EpicsMotorInterface.wait
-      ~EpicsMotorInterface.wait_for_connection
-      ~EpicsMotorInterface.walk_components
-      ~EpicsMotorInterface.walk_signals
-      ~EpicsMotorInterface.walk_subdevice_classes
-      ~EpicsMotorInterface.walk_subdevices
-      ~EpicsMotorInterface.wm
-      ~EpicsMotorInterface.wm_update
+       *  -  user_readback
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``.RBV``
+          -  
+          -  hinted
+          -  Inherited from :class:`~ophyd.epics_motor.EpicsMotor`
+   
+       *  -  user_setpoint
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.VAL``
+          -  
+          -  normal
+          -  Inherited from :class:`~ophyd.epics_motor.EpicsMotor`
+   
+       *  -  user_offset
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.OFF``
+          -  
+          -  config
+          -  Inherited from :class:`~ophyd.epics_motor.EpicsMotor`
+   
+       *  -  user_offset_dir
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.DIR``
+          -  
+          -  config
+          -  Inherited from :class:`~ophyd.epics_motor.EpicsMotor`
+   
+       *  -  offset_freeze_switch
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.FOFF``
+          -  
+          -  omitted
+          -  Inherited from :class:`~ophyd.epics_motor.EpicsMotor`
+   
+       *  -  set_use_switch
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.SET``
+          -  
+          -  omitted
+          -  Inherited from :class:`~ophyd.epics_motor.EpicsMotor`
+   
+       *  -  velocity
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.VELO``
+          -  
+          -  config
+          -  Inherited from :class:`~ophyd.epics_motor.EpicsMotor`
+   
+       *  -  acceleration
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.ACCL``
+          -  
+          -  config
+          -  Inherited from :class:`~ophyd.epics_motor.EpicsMotor`
+   
+       *  -  motor_egu
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.EGU``
+          -  
+          -  config
+          -  Inherited from :class:`~ophyd.epics_motor.EpicsMotor`
+   
+       *  -  motor_is_moving
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``.MOVN``
+          -  
+          -  omitted
+          -  Inherited from :class:`~ophyd.epics_motor.EpicsMotor`
+   
+       *  -  motor_done_move
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``.DMOV``
+          -  
+          -  omitted
+          -  Inherited from :class:`~ophyd.epics_motor.EpicsMotor`
+   
+       *  -  high_limit_switch
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.HLS``
+          -  
+          -  omitted
+          -  Inherited from :class:`~ophyd.epics_motor.EpicsMotor`
+   
+       *  -  low_limit_switch
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.LLS``
+          -  
+          -  omitted
+          -  Inherited from :class:`~ophyd.epics_motor.EpicsMotor`
+   
+       *  -  high_limit_travel
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.HLM``
+          -  
+          -  omitted
+          -  Inherited from :class:`~ophyd.epics_motor.EpicsMotor`
+   
+       *  -  low_limit_travel
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.LLM``
+          -  
+          -  omitted
+          -  Inherited from :class:`~ophyd.epics_motor.EpicsMotor`
+   
+       *  -  direction_of_travel
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.TDIR``
+          -  
+          -  omitted
+          -  Inherited from :class:`~ophyd.epics_motor.EpicsMotor`
+   
+       *  -  motor_stop
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.STOP``
+          -  
+          -  omitted
+          -  Inherited from :class:`~ophyd.epics_motor.EpicsMotor`
+   
+       *  -  home_forward
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.HOMF``
+          -  
+          -  omitted
+          -  Inherited from :class:`~ophyd.epics_motor.EpicsMotor`
+   
+       *  -  home_reverse
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.HOMR``
+          -  
+          -  omitted
+          -  Inherited from :class:`~ophyd.epics_motor.EpicsMotor`
+   
+       *  -  disabled
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.DISP``
+          -  
+          -  omitted
+          -  
+   
+       *  -  description
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``.DESC``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~EpicsMotorInterface.SUB_ACQ_DONE
-      ~EpicsMotorInterface.SUB_DONE
-      ~EpicsMotorInterface.SUB_READBACK
-      ~EpicsMotorInterface.SUB_START
-      ~EpicsMotorInterface.acceleration
-      ~EpicsMotorInterface.attr_name
-      ~EpicsMotorInterface.component_names
-      ~EpicsMotorInterface.configuration_attrs
-      ~EpicsMotorInterface.connected
-      ~EpicsMotorInterface.description
-      ~EpicsMotorInterface.direction_of_travel
-      ~EpicsMotorInterface.disabled
-      ~EpicsMotorInterface.dotted_name
-      ~EpicsMotorInterface.egu
-      ~EpicsMotorInterface.event_types
-      ~EpicsMotorInterface.high_limit
-      ~EpicsMotorInterface.high_limit_switch
-      ~EpicsMotorInterface.high_limit_travel
-      ~EpicsMotorInterface.hints
-      ~EpicsMotorInterface.home_forward
-      ~EpicsMotorInterface.home_reverse
-      ~EpicsMotorInterface.kind
-      ~EpicsMotorInterface.lazy_wait_for_connection
-      ~EpicsMotorInterface.limits
-      ~EpicsMotorInterface.low_limit
-      ~EpicsMotorInterface.low_limit_switch
-      ~EpicsMotorInterface.low_limit_travel
-      ~EpicsMotorInterface.motor_done_move
-      ~EpicsMotorInterface.motor_egu
-      ~EpicsMotorInterface.motor_is_moving
-      ~EpicsMotorInterface.motor_stop
-      ~EpicsMotorInterface.moving
-      ~EpicsMotorInterface.name
-      ~EpicsMotorInterface.offset_freeze_switch
-      ~EpicsMotorInterface.parent
-      ~EpicsMotorInterface.position
-      ~EpicsMotorInterface.precision
-      ~EpicsMotorInterface.presets
-      ~EpicsMotorInterface.read_attrs
-      ~EpicsMotorInterface.report
-      ~EpicsMotorInterface.root
-      ~EpicsMotorInterface.set_use_switch
-      ~EpicsMotorInterface.settle_time
-      ~EpicsMotorInterface.signal_names
-      ~EpicsMotorInterface.tab_whitelist
-      ~EpicsMotorInterface.timeout
-      ~EpicsMotorInterface.tolerated_alarm
-      ~EpicsMotorInterface.trigger_signals
-      ~EpicsMotorInterface.user_offset
-      ~EpicsMotorInterface.user_offset_dir
-      ~EpicsMotorInterface.user_readback
-      ~EpicsMotorInterface.user_setpoint
-      ~EpicsMotorInterface.velocity
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~EpicsMotorInterface.camonitor
+       ~EpicsMotorInterface.configure
+       ~EpicsMotorInterface.describe
+       ~EpicsMotorInterface.disable
+       ~EpicsMotorInterface.enable
+       ~EpicsMotorInterface.end_monitor_thread
+       ~EpicsMotorInterface.get
+       ~EpicsMotorInterface.get_lim
+       ~EpicsMotorInterface.home
+       ~EpicsMotorInterface.move
+       ~EpicsMotorInterface.mv
+       ~EpicsMotorInterface.mv_ginput
+       ~EpicsMotorInterface.mvr
+       ~EpicsMotorInterface.read
+       ~EpicsMotorInterface.read_configuration
+       ~EpicsMotorInterface.set
+       ~EpicsMotorInterface.set_current_position
+       ~EpicsMotorInterface.set_lim
+       ~EpicsMotorInterface.stop
+       ~EpicsMotorInterface.summary
+       ~EpicsMotorInterface.trigger
+       ~EpicsMotorInterface.tweak
+       ~EpicsMotorInterface.umv
+       ~EpicsMotorInterface.umvr
+       ~EpicsMotorInterface.wait
+       ~EpicsMotorInterface.wm
+       ~EpicsMotorInterface.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~EpicsMotorInterface.configuration_attrs
+       ~EpicsMotorInterface.connected
+       ~EpicsMotorInterface.egu
+       ~EpicsMotorInterface.high_limit
+       ~EpicsMotorInterface.hints
+       ~EpicsMotorInterface.kind
+       ~EpicsMotorInterface.limits
+       ~EpicsMotorInterface.low_limit
+       ~EpicsMotorInterface.moving
+       ~EpicsMotorInterface.position
+       ~EpicsMotorInterface.precision
+       ~EpicsMotorInterface.presets
+       ~EpicsMotorInterface.settle_time
+       ~EpicsMotorInterface.timeout
+       ~EpicsMotorInterface.tolerated_alarm
+    
+    

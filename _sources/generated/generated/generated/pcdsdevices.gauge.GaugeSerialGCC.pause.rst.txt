@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GaugeSerialGCC.pause
-======================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GaugeSerialGCC.pause

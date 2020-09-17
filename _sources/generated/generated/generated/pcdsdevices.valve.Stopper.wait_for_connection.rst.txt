@@ -1,6 +1,0 @@
-pcdsdevices.valve.Stopper.wait\_for\_connection
-===============================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: Stopper.wait_for_connection

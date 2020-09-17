@@ -1,6 +1,0 @@
-pcdsdevices.valve.VFS.\_\_init\_\_
-==================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VFS.__init__

@@ -1,6 +1,0 @@
-pcdsdevices.pump.PIPSerial.get\_instantiated\_signals
-=====================================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: PIPSerial.get_instantiated_signals

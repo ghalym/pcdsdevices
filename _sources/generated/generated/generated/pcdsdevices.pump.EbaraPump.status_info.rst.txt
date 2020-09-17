@@ -1,6 +1,0 @@
-pcdsdevices.pump.EbaraPump.status\_info
-=======================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: EbaraPump.status_info

@@ -7,12 +7,13 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.mps.MPS.trigger &mdash; PCDS Devices 2.10.0+84.g5f7a7c0 documentation</title>
+  <title>pcdsdevices.mps.MPS.trigger &mdash; PCDS Devices 2.10.0+88.g7e18030 documentation</title>
   
 
   
   <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/theme_overrides.css" type="text/css" />
 
   
   
@@ -36,7 +37,7 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.mps.MPS.unstage" href="pcdsdevices.mps.MPS.unstage.html" />
+    <link rel="next" title="pcdsdevices.mps.MPSBase" href="../pcdsdevices.mps.MPSBase.html" />
     <link rel="prev" title="pcdsdevices.mps.MPS.summary" href="pcdsdevices.mps.MPS.summary.html" /> 
 </head>
 
@@ -61,7 +62,7 @@
             
             
               <div class="version">
-                2.10.0+84.g5f7a7c0
+                2.10.0+88.g7e18030
               </div>
             
           
@@ -130,37 +131,14 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.mps.must_be_known.html">pcdsdevices.mps.must_be_known</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.mps.must_be_out.html">pcdsdevices.mps.must_be_out</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.mps.MPS.html">pcdsdevices.mps.MPS</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.__init__.html">pcdsdevices.mps.MPS.__init__</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.add_instantiation_callback.html">pcdsdevices.mps.MPS.add_instantiation_callback</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.check_value.html">pcdsdevices.mps.MPS.check_value</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.clear_sub.html">pcdsdevices.mps.MPS.clear_sub</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.configure.html">pcdsdevices.mps.MPS.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.describe.html">pcdsdevices.mps.MPS.describe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.describe_configuration.html">pcdsdevices.mps.MPS.describe_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.destroy.html">pcdsdevices.mps.MPS.destroy</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.format_status_info.html">pcdsdevices.mps.MPS.format_status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.get.html">pcdsdevices.mps.MPS.get</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.get_device_tuple.html">pcdsdevices.mps.MPS.get_device_tuple</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.get_instantiated_signals.html">pcdsdevices.mps.MPS.get_instantiated_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.pause.html">pcdsdevices.mps.MPS.pause</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.put.html">pcdsdevices.mps.MPS.put</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.read.html">pcdsdevices.mps.MPS.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.read_configuration.html">pcdsdevices.mps.MPS.read_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.resume.html">pcdsdevices.mps.MPS.resume</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.stage.html">pcdsdevices.mps.MPS.stage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.status_info.html">pcdsdevices.mps.MPS.status_info</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.stop.html">pcdsdevices.mps.MPS.stop</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.subscribe.html">pcdsdevices.mps.MPS.subscribe</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.summary.html">pcdsdevices.mps.MPS.summary</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.mps.MPS.trigger</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.unstage.html">pcdsdevices.mps.MPS.unstage</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.unsubscribe.html">pcdsdevices.mps.MPS.unsubscribe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.unsubscribe_all.html">pcdsdevices.mps.MPS.unsubscribe_all</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.wait_for_connection.html">pcdsdevices.mps.MPS.wait_for_connection</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.walk_components.html">pcdsdevices.mps.MPS.walk_components</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.walk_signals.html">pcdsdevices.mps.MPS.walk_signals</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.walk_subdevice_classes.html">pcdsdevices.mps.MPS.walk_subdevice_classes</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mps.MPS.walk_subdevices.html">pcdsdevices.mps.MPS.walk_subdevices</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.mps.MPSBase.html">pcdsdevices.mps.MPSBase</a></li>
@@ -289,7 +267,7 @@ as complete when the device is ready to be read.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.mps.MPS.unstage.html" class="btn btn-neutral float-right" title="pcdsdevices.mps.MPS.unstage" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../pcdsdevices.mps.MPSBase.html" class="btn btn-neutral float-right" title="pcdsdevices.mps.MPSBase" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="pcdsdevices.mps.MPS.summary.html" class="btn btn-neutral float-left" title="pcdsdevices.mps.MPS.summary" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

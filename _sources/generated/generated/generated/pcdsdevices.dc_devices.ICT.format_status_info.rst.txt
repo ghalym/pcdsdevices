@@ -1,6 +1,0 @@
-pcdsdevices.dc\_devices.ICT.format\_status\_info
-================================================
-
-.. currentmodule:: pcdsdevices.dc_devices
-
-.. automethod:: ICT.format_status_info

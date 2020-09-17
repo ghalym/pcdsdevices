@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.DelayBase.unsubscribe\_all
-================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: DelayBase.unsubscribe_all

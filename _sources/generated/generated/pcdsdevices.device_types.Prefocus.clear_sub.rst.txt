@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.Prefocus.clear\_sub
-=============================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: Prefocus.clear_sub

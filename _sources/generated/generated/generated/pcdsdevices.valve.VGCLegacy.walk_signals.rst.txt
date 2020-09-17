@@ -1,6 +1,0 @@
-pcdsdevices.valve.VGCLegacy.walk\_signals
-=========================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VGCLegacy.walk_signals

@@ -1,6 +1,0 @@
-pcdsdevices.pump.AgilentSerial.describe\_configuration
-======================================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: AgilentSerial.describe_configuration

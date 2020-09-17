@@ -1,6 +1,0 @@
-pcdsdevices.pump.Ebara\_EV\_A03\_1.describe\_configuration
-==========================================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: Ebara_EV_A03_1.describe_configuration

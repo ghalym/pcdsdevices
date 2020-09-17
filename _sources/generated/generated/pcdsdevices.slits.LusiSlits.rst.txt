@@ -7,96 +7,148 @@ pcdsdevices.slits.LusiSlits
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~LusiSlits.__init__
-      ~LusiSlits.add_instantiation_callback
-      ~LusiSlits.block
-      ~LusiSlits.camonitor
-      ~LusiSlits.check_value
-      ~LusiSlits.clear_sub
-      ~LusiSlits.close
-      ~LusiSlits.configure
-      ~LusiSlits.describe
-      ~LusiSlits.describe_configuration
-      ~LusiSlits.destroy
-      ~LusiSlits.end_monitor_thread
-      ~LusiSlits.format_status_info
-      ~LusiSlits.get
-      ~LusiSlits.get_device_tuple
-      ~LusiSlits.get_instantiated_signals
-      ~LusiSlits.move
-      ~LusiSlits.mv
-      ~LusiSlits.open
-      ~LusiSlits.pause
-      ~LusiSlits.put
-      ~LusiSlits.read
-      ~LusiSlits.read_configuration
-      ~LusiSlits.remove
-      ~LusiSlits.resume
-      ~LusiSlits.set
-      ~LusiSlits.stage
-      ~LusiSlits.status_info
-      ~LusiSlits.stop
-      ~LusiSlits.subscribe
-      ~LusiSlits.summary
-      ~LusiSlits.trigger
-      ~LusiSlits.unstage
-      ~LusiSlits.unsubscribe
-      ~LusiSlits.unsubscribe_all
-      ~LusiSlits.wait
-      ~LusiSlits.wait_for_connection
-      ~LusiSlits.walk_components
-      ~LusiSlits.walk_signals
-      ~LusiSlits.walk_subdevice_classes
-      ~LusiSlits.walk_subdevices
-      ~LusiSlits.wm
-      ~LusiSlits.wm_update
+       *  -  nominal_aperture
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.slits.SlitsBase`
+   
+       *  -  xwidth
+          -  :class:`~pcdsdevices.slits.LusiSlitPositioner`
+          -  
+          -  
+          -  hinted
+          -  
+   
+       *  -  ywidth
+          -  :class:`~pcdsdevices.slits.LusiSlitPositioner`
+          -  
+          -  
+          -  hinted
+          -  
+   
+       *  -  xcenter
+          -  :class:`~pcdsdevices.slits.LusiSlitPositioner`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  ycenter
+          -  :class:`~pcdsdevices.slits.LusiSlitPositioner`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  blocked
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:BLOCKED``
+          -  
+          -  omitted
+          -  
+   
+       *  -  open_cmd
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:OPEN``
+          -  
+          -  omitted
+          -  
+   
+       *  -  close_cmd
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:CLOSE``
+          -  
+          -  omitted
+          -  
+   
+       *  -  block_cmd
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:BLOCK``
+          -  
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~LusiSlits.SUB_ACQ_DONE
-      ~LusiSlits.SUB_STATE
-      ~LusiSlits.attr_name
-      ~LusiSlits.block_cmd
-      ~LusiSlits.blocked
-      ~LusiSlits.close_cmd
-      ~LusiSlits.component_names
-      ~LusiSlits.configuration_attrs
-      ~LusiSlits.connected
-      ~LusiSlits.current_aperture
-      ~LusiSlits.dotted_name
-      ~LusiSlits.event_types
-      ~LusiSlits.hints
-      ~LusiSlits.inserted
-      ~LusiSlits.kind
-      ~LusiSlits.lazy_wait_for_connection
-      ~LusiSlits.lightpath_cpts
-      ~LusiSlits.name
-      ~LusiSlits.nominal_aperture
-      ~LusiSlits.open_cmd
-      ~LusiSlits.parent
-      ~LusiSlits.position
-      ~LusiSlits.read_attrs
-      ~LusiSlits.removed
-      ~LusiSlits.report
-      ~LusiSlits.root
-      ~LusiSlits.signal_names
-      ~LusiSlits.tab_whitelist
-      ~LusiSlits.transmission
-      ~LusiSlits.trigger_signals
-      ~LusiSlits.xcenter
-      ~LusiSlits.xwidth
-      ~LusiSlits.ycenter
-      ~LusiSlits.ywidth
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~LusiSlits.block
+       ~LusiSlits.camonitor
+       ~LusiSlits.close
+       ~LusiSlits.configure
+       ~LusiSlits.describe
+       ~LusiSlits.end_monitor_thread
+       ~LusiSlits.get
+       ~LusiSlits.move
+       ~LusiSlits.mv
+       ~LusiSlits.open
+       ~LusiSlits.read
+       ~LusiSlits.read_configuration
+       ~LusiSlits.remove
+       ~LusiSlits.set
+       ~LusiSlits.stop
+       ~LusiSlits.summary
+       ~LusiSlits.trigger
+       ~LusiSlits.wait
+       ~LusiSlits.wm
+       ~LusiSlits.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~LusiSlits.configuration_attrs
+       ~LusiSlits.connected
+       ~LusiSlits.current_aperture
+       ~LusiSlits.hints
+       ~LusiSlits.kind
+       ~LusiSlits.lightpath_cpts
+       ~LusiSlits.position
+       ~LusiSlits.transmission
+    
+    

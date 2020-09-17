@@ -1,6 +1,0 @@
-pcdsdevices.state.CombinedStateRecordPositioner.destroy
-=======================================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: CombinedStateRecordPositioner.destroy

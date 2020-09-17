@@ -7,108 +7,104 @@ pcdsdevices.pseudopos.SimDelayStage
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~SimDelayStage.__init__
-      ~SimDelayStage.add_instantiation_callback
-      ~SimDelayStage.camonitor
-      ~SimDelayStage.check_single
-      ~SimDelayStage.check_value
-      ~SimDelayStage.clear_sub
-      ~SimDelayStage.configure
-      ~SimDelayStage.describe
-      ~SimDelayStage.describe_configuration
-      ~SimDelayStage.destroy
-      ~SimDelayStage.end_monitor_thread
-      ~SimDelayStage.format_status_info
-      ~SimDelayStage.forward
-      ~SimDelayStage.get
-      ~SimDelayStage.get_device_tuple
-      ~SimDelayStage.get_instantiated_signals
-      ~SimDelayStage.inverse
-      ~SimDelayStage.move
-      ~SimDelayStage.move_single
-      ~SimDelayStage.mv
-      ~SimDelayStage.mv_ginput
-      ~SimDelayStage.mvr
-      ~SimDelayStage.pause
-      ~SimDelayStage.put
-      ~SimDelayStage.read
-      ~SimDelayStage.read_configuration
-      ~SimDelayStage.resume
-      ~SimDelayStage.set
-      ~SimDelayStage.stage
-      ~SimDelayStage.status_info
-      ~SimDelayStage.stop
-      ~SimDelayStage.subscribe
-      ~SimDelayStage.summary
-      ~SimDelayStage.to_pseudo_tuple
-      ~SimDelayStage.to_real_tuple
-      ~SimDelayStage.trigger
-      ~SimDelayStage.tweak
-      ~SimDelayStage.umv
-      ~SimDelayStage.umvr
-      ~SimDelayStage.unstage
-      ~SimDelayStage.unsubscribe
-      ~SimDelayStage.unsubscribe_all
-      ~SimDelayStage.wait
-      ~SimDelayStage.wait_for_connection
-      ~SimDelayStage.walk_components
-      ~SimDelayStage.walk_signals
-      ~SimDelayStage.walk_subdevice_classes
-      ~SimDelayStage.walk_subdevices
-      ~SimDelayStage.wm
-      ~SimDelayStage.wm_update
+       *  -  delay (FCpt)
+          -  :class:`~ophyd.pseudopos.PseudoSingle`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pseudopos.DelayBase`
+   
+       *  -  motor
+          -  :class:`~pcdsdevices.sim.FastMotor`
+          -  
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~SimDelayStage.SUB_ACQ_DONE
-      ~SimDelayStage.SUB_DONE
-      ~SimDelayStage.SUB_READBACK
-      ~SimDelayStage.SUB_START
-      ~SimDelayStage.attr_name
-      ~SimDelayStage.component_names
-      ~SimDelayStage.composite_egu
-      ~SimDelayStage.concurrent
-      ~SimDelayStage.configuration_attrs
-      ~SimDelayStage.connected
-      ~SimDelayStage.delay
-      ~SimDelayStage.dotted_name
-      ~SimDelayStage.egu
-      ~SimDelayStage.event_types
-      ~SimDelayStage.high_limit
-      ~SimDelayStage.hints
-      ~SimDelayStage.kind
-      ~SimDelayStage.lazy_wait_for_connection
-      ~SimDelayStage.limits
-      ~SimDelayStage.low_limit
-      ~SimDelayStage.motor
-      ~SimDelayStage.moving
-      ~SimDelayStage.name
-      ~SimDelayStage.parent
-      ~SimDelayStage.position
-      ~SimDelayStage.presets
-      ~SimDelayStage.pseudo_positioners
-      ~SimDelayStage.read_attrs
-      ~SimDelayStage.real_position
-      ~SimDelayStage.real_positioners
-      ~SimDelayStage.report
-      ~SimDelayStage.root
-      ~SimDelayStage.sequential
-      ~SimDelayStage.settle_time
-      ~SimDelayStage.signal_names
-      ~SimDelayStage.tab_whitelist
-      ~SimDelayStage.target
-      ~SimDelayStage.timeout
-      ~SimDelayStage.trigger_signals
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~SimDelayStage.camonitor
+       ~SimDelayStage.check_single
+       ~SimDelayStage.configure
+       ~SimDelayStage.describe
+       ~SimDelayStage.end_monitor_thread
+       ~SimDelayStage.forward
+       ~SimDelayStage.get
+       ~SimDelayStage.inverse
+       ~SimDelayStage.move
+       ~SimDelayStage.move_single
+       ~SimDelayStage.mv
+       ~SimDelayStage.mv_ginput
+       ~SimDelayStage.mvr
+       ~SimDelayStage.read
+       ~SimDelayStage.read_configuration
+       ~SimDelayStage.set
+       ~SimDelayStage.stop
+       ~SimDelayStage.summary
+       ~SimDelayStage.to_pseudo_tuple
+       ~SimDelayStage.to_real_tuple
+       ~SimDelayStage.trigger
+       ~SimDelayStage.tweak
+       ~SimDelayStage.umv
+       ~SimDelayStage.umvr
+       ~SimDelayStage.wait
+       ~SimDelayStage.wm
+       ~SimDelayStage.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~SimDelayStage.composite_egu
+       ~SimDelayStage.concurrent
+       ~SimDelayStage.configuration_attrs
+       ~SimDelayStage.connected
+       ~SimDelayStage.egu
+       ~SimDelayStage.high_limit
+       ~SimDelayStage.hints
+       ~SimDelayStage.kind
+       ~SimDelayStage.limits
+       ~SimDelayStage.low_limit
+       ~SimDelayStage.moving
+       ~SimDelayStage.position
+       ~SimDelayStage.presets
+       ~SimDelayStage.pseudo_positioners
+       ~SimDelayStage.real_position
+       ~SimDelayStage.real_positioners
+       ~SimDelayStage.sequential
+       ~SimDelayStage.settle_time
+       ~SimDelayStage.target
+       ~SimDelayStage.timeout
+    
+    

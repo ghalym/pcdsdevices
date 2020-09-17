@@ -7,86 +7,240 @@ pcdsdevices.pump.PIPSerial
 
    
    
-   .. rubric:: Methods
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
 
-   .. autosummary::
-      :toctree: generated
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
    
-      ~PIPSerial.__init__
-      ~PIPSerial.add_instantiation_callback
-      ~PIPSerial.check_value
-      ~PIPSerial.clear_sub
-      ~PIPSerial.configure
-      ~PIPSerial.describe
-      ~PIPSerial.describe_configuration
-      ~PIPSerial.destroy
-      ~PIPSerial.get
-      ~PIPSerial.get_device_tuple
-      ~PIPSerial.get_instantiated_signals
-      ~PIPSerial.pause
-      ~PIPSerial.put
-      ~PIPSerial.read
-      ~PIPSerial.read_configuration
-      ~PIPSerial.resume
-      ~PIPSerial.stage
-      ~PIPSerial.stop
-      ~PIPSerial.subscribe
-      ~PIPSerial.summary
-      ~PIPSerial.trigger
-      ~PIPSerial.unstage
-      ~PIPSerial.unsubscribe
-      ~PIPSerial.unsubscribe_all
-      ~PIPSerial.wait_for_connection
-      ~PIPSerial.walk_components
-      ~PIPSerial.walk_signals
-      ~PIPSerial.walk_subdevice_classes
-      ~PIPSerial.walk_subdevices
+       *  -  imon
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:IMON_RBV``
+          -  
+          -  hinted
+          -  
+   
+       *  -  pmon
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PMON_RBV``
+          -  
+          -  hinted
+          -  
+   
+       *  -  pmonlog
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PMONLOG_RBV``
+          -  
+          -  normal
+          -  
+   
+       *  -  vmon
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:VMON_RBV``
+          -  
+          -  normal
+          -  
+   
+       *  -  statusraw
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:STATUSRAW_RBV``
+          -  
+          -  omitted
+          -  
+   
+       *  -  statuscalc
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:STATUSCALC_RBV``
+          -  
+          -  omitted
+          -  
+   
+       *  -  status
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:STATUS_RBV``
+          -  
+          -  normal
+          -  
+   
+       *  -  statuscodecl
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:STATUSCODECL_RBV``
+          -  
+          -  omitted
+          -  
+   
+       *  -  statuscode
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:STATUSCODE_RBV``
+          -  
+          -  omitted
+          -  
+   
+       *  -  pumpsizedes
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PUMPSIZEDES``
+          -  
+          -  omitted
+          -  
+   
+       *  -  pumpsize
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PUMPSIZE``
+          -  
+          -  omitted
+          -  
+   
+       *  -  calfactordes
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:CALFACTORDES``
+          -  
+          -  omitted
+          -  
+   
+       *  -  calfactor
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:CALFACTOR``
+          -  
+          -  omitted
+          -  
+   
+       *  -  aomodedes
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:AOMODEDES``
+          -  
+          -  omitted
+          -  
+   
+       *  -  aomode
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:AOMODE``
+          -  
+          -  omitted
+          -  
+   
+       *  -  statedes
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:STATEDES``
+          -  
+          -  omitted
+          -  
+   
+       *  -  statemon
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:STATEMON_RBV``
+          -  
+          -  normal
+          -  
+   
+       *  -  dispdes
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:DISPDES``
+          -  
+          -  omitted
+          -  
+   
+       *  -  pname
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PNAME_RBV``
+          -  
+          -  normal
+          -  
+   
+       *  -  pnamedes
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PNAMEDES``
+          -  
+          -  omitted
+          -  
+   
+       *  -  vpcname
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:VPCNAME``
+          -  
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
    
    
-   .. rubric:: Attributes
 
-   .. autosummary::
-   
-      ~PIPSerial.SUB_ACQ_DONE
-      ~PIPSerial.aomode
-      ~PIPSerial.aomodedes
-      ~PIPSerial.attr_name
-      ~PIPSerial.calfactor
-      ~PIPSerial.calfactordes
-      ~PIPSerial.component_names
-      ~PIPSerial.configuration_attrs
-      ~PIPSerial.connected
-      ~PIPSerial.dispdes
-      ~PIPSerial.dotted_name
-      ~PIPSerial.event_types
-      ~PIPSerial.hints
-      ~PIPSerial.imon
-      ~PIPSerial.kind
-      ~PIPSerial.lazy_wait_for_connection
-      ~PIPSerial.name
-      ~PIPSerial.parent
-      ~PIPSerial.pmon
-      ~PIPSerial.pmonlog
-      ~PIPSerial.pname
-      ~PIPSerial.pnamedes
-      ~PIPSerial.pumpsize
-      ~PIPSerial.pumpsizedes
-      ~PIPSerial.read_attrs
-      ~PIPSerial.report
-      ~PIPSerial.root
-      ~PIPSerial.signal_names
-      ~PIPSerial.statedes
-      ~PIPSerial.statemon
-      ~PIPSerial.status
-      ~PIPSerial.statuscalc
-      ~PIPSerial.statuscode
-      ~PIPSerial.statuscodecl
-      ~PIPSerial.statusraw
-      ~PIPSerial.trigger_signals
-      ~PIPSerial.vmon
-      ~PIPSerial.vpcname
-   
-   
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~PIPSerial.configure
+       ~PIPSerial.describe
+       ~PIPSerial.get
+       ~PIPSerial.read
+       ~PIPSerial.read_configuration
+       ~PIPSerial.stop
+       ~PIPSerial.summary
+       ~PIPSerial.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~PIPSerial.configuration_attrs
+       ~PIPSerial.connected
+       ~PIPSerial.hints
+       ~PIPSerial.kind
+    
+    

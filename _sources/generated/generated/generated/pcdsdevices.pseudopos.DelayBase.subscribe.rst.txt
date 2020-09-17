@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.DelayBase.subscribe
-=========================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: DelayBase.subscribe

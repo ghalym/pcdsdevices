@@ -1,6 +1,0 @@
-pcdsdevices.signal.NotImplementedSignal.destroy
-===============================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: NotImplementedSignal.destroy

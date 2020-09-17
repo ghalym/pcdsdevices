@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.GasAttenuator.format\_status\_info
-=========================================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: GasAttenuator.format_status_info

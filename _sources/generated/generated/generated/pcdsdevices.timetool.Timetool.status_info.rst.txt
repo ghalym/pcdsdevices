@@ -1,6 +1,0 @@
-pcdsdevices.timetool.Timetool.status\_info
-==========================================
-
-.. currentmodule:: pcdsdevices.timetool
-
-.. automethod:: Timetool.status_info

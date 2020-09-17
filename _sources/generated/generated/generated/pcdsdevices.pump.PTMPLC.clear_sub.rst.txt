@@ -1,6 +1,0 @@
-pcdsdevices.pump.PTMPLC.clear\_sub
-==================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: PTMPLC.clear_sub

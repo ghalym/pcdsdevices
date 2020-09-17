@@ -1,6 +1,0 @@
-pcdsdevices.pump.GammaController.stage
-======================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: GammaController.stage

@@ -1,6 +1,0 @@
-pcdsdevices.valve.VGCLegacy.clear\_sub
-======================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VGCLegacy.clear_sub
