@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMTarget.wait
+==============================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMTarget.wait

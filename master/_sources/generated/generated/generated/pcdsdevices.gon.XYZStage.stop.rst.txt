@@ -1,0 +1,6 @@
+pcdsdevices.gon.XYZStage.stop
+=============================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: XYZStage.stop

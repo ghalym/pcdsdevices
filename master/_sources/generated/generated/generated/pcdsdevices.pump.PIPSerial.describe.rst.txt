@@ -1,0 +1,6 @@
+pcdsdevices.pump.PIPSerial.describe
+===================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PIPSerial.describe

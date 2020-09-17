@@ -1,0 +1,110 @@
+pcdsdevices.inout.CombinedInOutRecordPositioner
+===============================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. autoclass:: CombinedInOutRecordPositioner
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.state.CombinedStateRecordPositioner`
+   
+       *  -  x_motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:X:MOTOR``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.state.CombinedStateRecordPositioner`
+   
+       *  -  y_motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:Y:MOTOR``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.state.CombinedStateRecordPositioner`
+   
+
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~CombinedInOutRecordPositioner.camonitor
+       ~CombinedInOutRecordPositioner.check_inserted
+       ~CombinedInOutRecordPositioner.check_removed
+       ~CombinedInOutRecordPositioner.check_transmission
+       ~CombinedInOutRecordPositioner.configure
+       ~CombinedInOutRecordPositioner.describe
+       ~CombinedInOutRecordPositioner.end_monitor_thread
+       ~CombinedInOutRecordPositioner.get
+       ~CombinedInOutRecordPositioner.get_state
+       ~CombinedInOutRecordPositioner.insert
+       ~CombinedInOutRecordPositioner.move
+       ~CombinedInOutRecordPositioner.mv
+       ~CombinedInOutRecordPositioner.read
+       ~CombinedInOutRecordPositioner.read_configuration
+       ~CombinedInOutRecordPositioner.remove
+       ~CombinedInOutRecordPositioner.set
+       ~CombinedInOutRecordPositioner.stop
+       ~CombinedInOutRecordPositioner.summary
+       ~CombinedInOutRecordPositioner.trigger
+       ~CombinedInOutRecordPositioner.wait
+       ~CombinedInOutRecordPositioner.wm
+       ~CombinedInOutRecordPositioner.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~CombinedInOutRecordPositioner.configuration_attrs
+       ~CombinedInOutRecordPositioner.connected
+       ~CombinedInOutRecordPositioner.egu
+       ~CombinedInOutRecordPositioner.high_limit
+       ~CombinedInOutRecordPositioner.hints
+       ~CombinedInOutRecordPositioner.in_states
+       ~CombinedInOutRecordPositioner.kind
+       ~CombinedInOutRecordPositioner.limits
+       ~CombinedInOutRecordPositioner.low_limit
+       ~CombinedInOutRecordPositioner.moving
+       ~CombinedInOutRecordPositioner.out_states
+       ~CombinedInOutRecordPositioner.position
+       ~CombinedInOutRecordPositioner.settle_time
+       ~CombinedInOutRecordPositioner.states_list
+       ~CombinedInOutRecordPositioner.timeout
+       ~CombinedInOutRecordPositioner.transmission
+    
+    

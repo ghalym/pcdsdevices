@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMMotion.describe
+==================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMMotion.describe

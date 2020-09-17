@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Timetool.check\_removed
+=================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Timetool.check_removed

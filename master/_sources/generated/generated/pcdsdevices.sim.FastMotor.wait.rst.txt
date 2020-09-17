@@ -1,0 +1,6 @@
+pcdsdevices.sim.FastMotor.wait
+==============================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: FastMotor.wait

@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMPico.mv\_ginput
+==================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMPico.mv_ginput

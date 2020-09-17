@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICTBus.voltage
+======================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICTBus.voltage

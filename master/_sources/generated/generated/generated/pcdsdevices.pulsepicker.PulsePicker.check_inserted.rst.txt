@@ -1,0 +1,6 @@
+pcdsdevices.pulsepicker.PulsePicker.check\_inserted
+===================================================
+
+.. currentmodule:: pcdsdevices.pulsepicker
+
+.. automethod:: PulsePicker.check_inserted

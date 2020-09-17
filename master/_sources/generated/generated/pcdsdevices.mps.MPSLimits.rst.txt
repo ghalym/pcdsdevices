@@ -1,0 +1,79 @@
+pcdsdevices.mps.MPSLimits
+=========================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. autoclass:: MPSLimits
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  in_limit
+          -  :class:`~pcdsdevices.mps.MPS`
+          -  ``_IN``
+          -  
+          -  normal
+          -  
+   
+       *  -  out_limit
+          -  :class:`~pcdsdevices.mps.MPS`
+          -  ``_OUT``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~MPSLimits.configure
+       ~MPSLimits.describe
+       ~MPSLimits.get
+       ~MPSLimits.read
+       ~MPSLimits.read_configuration
+       ~MPSLimits.stop
+       ~MPSLimits.summary
+       ~MPSLimits.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~MPSLimits.SUB_FAULT_CH
+       ~MPSLimits.bypassed
+       ~MPSLimits.configuration_attrs
+       ~MPSLimits.connected
+       ~MPSLimits.faulted
+       ~MPSLimits.hints
+       ~MPSLimits.kind
+       ~MPSLimits.tripped
+    
+    

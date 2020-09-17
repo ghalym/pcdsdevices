@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCC500PLC.read
+================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCC500PLC.read

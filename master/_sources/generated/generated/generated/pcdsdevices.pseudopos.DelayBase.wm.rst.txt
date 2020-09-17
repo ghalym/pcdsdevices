@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.DelayBase.wm
+==================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: DelayBase.wm

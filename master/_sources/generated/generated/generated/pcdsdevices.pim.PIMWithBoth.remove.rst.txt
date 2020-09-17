@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithBoth.remove
+==================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithBoth.remove

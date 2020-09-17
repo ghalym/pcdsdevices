@@ -1,0 +1,92 @@
+pcdsdevices.valve.PPSStopper
+============================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. autoclass:: PPSStopper
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  
+          -  
+          -  hinted
+          -  
+   
+
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~PPSStopper.camonitor
+       ~PPSStopper.check_inserted
+       ~PPSStopper.check_removed
+       ~PPSStopper.check_transmission
+       ~PPSStopper.configure
+       ~PPSStopper.describe
+       ~PPSStopper.end_monitor_thread
+       ~PPSStopper.get
+       ~PPSStopper.get_state
+       ~PPSStopper.insert
+       ~PPSStopper.move
+       ~PPSStopper.mv
+       ~PPSStopper.read
+       ~PPSStopper.read_configuration
+       ~PPSStopper.remove
+       ~PPSStopper.set
+       ~PPSStopper.stop
+       ~PPSStopper.summary
+       ~PPSStopper.trigger
+       ~PPSStopper.wait
+       ~PPSStopper.wm
+       ~PPSStopper.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~PPSStopper.configuration_attrs
+       ~PPSStopper.connected
+       ~PPSStopper.egu
+       ~PPSStopper.high_limit
+       ~PPSStopper.hints
+       ~PPSStopper.in_states
+       ~PPSStopper.kind
+       ~PPSStopper.limits
+       ~PPSStopper.low_limit
+       ~PPSStopper.moving
+       ~PPSStopper.out_states
+       ~PPSStopper.position
+       ~PPSStopper.settle_time
+       ~PPSStopper.states_list
+       ~PPSStopper.timeout
+       ~PPSStopper.transmission
+    
+    

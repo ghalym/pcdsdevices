@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PCDSAreaDetector.get\_plugin\_graph\_edges
+====================================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PCDSAreaDetector.get_plugin_graph_edges

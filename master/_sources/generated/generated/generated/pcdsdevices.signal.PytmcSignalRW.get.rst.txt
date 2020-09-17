@@ -1,0 +1,6 @@
+pcdsdevices.signal.PytmcSignalRW.get
+====================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: PytmcSignalRW.get

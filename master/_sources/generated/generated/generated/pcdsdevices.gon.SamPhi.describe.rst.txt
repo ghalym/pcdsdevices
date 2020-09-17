@@ -1,0 +1,6 @@
+pcdsdevices.gon.SamPhi.describe
+===============================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: SamPhi.describe

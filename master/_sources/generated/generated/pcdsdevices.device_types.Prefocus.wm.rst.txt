@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Prefocus.wm
+=====================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Prefocus.wm

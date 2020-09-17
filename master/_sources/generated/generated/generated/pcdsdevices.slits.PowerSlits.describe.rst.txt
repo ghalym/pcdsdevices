@@ -1,0 +1,6 @@
+pcdsdevices.slits.PowerSlits.describe
+=====================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: PowerSlits.describe

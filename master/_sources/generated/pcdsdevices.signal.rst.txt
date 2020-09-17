@@ -1,0 +1,41 @@
+﻿pcdsdevices.signal
+==================
+
+.. automodule:: pcdsdevices.signal
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+      :toctree: generated
+   
+      pytmc_writable
+      select_pytmc_class
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree: generated
+   
+      AggregateSignal
+      AvgSignal
+      FakePytmcSignal
+      FakePytmcSignalRO
+      FakePytmcSignalRW
+      InternalSignal
+      NotImplementedSignal
+      PytmcSignal
+      PytmcSignalRO
+      PytmcSignalRW
+      UnitConversionDerivedSignal
+   
+   
+
+   
+   
+   

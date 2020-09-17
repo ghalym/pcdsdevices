@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.IMS.get\_lim
+======================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: IMS.get_lim

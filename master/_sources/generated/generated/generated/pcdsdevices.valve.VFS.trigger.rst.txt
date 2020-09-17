@@ -1,0 +1,6 @@
+pcdsdevices.valve.VFS.trigger
+=============================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VFS.trigger

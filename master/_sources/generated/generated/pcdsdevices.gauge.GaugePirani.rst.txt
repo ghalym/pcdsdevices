@@ -1,0 +1,111 @@
+pcdsdevices.gauge.GaugePirani
+=============================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. autoclass:: GaugePirani
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  pressure
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PMON``
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.gauge.BaseGauge`
+   
+       *  -  egu
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PMON.EGU``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gauge.BaseGauge`
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:STATE``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gauge.BaseGauge`
+   
+       *  -  status
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:STATUSMON``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gauge.BaseGauge`
+   
+       *  -  pressure_status
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PSTATMON``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gauge.BaseGauge`
+   
+       *  -  pressure_status_enable
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:PSTATMSP``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gauge.BaseGauge`
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~GaugePirani.configure
+       ~GaugePirani.describe
+       ~GaugePirani.get
+       ~GaugePirani.read
+       ~GaugePirani.read_configuration
+       ~GaugePirani.stop
+       ~GaugePirani.summary
+       ~GaugePirani.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~GaugePirani.configuration_attrs
+       ~GaugePirani.connected
+       ~GaugePirani.hints
+       ~GaugePirani.kind
+    
+    

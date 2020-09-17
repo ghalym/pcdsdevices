@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMX.wm\_update
+===============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMX.wm_update

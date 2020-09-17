@@ -1,0 +1,101 @@
+pcdsdevices.inout.InOutRecordPositioner
+=======================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. autoclass:: InOutRecordPositioner
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.state.StateRecordPositioner`
+   
+       *  -  motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:MOTOR``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.state.StateRecordPositioner`
+   
+
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~InOutRecordPositioner.camonitor
+       ~InOutRecordPositioner.check_inserted
+       ~InOutRecordPositioner.check_removed
+       ~InOutRecordPositioner.check_transmission
+       ~InOutRecordPositioner.configure
+       ~InOutRecordPositioner.describe
+       ~InOutRecordPositioner.end_monitor_thread
+       ~InOutRecordPositioner.get
+       ~InOutRecordPositioner.get_state
+       ~InOutRecordPositioner.insert
+       ~InOutRecordPositioner.move
+       ~InOutRecordPositioner.mv
+       ~InOutRecordPositioner.read
+       ~InOutRecordPositioner.read_configuration
+       ~InOutRecordPositioner.remove
+       ~InOutRecordPositioner.set
+       ~InOutRecordPositioner.stop
+       ~InOutRecordPositioner.summary
+       ~InOutRecordPositioner.trigger
+       ~InOutRecordPositioner.wait
+       ~InOutRecordPositioner.wm
+       ~InOutRecordPositioner.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~InOutRecordPositioner.configuration_attrs
+       ~InOutRecordPositioner.connected
+       ~InOutRecordPositioner.egu
+       ~InOutRecordPositioner.high_limit
+       ~InOutRecordPositioner.hints
+       ~InOutRecordPositioner.in_states
+       ~InOutRecordPositioner.kind
+       ~InOutRecordPositioner.limits
+       ~InOutRecordPositioner.low_limit
+       ~InOutRecordPositioner.moving
+       ~InOutRecordPositioner.out_states
+       ~InOutRecordPositioner.position
+       ~InOutRecordPositioner.settle_time
+       ~InOutRecordPositioner.states_list
+       ~InOutRecordPositioner.timeout
+       ~InOutRecordPositioner.transmission
+    
+    

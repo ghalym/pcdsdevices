@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.SmarAct.umvr
+=====================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: SmarAct.umvr

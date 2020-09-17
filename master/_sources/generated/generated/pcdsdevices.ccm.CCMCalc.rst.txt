@@ -1,0 +1,146 @@
+pcdsdevices.ccm.CCMCalc
+=======================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. autoclass:: CCMCalc
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  energy
+          -  :class:`~pcdsdevices.pseudopos.PseudoSingleInterface`
+          -  
+          -  
+          -  hinted
+          -  
+   
+       *  -  wavelength
+          -  :class:`~pcdsdevices.pseudopos.PseudoSingleInterface`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  theta
+          -  :class:`~pcdsdevices.pseudopos.PseudoSingleInterface`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  energy_with_vernier
+          -  :class:`~pcdsdevices.pseudopos.PseudoSingleInterface`
+          -  
+          -  
+          -  omitted
+          -  
+   
+       *  -  alio
+          -  :class:`~pcdsdevices.ccm.CCMMotor`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  energy_request (FCpt)
+          -  :class:`~pcdsdevices.beam_stats.BeamEnergyRequest`
+          -  ``{hutch}``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~CCMCalc.camonitor
+       ~CCMCalc.check_single
+       ~CCMCalc.configure
+       ~CCMCalc.describe
+       ~CCMCalc.end_monitor_thread
+       ~CCMCalc.forward
+       ~CCMCalc.get
+       ~CCMCalc.inverse
+       ~CCMCalc.move
+       ~CCMCalc.move_single
+       ~CCMCalc.mv
+       ~CCMCalc.mv_ginput
+       ~CCMCalc.mvr
+       ~CCMCalc.read
+       ~CCMCalc.read_configuration
+       ~CCMCalc.set
+       ~CCMCalc.stop
+       ~CCMCalc.summary
+       ~CCMCalc.to_pseudo_tuple
+       ~CCMCalc.to_real_tuple
+       ~CCMCalc.trigger
+       ~CCMCalc.tweak
+       ~CCMCalc.umv
+       ~CCMCalc.umvr
+       ~CCMCalc.wait
+       ~CCMCalc.wm
+       ~CCMCalc.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~CCMCalc.composite_egu
+       ~CCMCalc.concurrent
+       ~CCMCalc.configuration_attrs
+       ~CCMCalc.connected
+       ~CCMCalc.egu
+       ~CCMCalc.high_limit
+       ~CCMCalc.hints
+       ~CCMCalc.kind
+       ~CCMCalc.limits
+       ~CCMCalc.low_limit
+       ~CCMCalc.moving
+       ~CCMCalc.position
+       ~CCMCalc.presets
+       ~CCMCalc.pseudo_positioners
+       ~CCMCalc.real_position
+       ~CCMCalc.real_positioners
+       ~CCMCalc.sequential
+       ~CCMCalc.settle_time
+       ~CCMCalc.target
+       ~CCMCalc.timeout
+    
+    

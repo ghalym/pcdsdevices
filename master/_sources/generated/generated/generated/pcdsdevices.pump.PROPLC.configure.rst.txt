@@ -1,0 +1,6 @@
+pcdsdevices.pump.PROPLC.configure
+=================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PROPLC.configure

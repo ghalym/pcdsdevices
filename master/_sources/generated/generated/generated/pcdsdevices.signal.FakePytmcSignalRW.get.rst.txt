@@ -1,0 +1,6 @@
+pcdsdevices.signal.FakePytmcSignalRW.get
+========================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: FakePytmcSignalRW.get

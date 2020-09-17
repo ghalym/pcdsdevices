@@ -1,0 +1,6 @@
+pcdsdevices.valve.VGC.read
+==========================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VGC.read

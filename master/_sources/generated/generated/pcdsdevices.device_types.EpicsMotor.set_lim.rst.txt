@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.EpicsMotor.set\_lim
+=============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: EpicsMotor.set_lim

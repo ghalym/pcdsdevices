@@ -1,0 +1,26 @@
+﻿pcdsdevices.sim
+===============
+
+.. automodule:: pcdsdevices.sim
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree: generated
+   
+      FastMotor
+      SimTwoAxis
+      SlowMotor
+      SynMotor
+   
+   
+
+   
+   
+   

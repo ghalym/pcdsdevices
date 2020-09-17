@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PCDSAreaDetector.make\_data\_key
+==========================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PCDSAreaDetector.make_data_key

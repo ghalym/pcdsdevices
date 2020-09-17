@@ -1,0 +1,6 @@
+pcdsdevices.timetool.TimetoolWithNav.describe
+=============================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: TimetoolWithNav.describe

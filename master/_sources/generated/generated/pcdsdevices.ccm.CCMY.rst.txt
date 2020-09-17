@@ -1,0 +1,130 @@
+pcdsdevices.ccm.CCMY
+====================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. autoclass:: CCMY
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  pseudo
+          -  :class:`~ophyd.pseudopos.PseudoSingle`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pseudopos.SyncAxesBase`
+   
+       *  -  down (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self.down_prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  up_north (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self.up_north_prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  up_south (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self.up_south_prefix}``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~CCMY.calc_combined
+       ~CCMY.camonitor
+       ~CCMY.check_single
+       ~CCMY.configure
+       ~CCMY.describe
+       ~CCMY.end_monitor_thread
+       ~CCMY.forward
+       ~CCMY.get
+       ~CCMY.inverse
+       ~CCMY.move
+       ~CCMY.move_single
+       ~CCMY.mv
+       ~CCMY.mv_ginput
+       ~CCMY.mvr
+       ~CCMY.read
+       ~CCMY.read_configuration
+       ~CCMY.save_offsets
+       ~CCMY.set
+       ~CCMY.stop
+       ~CCMY.summary
+       ~CCMY.to_pseudo_tuple
+       ~CCMY.to_real_tuple
+       ~CCMY.trigger
+       ~CCMY.tweak
+       ~CCMY.umv
+       ~CCMY.umvr
+       ~CCMY.wait
+       ~CCMY.wm
+       ~CCMY.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~CCMY.composite_egu
+       ~CCMY.concurrent
+       ~CCMY.configuration_attrs
+       ~CCMY.connected
+       ~CCMY.egu
+       ~CCMY.high_limit
+       ~CCMY.hints
+       ~CCMY.kind
+       ~CCMY.limits
+       ~CCMY.low_limit
+       ~CCMY.moving
+       ~CCMY.position
+       ~CCMY.presets
+       ~CCMY.pseudo_positioners
+       ~CCMY.real_position
+       ~CCMY.real_positioners
+       ~CCMY.sequential
+       ~CCMY.settle_time
+       ~CCMY.target
+       ~CCMY.timeout
+    
+    

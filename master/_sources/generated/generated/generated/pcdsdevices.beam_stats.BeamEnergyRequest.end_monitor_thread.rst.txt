@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.BeamEnergyRequest.end\_monitor\_thread
+==============================================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: BeamEnergyRequest.end_monitor_thread

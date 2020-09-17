@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttenuatorCalculatorBase.get\_active\_config
+===================================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttenuatorCalculatorBase.get_active_config

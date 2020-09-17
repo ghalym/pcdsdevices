@@ -1,0 +1,6 @@
+pcdsdevices.interface.PresetPosition.update\_pos
+================================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: PresetPosition.update_pos

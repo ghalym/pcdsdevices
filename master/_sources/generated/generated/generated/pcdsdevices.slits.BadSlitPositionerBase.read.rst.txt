@@ -1,0 +1,6 @@
+pcdsdevices.slits.BadSlitPositionerBase.read
+============================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BadSlitPositionerBase.read

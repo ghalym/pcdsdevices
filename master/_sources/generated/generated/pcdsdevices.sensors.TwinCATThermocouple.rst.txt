@@ -1,0 +1,84 @@
+pcdsdevices.sensors.TwinCATThermocouple
+=======================================
+
+.. currentmodule:: pcdsdevices.sensors
+
+.. autoclass:: TwinCATThermocouple
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  temperature
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:STC:TEMP``
+          -  
+          -  normal
+          -  
+   
+       *  -  sensor_connected
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:STC:CONN``
+          -  
+          -  normal
+          -  
+   
+       *  -  error
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:STC:ERR``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~TwinCATThermocouple.configure
+       ~TwinCATThermocouple.describe
+       ~TwinCATThermocouple.get
+       ~TwinCATThermocouple.read
+       ~TwinCATThermocouple.read_configuration
+       ~TwinCATThermocouple.stop
+       ~TwinCATThermocouple.summary
+       ~TwinCATThermocouple.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~TwinCATThermocouple.configuration_attrs
+       ~TwinCATThermocouple.connected
+       ~TwinCATThermocouple.hints
+       ~TwinCATThermocouple.kind
+    
+    

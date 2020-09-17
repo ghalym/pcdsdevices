@@ -1,0 +1,6 @@
+pcdsdevices.gon.Kappa.configure
+===============================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: Kappa.configure

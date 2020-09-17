@@ -1,0 +1,101 @@
+pcdsdevices.attenuator.FeeFilter
+================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. autoclass:: FeeFilter
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  status
+          -  :class:`~pcdsdevices.signal.InternalSignal`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:STATE``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~FeeFilter.camonitor
+       ~FeeFilter.check_inserted
+       ~FeeFilter.check_removed
+       ~FeeFilter.check_transmission
+       ~FeeFilter.configure
+       ~FeeFilter.describe
+       ~FeeFilter.end_monitor_thread
+       ~FeeFilter.get
+       ~FeeFilter.get_state
+       ~FeeFilter.insert
+       ~FeeFilter.move
+       ~FeeFilter.mv
+       ~FeeFilter.read
+       ~FeeFilter.read_configuration
+       ~FeeFilter.remove
+       ~FeeFilter.set
+       ~FeeFilter.stop
+       ~FeeFilter.summary
+       ~FeeFilter.trigger
+       ~FeeFilter.wait
+       ~FeeFilter.wm
+       ~FeeFilter.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~FeeFilter.configuration_attrs
+       ~FeeFilter.connected
+       ~FeeFilter.egu
+       ~FeeFilter.high_limit
+       ~FeeFilter.hints
+       ~FeeFilter.in_states
+       ~FeeFilter.kind
+       ~FeeFilter.limits
+       ~FeeFilter.low_limit
+       ~FeeFilter.moving
+       ~FeeFilter.out_states
+       ~FeeFilter.position
+       ~FeeFilter.settle_time
+       ~FeeFilter.states_list
+       ~FeeFilter.timeout
+       ~FeeFilter.transmission
+    
+    

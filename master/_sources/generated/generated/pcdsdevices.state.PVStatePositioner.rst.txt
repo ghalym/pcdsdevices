@@ -1,0 +1,84 @@
+pcdsdevices.state.PVStatePositioner
+===================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. autoclass:: PVStatePositioner
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~pcdsdevices.state.PVStateSignal`
+          -  
+          -  
+          -  hinted
+          -  
+   
+
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~PVStatePositioner.camonitor
+       ~PVStatePositioner.configure
+       ~PVStatePositioner.describe
+       ~PVStatePositioner.end_monitor_thread
+       ~PVStatePositioner.get
+       ~PVStatePositioner.get_state
+       ~PVStatePositioner.move
+       ~PVStatePositioner.mv
+       ~PVStatePositioner.read
+       ~PVStatePositioner.read_configuration
+       ~PVStatePositioner.set
+       ~PVStatePositioner.stop
+       ~PVStatePositioner.summary
+       ~PVStatePositioner.trigger
+       ~PVStatePositioner.wait
+       ~PVStatePositioner.wm
+       ~PVStatePositioner.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~PVStatePositioner.configuration_attrs
+       ~PVStatePositioner.connected
+       ~PVStatePositioner.egu
+       ~PVStatePositioner.high_limit
+       ~PVStatePositioner.hints
+       ~PVStatePositioner.kind
+       ~PVStatePositioner.limits
+       ~PVStatePositioner.low_limit
+       ~PVStatePositioner.moving
+       ~PVStatePositioner.position
+       ~PVStatePositioner.settle_time
+       ~PVStatePositioner.states_list
+       ~PVStatePositioner.timeout
+    
+    

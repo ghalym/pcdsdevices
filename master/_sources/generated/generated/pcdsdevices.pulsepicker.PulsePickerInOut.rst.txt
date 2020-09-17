@@ -1,0 +1,179 @@
+pcdsdevices.pulsepicker.PulsePickerInOut
+========================================
+
+.. currentmodule:: pcdsdevices.pulsepicker
+
+.. autoclass:: PulsePickerInOut
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~pcdsdevices.state.PVStateSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.pulsepicker.PulsePicker`
+   
+       *  -  blade
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:READ_DF``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pulsepicker.PulsePicker`
+   
+       *  -  mode
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:SD_SIMPLE``
+          -  
+          -  config
+          -  Inherited from :class:`~pcdsdevices.pulsepicker.PulsePicker`
+   
+       *  -  cmd_reset
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:RESET_PG``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.pulsepicker.PulsePicker`
+   
+       *  -  cmd_open
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:S_OPEN``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.pulsepicker.PulsePicker`
+   
+       *  -  cmd_close
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:S_CLOSE``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.pulsepicker.PulsePicker`
+   
+       *  -  cmd_flipflop
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:RUN_FLIPFLOP``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.pulsepicker.PulsePicker`
+   
+       *  -  cmd_burst
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:RUN_BURSTMODE``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.pulsepicker.PulsePicker`
+   
+       *  -  cmd_follower
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:RUN_FOLLOWERMODE``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.pulsepicker.PulsePicker`
+   
+       *  -  inout (FCpt)
+          -  :class:`~pcdsdevices.inout.InOutRecordPositioner`
+          -  ``{self._inout}``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~PulsePickerInOut.burst
+       ~PulsePickerInOut.camonitor
+       ~PulsePickerInOut.check_inserted
+       ~PulsePickerInOut.check_removed
+       ~PulsePickerInOut.check_transmission
+       ~PulsePickerInOut.close
+       ~PulsePickerInOut.configure
+       ~PulsePickerInOut.describe
+       ~PulsePickerInOut.end_monitor_thread
+       ~PulsePickerInOut.flipflop
+       ~PulsePickerInOut.follower
+       ~PulsePickerInOut.get
+       ~PulsePickerInOut.get_state
+       ~PulsePickerInOut.insert
+       ~PulsePickerInOut.move
+       ~PulsePickerInOut.mv
+       ~PulsePickerInOut.open
+       ~PulsePickerInOut.read
+       ~PulsePickerInOut.read_configuration
+       ~PulsePickerInOut.remove
+       ~PulsePickerInOut.reset
+       ~PulsePickerInOut.set
+       ~PulsePickerInOut.stop
+       ~PulsePickerInOut.summary
+       ~PulsePickerInOut.trigger
+       ~PulsePickerInOut.wait
+       ~PulsePickerInOut.wm
+       ~PulsePickerInOut.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~PulsePickerInOut.configuration_attrs
+       ~PulsePickerInOut.connected
+       ~PulsePickerInOut.egu
+       ~PulsePickerInOut.high_limit
+       ~PulsePickerInOut.hints
+       ~PulsePickerInOut.in_states
+       ~PulsePickerInOut.kind
+       ~PulsePickerInOut.limits
+       ~PulsePickerInOut.low_limit
+       ~PulsePickerInOut.moving
+       ~PulsePickerInOut.out_states
+       ~PulsePickerInOut.position
+       ~PulsePickerInOut.settle_time
+       ~PulsePickerInOut.states_list
+       ~PulsePickerInOut.timeout
+       ~PulsePickerInOut.transmission
+    
+    

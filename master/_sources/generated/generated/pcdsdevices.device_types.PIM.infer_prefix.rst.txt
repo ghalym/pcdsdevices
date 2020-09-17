@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PIM.infer\_prefix
+===========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PIM.infer_prefix

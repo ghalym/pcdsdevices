@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.SmarAct.set\_current\_position
+=======================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: SmarAct.set_current_position

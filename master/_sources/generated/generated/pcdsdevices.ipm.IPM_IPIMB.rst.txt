@@ -1,0 +1,92 @@
+pcdsdevices.ipm.IPM\_IPIMB
+==========================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. autoclass:: IPM_IPIMB
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  target
+          -  :class:`~pcdsdevices.ipm.IPMTarget`
+          -  ``:TARGET``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.ipm.IPMMotion`
+   
+       *  -  diode
+          -  :class:`~pcdsdevices.ipm.IPMDiode`
+          -  ``:DIODE``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.ipm.IPMMotion`
+   
+       *  -  ipimb (FCpt)
+          -  :class:`~pcdsdevices.ipm.IPIMB`
+          -  ``{self.prefix_ipimb}``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~IPM_IPIMB.channel
+       ~IPM_IPIMB.configure
+       ~IPM_IPIMB.describe
+       ~IPM_IPIMB.get
+       ~IPM_IPIMB.insert
+       ~IPM_IPIMB.isum
+       ~IPM_IPIMB.read
+       ~IPM_IPIMB.read_configuration
+       ~IPM_IPIMB.remove
+       ~IPM_IPIMB.stop
+       ~IPM_IPIMB.summary
+       ~IPM_IPIMB.trigger
+       ~IPM_IPIMB.xpos
+       ~IPM_IPIMB.ypos
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~IPM_IPIMB.channels
+       ~IPM_IPIMB.configuration_attrs
+       ~IPM_IPIMB.connected
+       ~IPM_IPIMB.hints
+       ~IPM_IPIMB.kind
+       ~IPM_IPIMB.transmission
+    
+    

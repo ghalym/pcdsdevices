@@ -1,0 +1,6 @@
+pcdsdevices.mirror.XOffsetMirror.read\_configuration
+====================================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: XOffsetMirror.read_configuration

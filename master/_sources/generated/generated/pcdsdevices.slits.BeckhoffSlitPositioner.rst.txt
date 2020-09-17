@@ -1,0 +1,120 @@
+pcdsdevices.slits.BeckhoffSlitPositioner
+========================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. autoclass:: BeckhoffSlitPositioner
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  readback (FCpt)
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``{prefix}:ACTUAL_{_dirlong}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.slits.BadSlitPositionerBase`
+   
+       *  -  setpoint (FCpt)
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``{prefix}:{_dirshort}_REQ``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.slits.BadSlitPositionerBase`
+   
+       *  -  done
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  omitted
+          -  
+   
+       *  -  actuate
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~BeckhoffSlitPositioner.camonitor
+       ~BeckhoffSlitPositioner.configure
+       ~BeckhoffSlitPositioner.describe
+       ~BeckhoffSlitPositioner.end_monitor_thread
+       ~BeckhoffSlitPositioner.get
+       ~BeckhoffSlitPositioner.move
+       ~BeckhoffSlitPositioner.mv
+       ~BeckhoffSlitPositioner.mv_ginput
+       ~BeckhoffSlitPositioner.mvr
+       ~BeckhoffSlitPositioner.read
+       ~BeckhoffSlitPositioner.read_configuration
+       ~BeckhoffSlitPositioner.set
+       ~BeckhoffSlitPositioner.stop
+       ~BeckhoffSlitPositioner.summary
+       ~BeckhoffSlitPositioner.trigger
+       ~BeckhoffSlitPositioner.tweak
+       ~BeckhoffSlitPositioner.umv
+       ~BeckhoffSlitPositioner.umvr
+       ~BeckhoffSlitPositioner.wait
+       ~BeckhoffSlitPositioner.wm
+       ~BeckhoffSlitPositioner.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~BeckhoffSlitPositioner.actuate_value
+       ~BeckhoffSlitPositioner.configuration_attrs
+       ~BeckhoffSlitPositioner.connected
+       ~BeckhoffSlitPositioner.done_value
+       ~BeckhoffSlitPositioner.egu
+       ~BeckhoffSlitPositioner.high_limit
+       ~BeckhoffSlitPositioner.hints
+       ~BeckhoffSlitPositioner.kind
+       ~BeckhoffSlitPositioner.limits
+       ~BeckhoffSlitPositioner.low_limit
+       ~BeckhoffSlitPositioner.moving
+       ~BeckhoffSlitPositioner.position
+       ~BeckhoffSlitPositioner.presets
+       ~BeckhoffSlitPositioner.put_complete
+       ~BeckhoffSlitPositioner.settle_time
+       ~BeckhoffSlitPositioner.stop_signal
+       ~BeckhoffSlitPositioner.stop_value
+       ~BeckhoffSlitPositioner.timeout
+    
+    

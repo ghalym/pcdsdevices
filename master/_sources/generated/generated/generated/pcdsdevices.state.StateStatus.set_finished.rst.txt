@@ -1,0 +1,6 @@
+pcdsdevices.state.StateStatus.set\_finished
+===========================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: StateStatus.set_finished

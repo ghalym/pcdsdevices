@@ -1,0 +1,75 @@
+pcdsdevices.gon.SamPhi
+======================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. autoclass:: SamPhi
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  sam_z (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_samz}``
+          -  
+          -  normal
+          -  
+   
+       *  -  sam_phi (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_samphi}``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~SamPhi.configure
+       ~SamPhi.describe
+       ~SamPhi.get
+       ~SamPhi.read
+       ~SamPhi.read_configuration
+       ~SamPhi.stop
+       ~SamPhi.summary
+       ~SamPhi.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~SamPhi.configuration_attrs
+       ~SamPhi.connected
+       ~SamPhi.hints
+       ~SamPhi.kind
+    
+    

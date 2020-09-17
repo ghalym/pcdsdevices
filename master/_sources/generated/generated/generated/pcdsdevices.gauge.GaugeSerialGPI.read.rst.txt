@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSerialGPI.read
+=====================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSerialGPI.read

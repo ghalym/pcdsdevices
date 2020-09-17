@@ -1,0 +1,6 @@
+pcdsdevices.pump.PTMPLC.trigger
+===============================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PTMPLC.trigger

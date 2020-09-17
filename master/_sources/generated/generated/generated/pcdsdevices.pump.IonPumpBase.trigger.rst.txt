@@ -1,0 +1,6 @@
+pcdsdevices.pump.IonPumpBase.trigger
+====================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: IonPumpBase.trigger

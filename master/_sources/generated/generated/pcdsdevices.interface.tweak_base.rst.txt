@@ -1,0 +1,6 @@
+pcdsdevices.interface.tweak\_base
+=================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. autofunction:: tweak_base

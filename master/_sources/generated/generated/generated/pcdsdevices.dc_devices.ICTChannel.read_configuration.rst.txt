@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICTChannel.read\_configuration
+======================================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICTChannel.read_configuration

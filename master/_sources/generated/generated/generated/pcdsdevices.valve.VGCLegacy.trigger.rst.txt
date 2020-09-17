@@ -1,0 +1,6 @@
+pcdsdevices.valve.VGCLegacy.trigger
+===================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VGCLegacy.trigger

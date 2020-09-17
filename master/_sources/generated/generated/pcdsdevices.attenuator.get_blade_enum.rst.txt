@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.get\_blade\_enum
+=======================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. autofunction:: get_blade_enum

@@ -1,0 +1,6 @@
+pcdsdevices.pump.AgilentSerial.read
+===================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: AgilentSerial.read

@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPIMB.screen
+============================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPIMB.screen

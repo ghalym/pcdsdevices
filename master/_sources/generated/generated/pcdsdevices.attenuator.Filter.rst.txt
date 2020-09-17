@@ -1,0 +1,128 @@
+pcdsdevices.attenuator.Filter
+=============================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. autoclass:: Filter
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  status
+          -  :class:`~pcdsdevices.signal.InternalSignal`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:STATE``
+          -  
+          -  normal
+          -  
+   
+       *  -  stuck
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:IS_STUCK``
+          -  
+          -  normal
+          -  
+   
+       *  -  thickness
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:THICK``
+          -  
+          -  config
+          -  
+   
+       *  -  material
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:MATERIAL``
+          -  
+          -  config
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Filter.camonitor
+       ~Filter.check_inserted
+       ~Filter.check_removed
+       ~Filter.check_transmission
+       ~Filter.configure
+       ~Filter.describe
+       ~Filter.end_monitor_thread
+       ~Filter.get
+       ~Filter.get_state
+       ~Filter.insert
+       ~Filter.move
+       ~Filter.mv
+       ~Filter.read
+       ~Filter.read_configuration
+       ~Filter.remove
+       ~Filter.set
+       ~Filter.stop
+       ~Filter.summary
+       ~Filter.trigger
+       ~Filter.wait
+       ~Filter.wm
+       ~Filter.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Filter.configuration_attrs
+       ~Filter.connected
+       ~Filter.egu
+       ~Filter.high_limit
+       ~Filter.hints
+       ~Filter.in_states
+       ~Filter.kind
+       ~Filter.limits
+       ~Filter.low_limit
+       ~Filter.moving
+       ~Filter.out_states
+       ~Filter.position
+       ~Filter.settle_time
+       ~Filter.states_list
+       ~Filter.timeout
+       ~Filter.transmission
+    
+    

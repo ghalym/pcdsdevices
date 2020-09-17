@@ -1,0 +1,6 @@
+pcdsdevices.slits.BeckhoffSlitPositioner.mv\_ginput
+===================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BeckhoffSlitPositioner.mv_ginput

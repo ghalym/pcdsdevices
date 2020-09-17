@@ -1,0 +1,105 @@
+pcdsdevices.beam\_stats.BeamEnergyRequest
+=========================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. autoclass:: BeamEnergyRequest
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  done
+          -  :class:`~pcdsdevices.signal.InternalSignal`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pv_positioner.PVPositionerDone`
+   
+       *  -  setpoint
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:USER:MCC:EPHOT``
+          -  
+          -  hinted
+          -  
+   
+
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~BeamEnergyRequest.camonitor
+       ~BeamEnergyRequest.configure
+       ~BeamEnergyRequest.describe
+       ~BeamEnergyRequest.end_monitor_thread
+       ~BeamEnergyRequest.get
+       ~BeamEnergyRequest.move
+       ~BeamEnergyRequest.mv
+       ~BeamEnergyRequest.mv_ginput
+       ~BeamEnergyRequest.mvr
+       ~BeamEnergyRequest.read
+       ~BeamEnergyRequest.read_configuration
+       ~BeamEnergyRequest.set
+       ~BeamEnergyRequest.stop
+       ~BeamEnergyRequest.summary
+       ~BeamEnergyRequest.trigger
+       ~BeamEnergyRequest.tweak
+       ~BeamEnergyRequest.umv
+       ~BeamEnergyRequest.umvr
+       ~BeamEnergyRequest.wait
+       ~BeamEnergyRequest.wm
+       ~BeamEnergyRequest.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~BeamEnergyRequest.actuate
+       ~BeamEnergyRequest.actuate_value
+       ~BeamEnergyRequest.atol
+       ~BeamEnergyRequest.configuration_attrs
+       ~BeamEnergyRequest.connected
+       ~BeamEnergyRequest.done_value
+       ~BeamEnergyRequest.egu
+       ~BeamEnergyRequest.high_limit
+       ~BeamEnergyRequest.hints
+       ~BeamEnergyRequest.kind
+       ~BeamEnergyRequest.limits
+       ~BeamEnergyRequest.low_limit
+       ~BeamEnergyRequest.moving
+       ~BeamEnergyRequest.position
+       ~BeamEnergyRequest.presets
+       ~BeamEnergyRequest.put_complete
+       ~BeamEnergyRequest.readback
+       ~BeamEnergyRequest.settle_time
+       ~BeamEnergyRequest.stop_signal
+       ~BeamEnergyRequest.stop_value
+       ~BeamEnergyRequest.timeout
+    
+    

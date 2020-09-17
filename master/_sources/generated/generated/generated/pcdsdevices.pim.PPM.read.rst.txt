@@ -1,0 +1,6 @@
+pcdsdevices.pim.PPM.read
+========================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PPM.read

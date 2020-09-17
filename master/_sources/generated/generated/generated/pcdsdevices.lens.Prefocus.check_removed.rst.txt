@@ -1,0 +1,6 @@
+pcdsdevices.lens.Prefocus.check\_removed
+========================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: Prefocus.check_removed

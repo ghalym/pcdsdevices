@@ -1,0 +1,6 @@
+pcdsdevices.pump.PIPPLC.trigger
+===============================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PIPPLC.trigger

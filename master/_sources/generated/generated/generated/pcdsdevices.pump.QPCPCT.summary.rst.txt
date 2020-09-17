@@ -1,0 +1,6 @@
+pcdsdevices.pump.QPCPCT.summary
+===============================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: QPCPCT.summary

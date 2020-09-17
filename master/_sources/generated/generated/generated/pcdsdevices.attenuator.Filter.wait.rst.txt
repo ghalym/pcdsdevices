@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.Filter.wait
+==================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: Filter.wait

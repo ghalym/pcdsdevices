@@ -1,0 +1,6 @@
+pcdsdevices.pump.EbaraPump.run
+==============================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: EbaraPump.run

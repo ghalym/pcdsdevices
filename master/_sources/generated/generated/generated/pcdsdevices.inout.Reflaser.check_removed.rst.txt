@@ -1,0 +1,6 @@
+pcdsdevices.inout.Reflaser.check\_removed
+=========================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: Reflaser.check_removed

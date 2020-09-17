@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.GasAttenuator.stop
+=========================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: GasAttenuator.stop

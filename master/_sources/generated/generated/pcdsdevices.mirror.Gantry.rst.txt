@@ -1,0 +1,202 @@
+pcdsdevices.mirror.Gantry
+=========================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. autoclass:: Gantry
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  readback
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:RBV``
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  setpoint
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:VAL``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  done
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:DMOV``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  motor_egu
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:RBV.EGU``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  interlock
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:INTERLOCK``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  enabled
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:ENABLED``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  low_limit_switch
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:LLS``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  high_limit_switch
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:HLS``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  gantry_difference (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``{self.gantry_prefix}:GDIF``
+          -  
+          -  normal
+          -  
+   
+       *  -  decoupled (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``{self.gantry_prefix}:DECOUPLE``
+          -  
+          -  config
+          -  
+   
+       *  -  follower_readback (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``{self.follow_prefix}:RBV``
+          -  
+          -  normal
+          -  
+   
+       *  -  follower_low_limit_switch (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``{self.follow_prefix}:LLS``
+          -  
+          -  omitted
+          -  
+   
+       *  -  follower_high_limit_switch (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``{self.follow_prefix}:HLS``
+          -  
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Gantry.camonitor
+       ~Gantry.configure
+       ~Gantry.describe
+       ~Gantry.end_monitor_thread
+       ~Gantry.get
+       ~Gantry.move
+       ~Gantry.mv
+       ~Gantry.mv_ginput
+       ~Gantry.mvr
+       ~Gantry.read
+       ~Gantry.read_configuration
+       ~Gantry.set
+       ~Gantry.stop
+       ~Gantry.summary
+       ~Gantry.trigger
+       ~Gantry.tweak
+       ~Gantry.umv
+       ~Gantry.umvr
+       ~Gantry.wait
+       ~Gantry.wm
+       ~Gantry.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Gantry.actuate
+       ~Gantry.actuate_value
+       ~Gantry.configuration_attrs
+       ~Gantry.connected
+       ~Gantry.done_value
+       ~Gantry.egu
+       ~Gantry.high_limit
+       ~Gantry.hints
+       ~Gantry.kind
+       ~Gantry.limits
+       ~Gantry.low_limit
+       ~Gantry.moving
+       ~Gantry.position
+       ~Gantry.presets
+       ~Gantry.put_complete
+       ~Gantry.settle_time
+       ~Gantry.stop_signal
+       ~Gantry.stop_value
+       ~Gantry.timeout
+    
+    

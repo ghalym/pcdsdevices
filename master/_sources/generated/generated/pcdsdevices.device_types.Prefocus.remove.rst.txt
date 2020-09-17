@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Prefocus.remove
+=========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Prefocus.remove

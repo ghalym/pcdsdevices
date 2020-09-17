@@ -1,0 +1,96 @@
+pcdsdevices.sequencer.EventSequence
+===================================
+
+.. currentmodule:: pcdsdevices.sequencer
+
+.. autoclass:: EventSequence
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  ec_array
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:SEQ.A``
+          -  
+          -  normal
+          -  
+   
+       *  -  bd_array
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:SEQ.B``
+          -  
+          -  normal
+          -  
+   
+       *  -  fd_array
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:SEQ.C``
+          -  
+          -  normal
+          -  
+   
+       *  -  bc_array
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:SEQ.D``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~EventSequence.configure
+       ~EventSequence.describe
+       ~EventSequence.get
+       ~EventSequence.get_seq
+       ~EventSequence.put_seq
+       ~EventSequence.read
+       ~EventSequence.read_configuration
+       ~EventSequence.show
+       ~EventSequence.stop
+       ~EventSequence.summary
+       ~EventSequence.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~EventSequence.configuration_attrs
+       ~EventSequence.connected
+       ~EventSequence.hints
+       ~EventSequence.kind
+    
+    

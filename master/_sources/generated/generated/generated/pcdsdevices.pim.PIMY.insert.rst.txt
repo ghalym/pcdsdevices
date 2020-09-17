@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMY.insert
+===========================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMY.insert

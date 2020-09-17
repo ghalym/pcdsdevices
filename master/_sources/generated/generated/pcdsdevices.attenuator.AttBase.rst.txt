@@ -1,0 +1,178 @@
+pcdsdevices.attenuator.AttBase
+==============================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. autoclass:: AttBase
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  setpoint
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:COM:R_DES``
+          -  
+          -  normal
+          -  
+   
+       *  -  readback
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:COM:R_CUR``
+          -  
+          -  hinted
+          -  
+   
+       *  -  actuate
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:COM:GO``
+          -  
+          -  omitted
+          -  
+   
+       *  -  done
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:COM:STATUS``
+          -  
+          -  omitted
+          -  
+   
+       *  -  energy
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:COM:T_CALC.VALE``
+          -  
+          -  normal
+          -  
+   
+       *  -  trans_ceil
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:COM:R_CEIL``
+          -  
+          -  omitted
+          -  
+   
+       *  -  trans_floor
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:COM:R_FLOOR``
+          -  
+          -  omitted
+          -  
+   
+       *  -  user_energy
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:COM:EDES``
+          -  
+          -  omitted
+          -  
+   
+       *  -  eget_cmd
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:COM:EACT.SCAN``
+          -  
+          -  omitted
+          -  
+   
+       *  -  calcpend
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:COM:CALCP``
+          -  
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~AttBase.camonitor
+       ~AttBase.configure
+       ~AttBase.describe
+       ~AttBase.end_monitor_thread
+       ~AttBase.get
+       ~AttBase.insert
+       ~AttBase.move
+       ~AttBase.mv
+       ~AttBase.mv_ginput
+       ~AttBase.mvr
+       ~AttBase.read
+       ~AttBase.read_configuration
+       ~AttBase.remove
+       ~AttBase.set
+       ~AttBase.set_energy
+       ~AttBase.stop
+       ~AttBase.summary
+       ~AttBase.trigger
+       ~AttBase.tweak
+       ~AttBase.umv
+       ~AttBase.umvr
+       ~AttBase.wait
+       ~AttBase.wm
+       ~AttBase.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~AttBase.actuate_value
+       ~AttBase.configuration_attrs
+       ~AttBase.connected
+       ~AttBase.done_value
+       ~AttBase.egu
+       ~AttBase.high_limit
+       ~AttBase.hints
+       ~AttBase.kind
+       ~AttBase.limits
+       ~AttBase.low_limit
+       ~AttBase.moving
+       ~AttBase.position
+       ~AttBase.presets
+       ~AttBase.put_complete
+       ~AttBase.settle_time
+       ~AttBase.stop_signal
+       ~AttBase.stop_value
+       ~AttBase.timeout
+       ~AttBase.transmission
+    
+    

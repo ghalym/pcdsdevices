@@ -1,0 +1,6 @@
+pcdsdevices.inout.CombinedInOutRecordPositioner.read
+====================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: CombinedInOutRecordPositioner.read

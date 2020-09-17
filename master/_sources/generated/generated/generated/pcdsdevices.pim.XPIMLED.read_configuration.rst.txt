@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMLED.read\_configuration
+===========================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMLED.read_configuration

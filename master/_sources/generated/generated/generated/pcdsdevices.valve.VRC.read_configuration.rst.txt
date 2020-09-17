@@ -1,0 +1,6 @@
+pcdsdevices.valve.VRC.read\_configuration
+=========================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VRC.read_configuration

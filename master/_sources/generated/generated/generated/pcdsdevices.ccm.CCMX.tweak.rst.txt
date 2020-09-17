@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMX.tweak
+==========================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMX.tweak

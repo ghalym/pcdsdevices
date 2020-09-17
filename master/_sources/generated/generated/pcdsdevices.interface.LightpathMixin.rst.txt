@@ -1,0 +1,28 @@
+pcdsdevices.interface.LightpathMixin
+====================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. autoclass:: LightpathMixin
+
+   
+   
+   
+
+
+    
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~LightpathMixin.connected
+       ~LightpathMixin.kind
+       ~LightpathMixin.lightpath_cpts
+       ~LightpathMixin.transmission
+    
+    

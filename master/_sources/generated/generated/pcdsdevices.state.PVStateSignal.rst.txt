@@ -1,0 +1,50 @@
+pcdsdevices.state.PVStateSignal
+===============================
+
+.. currentmodule:: pcdsdevices.state
+
+.. autoclass:: PVStateSignal
+
+   
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~PVStateSignal.describe
+       ~PVStateSignal.get
+       ~PVStateSignal.read
+       ~PVStateSignal.read_configuration
+       ~PVStateSignal.set
+       ~PVStateSignal.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~PVStateSignal.SUB_META
+       ~PVStateSignal.connected
+       ~PVStateSignal.high_limit
+       ~PVStateSignal.hints
+       ~PVStateSignal.kind
+       ~PVStateSignal.limits
+       ~PVStateSignal.low_limit
+       ~PVStateSignal.metadata
+       ~PVStateSignal.metadata_keys
+       ~PVStateSignal.read_access
+       ~PVStateSignal.timestamp
+       ~PVStateSignal.tolerance
+       ~PVStateSignal.value
+       ~PVStateSignal.write_access
+    
+    

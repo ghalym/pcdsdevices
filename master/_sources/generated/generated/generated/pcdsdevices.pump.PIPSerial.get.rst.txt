@@ -1,0 +1,6 @@
+pcdsdevices.pump.PIPSerial.get
+==============================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PIPSerial.get

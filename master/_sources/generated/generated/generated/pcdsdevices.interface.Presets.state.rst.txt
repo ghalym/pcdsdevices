@@ -1,0 +1,6 @@
+pcdsdevices.interface.Presets.state
+===================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: Presets.state

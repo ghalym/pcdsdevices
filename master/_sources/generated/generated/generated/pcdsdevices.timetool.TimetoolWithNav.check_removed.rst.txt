@@ -1,0 +1,6 @@
+pcdsdevices.timetool.TimetoolWithNav.check\_removed
+===================================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: TimetoolWithNav.check_removed

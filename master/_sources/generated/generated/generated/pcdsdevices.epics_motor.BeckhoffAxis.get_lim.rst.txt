@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.BeckhoffAxis.get\_lim
+==============================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: BeckhoffAxis.get_lim

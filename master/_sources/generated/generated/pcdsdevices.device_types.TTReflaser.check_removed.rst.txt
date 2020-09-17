@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.TTReflaser.check\_removed
+===================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: TTReflaser.check_removed

@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.H1N.camonitor
+===============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: H1N.camonitor

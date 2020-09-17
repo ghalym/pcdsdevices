@@ -1,0 +1,6 @@
+pcdsdevices.slits.LusiSlits.configure
+=====================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: LusiSlits.configure

@@ -1,0 +1,88 @@
+pcdsdevices.pim.PIM
+===================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. autoclass:: PIM
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~pcdsdevices.pim.PIMY`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  zoom_motor (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_zoom}``
+          -  
+          -  normal
+          -  
+   
+       *  -  detector (FCpt)
+          -  :class:`~pcdsdevices.areadetector.detectors.PCDSAreaDetectorEmbedded`
+          -  ``{self._prefix_det}``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~PIM.configure
+       ~PIM.describe
+       ~PIM.get
+       ~PIM.infer_prefix
+       ~PIM.insert
+       ~PIM.read
+       ~PIM.read_configuration
+       ~PIM.remove
+       ~PIM.stop
+       ~PIM.summary
+       ~PIM.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~PIM.configuration_attrs
+       ~PIM.connected
+       ~PIM.hints
+       ~PIM.kind
+       ~PIM.prefix_start
+    
+    

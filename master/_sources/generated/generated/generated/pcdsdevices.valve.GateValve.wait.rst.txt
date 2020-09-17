@@ -1,0 +1,6 @@
+pcdsdevices.valve.GateValve.wait
+================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: GateValve.wait

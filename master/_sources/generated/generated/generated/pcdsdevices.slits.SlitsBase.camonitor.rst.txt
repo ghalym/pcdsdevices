@@ -1,0 +1,6 @@
+pcdsdevices.slits.SlitsBase.camonitor
+=====================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: SlitsBase.camonitor

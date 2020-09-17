@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.Filter.check\_transmission
+=================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: Filter.check_transmission

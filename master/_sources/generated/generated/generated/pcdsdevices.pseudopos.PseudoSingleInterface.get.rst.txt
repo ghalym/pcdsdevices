@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.PseudoSingleInterface.get
+===============================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: PseudoSingleInterface.get

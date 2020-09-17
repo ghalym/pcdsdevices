@@ -1,0 +1,6 @@
+pcdsdevices.pim.LCLS2ImagerBase.trigger
+=======================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: LCLS2ImagerBase.trigger

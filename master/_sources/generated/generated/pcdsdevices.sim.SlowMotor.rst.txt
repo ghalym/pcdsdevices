@@ -1,0 +1,88 @@
+pcdsdevices.sim.SlowMotor
+=========================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. autoclass:: SlowMotor
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  user_readback
+          -  :class:`~ophyd.signal.AttributeSignal`
+          -  ``position``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.sim.FastMotor`
+   
+
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~SlowMotor.camonitor
+       ~SlowMotor.configure
+       ~SlowMotor.describe
+       ~SlowMotor.end_monitor_thread
+       ~SlowMotor.get
+       ~SlowMotor.move
+       ~SlowMotor.mv
+       ~SlowMotor.mv_ginput
+       ~SlowMotor.mvr
+       ~SlowMotor.read
+       ~SlowMotor.read_configuration
+       ~SlowMotor.set
+       ~SlowMotor.stop
+       ~SlowMotor.summary
+       ~SlowMotor.trigger
+       ~SlowMotor.tweak
+       ~SlowMotor.umv
+       ~SlowMotor.umvr
+       ~SlowMotor.wait
+       ~SlowMotor.wm
+       ~SlowMotor.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~SlowMotor.configuration_attrs
+       ~SlowMotor.connected
+       ~SlowMotor.egu
+       ~SlowMotor.high_limit
+       ~SlowMotor.hints
+       ~SlowMotor.kind
+       ~SlowMotor.limits
+       ~SlowMotor.low_limit
+       ~SlowMotor.moving
+       ~SlowMotor.position
+       ~SlowMotor.presets
+       ~SlowMotor.settle_time
+       ~SlowMotor.timeout
+    
+    

@@ -1,0 +1,6 @@
+pcdsdevices.signal.FakePytmcSignalRW.sim\_set\_putter
+=====================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: FakePytmcSignalRW.sim_set_putter

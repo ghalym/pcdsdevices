@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.PseudoSingleInterface.mv
+==============================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: PseudoSingleInterface.mv

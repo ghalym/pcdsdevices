@@ -1,0 +1,6 @@
+pcdsdevices.pump.PROPLC.read
+============================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PROPLC.read

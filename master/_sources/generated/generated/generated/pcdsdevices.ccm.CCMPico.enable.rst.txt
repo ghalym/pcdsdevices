@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMPico.enable
+==============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMPico.enable

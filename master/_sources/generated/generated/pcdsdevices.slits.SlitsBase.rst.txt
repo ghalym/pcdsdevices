@@ -1,0 +1,83 @@
+pcdsdevices.slits.SlitsBase
+===========================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. autoclass:: SlitsBase
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  nominal_aperture
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~SlitsBase.camonitor
+       ~SlitsBase.configure
+       ~SlitsBase.describe
+       ~SlitsBase.end_monitor_thread
+       ~SlitsBase.get
+       ~SlitsBase.move
+       ~SlitsBase.mv
+       ~SlitsBase.read
+       ~SlitsBase.read_configuration
+       ~SlitsBase.remove
+       ~SlitsBase.set
+       ~SlitsBase.stop
+       ~SlitsBase.summary
+       ~SlitsBase.trigger
+       ~SlitsBase.wait
+       ~SlitsBase.wm
+       ~SlitsBase.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~SlitsBase.configuration_attrs
+       ~SlitsBase.connected
+       ~SlitsBase.current_aperture
+       ~SlitsBase.hints
+       ~SlitsBase.kind
+       ~SlitsBase.lightpath_cpts
+       ~SlitsBase.position
+       ~SlitsBase.transmission
+       ~SlitsBase.xcenter
+       ~SlitsBase.xwidth
+       ~SlitsBase.ycenter
+       ~SlitsBase.ywidth
+    
+    

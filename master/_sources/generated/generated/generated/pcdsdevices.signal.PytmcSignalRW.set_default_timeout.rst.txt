@@ -1,0 +1,6 @@
+pcdsdevices.signal.PytmcSignalRW.set\_default\_timeout
+======================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: PytmcSignalRW.set_default_timeout

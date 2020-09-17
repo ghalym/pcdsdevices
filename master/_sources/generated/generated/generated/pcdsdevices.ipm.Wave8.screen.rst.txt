@@ -1,0 +1,6 @@
+pcdsdevices.ipm.Wave8.screen
+============================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: Wave8.screen

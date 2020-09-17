@@ -1,0 +1,146 @@
+pcdsdevices.ccm.CCM
+===================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. autoclass:: CCM
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  calc (FCpt)
+          -  :class:`~pcdsdevices.ccm.CCMCalc`
+          -  ``{self.alio_prefix}``
+          -  
+          -  hinted
+          -  
+   
+       *  -  theta2fine (FCpt)
+          -  :class:`~pcdsdevices.ccm.CCMMotor`
+          -  ``{self.theta2fine_prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  theta2coarse (FCpt)
+          -  :class:`~pcdsdevices.ccm.CCMPico`
+          -  ``{self.theta2coarse_prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  chi2 (FCpt)
+          -  :class:`~pcdsdevices.ccm.CCMPico`
+          -  ``{self.chi2_prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  x (FCpt)
+          -  :class:`~pcdsdevices.ccm.CCMX`
+          -  
+          -  
+          -  omitted
+          -  
+   
+       *  -  y (FCpt)
+          -  :class:`~pcdsdevices.ccm.CCMY`
+          -  
+          -  
+          -  omitted
+          -  
+   
+       *  -  state
+          -  :class:`~ophyd.signal.AttributeSignal`
+          -  
+          -  
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~CCM.camonitor
+       ~CCM.check_inserted
+       ~CCM.check_removed
+       ~CCM.check_transmission
+       ~CCM.configure
+       ~CCM.describe
+       ~CCM.end_monitor_thread
+       ~CCM.get
+       ~CCM.get_state
+       ~CCM.insert
+       ~CCM.move
+       ~CCM.mv
+       ~CCM.read
+       ~CCM.read_configuration
+       ~CCM.remove
+       ~CCM.set
+       ~CCM.stop
+       ~CCM.summary
+       ~CCM.trigger
+       ~CCM.wait
+       ~CCM.wm
+       ~CCM.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~CCM.configuration_attrs
+       ~CCM.connected
+       ~CCM.egu
+       ~CCM.high_limit
+       ~CCM.hints
+       ~CCM.in_states
+       ~CCM.kind
+       ~CCM.limits
+       ~CCM.low_limit
+       ~CCM.moving
+       ~CCM.out_states
+       ~CCM.position
+       ~CCM.settle_time
+       ~CCM.states_list
+       ~CCM.timeout
+       ~CCM.transmission
+    
+    

@@ -1,0 +1,6 @@
+pcdsdevices.slits.LusiSlits.wm
+==============================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: LusiSlits.wm

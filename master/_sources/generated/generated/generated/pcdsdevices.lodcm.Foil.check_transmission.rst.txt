@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Foil.check\_transmission
+==========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Foil.check_transmission

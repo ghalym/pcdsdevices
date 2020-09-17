@@ -1,0 +1,102 @@
+pcdsdevices.gauge.GaugePLC
+==========================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. autoclass:: GaugePLC
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  pressure
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PRESS_RBV``
+          -  gauge pressure reading
+          -  hinted
+          -  
+   
+       *  -  gauge_at_vac
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:AT_VAC_RBV``
+          -  gauge is at VAC
+          -  normal
+          -  
+   
+       *  -  pressure_ok
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:PRESS_OK_RBV``
+          -  pressure reading ok
+          -  normal
+          -  
+   
+       *  -  at_vac_setpoint
+          -  :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
+          -  ``:VAC_SP``
+          -  At vacuum setpoint for all gauges
+          -  config
+          -  
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:STATE_RBV``
+          -  state of the gauge
+          -  hinted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~GaugePLC.configure
+       ~GaugePLC.describe
+       ~GaugePLC.get
+       ~GaugePLC.read
+       ~GaugePLC.read_configuration
+       ~GaugePLC.stop
+       ~GaugePLC.summary
+       ~GaugePLC.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~GaugePLC.configuration_attrs
+       ~GaugePLC.connected
+       ~GaugePLC.hints
+       ~GaugePLC.kind
+    
+    

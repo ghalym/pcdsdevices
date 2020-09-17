@@ -1,0 +1,56 @@
+pcdsdevices.signal.FakePytmcSignalRW
+====================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. autoclass:: FakePytmcSignalRW
+
+   
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~FakePytmcSignalRW.describe
+       ~FakePytmcSignalRW.get
+       ~FakePytmcSignalRW.read
+       ~FakePytmcSignalRW.read_configuration
+       ~FakePytmcSignalRW.set
+       ~FakePytmcSignalRW.sim_put
+       ~FakePytmcSignalRW.sim_set_enum_strs
+       ~FakePytmcSignalRW.sim_set_func
+       ~FakePytmcSignalRW.sim_set_limits
+       ~FakePytmcSignalRW.sim_set_putter
+       ~FakePytmcSignalRW.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~FakePytmcSignalRW.SUB_META
+       ~FakePytmcSignalRW.connected
+       ~FakePytmcSignalRW.enum_strs
+       ~FakePytmcSignalRW.high_limit
+       ~FakePytmcSignalRW.hints
+       ~FakePytmcSignalRW.kind
+       ~FakePytmcSignalRW.limits
+       ~FakePytmcSignalRW.low_limit
+       ~FakePytmcSignalRW.metadata
+       ~FakePytmcSignalRW.metadata_keys
+       ~FakePytmcSignalRW.read_access
+       ~FakePytmcSignalRW.timestamp
+       ~FakePytmcSignalRW.tolerance
+       ~FakePytmcSignalRW.value
+       ~FakePytmcSignalRW.write_access
+    
+    

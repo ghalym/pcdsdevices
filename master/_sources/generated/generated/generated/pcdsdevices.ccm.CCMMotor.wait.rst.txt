@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMMotor.wait
+=============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMMotor.wait

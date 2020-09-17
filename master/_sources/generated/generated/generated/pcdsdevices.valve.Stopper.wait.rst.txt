@@ -1,0 +1,6 @@
+pcdsdevices.valve.Stopper.wait
+==============================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: Stopper.wait

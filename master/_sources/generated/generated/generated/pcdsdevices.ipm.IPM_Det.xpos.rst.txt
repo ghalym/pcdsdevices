@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPM\_Det.xpos
+=============================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPM_Det.xpos

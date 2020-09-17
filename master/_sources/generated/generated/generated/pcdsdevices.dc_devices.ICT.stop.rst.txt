@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICT.stop
+================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICT.stop

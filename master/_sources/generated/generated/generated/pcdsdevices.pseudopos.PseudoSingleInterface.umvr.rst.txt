@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.PseudoSingleInterface.umvr
+================================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: PseudoSingleInterface.umvr

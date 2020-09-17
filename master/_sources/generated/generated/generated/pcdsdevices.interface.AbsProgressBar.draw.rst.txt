@@ -1,0 +1,6 @@
+pcdsdevices.interface.AbsProgressBar.draw
+=========================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: AbsProgressBar.draw
