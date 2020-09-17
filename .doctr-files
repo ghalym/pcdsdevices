@@ -8489,6 +8489,7 @@
 ./_sources/upcoming_release_notes/532-lxt_hinted.rst.txt
 ./_sources/upcoming_release_notes/536-limit-overrides.rst.txt
 ./_sources/upcoming_release_notes/537-tab-completion-and-inheritance.rst.txt
+./_sources/upcoming_release_notes/545-add_hutch.rst.txt
 ./_sources/upcoming_release_notes/546-beam-req.rst.txt
 ./_sources/upcoming_release_notes/553-umv-fixes.rst.txt
 ./_sources/upcoming_release_notes/557-pseudo-wm.rst.txt
@@ -17030,6 +17031,7 @@
 ./upcoming_release_notes/532-lxt_hinted.html
 ./upcoming_release_notes/536-limit-overrides.html
 ./upcoming_release_notes/537-tab-completion-and-inheritance.html
+./upcoming_release_notes/545-add_hutch.html
 ./upcoming_release_notes/546-beam-req.html
 ./upcoming_release_notes/553-umv-fixes.html
 ./upcoming_release_notes/557-pseudo-wm.html
