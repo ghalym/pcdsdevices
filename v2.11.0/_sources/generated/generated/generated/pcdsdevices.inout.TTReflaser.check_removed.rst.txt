@@ -1,0 +1,6 @@
+pcdsdevices.inout.TTReflaser.check\_removed
+===========================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: TTReflaser.check_removed

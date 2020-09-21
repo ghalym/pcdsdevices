@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Foil.check\_inserted
+======================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Foil.check_inserted

@@ -1,0 +1,6 @@
+pcdsdevices.valve.ValveBase.read
+================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: ValveBase.read

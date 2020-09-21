@@ -1,0 +1,101 @@
+pcdsdevices.lodcm.Foil
+======================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. autoclass:: Foil
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+       *  -  motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:MOTOR``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Foil.camonitor
+       ~Foil.check_inserted
+       ~Foil.check_removed
+       ~Foil.check_transmission
+       ~Foil.configure
+       ~Foil.describe
+       ~Foil.end_monitor_thread
+       ~Foil.get
+       ~Foil.get_state
+       ~Foil.insert
+       ~Foil.move
+       ~Foil.mv
+       ~Foil.read
+       ~Foil.read_configuration
+       ~Foil.remove
+       ~Foil.set
+       ~Foil.stop
+       ~Foil.summary
+       ~Foil.trigger
+       ~Foil.wait
+       ~Foil.wm
+       ~Foil.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Foil.configuration_attrs
+       ~Foil.connected
+       ~Foil.egu
+       ~Foil.high_limit
+       ~Foil.hints
+       ~Foil.in_states
+       ~Foil.kind
+       ~Foil.limits
+       ~Foil.low_limit
+       ~Foil.moving
+       ~Foil.out_states
+       ~Foil.position
+       ~Foil.settle_time
+       ~Foil.states_list
+       ~Foil.timeout
+       ~Foil.transmission
+    
+    

@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.H1N.summary
+=============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: H1N.summary

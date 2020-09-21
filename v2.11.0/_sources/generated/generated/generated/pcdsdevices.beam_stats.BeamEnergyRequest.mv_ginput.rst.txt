@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.BeamEnergyRequest.mv\_ginput
+====================================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: BeamEnergyRequest.mv_ginput

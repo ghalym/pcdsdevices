@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCC500PLC.trigger
+===================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCC500PLC.trigger

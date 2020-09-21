@@ -1,0 +1,157 @@
+pcdsdevices.mirror.OMMotor
+==========================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. autoclass:: OMMotor
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  readback
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:RBV``
+          -  
+          -  hinted
+          -  
+   
+       *  -  setpoint
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:VAL``
+          -  
+          -  normal
+          -  
+   
+       *  -  done
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:DMOV``
+          -  
+          -  omitted
+          -  
+   
+       *  -  motor_egu
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:RBV.EGU``
+          -  
+          -  omitted
+          -  
+   
+       *  -  interlock
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:INTERLOCK``
+          -  
+          -  omitted
+          -  
+   
+       *  -  enabled
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:ENABLED``
+          -  
+          -  omitted
+          -  
+   
+       *  -  low_limit_switch
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:LLS``
+          -  
+          -  omitted
+          -  
+   
+       *  -  high_limit_switch
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:HLS``
+          -  
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~OMMotor.camonitor
+       ~OMMotor.configure
+       ~OMMotor.describe
+       ~OMMotor.end_monitor_thread
+       ~OMMotor.get
+       ~OMMotor.move
+       ~OMMotor.mv
+       ~OMMotor.mv_ginput
+       ~OMMotor.mvr
+       ~OMMotor.read
+       ~OMMotor.read_configuration
+       ~OMMotor.set
+       ~OMMotor.stop
+       ~OMMotor.summary
+       ~OMMotor.trigger
+       ~OMMotor.tweak
+       ~OMMotor.umv
+       ~OMMotor.umvr
+       ~OMMotor.wait
+       ~OMMotor.wm
+       ~OMMotor.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~OMMotor.actuate
+       ~OMMotor.actuate_value
+       ~OMMotor.configuration_attrs
+       ~OMMotor.connected
+       ~OMMotor.done_value
+       ~OMMotor.egu
+       ~OMMotor.high_limit
+       ~OMMotor.hints
+       ~OMMotor.kind
+       ~OMMotor.limits
+       ~OMMotor.low_limit
+       ~OMMotor.moving
+       ~OMMotor.position
+       ~OMMotor.presets
+       ~OMMotor.put_complete
+       ~OMMotor.settle_time
+       ~OMMotor.stop_signal
+       ~OMMotor.stop_value
+       ~OMMotor.timeout
+    
+    

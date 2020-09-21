@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PCDSAreaDetector.get
+==============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PCDSAreaDetector.get

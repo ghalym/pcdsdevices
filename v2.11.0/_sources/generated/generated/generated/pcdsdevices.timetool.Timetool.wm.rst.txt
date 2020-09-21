@@ -1,0 +1,6 @@
+pcdsdevices.timetool.Timetool.wm
+================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: Timetool.wm

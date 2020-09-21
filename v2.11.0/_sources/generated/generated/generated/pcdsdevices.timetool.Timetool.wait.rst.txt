@@ -1,0 +1,6 @@
+pcdsdevices.timetool.Timetool.wait
+==================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: Timetool.wait

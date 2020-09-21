@@ -1,0 +1,103 @@
+pcdsdevices.pseudopos.SyncAxesBase
+==================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. autoclass:: SyncAxesBase
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  pseudo
+          -  :class:`~ophyd.pseudopos.PseudoSingle`
+          -  
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~SyncAxesBase.calc_combined
+       ~SyncAxesBase.camonitor
+       ~SyncAxesBase.check_single
+       ~SyncAxesBase.configure
+       ~SyncAxesBase.describe
+       ~SyncAxesBase.end_monitor_thread
+       ~SyncAxesBase.forward
+       ~SyncAxesBase.get
+       ~SyncAxesBase.inverse
+       ~SyncAxesBase.move
+       ~SyncAxesBase.move_single
+       ~SyncAxesBase.mv
+       ~SyncAxesBase.mv_ginput
+       ~SyncAxesBase.mvr
+       ~SyncAxesBase.read
+       ~SyncAxesBase.read_configuration
+       ~SyncAxesBase.save_offsets
+       ~SyncAxesBase.set
+       ~SyncAxesBase.stop
+       ~SyncAxesBase.summary
+       ~SyncAxesBase.to_pseudo_tuple
+       ~SyncAxesBase.to_real_tuple
+       ~SyncAxesBase.trigger
+       ~SyncAxesBase.tweak
+       ~SyncAxesBase.umv
+       ~SyncAxesBase.umvr
+       ~SyncAxesBase.wait
+       ~SyncAxesBase.wm
+       ~SyncAxesBase.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~SyncAxesBase.composite_egu
+       ~SyncAxesBase.concurrent
+       ~SyncAxesBase.configuration_attrs
+       ~SyncAxesBase.connected
+       ~SyncAxesBase.egu
+       ~SyncAxesBase.high_limit
+       ~SyncAxesBase.hints
+       ~SyncAxesBase.kind
+       ~SyncAxesBase.limits
+       ~SyncAxesBase.low_limit
+       ~SyncAxesBase.moving
+       ~SyncAxesBase.position
+       ~SyncAxesBase.presets
+       ~SyncAxesBase.pseudo_positioners
+       ~SyncAxesBase.real_position
+       ~SyncAxesBase.real_positioners
+       ~SyncAxesBase.sequential
+       ~SyncAxesBase.settle_time
+       ~SyncAxesBase.target
+       ~SyncAxesBase.timeout
+    
+    

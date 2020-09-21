@@ -1,0 +1,135 @@
+pcdsdevices.lens.SimLensStack
+=============================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. autoclass:: SimLensStack
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  x
+          -  :class:`~pcdsdevices.sim.FastMotor`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lens.SimLensStackBase`
+   
+       *  -  y
+          -  :class:`~pcdsdevices.sim.FastMotor`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lens.SimLensStackBase`
+   
+       *  -  z
+          -  :class:`~pcdsdevices.sim.FastMotor`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lens.SimLensStackBase`
+   
+       *  -  calib_z
+          -  :class:`~ophyd.pseudopos.PseudoSingle`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lens.SimLensStackBase`
+   
+       *  -  beam_size
+          -  :class:`~ophyd.pseudopos.PseudoSingle`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lens.SimLensStackBase`
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~SimLensStack.align
+       ~SimLensStack.calc_beam_fwhm
+       ~SimLensStack.calc_distance_for_size
+       ~SimLensStack.calc_focal_length
+       ~SimLensStack.calc_focal_length_for_single_lens
+       ~SimLensStack.check_single
+       ~SimLensStack.configure
+       ~SimLensStack.create_lens
+       ~SimLensStack.describe
+       ~SimLensStack.forward
+       ~SimLensStack.get
+       ~SimLensStack.get_delta
+       ~SimLensStack.inverse
+       ~SimLensStack.move
+       ~SimLensStack.move_single
+       ~SimLensStack.read
+       ~SimLensStack.read_configuration
+       ~SimLensStack.read_lens
+       ~SimLensStack.set
+       ~SimLensStack.stop
+       ~SimLensStack.summary
+       ~SimLensStack.to_pseudo_tuple
+       ~SimLensStack.to_real_tuple
+       ~SimLensStack.trigger
+       ~SimLensStack.tweak
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~SimLensStack.backup_path
+       ~SimLensStack.composite_egu
+       ~SimLensStack.concurrent
+       ~SimLensStack.configuration_attrs
+       ~SimLensStack.connected
+       ~SimLensStack.egu
+       ~SimLensStack.high_limit
+       ~SimLensStack.hints
+       ~SimLensStack.kind
+       ~SimLensStack.limits
+       ~SimLensStack.low_limit
+       ~SimLensStack.moving
+       ~SimLensStack.position
+       ~SimLensStack.pseudo_positioners
+       ~SimLensStack.real_position
+       ~SimLensStack.real_positioners
+       ~SimLensStack.sequential
+       ~SimLensStack.settle_time
+       ~SimLensStack.target
+       ~SimLensStack.timeout
+    
+    

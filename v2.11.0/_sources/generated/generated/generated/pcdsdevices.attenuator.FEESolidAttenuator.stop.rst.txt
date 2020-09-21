@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.FEESolidAttenuator.stop
+==============================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: FEESolidAttenuator.stop

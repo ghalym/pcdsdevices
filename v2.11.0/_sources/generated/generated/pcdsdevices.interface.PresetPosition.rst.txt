@@ -1,0 +1,37 @@
+pcdsdevices.interface.PresetPosition
+====================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. autoclass:: PresetPosition
+
+   
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~PresetPosition.deactivate
+       ~PresetPosition.update_comment
+       ~PresetPosition.update_pos
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~PresetPosition.history
+       ~PresetPosition.info
+       ~PresetPosition.path
+       ~PresetPosition.pos
+    
+    

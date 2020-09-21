@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithLED.remove
+=================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithLED.remove

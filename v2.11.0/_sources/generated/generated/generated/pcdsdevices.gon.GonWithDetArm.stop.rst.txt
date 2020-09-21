@@ -1,0 +1,6 @@
+pcdsdevices.gon.GonWithDetArm.stop
+==================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: GonWithDetArm.stop

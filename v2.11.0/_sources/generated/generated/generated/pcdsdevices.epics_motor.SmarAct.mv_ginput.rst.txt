@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.SmarAct.mv\_ginput
+===========================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: SmarAct.mv_ginput

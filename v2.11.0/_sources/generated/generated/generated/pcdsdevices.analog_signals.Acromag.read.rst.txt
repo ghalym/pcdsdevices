@@ -1,0 +1,6 @@
+pcdsdevices.analog\_signals.Acromag.read
+========================================
+
+.. currentmodule:: pcdsdevices.analog_signals
+
+.. automethod:: Acromag.read

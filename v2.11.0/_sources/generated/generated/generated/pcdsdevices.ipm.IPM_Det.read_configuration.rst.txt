@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPM\_Det.read\_configuration
+============================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPM_Det.read_configuration

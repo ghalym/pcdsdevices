@@ -1,0 +1,6 @@
+pcdsdevices.analog\_signals.Mesh.get\_mesh\_voltage
+===================================================
+
+.. currentmodule:: pcdsdevices.analog_signals
+
+.. automethod:: Mesh.get_mesh_voltage

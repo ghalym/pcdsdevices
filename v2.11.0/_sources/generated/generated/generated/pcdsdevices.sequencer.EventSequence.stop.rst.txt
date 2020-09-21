@@ -1,0 +1,6 @@
+pcdsdevices.sequencer.EventSequence.stop
+========================================
+
+.. currentmodule:: pcdsdevices.sequencer
+
+.. automethod:: EventSequence.stop

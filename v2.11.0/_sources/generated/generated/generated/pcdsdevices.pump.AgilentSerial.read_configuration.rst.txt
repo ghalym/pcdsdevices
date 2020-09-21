@@ -1,0 +1,6 @@
+pcdsdevices.pump.AgilentSerial.read\_configuration
+==================================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: AgilentSerial.read_configuration

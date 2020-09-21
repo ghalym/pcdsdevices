@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMFilterWheel.wm\_update
+==========================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMFilterWheel.wm_update

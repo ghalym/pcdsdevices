@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PCDSAreaDetector.visualize\_asyn\_digraph
+===================================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PCDSAreaDetector.visualize_asyn_digraph

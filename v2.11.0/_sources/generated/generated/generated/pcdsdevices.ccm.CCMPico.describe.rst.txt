@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMPico.describe
+================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMPico.describe

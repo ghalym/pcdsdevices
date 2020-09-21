@@ -1,0 +1,88 @@
+pcdsdevices.sim.FastMotor
+=========================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. autoclass:: FastMotor
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  user_readback
+          -  :class:`~ophyd.signal.AttributeSignal`
+          -  ``position``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~FastMotor.camonitor
+       ~FastMotor.configure
+       ~FastMotor.describe
+       ~FastMotor.end_monitor_thread
+       ~FastMotor.get
+       ~FastMotor.move
+       ~FastMotor.mv
+       ~FastMotor.mv_ginput
+       ~FastMotor.mvr
+       ~FastMotor.read
+       ~FastMotor.read_configuration
+       ~FastMotor.set
+       ~FastMotor.stop
+       ~FastMotor.summary
+       ~FastMotor.trigger
+       ~FastMotor.tweak
+       ~FastMotor.umv
+       ~FastMotor.umvr
+       ~FastMotor.wait
+       ~FastMotor.wm
+       ~FastMotor.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~FastMotor.configuration_attrs
+       ~FastMotor.connected
+       ~FastMotor.egu
+       ~FastMotor.high_limit
+       ~FastMotor.hints
+       ~FastMotor.kind
+       ~FastMotor.limits
+       ~FastMotor.low_limit
+       ~FastMotor.moving
+       ~FastMotor.position
+       ~FastMotor.presets
+       ~FastMotor.settle_time
+       ~FastMotor.timeout
+    
+    

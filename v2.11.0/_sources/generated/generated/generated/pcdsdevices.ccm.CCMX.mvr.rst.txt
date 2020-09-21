@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMX.mvr
+========================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMX.mvr

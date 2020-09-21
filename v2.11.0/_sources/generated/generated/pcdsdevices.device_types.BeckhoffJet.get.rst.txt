@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.BeckhoffJet.get
+=========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: BeckhoffJet.get

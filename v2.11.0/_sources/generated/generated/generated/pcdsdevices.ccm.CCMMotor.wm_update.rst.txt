@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMMotor.wm\_update
+===================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMMotor.wm_update

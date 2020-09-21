@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.Filter.check\_removed
+============================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: Filter.check_removed

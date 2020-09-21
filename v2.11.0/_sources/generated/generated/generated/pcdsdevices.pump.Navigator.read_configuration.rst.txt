@@ -1,0 +1,6 @@
+pcdsdevices.pump.Navigator.read\_configuration
+==============================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: Navigator.read_configuration

@@ -1,0 +1,6 @@
+pcdsdevices.gauge.MKS937AController.stop
+========================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: MKS937AController.stop

@@ -1,0 +1,122 @@
+﻿pcdsdevices.device\_types.Trigger
+=================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. autoclass:: Trigger
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  eventcode
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:EC_RBV``
+          -  
+          -  config
+          -  
+   
+       *  -  eventrate
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:RATE``
+          -  
+          -  normal
+          -  
+   
+       *  -  label
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:TCTL.DESC``
+          -  
+          -  omitted
+          -  
+   
+       *  -  ns_delay
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:BW_TDES``
+          -  
+          -  hinted
+          -  
+   
+       *  -  polarity
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:TPOL``
+          -  
+          -  config
+          -  
+   
+       *  -  width
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:BW_TWIDCALC``
+          -  
+          -  normal
+          -  
+   
+       *  -  enable_cmd
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:TCTL``
+          -  
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Trigger.configure
+       ~Trigger.describe
+       ~Trigger.disable
+       ~Trigger.enable
+       ~Trigger.get
+       ~Trigger.read
+       ~Trigger.read_configuration
+       ~Trigger.stop
+       ~Trigger.summary
+       ~Trigger.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Trigger.configuration_attrs
+       ~Trigger.connected
+       ~Trigger.hints
+       ~Trigger.kind
+    
+    

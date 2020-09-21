@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithBoth.infer\_prefix
+=========================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithBoth.infer_prefix

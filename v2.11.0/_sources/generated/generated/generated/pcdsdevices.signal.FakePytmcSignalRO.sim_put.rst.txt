@@ -1,0 +1,6 @@
+pcdsdevices.signal.FakePytmcSignalRO.sim\_put
+=============================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: FakePytmcSignalRO.sim_put

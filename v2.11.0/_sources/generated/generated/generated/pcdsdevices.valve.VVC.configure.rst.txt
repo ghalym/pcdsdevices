@@ -1,0 +1,6 @@
+pcdsdevices.valve.VVC.configure
+===============================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VVC.configure

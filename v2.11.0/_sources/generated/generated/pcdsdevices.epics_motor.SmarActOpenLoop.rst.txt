@@ -1,0 +1,138 @@
+pcdsdevices.epics\_motor.SmarActOpenLoop
+========================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. autoclass:: SmarActOpenLoop
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  step_voltage
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:STEP_VOLTAGE``
+          -  
+          -  omitted
+          -  
+   
+       *  -  step_freq
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:STEP_FREQ``
+          -  
+          -  config
+          -  
+   
+       *  -  jog_step_size
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:STEP_COUNT``
+          -  
+          -  normal
+          -  
+   
+       *  -  jog_fwd
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:STEP_FORWARD``
+          -  
+          -  normal
+          -  
+   
+       *  -  jog_rev
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:STEP_REVERSE``
+          -  
+          -  normal
+          -  
+   
+       *  -  total_step_count
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:TOTAL_STEP_COUNT``
+          -  
+          -  normal
+          -  
+   
+       *  -  step_clear_cmd
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:CLEAR_COUNT``
+          -  
+          -  config
+          -  
+   
+       *  -  scan_move_cmd
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:SCAN_MOVE``
+          -  
+          -  omitted
+          -  
+   
+       *  -  scan_pos
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:SCAN_POS``
+          -  
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~SmarActOpenLoop.configure
+       ~SmarActOpenLoop.describe
+       ~SmarActOpenLoop.get
+       ~SmarActOpenLoop.read
+       ~SmarActOpenLoop.read_configuration
+       ~SmarActOpenLoop.stop
+       ~SmarActOpenLoop.summary
+       ~SmarActOpenLoop.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~SmarActOpenLoop.configuration_attrs
+       ~SmarActOpenLoop.connected
+       ~SmarActOpenLoop.hints
+       ~SmarActOpenLoop.kind
+    
+    

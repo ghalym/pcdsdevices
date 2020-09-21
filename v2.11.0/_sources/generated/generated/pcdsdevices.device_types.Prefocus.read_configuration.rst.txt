@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Prefocus.read\_configuration
+======================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Prefocus.read_configuration

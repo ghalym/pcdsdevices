@@ -1,0 +1,30 @@
+pcdsdevices.interface.TabCompletionHelperClass
+==============================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. autoclass:: TabCompletionHelperClass
+
+   
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~TabCompletionHelperClass.add
+       ~TabCompletionHelperClass.build_regex
+       ~TabCompletionHelperClass.new_instance
+       ~TabCompletionHelperClass.remove
+       ~TabCompletionHelperClass.reset
+    
+    
+
+    
+    
+    

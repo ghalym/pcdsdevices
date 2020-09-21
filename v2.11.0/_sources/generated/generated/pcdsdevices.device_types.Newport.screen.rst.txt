@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Newport.screen
+========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Newport.screen

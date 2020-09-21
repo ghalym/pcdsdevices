@@ -1,0 +1,6 @@
+pcdsdevices.analog\_signals.Mesh.read\_configuration
+====================================================
+
+.. currentmodule:: pcdsdevices.analog_signals
+
+.. automethod:: Mesh.read_configuration

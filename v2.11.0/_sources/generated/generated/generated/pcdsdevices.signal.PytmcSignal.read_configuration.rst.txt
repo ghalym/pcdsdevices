@@ -1,0 +1,6 @@
+pcdsdevices.signal.PytmcSignal.read\_configuration
+==================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: PytmcSignal.read_configuration

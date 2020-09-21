@@ -1,0 +1,6 @@
+pcdsdevices.sequencer.EventSequencer.kickoff
+============================================
+
+.. currentmodule:: pcdsdevices.sequencer
+
+.. automethod:: EventSequencer.kickoff

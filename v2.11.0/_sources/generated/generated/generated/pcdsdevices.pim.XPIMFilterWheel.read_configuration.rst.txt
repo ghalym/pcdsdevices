@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMFilterWheel.read\_configuration
+===================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMFilterWheel.read_configuration

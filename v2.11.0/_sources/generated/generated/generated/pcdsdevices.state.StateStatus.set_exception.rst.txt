@@ -1,0 +1,6 @@
+pcdsdevices.state.StateStatus.set\_exception
+============================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: StateStatus.set_exception

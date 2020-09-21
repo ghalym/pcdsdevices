@@ -1,0 +1,6 @@
+pcdsdevices.state.StateRecordPositionerBase.summary
+===================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: StateRecordPositionerBase.summary

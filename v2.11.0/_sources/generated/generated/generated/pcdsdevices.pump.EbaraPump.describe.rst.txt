@@ -1,0 +1,6 @@
+pcdsdevices.pump.EbaraPump.describe
+===================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: EbaraPump.describe

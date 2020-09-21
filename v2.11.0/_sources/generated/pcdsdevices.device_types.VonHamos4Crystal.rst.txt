@@ -1,0 +1,111 @@
+﻿pcdsdevices.device\_types.VonHamos4Crystal
+==========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. autoclass:: VonHamos4Crystal
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  f (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``{self._prefix_focus}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.spectrometer.VonHamosFE`
+   
+       *  -  e (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``{self._prefix_energy}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.spectrometer.VonHamosFE`
+   
+       *  -  c1
+          -  :class:`~pcdsdevices.spectrometer.VonHamosCrystal`
+          -  ``:1``
+          -  
+          -  normal
+          -  
+   
+       *  -  c2
+          -  :class:`~pcdsdevices.spectrometer.VonHamosCrystal`
+          -  ``:2``
+          -  
+          -  normal
+          -  
+   
+       *  -  c3
+          -  :class:`~pcdsdevices.spectrometer.VonHamosCrystal`
+          -  ``:3``
+          -  
+          -  normal
+          -  
+   
+       *  -  c4
+          -  :class:`~pcdsdevices.spectrometer.VonHamosCrystal`
+          -  ``:4``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~VonHamos4Crystal.configure
+       ~VonHamos4Crystal.describe
+       ~VonHamos4Crystal.get
+       ~VonHamos4Crystal.read
+       ~VonHamos4Crystal.read_configuration
+       ~VonHamos4Crystal.stop
+       ~VonHamos4Crystal.summary
+       ~VonHamos4Crystal.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~VonHamos4Crystal.configuration_attrs
+       ~VonHamos4Crystal.connected
+       ~VonHamos4Crystal.hints
+       ~VonHamos4Crystal.kind
+    
+    

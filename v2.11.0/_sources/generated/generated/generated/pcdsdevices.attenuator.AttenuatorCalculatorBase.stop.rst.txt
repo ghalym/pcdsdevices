@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttenuatorCalculatorBase.stop
+====================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttenuatorCalculatorBase.stop

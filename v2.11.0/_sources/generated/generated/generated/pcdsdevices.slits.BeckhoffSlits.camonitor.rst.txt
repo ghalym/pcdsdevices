@@ -1,0 +1,6 @@
+pcdsdevices.slits.BeckhoffSlits.camonitor
+=========================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BeckhoffSlits.camonitor

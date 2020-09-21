@@ -1,0 +1,6 @@
+pcdsdevices.inout.Reflaser.wait
+===============================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: Reflaser.wait

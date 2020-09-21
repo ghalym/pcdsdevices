@@ -1,0 +1,6 @@
+pcdsdevices.slits.LusiSlitPositioner.read\_configuration
+========================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: LusiSlitPositioner.read_configuration

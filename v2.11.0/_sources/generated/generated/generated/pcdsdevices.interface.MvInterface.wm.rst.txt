@@ -1,0 +1,6 @@
+pcdsdevices.interface.MvInterface.wm
+====================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: MvInterface.wm

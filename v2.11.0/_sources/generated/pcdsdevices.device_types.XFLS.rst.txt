@@ -1,0 +1,101 @@
+﻿pcdsdevices.device\_types.XFLS
+==============================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. autoclass:: XFLS
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+       *  -  motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:MOTOR``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~XFLS.camonitor
+       ~XFLS.check_inserted
+       ~XFLS.check_removed
+       ~XFLS.check_transmission
+       ~XFLS.configure
+       ~XFLS.describe
+       ~XFLS.end_monitor_thread
+       ~XFLS.get
+       ~XFLS.get_state
+       ~XFLS.insert
+       ~XFLS.move
+       ~XFLS.mv
+       ~XFLS.read
+       ~XFLS.read_configuration
+       ~XFLS.remove
+       ~XFLS.set
+       ~XFLS.stop
+       ~XFLS.summary
+       ~XFLS.trigger
+       ~XFLS.wait
+       ~XFLS.wm
+       ~XFLS.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~XFLS.configuration_attrs
+       ~XFLS.connected
+       ~XFLS.egu
+       ~XFLS.high_limit
+       ~XFLS.hints
+       ~XFLS.in_states
+       ~XFLS.kind
+       ~XFLS.limits
+       ~XFLS.low_limit
+       ~XFLS.moving
+       ~XFLS.out_states
+       ~XFLS.position
+       ~XFLS.settle_time
+       ~XFLS.states_list
+       ~XFLS.timeout
+       ~XFLS.transmission
+    
+    

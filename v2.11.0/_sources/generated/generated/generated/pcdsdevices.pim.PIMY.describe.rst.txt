@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMY.describe
+=============================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMY.describe

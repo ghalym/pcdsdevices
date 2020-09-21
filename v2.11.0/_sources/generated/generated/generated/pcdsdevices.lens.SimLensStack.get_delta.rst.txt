@@ -1,0 +1,6 @@
+pcdsdevices.lens.SimLensStack.get\_delta
+========================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: SimLensStack.get_delta

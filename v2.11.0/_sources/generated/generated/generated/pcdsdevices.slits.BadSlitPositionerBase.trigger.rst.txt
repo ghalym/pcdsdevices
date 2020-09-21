@@ -1,0 +1,6 @@
+pcdsdevices.slits.BadSlitPositionerBase.trigger
+===============================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BadSlitPositionerBase.trigger

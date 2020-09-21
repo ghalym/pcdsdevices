@@ -1,0 +1,102 @@
+pcdsdevices.state.CombinedStateRecordPositioner
+===============================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. autoclass:: CombinedStateRecordPositioner
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.state.StateRecordPositionerBase`
+   
+       *  -  x_motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:X:MOTOR``
+          -  
+          -  normal
+          -  
+   
+       *  -  y_motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:Y:MOTOR``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~CombinedStateRecordPositioner.camonitor
+       ~CombinedStateRecordPositioner.configure
+       ~CombinedStateRecordPositioner.describe
+       ~CombinedStateRecordPositioner.end_monitor_thread
+       ~CombinedStateRecordPositioner.get
+       ~CombinedStateRecordPositioner.get_state
+       ~CombinedStateRecordPositioner.move
+       ~CombinedStateRecordPositioner.mv
+       ~CombinedStateRecordPositioner.read
+       ~CombinedStateRecordPositioner.read_configuration
+       ~CombinedStateRecordPositioner.set
+       ~CombinedStateRecordPositioner.stop
+       ~CombinedStateRecordPositioner.summary
+       ~CombinedStateRecordPositioner.trigger
+       ~CombinedStateRecordPositioner.wait
+       ~CombinedStateRecordPositioner.wm
+       ~CombinedStateRecordPositioner.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~CombinedStateRecordPositioner.configuration_attrs
+       ~CombinedStateRecordPositioner.connected
+       ~CombinedStateRecordPositioner.egu
+       ~CombinedStateRecordPositioner.high_limit
+       ~CombinedStateRecordPositioner.hints
+       ~CombinedStateRecordPositioner.kind
+       ~CombinedStateRecordPositioner.limits
+       ~CombinedStateRecordPositioner.low_limit
+       ~CombinedStateRecordPositioner.moving
+       ~CombinedStateRecordPositioner.position
+       ~CombinedStateRecordPositioner.settle_time
+       ~CombinedStateRecordPositioner.states_list
+       ~CombinedStateRecordPositioner.timeout
+    
+    

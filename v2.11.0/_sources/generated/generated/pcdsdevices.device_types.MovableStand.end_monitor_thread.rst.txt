@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.MovableStand.end\_monitor\_thread
+===========================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: MovableStand.end_monitor_thread

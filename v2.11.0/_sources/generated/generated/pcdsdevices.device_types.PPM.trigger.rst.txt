@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PPM.trigger
+=====================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PPM.trigger

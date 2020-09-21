@@ -1,0 +1,6 @@
+pcdsdevices.slits.LusiSlitPositioner.umv
+========================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: LusiSlitPositioner.umv

@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.BeckhoffAxis.wait
+==========================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: BeckhoffAxis.wait

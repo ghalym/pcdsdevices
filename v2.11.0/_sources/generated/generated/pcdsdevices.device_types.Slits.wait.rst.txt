@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Slits.wait
+====================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Slits.wait

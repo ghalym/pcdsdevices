@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMY.wait
+=========================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMY.wait

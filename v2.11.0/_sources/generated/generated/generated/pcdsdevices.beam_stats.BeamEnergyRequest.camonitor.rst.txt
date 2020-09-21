@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.BeamEnergyRequest.camonitor
+===================================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: BeamEnergyRequest.camonitor

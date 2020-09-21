@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.SmarAct.read\_configuration
+====================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: SmarAct.read_configuration

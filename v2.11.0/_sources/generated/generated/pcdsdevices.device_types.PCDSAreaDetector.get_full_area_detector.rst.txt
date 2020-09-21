@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PCDSAreaDetector.get\_full\_area\_detector
+====================================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PCDSAreaDetector.get_full_area_detector

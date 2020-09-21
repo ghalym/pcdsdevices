@@ -1,0 +1,76 @@
+pcdsdevices.pump.TurboPump
+==========================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. autoclass:: TurboPump
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  atspeed
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:ATSPEED_DI``
+          -  
+          -  normal
+          -  
+   
+       *  -  start
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:START_SW``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~TurboPump.configure
+       ~TurboPump.describe
+       ~TurboPump.get
+       ~TurboPump.read
+       ~TurboPump.read_configuration
+       ~TurboPump.run
+       ~TurboPump.stop
+       ~TurboPump.summary
+       ~TurboPump.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~TurboPump.configuration_attrs
+       ~TurboPump.connected
+       ~TurboPump.hints
+       ~TurboPump.kind
+    
+    

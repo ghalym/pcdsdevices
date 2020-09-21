@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeColdCathode.trigger
+==========================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeColdCathode.trigger

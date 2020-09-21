@@ -1,0 +1,6 @@
+pcdsdevices.slits.PowerSlits.mv
+===============================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: PowerSlits.mv

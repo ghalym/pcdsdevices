@@ -1,0 +1,6 @@
+pcdsdevices.slits.SlitsBase.get
+===============================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: SlitsBase.get

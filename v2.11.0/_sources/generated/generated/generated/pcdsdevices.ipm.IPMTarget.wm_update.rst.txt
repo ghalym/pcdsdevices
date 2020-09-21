@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMTarget.wm\_update
+====================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMTarget.wm_update

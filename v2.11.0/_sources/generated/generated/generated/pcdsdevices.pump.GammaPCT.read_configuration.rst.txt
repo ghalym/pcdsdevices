@@ -1,0 +1,6 @@
+pcdsdevices.pump.GammaPCT.read\_configuration
+=============================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: GammaPCT.read_configuration

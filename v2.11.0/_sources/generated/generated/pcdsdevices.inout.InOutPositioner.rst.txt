@@ -1,0 +1,69 @@
+pcdsdevices.inout.InOutPositioner
+=================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. autoclass:: InOutPositioner
+
+   
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~InOutPositioner.camonitor
+       ~InOutPositioner.check_inserted
+       ~InOutPositioner.check_removed
+       ~InOutPositioner.check_transmission
+       ~InOutPositioner.configure
+       ~InOutPositioner.describe
+       ~InOutPositioner.end_monitor_thread
+       ~InOutPositioner.get
+       ~InOutPositioner.get_state
+       ~InOutPositioner.insert
+       ~InOutPositioner.move
+       ~InOutPositioner.mv
+       ~InOutPositioner.read
+       ~InOutPositioner.read_configuration
+       ~InOutPositioner.remove
+       ~InOutPositioner.set
+       ~InOutPositioner.stop
+       ~InOutPositioner.summary
+       ~InOutPositioner.trigger
+       ~InOutPositioner.wait
+       ~InOutPositioner.wm
+       ~InOutPositioner.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~InOutPositioner.configuration_attrs
+       ~InOutPositioner.connected
+       ~InOutPositioner.egu
+       ~InOutPositioner.high_limit
+       ~InOutPositioner.hints
+       ~InOutPositioner.in_states
+       ~InOutPositioner.kind
+       ~InOutPositioner.limits
+       ~InOutPositioner.low_limit
+       ~InOutPositioner.moving
+       ~InOutPositioner.out_states
+       ~InOutPositioner.position
+       ~InOutPositioner.settle_time
+       ~InOutPositioner.state
+       ~InOutPositioner.states_list
+       ~InOutPositioner.timeout
+       ~InOutPositioner.transmission
+    
+    

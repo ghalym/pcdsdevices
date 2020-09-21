@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.H1N.read\_configuration
+=========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: H1N.read_configuration

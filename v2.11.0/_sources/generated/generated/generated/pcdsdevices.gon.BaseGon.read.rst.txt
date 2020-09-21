@@ -1,0 +1,6 @@
+pcdsdevices.gon.BaseGon.read
+============================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: BaseGon.read

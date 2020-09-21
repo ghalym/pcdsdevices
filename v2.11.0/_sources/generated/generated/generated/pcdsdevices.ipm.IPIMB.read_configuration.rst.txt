@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPIMB.read\_configuration
+=========================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPIMB.read_configuration

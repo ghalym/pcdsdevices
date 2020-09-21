@@ -1,0 +1,6 @@
+pcdsdevices.interface.TabCompletionHelperInstance.get\_filtered\_dir\_list
+==========================================================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: TabCompletionHelperInstance.get_filtered_dir_list

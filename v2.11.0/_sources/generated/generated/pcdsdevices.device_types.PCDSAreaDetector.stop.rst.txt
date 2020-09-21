@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PCDSAreaDetector.stop
+===============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PCDSAreaDetector.stop

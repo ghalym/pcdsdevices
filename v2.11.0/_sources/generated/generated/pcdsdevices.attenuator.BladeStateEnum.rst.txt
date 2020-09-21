@@ -1,0 +1,29 @@
+pcdsdevices.attenuator.BladeStateEnum
+=====================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. autoclass:: BladeStateEnum
+
+   
+   
+   
+
+
+    
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~BladeStateEnum.IN
+       ~BladeStateEnum.OUT
+       ~BladeStateEnum.STUCK_IN
+       ~BladeStateEnum.STUCK_OUT
+       ~BladeStateEnum.Unknown
+    
+    

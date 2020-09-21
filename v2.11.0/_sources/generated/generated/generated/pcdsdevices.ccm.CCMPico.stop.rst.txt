@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMPico.stop
+============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMPico.stop

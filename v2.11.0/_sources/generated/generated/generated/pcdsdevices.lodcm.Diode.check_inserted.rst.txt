@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Diode.check\_inserted
+=======================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Diode.check_inserted

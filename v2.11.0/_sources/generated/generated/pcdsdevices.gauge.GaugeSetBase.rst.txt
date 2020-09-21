@@ -1,0 +1,68 @@
+pcdsdevices.gauge.GaugeSetBase
+==============================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. autoclass:: GaugeSetBase
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  gcc (FCpt)
+          -  :class:`~pcdsdevices.gauge.GaugeColdCathode`
+          -  ``{self.prefix}:GCC:{self.index}``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~GaugeSetBase.configure
+       ~GaugeSetBase.describe
+       ~GaugeSetBase.egu
+       ~GaugeSetBase.get
+       ~GaugeSetBase.pressure
+       ~GaugeSetBase.read
+       ~GaugeSetBase.read_configuration
+       ~GaugeSetBase.stop
+       ~GaugeSetBase.summary
+       ~GaugeSetBase.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~GaugeSetBase.configuration_attrs
+       ~GaugeSetBase.connected
+       ~GaugeSetBase.hints
+       ~GaugeSetBase.kind
+    
+    

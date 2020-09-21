@@ -1,0 +1,46 @@
+﻿pcdsdevices.gauge
+=================
+
+.. automodule:: pcdsdevices.gauge
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+      :toctree: generated
+   
+      GaugeSet
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree: generated
+   
+      BaseGauge
+      GCC500PLC
+      GCCPLC
+      GCT
+      GaugeColdCathode
+      GaugePLC
+      GaugePirani
+      GaugeSerial
+      GaugeSerialGCC
+      GaugeSerialGPI
+      GaugeSetBase
+      GaugeSetMks
+      GaugeSetPirani
+      GaugeSetPiraniMks
+      MKS937AController
+      MKS937BController
+      MKS937a
+   
+   
+
+   
+   
+   

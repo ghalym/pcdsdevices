@@ -1,0 +1,120 @@
+﻿pcdsdevices.device\_types.DelayNewport
+======================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. autoclass:: DelayNewport
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  delay (FCpt)
+          -  :class:`~ophyd.pseudopos.PseudoSingle`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pseudopos.DelayBase`
+   
+       *  -  user_offset
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pseudopos.DelayBase`
+   
+       *  -  motor
+          -  :class:`~pcdsdevices.epics_motor.Newport`
+          -  
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~DelayNewport.camonitor
+       ~DelayNewport.check_single
+       ~DelayNewport.configure
+       ~DelayNewport.describe
+       ~DelayNewport.end_monitor_thread
+       ~DelayNewport.forward
+       ~DelayNewport.get
+       ~DelayNewport.inverse
+       ~DelayNewport.move
+       ~DelayNewport.move_single
+       ~DelayNewport.mv
+       ~DelayNewport.mv_ginput
+       ~DelayNewport.mvr
+       ~DelayNewport.read
+       ~DelayNewport.read_configuration
+       ~DelayNewport.set
+       ~DelayNewport.set_current_position
+       ~DelayNewport.stop
+       ~DelayNewport.summary
+       ~DelayNewport.to_pseudo_tuple
+       ~DelayNewport.to_real_tuple
+       ~DelayNewport.trigger
+       ~DelayNewport.tweak
+       ~DelayNewport.umv
+       ~DelayNewport.umvr
+       ~DelayNewport.wait
+       ~DelayNewport.wm
+       ~DelayNewport.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~DelayNewport.composite_egu
+       ~DelayNewport.concurrent
+       ~DelayNewport.configuration_attrs
+       ~DelayNewport.connected
+       ~DelayNewport.egu
+       ~DelayNewport.high_limit
+       ~DelayNewport.hints
+       ~DelayNewport.kind
+       ~DelayNewport.limits
+       ~DelayNewport.low_limit
+       ~DelayNewport.moving
+       ~DelayNewport.position
+       ~DelayNewport.presets
+       ~DelayNewport.pseudo_positioners
+       ~DelayNewport.real_position
+       ~DelayNewport.real_positioners
+       ~DelayNewport.sequential
+       ~DelayNewport.settle_time
+       ~DelayNewport.target
+       ~DelayNewport.timeout
+    
+    

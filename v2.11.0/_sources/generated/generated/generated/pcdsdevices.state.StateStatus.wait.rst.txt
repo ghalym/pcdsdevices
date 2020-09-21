@@ -1,0 +1,6 @@
+pcdsdevices.state.StateStatus.wait
+==================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: StateStatus.wait

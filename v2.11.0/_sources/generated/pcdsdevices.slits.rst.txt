@@ -1,0 +1,31 @@
+﻿pcdsdevices.slits
+=================
+
+.. automodule:: pcdsdevices.slits
+
+   
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree: generated
+   
+      BadSlitPositionerBase
+      BeckhoffSlitPositioner
+      BeckhoffSlits
+      LusiSlitPositioner
+      LusiSlits
+      PowerSlits
+      SlitPositioner
+      Slits
+      SlitsBase
+   
+   
+
+   
+   
+   

@@ -1,0 +1,56 @@
+pcdsdevices.signal.FakePytmcSignal
+==================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. autoclass:: FakePytmcSignal
+
+   
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~FakePytmcSignal.describe
+       ~FakePytmcSignal.get
+       ~FakePytmcSignal.read
+       ~FakePytmcSignal.read_configuration
+       ~FakePytmcSignal.set
+       ~FakePytmcSignal.sim_put
+       ~FakePytmcSignal.sim_set_enum_strs
+       ~FakePytmcSignal.sim_set_func
+       ~FakePytmcSignal.sim_set_limits
+       ~FakePytmcSignal.sim_set_putter
+       ~FakePytmcSignal.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~FakePytmcSignal.SUB_META
+       ~FakePytmcSignal.connected
+       ~FakePytmcSignal.enum_strs
+       ~FakePytmcSignal.high_limit
+       ~FakePytmcSignal.hints
+       ~FakePytmcSignal.kind
+       ~FakePytmcSignal.limits
+       ~FakePytmcSignal.low_limit
+       ~FakePytmcSignal.metadata
+       ~FakePytmcSignal.metadata_keys
+       ~FakePytmcSignal.read_access
+       ~FakePytmcSignal.timestamp
+       ~FakePytmcSignal.tolerance
+       ~FakePytmcSignal.value
+       ~FakePytmcSignal.write_access
+    
+    

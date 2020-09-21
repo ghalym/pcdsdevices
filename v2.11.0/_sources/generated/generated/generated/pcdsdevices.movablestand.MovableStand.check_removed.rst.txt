@@ -1,0 +1,6 @@
+pcdsdevices.movablestand.MovableStand.check\_removed
+====================================================
+
+.. currentmodule:: pcdsdevices.movablestand
+
+.. automethod:: MovableStand.check_removed

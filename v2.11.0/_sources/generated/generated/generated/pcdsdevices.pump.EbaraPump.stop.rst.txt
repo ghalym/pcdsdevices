@@ -1,0 +1,6 @@
+pcdsdevices.pump.EbaraPump.stop
+===============================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: EbaraPump.stop

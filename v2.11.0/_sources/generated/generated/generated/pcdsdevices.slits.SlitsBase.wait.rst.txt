@@ -1,0 +1,6 @@
+pcdsdevices.slits.SlitsBase.wait
+================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: SlitsBase.wait

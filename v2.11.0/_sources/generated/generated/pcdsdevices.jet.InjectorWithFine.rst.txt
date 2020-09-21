@@ -1,0 +1,111 @@
+pcdsdevices.jet.InjectorWithFine
+================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. autoclass:: InjectorWithFine
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  x (UCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.jet.Injector`
+   
+       *  -  y (UCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.jet.Injector`
+   
+       *  -  z (UCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.jet.Injector`
+   
+       *  -  fine_x (UCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  fine_y (UCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  fine_z (UCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~InjectorWithFine.configure
+       ~InjectorWithFine.describe
+       ~InjectorWithFine.get
+       ~InjectorWithFine.read
+       ~InjectorWithFine.read_configuration
+       ~InjectorWithFine.stop
+       ~InjectorWithFine.summary
+       ~InjectorWithFine.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~InjectorWithFine.configuration_attrs
+       ~InjectorWithFine.connected
+       ~InjectorWithFine.hints
+       ~InjectorWithFine.kind
+    
+    

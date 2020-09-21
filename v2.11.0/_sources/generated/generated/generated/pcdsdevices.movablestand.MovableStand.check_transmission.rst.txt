@@ -1,0 +1,6 @@
+pcdsdevices.movablestand.MovableStand.check\_transmission
+=========================================================
+
+.. currentmodule:: pcdsdevices.movablestand
+
+.. automethod:: MovableStand.check_transmission

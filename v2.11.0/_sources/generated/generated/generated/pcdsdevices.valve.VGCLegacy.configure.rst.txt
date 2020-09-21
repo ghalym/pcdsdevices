@@ -1,0 +1,6 @@
+pcdsdevices.valve.VGCLegacy.configure
+=====================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VGCLegacy.configure

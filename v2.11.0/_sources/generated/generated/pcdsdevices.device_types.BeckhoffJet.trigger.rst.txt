@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.BeckhoffJet.trigger
+=============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: BeckhoffJet.trigger

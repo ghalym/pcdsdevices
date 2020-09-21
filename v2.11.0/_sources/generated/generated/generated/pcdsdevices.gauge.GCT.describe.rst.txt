@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCT.describe
+==============================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCT.describe

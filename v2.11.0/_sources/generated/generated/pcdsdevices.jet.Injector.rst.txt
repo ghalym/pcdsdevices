@@ -1,0 +1,84 @@
+pcdsdevices.jet.Injector
+========================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. autoclass:: Injector
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  x (UCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  y (UCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  z (UCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Injector.configure
+       ~Injector.describe
+       ~Injector.get
+       ~Injector.read
+       ~Injector.read_configuration
+       ~Injector.stop
+       ~Injector.summary
+       ~Injector.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Injector.configuration_attrs
+       ~Injector.connected
+       ~Injector.hints
+       ~Injector.kind
+    
+    

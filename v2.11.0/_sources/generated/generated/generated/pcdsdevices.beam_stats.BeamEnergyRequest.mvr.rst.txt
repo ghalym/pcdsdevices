@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.BeamEnergyRequest.mvr
+=============================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: BeamEnergyRequest.mvr

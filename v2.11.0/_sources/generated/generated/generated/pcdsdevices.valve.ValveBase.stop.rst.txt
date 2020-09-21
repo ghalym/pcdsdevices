@@ -1,0 +1,6 @@
+pcdsdevices.valve.ValveBase.stop
+================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: ValveBase.stop

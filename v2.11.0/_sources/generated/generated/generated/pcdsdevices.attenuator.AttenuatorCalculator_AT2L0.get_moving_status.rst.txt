@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttenuatorCalculator\_AT2L0.get\_moving\_status
+======================================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttenuatorCalculator_AT2L0.get_moving_status

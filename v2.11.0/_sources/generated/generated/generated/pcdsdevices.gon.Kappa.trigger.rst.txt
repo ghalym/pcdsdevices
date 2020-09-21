@@ -1,0 +1,6 @@
+pcdsdevices.gon.Kappa.trigger
+=============================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: Kappa.trigger

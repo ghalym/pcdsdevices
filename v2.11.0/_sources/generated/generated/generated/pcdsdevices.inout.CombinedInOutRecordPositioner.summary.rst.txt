@@ -1,0 +1,6 @@
+pcdsdevices.inout.CombinedInOutRecordPositioner.summary
+=======================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: CombinedInOutRecordPositioner.summary

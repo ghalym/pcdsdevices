@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.H1N.check\_inserted
+=====================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: H1N.check_inserted

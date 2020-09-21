@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.DelayNewport.wait
+==========================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: DelayNewport.wait

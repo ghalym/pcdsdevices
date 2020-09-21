@@ -1,0 +1,104 @@
+pcdsdevices.slits.BadSlitPositionerBase
+=======================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. autoclass:: BadSlitPositionerBase
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  readback (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``{prefix}:ACTUAL_{_dirlong}``
+          -  
+          -  normal
+          -  
+   
+       *  -  setpoint (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{prefix}:{_dirshort}_REQ``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~BadSlitPositionerBase.camonitor
+       ~BadSlitPositionerBase.configure
+       ~BadSlitPositionerBase.describe
+       ~BadSlitPositionerBase.end_monitor_thread
+       ~BadSlitPositionerBase.get
+       ~BadSlitPositionerBase.move
+       ~BadSlitPositionerBase.mv
+       ~BadSlitPositionerBase.mv_ginput
+       ~BadSlitPositionerBase.mvr
+       ~BadSlitPositionerBase.read
+       ~BadSlitPositionerBase.read_configuration
+       ~BadSlitPositionerBase.set
+       ~BadSlitPositionerBase.stop
+       ~BadSlitPositionerBase.summary
+       ~BadSlitPositionerBase.trigger
+       ~BadSlitPositionerBase.tweak
+       ~BadSlitPositionerBase.umv
+       ~BadSlitPositionerBase.umvr
+       ~BadSlitPositionerBase.wait
+       ~BadSlitPositionerBase.wm
+       ~BadSlitPositionerBase.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~BadSlitPositionerBase.actuate
+       ~BadSlitPositionerBase.actuate_value
+       ~BadSlitPositionerBase.configuration_attrs
+       ~BadSlitPositionerBase.connected
+       ~BadSlitPositionerBase.done
+       ~BadSlitPositionerBase.done_value
+       ~BadSlitPositionerBase.egu
+       ~BadSlitPositionerBase.high_limit
+       ~BadSlitPositionerBase.hints
+       ~BadSlitPositionerBase.kind
+       ~BadSlitPositionerBase.limits
+       ~BadSlitPositionerBase.low_limit
+       ~BadSlitPositionerBase.moving
+       ~BadSlitPositionerBase.position
+       ~BadSlitPositionerBase.presets
+       ~BadSlitPositionerBase.put_complete
+       ~BadSlitPositionerBase.settle_time
+       ~BadSlitPositionerBase.stop_signal
+       ~BadSlitPositionerBase.stop_value
+       ~BadSlitPositionerBase.timeout
+    
+    

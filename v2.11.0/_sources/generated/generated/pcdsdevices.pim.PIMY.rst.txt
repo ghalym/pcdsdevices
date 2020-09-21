@@ -1,0 +1,101 @@
+pcdsdevices.pim.PIMY
+====================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. autoclass:: PIMY
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+       *  -  motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:MOTOR``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~PIMY.camonitor
+       ~PIMY.check_inserted
+       ~PIMY.check_removed
+       ~PIMY.check_transmission
+       ~PIMY.configure
+       ~PIMY.describe
+       ~PIMY.end_monitor_thread
+       ~PIMY.get
+       ~PIMY.get_state
+       ~PIMY.insert
+       ~PIMY.move
+       ~PIMY.mv
+       ~PIMY.read
+       ~PIMY.read_configuration
+       ~PIMY.remove
+       ~PIMY.set
+       ~PIMY.stop
+       ~PIMY.summary
+       ~PIMY.trigger
+       ~PIMY.wait
+       ~PIMY.wm
+       ~PIMY.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~PIMY.configuration_attrs
+       ~PIMY.connected
+       ~PIMY.egu
+       ~PIMY.high_limit
+       ~PIMY.hints
+       ~PIMY.in_states
+       ~PIMY.kind
+       ~PIMY.limits
+       ~PIMY.low_limit
+       ~PIMY.moving
+       ~PIMY.out_states
+       ~PIMY.position
+       ~PIMY.settle_time
+       ~PIMY.states_list
+       ~PIMY.timeout
+       ~PIMY.transmission
+    
+    

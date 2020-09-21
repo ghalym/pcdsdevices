@@ -1,0 +1,6 @@
+pcdsdevices.gon.Kappa.summary
+=============================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: Kappa.summary

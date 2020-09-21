@@ -1,0 +1,112 @@
+pcdsdevices.slits.LusiSlitPositioner
+====================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. autoclass:: LusiSlitPositioner
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  readback (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``{prefix}:ACTUAL_{_dirlong}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.slits.BadSlitPositionerBase`
+   
+       *  -  setpoint (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{prefix}:{_dirshort}_REQ``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.slits.BadSlitPositionerBase`
+   
+       *  -  done
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:DMOV``
+          -  
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~LusiSlitPositioner.camonitor
+       ~LusiSlitPositioner.configure
+       ~LusiSlitPositioner.describe
+       ~LusiSlitPositioner.end_monitor_thread
+       ~LusiSlitPositioner.get
+       ~LusiSlitPositioner.move
+       ~LusiSlitPositioner.mv
+       ~LusiSlitPositioner.mv_ginput
+       ~LusiSlitPositioner.mvr
+       ~LusiSlitPositioner.read
+       ~LusiSlitPositioner.read_configuration
+       ~LusiSlitPositioner.set
+       ~LusiSlitPositioner.stop
+       ~LusiSlitPositioner.summary
+       ~LusiSlitPositioner.trigger
+       ~LusiSlitPositioner.tweak
+       ~LusiSlitPositioner.umv
+       ~LusiSlitPositioner.umvr
+       ~LusiSlitPositioner.wait
+       ~LusiSlitPositioner.wm
+       ~LusiSlitPositioner.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~LusiSlitPositioner.actuate
+       ~LusiSlitPositioner.actuate_value
+       ~LusiSlitPositioner.configuration_attrs
+       ~LusiSlitPositioner.connected
+       ~LusiSlitPositioner.done_value
+       ~LusiSlitPositioner.egu
+       ~LusiSlitPositioner.high_limit
+       ~LusiSlitPositioner.hints
+       ~LusiSlitPositioner.kind
+       ~LusiSlitPositioner.limits
+       ~LusiSlitPositioner.low_limit
+       ~LusiSlitPositioner.moving
+       ~LusiSlitPositioner.position
+       ~LusiSlitPositioner.presets
+       ~LusiSlitPositioner.put_complete
+       ~LusiSlitPositioner.settle_time
+       ~LusiSlitPositioner.stop_signal
+       ~LusiSlitPositioner.stop_value
+       ~LusiSlitPositioner.timeout
+    
+    

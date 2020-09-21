@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMDiode.read
+=============================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMDiode.read

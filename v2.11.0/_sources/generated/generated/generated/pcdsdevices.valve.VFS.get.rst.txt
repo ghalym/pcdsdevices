@@ -1,0 +1,6 @@
+pcdsdevices.valve.VFS.get
+=========================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VFS.get

@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Dectris.check\_removed
+========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Dectris.check_removed

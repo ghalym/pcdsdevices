@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMPico.set\_current\_position
+==============================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMPico.set_current_position

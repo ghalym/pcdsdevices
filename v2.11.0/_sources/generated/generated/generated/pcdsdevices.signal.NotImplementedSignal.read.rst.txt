@@ -1,0 +1,6 @@
+pcdsdevices.signal.NotImplementedSignal.read
+============================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: NotImplementedSignal.read

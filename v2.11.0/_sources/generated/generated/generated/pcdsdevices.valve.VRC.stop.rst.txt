@@ -1,0 +1,6 @@
+pcdsdevices.valve.VRC.stop
+==========================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VRC.stop

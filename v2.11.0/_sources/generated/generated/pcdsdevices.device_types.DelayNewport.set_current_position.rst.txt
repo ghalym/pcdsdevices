@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.DelayNewport.set\_current\_position
+=============================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: DelayNewport.set_current_position

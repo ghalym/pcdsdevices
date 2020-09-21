@@ -1,0 +1,6 @@
+pcdsdevices.signal.UnitConversionDerivedSignal.read\_configuration
+==================================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: UnitConversionDerivedSignal.read_configuration

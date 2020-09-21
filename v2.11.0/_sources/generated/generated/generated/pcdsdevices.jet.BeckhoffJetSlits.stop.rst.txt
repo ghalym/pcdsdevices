@@ -1,0 +1,6 @@
+pcdsdevices.jet.BeckhoffJetSlits.stop
+=====================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: BeckhoffJetSlits.stop

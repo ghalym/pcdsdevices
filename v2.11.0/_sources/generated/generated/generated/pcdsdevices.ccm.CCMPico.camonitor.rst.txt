@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMPico.camonitor
+=================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMPico.camonitor

@@ -1,0 +1,6 @@
+pcdsdevices.pim.PPM.read\_configuration
+=======================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PPM.read_configuration

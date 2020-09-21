@@ -1,0 +1,6 @@
+pcdsdevices.valve.PPSStopper.check\_transmission
+================================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: PPSStopper.check_transmission

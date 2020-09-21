@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugePLC.trigger
+==================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugePLC.trigger

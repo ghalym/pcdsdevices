@@ -1,0 +1,6 @@
+pcdsdevices.pump.GammaPCT.trigger
+=================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: GammaPCT.trigger

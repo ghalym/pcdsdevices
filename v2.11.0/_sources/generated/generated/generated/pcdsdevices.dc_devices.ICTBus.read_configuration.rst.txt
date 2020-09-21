@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICTBus.read\_configuration
+==================================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICTBus.read_configuration

@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSetPirani.summary
+========================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSetPirani.summary

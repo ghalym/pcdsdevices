@@ -1,0 +1,6 @@
+pcdsdevices.lens.LensStack.calc\_beam\_fwhm
+===========================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: LensStack.calc_beam_fwhm

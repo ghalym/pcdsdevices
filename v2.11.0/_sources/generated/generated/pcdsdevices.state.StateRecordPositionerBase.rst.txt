@@ -1,0 +1,84 @@
+pcdsdevices.state.StateRecordPositionerBase
+===========================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. autoclass:: StateRecordPositionerBase
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  
+          -  
+          -  hinted
+          -  
+   
+
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~StateRecordPositionerBase.camonitor
+       ~StateRecordPositionerBase.configure
+       ~StateRecordPositionerBase.describe
+       ~StateRecordPositionerBase.end_monitor_thread
+       ~StateRecordPositionerBase.get
+       ~StateRecordPositionerBase.get_state
+       ~StateRecordPositionerBase.move
+       ~StateRecordPositionerBase.mv
+       ~StateRecordPositionerBase.read
+       ~StateRecordPositionerBase.read_configuration
+       ~StateRecordPositionerBase.set
+       ~StateRecordPositionerBase.stop
+       ~StateRecordPositionerBase.summary
+       ~StateRecordPositionerBase.trigger
+       ~StateRecordPositionerBase.wait
+       ~StateRecordPositionerBase.wm
+       ~StateRecordPositionerBase.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~StateRecordPositionerBase.configuration_attrs
+       ~StateRecordPositionerBase.connected
+       ~StateRecordPositionerBase.egu
+       ~StateRecordPositionerBase.high_limit
+       ~StateRecordPositionerBase.hints
+       ~StateRecordPositionerBase.kind
+       ~StateRecordPositionerBase.limits
+       ~StateRecordPositionerBase.low_limit
+       ~StateRecordPositionerBase.moving
+       ~StateRecordPositionerBase.position
+       ~StateRecordPositionerBase.settle_time
+       ~StateRecordPositionerBase.states_list
+       ~StateRecordPositionerBase.timeout
+    
+    

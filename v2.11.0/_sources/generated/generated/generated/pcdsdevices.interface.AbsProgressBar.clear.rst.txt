@@ -1,0 +1,6 @@
+pcdsdevices.interface.AbsProgressBar.clear
+==========================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: AbsProgressBar.clear

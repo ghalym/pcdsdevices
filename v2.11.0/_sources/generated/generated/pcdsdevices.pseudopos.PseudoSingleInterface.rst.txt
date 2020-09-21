@@ -1,0 +1,99 @@
+pcdsdevices.pseudopos.PseudoSingleInterface
+===========================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. autoclass:: PseudoSingleInterface
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  readback
+          -  :class:`~ophyd.signal.AttributeSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~ophyd.pseudopos.PseudoSingle`
+   
+       *  -  setpoint
+          -  :class:`~ophyd.signal.AttributeSignal`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~ophyd.pseudopos.PseudoSingle`
+   
+
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~PseudoSingleInterface.camonitor
+       ~PseudoSingleInterface.configure
+       ~PseudoSingleInterface.describe
+       ~PseudoSingleInterface.end_monitor_thread
+       ~PseudoSingleInterface.get
+       ~PseudoSingleInterface.move
+       ~PseudoSingleInterface.mv
+       ~PseudoSingleInterface.mv_ginput
+       ~PseudoSingleInterface.mvr
+       ~PseudoSingleInterface.read
+       ~PseudoSingleInterface.read_configuration
+       ~PseudoSingleInterface.set
+       ~PseudoSingleInterface.stop
+       ~PseudoSingleInterface.summary
+       ~PseudoSingleInterface.sync
+       ~PseudoSingleInterface.trigger
+       ~PseudoSingleInterface.tweak
+       ~PseudoSingleInterface.umv
+       ~PseudoSingleInterface.umvr
+       ~PseudoSingleInterface.wait
+       ~PseudoSingleInterface.wm
+       ~PseudoSingleInterface.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~PseudoSingleInterface.configuration_attrs
+       ~PseudoSingleInterface.connected
+       ~PseudoSingleInterface.egu
+       ~PseudoSingleInterface.high_limit
+       ~PseudoSingleInterface.hints
+       ~PseudoSingleInterface.kind
+       ~PseudoSingleInterface.limits
+       ~PseudoSingleInterface.low_limit
+       ~PseudoSingleInterface.moving
+       ~PseudoSingleInterface.position
+       ~PseudoSingleInterface.presets
+       ~PseudoSingleInterface.settle_time
+       ~PseudoSingleInterface.target
+       ~PseudoSingleInterface.timeout
+    
+    
