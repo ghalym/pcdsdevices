@@ -2071,6 +2071,14 @@ master/_sources/generated/generated/generated/pcdsdevices.sensors.RTD.read_confi
 master/_sources/generated/generated/generated/pcdsdevices.sensors.RTD.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.sensors.RTD.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.sensors.RTD.trigger.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.sensors.TwinCATTempSensor.configure.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.sensors.TwinCATTempSensor.describe.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.sensors.TwinCATTempSensor.get.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.sensors.TwinCATTempSensor.read.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.sensors.TwinCATTempSensor.read_configuration.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.sensors.TwinCATTempSensor.stop.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.sensors.TwinCATTempSensor.summary.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.sensors.TwinCATTempSensor.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.sensors.TwinCATThermocouple.configure.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.sensors.TwinCATThermocouple.describe.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.sensors.TwinCATThermocouple.get.rst.txt
@@ -3478,6 +3486,7 @@ master/_sources/generated/generated/pcdsdevices.pump.PTMPLC.rst.txt
 master/_sources/generated/generated/pcdsdevices.pump.QPCPCT.rst.txt
 master/_sources/generated/generated/pcdsdevices.pump.TurboPump.rst.txt
 master/_sources/generated/generated/pcdsdevices.sensors.RTD.rst.txt
+master/_sources/generated/generated/pcdsdevices.sensors.TwinCATTempSensor.rst.txt
 master/_sources/generated/generated/pcdsdevices.sensors.TwinCATThermocouple.rst.txt
 master/_sources/generated/generated/pcdsdevices.sequencer.EventSequence.rst.txt
 master/_sources/generated/generated/pcdsdevices.sequencer.EventSequencer.rst.txt
@@ -3709,6 +3718,7 @@ master/_sources/upcoming_release_notes/565-pp-inout-pvfix.rst.txt
 master/_sources/upcoming_release_notes/566-seq-race.rst.txt
 master/_sources/upcoming_release_notes/568-DelayBase_offset_support.rst.txt
 master/_sources/upcoming_release_notes/576-tab_completion.rst.txt
+master/_sources/upcoming_release_notes/586-wfs.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -5867,6 +5877,14 @@ master/generated/generated/generated/pcdsdevices.sensors.RTD.read_configuration.
 master/generated/generated/generated/pcdsdevices.sensors.RTD.stop.html
 master/generated/generated/generated/pcdsdevices.sensors.RTD.summary.html
 master/generated/generated/generated/pcdsdevices.sensors.RTD.trigger.html
+master/generated/generated/generated/pcdsdevices.sensors.TwinCATTempSensor.configure.html
+master/generated/generated/generated/pcdsdevices.sensors.TwinCATTempSensor.describe.html
+master/generated/generated/generated/pcdsdevices.sensors.TwinCATTempSensor.get.html
+master/generated/generated/generated/pcdsdevices.sensors.TwinCATTempSensor.read.html
+master/generated/generated/generated/pcdsdevices.sensors.TwinCATTempSensor.read_configuration.html
+master/generated/generated/generated/pcdsdevices.sensors.TwinCATTempSensor.stop.html
+master/generated/generated/generated/pcdsdevices.sensors.TwinCATTempSensor.summary.html
+master/generated/generated/generated/pcdsdevices.sensors.TwinCATTempSensor.trigger.html
 master/generated/generated/generated/pcdsdevices.sensors.TwinCATThermocouple.configure.html
 master/generated/generated/generated/pcdsdevices.sensors.TwinCATThermocouple.describe.html
 master/generated/generated/generated/pcdsdevices.sensors.TwinCATThermocouple.get.html
@@ -7274,6 +7292,7 @@ master/generated/generated/pcdsdevices.pump.PTMPLC.html
 master/generated/generated/pcdsdevices.pump.QPCPCT.html
 master/generated/generated/pcdsdevices.pump.TurboPump.html
 master/generated/generated/pcdsdevices.sensors.RTD.html
+master/generated/generated/pcdsdevices.sensors.TwinCATTempSensor.html
 master/generated/generated/pcdsdevices.sensors.TwinCATThermocouple.html
 master/generated/generated/pcdsdevices.sequencer.EventSequence.html
 master/generated/generated/pcdsdevices.sequencer.EventSequencer.html
@@ -7510,5 +7529,6 @@ master/upcoming_release_notes/565-pp-inout-pvfix.html
 master/upcoming_release_notes/566-seq-race.html
 master/upcoming_release_notes/568-DelayBase_offset_support.html
 master/upcoming_release_notes/576-tab_completion.html
+master/upcoming_release_notes/586-wfs.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html

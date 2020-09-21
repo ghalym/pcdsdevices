@@ -15,6 +15,7 @@
       :toctree: generated
    
       RTD
+      TwinCATTempSensor
       TwinCATThermocouple
    
    
