@@ -59,6 +59,7 @@ pcdsdevices.ipm.IPMMotion
        ~IPMMotion.remove
        ~IPMMotion.stop
        ~IPMMotion.summary
+       ~IPMMotion.target_in
        ~IPMMotion.trigger
     
     

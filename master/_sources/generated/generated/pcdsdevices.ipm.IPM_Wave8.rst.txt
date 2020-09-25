@@ -70,6 +70,7 @@ pcdsdevices.ipm.IPM\_Wave8
        ~IPM_Wave8.remove
        ~IPM_Wave8.stop
        ~IPM_Wave8.summary
+       ~IPM_Wave8.target_in
        ~IPM_Wave8.trigger
        ~IPM_Wave8.xpos
        ~IPM_Wave8.ypos

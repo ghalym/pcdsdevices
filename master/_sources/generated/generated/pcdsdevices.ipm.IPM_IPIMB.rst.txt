@@ -70,6 +70,7 @@ pcdsdevices.ipm.IPM\_IPIMB
        ~IPM_IPIMB.remove
        ~IPM_IPIMB.stop
        ~IPM_IPIMB.summary
+       ~IPM_IPIMB.target_in
        ~IPM_IPIMB.trigger
        ~IPM_IPIMB.xpos
        ~IPM_IPIMB.ypos
