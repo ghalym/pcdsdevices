@@ -24,11 +24,13 @@
    
       AggregateSignal
       AvgSignal
+      FakeNotepadLinkedSignal
       FakePytmcSignal
       FakePytmcSignalRO
       FakePytmcSignalRW
       InternalSignal
       NotImplementedSignal
+      NotepadLinkedSignal
       PytmcSignal
       PytmcSignalRO
       PytmcSignalRW

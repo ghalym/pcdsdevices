@@ -32,7 +32,25 @@ pcdsdevices.pseudopos.PseudoSingleInterface
           -  normal
           -  Inherited from :class:`~ophyd.pseudopos.PseudoSingle`
    
+       *  -  notepad_setpoint
+          -  :class:`~pcdsdevices.signal.NotepadLinkedSignal`
+          -  ``:OphydSetpoint``
+          -  
+          -  normal
+          -  
+   
+       *  -  notepad_readback
+          -  :class:`~pcdsdevices.signal.NotepadLinkedSignal`
+          -  ``:OphydReadback``
+          -  
+          -  normal
+          -  
+   
 
+   
+   
+   
+   
    
    
    

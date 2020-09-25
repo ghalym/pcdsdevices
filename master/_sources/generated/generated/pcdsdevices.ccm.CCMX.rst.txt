@@ -19,7 +19,7 @@ pcdsdevices.ccm.CCMX
           - Notes
    
        *  -  pseudo
-          -  :class:`~ophyd.pseudopos.PseudoSingle`
+          -  :class:`~pcdsdevices.pseudopos.PseudoSingleInterface`
           -  
           -  
           -  normal

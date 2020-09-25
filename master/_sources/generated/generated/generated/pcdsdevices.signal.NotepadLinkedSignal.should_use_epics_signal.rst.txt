@@ -1,0 +1,6 @@
+pcdsdevices.signal.NotepadLinkedSignal.should\_use\_epics\_signal
+=================================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: NotepadLinkedSignal.should_use_epics_signal

@@ -16,6 +16,7 @@
    
       DelayBase
       LookupTablePositioner
+      PseudoPositioner
       PseudoSingleInterface
       SimDelayStage
       SyncAxesBase

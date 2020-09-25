@@ -1,0 +1,56 @@
+pcdsdevices.signal.FakeNotepadLinkedSignal
+==========================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. autoclass:: FakeNotepadLinkedSignal
+
+   
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~FakeNotepadLinkedSignal.describe
+       ~FakeNotepadLinkedSignal.get
+       ~FakeNotepadLinkedSignal.read
+       ~FakeNotepadLinkedSignal.read_configuration
+       ~FakeNotepadLinkedSignal.set
+       ~FakeNotepadLinkedSignal.sim_put
+       ~FakeNotepadLinkedSignal.sim_set_enum_strs
+       ~FakeNotepadLinkedSignal.sim_set_func
+       ~FakeNotepadLinkedSignal.sim_set_limits
+       ~FakeNotepadLinkedSignal.sim_set_putter
+       ~FakeNotepadLinkedSignal.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~FakeNotepadLinkedSignal.SUB_META
+       ~FakeNotepadLinkedSignal.connected
+       ~FakeNotepadLinkedSignal.enum_strs
+       ~FakeNotepadLinkedSignal.high_limit
+       ~FakeNotepadLinkedSignal.hints
+       ~FakeNotepadLinkedSignal.kind
+       ~FakeNotepadLinkedSignal.limits
+       ~FakeNotepadLinkedSignal.low_limit
+       ~FakeNotepadLinkedSignal.metadata
+       ~FakeNotepadLinkedSignal.metadata_keys
+       ~FakeNotepadLinkedSignal.read_access
+       ~FakeNotepadLinkedSignal.timestamp
+       ~FakeNotepadLinkedSignal.tolerance
+       ~FakeNotepadLinkedSignal.value
+       ~FakeNotepadLinkedSignal.write_access
+    
+    

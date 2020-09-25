@@ -1,0 +1,6 @@
+pcdsdevices.signal.NotepadLinkedSignal.trigger
+==============================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: NotepadLinkedSignal.trigger

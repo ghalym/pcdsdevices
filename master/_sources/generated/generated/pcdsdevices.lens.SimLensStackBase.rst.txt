@@ -40,14 +40,14 @@ pcdsdevices.lens.SimLensStackBase
           -  Inherited from :class:`~pcdsdevices.lens.LensStackBase`
    
        *  -  calib_z
-          -  :class:`~ophyd.pseudopos.PseudoSingle`
+          -  :class:`~pcdsdevices.pseudopos.PseudoSingleInterface`
           -  
           -  
           -  normal
           -  Inherited from :class:`~pcdsdevices.lens.LensStackBase`
    
        *  -  beam_size
-          -  :class:`~ophyd.pseudopos.PseudoSingle`
+          -  :class:`~pcdsdevices.pseudopos.PseudoSingleInterface`
           -  
           -  
           -  normal

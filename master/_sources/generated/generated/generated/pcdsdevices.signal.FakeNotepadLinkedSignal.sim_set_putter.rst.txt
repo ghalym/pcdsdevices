@@ -1,0 +1,6 @@
+pcdsdevices.signal.FakeNotepadLinkedSignal.sim\_set\_putter
+===========================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: FakeNotepadLinkedSignal.sim_set_putter
