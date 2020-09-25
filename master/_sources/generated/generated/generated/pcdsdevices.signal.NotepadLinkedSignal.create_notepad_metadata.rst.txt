@@ -1,0 +1,6 @@
+pcdsdevices.signal.NotepadLinkedSignal.create\_notepad\_metadata
+================================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: NotepadLinkedSignal.create_notepad_metadata

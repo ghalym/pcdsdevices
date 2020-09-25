@@ -230,14 +230,27 @@ pcdsdevices.attenuator.FEESolidAttenuator
     .. autosummary::
        :toctree: generated
     
+       ~FEESolidAttenuator.camonitor
        ~FEESolidAttenuator.configure
        ~FEESolidAttenuator.describe
+       ~FEESolidAttenuator.end_monitor_thread
        ~FEESolidAttenuator.get
+       ~FEESolidAttenuator.move
+       ~FEESolidAttenuator.mv
+       ~FEESolidAttenuator.mv_ginput
+       ~FEESolidAttenuator.mvr
        ~FEESolidAttenuator.read
        ~FEESolidAttenuator.read_configuration
+       ~FEESolidAttenuator.set
        ~FEESolidAttenuator.stop
        ~FEESolidAttenuator.summary
        ~FEESolidAttenuator.trigger
+       ~FEESolidAttenuator.tweak
+       ~FEESolidAttenuator.umv
+       ~FEESolidAttenuator.umvr
+       ~FEESolidAttenuator.wait
+       ~FEESolidAttenuator.wm
+       ~FEESolidAttenuator.wm_update
     
     
 
@@ -247,11 +260,29 @@ pcdsdevices.attenuator.FEESolidAttenuator
 
     .. autosummary::
     
+       ~FEESolidAttenuator.actuate
+       ~FEESolidAttenuator.actuate_value
        ~FEESolidAttenuator.configuration_attrs
        ~FEESolidAttenuator.connected
+       ~FEESolidAttenuator.done
+       ~FEESolidAttenuator.done_value
+       ~FEESolidAttenuator.egu
+       ~FEESolidAttenuator.high_limit
        ~FEESolidAttenuator.hints
        ~FEESolidAttenuator.kind
        ~FEESolidAttenuator.lightpath_cpts
+       ~FEESolidAttenuator.limits
+       ~FEESolidAttenuator.low_limit
+       ~FEESolidAttenuator.moving
+       ~FEESolidAttenuator.position
+       ~FEESolidAttenuator.presets
+       ~FEESolidAttenuator.put_complete
+       ~FEESolidAttenuator.readback
+       ~FEESolidAttenuator.setpoint
+       ~FEESolidAttenuator.settle_time
+       ~FEESolidAttenuator.stop_signal
+       ~FEESolidAttenuator.stop_value
+       ~FEESolidAttenuator.timeout
        ~FEESolidAttenuator.transmission
     
     

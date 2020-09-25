@@ -230,14 +230,27 @@ pcdsdevices.attenuator.AT2L0
     .. autosummary::
        :toctree: generated
     
+       ~AT2L0.camonitor
        ~AT2L0.configure
        ~AT2L0.describe
+       ~AT2L0.end_monitor_thread
        ~AT2L0.get
+       ~AT2L0.move
+       ~AT2L0.mv
+       ~AT2L0.mv_ginput
+       ~AT2L0.mvr
        ~AT2L0.read
        ~AT2L0.read_configuration
+       ~AT2L0.set
        ~AT2L0.stop
        ~AT2L0.summary
        ~AT2L0.trigger
+       ~AT2L0.tweak
+       ~AT2L0.umv
+       ~AT2L0.umvr
+       ~AT2L0.wait
+       ~AT2L0.wm
+       ~AT2L0.wm_update
     
     
 
@@ -247,11 +260,29 @@ pcdsdevices.attenuator.AT2L0
 
     .. autosummary::
     
+       ~AT2L0.actuate
+       ~AT2L0.actuate_value
        ~AT2L0.configuration_attrs
        ~AT2L0.connected
+       ~AT2L0.done
+       ~AT2L0.done_value
+       ~AT2L0.egu
+       ~AT2L0.high_limit
        ~AT2L0.hints
        ~AT2L0.kind
        ~AT2L0.lightpath_cpts
+       ~AT2L0.limits
+       ~AT2L0.low_limit
+       ~AT2L0.moving
+       ~AT2L0.position
+       ~AT2L0.presets
+       ~AT2L0.put_complete
+       ~AT2L0.readback
+       ~AT2L0.setpoint
+       ~AT2L0.settle_time
+       ~AT2L0.stop_signal
+       ~AT2L0.stop_value
+       ~AT2L0.timeout
        ~AT2L0.transmission
     
     

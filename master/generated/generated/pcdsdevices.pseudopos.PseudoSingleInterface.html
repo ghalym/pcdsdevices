@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.pseudopos.PseudoSingleInterface &mdash; PCDS Devices 2.11.0+2.g3947732 documentation</title>
+  <title>pcdsdevices.pseudopos.PseudoSingleInterface &mdash; PCDS Devices 2.11.0+21.g92ce9d0 documentation</title>
   
 
   
@@ -38,7 +38,7 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="pcdsdevices.pseudopos.PseudoSingleInterface.camonitor" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.camonitor.html" />
-    <link rel="prev" title="pcdsdevices.pseudopos.LookupTablePositioner.trigger" href="generated/pcdsdevices.pseudopos.LookupTablePositioner.trigger.html" /> 
+    <link rel="prev" title="pcdsdevices.pseudopos.PseudoPositioner.trigger" href="generated/pcdsdevices.pseudopos.PseudoPositioner.trigger.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -62,7 +62,7 @@
             
             
               <div class="version">
-                2.11.0+2.g3947732
+                2.11.0+21.g92ce9d0
               </div>
             
           
@@ -132,6 +132,7 @@
 <li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.DelayBase.html">pcdsdevices.pseudopos.DelayBase</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.LookupTablePositioner.html">pcdsdevices.pseudopos.LookupTablePositioner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoPositioner.html">pcdsdevices.pseudopos.PseudoPositioner</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.pseudopos.PseudoSingleInterface</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.camonitor.html">pcdsdevices.pseudopos.PseudoSingleInterface.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.configure.html">pcdsdevices.pseudopos.PseudoSingleInterface.configure</a></li>
@@ -247,7 +248,7 @@
 <h1>pcdsdevices.pseudopos.PseudoSingleInterface<a class="headerlink" href="#pcdsdevices-pseudopos-pseudosingleinterface" title="Permalink to this headline">¶</a></h1>
 <dl class="py class">
 <dt id="pcdsdevices.pseudopos.PseudoSingleInterface">
-<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.pseudopos.</code><code class="sig-name descname">PseudoSingleInterface</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.pseudopos.PseudoSingleInterface" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.pseudopos.</code><code class="sig-name descname">PseudoSingleInterface</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prefix</span><span class="o">=</span><span class="default_value">''</span></em>, <em class="sig-param"><span class="n">parent</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.pseudopos.PseudoSingleInterface" title="Permalink to this definition">¶</a></dt>
 <dd><p>PseudoSingle with FltMvInterface mixed in.</p>
 <table class="colwidths-auto docutils align-default" id="id1">
 <caption><span class="caption-text">Ophyd Device Components</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
@@ -274,6 +275,20 @@
 <td></td>
 <td><p>normal</p></td>
 <td><p>Inherited from <a class="reference external" href="https://blueskyproject.io/ophyd/positioners.html#ophyd.pseudopos.PseudoSingle" title="(in ophyd v1.5.3.post27+gc2c46f5)"><code class="xref py py-class docutils literal notranslate"><span class="pre">PseudoSingle</span></code></a></p></td>
+</tr>
+<tr class="row-even"><td><p>notepad_setpoint</p></td>
+<td><p><a class="reference internal" href="pcdsdevices.signal.NotepadLinkedSignal.html#pcdsdevices.signal.NotepadLinkedSignal" title="pcdsdevices.signal.NotepadLinkedSignal"><code class="xref py py-class docutils literal notranslate"><span class="pre">NotepadLinkedSignal</span></code></a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">:OphydSetpoint</span></code></p></td>
+<td></td>
+<td><p>normal</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>notepad_readback</p></td>
+<td><p><a class="reference internal" href="pcdsdevices.signal.NotepadLinkedSignal.html#pcdsdevices.signal.NotepadLinkedSignal" title="pcdsdevices.signal.NotepadLinkedSignal"><code class="xref py py-class docutils literal notranslate"><span class="pre">NotepadLinkedSignal</span></code></a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">:OphydReadback</span></code></p></td>
+<td></td>
+<td><p>normal</p></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -418,7 +433,7 @@
         <a href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.camonitor.html" class="btn btn-neutral float-right" title="pcdsdevices.pseudopos.PseudoSingleInterface.camonitor" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="generated/pcdsdevices.pseudopos.LookupTablePositioner.trigger.html" class="btn btn-neutral float-left" title="pcdsdevices.pseudopos.LookupTablePositioner.trigger" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="generated/pcdsdevices.pseudopos.PseudoPositioner.trigger.html" class="btn btn-neutral float-left" title="pcdsdevices.pseudopos.PseudoPositioner.trigger" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

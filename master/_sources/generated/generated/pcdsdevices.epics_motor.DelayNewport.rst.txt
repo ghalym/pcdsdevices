@@ -19,7 +19,7 @@ pcdsdevices.epics\_motor.DelayNewport
           - Notes
    
        *  -  delay (FCpt)
-          -  :class:`~ophyd.pseudopos.PseudoSingle`
+          -  :class:`~pcdsdevices.pseudopos.PseudoSingleInterface`
           -  
           -  
           -  normal

@@ -43,7 +43,7 @@ pcdsdevices.attenuator.AttenuatorCalculator\_AT2L0
           -  :class:`~ophyd.signal.EpicsSignalRO`
           -  ``:SYS:ActualPhotonEnergy_RBV``
           -  The reported beamline photon energy [eV]
-          -  config
+          -  normal
           -  Inherited from :class:`~pcdsdevices.attenuator.AttenuatorCalculatorBase`
    
        *  -  actual_transmission

@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.attenuator.AT2L0 &mdash; PCDS Devices 2.11.0+2.g3947732 documentation</title>
+  <title>pcdsdevices.attenuator.AT2L0 &mdash; PCDS Devices 2.11.0+21.g92ce9d0 documentation</title>
   
 
   
@@ -37,7 +37,7 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="pcdsdevices.attenuator.AT2L0.configure" href="generated/pcdsdevices.attenuator.AT2L0.configure.html" />
+    <link rel="next" title="pcdsdevices.attenuator.AT2L0.camonitor" href="generated/pcdsdevices.attenuator.AT2L0.camonitor.html" />
     <link rel="prev" title="pcdsdevices.attenuator.render_ascii_att" href="pcdsdevices.attenuator.render_ascii_att.html" /> 
 </head>
 
@@ -62,7 +62,7 @@
             
             
               <div class="version">
-                2.11.0+2.g3947732
+                2.11.0+21.g92ce9d0
               </div>
             
           
@@ -112,14 +112,27 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.get_blade_enum.html">pcdsdevices.attenuator.get_blade_enum</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.render_ascii_att.html">pcdsdevices.attenuator.render_ascii_att</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.attenuator.AT2L0</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.camonitor.html">pcdsdevices.attenuator.AT2L0.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.configure.html">pcdsdevices.attenuator.AT2L0.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.describe.html">pcdsdevices.attenuator.AT2L0.describe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.end_monitor_thread.html">pcdsdevices.attenuator.AT2L0.end_monitor_thread</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.get.html">pcdsdevices.attenuator.AT2L0.get</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.move.html">pcdsdevices.attenuator.AT2L0.move</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.mv.html">pcdsdevices.attenuator.AT2L0.mv</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.mv_ginput.html">pcdsdevices.attenuator.AT2L0.mv_ginput</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.mvr.html">pcdsdevices.attenuator.AT2L0.mvr</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.read.html">pcdsdevices.attenuator.AT2L0.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.read_configuration.html">pcdsdevices.attenuator.AT2L0.read_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.set.html">pcdsdevices.attenuator.AT2L0.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.stop.html">pcdsdevices.attenuator.AT2L0.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.summary.html">pcdsdevices.attenuator.AT2L0.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.trigger.html">pcdsdevices.attenuator.AT2L0.trigger</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.tweak.html">pcdsdevices.attenuator.AT2L0.tweak</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.umv.html">pcdsdevices.attenuator.AT2L0.umv</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.umvr.html">pcdsdevices.attenuator.AT2L0.umvr</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.wait.html">pcdsdevices.attenuator.AT2L0.wait</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.wm.html">pcdsdevices.attenuator.AT2L0.wm</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.wm_update.html">pcdsdevices.attenuator.AT2L0.wm_update</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.AttBase.html">pcdsdevices.attenuator.AttBase</a></li>
@@ -244,7 +257,7 @@
 <h1>pcdsdevices.attenuator.AT2L0<a class="headerlink" href="#pcdsdevices-attenuator-at2l0" title="Permalink to this headline">¶</a></h1>
 <dl class="py class">
 <dt id="pcdsdevices.attenuator.AT2L0">
-<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.attenuator.</code><code class="sig-name descname">AT2L0</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.attenuator.AT2L0" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.attenuator.</code><code class="sig-name descname">AT2L0</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="n">limits</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.attenuator.AT2L0" title="Permalink to this definition">¶</a></dt>
 <dd><p>AT2L0 solid attenuator variant from the LCLS-II XTES project.</p>
 <p>Motorized, 18 filters + 1 inspection mirror.
 This class includes a calculator to aid in determining which filters to
@@ -432,14 +445,32 @@ insert for a given attenuation at a specific energy.</p>
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.configure.html#pcdsdevices.attenuator.AT2L0.configure" title="pcdsdevices.attenuator.AT2L0.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.camonitor.html#pcdsdevices.attenuator.AT2L0.camonitor" title="pcdsdevices.attenuator.AT2L0.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</p></td>
+<td><p>Shows a live-updating motor position in the terminal.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.configure.html#pcdsdevices.attenuator.AT2L0.configure" title="pcdsdevices.attenuator.AT2L0.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
 <td><p>Configure the device for something during a run</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.describe.html#pcdsdevices.attenuator.AT2L0.describe" title="pcdsdevices.attenuator.AT2L0.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.describe.html#pcdsdevices.attenuator.AT2L0.describe" title="pcdsdevices.attenuator.AT2L0.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
 <td><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.end_monitor_thread.html#pcdsdevices.attenuator.AT2L0.end_monitor_thread" title="pcdsdevices.attenuator.AT2L0.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
+<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.camonitor.html#pcdsdevices.attenuator.AT2L0.camonitor" title="pcdsdevices.attenuator.AT2L0.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.wm_update.html#pcdsdevices.attenuator.AT2L0.wm_update" title="pcdsdevices.attenuator.AT2L0.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.get.html#pcdsdevices.attenuator.AT2L0.get" title="pcdsdevices.attenuator.AT2L0.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.move.html#pcdsdevices.attenuator.AT2L0.move" title="pcdsdevices.attenuator.AT2L0.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Move to a specified position, optionally waiting for motion to complete.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.mv.html#pcdsdevices.attenuator.AT2L0.mv" title="pcdsdevices.attenuator.AT2L0.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[, timeout, wait, log])</p></td>
+<td><p>Absolute move to a position.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.mv_ginput.html#pcdsdevices.attenuator.AT2L0.mv_ginput" title="pcdsdevices.attenuator.AT2L0.mv_ginput"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv_ginput</span></code></a>([timeout])</p></td>
+<td><p>Moves to a location the user clicks on.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.mvr.html#pcdsdevices.attenuator.AT2L0.mvr" title="pcdsdevices.attenuator.AT2L0.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[, timeout, wait, log])</p></td>
+<td><p>Relative move from this position.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.read.html#pcdsdevices.attenuator.AT2L0.read" title="pcdsdevices.attenuator.AT2L0.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
 <td><p>Read data from the device.</p></td>
@@ -447,14 +478,35 @@ insert for a given attenuation at a specific energy.</p>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.read_configuration.html#pcdsdevices.attenuator.AT2L0.read_configuration" title="pcdsdevices.attenuator.AT2L0.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.stop.html#pcdsdevices.attenuator.AT2L0.stop" title="pcdsdevices.attenuator.AT2L0.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.set.html#pcdsdevices.attenuator.AT2L0.set" title="pcdsdevices.attenuator.AT2L0.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position, *[, timeout, moved_cb, wait])</p></td>
+<td><p>Set a value and return a Status object</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.stop.html#pcdsdevices.attenuator.AT2L0.stop" title="pcdsdevices.attenuator.AT2L0.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.summary.html#pcdsdevices.attenuator.AT2L0.summary" title="pcdsdevices.attenuator.AT2L0.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.summary.html#pcdsdevices.attenuator.AT2L0.summary" title="pcdsdevices.attenuator.AT2L0.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.trigger.html#pcdsdevices.attenuator.AT2L0.trigger" title="pcdsdevices.attenuator.AT2L0.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.trigger.html#pcdsdevices.attenuator.AT2L0.trigger" title="pcdsdevices.attenuator.AT2L0.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.tweak.html#pcdsdevices.attenuator.AT2L0.tweak" title="pcdsdevices.attenuator.AT2L0.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
+<td><p>Control this motor using the arrow keys.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.umv.html#pcdsdevices.attenuator.AT2L0.umv" title="pcdsdevices.attenuator.AT2L0.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
+<td><p>Move to a position, wait, and update with a progress bar.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.umvr.html#pcdsdevices.attenuator.AT2L0.umvr" title="pcdsdevices.attenuator.AT2L0.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
+<td><p>Relative move from this position, wait, and update with a progress bar.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.wait.html#pcdsdevices.attenuator.AT2L0.wait" title="pcdsdevices.attenuator.AT2L0.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.wm.html#pcdsdevices.attenuator.AT2L0.wm" title="pcdsdevices.attenuator.AT2L0.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<td><p>Get the mover’s current positon (where motor).</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.attenuator.AT2L0.wm_update.html#pcdsdevices.attenuator.AT2L0.wm_update" title="pcdsdevices.attenuator.AT2L0.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>
 </table>
@@ -465,11 +517,29 @@ insert for a given attenuation at a specific energy.</p>
 <col style="width: 90%" />
 </colgroup>
 <tbody>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">actuate</span></code></p></td>
+<td><p>(PVPositioner compat) - use apply_config as an actuation signal.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">actuate_value</span></code></p></td>
+<td><p></p></td>
+</tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_attrs</span></code></p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></p></td>
 <td><p>If the device is connected.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">done</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">done_value</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">egu</span></code></p></td>
+<td><p>The engineering units (EGU) for a position</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">high_limit</span></code></p></td>
+<td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">hints</span></code></p></td>
 <td><p></p></td>
@@ -479,6 +549,42 @@ insert for a given attenuation at a specific energy.</p>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">lightpath_cpts</span></code></p></td>
 <td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">limits</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">low_limit</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">moving</span></code></p></td>
+<td><p>Whether or not the motor is moving</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></p></td>
+<td><p>The current position of the motor in its engineering units</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">presets</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">put_complete</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">readback</span></code></p></td>
+<td><p>(PVPositioner compat) - use actual transmission as readback.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">setpoint</span></code></p></td>
+<td><p>(PVPositioner compat) - use desired transmission as setpoint.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></p></td>
+<td><p>Amount of time to wait after moves to report status completion</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop_signal</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop_value</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">timeout</span></code></p></td>
+<td><p>Amount of time to wait before to considering a motion as failed</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">transmission</span></code></p></td>
 <td><p></p></td>
@@ -497,7 +603,7 @@ insert for a given attenuation at a specific energy.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="generated/pcdsdevices.attenuator.AT2L0.configure.html" class="btn btn-neutral float-right" title="pcdsdevices.attenuator.AT2L0.configure" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="generated/pcdsdevices.attenuator.AT2L0.camonitor.html" class="btn btn-neutral float-right" title="pcdsdevices.attenuator.AT2L0.camonitor" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="pcdsdevices.attenuator.render_ascii_att.html" class="btn btn-neutral float-left" title="pcdsdevices.attenuator.render_ascii_att" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

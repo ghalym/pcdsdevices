@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.FEESolidAttenuator.mvr
+=============================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: FEESolidAttenuator.mvr
