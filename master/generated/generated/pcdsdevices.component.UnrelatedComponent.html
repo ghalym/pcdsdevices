@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.component.UnrelatedComponent &mdash; PCDS Devices 2.11.0+26.g0c2486a documentation</title>
+  <title>pcdsdevices.component.UnrelatedComponent &mdash; PCDS Devices 2.11.0+63.gcfff9b2 documentation</title>
   
 
   
@@ -62,7 +62,7 @@
             
             
               <div class="version">
-                2.11.0+26.g0c2486a
+                2.11.0+63.gcfff9b2
               </div>
             
           
@@ -237,6 +237,19 @@ device’s <code class="docutils literal notranslate"><span class="pre">**kwargs
 <p>The <a class="reference internal" href="generated/pcdsdevices.component.UnrelatedComponent.collect_prefixes.html#pcdsdevices.component.UnrelatedComponent.collect_prefixes" title="pcdsdevices.component.UnrelatedComponent.collect_prefixes"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">collect_prefixes</span></code></a> class method is used to gather these special
 prefixes in a convenient one-liner rather than needing to sift through
 formatted components.</p>
+<p class="rubric">Examples</p>
+<p>A simple usage example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pcdsdevices.component</span> <span class="kn">import</span> <span class="n">UnrelatedComponent</span> <span class="k">as</span> <span class="n">UCpt</span>
+
+<span class="k">class</span> <span class="nc">MyDevice</span><span class="p">(</span><span class="n">Device</span><span class="p">):</span>
+    <span class="n">motor1</span> <span class="o">=</span> <span class="n">UCpt</span><span class="p">(</span><span class="n">EpicsMotor</span><span class="p">)</span>
+    <span class="n">motor2</span> <span class="o">=</span> <span class="n">UCpt</span><span class="p">(</span><span class="n">EpicsMotor</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">prefix</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="n">UCpt</span><span class="o">.</span><span class="n">collect_prefixes</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">kwargs</span><span class="p">)</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">prefix</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+</pre></div>
+</div>
 <p class="rubric">Methods</p>
 <table class="longtable docutils align-default">
 <colgroup>

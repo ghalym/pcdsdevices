@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.signal.UnitConversionDerivedSignal &mdash; PCDS Devices 2.11.0+26.g0c2486a documentation</title>
+  <title>pcdsdevices.signal.UnitConversionDerivedSignal &mdash; PCDS Devices 2.11.0+63.gcfff9b2 documentation</title>
   
 
   
@@ -62,7 +62,7 @@
             
             
               <div class="version">
-                2.11.0+26.g0c2486a
+                2.11.0+63.gcfff9b2
               </div>
             
           
@@ -243,7 +243,7 @@
 <h1>pcdsdevices.signal.UnitConversionDerivedSignal<a class="headerlink" href="#pcdsdevices-signal-unitconversionderivedsignal" title="Permalink to this headline">¶</a></h1>
 <dl class="py class">
 <dt id="pcdsdevices.signal.UnitConversionDerivedSignal">
-<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.signal.</code><code class="sig-name descname">UnitConversionDerivedSignal</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">derived_from</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">derived_units</span><span class="p">:</span> <span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a></span></em>, <em class="sig-param"><span class="n">original_units</span><span class="p">:</span> <span class="n">Optional<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a><span class="p">]</span></span> <span class="o">=</span> <span class="default_value">None</span></em>, <em class="sig-param"><span class="n">user_offset</span><span class="p">:</span> <span class="n">Optional<span class="p">[</span>Any<span class="p">]</span></span> <span class="o">=</span> <span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.signal.UnitConversionDerivedSignal" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.signal.</code><code class="sig-name descname">UnitConversionDerivedSignal</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">derived_from</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">derived_units</span><span class="p">:</span> <span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a></span></em>, <em class="sig-param"><span class="n">original_units</span><span class="p">:</span> <span class="n">Optional<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a><span class="p">]</span></span> <span class="o">=</span> <span class="default_value">None</span></em>, <em class="sig-param"><span class="n">user_offset</span><span class="p">:</span> <span class="n">Optional<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/numbers.html#numbers.Real" title="(in Python v3.8)">numbers.Real</a><span class="p">]</span></span> <span class="o">=</span> <span class="default_value">0</span></em>, <em class="sig-param"><span class="n">limits</span><span class="p">:</span> <span class="n">Optional<span class="p">[</span>Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/numbers.html#numbers.Real" title="(in Python v3.8)">numbers.Real</a><span class="p">, </span><a class="reference external" href="https://docs.python.org/3/library/numbers.html#numbers.Real" title="(in Python v3.8)">numbers.Real</a><span class="p">]</span><span class="p">]</span></span> <span class="o">=</span> <span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.signal.UnitConversionDerivedSignal" title="Permalink to this definition">¶</a></dt>
 <dd><p>A DerivedSignal which performs unit conversion.</p>
 <p>Custom units may be specified for the original signal, or if specified, the
 original signal’s units may be retrieved upon first connection.</p>
@@ -271,6 +271,9 @@ setpoint, the <code class="docutils literal notranslate"><span class="pre">user_
 of the write access of the underlying signal.</p></li>
 <li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a><em>, </em><em>optional</em>) – The signal name.</p></li>
 <li><p><strong>parent</strong> (<em>Device</em><em>, </em><em>optional</em>) – The parent device.  Required if <code class="docutils literal notranslate"><span class="pre">derived_from</span></code> is an attribute name.</p></li>
+<li><p><strong>limits</strong> (<em>2-tuple</em><em>, </em><em>optional</em>) – Ophyd signal-level limits in derived units.  DerivedSignal defaults
+to converting the original signal’s limits, but these may be overridden
+here without modifying the original signal.</p></li>
 <li><p><strong>**kwargs</strong> – Keyword arguments are passed to the superclass.</p></li>
 </ul>
 </dd>
@@ -334,7 +337,7 @@ of the write access of the underlying signal.</p></li>
 <td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">limits</span></code></p></td>
-<td><p>Limits from the original signal (low, high), such that low &lt;= value &lt;= high</p></td>
+<td><p>Defaults to limits from the original signal (low, high).</p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">low_limit</span></code></p></td>
 <td><p>The low, inclusive control limit for the Signal</p></td>
