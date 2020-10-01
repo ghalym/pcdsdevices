@@ -64,7 +64,7 @@ pcdsdevices.inout.TwinCATInOutPositioner
           -  :class:`~pcdsdevices.signal.PytmcSignal`
           -  ``:RESET``
           -  Command to reset an error.
-          -  config
+          -  normal
           -  Inherited from :class:`~pcdsdevices.state.TwinCATStatePositioner`
    
        *  -  config

@@ -19,7 +19,7 @@
           - Notes
    
        *  -  target
-          -  :class:`~pcdsdevices.inout.TwinCATInOutPositioner`
+          -  :class:`~pcdsdevices.pmps.TwinCATStatePMPS`
           -  ``:MMS:STATE``
           -  Control of the diagnostic stack via saved positions.
           -  hinted
@@ -33,7 +33,7 @@
           -  Inherited from :class:`~pcdsdevices.pim.LCLS2ImagerBase`
    
        *  -  detector
-          -  :class:`~pcdsdevices.areadetector.detectors.PCDSAreaDetectorTyphos`
+          -  :class:`~pcdsdevices.areadetector.detectors.PCDSAreaDetectorTyphosTrigger`
           -  ``:CAM:``
           -  Area detector settings and readbacks.
           -  normal
