@@ -278,7 +278,7 @@ pcdsdevices.gauge.GaugeSerialGPI
           -  
    
        *  -  autozero
-          -  :class:`~ophyd.signal.EpicsSignal`
+          -  :class:`~ophyd.signal.EpicsSignalRO`
           -  ``:AUTOZERO_RBV``
           -  
           -  omitted
