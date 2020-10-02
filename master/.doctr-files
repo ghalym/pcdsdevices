@@ -3768,6 +3768,9 @@ master/_sources/sample_delivery.rst.txt
 master/_sources/sim_types.rst.txt
 master/_sources/tab.rst.txt
 master/_sources/upcoming_changes.rst.txt
+master/_sources/upcoming_release_notes/311-valueerror_typo.rst.txt
+master/_sources/upcoming_release_notes/380-rbv_read_only.rst.txt
+master/_sources/upcoming_release_notes/511-at2l0_interface.rst.txt
 master/_sources/upcoming_release_notes/535-lxt-ttc.rst.txt
 master/_sources/upcoming_release_notes/599-tmo-ccs.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
@@ -7630,6 +7633,9 @@ master/searchindex.js
 master/sim_types.html
 master/tab.html
 master/upcoming_changes.html
+master/upcoming_release_notes/311-valueerror_typo.html
+master/upcoming_release_notes/380-rbv_read_only.html
+master/upcoming_release_notes/511-at2l0_interface.html
 master/upcoming_release_notes/535-lxt-ttc.html
 master/upcoming_release_notes/599-tmo-ccs.html
 master/upcoming_release_notes/template-full.html
