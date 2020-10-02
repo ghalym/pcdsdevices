@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ccm.alio_to_theta &mdash; PCDS Devices 2.11.0+85.g76297c0 documentation</title>
+  <title>pcdsdevices.ccm.alio_to_theta &mdash; PCDS Devices 2.11.0+91.g6748c10 documentation</title>
   
 
   
@@ -62,7 +62,7 @@
             
             
               <div class="version">
-                2.11.0+85.g76297c0
+                2.11.0+91.g6748c10
               </div>
             
           
@@ -232,11 +232,9 @@
 <dt id="pcdsdevices.ccm.alio_to_theta">
 <code class="sig-prename descclassname">pcdsdevices.ccm.</code><code class="sig-name descname">alio_to_theta</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">alio</span></em>, <em class="sig-param"><span class="n">theta0</span></em>, <em class="sig-param"><span class="n">gr</span></em>, <em class="sig-param"><span class="n">gd</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.ccm.alio_to_theta" title="Permalink to this definition">¶</a></dt>
 <dd><p>Converts alio position (mm) to theta angle (rad).</p>
-<p>This is an empirical inversion via binary search. If you decide to spend
-time trying to find the analytic solution here, please update this
-docstring, either to indicate your success or to increment the hours
-counter below.</p>
-<p>total hours spent here: 2</p>
+<p>Conversion function
+theta_angle = f(x) = 2arctan * [(sqrt(x^2 + D^2 + 2Rx) - D)/(2R + x)]
+Note that for x = −R, θ = 2 arctan(−R/D)</p>
 </dd></dl>
 
 </div>

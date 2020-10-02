@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.ccm.theta_to_alio &mdash; PCDS Devices 2.11.0+85.g76297c0 documentation</title>
+  <title>pcdsdevices.ccm.theta_to_alio &mdash; PCDS Devices 2.11.0+91.g6748c10 documentation</title>
   
 
   
@@ -62,7 +62,7 @@
             
             
               <div class="version">
-                2.11.0+85.g76297c0
+                2.11.0+91.g6748c10
               </div>
             
           
@@ -232,6 +232,23 @@
 <dt id="pcdsdevices.ccm.theta_to_alio">
 <code class="sig-prename descclassname">pcdsdevices.ccm.</code><code class="sig-name descname">theta_to_alio</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">theta</span></em>, <em class="sig-param"><span class="n">theta0</span></em>, <em class="sig-param"><span class="n">gr</span></em>, <em class="sig-param"><span class="n">gd</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.ccm.theta_to_alio" title="Permalink to this definition">¶</a></dt>
 <dd><p>Converts theta angle (rad) to alio position (mm).</p>
+<dl class="simple">
+<dt>Theta_B:       scattering angle, the angle reduces when rotating clockwise</dt><dd><p>(Bragg angle)</p>
+</dd>
+</dl>
+<p>Theta_0:       scattering angle offset of the Si (111) first crystal
+Delta_Theta:   the effective scattering angle (adjusted with Alio stage)
+R = 0.003175m: radius of the sapphire ball connected to the Alio stage
+D = 0.232156m: distance between the Theta_B rotation axis and the center</p>
+<blockquote>
+<div><p>of the saphire sphere located on the Alio stage.
+note: The current value that we’re using for D is 0.231303 -
+possibly measured by metrology</p>
+</div></blockquote>
+<p>Theta_B = Theta_0 + Delta_Theta
+Conversion formula:
+x = f(Delta_Theta) = D * tan(Delta_Theta)+(R/cos(Delta_Theda))-R
+Note that for ∆θ = 0, x = R</p>
 </dd></dl>
 
 </div>
