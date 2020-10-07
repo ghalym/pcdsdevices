@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.signal.AvgSignal &mdash; PCDS Devices 2.11.0+93.g6eb887c documentation</title>
+  <title>pcdsdevices.signal.AvgSignal &mdash; PCDS Devices 2.11.0+100.ge13e595 documentation</title>
   
 
   
@@ -62,7 +62,7 @@
             
             
               <div class="version">
-                2.11.0+93.g6eb887c
+                2.11.0+100.ge13e595
               </div>
             
           
@@ -255,7 +255,7 @@ just be the mean of a single value!</p>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>signal</strong> (<em>Signal</em>) – Any subclass of <code class="xref any docutils literal notranslate"><span class="pre">ophyd.signal.Signal</span></code> that returns a numeric value.
 This signal will be subscribed to be <a class="reference internal" href="#pcdsdevices.signal.AvgSignal" title="pcdsdevices.signal.AvgSignal"><code class="xref any py py-class docutils literal notranslate"><span class="pre">AvgSignal</span></code></a> to calculate the mean.</p></li>
-<li><p><strong>averages</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a>) – The number of <code class="xref any docutils literal notranslate"><span class="pre">SUB_VALUE</span></code> updates to include in the average. New values
+<li><p><strong>averages</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.9)"><em>int</em></a>) – The number of <code class="xref any docutils literal notranslate"><span class="pre">SUB_VALUE</span></code> updates to include in the average. New values
 after this number is reached will begin overriding old values.</p></li>
 </ul>
 </dd>

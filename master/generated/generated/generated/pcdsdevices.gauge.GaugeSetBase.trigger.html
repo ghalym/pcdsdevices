@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.gauge.GaugeSetBase.trigger &mdash; PCDS Devices 2.11.0+93.g6eb887c documentation</title>
+  <title>pcdsdevices.gauge.GaugeSetBase.trigger &mdash; PCDS Devices 2.11.0+100.ge13e595 documentation</title>
   
 
   
@@ -62,7 +62,7 @@
             
             
               <div class="version">
-                2.11.0+93.g6eb887c
+                2.11.0+100.ge13e595
               </div>
             
           
@@ -250,7 +250,7 @@
 <h1>pcdsdevices.gauge.GaugeSetBase.trigger<a class="headerlink" href="#pcdsdevices-gauge-gaugesetbase-trigger" title="Permalink to this headline">¶</a></h1>
 <dl class="py method">
 <dt id="pcdsdevices.gauge.GaugeSetBase.trigger">
-<code class="sig-prename descclassname">GaugeSetBase.</code><code class="sig-name descname">trigger</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; <a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.5.3.post34+g599d562)">ophyd.status.StatusBase</a><a class="headerlink" href="#pcdsdevices.gauge.GaugeSetBase.trigger" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">GaugeSetBase.</code><code class="sig-name descname">trigger</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; <a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.5.3.post44+g4440bc7)">ophyd.status.StatusBase</a><a class="headerlink" href="#pcdsdevices.gauge.GaugeSetBase.trigger" title="Permalink to this definition">¶</a></dt>
 <dd><p>Trigger the device and return status object.</p>
 <p>This method is responsible for implementing ‘trigger’ or
 ‘acquire’ functionality of this device.</p>
@@ -258,14 +258,14 @@
 and it being able to be read (via the
 <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code> method) then this method is
 also responsible for arranging that the
-<a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.5.3.post34+g599d562)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a> object returned by this method
+<a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.5.3.post44+g4440bc7)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a> object returned by this method
 is notified when the device is ready to be read.</p>
 <p>If there is no delay between triggering and being readable,
-then this method must return a <a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.5.3.post34+g599d562)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a>
+then this method must return a <a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.5.3.post44+g4440bc7)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a>
 object which is already completed.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p><strong>status</strong> (<em>StatusBase</em>) – <a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.5.3.post34+g599d562)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a> object which will be marked
+<dd class="field-odd"><p><strong>status</strong> (<em>StatusBase</em>) – <a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.5.3.post44+g4440bc7)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a> object which will be marked
 as complete when the device is ready to be read.</p>
 </dd>
 </dl>

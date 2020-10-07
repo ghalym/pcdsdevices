@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.state.StateStatus.wait &mdash; PCDS Devices 2.11.0+93.g6eb887c documentation</title>
+  <title>pcdsdevices.state.StateStatus.wait &mdash; PCDS Devices 2.11.0+100.ge13e595 documentation</title>
   
 
   
@@ -62,7 +62,7 @@
             
             
               <div class="version">
-                2.11.0+93.g6eb887c
+                2.11.0+100.ge13e595
               </div>
             
           
@@ -244,7 +244,7 @@
 action has failed, raise the exception.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>timeout</strong> (<em>Union</em><em>[</em><em>Number</em><em>, </em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.8)"><em>None</em></a><em>]</em><em>, </em><em>optional</em>) – If None (default) wait indefinitely until the status finishes.</p>
+<dd class="field-odd"><p><strong>timeout</strong> (<em>Union</em><em>[</em><em>Number</em><em>, </em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><em>None</em></a><em>]</em><em>, </em><em>optional</em>) – If None (default) wait indefinitely until the status finishes.</p>
 </dd>
 <dt class="field-even">Raises</dt>
 <dd class="field-even"><ul class="simple">
@@ -252,7 +252,7 @@ action has failed, raise the exception.</p>
     when this method was called, not from the beginning of the action).</p></li>
 <li><p><strong>StatusTimeoutError</strong> – If the status has failed because the <em>timeout</em> that it was
     initialized with has expired.</p></li>
-<li><p><a class="reference external" href="https://docs.python.org/3/library/exceptions.html#Exception" title="(in Python v3.8)"><strong>Exception</strong></a> – This is <code class="docutils literal notranslate"><span class="pre">status.exception()</span></code>, raised if the status has finished
+<li><p><a class="reference external" href="https://docs.python.org/3/library/exceptions.html#Exception" title="(in Python v3.9)"><strong>Exception</strong></a> – This is <code class="docutils literal notranslate"><span class="pre">status.exception()</span></code>, raised if the status has finished
     with an error.  This may include <code class="docutils literal notranslate"><span class="pre">TimeoutError</span></code>, which
     indicates that the action itself raised <code class="docutils literal notranslate"><span class="pre">TimeoutError</span></code>, distinct
     from <code class="docutils literal notranslate"><span class="pre">WaitTimeoutError</span></code> above.</p></li>

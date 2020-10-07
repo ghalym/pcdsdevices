@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.beam_stats.BeamEnergyRequest &mdash; PCDS Devices 2.11.0+93.g6eb887c documentation</title>
+  <title>pcdsdevices.beam_stats.BeamEnergyRequest &mdash; PCDS Devices 2.11.0+100.ge13e595 documentation</title>
   
 
   
@@ -62,7 +62,7 @@
             
             
               <div class="version">
-                2.11.0+93.g6eb887c
+                2.11.0+100.ge13e595
               </div>
             
           
@@ -256,16 +256,16 @@ overriding the default.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – PV prefix for the request setpoint. This should always be a hutch name.</p></li>
-<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a><em>, </em><em>required keyword</em>) – Name to use for this device in log messages, data streams, etc.</p></li>
-<li><p><strong>skip_small_moves</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Defaults to True, which ignores move requests that are smaller than the
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a>) – PV prefix for the request setpoint. This should always be a hutch name.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a><em>, </em><em>required keyword</em>) – Name to use for this device in log messages, data streams, etc.</p></li>
+<li><p><strong>skip_small_moves</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)"><em>bool</em></a><em>, </em><em>optional</em>) – Defaults to True, which ignores move requests that are smaller than the
 atol factor. If False, we’ll perform every requested move.
 This can be very useful for synchronized energy scans where the ACR
 side of the process can be very slow, but does not necessarily need to
 happen at every step. Rather than design complicated scan patterns, we
 can skip the small moves here and move the monochromater and beam
 request devices in parallel.</p></li>
-<li><p><strong>atol</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.8)"><em>int</em></a><em>, </em><em>optional</em>) – Absolute tolerance that determines when the move is done and when to
+<li><p><strong>atol</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.9)"><em>int</em></a><em>, </em><em>optional</em>) – Absolute tolerance that determines when the move is done and when to
 skip moves using the skip_small_moves parameter.</p></li>
 </ul>
 </dd>

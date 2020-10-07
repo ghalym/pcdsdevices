@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.attenuator.AT2L0.set &mdash; PCDS Devices 2.11.0+93.g6eb887c documentation</title>
+  <title>pcdsdevices.attenuator.AT2L0.set &mdash; PCDS Devices 2.11.0+100.ge13e595 documentation</title>
   
 
   
@@ -62,7 +62,7 @@
             
             
               <div class="version">
-                2.11.0+93.g6eb887c
+                2.11.0+100.ge13e595
               </div>
             
           
@@ -259,23 +259,23 @@
 <h1>pcdsdevices.attenuator.AT2L0.set<a class="headerlink" href="#pcdsdevices-attenuator-at2l0-set" title="Permalink to this headline">¶</a></h1>
 <dl class="py method">
 <dt id="pcdsdevices.attenuator.AT2L0.set">
-<code class="sig-prename descclassname">AT2L0.</code><code class="sig-name descname">set</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">new_position</span><span class="p">:</span> <span class="n">Any</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">timeout</span><span class="p">:</span> <span class="n"><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)">float</a></span> <span class="o">=</span> <span class="default_value">None</span></em>, <em class="sig-param"><span class="n">moved_cb</span><span class="p">:</span> <span class="n">Callable</span> <span class="o">=</span> <span class="default_value">None</span></em>, <em class="sig-param"><span class="n">wait</span><span class="p">:</span> <span class="n"><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)">bool</a></span> <span class="o">=</span> <span class="default_value">False</span></em><span class="sig-paren">)</span> &#x2192; <a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.5.3.post34+g599d562)">ophyd.status.StatusBase</a><a class="headerlink" href="#pcdsdevices.attenuator.AT2L0.set" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">AT2L0.</code><code class="sig-name descname">set</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">new_position</span><span class="p">:</span> <span class="n">Any</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">timeout</span><span class="p">:</span> <span class="n"><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)">float</a></span> <span class="o">=</span> <span class="default_value">None</span></em>, <em class="sig-param"><span class="n">moved_cb</span><span class="p">:</span> <span class="n">Callable</span> <span class="o">=</span> <span class="default_value">None</span></em>, <em class="sig-param"><span class="n">wait</span><span class="p">:</span> <span class="n"><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)">bool</a></span> <span class="o">=</span> <span class="default_value">False</span></em><span class="sig-paren">)</span> &#x2192; <a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.5.3.post44+g4440bc7)">ophyd.status.StatusBase</a><a class="headerlink" href="#pcdsdevices.attenuator.AT2L0.set" title="Permalink to this definition">¶</a></dt>
 <dd><p>Set a value and return a Status object</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>new_position</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.8)"><em>object</em></a>) – The input here is whatever the device requires (this
+<li><p><strong>new_position</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#object" title="(in Python v3.9)"><em>object</em></a>) – The input here is whatever the device requires (this
 should be over-ridden by the implementation.  For example
 a motor would take a float, a shutter the strings {‘Open’,
 ‘Close’}, and a goineometer (h, k, l) tuples</p></li>
-<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a><em>, </em><em>optional</em>) – Maximum time to wait for the motion. If None, the default timeout
+<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)"><em>float</em></a><em>, </em><em>optional</em>) – Maximum time to wait for the motion. If None, the default timeout
 for this positioner is used.</p></li>
 <li><p><strong>moved_cb</strong> (<em>callable</em><em>, </em><em>optional</em>) – <p>Deprecated</p>
 <p>Call this callback when movement has finished. This callback
 must accept one keyword argument: ‘obj’ which will be set to
 this positioner instance.</p>
 </p></li>
-<li><p><strong>wait</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – <p>Deprecated</p>
+<li><p><strong>wait</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)"><em>bool</em></a><em>, </em><em>optional</em>) – <p>Deprecated</p>
 <p>If the method should block until the Status object reports
 it is done.</p>
 <p>Defaults to False</p>

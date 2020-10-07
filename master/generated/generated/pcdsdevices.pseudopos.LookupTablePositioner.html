@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.pseudopos.LookupTablePositioner &mdash; PCDS Devices 2.11.0+93.g6eb887c documentation</title>
+  <title>pcdsdevices.pseudopos.LookupTablePositioner &mdash; PCDS Devices 2.11.0+100.ge13e595 documentation</title>
   
 
   
@@ -62,7 +62,7 @@
             
             
               <div class="version">
-                2.11.0+93.g6eb887c
+                2.11.0+100.ge13e595
               </div>
             
           
@@ -242,7 +242,7 @@
 <h1>pcdsdevices.pseudopos.LookupTablePositioner<a class="headerlink" href="#pcdsdevices-pseudopos-lookuptablepositioner" title="Permalink to this headline">¶</a></h1>
 <dl class="py class">
 <dt id="pcdsdevices.pseudopos.LookupTablePositioner">
-<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.pseudopos.</code><code class="sig-name descname">LookupTablePositioner</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="n">table</span><span class="p">:</span> <span class="n"><a class="reference external" href="https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html#numpy.ndarray" title="(in NumPy v1.19)">numpy.ndarray</a></span></em>, <em class="sig-param"><span class="n">column_names</span><span class="p">:</span> <span class="n">List<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a><span class="p">]</span></span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.pseudopos.LookupTablePositioner" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.pseudopos.</code><code class="sig-name descname">LookupTablePositioner</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="n">table</span><span class="p">:</span> <span class="n"><a class="reference external" href="https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html#numpy.ndarray" title="(in NumPy v1.19)">numpy.ndarray</a></span></em>, <em class="sig-param"><span class="n">column_names</span><span class="p">:</span> <span class="n">List<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)">str</a><span class="p">]</span></span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.pseudopos.LookupTablePositioner" title="Permalink to this definition">¶</a></dt>
 <dd><p>A pseudo positioner which uses a look-up table to compute positions.</p>
 <p>Currently supports 1 pseudo positioner and 1 “real” positioner, which
 should be columns of a 2D numpy.ndarray <code class="docutils literal notranslate"><span class="pre">table</span></code>.</p>
@@ -250,8 +250,8 @@ should be columns of a 2D numpy.ndarray <code class="docutils literal notranslat
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The EPICS prefix of the real motor.</p></li>
-<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – A name to assign to this delay stage.</p></li>
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a>) – The EPICS prefix of the real motor.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a>) – A name to assign to this delay stage.</p></li>
 <li><p><strong>table</strong> (<em>np.ndarray</em>) – The table of information.</p></li>
 <li><p><strong>column_names</strong> (<em>list of str</em>) – List of column names, corresponding to the component attribute names.
 That is, if you have a real motor <code class="docutils literal notranslate"><span class="pre">mtr</span> <span class="pre">=</span> <span class="pre">Cpt(EpicsMotor,</span> <span class="pre">...)</span></code>,

@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.signal.UnitConversionDerivedSignal &mdash; PCDS Devices 2.11.0+93.g6eb887c documentation</title>
+  <title>pcdsdevices.signal.UnitConversionDerivedSignal &mdash; PCDS Devices 2.11.0+100.ge13e595 documentation</title>
   
 
   
@@ -62,7 +62,7 @@
             
             
               <div class="version">
-                2.11.0+93.g6eb887c
+                2.11.0+100.ge13e595
               </div>
             
           
@@ -243,20 +243,20 @@
 <h1>pcdsdevices.signal.UnitConversionDerivedSignal<a class="headerlink" href="#pcdsdevices-signal-unitconversionderivedsignal" title="Permalink to this headline">¶</a></h1>
 <dl class="py class">
 <dt id="pcdsdevices.signal.UnitConversionDerivedSignal">
-<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.signal.</code><code class="sig-name descname">UnitConversionDerivedSignal</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">derived_from</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">derived_units</span><span class="p">:</span> <span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a></span></em>, <em class="sig-param"><span class="n">original_units</span><span class="p">:</span> <span class="n">Optional<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)">str</a><span class="p">]</span></span> <span class="o">=</span> <span class="default_value">None</span></em>, <em class="sig-param"><span class="n">user_offset</span><span class="p">:</span> <span class="n">Optional<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/numbers.html#numbers.Real" title="(in Python v3.8)">numbers.Real</a><span class="p">]</span></span> <span class="o">=</span> <span class="default_value">0</span></em>, <em class="sig-param"><span class="n">limits</span><span class="p">:</span> <span class="n">Optional<span class="p">[</span>Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/numbers.html#numbers.Real" title="(in Python v3.8)">numbers.Real</a><span class="p">, </span><a class="reference external" href="https://docs.python.org/3/library/numbers.html#numbers.Real" title="(in Python v3.8)">numbers.Real</a><span class="p">]</span><span class="p">]</span></span> <span class="o">=</span> <span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.signal.UnitConversionDerivedSignal" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.signal.</code><code class="sig-name descname">UnitConversionDerivedSignal</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">derived_from</span></em>, <em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">derived_units</span><span class="p">:</span> <span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)">str</a></span></em>, <em class="sig-param"><span class="n">original_units</span><span class="p">:</span> <span class="n">Optional<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)">str</a><span class="p">]</span></span> <span class="o">=</span> <span class="default_value">None</span></em>, <em class="sig-param"><span class="n">user_offset</span><span class="p">:</span> <span class="n">Optional<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/numbers.html#numbers.Real" title="(in Python v3.9)">numbers.Real</a><span class="p">]</span></span> <span class="o">=</span> <span class="default_value">0</span></em>, <em class="sig-param"><span class="n">limits</span><span class="p">:</span> <span class="n">Optional<span class="p">[</span>Tuple<span class="p">[</span><a class="reference external" href="https://docs.python.org/3/library/numbers.html#numbers.Real" title="(in Python v3.9)">numbers.Real</a><span class="p">, </span><a class="reference external" href="https://docs.python.org/3/library/numbers.html#numbers.Real" title="(in Python v3.9)">numbers.Real</a><span class="p">]</span><span class="p">]</span></span> <span class="o">=</span> <span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.signal.UnitConversionDerivedSignal" title="Permalink to this definition">¶</a></dt>
 <dd><p>A DerivedSignal which performs unit conversion.</p>
 <p>Custom units may be specified for the original signal, or if specified, the
 original signal’s units may be retrieved upon first connection.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>derived_from</strong> (<em>Signal</em><em> or </em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The signal from which this one is derived.  This may be a string
+<li><p><strong>derived_from</strong> (<em>Signal</em><em> or </em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a>) – The signal from which this one is derived.  This may be a string
 attribute name that indicates a sibling to use.  When used in a
 <code class="docutils literal notranslate"><span class="pre">Device</span></code>, this is then simply the attribute name of another
 <code class="docutils literal notranslate"><span class="pre">Component</span></code>.</p></li>
-<li><p><strong>derived_units</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a>) – The desired units to use for this signal.  These can also be referred
+<li><p><strong>derived_units</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a>) – The desired units to use for this signal.  These can also be referred
 to as the “user-facing” units.</p></li>
-<li><p><strong>original_units</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a><em>, </em><em>optional</em>) – The units from the original signal.  If not specified, control system
+<li><p><strong>original_units</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a><em>, </em><em>optional</em>) – The units from the original signal.  If not specified, control system
 information regarding units will be retrieved upon first connection.</p></li>
 <li><p><strong>user_offset</strong> (<em>any</em><em>, </em><em>optional</em>) – <p>An optional user offset that will be <em>subtracted</em> when updating the
 original signal, and <em>added</em> when calculating the derived value.
@@ -267,9 +267,9 @@ This offset should be supplied in <code class="docutils literal notranslate"><sp
 <code class="docutils literal notranslate"><span class="pre">DerivedSignal</span></code> will show a value of 600.  When providing a new
 setpoint, the <code class="docutils literal notranslate"><span class="pre">user_offset</span></code> will be subtracted.</p>
 </p></li>
-<li><p><strong>write_access</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a><em>, </em><em>optional</em>) – Write access may be disabled by setting this to <code class="docutils literal notranslate"><span class="pre">False</span></code>, regardless
+<li><p><strong>write_access</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)"><em>bool</em></a><em>, </em><em>optional</em>) – Write access may be disabled by setting this to <code class="docutils literal notranslate"><span class="pre">False</span></code>, regardless
 of the write access of the underlying signal.</p></li>
-<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.8)"><em>str</em></a><em>, </em><em>optional</em>) – The signal name.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a><em>, </em><em>optional</em>) – The signal name.</p></li>
 <li><p><strong>parent</strong> (<em>Device</em><em>, </em><em>optional</em>) – The parent device.  Required if <code class="docutils literal notranslate"><span class="pre">derived_from</span></code> is an attribute name.</p></li>
 <li><p><strong>limits</strong> (<em>2-tuple</em><em>, </em><em>optional</em>) – Ophyd signal-level limits in derived units.  DerivedSignal defaults
 to converting the original signal’s limits, but these may be overridden

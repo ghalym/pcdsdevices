@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.slits.LusiSlits.move &mdash; PCDS Devices 2.11.0+93.g6eb887c documentation</title>
+  <title>pcdsdevices.slits.LusiSlits.move &mdash; PCDS Devices 2.11.0+100.ge13e595 documentation</title>
   
 
   
@@ -62,7 +62,7 @@
             
             
               <div class="version">
-                2.11.0+93.g6eb887c
+                2.11.0+100.ge13e595
               </div>
             
           
@@ -256,11 +256,11 @@
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>size</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a><em> or </em><em>tuple of float</em>) – Target size for slits in both x and y axis. Either specify as a
+<li><p><strong>size</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)"><em>float</em></a><em> or </em><em>tuple of float</em>) – Target size for slits in both x and y axis. Either specify as a
 tuple for a rectangular aperture, <code class="docutils literal notranslate"><span class="pre">(width,</span> <span class="pre">height)</span></code>, or set both
 with single floating point value to use a square opening.</p></li>
-<li><p><strong>wait</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.8)"><em>bool</em></a>) – If <a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a>, block until move is completed.</p></li>
-<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.8)"><em>float</em></a><em>, </em><em>optional</em>) – Maximum time for the motion. If <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.8)"><code class="xref any docutils literal notranslate"><span class="pre">None</span></code></a> is given, the default value
+<li><p><strong>wait</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)"><em>bool</em></a>) – If <a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.9)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a>, block until move is completed.</p></li>
+<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)"><em>float</em></a><em>, </em><em>optional</em>) – Maximum time for the motion. If <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><code class="xref any docutils literal notranslate"><span class="pre">None</span></code></a> is given, the default value
 of <code class="xref any docutils literal notranslate"><span class="pre">xwidth</span></code> and <code class="xref any docutils literal notranslate"><span class="pre">ywidth</span></code> positioners is used.</p></li>
 <li><p><strong>moved_cb</strong> (<em>callable</em><em>, </em><em>optional</em>) – Function to be run when the operation finishes. This callback
 should not expect any arguments or keywords.</p></li>
