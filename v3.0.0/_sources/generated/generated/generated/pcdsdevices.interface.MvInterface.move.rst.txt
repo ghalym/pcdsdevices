@@ -1,0 +1,6 @@
+pcdsdevices.interface.MvInterface.move
+======================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: MvInterface.move

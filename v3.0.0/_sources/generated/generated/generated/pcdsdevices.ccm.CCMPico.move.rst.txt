@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMPico.move
+============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMPico.move

@@ -1,0 +1,101 @@
+pcdsdevices.lodcm.Diode
+=======================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. autoclass:: Diode
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+       *  -  motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:MOTOR``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Diode.camonitor
+       ~Diode.check_inserted
+       ~Diode.check_removed
+       ~Diode.check_transmission
+       ~Diode.configure
+       ~Diode.describe
+       ~Diode.end_monitor_thread
+       ~Diode.get
+       ~Diode.get_state
+       ~Diode.insert
+       ~Diode.move
+       ~Diode.mv
+       ~Diode.read
+       ~Diode.read_configuration
+       ~Diode.remove
+       ~Diode.set
+       ~Diode.stop
+       ~Diode.summary
+       ~Diode.trigger
+       ~Diode.wait
+       ~Diode.wm
+       ~Diode.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Diode.configuration_attrs
+       ~Diode.connected
+       ~Diode.egu
+       ~Diode.high_limit
+       ~Diode.hints
+       ~Diode.in_states
+       ~Diode.kind
+       ~Diode.limits
+       ~Diode.low_limit
+       ~Diode.moving
+       ~Diode.out_states
+       ~Diode.position
+       ~Diode.settle_time
+       ~Diode.states_list
+       ~Diode.timeout
+       ~Diode.transmission
+    
+    

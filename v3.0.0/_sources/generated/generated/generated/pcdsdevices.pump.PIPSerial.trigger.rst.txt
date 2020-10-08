@@ -1,0 +1,6 @@
+pcdsdevices.pump.PIPSerial.trigger
+==================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PIPSerial.trigger

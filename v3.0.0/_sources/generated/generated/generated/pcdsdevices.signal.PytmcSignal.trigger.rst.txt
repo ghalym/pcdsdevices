@@ -1,0 +1,6 @@
+pcdsdevices.signal.PytmcSignal.trigger
+======================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: PytmcSignal.trigger

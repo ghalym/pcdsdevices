@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMX.camonitor
+==============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMX.camonitor

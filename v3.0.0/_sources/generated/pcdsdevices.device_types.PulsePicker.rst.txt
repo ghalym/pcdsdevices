@@ -1,0 +1,170 @@
+﻿pcdsdevices.device\_types.PulsePicker
+=====================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. autoclass:: PulsePicker
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~pcdsdevices.state.PVStateSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.inout.InOutPVStatePositioner`
+   
+       *  -  blade
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:READ_DF``
+          -  
+          -  normal
+          -  
+   
+       *  -  mode
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:SD_SIMPLE``
+          -  
+          -  config
+          -  
+   
+       *  -  cmd_reset
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:RESET_PG``
+          -  
+          -  omitted
+          -  
+   
+       *  -  cmd_open
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:S_OPEN``
+          -  
+          -  omitted
+          -  
+   
+       *  -  cmd_close
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:S_CLOSE``
+          -  
+          -  omitted
+          -  
+   
+       *  -  cmd_flipflop
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:RUN_FLIPFLOP``
+          -  
+          -  omitted
+          -  
+   
+       *  -  cmd_burst
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:RUN_BURSTMODE``
+          -  
+          -  omitted
+          -  
+   
+       *  -  cmd_follower
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:RUN_FOLLOWERMODE``
+          -  
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~PulsePicker.burst
+       ~PulsePicker.camonitor
+       ~PulsePicker.check_inserted
+       ~PulsePicker.check_removed
+       ~PulsePicker.check_transmission
+       ~PulsePicker.close
+       ~PulsePicker.configure
+       ~PulsePicker.describe
+       ~PulsePicker.end_monitor_thread
+       ~PulsePicker.flipflop
+       ~PulsePicker.follower
+       ~PulsePicker.get
+       ~PulsePicker.get_state
+       ~PulsePicker.insert
+       ~PulsePicker.move
+       ~PulsePicker.mv
+       ~PulsePicker.open
+       ~PulsePicker.read
+       ~PulsePicker.read_configuration
+       ~PulsePicker.remove
+       ~PulsePicker.reset
+       ~PulsePicker.set
+       ~PulsePicker.stop
+       ~PulsePicker.summary
+       ~PulsePicker.trigger
+       ~PulsePicker.wait
+       ~PulsePicker.wm
+       ~PulsePicker.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~PulsePicker.configuration_attrs
+       ~PulsePicker.connected
+       ~PulsePicker.egu
+       ~PulsePicker.high_limit
+       ~PulsePicker.hints
+       ~PulsePicker.in_states
+       ~PulsePicker.kind
+       ~PulsePicker.limits
+       ~PulsePicker.low_limit
+       ~PulsePicker.moving
+       ~PulsePicker.out_states
+       ~PulsePicker.position
+       ~PulsePicker.settle_time
+       ~PulsePicker.states_list
+       ~PulsePicker.timeout
+       ~PulsePicker.transmission
+    
+    

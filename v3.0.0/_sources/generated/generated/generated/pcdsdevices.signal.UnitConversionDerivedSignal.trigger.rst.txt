@@ -1,0 +1,6 @@
+pcdsdevices.signal.UnitConversionDerivedSignal.trigger
+======================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: UnitConversionDerivedSignal.trigger

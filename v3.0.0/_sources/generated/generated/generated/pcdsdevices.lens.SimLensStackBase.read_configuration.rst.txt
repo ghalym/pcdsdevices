@@ -1,0 +1,6 @@
+pcdsdevices.lens.SimLensStackBase.read\_configuration
+=====================================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: SimLensStackBase.read_configuration

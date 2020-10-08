@@ -1,0 +1,6 @@
+pcdsdevices.state.CombinedStateRecordPositioner.stop
+====================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: CombinedStateRecordPositioner.stop

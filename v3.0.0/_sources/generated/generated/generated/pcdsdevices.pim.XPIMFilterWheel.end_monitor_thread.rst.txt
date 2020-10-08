@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMFilterWheel.end\_monitor\_thread
+====================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMFilterWheel.end_monitor_thread

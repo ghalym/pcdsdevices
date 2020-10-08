@@ -1,0 +1,6 @@
+﻿pcdsdevices.device\_types.GaugeSet
+==================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. autofunction:: GaugeSet

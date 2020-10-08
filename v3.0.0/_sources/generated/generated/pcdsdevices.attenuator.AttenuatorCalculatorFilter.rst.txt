@@ -1,0 +1,111 @@
+pcdsdevices.attenuator.AttenuatorCalculatorFilter
+=================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. autoclass:: AttenuatorCalculatorFilter
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  material
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``Material``
+          -  The material formula (e.g., Si, C)
+          -  hinted
+          -  
+   
+       *  -  thickness
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``Thickness``
+          -  Thickness in micron
+          -  hinted
+          -  
+   
+       *  -  is_stuck
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``IsStuck``
+          -  Is the filter stuck / unusable?
+          -  hinted
+          -  
+   
+       *  -  closest_energy
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``ClosestEnergy_RBV``
+          -  Closest tabulated energy available to the requested one
+          -  config
+          -  
+   
+       *  -  transmission
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``Transmission_RBV``
+          -  Normalized transmission at the reported energy
+          -  normal
+          -  
+   
+       *  -  transmission_3omega
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``Transmission3Omega_RBV``
+          -  Normalized transmission at 3 * the reported energy
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~AttenuatorCalculatorFilter.configure
+       ~AttenuatorCalculatorFilter.describe
+       ~AttenuatorCalculatorFilter.get
+       ~AttenuatorCalculatorFilter.read
+       ~AttenuatorCalculatorFilter.read_configuration
+       ~AttenuatorCalculatorFilter.stop
+       ~AttenuatorCalculatorFilter.summary
+       ~AttenuatorCalculatorFilter.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~AttenuatorCalculatorFilter.configuration_attrs
+       ~AttenuatorCalculatorFilter.connected
+       ~AttenuatorCalculatorFilter.hints
+       ~AttenuatorCalculatorFilter.kind
+    
+    

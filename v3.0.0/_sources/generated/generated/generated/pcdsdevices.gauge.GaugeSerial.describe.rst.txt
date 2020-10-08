@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSerial.describe
+======================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSerial.describe

@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.BeamEnergyRequest.set
+=============================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: BeamEnergyRequest.set

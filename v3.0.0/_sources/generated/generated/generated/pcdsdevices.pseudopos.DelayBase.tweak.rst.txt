@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.DelayBase.tweak
+=====================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: DelayBase.tweak

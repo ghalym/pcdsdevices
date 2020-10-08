@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PCDSAreaDetector.validate\_asyn\_ports
+================================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PCDSAreaDetector.validate_asyn_ports

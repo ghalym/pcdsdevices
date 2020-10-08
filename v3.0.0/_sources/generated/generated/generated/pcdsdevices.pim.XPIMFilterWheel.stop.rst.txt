@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMFilterWheel.stop
+====================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMFilterWheel.stop

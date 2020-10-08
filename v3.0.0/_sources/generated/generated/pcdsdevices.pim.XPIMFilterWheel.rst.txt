@@ -1,0 +1,102 @@
+pcdsdevices.pim.XPIMFilterWheel
+===============================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. autoclass:: XPIMFilterWheel
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:GET_RBV``
+          -  Control of the filter wheel state by preset transmission percentages.
+          -  normal
+          -  
+   
+       *  -  reset_cmd
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:ERR:RESET``
+          -  Command to reset a filter wheel error.
+          -  omitted
+          -  
+   
+       *  -  error_message
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:ERR:MSG``
+          -  Error text for a filter wheel error.
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~XPIMFilterWheel.camonitor
+       ~XPIMFilterWheel.configure
+       ~XPIMFilterWheel.describe
+       ~XPIMFilterWheel.end_monitor_thread
+       ~XPIMFilterWheel.get
+       ~XPIMFilterWheel.get_state
+       ~XPIMFilterWheel.move
+       ~XPIMFilterWheel.mv
+       ~XPIMFilterWheel.read
+       ~XPIMFilterWheel.read_configuration
+       ~XPIMFilterWheel.set
+       ~XPIMFilterWheel.stop
+       ~XPIMFilterWheel.summary
+       ~XPIMFilterWheel.trigger
+       ~XPIMFilterWheel.wait
+       ~XPIMFilterWheel.wm
+       ~XPIMFilterWheel.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~XPIMFilterWheel.configuration_attrs
+       ~XPIMFilterWheel.connected
+       ~XPIMFilterWheel.egu
+       ~XPIMFilterWheel.high_limit
+       ~XPIMFilterWheel.hints
+       ~XPIMFilterWheel.kind
+       ~XPIMFilterWheel.limits
+       ~XPIMFilterWheel.low_limit
+       ~XPIMFilterWheel.moving
+       ~XPIMFilterWheel.position
+       ~XPIMFilterWheel.settle_time
+       ~XPIMFilterWheel.states_list
+       ~XPIMFilterWheel.timeout
+    
+    

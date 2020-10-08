@@ -1,0 +1,6 @@
+pcdsdevices.signal.NotepadLinkedSignal.read\_configuration
+==========================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: NotepadLinkedSignal.read_configuration

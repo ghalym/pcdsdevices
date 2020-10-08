@@ -1,0 +1,6 @@
+pcdsdevices.pump.PROPLC.read\_configuration
+===========================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PROPLC.read_configuration

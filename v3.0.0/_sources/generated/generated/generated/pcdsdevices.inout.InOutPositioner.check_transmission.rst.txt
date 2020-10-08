@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutPositioner.check\_transmission
+=====================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutPositioner.check_transmission

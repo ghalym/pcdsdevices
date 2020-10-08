@@ -1,0 +1,6 @@
+pcdsdevices.jet.BeckhoffJetSlits.describe
+=========================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: BeckhoffJetSlits.describe

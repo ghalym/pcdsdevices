@@ -1,0 +1,96 @@
+pcdsdevices.pim.LCLS2ImagerBase
+===============================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. autoclass:: LCLS2ImagerBase
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  target
+          -  :class:`~pcdsdevices.pmps.TwinCATStatePMPS`
+          -  ``:MMS:STATE``
+          -  Control of the diagnostic stack via saved positions.
+          -  hinted
+          -  
+   
+       *  -  y_motor
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``:MMS``
+          -  Direct control of the diagnostic stack motor.
+          -  normal
+          -  
+   
+       *  -  detector
+          -  :class:`~pcdsdevices.areadetector.detectors.PCDSAreaDetectorTyphosTrigger`
+          -  ``:CAM:``
+          -  Area detector settings and readbacks.
+          -  normal
+          -  
+   
+       *  -  cam_power
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:CAM:PWR``
+          -  Camera power supply controls.
+          -  config
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~LCLS2ImagerBase.configure
+       ~LCLS2ImagerBase.describe
+       ~LCLS2ImagerBase.get
+       ~LCLS2ImagerBase.read
+       ~LCLS2ImagerBase.read_configuration
+       ~LCLS2ImagerBase.stop
+       ~LCLS2ImagerBase.summary
+       ~LCLS2ImagerBase.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~LCLS2ImagerBase.configuration_attrs
+       ~LCLS2ImagerBase.connected
+       ~LCLS2ImagerBase.hints
+       ~LCLS2ImagerBase.kind
+       ~LCLS2ImagerBase.lightpath_cpts
+       ~LCLS2ImagerBase.transmission
+       ~LCLS2ImagerBase.y_states
+    
+    

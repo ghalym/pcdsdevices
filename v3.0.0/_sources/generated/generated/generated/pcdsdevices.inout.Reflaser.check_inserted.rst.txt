@@ -1,0 +1,6 @@
+pcdsdevices.inout.Reflaser.check\_inserted
+==========================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: Reflaser.check_inserted

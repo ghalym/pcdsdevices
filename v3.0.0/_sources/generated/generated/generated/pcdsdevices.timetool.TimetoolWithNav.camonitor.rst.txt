@@ -1,0 +1,6 @@
+pcdsdevices.timetool.TimetoolWithNav.camonitor
+==============================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: TimetoolWithNav.camonitor

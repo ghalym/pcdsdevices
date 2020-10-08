@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.SmarAct.enable
+=======================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: SmarAct.enable

@@ -1,0 +1,6 @@
+pcdsdevices.lens.SimLensStackBase.trigger
+=========================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: SimLensStackBase.trigger

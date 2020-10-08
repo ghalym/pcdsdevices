@@ -1,0 +1,6 @@
+pcdsdevices.sensors.TwinCATThermocouple.get
+===========================================
+
+.. currentmodule:: pcdsdevices.sensors
+
+.. automethod:: TwinCATThermocouple.get

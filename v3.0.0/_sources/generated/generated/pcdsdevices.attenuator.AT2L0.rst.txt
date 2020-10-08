@@ -1,0 +1,288 @@
+pcdsdevices.attenuator.AT2L0
+============================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. autoclass:: AT2L0
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  num_in
+          -  :class:`~pcdsdevices.signal.InternalSignal`
+          -  
+          -  
+          -  hinted
+          -  
+   
+       *  -  num_out
+          -  :class:`~pcdsdevices.signal.InternalSignal`
+          -  
+          -  
+          -  hinted
+          -  
+   
+       *  -  calculator (UCpt)
+          -  :class:`~pcdsdevices.attenuator.AttenuatorCalculator_AT2L0`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_01
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:01``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_02
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:02``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_03
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:03``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_04
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:04``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_05
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:05``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_06
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:06``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_07
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:07``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_08
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:08``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_09
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:09``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_10
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:10``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_11
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:11``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_12
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:12``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_13
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:13``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_14
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:14``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_15
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:15``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_16
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:16``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_17
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:17``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_18
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:18``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_19
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:19``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~AT2L0.camonitor
+       ~AT2L0.configure
+       ~AT2L0.describe
+       ~AT2L0.end_monitor_thread
+       ~AT2L0.get
+       ~AT2L0.move
+       ~AT2L0.mv
+       ~AT2L0.mv_ginput
+       ~AT2L0.mvr
+       ~AT2L0.read
+       ~AT2L0.read_configuration
+       ~AT2L0.set
+       ~AT2L0.stop
+       ~AT2L0.summary
+       ~AT2L0.trigger
+       ~AT2L0.tweak
+       ~AT2L0.umv
+       ~AT2L0.umvr
+       ~AT2L0.wait
+       ~AT2L0.wm
+       ~AT2L0.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~AT2L0.actuate
+       ~AT2L0.actuate_value
+       ~AT2L0.configuration_attrs
+       ~AT2L0.connected
+       ~AT2L0.done
+       ~AT2L0.done_value
+       ~AT2L0.egu
+       ~AT2L0.high_limit
+       ~AT2L0.hints
+       ~AT2L0.kind
+       ~AT2L0.lightpath_cpts
+       ~AT2L0.limits
+       ~AT2L0.low_limit
+       ~AT2L0.moving
+       ~AT2L0.position
+       ~AT2L0.presets
+       ~AT2L0.put_complete
+       ~AT2L0.readback
+       ~AT2L0.setpoint
+       ~AT2L0.settle_time
+       ~AT2L0.stop_signal
+       ~AT2L0.stop_value
+       ~AT2L0.timeout
+       ~AT2L0.transmission
+    
+    

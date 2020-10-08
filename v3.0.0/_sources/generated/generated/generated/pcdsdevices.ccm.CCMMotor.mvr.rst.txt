@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMMotor.mvr
+============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMMotor.mvr

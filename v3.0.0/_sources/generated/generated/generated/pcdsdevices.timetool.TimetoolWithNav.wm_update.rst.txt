@@ -1,0 +1,6 @@
+pcdsdevices.timetool.TimetoolWithNav.wm\_update
+===============================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: TimetoolWithNav.wm_update

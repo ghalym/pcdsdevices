@@ -1,0 +1,6 @@
+pcdsdevices.inout.CombinedInOutRecordPositioner.check\_removed
+==============================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: CombinedInOutRecordPositioner.check_removed

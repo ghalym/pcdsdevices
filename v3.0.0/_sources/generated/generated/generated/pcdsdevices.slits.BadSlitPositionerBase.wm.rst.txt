@@ -1,0 +1,6 @@
+pcdsdevices.slits.BadSlitPositionerBase.wm
+==========================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BadSlitPositionerBase.wm

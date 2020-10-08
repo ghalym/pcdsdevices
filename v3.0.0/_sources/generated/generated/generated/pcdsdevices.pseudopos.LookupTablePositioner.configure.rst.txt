@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.LookupTablePositioner.configure
+=====================================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: LookupTablePositioner.configure

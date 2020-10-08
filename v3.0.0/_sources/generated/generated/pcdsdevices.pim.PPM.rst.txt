@@ -1,0 +1,123 @@
+pcdsdevices.pim.PPM
+===================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. autoclass:: PPM
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  target
+          -  :class:`~pcdsdevices.pmps.TwinCATStatePMPS`
+          -  ``:MMS:STATE``
+          -  Control of the diagnostic stack via saved positions.
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.pim.LCLS2ImagerBase`
+   
+       *  -  y_motor
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``:MMS``
+          -  Direct control of the diagnostic stack motor.
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pim.LCLS2ImagerBase`
+   
+       *  -  detector
+          -  :class:`~pcdsdevices.areadetector.detectors.PCDSAreaDetectorTyphosTrigger`
+          -  ``:CAM:``
+          -  Area detector settings and readbacks.
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pim.LCLS2ImagerBase`
+   
+       *  -  cam_power
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:CAM:PWR``
+          -  Camera power supply controls.
+          -  config
+          -  Inherited from :class:`~pcdsdevices.pim.LCLS2ImagerBase`
+   
+       *  -  power_meter
+          -  :class:`~pcdsdevices.pim.PPMPowerMeter`
+          -  ``:SPM``
+          -  Device that measures power of incident beam.
+          -  normal
+          -  
+   
+       *  -  yag_thermocouple
+          -  :class:`~pcdsdevices.sensors.TwinCATThermocouple`
+          -  ``:YAG``
+          -  Thermocouple on the YAG holder.
+          -  normal
+          -  
+   
+       *  -  led
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:CAM:CIL:PCT``
+          -  Percent of light from the dimmable illuminatior.
+          -  config
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~PPM.configure
+       ~PPM.describe
+       ~PPM.get
+       ~PPM.read
+       ~PPM.read_configuration
+       ~PPM.stop
+       ~PPM.summary
+       ~PPM.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~PPM.configuration_attrs
+       ~PPM.connected
+       ~PPM.hints
+       ~PPM.kind
+       ~PPM.lightpath_cpts
+       ~PPM.transmission
+       ~PPM.y_states
+    
+    

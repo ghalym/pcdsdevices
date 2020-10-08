@@ -1,0 +1,65 @@
+pcdsdevices.pseudopos.PseudoPositioner
+======================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. autoclass:: PseudoPositioner
+
+   
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~PseudoPositioner.check_single
+       ~PseudoPositioner.configure
+       ~PseudoPositioner.describe
+       ~PseudoPositioner.forward
+       ~PseudoPositioner.get
+       ~PseudoPositioner.inverse
+       ~PseudoPositioner.move
+       ~PseudoPositioner.move_single
+       ~PseudoPositioner.read
+       ~PseudoPositioner.read_configuration
+       ~PseudoPositioner.set
+       ~PseudoPositioner.stop
+       ~PseudoPositioner.summary
+       ~PseudoPositioner.to_pseudo_tuple
+       ~PseudoPositioner.to_real_tuple
+       ~PseudoPositioner.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~PseudoPositioner.composite_egu
+       ~PseudoPositioner.concurrent
+       ~PseudoPositioner.configuration_attrs
+       ~PseudoPositioner.connected
+       ~PseudoPositioner.egu
+       ~PseudoPositioner.high_limit
+       ~PseudoPositioner.hints
+       ~PseudoPositioner.kind
+       ~PseudoPositioner.limits
+       ~PseudoPositioner.low_limit
+       ~PseudoPositioner.moving
+       ~PseudoPositioner.position
+       ~PseudoPositioner.pseudo_positioners
+       ~PseudoPositioner.real_position
+       ~PseudoPositioner.real_positioners
+       ~PseudoPositioner.sequential
+       ~PseudoPositioner.settle_time
+       ~PseudoPositioner.target
+       ~PseudoPositioner.timeout
+    
+    

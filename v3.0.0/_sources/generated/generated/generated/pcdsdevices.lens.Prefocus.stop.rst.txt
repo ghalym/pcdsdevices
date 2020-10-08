@@ -1,0 +1,6 @@
+pcdsdevices.lens.Prefocus.stop
+==============================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: Prefocus.stop

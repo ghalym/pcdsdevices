@@ -1,0 +1,77 @@
+pcdsdevices.gauge.GaugeSetPirani
+================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. autoclass:: GaugeSetPirani
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  gcc (FCpt)
+          -  :class:`~pcdsdevices.gauge.GaugeColdCathode`
+          -  ``{self.prefix}:GCC:{self.index}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gauge.GaugeSetBase`
+   
+       *  -  gpi (FCpt)
+          -  :class:`~pcdsdevices.gauge.GaugePirani`
+          -  ``{self.prefix}:GPI:{self.index}``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~GaugeSetPirani.configure
+       ~GaugeSetPirani.describe
+       ~GaugeSetPirani.egu
+       ~GaugeSetPirani.get
+       ~GaugeSetPirani.pressure
+       ~GaugeSetPirani.read
+       ~GaugeSetPirani.read_configuration
+       ~GaugeSetPirani.stop
+       ~GaugeSetPirani.summary
+       ~GaugeSetPirani.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~GaugeSetPirani.configuration_attrs
+       ~GaugeSetPirani.connected
+       ~GaugeSetPirani.hints
+       ~GaugeSetPirani.kind
+    
+    

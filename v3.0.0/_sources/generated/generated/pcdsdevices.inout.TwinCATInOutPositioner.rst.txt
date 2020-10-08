@@ -1,0 +1,155 @@
+pcdsdevices.inout.TwinCATInOutPositioner
+========================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. autoclass:: TwinCATInOutPositioner
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:GET_RBV``
+          -  Setpoint and readback for TwinCAT state position.
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.state.TwinCATStatePositioner`
+   
+       *  -  error
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:ERR``
+          -  True if we have an error.
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.state.TwinCATStatePositioner`
+   
+       *  -  error_id
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:ERRID``
+          -  Error code.
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.state.TwinCATStatePositioner`
+   
+       *  -  error_message
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:ERRMSG``
+          -  Error message
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.state.TwinCATStatePositioner`
+   
+       *  -  busy
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:BUSY``
+          -  True if we have an ongoing move.
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.state.TwinCATStatePositioner`
+   
+       *  -  done
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:DONE``
+          -  True if we completed the last move.
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.state.TwinCATStatePositioner`
+   
+       *  -  reset_cmd
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:RESET``
+          -  Command to reset an error.
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.state.TwinCATStatePositioner`
+   
+       *  -  config
+          -  :class:`~pcdsdevices.state.TwinCATStateConfigAll`
+          -  
+          -  Configuration of state positions, deltas, etc.
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.state.TwinCATStatePositioner`
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~TwinCATInOutPositioner.camonitor
+       ~TwinCATInOutPositioner.check_inserted
+       ~TwinCATInOutPositioner.check_removed
+       ~TwinCATInOutPositioner.check_transmission
+       ~TwinCATInOutPositioner.configure
+       ~TwinCATInOutPositioner.describe
+       ~TwinCATInOutPositioner.end_monitor_thread
+       ~TwinCATInOutPositioner.get
+       ~TwinCATInOutPositioner.get_state
+       ~TwinCATInOutPositioner.insert
+       ~TwinCATInOutPositioner.move
+       ~TwinCATInOutPositioner.mv
+       ~TwinCATInOutPositioner.read
+       ~TwinCATInOutPositioner.read_configuration
+       ~TwinCATInOutPositioner.remove
+       ~TwinCATInOutPositioner.set
+       ~TwinCATInOutPositioner.stop
+       ~TwinCATInOutPositioner.summary
+       ~TwinCATInOutPositioner.trigger
+       ~TwinCATInOutPositioner.wait
+       ~TwinCATInOutPositioner.wm
+       ~TwinCATInOutPositioner.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~TwinCATInOutPositioner.configuration_attrs
+       ~TwinCATInOutPositioner.connected
+       ~TwinCATInOutPositioner.egu
+       ~TwinCATInOutPositioner.high_limit
+       ~TwinCATInOutPositioner.hints
+       ~TwinCATInOutPositioner.in_states
+       ~TwinCATInOutPositioner.kind
+       ~TwinCATInOutPositioner.limits
+       ~TwinCATInOutPositioner.low_limit
+       ~TwinCATInOutPositioner.moving
+       ~TwinCATInOutPositioner.out_states
+       ~TwinCATInOutPositioner.position
+       ~TwinCATInOutPositioner.settle_time
+       ~TwinCATInOutPositioner.states_list
+       ~TwinCATInOutPositioner.timeout
+       ~TwinCATInOutPositioner.transmission
+    
+    

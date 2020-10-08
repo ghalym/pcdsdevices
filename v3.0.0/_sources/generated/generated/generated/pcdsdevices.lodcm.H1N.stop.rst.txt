@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.H1N.stop
+==========================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: H1N.stop

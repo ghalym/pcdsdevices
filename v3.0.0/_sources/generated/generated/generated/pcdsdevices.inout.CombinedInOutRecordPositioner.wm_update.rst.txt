@@ -1,0 +1,6 @@
+pcdsdevices.inout.CombinedInOutRecordPositioner.wm\_update
+==========================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: CombinedInOutRecordPositioner.wm_update

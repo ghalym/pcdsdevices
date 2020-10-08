@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMCalc.wait
+============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMCalc.wait

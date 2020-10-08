@@ -1,0 +1,6 @@
+pcdsdevices.valve.VCN.stop
+==========================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VCN.stop

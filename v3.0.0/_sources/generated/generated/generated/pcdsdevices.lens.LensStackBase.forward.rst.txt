@@ -1,0 +1,6 @@
+pcdsdevices.lens.LensStackBase.forward
+======================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: LensStackBase.forward

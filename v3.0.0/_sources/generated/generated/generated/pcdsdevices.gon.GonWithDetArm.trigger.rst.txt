@@ -1,0 +1,6 @@
+pcdsdevices.gon.GonWithDetArm.trigger
+=====================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: GonWithDetArm.trigger

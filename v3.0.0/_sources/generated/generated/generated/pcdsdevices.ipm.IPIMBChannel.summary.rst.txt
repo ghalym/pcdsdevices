@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPIMBChannel.summary
+====================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPIMBChannel.summary

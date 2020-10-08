@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMMotor.done\_comparator
+=========================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMMotor.done_comparator

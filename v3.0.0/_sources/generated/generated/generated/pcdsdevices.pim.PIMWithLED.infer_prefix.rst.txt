@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithLED.infer\_prefix
+========================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithLED.infer_prefix

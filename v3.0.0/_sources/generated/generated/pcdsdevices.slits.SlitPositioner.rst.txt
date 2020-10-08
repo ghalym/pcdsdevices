@@ -1,0 +1,112 @@
+pcdsdevices.slits.SlitPositioner
+================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. autoclass:: SlitPositioner
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  readback (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``{prefix}:ACTUAL_{_dirlong}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.slits.LusiSlitPositioner`
+   
+       *  -  setpoint (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{prefix}:{_dirshort}_REQ``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.slits.LusiSlitPositioner`
+   
+       *  -  done
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:DMOV``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.slits.LusiSlitPositioner`
+   
+
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~SlitPositioner.camonitor
+       ~SlitPositioner.configure
+       ~SlitPositioner.describe
+       ~SlitPositioner.end_monitor_thread
+       ~SlitPositioner.get
+       ~SlitPositioner.move
+       ~SlitPositioner.mv
+       ~SlitPositioner.mv_ginput
+       ~SlitPositioner.mvr
+       ~SlitPositioner.read
+       ~SlitPositioner.read_configuration
+       ~SlitPositioner.set
+       ~SlitPositioner.stop
+       ~SlitPositioner.summary
+       ~SlitPositioner.trigger
+       ~SlitPositioner.tweak
+       ~SlitPositioner.umv
+       ~SlitPositioner.umvr
+       ~SlitPositioner.wait
+       ~SlitPositioner.wm
+       ~SlitPositioner.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~SlitPositioner.actuate
+       ~SlitPositioner.actuate_value
+       ~SlitPositioner.configuration_attrs
+       ~SlitPositioner.connected
+       ~SlitPositioner.done_value
+       ~SlitPositioner.egu
+       ~SlitPositioner.high_limit
+       ~SlitPositioner.hints
+       ~SlitPositioner.kind
+       ~SlitPositioner.limits
+       ~SlitPositioner.low_limit
+       ~SlitPositioner.moving
+       ~SlitPositioner.position
+       ~SlitPositioner.presets
+       ~SlitPositioner.put_complete
+       ~SlitPositioner.settle_time
+       ~SlitPositioner.stop_signal
+       ~SlitPositioner.stop_value
+       ~SlitPositioner.timeout
+    
+    

@@ -1,0 +1,119 @@
+pcdsdevices.timetool.Timetool
+=============================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. autoclass:: Timetool
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.inout.CombinedInOutRecordPositioner`
+   
+       *  -  x_motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:X:MOTOR``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.inout.CombinedInOutRecordPositioner`
+   
+       *  -  y_motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:Y:MOTOR``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.inout.CombinedInOutRecordPositioner`
+   
+       *  -  detector (FCpt)
+          -  :class:`~pcdsdevices.areadetector.detectors.PCDSAreaDetector`
+          -  ``{self._prefix_det}``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Timetool.camonitor
+       ~Timetool.check_inserted
+       ~Timetool.check_removed
+       ~Timetool.check_transmission
+       ~Timetool.configure
+       ~Timetool.describe
+       ~Timetool.end_monitor_thread
+       ~Timetool.get
+       ~Timetool.get_state
+       ~Timetool.insert
+       ~Timetool.move
+       ~Timetool.mv
+       ~Timetool.read
+       ~Timetool.read_configuration
+       ~Timetool.remove
+       ~Timetool.set
+       ~Timetool.stop
+       ~Timetool.summary
+       ~Timetool.trigger
+       ~Timetool.wait
+       ~Timetool.wm
+       ~Timetool.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Timetool.configuration_attrs
+       ~Timetool.connected
+       ~Timetool.egu
+       ~Timetool.high_limit
+       ~Timetool.hints
+       ~Timetool.in_states
+       ~Timetool.kind
+       ~Timetool.limits
+       ~Timetool.low_limit
+       ~Timetool.moving
+       ~Timetool.out_states
+       ~Timetool.position
+       ~Timetool.settle_time
+       ~Timetool.states_list
+       ~Timetool.timeout
+       ~Timetool.transmission
+    
+    

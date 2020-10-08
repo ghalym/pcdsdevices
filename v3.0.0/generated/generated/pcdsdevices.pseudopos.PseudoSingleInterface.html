@@ -1,0 +1,481 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>pcdsdevices.pseudopos.PseudoSingleInterface &mdash; PCDS Devices 3.0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/theme_overrides.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="pcdsdevices.pseudopos.PseudoSingleInterface.camonitor" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.camonitor.html" />
+    <link rel="prev" title="pcdsdevices.pseudopos.PseudoPositioner.trigger" href="generated/pcdsdevices.pseudopos.PseudoPositioner.trigger.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home" alt="Documentation Home"> PCDS Devices
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                3.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Features</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../mv.html">Shortcuts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../presets.html">Preset Positions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tab.html">IPython Tab Curation</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Device Types</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../epics_types.html">Common EPICS Devices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../base_classes.html">Base Classes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../sim_types.html">Simulated Devices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../sample_delivery.html">Sample Delivery</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../sample_delivery.html#api">API</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developer Notes</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../releases.html">Release History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../upcoming_changes.html">Upcoming Changes</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../api.html">Full API</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.analog_signals.html">pcdsdevices.analog_signals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.component.html">pcdsdevices.component</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.evr.html">pcdsdevices.evr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.gon.html">pcdsdevices.gon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.interface.html">pcdsdevices.interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.jet.html">pcdsdevices.jet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.lodcm.html">pcdsdevices.lodcm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.mirror.html">pcdsdevices.mirror</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.movablestand.html">pcdsdevices.movablestand</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.mps.html">pcdsdevices.mps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.mv_interface.html">pcdsdevices.mv_interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.DelayBase.html">pcdsdevices.pseudopos.DelayBase</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.LookupTablePositioner.html">pcdsdevices.pseudopos.LookupTablePositioner</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoPositioner.html">pcdsdevices.pseudopos.PseudoPositioner</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.pseudopos.PseudoSingleInterface</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.camonitor.html">pcdsdevices.pseudopos.PseudoSingleInterface.camonitor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.configure.html">pcdsdevices.pseudopos.PseudoSingleInterface.configure</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.describe.html">pcdsdevices.pseudopos.PseudoSingleInterface.describe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.end_monitor_thread.html">pcdsdevices.pseudopos.PseudoSingleInterface.end_monitor_thread</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.get.html">pcdsdevices.pseudopos.PseudoSingleInterface.get</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.move.html">pcdsdevices.pseudopos.PseudoSingleInterface.move</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.mv.html">pcdsdevices.pseudopos.PseudoSingleInterface.mv</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.mv_ginput.html">pcdsdevices.pseudopos.PseudoSingleInterface.mv_ginput</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.mvr.html">pcdsdevices.pseudopos.PseudoSingleInterface.mvr</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.read.html">pcdsdevices.pseudopos.PseudoSingleInterface.read</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.read_configuration.html">pcdsdevices.pseudopos.PseudoSingleInterface.read_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.set.html">pcdsdevices.pseudopos.PseudoSingleInterface.set</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.stop.html">pcdsdevices.pseudopos.PseudoSingleInterface.stop</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.summary.html">pcdsdevices.pseudopos.PseudoSingleInterface.summary</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.sync.html">pcdsdevices.pseudopos.PseudoSingleInterface.sync</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.trigger.html">pcdsdevices.pseudopos.PseudoSingleInterface.trigger</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.tweak.html">pcdsdevices.pseudopos.PseudoSingleInterface.tweak</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.umv.html">pcdsdevices.pseudopos.PseudoSingleInterface.umv</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.umvr.html">pcdsdevices.pseudopos.PseudoSingleInterface.umvr</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.wait.html">pcdsdevices.pseudopos.PseudoSingleInterface.wait</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.wm.html">pcdsdevices.pseudopos.PseudoSingleInterface.wm</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.wm_update.html">pcdsdevices.pseudopos.PseudoSingleInterface.wm_update</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.SimDelayStage.html">pcdsdevices.pseudopos.SimDelayStage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.SyncAxesBase.html">pcdsdevices.pseudopos.SyncAxesBase</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pump.html">pcdsdevices.pump</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.sensors.html">pcdsdevices.sensors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.sequencer.html">pcdsdevices.sequencer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.signal.html">pcdsdevices.signal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.sim.html">pcdsdevices.sim</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.slits.html">pcdsdevices.slits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.state.html">pcdsdevices.state</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.timetool.html">pcdsdevices.timetool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.utils.html">pcdsdevices.utils</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.valve.html">pcdsdevices.valve</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">PCDS Devices</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../api.html">Full API</a> &raquo;</li>
+        
+          <li><a href="../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a> &raquo;</li>
+        
+      <li>pcdsdevices.pseudopos.PseudoSingleInterface</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/generated/generated/pcdsdevices.pseudopos.PseudoSingleInterface.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="pcdsdevices-pseudopos-pseudosingleinterface">
+<h1>pcdsdevices.pseudopos.PseudoSingleInterface<a class="headerlink" href="#pcdsdevices-pseudopos-pseudosingleinterface" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt id="pcdsdevices.pseudopos.PseudoSingleInterface">
+<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.pseudopos.</code><code class="sig-name descname">PseudoSingleInterface</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">prefix</span><span class="o">=</span><span class="default_value">''</span></em>, <em class="sig-param"><span class="n">parent</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.pseudopos.PseudoSingleInterface" title="Permalink to this definition">¶</a></dt>
+<dd><p>PseudoSingle with FltMvInterface mixed in.</p>
+<table class="colwidths-auto docutils align-default" id="id1">
+<caption><span class="caption-text">Ophyd Device Components</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Attribute</p></th>
+<th class="head"><p>Class</p></th>
+<th class="head"><p>Suffix</p></th>
+<th class="head"><p>Docs</p></th>
+<th class="head"><p>Kind</p></th>
+<th class="head"><p>Notes</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>readback</p></td>
+<td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">AttributeSignal</span></code></p></td>
+<td></td>
+<td></td>
+<td><p>hinted</p></td>
+<td><p>Inherited from <a class="reference external" href="https://blueskyproject.io/ophyd/positioners.html#ophyd.pseudopos.PseudoSingle" title="(in ophyd v1.5.3.post44+g4440bc7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">PseudoSingle</span></code></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>setpoint</p></td>
+<td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">AttributeSignal</span></code></p></td>
+<td></td>
+<td></td>
+<td><p>normal</p></td>
+<td><p>Inherited from <a class="reference external" href="https://blueskyproject.io/ophyd/positioners.html#ophyd.pseudopos.PseudoSingle" title="(in ophyd v1.5.3.post44+g4440bc7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">PseudoSingle</span></code></a></p></td>
+</tr>
+<tr class="row-even"><td><p>notepad_setpoint</p></td>
+<td><p><a class="reference internal" href="pcdsdevices.signal.NotepadLinkedSignal.html#pcdsdevices.signal.NotepadLinkedSignal" title="pcdsdevices.signal.NotepadLinkedSignal"><code class="xref py py-class docutils literal notranslate"><span class="pre">NotepadLinkedSignal</span></code></a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">:OphydSetpoint</span></code></p></td>
+<td></td>
+<td><p>normal</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>notepad_readback</p></td>
+<td><p><a class="reference internal" href="pcdsdevices.signal.NotepadLinkedSignal.html#pcdsdevices.signal.NotepadLinkedSignal" title="pcdsdevices.signal.NotepadLinkedSignal"><code class="xref py py-class docutils literal notranslate"><span class="pre">NotepadLinkedSignal</span></code></a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">:OphydReadback</span></code></p></td>
+<td></td>
+<td><p>normal</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Methods</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.camonitor.html#pcdsdevices.pseudopos.PseudoSingleInterface.camonitor" title="pcdsdevices.pseudopos.PseudoSingleInterface.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</p></td>
+<td><p>Shows a live-updating motor position in the terminal.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.configure.html#pcdsdevices.pseudopos.PseudoSingleInterface.configure" title="pcdsdevices.pseudopos.PseudoSingleInterface.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
+<td><p>Configure the device for something during a run</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.describe.html#pcdsdevices.pseudopos.PseudoSingleInterface.describe" title="pcdsdevices.pseudopos.PseudoSingleInterface.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
+<td><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.end_monitor_thread.html#pcdsdevices.pseudopos.PseudoSingleInterface.end_monitor_thread" title="pcdsdevices.pseudopos.PseudoSingleInterface.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
+<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.camonitor.html#pcdsdevices.pseudopos.PseudoSingleInterface.camonitor" title="pcdsdevices.pseudopos.PseudoSingleInterface.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.wm_update.html#pcdsdevices.pseudopos.PseudoSingleInterface.wm_update" title="pcdsdevices.pseudopos.PseudoSingleInterface.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.get.html#pcdsdevices.pseudopos.PseudoSingleInterface.get" title="pcdsdevices.pseudopos.PseudoSingleInterface.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
+<td><p>Get the value of all components in the device</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.move.html#pcdsdevices.pseudopos.PseudoSingleInterface.move" title="pcdsdevices.pseudopos.PseudoSingleInterface.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Move this pseudo axis to a specific position.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.mv.html#pcdsdevices.pseudopos.PseudoSingleInterface.mv" title="pcdsdevices.pseudopos.PseudoSingleInterface.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[, timeout, wait, log])</p></td>
+<td><p>Absolute move to a position.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.mv_ginput.html#pcdsdevices.pseudopos.PseudoSingleInterface.mv_ginput" title="pcdsdevices.pseudopos.PseudoSingleInterface.mv_ginput"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv_ginput</span></code></a>([timeout])</p></td>
+<td><p>Moves to a location the user clicks on.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.mvr.html#pcdsdevices.pseudopos.PseudoSingleInterface.mvr" title="pcdsdevices.pseudopos.PseudoSingleInterface.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[, timeout, wait, log])</p></td>
+<td><p>Relative move from this position.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.read.html#pcdsdevices.pseudopos.PseudoSingleInterface.read" title="pcdsdevices.pseudopos.PseudoSingleInterface.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<td><p>Read data from the device.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.read_configuration.html#pcdsdevices.pseudopos.PseudoSingleInterface.read_configuration" title="pcdsdevices.pseudopos.PseudoSingleInterface.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.set.html#pcdsdevices.pseudopos.PseudoSingleInterface.set" title="pcdsdevices.pseudopos.PseudoSingleInterface.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position, *[, timeout, moved_cb, wait])</p></td>
+<td><p>Set a value and return a Status object</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.stop.html#pcdsdevices.pseudopos.PseudoSingleInterface.stop" title="pcdsdevices.pseudopos.PseudoSingleInterface.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<td><p>Stop motion on the PseudoPositioner</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.summary.html#pcdsdevices.pseudopos.PseudoSingleInterface.summary" title="pcdsdevices.pseudopos.PseudoSingleInterface.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.sync.html#pcdsdevices.pseudopos.PseudoSingleInterface.sync" title="pcdsdevices.pseudopos.PseudoSingleInterface.sync"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sync</span></code></a>()</p></td>
+<td><p>Synchronize target position with current readback position</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.trigger.html#pcdsdevices.pseudopos.PseudoSingleInterface.trigger" title="pcdsdevices.pseudopos.PseudoSingleInterface.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<td><p>Trigger the device and return status object.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.tweak.html#pcdsdevices.pseudopos.PseudoSingleInterface.tweak" title="pcdsdevices.pseudopos.PseudoSingleInterface.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
+<td><p>Control this motor using the arrow keys.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.umv.html#pcdsdevices.pseudopos.PseudoSingleInterface.umv" title="pcdsdevices.pseudopos.PseudoSingleInterface.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
+<td><p>Move to a position, wait, and update with a progress bar.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.umvr.html#pcdsdevices.pseudopos.PseudoSingleInterface.umvr" title="pcdsdevices.pseudopos.PseudoSingleInterface.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
+<td><p>Relative move from this position, wait, and update with a progress bar.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.wait.html#pcdsdevices.pseudopos.PseudoSingleInterface.wait" title="pcdsdevices.pseudopos.PseudoSingleInterface.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.wm.html#pcdsdevices.pseudopos.PseudoSingleInterface.wm" title="pcdsdevices.pseudopos.PseudoSingleInterface.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<td><p>Get the mover’s current positon (where motor).</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.wm_update.html#pcdsdevices.pseudopos.PseudoSingleInterface.wm_update" title="pcdsdevices.pseudopos.PseudoSingleInterface.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<td><p>Shows a live-updating motor position in the terminal.</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Attributes</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_attrs</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></p></td>
+<td><p>If the device is connected.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">egu</span></code></p></td>
+<td><p>The engineering units (EGU) for positions</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">high_limit</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">hints</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">limits</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">low_limit</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">moving</span></code></p></td>
+<td><p>Whether or not the motor is moving</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></p></td>
+<td><p>The current position of the motor in its engineering units</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">presets</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></p></td>
+<td><p>Amount of time to wait after moves to report status completion</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">target</span></code></p></td>
+<td><p>Last commanded target position</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">timeout</span></code></p></td>
+<td><p>Amount of time to wait before to considering a motion as failed</p></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.camonitor.html" class="btn btn-neutral float-right" title="pcdsdevices.pseudopos.PseudoSingleInterface.camonitor" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="generated/pcdsdevices.pseudopos.PseudoPositioner.trigger.html" class="btn btn-neutral float-left" title="pcdsdevices.pseudopos.PseudoPositioner.trigger" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, SLAC National Accelerator Laboratory
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

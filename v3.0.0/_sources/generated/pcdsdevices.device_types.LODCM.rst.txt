@@ -1,0 +1,107 @@
+﻿pcdsdevices.device\_types.LODCM
+===============================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. autoclass:: LODCM
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  h1n
+          -  :class:`~pcdsdevices.lodcm.H1N`
+          -  ``:H1N``
+          -  
+          -  hinted
+          -  
+   
+       *  -  yag
+          -  :class:`~pcdsdevices.lodcm.YagLom`
+          -  ``:DV``
+          -  
+          -  omitted
+          -  
+   
+       *  -  dectris
+          -  :class:`~pcdsdevices.lodcm.Dectris`
+          -  ``:DH``
+          -  
+          -  omitted
+          -  
+   
+       *  -  diode
+          -  :class:`~pcdsdevices.lodcm.Diode`
+          -  ``:DIODE``
+          -  
+          -  omitted
+          -  
+   
+       *  -  foil
+          -  :class:`~pcdsdevices.lodcm.Foil`
+          -  ``:FOIL``
+          -  
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~LODCM.configure
+       ~LODCM.describe
+       ~LODCM.get
+       ~LODCM.read
+       ~LODCM.read_configuration
+       ~LODCM.remove
+       ~LODCM.remove_dia
+       ~LODCM.stop
+       ~LODCM.summary
+       ~LODCM.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~LODCM.branches
+       ~LODCM.configuration_attrs
+       ~LODCM.connected
+       ~LODCM.destination
+       ~LODCM.hints
+       ~LODCM.kind
+       ~LODCM.transmission
+    
+    

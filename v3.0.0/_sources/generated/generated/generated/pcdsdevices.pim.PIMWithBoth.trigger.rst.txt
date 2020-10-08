@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithBoth.trigger
+===================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithBoth.trigger

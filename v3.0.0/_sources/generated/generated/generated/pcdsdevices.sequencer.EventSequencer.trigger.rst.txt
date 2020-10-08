@@ -1,0 +1,6 @@
+pcdsdevices.sequencer.EventSequencer.trigger
+============================================
+
+.. currentmodule:: pcdsdevices.sequencer
+
+.. automethod:: EventSequencer.trigger

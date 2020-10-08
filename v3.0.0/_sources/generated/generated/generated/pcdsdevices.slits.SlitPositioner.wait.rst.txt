@@ -1,0 +1,6 @@
+pcdsdevices.slits.SlitPositioner.wait
+=====================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: SlitPositioner.wait

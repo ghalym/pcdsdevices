@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.VonHamos4Crystal.get
+==============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: VonHamos4Crystal.get

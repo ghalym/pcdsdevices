@@ -1,0 +1,101 @@
+pcdsdevices.inout.TTReflaser
+============================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. autoclass:: TTReflaser
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.inout.Reflaser`
+   
+       *  -  motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:MOTOR``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.inout.Reflaser`
+   
+
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~TTReflaser.camonitor
+       ~TTReflaser.check_inserted
+       ~TTReflaser.check_removed
+       ~TTReflaser.check_transmission
+       ~TTReflaser.configure
+       ~TTReflaser.describe
+       ~TTReflaser.end_monitor_thread
+       ~TTReflaser.get
+       ~TTReflaser.get_state
+       ~TTReflaser.insert
+       ~TTReflaser.move
+       ~TTReflaser.mv
+       ~TTReflaser.read
+       ~TTReflaser.read_configuration
+       ~TTReflaser.remove
+       ~TTReflaser.set
+       ~TTReflaser.stop
+       ~TTReflaser.summary
+       ~TTReflaser.trigger
+       ~TTReflaser.wait
+       ~TTReflaser.wm
+       ~TTReflaser.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~TTReflaser.configuration_attrs
+       ~TTReflaser.connected
+       ~TTReflaser.egu
+       ~TTReflaser.high_limit
+       ~TTReflaser.hints
+       ~TTReflaser.in_states
+       ~TTReflaser.kind
+       ~TTReflaser.limits
+       ~TTReflaser.low_limit
+       ~TTReflaser.moving
+       ~TTReflaser.out_states
+       ~TTReflaser.position
+       ~TTReflaser.settle_time
+       ~TTReflaser.states_list
+       ~TTReflaser.timeout
+       ~TTReflaser.transmission
+    
+    

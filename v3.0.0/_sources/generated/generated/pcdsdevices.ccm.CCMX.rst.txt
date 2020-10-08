@@ -1,0 +1,121 @@
+pcdsdevices.ccm.CCMX
+====================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. autoclass:: CCMX
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  pseudo
+          -  :class:`~pcdsdevices.pseudopos.PseudoSingleInterface`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pseudopos.SyncAxesBase`
+   
+       *  -  down (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self.down_prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  up (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self.up_prefix}``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~CCMX.calc_combined
+       ~CCMX.camonitor
+       ~CCMX.check_single
+       ~CCMX.configure
+       ~CCMX.describe
+       ~CCMX.end_monitor_thread
+       ~CCMX.forward
+       ~CCMX.get
+       ~CCMX.inverse
+       ~CCMX.move
+       ~CCMX.move_single
+       ~CCMX.mv
+       ~CCMX.mv_ginput
+       ~CCMX.mvr
+       ~CCMX.read
+       ~CCMX.read_configuration
+       ~CCMX.save_offsets
+       ~CCMX.set
+       ~CCMX.stop
+       ~CCMX.summary
+       ~CCMX.to_pseudo_tuple
+       ~CCMX.to_real_tuple
+       ~CCMX.trigger
+       ~CCMX.tweak
+       ~CCMX.umv
+       ~CCMX.umvr
+       ~CCMX.wait
+       ~CCMX.wm
+       ~CCMX.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~CCMX.composite_egu
+       ~CCMX.concurrent
+       ~CCMX.configuration_attrs
+       ~CCMX.connected
+       ~CCMX.egu
+       ~CCMX.high_limit
+       ~CCMX.hints
+       ~CCMX.kind
+       ~CCMX.limits
+       ~CCMX.low_limit
+       ~CCMX.moving
+       ~CCMX.position
+       ~CCMX.presets
+       ~CCMX.pseudo_positioners
+       ~CCMX.real_position
+       ~CCMX.real_positioners
+       ~CCMX.sequential
+       ~CCMX.settle_time
+       ~CCMX.target
+       ~CCMX.timeout
+    
+    

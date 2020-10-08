@@ -1,0 +1,6 @@
+pcdsdevices.state.TwinCATStatePositioner.camonitor
+==================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: TwinCATStatePositioner.camonitor

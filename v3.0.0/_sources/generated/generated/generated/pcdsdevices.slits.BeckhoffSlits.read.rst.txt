@@ -1,0 +1,6 @@
+pcdsdevices.slits.BeckhoffSlits.read
+====================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BeckhoffSlits.read

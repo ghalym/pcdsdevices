@@ -1,0 +1,6 @@
+pcdsdevices.slits.SlitsBase.mv
+==============================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: SlitsBase.mv

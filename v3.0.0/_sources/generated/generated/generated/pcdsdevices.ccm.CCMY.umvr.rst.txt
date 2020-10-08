@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMY.umvr
+=========================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMY.umvr

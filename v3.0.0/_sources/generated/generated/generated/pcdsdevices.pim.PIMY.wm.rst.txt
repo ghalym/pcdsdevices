@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMY.wm
+=======================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMY.wm

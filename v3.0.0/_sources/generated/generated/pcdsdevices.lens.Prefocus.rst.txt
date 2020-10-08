@@ -1,0 +1,110 @@
+pcdsdevices.lens.Prefocus
+=========================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. autoclass:: Prefocus
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.inout.CombinedInOutRecordPositioner`
+   
+       *  -  x_motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:X:MOTOR``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.inout.CombinedInOutRecordPositioner`
+   
+       *  -  y_motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:Y:MOTOR``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.inout.CombinedInOutRecordPositioner`
+   
+
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Prefocus.camonitor
+       ~Prefocus.check_inserted
+       ~Prefocus.check_removed
+       ~Prefocus.check_transmission
+       ~Prefocus.configure
+       ~Prefocus.describe
+       ~Prefocus.end_monitor_thread
+       ~Prefocus.get
+       ~Prefocus.get_state
+       ~Prefocus.insert
+       ~Prefocus.move
+       ~Prefocus.mv
+       ~Prefocus.read
+       ~Prefocus.read_configuration
+       ~Prefocus.remove
+       ~Prefocus.set
+       ~Prefocus.stop
+       ~Prefocus.summary
+       ~Prefocus.trigger
+       ~Prefocus.wait
+       ~Prefocus.wm
+       ~Prefocus.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Prefocus.configuration_attrs
+       ~Prefocus.connected
+       ~Prefocus.egu
+       ~Prefocus.high_limit
+       ~Prefocus.hints
+       ~Prefocus.in_states
+       ~Prefocus.kind
+       ~Prefocus.limits
+       ~Prefocus.low_limit
+       ~Prefocus.moving
+       ~Prefocus.out_states
+       ~Prefocus.position
+       ~Prefocus.settle_time
+       ~Prefocus.states_list
+       ~Prefocus.timeout
+       ~Prefocus.transmission
+    
+    

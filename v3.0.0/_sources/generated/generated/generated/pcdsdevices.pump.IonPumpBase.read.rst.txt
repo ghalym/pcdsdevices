@@ -1,0 +1,6 @@
+pcdsdevices.pump.IonPumpBase.read
+=================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: IonPumpBase.read

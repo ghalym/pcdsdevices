@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Timetool.get\_state
+=============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Timetool.get_state

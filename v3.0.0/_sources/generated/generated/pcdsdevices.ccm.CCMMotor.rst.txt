@@ -1,0 +1,115 @@
+pcdsdevices.ccm.CCMMotor
+========================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. autoclass:: CCMMotor
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  done
+          -  :class:`~pcdsdevices.signal.InternalSignal`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pv_positioner.PVPositionerIsClose`
+   
+       *  -  setpoint
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:POSITIONSET``
+          -  
+          -  normal
+          -  
+   
+       *  -  readback
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:POSITIONGET``
+          -  
+          -  hinted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~CCMMotor.camonitor
+       ~CCMMotor.configure
+       ~CCMMotor.describe
+       ~CCMMotor.done_comparator
+       ~CCMMotor.end_monitor_thread
+       ~CCMMotor.get
+       ~CCMMotor.move
+       ~CCMMotor.mv
+       ~CCMMotor.mv_ginput
+       ~CCMMotor.mvr
+       ~CCMMotor.read
+       ~CCMMotor.read_configuration
+       ~CCMMotor.set
+       ~CCMMotor.stop
+       ~CCMMotor.summary
+       ~CCMMotor.trigger
+       ~CCMMotor.tweak
+       ~CCMMotor.umv
+       ~CCMMotor.umvr
+       ~CCMMotor.wait
+       ~CCMMotor.wm
+       ~CCMMotor.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~CCMMotor.actuate
+       ~CCMMotor.actuate_value
+       ~CCMMotor.atol
+       ~CCMMotor.configuration_attrs
+       ~CCMMotor.connected
+       ~CCMMotor.done_value
+       ~CCMMotor.egu
+       ~CCMMotor.high_limit
+       ~CCMMotor.hints
+       ~CCMMotor.kind
+       ~CCMMotor.limits
+       ~CCMMotor.low_limit
+       ~CCMMotor.moving
+       ~CCMMotor.position
+       ~CCMMotor.presets
+       ~CCMMotor.put_complete
+       ~CCMMotor.rtol
+       ~CCMMotor.settle_time
+       ~CCMMotor.stop_signal
+       ~CCMMotor.stop_value
+       ~CCMMotor.timeout
+    
+    

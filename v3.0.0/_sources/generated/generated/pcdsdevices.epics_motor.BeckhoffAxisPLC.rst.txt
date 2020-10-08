@@ -1,0 +1,84 @@
+pcdsdevices.epics\_motor.BeckhoffAxisPLC
+========================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. autoclass:: BeckhoffAxisPLC
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  status
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``sErrorMessage``
+          -  PLC error or warning
+          -  normal
+          -  
+   
+       *  -  err_code
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``nErrorId``
+          -  Current NC error code
+          -  normal
+          -  
+   
+       *  -  cmd_err_reset
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``bReset``
+          -  Command to reset an active error
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~BeckhoffAxisPLC.configure
+       ~BeckhoffAxisPLC.describe
+       ~BeckhoffAxisPLC.get
+       ~BeckhoffAxisPLC.read
+       ~BeckhoffAxisPLC.read_configuration
+       ~BeckhoffAxisPLC.stop
+       ~BeckhoffAxisPLC.summary
+       ~BeckhoffAxisPLC.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~BeckhoffAxisPLC.configuration_attrs
+       ~BeckhoffAxisPLC.connected
+       ~BeckhoffAxisPLC.hints
+       ~BeckhoffAxisPLC.kind
+    
+    

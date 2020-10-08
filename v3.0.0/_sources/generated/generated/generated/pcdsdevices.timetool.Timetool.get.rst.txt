@@ -1,0 +1,6 @@
+pcdsdevices.timetool.Timetool.get
+=================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: Timetool.get

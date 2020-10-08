@@ -1,0 +1,47 @@
+pcdsdevices.ipm.IPM\_Det
+========================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. autoclass:: IPM_Det
+
+   
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~IPM_Det.channel
+       ~IPM_Det.configure
+       ~IPM_Det.describe
+       ~IPM_Det.get
+       ~IPM_Det.isum
+       ~IPM_Det.read
+       ~IPM_Det.read_configuration
+       ~IPM_Det.stop
+       ~IPM_Det.summary
+       ~IPM_Det.trigger
+       ~IPM_Det.xpos
+       ~IPM_Det.ypos
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~IPM_Det.channels
+       ~IPM_Det.configuration_attrs
+       ~IPM_Det.connected
+       ~IPM_Det.hints
+       ~IPM_Det.kind
+    
+    

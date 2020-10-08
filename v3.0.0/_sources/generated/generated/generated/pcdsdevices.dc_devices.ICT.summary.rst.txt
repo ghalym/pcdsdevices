@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICT.summary
+===================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICT.summary

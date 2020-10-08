@@ -1,0 +1,32 @@
+pcdsdevices.interface.MvInterface
+=================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. autoclass:: MvInterface
+
+   
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~MvInterface.camonitor
+       ~MvInterface.end_monitor_thread
+       ~MvInterface.move
+       ~MvInterface.mv
+       ~MvInterface.wait
+       ~MvInterface.wm
+       ~MvInterface.wm_update
+    
+    
+
+    
+    
+    

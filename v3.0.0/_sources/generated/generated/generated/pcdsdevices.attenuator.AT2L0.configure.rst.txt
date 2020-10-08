@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AT2L0.configure
+======================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AT2L0.configure

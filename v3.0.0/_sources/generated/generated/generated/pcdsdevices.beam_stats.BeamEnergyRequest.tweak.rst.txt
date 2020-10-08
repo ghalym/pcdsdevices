@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.BeamEnergyRequest.tweak
+===============================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: BeamEnergyRequest.tweak

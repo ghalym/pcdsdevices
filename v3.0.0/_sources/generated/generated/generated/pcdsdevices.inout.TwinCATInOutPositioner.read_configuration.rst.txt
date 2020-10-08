@@ -1,0 +1,6 @@
+pcdsdevices.inout.TwinCATInOutPositioner.read\_configuration
+============================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: TwinCATInOutPositioner.read_configuration

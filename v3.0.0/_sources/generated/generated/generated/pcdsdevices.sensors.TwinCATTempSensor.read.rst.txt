@@ -1,0 +1,6 @@
+pcdsdevices.sensors.TwinCATTempSensor.read
+==========================================
+
+.. currentmodule:: pcdsdevices.sensors
+
+.. automethod:: TwinCATTempSensor.read

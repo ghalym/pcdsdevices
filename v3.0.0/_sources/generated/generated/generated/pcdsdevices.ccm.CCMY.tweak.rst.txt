@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMY.tweak
+==========================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMY.tweak

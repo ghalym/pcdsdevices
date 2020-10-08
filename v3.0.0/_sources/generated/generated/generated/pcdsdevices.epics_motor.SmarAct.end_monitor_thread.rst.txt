@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.SmarAct.end\_monitor\_thread
+=====================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: SmarAct.end_monitor_thread

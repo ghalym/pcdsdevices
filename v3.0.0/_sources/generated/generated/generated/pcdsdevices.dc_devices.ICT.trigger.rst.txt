@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICT.trigger
+===================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICT.trigger

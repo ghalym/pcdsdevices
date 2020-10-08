@@ -1,0 +1,6 @@
+pcdsdevices.slits.PowerSlits.trigger
+====================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: PowerSlits.trigger

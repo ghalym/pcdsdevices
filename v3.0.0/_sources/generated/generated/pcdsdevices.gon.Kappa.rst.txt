@@ -1,0 +1,111 @@
+pcdsdevices.gon.Kappa
+=====================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. autoclass:: Kappa
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  x (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_x}``
+          -  
+          -  normal
+          -  
+   
+       *  -  y (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_y}``
+          -  
+          -  normal
+          -  
+   
+       *  -  z (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_z}``
+          -  
+          -  normal
+          -  
+   
+       *  -  eta (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_eta}``
+          -  
+          -  normal
+          -  
+   
+       *  -  kappa (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_kappa}``
+          -  
+          -  normal
+          -  
+   
+       *  -  phi (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_phi}``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Kappa.configure
+       ~Kappa.describe
+       ~Kappa.get
+       ~Kappa.read
+       ~Kappa.read_configuration
+       ~Kappa.stop
+       ~Kappa.summary
+       ~Kappa.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Kappa.configuration_attrs
+       ~Kappa.connected
+       ~Kappa.hints
+       ~Kappa.kind
+    
+    

@@ -1,0 +1,6 @@
+pcdsdevices.slits.LusiSlitPositioner.end\_monitor\_thread
+=========================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: LusiSlitPositioner.end_monitor_thread

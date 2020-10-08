@@ -1,0 +1,6 @@
+pcdsdevices.gon.Kappa.read\_configuration
+=========================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: Kappa.read_configuration

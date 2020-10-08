@@ -1,0 +1,6 @@
+pcdsdevices.component.UnrelatedComponent.sub\_default
+=====================================================
+
+.. currentmodule:: pcdsdevices.component
+
+.. automethod:: UnrelatedComponent.sub_default

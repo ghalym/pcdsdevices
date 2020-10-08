@@ -1,0 +1,66 @@
+pcdsdevices.beam\_stats.SxrGmd
+==============================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. autoclass:: SxrGmd
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  mj
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``SXR:GMD:BLD:milliJoulesPerPulse``
+          -  
+          -  hinted
+          -  
+   
+
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~SxrGmd.configure
+       ~SxrGmd.describe
+       ~SxrGmd.get
+       ~SxrGmd.read
+       ~SxrGmd.read_configuration
+       ~SxrGmd.stop
+       ~SxrGmd.summary
+       ~SxrGmd.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~SxrGmd.configuration_attrs
+       ~SxrGmd.connected
+       ~SxrGmd.hints
+       ~SxrGmd.kind
+    
+    

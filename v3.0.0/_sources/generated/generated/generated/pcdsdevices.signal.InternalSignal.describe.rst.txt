@@ -1,0 +1,6 @@
+pcdsdevices.signal.InternalSignal.describe
+==========================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: InternalSignal.describe

@@ -1,0 +1,6 @@
+pcdsdevices.valve.VRC.trigger
+=============================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VRC.trigger

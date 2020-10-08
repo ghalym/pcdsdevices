@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPM\_Det.channel
+================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPM_Det.channel

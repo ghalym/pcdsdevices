@@ -1,0 +1,6 @@
+pcdsdevices.lens.Prefocus.end\_monitor\_thread
+==============================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: Prefocus.end_monitor_thread

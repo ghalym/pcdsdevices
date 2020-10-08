@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.PseudoPositioner.configure
+================================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: PseudoPositioner.configure

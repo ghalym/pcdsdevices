@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugePirani.read
+==================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugePirani.read

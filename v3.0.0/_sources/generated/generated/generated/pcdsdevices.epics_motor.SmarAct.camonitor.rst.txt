@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.SmarAct.camonitor
+==========================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: SmarAct.camonitor

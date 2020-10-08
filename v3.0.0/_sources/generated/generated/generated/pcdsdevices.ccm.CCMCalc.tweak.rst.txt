@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMCalc.tweak
+=============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMCalc.tweak

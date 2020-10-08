@@ -1,0 +1,6 @@
+pcdsdevices.slits.BeckhoffSlitPositioner.umv
+============================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BeckhoffSlitPositioner.umv

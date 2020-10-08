@@ -1,0 +1,97 @@
+pcdsdevices.pim.PIMWithFocus
+============================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. autoclass:: PIMWithFocus
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~pcdsdevices.pim.PIMY`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pim.PIM`
+   
+       *  -  zoom_motor (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_zoom}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pim.PIM`
+   
+       *  -  detector (FCpt)
+          -  :class:`~pcdsdevices.areadetector.detectors.PCDSAreaDetectorEmbedded`
+          -  ``{self._prefix_det}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pim.PIM`
+   
+       *  -  focus_motor (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_focus}``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~PIMWithFocus.configure
+       ~PIMWithFocus.describe
+       ~PIMWithFocus.get
+       ~PIMWithFocus.infer_prefix
+       ~PIMWithFocus.insert
+       ~PIMWithFocus.read
+       ~PIMWithFocus.read_configuration
+       ~PIMWithFocus.remove
+       ~PIMWithFocus.stop
+       ~PIMWithFocus.summary
+       ~PIMWithFocus.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~PIMWithFocus.configuration_attrs
+       ~PIMWithFocus.connected
+       ~PIMWithFocus.hints
+       ~PIMWithFocus.kind
+       ~PIMWithFocus.prefix_start
+    
+    

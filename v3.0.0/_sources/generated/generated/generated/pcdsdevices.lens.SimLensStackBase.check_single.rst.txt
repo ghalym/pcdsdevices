@@ -1,0 +1,6 @@
+pcdsdevices.lens.SimLensStackBase.check\_single
+===============================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: SimLensStackBase.check_single

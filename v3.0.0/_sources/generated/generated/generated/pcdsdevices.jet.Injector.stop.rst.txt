@@ -1,0 +1,6 @@
+pcdsdevices.jet.Injector.stop
+=============================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: Injector.stop

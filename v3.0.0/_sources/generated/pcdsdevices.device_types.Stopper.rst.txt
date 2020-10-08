@@ -1,0 +1,121 @@
+﻿pcdsdevices.device\_types.Stopper
+=================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. autoclass:: Stopper
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~pcdsdevices.state.PVStateSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.inout.InOutPVStatePositioner`
+   
+       *  -  open_limit
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:OPEN``
+          -  
+          -  normal
+          -  
+   
+       *  -  closed_limit
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:CLOSE``
+          -  
+          -  normal
+          -  
+   
+       *  -  command
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:CMD``
+          -  
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Stopper.camonitor
+       ~Stopper.check_inserted
+       ~Stopper.check_removed
+       ~Stopper.check_transmission
+       ~Stopper.close
+       ~Stopper.configure
+       ~Stopper.describe
+       ~Stopper.end_monitor_thread
+       ~Stopper.get
+       ~Stopper.get_state
+       ~Stopper.insert
+       ~Stopper.move
+       ~Stopper.mv
+       ~Stopper.open
+       ~Stopper.read
+       ~Stopper.read_configuration
+       ~Stopper.remove
+       ~Stopper.set
+       ~Stopper.stop
+       ~Stopper.summary
+       ~Stopper.trigger
+       ~Stopper.wait
+       ~Stopper.wm
+       ~Stopper.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Stopper.configuration_attrs
+       ~Stopper.connected
+       ~Stopper.egu
+       ~Stopper.high_limit
+       ~Stopper.hints
+       ~Stopper.in_states
+       ~Stopper.kind
+       ~Stopper.limits
+       ~Stopper.low_limit
+       ~Stopper.moving
+       ~Stopper.out_states
+       ~Stopper.position
+       ~Stopper.settle_time
+       ~Stopper.states_list
+       ~Stopper.timeout
+       ~Stopper.transmission
+    
+    

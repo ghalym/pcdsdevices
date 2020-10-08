@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPIMB.describe
+==============================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPIMB.describe

@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Acromag.read
+======================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Acromag.read

@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.SyncAxesBase.umvr
+=======================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: SyncAxesBase.umvr

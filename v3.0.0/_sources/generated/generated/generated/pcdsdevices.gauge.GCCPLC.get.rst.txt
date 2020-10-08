@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCCPLC.get
+============================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCCPLC.get

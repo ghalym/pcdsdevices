@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMMotion.remove
+================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMMotion.remove

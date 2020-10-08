@@ -1,0 +1,6 @@
+pcdsdevices.inout.InOutPositioner.check\_removed
+================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: InOutPositioner.check_removed

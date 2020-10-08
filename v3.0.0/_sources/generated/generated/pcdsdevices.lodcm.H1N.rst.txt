@@ -1,0 +1,101 @@
+pcdsdevices.lodcm.H1N
+=====================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. autoclass:: H1N
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+       *  -  motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:MOTOR``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~H1N.camonitor
+       ~H1N.check_inserted
+       ~H1N.check_removed
+       ~H1N.check_transmission
+       ~H1N.configure
+       ~H1N.describe
+       ~H1N.end_monitor_thread
+       ~H1N.get
+       ~H1N.get_state
+       ~H1N.insert
+       ~H1N.move
+       ~H1N.mv
+       ~H1N.read
+       ~H1N.read_configuration
+       ~H1N.remove
+       ~H1N.set
+       ~H1N.stop
+       ~H1N.summary
+       ~H1N.trigger
+       ~H1N.wait
+       ~H1N.wm
+       ~H1N.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~H1N.configuration_attrs
+       ~H1N.connected
+       ~H1N.egu
+       ~H1N.high_limit
+       ~H1N.hints
+       ~H1N.in_states
+       ~H1N.kind
+       ~H1N.limits
+       ~H1N.low_limit
+       ~H1N.moving
+       ~H1N.out_states
+       ~H1N.position
+       ~H1N.settle_time
+       ~H1N.states_list
+       ~H1N.timeout
+       ~H1N.transmission
+    
+    

@@ -1,0 +1,147 @@
+pcdsdevices.state.TwinCATStatePositioner
+========================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. autoclass:: TwinCATStatePositioner
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:GET_RBV``
+          -  Setpoint and readback for TwinCAT state position.
+          -  hinted
+          -  
+   
+       *  -  error
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:ERR``
+          -  True if we have an error.
+          -  normal
+          -  
+   
+       *  -  error_id
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:ERRID``
+          -  Error code.
+          -  normal
+          -  
+   
+       *  -  error_message
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:ERRMSG``
+          -  Error message
+          -  normal
+          -  
+   
+       *  -  busy
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:BUSY``
+          -  True if we have an ongoing move.
+          -  normal
+          -  
+   
+       *  -  done
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:DONE``
+          -  True if we completed the last move.
+          -  normal
+          -  
+   
+       *  -  reset_cmd
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:RESET``
+          -  Command to reset an error.
+          -  normal
+          -  
+   
+       *  -  config
+          -  :class:`~pcdsdevices.state.TwinCATStateConfigAll`
+          -  
+          -  Configuration of state positions, deltas, etc.
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~TwinCATStatePositioner.camonitor
+       ~TwinCATStatePositioner.configure
+       ~TwinCATStatePositioner.describe
+       ~TwinCATStatePositioner.end_monitor_thread
+       ~TwinCATStatePositioner.get
+       ~TwinCATStatePositioner.get_state
+       ~TwinCATStatePositioner.move
+       ~TwinCATStatePositioner.mv
+       ~TwinCATStatePositioner.read
+       ~TwinCATStatePositioner.read_configuration
+       ~TwinCATStatePositioner.set
+       ~TwinCATStatePositioner.stop
+       ~TwinCATStatePositioner.summary
+       ~TwinCATStatePositioner.trigger
+       ~TwinCATStatePositioner.wait
+       ~TwinCATStatePositioner.wm
+       ~TwinCATStatePositioner.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~TwinCATStatePositioner.configuration_attrs
+       ~TwinCATStatePositioner.connected
+       ~TwinCATStatePositioner.egu
+       ~TwinCATStatePositioner.high_limit
+       ~TwinCATStatePositioner.hints
+       ~TwinCATStatePositioner.kind
+       ~TwinCATStatePositioner.limits
+       ~TwinCATStatePositioner.low_limit
+       ~TwinCATStatePositioner.moving
+       ~TwinCATStatePositioner.position
+       ~TwinCATStatePositioner.settle_time
+       ~TwinCATStatePositioner.states_list
+       ~TwinCATStatePositioner.timeout
+    
+    

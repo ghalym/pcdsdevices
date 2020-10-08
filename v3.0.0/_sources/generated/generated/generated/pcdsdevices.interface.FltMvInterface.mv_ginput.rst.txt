@@ -1,0 +1,6 @@
+pcdsdevices.interface.FltMvInterface.mv\_ginput
+===============================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: FltMvInterface.mv_ginput

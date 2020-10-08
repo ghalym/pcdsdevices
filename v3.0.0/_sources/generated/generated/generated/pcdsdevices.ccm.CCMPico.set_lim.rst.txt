@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMPico.set\_lim
+================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMPico.set_lim

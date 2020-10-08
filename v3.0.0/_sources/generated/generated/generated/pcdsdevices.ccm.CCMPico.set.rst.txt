@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMPico.set
+===========================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMPico.set
