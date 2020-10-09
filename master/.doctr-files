@@ -3768,6 +3768,7 @@ master/_sources/sample_delivery.rst.txt
 master/_sources/sim_types.rst.txt
 master/_sources/tab.rst.txt
 master/_sources/upcoming_changes.rst.txt
+master/_sources/upcoming_release_notes/23-target-stages.rst.txt
 master/_sources/upcoming_release_notes/610-cam-beam-stats.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
@@ -7629,6 +7630,7 @@ master/searchindex.js
 master/sim_types.html
 master/tab.html
 master/upcoming_changes.html
+master/upcoming_release_notes/23-target-stages.html
 master/upcoming_release_notes/610-cam-beam-stats.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html
