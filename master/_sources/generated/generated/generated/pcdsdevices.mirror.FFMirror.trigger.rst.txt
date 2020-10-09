@@ -1,0 +1,6 @@
+pcdsdevices.mirror.FFMirror.trigger
+===================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: FFMirror.trigger

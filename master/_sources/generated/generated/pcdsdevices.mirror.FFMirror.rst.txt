@@ -1,0 +1,112 @@
+pcdsdevices.mirror.FFMirror
+===========================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. autoclass:: FFMirror
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  x
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``:MMS:Y``
+          -  
+          -  hinted
+          -  
+   
+       *  -  y
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``:MMS:X``
+          -  
+          -  hinted
+          -  
+   
+       *  -  pitch
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``:MMS:PITCH``
+          -  
+          -  hinted
+          -  
+   
+       *  -  y_enc_rms
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:ENC:Y:RMS``
+          -  
+          -  normal
+          -  
+   
+       *  -  x_enc_rms
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:ENC:X:RMS``
+          -  
+          -  normal
+          -  
+   
+       *  -  pitch_enc_rms
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:ENC:PITCH:RMS``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~FFMirror.configure
+       ~FFMirror.describe
+       ~FFMirror.get
+       ~FFMirror.read
+       ~FFMirror.read_configuration
+       ~FFMirror.stop
+       ~FFMirror.summary
+       ~FFMirror.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~FFMirror.configuration_attrs
+       ~FFMirror.connected
+       ~FFMirror.hints
+       ~FFMirror.kind
+       ~FFMirror.transmission
+    
+    

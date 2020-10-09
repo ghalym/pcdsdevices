@@ -1,0 +1,6 @@
+pcdsdevices.mirror.FFMirror.stop
+================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: FFMirror.stop

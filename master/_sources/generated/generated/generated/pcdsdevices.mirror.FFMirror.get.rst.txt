@@ -1,0 +1,6 @@
+pcdsdevices.mirror.FFMirror.get
+===============================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: FFMirror.get

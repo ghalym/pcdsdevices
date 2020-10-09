@@ -14,7 +14,9 @@
    .. autosummary::
       :toctree: generated
    
+      FFMirror
       Gantry
+      KBOMirror
       OMMotor
       OffsetMirror
       Pitch

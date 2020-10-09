@@ -1,0 +1,6 @@
+pcdsdevices.mirror.KBOMirror.stop
+=================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: KBOMirror.stop
