@@ -20,14 +20,14 @@ pcdsdevices.mirror.KBOMirror
    
        *  -  x
           -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
-          -  ``:MMS:Y``
+          -  ``:MMS:X``
           -  
           -  hinted
           -  
    
        *  -  y
           -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
-          -  ``:MMS:X``
+          -  ``:MMS:Y``
           -  
           -  hinted
           -  
@@ -53,16 +53,16 @@ pcdsdevices.mirror.KBOMirror
           -  hinted
           -  
    
-       *  -  y_enc_rms
+       *  -  x_enc_rms
           -  :class:`~pcdsdevices.signal.PytmcSignal`
-          -  ``:ENC:Y:RMS``
+          -  ``:ENC:X:RMS``
           -  
           -  normal
           -  
    
-       *  -  x_enc_rms
+       *  -  y_enc_rms
           -  :class:`~pcdsdevices.signal.PytmcSignal`
-          -  ``:ENC:X:RMS``
+          -  ``:ENC:Y:RMS``
           -  
           -  normal
           -  
@@ -88,7 +88,25 @@ pcdsdevices.mirror.KBOMirror
           -  normal
           -  
    
+       *  -  us_rtd
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:RTD:BEND:US:1_RBV``
+          -  
+          -  normal
+          -  
+   
+       *  -  ds_rtd
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:RTD:BEND:DS:1_RBV``
+          -  
+          -  normal
+          -  
+   
 
+   
+   
+   
+   
    
    
    

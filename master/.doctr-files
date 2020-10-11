@@ -3790,6 +3790,7 @@ master/_sources/upcoming_release_notes/23-target-stages.rst.txt
 master/_sources/upcoming_release_notes/610-cam-beam-stats.rst.txt
 master/_sources/upcoming_release_notes/612-DEV:_Add_KB_mirror_class.rst.txt
 master/_sources/upcoming_release_notes/614-LAMP_motion_system_class.rst.txt
+master/_sources/upcoming_release_notes/618-DEV:_Add_KBO_tests.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -7672,5 +7673,6 @@ master/upcoming_release_notes/23-target-stages.html
 master/upcoming_release_notes/610-cam-beam-stats.html
 master/upcoming_release_notes/612-DEV:_Add_KB_mirror_class.html
 master/upcoming_release_notes/614-LAMP_motion_system_class.html
+master/upcoming_release_notes/618-DEV:_Add_KBO_tests.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html
