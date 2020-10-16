@@ -694,13 +694,9 @@ master/_sources/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.mv
 master/_sources/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.mvr.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.read.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.read_configuration.rst.txt
-master/_sources/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.screen.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.set.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.set_current_position.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.set_lim.rst.txt
-master/_sources/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.spg_go.rst.txt
-master/_sources/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.spg_pause.rst.txt
-master/_sources/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.spg_stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.trigger.rst.txt
@@ -3792,6 +3788,7 @@ master/_sources/upcoming_release_notes/612-DEV:_Add_KB_mirror_class.rst.txt
 master/_sources/upcoming_release_notes/614-LAMP_motion_system_class.rst.txt
 master/_sources/upcoming_release_notes/618-DEV:_Add_KBO_tests.rst.txt
 master/_sources/upcoming_release_notes/620-ref-pico.rst.txt
+master/_sources/upcoming_release_notes/621-SmarAct-Classes.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -4573,13 +4570,9 @@ master/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.mv_ginput.h
 master/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.mvr.html
 master/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.read.html
 master/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.read_configuration.html
-master/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.screen.html
 master/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.set.html
 master/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.set_current_position.html
 master/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.set_lim.html
-master/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.spg_go.html
-master/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.spg_pause.html
-master/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.spg_stop.html
 master/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.stop.html
 master/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.summary.html
 master/generated/generated/generated/pcdsdevices.epics_motor.SmarAct.trigger.html
@@ -7676,5 +7669,6 @@ master/upcoming_release_notes/612-DEV:_Add_KB_mirror_class.html
 master/upcoming_release_notes/614-LAMP_motion_system_class.html
 master/upcoming_release_notes/618-DEV:_Add_KBO_tests.html
 master/upcoming_release_notes/620-ref-pico.html
+master/upcoming_release_notes/621-SmarAct-Classes.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html
