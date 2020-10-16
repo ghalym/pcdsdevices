@@ -16,7 +16,7 @@
    
       BeamEnergyRequest
       BeamStats
-      SxrGmd
+      LCLS
    
    
 

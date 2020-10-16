@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.LCLS.read\_configuration
+================================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: LCLS.read_configuration

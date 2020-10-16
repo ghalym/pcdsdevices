@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.LCLS.describe
+=====================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: LCLS.describe

@@ -21,28 +21,28 @@ pcdsdevices.beam\_stats.BeamStats
        *  -  mj
           -  :class:`~ophyd.signal.EpicsSignalRO`
           -  ``GDET:FEE1:241:ENRC``
-          -  
+          -  Pulse energy [mJ]
           -  hinted
           -  
    
        *  -  ev
           -  :class:`~ophyd.signal.EpicsSignalRO`
           -  ``BLD:SYS0:500:PHOTONENERGY``
-          -  
+          -  Photon Energy [eV]
           -  normal
           -  
    
        *  -  rate
           -  :class:`~ophyd.signal.EpicsSignalRO`
           -  ``EVNT:SYS0:1:LCLSBEAMRATE``
-          -  
+          -  LCLSBEAM Event Rate [Hz]
           -  normal
           -  
    
        *  -  owner
           -  :class:`~ophyd.signal.EpicsSignalRO`
           -  ``ECS:SYS0:0:BEAM_OWNER_ID``
-          -  
+          -  BEAM_OWNER ID
           -  omitted
           -  
    

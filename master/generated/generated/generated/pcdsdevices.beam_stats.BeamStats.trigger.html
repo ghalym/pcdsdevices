@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.beam_stats.BeamStats.trigger &mdash; PCDS Devices 3.0.0+47.g98adc19 documentation</title>
+  <title>pcdsdevices.beam_stats.BeamStats.trigger &mdash; PCDS Devices 3.0.0+60.g2e716aa documentation</title>
   
 
   
@@ -37,7 +37,7 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.beam_stats.SxrGmd" href="../pcdsdevices.beam_stats.SxrGmd.html" />
+    <link rel="next" title="pcdsdevices.beam_stats.LCLS" href="../pcdsdevices.beam_stats.LCLS.html" />
     <link rel="prev" title="pcdsdevices.beam_stats.BeamStats.summary" href="pcdsdevices.beam_stats.BeamStats.summary.html" /> 
 </head>
 
@@ -62,7 +62,7 @@
             
             
               <div class="version">
-                3.0.0+47.g98adc19
+                3.0.0+60.g2e716aa
               </div>
             
           
@@ -121,7 +121,7 @@
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.beam_stats.BeamStats.trigger</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.beam_stats.SxrGmd.html">pcdsdevices.beam_stats.SxrGmd</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.beam_stats.LCLS.html">pcdsdevices.beam_stats.LCLS</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
@@ -233,7 +233,7 @@
 <h1>pcdsdevices.beam_stats.BeamStats.trigger<a class="headerlink" href="#pcdsdevices-beam-stats-beamstats-trigger" title="Permalink to this headline">¶</a></h1>
 <dl class="py method">
 <dt id="pcdsdevices.beam_stats.BeamStats.trigger">
-<code class="sig-prename descclassname">BeamStats.</code><code class="sig-name descname">trigger</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; <a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.5.3.post44+g4440bc7)">ophyd.status.StatusBase</a><a class="headerlink" href="#pcdsdevices.beam_stats.BeamStats.trigger" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">BeamStats.</code><code class="sig-name descname">trigger</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; <a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.5.3.post46+g05cc6fa)">ophyd.status.StatusBase</a><a class="headerlink" href="#pcdsdevices.beam_stats.BeamStats.trigger" title="Permalink to this definition">¶</a></dt>
 <dd><p>Trigger the device and return status object.</p>
 <p>This method is responsible for implementing ‘trigger’ or
 ‘acquire’ functionality of this device.</p>
@@ -241,14 +241,14 @@
 and it being able to be read (via the
 <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code> method) then this method is
 also responsible for arranging that the
-<a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.5.3.post44+g4440bc7)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a> object returned by this method
+<a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.5.3.post46+g05cc6fa)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a> object returned by this method
 is notified when the device is ready to be read.</p>
 <p>If there is no delay between triggering and being readable,
-then this method must return a <a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.5.3.post44+g4440bc7)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a>
+then this method must return a <a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.5.3.post46+g05cc6fa)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a>
 object which is already completed.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p><strong>status</strong> (<em>StatusBase</em>) – <a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.5.3.post44+g4440bc7)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a> object which will be marked
+<dd class="field-odd"><p><strong>status</strong> (<em>StatusBase</em>) – <a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.5.3.post46+g05cc6fa)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a> object which will be marked
 as complete when the device is ready to be read.</p>
 </dd>
 </dl>
@@ -264,7 +264,7 @@ as complete when the device is ready to be read.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../pcdsdevices.beam_stats.SxrGmd.html" class="btn btn-neutral float-right" title="pcdsdevices.beam_stats.SxrGmd" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="../pcdsdevices.beam_stats.LCLS.html" class="btn btn-neutral float-right" title="pcdsdevices.beam_stats.LCLS" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="pcdsdevices.beam_stats.BeamStats.summary.html" class="btn btn-neutral float-left" title="pcdsdevices.beam_stats.BeamStats.summary" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

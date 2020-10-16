@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.LCLS.get
+================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: LCLS.get
