@@ -3795,6 +3795,7 @@ master/_sources/upcoming_release_notes/618-DEV:_Add_KBO_tests.rst.txt
 master/_sources/upcoming_release_notes/619-New_Lcls_object_to_query_machine_status.rst.txt
 master/_sources/upcoming_release_notes/620-ref-pico.rst.txt
 master/_sources/upcoming_release_notes/621-SmarAct-Classes.rst.txt
+master/_sources/upcoming_release_notes/623-elliptec-update.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -7682,5 +7683,6 @@ master/upcoming_release_notes/618-DEV:_Add_KBO_tests.html
 master/upcoming_release_notes/619-New_Lcls_object_to_query_machine_status.html
 master/upcoming_release_notes/620-ref-pico.html
 master/upcoming_release_notes/621-SmarAct-Classes.html
+master/upcoming_release_notes/623-elliptec-update.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html
