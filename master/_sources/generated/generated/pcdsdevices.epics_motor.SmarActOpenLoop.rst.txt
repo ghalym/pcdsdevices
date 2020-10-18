@@ -54,7 +54,7 @@ pcdsdevices.epics\_motor.SmarActOpenLoop
           -  
    
        *  -  total_step_count
-          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  :class:`~ophyd.signal.EpicsSignal`
           -  ``:TOTAL_STEP_COUNT``
           -  
           -  normal

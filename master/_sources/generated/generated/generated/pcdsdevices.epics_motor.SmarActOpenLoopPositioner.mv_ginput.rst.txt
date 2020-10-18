@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.SmarActOpenLoopPositioner.mv\_ginput
+=============================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: SmarActOpenLoopPositioner.mv_ginput

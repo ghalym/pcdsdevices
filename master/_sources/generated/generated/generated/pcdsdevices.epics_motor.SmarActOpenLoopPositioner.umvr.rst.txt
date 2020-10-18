@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.SmarActOpenLoopPositioner.umvr
+=======================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: SmarActOpenLoopPositioner.umvr

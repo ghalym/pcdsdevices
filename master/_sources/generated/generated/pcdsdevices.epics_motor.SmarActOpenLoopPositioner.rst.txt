@@ -1,0 +1,123 @@
+pcdsdevices.epics\_motor.SmarActOpenLoopPositioner
+==================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. autoclass:: SmarActOpenLoopPositioner
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  done
+          -  :class:`~pcdsdevices.signal.InternalSignal`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pv_positioner.PVPositionerComparator`
+   
+       *  -  setpoint
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:SET_TOTAL_STEP_COUNT``
+          -  
+          -  normal
+          -  
+   
+       *  -  readback
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:TOTAL_STEP_COUNT``
+          -  
+          -  normal
+          -  
+   
+       *  -  open_loop
+          -  :class:`~pcdsdevices.epics_motor.SmarActOpenLoop`
+          -  
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~SmarActOpenLoopPositioner.camonitor
+       ~SmarActOpenLoopPositioner.configure
+       ~SmarActOpenLoopPositioner.describe
+       ~SmarActOpenLoopPositioner.done_comparator
+       ~SmarActOpenLoopPositioner.end_monitor_thread
+       ~SmarActOpenLoopPositioner.get
+       ~SmarActOpenLoopPositioner.move
+       ~SmarActOpenLoopPositioner.mv
+       ~SmarActOpenLoopPositioner.mv_ginput
+       ~SmarActOpenLoopPositioner.mvr
+       ~SmarActOpenLoopPositioner.read
+       ~SmarActOpenLoopPositioner.read_configuration
+       ~SmarActOpenLoopPositioner.set
+       ~SmarActOpenLoopPositioner.stop
+       ~SmarActOpenLoopPositioner.summary
+       ~SmarActOpenLoopPositioner.trigger
+       ~SmarActOpenLoopPositioner.tweak
+       ~SmarActOpenLoopPositioner.umv
+       ~SmarActOpenLoopPositioner.umvr
+       ~SmarActOpenLoopPositioner.wait
+       ~SmarActOpenLoopPositioner.wm
+       ~SmarActOpenLoopPositioner.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~SmarActOpenLoopPositioner.actuate
+       ~SmarActOpenLoopPositioner.actuate_value
+       ~SmarActOpenLoopPositioner.atol
+       ~SmarActOpenLoopPositioner.configuration_attrs
+       ~SmarActOpenLoopPositioner.connected
+       ~SmarActOpenLoopPositioner.done_value
+       ~SmarActOpenLoopPositioner.egu
+       ~SmarActOpenLoopPositioner.high_limit
+       ~SmarActOpenLoopPositioner.hints
+       ~SmarActOpenLoopPositioner.kind
+       ~SmarActOpenLoopPositioner.limits
+       ~SmarActOpenLoopPositioner.low_limit
+       ~SmarActOpenLoopPositioner.moving
+       ~SmarActOpenLoopPositioner.position
+       ~SmarActOpenLoopPositioner.presets
+       ~SmarActOpenLoopPositioner.put_complete
+       ~SmarActOpenLoopPositioner.settle_time
+       ~SmarActOpenLoopPositioner.stop_signal
+       ~SmarActOpenLoopPositioner.stop_value
+       ~SmarActOpenLoopPositioner.timeout
+    
+    

@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.SmarActOpenLoopPositioner.configure
+============================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: SmarActOpenLoopPositioner.configure

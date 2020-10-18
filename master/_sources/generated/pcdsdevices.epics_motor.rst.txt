@@ -31,6 +31,7 @@
       PMC100
       SmarAct
       SmarActOpenLoop
+      SmarActOpenLoopPositioner
    
    
 
