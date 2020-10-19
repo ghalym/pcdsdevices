@@ -3820,6 +3820,7 @@ master/_sources/upcoming_release_notes/620-ref-pico.rst.txt
 master/_sources/upcoming_release_notes/621-SmarAct-Classes.rst.txt
 master/_sources/upcoming_release_notes/623-elliptec-update.rst.txt
 master/_sources/upcoming_release_notes/625-SmarAct-open-loop-scanning.rst.txt
+master/_sources/upcoming_release_notes/630-TuttiFrutti-WFS.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -7732,5 +7733,6 @@ master/upcoming_release_notes/620-ref-pico.html
 master/upcoming_release_notes/621-SmarAct-Classes.html
 master/upcoming_release_notes/623-elliptec-update.html
 master/upcoming_release_notes/625-SmarAct-open-loop-scanning.html
+master/upcoming_release_notes/630-TuttiFrutti-WFS.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html
