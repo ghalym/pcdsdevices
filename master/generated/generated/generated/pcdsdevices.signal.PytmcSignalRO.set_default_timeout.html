@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.signal.PytmcSignalRO.set_default_timeout &mdash; PCDS Devices 3.0.0+76.g9b2fb6b documentation</title>
+  <title>pcdsdevices.signal.PytmcSignalRO.set_default_timeout &mdash; PCDS Devices 3.1.0 documentation</title>
   
 
   
@@ -62,7 +62,7 @@
             
             
               <div class="version">
-                3.0.0+76.g9b2fb6b
+                3.1.0
               </div>
             
           
@@ -248,6 +248,18 @@
 <dd><p>Set the class-wide defaults for timeouts</p>
 <p>This may only be called before any instances of EpicsSignalBase are
 made.</p>
+<p>This setting applies to the class it is called on and all its
+subclasses. For example,</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">EpicsSignalBase</span><span class="o">.</span><span class="n">set_default_timeout</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>will apply to <code class="docutils literal notranslate"><span class="pre">EpicsSignalRO</span></code> and <code class="docutils literal notranslate"><span class="pre">EpicsSignal</span></code>, which are both
+subclasses of <code class="docutils literal notranslate"><span class="pre">EpicsSignalBase</span></code>.</p>
+<p>but</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">EpicsSignal</span><span class="o">.</span><span class="n">set_default_timeout</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>will not apply to <code class="docutils literal notranslate"><span class="pre">EpicsSignalRO</span></code>.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
