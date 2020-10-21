@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.H1N.wait
+==========================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: H1N.wait

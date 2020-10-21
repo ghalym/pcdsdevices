@@ -1,0 +1,6 @@
+pcdsdevices.signal.PytmcSignalRW.get\_setpoint
+==============================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: PytmcSignalRW.get_setpoint

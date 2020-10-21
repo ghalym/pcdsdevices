@@ -1,0 +1,6 @@
+pcdsdevices.pump.GammaPCT.get
+=============================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: GammaPCT.get

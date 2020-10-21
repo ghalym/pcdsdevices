@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.LCLS.bykik\_set\_period
+===============================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: LCLS.bykik_set_period

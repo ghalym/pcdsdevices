@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithFocus.remove
+===================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithFocus.remove

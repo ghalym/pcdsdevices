@@ -1,0 +1,174 @@
+pcdsdevices.mirror.Pitch
+========================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. autoclass:: Pitch
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  readback
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:RBV``
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  setpoint
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:VAL``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  done
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:DMOV``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  motor_egu
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:RBV.EGU``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  interlock
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:INTERLOCK``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  enabled
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:ENABLED``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  low_limit_switch
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:LLS``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  high_limit_switch
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:HLS``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.mirror.OMMotor`
+   
+       *  -  piezo_volts (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``{self._piezo}:VRBV``
+          -  
+          -  normal
+          -  
+   
+       *  -  stop_signal (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{self._piezo}:STOP``
+          -  
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Pitch.camonitor
+       ~Pitch.configure
+       ~Pitch.describe
+       ~Pitch.end_monitor_thread
+       ~Pitch.get
+       ~Pitch.move
+       ~Pitch.mv
+       ~Pitch.mv_ginput
+       ~Pitch.mvr
+       ~Pitch.read
+       ~Pitch.read_configuration
+       ~Pitch.set
+       ~Pitch.stop
+       ~Pitch.summary
+       ~Pitch.trigger
+       ~Pitch.tweak
+       ~Pitch.umv
+       ~Pitch.umvr
+       ~Pitch.wait
+       ~Pitch.wm
+       ~Pitch.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Pitch.actuate
+       ~Pitch.actuate_value
+       ~Pitch.configuration_attrs
+       ~Pitch.connected
+       ~Pitch.done_value
+       ~Pitch.egu
+       ~Pitch.high_limit
+       ~Pitch.hints
+       ~Pitch.kind
+       ~Pitch.limits
+       ~Pitch.low_limit
+       ~Pitch.moving
+       ~Pitch.position
+       ~Pitch.presets
+       ~Pitch.put_complete
+       ~Pitch.settle_time
+       ~Pitch.stop_value
+       ~Pitch.timeout
+    
+    

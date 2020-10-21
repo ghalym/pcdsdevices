@@ -1,0 +1,6 @@
+pcdsdevices.slits.LusiSlitPositioner.trigger
+============================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: LusiSlitPositioner.trigger

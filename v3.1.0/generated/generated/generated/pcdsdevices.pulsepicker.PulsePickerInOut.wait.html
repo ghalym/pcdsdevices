@@ -1,0 +1,316 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>pcdsdevices.pulsepicker.PulsePickerInOut.wait &mdash; PCDS Devices 3.1.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/theme_overrides.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="pcdsdevices.pulsepicker.PulsePickerInOut.wm" href="pcdsdevices.pulsepicker.PulsePickerInOut.wm.html" />
+    <link rel="prev" title="pcdsdevices.pulsepicker.PulsePickerInOut.trigger" href="pcdsdevices.pulsepicker.PulsePickerInOut.trigger.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home" alt="Documentation Home"> PCDS Devices
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                3.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Features</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../mv.html">Shortcuts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../presets.html">Preset Positions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../tab.html">IPython Tab Curation</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Device Types</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../epics_types.html">Common EPICS Devices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../base_classes.html">Base Classes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sim_types.html">Simulated Devices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sample_delivery.html">Sample Delivery</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../sample_delivery.html#api">API</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developer Notes</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../releases.html">Release History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../upcoming_changes.html">Upcoming Changes</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../api.html">Full API</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.analog_signals.html">pcdsdevices.analog_signals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.component.html">pcdsdevices.component</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.evr.html">pcdsdevices.evr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.gon.html">pcdsdevices.gon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.interface.html">pcdsdevices.interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.jet.html">pcdsdevices.jet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.lodcm.html">pcdsdevices.lodcm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mirror.html">pcdsdevices.mirror</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.movablestand.html">pcdsdevices.movablestand</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mps.html">pcdsdevices.mps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mv_interface.html">pcdsdevices.mv_interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.pulsepicker.PulsePicker.html">pcdsdevices.pulsepicker.PulsePicker</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.pulsepicker.PulsePickerInOut.html">pcdsdevices.pulsepicker.PulsePickerInOut</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePickerInOut.burst.html">pcdsdevices.pulsepicker.PulsePickerInOut.burst</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePickerInOut.camonitor.html">pcdsdevices.pulsepicker.PulsePickerInOut.camonitor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePickerInOut.check_inserted.html">pcdsdevices.pulsepicker.PulsePickerInOut.check_inserted</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePickerInOut.check_removed.html">pcdsdevices.pulsepicker.PulsePickerInOut.check_removed</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePickerInOut.check_transmission.html">pcdsdevices.pulsepicker.PulsePickerInOut.check_transmission</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePickerInOut.close.html">pcdsdevices.pulsepicker.PulsePickerInOut.close</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePickerInOut.configure.html">pcdsdevices.pulsepicker.PulsePickerInOut.configure</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePickerInOut.describe.html">pcdsdevices.pulsepicker.PulsePickerInOut.describe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePickerInOut.end_monitor_thread.html">pcdsdevices.pulsepicker.PulsePickerInOut.end_monitor_thread</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePickerInOut.flipflop.html">pcdsdevices.pulsepicker.PulsePickerInOut.flipflop</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePickerInOut.follower.html">pcdsdevices.pulsepicker.PulsePickerInOut.follower</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePickerInOut.get.html">pcdsdevices.pulsepicker.PulsePickerInOut.get</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePickerInOut.get_state.html">pcdsdevices.pulsepicker.PulsePickerInOut.get_state</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePickerInOut.insert.html">pcdsdevices.pulsepicker.PulsePickerInOut.insert</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePickerInOut.move.html">pcdsdevices.pulsepicker.PulsePickerInOut.move</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePickerInOut.mv.html">pcdsdevices.pulsepicker.PulsePickerInOut.mv</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePickerInOut.open.html">pcdsdevices.pulsepicker.PulsePickerInOut.open</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePickerInOut.read.html">pcdsdevices.pulsepicker.PulsePickerInOut.read</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePickerInOut.read_configuration.html">pcdsdevices.pulsepicker.PulsePickerInOut.read_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePickerInOut.remove.html">pcdsdevices.pulsepicker.PulsePickerInOut.remove</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePickerInOut.reset.html">pcdsdevices.pulsepicker.PulsePickerInOut.reset</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePickerInOut.set.html">pcdsdevices.pulsepicker.PulsePickerInOut.set</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePickerInOut.stop.html">pcdsdevices.pulsepicker.PulsePickerInOut.stop</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePickerInOut.summary.html">pcdsdevices.pulsepicker.PulsePickerInOut.summary</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePickerInOut.trigger.html">pcdsdevices.pulsepicker.PulsePickerInOut.trigger</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.pulsepicker.PulsePickerInOut.wait</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePickerInOut.wm.html">pcdsdevices.pulsepicker.PulsePickerInOut.wm</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePickerInOut.wm_update.html">pcdsdevices.pulsepicker.PulsePickerInOut.wm_update</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pump.html">pcdsdevices.pump</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.sensors.html">pcdsdevices.sensors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.sequencer.html">pcdsdevices.sequencer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.signal.html">pcdsdevices.signal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.sim.html">pcdsdevices.sim</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.slits.html">pcdsdevices.slits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.state.html">pcdsdevices.state</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.timetool.html">pcdsdevices.timetool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.utils.html">pcdsdevices.utils</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.valve.html">pcdsdevices.valve</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">PCDS Devices</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../../api.html">Full API</a> &raquo;</li>
+        
+          <li><a href="../../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a> &raquo;</li>
+        
+          <li><a href="../pcdsdevices.pulsepicker.PulsePickerInOut.html">pcdsdevices.pulsepicker.PulsePickerInOut</a> &raquo;</li>
+        
+      <li>pcdsdevices.pulsepicker.PulsePickerInOut.wait</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../../_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.wait.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="pcdsdevices-pulsepicker-pulsepickerinout-wait">
+<h1>pcdsdevices.pulsepicker.PulsePickerInOut.wait<a class="headerlink" href="#pcdsdevices-pulsepicker-pulsepickerinout-wait" title="Permalink to this headline">¶</a></h1>
+<dl class="py method">
+<dt id="pcdsdevices.pulsepicker.PulsePickerInOut.wait">
+<code class="sig-prename descclassname">PulsePickerInOut.</code><code class="sig-name descname">wait</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">timeout</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.pulsepicker.PulsePickerInOut.wait" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="pcdsdevices.pulsepicker.PulsePickerInOut.wm.html" class="btn btn-neutral float-right" title="pcdsdevices.pulsepicker.PulsePickerInOut.wm" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="pcdsdevices.pulsepicker.PulsePickerInOut.trigger.html" class="btn btn-neutral float-left" title="pcdsdevices.pulsepicker.PulsePickerInOut.trigger" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, SLAC National Accelerator Laboratory
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+pcdsdevices.signal.UnitConversionDerivedSignal.inverse
+======================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: UnitConversionDerivedSignal.inverse

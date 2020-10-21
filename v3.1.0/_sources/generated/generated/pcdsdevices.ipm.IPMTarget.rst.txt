@@ -1,0 +1,101 @@
+pcdsdevices.ipm.IPMTarget
+=========================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. autoclass:: IPMTarget
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+       *  -  motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:MOTOR``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~IPMTarget.camonitor
+       ~IPMTarget.check_inserted
+       ~IPMTarget.check_removed
+       ~IPMTarget.check_transmission
+       ~IPMTarget.configure
+       ~IPMTarget.describe
+       ~IPMTarget.end_monitor_thread
+       ~IPMTarget.get
+       ~IPMTarget.get_state
+       ~IPMTarget.insert
+       ~IPMTarget.move
+       ~IPMTarget.mv
+       ~IPMTarget.read
+       ~IPMTarget.read_configuration
+       ~IPMTarget.remove
+       ~IPMTarget.set
+       ~IPMTarget.stop
+       ~IPMTarget.summary
+       ~IPMTarget.trigger
+       ~IPMTarget.wait
+       ~IPMTarget.wm
+       ~IPMTarget.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~IPMTarget.configuration_attrs
+       ~IPMTarget.connected
+       ~IPMTarget.egu
+       ~IPMTarget.high_limit
+       ~IPMTarget.hints
+       ~IPMTarget.in_states
+       ~IPMTarget.kind
+       ~IPMTarget.limits
+       ~IPMTarget.low_limit
+       ~IPMTarget.moving
+       ~IPMTarget.out_states
+       ~IPMTarget.position
+       ~IPMTarget.settle_time
+       ~IPMTarget.states_list
+       ~IPMTarget.timeout
+       ~IPMTarget.transmission
+    
+    

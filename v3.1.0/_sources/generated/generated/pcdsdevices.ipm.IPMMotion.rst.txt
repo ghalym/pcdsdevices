@@ -1,0 +1,79 @@
+pcdsdevices.ipm.IPMMotion
+=========================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. autoclass:: IPMMotion
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  target
+          -  :class:`~pcdsdevices.ipm.IPMTarget`
+          -  ``:TARGET``
+          -  
+          -  normal
+          -  
+   
+       *  -  diode
+          -  :class:`~pcdsdevices.ipm.IPMDiode`
+          -  ``:DIODE``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~IPMMotion.configure
+       ~IPMMotion.describe
+       ~IPMMotion.get
+       ~IPMMotion.insert
+       ~IPMMotion.read
+       ~IPMMotion.read_configuration
+       ~IPMMotion.remove
+       ~IPMMotion.stop
+       ~IPMMotion.summary
+       ~IPMMotion.target_in
+       ~IPMMotion.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~IPMMotion.configuration_attrs
+       ~IPMMotion.connected
+       ~IPMMotion.hints
+       ~IPMMotion.kind
+       ~IPMMotion.transmission
+    
+    

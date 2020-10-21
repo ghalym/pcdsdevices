@@ -1,0 +1,6 @@
+pcdsdevices.timetool.TimetoolWithNav.check\_transmission
+========================================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: TimetoolWithNav.check_transmission

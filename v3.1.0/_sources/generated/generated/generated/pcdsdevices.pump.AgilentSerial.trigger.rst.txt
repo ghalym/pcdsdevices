@@ -1,0 +1,6 @@
+pcdsdevices.pump.AgilentSerial.trigger
+======================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: AgilentSerial.trigger

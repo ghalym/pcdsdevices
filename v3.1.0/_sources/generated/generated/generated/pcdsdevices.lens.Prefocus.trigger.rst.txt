@@ -1,0 +1,6 @@
+pcdsdevices.lens.Prefocus.trigger
+=================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: Prefocus.trigger

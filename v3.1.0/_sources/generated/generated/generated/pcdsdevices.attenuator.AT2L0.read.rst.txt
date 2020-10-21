@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AT2L0.read
+=================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AT2L0.read

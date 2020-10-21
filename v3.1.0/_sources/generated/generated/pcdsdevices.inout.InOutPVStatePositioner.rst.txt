@@ -1,0 +1,92 @@
+pcdsdevices.inout.InOutPVStatePositioner
+========================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. autoclass:: InOutPVStatePositioner
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~pcdsdevices.state.PVStateSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.state.PVStatePositioner`
+   
+
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~InOutPVStatePositioner.camonitor
+       ~InOutPVStatePositioner.check_inserted
+       ~InOutPVStatePositioner.check_removed
+       ~InOutPVStatePositioner.check_transmission
+       ~InOutPVStatePositioner.configure
+       ~InOutPVStatePositioner.describe
+       ~InOutPVStatePositioner.end_monitor_thread
+       ~InOutPVStatePositioner.get
+       ~InOutPVStatePositioner.get_state
+       ~InOutPVStatePositioner.insert
+       ~InOutPVStatePositioner.move
+       ~InOutPVStatePositioner.mv
+       ~InOutPVStatePositioner.read
+       ~InOutPVStatePositioner.read_configuration
+       ~InOutPVStatePositioner.remove
+       ~InOutPVStatePositioner.set
+       ~InOutPVStatePositioner.stop
+       ~InOutPVStatePositioner.summary
+       ~InOutPVStatePositioner.trigger
+       ~InOutPVStatePositioner.wait
+       ~InOutPVStatePositioner.wm
+       ~InOutPVStatePositioner.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~InOutPVStatePositioner.configuration_attrs
+       ~InOutPVStatePositioner.connected
+       ~InOutPVStatePositioner.egu
+       ~InOutPVStatePositioner.high_limit
+       ~InOutPVStatePositioner.hints
+       ~InOutPVStatePositioner.in_states
+       ~InOutPVStatePositioner.kind
+       ~InOutPVStatePositioner.limits
+       ~InOutPVStatePositioner.low_limit
+       ~InOutPVStatePositioner.moving
+       ~InOutPVStatePositioner.out_states
+       ~InOutPVStatePositioner.position
+       ~InOutPVStatePositioner.settle_time
+       ~InOutPVStatePositioner.states_list
+       ~InOutPVStatePositioner.timeout
+       ~InOutPVStatePositioner.transmission
+    
+    

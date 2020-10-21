@@ -1,0 +1,6 @@
+pcdsdevices.signal.InternalSignal.trigger
+=========================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: InternalSignal.trigger

@@ -1,0 +1,54 @@
+pcdsdevices.signal.UnitConversionDerivedSignal
+==============================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. autoclass:: UnitConversionDerivedSignal
+
+   
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~UnitConversionDerivedSignal.describe
+       ~UnitConversionDerivedSignal.forward
+       ~UnitConversionDerivedSignal.get
+       ~UnitConversionDerivedSignal.inverse
+       ~UnitConversionDerivedSignal.read
+       ~UnitConversionDerivedSignal.read_configuration
+       ~UnitConversionDerivedSignal.set
+       ~UnitConversionDerivedSignal.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~UnitConversionDerivedSignal.SUB_META
+       ~UnitConversionDerivedSignal.connected
+       ~UnitConversionDerivedSignal.derived_from
+       ~UnitConversionDerivedSignal.high_limit
+       ~UnitConversionDerivedSignal.hints
+       ~UnitConversionDerivedSignal.kind
+       ~UnitConversionDerivedSignal.limits
+       ~UnitConversionDerivedSignal.low_limit
+       ~UnitConversionDerivedSignal.metadata
+       ~UnitConversionDerivedSignal.metadata_keys
+       ~UnitConversionDerivedSignal.read_access
+       ~UnitConversionDerivedSignal.timestamp
+       ~UnitConversionDerivedSignal.tolerance
+       ~UnitConversionDerivedSignal.user_offset
+       ~UnitConversionDerivedSignal.value
+       ~UnitConversionDerivedSignal.write_access
+    
+    

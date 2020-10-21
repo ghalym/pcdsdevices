@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMPico.trigger
+===============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMPico.trigger

@@ -1,0 +1,120 @@
+pcdsdevices.pseudopos.SimDelayStage
+===================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. autoclass:: SimDelayStage
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  delay (FCpt)
+          -  :class:`~pcdsdevices.pseudopos.PseudoSingleInterface`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pseudopos.DelayBase`
+   
+       *  -  user_offset
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pseudopos.DelayBase`
+   
+       *  -  motor
+          -  :class:`~pcdsdevices.sim.FastMotor`
+          -  
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~SimDelayStage.camonitor
+       ~SimDelayStage.check_single
+       ~SimDelayStage.configure
+       ~SimDelayStage.describe
+       ~SimDelayStage.end_monitor_thread
+       ~SimDelayStage.forward
+       ~SimDelayStage.get
+       ~SimDelayStage.inverse
+       ~SimDelayStage.move
+       ~SimDelayStage.move_single
+       ~SimDelayStage.mv
+       ~SimDelayStage.mv_ginput
+       ~SimDelayStage.mvr
+       ~SimDelayStage.read
+       ~SimDelayStage.read_configuration
+       ~SimDelayStage.set
+       ~SimDelayStage.set_current_position
+       ~SimDelayStage.stop
+       ~SimDelayStage.summary
+       ~SimDelayStage.to_pseudo_tuple
+       ~SimDelayStage.to_real_tuple
+       ~SimDelayStage.trigger
+       ~SimDelayStage.tweak
+       ~SimDelayStage.umv
+       ~SimDelayStage.umvr
+       ~SimDelayStage.wait
+       ~SimDelayStage.wm
+       ~SimDelayStage.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~SimDelayStage.composite_egu
+       ~SimDelayStage.concurrent
+       ~SimDelayStage.configuration_attrs
+       ~SimDelayStage.connected
+       ~SimDelayStage.egu
+       ~SimDelayStage.high_limit
+       ~SimDelayStage.hints
+       ~SimDelayStage.kind
+       ~SimDelayStage.limits
+       ~SimDelayStage.low_limit
+       ~SimDelayStage.moving
+       ~SimDelayStage.position
+       ~SimDelayStage.presets
+       ~SimDelayStage.pseudo_positioners
+       ~SimDelayStage.real_position
+       ~SimDelayStage.real_positioners
+       ~SimDelayStage.sequential
+       ~SimDelayStage.settle_time
+       ~SimDelayStage.target
+       ~SimDelayStage.timeout
+    
+    

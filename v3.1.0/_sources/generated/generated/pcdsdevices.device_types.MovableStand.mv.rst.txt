@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.MovableStand.mv
+=========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: MovableStand.mv

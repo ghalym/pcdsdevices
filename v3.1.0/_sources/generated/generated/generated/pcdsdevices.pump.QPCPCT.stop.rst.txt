@@ -1,0 +1,6 @@
+pcdsdevices.pump.QPCPCT.stop
+============================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: QPCPCT.stop

@@ -1,0 +1,6 @@
+pcdsdevices.slits.BeckhoffSlits.wm
+==================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BeckhoffSlits.wm

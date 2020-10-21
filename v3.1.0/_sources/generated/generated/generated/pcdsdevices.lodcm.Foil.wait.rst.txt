@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Foil.wait
+===========================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Foil.wait

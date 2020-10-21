@@ -1,0 +1,50 @@
+pcdsdevices.signal.NotImplementedSignal
+=======================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. autoclass:: NotImplementedSignal
+
+   
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~NotImplementedSignal.describe
+       ~NotImplementedSignal.get
+       ~NotImplementedSignal.read
+       ~NotImplementedSignal.read_configuration
+       ~NotImplementedSignal.set
+       ~NotImplementedSignal.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~NotImplementedSignal.SUB_META
+       ~NotImplementedSignal.connected
+       ~NotImplementedSignal.high_limit
+       ~NotImplementedSignal.hints
+       ~NotImplementedSignal.kind
+       ~NotImplementedSignal.limits
+       ~NotImplementedSignal.low_limit
+       ~NotImplementedSignal.metadata
+       ~NotImplementedSignal.metadata_keys
+       ~NotImplementedSignal.read_access
+       ~NotImplementedSignal.timestamp
+       ~NotImplementedSignal.tolerance
+       ~NotImplementedSignal.value
+       ~NotImplementedSignal.write_access
+    
+    

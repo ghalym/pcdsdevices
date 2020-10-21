@@ -1,0 +1,6 @@
+pcdsdevices.pulsepicker.PulsePicker.wait
+========================================
+
+.. currentmodule:: pcdsdevices.pulsepicker
+
+.. automethod:: PulsePicker.wait

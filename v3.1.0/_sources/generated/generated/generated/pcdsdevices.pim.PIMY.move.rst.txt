@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMY.move
+=========================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMY.move

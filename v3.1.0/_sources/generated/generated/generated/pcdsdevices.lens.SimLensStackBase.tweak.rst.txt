@@ -1,0 +1,6 @@
+pcdsdevices.lens.SimLensStackBase.tweak
+=======================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: SimLensStackBase.tweak

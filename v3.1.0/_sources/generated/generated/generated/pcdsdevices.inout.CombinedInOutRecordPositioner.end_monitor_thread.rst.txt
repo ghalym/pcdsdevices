@@ -1,0 +1,6 @@
+pcdsdevices.inout.CombinedInOutRecordPositioner.end\_monitor\_thread
+====================================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: CombinedInOutRecordPositioner.end_monitor_thread

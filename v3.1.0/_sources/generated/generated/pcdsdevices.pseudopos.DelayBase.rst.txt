@@ -1,0 +1,112 @@
+pcdsdevices.pseudopos.DelayBase
+===============================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. autoclass:: DelayBase
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  delay (FCpt)
+          -  :class:`~pcdsdevices.pseudopos.PseudoSingleInterface`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  user_offset
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~DelayBase.camonitor
+       ~DelayBase.check_single
+       ~DelayBase.configure
+       ~DelayBase.describe
+       ~DelayBase.end_monitor_thread
+       ~DelayBase.forward
+       ~DelayBase.get
+       ~DelayBase.inverse
+       ~DelayBase.move
+       ~DelayBase.move_single
+       ~DelayBase.mv
+       ~DelayBase.mv_ginput
+       ~DelayBase.mvr
+       ~DelayBase.read
+       ~DelayBase.read_configuration
+       ~DelayBase.set
+       ~DelayBase.set_current_position
+       ~DelayBase.stop
+       ~DelayBase.summary
+       ~DelayBase.to_pseudo_tuple
+       ~DelayBase.to_real_tuple
+       ~DelayBase.trigger
+       ~DelayBase.tweak
+       ~DelayBase.umv
+       ~DelayBase.umvr
+       ~DelayBase.wait
+       ~DelayBase.wm
+       ~DelayBase.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~DelayBase.composite_egu
+       ~DelayBase.concurrent
+       ~DelayBase.configuration_attrs
+       ~DelayBase.connected
+       ~DelayBase.egu
+       ~DelayBase.high_limit
+       ~DelayBase.hints
+       ~DelayBase.kind
+       ~DelayBase.limits
+       ~DelayBase.low_limit
+       ~DelayBase.motor
+       ~DelayBase.moving
+       ~DelayBase.position
+       ~DelayBase.presets
+       ~DelayBase.pseudo_positioners
+       ~DelayBase.real_position
+       ~DelayBase.real_positioners
+       ~DelayBase.sequential
+       ~DelayBase.settle_time
+       ~DelayBase.target
+       ~DelayBase.timeout
+    
+    

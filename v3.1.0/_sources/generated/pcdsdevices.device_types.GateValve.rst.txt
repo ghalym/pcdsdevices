@@ -1,0 +1,131 @@
+﻿pcdsdevices.device\_types.GateValve
+===================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. autoclass:: GateValve
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~pcdsdevices.state.PVStateSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.valve.Stopper`
+   
+       *  -  open_limit
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:OPN_DI``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.valve.Stopper`
+   
+       *  -  closed_limit
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:CLS_DI``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.valve.Stopper`
+   
+       *  -  command
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:OPN_SW``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.valve.Stopper`
+   
+       *  -  interlock
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:OPN_OK``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~GateValve.camonitor
+       ~GateValve.check_inserted
+       ~GateValve.check_removed
+       ~GateValve.check_transmission
+       ~GateValve.close
+       ~GateValve.configure
+       ~GateValve.describe
+       ~GateValve.end_monitor_thread
+       ~GateValve.get
+       ~GateValve.get_state
+       ~GateValve.insert
+       ~GateValve.move
+       ~GateValve.mv
+       ~GateValve.open
+       ~GateValve.read
+       ~GateValve.read_configuration
+       ~GateValve.remove
+       ~GateValve.set
+       ~GateValve.stop
+       ~GateValve.summary
+       ~GateValve.trigger
+       ~GateValve.wait
+       ~GateValve.wm
+       ~GateValve.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~GateValve.configuration_attrs
+       ~GateValve.connected
+       ~GateValve.egu
+       ~GateValve.high_limit
+       ~GateValve.hints
+       ~GateValve.in_states
+       ~GateValve.interlocked
+       ~GateValve.kind
+       ~GateValve.limits
+       ~GateValve.low_limit
+       ~GateValve.moving
+       ~GateValve.out_states
+       ~GateValve.position
+       ~GateValve.settle_time
+       ~GateValve.states_list
+       ~GateValve.timeout
+       ~GateValve.transmission
+    
+    

@@ -1,0 +1,148 @@
+pcdsdevices.ipm.IPIMB
+=====================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. autoclass:: IPIMB
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  isum
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:SUM``
+          -  
+          -  hinted
+          -  
+   
+       *  -  xpos
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:XPOS``
+          -  
+          -  normal
+          -  
+   
+       *  -  ypos
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:YPOS``
+          -  
+          -  normal
+          -  
+   
+       *  -  evr_channel
+          -  :class:`~pcdsdevices.evr.Trigger`
+          -  ``:TRIG:TRIG0``
+          -  
+          -  normal
+          -  
+   
+       *  -  delay
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:TrigDelay``
+          -  
+          -  config
+          -  
+   
+       *  -  bias
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:DiodeBias``
+          -  
+          -  config
+          -  
+   
+       *  -  ch0
+          -  :class:`~pcdsdevices.ipm.IPIMBChannel`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  ch1
+          -  :class:`~pcdsdevices.ipm.IPIMBChannel`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  ch2
+          -  :class:`~pcdsdevices.ipm.IPIMBChannel`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  ch3
+          -  :class:`~pcdsdevices.ipm.IPIMBChannel`
+          -  
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~IPIMB.configure
+       ~IPIMB.describe
+       ~IPIMB.get
+       ~IPIMB.read
+       ~IPIMB.read_configuration
+       ~IPIMB.screen
+       ~IPIMB.stop
+       ~IPIMB.summary
+       ~IPIMB.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~IPIMB.configuration_attrs
+       ~IPIMB.connected
+       ~IPIMB.hints
+       ~IPIMB.kind
+    
+    

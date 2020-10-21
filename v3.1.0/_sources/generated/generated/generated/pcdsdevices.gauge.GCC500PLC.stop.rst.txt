@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCC500PLC.stop
+================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCC500PLC.stop

@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttenuatorCalculatorFilter.trigger
+=========================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttenuatorCalculatorFilter.trigger

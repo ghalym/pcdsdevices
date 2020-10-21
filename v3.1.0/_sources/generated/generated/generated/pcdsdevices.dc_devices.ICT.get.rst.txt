@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICT.get
+===============================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICT.get

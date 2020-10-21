@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.PseudoPositioner.move\_single
+===================================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: PseudoPositioner.move_single

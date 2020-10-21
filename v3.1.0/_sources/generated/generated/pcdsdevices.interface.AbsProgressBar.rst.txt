@@ -1,0 +1,30 @@
+pcdsdevices.interface.AbsProgressBar
+====================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. autoclass:: AbsProgressBar
+
+   
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~AbsProgressBar.clear
+       ~AbsProgressBar.draw
+       ~AbsProgressBar.manual_update
+       ~AbsProgressBar.no_more_updates
+       ~AbsProgressBar.update
+    
+    
+
+    
+    
+    

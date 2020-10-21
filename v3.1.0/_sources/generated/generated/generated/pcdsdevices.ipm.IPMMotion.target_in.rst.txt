@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMMotion.target\_in
+====================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMMotion.target_in

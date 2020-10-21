@@ -1,0 +1,6 @@
+pcdsdevices.jet.Injector.configure
+==================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: Injector.configure

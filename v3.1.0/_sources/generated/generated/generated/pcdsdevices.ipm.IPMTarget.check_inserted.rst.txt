@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMTarget.check\_inserted
+=========================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMTarget.check_inserted

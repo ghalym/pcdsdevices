@@ -1,0 +1,26 @@
+pcdsdevices.interface.NullFile
+==============================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. autoclass:: NullFile
+
+   
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~NullFile.write
+    
+    
+
+    
+    
+    

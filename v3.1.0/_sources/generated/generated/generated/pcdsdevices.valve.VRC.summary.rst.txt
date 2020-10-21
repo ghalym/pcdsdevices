@@ -1,0 +1,6 @@
+pcdsdevices.valve.VRC.summary
+=============================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VRC.summary

@@ -1,0 +1,6 @@
+pcdsdevices.lens.Prefocus.check\_transmission
+=============================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: Prefocus.check_transmission

@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithFocus.read\_configuration
+================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithFocus.read_configuration

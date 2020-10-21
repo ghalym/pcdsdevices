@@ -1,0 +1,129 @@
+pcdsdevices.gon.GonWithDetArm
+=============================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. autoclass:: GonWithDetArm
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  hor (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_hor}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gon.BaseGon`
+   
+       *  -  ver (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_ver}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gon.BaseGon`
+   
+       *  -  rot (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_rot}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gon.BaseGon`
+   
+       *  -  tip (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_tip}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gon.BaseGon`
+   
+       *  -  tilt (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_tilt}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gon.BaseGon`
+   
+       *  -  rot_2theta (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_2theta}``
+          -  
+          -  normal
+          -  
+   
+       *  -  det_tilt (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_dettilt}``
+          -  
+          -  normal
+          -  
+   
+       *  -  det_ver (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_detver}``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~GonWithDetArm.configure
+       ~GonWithDetArm.describe
+       ~GonWithDetArm.get
+       ~GonWithDetArm.read
+       ~GonWithDetArm.read_configuration
+       ~GonWithDetArm.stop
+       ~GonWithDetArm.summary
+       ~GonWithDetArm.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~GonWithDetArm.configuration_attrs
+       ~GonWithDetArm.connected
+       ~GonWithDetArm.hints
+       ~GonWithDetArm.kind
+    
+    

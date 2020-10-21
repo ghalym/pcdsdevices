@@ -1,0 +1,6 @@
+pcdsdevices.interface.FltMvInterface.camonitor
+==============================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: FltMvInterface.camonitor

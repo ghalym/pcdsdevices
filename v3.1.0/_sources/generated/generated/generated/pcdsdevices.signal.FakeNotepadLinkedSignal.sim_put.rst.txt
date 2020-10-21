@@ -1,0 +1,6 @@
+pcdsdevices.signal.FakeNotepadLinkedSignal.sim\_put
+===================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: FakeNotepadLinkedSignal.sim_put

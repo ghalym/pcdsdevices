@@ -1,0 +1,6 @@
+pcdsdevices.sequencer.EventSequencer.collect\_tables
+====================================================
+
+.. currentmodule:: pcdsdevices.sequencer
+
+.. automethod:: EventSequencer.collect_tables

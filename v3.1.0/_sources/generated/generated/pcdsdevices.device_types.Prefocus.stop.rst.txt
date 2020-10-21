@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Prefocus.stop
+=======================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Prefocus.stop

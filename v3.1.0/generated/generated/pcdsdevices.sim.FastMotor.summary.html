@@ -1,0 +1,272 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>pcdsdevices.sim.FastMotor.summary &mdash; PCDS Devices 3.1.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/theme_overrides.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="pcdsdevices.sim.FastMotor.trigger" href="pcdsdevices.sim.FastMotor.trigger.html" />
+    <link rel="prev" title="pcdsdevices.sim.FastMotor.stop" href="pcdsdevices.sim.FastMotor.stop.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home" alt="Documentation Home"> PCDS Devices
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                3.1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Features</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../mv.html">Shortcuts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../presets.html">Preset Positions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tab.html">IPython Tab Curation</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Device Types</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../epics_types.html">Common EPICS Devices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../base_classes.html">Base Classes</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../sim_types.html">Simulated Devices</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.sim.SynMotor.html">pcdsdevices.sim.SynMotor</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.sim.FastMotor.html">pcdsdevices.sim.FastMotor</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.FastMotor.camonitor.html">pcdsdevices.sim.FastMotor.camonitor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.FastMotor.configure.html">pcdsdevices.sim.FastMotor.configure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.FastMotor.describe.html">pcdsdevices.sim.FastMotor.describe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.FastMotor.end_monitor_thread.html">pcdsdevices.sim.FastMotor.end_monitor_thread</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.FastMotor.get.html">pcdsdevices.sim.FastMotor.get</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.FastMotor.move.html">pcdsdevices.sim.FastMotor.move</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.FastMotor.mv.html">pcdsdevices.sim.FastMotor.mv</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.FastMotor.mv_ginput.html">pcdsdevices.sim.FastMotor.mv_ginput</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.FastMotor.mvr.html">pcdsdevices.sim.FastMotor.mvr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.FastMotor.read.html">pcdsdevices.sim.FastMotor.read</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.FastMotor.read_configuration.html">pcdsdevices.sim.FastMotor.read_configuration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.FastMotor.set.html">pcdsdevices.sim.FastMotor.set</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.FastMotor.stop.html">pcdsdevices.sim.FastMotor.stop</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.sim.FastMotor.summary</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.FastMotor.trigger.html">pcdsdevices.sim.FastMotor.trigger</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.FastMotor.tweak.html">pcdsdevices.sim.FastMotor.tweak</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.FastMotor.umv.html">pcdsdevices.sim.FastMotor.umv</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.FastMotor.umvr.html">pcdsdevices.sim.FastMotor.umvr</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.FastMotor.wait.html">pcdsdevices.sim.FastMotor.wait</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.FastMotor.wm.html">pcdsdevices.sim.FastMotor.wm</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sim.FastMotor.wm_update.html">pcdsdevices.sim.FastMotor.wm_update</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.sim.SlowMotor.html">pcdsdevices.sim.SlowMotor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.sim.SimTwoAxis.html">pcdsdevices.sim.SimTwoAxis</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../sample_delivery.html">Sample Delivery</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../sample_delivery.html#api">API</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developer Notes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../releases.html">Release History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../upcoming_changes.html">Upcoming Changes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../api.html">Full API</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">PCDS Devices</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../sim_types.html">Simulated Devices</a> &raquo;</li>
+        
+          <li><a href="../pcdsdevices.sim.FastMotor.html">pcdsdevices.sim.FastMotor</a> &raquo;</li>
+        
+      <li>pcdsdevices.sim.FastMotor.summary</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/generated/generated/pcdsdevices.sim.FastMotor.summary.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="pcdsdevices-sim-fastmotor-summary">
+<h1>pcdsdevices.sim.FastMotor.summary<a class="headerlink" href="#pcdsdevices-sim-fastmotor-summary" title="Permalink to this headline">¶</a></h1>
+<dl class="py method">
+<dt id="pcdsdevices.sim.FastMotor.summary">
+<code class="sig-prename descclassname">FastMotor.</code><code class="sig-name descname">summary</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.sim.FastMotor.summary" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="pcdsdevices.sim.FastMotor.trigger.html" class="btn btn-neutral float-right" title="pcdsdevices.sim.FastMotor.trigger" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="pcdsdevices.sim.FastMotor.stop.html" class="btn btn-neutral float-left" title="pcdsdevices.sim.FastMotor.stop" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, SLAC National Accelerator Laboratory
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

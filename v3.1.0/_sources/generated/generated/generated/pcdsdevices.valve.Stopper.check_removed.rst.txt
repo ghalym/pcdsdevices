@@ -1,0 +1,6 @@
+pcdsdevices.valve.Stopper.check\_removed
+========================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: Stopper.check_removed

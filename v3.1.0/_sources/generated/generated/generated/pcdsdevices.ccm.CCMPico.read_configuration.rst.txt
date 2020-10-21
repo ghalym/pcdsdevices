@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMPico.read\_configuration
+===========================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMPico.read_configuration

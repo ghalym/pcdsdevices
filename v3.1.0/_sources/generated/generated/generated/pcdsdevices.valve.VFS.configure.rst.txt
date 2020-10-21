@@ -1,0 +1,6 @@
+pcdsdevices.valve.VFS.configure
+===============================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VFS.configure

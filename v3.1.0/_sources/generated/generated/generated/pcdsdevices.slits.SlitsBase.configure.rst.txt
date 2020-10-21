@@ -1,0 +1,6 @@
+pcdsdevices.slits.SlitsBase.configure
+=====================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: SlitsBase.configure

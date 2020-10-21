@@ -1,0 +1,6 @@
+pcdsdevices.mirror.KBOMirror.trigger
+====================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: KBOMirror.trigger

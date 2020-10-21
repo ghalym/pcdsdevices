@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMPico.get
+===========================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMPico.get

@@ -1,0 +1,6 @@
+pcdsdevices.lens.Prefocus.check\_inserted
+=========================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: Prefocus.check_inserted

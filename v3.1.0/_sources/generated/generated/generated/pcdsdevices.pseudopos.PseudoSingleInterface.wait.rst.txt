@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.PseudoSingleInterface.wait
+================================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: PseudoSingleInterface.wait

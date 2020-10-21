@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIM.configure
+==============================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIM.configure

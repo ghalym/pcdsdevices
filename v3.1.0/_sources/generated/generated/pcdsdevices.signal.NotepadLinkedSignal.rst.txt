@@ -1,0 +1,54 @@
+pcdsdevices.signal.NotepadLinkedSignal
+======================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. autoclass:: NotepadLinkedSignal
+
+   
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~NotepadLinkedSignal.create_notepad_metadata
+       ~NotepadLinkedSignal.describe
+       ~NotepadLinkedSignal.get
+       ~NotepadLinkedSignal.read
+       ~NotepadLinkedSignal.read_configuration
+       ~NotepadLinkedSignal.set
+       ~NotepadLinkedSignal.should_use_epics_signal
+       ~NotepadLinkedSignal.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~NotepadLinkedSignal.SUB_META
+       ~NotepadLinkedSignal.connected
+       ~NotepadLinkedSignal.enum_strs
+       ~NotepadLinkedSignal.high_limit
+       ~NotepadLinkedSignal.hints
+       ~NotepadLinkedSignal.kind
+       ~NotepadLinkedSignal.limits
+       ~NotepadLinkedSignal.low_limit
+       ~NotepadLinkedSignal.metadata
+       ~NotepadLinkedSignal.metadata_keys
+       ~NotepadLinkedSignal.precision
+       ~NotepadLinkedSignal.read_access
+       ~NotepadLinkedSignal.timestamp
+       ~NotepadLinkedSignal.tolerance
+       ~NotepadLinkedSignal.value
+       ~NotepadLinkedSignal.write_access
+    
+    

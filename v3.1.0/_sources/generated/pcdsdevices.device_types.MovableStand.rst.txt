@@ -1,0 +1,110 @@
+﻿pcdsdevices.device\_types.MovableStand
+======================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. autoclass:: MovableStand
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~pcdsdevices.state.PVStateSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.inout.InOutPVStatePositioner`
+   
+       *  -  in_limit
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:IN_DI``
+          -  
+          -  normal
+          -  
+   
+       *  -  out_limit
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:OUT_DO``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~MovableStand.camonitor
+       ~MovableStand.check_inserted
+       ~MovableStand.check_removed
+       ~MovableStand.check_transmission
+       ~MovableStand.configure
+       ~MovableStand.describe
+       ~MovableStand.end_monitor_thread
+       ~MovableStand.get
+       ~MovableStand.get_state
+       ~MovableStand.insert
+       ~MovableStand.move
+       ~MovableStand.mv
+       ~MovableStand.read
+       ~MovableStand.read_configuration
+       ~MovableStand.remove
+       ~MovableStand.set
+       ~MovableStand.stop
+       ~MovableStand.summary
+       ~MovableStand.trigger
+       ~MovableStand.wait
+       ~MovableStand.wm
+       ~MovableStand.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~MovableStand.configuration_attrs
+       ~MovableStand.connected
+       ~MovableStand.egu
+       ~MovableStand.high_limit
+       ~MovableStand.hints
+       ~MovableStand.in_states
+       ~MovableStand.kind
+       ~MovableStand.limits
+       ~MovableStand.low_limit
+       ~MovableStand.moving
+       ~MovableStand.out_states
+       ~MovableStand.position
+       ~MovableStand.settle_time
+       ~MovableStand.states_list
+       ~MovableStand.timeout
+       ~MovableStand.transmission
+    
+    

@@ -1,0 +1,6 @@
+pcdsdevices.pump.TurboPump.describe
+===================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: TurboPump.describe

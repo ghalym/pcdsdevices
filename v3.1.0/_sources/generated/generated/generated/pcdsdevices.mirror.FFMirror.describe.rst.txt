@@ -1,0 +1,6 @@
+pcdsdevices.mirror.FFMirror.describe
+====================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: FFMirror.describe

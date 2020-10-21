@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AT2L0.wm\_update
+=======================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AT2L0.wm_update

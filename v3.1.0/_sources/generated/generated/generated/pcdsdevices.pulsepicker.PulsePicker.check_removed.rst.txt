@@ -1,0 +1,6 @@
+pcdsdevices.pulsepicker.PulsePicker.check\_removed
+==================================================
+
+.. currentmodule:: pcdsdevices.pulsepicker
+
+.. automethod:: PulsePicker.check_removed

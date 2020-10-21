@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPIMB.stop
+==========================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPIMB.stop

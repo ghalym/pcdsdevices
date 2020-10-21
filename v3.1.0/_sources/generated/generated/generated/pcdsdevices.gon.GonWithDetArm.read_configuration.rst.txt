@@ -1,0 +1,6 @@
+pcdsdevices.gon.GonWithDetArm.read\_configuration
+=================================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: GonWithDetArm.read_configuration

@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.YagLom.check\_transmission
+============================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: YagLom.check_transmission

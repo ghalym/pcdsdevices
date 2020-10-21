@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.PseudoSingleInterface.tweak
+=================================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: PseudoSingleInterface.tweak

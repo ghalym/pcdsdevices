@@ -1,0 +1,101 @@
+﻿pcdsdevices.device\_types.Reflaser
+==================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. autoclass:: Reflaser
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+       *  -  motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:MOTOR``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Reflaser.camonitor
+       ~Reflaser.check_inserted
+       ~Reflaser.check_removed
+       ~Reflaser.check_transmission
+       ~Reflaser.configure
+       ~Reflaser.describe
+       ~Reflaser.end_monitor_thread
+       ~Reflaser.get
+       ~Reflaser.get_state
+       ~Reflaser.insert
+       ~Reflaser.move
+       ~Reflaser.mv
+       ~Reflaser.read
+       ~Reflaser.read_configuration
+       ~Reflaser.remove
+       ~Reflaser.set
+       ~Reflaser.stop
+       ~Reflaser.summary
+       ~Reflaser.trigger
+       ~Reflaser.wait
+       ~Reflaser.wm
+       ~Reflaser.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Reflaser.configuration_attrs
+       ~Reflaser.connected
+       ~Reflaser.egu
+       ~Reflaser.high_limit
+       ~Reflaser.hints
+       ~Reflaser.in_states
+       ~Reflaser.kind
+       ~Reflaser.limits
+       ~Reflaser.low_limit
+       ~Reflaser.moving
+       ~Reflaser.out_states
+       ~Reflaser.position
+       ~Reflaser.settle_time
+       ~Reflaser.states_list
+       ~Reflaser.timeout
+       ~Reflaser.transmission
+    
+    

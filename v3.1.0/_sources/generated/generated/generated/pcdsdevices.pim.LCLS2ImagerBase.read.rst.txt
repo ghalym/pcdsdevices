@@ -1,0 +1,6 @@
+pcdsdevices.pim.LCLS2ImagerBase.read
+====================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: LCLS2ImagerBase.read

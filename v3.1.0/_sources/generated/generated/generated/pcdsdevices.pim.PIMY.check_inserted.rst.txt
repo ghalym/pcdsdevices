@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMY.check\_inserted
+====================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMY.check_inserted

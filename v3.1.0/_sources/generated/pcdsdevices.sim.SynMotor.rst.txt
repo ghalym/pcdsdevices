@@ -1,0 +1,117 @@
+﻿pcdsdevices.sim.SynMotor
+========================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. autoclass:: SynMotor
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  readback
+          -  :class:`~ophyd.sim._ReadbackSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~ophyd.sim.SynAxis`
+   
+       *  -  setpoint
+          -  :class:`~ophyd.sim._SetpointSignal`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~ophyd.sim.SynAxis`
+   
+       *  -  velocity
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  config
+          -  Inherited from :class:`~ophyd.sim.SynAxis`
+   
+       *  -  acceleration
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  config
+          -  Inherited from :class:`~ophyd.sim.SynAxis`
+   
+       *  -  unused
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  omitted
+          -  Inherited from :class:`~ophyd.sim.SynAxis`
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~SynMotor.camonitor
+       ~SynMotor.configure
+       ~SynMotor.describe
+       ~SynMotor.end_monitor_thread
+       ~SynMotor.get
+       ~SynMotor.move
+       ~SynMotor.mv
+       ~SynMotor.mv_ginput
+       ~SynMotor.mvr
+       ~SynMotor.read
+       ~SynMotor.read_configuration
+       ~SynMotor.set
+       ~SynMotor.stop
+       ~SynMotor.summary
+       ~SynMotor.trigger
+       ~SynMotor.tweak
+       ~SynMotor.umv
+       ~SynMotor.umvr
+       ~SynMotor.wait
+       ~SynMotor.wm
+       ~SynMotor.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~SynMotor.configuration_attrs
+       ~SynMotor.connected
+       ~SynMotor.hints
+       ~SynMotor.kind
+       ~SynMotor.position
+       ~SynMotor.presets
+    
+    

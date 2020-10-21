@@ -1,0 +1,6 @@
+pcdsdevices.interface.TabCompletionHelperClass.reset
+====================================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: TabCompletionHelperClass.reset

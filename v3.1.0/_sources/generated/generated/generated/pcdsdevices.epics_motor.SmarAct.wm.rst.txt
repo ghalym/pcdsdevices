@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.SmarAct.wm
+===================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: SmarAct.wm

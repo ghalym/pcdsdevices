@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.BeckhoffAxis.set\_lim
+===============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: BeckhoffAxis.set_lim

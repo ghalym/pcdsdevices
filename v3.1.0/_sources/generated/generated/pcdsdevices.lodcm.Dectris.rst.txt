@@ -1,0 +1,101 @@
+pcdsdevices.lodcm.Dectris
+=========================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. autoclass:: Dectris
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+       *  -  motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:MOTOR``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Dectris.camonitor
+       ~Dectris.check_inserted
+       ~Dectris.check_removed
+       ~Dectris.check_transmission
+       ~Dectris.configure
+       ~Dectris.describe
+       ~Dectris.end_monitor_thread
+       ~Dectris.get
+       ~Dectris.get_state
+       ~Dectris.insert
+       ~Dectris.move
+       ~Dectris.mv
+       ~Dectris.read
+       ~Dectris.read_configuration
+       ~Dectris.remove
+       ~Dectris.set
+       ~Dectris.stop
+       ~Dectris.summary
+       ~Dectris.trigger
+       ~Dectris.wait
+       ~Dectris.wm
+       ~Dectris.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Dectris.configuration_attrs
+       ~Dectris.connected
+       ~Dectris.egu
+       ~Dectris.high_limit
+       ~Dectris.hints
+       ~Dectris.in_states
+       ~Dectris.kind
+       ~Dectris.limits
+       ~Dectris.low_limit
+       ~Dectris.moving
+       ~Dectris.out_states
+       ~Dectris.position
+       ~Dectris.settle_time
+       ~Dectris.states_list
+       ~Dectris.timeout
+       ~Dectris.transmission
+    
+    

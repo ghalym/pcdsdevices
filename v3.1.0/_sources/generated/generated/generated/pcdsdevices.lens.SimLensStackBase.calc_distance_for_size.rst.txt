@@ -1,0 +1,6 @@
+pcdsdevices.lens.SimLensStackBase.calc\_distance\_for\_size
+===========================================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: SimLensStackBase.calc_distance_for_size

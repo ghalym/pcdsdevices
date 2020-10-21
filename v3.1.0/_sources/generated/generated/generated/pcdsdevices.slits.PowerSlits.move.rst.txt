@@ -1,0 +1,6 @@
+pcdsdevices.slits.PowerSlits.move
+=================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: PowerSlits.move

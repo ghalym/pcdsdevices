@@ -1,0 +1,6 @@
+pcdsdevices.gauge.MKS937BController.get
+=======================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: MKS937BController.get

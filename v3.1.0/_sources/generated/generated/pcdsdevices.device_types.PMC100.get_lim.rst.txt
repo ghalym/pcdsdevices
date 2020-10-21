@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.PMC100.get\_lim
+=========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: PMC100.get_lim

@@ -1,0 +1,67 @@
+pcdsdevices.pump.EbaraPump
+==========================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. autoclass:: EbaraPump
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  start
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:MPSTART_SW``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~EbaraPump.configure
+       ~EbaraPump.describe
+       ~EbaraPump.get
+       ~EbaraPump.read
+       ~EbaraPump.read_configuration
+       ~EbaraPump.run
+       ~EbaraPump.stop
+       ~EbaraPump.summary
+       ~EbaraPump.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~EbaraPump.configuration_attrs
+       ~EbaraPump.connected
+       ~EbaraPump.hints
+       ~EbaraPump.kind
+    
+    

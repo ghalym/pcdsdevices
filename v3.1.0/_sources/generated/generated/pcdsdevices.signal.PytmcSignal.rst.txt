@@ -1,0 +1,60 @@
+pcdsdevices.signal.PytmcSignal
+==============================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. autoclass:: PytmcSignal
+
+   
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~PytmcSignal.describe
+       ~PytmcSignal.get
+       ~PytmcSignal.read
+       ~PytmcSignal.read_configuration
+       ~PytmcSignal.set
+       ~PytmcSignal.set_default_timeout
+       ~PytmcSignal.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~PytmcSignal.SUB_META
+       ~PytmcSignal.alarm_severity
+       ~PytmcSignal.alarm_status
+       ~PytmcSignal.as_string
+       ~PytmcSignal.connected
+       ~PytmcSignal.connection_timeout
+       ~PytmcSignal.enum_strs
+       ~PytmcSignal.high_limit
+       ~PytmcSignal.hints
+       ~PytmcSignal.kind
+       ~PytmcSignal.limits
+       ~PytmcSignal.low_limit
+       ~PytmcSignal.metadata
+       ~PytmcSignal.metadata_keys
+       ~PytmcSignal.precision
+       ~PytmcSignal.pvname
+       ~PytmcSignal.read_access
+       ~PytmcSignal.timeout
+       ~PytmcSignal.timestamp
+       ~PytmcSignal.tolerance
+       ~PytmcSignal.value
+       ~PytmcSignal.write_access
+       ~PytmcSignal.write_timeout
+    
+    

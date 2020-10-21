@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Diode.check\_transmission
+===========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Diode.check_transmission

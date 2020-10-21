@@ -1,0 +1,6 @@
+pcdsdevices.interface.TabCompletionHelperClass.build\_regex
+===========================================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. automethod:: TabCompletionHelperClass.build_regex

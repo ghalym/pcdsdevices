@@ -1,0 +1,6 @@
+pcdsdevices.signal.FakeNotepadLinkedSignal.describe
+===================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: FakeNotepadLinkedSignal.describe

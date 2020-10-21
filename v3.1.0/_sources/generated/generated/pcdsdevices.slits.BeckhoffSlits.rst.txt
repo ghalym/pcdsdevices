@@ -1,0 +1,214 @@
+pcdsdevices.slits.BeckhoffSlits
+===============================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. autoclass:: BeckhoffSlits
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  nominal_aperture
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.slits.SlitsBase`
+   
+       *  -  xwidth
+          -  :class:`~pcdsdevices.slits.BeckhoffSlitPositioner`
+          -  
+          -  
+          -  hinted
+          -  
+   
+       *  -  ywidth
+          -  :class:`~pcdsdevices.slits.BeckhoffSlitPositioner`
+          -  
+          -  
+          -  hinted
+          -  
+   
+       *  -  xcenter
+          -  :class:`~pcdsdevices.slits.BeckhoffSlitPositioner`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  ycenter
+          -  :class:`~pcdsdevices.slits.BeckhoffSlitPositioner`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  exec_queue
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  omitted
+          -  
+   
+       *  -  exec_move
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:GO``
+          -  
+          -  omitted
+          -  
+   
+       *  -  done_all
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  omitted
+          -  
+   
+       *  -  done_top
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:TOP:DMOV``
+          -  
+          -  omitted
+          -  
+   
+       *  -  done_bottom
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:BOTTOM:DMOV``
+          -  
+          -  omitted
+          -  
+   
+       *  -  done_north
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:NORTH:DMOV``
+          -  
+          -  omitted
+          -  
+   
+       *  -  done_south
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:SOUTH:DMOV``
+          -  
+          -  omitted
+          -  
+   
+       *  -  top
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``:MMS:TOP``
+          -  
+          -  normal
+          -  
+   
+       *  -  bottom
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``:MMS:BOTTOM``
+          -  
+          -  normal
+          -  
+   
+       *  -  north
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``:MMS:NORTH``
+          -  
+          -  normal
+          -  
+   
+       *  -  south
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  ``:MMS:SOUTH``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~BeckhoffSlits.camonitor
+       ~BeckhoffSlits.configure
+       ~BeckhoffSlits.describe
+       ~BeckhoffSlits.end_monitor_thread
+       ~BeckhoffSlits.get
+       ~BeckhoffSlits.move
+       ~BeckhoffSlits.mv
+       ~BeckhoffSlits.read
+       ~BeckhoffSlits.read_configuration
+       ~BeckhoffSlits.remove
+       ~BeckhoffSlits.set
+       ~BeckhoffSlits.stop
+       ~BeckhoffSlits.summary
+       ~BeckhoffSlits.trigger
+       ~BeckhoffSlits.wait
+       ~BeckhoffSlits.wm
+       ~BeckhoffSlits.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~BeckhoffSlits.configuration_attrs
+       ~BeckhoffSlits.connected
+       ~BeckhoffSlits.current_aperture
+       ~BeckhoffSlits.hints
+       ~BeckhoffSlits.kind
+       ~BeckhoffSlits.lightpath_cpts
+       ~BeckhoffSlits.position
+       ~BeckhoffSlits.transmission
+    
+    

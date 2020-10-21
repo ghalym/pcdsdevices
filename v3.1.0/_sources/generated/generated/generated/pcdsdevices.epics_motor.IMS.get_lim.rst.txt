@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.IMS.get\_lim
+=====================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: IMS.get_lim

@@ -1,0 +1,50 @@
+pcdsdevices.signal.AggregateSignal
+==================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. autoclass:: AggregateSignal
+
+   
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~AggregateSignal.describe
+       ~AggregateSignal.get
+       ~AggregateSignal.read
+       ~AggregateSignal.read_configuration
+       ~AggregateSignal.set
+       ~AggregateSignal.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~AggregateSignal.SUB_META
+       ~AggregateSignal.connected
+       ~AggregateSignal.high_limit
+       ~AggregateSignal.hints
+       ~AggregateSignal.kind
+       ~AggregateSignal.limits
+       ~AggregateSignal.low_limit
+       ~AggregateSignal.metadata
+       ~AggregateSignal.metadata_keys
+       ~AggregateSignal.read_access
+       ~AggregateSignal.timestamp
+       ~AggregateSignal.tolerance
+       ~AggregateSignal.value
+       ~AggregateSignal.write_access
+    
+    

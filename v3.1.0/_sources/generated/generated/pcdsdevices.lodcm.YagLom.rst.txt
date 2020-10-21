@@ -1,0 +1,101 @@
+pcdsdevices.lodcm.YagLom
+========================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. autoclass:: YagLom
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+       *  -  motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:MOTOR``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~YagLom.camonitor
+       ~YagLom.check_inserted
+       ~YagLom.check_removed
+       ~YagLom.check_transmission
+       ~YagLom.configure
+       ~YagLom.describe
+       ~YagLom.end_monitor_thread
+       ~YagLom.get
+       ~YagLom.get_state
+       ~YagLom.insert
+       ~YagLom.move
+       ~YagLom.mv
+       ~YagLom.read
+       ~YagLom.read_configuration
+       ~YagLom.remove
+       ~YagLom.set
+       ~YagLom.stop
+       ~YagLom.summary
+       ~YagLom.trigger
+       ~YagLom.wait
+       ~YagLom.wm
+       ~YagLom.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~YagLom.configuration_attrs
+       ~YagLom.connected
+       ~YagLom.egu
+       ~YagLom.high_limit
+       ~YagLom.hints
+       ~YagLom.in_states
+       ~YagLom.kind
+       ~YagLom.limits
+       ~YagLom.low_limit
+       ~YagLom.moving
+       ~YagLom.out_states
+       ~YagLom.position
+       ~YagLom.settle_time
+       ~YagLom.states_list
+       ~YagLom.timeout
+       ~YagLom.transmission
+    
+    

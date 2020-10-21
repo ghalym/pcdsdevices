@@ -1,0 +1,6 @@
+pcdsdevices.lens.LensStack.calc\_focal\_length
+==============================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: LensStack.calc_focal_length

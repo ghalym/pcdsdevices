@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.FeeFilter.check\_inserted
+================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: FeeFilter.check_inserted

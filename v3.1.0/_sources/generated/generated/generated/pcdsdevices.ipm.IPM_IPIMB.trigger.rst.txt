@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPM\_IPIMB.trigger
+==================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPM_IPIMB.trigger

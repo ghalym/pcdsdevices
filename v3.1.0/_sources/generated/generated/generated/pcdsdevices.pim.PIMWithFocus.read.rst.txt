@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithFocus.read
+=================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithFocus.read

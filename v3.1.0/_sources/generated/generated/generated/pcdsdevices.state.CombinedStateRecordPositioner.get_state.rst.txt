@@ -1,0 +1,6 @@
+pcdsdevices.state.CombinedStateRecordPositioner.get\_state
+==========================================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: CombinedStateRecordPositioner.get_state

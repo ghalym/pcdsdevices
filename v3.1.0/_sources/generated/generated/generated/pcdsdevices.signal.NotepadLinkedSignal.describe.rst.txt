@@ -1,0 +1,6 @@
+pcdsdevices.signal.NotepadLinkedSignal.describe
+===============================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: NotepadLinkedSignal.describe

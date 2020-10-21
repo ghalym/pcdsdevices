@@ -1,0 +1,6 @@
+pcdsdevices.pim.PIMWithLED.trigger
+==================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: PIMWithLED.trigger

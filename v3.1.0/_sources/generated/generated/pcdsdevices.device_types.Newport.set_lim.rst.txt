@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Newport.set\_lim
+==========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Newport.set_lim

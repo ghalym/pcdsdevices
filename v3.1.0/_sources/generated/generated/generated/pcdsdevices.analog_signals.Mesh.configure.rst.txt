@@ -1,0 +1,6 @@
+pcdsdevices.analog\_signals.Mesh.configure
+==========================================
+
+.. currentmodule:: pcdsdevices.analog_signals
+
+.. automethod:: Mesh.configure

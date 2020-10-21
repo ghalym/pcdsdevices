@@ -1,0 +1,106 @@
+pcdsdevices.pim.PIMWithBoth
+===========================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. autoclass:: PIMWithBoth
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~pcdsdevices.pim.PIMY`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pim.PIMWithFocus`
+   
+       *  -  zoom_motor (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_zoom}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pim.PIMWithFocus`
+   
+       *  -  detector (FCpt)
+          -  :class:`~pcdsdevices.areadetector.detectors.PCDSAreaDetectorEmbedded`
+          -  ``{self._prefix_det}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pim.PIMWithFocus`
+   
+       *  -  led (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{self._prefix_led}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pim.PIMWithLED`
+   
+       *  -  focus_motor (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_focus}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pim.PIMWithFocus`
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~PIMWithBoth.configure
+       ~PIMWithBoth.describe
+       ~PIMWithBoth.get
+       ~PIMWithBoth.infer_prefix
+       ~PIMWithBoth.insert
+       ~PIMWithBoth.read
+       ~PIMWithBoth.read_configuration
+       ~PIMWithBoth.remove
+       ~PIMWithBoth.stop
+       ~PIMWithBoth.summary
+       ~PIMWithBoth.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~PIMWithBoth.configuration_attrs
+       ~PIMWithBoth.connected
+       ~PIMWithBoth.hints
+       ~PIMWithBoth.kind
+       ~PIMWithBoth.prefix_start
+    
+    

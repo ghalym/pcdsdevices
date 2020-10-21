@@ -1,0 +1,76 @@
+pcdsdevices.sim.SimTwoAxis
+==========================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. autoclass:: SimTwoAxis
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  x
+          -  :class:`~pcdsdevices.sim.SlowMotor`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  y
+          -  :class:`~pcdsdevices.sim.SlowMotor`
+          -  
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~SimTwoAxis.configure
+       ~SimTwoAxis.describe
+       ~SimTwoAxis.get
+       ~SimTwoAxis.read
+       ~SimTwoAxis.read_configuration
+       ~SimTwoAxis.stop
+       ~SimTwoAxis.summary
+       ~SimTwoAxis.trigger
+       ~SimTwoAxis.tweak
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~SimTwoAxis.configuration_attrs
+       ~SimTwoAxis.connected
+       ~SimTwoAxis.hints
+       ~SimTwoAxis.kind
+    
+    

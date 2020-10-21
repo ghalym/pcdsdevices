@@ -1,0 +1,61 @@
+pcdsdevices.state.StatePositioner
+=================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. autoclass:: StatePositioner
+
+   
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~StatePositioner.camonitor
+       ~StatePositioner.configure
+       ~StatePositioner.describe
+       ~StatePositioner.end_monitor_thread
+       ~StatePositioner.get
+       ~StatePositioner.get_state
+       ~StatePositioner.move
+       ~StatePositioner.mv
+       ~StatePositioner.read
+       ~StatePositioner.read_configuration
+       ~StatePositioner.set
+       ~StatePositioner.stop
+       ~StatePositioner.summary
+       ~StatePositioner.trigger
+       ~StatePositioner.wait
+       ~StatePositioner.wm
+       ~StatePositioner.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~StatePositioner.configuration_attrs
+       ~StatePositioner.connected
+       ~StatePositioner.egu
+       ~StatePositioner.high_limit
+       ~StatePositioner.hints
+       ~StatePositioner.kind
+       ~StatePositioner.limits
+       ~StatePositioner.low_limit
+       ~StatePositioner.moving
+       ~StatePositioner.position
+       ~StatePositioner.settle_time
+       ~StatePositioner.state
+       ~StatePositioner.states_list
+       ~StatePositioner.timeout
+    
+    

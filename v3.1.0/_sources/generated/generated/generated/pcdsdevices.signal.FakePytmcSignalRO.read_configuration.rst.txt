@@ -1,0 +1,6 @@
+pcdsdevices.signal.FakePytmcSignalRO.read\_configuration
+========================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: FakePytmcSignalRO.read_configuration

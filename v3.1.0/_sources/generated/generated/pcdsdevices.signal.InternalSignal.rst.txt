@@ -1,0 +1,50 @@
+pcdsdevices.signal.InternalSignal
+=================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. autoclass:: InternalSignal
+
+   
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~InternalSignal.describe
+       ~InternalSignal.get
+       ~InternalSignal.read
+       ~InternalSignal.read_configuration
+       ~InternalSignal.set
+       ~InternalSignal.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~InternalSignal.SUB_META
+       ~InternalSignal.connected
+       ~InternalSignal.high_limit
+       ~InternalSignal.hints
+       ~InternalSignal.kind
+       ~InternalSignal.limits
+       ~InternalSignal.low_limit
+       ~InternalSignal.metadata
+       ~InternalSignal.metadata_keys
+       ~InternalSignal.read_access
+       ~InternalSignal.timestamp
+       ~InternalSignal.tolerance
+       ~InternalSignal.value
+       ~InternalSignal.write_access
+    
+    

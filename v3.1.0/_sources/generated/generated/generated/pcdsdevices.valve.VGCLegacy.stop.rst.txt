@@ -1,0 +1,6 @@
+pcdsdevices.valve.VGCLegacy.stop
+================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VGCLegacy.stop

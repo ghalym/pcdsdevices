@@ -1,0 +1,6 @@
+pcdsdevices.mirror.PointingMirror.check\_transmission
+=====================================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: PointingMirror.check_transmission

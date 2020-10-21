@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.H1N.remove
+============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: H1N.remove

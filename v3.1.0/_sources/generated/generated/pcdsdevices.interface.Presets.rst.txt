@@ -1,0 +1,33 @@
+pcdsdevices.interface.Presets
+=============================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. autoclass:: Presets
+
+   
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Presets.state
+       ~Presets.sync
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Presets.has_presets
+    
+    

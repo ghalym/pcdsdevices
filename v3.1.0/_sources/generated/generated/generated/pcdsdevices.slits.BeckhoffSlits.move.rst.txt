@@ -1,0 +1,6 @@
+pcdsdevices.slits.BeckhoffSlits.move
+====================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BeckhoffSlits.move

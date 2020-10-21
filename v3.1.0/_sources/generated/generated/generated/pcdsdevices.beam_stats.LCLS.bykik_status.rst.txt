@@ -1,0 +1,6 @@
+pcdsdevices.beam\_stats.LCLS.bykik\_status
+==========================================
+
+.. currentmodule:: pcdsdevices.beam_stats
+
+.. automethod:: LCLS.bykik_status

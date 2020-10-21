@@ -1,0 +1,6 @@
+pcdsdevices.pump.GammaPCT.summary
+=================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: GammaPCT.summary

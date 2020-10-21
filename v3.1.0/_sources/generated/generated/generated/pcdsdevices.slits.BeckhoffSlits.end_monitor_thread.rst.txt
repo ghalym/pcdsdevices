@@ -1,0 +1,6 @@
+pcdsdevices.slits.BeckhoffSlits.end\_monitor\_thread
+====================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: BeckhoffSlits.end_monitor_thread

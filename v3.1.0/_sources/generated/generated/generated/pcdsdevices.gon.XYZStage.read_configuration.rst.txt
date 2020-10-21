@@ -1,0 +1,6 @@
+pcdsdevices.gon.XYZStage.read\_configuration
+============================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: XYZStage.read_configuration

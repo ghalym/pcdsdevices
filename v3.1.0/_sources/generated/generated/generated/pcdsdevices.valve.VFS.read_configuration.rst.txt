@@ -1,0 +1,6 @@
+pcdsdevices.valve.VFS.read\_configuration
+=========================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VFS.read_configuration

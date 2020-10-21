@@ -1,0 +1,6 @@
+pcdsdevices.timetool.TimetoolWithNav.read\_configuration
+========================================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: TimetoolWithNav.read_configuration

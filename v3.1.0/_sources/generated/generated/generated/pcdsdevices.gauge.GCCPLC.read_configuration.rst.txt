@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GCCPLC.read\_configuration
+============================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GCCPLC.read_configuration

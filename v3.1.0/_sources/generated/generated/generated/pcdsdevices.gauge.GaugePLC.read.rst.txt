@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugePLC.read
+===============================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugePLC.read

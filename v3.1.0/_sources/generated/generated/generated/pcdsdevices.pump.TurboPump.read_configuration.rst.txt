@@ -1,0 +1,6 @@
+pcdsdevices.pump.TurboPump.read\_configuration
+==============================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: TurboPump.read_configuration

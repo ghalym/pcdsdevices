@@ -1,0 +1,6 @@
+pcdsdevices.pump.PTMPLC.configure
+=================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: PTMPLC.configure

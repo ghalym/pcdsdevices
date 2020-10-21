@@ -1,0 +1,288 @@
+pcdsdevices.attenuator.FEESolidAttenuator
+=========================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. autoclass:: FEESolidAttenuator
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  num_in
+          -  :class:`~pcdsdevices.signal.InternalSignal`
+          -  
+          -  
+          -  hinted
+          -  
+   
+       *  -  num_out
+          -  :class:`~pcdsdevices.signal.InternalSignal`
+          -  
+          -  
+          -  hinted
+          -  
+   
+       *  -  calculator (UCpt)
+          -  :class:`~pcdsdevices.attenuator.AttenuatorCalculator_AT2L0`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_01
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:01``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_02
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:02``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_03
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:03``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_04
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:04``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_05
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:05``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_06
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:06``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_07
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:07``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_08
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:08``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_09
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:09``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_10
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:10``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_11
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:11``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_12
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:12``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_13
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:13``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_14
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:14``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_15
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:15``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_16
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:16``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_17
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:17``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_18
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:18``
+          -  
+          -  normal
+          -  
+   
+       *  -  blade_19
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:19``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~FEESolidAttenuator.camonitor
+       ~FEESolidAttenuator.configure
+       ~FEESolidAttenuator.describe
+       ~FEESolidAttenuator.end_monitor_thread
+       ~FEESolidAttenuator.get
+       ~FEESolidAttenuator.move
+       ~FEESolidAttenuator.mv
+       ~FEESolidAttenuator.mv_ginput
+       ~FEESolidAttenuator.mvr
+       ~FEESolidAttenuator.read
+       ~FEESolidAttenuator.read_configuration
+       ~FEESolidAttenuator.set
+       ~FEESolidAttenuator.stop
+       ~FEESolidAttenuator.summary
+       ~FEESolidAttenuator.trigger
+       ~FEESolidAttenuator.tweak
+       ~FEESolidAttenuator.umv
+       ~FEESolidAttenuator.umvr
+       ~FEESolidAttenuator.wait
+       ~FEESolidAttenuator.wm
+       ~FEESolidAttenuator.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~FEESolidAttenuator.actuate
+       ~FEESolidAttenuator.actuate_value
+       ~FEESolidAttenuator.configuration_attrs
+       ~FEESolidAttenuator.connected
+       ~FEESolidAttenuator.done
+       ~FEESolidAttenuator.done_value
+       ~FEESolidAttenuator.egu
+       ~FEESolidAttenuator.high_limit
+       ~FEESolidAttenuator.hints
+       ~FEESolidAttenuator.kind
+       ~FEESolidAttenuator.lightpath_cpts
+       ~FEESolidAttenuator.limits
+       ~FEESolidAttenuator.low_limit
+       ~FEESolidAttenuator.moving
+       ~FEESolidAttenuator.position
+       ~FEESolidAttenuator.presets
+       ~FEESolidAttenuator.put_complete
+       ~FEESolidAttenuator.readback
+       ~FEESolidAttenuator.setpoint
+       ~FEESolidAttenuator.settle_time
+       ~FEESolidAttenuator.stop_signal
+       ~FEESolidAttenuator.stop_value
+       ~FEESolidAttenuator.timeout
+       ~FEESolidAttenuator.transmission
+    
+    

@@ -1,0 +1,6 @@
+pcdsdevices.lens.Prefocus.wait
+==============================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: Prefocus.wait

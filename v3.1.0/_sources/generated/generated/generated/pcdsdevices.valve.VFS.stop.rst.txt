@@ -1,0 +1,6 @@
+pcdsdevices.valve.VFS.stop
+==========================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VFS.stop

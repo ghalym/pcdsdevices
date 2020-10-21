@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Prefocus.get\_state
+=============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Prefocus.get_state

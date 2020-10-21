@@ -1,0 +1,154 @@
+pcdsdevices.slits.Slits
+=======================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. autoclass:: Slits
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  nominal_aperture
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.slits.LusiSlits`
+   
+       *  -  xwidth
+          -  :class:`~pcdsdevices.slits.LusiSlitPositioner`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.slits.LusiSlits`
+   
+       *  -  ywidth
+          -  :class:`~pcdsdevices.slits.LusiSlitPositioner`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.slits.LusiSlits`
+   
+       *  -  xcenter
+          -  :class:`~pcdsdevices.slits.LusiSlitPositioner`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.slits.LusiSlits`
+   
+       *  -  ycenter
+          -  :class:`~pcdsdevices.slits.LusiSlitPositioner`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.slits.LusiSlits`
+   
+       *  -  blocked
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:BLOCKED``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.slits.LusiSlits`
+   
+       *  -  open_cmd
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:OPEN``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.slits.LusiSlits`
+   
+       *  -  close_cmd
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:CLOSE``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.slits.LusiSlits`
+   
+       *  -  block_cmd
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:BLOCK``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.slits.LusiSlits`
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Slits.block
+       ~Slits.camonitor
+       ~Slits.close
+       ~Slits.configure
+       ~Slits.describe
+       ~Slits.end_monitor_thread
+       ~Slits.get
+       ~Slits.move
+       ~Slits.mv
+       ~Slits.open
+       ~Slits.read
+       ~Slits.read_configuration
+       ~Slits.remove
+       ~Slits.set
+       ~Slits.stop
+       ~Slits.summary
+       ~Slits.trigger
+       ~Slits.wait
+       ~Slits.wm
+       ~Slits.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Slits.configuration_attrs
+       ~Slits.connected
+       ~Slits.current_aperture
+       ~Slits.hints
+       ~Slits.kind
+       ~Slits.lightpath_cpts
+       ~Slits.position
+       ~Slits.transmission
+    
+    

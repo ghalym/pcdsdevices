@@ -1,0 +1,6 @@
+pcdsdevices.state.TwinCATStateConfigOne.trigger
+===============================================
+
+.. currentmodule:: pcdsdevices.state
+
+.. automethod:: TwinCATStateConfigOne.trigger

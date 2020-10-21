@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Acromag.trigger
+=========================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Acromag.trigger
